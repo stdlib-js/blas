@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dapxsumkbn = require( '@stdlib/blas/ext/base/dapxsumkbn' ).ndarray;
+var dapxsumkbn = require( './../../../../ext/base/dapxsumkbn' ).ndarray;
 
 
 // MAIN //

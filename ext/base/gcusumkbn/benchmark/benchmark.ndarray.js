@@ -24,7 +24,7 @@ var bench = require( '@stdlib/bench' );
 var randu = require( '@stdlib/random/base/randu' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
-var gfill = require( '@stdlib/blas/ext/base/gfill' );
+var gfill = require( './../../../../ext/base/gfill' );
 var pkg = require( './../package.json' ).name;
 var gcusumkbn = require( './../lib/ndarray.js' );
 

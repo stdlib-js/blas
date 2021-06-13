@@ -25,7 +25,7 @@ var Float64Array = require( '@stdlib/array/float64' );
 var Int16Array = require( '@stdlib/array/int16' );
 var array = require( '@stdlib/ndarray/array' );
 var ndarray = require( '@stdlib/ndarray/ctor' );
-var dcopy = require( '@stdlib/blas/base/dcopy' ).ndarray;
+var dcopy = require( './../../base/dcopy' ).ndarray;
 var dswap = require( './../lib' );
 
 

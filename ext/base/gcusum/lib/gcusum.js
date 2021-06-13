@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gcusumkbn = require( '@stdlib/blas/ext/base/gcusumkbn' );
+var gcusumkbn = require( './../../../../ext/base/gcusumkbn' );
 
 
 // MAIN //

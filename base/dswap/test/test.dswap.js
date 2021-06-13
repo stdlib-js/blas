@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var floor = require( '@stdlib/math/base/special/floor' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dcopy = require( '@stdlib/blas/base/dcopy' );
+var dcopy = require( './../../../base/dcopy' );
 var dswap = require( './../lib/dswap.js' );
 
 

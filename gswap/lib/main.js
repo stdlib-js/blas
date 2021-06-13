@@ -24,9 +24,9 @@ var isndarrayLike = require( '@stdlib/assert/is-ndarray-like' );
 var isCollection = require( '@stdlib/assert/is-collection' );
 var isFloat64Array = require( '@stdlib/assert/is-float64array' );
 var isFloat32Array = require( '@stdlib/assert/is-float32array' );
-var dswap = require( '@stdlib/blas/base/dswap' ).ndarray;
-var sswap = require( '@stdlib/blas/base/sswap' ).ndarray;
-var swap = require( '@stdlib/blas/base/gswap' ).ndarray;
+var dswap = require( './../../base/dswap' ).ndarray;
+var sswap = require( './../../base/sswap' ).ndarray;
+var swap = require( './../../base/gswap' ).ndarray;
 
 
 // MAIN //

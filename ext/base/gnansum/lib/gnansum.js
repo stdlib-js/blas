@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gnansumkbn = require( '@stdlib/blas/ext/base/gnansumkbn' );
+var gnansumkbn = require( './../../../../ext/base/gnansumkbn' );
 
 
 // MAIN //

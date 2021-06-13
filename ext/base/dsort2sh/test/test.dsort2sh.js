@@ -27,7 +27,7 @@ var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var isPositiveZero = require( '@stdlib/math/base/assert/is-positive-zero' );
 var isNegativeZero = require( '@stdlib/math/base/assert/is-negative-zero' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dcopy = require( '@stdlib/blas/base/dcopy' );
+var dcopy = require( './../../../../base/dcopy' );
 var num2str = require( './fixtures/num2str.js' );
 var dsort2sh = require( './../lib/dsort2sh.js' );
 

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dnanasumors = require( '@stdlib/blas/ext/base/dnanasumors' ).ndarray;
+var dnanasumors = require( './../../../../ext/base/dnanasumors' ).ndarray;
 
 
 // MAIN //

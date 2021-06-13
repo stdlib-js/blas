@@ -24,9 +24,9 @@ var isndarrayLike = require( '@stdlib/assert/is-ndarray-like' );
 var isCollection = require( '@stdlib/assert/is-collection' );
 var isFloat64Array = require( '@stdlib/assert/is-float64array' );
 var isFloat32Array = require( '@stdlib/assert/is-float32array' );
-var ddot = require( '@stdlib/blas/base/ddot' ).ndarray;
-var sdot = require( '@stdlib/blas/base/sdot' ).ndarray;
-var dot = require( '@stdlib/blas/base/gdot' ).ndarray;
+var ddot = require( './../../base/ddot' ).ndarray;
+var sdot = require( './../../base/sdot' ).ndarray;
+var dot = require( './../../base/gdot' ).ndarray;
 
 
 // MAIN //

@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dcusumkbn = require( '@stdlib/blas/ext/base/dcusumkbn' );
+var dcusumkbn = require( './../../../../ext/base/dcusumkbn' );
 
 
 // MAIN //

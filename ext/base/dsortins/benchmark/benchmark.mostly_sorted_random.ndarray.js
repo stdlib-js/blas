@@ -27,7 +27,7 @@ var pow = require( '@stdlib/math/base/special/pow' );
 var floor = require( '@stdlib/math/base/special/floor' );
 var sqrt = require( '@stdlib/math/base/special/sqrt' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dcopy = require( '@stdlib/blas/base/dcopy' );
+var dcopy = require( './../../../../base/dcopy' );
 var pkg = require( './../package.json' ).name;
 var dsortins = require( './../lib/ndarray.js' );
 

@@ -21,31 +21,31 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import ccopy = require( '@stdlib/blas/base/ccopy' );
-import cswap = require( '@stdlib/blas/base/cswap' );
-import dasum = require( '@stdlib/blas/base/dasum' );
-import daxpy = require( '@stdlib/blas/base/daxpy' );
-import dcopy = require( '@stdlib/blas/base/dcopy' );
-import ddot = require( '@stdlib/blas/base/ddot' );
-import dnrm2 = require( '@stdlib/blas/base/dnrm2' );
-import dscal = require( '@stdlib/blas/base/dscal' );
-import dsdot = require( '@stdlib/blas/base/dsdot' );
-import dswap = require( '@stdlib/blas/base/dswap' );
-import gasum = require( '@stdlib/blas/base/gasum' );
-import gaxpy = require( '@stdlib/blas/base/gaxpy' );
-import gcopy = require( '@stdlib/blas/base/gcopy' );
-import gdot = require( '@stdlib/blas/base/gdot' );
-import gnrm2 = require( '@stdlib/blas/base/gnrm2' );
-import gscal = require( '@stdlib/blas/base/gscal' );
-import gswap = require( '@stdlib/blas/base/gswap' );
-import sasum = require( '@stdlib/blas/base/sasum' );
-import saxpy = require( '@stdlib/blas/base/saxpy' );
-import scopy = require( '@stdlib/blas/base/scopy' );
-import sdot = require( '@stdlib/blas/base/sdot' );
-import sdsdot = require( '@stdlib/blas/base/sdsdot' );
-import snrm2 = require( '@stdlib/blas/base/snrm2' );
-import sscal = require( '@stdlib/blas/base/sscal' );
-import sswap = require( '@stdlib/blas/base/sswap' );
+import ccopy = require( './../../../base/ccopy' );
+import cswap = require( './../../../base/cswap' );
+import dasum = require( './../../../base/dasum' );
+import daxpy = require( './../../../base/daxpy' );
+import dcopy = require( './../../../base/dcopy' );
+import ddot = require( './../../../base/ddot' );
+import dnrm2 = require( './../../../base/dnrm2' );
+import dscal = require( './../../../base/dscal' );
+import dsdot = require( './../../../base/dsdot' );
+import dswap = require( './../../../base/dswap' );
+import gasum = require( './../../../base/gasum' );
+import gaxpy = require( './../../../base/gaxpy' );
+import gcopy = require( './../../../base/gcopy' );
+import gdot = require( './../../../base/gdot' );
+import gnrm2 = require( './../../../base/gnrm2' );
+import gscal = require( './../../../base/gscal' );
+import gswap = require( './../../../base/gswap' );
+import sasum = require( './../../../base/sasum' );
+import saxpy = require( './../../../base/saxpy' );
+import scopy = require( './../../../base/scopy' );
+import sdot = require( './../../../base/sdot' );
+import sdsdot = require( './../../../base/sdsdot' );
+import snrm2 = require( './../../../base/snrm2' );
+import sscal = require( './../../../base/sscal' );
+import sswap = require( './../../../base/sswap' );
 
 /**
 * Interface describing the `base` namespace.

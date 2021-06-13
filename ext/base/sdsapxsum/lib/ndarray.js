@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sdsapxsumpw = require( '@stdlib/blas/ext/base/sdsapxsumpw' ).ndarray;
+var sdsapxsumpw = require( './../../../../ext/base/sdsapxsumpw' ).ndarray;
 
 
 // MAIN //

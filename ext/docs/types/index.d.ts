@@ -21,7 +21,7 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import base = require( '@stdlib/blas/ext/base' );
+import base = require( './../../../ext/base' );
 
 /**
 * Interface describing the `ext` namespace.

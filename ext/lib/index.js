@@ -43,7 +43,7 @@ var ns = {};
 * @type {Namespace}
 * @see {@link module:@stdlib/blas/ext/base}
 */
-setReadOnly( ns, 'base', require( '@stdlib/blas/ext/base' ) );
+setReadOnly( ns, 'base', require( './../../ext/base' ) );
 
 
 // EXPORTS //

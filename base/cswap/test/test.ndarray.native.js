@@ -24,7 +24,7 @@ var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
-var scopy = require( '@stdlib/blas/base/scopy' );
+var scopy = require( './../../../base/scopy' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 
 

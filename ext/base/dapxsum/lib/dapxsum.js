@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dapxsumkbn = require( '@stdlib/blas/ext/base/dapxsumkbn' );
+var dapxsumkbn = require( './../../../../ext/base/dapxsumkbn' );
 
 
 // MAIN //

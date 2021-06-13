@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var gapxsumkbn = require( '@stdlib/blas/ext/base/gapxsumkbn' ).ndarray;
+var gapxsumkbn = require( './../../../../ext/base/gapxsumkbn' ).ndarray;
 
 
 // MAIN //

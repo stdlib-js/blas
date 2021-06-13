@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sdssumpw = require( '@stdlib/blas/ext/base/sdssumpw' );
+var sdssumpw = require( './../../../../ext/base/sdssumpw' );
 
 
 // MAIN //

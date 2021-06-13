@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sapxsumkbn = require( '@stdlib/blas/ext/base/sapxsumkbn' ).ndarray;
+var sapxsumkbn = require( './../../../../ext/base/sapxsumkbn' ).ndarray;
 
 
 // MAIN //

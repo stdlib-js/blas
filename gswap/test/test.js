@@ -27,7 +27,7 @@ var Int32Array = require( '@stdlib/array/int32' );
 var Int8Array = require( '@stdlib/array/int8' );
 var array = require( '@stdlib/ndarray/array' );
 var ndarray = require( '@stdlib/ndarray/ctor' );
-var gcopy = require( '@stdlib/blas/base/gcopy' ).ndarray;
+var gcopy = require( './../../base/gcopy' ).ndarray;
 var gswap = require( './../lib' );
 
 

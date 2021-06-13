@@ -21,14 +21,14 @@
 /* tslint:disable:max-line-length */
 /* tslint:disable:max-file-line-count */
 
-import base = require( '@stdlib/blas/base' );
-import ddot = require( '@stdlib/blas/ddot' );
-import dswap = require( '@stdlib/blas/dswap' );
-import ext = require( '@stdlib/blas/ext' );
-import gdot = require( '@stdlib/blas/gdot' );
-import gswap = require( '@stdlib/blas/gswap' );
-import sdot = require( '@stdlib/blas/sdot' );
-import sswap = require( '@stdlib/blas/sswap' );
+import base = require( './../../base' );
+import ddot = require( './../../ddot' );
+import dswap = require( './../../dswap' );
+import ext = require( './../../ext' );
+import gdot = require( './../../gdot' );
+import gswap = require( './../../gswap' );
+import sdot = require( './../../sdot' );
+import sswap = require( './../../sswap' );
 
 /**
 * Interface describing the `blas` namespace.

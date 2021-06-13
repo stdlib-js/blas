@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsnansumpw = require( '@stdlib/blas/ext/base/dsnansumpw' );
+var dsnansumpw = require( './../../../../ext/base/dsnansumpw' );
 
 
 // MAIN //

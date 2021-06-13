@@ -21,7 +21,7 @@
 // MODULES //
 
 var isFloat64VectorLike = require( '@stdlib/assert/is-float64vector-like' );
-var dot = require( '@stdlib/blas/base/ddot' ).ndarray;
+var dot = require( './../../base/ddot' ).ndarray;
 
 
 // MAIN //

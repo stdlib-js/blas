@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dsapxsumpw = require( '@stdlib/blas/ext/base/dsapxsumpw' );
+var dsapxsumpw = require( './../../../../ext/base/dsapxsumpw' );
 
 
 // MAIN //

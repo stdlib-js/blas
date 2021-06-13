@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var dnannsumkbn = require( '@stdlib/blas/ext/base/dnannsumkbn' ).ndarray;
+var dnannsumkbn = require( './../../../../ext/base/dnannsumkbn' ).ndarray;
 
 
 // MAIN //

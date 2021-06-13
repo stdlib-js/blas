@@ -25,7 +25,7 @@ var randu = require( '@stdlib/random/base/randu' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dcopy = require( '@stdlib/blas/base/dcopy' );
+var dcopy = require( './../../../../base/dcopy' );
 var pkg = require( './../package.json' ).name;
 var dsorthp = require( './../lib/dsorthp.js' );
 

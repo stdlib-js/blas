@@ -26,7 +26,7 @@ var randu = require( '@stdlib/random/base/randu' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scopy = require( '@stdlib/blas/base/scopy' );
+var scopy = require( './../../../../base/scopy' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
 

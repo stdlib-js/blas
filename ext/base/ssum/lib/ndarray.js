@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var ssumkbn = require( '@stdlib/blas/ext/base/ssumkbn' ).ndarray;
+var ssumkbn = require( './../../../../ext/base/ssumkbn' ).ndarray;
 
 
 // MAIN //

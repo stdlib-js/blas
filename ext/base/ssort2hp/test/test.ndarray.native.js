@@ -28,7 +28,7 @@ var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var isPositiveZerof = require( '@stdlib/math/base/assert/is-positive-zerof' );
 var isNegativeZerof = require( '@stdlib/math/base/assert/is-negative-zerof' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scopy = require( '@stdlib/blas/base/scopy' );
+var scopy = require( './../../../../base/scopy' );
 var tryRequire = require( '@stdlib/utils/try-require' );
 var num2str = require( './fixtures/num2str.js' );
 

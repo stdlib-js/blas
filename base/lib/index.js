@@ -43,7 +43,7 @@ var blas = {};
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/ccopy}
 */
-setReadOnly( blas, 'ccopy', require( '@stdlib/blas/base/ccopy' ) );
+setReadOnly( blas, 'ccopy', require( './../../base/ccopy' ) );
 
 /**
 * @name cswap
@@ -52,7 +52,7 @@ setReadOnly( blas, 'ccopy', require( '@stdlib/blas/base/ccopy' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/cswap}
 */
-setReadOnly( blas, 'cswap', require( '@stdlib/blas/base/cswap' ) );
+setReadOnly( blas, 'cswap', require( './../../base/cswap' ) );
 
 /**
 * @name dasum
@@ -61,7 +61,7 @@ setReadOnly( blas, 'cswap', require( '@stdlib/blas/base/cswap' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/dasum}
 */
-setReadOnly( blas, 'dasum', require( '@stdlib/blas/base/dasum' ) );
+setReadOnly( blas, 'dasum', require( './../../base/dasum' ) );
 
 /**
 * @name daxpy
@@ -70,7 +70,7 @@ setReadOnly( blas, 'dasum', require( '@stdlib/blas/base/dasum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/daxpy}
 */
-setReadOnly( blas, 'daxpy', require( '@stdlib/blas/base/daxpy' ) );
+setReadOnly( blas, 'daxpy', require( './../../base/daxpy' ) );
 
 /**
 * @name dcopy
@@ -79,7 +79,7 @@ setReadOnly( blas, 'daxpy', require( '@stdlib/blas/base/daxpy' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/dcopy}
 */
-setReadOnly( blas, 'dcopy', require( '@stdlib/blas/base/dcopy' ) );
+setReadOnly( blas, 'dcopy', require( './../../base/dcopy' ) );
 
 /**
 * @name ddot
@@ -88,7 +88,7 @@ setReadOnly( blas, 'dcopy', require( '@stdlib/blas/base/dcopy' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/ddot}
 */
-setReadOnly( blas, 'ddot', require( '@stdlib/blas/base/ddot' ) );
+setReadOnly( blas, 'ddot', require( './../../base/ddot' ) );
 
 /**
 * @name dnrm2
@@ -97,7 +97,7 @@ setReadOnly( blas, 'ddot', require( '@stdlib/blas/base/ddot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/dnrm2}
 */
-setReadOnly( blas, 'dnrm2', require( '@stdlib/blas/base/dnrm2' ) );
+setReadOnly( blas, 'dnrm2', require( './../../base/dnrm2' ) );
 
 /**
 * @name dscal
@@ -106,7 +106,7 @@ setReadOnly( blas, 'dnrm2', require( '@stdlib/blas/base/dnrm2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/dscal}
 */
-setReadOnly( blas, 'dscal', require( '@stdlib/blas/base/dscal' ) );
+setReadOnly( blas, 'dscal', require( './../../base/dscal' ) );
 
 /**
 * @name dsdot
@@ -115,7 +115,7 @@ setReadOnly( blas, 'dscal', require( '@stdlib/blas/base/dscal' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/dsdot}
 */
-setReadOnly( blas, 'dsdot', require( '@stdlib/blas/base/dsdot' ) );
+setReadOnly( blas, 'dsdot', require( './../../base/dsdot' ) );
 
 /**
 * @name dswap
@@ -124,7 +124,7 @@ setReadOnly( blas, 'dsdot', require( '@stdlib/blas/base/dsdot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/dswap}
 */
-setReadOnly( blas, 'dswap', require( '@stdlib/blas/base/dswap' ) );
+setReadOnly( blas, 'dswap', require( './../../base/dswap' ) );
 
 /**
 * @name gasum
@@ -133,7 +133,7 @@ setReadOnly( blas, 'dswap', require( '@stdlib/blas/base/dswap' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/gasum}
 */
-setReadOnly( blas, 'gasum', require( '@stdlib/blas/base/gasum' ) );
+setReadOnly( blas, 'gasum', require( './../../base/gasum' ) );
 
 /**
 * @name gaxpy
@@ -142,7 +142,7 @@ setReadOnly( blas, 'gasum', require( '@stdlib/blas/base/gasum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/gaxpy}
 */
-setReadOnly( blas, 'gaxpy', require( '@stdlib/blas/base/gaxpy' ) );
+setReadOnly( blas, 'gaxpy', require( './../../base/gaxpy' ) );
 
 /**
 * @name gcopy
@@ -151,7 +151,7 @@ setReadOnly( blas, 'gaxpy', require( '@stdlib/blas/base/gaxpy' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/gcopy}
 */
-setReadOnly( blas, 'gcopy', require( '@stdlib/blas/base/gcopy' ) );
+setReadOnly( blas, 'gcopy', require( './../../base/gcopy' ) );
 
 /**
 * @name gdot
@@ -160,7 +160,7 @@ setReadOnly( blas, 'gcopy', require( '@stdlib/blas/base/gcopy' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/gdot}
 */
-setReadOnly( blas, 'gdot', require( '@stdlib/blas/base/gdot' ) );
+setReadOnly( blas, 'gdot', require( './../../base/gdot' ) );
 
 /**
 * @name gnrm2
@@ -169,7 +169,7 @@ setReadOnly( blas, 'gdot', require( '@stdlib/blas/base/gdot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/gnrm2}
 */
-setReadOnly( blas, 'gnrm2', require( '@stdlib/blas/base/gnrm2' ) );
+setReadOnly( blas, 'gnrm2', require( './../../base/gnrm2' ) );
 
 /**
 * @name gscal
@@ -178,7 +178,7 @@ setReadOnly( blas, 'gnrm2', require( '@stdlib/blas/base/gnrm2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/gscal}
 */
-setReadOnly( blas, 'gscal', require( '@stdlib/blas/base/gscal' ) );
+setReadOnly( blas, 'gscal', require( './../../base/gscal' ) );
 
 /**
 * @name gswap
@@ -187,7 +187,7 @@ setReadOnly( blas, 'gscal', require( '@stdlib/blas/base/gscal' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/gswap}
 */
-setReadOnly( blas, 'gswap', require( '@stdlib/blas/base/gswap' ) );
+setReadOnly( blas, 'gswap', require( './../../base/gswap' ) );
 
 /**
 * @name sasum
@@ -196,7 +196,7 @@ setReadOnly( blas, 'gswap', require( '@stdlib/blas/base/gswap' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/sasum}
 */
-setReadOnly( blas, 'sasum', require( '@stdlib/blas/base/sasum' ) );
+setReadOnly( blas, 'sasum', require( './../../base/sasum' ) );
 
 /**
 * @name saxpy
@@ -205,7 +205,7 @@ setReadOnly( blas, 'sasum', require( '@stdlib/blas/base/sasum' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/saxpy}
 */
-setReadOnly( blas, 'saxpy', require( '@stdlib/blas/base/saxpy' ) );
+setReadOnly( blas, 'saxpy', require( './../../base/saxpy' ) );
 
 /**
 * @name scopy
@@ -214,7 +214,7 @@ setReadOnly( blas, 'saxpy', require( '@stdlib/blas/base/saxpy' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/scopy}
 */
-setReadOnly( blas, 'scopy', require( '@stdlib/blas/base/scopy' ) );
+setReadOnly( blas, 'scopy', require( './../../base/scopy' ) );
 
 /**
 * @name sdot
@@ -223,7 +223,7 @@ setReadOnly( blas, 'scopy', require( '@stdlib/blas/base/scopy' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/sdot}
 */
-setReadOnly( blas, 'sdot', require( '@stdlib/blas/base/sdot' ) );
+setReadOnly( blas, 'sdot', require( './../../base/sdot' ) );
 
 /**
 * @name sdsdot
@@ -232,7 +232,7 @@ setReadOnly( blas, 'sdot', require( '@stdlib/blas/base/sdot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/sdsdot}
 */
-setReadOnly( blas, 'sdsdot', require( '@stdlib/blas/base/sdsdot' ) );
+setReadOnly( blas, 'sdsdot', require( './../../base/sdsdot' ) );
 
 /**
 * @name snrm2
@@ -241,7 +241,7 @@ setReadOnly( blas, 'sdsdot', require( '@stdlib/blas/base/sdsdot' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/snrm2}
 */
-setReadOnly( blas, 'snrm2', require( '@stdlib/blas/base/snrm2' ) );
+setReadOnly( blas, 'snrm2', require( './../../base/snrm2' ) );
 
 /**
 * @name sscal
@@ -250,7 +250,7 @@ setReadOnly( blas, 'snrm2', require( '@stdlib/blas/base/snrm2' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/sscal}
 */
-setReadOnly( blas, 'sscal', require( '@stdlib/blas/base/sscal' ) );
+setReadOnly( blas, 'sscal', require( './../../base/sscal' ) );
 
 /**
 * @name sswap
@@ -259,7 +259,7 @@ setReadOnly( blas, 'sscal', require( '@stdlib/blas/base/sscal' ) );
 * @type {Function}
 * @see {@link module:@stdlib/blas/base/sswap}
 */
-setReadOnly( blas, 'sswap', require( '@stdlib/blas/base/sswap' ) );
+setReadOnly( blas, 'sswap', require( './../../base/sswap' ) );
 
 
 // EXPORTS //

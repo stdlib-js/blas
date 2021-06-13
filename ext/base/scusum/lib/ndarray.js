@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var scusumkbn = require( '@stdlib/blas/ext/base/scusumkbn' ).ndarray;
+var scusumkbn = require( './../../../../ext/base/scusumkbn' ).ndarray;
 
 
 // MAIN //

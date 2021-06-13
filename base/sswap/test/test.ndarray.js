@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scopy = require( '@stdlib/blas/base/scopy' ).ndarray;
+var scopy = require( './../../../base/scopy' ).ndarray;
 var sswap = require( './../lib/ndarray.js' );
 
 

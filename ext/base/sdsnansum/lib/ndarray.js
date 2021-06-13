@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var sdsnansumpw = require( '@stdlib/blas/ext/base/sdsnansumpw' ).ndarray;
+var sdsnansumpw = require( './../../../../ext/base/sdsnansumpw' ).ndarray;
 
 
 // MAIN //

@@ -21,7 +21,7 @@
 // MODULES //
 
 var isFloat32VectorLike = require( '@stdlib/assert/is-float32vector-like' );
-var swap = require( '@stdlib/blas/base/sswap' ).ndarray;
+var swap = require( './../../base/sswap' ).ndarray;
 
 
 // MAIN //
