@@ -15,6 +15,7 @@
   ],
   "main": "./lib",
   "directories": {
+    "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
     "test": "./test"
@@ -35,17 +36,17 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array": "^0.0.x",
-    "@stdlib/assert": "^0.0.x",
-    "@stdlib/math": "^0.0.x",
-    "@stdlib/number": "^0.0.x",
-    "@stdlib/types": "^0.0.x",
-    "@stdlib/utils": "^0.0.x"
+    "@stdlib/array": "github:stdlib-js/array",
+    "@stdlib/assert": "github:stdlib-js/assert",
+    "@stdlib/math": "github:stdlib-js/math",
+    "@stdlib/number": "github:stdlib-js/number",
+    "@stdlib/types": "github:stdlib-js/types",
+    "@stdlib/utils": "github:stdlib-js/utils"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.x",
-    "@stdlib/ndarray": "^0.0.x",
-    "@stdlib/random": "^0.0.x",
+    "@stdlib/bench": "github:stdlib-js/bench",
+    "@stdlib/ndarray": "github:stdlib-js/ndarray",
+    "@stdlib/random": "github:stdlib-js/random",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
