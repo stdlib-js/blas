@@ -136,7 +136,7 @@ console.log( z );
 
 [@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas/tree/main/base/sdot
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
 
 </section>
 
