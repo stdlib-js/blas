@@ -114,7 +114,7 @@ console.log( y );
 
 [@stdlib/blas/base/gswap]: https://github.com/stdlib-js/blas/tree/main/base/gswap
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
 
 </section>
 

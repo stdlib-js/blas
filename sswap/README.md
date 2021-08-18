@@ -116,7 +116,7 @@ console.log( y.data );
 
 [@stdlib/blas/base/sswap]: https://github.com/stdlib-js/blas/tree/main/base/sswap
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
 
 </section>
 

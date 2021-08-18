@@ -171,7 +171,7 @@ console.log( x );
 
 [dscal]: http://www.netlib.org/lapack/explore-html/de/da4/group__double__blas__level1.html
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
