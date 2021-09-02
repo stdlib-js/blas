@@ -51,6 +51,12 @@ var o = blas;
 // returns {...}
 ```
 
+The namespace contains the following:
+
+<!-- <toc pattern="*"> -->
+
+<!-- </toc> -->
+
 </section>
 
 <!-- /.usage -->
