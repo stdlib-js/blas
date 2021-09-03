@@ -55,6 +55,19 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`base`][@stdlib/blas/base]</span><span class="delimiter">: </span><span class="description">standard library base reference basic linear algebra subprograms (BLAS).</span>
+-   <span class="signature">[`ddot( x, y )`][@stdlib/blas/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two double-precision floating-point vectors.</span>
+-   <span class="signature">[`dswap( x, y )`][@stdlib/blas/dswap]</span><span class="delimiter">: </span><span class="description">interchange two double-precision floating-point vectors.</span>
+-   <span class="signature">[`ext`][@stdlib/blas/ext]</span><span class="delimiter">: </span><span class="description">standard library extended basic linear algebra subprograms (BLAS).</span>
+-   <span class="signature">[`gdot( x, y )`][@stdlib/blas/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two vectors.</span>
+-   <span class="signature">[`gswap( x, y )`][@stdlib/blas/gswap]</span><span class="delimiter">: </span><span class="description">interchange two vectors.</span>
+-   <span class="signature">[`sdot( x, y )`][@stdlib/blas/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two single-precision floating-point vectors.</span>
+-   <span class="signature">[`sswap( x, y )`][@stdlib/blas/sswap]</span><span class="delimiter">: </span><span class="description">interchange two single-precision floating-point vectors.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -134,6 +147,26 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/blas/main/LICENSE
+
+<!-- <toc-links> -->
+
+[@stdlib/blas/base]: https://github.com/stdlib-js/blas/tree/main/base
+
+[@stdlib/blas/ddot]: https://github.com/stdlib-js/blas/tree/main/ddot
+
+[@stdlib/blas/dswap]: https://github.com/stdlib-js/blas/tree/main/dswap
+
+[@stdlib/blas/ext]: https://github.com/stdlib-js/blas/tree/main/ext
+
+[@stdlib/blas/gdot]: https://github.com/stdlib-js/blas/tree/main/gdot
+
+[@stdlib/blas/gswap]: https://github.com/stdlib-js/blas/tree/main/gswap
+
+[@stdlib/blas/sdot]: https://github.com/stdlib-js/blas/tree/main/sdot
+
+[@stdlib/blas/sswap]: https://github.com/stdlib-js/blas/tree/main/sswap
+
+<!-- </toc-links> -->
 
 </section>
 
