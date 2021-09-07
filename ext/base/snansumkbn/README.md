@@ -176,6 +176,28 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dnansumkbn`][@stdlib/blas/ext/base/dnansumkbn]: calculate the sum of double-precision floating-point strided array elements, ignoring NaN values and using an improved Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/gnansumkbn`][@stdlib/blas/ext/base/gnansumkbn]: calculate the sum of strided array elements, ignoring NaN values and using an improved Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/snansum`][@stdlib/blas/ext/base/snansum]: calculate the sum of single-precision floating-point strided array elements, ignoring NaN values.
+-   [`@stdlib/blas/ext/base/snansumkbn2`][@stdlib/blas/ext/base/snansumkbn2]: calculate the sum of single-precision floating-point strided array elements, ignoring NaN values and using a second-order iterative Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/snansumors`][@stdlib/blas/ext/base/snansumors]: calculate the sum of single-precision floating-point strided array elements, ignoring NaN values and using ordinary recursive summation.
+-   [`@stdlib/blas/ext/base/snansumpw`][@stdlib/blas/ext/base/snansumpw]: calculate the sum of single-precision floating-point strided array elements, ignoring NaN values and using pairwise summation.
+-   [`@stdlib/blas/ext/base/ssumkbn`][@stdlib/blas/ext/base/ssumkbn]: calculate the sum of single-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
@@ -183,6 +205,24 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@neumaier:1974a]: https://doi.org/10.1002/zamm.19740540106
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dnansumkbn]: https://github.com/stdlib-js/blas/tree/main/ext/base/dnansumkbn
+
+[@stdlib/blas/ext/base/gnansumkbn]: https://github.com/stdlib-js/blas/tree/main/ext/base/gnansumkbn
+
+[@stdlib/blas/ext/base/snansum]: https://github.com/stdlib-js/blas/tree/main/ext/base/snansum
+
+[@stdlib/blas/ext/base/snansumkbn2]: https://github.com/stdlib-js/blas/tree/main/ext/base/snansumkbn2
+
+[@stdlib/blas/ext/base/snansumors]: https://github.com/stdlib-js/blas/tree/main/ext/base/snansumors
+
+[@stdlib/blas/ext/base/snansumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/snansumpw
+
+[@stdlib/blas/ext/base/ssumkbn]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssumkbn
+
+<!-- </related-links> -->
 
 </section>
 

@@ -164,6 +164,24 @@ console.log( x );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/dscal`][@stdlib/blas/base/dscal]: multiply a double-precision floating-point vector by a constant.
+-   [`@stdlib/blas/base/gaxpy`][@stdlib/blas/base/gaxpy]: multiply x by a constant and add the result to y.
+-   [`@stdlib/blas/base/sscal`][@stdlib/blas/base/sscal]: multiply a single-precision floating-point vector by a constant.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [blas]: http://www.netlib.org/blas
@@ -174,9 +192,15 @@ console.log( x );
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+<!-- <related-links> -->
+
 [@stdlib/blas/base/dscal]: https://github.com/stdlib-js/blas/tree/main/base/dscal
 
+[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas/tree/main/base/gaxpy
+
 [@stdlib/blas/base/sscal]: https://github.com/stdlib-js/blas/tree/main/base/sscal
+
+<!-- </related-links> -->
 
 </section>
 

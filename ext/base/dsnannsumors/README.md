@@ -180,6 +180,24 @@ console.log( out );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dnannsumors`][@stdlib/blas/ext/base/dnannsumors]: calculate the sum of double-precision floating-point strided array elements, ignoring NaN values and using ordinary recursive summation.
+-   [`@stdlib/blas/ext/base/dsnansumors`][@stdlib/blas/ext/base/dsnansumors]: calculate the sum of single-precision floating-point strided array elements, ignoring NaN values, using ordinary recursive summation with extended accumulation, and returning an extended precision result.
+-   [`@stdlib/blas/ext/base/dssumors`][@stdlib/blas/ext/base/dssumors]: calculate the sum of single-precision floating-point strided array elements using ordinary recursive summation with extended accumulation and returning an extended precision result.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
@@ -187,6 +205,16 @@ console.log( out );
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dnannsumors]: https://github.com/stdlib-js/blas/tree/main/ext/base/dnannsumors
+
+[@stdlib/blas/ext/base/dsnansumors]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsnansumors
+
+[@stdlib/blas/ext/base/dssumors]: https://github.com/stdlib-js/blas/tree/main/ext/base/dssumors
+
+<!-- </related-links> -->
 
 </section>
 

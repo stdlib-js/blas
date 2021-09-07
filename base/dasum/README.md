@@ -183,6 +183,25 @@ console.log( dasum( x.length, x, 1 ) );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/daxpy`][@stdlib/blas/base/daxpy]: multiply a vector x by a constant and add the result to y.
+-   [`@stdlib/blas/base/gasum`][@stdlib/blas/base/gasum]: compute the sum of absolute values (L1 norm).
+-   [`@stdlib/blas/base/sasum`][@stdlib/blas/base/sasum]: compute the sum of absolute values (L1 norm).
+-   [`@stdlib/blas/ext/base/dsum`][@stdlib/blas/ext/base/dsum]: calculate the sum of double-precision floating-point strided array elements.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [blas]: http://www.netlib.org/blas
@@ -196,6 +215,18 @@ console.log( dasum( x.length, x, 1 ) );
 [l1norm]: http://en.wikipedia.org/wiki/Norm_%28mathematics%29
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/daxpy]: https://github.com/stdlib-js/blas/tree/main/base/daxpy
+
+[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas/tree/main/base/gasum
+
+[@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas/tree/main/base/sasum
+
+[@stdlib/blas/ext/base/dsum]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsum
+
+<!-- </related-links> -->
 
 </section>
 

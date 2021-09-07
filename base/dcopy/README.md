@@ -173,6 +173,24 @@ console.log( y );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/dswap`][@stdlib/blas/base/dswap]: interchange two double-precision floating-point vectors.
+-   [`@stdlib/blas/base/gcopy`][@stdlib/blas/base/gcopy]: copy values from x into y.
+-   [`@stdlib/blas/base/scopy`][@stdlib/blas/base/scopy]: copy values from x into y.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [blas]: http://www.netlib.org/blas
@@ -182,6 +200,16 @@ console.log( y );
 [mdn-float64array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas/tree/main/base/dswap
+
+[@stdlib/blas/base/gcopy]: https://github.com/stdlib-js/blas/tree/main/base/gcopy
+
+[@stdlib/blas/base/scopy]: https://github.com/stdlib-js/blas/tree/main/base/scopy
+
+<!-- </related-links> -->
 
 </section>
 

@@ -176,6 +176,24 @@ console.log( y );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/dasum`][@stdlib/blas/base/dasum]: compute the sum of absolute values (L1 norm).
+-   [`@stdlib/blas/base/gaxpy`][@stdlib/blas/base/gaxpy]: multiply x by a constant and add the result to y.
+-   [`@stdlib/blas/base/saxpy`][@stdlib/blas/base/saxpy]: multiply a vector x by a constant and add the result to y.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [blas]: http://www.netlib.org/blas
@@ -185,6 +203,16 @@ console.log( y );
 [mdn-float64array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas/tree/main/base/dasum
+
+[@stdlib/blas/base/gaxpy]: https://github.com/stdlib-js/blas/tree/main/base/gaxpy
+
+[@stdlib/blas/base/saxpy]: https://github.com/stdlib-js/blas/tree/main/base/saxpy
+
+<!-- </related-links> -->
 
 </section>
 

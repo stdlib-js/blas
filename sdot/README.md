@@ -128,15 +128,41 @@ console.log( z );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/sdot`][@stdlib/blas/base/sdot]: calculate the dot product of two single-precision floating-point vectors.
+-   [`@stdlib/blas/ddot`][@stdlib/blas/ddot]: calculate the dot product of two double-precision floating-point vectors.
+-   [`@stdlib/blas/gdot`][@stdlib/blas/gdot]: calculate the dot product of two vectors.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [dot-product]: https://en.wikipedia.org/wiki/Dot_product
 
 [blas]: http://www.netlib.org/blas
 
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+
+<!-- <related-links> -->
+
 [@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas/tree/main/base/sdot
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+[@stdlib/blas/ddot]: https://github.com/stdlib-js/blas/tree/main/ddot
+
+[@stdlib/blas/gdot]: https://github.com/stdlib-js/blas/tree/main/gdot
+
+<!-- </related-links> -->
 
 </section>
 

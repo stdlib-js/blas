@@ -161,11 +161,36 @@ console.log( x );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/gapx`][@stdlib/blas/ext/base/gapx]: add a constant to each element in a strided array.
+-   [`@stdlib/blas/ext/base/sapx`][@stdlib/blas/ext/base/sapx]: add a constant to each element in a single-precision floating-point strided array.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/gapx]: https://github.com/stdlib-js/blas/tree/main/ext/base/gapx
+
+[@stdlib/blas/ext/base/sapx]: https://github.com/stdlib-js/blas/tree/main/ext/base/sapx
+
+<!-- </related-links> -->
 
 </section>
 

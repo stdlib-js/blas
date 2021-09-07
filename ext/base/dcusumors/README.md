@@ -189,11 +189,39 @@ console.log( y );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dcusum`][@stdlib/blas/ext/base/dcusum]: calculate the cumulative sum of double-precision floating-point strided array elements.
+-   [`@stdlib/blas/ext/base/gcusumors`][@stdlib/blas/ext/base/gcusumors]: calculate the cumulative sum of strided array elements using ordinary recursive summation.
+-   [`@stdlib/blas/ext/base/scusumors`][@stdlib/blas/ext/base/scusumors]: calculate the cumulative sum of single-precision floating-point strided array elements using ordinary recursive summation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dcusum]: https://github.com/stdlib-js/blas/tree/main/ext/base/dcusum
+
+[@stdlib/blas/ext/base/gcusumors]: https://github.com/stdlib-js/blas/tree/main/ext/base/gcusumors
+
+[@stdlib/blas/ext/base/scusumors]: https://github.com/stdlib-js/blas/tree/main/ext/base/scusumors
+
+<!-- </related-links> -->
 
 </section>
 

@@ -173,6 +173,27 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dssumpw`][@stdlib/blas/ext/base/dssumpw]: calculate the sum of single-precision floating-point strided array elements using pairwise summation with extended accumulation and returning an extended precision result.
+-   [`@stdlib/blas/ext/base/dsumpw`][@stdlib/blas/ext/base/dsumpw]: calculate the sum of double-precision floating-point strided array elements using pairwise summation.
+-   [`@stdlib/blas/ext/base/sdsnansumpw`][@stdlib/blas/ext/base/sdsnansumpw]: calculate the sum of single-precision floating-point strided array elements, ignoring NaN values and using pairwise summation with extended accumulation.
+-   [`@stdlib/blas/ext/base/sdssum`][@stdlib/blas/ext/base/sdssum]: calculate the sum of single-precision floating-point strided array elements using extended accumulation.
+-   [`@stdlib/blas/ext/base/ssumpw`][@stdlib/blas/ext/base/ssumpw]: calculate the sum of single-precision floating-point strided array elements using pairwise summation.
+-   [`@stdlib/blas/ext/base/gsumpw`][@stdlib/blas/ext/base/gsumpw]: calculate the sum of strided array elements using pairwise summation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
@@ -180,6 +201,22 @@ console.log( v );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@higham:1993a]: https://doi.org/10.1137/0914050
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dssumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/dssumpw
+
+[@stdlib/blas/ext/base/dsumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsumpw
+
+[@stdlib/blas/ext/base/sdsnansumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/sdsnansumpw
+
+[@stdlib/blas/ext/base/sdssum]: https://github.com/stdlib-js/blas/tree/main/ext/base/sdssum
+
+[@stdlib/blas/ext/base/ssumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssumpw
+
+[@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsumpw
+
+<!-- </related-links> -->
 
 </section>
 

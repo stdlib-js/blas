@@ -200,6 +200,24 @@ console.log( z );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/ddot`][@stdlib/blas/base/ddot]: calculate the dot product of two double-precision floating-point vectors.
+-   [`@stdlib/blas/base/sdot`][@stdlib/blas/base/sdot]: calculate the dot product of two single-precision floating-point vectors.
+-   [`@stdlib/blas/base/sdsdot`][@stdlib/blas/base/sdsdot]: calculate the dot product of two single-precision floating-point vectors with extended accumulation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [dot-product]: https://en.wikipedia.org/wiki/Dot_product
@@ -213,6 +231,16 @@ console.log( z );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@lawson:1979a]: https://doi.org/10.1145/355841.355848
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas/tree/main/base/ddot
+
+[@stdlib/blas/base/sdot]: https://github.com/stdlib-js/blas/tree/main/base/sdot
+
+[@stdlib/blas/base/sdsdot]: https://github.com/stdlib-js/blas/tree/main/base/sdsdot
+
+<!-- </related-links> -->
 
 </section>
 

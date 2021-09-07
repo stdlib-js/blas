@@ -167,6 +167,28 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dsumkbn`][@stdlib/blas/ext/base/dsumkbn]: calculate the sum of double-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/gnansumkbn`][@stdlib/blas/ext/base/gnansumkbn]: calculate the sum of strided array elements, ignoring NaN values and using an improved Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/gsum`][@stdlib/blas/ext/base/gsum]: calculate the sum of strided array elements.
+-   [`@stdlib/blas/ext/base/gsumkbn2`][@stdlib/blas/ext/base/gsumkbn2]: calculate the sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/gsumors`][@stdlib/blas/ext/base/gsumors]: calculate the sum of strided array elements using ordinary recursive summation.
+-   [`@stdlib/blas/ext/base/gsumpw`][@stdlib/blas/ext/base/gsumpw]: calculate the sum of strided array elements using pairwise summation.
+-   [`@stdlib/blas/ext/base/ssumkbn`][@stdlib/blas/ext/base/ssumkbn]: calculate the sum of single-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
@@ -178,6 +200,24 @@ console.log( v );
 [@stdlib/blas/ext/base/ssum]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssum
 
 [@neumaier:1974a]: https://doi.org/10.1002/zamm.19740540106
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dsumkbn]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsumkbn
+
+[@stdlib/blas/ext/base/gnansumkbn]: https://github.com/stdlib-js/blas/tree/main/ext/base/gnansumkbn
+
+[@stdlib/blas/ext/base/gsum]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsum
+
+[@stdlib/blas/ext/base/gsumkbn2]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsumkbn2
+
+[@stdlib/blas/ext/base/gsumors]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsumors
+
+[@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsumpw
+
+[@stdlib/blas/ext/base/ssumkbn]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssumkbn
+
+<!-- </related-links> -->
 
 </section>
 

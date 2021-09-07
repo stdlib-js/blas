@@ -269,6 +269,22 @@ console.log( y.get( y.length-1 ).toString() );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/ccopy`][@stdlib/blas/base/ccopy]: copy values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [blas]: http://www.netlib.org/blas
@@ -278,6 +294,12 @@ console.log( y.get( y.length-1 ).toString() );
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 [@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/ccopy]: https://github.com/stdlib-js/blas/tree/main/base/ccopy
+
+<!-- </related-links> -->
 
 </section>
 

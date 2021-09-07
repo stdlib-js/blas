@@ -167,17 +167,44 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dapxsumkbn2`][@stdlib/blas/ext/base/dapxsumkbn2]: adds a constant to each double-precision floating-point strided array element and computes the sum using a second-order iterative Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/gapxsum`][@stdlib/blas/ext/base/gapxsum]: adds a constant to each strided array element and computes the sum.
+-   [`@stdlib/blas/ext/base/gsumkbn2`][@stdlib/blas/ext/base/gsumkbn2]: calculate the sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.
+-   [`@stdlib/blas/ext/base/sapxsumkbn2`][@stdlib/blas/ext/base/sapxsumkbn2]: adds a constant to each single-precision floating-point strided array element and computes the sum using a second-order iterative Kahan–Babuška algorithm.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
+
+<!-- <related-links> -->
+
 [@stdlib/blas/ext/base/dapxsumkbn2]: https://github.com/stdlib-js/blas/tree/main/ext/base/dapxsumkbn2
+
+[@stdlib/blas/ext/base/gapxsum]: https://github.com/stdlib-js/blas/tree/main/ext/base/gapxsum
+
+[@stdlib/blas/ext/base/gsumkbn2]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsumkbn2
 
 [@stdlib/blas/ext/base/sapxsumkbn2]: https://github.com/stdlib-js/blas/tree/main/ext/base/sapxsumkbn2
 
-[@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
+<!-- </related-links> -->
 
 </section>
 

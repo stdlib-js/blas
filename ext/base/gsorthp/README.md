@@ -173,19 +173,43 @@ console.log( x );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dsorthp`][@stdlib/blas/ext/base/dsorthp]: sort a double-precision floating-point strided array using heapsort.
+-   [`@stdlib/blas/ext/base/gsort2hp`][@stdlib/blas/ext/base/gsort2hp]: simultaneously sort two strided arrays based on the sort order of the first array using heapsort.
+-   [`@stdlib/blas/ext/base/ssorthp`][@stdlib/blas/ext/base/ssorthp]: sort a single-precision floating-point strided array using heapsort.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/blas/ext/base/dsorthp]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsorthp
-
-[@stdlib/blas/ext/base/ssorthp]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssorthp
-
 [@williams:1964a]: https://doi.org/10.1145/512274.512284
 
 [@floyd:1964a]: https://doi.org/10.1145/355588.365103
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dsorthp]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsorthp
+
+[@stdlib/blas/ext/base/gsort2hp]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsort2hp
+
+[@stdlib/blas/ext/base/ssorthp]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssorthp
+
+<!-- </related-links> -->
 
 </section>
 

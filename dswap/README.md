@@ -110,13 +110,39 @@ console.log( y.data );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/dswap`][@stdlib/blas/base/dswap]: interchange two double-precision floating-point vectors.
+-   [`@stdlib/blas/gswap`][@stdlib/blas/gswap]: interchange two vectors.
+-   [`@stdlib/blas/sswap`][@stdlib/blas/sswap]: interchange two single-precision floating-point vectors.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [blas]: http://www.netlib.org/blas
 
+[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+
+<!-- <related-links> -->
+
 [@stdlib/blas/base/dswap]: https://github.com/stdlib-js/blas/tree/main/base/dswap
 
-[@stdlib/ndarray/array]: https://github.com/stdlib-js/ndarray-array
+[@stdlib/blas/gswap]: https://github.com/stdlib-js/blas/tree/main/gswap
+
+[@stdlib/blas/sswap]: https://github.com/stdlib-js/blas/tree/main/sswap
+
+<!-- </related-links> -->
 
 </section>
 

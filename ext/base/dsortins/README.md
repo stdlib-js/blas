@@ -167,11 +167,39 @@ console.log( x );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dsort2ins`][@stdlib/blas/ext/base/dsort2ins]: simultaneously sort two double-precision floating-point strided arrays based on the sort order of the first array using insertion sort.
+-   [`@stdlib/blas/ext/base/gsortins`][@stdlib/blas/ext/base/gsortins]: sort a strided array using insertion sort.
+-   [`@stdlib/blas/ext/base/ssortins`][@stdlib/blas/ext/base/ssortins]: sort a single-precision floating-point strided array using insertion sort.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dsort2ins]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsort2ins
+
+[@stdlib/blas/ext/base/gsortins]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsortins
+
+[@stdlib/blas/ext/base/ssortins]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssortins
+
+<!-- </related-links> -->
 
 </section>
 

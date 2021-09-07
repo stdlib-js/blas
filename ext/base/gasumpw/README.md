@@ -177,19 +177,46 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/gasum`][@stdlib/blas/base/gasum]: compute the sum of absolute values (L1 norm).
+-   [`@stdlib/blas/ext/base/dasumpw`][@stdlib/blas/ext/base/dasumpw]: calculate the sum of absolute values (L1 norm) of double-precision floating-point strided array elements using pairwise summation.
+-   [`@stdlib/blas/ext/base/gsumpw`][@stdlib/blas/ext/base/gsumpw]: calculate the sum of strided array elements using pairwise summation.
+-   [`@stdlib/blas/ext/base/sasumpw`][@stdlib/blas/ext/base/sasumpw]: calculate the sum of absolute values (L1 norm) of single-precision floating-point strided array elements using pairwise summation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [mdn-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
-[@stdlib/blas/ext/base/dasumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/dasumpw
-
-[@stdlib/blas/ext/base/sasumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/sasumpw
-
 [l1norm]: http://en.wikipedia.org/wiki/Norm_%28mathematics%29
 
 [@higham:1993a]: https://doi.org/10.1137/0914050
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/gasum]: https://github.com/stdlib-js/blas/tree/main/base/gasum
+
+[@stdlib/blas/ext/base/dasumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/dasumpw
+
+[@stdlib/blas/ext/base/gsumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/gsumpw
+
+[@stdlib/blas/ext/base/sasumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/sasumpw
+
+<!-- </related-links> -->
 
 </section>
 

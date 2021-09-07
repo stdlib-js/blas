@@ -184,6 +184,25 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/dasum`][@stdlib/blas/base/dasum]: compute the sum of absolute values (L1 norm).
+-   [`@stdlib/blas/ext/base/dsumpw`][@stdlib/blas/ext/base/dsumpw]: calculate the sum of double-precision floating-point strided array elements using pairwise summation.
+-   [`@stdlib/blas/ext/base/gasumpw`][@stdlib/blas/ext/base/gasumpw]: calculate the sum of absolute values (L1 norm) of strided array elements using pairwise summation.
+-   [`@stdlib/blas/ext/base/sasumpw`][@stdlib/blas/ext/base/sasumpw]: calculate the sum of absolute values (L1 norm) of single-precision floating-point strided array elements using pairwise summation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
@@ -193,6 +212,18 @@ console.log( v );
 [l1norm]: http://en.wikipedia.org/wiki/Norm_%28mathematics%29
 
 [@higham:1993a]: https://doi.org/10.1137/0914050
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas/tree/main/base/dasum
+
+[@stdlib/blas/ext/base/dsumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/dsumpw
+
+[@stdlib/blas/ext/base/gasumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/gasumpw
+
+[@stdlib/blas/ext/base/sasumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/sasumpw
+
+<!-- </related-links> -->
 
 </section>
 

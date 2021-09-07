@@ -167,11 +167,39 @@ console.log( v );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dapxsum`][@stdlib/blas/ext/base/dapxsum]: adds a constant to each double-precision floating-point strided array element and computes the sum.
+-   [`@stdlib/blas/ext/base/dssum`][@stdlib/blas/ext/base/dssum]: calculate the sum of single-precision floating-point strided array elements using extended accumulation and returning an extended precision result.
+-   [`@stdlib/blas/ext/base/sapxsum`][@stdlib/blas/ext/base/sapxsum]: adds a constant to each single-precision floating-point strided array element and computes the sum.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dapxsum]: https://github.com/stdlib-js/blas/tree/main/ext/base/dapxsum
+
+[@stdlib/blas/ext/base/dssum]: https://github.com/stdlib-js/blas/tree/main/ext/base/dssum
+
+[@stdlib/blas/ext/base/sapxsum]: https://github.com/stdlib-js/blas/tree/main/ext/base/sapxsum
+
+<!-- </related-links> -->
 
 </section>
 

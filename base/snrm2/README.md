@@ -174,6 +174,23 @@ console.log( z );
 
 <!-- /.examples -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/base/dnrm2`][@stdlib/blas/base/dnrm2]: calculate the L2-norm of a double-precision floating-point vector.
+-   [`@stdlib/blas/base/gnrm2`][@stdlib/blas/base/gnrm2]: calculate the L2-norm of a vector.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [l2-norm]: https://en.wikipedia.org/wiki/Euclidean_distance
@@ -185,6 +202,14 @@ console.log( z );
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/base/dnrm2]: https://github.com/stdlib-js/blas/tree/main/base/dnrm2
+
+[@stdlib/blas/base/gnrm2]: https://github.com/stdlib-js/blas/tree/main/base/gnrm2
+
+<!-- </related-links> -->
 
 </section>
 

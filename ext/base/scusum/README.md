@@ -188,11 +188,39 @@ console.log( y );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/blas/ext/base/dcusum`][@stdlib/blas/ext/base/dcusum]: calculate the cumulative sum of double-precision floating-point strided array elements.
+-   [`@stdlib/blas/ext/base/gcusum`][@stdlib/blas/ext/base/gcusum]: calculate the cumulative sum of strided array elements.
+-   [`@stdlib/blas/ext/base/scusumpw`][@stdlib/blas/ext/base/scusumpw]: calculate the cumulative sum of single-precision floating-point strided array elements using pairwise summation.
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
 <section class="links">
 
 [@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/blas/ext/base/dcusum]: https://github.com/stdlib-js/blas/tree/main/ext/base/dcusum
+
+[@stdlib/blas/ext/base/gcusum]: https://github.com/stdlib-js/blas/tree/main/ext/base/gcusum
+
+[@stdlib/blas/ext/base/scusumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/scusumpw
+
+<!-- </related-links> -->
 
 </section>
 
