@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library basic linear algebra subprograms (BLAS).
+> Basic linear algebra subprograms (BLAS).
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var blas = require( '@stdlib/blas' );
 
 #### blas
 
-Standard library basic linear algebra subprograms (BLAS).
+Namespace for basic linear algebra subprograms (BLAS).
 
 ```javascript
 var o = blas;
@@ -57,7 +57,7 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
--   <span class="signature">[`base`][@stdlib/blas/base]</span><span class="delimiter">: </span><span class="description">standard library base reference basic linear algebra subprograms (BLAS).</span>
+-   <span class="signature">[`base`][@stdlib/blas/base]</span><span class="delimiter">: </span><span class="description">"base" (i.e., lower-level) basic linear algebra subprograms (BLAS).</span>
 -   <span class="signature">[`ddot( x, y )`][@stdlib/blas/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two double-precision floating-point vectors.</span>
 -   <span class="signature">[`dswap( x, y )`][@stdlib/blas/dswap]</span><span class="delimiter">: </span><span class="description">interchange two double-precision floating-point vectors.</span>
 -   <span class="signature">[`ext`][@stdlib/blas/ext]</span><span class="delimiter">: </span><span class="description">standard library extended basic linear algebra subprograms (BLAS).</span>
