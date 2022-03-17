@@ -40,6 +40,7 @@
     "@stdlib/assert": "github:stdlib-js/assert#main",
     "@stdlib/math": "github:stdlib-js/math#main",
     "@stdlib/number": "github:stdlib-js/number#main",
+    "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/types": "github:stdlib-js/types#main",
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
