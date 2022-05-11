@@ -49,10 +49,10 @@ var format = require( '@stdlib/string/format' );
 */
 function sdot( x, y ) {
 	if ( !isFloat32VectorLike( x ) ) {
-		throw new TypeError( format( 'invalid argument. First argument must be a 1-dimensional ndarray containing single-precision floating-point numbers (i.e., an ndarray whose underlying data buffer is a Float32Array). Value: `%s`.', x ) );
+		throw new TypeError( format( 'invalid argument. First argument must be a one-dimensional ndarray containing single-precision floating-point numbers (i.e., an ndarray whose underlying data buffer is a Float32Array). Value: `%s`.', x ) );
 	}
 	if ( !isFloat32VectorLike( y ) ) {
-		throw new TypeError( format( 'invalid argument. Second argument must be a 1-dimensional ndarray containing single-precision floating-point numbers (i.e., an ndarray whose underlying data buffer is a Float32Array). Value: `%s`.', y ) );
+		throw new TypeError( format( 'invalid argument. Second argument must be a one-dimensional ndarray containing single-precision floating-point numbers (i.e., an ndarray whose underlying data buffer is a Float32Array). Value: `%s`.', y ) );
 	}
 	if ( x.length !== y.length ) {
 		throw new RangeError( format( 'invalid argument. Arrays must be the same length. First argument length: `%u`. Second argument length: `%u`.', x.length, y.length ) );
