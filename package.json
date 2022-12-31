@@ -41,6 +41,7 @@
     "@stdlib/math": "github:stdlib-js/math#main",
     "@stdlib/napi": "github:stdlib-js/napi#main",
     "@stdlib/number": "github:stdlib-js/number#main",
+    "@stdlib/strided": "github:stdlib-js/strided#main",
     "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/types": "github:stdlib-js/types#main",
     "@stdlib/utils": "github:stdlib-js/utils#main"
@@ -50,7 +51,6 @@
     "@stdlib/complex": "github:stdlib-js/complex",
     "@stdlib/ndarray": "github:stdlib-js/ndarray",
     "@stdlib/random": "github:stdlib-js/random",
-    "@stdlib/strided": "github:stdlib-js/strided",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
