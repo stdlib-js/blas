@@ -47,10 +47,10 @@
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
-    "@stdlib/bench": "github:stdlib-js/bench",
-    "@stdlib/complex": "github:stdlib-js/complex",
-    "@stdlib/ndarray": "github:stdlib-js/ndarray",
-    "@stdlib/random": "github:stdlib-js/random",
+    "@stdlib/bench": "github:stdlib-js/bench#main",
+    "@stdlib/complex": "github:stdlib-js/complex#main",
+    "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
+    "@stdlib/random": "github:stdlib-js/random#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
