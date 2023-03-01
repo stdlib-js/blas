@@ -44,6 +44,7 @@ import scopy = require( './../../../base/scopy' );
 import sdot = require( './../../../base/sdot' );
 import sdsdot = require( './../../../base/sdsdot' );
 import snrm2 = require( './../../../base/snrm2' );
+import srotg = require( './../../../base/srotg' );
 import sscal = require( './../../../base/sscal' );
 import sswap = require( './../../../base/sswap' );
 
@@ -665,12 +666,12 @@ interface Namespace {
 	/**
 	* Computes the dot product of `x` and `y`.
 	*
-	* @param N - number of values over which to compute the dot product
+	* @param N - number of values
 	* @param x - first input array
 	* @param strideX - `x` stride length
 	* @param y - second input array
 	* @param strideY - `y` stride length
-	* @returns dot product of `x` and `y`
+	* @returns dot product
 	*
 	* @example
 	* var Float32Array = require( `@stdlib/array/float32` );
@@ -748,6 +749,29 @@ interface Namespace {
 	* // returns 3.0
 	*/
 	snrm2: typeof snrm2;
+
+	/**
+	* Constructs a Givens plane rotation.
+	*
+	* @param a - rotational elimination parameter
+	* @param b - rotational elimination parameter
+	* @returns output array
+	*
+	* @example
+	* var out = ns.srotg( 0.0, 2.0 );
+	* // returns <Float32Array>[ 2.0, 1.0, 0.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( `@stdlib/array/float32` );
+	*
+	* var out = new Float32Array( 4 );
+	* var y = ns.srotg.assign( 0.0, 2.0, out, 1, 0 );
+	* // returns <Float32Array>[ 2.0, 1.0, 0.0, 1.0 ]
+	*
+	* var bool = ( y === out );
+	* // returns true
+	*/
+	srotg: typeof srotg;
 
 	/**
 	* Multiplies a single-precision floating-point vector `x` by a constant `alpha`.
