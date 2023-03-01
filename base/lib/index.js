@@ -244,6 +244,15 @@ setReadOnly( blas, 'sdsdot', require( './../../base/sdsdot' ) );
 setReadOnly( blas, 'snrm2', require( './../../base/snrm2' ) );
 
 /**
+* @name srotg
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/srotg}
+*/
+setReadOnly( blas, 'srotg', require( './../../base/srotg' ) );
+
+/**
 * @name sscal
 * @memberof blas
 * @readonly
