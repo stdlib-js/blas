@@ -168,6 +168,10 @@ console.log( x );
 
 [@stdlib/blas/ext/base/srev]: https://github.com/stdlib-js/blas/tree/main/ext/base/srev
 
+<!-- <related-links> -->
+
+<!-- </related-links> -->
+
 </section>
 
 <!-- /.links -->
