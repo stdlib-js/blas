@@ -7,9 +7,9 @@ var mO=require('@stdlib/utils/define-nonenumerable-read-only-property/dist'),Yn=
 });var rv=c(function(aU,Nn){
 var pO=require("path").join,jO=require('@stdlib/utils/try-require/dist'),gO=require('@stdlib/assert/is-error/dist'),bO=dn(),na,xn=jO(pO(__dirname,"./native.js"));gO(xn)?na=bO:na=xn;Nn.exports=na
 });var uv=c(function(uU,av){
-var ev=require('@stdlib/array/float32/dist');function wO(n,e,a,i,r){var u,v,s,o,t,f,q,m,p;if(n<=0)return i;if(u=new ev(e.buffer,e.byteOffset,e.length*2),v=new ev(i.buffer,i.byteOffset,i.length*2),a===1&&r===1){for(m=0;m<n*2;m+=2)s=u[m],u[m]=v[m],v[m]=s,p=m+1,s=u[p],u[p]=v[p],v[p]=s;return i}for(a<0?f=2*(1-n)*a:f=0,r<0?q=2*(1-n)*r:q=0,o=a*2,t=r*2,m=0;m<n;m++)s=u[f],u[f]=v[q],v[q]=s,s=u[f+1],u[f+1]=v[q+1],v[q+1]=s,f+=o,q+=t;return i}av.exports=wO
+var ev=require('@stdlib/strided/base/reinterpret-complex64/dist');function wO(n,e,a,i,r){var u,v,s,o,t,f,q,m,p;if(n<=0)return i;if(u=ev(e,0),v=ev(i,0),a===1&&r===1){for(m=0;m<n*2;m+=2)s=u[m],u[m]=v[m],v[m]=s,p=m+1,s=u[p],u[p]=v[p],v[p]=s;return i}for(a<0?f=2*(1-n)*a:f=0,r<0?q=2*(1-n)*r:q=0,o=a*2,t=r*2,m=0;m<n;m++)s=u[f],u[f]=v[q],v[q]=s,s=u[f+1],u[f+1]=v[q+1],v[q+1]=s,f+=o,q+=t;return i}av.exports=wO
 });var vv=c(function(iU,nv){
-var iv=require('@stdlib/array/float32/dist');function yO(n,e,a,i,r,u,v){var s,o,t,f,q,m,p,l;if(n<=0)return r;for(s=new iv(e.buffer,e.byteOffset,e.length*2),o=new iv(r.buffer,r.byteOffset,r.length*2),f=a*2,q=u*2,m=i*2,p=v*2,l=0;l<n;l++)t=s[m],s[m]=o[p],o[p]=t,t=s[m+1],s[m+1]=o[p+1],o[p+1]=t,m+=f,p+=q;return r}nv.exports=yO
+var iv=require('@stdlib/strided/base/reinterpret-complex64/dist');function yO(n,e,a,i,r,u,v){var s,o,t,f,q,m,p,l;if(n<=0)return r;for(s=iv(e,0),o=iv(r,0),f=a*2,q=u*2,m=i*2,p=v*2,l=0;l<n;l++)t=s[m],s[m]=o[p],o[p]=t,t=s[m+1],s[m+1]=o[p+1],o[p+1]=t,m+=f,p+=q;return r}nv.exports=yO
 });var ov=c(function(nU,tv){
 var RO=require('@stdlib/utils/define-nonenumerable-read-only-property/dist'),sv=uv(),kO=vv();RO(sv,"ndarray",kO);tv.exports=sv
 });var cv=c(function(vU,qv){
