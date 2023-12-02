@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2023 The Stdlib Authors.
+* Copyright (c) 2018 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,11 +16,11 @@
 * limitations under the License.
 */
 
-#include "stdlib/blas/base/snrm2.h"
+#include "stdlib/blas/base/dasum.h"
 #include "stdlib/napi/export.h"
 #include "stdlib/napi/argv.h"
 #include "stdlib/napi/argv_int64.h"
-#include "stdlib/napi/argv_strided_float32array.h"
+#include "stdlib/napi/argv_strided_float64array.h"
 #include <node_api.h>
 #include <assert.h>
 
@@ -36,10 +36,10 @@ static napi_value addon( napi_env env, napi_callback_info info ) {
 	STDLIB_NAPI_ARGV( env, info, argv, argc, 3 );
 	STDLIB_NAPI_ARGV_INT64( env, N, argv, 0 );
 	STDLIB_NAPI_ARGV_INT64( env, strideX, argv, 2 );
-	STDLIB_NAPI_ARGV_STRIDED_FLOAT32ARRAY( env, X, N, strideX, argv, 1 );
+	STDLIB_NAPI_ARGV_STRIDED_FLOAT64ARRAY( env, X, N, strideX, argv, 1 );
 
 	napi_value v;
-	napi_status status = napi_create_double( env, (double)c_snrm2( N, (float *)X, strideX ), &v );
+	napi_status status = napi_create_double( env, c_dasum( N, (double *)X, strideX ), &v );
 	assert( status == napi_ok );
 
 	return v;
