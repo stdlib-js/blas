@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2020 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,13 +16,13 @@
 * limitations under the License.
 */
 
-#include "stdlib/blas/base/dasum.h"
+#include "stdlib/blas/base/dscal.h"
 #include "stdlib/napi/export.h"
 #include "stdlib/napi/argv.h"
+#include "stdlib/napi/argv_double.h"
 #include "stdlib/napi/argv_int64.h"
 #include "stdlib/napi/argv_strided_float64array.h"
 #include <node_api.h>
-#include <assert.h>
 
 /**
 * Receives JavaScript callback invocation data.
@@ -33,16 +33,13 @@
 * @return       Node-API value
 */
 static napi_value addon( napi_env env, napi_callback_info info ) {
-	STDLIB_NAPI_ARGV( env, info, argv, argc, 3 );
+	STDLIB_NAPI_ARGV( env, info, argv, argc, 4 );
 	STDLIB_NAPI_ARGV_INT64( env, N, argv, 0 );
-	STDLIB_NAPI_ARGV_INT64( env, strideX, argv, 2 );
-	STDLIB_NAPI_ARGV_STRIDED_FLOAT64ARRAY( env, X, N, strideX, argv, 1 );
-
-	napi_value v;
-	napi_status status = napi_create_double( env, c_dasum( N, X, strideX ), &v );
-	assert( status == napi_ok );
-
-	return v;
+	STDLIB_NAPI_ARGV_DOUBLE( env, alpha, argv, 1 );
+	STDLIB_NAPI_ARGV_INT64( env, strideX, argv, 3 );
+	STDLIB_NAPI_ARGV_STRIDED_FLOAT64ARRAY( env, X, N, strideX, argv, 2 );
+	c_dscal( N, alpha, X, strideX );
+	return NULL;
 }
 
 STDLIB_NAPI_MODULE_EXPORT_FCN( addon )
