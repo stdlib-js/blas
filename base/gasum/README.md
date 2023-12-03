@@ -193,11 +193,11 @@ console.log( y );
 
 [@stdlib/math/base/special/abs]: https://github.com/stdlib-js/math-base-special-abs
 
-<!-- <related-links> -->
-
 [@stdlib/blas/base/dasum]: https://github.com/stdlib-js/blas/tree/main/base/dasum
 
 [@stdlib/blas/base/sasum]: https://github.com/stdlib-js/blas/tree/main/base/sasum
+
+<!-- <related-links> -->
 
 <!-- </related-links> -->
 
