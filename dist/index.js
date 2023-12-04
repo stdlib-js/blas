@@ -125,9 +125,9 @@ var V0=require('@stdlib/array/base/arraylike2object/dist'),pF=Za(),br=3;function
 });var Aa=c(function(iW,J0){
 var gF=require('@stdlib/utils/define-nonenumerable-read-only-property/dist'),H0=K0(),bF=D0();gF(H0,"ndarray",bF);J0.exports=H0
 });var U0=c(function(nW,Q0){
-var wF=require('@stdlib/math/base/special/abs/dist'),yF=require('@stdlib/number/float64/base/to-float32/dist');function RF(n,e,a){var i,r;if(i=0,n<=0||a<=0)return i;for(n*=a,r=0;r<n;r+=a)i=yF(i+wF(e[r]));return i}Q0.exports=RF
+var wF=require('@stdlib/math/base/special/absf/dist'),yF=require('@stdlib/number/float64/base/to-float32/dist');function RF(n,e,a){var i,r;if(i=0,n<=0||a<=0)return i;for(n*=a,r=0;r<n;r+=a)i=yF(i+wF(e[r]));return i}Q0.exports=RF
 });var $0=c(function(vW,W0){
-var kF=require('@stdlib/math/base/special/abs/dist'),_F=require('@stdlib/number/float64/base/to-float32/dist');function EF(n,e,a,i){var r,u,v;if(r=0,n<=0)return r;for(u=i,v=0;v<n;v++)r=_F(r+kF(e[u])),u+=a;return r}W0.exports=EF
+var kF=require('@stdlib/math/base/special/absf/dist'),_F=require('@stdlib/number/float64/base/to-float32/dist');function EF(n,e,a,i){var r,u,v;if(r=0,n<=0)return r;for(u=i,v=0;v<n;v++)r=_F(r+kF(e[u])),u+=a;return r}W0.exports=EF
 });var X0=c(function(sW,Y0){
 var OF=require('@stdlib/utils/define-nonenumerable-read-only-property/dist'),h0=U0(),FF=$0();OF(h0,"ndarray",FF);Y0.exports=h0
 });var N0=c(function(tW,x0){
