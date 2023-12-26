@@ -100,6 +100,15 @@ setReadOnly( blas, 'ddot', require( './../../base/ddot' ) );
 setReadOnly( blas, 'dnrm2', require( './../../base/dnrm2' ) );
 
 /**
+* @name drotg
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/drotg}
+*/
+setReadOnly( blas, 'drotg', require( './../../base/drotg' ) );
+
+/**
 * @name dscal
 * @memberof blas
 * @readonly
