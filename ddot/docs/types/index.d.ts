@@ -20,7 +20,7 @@
 
 /// <reference types="@stdlib/types"/>
 
-import { ndarray } from '@stdlib/types/ndarray';
+import { float64ndarray } from '@stdlib/types/ndarray';
 
 /**
 * Computes the dot product of two double-precision floating-point vectors.
@@ -42,7 +42,7 @@ import { ndarray } from '@stdlib/types/ndarray';
 * var z = ddot( x, y );
 * // returns -5.0
 */
-declare function ddot( x: ndarray, y: ndarray ): number;
+declare function ddot( x: float64ndarray, y: float64ndarray ): number;
 
 
 // EXPORTS //
