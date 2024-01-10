@@ -27,6 +27,7 @@ import daxpy = require( './../../../base/daxpy' );
 import dcopy = require( './../../../base/dcopy' );
 import ddot = require( './../../../base/ddot' );
 import dnrm2 = require( './../../../base/dnrm2' );
+import drotg = require( './../../../base/drotg' );
 import dscal = require( './../../../base/dscal' );
 import dsdot = require( './../../../base/dsdot' );
 import dswap = require( './../../../base/dswap' );
@@ -311,6 +312,29 @@ interface Namespace {
 	* // returns 3.0
 	*/
 	dnrm2: typeof dnrm2;
+
+	/**
+	* Constructs a Givens plane rotation.
+	*
+	* @param a - rotational elimination parameter
+	* @param b - rotational elimination parameter
+	* @returns output array
+	*
+	* @example
+	* var out = ns.drotg( 0.0, 2.0 );
+	* // returns <Float64Array>[ 2.0, 1.0, 0.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var out = new Float64Array( 4 );
+	* var y = ns.drotg.assign( 0.0, 2.0, out, 1, 0 );
+	* // returns <Float64Array>[ 2.0, 1.0, 0.0, 1.0 ]
+	*
+	* var bool = ( y === out );
+	* // returns true
+	*/
+	drotg: typeof drotg;
 
 	/**
 	* Multiplies a double-precision floating-point vector `x` by a constant `alpha`.
