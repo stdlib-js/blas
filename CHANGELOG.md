@@ -140,6 +140,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dcabs1-unreleased">
+
+#### [@stdlib/blas/base/dcabs1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dcabs1)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a4748fb`](https://github.com/stdlib-js/stdlib/commit/a4748fb7a658f89c268388389355ed87b5a06f84) - add `blas/base/dcabs1` [(#2204)](https://github.com/stdlib-js/stdlib/pull/2204)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dcopy-unreleased">
 
 #### [@stdlib/blas/base/dcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dcopy)
@@ -1371,6 +1393,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a4748fb`](https://github.com/stdlib-js/stdlib/commit/a4748fb7a658f89c268388389355ed87b5a06f84) - **feat:** add `blas/base/dcabs1` [(#2204)](https://github.com/stdlib-js/stdlib/pull/2204) _(by Aman Bhansali, Athan Reines)_
 -   [`70864fa`](https://github.com/stdlib-js/stdlib/commit/70864faabdacdb25caa2a7ee75bd0fcc7ba478c9) - **feat:** add `blas/base/scabs1` [(#2209)](https://github.com/stdlib-js/stdlib/pull/2209) _(by Aman Bhansali, Athan Reines)_
 -   [`133dd8b`](https://github.com/stdlib-js/stdlib/commit/133dd8bdce3709d5aeda84906b79882f86d9989d) - **chore:** update package meta data [(##2251)](#2251) _(by stdlib-bot)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
