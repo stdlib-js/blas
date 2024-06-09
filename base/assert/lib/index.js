@@ -45,6 +45,24 @@ var ns = {};
 */
 setReadOnly( ns, 'isLayout', require( './../../../base/assert/is-layout' ) );
 
+/**
+* @name isMatrixTriangle
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/assert/is-matrix-triangle}
+*/
+setReadOnly( ns, 'isMatrixTriangle', require( './../../../base/assert/is-matrix-triangle' ) );
+
+/**
+* @name isTransposeOperation
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/assert/is-transpose-operation}
+*/
+setReadOnly( ns, 'isTransposeOperation', require( './../../../base/assert/is-transpose-operation' ) );
+
 
 // EXPORTS //
 
