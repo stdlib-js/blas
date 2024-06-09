@@ -16,18 +16,33 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_BASE_OPERATION_SIDES_H
-#define STDLIB_BLAS_BASE_OPERATION_SIDES_H
+'use strict';
 
-/**
-* Enumeration of operation sides.
-*/
-enum STDLIB_BLAS_OPERATION_SIDE {
-	// Triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix):
-	STDLIB_BLAS_LEFT = 141,
+// MODULES //
 
-	// Triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix):
-	STDLIB_BLAS_RIGHT = 142
-};
+var bench = require( '@stdlib/bench' );
+var isStringArray = require( '@stdlib/assert/is-string-array' ).primitives;
+var pkg = require( './../package.json' ).name;
+var matrixTriangles = require( './../lib' );
 
-#endif // !STDLIB_BLAS_BASE_OPERATION_SIDES_H
+
+// MAIN //
+
+bench( pkg, function benchmark( b ) {
+	var out;
+	var i;
+
+	b.tic();
+	for ( i = 0; i < b.iterations; i++ ) {
+		out = matrixTriangles();
+		if ( out.length < 2 ) {
+			b.fail( 'should return an array' );
+		}
+	}
+	b.toc();
+	if ( !isStringArray( out ) ) {
+		b.fail( 'should return an array of strings' );
+	}
+	b.pass( 'benchmark finished' );
+	b.end();
+});

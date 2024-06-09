@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,18 +16,20 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_BASE_OPERATION_SIDES_H
-#define STDLIB_BLAS_BASE_OPERATION_SIDES_H
+// TypeScript Version: 4.1
 
 /**
-* Enumeration of operation sides.
+* Returns a list of matrix triangles.
+*
+* @returns list of matrix triangles
+*
+* @example
+* var list = matrixTriangles();
+* // e.g., returns [ 'upper', 'lower' ]
 */
-enum STDLIB_BLAS_OPERATION_SIDE {
-	// Triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix):
-	STDLIB_BLAS_LEFT = 141,
+declare function matrixTriangles(): Array<string>;
 
-	// Triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix):
-	STDLIB_BLAS_RIGHT = 142
-};
 
-#endif // !STDLIB_BLAS_BASE_OPERATION_SIDES_H
+// EXPORTS //
+
+export = matrixTriangles;

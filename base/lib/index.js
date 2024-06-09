@@ -253,6 +253,15 @@ setReadOnly( blas, 'isamax', require( './../../base/isamax' ) );
 setReadOnly( blas, 'layouts', require( './../../base/layouts' ) );
 
 /**
+* @name matrixTriangles
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/matrix-triangles}
+*/
+setReadOnly( blas, 'matrixTriangles', require( './../../base/matrix-triangles' ) );
+
+/**
 * @name operationSides
 * @memberof blas
 * @readonly

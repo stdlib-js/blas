@@ -16,18 +16,18 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_BASE_OPERATION_SIDES_H
-#define STDLIB_BLAS_BASE_OPERATION_SIDES_H
+#ifndef STDLIB_BLAS_BASE_MATRIX_TRIANGLES_H
+#define STDLIB_BLAS_BASE_MATRIX_TRIANGLES_H
 
 /**
-* Enumeration of operation sides.
+* Enumeration of matrix triangles.
 */
-enum STDLIB_BLAS_OPERATION_SIDE {
-	// Triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix):
-	STDLIB_BLAS_LEFT = 141,
+enum STDLIB_BLAS_MATRIX_TRIANGLE {
+	// Upper triangular part of a matrix:
+	STDLIB_BLAS_UPPER = 121,
 
-	// Triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix):
-	STDLIB_BLAS_RIGHT = 142
+	// Lower triangular part of a matrix:
+	STDLIB_BLAS_LOWER = 122
 };
 
-#endif // !STDLIB_BLAS_BASE_OPERATION_SIDES_H
+#endif // !STDLIB_BLAS_BASE_MATRIX_TRIANGLES_H

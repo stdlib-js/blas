@@ -16,18 +16,21 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_BASE_OPERATION_SIDES_H
-#define STDLIB_BLAS_BASE_OPERATION_SIDES_H
+'use strict';
 
-/**
-* Enumeration of operation sides.
-*/
-enum STDLIB_BLAS_OPERATION_SIDE {
-	// Triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix):
-	STDLIB_BLAS_LEFT = 141,
+var contains = require( '@stdlib/array/base/assert/contains' ).factory;
+var matrixTriangles = require( './../lib' );
 
-	// Triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix):
-	STDLIB_BLAS_RIGHT = 142
-};
+var isMatrixTriangle = contains( matrixTriangles() );
 
-#endif // !STDLIB_BLAS_BASE_OPERATION_SIDES_H
+var bool = isMatrixTriangle( 'upper' );
+console.log( bool );
+// => true
+
+bool = isMatrixTriangle( 'lower' );
+console.log( bool );
+// => true
+
+bool = isMatrixTriangle( 'beep' );
+console.log( bool );
+// => false

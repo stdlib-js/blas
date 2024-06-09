@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# Operation Sides
+# Triangular Parts
 
-> BLAS operation sides.
+> BLAS matrix triangles.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -37,22 +37,22 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var operationSides = require( '@stdlib/blas/base/operation-sides' );
+var matrixTriangles = require( '@stdlib/blas/base/matrix-triangles' );
 ```
 
-#### operationSides()
+#### matrixTriangles()
 
-Returns a list of BLAS operation sides.
+Returns a list of BLAS matrix triangles.
 
 ```javascript
-var out = operationSides();
-// e.g., returns [ 'left', 'right' ]
+var out = matrixTriangles();
+// e.g., returns [ 'upper', 'lower' ]
 ```
 
 The output array contains the following types:
 
--   `left`: a triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix).
--   `right`: a triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix).
+-   `upper`: upper triangular part of a matrix.
+-   `lower`: lower triangular part of a matrix.
 
 </section>
 
@@ -76,17 +76,17 @@ The output array contains the following types:
 
 ```javascript
 var contains = require( '@stdlib/array/base/assert/contains' ).factory;
-var operationSides = require( '@stdlib/blas/base/operation-sides' );
+var matrixTriangles = require( '@stdlib/blas/base/matrix-triangles' );
 
-var isOperationSide = contains( operationSides() );
+var isMatrixTriangle = contains( matrixTriangles() );
 
-var bool = isOperationSide( 'right' );
+var bool = isMatrixTriangle( 'lower' );
 // returns true
 
-bool = isOperationSide( 'left' );
+bool = isMatrixTriangle( 'upper' );
 // returns true
 
-bool = isOperationSide( 'beep' );
+bool = isMatrixTriangle( 'beep' );
 // returns false
 ```
 
@@ -117,20 +117,20 @@ bool = isOperationSide( 'beep' );
 ### Usage
 
 ```c
-#include "stdlib/blas/base/operation_sides.h"
+#include "stdlib/blas/base/matrix_triangles.h"
 ```
 
-#### STDLIB_BLAS_OPERATION_SIDE
+#### STDLIB_BLAS_MATRIX_TRIANGLE
 
-An enumeration of BLAS operation sides with the following fields:
+An enumeration of BLAS matrix triangles with the following fields:
 
--   **STDLIB_BLAS_LEFT**: a triangular matrix is on the left side of a matrix-matrix operation (e.g., `XA = B`, where `A` is a triangular matrix).
--   **STDLIB_BLAS_RIGHT**: a triangular matrix is on the right side of a matrix-matrix operation (e.g., `XA = B`, where `A` is a triangular matrix).
+-   **STDLIB_BLAS_UPPER**: upper triangular part of a matrix.
+-   **STDLIB_BLAS_LOWER**: lower triangular part of a matrix.
 
 ```c
-#include "stdlib/blas/base/operation_sides.h"
+#include "stdlib/blas/base/matrix_triangles.h"
 
-const enum STDLIB_BLAS_OPERATION_SIDE v = STDLIB_BLAS_RIGHT;
+const enum STDLIB_BLAS_MATRIX_TRIANGLE v = STDLIB_BLAS_LOWER;
 ```
 
 </section>

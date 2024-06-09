@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,18 +16,17 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_BASE_OPERATION_SIDES_H
-#define STDLIB_BLAS_BASE_OPERATION_SIDES_H
+import matrixTriangles = require( './index' );
 
-/**
-* Enumeration of operation sides.
-*/
-enum STDLIB_BLAS_OPERATION_SIDE {
-	// Triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix):
-	STDLIB_BLAS_LEFT = 141,
 
-	// Triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix):
-	STDLIB_BLAS_RIGHT = 142
-};
+// TESTS //
 
-#endif // !STDLIB_BLAS_BASE_OPERATION_SIDES_H
+// The function returns an array of strings...
+{
+	matrixTriangles(); // $ExpectType string[]
+}
+
+// The compiler throws an error if the function is provided any arguments...
+{
+	matrixTriangles( 9 ); // $ExpectError
+}

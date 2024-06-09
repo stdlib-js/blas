@@ -16,18 +16,32 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_BASE_OPERATION_SIDES_H
-#define STDLIB_BLAS_BASE_OPERATION_SIDES_H
+'use strict';
 
 /**
-* Enumeration of operation sides.
+* Return a list of BLAS matrix triangles.
+*
+* @module @stdlib/blas/base/matrix-triangles
+*
+* @example
+* var matrixTriangles = require( '@stdlib/blas/base/matrix-triangles' );
+*
+* var list = matrixTriangles();
+* // e.g., returns [ 'upper', 'lower' ]
 */
-enum STDLIB_BLAS_OPERATION_SIDE {
-	// Triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix):
-	STDLIB_BLAS_LEFT = 141,
 
-	// Triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix):
-	STDLIB_BLAS_RIGHT = 142
-};
+// MODULES //
 
-#endif // !STDLIB_BLAS_BASE_OPERATION_SIDES_H
+var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
+var main = require( './main.js' );
+var enumeration = require( './enum.js' );
+
+
+// MAIN //
+
+setReadOnly( main, 'enum', enumeration );
+
+
+// EXPORTS //
+
+module.exports = main;
