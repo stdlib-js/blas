@@ -23,6 +23,7 @@
 #include <stdint.h>
 #include <inttypes.h>
 #include "stdlib/blas/base/orders.h"
+#include "stdlib/blas/base/transpose_operations.h"
 
 /*
 * If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
@@ -65,20 +66,26 @@ extern "C" {
 
 // Array storage layout:
 #ifndef CBLAS_LAYOUT
-typedef STDLIB_BLAS_LAYOUT CBLAS_LAYOUT;
+typedef enum CBLAS_LAYOUT {
+	// Row-major order (C-style):
+	CblasRowMajor = STDLIB_BLAS_ROW_MAJOR,
+
+	// Column-major order (Fortran-style):
+	CblasColMajor = STDLIB_BLAS_COLUMN_MAJOR,
+} CBLAS_LAYOUT;
 #endif
 
 // Transpose operation:
 #ifndef CBLAS_TRANSPOSE
 typedef enum CBLAS_TRANSPOSE {
 	// No transposition:
-	CblasNoTrans = 111,
+	CblasNoTrans = STDLIB_BLAS_NO_TRANSPOSE,
 
 	// Transposition:
-	CblasTrans = 112,
+	CblasTrans = STDLIB_BLAS_TRANSPOSE,
 
 	// Conjugate transposition:
-	CblasConjTrans = 113,
+	CblasConjTrans = STDLIB_BLAS_CONJUGATE_TRANSPOSE,
 } CBLAS_TRANSPOSE;
 #endif
 

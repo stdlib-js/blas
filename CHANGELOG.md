@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`31aa8db`](https://github.com/stdlib-js/stdlib/commit/31aa8dbfb2c0a722710adc8a399e703b224cadab) - add `transposeOperations` to namespace
 -   [`378240f`](https://github.com/stdlib-js/stdlib/commit/378240f1bb93253435f89aec4d5c7ce64eae4703) - update namespace
 
 </section>
@@ -629,6 +630,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`258cc06`](https://github.com/stdlib-js/stdlib/commit/258cc060947be206b283ff4d066953dcebb0143f) - assign enum values to CBLAS compatible aliases
 -   [`0992fe2`](https://github.com/stdlib-js/stdlib/commit/0992fe22060cb8f860cfd9e8f590d4c7a83c7287) - replace semicolons with commas
 
 </section>
@@ -668,6 +670,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-transpose-operations-unreleased">
+
+#### [@stdlib/blas/base/transpose-operations](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operations)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`87a0d77`](https://github.com/stdlib-js/stdlib/commit/87a0d77b81cc5bc8c05e40d6ec22f548c5d3dd14) - add `blas/base/transpose-operations`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1517,6 +1541,10 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`73cf5f1`](https://github.com/stdlib-js/stdlib/commit/73cf5f1bb0dba7e320518e6b530a98004ef86aef) - **refactor:** assign enum values to CBLAS compatible aliases _(by Athan Reines)_
+-   [`258cc06`](https://github.com/stdlib-js/stdlib/commit/258cc060947be206b283ff4d066953dcebb0143f) - **fix:** assign enum values to CBLAS compatible aliases _(by Athan Reines)_
+-   [`31aa8db`](https://github.com/stdlib-js/stdlib/commit/31aa8dbfb2c0a722710adc8a399e703b224cadab) - **feat:** add `transposeOperations` to namespace _(by Athan Reines)_
+-   [`87a0d77`](https://github.com/stdlib-js/stdlib/commit/87a0d77b81cc5bc8c05e40d6ec22f548c5d3dd14) - **feat:** add `blas/base/transpose-operations` _(by Athan Reines)_
 -   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7) - **remove:** delete `blas/base/orders` _(by Athan Reines)_
 -   [`c61cc17`](https://github.com/stdlib-js/stdlib/commit/c61cc17ca682a9dfe76246ab9dc852c0044c6cbf) - **refactor:** migrate to `blas/base/layouts` _(by Athan Reines)_
 -   [`0c3213e`](https://github.com/stdlib-js/stdlib/commit/0c3213e4e3219c0574d0c49e2486db1ac714c952) - **fix:** rename `orders` to `layouts` _(by Athan Reines)_

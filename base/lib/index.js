@@ -334,6 +334,15 @@ setReadOnly( blas, 'sscal', require( './../../base/sscal' ) );
 setReadOnly( blas, 'sswap', require( './../../base/sswap' ) );
 
 /**
+* @name transposeOperations
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/transpose-operations}
+*/
+setReadOnly( blas, 'transposeOperations', require( './../../base/transpose-operations' ) );
+
+/**
 * @name zcopy
 * @memberof blas
 * @readonly

@@ -24,18 +24,13 @@
 	],
 	"confs": [
 		{
-			"src": [
-				"./src/main.c"
-			],
+			"src": [],
 			"include": [
 				"./include"
 			],
 			"libraries": [],
 			"libpath": [],
-			"dependencies": [
-        "@stdlib/blas/base/layouts",
-        "@stdlib/blas/base/transpose-operations"
-      ]
+			"dependencies": []
 		}
 	]
 }
