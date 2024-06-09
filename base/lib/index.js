@@ -253,6 +253,24 @@ setReadOnly( blas, 'idamax', require( './../../base/idamax' ) );
 setReadOnly( blas, 'isamax', require( './../../base/isamax' ) );
 
 /**
+* @name layoutEnum2Str
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/layout-enum2str}
+*/
+setReadOnly( blas, 'layoutEnum2Str', require( './../../base/layout-enum2str' ) );
+
+/**
+* @name layoutStr2Enum
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/layout-str2enum}
+*/
+setReadOnly( blas, 'layoutStr2Enum', require( './../../base/layout-str2enum' ) );
+
+/**
 * @name layouts
 * @memberof blas
 * @readonly

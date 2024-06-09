@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`bd2b0a6`](https://github.com/stdlib-js/stdlib/commit/bd2b0a61e51e036f7f4044cd1ec16ec7736dbf84) - add `layoutEnum2Str` and `layoutStr2Enum` to namespace
 -   [`af7137c`](https://github.com/stdlib-js/stdlib/commit/af7137c73ecc48cf39309290403cfab9e485d2f5) - add `assert` to namespace
 -   [`44ccf84`](https://github.com/stdlib-js/stdlib/commit/44ccf84cda56714dd8624d1d3df130674b64e1dc) - add `matrixTriangles` to namespace
 -   [`91237b5`](https://github.com/stdlib-js/stdlib/commit/91237b58273c24c9e5b3925deb0053cafa90734c) - add `operationSides` to namespace
@@ -624,6 +625,50 @@ This release closes the following issue:
 ##### Features
 
 -   [`fb6571e`](https://github.com/stdlib-js/stdlib/commit/fb6571ecebab94780dbd3b6d32b0c0275a3d636b) - add `blas/base/isamax` [(#2153)](https://github.com/stdlib-js/stdlib/pull/2153)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-layout-enum2str-unreleased">
+
+#### [@stdlib/blas/base/layout-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-enum2str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5d9a6c0`](https://github.com/stdlib-js/stdlib/commit/5d9a6c09fdc79952164cbe2869729d9dca8e1d36) - add `blas/base/layout-enum2str` and `blas/base/layout-str2enum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-layout-str2enum-unreleased">
+
+#### [@stdlib/blas/base/layout-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-str2enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5d9a6c0`](https://github.com/stdlib-js/stdlib/commit/5d9a6c09fdc79952164cbe2869729d9dca8e1d36) - add `blas/base/layout-enum2str` and `blas/base/layout-str2enum`
 
 </section>
 
@@ -1713,6 +1758,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bd2b0a6`](https://github.com/stdlib-js/stdlib/commit/bd2b0a61e51e036f7f4044cd1ec16ec7736dbf84) - **feat:** add `layoutEnum2Str` and `layoutStr2Enum` to namespace _(by Athan Reines)_
+-   [`5d9a6c0`](https://github.com/stdlib-js/stdlib/commit/5d9a6c09fdc79952164cbe2869729d9dca8e1d36) - **feat:** add `blas/base/layout-enum2str` and `blas/base/layout-str2enum` _(by Athan Reines)_
 -   [`92564b0`](https://github.com/stdlib-js/stdlib/commit/92564b0633ff473785ceb4b14691a08a97dd62be) - **style:** fix indentation and rename files _(by Athan Reines)_
 -   [`5e6bc89`](https://github.com/stdlib-js/stdlib/commit/5e6bc8976dc934eeba7ff67b30a344ef4c33b559) - **style:** fix indentation _(by Athan Reines)_
 -   [`3719fcd`](https://github.com/stdlib-js/stdlib/commit/3719fcd56b28595b9b101f9767b0b6d965c9e426) - **feat:** add `isMatrixTriangle` to namespace _(by Athan Reines)_
