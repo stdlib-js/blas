@@ -253,6 +253,15 @@ setReadOnly( blas, 'isamax', require( './../../base/isamax' ) );
 setReadOnly( blas, 'layouts', require( './../../base/layouts' ) );
 
 /**
+* @name operationSides
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/operation-sides}
+*/
+setReadOnly( blas, 'operationSides', require( './../../base/operation-sides' ) );
+
+/**
 * @name sasum
 * @memberof blas
 * @readonly

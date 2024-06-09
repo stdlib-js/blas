@@ -1,7 +1,7 @@
 {
-  "name": "@stdlib/blas/base/diagonal-types",
+  "name": "@stdlib/blas/base/operation-sides",
   "version": "0.0.0",
-  "description": "BLAS diagonal element types.",
+  "description": "BLAS operation sides.",
   "license": "Apache-2.0",
   "author": {
     "name": "The Stdlib Authors",
@@ -54,8 +54,8 @@
     "stdtypes",
     "types",
     "blas",
-    "diagonal",
-    "diag",
+    "operation",
+    "side",
     "c",
     "fortran",
     "multidimensional",

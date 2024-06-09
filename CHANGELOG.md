@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`91237b5`](https://github.com/stdlib-js/stdlib/commit/91237b58273c24c9e5b3925deb0053cafa90734c) - add `operationSides` to namespace
 -   [`38a9e4c`](https://github.com/stdlib-js/stdlib/commit/38a9e4cb046a114a11438b681437949e69b3cd75) - add `diagonalTypes` to namespace
 -   [`31aa8db`](https://github.com/stdlib-js/stdlib/commit/31aa8dbfb2c0a722710adc8a399e703b224cadab) - add `transposeOperations` to namespace
 -   [`378240f`](https://github.com/stdlib-js/stdlib/commit/378240f1bb93253435f89aec4d5c7ce64eae4703) - update namespace
@@ -553,6 +554,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`9b31a8f`](https://github.com/stdlib-js/stdlib/commit/9b31a8f861f2777d60ef74323ca1ae6dfb1839ed) - add `blas/base/layouts`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-operation-sides-unreleased">
+
+#### [@stdlib/blas/base/operation-sides](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-sides)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`efeb385`](https://github.com/stdlib-js/stdlib/commit/efeb385e6371ff99e0cf4cacb7084d43a75a95b7) - add `blas/base/operation-sides`
 
 </section>
 
@@ -1576,6 +1599,12 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5f085d1`](https://github.com/stdlib-js/stdlib/commit/5f085d146d57ff083c24068217adb597bd14b1c5) - **refactor:** use `blas/base/operation-sides` enum values _(by Athan Reines)_
+-   [`91237b5`](https://github.com/stdlib-js/stdlib/commit/91237b58273c24c9e5b3925deb0053cafa90734c) - **feat:** add `operationSides` to namespace _(by Athan Reines)_
+-   [`4cf962b`](https://github.com/stdlib-js/stdlib/commit/4cf962bb62a3592651cead050e70604e455c7e0e) - **docs:** update description _(by Athan Reines)_
+-   [`7a6a5e4`](https://github.com/stdlib-js/stdlib/commit/7a6a5e4e4c81b1dc344794fcde3329cc54b4cf46) - **docs:** update description _(by Athan Reines)_
+-   [`6b8a994`](https://github.com/stdlib-js/stdlib/commit/6b8a9940761ea732babeae855d70d5452a877f19) - **docs:** update description and fix typo _(by Athan Reines)_
+-   [`efeb385`](https://github.com/stdlib-js/stdlib/commit/efeb385e6371ff99e0cf4cacb7084d43a75a95b7) - **feat:** add `blas/base/operation-sides` _(by Athan Reines)_
 -   [`561f98e`](https://github.com/stdlib-js/stdlib/commit/561f98ec00a05cb582b78515c759939eeaec006a) - **fix:** update include path and fix typo _(by Athan Reines)_
 -   [`3ade07d`](https://github.com/stdlib-js/stdlib/commit/3ade07de914000d25c817fa4069d51b9eb5d2d77) - **refactor:** use `blas/base/diagonal-types` enum values _(by Athan Reines)_
 -   [`38a9e4c`](https://github.com/stdlib-js/stdlib/commit/38a9e4cb046a114a11438b681437949e69b3cd75) - **feat:** add `diagonalTypes` to namespace _(by Athan Reines)_

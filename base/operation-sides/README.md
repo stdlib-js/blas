@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# Diagonal Element Types
+# Operation Sides
 
-> BLAS diagonal element types.
+> BLAS operation sides.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -37,22 +37,22 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var diagonalTypes = require( '@stdlib/blas/base/diagonal-types' );
+var operationSides = require( '@stdlib/blas/base/operation-sides' );
 ```
 
-#### diagonalTypes()
+#### operationSides()
 
-Returns a list of BLAS diagonal element types.
+Returns a list of BLAS operation sides.
 
 ```javascript
-var out = diagonalTypes();
-// e.g., returns [ 'non-unit', 'unit' ]
+var out = operationSides();
+// e.g., returns [ 'left', 'right' ]
 ```
 
 The output array contains the following types:
 
--   `non-unit`: elements along a diagonal are **not** all equal to one.
--   `unit`: elements along a diagonal are all equal to one.
+-   `left`: a triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix).
+-   `right`: a triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix)
 
 </section>
 
@@ -76,17 +76,17 @@ The output array contains the following types:
 
 ```javascript
 var contains = require( '@stdlib/array/base/assert/contains' ).factory;
-var diagonalTypes = require( '@stdlib/blas/base/diagonal-types' );
+var operationSides = require( '@stdlib/blas/base/operation-sides' );
 
-var isDiagonalType = contains( diagonalTypes() );
+var isOperationSide = contains( operationSides() );
 
-var bool = isDiagonalType( 'non-unit' );
+var bool = isOperationSide( 'right' );
 // returns true
 
-bool = isDiagonalType( 'unit' );
+bool = isOperationSide( 'left' );
 // returns true
 
-bool = isDiagonalType( 'beep' );
+bool = isOperationSide( 'beep' );
 // returns false
 ```
 
@@ -117,20 +117,20 @@ bool = isDiagonalType( 'beep' );
 ### Usage
 
 ```c
-#include "stdlib/blas/base/diagonal_types.h"
+#include "stdlib/blas/base/operation_sides.h"
 ```
 
-#### STDLIB_BLAS_DIAGONAL_TYPE
+#### STDLIB_BLAS_OPERATION_SIDE
 
-An enumeration of BLAS diagonal element types with the following fields:
+An enumeration of BLAS operation sides with the following fields:
 
--   **STDLIB_BLAS_NON_UNIT_DIAGONAL**: elements along a diagonal are **not** all equal to one.
--   **STDLIB_BLAS_UNIT_DIAGONAL**: elements along a diagonal are all equal to one.
+-   **STDLIB_BLAS_LEFT**: a triangular matrix is on the left side of a matrix-matrix operation (e.g., `XA = B`, where `A` is a triangular matrix).
+-   **STDLIB_BLAS_RIGHT**: a triangular matrix is on the right side of a matrix-matrix operation (e.g., `XA = B`, where `A` is a triangular matrix).
 
 ```c
-#include "stdlib/blas/base/diagonal_types.h"
+#include "stdlib/blas/base/operation_sides.h"
 
-const enum STDLIB_BLAS_DIAGONAL_TYPE v = STDLIB_BLAS_UNIT_DIAGONAL;
+const enum STDLIB_BLAS_OPERATION_SIDE v = STDLIB_BLAS_RIGHT;
 ```
 
 </section>
