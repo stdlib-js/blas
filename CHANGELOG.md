@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`df48448`](https://github.com/stdlib-js/stdlib/commit/df484486ee1dda67e3b5821a7531786992fd5837) - add `layoutResolveEnum` to namespace
+-   [`c533088`](https://github.com/stdlib-js/stdlib/commit/c533088d61f9a0d2b182dbe8d89329c9b625f27b) - add `layoutResolveStr` to namespace
 -   [`bd2b0a6`](https://github.com/stdlib-js/stdlib/commit/bd2b0a61e51e036f7f4044cd1ec16ec7736dbf84) - add `layoutEnum2Str` and `layoutStr2Enum` to namespace
 -   [`af7137c`](https://github.com/stdlib-js/stdlib/commit/af7137c73ecc48cf39309290403cfab9e485d2f5) - add `assert` to namespace
 -   [`44ccf84`](https://github.com/stdlib-js/stdlib/commit/44ccf84cda56714dd8624d1d3df130674b64e1dc) - add `matrixTriangles` to namespace
@@ -647,6 +649,50 @@ This release closes the following issue:
 ##### Features
 
 -   [`5d9a6c0`](https://github.com/stdlib-js/stdlib/commit/5d9a6c09fdc79952164cbe2869729d9dca8e1d36) - add `blas/base/layout-enum2str` and `blas/base/layout-str2enum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-layout-resolve-enum-unreleased">
+
+#### [@stdlib/blas/base/layout-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-resolve-enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4e6b7fd`](https://github.com/stdlib-js/stdlib/commit/4e6b7fdee8f3f217c6393c1c1043763377a8d6d5) - add `blas/base/layout-resolve-enum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-layout-resolve-str-unreleased">
+
+#### [@stdlib/blas/base/layout-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-resolve-str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`68df748`](https://github.com/stdlib-js/stdlib/commit/68df748067ae7176a3f12d3d2de20def0195ffd4) - add `blas/base/layout-resolve-str`
 
 </section>
 
@@ -1758,6 +1804,10 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`df48448`](https://github.com/stdlib-js/stdlib/commit/df484486ee1dda67e3b5821a7531786992fd5837) - **feat:** add `layoutResolveEnum` to namespace _(by Athan Reines)_
+-   [`4e6b7fd`](https://github.com/stdlib-js/stdlib/commit/4e6b7fdee8f3f217c6393c1c1043763377a8d6d5) - **feat:** add `blas/base/layout-resolve-enum` _(by Athan Reines)_
+-   [`c533088`](https://github.com/stdlib-js/stdlib/commit/c533088d61f9a0d2b182dbe8d89329c9b625f27b) - **feat:** add `layoutResolveStr` to namespace _(by Athan Reines)_
+-   [`68df748`](https://github.com/stdlib-js/stdlib/commit/68df748067ae7176a3f12d3d2de20def0195ffd4) - **feat:** add `blas/base/layout-resolve-str` _(by Athan Reines)_
 -   [`bd2b0a6`](https://github.com/stdlib-js/stdlib/commit/bd2b0a61e51e036f7f4044cd1ec16ec7736dbf84) - **feat:** add `layoutEnum2Str` and `layoutStr2Enum` to namespace _(by Athan Reines)_
 -   [`5d9a6c0`](https://github.com/stdlib-js/stdlib/commit/5d9a6c09fdc79952164cbe2869729d9dca8e1d36) - **feat:** add `blas/base/layout-enum2str` and `blas/base/layout-str2enum` _(by Athan Reines)_
 -   [`92564b0`](https://github.com/stdlib-js/stdlib/commit/92564b0633ff473785ceb4b14691a08a97dd62be) - **style:** fix indentation and rename files _(by Athan Reines)_
