@@ -109,6 +109,15 @@ setReadOnly( blas, 'dcopy', require( './../../base/dcopy' ) );
 setReadOnly( blas, 'ddot', require( './../../base/ddot' ) );
 
 /**
+* @name diagonalTypes
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/diagonal-types}
+*/
+setReadOnly( blas, 'diagonalTypes', require( './../../base/diagonal-types' ) );
+
+/**
 * @name dnrm2
 * @memberof blas
 * @readonly

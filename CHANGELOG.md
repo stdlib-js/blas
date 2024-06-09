@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`38a9e4c`](https://github.com/stdlib-js/stdlib/commit/38a9e4cb046a114a11438b681437949e69b3cd75) - add `diagonalTypes` to namespace
 -   [`31aa8db`](https://github.com/stdlib-js/stdlib/commit/31aa8dbfb2c0a722710adc8a399e703b224cadab) - add `transposeOperations` to namespace
 -   [`378240f`](https://github.com/stdlib-js/stdlib/commit/378240f1bb93253435f89aec4d5c7ce64eae4703) - update namespace
 
@@ -270,6 +271,38 @@
 ##### Bug Fixes
 
 -   [`5c514c7`](https://github.com/stdlib-js/stdlib/commit/5c514c7ad5828bc5047594ff001d11334f8f5670) - specify integer type to match CBLAS
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-diagonal-types-unreleased">
+
+#### [@stdlib/blas/base/diagonal-types](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-types)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`123f7f9`](https://github.com/stdlib-js/stdlib/commit/123f7f945a9154c7518c6c0837110e0712811b5f) - add `blas/base/diagonal-types`
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`561f98e`](https://github.com/stdlib-js/stdlib/commit/561f98ec00a05cb582b78515c759939eeaec006a) - update include path and fix typo
 
 </section>
 
@@ -620,6 +653,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`123f7f9`](https://github.com/stdlib-js/stdlib/commit/123f7f945a9154c7518c6c0837110e0712811b5f) - add `blas/base/diagonal-types`
 -   [`9174c02`](https://github.com/stdlib-js/stdlib/commit/9174c02e42ca651f8959fff0626ae8147a75ee09) - add `blas/base/shared`
 
 </section>
@@ -630,6 +664,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`561f98e`](https://github.com/stdlib-js/stdlib/commit/561f98ec00a05cb582b78515c759939eeaec006a) - update include path and fix typo
 -   [`258cc06`](https://github.com/stdlib-js/stdlib/commit/258cc060947be206b283ff4d066953dcebb0143f) - assign enum values to CBLAS compatible aliases
 -   [`0992fe2`](https://github.com/stdlib-js/stdlib/commit/0992fe22060cb8f860cfd9e8f590d4c7a83c7287) - replace semicolons with commas
 
@@ -1541,6 +1576,13 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`561f98e`](https://github.com/stdlib-js/stdlib/commit/561f98ec00a05cb582b78515c759939eeaec006a) - **fix:** update include path and fix typo _(by Athan Reines)_
+-   [`3ade07d`](https://github.com/stdlib-js/stdlib/commit/3ade07de914000d25c817fa4069d51b9eb5d2d77) - **refactor:** use `blas/base/diagonal-types` enum values _(by Athan Reines)_
+-   [`38a9e4c`](https://github.com/stdlib-js/stdlib/commit/38a9e4cb046a114a11438b681437949e69b3cd75) - **feat:** add `diagonalTypes` to namespace _(by Athan Reines)_
+-   [`123f7f9`](https://github.com/stdlib-js/stdlib/commit/123f7f945a9154c7518c6c0837110e0712811b5f) - **feat:** add `blas/base/diagonal-types` _(by Athan Reines)_
+-   [`bd7f7aa`](https://github.com/stdlib-js/stdlib/commit/bd7f7aa6ed8442e932138fa78bd558b9181292d9) - **docs:** update comments _(by Athan Reines)_
+-   [`ff6ede6`](https://github.com/stdlib-js/stdlib/commit/ff6ede65dec8b692212e539913f1dd863a73717b) - **docs:** update comments _(by Athan Reines)_
+-   [`486cccd`](https://github.com/stdlib-js/stdlib/commit/486cccdfb0b3b10879bdc68b89da0900d92cee58) - **refactor:** reorder includes _(by Athan Reines)_
 -   [`73cf5f1`](https://github.com/stdlib-js/stdlib/commit/73cf5f1bb0dba7e320518e6b530a98004ef86aef) - **refactor:** assign enum values to CBLAS compatible aliases _(by Athan Reines)_
 -   [`258cc06`](https://github.com/stdlib-js/stdlib/commit/258cc060947be206b283ff4d066953dcebb0143f) - **fix:** assign enum values to CBLAS compatible aliases _(by Athan Reines)_
 -   [`31aa8db`](https://github.com/stdlib-js/stdlib/commit/31aa8dbfb2c0a722710adc8a399e703b224cadab) - **feat:** add `transposeOperations` to namespace _(by Athan Reines)_

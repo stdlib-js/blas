@@ -19,11 +19,12 @@
 #ifndef STDLIB_BLAS_BASE_SHARED_CBLAS_H
 #define STDLIB_BLAS_BASE_SHARED_CBLAS_H
 
+#include "stdlib/blas/base/diagonal_types.h"
+#include "stdlib/blas/base/layouts.h"
+#include "stdlib/blas/base/transpose_operations.h"
 #include <stddef.h>
 #include <stdint.h>
 #include <inttypes.h>
-#include "stdlib/blas/base/orders.h"
-#include "stdlib/blas/base/transpose_operations.h"
 
 /*
 * If C++, prevent name mangling so that the compiler emits a binary file having undecorated names, thus mirroring the behavior of a C compiler.
@@ -89,35 +90,35 @@ typedef enum CBLAS_TRANSPOSE {
 } CBLAS_TRANSPOSE;
 #endif
 
-// Upper/lower triangular:
+// Upper/lower triangular part:
 #ifndef CBLAS_UPLO
 typedef enum CBLAS_UPLO {
-	// Upper triangular:
+	// Upper triangular part:
 	CblasUpper = 121,
 
-	// Lower triangular:
+	// Lower triangular part:
 	CblasLower = 122,
 } CBLAS_UPLO;
 #endif
 
-// Diagonal matrix:
+// Diagonal elements:
 #ifndef CBLAS_DIAG
 typedef enum CBLAS_DIAG {
-	// Non-unit:
-	CblasNonUnit = 131,
+	// Non-unit diagonal elements:
+	CblasNonUnit = STDLIB_BLAS_NON_UNIT_DIAGONAL,
 
-	// Unit:
-	CblasUnit = 132,
+	// Unit diagonal elements:
+	CblasUnit = STDLIB_BLAS_UNIT_DIAGONAL,
 } CBLAS_DIAG;
 #endif
 
 // Operation side:
 #ifndef CBLAS_SIDE
 typedef enum CBLAS_SIDE {
-	// Left-side:
+	// Triangular matrix is on the left side of a matrix-matrix operation (e.g., AX = B, where A is a triangular matrix):
 	CblasLeft = 141,
 
-	// Right-side:
+	// Triangular matrix is on the right side of a matrix-matrix operation (e.g., XA = B, where A is a triangular matrix):
 	CblasRight = 142,
 } CBLAS_SIDE;
 #endif
