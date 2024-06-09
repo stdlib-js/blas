@@ -10,6 +10,38 @@
 
 ### Packages
 
+<section class="package" id="blas-base-unreleased">
+
+#### [@stdlib/blas/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`378240f`](https://github.com/stdlib-js/stdlib/commit/378240f1bb93253435f89aec4d5c7ce64eae4703) - update namespace
+
+</section>
+
+<!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`0c3213e`](https://github.com/stdlib-js/stdlib/commit/0c3213e4e3219c0574d0c49e2486db1ac714c952) - rename `orders` to `layouts`
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-ccopy-unreleased">
 
 #### [@stdlib/blas/base/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ccopy)
@@ -469,6 +501,63 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-layouts-unreleased">
+
+#### [@stdlib/blas/base/layouts](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layouts)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9b31a8f`](https://github.com/stdlib-js/stdlib/commit/9b31a8f861f2777d60ef74323ca1ae6dfb1839ed) - add `blas/base/layouts`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-orders-unreleased">
+
+#### [@stdlib/blas/base/orders](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/orders)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fe1e973`](https://github.com/stdlib-js/stdlib/commit/fe1e97344bc14c85fc73126f0d0371ed07ecfa86) - add `blas/base/orders`
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders` 
+
+    -   To migrate, users should use `blas/base/layouts` and the
+    `STDLIB_BLAS_LAYOUT` enum.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1351,6 +1440,19 @@ This release closes the following issue:
 
 <!-- /.packages -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders` 
+
+    -   To migrate, users should use `blas/base/layouts` and the
+    `STDLIB_BLAS_LAYOUT` enum.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ### Closed Issues
@@ -1415,6 +1517,13 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7) - **remove:** delete `blas/base/orders` _(by Athan Reines)_
+-   [`c61cc17`](https://github.com/stdlib-js/stdlib/commit/c61cc17ca682a9dfe76246ab9dc852c0044c6cbf) - **refactor:** migrate to `blas/base/layouts` _(by Athan Reines)_
+-   [`0c3213e`](https://github.com/stdlib-js/stdlib/commit/0c3213e4e3219c0574d0c49e2486db1ac714c952) - **fix:** rename `orders` to `layouts` _(by Athan Reines)_
+-   [`9b31a8f`](https://github.com/stdlib-js/stdlib/commit/9b31a8f861f2777d60ef74323ca1ae6dfb1839ed) - **feat:** add `blas/base/layouts` _(by Athan Reines)_
+-   [`faf0744`](https://github.com/stdlib-js/stdlib/commit/faf0744fe424cd9a2c58e7aa98368555c8601d5c) - **refactor:** use enum definition in `blas/base/orders` _(by Athan Reines)_
+-   [`378240f`](https://github.com/stdlib-js/stdlib/commit/378240f1bb93253435f89aec4d5c7ce64eae4703) - **feat:** update namespace _(by Athan Reines)_
+-   [`fe1e973`](https://github.com/stdlib-js/stdlib/commit/fe1e97344bc14c85fc73126f0d0371ed07ecfa86) - **feat:** add `blas/base/orders` _(by Athan Reines)_
 -   [`aea56c1`](https://github.com/stdlib-js/stdlib/commit/aea56c1678b74530f651680c18ba28ff0f90f2d9) - **docs:** fix signature _(by Athan Reines)_
 -   [`b40f5c3`](https://github.com/stdlib-js/stdlib/commit/b40f5c33aaf2113c73f8f0811c8d1cdc9fbfde53) - **feat:** add `blas/base/cscal` [(#2104)](https://github.com/stdlib-js/stdlib/pull/2104) _(by Aman Bhansali, Athan Reines)_
 -   [`a4748fb`](https://github.com/stdlib-js/stdlib/commit/a4748fb7a658f89c268388389355ed87b5a06f84) - **feat:** add `blas/base/dcabs1` [(#2204)](https://github.com/stdlib-js/stdlib/pull/2204) _(by Aman Bhansali, Athan Reines)_

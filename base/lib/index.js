@@ -46,6 +46,15 @@ var blas = {};
 setReadOnly( blas, 'ccopy', require( './../../base/ccopy' ) );
 
 /**
+* @name cscal
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/cscal}
+*/
+setReadOnly( blas, 'cscal', require( './../../base/cscal' ) );
+
+/**
 * @name cswap
 * @memberof blas
 * @readonly
@@ -71,6 +80,15 @@ setReadOnly( blas, 'dasum', require( './../../base/dasum' ) );
 * @see {@link module:@stdlib/blas/base/daxpy}
 */
 setReadOnly( blas, 'daxpy', require( './../../base/daxpy' ) );
+
+/**
+* @name dcabs1
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/dcabs1}
+*/
+setReadOnly( blas, 'dcabs1', require( './../../base/dcabs1' ) );
 
 /**
 * @name dcopy
@@ -199,6 +217,33 @@ setReadOnly( blas, 'gscal', require( './../../base/gscal' ) );
 setReadOnly( blas, 'gswap', require( './../../base/gswap' ) );
 
 /**
+* @name idamax
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/idamax}
+*/
+setReadOnly( blas, 'idamax', require( './../../base/idamax' ) );
+
+/**
+* @name isamax
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/isamax}
+*/
+setReadOnly( blas, 'isamax', require( './../../base/isamax' ) );
+
+/**
+* @name layouts
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/layouts}
+*/
+setReadOnly( blas, 'layouts', require( './../../base/layouts' ) );
+
+/**
 * @name sasum
 * @memberof blas
 * @readonly
@@ -215,6 +260,15 @@ setReadOnly( blas, 'sasum', require( './../../base/sasum' ) );
 * @see {@link module:@stdlib/blas/base/saxpy}
 */
 setReadOnly( blas, 'saxpy', require( './../../base/saxpy' ) );
+
+/**
+* @name scabs1
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/scabs1}
+*/
+setReadOnly( blas, 'scabs1', require( './../../base/scabs1' ) );
 
 /**
 * @name scopy
@@ -278,6 +332,24 @@ setReadOnly( blas, 'sscal', require( './../../base/sscal' ) );
 * @see {@link module:@stdlib/blas/base/sswap}
 */
 setReadOnly( blas, 'sswap', require( './../../base/sswap' ) );
+
+/**
+* @name zcopy
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/zcopy}
+*/
+setReadOnly( blas, 'zcopy', require( './../../base/zcopy' ) );
+
+/**
+* @name zswap
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/zswap}
+*/
+setReadOnly( blas, 'zswap', require( './../../base/zswap' ) );
 
 
 // EXPORTS //

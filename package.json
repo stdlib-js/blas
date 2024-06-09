@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/array": "github:stdlib-js/array#main",
     "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/math": "github:stdlib-js/math#main",
     "@stdlib/napi": "github:stdlib-js/napi#main",
     "@stdlib/number": "github:stdlib-js/number#main",
@@ -48,7 +49,6 @@
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench#main",
-    "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
     "@stdlib/random": "github:stdlib-js/random#main",
