@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-08)
+## Unreleased (2024-06-09)
 
 <section class="packages">
 
@@ -1415,6 +1415,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`aea56c1`](https://github.com/stdlib-js/stdlib/commit/aea56c1678b74530f651680c18ba28ff0f90f2d9) - **docs:** fix signature _(by Athan Reines)_
 -   [`b40f5c3`](https://github.com/stdlib-js/stdlib/commit/b40f5c33aaf2113c73f8f0811c8d1cdc9fbfde53) - **feat:** add `blas/base/cscal` [(#2104)](https://github.com/stdlib-js/stdlib/pull/2104) _(by Aman Bhansali, Athan Reines)_
 -   [`a4748fb`](https://github.com/stdlib-js/stdlib/commit/a4748fb7a658f89c268388389355ed87b5a06f84) - **feat:** add `blas/base/dcabs1` [(#2204)](https://github.com/stdlib-js/stdlib/pull/2204) _(by Aman Bhansali, Athan Reines)_
 -   [`70864fa`](https://github.com/stdlib-js/stdlib/commit/70864faabdacdb25caa2a7ee75bd0fcc7ba478c9) - **feat:** add `blas/base/scabs1` [(#2209)](https://github.com/stdlib-js/stdlib/pull/2209) _(by Aman Bhansali, Athan Reines)_
