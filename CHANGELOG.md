@@ -1713,6 +1713,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`92564b0`](https://github.com/stdlib-js/stdlib/commit/92564b0633ff473785ceb4b14691a08a97dd62be) - **style:** fix indentation and rename files _(by Athan Reines)_
+-   [`5e6bc89`](https://github.com/stdlib-js/stdlib/commit/5e6bc8976dc934eeba7ff67b30a344ef4c33b559) - **style:** fix indentation _(by Athan Reines)_
 -   [`3719fcd`](https://github.com/stdlib-js/stdlib/commit/3719fcd56b28595b9b101f9767b0b6d965c9e426) - **feat:** add `isMatrixTriangle` to namespace _(by Athan Reines)_
 -   [`49464c6`](https://github.com/stdlib-js/stdlib/commit/49464c6b0dd287f92e145c73af1f601d000edd37) - **feat:** add `blas/base/assert/is-matrix-triangle` _(by Athan Reines)_
 -   [`926dcec`](https://github.com/stdlib-js/stdlib/commit/926dcecec6a4940ecd7ee57da5db924fadfa3edb) - **feat:** add `isTransposeOperation` to namespace _(by Athan Reines)_
