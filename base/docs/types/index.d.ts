@@ -20,12 +20,16 @@
 
 /* eslint-disable max-lines */
 
+import assert = require( './../../../base/assert' );
 import ccopy = require( './../../../base/ccopy' );
+import cscal = require( './../../../base/cscal' );
 import cswap = require( './../../../base/cswap' );
 import dasum = require( './../../../base/dasum' );
 import daxpy = require( './../../../base/daxpy' );
+import dcabs1 = require( './../../../base/dcabs1' );
 import dcopy = require( './../../../base/dcopy' );
 import ddot = require( './../../../base/ddot' );
+import diagonalTypes = require( './../../../base/diagonal-types' );
 import dnrm2 = require( './../../../base/dnrm2' );
 import drotg = require( './../../../base/drotg' );
 import dscal = require( './../../../base/dscal' );
@@ -38,8 +42,18 @@ import gdot = require( './../../../base/gdot' );
 import gnrm2 = require( './../../../base/gnrm2' );
 import gscal = require( './../../../base/gscal' );
 import gswap = require( './../../../base/gswap' );
+import idamax = require( './../../../base/idamax' );
+import isamax = require( './../../../base/isamax' );
+import layoutEnum2Str = require( './../../../base/layout-enum2str' );
+import layoutResolveEnum = require( './../../../base/layout-resolve-enum' );
+import layoutResolveStr = require( './../../../base/layout-resolve-str' );
+import layoutStr2Enum = require( './../../../base/layout-str2enum' );
+import layouts = require( './../../../base/layouts' );
+import matrixTriangles = require( './../../../base/matrix-triangles' );
+import operationSides = require( './../../../base/operation-sides' );
 import sasum = require( './../../../base/sasum' );
 import saxpy = require( './../../../base/saxpy' );
+import scabs1 = require( './../../../base/scabs1' );
 import scopy = require( './../../../base/scopy' );
 import sdot = require( './../../../base/sdot' );
 import sdsdot = require( './../../../base/sdsdot' );
@@ -47,11 +61,19 @@ import snrm2 = require( './../../../base/snrm2' );
 import srotg = require( './../../../base/srotg' );
 import sscal = require( './../../../base/sscal' );
 import sswap = require( './../../../base/sswap' );
+import transposeOperations = require( './../../../base/transpose-operations' );
+import zcopy = require( './../../../base/zcopy' );
+import zswap = require( './../../../base/zswap' );
 
 /**
 * Interface describing the `base` namespace.
 */
 interface Namespace {
+	/**
+	* Base BLAS assertion utilities.
+	*/
+	assert: typeof assert;
+
 	/**
 	* Copies values from one complex single-precision floating-point vector to another complex single-precision floating-point vector.
 	*
@@ -101,6 +123,57 @@ interface Namespace {
 	* // returns 2.0
 	*/
 	ccopy: typeof ccopy;
+
+	/**
+	* Scales a single-precision complex floating-point vector by a single-precision complex floating-point constant.
+	*
+	* @param N - number of indexed elements
+	* @param ca - scalar constant
+	* @param cx - input array
+	* @param strideX - `cx` stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	* var realf = require( '@stdlib/complex/realf' );
+	* var imagf = require( '@stdlib/complex/imagf' );
+	*
+	* var cx = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var ca = new Complex64( 2.0, 2.0 );
+	*
+	* ns.cscal( 3, ca, cx, 1 );
+	*
+	* var z = cx.get( 1 );
+	* // returns <Complex64>
+	*
+	* var re = realf( z );
+	* // returns -2.0
+	*
+	* var im = imagf( z );
+	* // returns 6.0
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	* var realf = require( '@stdlib/complex/realf' );
+	* var imagf = require( '@stdlib/complex/imagf' );
+	*
+	* var cx = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var ca = new Complex64( 2.0, 2.0 );
+	*
+	* ns.cscal.ndarray( 2, ca, cx, 1, 0 );
+	*
+	* var z = cx.get( 1 );
+	* // returns <Complex64>
+	*
+	* var re = realf( z );
+	* // returns -2.0
+	*
+	* var im = imagf( z );
+	* // returns 6.0
+	*/
+	cscal: typeof cscal;
 
 	/**
 	* Interchanges two complex single-precision floating-point vectors.
@@ -228,6 +301,20 @@ interface Namespace {
 	daxpy: typeof daxpy;
 
 	/**
+	* Computes the sum of the absolute values of the real and imaginary components of a double-precision complex floating-point number.
+	*
+	* @param z - complex number
+	* @returns result
+	*
+	* @example
+	* var Complex128 = require( '@stdlib/complex/float64' );
+	*
+	* var v = ns.dcabs1( new Complex128( 5.0, -3.0 ) );
+	* // returns 8.0
+	*/
+	dcabs1: typeof dcabs1;
+
+	/**
 	* Copies values from `x` into `y`.
 	*
 	* @param N - number of indexed elements
@@ -286,6 +373,17 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	ddot: typeof ddot;
+
+	/**
+	* Returns a list of diagonal element types.
+	*
+	* @returns list of diagonal element types
+	*
+	* @example
+	* var list = ns.diagonalTypes();
+	* // e.g., returns [ 'non-unit', 'unit' ]
+	*/
+	diagonalTypes: typeof diagonalTypes;
 
 	/**
 	* Computes the L2-norm of a double-precision floating-point vector.
@@ -600,6 +698,154 @@ interface Namespace {
 	gswap: typeof gswap;
 
 	/**
+	* Finds the index of the first element having the maximum absolute value.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @returns index value
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* var idx = ns.idamax( 4, x, 2 );
+	* // returns 2
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* var idx = ns.idamax.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	idamax: typeof idamax;
+
+	/**
+	* Finds the index of the first element having the maximum absolute value.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @returns index value
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* var idx = ns.isamax( 4, x, 2 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* var idx = ns.isamax.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	isamax: typeof isamax;
+
+	/**
+	* Returns the BLAS memory layout string associated with a BLAS memory layout enumeration constant.
+	*
+	* @param layout - enumeration constant
+	* @returns layout string
+	*
+	* @example
+	* var str2enum = require( './../../../base/layout-str2enum' );
+	*
+	* var v = str2enum( 'row-major' );
+	* // returns <number>
+	*
+	* var s = ns.layoutEnum2Str( v );
+	* // returns 'row-major'
+	*/
+	layoutEnum2Str: typeof layoutEnum2Str;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS memory layout value.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `ROW_MAJOR == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param layout - layout value
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.layoutResolveEnum( 'row-major' );
+	* // returns <number>
+	*/
+	layoutResolveEnum: typeof layoutResolveEnum;
+
+	/**
+	* Returns the layout string associated with a BLAS memory layout value.
+	*
+	* @param layout - layout value
+	* @returns layout string
+	*
+	* @example
+	* var str2enum = require( './../../../base/layout-str2enum' );
+	*
+	* var v = ns.layoutResolveStr( str2enum( 'row-major' ) );
+	* // returns 'row-major'
+	*/
+	layoutResolveStr: typeof layoutResolveStr;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS memory layout string.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `ROW_MAJOR == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param layout - memory layout string
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.layoutStr2Enum( 'row-major' );
+	* // returns <number>
+	*/
+	layoutStr2Enum: typeof layoutStr2Enum;
+
+	/**
+	* Returns a list of memory layouts.
+	*
+	* @returns list of memory layouts
+	*
+	* @example
+	* var list = ns.layouts();
+	* // e.g., returns [ 'row-major', 'column-major' ]
+	*/
+	layouts: typeof layouts;
+
+	/**
+	* Returns a list of matrix triangles.
+	*
+	* @returns list of matrix triangles
+	*
+	* @example
+	* var list = ns.matrixTriangles();
+	* // e.g., returns [ 'upper', 'lower' ]
+	*/
+	matrixTriangles: typeof matrixTriangles;
+
+	/**
+	* Returns a list of operation sides.
+	*
+	* @returns list of operation sides
+	*
+	* @example
+	* var list = ns.operationSides();
+	* // e.g., returns [ 'left', 'right' ]
+	*/
+	operationSides: typeof operationSides;
+
+	/**
 	* Computes the sum of the absolute values.
 	*
 	* @param N - number of indexed elements
@@ -655,6 +901,20 @@ interface Namespace {
 	* // y => <Float32Array>[ 6.0, 11.0, 16.0, 21.0, 26.0 ]
 	*/
 	saxpy: typeof saxpy;
+
+	/**
+	* Computes the sum of the absolute values of the real and imaginary components of a single-precision complex floating-point number.
+	*
+	* @param c - complex number
+	* @returns result
+	*
+	* @example
+	* var Complex64 = require( '@stdlib/complex/float3/ctor' );
+	*
+	* var v = ns.scabs1( new Complex64( 5.0, -3.0 ) );
+	* // returns 8.0
+	*/
+	scabs1: typeof scabs1;
 
 	/**
 	* Copies values from `x` into `y`.
@@ -854,6 +1114,135 @@ interface Namespace {
 	* // y => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0 ]
 	*/
 	sswap: typeof sswap;
+
+	/**
+	* Returns a list of transpose operations.
+	*
+	* @returns list of transpose operations
+	*
+	* @example
+	* var list = ns.transposeOperations();
+	* // e.g., returns [ 'none', 'transpose', 'conjugate-transpose' ]
+	*/
+	transposeOperations: typeof transposeOperations;
+
+	/**
+	* Copies values from one complex double-precision floating-point vector to another complex double-precision floating-point vector.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var real = require( '@stdlib/complex/real' );
+	* var imag = require( '@stdlib/complex/imag' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	*
+	* ns.zcopy( x.length, x, 1, y, 1 );
+	*
+	* var z = y.get( 0 );
+	* // returns <Complex128>
+	*
+	* var re = real( z );
+	* // returns 1.0
+	*
+	* var im = imag( z );
+	* // returns 2.0
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var real = require( '@stdlib/complex/real' );
+	* var imag = require( '@stdlib/complex/imag' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	*
+	* ns.zcopy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	*
+	* var z = y.get( 0 );
+	* // returns <Complex128>
+	*
+	* var re = real( z );
+	* // returns 1.0
+	*
+	* var im = imag( z );
+	* // returns 2.0
+	*/
+	zcopy: typeof zcopy;
+
+	/**
+	* Interchanges two complex double-precision floating-point vectors.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var real = require( '@stdlib/complex/real' );
+	* var imag = require( '@stdlib/complex/imag' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	*
+	* ns.zswap( x.length, x, 1, y, 1 );
+	*
+	* var z = y.get( 0 );
+	* // returns <Complex128>
+	*
+	* var re = real( z );
+	* // returns 1.0
+	*
+	* var im = imag( z );
+	* // returns 2.0
+	*
+	* z = x.get( 0 );
+	* // returns <Complex128>
+	*
+	* re = real( z );
+	* // returns 7.0
+	*
+	* im = imag( z );
+	* // returns 8.0
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var real = require( '@stdlib/complex/real' );
+	* var imag = require( '@stdlib/complex/imag' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	*
+	* ns.zswap.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	*
+	* var z = y.get( 0 );
+	* // returns <Complex128>
+	*
+	* var re = real( z );
+	* // returns 1.0
+	*
+	* var im = imag( z );
+	* // returns 2.0
+	*
+	* z = x.get( 0 );
+	* // returns <Complex128>
+	*
+	* re = real( z );
+	* // returns 7.0
+	*
+	* im = imag( z );
+	* // returns 8.0
+	*/
+	zswap: typeof zswap;
 }
 
 /**
