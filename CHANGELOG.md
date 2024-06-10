@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-09)
+## Unreleased (2024-06-10)
 
 <section class="packages">
 
@@ -1804,6 +1804,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`396d612`](https://github.com/stdlib-js/stdlib/commit/396d6128357346cafbc438d75d8797377ba4022f) - **docs:** update namespace table of contents [(##2348)](#2348 ) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`bd06c4d`](https://github.com/stdlib-js/stdlib/commit/bd06c4df34c340bb2a978cabfa6122bd00d44a56) - **refactor:** resolve storage layout enumeration constants _(by Athan Reines)_
 -   [`df48448`](https://github.com/stdlib-js/stdlib/commit/df484486ee1dda67e3b5821a7531786992fd5837) - **feat:** add `layoutResolveEnum` to namespace _(by Athan Reines)_
 -   [`4e6b7fd`](https://github.com/stdlib-js/stdlib/commit/4e6b7fdee8f3f217c6393c1c1043763377a8d6d5) - **feat:** add `blas/base/layout-resolve-enum` _(by Athan Reines)_
 -   [`c533088`](https://github.com/stdlib-js/stdlib/commit/c533088d61f9a0d2b182dbe8d89329c9b625f27b) - **feat:** add `layoutResolveStr` to namespace _(by Athan Reines)_
