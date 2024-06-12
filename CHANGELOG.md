@@ -1828,6 +1828,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ce25d7e`](https://github.com/stdlib-js/stdlib/commit/ce25d7e1233e6b0018df58d58d31a38d6c53c27c) - **docs:** fix examples [(#2360)](https://github.com/stdlib-js/stdlib/pull/2360) _(by stdlib-bot, Athan Reines)_
 -   [`143d842`](https://github.com/stdlib-js/stdlib/commit/143d8420e7022c8464594a837831582096771a4d) - **docs:** fix examples _(by Athan Reines)_
 -   [`76e73a5`](https://github.com/stdlib-js/stdlib/commit/76e73a51987ac45b78b3f5011806c57ca33c1951) - **feat:** add `blas/base/zscal` [(#2253)](https://github.com/stdlib-js/stdlib/pull/2253) _(by Aman Bhansali, Athan Reines)_
 -   [`b8bd516`](https://github.com/stdlib-js/stdlib/commit/b8bd51687cabdda74299cb37b9a5527fddd35aaa) - **feat:** update namespace TypeScript declarations [(##2351)](#2351) _(by stdlib-bot, Philipp Burckhardt)_
