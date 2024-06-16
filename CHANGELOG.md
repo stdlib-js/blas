@@ -1968,6 +1968,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`fb8d458`](https://github.com/stdlib-js/stdlib/commit/fb8d458e12ae4cf0d443e04debf72b4ea764de56) - **docs:** update namespace table of contents [(#2383)](https://github.com/stdlib-js/stdlib/pull/2383) _(by stdlib-bot, Athan Reines)_
 -   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - **feat:** update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381) _(by stdlib-bot, Athan Reines)_
 -   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - **feat:** add `transposeOperationResolveStr` to namespace _(by Athan Reines)_
 -   [`d62dd8c`](https://github.com/stdlib-js/stdlib/commit/d62dd8cc70527215253e242624afe900593117b8) - **feat:** add `blas/base/transpose-operation-resolve-str` _(by Athan Reines)_
