@@ -20,6 +20,8 @@
 
 ##### Features
 
+-   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - add `transposeOperationResolveStr` to namespace
+-   [`8ca3745`](https://github.com/stdlib-js/stdlib/commit/8ca374503c82fefe69dfc281ad10a4a9d1d733a3) - add `transposeOperationResolveEnum` to namespace
 -   [`7ae7d15`](https://github.com/stdlib-js/stdlib/commit/7ae7d158f1f467abc1a42491f2acdfdae83ad520) - add `transposeOperationStr2Enum` to namespace
 -   [`3466408`](https://github.com/stdlib-js/stdlib/commit/346640810621a54a70b8f6e175ebce2098d8a736) - add `transposeOperationEnum2Str` to namespace
 -   [`b8bd516`](https://github.com/stdlib-js/stdlib/commit/b8bd51687cabdda74299cb37b9a5527fddd35aaa) - update namespace TypeScript declarations [(##2351)](#2351)
@@ -1012,6 +1014,50 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-transpose-operation-resolve-enum-unreleased">
+
+#### [@stdlib/blas/base/transpose-operation-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-resolve-enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f493d51`](https://github.com/stdlib-js/stdlib/commit/f493d512c7a4e5b3f3410266ea44f08bd47f7bde) - add `blas/base/transpose-operation-resolve-enum`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-transpose-operation-resolve-str-unreleased">
+
+#### [@stdlib/blas/base/transpose-operation-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-resolve-str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d62dd8c`](https://github.com/stdlib-js/stdlib/commit/d62dd8cc70527215253e242624afe900593117b8) - add `blas/base/transpose-operation-resolve-str`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-transpose-operation-str2enum-unreleased">
 
 #### [@stdlib/blas/base/transpose-operation-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-str2enum)
@@ -1920,6 +1966,11 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - **feat:** add `transposeOperationResolveStr` to namespace _(by Athan Reines)_
+-   [`d62dd8c`](https://github.com/stdlib-js/stdlib/commit/d62dd8cc70527215253e242624afe900593117b8) - **feat:** add `blas/base/transpose-operation-resolve-str` _(by Athan Reines)_
+-   [`f054659`](https://github.com/stdlib-js/stdlib/commit/f054659fb9a7cdc86e6b77031dac2243422881b5) - **docs:** fix parameter name _(by Athan Reines)_
+-   [`8ca3745`](https://github.com/stdlib-js/stdlib/commit/8ca374503c82fefe69dfc281ad10a4a9d1d733a3) - **feat:** add `transposeOperationResolveEnum` to namespace _(by Athan Reines)_
+-   [`f493d51`](https://github.com/stdlib-js/stdlib/commit/f493d512c7a4e5b3f3410266ea44f08bd47f7bde) - **feat:** add `blas/base/transpose-operation-resolve-enum` _(by Athan Reines)_
 -   [`7ae7d15`](https://github.com/stdlib-js/stdlib/commit/7ae7d158f1f467abc1a42491f2acdfdae83ad520) - **feat:** add `transposeOperationStr2Enum` to namespace _(by Athan Reines)_
 -   [`3466408`](https://github.com/stdlib-js/stdlib/commit/346640810621a54a70b8f6e175ebce2098d8a736) - **feat:** add `transposeOperationEnum2Str` to namespace _(by Athan Reines)_
 -   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - **feat:** add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum` _(by Athan Reines)_

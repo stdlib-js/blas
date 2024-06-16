@@ -415,6 +415,24 @@ setReadOnly( blas, 'sswap', require( './../../base/sswap' ) );
 setReadOnly( blas, 'transposeOperationEnum2Str', require( './../../base/transpose-operation-enum2str' ) );
 
 /**
+* @name transposeOperationResolveEnum
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/transpose-operation-resolve-enum}
+*/
+setReadOnly( blas, 'transposeOperationResolveEnum', require( './../../base/transpose-operation-resolve-enum' ) );
+
+/**
+* @name transposeOperationResolveStr
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/transpose-operation-resolve-str}
+*/
+setReadOnly( blas, 'transposeOperationResolveStr', require( './../../base/transpose-operation-resolve-str' ) );
+
+/**
 * @name transposeOperationStr2Enum
 * @memberof blas
 * @readonly

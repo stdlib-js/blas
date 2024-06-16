@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# str2enum
+# resolve
 
-> Return the enumeration constant associated with a BLAS transpose operation.
+> Return the enumeration constant associated with a supported BLAS transpose operation value.
 
 <!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
 
@@ -37,22 +37,27 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var str2enum = require( '@stdlib/blas/base/transpose-operation-str2enum' );
+var resolve = require( '@stdlib/blas/base/transpose-operation-resolve-enum' );
 ```
 
-#### str2enum( operation )
+#### resolve( operation )
 
-Return the enumeration constant associated with a BLAS transpose operation.
+Returns the enumeration constant associated with a BLAS transpose operation value.
 
 ```javascript
-var v = str2enum( 'transpose' );
+var str2enum = require( '@stdlib/blas/base/transpose-operation-str2enum' );
+
+var v = resolve( 'conjugate-transpose' );
+// returns <number>
+
+v = resolve( str2enum( 'conjugate-transpose' ) );
 // returns <number>
 ```
 
 If unable to resolve an enumeration constant, the function returns `null`.
 
 ```javascript
-var v = str2enum( 'beep' );
+var v = resolve( 'beep' );
 // returns null
 ```
 
@@ -81,12 +86,12 @@ var v = str2enum( 'beep' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var str2enum = require( '@stdlib/blas/base/transpose-operation-str2enum' );
+var resolve = require( '@stdlib/blas/base/transpose-operation-resolve-enum' );
 
-var v = str2enum( 'transpose' );
+var v = resolve( 'conjugate-transpose' );
 // returns <number>
 
-v = str2enum( 'conjugate-transpose' );
+v = resolve( 'transpose' );
 // returns <number>
 ```
 
