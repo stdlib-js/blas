@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381)
 -   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - add `transposeOperationResolveStr` to namespace
 -   [`8ca3745`](https://github.com/stdlib-js/stdlib/commit/8ca374503c82fefe69dfc281ad10a4a9d1d733a3) - add `transposeOperationResolveEnum` to namespace
 -   [`7ae7d15`](https://github.com/stdlib-js/stdlib/commit/7ae7d158f1f467abc1a42491f2acdfdae83ad520) - add `transposeOperationStr2Enum` to namespace
@@ -65,6 +66,7 @@
 
 ##### Features
 
+-   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381)
 -   [`8741f9c`](https://github.com/stdlib-js/stdlib/commit/8741f9ce65e3aefe3d4b1aca6d3be765f44c6f16) - add `isOperationSide` to namespace
 -   [`901d732`](https://github.com/stdlib-js/stdlib/commit/901d732e5f564d696ddfe87481eecd98d5bcf967) - add `isDiagonalType` to namespace
 -   [`b8bd516`](https://github.com/stdlib-js/stdlib/commit/b8bd51687cabdda74299cb37b9a5527fddd35aaa) - update namespace TypeScript declarations [(##2351)](#2351)
@@ -1966,6 +1968,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - **feat:** update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381) _(by stdlib-bot, Athan Reines)_
 -   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - **feat:** add `transposeOperationResolveStr` to namespace _(by Athan Reines)_
 -   [`d62dd8c`](https://github.com/stdlib-js/stdlib/commit/d62dd8cc70527215253e242624afe900593117b8) - **feat:** add `blas/base/transpose-operation-resolve-str` _(by Athan Reines)_
 -   [`f054659`](https://github.com/stdlib-js/stdlib/commit/f054659fb9a7cdc86e6b77031dac2243422881b5) - **docs:** fix parameter name _(by Athan Reines)_

@@ -61,6 +61,10 @@ import snrm2 = require( './../../../base/snrm2' );
 import srotg = require( './../../../base/srotg' );
 import sscal = require( './../../../base/sscal' );
 import sswap = require( './../../../base/sswap' );
+import transposeOperationEnum2Str = require( './../../../base/transpose-operation-enum2str' );
+import transposeOperationResolveEnum = require( './../../../base/transpose-operation-resolve-enum' );
+import transposeOperationResolveStr = require( './../../../base/transpose-operation-resolve-str' );
+import transposeOperationStr2Enum = require( './../../../base/transpose-operation-str2enum' );
 import transposeOperations = require( './../../../base/transpose-operations' );
 import zcopy = require( './../../../base/zcopy' );
 import zswap = require( './../../../base/zswap' );
@@ -1114,6 +1118,69 @@ interface Namespace {
 	* // y => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0 ]
 	*/
 	sswap: typeof sswap;
+
+	/**
+	* Returns the BLAS transpose operation string associated with a BLAS transpose operation enumeration constant.
+	*
+	* @param operation - enumeration constant
+	* @returns operation string
+	*
+	* @example
+	* var str2enum = require( './../../../base/transpose-operation-str2enum' );
+	*
+	* var v = str2enum( 'transpose' );
+	* // returns <number>
+	*
+	* var s = ns.transposeOperationEnum2Str( v );
+	* // returns 'transpose'
+	*/
+	transposeOperationEnum2Str: typeof transposeOperationEnum2Str;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS transpose operation value.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `TRANSPOSE == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param operation - operation value
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.transposeOperationResolveEnum( 'conjugate-transpose' );
+	* // returns <number>
+	*/
+	transposeOperationResolveEnum: typeof transposeOperationResolveEnum;
+
+	/**
+	* Returns the transpose operation string associated with a BLAS transpose operation value.
+	*
+	* @param operation - operation value
+	* @returns transpose operation string
+	*
+	* @example
+	* var str2enum = require( './../../../base/transpose-operation-str2enum' );
+	*
+	* var v = ns.transposeOperationResolveStr( str2enum( 'transpose' ) );
+	* // returns 'transpose'
+	*/
+	transposeOperationResolveStr: typeof transposeOperationResolveStr;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS transpose operation.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `TRANSPOSE == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param operation - transpose operation
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.transposeOperationStr2Enum( 'transpose' );
+	* // returns <number>
+	*/
+	transposeOperationStr2Enum: typeof transposeOperationStr2Enum;
 
 	/**
 	* Returns a list of transpose operations.
