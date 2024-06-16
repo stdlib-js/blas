@@ -406,6 +406,24 @@ setReadOnly( blas, 'sscal', require( './../../base/sscal' ) );
 setReadOnly( blas, 'sswap', require( './../../base/sswap' ) );
 
 /**
+* @name transposeOperationEnum2Str
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/transpose-operation-enum2str}
+*/
+setReadOnly( blas, 'transposeOperationEnum2Str', require( './../../base/transpose-operation-enum2str' ) );
+
+/**
+* @name transposeOperationStr2Enum
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/transpose-operation-str2enum}
+*/
+setReadOnly( blas, 'transposeOperationStr2Enum', require( './../../base/transpose-operation-str2enum' ) );
+
+/**
 * @name transposeOperations
 * @memberof blas
 * @readonly
