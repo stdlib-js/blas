@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-16)
+## Unreleased (2024-06-22)
 
 <section class="packages">
 
@@ -925,6 +925,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-scnrm2-unreleased">
+
+#### [@stdlib/blas/base/scnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scnrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c49ba29`](https://github.com/stdlib-js/stdlib/commit/c49ba291cbed0449d7a7e21a32d3d0e9498f74ec) - add `blas/base/scnrm2` [(#2270)](https://github.com/stdlib-js/stdlib/pull/2270)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-shared-unreleased">
 
 #### [@stdlib/blas/base/shared](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/shared)
@@ -987,6 +1009,50 @@ This release closes the following issue:
 </section>
 
 <!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sspmv-unreleased">
+
+#### [@stdlib/blas/base/sspmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspmv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f73aeb5`](https://github.com/stdlib-js/stdlib/commit/f73aeb5549179b68269aeedde9c9b2a5351da320) - add `blas/base/sspmv` [(#2414)](https://github.com/stdlib-js/stdlib/pull/2414)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-ssymv-unreleased">
+
+#### [@stdlib/blas/base/ssymv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssymv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`62744b5`](https://github.com/stdlib-js/stdlib/commit/62744b5bd1fc7a9502d527be5ff3239f0491e05c) - add `blas/base/ssymv` [(#2305)](https://github.com/stdlib-js/stdlib/pull/2305)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1968,6 +2034,9 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c49ba29`](https://github.com/stdlib-js/stdlib/commit/c49ba291cbed0449d7a7e21a32d3d0e9498f74ec) - **feat:** add `blas/base/scnrm2` [(#2270)](https://github.com/stdlib-js/stdlib/pull/2270) _(by Aman Bhansali, Athan Reines)_
+-   [`f73aeb5`](https://github.com/stdlib-js/stdlib/commit/f73aeb5549179b68269aeedde9c9b2a5351da320) - **feat:** add `blas/base/sspmv` [(#2414)](https://github.com/stdlib-js/stdlib/pull/2414) _(by Aman Bhansali, Athan Reines)_
+-   [`62744b5`](https://github.com/stdlib-js/stdlib/commit/62744b5bd1fc7a9502d527be5ff3239f0491e05c) - **feat:** add `blas/base/ssymv` [(#2305)](https://github.com/stdlib-js/stdlib/pull/2305) _(by Aman Bhansali, Athan Reines)_
 -   [`fb8d458`](https://github.com/stdlib-js/stdlib/commit/fb8d458e12ae4cf0d443e04debf72b4ea764de56) - **docs:** update namespace table of contents [(#2383)](https://github.com/stdlib-js/stdlib/pull/2383) _(by stdlib-bot, Athan Reines)_
 -   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - **feat:** update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381) _(by stdlib-bot, Athan Reines)_
 -   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - **feat:** add `transposeOperationResolveStr` to namespace _(by Athan Reines)_
