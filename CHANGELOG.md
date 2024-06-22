@@ -1016,6 +1016,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-srotm-unreleased">
+
+#### [@stdlib/blas/base/srotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ad36a03`](https://github.com/stdlib-js/stdlib/commit/ad36a034d88d65ae6a68a4f79122f5867c02c596) - add `blas/base/srotm` [(#2267)](https://github.com/stdlib-js/stdlib/pull/2267)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sspmv-unreleased">
 
 #### [@stdlib/blas/base/sspmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspmv)
@@ -2034,6 +2056,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ad36a03`](https://github.com/stdlib-js/stdlib/commit/ad36a034d88d65ae6a68a4f79122f5867c02c596) - **feat:** add `blas/base/srotm` [(#2267)](https://github.com/stdlib-js/stdlib/pull/2267) _(by Aman Bhansali, Athan Reines)_
 -   [`c49ba29`](https://github.com/stdlib-js/stdlib/commit/c49ba291cbed0449d7a7e21a32d3d0e9498f74ec) - **feat:** add `blas/base/scnrm2` [(#2270)](https://github.com/stdlib-js/stdlib/pull/2270) _(by Aman Bhansali, Athan Reines)_
 -   [`f73aeb5`](https://github.com/stdlib-js/stdlib/commit/f73aeb5549179b68269aeedde9c9b2a5351da320) - **feat:** add `blas/base/sspmv` [(#2414)](https://github.com/stdlib-js/stdlib/pull/2414) _(by Aman Bhansali, Athan Reines)_
 -   [`62744b5`](https://github.com/stdlib-js/stdlib/commit/62744b5bd1fc7a9502d527be5ff3239f0491e05c) - **feat:** add `blas/base/ssymv` [(#2305)](https://github.com/stdlib-js/stdlib/pull/2305) _(by Aman Bhansali, Athan Reines)_
