@@ -2089,6 +2089,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d8b6e5a`](https://github.com/stdlib-js/stdlib/commit/d8b6e5a1d6841b05d1af0dfc627be38bb25f9cf1) - **test:** add test cases to `blas/base/drotm` [(#2454)](https://github.com/stdlib-js/stdlib/pull/2454) _(by Aman Bhansali)_
 -   [`4d45aa2`](https://github.com/stdlib-js/stdlib/commit/4d45aa236afedd4bf2bcda0d444dc81bd8915a45) - **test:** add test cases to `blas/base/srotm` [(#2455)](https://github.com/stdlib-js/stdlib/pull/2455) _(by Aman Bhansali)_
 -   [`e87d921`](https://github.com/stdlib-js/stdlib/commit/e87d921d5c2b73b2cd3bf7cd78ff503bd2fd49d7) - **refactor:** update `blas/ext/base/dsort2hp` to follow current project conventions _(by Jaimin Godhani, Athan Reines, Philipp Burckhardt)_
 -   [`51608dc`](https://github.com/stdlib-js/stdlib/commit/51608dce38bc73594242644c3b732c37ed3dfbe8) - **feat:** add `blas/base/drotm` [(#2266)](https://github.com/stdlib-js/stdlib/pull/2266) _(by Aman Bhansali, Athan Reines)_
