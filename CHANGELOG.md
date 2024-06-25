@@ -541,6 +541,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-drotm-unreleased">
+
+#### [@stdlib/blas/base/drotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`51608dc`](https://github.com/stdlib-js/stdlib/commit/51608dce38bc73594242644c3b732c37ed3dfbe8) - add `blas/base/drotm` [(#2266)](https://github.com/stdlib-js/stdlib/pull/2266)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dscal-unreleased">
 
 #### [@stdlib/blas/base/dscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dscal)
@@ -2067,6 +2089,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`51608dc`](https://github.com/stdlib-js/stdlib/commit/51608dce38bc73594242644c3b732c37ed3dfbe8) - **feat:** add `blas/base/drotm` [(#2266)](https://github.com/stdlib-js/stdlib/pull/2266) _(by Aman Bhansali, Athan Reines)_
 -   [`9de1979`](https://github.com/stdlib-js/stdlib/commit/9de1979e01566cdb52a8d7667fedd7418871e130) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`15ea69b`](https://github.com/stdlib-js/stdlib/commit/15ea69be968a9dbc98310ad06a79f53759841ffc) - **fix:** update C examples and description for `blas/base/srotm` [(#2448)](https://github.com/stdlib-js/stdlib/pull/2448) _(by Aman Bhansali)_
 -   [`1c95092`](https://github.com/stdlib-js/stdlib/commit/1c950922dbe073c352ceec63a25b3d6972f9d668) - **fix:** perform float32 emulation in `blas/base/srotm` [(#2445)](https://github.com/stdlib-js/stdlib/pull/2445) _(by Aman Bhansali)_
