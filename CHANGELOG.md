@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-25)
+## Unreleased (2024-06-27)
 
 <section class="packages">
 
@@ -962,6 +962,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`6b0d3fc`](https://github.com/stdlib-js/stdlib/commit/6b0d3fc30e73190cbf953f636e1eb39b02e7260e) - update paths, descriptions, and examples [(#2457)](https://github.com/stdlib-js/stdlib/pull/2457)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -2089,6 +2099,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6b0d3fc`](https://github.com/stdlib-js/stdlib/commit/6b0d3fc30e73190cbf953f636e1eb39b02e7260e) - **fix:** update paths, descriptions, and examples [(#2457)](https://github.com/stdlib-js/stdlib/pull/2457) _(by Aman Bhansali)_
 -   [`d8b6e5a`](https://github.com/stdlib-js/stdlib/commit/d8b6e5a1d6841b05d1af0dfc627be38bb25f9cf1) - **test:** add test cases to `blas/base/drotm` [(#2454)](https://github.com/stdlib-js/stdlib/pull/2454) _(by Aman Bhansali)_
 -   [`4d45aa2`](https://github.com/stdlib-js/stdlib/commit/4d45aa236afedd4bf2bcda0d444dc81bd8915a45) - **test:** add test cases to `blas/base/srotm` [(#2455)](https://github.com/stdlib-js/stdlib/pull/2455) _(by Aman Bhansali)_
 -   [`e87d921`](https://github.com/stdlib-js/stdlib/commit/e87d921d5c2b73b2cd3bf7cd78ff503bd2fd49d7) - **refactor:** update `blas/ext/base/dsort2hp` to follow current project conventions _(by Jaimin Godhani, Athan Reines, Philipp Burckhardt)_
