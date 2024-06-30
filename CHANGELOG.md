@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-27)
+## Unreleased (2024-06-30)
 
 <section class="packages">
 
@@ -627,6 +627,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dspmv-unreleased">
+
+#### [@stdlib/blas/base/dspmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dspmv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ca56638`](https://github.com/stdlib-js/stdlib/commit/ca566387ddc147c4f15fd012a09bd55713307394) - add `blas/base/dspmv` [(#2456)](https://github.com/stdlib-js/stdlib/pull/2456)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dswap-unreleased">
 
 #### [@stdlib/blas/base/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dswap)
@@ -652,6 +674,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dsymv-unreleased">
+
+#### [@stdlib/blas/base/dsymv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsymv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4c95c4b`](https://github.com/stdlib-js/stdlib/commit/4c95c4b36797d601976e647baf2f4a493aff8de5) - add `blas/base/dsymv` [(#2458)](https://github.com/stdlib-js/stdlib/pull/2458)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2099,6 +2143,9 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a591e05`](https://github.com/stdlib-js/stdlib/commit/a591e052cf1b1515c267781b914c6a482e150425) - **test:** fix test configuration _(by Athan Reines)_
+-   [`ca56638`](https://github.com/stdlib-js/stdlib/commit/ca566387ddc147c4f15fd012a09bd55713307394) - **feat:** add `blas/base/dspmv` [(#2456)](https://github.com/stdlib-js/stdlib/pull/2456) _(by Aman Bhansali, Athan Reines)_
+-   [`4c95c4b`](https://github.com/stdlib-js/stdlib/commit/4c95c4b36797d601976e647baf2f4a493aff8de5) - **feat:** add `blas/base/dsymv` [(#2458)](https://github.com/stdlib-js/stdlib/pull/2458) _(by Aman Bhansali, Athan Reines)_
 -   [`6b0d3fc`](https://github.com/stdlib-js/stdlib/commit/6b0d3fc30e73190cbf953f636e1eb39b02e7260e) - **fix:** update paths, descriptions, and examples [(#2457)](https://github.com/stdlib-js/stdlib/pull/2457) _(by Aman Bhansali)_
 -   [`d8b6e5a`](https://github.com/stdlib-js/stdlib/commit/d8b6e5a1d6841b05d1af0dfc627be38bb25f9cf1) - **test:** add test cases to `blas/base/drotm` [(#2454)](https://github.com/stdlib-js/stdlib/pull/2454) _(by Aman Bhansali)_
 -   [`4d45aa2`](https://github.com/stdlib-js/stdlib/commit/4d45aa236afedd4bf2bcda0d444dc81bd8915a45) - **test:** add test cases to `blas/base/srotm` [(#2455)](https://github.com/stdlib-js/stdlib/pull/2455) _(by Aman Bhansali)_
