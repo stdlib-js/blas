@@ -2143,6 +2143,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c3895df`](https://github.com/stdlib-js/stdlib/commit/c3895df672126473f5803e93b529bcdd0775c75a) - **refactor:** use utility to resolve an index offset _(by Athan Reines)_
+-   [`1654659`](https://github.com/stdlib-js/stdlib/commit/1654659445a6dee281706379770c9cb0498c36c7) - **refactor:** update implementation to reduce code duplication [(#2480)](https://github.com/stdlib-js/stdlib/pull/2480) _(by Aman Bhansali, Athan Reines)_
 -   [`4d08374`](https://github.com/stdlib-js/stdlib/commit/4d0837401b68ebd4e5b8c38e0214158dbe410a07) - **refactor:** reduce code duplication [(#2479)](https://github.com/stdlib-js/stdlib/pull/2479) _(by Aman Bhansali, Athan Reines)_
 -   [`a591e05`](https://github.com/stdlib-js/stdlib/commit/a591e052cf1b1515c267781b914c6a482e150425) - **test:** fix test configuration _(by Athan Reines)_
 -   [`ca56638`](https://github.com/stdlib-js/stdlib/commit/ca566387ddc147c4f15fd012a09bd55713307394) - **feat:** add `blas/base/dspmv` [(#2456)](https://github.com/stdlib-js/stdlib/pull/2456) _(by Aman Bhansali, Athan Reines)_
