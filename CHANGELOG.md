@@ -1033,6 +1033,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`8248b4a`](https://github.com/stdlib-js/stdlib/commit/8248b4a4c72d7a981a72075583561b98646c8068) - add macro to convert a stride to an index offset
 -   [`123f7f9`](https://github.com/stdlib-js/stdlib/commit/123f7f945a9154c7518c6c0837110e0712811b5f) - add `blas/base/diagonal-types`
 -   [`9174c02`](https://github.com/stdlib-js/stdlib/commit/9174c02e42ca651f8959fff0626ae8147a75ee09) - add `blas/base/shared`
 
@@ -2143,6 +2144,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5418177`](https://github.com/stdlib-js/stdlib/commit/5418177d92f26a6d99bd53d19713f2fa0d536b27) - **refactor:** use macro to convert stride to offset _(by Athan Reines)_
+-   [`8248b4a`](https://github.com/stdlib-js/stdlib/commit/8248b4a4c72d7a981a72075583561b98646c8068) - **feat:** add macro to convert a stride to an index offset _(by Athan Reines)_
 -   [`c3895df`](https://github.com/stdlib-js/stdlib/commit/c3895df672126473f5803e93b529bcdd0775c75a) - **refactor:** use utility to resolve an index offset _(by Athan Reines)_
 -   [`1654659`](https://github.com/stdlib-js/stdlib/commit/1654659445a6dee281706379770c9cb0498c36c7) - **refactor:** update implementation to reduce code duplication [(#2480)](https://github.com/stdlib-js/stdlib/pull/2480) _(by Aman Bhansali, Athan Reines)_
 -   [`4d08374`](https://github.com/stdlib-js/stdlib/commit/4d0837401b68ebd4e5b8c38e0214158dbe410a07) - **refactor:** reduce code duplication [(#2479)](https://github.com/stdlib-js/stdlib/pull/2479) _(by Aman Bhansali, Athan Reines)_
