@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-30)
+## Unreleased (2024-07-01)
 
 <section class="packages">
 
@@ -2143,6 +2143,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4d08374`](https://github.com/stdlib-js/stdlib/commit/4d0837401b68ebd4e5b8c38e0214158dbe410a07) - **refactor:** reduce code duplication [(#2479)](https://github.com/stdlib-js/stdlib/pull/2479) _(by Aman Bhansali, Athan Reines)_
 -   [`a591e05`](https://github.com/stdlib-js/stdlib/commit/a591e052cf1b1515c267781b914c6a482e150425) - **test:** fix test configuration _(by Athan Reines)_
 -   [`ca56638`](https://github.com/stdlib-js/stdlib/commit/ca566387ddc147c4f15fd012a09bd55713307394) - **feat:** add `blas/base/dspmv` [(#2456)](https://github.com/stdlib-js/stdlib/pull/2456) _(by Aman Bhansali, Athan Reines)_
 -   [`4c95c4b`](https://github.com/stdlib-js/stdlib/commit/4c95c4b36797d601976e647baf2f4a493aff8de5) - **feat:** add `blas/base/dsymv` [(#2458)](https://github.com/stdlib-js/stdlib/pull/2458) _(by Aman Bhansali, Athan Reines)_
