@@ -432,6 +432,94 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-diagonal-type-enum2str-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-enum2str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-diagonal-type-resolve-enum-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-resolve-enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-diagonal-type-resolve-str-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-resolve-str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-diagonal-type-str2enum-unreleased">
+
+#### [@stdlib/blas/base/diagonal-type-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-str2enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-diagonal-types-unreleased">
 
 #### [@stdlib/blas/base/diagonal-types](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-types)
@@ -2301,6 +2389,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - **feat:** add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498) _(by Pranav Goswami, Athan Reines)_
 -   [`04b3803`](https://github.com/stdlib-js/stdlib/commit/04b3803f90e84a700d42da7c1f0117b4676b2040) - **feat:** add `blas/base/operation-side-*` utilities [(#2499)](https://github.com/stdlib-js/stdlib/pull/2499) _(by Pranav Goswami, Athan Reines)_
 -   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - **feat:** add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495) _(by Pranav Goswami, Athan Reines)_
 -   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a) - **feat:** add support for specifying the index offset for `AP` _(by Athan Reines)_
