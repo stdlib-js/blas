@@ -995,6 +995,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-matrix-triangle-resolve-str-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangle-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-resolve-str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`50316e4`](https://github.com/stdlib-js/stdlib/commit/50316e43a7f59092f56aebcd2acfa815871ae3bf) - add `blas/base/matrix-triangle-resolve-str` [(#2496)](https://github.com/stdlib-js/stdlib/pull/2496)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-matrix-triangle-str2enum-unreleased">
 
 #### [@stdlib/blas/base/matrix-triangle-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-str2enum)
@@ -2389,6 +2411,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`50316e4`](https://github.com/stdlib-js/stdlib/commit/50316e43a7f59092f56aebcd2acfa815871ae3bf) - **feat:** add `blas/base/matrix-triangle-resolve-str` [(#2496)](https://github.com/stdlib-js/stdlib/pull/2496) _(by Pranav Goswami, Athan Reines)_
 -   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - **feat:** add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498) _(by Pranav Goswami, Athan Reines)_
 -   [`04b3803`](https://github.com/stdlib-js/stdlib/commit/04b3803f90e84a700d42da7c1f0117b4676b2040) - **feat:** add `blas/base/operation-side-*` utilities [(#2499)](https://github.com/stdlib-js/stdlib/pull/2499) _(by Pranav Goswami, Athan Reines)_
 -   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - **feat:** add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495) _(by Pranav Goswami, Athan Reines)_
