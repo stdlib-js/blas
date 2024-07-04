@@ -22,6 +22,7 @@
 
 var isLayout = require( './../../../base/assert/is-layout' );
 var isMatrixTriangle = require( './../../../base/assert/is-matrix-triangle' );
+var stride2offset = require( '@stdlib/strided/base/stride2offset' );
 var format = require( '@stdlib/string/format' );
 var base = require( './base.js' );
 
@@ -77,17 +78,9 @@ function dspmv( order, uplo, N, alpha, AP, x, strideX, beta, y, strideY ) {
 	if ( strideY === 0 ) {
 		throw new RangeError( format( 'invalid argument. Tenth argument must be non-zero. Value: `%d`.', strideY ) );
 	}
-	if ( strideX > 0 ) {
-		offsetX = 0;
-	} else {
-		offsetX = ( 1 - N ) * strideX;
-	}
-	if ( strideY > 0 ) {
-		offsetY = 0;
-	} else {
-		offsetY = ( 1 - N ) * strideY;
-	}
-	return base( order, uplo, N, alpha, AP, x, strideX, offsetX, beta, y, strideY, offsetY ); // eslint-disable-line max-len
+	offsetX = stride2offset( N, strideX );
+	offsetY = stride2offset( N, strideY );
+	return base( order, uplo, N, alpha, AP, 0, x, strideX, offsetX, beta, y, strideY, offsetY ); // eslint-disable-line max-len
 }
 
 

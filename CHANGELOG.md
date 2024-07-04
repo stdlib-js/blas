@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-01)
+## Unreleased (2024-07-04)
 
 <section class="packages">
 
@@ -637,11 +637,28 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a) - add support for specifying the index offset for `AP`
 -   [`ca56638`](https://github.com/stdlib-js/stdlib/commit/ca566387ddc147c4f15fd012a09bd55713307394) - add `blas/base/dspmv` [(#2456)](https://github.com/stdlib-js/stdlib/pull/2456)
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
+
+    -   To migrate, users should set the `offsetAP` parameter. For most cases,
+    this parameter will be zero, but supporting this parameter allows
+    users to specify alternative starting indices, such as needed when
+    working with ndarray views.
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -857,6 +874,50 @@ This release closes the following issue:
 ##### Features
 
 -   [`9b31a8f`](https://github.com/stdlib-js/stdlib/commit/9b31a8f861f2777d60ef74323ca1ae6dfb1839ed) - add `blas/base/layouts`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-matrix-triangle-enum2str-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangle-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-enum2str)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-matrix-triangle-str2enum-unreleased">
+
+#### [@stdlib/blas/base/matrix-triangle-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-str2enum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495)
 
 </section>
 
@@ -2071,6 +2132,14 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
+
+    -   To migrate, users should set the `offsetAP` parameter. For most cases,
+    this parameter will be zero, but supporting this parameter allows
+    users to specify alternative starting indices, such as needed when
+    working with ndarray views.
+
 -   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders` 
 
     -   To migrate, users should use `blas/base/layouts` and the
@@ -2144,6 +2213,9 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a61b40c`](https://github.com/stdlib-js/stdlib/commit/a61b40cedd7518a68efb28372e4bf817aeb5a319) - **feat:** add `blas/base/matrix-triangle-str2enum` and `blas/base/matrix-triangle/enum2str` [(#2495)](https://github.com/stdlib-js/stdlib/pull/2495) _(by Pranav Goswami, Athan Reines)_
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a) - **feat:** add support for specifying the index offset for `AP` _(by Athan Reines)_
+-   [`43b84f7`](https://github.com/stdlib-js/stdlib/commit/43b84f7b8614a31ed5985c010572da16b2b5186d) - **refactor:** use utility to resolve an index offset _(by Athan Reines)_
 -   [`5418177`](https://github.com/stdlib-js/stdlib/commit/5418177d92f26a6d99bd53d19713f2fa0d536b27) - **refactor:** use macro to convert stride to offset _(by Athan Reines)_
 -   [`8248b4a`](https://github.com/stdlib-js/stdlib/commit/8248b4a4c72d7a981a72075583561b98646c8068) - **feat:** add macro to convert a stride to an index offset _(by Athan Reines)_
 -   [`c3895df`](https://github.com/stdlib-js/stdlib/commit/c3895df672126473f5803e93b529bcdd0775c75a) - **refactor:** use utility to resolve an index offset _(by Athan Reines)_

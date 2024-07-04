@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,20 +16,26 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dspmv = require( './../lib' );
+/**
+* Returns the BLAS matrix triangle string associated with a BLAS matrix triangle enumeration constant.
+*
+* @param value - enumeration constant
+* @returns matrix triangle string
+*
+* @example
+* var str2enum = require( '@stdlib/blas/base/matrix-triangle-str2enum' );
+*
+* var v = str2enum( 'upper' );
+* // returns <number>
+*
+* var s = enum2str( v );
+* // returns 'upper'
+*/
+declare function enum2str( value: number ): string | null;
 
-var opts = {
-	'dtype': 'float64'
-};
 
-var N = 3;
-var AP = discreteUniform( N * ( N + 1 ) / 2, -10, 10, opts );
+// EXPORTS //
 
-var x = discreteUniform( N, -10, 10, opts );
-var y = discreteUniform( N, -10, 10, opts );
-
-dspmv.ndarray( 'row-major', 'upper', N, 1.0, AP, 0, x, 1, 0, 1.0, y, 1, 0 );
-console.log( y );
+export = enum2str;

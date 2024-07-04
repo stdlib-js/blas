@@ -18,18 +18,37 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dspmv = require( './../lib' );
+// MODULES //
 
-var opts = {
-	'dtype': 'float64'
-};
+var bench = require( '@stdlib/bench' );
+var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
+var pkg = require( './../package.json' ).name;
+var str2enum = require( './../lib' );
 
-var N = 3;
-var AP = discreteUniform( N * ( N + 1 ) / 2, -10, 10, opts );
 
-var x = discreteUniform( N, -10, 10, opts );
-var y = discreteUniform( N, -10, 10, opts );
+// MAIN //
 
-dspmv.ndarray( 'row-major', 'upper', N, 1.0, AP, 0, x, 1, 0, 1.0, y, 1, 0 );
-console.log( y );
+bench( pkg, function benchmark( b ) {
+	var values;
+	var out;
+	var i;
+
+	values = [
+		'upper',
+		'lower'
+	];
+
+	b.tic();
+	for ( i = 0; i < b.iterations; i++ ) {
+		out = str2enum( values[ i%values.length ] );
+		if ( typeof out !== 'number' ) {
+			b.fail( 'should return a number' );
+		}
+	}
+	b.toc();
+	if ( !isInteger( out ) ) {
+		b.fail( 'should return an integer' );
+	}
+	b.pass( 'benchmark finished' );
+	b.end();
+});

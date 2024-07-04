@@ -18,18 +18,12 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dspmv = require( './../lib' );
+var str2enum = require( './../lib' );
 
-var opts = {
-	'dtype': 'float64'
-};
+var v = str2enum( 'upper' );
+console.log( v );
+// => <number>
 
-var N = 3;
-var AP = discreteUniform( N * ( N + 1 ) / 2, -10, 10, opts );
-
-var x = discreteUniform( N, -10, 10, opts );
-var y = discreteUniform( N, -10, 10, opts );
-
-dspmv.ndarray( 'row-major', 'upper', N, 1.0, AP, 0, x, 1, 0, 1.0, y, 1, 0 );
-console.log( y );
+v = str2enum( 'lower' );
+console.log( v );
+// => <number>

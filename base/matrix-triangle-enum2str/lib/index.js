@@ -18,18 +18,27 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dspmv = require( './../lib' );
+/**
+* Return the BLAS matrix triangle string associated with a BLAS matrix triangle enumeration constant.
+*
+* @module @stdlib/blas/base/matrix-triangle-enum2str
+*
+* @example
+* var str2enum = require( '@stdlib/blas/base/matrix-triangle-str2enum' );
+* var enum2str = require( '@stdlib/blas/base/matrix-triangle-enum2str' );
+*
+* var v = str2enum( 'upper' );
+* // returns <number>
+*
+* var s = enum2str( v );
+* // returns 'upper'
+*/
 
-var opts = {
-	'dtype': 'float64'
-};
+// MODULES //
 
-var N = 3;
-var AP = discreteUniform( N * ( N + 1 ) / 2, -10, 10, opts );
+var main = require( './main.js' );
 
-var x = discreteUniform( N, -10, 10, opts );
-var y = discreteUniform( N, -10, 10, opts );
 
-dspmv.ndarray( 'row-major', 'upper', N, 1.0, AP, 0, x, 1, 0, 1.0, y, 1, 0 );
-console.log( y );
+// EXPORTS //
+
+module.exports = main;

@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,20 +16,24 @@
 * limitations under the License.
 */
 
-'use strict';
+import str2enum = require( './index' );
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dspmv = require( './../lib' );
 
-var opts = {
-	'dtype': 'float64'
-};
+// TESTS //
 
-var N = 3;
-var AP = discreteUniform( N * ( N + 1 ) / 2, -10, 10, opts );
+// The function returns a number or null...
+{
+	str2enum( 'upper' ); // $ExpectType number | null
+}
 
-var x = discreteUniform( N, -10, 10, opts );
-var y = discreteUniform( N, -10, 10, opts );
-
-dspmv.ndarray( 'row-major', 'upper', N, 1.0, AP, 0, x, 1, 0, 1.0, y, 1, 0 );
-console.log( y );
+// The compiler throws an error if not provided a string...
+{
+	str2enum( 10 ); // $ExpectError
+	str2enum( true ); // $ExpectError
+	str2enum( false ); // $ExpectError
+	str2enum( null ); // $ExpectError
+	str2enum( undefined ); // $ExpectError
+	str2enum( [] ); // $ExpectError
+	str2enum( {} ); // $ExpectError
+	str2enum( ( x: number ): number => x ); // $ExpectError
+}
