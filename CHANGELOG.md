@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - add utilities to namespace
 -   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381)
 -   [`79b486d`](https://github.com/stdlib-js/stdlib/commit/79b486d8f6787762e6eb82abb95e7f55a24dc91a) - add `transposeOperationResolveStr` to namespace
 -   [`8ca3745`](https://github.com/stdlib-js/stdlib/commit/8ca374503c82fefe69dfc281ad10a4a9d1d733a3) - add `transposeOperationResolveEnum` to namespace
@@ -2433,6 +2434,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - **feat:** add utilities to namespace _(by Athan Reines)_
 -   [`defe484`](https://github.com/stdlib-js/stdlib/commit/defe4849d8043a1c5d506d84ad6172a5e0df6af2) - **feat:** add `blas/base/matrix-triangle-resolve-enum` [(#2497)](https://github.com/stdlib-js/stdlib/pull/2497) _(by Pranav Goswami, Athan Reines)_
 -   [`50316e4`](https://github.com/stdlib-js/stdlib/commit/50316e43a7f59092f56aebcd2acfa815871ae3bf) - **feat:** add `blas/base/matrix-triangle-resolve-str` [(#2496)](https://github.com/stdlib-js/stdlib/pull/2496) _(by Pranav Goswami, Athan Reines)_
 -   [`1493a14`](https://github.com/stdlib-js/stdlib/commit/1493a1446311df5c8b643e3429dba4c8850fc227) - **feat:** add `blas/base/diagonal-type-*` utilities [(#2498)](https://github.com/stdlib-js/stdlib/pull/2498) _(by Pranav Goswami, Athan Reines)_
