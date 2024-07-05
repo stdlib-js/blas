@@ -29,6 +29,10 @@ import daxpy = require( './../../../base/daxpy' );
 import dcabs1 = require( './../../../base/dcabs1' );
 import dcopy = require( './../../../base/dcopy' );
 import ddot = require( './../../../base/ddot' );
+import diagonalTypeEnum2Str = require( './../../../base/diagonal-type-enum2str' );
+import diagonalTypeResolveEnum = require( './../../../base/diagonal-type-resolve-enum' );
+import diagonalTypeResolveStr = require( './../../../base/diagonal-type-resolve-str' );
+import diagonalTypeStr2Enum = require( './../../../base/diagonal-type-str2enum' );
 import diagonalTypes = require( './../../../base/diagonal-types' );
 import dnrm2 = require( './../../../base/dnrm2' );
 import drotg = require( './../../../base/drotg' );
@@ -49,7 +53,15 @@ import layoutResolveEnum = require( './../../../base/layout-resolve-enum' );
 import layoutResolveStr = require( './../../../base/layout-resolve-str' );
 import layoutStr2Enum = require( './../../../base/layout-str2enum' );
 import layouts = require( './../../../base/layouts' );
+import matrixTriangleEnum2Str = require( './../../../base/matrix-triangle-enum2str' );
+import matrixTriangleResolveEnum = require( './../../../base/matrix-triangle-resolve-enum' );
+import matrixTriangleResolveStr = require( './../../../base/matrix-triangle-resolve-str' );
+import matrixTriangleStr2Enum = require( './../../../base/matrix-triangle-str2enum' );
 import matrixTriangles = require( './../../../base/matrix-triangles' );
+import operationSideEnum2Str = require( './../../../base/operation-side-enum2str' );
+import operationSideResolveEnum = require( './../../../base/operation-side-resolve-enum' );
+import operationSideResolveStr = require( './../../../base/operation-side-resolve-str' );
+import operationSideStr2Enum = require( './../../../base/operation-side-str2enum' );
 import operationSides = require( './../../../base/operation-sides' );
 import sasum = require( './../../../base/sasum' );
 import saxpy = require( './../../../base/saxpy' );
@@ -377,6 +389,69 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	ddot: typeof ddot;
+
+	/**
+	* Returns the BLAS diagonal type string associated with a BLAS diagonal type enumeration constant.
+	*
+	* @param value - enumeration constant
+	* @returns diagonal type string
+	*
+	* @example
+	* var str2enum = require( './../../../base/diagonal-type-str2enum' );
+	*
+	* var v = str2enum( 'unit' );
+	* // returns <number>
+	*
+	* var s = ns.diagonalTypeEnum2Str( v );
+	* // returns 'unit'
+	*/
+	diagonalTypeEnum2Str: typeof diagonalTypeEnum2Str;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS diagonal type value.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `UNIT == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param value - diagonal type value
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.diagonalTypeResolveEnum( 'non-unit' );
+	* // returns <number>
+	*/
+	diagonalTypeResolveEnum: typeof diagonalTypeResolveEnum;
+
+	/**
+	* Returns the diagonal type string associated with a BLAS diagonal type value.
+	*
+	* @param value - diagonal type value
+	* @returns diagonal type string
+	*
+	* @example
+	* var str2enum = require( './../../../base/diagonal-type-str2enum' );
+	*
+	* var v = ns.diagonalTypeResolveStr( str2enum( 'unit' ) );
+	* // returns 'unit'
+	*/
+	diagonalTypeResolveStr: typeof diagonalTypeResolveStr;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS diagonal type.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `UNIT == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param diagonal - diagonal type
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.diagonalTypeStr2Enum( 'unit' );
+	* // returns <number>
+	*/
+	diagonalTypeStr2Enum: typeof diagonalTypeStr2Enum;
 
 	/**
 	* Returns a list of diagonal element types.
@@ -828,6 +903,69 @@ interface Namespace {
 	layouts: typeof layouts;
 
 	/**
+	* Returns the BLAS matrix triangle string associated with a BLAS matrix triangle enumeration constant.
+	*
+	* @param value - enumeration constant
+	* @returns matrix triangle string
+	*
+	* @example
+	* var str2enum = require( './../../../base/matrix-triangle-str2enum' );
+	*
+	* var v = str2enum( 'upper' );
+	* // returns <number>
+	*
+	* var s = ns.matrixTriangleEnum2Str( v );
+	* // returns 'upper'
+	*/
+	matrixTriangleEnum2Str: typeof matrixTriangleEnum2Str;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS matrix triangle value.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `UPPER == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param value - matrix triangle value
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.matrixTriangleResolveEnum( 'lower' );
+	* // returns <number>
+	*/
+	matrixTriangleResolveEnum: typeof matrixTriangleResolveEnum;
+
+	/**
+	* Returns the matrix triangle string associated with a BLAS matrix triangle value.
+	*
+	* @param value - matrix triangle value
+	* @returns matrix triangle string
+	*
+	* @example
+	* var str2enum = require( './../../../base/matrix-triangle-str2enum' );
+	*
+	* var v = ns.matrixTriangleResolveStr( str2enum( 'upper' ) );
+	* // returns 'upper'
+	*/
+	matrixTriangleResolveStr: typeof matrixTriangleResolveStr;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS matrix triangle.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `UPPER == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param value - matrix triangle string
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.matrixTriangleStr2Enum( 'upper' );
+	* // returns <number>
+	*/
+	matrixTriangleStr2Enum: typeof matrixTriangleStr2Enum;
+
+	/**
 	* Returns a list of matrix triangles.
 	*
 	* @returns list of matrix triangles
@@ -837,6 +975,69 @@ interface Namespace {
 	* // e.g., returns [ 'upper', 'lower' ]
 	*/
 	matrixTriangles: typeof matrixTriangles;
+
+	/**
+	* Returns the BLAS operation side string associated with a BLAS operation side enumeration constant.
+	*
+	* @param operation - enumeration constant
+	* @returns operation string
+	*
+	* @example
+	* var str2enum = require( './../../../base/operation-side-str2enum' );
+	*
+	* var v = str2enum( 'left' );
+	* // returns <number>
+	*
+	* var s = ns.operationSideEnum2Str( v );
+	* // returns 'left'
+	*/
+	operationSideEnum2Str: typeof operationSideEnum2Str;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS operation side value.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `LEFT == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param operation - operation value
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.operationSideResolveEnum( 'right' );
+	* // returns <number>
+	*/
+	operationSideResolveEnum: typeof operationSideResolveEnum;
+
+	/**
+	* Returns the operation side string associated with a BLAS operation side value.
+	*
+	* @param operation - operation value
+	* @returns operation side string
+	*
+	* @example
+	* var str2enum = require( './../../../base/operation-side-str2enum' );
+	*
+	* var v = ns.operationSideResolveStr( str2enum( 'left' ) );
+	* // returns 'left'
+	*/
+	operationSideResolveStr: typeof operationSideResolveStr;
+
+	/**
+	* Returns the enumeration constant associated with a BLAS operation side.
+	*
+	* ## Notes
+	*
+	* -   Downstream consumers of this function should **not** rely on specific integer values (e.g., `LEFT == 0`). Instead, the function should be used in an opaque manner.
+	*
+	* @param operation - operation side
+	* @returns enumeration constant
+	*
+	* @example
+	* var v = ns.operationSideStr2Enum( 'left' );
+	* // returns <number>
+	*/
+	operationSideStr2Enum: typeof operationSideStr2Enum;
 
 	/**
 	* Returns a list of operation sides.
