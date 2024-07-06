@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-05)
+## Unreleased (2024-07-06)
 
 <section class="packages">
 
@@ -2435,6 +2435,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`271f5d5`](https://github.com/stdlib-js/stdlib/commit/271f5d5d3e530225bd82f34efebf5df9a944fdde) - **refactor:** reduce code duplication in `blas/base` level 1 routines [(#2517)](https://github.com/stdlib-js/stdlib/pull/2517) _(by Aman Bhansali)_
 -   [`dd73ff2`](https://github.com/stdlib-js/stdlib/commit/dd73ff27e89fc2a39e2fb8a6f54d8b1a1a29f575) - **feat:** update namespace TypeScript declarations [(#2514)](https://github.com/stdlib-js/stdlib/pull/2514) _(by stdlib-bot, Athan Reines)_
 -   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - **feat:** add utilities to namespace _(by Athan Reines)_
 -   [`defe484`](https://github.com/stdlib-js/stdlib/commit/defe4849d8043a1c5d506d84ad6172a5e0df6af2) - **feat:** add `blas/base/matrix-triangle-resolve-enum` [(#2497)](https://github.com/stdlib-js/stdlib/pull/2497) _(by Pranav Goswami, Athan Reines)_
