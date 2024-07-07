@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-06)
+## Unreleased (2024-07-07)
 
 <section class="packages">
 
@@ -2435,6 +2435,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
+-   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`271f5d5`](https://github.com/stdlib-js/stdlib/commit/271f5d5d3e530225bd82f34efebf5df9a944fdde) - **refactor:** reduce code duplication in `blas/base` level 1 routines [(#2517)](https://github.com/stdlib-js/stdlib/pull/2517) _(by Aman Bhansali)_
 -   [`dd73ff2`](https://github.com/stdlib-js/stdlib/commit/dd73ff27e89fc2a39e2fb8a6f54d8b1a1a29f575) - **feat:** update namespace TypeScript declarations [(#2514)](https://github.com/stdlib-js/stdlib/pull/2514) _(by stdlib-bot, Athan Reines)_
 -   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - **feat:** add utilities to namespace _(by Athan Reines)_
