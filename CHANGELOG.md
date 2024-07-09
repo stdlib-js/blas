@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-07)
+## Unreleased (2024-07-09)
 
 <section class="packages">
 
@@ -1294,6 +1294,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`81aca47`](https://github.com/stdlib-js/stdlib/commit/81aca4745dae0b9ab083f1c79f6e60617a109f4c) - update variable name
 -   [`6b0d3fc`](https://github.com/stdlib-js/stdlib/commit/6b0d3fc30e73190cbf953f636e1eb39b02e7260e) - update paths, descriptions, and examples [(#2457)](https://github.com/stdlib-js/stdlib/pull/2457)
 
 </section>
@@ -2435,6 +2436,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0b59ac0`](https://github.com/stdlib-js/stdlib/commit/0b59ac098da813bb1e8ae93b93b1bb5df30d2a18) - **refactor:** use utility to resolve offset _(by Athan Reines)_
+-   [`81aca47`](https://github.com/stdlib-js/stdlib/commit/81aca4745dae0b9ab083f1c79f6e60617a109f4c) - **fix:** update variable name _(by Athan Reines)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`a78f7d1`](https://github.com/stdlib-js/stdlib/commit/a78f7d1b859b6b1d7b0bc0ee4daf76789e3e0910) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`271f5d5`](https://github.com/stdlib-js/stdlib/commit/271f5d5d3e530225bd82f34efebf5df9a944fdde) - **refactor:** reduce code duplication in `blas/base` level 1 routines [(#2517)](https://github.com/stdlib-js/stdlib/pull/2517) _(by Aman Bhansali)_
