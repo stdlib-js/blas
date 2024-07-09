@@ -810,6 +810,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dznrm2-unreleased">
+
+#### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`08eaa1b`](https://github.com/stdlib-js/stdlib/commit/08eaa1b176d0e510b0af53d7b7a02d5c63090e1f) - add `blas/base/dznrm2` [(#2271)](https://github.com/stdlib-js/stdlib/pull/2271)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-idamax-unreleased">
 
 #### [@stdlib/blas/base/idamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/idamax)
@@ -2436,6 +2458,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`08eaa1b`](https://github.com/stdlib-js/stdlib/commit/08eaa1b176d0e510b0af53d7b7a02d5c63090e1f) - **feat:** add `blas/base/dznrm2` [(#2271)](https://github.com/stdlib-js/stdlib/pull/2271) _(by Aman Bhansali, Athan Reines)_
 -   [`0b59ac0`](https://github.com/stdlib-js/stdlib/commit/0b59ac098da813bb1e8ae93b93b1bb5df30d2a18) - **refactor:** use utility to resolve offset _(by Athan Reines)_
 -   [`81aca47`](https://github.com/stdlib-js/stdlib/commit/81aca4745dae0b9ab083f1c79f6e60617a109f4c) - **fix:** update variable name _(by Athan Reines)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
