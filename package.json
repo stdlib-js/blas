@@ -49,6 +49,7 @@
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench#main",
+    "@stdlib/console": "github:stdlib-js/console#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
     "@stdlib/random": "github:stdlib-js/random#main",

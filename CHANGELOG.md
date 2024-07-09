@@ -1608,6 +1608,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zaxpy-unreleased">
+
+#### [@stdlib/blas/base/zaxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zaxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`85ffc1a`](https://github.com/stdlib-js/stdlib/commit/85ffc1a73bdcabdfc4c2a550e398a285eae49ebb) - add `blas/base/zaxpy` [(#2468)](https://github.com/stdlib-js/stdlib/pull/2468)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zcopy-unreleased">
 
 #### [@stdlib/blas/base/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zcopy)
@@ -2458,6 +2480,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`85ffc1a`](https://github.com/stdlib-js/stdlib/commit/85ffc1a73bdcabdfc4c2a550e398a285eae49ebb) - **feat:** add `blas/base/zaxpy` [(#2468)](https://github.com/stdlib-js/stdlib/pull/2468) _(by Aman Bhansali, Athan Reines)_
 -   [`08eaa1b`](https://github.com/stdlib-js/stdlib/commit/08eaa1b176d0e510b0af53d7b7a02d5c63090e1f) - **feat:** add `blas/base/dznrm2` [(#2271)](https://github.com/stdlib-js/stdlib/pull/2271) _(by Aman Bhansali, Athan Reines)_
 -   [`72a5a6c`](https://github.com/stdlib-js/stdlib/commit/72a5a6cd80794d51bbb0489c0eab5b8bf4839c27) - **style:** use consistent spacing _(by Athan Reines)_
 -   [`0b59ac0`](https://github.com/stdlib-js/stdlib/commit/0b59ac098da813bb1e8ae93b93b1bb5df30d2a18) - **refactor:** use utility to resolve offset _(by Athan Reines)_
