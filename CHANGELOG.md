@@ -1653,6 +1653,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zdrot-unreleased">
+
+#### [@stdlib/blas/base/zdrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zdrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4d5293d`](https://github.com/stdlib-js/stdlib/commit/4d5293d0cfd81bd1016d1bcc372afefe20b1a211) - add `blas/base/zdrot` [(#2257)](https://github.com/stdlib-js/stdlib/pull/2257)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zscal-unreleased">
 
 #### [@stdlib/blas/base/zscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zscal)
@@ -2481,6 +2503,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4d5293d`](https://github.com/stdlib-js/stdlib/commit/4d5293d0cfd81bd1016d1bcc372afefe20b1a211) - **feat:** add `blas/base/zdrot` [(#2257)](https://github.com/stdlib-js/stdlib/pull/2257) _(by Aman Bhansali, Athan Reines)_
 -   [`f35cb6e`](https://github.com/stdlib-js/stdlib/commit/f35cb6eb2dddc6fdcc904ef165b92970f4a50698) - **docs:** fix description _(by Athan Reines)_
 -   [`96f2299`](https://github.com/stdlib-js/stdlib/commit/96f22991788a808caa052cb3d1e1c9618091e3d3) - **feat:** add support for specifying integer size _(by Athan Reines)_
 -   [`d9dfc21`](https://github.com/stdlib-js/stdlib/commit/d9dfc219d84a0418eae579a882ba4fc9b841aecd) - **refactor:** use common implementation and document C API _(by Athan Reines)_
