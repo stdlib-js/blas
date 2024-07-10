@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-09)
+## Unreleased (2024-07-10)
 
 <section class="packages">
 
@@ -1375,6 +1375,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`96f2299`](https://github.com/stdlib-js/stdlib/commit/96f22991788a808caa052cb3d1e1c9618091e3d3) - add support for specifying integer size
 -   [`d1cbb09`](https://github.com/stdlib-js/stdlib/commit/d1cbb0973d127cf391ecce4efefd1390d6aab0e1) - add `blas/base/srot` [(#1844)](https://github.com/stdlib-js/stdlib/pull/1844)
 
 </section>
@@ -2480,6 +2481,9 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f35cb6e`](https://github.com/stdlib-js/stdlib/commit/f35cb6eb2dddc6fdcc904ef165b92970f4a50698) - **docs:** fix description _(by Athan Reines)_
+-   [`96f2299`](https://github.com/stdlib-js/stdlib/commit/96f22991788a808caa052cb3d1e1c9618091e3d3) - **feat:** add support for specifying integer size _(by Athan Reines)_
+-   [`d9dfc21`](https://github.com/stdlib-js/stdlib/commit/d9dfc219d84a0418eae579a882ba4fc9b841aecd) - **refactor:** use common implementation and document C API _(by Athan Reines)_
 -   [`85ffc1a`](https://github.com/stdlib-js/stdlib/commit/85ffc1a73bdcabdfc4c2a550e398a285eae49ebb) - **feat:** add `blas/base/zaxpy` [(#2468)](https://github.com/stdlib-js/stdlib/pull/2468) _(by Aman Bhansali, Athan Reines)_
 -   [`08eaa1b`](https://github.com/stdlib-js/stdlib/commit/08eaa1b176d0e510b0af53d7b7a02d5c63090e1f) - **feat:** add `blas/base/dznrm2` [(#2271)](https://github.com/stdlib-js/stdlib/pull/2271) _(by Aman Bhansali, Athan Reines)_
 -   [`72a5a6c`](https://github.com/stdlib-js/stdlib/commit/72a5a6cd80794d51bbb0489c0eab5b8bf4839c27) - **style:** use consistent spacing _(by Athan Reines)_
