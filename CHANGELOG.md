@@ -2525,6 +2525,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e693161`](https://github.com/stdlib-js/stdlib/commit/e6931618c88d2bc3f957fecdca013bcda2558e0c) - **test:** fix test comparisons _(by Athan Reines)_
 -   [`bdaa7e0`](https://github.com/stdlib-js/stdlib/commit/bdaa7e0c54b8d4cf18bc3d4eb04147971b3c69cd) - **feat:** add `blas/base/csrot` [(#2256)](https://github.com/stdlib-js/stdlib/pull/2256) _(by Aman Bhansali, Athan Reines)_
 -   [`562f806`](https://github.com/stdlib-js/stdlib/commit/562f80662e928af49eac8dd78ee57b1785aab515) - **style:** group expressions based on order of operations _(by Athan Reines)_
 -   [`a78f42b`](https://github.com/stdlib-js/stdlib/commit/a78f42b3295fe4513a15b90a837b60a63fc1f6bc) - **docs:** fix paths in examples and refactor array creation in benchmarks [(#2563)](https://github.com/stdlib-js/stdlib/pull/2563) _(by Aman Bhansali)_
