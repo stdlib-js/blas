@@ -250,6 +250,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-csrot-unreleased">
+
+#### [@stdlib/blas/base/csrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/csrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bdaa7e0`](https://github.com/stdlib-js/stdlib/commit/bdaa7e0c54b8d4cf18bc3d4eb04147971b3c69cd) - add `blas/base/csrot` [(#2256)](https://github.com/stdlib-js/stdlib/pull/2256)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-cswap-unreleased">
 
 #### [@stdlib/blas/base/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap)
@@ -2503,6 +2525,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bdaa7e0`](https://github.com/stdlib-js/stdlib/commit/bdaa7e0c54b8d4cf18bc3d4eb04147971b3c69cd) - **feat:** add `blas/base/csrot` [(#2256)](https://github.com/stdlib-js/stdlib/pull/2256) _(by Aman Bhansali, Athan Reines)_
 -   [`562f806`](https://github.com/stdlib-js/stdlib/commit/562f80662e928af49eac8dd78ee57b1785aab515) - **style:** group expressions based on order of operations _(by Athan Reines)_
 -   [`a78f42b`](https://github.com/stdlib-js/stdlib/commit/a78f42b3295fe4513a15b90a837b60a63fc1f6bc) - **docs:** fix paths in examples and refactor array creation in benchmarks [(#2563)](https://github.com/stdlib-js/stdlib/pull/2563) _(by Aman Bhansali)_
 -   [`4d5293d`](https://github.com/stdlib-js/stdlib/commit/4d5293d0cfd81bd1016d1bcc372afefe20b1a211) - **feat:** add `blas/base/zdrot` [(#2257)](https://github.com/stdlib-js/stdlib/pull/2257) _(by Aman Bhansali, Athan Reines)_
