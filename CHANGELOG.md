@@ -1340,6 +1340,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-scasum-unreleased">
+
+#### [@stdlib/blas/base/scasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3dda09b`](https://github.com/stdlib-js/stdlib/commit/3dda09be640b5ee96278691de75d35a61b2ecfe8) - add `blas/base/scasum` [(#2573)](https://github.com/stdlib-js/stdlib/pull/2573)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-scnrm2-unreleased">
 
 #### [@stdlib/blas/base/scnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scnrm2)
@@ -2547,6 +2569,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3dda09b`](https://github.com/stdlib-js/stdlib/commit/3dda09be640b5ee96278691de75d35a61b2ecfe8) - **feat:** add `blas/base/scasum` [(#2573)](https://github.com/stdlib-js/stdlib/pull/2573) _(by Aman Bhansali, Athan Reines)_
 -   [`7d65943`](https://github.com/stdlib-js/stdlib/commit/7d65943604945f9a9e3ad63267c9d91a8c26da2c) - **feat:** add `blas/base/caxpy` [(#2121)](https://github.com/stdlib-js/stdlib/pull/2121) _(by Aman Bhansali, Athan Reines)_
 -   [`e693161`](https://github.com/stdlib-js/stdlib/commit/e6931618c88d2bc3f957fecdca013bcda2558e0c) - **test:** fix test comparisons _(by Athan Reines)_
 -   [`bdaa7e0`](https://github.com/stdlib-js/stdlib/commit/bdaa7e0c54b8d4cf18bc3d4eb04147971b3c69cd) - **feat:** add `blas/base/csrot` [(#2256)](https://github.com/stdlib-js/stdlib/pull/2256) _(by Aman Bhansali, Athan Reines)_
