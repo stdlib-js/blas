@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-14)
+## Unreleased (2024-07-15)
 
 <section class="packages">
 
@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`dd73ff2`](https://github.com/stdlib-js/stdlib/commit/dd73ff27e89fc2a39e2fb8a6f54d8b1a1a29f575) - update namespace TypeScript declarations [(#2514)](https://github.com/stdlib-js/stdlib/pull/2514)
 -   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - add utilities to namespace
 -   [`ca84473`](https://github.com/stdlib-js/stdlib/commit/ca844736f22b282b3ee33e0d62373442aaf991db) - update namespace TypeScript declarations [(#2381)](https://github.com/stdlib-js/stdlib/pull/2381)
@@ -51,6 +52,16 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -184,11 +195,22 @@
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`b59eb8b`](https://github.com/stdlib-js/stdlib/commit/b59eb8bf46debbde5e24ec21ed1c0afb184e8ae0) - add `blas/base/assert/is-transpose-operation`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1553,11 +1575,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1575,11 +1608,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`f493d51`](https://github.com/stdlib-js/stdlib/commit/f493d512c7a4e5b3f3410266ea44f08bd47f7bde) - add `blas/base/transpose-operation-resolve-enum`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1597,11 +1641,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`d62dd8c`](https://github.com/stdlib-js/stdlib/commit/d62dd8cc70527215253e242624afe900593117b8) - add `blas/base/transpose-operation-resolve-str`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1619,11 +1674,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`74bd47b`](https://github.com/stdlib-js/stdlib/commit/74bd47b73df622246480fb51a3f7a69a7bebb0c4) - add `blas/base/transpose-operation-enum2str` and `blas/base/transpose-operation-str2enum`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -1641,11 +1707,22 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`87a0d77`](https://github.com/stdlib-js/stdlib/commit/87a0d77b81cc5bc8c05e40d6ec22f548c5d3dd14) - add `blas/base/transpose-operations`
 
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -2488,6 +2565,7 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
 -   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
 -   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
 
@@ -2569,6 +2647,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - **feat:** rename 'none' transpose operation to 'no-transpose' _(by Athan Reines)_
 -   [`d04dcbd`](https://github.com/stdlib-js/stdlib/commit/d04dcbd6dc3b0bf4a89bd3947d317fa5ff15bb38) - **docs:** remove private annotations in C comments _(by Philipp Burckhardt)_
 -   [`3dda09b`](https://github.com/stdlib-js/stdlib/commit/3dda09be640b5ee96278691de75d35a61b2ecfe8) - **feat:** add `blas/base/scasum` [(#2573)](https://github.com/stdlib-js/stdlib/pull/2573) _(by Aman Bhansali, Athan Reines)_
 -   [`7d65943`](https://github.com/stdlib-js/stdlib/commit/7d65943604945f9a9e3ad63267c9d91a8c26da2c) - **feat:** add `blas/base/caxpy` [(#2121)](https://github.com/stdlib-js/stdlib/pull/2121) _(by Aman Bhansali, Athan Reines)_
