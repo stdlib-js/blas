@@ -2262,6 +2262,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`1fce730`](https://github.com/stdlib-js/stdlib/commit/1fce730e287d8688956b801feb547ebb6a237756) - use correct include path
 -   [`1fde962`](https://github.com/stdlib-js/stdlib/commit/1fde962b77faff072bd6296e1fbde207ad02cbe6) - use correct dependencies in manifest file
 
 </section>
@@ -2701,6 +2702,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1fce730`](https://github.com/stdlib-js/stdlib/commit/1fce730e287d8688956b801feb547ebb6a237756) - **fix:** use correct include path _(by Philipp Burckhardt)_
 -   [`1fde962`](https://github.com/stdlib-js/stdlib/commit/1fde962b77faff072bd6296e1fbde207ad02cbe6) - **fix:** use correct dependencies in manifest file _(by Philipp Burckhardt)_
 -   [`af15420`](https://github.com/stdlib-js/stdlib/commit/af15420d508303989931981427d6b52c49af7554) - **feat:** add `blas/base/ssyr2` [(#2708)](https://github.com/stdlib-js/stdlib/pull/2708) _(by Aman Bhansali, Athan Reines)_
 -   [`308005e`](https://github.com/stdlib-js/stdlib/commit/308005e8a9cf48917f0c68451bd05f7d6fb06ba4) - **bench:** adjust sample values to prevent overflow _(by Athan Reines)_
