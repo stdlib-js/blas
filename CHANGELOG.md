@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-29)
+## Unreleased (2024-07-31)
 
 <section class="packages">
 
@@ -1587,6 +1587,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-ssyr2-unreleased">
+
+#### [@stdlib/blas/base/ssyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`af15420`](https://github.com/stdlib-js/stdlib/commit/af15420d508303989931981427d6b52c49af7554) - add `blas/base/ssyr2` [(#2708)](https://github.com/stdlib-js/stdlib/pull/2708)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-transpose-operation-enum2str-unreleased">
 
 #### [@stdlib/blas/base/transpose-operation-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-enum2str)
@@ -2236,6 +2258,16 @@ This release closes the following issue:
 
 <details>
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`1fde962`](https://github.com/stdlib-js/stdlib/commit/1fde962b77faff072bd6296e1fbde207ad02cbe6) - use correct dependencies in manifest file
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="issues">
 
 ##### Closed Issues
@@ -2669,6 +2701,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1fde962`](https://github.com/stdlib-js/stdlib/commit/1fde962b77faff072bd6296e1fbde207ad02cbe6) - **fix:** use correct dependencies in manifest file _(by Philipp Burckhardt)_
+-   [`af15420`](https://github.com/stdlib-js/stdlib/commit/af15420d508303989931981427d6b52c49af7554) - **feat:** add `blas/base/ssyr2` [(#2708)](https://github.com/stdlib-js/stdlib/pull/2708) _(by Aman Bhansali, Athan Reines)_
 -   [`308005e`](https://github.com/stdlib-js/stdlib/commit/308005e8a9cf48917f0c68451bd05f7d6fb06ba4) - **bench:** adjust sample values to prevent overflow _(by Athan Reines)_
 -   [`272ae7a`](https://github.com/stdlib-js/stdlib/commit/272ae7ac5c576c68cfab1b6e304c86407faa20cd) - **docs:** remove comment _(by Athan Reines)_
 -   [`f53097a`](https://github.com/stdlib-js/stdlib/commit/f53097a6061a65547260d261ea425f3c2039c6f5) - **docs:** update comments _(by Athan Reines)_
