@@ -2417,6 +2417,7 @@ This release closes the following issue:
 
 ##### Bug Fixes
 
+-   [`aabe731`](https://github.com/stdlib-js/stdlib/commit/aabe7310272e138b7ae69a9297832aa7fcb21ef1) - update variable name and define `status` type
 -   [`1fce730`](https://github.com/stdlib-js/stdlib/commit/1fce730e287d8688956b801feb547ebb6a237756) - use correct include path
 -   [`1fde962`](https://github.com/stdlib-js/stdlib/commit/1fde962b77faff072bd6296e1fbde207ad02cbe6) - use correct dependencies in manifest file
 
@@ -2862,6 +2863,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`aabe731`](https://github.com/stdlib-js/stdlib/commit/aabe7310272e138b7ae69a9297832aa7fcb21ef1) - **fix:** update variable name and define `status` type _(by Athan Reines)_
 -   [`43439d0`](https://github.com/stdlib-js/stdlib/commit/43439d0098ad812e3276a13ecaaf41f55c501680) - **feat:** add `blas/base/dsyr` [(#2659)](https://github.com/stdlib-js/stdlib/pull/2659) _(by Aman Bhansali, Athan Reines)_
 -   [`b3a0bd1`](https://github.com/stdlib-js/stdlib/commit/b3a0bd1a3e9bcdde3af048c7d6b6cfcd3765138f) - **docs:** fix example order _(by Athan Reines)_
 -   [`058f073`](https://github.com/stdlib-js/stdlib/commit/058f07330d309cf9009a7efc101029d40827ff31) - **test:** fix grammar _(by Athan Reines)_
