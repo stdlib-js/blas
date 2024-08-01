@@ -2871,6 +2871,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`868c9aa`](https://github.com/stdlib-js/stdlib/commit/868c9aa323e5c49a00ecaa944ce90d968c80f6de) - **docs:** update ToC _(by Athan Reines)_
 -   [`f1128aa`](https://github.com/stdlib-js/stdlib/commit/f1128aa2432497a7297ad1cc733de562f44169d5) - **feat:** add `zaxpy`, `zdrot`, and `zscal` to namespace _(by Athan Reines)_
 -   [`10640df`](https://github.com/stdlib-js/stdlib/commit/10640dfff29bff48cc339c31c0fe98ab5a5d2ff3) - **feat:** add `sspmv`, `ssymv`, `ssyr`, `ssyr2`, and `strmv` to namespace _(by Athan Reines)_
 -   [`1457b6c`](https://github.com/stdlib-js/stdlib/commit/1457b6c9c2107f5888436df9f0897a22ad39c16a) - **feat:** add `sgemv`, `srot`, and `srotm` to namespace _(by Athan Reines)_
