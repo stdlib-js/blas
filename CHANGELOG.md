@@ -898,6 +898,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dsyr-unreleased">
+
+#### [@stdlib/blas/base/dsyr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsyr)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`43439d0`](https://github.com/stdlib-js/stdlib/commit/43439d0098ad812e3276a13ecaaf41f55c501680) - add `blas/base/dsyr` [(#2659)](https://github.com/stdlib-js/stdlib/pull/2659)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dsyr2-unreleased">
 
 #### [@stdlib/blas/base/dsyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsyr2)
@@ -2840,6 +2862,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`43439d0`](https://github.com/stdlib-js/stdlib/commit/43439d0098ad812e3276a13ecaaf41f55c501680) - **feat:** add `blas/base/dsyr` [(#2659)](https://github.com/stdlib-js/stdlib/pull/2659) _(by Aman Bhansali, Athan Reines)_
 -   [`b3a0bd1`](https://github.com/stdlib-js/stdlib/commit/b3a0bd1a3e9bcdde3af048c7d6b6cfcd3765138f) - **docs:** fix example order _(by Athan Reines)_
 -   [`058f073`](https://github.com/stdlib-js/stdlib/commit/058f07330d309cf9009a7efc101029d40827ff31) - **test:** fix grammar _(by Athan Reines)_
 -   [`0286f64`](https://github.com/stdlib-js/stdlib/commit/0286f64c5a635ec2ac7daf40bc38ae417c37b8a2) - **refactor:** use \"fast\" `max` utility _(by Athan Reines)_
