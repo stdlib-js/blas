@@ -1609,6 +1609,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-ssyr-unreleased">
+
+#### [@stdlib/blas/base/ssyr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4300111`](https://github.com/stdlib-js/stdlib/commit/4300111c80e0bd4941dcdd30a6b6dd36f2250dce) - add `blas/base/ssyr` [(#2658)](https://github.com/stdlib-js/stdlib/pull/2658)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-ssyr2-unreleased">
 
 #### [@stdlib/blas/base/ssyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr2)
@@ -2734,6 +2756,8 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4300111`](https://github.com/stdlib-js/stdlib/commit/4300111c80e0bd4941dcdd30a6b6dd36f2250dce) - **feat:** add `blas/base/ssyr` [(#2658)](https://github.com/stdlib-js/stdlib/pull/2658) _(by Aman Bhansali, Athan Reines)_
+-   [`fc54a2b`](https://github.com/stdlib-js/stdlib/commit/fc54a2b7f610c9e19715d2b2d6ef14c2b3736e5f) - **docs:** update examples _(by Athan Reines)_
 -   [`3517656`](https://github.com/stdlib-js/stdlib/commit/35176561bc51df0c9c6c92e81544266fed44f8a4) - **docs:** address link failures _(by Athan Reines)_
 -   [`6966bbb`](https://github.com/stdlib-js/stdlib/commit/6966bbb8dcfdc2345fe3fb04c2100c6a313d3282) - **feat:** add `blas/base/dsyr2` [(#2712)](https://github.com/stdlib-js/stdlib/pull/2712) _(by Aman Bhansali, Athan Reines)_
 -   [`b5de107`](https://github.com/stdlib-js/stdlib/commit/b5de10702d2b6ecc6c843d61f755b429bfe3c78d) - **fix:** add missing parameters and update description _(by Athan Reines)_
