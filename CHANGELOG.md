@@ -20,6 +20,14 @@
 
 ##### Features
 
+-   [`f1128aa`](https://github.com/stdlib-js/stdlib/commit/f1128aa2432497a7297ad1cc733de562f44169d5) - add `zaxpy`, `zdrot`, and `zscal` to namespace
+-   [`10640df`](https://github.com/stdlib-js/stdlib/commit/10640dfff29bff48cc339c31c0fe98ab5a5d2ff3) - add `sspmv`, `ssymv`, `ssyr`, `ssyr2`, and `strmv` to namespace
+-   [`1457b6c`](https://github.com/stdlib-js/stdlib/commit/1457b6c9c2107f5888436df9f0897a22ad39c16a) - add `sgemv`, `srot`, and `srotm` to namespace
+-   [`4c3c742`](https://github.com/stdlib-js/stdlib/commit/4c3c7423c16b928960bcd21a5bb13669c02118ba) - add `scasum` and `scnrm2` to namespace
+-   [`ed6504f`](https://github.com/stdlib-js/stdlib/commit/ed6504f204b1b4b531977b93e49c24238aee8715) - add `dtrmv` and `dznrm2` to namespace
+-   [`38b338d`](https://github.com/stdlib-js/stdlib/commit/38b338d6d08bfe3e523ba02bf977430d320cbf03) - add `dspmv`, `dsymv`, `dsyr`, and `dsyr2` to namespace
+-   [`d039a63`](https://github.com/stdlib-js/stdlib/commit/d039a63eabd3956155b01fbe11c5e89e94930c2a) - add `csrot`, `drot` and `drotm` to namespace
+-   [`66d501a`](https://github.com/stdlib-js/stdlib/commit/66d501a60b22b7cd23cf7e79f768027ad1d8c6e5) - add `caxpy` to namespace
 -   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f) - rename 'none' transpose operation to 'no-transpose'
 -   [`dd73ff2`](https://github.com/stdlib-js/stdlib/commit/dd73ff27e89fc2a39e2fb8a6f54d8b1a1a29f575) - update namespace TypeScript declarations [(#2514)](https://github.com/stdlib-js/stdlib/pull/2514)
 -   [`48703d8`](https://github.com/stdlib-js/stdlib/commit/48703d8deabd12050c18f7382c966df26d5239a3) - add utilities to namespace
@@ -2863,6 +2871,14 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f1128aa`](https://github.com/stdlib-js/stdlib/commit/f1128aa2432497a7297ad1cc733de562f44169d5) - **feat:** add `zaxpy`, `zdrot`, and `zscal` to namespace _(by Athan Reines)_
+-   [`10640df`](https://github.com/stdlib-js/stdlib/commit/10640dfff29bff48cc339c31c0fe98ab5a5d2ff3) - **feat:** add `sspmv`, `ssymv`, `ssyr`, `ssyr2`, and `strmv` to namespace _(by Athan Reines)_
+-   [`1457b6c`](https://github.com/stdlib-js/stdlib/commit/1457b6c9c2107f5888436df9f0897a22ad39c16a) - **feat:** add `sgemv`, `srot`, and `srotm` to namespace _(by Athan Reines)_
+-   [`4c3c742`](https://github.com/stdlib-js/stdlib/commit/4c3c7423c16b928960bcd21a5bb13669c02118ba) - **feat:** add `scasum` and `scnrm2` to namespace _(by Athan Reines)_
+-   [`ed6504f`](https://github.com/stdlib-js/stdlib/commit/ed6504f204b1b4b531977b93e49c24238aee8715) - **feat:** add `dtrmv` and `dznrm2` to namespace _(by Athan Reines)_
+-   [`38b338d`](https://github.com/stdlib-js/stdlib/commit/38b338d6d08bfe3e523ba02bf977430d320cbf03) - **feat:** add `dspmv`, `dsymv`, `dsyr`, and `dsyr2` to namespace _(by Athan Reines)_
+-   [`d039a63`](https://github.com/stdlib-js/stdlib/commit/d039a63eabd3956155b01fbe11c5e89e94930c2a) - **feat:** add `csrot`, `drot` and `drotm` to namespace _(by Athan Reines)_
+-   [`66d501a`](https://github.com/stdlib-js/stdlib/commit/66d501a60b22b7cd23cf7e79f768027ad1d8c6e5) - **feat:** add `caxpy` to namespace _(by Athan Reines)_
 -   [`aabe731`](https://github.com/stdlib-js/stdlib/commit/aabe7310272e138b7ae69a9297832aa7fcb21ef1) - **fix:** update variable name and define `status` type _(by Athan Reines)_
 -   [`43439d0`](https://github.com/stdlib-js/stdlib/commit/43439d0098ad812e3276a13ecaaf41f55c501680) - **feat:** add `blas/base/dsyr` [(#2659)](https://github.com/stdlib-js/stdlib/pull/2659) _(by Aman Bhansali, Athan Reines)_
 -   [`b3a0bd1`](https://github.com/stdlib-js/stdlib/commit/b3a0bd1a3e9bcdde3af048c7d6b6cfcd3765138f) - **docs:** fix example order _(by Athan Reines)_
