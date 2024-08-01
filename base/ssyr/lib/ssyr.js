@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var max = require( '@stdlib/math/base/special/max' );
+var max = require( '@stdlib/math/base/special/fast/max' );
 var isLayout = require( './../../../base/assert/is-layout' );
 var isMatrixTriangle = require( './../../../base/assert/is-matrix-triangle' );
 var stride2offset = require( '@stdlib/strided/base/stride2offset' );
