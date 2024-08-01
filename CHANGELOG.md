@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-07-31)
+## Unreleased (2024-08-01)
 
 <section class="packages">
 
@@ -898,6 +898,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dsyr2-unreleased">
+
+#### [@stdlib/blas/base/dsyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsyr2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6966bbb`](https://github.com/stdlib-js/stdlib/commit/6966bbb8dcfdc2345fe3fb04c2100c6a313d3282) - add `blas/base/dsyr2` [(#2712)](https://github.com/stdlib-js/stdlib/pull/2712)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dznrm2-unreleased">
 
 #### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
@@ -1602,6 +1624,16 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`b5de107`](https://github.com/stdlib-js/stdlib/commit/b5de10702d2b6ecc6c843d61f755b429bfe3c78d) - add missing parameters and update description
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -2702,6 +2734,9 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`3517656`](https://github.com/stdlib-js/stdlib/commit/35176561bc51df0c9c6c92e81544266fed44f8a4) - **docs:** address link failures _(by Athan Reines)_
+-   [`6966bbb`](https://github.com/stdlib-js/stdlib/commit/6966bbb8dcfdc2345fe3fb04c2100c6a313d3282) - **feat:** add `blas/base/dsyr2` [(#2712)](https://github.com/stdlib-js/stdlib/pull/2712) _(by Aman Bhansali, Athan Reines)_
+-   [`b5de107`](https://github.com/stdlib-js/stdlib/commit/b5de10702d2b6ecc6c843d61f755b429bfe3c78d) - **fix:** add missing parameters and update description _(by Athan Reines)_
 -   [`1fce730`](https://github.com/stdlib-js/stdlib/commit/1fce730e287d8688956b801feb547ebb6a237756) - **fix:** use correct include path _(by Philipp Burckhardt)_
 -   [`1fde962`](https://github.com/stdlib-js/stdlib/commit/1fde962b77faff072bd6296e1fbde207ad02cbe6) - **fix:** use correct dependencies in manifest file _(by Philipp Burckhardt)_
 -   [`af15420`](https://github.com/stdlib-js/stdlib/commit/af15420d508303989931981427d6b52c49af7554) - **feat:** add `blas/base/ssyr2` [(#2708)](https://github.com/stdlib-js/stdlib/pull/2708) _(by Aman Bhansali, Athan Reines)_
