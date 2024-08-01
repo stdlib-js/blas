@@ -920,28 +920,6 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dtrmv-unreleased">
-
-#### [@stdlib/blas/base/dtrmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dtrmv)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`640278b`](https://github.com/stdlib-js/stdlib/commit/640278bc95b4f9f87e58c328b5238606635052e6) - add `blas/base/dtrmv` [(#2540)](https://github.com/stdlib-js/stdlib/pull/2540)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="blas-base-dznrm2-unreleased">
 
 #### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
@@ -2840,7 +2818,6 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`640278b`](https://github.com/stdlib-js/stdlib/commit/640278bc95b4f9f87e58c328b5238606635052e6) - **feat:** add `blas/base/dtrmv` [(#2540)](https://github.com/stdlib-js/stdlib/pull/2540) _(by Aman Bhansali, Athan Reines)_
 -   [`e8ef5ad`](https://github.com/stdlib-js/stdlib/commit/e8ef5ad04ba9508f9aa5846ee108afb68ef58dab) - **test:** update descriptions _(by Athan Reines)_
 -   [`81c0e52`](https://github.com/stdlib-js/stdlib/commit/81c0e52e0e1ab5367c464b8cdc6a56d8bd2ea4fa) - **feat:** add `blas/base/sgemv` [(#2365)](https://github.com/stdlib-js/stdlib/pull/2365) _(by Aman Bhansali, Athan Reines)_
 -   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee) - **feat:** add `blas/base/strmv` [(#2535)](https://github.com/stdlib-js/stdlib/pull/2535) _(by Aman Bhansali, Athan Reines)_
