@@ -1663,6 +1663,41 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-strmv-unreleased">
+
+#### [@stdlib/blas/base/strmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/strmv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee) - add `blas/base/strmv` [(#2535)](https://github.com/stdlib-js/stdlib/pull/2535)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): add `blas/base/strmv`
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types` 
+
+    -   To migrate, users should change their usage of `none` to `no-transpose`. This change enhances code readability and aligns the string literal with the C enumeration constant.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-transpose-operation-enum2str-unreleased">
 
 #### [@stdlib/blas/base/transpose-operation-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-enum2str)
@@ -2674,6 +2709,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): add `blas/base/strmv`
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types` 
+
+    -   To migrate, users should change their usage of `none` to `no-transpose`. This change enhances code readability and aligns the string literal with the C enumeration constant.
+
 -   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
 -   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
 -   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
@@ -2756,6 +2796,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee) - **feat:** add `blas/base/strmv` [(#2535)](https://github.com/stdlib-js/stdlib/pull/2535) _(by Aman Bhansali, Athan Reines)_
 -   [`4300111`](https://github.com/stdlib-js/stdlib/commit/4300111c80e0bd4941dcdd30a6b6dd36f2250dce) - **feat:** add `blas/base/ssyr` [(#2658)](https://github.com/stdlib-js/stdlib/pull/2658) _(by Aman Bhansali, Athan Reines)_
 -   [`fc54a2b`](https://github.com/stdlib-js/stdlib/commit/fc54a2b7f610c9e19715d2b2d6ef14c2b3736e5f) - **docs:** update examples _(by Athan Reines)_
 -   [`3517656`](https://github.com/stdlib-js/stdlib/commit/35176561bc51df0c9c6c92e81544266fed44f8a4) - **docs:** address link failures _(by Athan Reines)_
