@@ -2840,6 +2840,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b3a0bd1`](https://github.com/stdlib-js/stdlib/commit/b3a0bd1a3e9bcdde3af048c7d6b6cfcd3765138f) - **docs:** fix example order _(by Athan Reines)_
 -   [`058f073`](https://github.com/stdlib-js/stdlib/commit/058f07330d309cf9009a7efc101029d40827ff31) - **test:** fix grammar _(by Athan Reines)_
 -   [`0286f64`](https://github.com/stdlib-js/stdlib/commit/0286f64c5a635ec2ac7daf40bc38ae417c37b8a2) - **refactor:** use \"fast\" `max` utility _(by Athan Reines)_
 -   [`640278b`](https://github.com/stdlib-js/stdlib/commit/640278bc95b4f9f87e58c328b5238606635052e6) - **feat:** add `blas/base/dtrmv` [(#2540)](https://github.com/stdlib-js/stdlib/pull/2540) _(by Aman Bhansali, Athan Reines)_
