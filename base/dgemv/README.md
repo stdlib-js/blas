@@ -18,31 +18,31 @@ limitations under the License.
 
 -->
 
-# sgemv
+# dgemv
 
-> Perform one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y`.
+> Perform one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A**T*x + β*y`.
 
 <section class = "usage">
 
 ## Usage
 
 ```javascript
-var sgemv = require( '@stdlib/blas/base/sgemv' );
+var dgemv = require( '@stdlib/blas/base/dgemv' );
 ```
 
-#### sgemv( ord, trans, M, N, α, A, LDA, x, sx, β, y, sy )
+#### dgemv( ord, trans, M, N, α, A, LDA, x, sx, β, y, sy )
 
-Performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y`, where `α` and `β` are scalars, `x` and `y` are vectors, and `A` is an `M` by `N` matrix.
+Performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A**T*x + β*y`, where `α` and `β` are scalars, `x` and `y` are vectors, and `A` is an `M` by `N` matrix.
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-var x = new Float32Array( [ 1.0, 1.0, 1.0 ] );
-var y = new Float32Array( [ 1.0, 1.0 ] );
+var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+var x = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+var y = new Float64Array( [ 1.0, 1.0 ] );
 
-sgemv( 'row-major', 'no-transpose', 2, 3, 1.0, A, 3, x, 1, 1.0, y, 1 );
-// y => <Float32Array>[ 7.0, 16.0 ]
+dgemv( 'row-major', 'no-transpose', 2, 3, 1.0, A, 3, x, 1, 1.0, y, 1 );
+// y => <Float64Array>[ 7.0, 16.0 ]
 ```
 
 The function has the following parameters:
@@ -52,25 +52,25 @@ The function has the following parameters:
 -   **M**: number of rows in the matrix `A`.
 -   **N**: number of columns in the matrix `A`.
 -   **α**: scalar constant.
--   **A**: input matrix stored in linear memory as a [`Float32Array`][mdn-float32array].
+-   **A**: input matrix stored in linear memory as a [`Float64Array`][mdn-float64array].
 -   **lda**: stride of the first dimension of `A` (leading dimension of `A`).
--   **x**: input [`Float32Array`][mdn-float32array].
+-   **x**: input [`Float64Array`][mdn-float64array].
 -   **sx**: index increment for `x`.
 -   **β**: scalar constant.
--   **y**: output [`Float32Array`][mdn-float32array].
+-   **y**: output [`Float64Array`][mdn-float64array].
 -   **sy**: index increment for `y`.
 
 The stride parameters determine how operations are performed. For example, to iterate over every other element in `x` and `y`,
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
-var x = new Float32Array( [ 1.0, 0.0, 1.0, 0.0 ] );
-var y = new Float32Array( [ 1.0, 0.0, 1.0, 0.0 ] );
+var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+var x = new Float64Array( [ 1.0, 0.0, 1.0, 0.0 ] );
+var y = new Float64Array( [ 1.0, 0.0, 1.0, 0.0 ] );
 
-sgemv( 'row-major', 'no-transpose', 2, 2, 1.0, A, 2, x, 2, 1.0, y, 2 );
-// y => <Float32Array>[ 4.0, 0.0, 8.0, 0.0 ]
+dgemv( 'row-major', 'no-transpose', 2, 2, 1.0, A, 2, x, 2, 1.0, y, 2 );
+// y => <Float64Array>[ 4.0, 0.0, 8.0, 0.0 ]
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -78,34 +78,34 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 <!-- eslint-disable stdlib/capitalized-comments -->
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
 // Initial arrays...
-var x0 = new Float32Array( [ 0.0, 1.0, 1.0 ] );
-var y0 = new Float32Array( [ 0.0, 1.0, 1.0 ] );
-var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+var x0 = new Float64Array( [ 0.0, 1.0, 1.0 ] );
+var y0 = new Float64Array( [ 0.0, 1.0, 1.0 ] );
+var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 
 // Create offset views...
-var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
-var y1 = new Float32Array( y0.buffer, y0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var y1 = new Float64Array( y0.buffer, y0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-sgemv( 'row-major', 'no-transpose', 2, 2, 1.0, A, 2, x1, -1, 1.0, y1, -1 );
-// y0 => <Float32Array>[ 0.0, 8.0, 4.0 ]
+dgemv( 'row-major', 'no-transpose', 2, 2, 1.0, A, 2, x1, -1, 1.0, y1, -1 );
+// y0 => <Float64Array>[ 0.0, 8.0, 4.0 ]
 ```
 
-#### sgemv.ndarray( trans, M, N, α, A, sa1, sa2, oa, x, sx, ox, β, y, sy, oy )
+#### dgemv.ndarray( trans, M, N, α, A, sa1, sa2, oa, x, sx, ox, β, y, sy, oy )
 
-Performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y`, using alternative indexing semantics and where `α` and `β` are scalars, `x` and `y` are vectors, and `A` is an `M` by `N` matrix.
+Performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A**T*x + β*y`, using alternative indexing semantics and where `α` and `β` are scalars, `x` and `y` are vectors, and `A` is an `M` by `N` matrix.
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-var x = new Float32Array( [ 1.0, 1.0, 1.0 ] );
-var y = new Float32Array( [ 1.0, 1.0 ] );
+var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+var x = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+var y = new Float64Array( [ 1.0, 1.0 ] );
 
-sgemv.ndarray( 'no-transpose', 2, 3, 1.0, A, 3, 1, 0, x, 1, 0, 1.0, y, 1, 0 );
-// y => <Float32Array>[ 7.0, 16.0 ]
+dgemv.ndarray( 'no-transpose', 2, 3, 1.0, A, 3, 1, 0, x, 1, 0, 1.0, y, 1, 0 );
+// y => <Float64Array>[ 7.0, 16.0 ]
 ```
 
 The function has the following additional parameters:
@@ -119,14 +119,14 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example,
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
+var Float64Array = require( '@stdlib/array/float64' );
 
-var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-var x = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
-var y = new Float32Array( [ 7.0, 8.0, 9.0, 10.0 ] );
+var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+var x = new Float64Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+var y = new Float64Array( [ 7.0, 8.0, 9.0, 10.0 ] );
 
-sgemv.ndarray( 'no-transpose', 2, 3, 1.0, A, 3, 1, 0, x, 1, 1, 1.0, y, -2, 2 );
-// y => <Float32Array>[ 39, 8, 23, 10 ]
+dgemv.ndarray( 'no-transpose', 2, 3, 1.0, A, 3, 1, 0, x, 1, 1, 1.0, y, -2, 2 );
+// y => <Float64Array>[ 39, 8, 23, 10 ]
 ```
 
 </section>
@@ -137,7 +137,7 @@ sgemv.ndarray( 'no-transpose', 2, 3, 1.0, A, 3, 1, 0, x, 1, 1, 1.0, y, -2, 2 );
 
 ## Notes
 
--   `sgemv()` corresponds to the [BLAS][blas] level 2 function [`sgemv`][blas-sgemv].
+-   `dgemv()` corresponds to the [BLAS][blas] level 2 function [`dgemv`][blas-dgemv].
 
 </section>
 
@@ -151,10 +151,10 @@ sgemv.ndarray( 'no-transpose', 2, 3, 1.0, A, 3, 1, 0, x, 1, 1, 1.0, y, -2, 2 );
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var sgemv = require( '@stdlib/blas/base/sgemv' );
+var dgemv = require( '@stdlib/blas/base/dgemv' );
 
 var opts = {
-    'dtype': 'float32'
+    'dtype': 'float64'
 };
 
 var M = 3;
@@ -164,7 +164,7 @@ var A = discreteUniform( M*N, 0, 255, opts );
 var x = discreteUniform( N, 0, 255, opts );
 var y = discreteUniform( M, 0, 255, opts );
 
-sgemv( 'row-major', 'no-transpose', M, N, 1.0, A, N, x, -1, 1.0, y, -1 );
+dgemv( 'row-major', 'no-transpose', M, N, 1.0, A, N, x, -1, 1.0, y, -1 );
 console.log( y );
 
 ```
@@ -196,7 +196,7 @@ console.log( y );
 ### Usage
 
 ```c
-#include "stdlib/blas/base/sgemv.h"
+#include "stdlib/blas/base/dgemv.h"
 ```
 
 #### TODO
@@ -257,9 +257,9 @@ TODO
 
 [blas]: http://www.netlib.org/blas
 
-[blas-sgemv]: https://www.netlib.org/lapack/explore-html/d7/dda/group__gemv_ga0d35d880b663ad18204bb23bd186e380.html#ga0d35d880b663ad18204bb23bd186e380
+[blas-dgemv]: https://www.netlib.org/lapack/explore-html/d7/dda/group__gemv_ga4ac1b675072d18f902db8a310784d802.html#ga4ac1b675072d18f902db8a310784d802
 
-[mdn-float32array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array
+[mdn-float64array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 

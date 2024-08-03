@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-01)
+## Unreleased (2024-08-03)
 
 <section class="packages">
 
@@ -501,6 +501,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dgemv-unreleased">
+
+#### [@stdlib/blas/base/dgemv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dgemv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1a0368b`](https://github.com/stdlib-js/stdlib/commit/1a0368b9aa6733bb153cd09ad91fc27200180027) - add `blas/base/dgemv` [(#2654)](https://github.com/stdlib-js/stdlib/pull/2654)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2871,6 +2893,16 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2b123f6`](https://github.com/stdlib-js/stdlib/commit/2b123f66af0c8d053d0d7d0dc6fae718fc182bb3) - **style:** fix missing spaces _(by Athan Reines)_
+-   [`4f98407`](https://github.com/stdlib-js/stdlib/commit/4f98407129de0fdc6a3731e984ea9fb51101225f) - **style:** fix missing spaces _(by Athan Reines)_
+-   [`0be3828`](https://github.com/stdlib-js/stdlib/commit/0be382865d07a948545f6e6e6c1da14740c2d8fb) - **test:** fix test fixture _(by Athan Reines)_
+-   [`8018ce3`](https://github.com/stdlib-js/stdlib/commit/8018ce3ba4efdf454633393970949dd868c532fc) - **test:** fix test fixture _(by Athan Reines)_
+-   [`6c3bfbd`](https://github.com/stdlib-js/stdlib/commit/6c3bfbdcbb11a33737c24d413e661e59c4746f01) - **docs:** update description _(by Athan Reines)_
+-   [`3f617f6`](https://github.com/stdlib-js/stdlib/commit/3f617f6258fd1ed2e68a305a42621672e988a1c3) - **docs:** fix source comment [(#2735)](https://github.com/stdlib-js/stdlib/pull/2735) _(by Aman Bhansali)_
+-   [`1a0368b`](https://github.com/stdlib-js/stdlib/commit/1a0368b9aa6733bb153cd09ad91fc27200180027) - **feat:** add `blas/base/dgemv` [(#2654)](https://github.com/stdlib-js/stdlib/pull/2654) _(by Aman Bhansali, Athan Reines)_
+-   [`283fb86`](https://github.com/stdlib-js/stdlib/commit/283fb861b91c55276e3a38b080c2983265db3b76) - **test:** update descriptions _(by Athan Reines)_
+-   [`bebfa1d`](https://github.com/stdlib-js/stdlib/commit/bebfa1dea0c0303b185ff2123243616f440c5b71) - **docs:** fix text wrapping _(by Athan Reines)_
+-   [`e22f5a9`](https://github.com/stdlib-js/stdlib/commit/e22f5a978215da36f0987aa667829fbc566f4e9c) - **style:** fix lint errors _(by Athan Reines)_
 -   [`868c9aa`](https://github.com/stdlib-js/stdlib/commit/868c9aa323e5c49a00ecaa944ce90d968c80f6de) - **docs:** update ToC _(by Athan Reines)_
 -   [`f1128aa`](https://github.com/stdlib-js/stdlib/commit/f1128aa2432497a7297ad1cc733de562f44169d5) - **feat:** add `zaxpy`, `zdrot`, and `zscal` to namespace _(by Athan Reines)_
 -   [`10640df`](https://github.com/stdlib-js/stdlib/commit/10640dfff29bff48cc339c31c0fe98ab5a5d2ff3) - **feat:** add `sspmv`, `ssymv`, `ssyr`, `ssyr2`, and `strmv` to namespace _(by Athan Reines)_

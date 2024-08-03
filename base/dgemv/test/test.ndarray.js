@@ -23,10 +23,10 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var Float32Array = require( '@stdlib/array/float32' );
-var EPS = require( '@stdlib/constants/float32/eps' );
+var Float64Array = require( '@stdlib/array/float64' );
+var EPS = require( '@stdlib/constants/float64/eps' );
 var abs = require( '@stdlib/math/base/special/abs' );
-var sgemv = require( './../lib/ndarray.js' );
+var dgemv = require( './../lib/ndarray.js' );
 
 
 // FIXTURES //
@@ -91,12 +91,12 @@ function isApprox( t, actual, expected, rtol ) {
 
 tape( 'main export is a function', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof sgemv, 'function', 'main export is a function' );
+	t.strictEqual( typeof dgemv, 'function', 'main export is a function' );
 	t.end();
 });
 
 tape( 'the function has an arity of 15', function test( t ) {
-	t.strictEqual( sgemv.length, 15, 'returns expected value' );
+	t.strictEqual( dgemv.length, 15, 'returns expected value' );
 	t.end();
 });
 
@@ -121,7 +121,7 @@ tape( 'the function throws an error if provided an invalid first argument', func
 
 	function badValue( value ) {
 		return function badValue() {
-			sgemv( value, data.M, data.N, data.alpha, new Float32Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float32Array( data.x ), data.strideX, data.offsetX, data.beta, new Float32Array( data.y ), data.strideY, data.offsetY );
+			dgemv( value, data.M, data.N, data.alpha, new Float64Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float64Array( data.x ), data.strideX, data.offsetX, data.beta, new Float64Array( data.y ), data.strideY, data.offsetY );
 		};
 	}
 });
@@ -146,7 +146,7 @@ tape( 'the function throws an error if provided an invalid second argument', fun
 
 	function badValue( value ) {
 		return function badValue() {
-			sgemv( data.trans, value, data.N, data.alpha, new Float32Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float32Array( data.x ), data.strideX, data.offsetX, data.beta, new Float32Array( data.y ), data.strideY, data.offsetY );
+			dgemv( data.trans, value, data.N, data.alpha, new Float64Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float64Array( data.x ), data.strideX, data.offsetX, data.beta, new Float64Array( data.y ), data.strideY, data.offsetY );
 		};
 	}
 });
@@ -171,7 +171,7 @@ tape( 'the function throws an error if provided an invalid third argument', func
 
 	function badValue( value ) {
 		return function badValue() {
-			sgemv( data.trans, data.M, value, data.alpha, new Float32Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float32Array( data.x ), data.strideX, data.offsetX, data.beta, new Float32Array( data.y ), data.strideY, data.offsetY );
+			dgemv( data.trans, data.M, value, data.alpha, new Float64Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float64Array( data.x ), data.strideX, data.offsetX, data.beta, new Float64Array( data.y ), data.strideY, data.offsetY );
 		};
 	}
 });
@@ -194,7 +194,7 @@ tape( 'the function throws an error if provided an invalid tenth argument', func
 
 	function badValue( value ) {
 		return function badValue() {
-			sgemv( data.trans, data.M, data.N, data.alpha, new Float32Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float32Array( data.x ), value, data.offsetX, data.beta, new Float32Array( data.y ), data.strideY, data.offsetY );
+			dgemv( data.trans, data.M, data.N, data.alpha, new Float64Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float64Array( data.x ), value, data.offsetX, data.beta, new Float64Array( data.y ), data.strideY, data.offsetY );
 		};
 	}
 });
@@ -217,7 +217,7 @@ tape( 'the function throws an error if provided an invalid fourteenth argument',
 
 	function badValue( value ) {
 		return function badValue() {
-			sgemv( data.trans, data.M, data.N, data.alpha, new Float32Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float32Array( data.x ), data.strideX, data.offsetX, data.beta, new Float32Array( data.y ), value, data.offsetY );
+			dgemv( data.trans, data.M, data.N, data.alpha, new Float64Array( data.A ), data.strideA1, data.strideA2, data.offsetA, new Float64Array( data.x ), data.strideX, data.offsetX, data.beta, new Float64Array( data.y ), value, data.offsetY );
 		};
 	}
 });
@@ -232,13 +232,13 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 
 	data = rnt;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -254,13 +254,13 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 
 	data = cnt;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -276,13 +276,13 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 
 	data = rt;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -298,13 +298,13 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 
 	data = ct;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -319,11 +319,11 @@ tape( 'the function returns a reference to the second input vector (row-major)',
 
 	data = rt;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
 });
@@ -337,11 +337,11 @@ tape( 'the function returns a reference to the second input vector (column-major
 
 	data = ct;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
 });
@@ -356,17 +356,17 @@ tape( 'if either `M` or `N` is `0`, the function returns the second input vector
 
 	data = rt;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y );
+	expected = new Float64Array( data.y );
 
-	out = sgemv( data.trans, 0, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, 0, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	out = sgemv( data.trans, data.M, 0, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, 0, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
@@ -383,17 +383,17 @@ tape( 'if either `M` or `N` is `0`, the function returns the second input vector
 
 	data = ct;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y );
+	expected = new Float64Array( data.y );
 
-	out = sgemv( data.trans, 0, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, 0, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	out = sgemv( data.trans, data.M, 0, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, 0, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
@@ -410,13 +410,13 @@ tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vec
 
 	data = rt;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y );
+	expected = new Float64Array( data.y );
 
-	out = sgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 1.0, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 1.0, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
@@ -433,13 +433,13 @@ tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vec
 
 	data = ct;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y );
+	expected = new Float64Array( data.y );
 
-	out = sgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 1.0, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 1.0, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
@@ -456,13 +456,13 @@ tape( 'if `α` is `0`, the function scales the second input vector by `β` (row-
 
 	data = rt;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y.length );
+	expected = new Float64Array( data.y.length );
 
-	out = sgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 0.0, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 0.0, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
@@ -479,13 +479,13 @@ tape( 'if `α` is `0`, the function scales the second input vector by `β` (colu
 
 	data = ct;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y.length );
+	expected = new Float64Array( data.y.length );
 
-	out = sgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 0.0, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, 0.0, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, 0.0, y, data.strideY, data.offsetY );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.deepEqual( out, expected, 'returns expected value' );
 
@@ -502,13 +502,13 @@ tape( 'the function supports specifying the strides of the first and second dime
 
 	data = rsa1sa2;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -524,13 +524,13 @@ tape( 'the function supports specifying the strides of the first and second dime
 
 	data = csa1sa2;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -546,13 +546,13 @@ tape( 'the function supports a negative stride for the first dimension of `A` (r
 
 	data = rsa1nsa2;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -568,13 +568,13 @@ tape( 'the function supports a negative stride for the first dimension of `A` (c
 
 	data = csa1nsa2;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -590,13 +590,13 @@ tape( 'the function supports a negative stride for the second dimension of `A` (
 
 	data = rsa1sa2n;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -612,13 +612,13 @@ tape( 'the function supports a negative stride for the second dimension of `A` (
 
 	data = csa1sa2n;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -634,13 +634,13 @@ tape( 'the function supports negative strides for `A` (row-major)', function tes
 
 	data = rsa1nsa2n;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -656,13 +656,13 @@ tape( 'the function supports negative strides for `A` (column-major)', function 
 
 	data = csa1nsa2n;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -678,13 +678,13 @@ tape( 'the function supports specifying an offset parameter for `A` (row-major)'
 
 	data = roa;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -700,13 +700,13 @@ tape( 'the function supports specifying an offset parameter for `A` (column-majo
 
 	data = coa;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -722,13 +722,13 @@ tape( 'the function supports specifying `x` and `y` strides (row-major)', functi
 
 	data = rxpyp;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -744,13 +744,13 @@ tape( 'the function supports specifying `x` and `y` strides (column-major)', fun
 
 	data = cxpyp;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -766,13 +766,13 @@ tape( 'the function supports specifying a negative `x` stride (row-major)', func
 
 	data = rxnyp;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -788,13 +788,13 @@ tape( 'the function supports specifying a negative `x` stride (column-major)', f
 
 	data = cxnyp;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -810,13 +810,13 @@ tape( 'the function supports specifying a negative `y` stride (row-major)', func
 
 	data = rxpyn;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -832,13 +832,13 @@ tape( 'the function supports specifying a negative `y` stride (column-major)', f
 
 	data = cxpyn;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -854,13 +854,13 @@ tape( 'the function supports specifying negative strides for `x` and `y` (row-ma
 
 	data = rxnyn;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -876,13 +876,13 @@ tape( 'the function supports specifying negative strides for `x` and `y` (column
 
 	data = cxnyn;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -898,13 +898,13 @@ tape( 'the function supports complex access patterns (row-major)', function test
 
 	data = rap;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
@@ -920,13 +920,13 @@ tape( 'the function supports complex access patterns (column-major)', function t
 
 	data = cap;
 
-	a = new Float32Array( data.A );
-	x = new Float32Array( data.x );
-	y = new Float32Array( data.y );
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+	y = new Float64Array( data.y );
 
-	expected = new Float32Array( data.y_out );
+	expected = new Float64Array( data.y_out );
 
-	out = sgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
+	out = dgemv( data.trans, data.M, data.N, data.alpha, a, data.strideA1, data.strideA2, data.offsetA, x, data.strideX, data.offsetX, data.beta, y, data.strideY, data.offsetY );
 	isApprox( t, y, expected, 2.0 );
 	t.strictEqual( out, y, 'returns expected value' );
 	t.end();
