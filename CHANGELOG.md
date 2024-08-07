@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-03)
+## Unreleased (2024-08-07)
 
 <section class="packages">
 
@@ -1794,6 +1794,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-strsv-unreleased">
+
+#### [@stdlib/blas/base/strsv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/strsv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1bf4328`](https://github.com/stdlib-js/stdlib/commit/1bf4328be6bc0f6aa4fb988ec84f768a9fc50594) - add `blas/base/strsv` [(#2752)](https://github.com/stdlib-js/stdlib/pull/2752)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-transpose-operation-enum2str-unreleased">
 
 #### [@stdlib/blas/base/transpose-operation-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-enum2str)
@@ -2893,6 +2915,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1bf4328`](https://github.com/stdlib-js/stdlib/commit/1bf4328be6bc0f6aa4fb988ec84f768a9fc50594) - **feat:** add `blas/base/strsv` [(#2752)](https://github.com/stdlib-js/stdlib/pull/2752) _(by Aman Bhansali, Athan Reines)_
 -   [`2b123f6`](https://github.com/stdlib-js/stdlib/commit/2b123f66af0c8d053d0d7d0dc6fae718fc182bb3) - **style:** fix missing spaces _(by Athan Reines)_
 -   [`4f98407`](https://github.com/stdlib-js/stdlib/commit/4f98407129de0fdc6a3731e984ea9fb51101225f) - **style:** fix missing spaces _(by Athan Reines)_
 -   [`0be3828`](https://github.com/stdlib-js/stdlib/commit/0be382865d07a948545f6e6e6c1da14740c2d8fb) - **test:** fix test fixture _(by Athan Reines)_
