@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-07)
+## Unreleased (2024-08-12)
 
 <section class="packages">
 
@@ -856,13 +856,12 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
--   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method
 
     -   To migrate, users should set the `offsetAP` parameter. For most cases,
-    this parameter will be zero, but supporting this parameter allows
-    users to specify alternative starting indices, such as needed when
-    working with ndarray views.
+        this parameter will be zero, but supporting this parameter allows
+        users to specify alternative starting indices, such as needed when
+        working with ndarray views.
 
 </section>
 
@@ -983,6 +982,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`640278b`](https://github.com/stdlib-js/stdlib/commit/640278bc95b4f9f87e58c328b5238606635052e6) - add `blas/base/dtrmv` [(#2540)](https://github.com/stdlib-js/stdlib/pull/2540)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dtrsv-unreleased">
+
+#### [@stdlib/blas/base/dtrsv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dtrsv)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`09afa7c`](https://github.com/stdlib-js/stdlib/commit/09afa7cf3cf2aa5c578aff1b2e51acf818853e0e) - add `blas/base/dtrsv` [(#2753)](https://github.com/stdlib-js/stdlib/pull/2753)
 
 </section>
 
@@ -1421,10 +1442,10 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders` 
+-   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders`
 
     -   To migrate, users should use `blas/base/layouts` and the
-    `STDLIB_BLAS_LAYOUT` enum.
+        `STDLIB_BLAS_LAYOUT` enum.
 
 </section>
 
@@ -1779,8 +1800,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): add `blas/base/strmv`
--   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types` 
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types`
 
     -   To migrate, users should change their usage of `none` to `no-transpose`. This change enhances code readability and aligns the string literal with the C enumeration constant.
 
@@ -2828,24 +2848,22 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
--   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): add `blas/base/strmv`
--   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types` 
+-   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types`
 
     -   To migrate, users should change their usage of `none` to `no-transpose`. This change enhances code readability and aligns the string literal with the C enumeration constant.
 
 -   [`722452c`](https://github.com/stdlib-js/stdlib/commit/722452c97282738c0a83e336720c63ee785bc69f): rename 'none' transpose operation to 'no-transpose'
--   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add support for specifying the index offset for `AP`
--   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method 
+-   [`bc23559`](https://github.com/stdlib-js/stdlib/commit/bc2355981ffa28082d8e23273887501bd3ba674a): add offset parameter to `ndarray` method
 
     -   To migrate, users should set the `offsetAP` parameter. For most cases,
-    this parameter will be zero, but supporting this parameter allows
-    users to specify alternative starting indices, such as needed when
-    working with ndarray views.
+        this parameter will be zero, but supporting this parameter allows
+        users to specify alternative starting indices, such as needed when
+        working with ndarray views.
 
--   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders` 
+-   [`85ec173`](https://github.com/stdlib-js/stdlib/commit/85ec1734c06b80b13eb607576e592414047c90a7): remove `blas/base/orders`
 
     -   To migrate, users should use `blas/base/layouts` and the
-    `STDLIB_BLAS_LAYOUT` enum.
+        `STDLIB_BLAS_LAYOUT` enum.
 
 </section>
 
@@ -2867,7 +2885,7 @@ A total of 20 issues were closed in this release:
 
 ### Contributors
 
-A total of 35 people contributed to this release. Thank you to the following contributors:
+A total of 34 people contributed to this release. Thank you to the following contributors:
 
 -   AgPriyanshu18
 -   Aleksandr
@@ -2903,7 +2921,6 @@ A total of 35 people contributed to this release. Thank you to the following con
 -   Xiaochuan Ye
 -   naveen
 -   rainn
--   stdlib-bot
 
 </section>
 
@@ -2915,6 +2932,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`09afa7c`](https://github.com/stdlib-js/stdlib/commit/09afa7cf3cf2aa5c578aff1b2e51acf818853e0e) - **feat:** add `blas/base/dtrsv` [(#2753)](https://github.com/stdlib-js/stdlib/pull/2753) _(by Aman Bhansali)_
 -   [`de0e5b9`](https://github.com/stdlib-js/stdlib/commit/de0e5b93922db9358bd20d5b337cd32e69b8cdac) - **docs:** add note _(by Athan Reines)_
 -   [`1bf4328`](https://github.com/stdlib-js/stdlib/commit/1bf4328be6bc0f6aa4fb988ec84f768a9fc50594) - **feat:** add `blas/base/strsv` [(#2752)](https://github.com/stdlib-js/stdlib/pull/2752) _(by Aman Bhansali, Athan Reines)_
 -   [`2b123f6`](https://github.com/stdlib-js/stdlib/commit/2b123f66af0c8d053d0d7d0dc6fae718fc182bb3) - **style:** fix missing spaces _(by Athan Reines)_
@@ -3311,45 +3329,23 @@ A total of 35 people contributed to this release. Thank you to the following con
 
 <!-- /.release -->
 
+<section class="release" id="v0.2.1">
+
 ## 0.2.1 (2024-02-05)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.2.0">
 
 ## 0.2.0 (2024-02-05)
 
 <section class="packages">
 
 ### Packages
-
-<section class="package" id="blas-v0.2.0">
-
-#### [@stdlib/blas](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
 
 <section class="package" id="blas-base-v0.2.0">
 
@@ -3375,30 +3371,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-ccopy-v0.2.0">
-
-#### [@stdlib/blas/base/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ccopy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-cswap-v0.2.0">
-
-#### [@stdlib/blas/base/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="blas-base-dasum-v0.2.0">
 
 #### [@stdlib/blas/base/dasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dasum)
@@ -3416,18 +3388,6 @@ No changes reported for this release.</details>
 <!-- /.bug-fixes -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-daxpy-v0.2.0">
-
-#### [@stdlib/blas/base/daxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/daxpy)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -3494,174 +3454,6 @@ No changes reported for this release.</details>
 <!-- /.bug-fixes -->
 
 </details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-drotg-v0.2.0">
-
-#### [@stdlib/blas/base/drotg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotg)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-dscal-v0.2.0">
-
-#### [@stdlib/blas/base/dscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dscal)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-dsdot-v0.2.0">
-
-#### [@stdlib/blas/base/dsdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsdot)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-dswap-v0.2.0">
-
-#### [@stdlib/blas/base/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dswap)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-gasum-v0.2.0">
-
-#### [@stdlib/blas/base/gasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gasum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-gaxpy-v0.2.0">
-
-#### [@stdlib/blas/base/gaxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gaxpy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-gcopy-v0.2.0">
-
-#### [@stdlib/blas/base/gcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gcopy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-gdot-v0.2.0">
-
-#### [@stdlib/blas/base/gdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gdot)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-gnrm2-v0.2.0">
-
-#### [@stdlib/blas/base/gnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gnrm2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-gscal-v0.2.0">
-
-#### [@stdlib/blas/base/gscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gscal)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-gswap-v0.2.0">
-
-#### [@stdlib/blas/base/gswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gswap)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-sasum-v0.2.0">
-
-#### [@stdlib/blas/base/sasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sasum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-saxpy-v0.2.0">
-
-#### [@stdlib/blas/base/saxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/saxpy)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-scopy-v0.2.0">
-
-#### [@stdlib/blas/base/scopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scopy)
-
-<details>
-
-No changes reported for this release.</details>
 
 </section>
 
@@ -3734,42 +3526,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-srotg-v0.2.0">
-
-#### [@stdlib/blas/base/srotg](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srotg)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-sscal-v0.2.0">
-
-#### [@stdlib/blas/base/sscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sscal)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-sswap-v0.2.0">
-
-#### [@stdlib/blas/base/sswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sswap)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 <section class="package" id="blas-ddot-v0.2.0">
 
 #### [@stdlib/blas/ddot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ddot)
@@ -3792,1086 +3548,6 @@ No changes reported for this release.</details>
 
 <!-- /.package -->
 
-<section class="package" id="blas-dswap-v0.2.0">
-
-#### [@stdlib/blas/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/dswap)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-v0.2.0">
-
-#### [@stdlib/blas/ext](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-v0.2.0">
-
-#### [@stdlib/blas/ext/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dapx-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dapx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapx)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dapxsum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dapxsumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dapxsumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dapxsumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dapxsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dapxsumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dasumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dasumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dasumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dcusum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dcusum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dcusumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dcusumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dcusumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dcusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dcusumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dcusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dcusumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dcusumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dfill-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dfill)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnanasum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnanasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnanasum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnanasumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnanasumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnanasumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnannsum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnannsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnannsumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnannsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnannsumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnannsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnannsumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnannsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnannsumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnannsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnansum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnansumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnansumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnansumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnansumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnansumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dnansumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dnansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-drev-v0.2.0">
-
-#### [@stdlib/blas/ext/base/drev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/drev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsapxsum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsapxsum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsapxsumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsapxsumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsnannsumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsnannsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnannsumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsnansum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnansum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsnansumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsnansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnansumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsnansumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsnansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnansumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsort2hp-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsort2hp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsort2hp)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsort2ins-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsort2ins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsort2ins)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsort2sh-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsort2sh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsort2sh)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsorthp-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsorthp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsorthp)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsortins-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsortins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsortins)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsortsh-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsortsh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsortsh)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dssum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dssum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dssumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dssumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dssumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-dsumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/dsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-gfill-v0.2.0">
-
-#### [@stdlib/blas/ext/base/gfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gfill)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-gnansumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/gnansumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gnansumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-grev-v0.2.0">
-
-#### [@stdlib/blas/ext/base/grev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/grev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sapx-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sapx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapx)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sapxsum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sapxsumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sapxsumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sapxsumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sapxsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sapxsumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sasumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sasumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sasumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-scusum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/scusum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-scusumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/scusumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-scusumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/scusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-scusumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/scusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-scusumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/scusumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sdsapxsum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sdsapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdsapxsum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sdsapxsumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sdsapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdsapxsumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sdsnansum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sdsnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdsnansum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sdsnansumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sdsnansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdsnansumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sdssum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sdssum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdssum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sdssumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sdssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdssumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-sfill-v0.2.0">
-
-#### [@stdlib/blas/ext/base/sfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sfill)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-snansum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/snansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-snansumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/snansumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-snansumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/snansumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-snansumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/snansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-snansumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/snansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-srev-v0.2.0">
-
-#### [@stdlib/blas/ext/base/srev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/srev)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssort2hp-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssort2hp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssort2hp)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssort2ins-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssort2ins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssort2ins)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssort2sh-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssort2sh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssort2sh)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssorthp-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssorthp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssorthp)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssortins-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssortins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssortins)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssortsh-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssortsh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssortsh)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssum-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssum)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssumkbn-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumkbn)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssumkbn2-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumkbn2)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssumors-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumors)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-ext-base-ssumpw-v0.2.0">
-
-#### [@stdlib/blas/ext/base/ssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumpw)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-sdot-v0.2.0">
-
-#### [@stdlib/blas/sdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/sdot)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-sswap-v0.2.0">
-
-#### [@stdlib/blas/sswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/sswap)
-
-<details>
-
-No changes reported for this release.</details>
-
-</section>
-
-<!-- /.package -->
-
 </section>
 
 <!-- /.packages -->
@@ -4880,10 +3556,9 @@ No changes reported for this release.</details>
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Philipp Burckhardt
 -   Philipp Burckhardt
 
 </section>
@@ -4979,27 +3654,21 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.1.1">
+
 ## 0.1.1 (2023-11-08)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.1.0">
 
 ## 0.1.0 (2023-11-08)
 
@@ -5027,8 +3696,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5064,8 +3732,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5099,8 +3766,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5134,8 +3800,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5169,8 +3834,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5204,8 +3868,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5239,8 +3902,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5274,8 +3936,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5309,8 +3970,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5345,8 +4005,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5380,8 +4039,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5415,8 +4073,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5450,8 +4107,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5485,8 +4141,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5520,8 +4175,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5565,8 +4219,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5600,8 +4253,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5635,8 +4287,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5670,8 +4321,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5715,8 +4365,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5750,8 +4399,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5785,8 +4433,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5820,8 +4467,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5855,8 +4501,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5890,8 +4535,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5925,8 +4569,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -5971,8 +4614,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6018,8 +4660,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6053,8 +4694,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6088,8 +4728,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6123,8 +4762,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6158,8 +4796,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6193,8 +4830,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6228,8 +4864,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6263,8 +4898,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6298,8 +4932,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6333,8 +4966,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6368,8 +5000,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6403,8 +5034,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6438,8 +5068,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6473,8 +5102,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6508,8 +5136,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6543,8 +5170,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6578,8 +5204,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6613,8 +5238,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6648,8 +5272,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6683,8 +5306,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6718,8 +5340,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6753,8 +5374,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6788,8 +5408,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6823,8 +5442,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6858,8 +5476,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6893,8 +5510,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6928,8 +5544,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6963,8 +5578,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -6998,8 +5612,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7033,8 +5646,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7068,8 +5680,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7103,8 +5714,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7138,8 +5748,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7173,8 +5782,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7208,8 +5816,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7243,8 +5850,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7278,8 +5884,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7313,8 +5918,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7348,8 +5952,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7383,8 +5986,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7418,8 +6020,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7453,8 +6054,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7488,8 +6088,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7523,8 +6122,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7558,8 +6156,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7593,8 +6190,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7628,8 +6224,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7663,8 +6258,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7698,8 +6292,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7733,8 +6326,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7768,8 +6360,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7803,8 +6394,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7838,8 +6428,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7873,8 +6462,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7908,8 +6496,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7943,8 +6530,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -7978,8 +6564,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8013,8 +6598,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8048,8 +6632,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8083,8 +6666,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8118,8 +6700,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8153,8 +6734,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8188,8 +6768,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8223,8 +6802,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8268,8 +6846,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8314,8 +6891,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8349,8 +6925,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8384,8 +6959,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8419,8 +6993,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8454,8 +7027,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8489,8 +7061,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8524,8 +7095,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8569,8 +7139,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8604,8 +7173,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8639,8 +7207,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8674,8 +7241,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8709,8 +7275,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8744,8 +7309,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8779,8 +7343,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8814,8 +7377,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8849,8 +7411,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8884,8 +7445,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8919,8 +7479,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8954,8 +7513,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -8989,8 +7547,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9024,8 +7581,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9059,8 +7615,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9094,8 +7649,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9129,8 +7683,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9164,8 +7717,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9199,8 +7751,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9234,8 +7785,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9269,8 +7819,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9304,8 +7853,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9339,8 +7887,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9374,8 +7921,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9409,8 +7955,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9444,8 +7989,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9479,8 +8023,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9514,8 +8057,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9549,8 +8091,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9584,8 +8125,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9619,8 +8159,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9654,8 +8193,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9689,8 +8227,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9724,8 +8261,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9759,8 +8295,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9794,8 +8329,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9829,8 +8363,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9864,8 +8397,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9899,8 +8431,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9934,8 +8465,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -9969,8 +8499,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10004,8 +8533,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10039,8 +8567,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10074,8 +8601,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10109,8 +8635,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10144,8 +8669,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10179,8 +8703,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10214,8 +8737,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10249,8 +8771,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10284,8 +8805,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10319,8 +8839,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10354,8 +8873,7 @@ This release closes the following issue:
 
 ##### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10377,8 +8895,7 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version
--   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1 
+-   [`cca37d0`](https://github.com/stdlib-js/stdlib/commit/cca37d051d8c0209970fc681353fdb4e4d257a8a): update minimum TypeScript version to 4.1
 
     -   To migrate, users should upgrade their TypeScript version to at least version 4.1.
 
@@ -10454,267 +8971,127 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <!-- /.commits -->
 
+</section>
+
+<!-- /.release -->
+
+<section class="release" id="v0.0.12">
+
 ## 0.0.12 (2021-08-23)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.11">
 
 ## 0.0.11 (2021-07-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.10">
 
 ## 0.0.10 (2021-07-07)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.9">
 
 ## 0.0.9 (2021-06-27)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.8">
 
 ## 0.0.8 (2021-06-16)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.7">
 
 ## 0.0.7 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.6">
 
 ## 0.0.6 (2021-06-15)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.5">
 
 ## 0.0.5 (2021-06-13)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.4">
 
 ## 0.0.4 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.3">
 
 ## 0.0.3 (2021-06-12)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.2">
 
 ## 0.0.2 (2021-06-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
+<!-- /.release -->
 
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<section class="release" id="v0.0.1">
 
 ## 0.0.1 (2021-06-10)
 
-<section class="packages">
-
-### Packages
+No changes reported for this release.
 
 </section>
 
-<!-- /.packages -->
-
-<section class="commits">
-
-### Commits
-
-<details>
-
-</details>
-
-</section>
-
-<!-- /.commits -->
+<!-- /.release -->
 
