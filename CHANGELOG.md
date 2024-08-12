@@ -2932,6 +2932,7 @@ A total of 34 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b3f312c`](https://github.com/stdlib-js/stdlib/commit/b3f312c6b7b36862314e4163aba76e3e3999fcb4) - **test:** fix description _(by Athan Reines)_
 -   [`09afa7c`](https://github.com/stdlib-js/stdlib/commit/09afa7cf3cf2aa5c578aff1b2e51acf818853e0e) - **feat:** add `blas/base/dtrsv` [(#2753)](https://github.com/stdlib-js/stdlib/pull/2753) _(by Aman Bhansali)_
 -   [`de0e5b9`](https://github.com/stdlib-js/stdlib/commit/de0e5b93922db9358bd20d5b337cd32e69b8cdac) - **docs:** add note _(by Athan Reines)_
 -   [`1bf4328`](https://github.com/stdlib-js/stdlib/commit/1bf4328be6bc0f6aa4fb988ec84f768a9fc50594) - **feat:** add `blas/base/strsv` [(#2752)](https://github.com/stdlib-js/stdlib/pull/2752) _(by Aman Bhansali, Athan Reines)_
