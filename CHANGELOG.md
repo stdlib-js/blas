@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-12)
+## Unreleased (2024-08-15)
 
 <section class="packages">
 
@@ -1047,6 +1047,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`35cbdfb`](https://github.com/stdlib-js/stdlib/commit/35cbdfbbd0d8144b188bb95d56ec9f4719cc2bc5) - add support for negative strides in `idamax` and `isamax` [(#2793)](https://github.com/stdlib-js/stdlib/pull/2793)
 -   [`95653a3`](https://github.com/stdlib-js/stdlib/commit/95653a3f070bf770e5281a46d0d85ba18d72948b) - add `blas/base/idamax` [(#2152)](https://github.com/stdlib-js/stdlib/pull/2152)
 
 </section>
@@ -1064,6 +1065,18 @@ This release closes the following issue:
 
 <!-- /.bug-fixes -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2792](https://github.com/stdlib-js/stdlib/issues/2792)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -1080,11 +1093,24 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`35cbdfb`](https://github.com/stdlib-js/stdlib/commit/35cbdfbbd0d8144b188bb95d56ec9f4719cc2bc5) - add support for negative strides in `idamax` and `isamax` [(#2793)](https://github.com/stdlib-js/stdlib/pull/2793)
 -   [`fb6571e`](https://github.com/stdlib-js/stdlib/commit/fb6571ecebab94780dbd3b6d32b0c0275a3d636b) - add `blas/base/isamax` [(#2153)](https://github.com/stdlib-js/stdlib/pull/2153)
 
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2792](https://github.com/stdlib-js/stdlib/issues/2792)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1549,6 +1575,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sgemm-unreleased">
+
+#### [@stdlib/blas/base/sgemm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sgemm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ab0faa5`](https://github.com/stdlib-js/stdlib/commit/ab0faa5bfd04de14c250bccf4dc402f87816fb20) - add `blas/base/sgemm` [(#2742)](https://github.com/stdlib-js/stdlib/pull/2742)
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -2873,9 +2921,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 20 issues were closed in this release:
+A total of 21 issues were closed in this release:
 
-[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#1434](https://github.com/stdlib-js/stdlib/issues/1434), [#1464](https://github.com/stdlib-js/stdlib/issues/1464), [#1471](https://github.com/stdlib-js/stdlib/issues/1471), [#1475](https://github.com/stdlib-js/stdlib/issues/1475), [#1488](https://github.com/stdlib-js/stdlib/issues/1488), [#1504](https://github.com/stdlib-js/stdlib/issues/1504), [#1506](https://github.com/stdlib-js/stdlib/issues/1506), [#1509](https://github.com/stdlib-js/stdlib/issues/1509), [#1510](https://github.com/stdlib-js/stdlib/issues/1510), [#1511](https://github.com/stdlib-js/stdlib/issues/1511), [#1514](https://github.com/stdlib-js/stdlib/issues/1514), [#1516](https://github.com/stdlib-js/stdlib/issues/1516), [#1517](https://github.com/stdlib-js/stdlib/issues/1517), [#1533](https://github.com/stdlib-js/stdlib/issues/1533), [#1541](https://github.com/stdlib-js/stdlib/issues/1541), [#1542](https://github.com/stdlib-js/stdlib/issues/1542), [#1544](https://github.com/stdlib-js/stdlib/issues/1544), [#2047](https://github.com/stdlib-js/stdlib/issues/2047)
+[#276](https://github.com/stdlib-js/stdlib/issues/276), [#277](https://github.com/stdlib-js/stdlib/issues/277), [#1434](https://github.com/stdlib-js/stdlib/issues/1434), [#1464](https://github.com/stdlib-js/stdlib/issues/1464), [#1471](https://github.com/stdlib-js/stdlib/issues/1471), [#1475](https://github.com/stdlib-js/stdlib/issues/1475), [#1488](https://github.com/stdlib-js/stdlib/issues/1488), [#1504](https://github.com/stdlib-js/stdlib/issues/1504), [#1506](https://github.com/stdlib-js/stdlib/issues/1506), [#1509](https://github.com/stdlib-js/stdlib/issues/1509), [#1510](https://github.com/stdlib-js/stdlib/issues/1510), [#1511](https://github.com/stdlib-js/stdlib/issues/1511), [#1514](https://github.com/stdlib-js/stdlib/issues/1514), [#1516](https://github.com/stdlib-js/stdlib/issues/1516), [#1517](https://github.com/stdlib-js/stdlib/issues/1517), [#1533](https://github.com/stdlib-js/stdlib/issues/1533), [#1541](https://github.com/stdlib-js/stdlib/issues/1541), [#1542](https://github.com/stdlib-js/stdlib/issues/1542), [#1544](https://github.com/stdlib-js/stdlib/issues/1544), [#2047](https://github.com/stdlib-js/stdlib/issues/2047), [#2792](https://github.com/stdlib-js/stdlib/issues/2792)
 
 </section>
 
@@ -2932,6 +2980,8 @@ A total of 34 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`35cbdfb`](https://github.com/stdlib-js/stdlib/commit/35cbdfbbd0d8144b188bb95d56ec9f4719cc2bc5) - **feat:** add support for negative strides in `idamax` and `isamax` [(#2793)](https://github.com/stdlib-js/stdlib/pull/2793) _(by Pranav Goswami)_
+-   [`ab0faa5`](https://github.com/stdlib-js/stdlib/commit/ab0faa5bfd04de14c250bccf4dc402f87816fb20) - **feat:** add `blas/base/sgemm` [(#2742)](https://github.com/stdlib-js/stdlib/pull/2742) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`b3f312c`](https://github.com/stdlib-js/stdlib/commit/b3f312c6b7b36862314e4163aba76e3e3999fcb4) - **test:** fix description _(by Athan Reines)_
 -   [`09afa7c`](https://github.com/stdlib-js/stdlib/commit/09afa7cf3cf2aa5c578aff1b2e51acf818853e0e) - **feat:** add `blas/base/dtrsv` [(#2753)](https://github.com/stdlib-js/stdlib/pull/2753) _(by Aman Bhansali)_
 -   [`de0e5b9`](https://github.com/stdlib-js/stdlib/commit/de0e5b93922db9358bd20d5b337cd32e69b8cdac) - **docs:** add note _(by Athan Reines)_
