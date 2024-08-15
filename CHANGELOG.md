@@ -508,6 +508,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dgemm-unreleased">
+
+#### [@stdlib/blas/base/dgemm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dgemm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a500a2a`](https://github.com/stdlib-js/stdlib/commit/a500a2a45b2572b852de6efcf8d329cc851861f6) - add `blas/base/dgemm` [(#2541)](https://github.com/stdlib-js/stdlib/pull/2541)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dgemv-unreleased">
 
 #### [@stdlib/blas/base/dgemv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dgemv)
@@ -1592,6 +1614,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`a500a2a`](https://github.com/stdlib-js/stdlib/commit/a500a2a45b2572b852de6efcf8d329cc851861f6) - add `blas/base/dgemm` [(#2541)](https://github.com/stdlib-js/stdlib/pull/2541)
 -   [`ab0faa5`](https://github.com/stdlib-js/stdlib/commit/ab0faa5bfd04de14c250bccf4dc402f87816fb20) - add `blas/base/sgemm` [(#2742)](https://github.com/stdlib-js/stdlib/pull/2742)
 
 </section>
@@ -1741,6 +1764,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`f73aeb5`](https://github.com/stdlib-js/stdlib/commit/f73aeb5549179b68269aeedde9c9b2a5351da320) - add `blas/base/sspmv` [(#2414)](https://github.com/stdlib-js/stdlib/pull/2414)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sspr-unreleased">
+
+#### [@stdlib/blas/base/sspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspr)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8a64351`](https://github.com/stdlib-js/stdlib/commit/8a64351ca2c48164945a26eda9411193659fd554) - add `blas/base/sspr` [(#2760)](https://github.com/stdlib-js/stdlib/pull/2760)
 
 </section>
 
@@ -2980,6 +3025,8 @@ A total of 34 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8a64351`](https://github.com/stdlib-js/stdlib/commit/8a64351ca2c48164945a26eda9411193659fd554) - **feat:** add `blas/base/sspr` [(#2760)](https://github.com/stdlib-js/stdlib/pull/2760) _(by Aman Bhansali, Athan Reines)_
+-   [`a500a2a`](https://github.com/stdlib-js/stdlib/commit/a500a2a45b2572b852de6efcf8d329cc851861f6) - **feat:** add `blas/base/dgemm` [(#2541)](https://github.com/stdlib-js/stdlib/pull/2541) _(by Pranav Goswami, Athan Reines, Aman Bhansali)_
 -   [`35cbdfb`](https://github.com/stdlib-js/stdlib/commit/35cbdfbbd0d8144b188bb95d56ec9f4719cc2bc5) - **feat:** add support for negative strides in `idamax` and `isamax` [(#2793)](https://github.com/stdlib-js/stdlib/pull/2793) _(by Pranav Goswami)_
 -   [`ab0faa5`](https://github.com/stdlib-js/stdlib/commit/ab0faa5bfd04de14c250bccf4dc402f87816fb20) - **feat:** add `blas/base/sgemm` [(#2742)](https://github.com/stdlib-js/stdlib/pull/2742) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`b3f312c`](https://github.com/stdlib-js/stdlib/commit/b3f312c6b7b36862314e4163aba76e3e3999fcb4) - **test:** fix description _(by Athan Reines)_
