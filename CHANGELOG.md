@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2024-08-17)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-08-17)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="blas-base-unreleased">
+<section class="package" id="blas-base-v0.3.0">
 
 #### [@stdlib/blas/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base)
 
@@ -77,7 +87,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-assert-unreleased">
+<section class="package" id="blas-base-assert-v0.3.0">
 
 #### [@stdlib/blas/base/assert](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert)
 
@@ -105,7 +115,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-assert-is-diagonal-type-unreleased">
+<section class="package" id="blas-base-assert-is-diagonal-type-v0.3.0">
 
 #### [@stdlib/blas/base/assert/is-diagonal-type](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert/is-diagonal-type)
 
@@ -127,7 +137,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-assert-is-layout-unreleased">
+<section class="package" id="blas-base-assert-is-layout-v0.3.0">
 
 #### [@stdlib/blas/base/assert/is-layout](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert/is-layout)
 
@@ -149,7 +159,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-assert-is-matrix-triangle-unreleased">
+<section class="package" id="blas-base-assert-is-matrix-triangle-v0.3.0">
 
 #### [@stdlib/blas/base/assert/is-matrix-triangle](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert/is-matrix-triangle)
 
@@ -171,7 +181,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-assert-is-operation-side-unreleased">
+<section class="package" id="blas-base-assert-is-operation-side-v0.3.0">
 
 #### [@stdlib/blas/base/assert/is-operation-side](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert/is-operation-side)
 
@@ -193,7 +203,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-assert-is-transpose-operation-unreleased">
+<section class="package" id="blas-base-assert-is-transpose-operation-v0.3.0">
 
 #### [@stdlib/blas/base/assert/is-transpose-operation](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/assert/is-transpose-operation)
 
@@ -226,7 +236,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-caxpy-unreleased">
+<section class="package" id="blas-base-caxpy-v0.3.0">
 
 #### [@stdlib/blas/base/caxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/caxpy)
 
@@ -248,7 +258,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-ccopy-unreleased">
+<section class="package" id="blas-base-ccopy-v0.3.0">
 
 #### [@stdlib/blas/base/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ccopy)
 
@@ -280,7 +290,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-cscal-unreleased">
+<section class="package" id="blas-base-cscal-v0.3.0">
 
 #### [@stdlib/blas/base/cscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cscal)
 
@@ -302,7 +312,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-csrot-unreleased">
+<section class="package" id="blas-base-csrot-v0.3.0">
 
 #### [@stdlib/blas/base/csrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/csrot)
 
@@ -324,7 +334,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-cswap-unreleased">
+<section class="package" id="blas-base-cswap-v0.3.0">
 
 #### [@stdlib/blas/base/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap)
 
@@ -356,7 +366,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dasum-unreleased">
+<section class="package" id="blas-base-dasum-v0.3.0">
 
 #### [@stdlib/blas/base/dasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dasum)
 
@@ -390,7 +400,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-daxpy-unreleased">
+<section class="package" id="blas-base-daxpy-v0.3.0">
 
 #### [@stdlib/blas/base/daxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/daxpy)
 
@@ -422,7 +432,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dcabs1-unreleased">
+<section class="package" id="blas-base-dcabs1-v0.3.0">
 
 #### [@stdlib/blas/base/dcabs1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dcabs1)
 
@@ -444,7 +454,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dcopy-unreleased">
+<section class="package" id="blas-base-dcopy-v0.3.0">
 
 #### [@stdlib/blas/base/dcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dcopy)
 
@@ -476,7 +486,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-ddot-unreleased">
+<section class="package" id="blas-base-ddot-v0.3.0">
 
 #### [@stdlib/blas/base/ddot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ddot)
 
@@ -508,7 +518,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dgemm-unreleased">
+<section class="package" id="blas-base-dgemm-v0.3.0">
 
 #### [@stdlib/blas/base/dgemm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dgemm)
 
@@ -530,7 +540,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dgemv-unreleased">
+<section class="package" id="blas-base-dgemv-v0.3.0">
 
 #### [@stdlib/blas/base/dgemv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dgemv)
 
@@ -552,7 +562,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dger-unreleased">
+<section class="package" id="blas-base-dger-v0.3.0">
 
 #### [@stdlib/blas/base/dger](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dger)
 
@@ -574,7 +584,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-diagonal-type-enum2str-unreleased">
+<section class="package" id="blas-base-diagonal-type-enum2str-v0.3.0">
 
 #### [@stdlib/blas/base/diagonal-type-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-enum2str)
 
@@ -596,7 +606,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-diagonal-type-resolve-enum-unreleased">
+<section class="package" id="blas-base-diagonal-type-resolve-enum-v0.3.0">
 
 #### [@stdlib/blas/base/diagonal-type-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-resolve-enum)
 
@@ -618,7 +628,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-diagonal-type-resolve-str-unreleased">
+<section class="package" id="blas-base-diagonal-type-resolve-str-v0.3.0">
 
 #### [@stdlib/blas/base/diagonal-type-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-resolve-str)
 
@@ -640,7 +650,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-diagonal-type-str2enum-unreleased">
+<section class="package" id="blas-base-diagonal-type-str2enum-v0.3.0">
 
 #### [@stdlib/blas/base/diagonal-type-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-type-str2enum)
 
@@ -662,7 +672,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-diagonal-types-unreleased">
+<section class="package" id="blas-base-diagonal-types-v0.3.0">
 
 #### [@stdlib/blas/base/diagonal-types](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/diagonal-types)
 
@@ -694,7 +704,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dnrm2-unreleased">
+<section class="package" id="blas-base-dnrm2-v0.3.0">
 
 #### [@stdlib/blas/base/dnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dnrm2)
 
@@ -726,7 +736,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-drot-unreleased">
+<section class="package" id="blas-base-drot-v0.3.0">
 
 #### [@stdlib/blas/base/drot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drot)
 
@@ -771,7 +781,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-drotm-unreleased">
+<section class="package" id="blas-base-drotm-v0.3.0">
 
 #### [@stdlib/blas/base/drotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm)
 
@@ -793,7 +803,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dscal-unreleased">
+<section class="package" id="blas-base-dscal-v0.3.0">
 
 #### [@stdlib/blas/base/dscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dscal)
 
@@ -825,7 +835,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dsdot-unreleased">
+<section class="package" id="blas-base-dsdot-v0.3.0">
 
 #### [@stdlib/blas/base/dsdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsdot)
 
@@ -857,7 +867,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dspmv-unreleased">
+<section class="package" id="blas-base-dspmv-v0.3.0">
 
 #### [@stdlib/blas/base/dspmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dspmv)
 
@@ -895,7 +905,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dswap-unreleased">
+<section class="package" id="blas-base-dswap-v0.3.0">
 
 #### [@stdlib/blas/base/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dswap)
 
@@ -927,7 +937,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dsymv-unreleased">
+<section class="package" id="blas-base-dsymv-v0.3.0">
 
 #### [@stdlib/blas/base/dsymv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsymv)
 
@@ -949,7 +959,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dsyr-unreleased">
+<section class="package" id="blas-base-dsyr-v0.3.0">
 
 #### [@stdlib/blas/base/dsyr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsyr)
 
@@ -971,7 +981,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dsyr2-unreleased">
+<section class="package" id="blas-base-dsyr2-v0.3.0">
 
 #### [@stdlib/blas/base/dsyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsyr2)
 
@@ -993,7 +1003,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dtrmv-unreleased">
+<section class="package" id="blas-base-dtrmv-v0.3.0">
 
 #### [@stdlib/blas/base/dtrmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dtrmv)
 
@@ -1015,7 +1025,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dtrsv-unreleased">
+<section class="package" id="blas-base-dtrsv-v0.3.0">
 
 #### [@stdlib/blas/base/dtrsv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dtrsv)
 
@@ -1037,7 +1047,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-dznrm2-unreleased">
+<section class="package" id="blas-base-dznrm2-v0.3.0">
 
 #### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
 
@@ -1059,7 +1069,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-idamax-unreleased">
+<section class="package" id="blas-base-idamax-v0.3.0">
 
 #### [@stdlib/blas/base/idamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/idamax)
 
@@ -1105,7 +1115,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-isamax-unreleased">
+<section class="package" id="blas-base-isamax-v0.3.0">
 
 #### [@stdlib/blas/base/isamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/isamax)
 
@@ -1140,7 +1150,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-layout-enum2str-unreleased">
+<section class="package" id="blas-base-layout-enum2str-v0.3.0">
 
 #### [@stdlib/blas/base/layout-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-enum2str)
 
@@ -1162,7 +1172,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-layout-resolve-enum-unreleased">
+<section class="package" id="blas-base-layout-resolve-enum-v0.3.0">
 
 #### [@stdlib/blas/base/layout-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-resolve-enum)
 
@@ -1184,7 +1194,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-layout-resolve-str-unreleased">
+<section class="package" id="blas-base-layout-resolve-str-v0.3.0">
 
 #### [@stdlib/blas/base/layout-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-resolve-str)
 
@@ -1206,7 +1216,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-layout-str2enum-unreleased">
+<section class="package" id="blas-base-layout-str2enum-v0.3.0">
 
 #### [@stdlib/blas/base/layout-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layout-str2enum)
 
@@ -1228,7 +1238,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-layouts-unreleased">
+<section class="package" id="blas-base-layouts-v0.3.0">
 
 #### [@stdlib/blas/base/layouts](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/layouts)
 
@@ -1250,7 +1260,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-matrix-triangle-enum2str-unreleased">
+<section class="package" id="blas-base-matrix-triangle-enum2str-v0.3.0">
 
 #### [@stdlib/blas/base/matrix-triangle-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-enum2str)
 
@@ -1272,7 +1282,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-matrix-triangle-resolve-enum-unreleased">
+<section class="package" id="blas-base-matrix-triangle-resolve-enum-v0.3.0">
 
 #### [@stdlib/blas/base/matrix-triangle-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-resolve-enum)
 
@@ -1294,7 +1304,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-matrix-triangle-resolve-str-unreleased">
+<section class="package" id="blas-base-matrix-triangle-resolve-str-v0.3.0">
 
 #### [@stdlib/blas/base/matrix-triangle-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-resolve-str)
 
@@ -1316,7 +1326,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-matrix-triangle-str2enum-unreleased">
+<section class="package" id="blas-base-matrix-triangle-str2enum-v0.3.0">
 
 #### [@stdlib/blas/base/matrix-triangle-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangle-str2enum)
 
@@ -1338,7 +1348,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-matrix-triangles-unreleased">
+<section class="package" id="blas-base-matrix-triangles-v0.3.0">
 
 #### [@stdlib/blas/base/matrix-triangles](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/matrix-triangles)
 
@@ -1360,7 +1370,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-operation-side-enum2str-unreleased">
+<section class="package" id="blas-base-operation-side-enum2str-v0.3.0">
 
 #### [@stdlib/blas/base/operation-side-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-enum2str)
 
@@ -1382,7 +1392,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-operation-side-resolve-enum-unreleased">
+<section class="package" id="blas-base-operation-side-resolve-enum-v0.3.0">
 
 #### [@stdlib/blas/base/operation-side-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-resolve-enum)
 
@@ -1404,7 +1414,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-operation-side-resolve-str-unreleased">
+<section class="package" id="blas-base-operation-side-resolve-str-v0.3.0">
 
 #### [@stdlib/blas/base/operation-side-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-resolve-str)
 
@@ -1426,7 +1436,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-operation-side-str2enum-unreleased">
+<section class="package" id="blas-base-operation-side-str2enum-v0.3.0">
 
 #### [@stdlib/blas/base/operation-side-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-side-str2enum)
 
@@ -1448,7 +1458,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-operation-sides-unreleased">
+<section class="package" id="blas-base-operation-sides-v0.3.0">
 
 #### [@stdlib/blas/base/operation-sides](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/operation-sides)
 
@@ -1470,7 +1480,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-orders-unreleased">
+<section class="package" id="blas-base-orders-v0.3.0">
 
 #### [@stdlib/blas/base/orders](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/orders)
 
@@ -1505,7 +1515,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-sasum-unreleased">
+<section class="package" id="blas-base-sasum-v0.3.0">
 
 #### [@stdlib/blas/base/sasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sasum)
 
@@ -1527,7 +1537,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-scabs1-unreleased">
+<section class="package" id="blas-base-scabs1-v0.3.0">
 
 #### [@stdlib/blas/base/scabs1](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scabs1)
 
@@ -1549,7 +1559,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-scasum-unreleased">
+<section class="package" id="blas-base-scasum-v0.3.0">
 
 #### [@stdlib/blas/base/scasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scasum)
 
@@ -1571,7 +1581,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-scnrm2-unreleased">
+<section class="package" id="blas-base-scnrm2-v0.3.0">
 
 #### [@stdlib/blas/base/scnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scnrm2)
 
@@ -1604,7 +1614,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-sgemm-unreleased">
+<section class="package" id="blas-base-sgemm-v0.3.0">
 
 #### [@stdlib/blas/base/sgemm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sgemm)
 
@@ -1627,7 +1637,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-sgemv-unreleased">
+<section class="package" id="blas-base-sgemv-v0.3.0">
 
 #### [@stdlib/blas/base/sgemv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sgemv)
 
@@ -1649,7 +1659,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-shared-unreleased">
+<section class="package" id="blas-base-shared-v0.3.0">
 
 #### [@stdlib/blas/base/shared](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/shared)
 
@@ -1685,7 +1695,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-srot-unreleased">
+<section class="package" id="blas-base-srot-v0.3.0">
 
 #### [@stdlib/blas/base/srot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srot)
 
@@ -1720,7 +1730,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-srotm-unreleased">
+<section class="package" id="blas-base-srotm-v0.3.0">
 
 #### [@stdlib/blas/base/srotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srotm)
 
@@ -1753,7 +1763,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-sspmv-unreleased">
+<section class="package" id="blas-base-sspmv-v0.3.0">
 
 #### [@stdlib/blas/base/sspmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspmv)
 
@@ -1775,7 +1785,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-sspr-unreleased">
+<section class="package" id="blas-base-sspr-v0.3.0">
 
 #### [@stdlib/blas/base/sspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspr)
 
@@ -1797,7 +1807,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-ssymv-unreleased">
+<section class="package" id="blas-base-ssymv-v0.3.0">
 
 #### [@stdlib/blas/base/ssymv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssymv)
 
@@ -1819,7 +1829,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-ssyr-unreleased">
+<section class="package" id="blas-base-ssyr-v0.3.0">
 
 #### [@stdlib/blas/base/ssyr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr)
 
@@ -1841,7 +1851,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-ssyr2-unreleased">
+<section class="package" id="blas-base-ssyr2-v0.3.0">
 
 #### [@stdlib/blas/base/ssyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr2)
 
@@ -1873,7 +1883,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-strmv-unreleased">
+<section class="package" id="blas-base-strmv-v0.3.0">
 
 #### [@stdlib/blas/base/strmv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/strmv)
 
@@ -1907,7 +1917,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-strsv-unreleased">
+<section class="package" id="blas-base-strsv-v0.3.0">
 
 #### [@stdlib/blas/base/strsv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/strsv)
 
@@ -1929,7 +1939,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-transpose-operation-enum2str-unreleased">
+<section class="package" id="blas-base-transpose-operation-enum2str-v0.3.0">
 
 #### [@stdlib/blas/base/transpose-operation-enum2str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-enum2str)
 
@@ -1962,7 +1972,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-transpose-operation-resolve-enum-unreleased">
+<section class="package" id="blas-base-transpose-operation-resolve-enum-v0.3.0">
 
 #### [@stdlib/blas/base/transpose-operation-resolve-enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-resolve-enum)
 
@@ -1995,7 +2005,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-transpose-operation-resolve-str-unreleased">
+<section class="package" id="blas-base-transpose-operation-resolve-str-v0.3.0">
 
 #### [@stdlib/blas/base/transpose-operation-resolve-str](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-resolve-str)
 
@@ -2028,7 +2038,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-transpose-operation-str2enum-unreleased">
+<section class="package" id="blas-base-transpose-operation-str2enum-v0.3.0">
 
 #### [@stdlib/blas/base/transpose-operation-str2enum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operation-str2enum)
 
@@ -2061,7 +2071,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-transpose-operations-unreleased">
+<section class="package" id="blas-base-transpose-operations-v0.3.0">
 
 #### [@stdlib/blas/base/transpose-operations](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/transpose-operations)
 
@@ -2094,7 +2104,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-xerbla-unreleased">
+<section class="package" id="blas-base-xerbla-v0.3.0">
 
 #### [@stdlib/blas/base/xerbla](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/xerbla)
 
@@ -2116,7 +2126,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-zaxpy-unreleased">
+<section class="package" id="blas-base-zaxpy-v0.3.0">
 
 #### [@stdlib/blas/base/zaxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zaxpy)
 
@@ -2138,7 +2148,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-zcopy-unreleased">
+<section class="package" id="blas-base-zcopy-v0.3.0">
 
 #### [@stdlib/blas/base/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zcopy)
 
@@ -2160,7 +2170,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-zdrot-unreleased">
+<section class="package" id="blas-base-zdrot-v0.3.0">
 
 #### [@stdlib/blas/base/zdrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zdrot)
 
@@ -2182,7 +2192,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-zscal-unreleased">
+<section class="package" id="blas-base-zscal-v0.3.0">
 
 #### [@stdlib/blas/base/zscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zscal)
 
@@ -2204,7 +2214,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-base-zswap-unreleased">
+<section class="package" id="blas-base-zswap-v0.3.0">
 
 #### [@stdlib/blas/base/zswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zswap)
 
@@ -2238,7 +2248,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ddot-unreleased">
+<section class="package" id="blas-ddot-v0.3.0">
 
 #### [@stdlib/blas/ddot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ddot)
 
@@ -2273,7 +2283,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-unreleased">
+<section class="package" id="blas-ext-base-v0.3.0">
 
 #### [@stdlib/blas/ext/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base)
 
@@ -2295,7 +2305,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dapx-unreleased">
+<section class="package" id="blas-ext-base-dapx-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dapx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapx)
 
@@ -2319,7 +2329,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dapxsumkbn-unreleased">
+<section class="package" id="blas-ext-base-dapxsumkbn-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumkbn)
 
@@ -2341,7 +2351,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dcusum-unreleased">
+<section class="package" id="blas-ext-base-dcusum-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dcusum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusum)
 
@@ -2375,7 +2385,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dcusumors-unreleased">
+<section class="package" id="blas-ext-base-dcusumors-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dcusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumors)
 
@@ -2397,7 +2407,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dcusumpw-unreleased">
+<section class="package" id="blas-ext-base-dcusumpw-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dcusumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumpw)
 
@@ -2421,7 +2431,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dfill-unreleased">
+<section class="package" id="blas-ext-base-dfill-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dfill)
 
@@ -2455,7 +2465,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dnansum-unreleased">
+<section class="package" id="blas-ext-base-dnansum-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansum)
 
@@ -2477,7 +2487,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-drev-unreleased">
+<section class="package" id="blas-ext-base-drev-v0.3.0">
 
 #### [@stdlib/blas/ext/base/drev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/drev)
 
@@ -2511,7 +2521,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dssum-unreleased">
+<section class="package" id="blas-ext-base-dssum-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dssum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssum)
 
@@ -2535,7 +2545,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dsum-unreleased">
+<section class="package" id="blas-ext-base-dsum-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsum)
 
@@ -2559,7 +2569,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-dsumkbn2-unreleased">
+<section class="package" id="blas-ext-base-dsumkbn2-v0.3.0">
 
 #### [@stdlib/blas/ext/base/dsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsumkbn2)
 
@@ -2583,7 +2593,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-sapx-unreleased">
+<section class="package" id="blas-ext-base-sapx-v0.3.0">
 
 #### [@stdlib/blas/ext/base/sapx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapx)
 
@@ -2607,7 +2617,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-sapxsum-unreleased">
+<section class="package" id="blas-ext-base-sapxsum-v0.3.0">
 
 #### [@stdlib/blas/ext/base/sapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsum)
 
@@ -2643,7 +2653,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-sapxsumkbn-unreleased">
+<section class="package" id="blas-ext-base-sapxsumkbn-v0.3.0">
 
 #### [@stdlib/blas/ext/base/sapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn)
 
@@ -2667,7 +2677,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-sapxsumpw-unreleased">
+<section class="package" id="blas-ext-base-sapxsumpw-v0.3.0">
 
 #### [@stdlib/blas/ext/base/sapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumpw)
 
@@ -2691,7 +2701,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-scusum-unreleased">
+<section class="package" id="blas-ext-base-scusum-v0.3.0">
 
 #### [@stdlib/blas/ext/base/scusum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusum)
 
@@ -2726,7 +2736,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-scusumkbn-unreleased">
+<section class="package" id="blas-ext-base-scusumkbn-v0.3.0">
 
 #### [@stdlib/blas/ext/base/scusumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumkbn)
 
@@ -2750,7 +2760,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-scusumors-unreleased">
+<section class="package" id="blas-ext-base-scusumors-v0.3.0">
 
 #### [@stdlib/blas/ext/base/scusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumors)
 
@@ -2772,7 +2782,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-scusumpw-unreleased">
+<section class="package" id="blas-ext-base-scusumpw-v0.3.0">
 
 #### [@stdlib/blas/ext/base/scusumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumpw)
 
@@ -2794,7 +2804,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-sdsapxsumpw-unreleased">
+<section class="package" id="blas-ext-base-sdsapxsumpw-v0.3.0">
 
 #### [@stdlib/blas/ext/base/sdsapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdsapxsumpw)
 
@@ -2817,7 +2827,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-srev-unreleased">
+<section class="package" id="blas-ext-base-srev-v0.3.0">
 
 #### [@stdlib/blas/ext/base/srev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/srev)
 
@@ -2851,7 +2861,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-ssumkbn-unreleased">
+<section class="package" id="blas-ext-base-ssumkbn-v0.3.0">
 
 #### [@stdlib/blas/ext/base/ssumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumkbn)
 
@@ -2885,7 +2895,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-ssumkbn2-unreleased">
+<section class="package" id="blas-ext-base-ssumkbn2-v0.3.0">
 
 #### [@stdlib/blas/ext/base/ssumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumkbn2)
 
@@ -2909,7 +2919,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-ssumors-unreleased">
+<section class="package" id="blas-ext-base-ssumors-v0.3.0">
 
 #### [@stdlib/blas/ext/base/ssumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumors)
 
@@ -2934,7 +2944,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="blas-ext-base-ssumpw-unreleased">
+<section class="package" id="blas-ext-base-ssumpw-v0.3.0">
 
 #### [@stdlib/blas/ext/base/ssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumpw)
 
