@@ -2,9 +2,9 @@
 
 > Package changelog.
 
-<section class="release" id="unreleased">
+<section class="release" id="v0.3.0">
 
-## Unreleased (2024-08-17)
+## 0.3.0 (2024-08-17)
 
 <section class="packages">
 
@@ -2254,6 +2254,19 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0eaf8b6`](https://github.com/stdlib-js/stdlib/commit/0eaf8b6263017bfe14c1b8769dfd885a19d1778e): return an ndarray, rather than a scalar
+
+    -   To migrate, users should invoke the `#.get()` method to retrieve the scalar
+        value from the returned zero-dimensional ndarray.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 </details>
 
 </section>
@@ -2963,6 +2976,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`0eaf8b6`](https://github.com/stdlib-js/stdlib/commit/0eaf8b6263017bfe14c1b8769dfd885a19d1778e): return an ndarray, rather than a scalar
+
+    -   To migrate, users should invoke the `#.get()` method to retrieve the scalar
+        value from the returned zero-dimensional ndarray.
+
 -   [`2254a56`](https://github.com/stdlib-js/stdlib/commit/2254a5616945ee973f080c6d35f19e51778e24ee): rename `none` transpose operation to `no-transpose` in `@stdlib/types`
 
     -   To migrate, users should change their usage of `none` to `no-transpose`. This change enhances code readability and aligns the string literal with the C enumeration constant.
@@ -3047,6 +3065,7 @@ A total of 34 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`df3ed1e`](https://github.com/stdlib-js/stdlib/commit/df3ed1ee7fdc62c9f49bfa38eb1df240fb752a6e) - **docs:** update namespace ToCs _(by Athan Reines)_
 -   [`0eaf8b6`](https://github.com/stdlib-js/stdlib/commit/0eaf8b6263017bfe14c1b8769dfd885a19d1778e) - **feat:** add support for operating on stacks of vectors _(by Athan Reines)_
 -   [`8a64351`](https://github.com/stdlib-js/stdlib/commit/8a64351ca2c48164945a26eda9411193659fd554) - **feat:** add `blas/base/sspr` [(#2760)](https://github.com/stdlib-js/stdlib/pull/2760) _(by Aman Bhansali, Athan Reines)_
 -   [`a500a2a`](https://github.com/stdlib-js/stdlib/commit/a500a2a45b2572b852de6efcf8d329cc851861f6) - **feat:** add `blas/base/dgemm` [(#2541)](https://github.com/stdlib-js/stdlib/pull/2541) _(by Pranav Goswami, Athan Reines, Aman Bhansali)_

@@ -79,7 +79,7 @@ The namespace contains the following:
 <div class="namespace-toc">
 
 -   <span class="signature">[`base`][@stdlib/blas/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) basic linear algebra subprograms (BLAS).</span>
--   <span class="signature">[`ddot( x, y )`][@stdlib/blas/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two double-precision floating-point vectors.</span>
+-   <span class="signature">[`ddot( x, y[, dim] )`][@stdlib/blas/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two double-precision floating-point vectors.</span>
 -   <span class="signature">[`dswap( x, y )`][@stdlib/blas/dswap]</span><span class="delimiter">: </span><span class="description">interchange two double-precision floating-point vectors.</span>
 -   <span class="signature">[`ext`][@stdlib/blas/ext]</span><span class="delimiter">: </span><span class="description">extended basic linear algebra subprograms (BLAS).</span>
 -   <span class="signature">[`gdot( x, y )`][@stdlib/blas/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two vectors.</span>
@@ -161,8 +161,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/blas.svg
 [npm-url]: https://npmjs.org/package/@stdlib/blas
 
-[test-image]: https://github.com/stdlib-js/blas/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/blas/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/blas/actions/workflows/test.yml/badge.svg?branch=v0.3.0
+[test-url]: https://github.com/stdlib-js/blas/actions/workflows/test.yml?query=branch:v0.3.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/blas/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/blas?branch=main
