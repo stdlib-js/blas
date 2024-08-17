@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-15)
+## Unreleased (2024-08-17)
 
 <section class="packages">
 
@@ -2238,6 +2238,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ddot-unreleased">
+
+#### [@stdlib/blas/ddot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ddot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0eaf8b6`](https://github.com/stdlib-js/stdlib/commit/0eaf8b6263017bfe14c1b8769dfd885a19d1778e) - add support for operating on stacks of vectors
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-unreleased">
 
 #### [@stdlib/blas/ext/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base)
@@ -3025,6 +3047,7 @@ A total of 34 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0eaf8b6`](https://github.com/stdlib-js/stdlib/commit/0eaf8b6263017bfe14c1b8769dfd885a19d1778e) - **feat:** add support for operating on stacks of vectors _(by Athan Reines)_
 -   [`8a64351`](https://github.com/stdlib-js/stdlib/commit/8a64351ca2c48164945a26eda9411193659fd554) - **feat:** add `blas/base/sspr` [(#2760)](https://github.com/stdlib-js/stdlib/pull/2760) _(by Aman Bhansali, Athan Reines)_
 -   [`a500a2a`](https://github.com/stdlib-js/stdlib/commit/a500a2a45b2572b852de6efcf8d329cc851861f6) - **feat:** add `blas/base/dgemm` [(#2541)](https://github.com/stdlib-js/stdlib/pull/2541) _(by Pranav Goswami, Athan Reines, Aman Bhansali)_
 -   [`35cbdfb`](https://github.com/stdlib-js/stdlib/commit/35cbdfbbd0d8144b188bb95d56ec9f4719cc2bc5) - **feat:** add support for negative strides in `idamax` and `isamax` [(#2793)](https://github.com/stdlib-js/stdlib/pull/2793) _(by Pranav Goswami)_
