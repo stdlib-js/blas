@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/blas",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "BLAS.",
   "license": "Apache-2.0",
   "author": {
