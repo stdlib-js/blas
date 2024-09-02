@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-08-18)
+## Unreleased (2024-09-02)
 
 <section class="packages">
 
@@ -62,10 +62,12 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
+-   Philipp Burckhardt
+-   yaswanth
 
 </section>
 
@@ -77,6 +79,8 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e9f4e07`](https://github.com/stdlib-js/stdlib/commit/e9f4e0759a14b8da93d4e0837b886d8ed56bc696) - **refactor:** update `blas/ext/base/dsnansumpw` to follow current conventions _(by yaswanth, Philipp Burckhardt)_
+-   [`e0cef99`](https://github.com/stdlib-js/stdlib/commit/e0cef995e884021db3001dc1a3cfef0ca7b368c2) - **style:** remove extra spaces for regular expressions in publish script _(by Philipp Burckhardt)_
 -   [`da12183`](https://github.com/stdlib-js/stdlib/commit/da121832eca80c36e1e32929e994fef44ca8a4cc) - **feat:** add `blas/base/dspr` [(#2794)](https://github.com/stdlib-js/stdlib/pull/2794) _(by Aman Bhansali, Athan Reines)_
 
 </details>
