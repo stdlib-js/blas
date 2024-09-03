@@ -80,6 +80,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3e80682`](https://github.com/stdlib-js/stdlib/commit/3e80682320d42a999f428fcf3d30e6711b6b9b89) - **refactor:** update implementation for `blas/ext/base/sdsnansumpw` _(by yaswanth, Philipp Burckhardt)_
 -   [`c6bf7de`](https://github.com/stdlib-js/stdlib/commit/c6bf7de53b6ab8c44263cee7fdf1cdfe2815864d) - **refactor:** update implementation for `blas/ext/base/sapxsumors` _(by yaswanth, Philipp Burckhardt)_
 -   [`7cc8bb9`](https://github.com/stdlib-js/stdlib/commit/7cc8bb9a96147bb94fe8cfddc180a6ec535fc368) - **refactor:** update `blas/ext/base/dsnannsumors` _(by HarshaNP, Philipp Burckhardt)_
 -   [`e9f4e07`](https://github.com/stdlib-js/stdlib/commit/e9f4e0759a14b8da93d4e0837b886d8ed56bc696) - **refactor:** update `blas/ext/base/dsnansumpw` to follow current conventions _(by yaswanth, Philipp Burckhardt)_
