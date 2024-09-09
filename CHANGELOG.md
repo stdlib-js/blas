@@ -70,6 +70,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`8b1f86b`](https://github.com/stdlib-js/stdlib/commit/8b1f86b855e9f11a36ccf7f58a611650bf210078) - prevent writing to read-only ndarrays
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -102,6 +112,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8b1f86b`](https://github.com/stdlib-js/stdlib/commit/8b1f86b855e9f11a36ccf7f58a611650bf210078) - **fix:** prevent writing to read-only ndarrays _(by Athan Reines)_
 -   [`2e25339`](https://github.com/stdlib-js/stdlib/commit/2e2533970e09cb59f3533d474ec32756f4ca4f81) - **feat:** add support for batched computation _(by Athan Reines)_
 -   [`b789714`](https://github.com/stdlib-js/stdlib/commit/b789714438d74aef087fed6d949a7124b302940d) - **docs:** fix definition _(by Athan Reines)_
 -   [`1d666a6`](https://github.com/stdlib-js/stdlib/commit/1d666a61937d44d9c47e4b38c736f50b1666607e) - **docs:** fix parameter annotation _(by Athan Reines)_
