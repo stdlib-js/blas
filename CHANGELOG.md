@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-08)
+## Unreleased (2024-09-09)
 
 <section class="packages">
 
@@ -80,6 +80,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b789714`](https://github.com/stdlib-js/stdlib/commit/b789714438d74aef087fed6d949a7124b302940d) - **docs:** fix definition _(by Athan Reines)_
 -   [`1d666a6`](https://github.com/stdlib-js/stdlib/commit/1d666a61937d44d9c47e4b38c736f50b1666607e) - **docs:** fix parameter annotation _(by Athan Reines)_
 -   [`4ca068f`](https://github.com/stdlib-js/stdlib/commit/4ca068f174225d1eaec123656682589febf1b547) - **test:** update to test for exact equality [(#2864)](https://github.com/stdlib-js/stdlib/pull/2864) _(by Aman Bhansali)_
 -   [`3e80682`](https://github.com/stdlib-js/stdlib/commit/3e80682320d42a999f428fcf3d30e6711b6b9b89) - **refactor:** update implementation for `blas/ext/base/sdsnansumpw` _(by yaswanth, Philipp Burckhardt)_

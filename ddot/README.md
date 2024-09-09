@@ -178,9 +178,9 @@ console.log( ndarray2array( z ) );
 
 [@stdlib/ndarray/base/broadcast-shapes]: https://github.com/stdlib-js/ndarray-base-broadcast-shapes
 
-<!-- <related-links> -->
-
 [@stdlib/blas/base/ddot]: https://github.com/stdlib-js/blas/tree/main/base/ddot
+
+<!-- <related-links> -->
 
 [@stdlib/blas/gdot]: https://github.com/stdlib-js/blas/tree/main/gdot
 
