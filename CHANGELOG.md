@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-09)
+## Unreleased (2024-09-10)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="blas-base-daxpy-unreleased">
+
+#### [@stdlib/blas/base/daxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/daxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ae54d13`](https://github.com/stdlib-js/stdlib/commit/ae54d13ecd92912dea70b2d31525d7f54c3a26f1) - add C \"ndarray\" API
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="blas-base-dspr-unreleased">
 
@@ -112,6 +134,11 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`44ebe3c`](https://github.com/stdlib-js/stdlib/commit/44ebe3cfc43a0518991823f98e2e6d96632a0d26) - **docs:** document C API _(by Athan Reines)_
+-   [`ae54d13`](https://github.com/stdlib-js/stdlib/commit/ae54d13ecd92912dea70b2d31525d7f54c3a26f1) - **feat:** add C \"ndarray\" API _(by Athan Reines)_
+-   [`65b685c`](https://github.com/stdlib-js/stdlib/commit/65b685c163ae4f701766bce6db1a7dfca35d780f) - **docs:** update description _(by Athan Reines)_
+-   [`2544a02`](https://github.com/stdlib-js/stdlib/commit/2544a02513ab1ae73c960455671f1886bfb6cf64) - **docs:** update description _(by Athan Reines)_
+-   [`9c22207`](https://github.com/stdlib-js/stdlib/commit/9c22207e20b82a0bc627e91886d3de299c78deab) - **refactor:** use stdlib `pow` function _(by Athan Reines)_
 -   [`8b1f86b`](https://github.com/stdlib-js/stdlib/commit/8b1f86b855e9f11a36ccf7f58a611650bf210078) - **fix:** prevent writing to read-only ndarrays _(by Athan Reines)_
 -   [`2e25339`](https://github.com/stdlib-js/stdlib/commit/2e2533970e09cb59f3533d474ec32756f4ca4f81) - **feat:** add support for batched computation _(by Athan Reines)_
 -   [`b789714`](https://github.com/stdlib-js/stdlib/commit/b789714438d74aef087fed6d949a7124b302940d) - **docs:** fix definition _(by Athan Reines)_
