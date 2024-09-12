@@ -214,6 +214,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2aae52e`](https://github.com/stdlib-js/stdlib/commit/2aae52ed394469a4252a6318fe4d933f09f28ab3) - **refactor:** move `ndarray` API to separate source file _(by Athan Reines)_
 -   [`97bba2a`](https://github.com/stdlib-js/stdlib/commit/97bba2a07bb5ca413ec1e92100174753edb2e858) - **feat:** add support for stacks in `blas/sdot` [(#2895)](https://github.com/stdlib-js/stdlib/pull/2895) _(by Aman Bhansali, Athan Reines)_
 -   [`e8fd916`](https://github.com/stdlib-js/stdlib/commit/e8fd916df0a473709b2ef1caec858f4ca8187720) - **refactor:** use utility to resolve the first indexed element _(by Athan Reines)_
 -   [`18deecf`](https://github.com/stdlib-js/stdlib/commit/18deecf00e8d7a8069c0ebfe69a4479c249c98d4) - **refactor:** reduce code duplication by calling \"ndarray\" API _(by Athan Reines)_
