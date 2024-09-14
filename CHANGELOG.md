@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-12)
+## Unreleased (2024-09-14)
 
 <section class="packages">
 
@@ -120,6 +120,7 @@
 
 ##### Features
 
+-   [`2d7e925`](https://github.com/stdlib-js/stdlib/commit/2d7e9251e02cba556ad7e8b40ef90d5190d0d719) - add support for stacks in `blas/sswap` [(#2898)](https://github.com/stdlib-js/stdlib/pull/2898)
 -   [`2e25339`](https://github.com/stdlib-js/stdlib/commit/2e2533970e09cb59f3533d474ec32756f4ca4f81) - add support for batched computation
 
 </section>
@@ -176,6 +177,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-sswap-unreleased">
+
+#### [@stdlib/blas/sswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/sswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2d7e925`](https://github.com/stdlib-js/stdlib/commit/2d7e9251e02cba556ad7e8b40ef90d5190d0d719) - add support for stacks in `blas/sswap` [(#2898)](https://github.com/stdlib-js/stdlib/pull/2898)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -214,6 +237,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2d7e925`](https://github.com/stdlib-js/stdlib/commit/2d7e9251e02cba556ad7e8b40ef90d5190d0d719) - **feat:** add support for stacks in `blas/sswap` [(#2898)](https://github.com/stdlib-js/stdlib/pull/2898) _(by Aman Bhansali, Athan Reines)_
 -   [`2aae52e`](https://github.com/stdlib-js/stdlib/commit/2aae52ed394469a4252a6318fe4d933f09f28ab3) - **refactor:** move `ndarray` API to separate source file _(by Athan Reines)_
 -   [`97bba2a`](https://github.com/stdlib-js/stdlib/commit/97bba2a07bb5ca413ec1e92100174753edb2e858) - **feat:** add support for stacks in `blas/sdot` [(#2895)](https://github.com/stdlib-js/stdlib/pull/2895) _(by Aman Bhansali, Athan Reines)_
 -   [`e8fd916`](https://github.com/stdlib-js/stdlib/commit/e8fd916df0a473709b2ef1caec858f4ca8187720) - **refactor:** use utility to resolve the first indexed element _(by Athan Reines)_
