@@ -4,11 +4,33 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-14)
+## Unreleased (2024-09-15)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="blas-base-cscal-unreleased">
+
+#### [@stdlib/blas/base/cscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cscal)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`00390b7`](https://github.com/stdlib-js/stdlib/commit/00390b7f27c421251760c78f75697fbf1e3449df) - add missing method in declaration tests [(#2900)](https://github.com/stdlib-js/stdlib/pull/2900)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="blas-base-daxpy-unreleased">
 
@@ -219,11 +241,12 @@
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
 -   HarshaNP
+-   Muhammad Haris
 -   Philipp Burckhardt
 -   yaswanth
 
@@ -237,6 +260,7 @@ A total of 5 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`00390b7`](https://github.com/stdlib-js/stdlib/commit/00390b7f27c421251760c78f75697fbf1e3449df) - **fix:** add missing method in declaration tests [(#2900)](https://github.com/stdlib-js/stdlib/pull/2900) _(by Muhammad Haris)_
 -   [`2d7e925`](https://github.com/stdlib-js/stdlib/commit/2d7e9251e02cba556ad7e8b40ef90d5190d0d719) - **feat:** add support for stacks in `blas/sswap` [(#2898)](https://github.com/stdlib-js/stdlib/pull/2898) _(by Aman Bhansali, Athan Reines)_
 -   [`2aae52e`](https://github.com/stdlib-js/stdlib/commit/2aae52ed394469a4252a6318fe4d933f09f28ab3) - **refactor:** move `ndarray` API to separate source file _(by Athan Reines)_
 -   [`97bba2a`](https://github.com/stdlib-js/stdlib/commit/97bba2a07bb5ca413ec1e92100174753edb2e858) - **feat:** add support for stacks in `blas/sdot` [(#2895)](https://github.com/stdlib-js/stdlib/pull/2895) _(by Aman Bhansali, Athan Reines)_
