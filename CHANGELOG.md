@@ -242,7 +242,30 @@
 
 ##### Features
 
+-   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907)
 -   [`fadff3a`](https://github.com/stdlib-js/stdlib/commit/fadff3a44660678d9ccce8bb101f579ca1913a64) - add `blas/ext/base/cfill` [(#2901)](https://github.com/stdlib-js/stdlib/pull/2901)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-zfill-unreleased">
+
+#### [@stdlib/blas/ext/base/zfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/zfill)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907)
 
 </section>
 
@@ -359,6 +382,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - **feat:** add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907) _(by Muhammad Haris, Athan Reines)_
 -   [`edcea47`](https://github.com/stdlib-js/stdlib/commit/edcea4761bc3065f9c5218c162b38ebec4a6c423) - **feat:** add C `ndarray` implementation for `blas/base/sswap` and `blas/base/dswap` [(#2905)](https://github.com/stdlib-js/stdlib/pull/2905) _(by Aman Bhansali, Athan Reines)_
 -   [`6c769ad`](https://github.com/stdlib-js/stdlib/commit/6c769ad65cf528389012efc400b29b6e57a4f352) - **fix:** update error message _(by Athan Reines)_
 -   [`a90c34d`](https://github.com/stdlib-js/stdlib/commit/a90c34d316f09ce5dfe165439fbcb2785fcea5a0) - **fix:** update error message _(by Athan Reines)_
