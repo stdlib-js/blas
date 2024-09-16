@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-15)
+## Unreleased (2024-09-16)
 
 <section class="packages">
 
@@ -43,6 +43,28 @@
 ##### Features
 
 -   [`ae54d13`](https://github.com/stdlib-js/stdlib/commit/ae54d13ecd92912dea70b2d31525d7f54c3a26f1) - add C \"ndarray\" API
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-daxpy-wasm-unreleased">
+
+#### [@stdlib/blas/base/daxpy-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/daxpy-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8f29918`](https://github.com/stdlib-js/stdlib/commit/8f29918bc72b0634716eede69449d61ed28dd06c) - add `blas/base/daxpy-wasm`
 
 </section>
 
@@ -260,6 +282,9 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`07a6dc1`](https://github.com/stdlib-js/stdlib/commit/07a6dc162582bc72e783e3e14e741d08b4a59170) - **test:** update messages _(by Athan Reines)_
+-   [`ef9e5f6`](https://github.com/stdlib-js/stdlib/commit/ef9e5f6b73e787d500c555f68b705c789d552846) - **style:** disable lint rule _(by Athan Reines)_
+-   [`8f29918`](https://github.com/stdlib-js/stdlib/commit/8f29918bc72b0634716eede69449d61ed28dd06c) - **feat:** add `blas/base/daxpy-wasm` _(by Athan Reines)_
 -   [`00390b7`](https://github.com/stdlib-js/stdlib/commit/00390b7f27c421251760c78f75697fbf1e3449df) - **fix:** add missing method in declaration tests [(#2900)](https://github.com/stdlib-js/stdlib/pull/2900) _(by Muhammad Haris)_
 -   [`2d7e925`](https://github.com/stdlib-js/stdlib/commit/2d7e9251e02cba556ad7e8b40ef90d5190d0d719) - **feat:** add support for stacks in `blas/sswap` [(#2898)](https://github.com/stdlib-js/stdlib/pull/2898) _(by Aman Bhansali, Athan Reines)_
 -   [`2aae52e`](https://github.com/stdlib-js/stdlib/commit/2aae52ed394469a4252a6318fe4d933f09f28ab3) - **refactor:** move `ndarray` API to separate source file _(by Athan Reines)_
