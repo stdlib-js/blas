@@ -187,6 +187,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-cfill-unreleased">
+
+#### [@stdlib/blas/ext/base/cfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/cfill)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fadff3a`](https://github.com/stdlib-js/stdlib/commit/fadff3a44660678d9ccce8bb101f579ca1913a64) - add `blas/ext/base/cfill` [(#2901)](https://github.com/stdlib-js/stdlib/pull/2901)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-sdot-unreleased">
 
 #### [@stdlib/blas/sdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/sdot)
@@ -282,6 +304,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fadff3a`](https://github.com/stdlib-js/stdlib/commit/fadff3a44660678d9ccce8bb101f579ca1913a64) - **feat:** add `blas/ext/base/cfill` [(#2901)](https://github.com/stdlib-js/stdlib/pull/2901) _(by Muhammad Haris, Athan Reines)_
 -   [`07a6dc1`](https://github.com/stdlib-js/stdlib/commit/07a6dc162582bc72e783e3e14e741d08b4a59170) - **test:** update messages _(by Athan Reines)_
 -   [`ef9e5f6`](https://github.com/stdlib-js/stdlib/commit/ef9e5f6b73e787d500c555f68b705c789d552846) - **style:** disable lint rule _(by Athan Reines)_
 -   [`8f29918`](https://github.com/stdlib-js/stdlib/commit/8f29918bc72b0634716eede69449d61ed28dd06c) - **feat:** add `blas/base/daxpy-wasm` _(by Athan Reines)_
