@@ -175,6 +175,7 @@
 
 ##### Bug Fixes
 
+-   [`a90c34d`](https://github.com/stdlib-js/stdlib/commit/a90c34d316f09ce5dfe165439fbcb2785fcea5a0) - update error message
 -   [`8b1f86b`](https://github.com/stdlib-js/stdlib/commit/8b1f86b855e9f11a36ccf7f58a611650bf210078) - prevent writing to read-only ndarrays
 
 </section>
@@ -259,6 +260,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`6c769ad`](https://github.com/stdlib-js/stdlib/commit/6c769ad65cf528389012efc400b29b6e57a4f352) - update error message
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -304,6 +315,8 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`6c769ad`](https://github.com/stdlib-js/stdlib/commit/6c769ad65cf528389012efc400b29b6e57a4f352) - **fix:** update error message _(by Athan Reines)_
+-   [`a90c34d`](https://github.com/stdlib-js/stdlib/commit/a90c34d316f09ce5dfe165439fbcb2785fcea5a0) - **fix:** update error message _(by Athan Reines)_
 -   [`fadff3a`](https://github.com/stdlib-js/stdlib/commit/fadff3a44660678d9ccce8bb101f579ca1913a64) - **feat:** add `blas/ext/base/cfill` [(#2901)](https://github.com/stdlib-js/stdlib/pull/2901) _(by Muhammad Haris, Athan Reines)_
 -   [`07a6dc1`](https://github.com/stdlib-js/stdlib/commit/07a6dc162582bc72e783e3e14e741d08b4a59170) - **test:** update messages _(by Athan Reines)_
 -   [`ef9e5f6`](https://github.com/stdlib-js/stdlib/commit/ef9e5f6b73e787d500c555f68b705c789d552846) - **style:** disable lint rule _(by Athan Reines)_
