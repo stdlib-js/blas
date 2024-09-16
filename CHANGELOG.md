@@ -98,6 +98,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dswap-unreleased">
+
+#### [@stdlib/blas/base/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`edcea47`](https://github.com/stdlib-js/stdlib/commit/edcea4761bc3065f9c5218c162b38ebec4a6c423) - add C `ndarray` implementation for `blas/base/sswap` and `blas/base/dswap` [(#2905)](https://github.com/stdlib-js/stdlib/pull/2905)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sspr-unreleased">
 
 #### [@stdlib/blas/base/sspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspr)
@@ -109,6 +131,28 @@
 ##### Features
 
 -   [`da12183`](https://github.com/stdlib-js/stdlib/commit/da121832eca80c36e1e32929e994fef44ca8a4cc) - add `blas/base/dspr` [(#2794)](https://github.com/stdlib-js/stdlib/pull/2794)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sswap-unreleased">
+
+#### [@stdlib/blas/base/sswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`edcea47`](https://github.com/stdlib-js/stdlib/commit/edcea4761bc3065f9c5218c162b38ebec4a6c423) - add C `ndarray` implementation for `blas/base/sswap` and `blas/base/dswap` [(#2905)](https://github.com/stdlib-js/stdlib/pull/2905)
 
 </section>
 
@@ -315,6 +359,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`edcea47`](https://github.com/stdlib-js/stdlib/commit/edcea4761bc3065f9c5218c162b38ebec4a6c423) - **feat:** add C `ndarray` implementation for `blas/base/sswap` and `blas/base/dswap` [(#2905)](https://github.com/stdlib-js/stdlib/pull/2905) _(by Aman Bhansali, Athan Reines)_
 -   [`6c769ad`](https://github.com/stdlib-js/stdlib/commit/6c769ad65cf528389012efc400b29b6e57a4f352) - **fix:** update error message _(by Athan Reines)_
 -   [`a90c34d`](https://github.com/stdlib-js/stdlib/commit/a90c34d316f09ce5dfe165439fbcb2785fcea5a0) - **fix:** update error message _(by Athan Reines)_
 -   [`fadff3a`](https://github.com/stdlib-js/stdlib/commit/fadff3a44660678d9ccce8bb101f579ca1913a64) - **feat:** add `blas/ext/base/cfill` [(#2901)](https://github.com/stdlib-js/stdlib/pull/2901) _(by Muhammad Haris, Athan Reines)_
