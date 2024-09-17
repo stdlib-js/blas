@@ -448,6 +448,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7eb1266`](https://github.com/stdlib-js/stdlib/commit/7eb12667e2052db9fc1e678bf0cc2082e2993aec) - **docs:** rename parameters _(by Athan Reines)_
 -   [`11889ca`](https://github.com/stdlib-js/stdlib/commit/11889ca2921a6858079c84e21a11d14ee461161f) - **docs:** fix example _(by Athan Reines)_
 -   [`040a335`](https://github.com/stdlib-js/stdlib/commit/040a33583774b120b5e486a072cff397fdb1d273) - **feat:** add a C `ndarray` API, refactor, and clean-up _(by Athan Reines)_
 -   [`d9580f5`](https://github.com/stdlib-js/stdlib/commit/d9580f56677f81425930dad6a0ed65c71f665314) - **refactor:** reduce code duplication in `blas/ext/base/sfill` [(#2916)](https://github.com/stdlib-js/stdlib/pull/2916) _(by Muhammad Haris)_
