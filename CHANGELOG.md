@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-16)
+## Unreleased (2024-09-17)
 
 <section class="packages">
 
@@ -65,6 +65,28 @@
 ##### Features
 
 -   [`8f29918`](https://github.com/stdlib-js/stdlib/commit/8f29918bc72b0634716eede69449d61ed28dd06c) - add `blas/base/daxpy-wasm`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dcopy-unreleased">
+
+#### [@stdlib/blas/base/dcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dcopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`40502bb`](https://github.com/stdlib-js/stdlib/commit/40502bb62ccef0eecf1132430422a35ae9e5dd3a) - add C `ndarray` implementation for `blas/base/dcopy` [(#2906)](https://github.com/stdlib-js/stdlib/pull/2906)
 
 </section>
 
@@ -382,6 +404,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`40502bb`](https://github.com/stdlib-js/stdlib/commit/40502bb62ccef0eecf1132430422a35ae9e5dd3a) - **feat:** add C `ndarray` implementation for `blas/base/dcopy` [(#2906)](https://github.com/stdlib-js/stdlib/pull/2906) _(by Aman Bhansali, Athan Reines)_
 -   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - **feat:** add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907) _(by Muhammad Haris, Athan Reines)_
 -   [`edcea47`](https://github.com/stdlib-js/stdlib/commit/edcea4761bc3065f9c5218c162b38ebec4a6c423) - **feat:** add C `ndarray` implementation for `blas/base/sswap` and `blas/base/dswap` [(#2905)](https://github.com/stdlib-js/stdlib/pull/2905) _(by Aman Bhansali, Athan Reines)_
 -   [`6c769ad`](https://github.com/stdlib-js/stdlib/commit/6c769ad65cf528389012efc400b29b6e57a4f352) - **fix:** update error message _(by Athan Reines)_
