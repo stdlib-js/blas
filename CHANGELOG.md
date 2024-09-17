@@ -426,6 +426,8 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
+-   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
 -   [`08f39b4`](https://github.com/stdlib-js/stdlib/commit/08f39b45439d043323ec402647f6b3ea8a5a4a56) - **feat:** add C `ndarray` implementation for `blas/base/scopy` [(#2913)](https://github.com/stdlib-js/stdlib/pull/2913) _(by Aman Bhansali, Athan Reines)_
 -   [`40502bb`](https://github.com/stdlib-js/stdlib/commit/40502bb62ccef0eecf1132430422a35ae9e5dd3a) - **feat:** add C `ndarray` implementation for `blas/base/dcopy` [(#2906)](https://github.com/stdlib-js/stdlib/pull/2906) _(by Aman Bhansali, Athan Reines)_
 -   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - **feat:** add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907) _(by Muhammad Haris, Athan Reines)_
