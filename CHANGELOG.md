@@ -142,6 +142,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-scopy-unreleased">
+
+#### [@stdlib/blas/base/scopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`08f39b4`](https://github.com/stdlib-js/stdlib/commit/08f39b45439d043323ec402647f6b3ea8a5a4a56) - add C `ndarray` implementation for `blas/base/scopy` [(#2913)](https://github.com/stdlib-js/stdlib/pull/2913)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sspr-unreleased">
 
 #### [@stdlib/blas/base/sspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspr)
@@ -404,6 +426,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`08f39b4`](https://github.com/stdlib-js/stdlib/commit/08f39b45439d043323ec402647f6b3ea8a5a4a56) - **feat:** add C `ndarray` implementation for `blas/base/scopy` [(#2913)](https://github.com/stdlib-js/stdlib/pull/2913) _(by Aman Bhansali, Athan Reines)_
 -   [`40502bb`](https://github.com/stdlib-js/stdlib/commit/40502bb62ccef0eecf1132430422a35ae9e5dd3a) - **feat:** add C `ndarray` implementation for `blas/base/dcopy` [(#2906)](https://github.com/stdlib-js/stdlib/pull/2906) _(by Aman Bhansali, Athan Reines)_
 -   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - **feat:** add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907) _(by Muhammad Haris, Athan Reines)_
 -   [`edcea47`](https://github.com/stdlib-js/stdlib/commit/edcea4761bc3065f9c5218c162b38ebec4a6c423) - **feat:** add C `ndarray` implementation for `blas/base/sswap` and `blas/base/dswap` [(#2905)](https://github.com/stdlib-js/stdlib/pull/2905) _(by Aman Bhansali, Athan Reines)_
