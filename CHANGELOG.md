@@ -299,6 +299,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dfill-unreleased">
+
+#### [@stdlib/blas/ext/base/dfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dfill)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`040a335`](https://github.com/stdlib-js/stdlib/commit/040a33583774b120b5e486a072cff397fdb1d273) - add a C `ndarray` API, refactor, and clean-up
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-zfill-unreleased">
 
 #### [@stdlib/blas/ext/base/zfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/zfill)
@@ -426,6 +448,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`040a335`](https://github.com/stdlib-js/stdlib/commit/040a33583774b120b5e486a072cff397fdb1d273) - **feat:** add a C `ndarray` API, refactor, and clean-up _(by Athan Reines)_
 -   [`d9580f5`](https://github.com/stdlib-js/stdlib/commit/d9580f56677f81425930dad6a0ed65c71f665314) - **refactor:** reduce code duplication in `blas/ext/base/sfill` [(#2916)](https://github.com/stdlib-js/stdlib/pull/2916) _(by Muhammad Haris)_
 -   [`f387603`](https://github.com/stdlib-js/stdlib/commit/f387603e739f88a38af3263ce6ff675ad903ee8c) - **docs:** consistently use declarative instead of imperative sentences outside of intros _(by Philipp Burckhardt)_
 -   [`ed44fee`](https://github.com/stdlib-js/stdlib/commit/ed44feecb9eaa5e0849d1a533e5415624d0aa338) - **style:** use imperative in package.json description and end with period _(by Philipp Burckhardt)_
