@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-17)
+## Unreleased (2024-09-18)
 
 <section class="packages">
 
@@ -42,6 +42,7 @@
 
 ##### Features
 
+-   [`e85f394`](https://github.com/stdlib-js/stdlib/commit/e85f3947aaca3cbbd6ab4f84e41577928e0a10a4) - add C `ndarray` implementation for `blas/base/saxpy` [(#2918)](https://github.com/stdlib-js/stdlib/pull/2918)
 -   [`ae54d13`](https://github.com/stdlib-js/stdlib/commit/ae54d13ecd92912dea70b2d31525d7f54c3a26f1) - add C \"ndarray\" API
 
 </section>
@@ -131,6 +132,28 @@
 ##### Features
 
 -   [`edcea47`](https://github.com/stdlib-js/stdlib/commit/edcea4761bc3065f9c5218c162b38ebec4a6c423) - add C `ndarray` implementation for `blas/base/sswap` and `blas/base/dswap` [(#2905)](https://github.com/stdlib-js/stdlib/pull/2905)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-saxpy-unreleased">
+
+#### [@stdlib/blas/base/saxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/saxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e85f394`](https://github.com/stdlib-js/stdlib/commit/e85f3947aaca3cbbd6ab4f84e41577928e0a10a4) - add C `ndarray` implementation for `blas/base/saxpy` [(#2918)](https://github.com/stdlib-js/stdlib/pull/2918)
 
 </section>
 
@@ -448,6 +471,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e85f394`](https://github.com/stdlib-js/stdlib/commit/e85f3947aaca3cbbd6ab4f84e41577928e0a10a4) - **feat:** add C `ndarray` implementation for `blas/base/saxpy` [(#2918)](https://github.com/stdlib-js/stdlib/pull/2918) _(by Aman Bhansali)_
 -   [`6ae1c10`](https://github.com/stdlib-js/stdlib/commit/6ae1c10d70d86520a0c915864440ef6e8d255a21) - **docs:** rename parameter _(by Athan Reines)_
 -   [`7eb1266`](https://github.com/stdlib-js/stdlib/commit/7eb12667e2052db9fc1e678bf0cc2082e2993aec) - **docs:** rename parameters _(by Athan Reines)_
 -   [`11889ca`](https://github.com/stdlib-js/stdlib/commit/11889ca2921a6858079c84e21a11d14ee461161f) - **docs:** fix example _(by Athan Reines)_
