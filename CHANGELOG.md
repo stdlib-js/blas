@@ -388,6 +388,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-sfill-unreleased">
+
+#### [@stdlib/blas/ext/base/sfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sfill)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-zfill-unreleased">
 
 #### [@stdlib/blas/ext/base/zfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/zfill)
@@ -515,6 +537,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - **feat:** add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923) _(by Muhammad Haris, Athan Reines)_
 -   [`f7edbe0`](https://github.com/stdlib-js/stdlib/commit/f7edbe044289b877586d0140467cb43cdfd18c19) - **feat:** add C `ndarray` implementation for `blas/base/sdsdot` [(#2921)](https://github.com/stdlib-js/stdlib/pull/2921) _(by Aman Bhansali, Athan Reines)_
 -   [`2bedae9`](https://github.com/stdlib-js/stdlib/commit/2bedae91dbdd0080b38ae0413f5e8f26b88db95b) - **feat:** add C `ndarray` implementation for `blas/base/sdot` [(#2919)](https://github.com/stdlib-js/stdlib/pull/2919) _(by Aman Bhansali, Athan Reines)_
 -   [`e85f394`](https://github.com/stdlib-js/stdlib/commit/e85f3947aaca3cbbd6ab4f84e41577928e0a10a4) - **feat:** add C `ndarray` implementation for `blas/base/saxpy` [(#2918)](https://github.com/stdlib-js/stdlib/pull/2918) _(by Aman Bhansali)_
