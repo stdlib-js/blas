@@ -187,6 +187,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-sdot-unreleased">
+
+#### [@stdlib/blas/base/sdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sdot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2bedae9`](https://github.com/stdlib-js/stdlib/commit/2bedae91dbdd0080b38ae0413f5e8f26b88db95b) - add C `ndarray` implementation for `blas/base/sdot` [(#2919)](https://github.com/stdlib-js/stdlib/pull/2919)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sspr-unreleased">
 
 #### [@stdlib/blas/base/sspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspr)
@@ -471,6 +493,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2bedae9`](https://github.com/stdlib-js/stdlib/commit/2bedae91dbdd0080b38ae0413f5e8f26b88db95b) - **feat:** add C `ndarray` implementation for `blas/base/sdot` [(#2919)](https://github.com/stdlib-js/stdlib/pull/2919) _(by Aman Bhansali, Athan Reines)_
 -   [`e85f394`](https://github.com/stdlib-js/stdlib/commit/e85f3947aaca3cbbd6ab4f84e41577928e0a10a4) - **feat:** add C `ndarray` implementation for `blas/base/saxpy` [(#2918)](https://github.com/stdlib-js/stdlib/pull/2918) _(by Aman Bhansali)_
 -   [`6ae1c10`](https://github.com/stdlib-js/stdlib/commit/6ae1c10d70d86520a0c915864440ef6e8d255a21) - **docs:** rename parameter _(by Athan Reines)_
 -   [`7eb1266`](https://github.com/stdlib-js/stdlib/commit/7eb12667e2052db9fc1e678bf0cc2082e2993aec) - **docs:** rename parameters _(by Athan Reines)_
