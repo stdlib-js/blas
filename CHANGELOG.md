@@ -388,6 +388,94 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dnannsumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dnannsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumors)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - fix includes and types
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dsnannsumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dsnannsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnannsumors)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - fix includes and types
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-sapxsumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/sapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn2)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - fix includes and types
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-sapxsumors-unreleased">
+
+#### [@stdlib/blas/ext/base/sapxsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumors)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - fix includes and types
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-sfill-unreleased">
 
 #### [@stdlib/blas/ext/base/sfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sfill)
@@ -403,6 +491,28 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-ssort2ins-unreleased">
+
+#### [@stdlib/blas/ext/base/ssort2ins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssort2ins)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - fix includes and types
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -537,6 +647,9 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e454c91`](https://github.com/stdlib-js/stdlib/commit/e454c91ae2af928b61effcddadb31548758f8675) - **chore:** improve code style and conditionals _(by Philipp Burckhardt)_
+-   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - **fix:** fix includes and types _(by Philipp Burckhardt)_
+-   [`7e366ae`](https://github.com/stdlib-js/stdlib/commit/7e366ae8bd41439be0e99e958d1c3fbb1b7dd0c2) - **chore:** update package.json descriptions _(by Philipp Burckhardt)_
 -   [`b8cc3db`](https://github.com/stdlib-js/stdlib/commit/b8cc3db63853dc4e9b4b949abc36bac20c3bf305) - **test:** use `Module` constructor directly _(by Athan Reines)_
 -   [`a510e37`](https://github.com/stdlib-js/stdlib/commit/a510e375b6e6f608c7763997ff4abad7d8941f9d) - **test:** add module `ndarray` method tests _(by Athan Reines)_
 -   [`f74e989`](https://github.com/stdlib-js/stdlib/commit/f74e9894ad130417d69b9763cf9a9a012ad9c251) - **test:** add tests for the `main` method _(by Athan Reines)_
