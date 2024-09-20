@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-19)
+## Unreleased (2024-09-20)
 
 <section class="packages">
 
@@ -537,6 +537,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`26aa649`](https://github.com/stdlib-js/stdlib/commit/26aa64946b2966d36338cd580d336d2be3483285) - **docs:** add REPL help _(by Athan Reines)_
 -   [`6e5b8a1`](https://github.com/stdlib-js/stdlib/commit/6e5b8a1747929bc984c994b62faefb1fe96ff5f0) - **build:** add support for generating a base64-encoded Wasm module string _(by Athan Reines)_
 -   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - **feat:** add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923) _(by Muhammad Haris, Athan Reines)_
 -   [`f7edbe0`](https://github.com/stdlib-js/stdlib/commit/f7edbe044289b877586d0140467cb43cdfd18c19) - **feat:** add C `ndarray` implementation for `blas/base/sdsdot` [(#2921)](https://github.com/stdlib-js/stdlib/pull/2921) _(by Aman Bhansali, Athan Reines)_
