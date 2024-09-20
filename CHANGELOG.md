@@ -537,6 +537,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0ac4dcf`](https://github.com/stdlib-js/stdlib/commit/0ac4dcf6afd028e7f9f303d39c7c50b2ad485ccd) - **test:** add `main` and `ndarray` method tests _(by Athan Reines)_
 -   [`64f9d94`](https://github.com/stdlib-js/stdlib/commit/64f9d944fbff0802562d7c3a9c13c2b16b64f6a0) - **docs:** update headings _(by Athan Reines)_
 -   [`849e5da`](https://github.com/stdlib-js/stdlib/commit/849e5da8d61d41532d64e70b02a7fbbce7dd0778) - **docs:** add TypeScript declarations _(by Athan Reines)_
 -   [`26aa649`](https://github.com/stdlib-js/stdlib/commit/26aa64946b2966d36338cd580d336d2be3483285) - **docs:** add REPL help _(by Athan Reines)_
