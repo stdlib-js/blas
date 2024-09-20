@@ -608,6 +608,50 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-tools-unreleased">
+
+#### [@stdlib/blas/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`339ba1b`](https://github.com/stdlib-js/stdlib/commit/339ba1bf405e085779be64f98aa197115483b857) - add `blas/tools` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-tools-swap-factory-unreleased">
+
+#### [@stdlib/blas/tools/swap-factory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools/swap-factory)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c070a88`](https://github.com/stdlib-js/stdlib/commit/c070a889f13926400f2422a6334d5252df1bacaf) - add `blas/tools/swap-factory`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -647,6 +691,10 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`339ba1b`](https://github.com/stdlib-js/stdlib/commit/339ba1bf405e085779be64f98aa197115483b857) - **feat:** add `blas/tools` namespace _(by Athan Reines)_
+-   [`dc22190`](https://github.com/stdlib-js/stdlib/commit/dc22190e473acb1a413af6d4482305c65f2420fd) - **refactor:** use `blas/tools/swap-factory` _(by Athan Reines)_
+-   [`2e2f268`](https://github.com/stdlib-js/stdlib/commit/2e2f2681aa86405fd2a5d7cad8c48fe32a2b8cb5) - **refactor:** use `blas/tools/swap-factory` _(by Athan Reines)_
+-   [`c070a88`](https://github.com/stdlib-js/stdlib/commit/c070a889f13926400f2422a6334d5252df1bacaf) - **feat:** add `blas/tools/swap-factory` _(by Athan Reines)_
 -   [`e454c91`](https://github.com/stdlib-js/stdlib/commit/e454c91ae2af928b61effcddadb31548758f8675) - **chore:** improve code style and conditionals _(by Philipp Burckhardt)_
 -   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - **fix:** fix includes and types _(by Philipp Burckhardt)_
 -   [`7e366ae`](https://github.com/stdlib-js/stdlib/commit/7e366ae8bd41439be0e99e958d1c3fbb1b7dd0c2) - **chore:** update package.json descriptions _(by Philipp Burckhardt)_
