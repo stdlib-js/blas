@@ -477,6 +477,50 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dapx-unreleased">
+
+#### [@stdlib/blas/ext/base/dapx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapx)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - resolve bugs in addon.c files
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dcusumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/dcusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumkbn2)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - resolve bugs in addon.c files
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dfill-unreleased">
 
 #### [@stdlib/blas/ext/base/dfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dfill)
@@ -510,6 +554,50 @@
 ##### Bug Fixes
 
 -   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - fix includes and types
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dnannsumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dnannsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumpw)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - resolve bugs in addon.c files
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dsapxsum-unreleased">
+
+#### [@stdlib/blas/ext/base/dsapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsapxsum)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - resolve bugs in addon.c files
 
 </section>
 
@@ -576,6 +664,28 @@
 ##### Bug Fixes
 
 -   [`898b50d`](https://github.com/stdlib-js/stdlib/commit/898b50d8d705bdf6a55db8cf1858ea1e1d257c35) - fix includes and types
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-sdsapxsum-unreleased">
+
+#### [@stdlib/blas/ext/base/sdsapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdsapxsum)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - resolve bugs in addon.c files
 
 </section>
 
@@ -803,6 +913,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - **fix:** resolve bugs in addon.c files _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
 -   [`0b47144`](https://github.com/stdlib-js/stdlib/commit/0b47144318f7b9c00a6015d57ff5a8fd0256eac4) - **refactor:** update `blas/ext/base/ssortins` to follow current project conventions _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`d93e862`](https://github.com/stdlib-js/stdlib/commit/d93e862d5d5919a73677b3c66e10e5f0bfd99ea0) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/sasum` [(#2926)](https://github.com/stdlib-js/stdlib/pull/2926) _(by Aman Bhansali, Athan Reines)_
