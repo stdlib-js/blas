@@ -275,6 +275,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-snrm2-unreleased">
+
+#### [@stdlib/blas/base/snrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/snrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1e1ea6f`](https://github.com/stdlib-js/stdlib/commit/1e1ea6ff33763f68e8ae501830356cc67381cc1a) - update JavaScript implementation and add C `ndarray` API for `blas/base/snrm2` [(#2924)](https://github.com/stdlib-js/stdlib/pull/2924)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-srot-unreleased">
 
 #### [@stdlib/blas/base/srot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srot)
@@ -758,6 +780,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1e1ea6f`](https://github.com/stdlib-js/stdlib/commit/1e1ea6ff33763f68e8ae501830356cc67381cc1a) - **feat:** update JavaScript implementation and add C `ndarray` API for `blas/base/snrm2` [(#2924)](https://github.com/stdlib-js/stdlib/pull/2924) _(by Aman Bhansali)_
 -   [`57d03ad`](https://github.com/stdlib-js/stdlib/commit/57d03ad4821f87e6ea471794cd6c4a60adc40d86) - **feat:** add C `ndarray` implementation for `blas/base/srot` and `blas/base/drot` [(#2896)](https://github.com/stdlib-js/stdlib/pull/2896) _(by Aman Bhansali, Athan Reines)_
 -   [`b16259c`](https://github.com/stdlib-js/stdlib/commit/b16259ce187494c5274694cb9415fd254bb24e48) - **feat:** add C `ndarray` implementation for `blas/base/dscal` [(#2915)](https://github.com/stdlib-js/stdlib/pull/2915) _(by Aman Bhansali)_
 -   [`226a6d8`](https://github.com/stdlib-js/stdlib/commit/226a6d802c38bfc6c4fb2afe7453fb1767103034) - **feat:** add C `ndarray` API to `blas/ext/base/cfill` [(#2925)](https://github.com/stdlib-js/stdlib/pull/2925) _(by Muhammad Haris, Athan Reines)_
