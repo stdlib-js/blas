@@ -99,6 +99,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dscal-unreleased">
+
+#### [@stdlib/blas/base/dscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b16259c`](https://github.com/stdlib-js/stdlib/commit/b16259ce187494c5274694cb9415fd254bb24e48) - add C `ndarray` implementation for `blas/base/dscal` [(#2915)](https://github.com/stdlib-js/stdlib/pull/2915)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dspr-unreleased">
 
 #### [@stdlib/blas/base/dspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dspr)
@@ -692,6 +714,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b16259c`](https://github.com/stdlib-js/stdlib/commit/b16259ce187494c5274694cb9415fd254bb24e48) - **feat:** add C `ndarray` implementation for `blas/base/dscal` [(#2915)](https://github.com/stdlib-js/stdlib/pull/2915) _(by Aman Bhansali)_
 -   [`226a6d8`](https://github.com/stdlib-js/stdlib/commit/226a6d802c38bfc6c4fb2afe7453fb1767103034) - **feat:** add C `ndarray` API to `blas/ext/base/cfill` [(#2925)](https://github.com/stdlib-js/stdlib/pull/2925) _(by Muhammad Haris, Athan Reines)_
 -   [`339ba1b`](https://github.com/stdlib-js/stdlib/commit/339ba1bf405e085779be64f98aa197115483b857) - **feat:** add `blas/tools` namespace _(by Athan Reines)_
 -   [`dc22190`](https://github.com/stdlib-js/stdlib/commit/dc22190e473acb1a413af6d4482305c65f2420fd) - **refactor:** use `blas/tools/swap-factory` _(by Athan Reines)_
