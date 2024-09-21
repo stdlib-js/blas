@@ -783,8 +783,9 @@
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
 -   HarshaNP
@@ -802,6 +803,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0b47144`](https://github.com/stdlib-js/stdlib/commit/0b47144318f7b9c00a6015d57ff5a8fd0256eac4) - **refactor:** update `blas/ext/base/ssortins` to follow current project conventions _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`d93e862`](https://github.com/stdlib-js/stdlib/commit/d93e862d5d5919a73677b3c66e10e5f0bfd99ea0) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/sasum` [(#2926)](https://github.com/stdlib-js/stdlib/pull/2926) _(by Aman Bhansali, Athan Reines)_
 -   [`1e1ea6f`](https://github.com/stdlib-js/stdlib/commit/1e1ea6ff33763f68e8ae501830356cc67381cc1a) - **feat:** update JavaScript implementation and add C `ndarray` API for `blas/base/snrm2` [(#2924)](https://github.com/stdlib-js/stdlib/pull/2924) _(by Aman Bhansali)_
 -   [`57d03ad`](https://github.com/stdlib-js/stdlib/commit/57d03ad4821f87e6ea471794cd6c4a60adc40d86) - **feat:** add C `ndarray` implementation for `blas/base/srot` and `blas/base/drot` [(#2896)](https://github.com/stdlib-js/stdlib/pull/2896) _(by Aman Bhansali, Athan Reines)_
