@@ -187,6 +187,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-sasum-unreleased">
+
+#### [@stdlib/blas/base/sasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d93e862`](https://github.com/stdlib-js/stdlib/commit/d93e862d5d5919a73677b3c66e10e5f0bfd99ea0) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/sasum` [(#2926)](https://github.com/stdlib-js/stdlib/pull/2926)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-saxpy-unreleased">
 
 #### [@stdlib/blas/base/saxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/saxpy)
@@ -780,6 +802,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d93e862`](https://github.com/stdlib-js/stdlib/commit/d93e862d5d5919a73677b3c66e10e5f0bfd99ea0) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/sasum` [(#2926)](https://github.com/stdlib-js/stdlib/pull/2926) _(by Aman Bhansali, Athan Reines)_
 -   [`1e1ea6f`](https://github.com/stdlib-js/stdlib/commit/1e1ea6ff33763f68e8ae501830356cc67381cc1a) - **feat:** update JavaScript implementation and add C `ndarray` API for `blas/base/snrm2` [(#2924)](https://github.com/stdlib-js/stdlib/pull/2924) _(by Aman Bhansali)_
 -   [`57d03ad`](https://github.com/stdlib-js/stdlib/commit/57d03ad4821f87e6ea471794cd6c4a60adc40d86) - **feat:** add C `ndarray` implementation for `blas/base/srot` and `blas/base/drot` [(#2896)](https://github.com/stdlib-js/stdlib/pull/2896) _(by Aman Bhansali, Athan Reines)_
 -   [`b16259c`](https://github.com/stdlib-js/stdlib/commit/b16259ce187494c5274694cb9415fd254bb24e48) - **feat:** add C `ndarray` implementation for `blas/base/dscal` [(#2915)](https://github.com/stdlib-js/stdlib/pull/2915) _(by Aman Bhansali)_
