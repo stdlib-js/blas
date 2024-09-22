@@ -505,6 +505,16 @@
 
 <details>
 
+<section class="features">
+
+##### Features
+
+-   [`a187bfc`](https://github.com/stdlib-js/stdlib/commit/a187bfc1f71912625823d786f7b1234b224b323d) - add C `ndarray` API and refactor `blas/ext/base/dapx` [(#2929)](https://github.com/stdlib-js/stdlib/pull/2929)
+
+</section>
+
+<!-- /.features -->
+
 <section class="bug-fixes">
 
 ##### Bug Fixes
@@ -945,6 +955,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a187bfc`](https://github.com/stdlib-js/stdlib/commit/a187bfc1f71912625823d786f7b1234b224b323d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapx` [(#2929)](https://github.com/stdlib-js/stdlib/pull/2929) _(by Muhammad Haris, Athan Reines)_
 -   [`807613d`](https://github.com/stdlib-js/stdlib/commit/807613dc2ae504e83f77c0707f4f6a046752b022) - **feat:** add C `ndarray` implementation for `blas/base/srotm` [(#2928)](https://github.com/stdlib-js/stdlib/pull/2928) _(by Aman Bhansali)_
 -   [`2d7dda3`](https://github.com/stdlib-js/stdlib/commit/2d7dda3dec5ce14e2c28b99637c88b6e3de90513) - **fix:** update error message _(by Athan Reines)_
 -   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
