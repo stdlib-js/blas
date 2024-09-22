@@ -867,6 +867,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`2d7dda3`](https://github.com/stdlib-js/stdlib/commit/2d7dda3dec5ce14e2c28b99637c88b6e3de90513) - update error message
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -913,6 +923,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2d7dda3`](https://github.com/stdlib-js/stdlib/commit/2d7dda3dec5ce14e2c28b99637c88b6e3de90513) - **fix:** update error message _(by Athan Reines)_
 -   [`177f16c`](https://github.com/stdlib-js/stdlib/commit/177f16cd80b9072714e7b4e976487e5e6dd19761) - **chore:** update package meta data [(#2933)](https://github.com/stdlib-js/stdlib/pull/2933) _(by stdlib-bot, Athan Reines)_
 -   [`e4de24f`](https://github.com/stdlib-js/stdlib/commit/e4de24f1e086063876214e73f1f6b659dc624eb1) - **fix:** resolve bugs in addon.c files _(by Philipp Burckhardt)_
 -   [`6e9f42e`](https://github.com/stdlib-js/stdlib/commit/6e9f42e4c912485d9896eaa16c88b70fd3688e97) - **docs:** harmonize list formatting in repl.txt and ensure starting newline _(by Philipp Burckhardt)_
