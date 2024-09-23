@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-22)
+## Unreleased (2024-09-23)
 
 <section class="packages">
 
@@ -955,6 +955,10 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d8a7b13`](https://github.com/stdlib-js/stdlib/commit/d8a7b13093db2dfb01ccb6ec2530753dc758a5ac) - **docs:** fix description _(by Athan Reines)_
+-   [`d6b26e2`](https://github.com/stdlib-js/stdlib/commit/d6b26e2cd3ca1f5287b13304f1be7a3ac50bca2a) - **docs:** fix description _(by Athan Reines)_
+-   [`6947024`](https://github.com/stdlib-js/stdlib/commit/694702469d8d189687b79b947c18c2e4522e3b7b) - **docs:** fix description _(by Athan Reines)_
+-   [`3dde90f`](https://github.com/stdlib-js/stdlib/commit/3dde90f42a760647fc92b59cf47cccc6bc0a26b3) - **docs:** fix description _(by Athan Reines)_
 -   [`a187bfc`](https://github.com/stdlib-js/stdlib/commit/a187bfc1f71912625823d786f7b1234b224b323d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapx` [(#2929)](https://github.com/stdlib-js/stdlib/pull/2929) _(by Muhammad Haris, Athan Reines)_
 -   [`807613d`](https://github.com/stdlib-js/stdlib/commit/807613dc2ae504e83f77c0707f4f6a046752b022) - **feat:** add C `ndarray` implementation for `blas/base/srotm` [(#2928)](https://github.com/stdlib-js/stdlib/pull/2928) _(by Aman Bhansali)_
 -   [`2d7dda3`](https://github.com/stdlib-js/stdlib/commit/2d7dda3dec5ce14e2c28b99637c88b6e3de90513) - **fix:** update error message _(by Athan Reines)_
