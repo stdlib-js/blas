@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-23)
+## Unreleased (2024-09-24)
 
 <section class="packages">
 
@@ -110,6 +110,28 @@
 ##### Features
 
 -   [`57d03ad`](https://github.com/stdlib-js/stdlib/commit/57d03ad4821f87e6ea471794cd6c4a60adc40d86) - add C `ndarray` implementation for `blas/base/srot` and `blas/base/drot` [(#2896)](https://github.com/stdlib-js/stdlib/pull/2896)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-drotm-unreleased">
+
+#### [@stdlib/blas/base/drotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`faa3014`](https://github.com/stdlib-js/stdlib/commit/faa30141a0ca6c5e871a281536ab8755032b70ec) - add C `ndarray` implementation for `blas/base/drotm` [(#2935)](https://github.com/stdlib-js/stdlib/pull/2935)
 
 </section>
 
@@ -955,6 +977,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`faa3014`](https://github.com/stdlib-js/stdlib/commit/faa30141a0ca6c5e871a281536ab8755032b70ec) - **feat:** add C `ndarray` implementation for `blas/base/drotm` [(#2935)](https://github.com/stdlib-js/stdlib/pull/2935) _(by Aman Bhansali, Athan Reines)_
 -   [`d8a7b13`](https://github.com/stdlib-js/stdlib/commit/d8a7b13093db2dfb01ccb6ec2530753dc758a5ac) - **docs:** fix description _(by Athan Reines)_
 -   [`d6b26e2`](https://github.com/stdlib-js/stdlib/commit/d6b26e2cd3ca1f5287b13304f1be7a3ac50bca2a) - **docs:** fix description _(by Athan Reines)_
 -   [`6947024`](https://github.com/stdlib-js/stdlib/commit/694702469d8d189687b79b947c18c2e4522e3b7b) - **docs:** fix description _(by Athan Reines)_
