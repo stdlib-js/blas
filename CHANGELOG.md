@@ -32,6 +32,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dasum-unreleased">
+
+#### [@stdlib/blas/base/dasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`126c898`](https://github.com/stdlib-js/stdlib/commit/126c89855ae2df8c6db72ca48e138f6b45a179b0) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dasum` [(#2942)](https://github.com/stdlib-js/stdlib/pull/2942)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-daxpy-unreleased">
 
 #### [@stdlib/blas/base/daxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/daxpy)
@@ -285,6 +307,7 @@
 
 ##### Features
 
+-   [`126c898`](https://github.com/stdlib-js/stdlib/commit/126c89855ae2df8c6db72ca48e138f6b45a179b0) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dasum` [(#2942)](https://github.com/stdlib-js/stdlib/pull/2942)
 -   [`d93e862`](https://github.com/stdlib-js/stdlib/commit/d93e862d5d5919a73677b3c66e10e5f0bfd99ea0) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/sasum` [(#2926)](https://github.com/stdlib-js/stdlib/pull/2926)
 
 </section>
@@ -1065,6 +1088,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`126c898`](https://github.com/stdlib-js/stdlib/commit/126c89855ae2df8c6db72ca48e138f6b45a179b0) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dasum` [(#2942)](https://github.com/stdlib-js/stdlib/pull/2942) _(by Aman Bhansali)_
 -   [`bc3a86b`](https://github.com/stdlib-js/stdlib/commit/bc3a86bd7570b474ee165594dbb48e389f68fa60) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumkbn` [(#2930)](https://github.com/stdlib-js/stdlib/pull/2930) _(by Muhammad Haris, Athan Reines)_
 -   [`b853deb`](https://github.com/stdlib-js/stdlib/commit/b853deb21c917918997772530f2d464b1bc6eb35) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dnrm2` [(#2941)](https://github.com/stdlib-js/stdlib/pull/2941) _(by Aman Bhansali, Athan Reines)_
 -   [`0ec855b`](https://github.com/stdlib-js/stdlib/commit/0ec855b18df29ca56cea94790c3563d038851981) - **feat:** add C `ndarray` implementation for `blas/base/dsdot` [(#2938)](https://github.com/stdlib-js/stdlib/pull/2938) _(by Aman Bhansali, Athan Reines)_
