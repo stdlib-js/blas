@@ -121,6 +121,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dnrm2-unreleased">
+
+#### [@stdlib/blas/base/dnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dnrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b853deb`](https://github.com/stdlib-js/stdlib/commit/b853deb21c917918997772530f2d464b1bc6eb35) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dnrm2` [(#2941)](https://github.com/stdlib-js/stdlib/pull/2941)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-drot-unreleased">
 
 #### [@stdlib/blas/base/drot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drot)
@@ -1021,6 +1043,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b853deb`](https://github.com/stdlib-js/stdlib/commit/b853deb21c917918997772530f2d464b1bc6eb35) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dnrm2` [(#2941)](https://github.com/stdlib-js/stdlib/pull/2941) _(by Aman Bhansali, Athan Reines)_
 -   [`0ec855b`](https://github.com/stdlib-js/stdlib/commit/0ec855b18df29ca56cea94790c3563d038851981) - **feat:** add C `ndarray` implementation for `blas/base/dsdot` [(#2938)](https://github.com/stdlib-js/stdlib/pull/2938) _(by Aman Bhansali, Athan Reines)_
 -   [`e4f28df`](https://github.com/stdlib-js/stdlib/commit/e4f28df214f15513bdafeb5a6bbc3bde115dc63b) - **feat:** add C `ndarray` implementation for `blas/base/ddot` [(#2936)](https://github.com/stdlib-js/stdlib/pull/2936) _(by Aman Bhansali)_
 -   [`faa3014`](https://github.com/stdlib-js/stdlib/commit/faa30141a0ca6c5e871a281536ab8755032b70ec) - **feat:** add C `ndarray` implementation for `blas/base/drotm` [(#2935)](https://github.com/stdlib-js/stdlib/pull/2935) _(by Aman Bhansali, Athan Reines)_
