@@ -664,6 +664,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dapxsumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dapxsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bc97fa9`](https://github.com/stdlib-js/stdlib/commit/bc97fa994dbd0e671613e9633a551cdae30fa621) - add C `ndarray` API and refactor `blas/ext/base/dapxsumors` [(#2934)](https://github.com/stdlib-js/stdlib/pull/2934)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dcusumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/dcusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumkbn2)
@@ -1088,6 +1110,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bc97fa9`](https://github.com/stdlib-js/stdlib/commit/bc97fa994dbd0e671613e9633a551cdae30fa621) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumors` [(#2934)](https://github.com/stdlib-js/stdlib/pull/2934) _(by Muhammad Haris, Athan Reines)_
 -   [`126c898`](https://github.com/stdlib-js/stdlib/commit/126c89855ae2df8c6db72ca48e138f6b45a179b0) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dasum` [(#2942)](https://github.com/stdlib-js/stdlib/pull/2942) _(by Aman Bhansali)_
 -   [`bc3a86b`](https://github.com/stdlib-js/stdlib/commit/bc3a86bd7570b474ee165594dbb48e389f68fa60) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumkbn` [(#2930)](https://github.com/stdlib-js/stdlib/pull/2930) _(by Muhammad Haris, Athan Reines)_
 -   [`b853deb`](https://github.com/stdlib-js/stdlib/commit/b853deb21c917918997772530f2d464b1bc6eb35) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dnrm2` [(#2941)](https://github.com/stdlib-js/stdlib/pull/2941) _(by Aman Bhansali, Athan Reines)_
