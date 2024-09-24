@@ -187,6 +187,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dsdot-unreleased">
+
+#### [@stdlib/blas/base/dsdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsdot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`0ec855b`](https://github.com/stdlib-js/stdlib/commit/0ec855b18df29ca56cea94790c3563d038851981) - add C `ndarray` implementation for `blas/base/dsdot` [(#2938)](https://github.com/stdlib-js/stdlib/pull/2938)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dspr-unreleased">
 
 #### [@stdlib/blas/base/dspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dspr)
@@ -999,6 +1021,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0ec855b`](https://github.com/stdlib-js/stdlib/commit/0ec855b18df29ca56cea94790c3563d038851981) - **feat:** add C `ndarray` implementation for `blas/base/dsdot` [(#2938)](https://github.com/stdlib-js/stdlib/pull/2938) _(by Aman Bhansali, Athan Reines)_
 -   [`e4f28df`](https://github.com/stdlib-js/stdlib/commit/e4f28df214f15513bdafeb5a6bbc3bde115dc63b) - **feat:** add C `ndarray` implementation for `blas/base/ddot` [(#2936)](https://github.com/stdlib-js/stdlib/pull/2936) _(by Aman Bhansali)_
 -   [`faa3014`](https://github.com/stdlib-js/stdlib/commit/faa30141a0ca6c5e871a281536ab8755032b70ec) - **feat:** add C `ndarray` implementation for `blas/base/drotm` [(#2935)](https://github.com/stdlib-js/stdlib/pull/2935) _(by Aman Bhansali, Athan Reines)_
 -   [`d8a7b13`](https://github.com/stdlib-js/stdlib/commit/d8a7b13093db2dfb01ccb6ec2530753dc758a5ac) - **docs:** fix description _(by Athan Reines)_
