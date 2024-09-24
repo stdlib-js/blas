@@ -756,6 +756,16 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`1f49ad9`](https://github.com/stdlib-js/stdlib/commit/1f49ad98dfcee0a15a8bd3873508f2eaedd88807) - update C function names in `blas/ext/base/dfill` to prevent name collisions [(#2944)](https://github.com/stdlib-js/stdlib/pull/2944)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -1142,6 +1152,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1f49ad9`](https://github.com/stdlib-js/stdlib/commit/1f49ad98dfcee0a15a8bd3873508f2eaedd88807) - **fix:** update C function names in `blas/ext/base/dfill` to prevent name collisions [(#2944)](https://github.com/stdlib-js/stdlib/pull/2944) _(by Muhammad Haris)_
 -   [`5467341`](https://github.com/stdlib-js/stdlib/commit/54673410322991eb15e9c48c2e6f43912cec3b44) - **fix:** update C function names in `blas/ext/base/cfill` to prevent name collisions [(#2943)](https://github.com/stdlib-js/stdlib/pull/2943) _(by Muhammad Haris)_
 -   [`829713b`](https://github.com/stdlib-js/stdlib/commit/829713b1fd6081cafa25133ac90931d8ba911b5e) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumpw` [(#2937)](https://github.com/stdlib-js/stdlib/pull/2937) _(by Muhammad Haris, Athan Reines)_
 -   [`bc97fa9`](https://github.com/stdlib-js/stdlib/commit/bc97fa994dbd0e671613e9633a551cdae30fa621) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumors` [(#2934)](https://github.com/stdlib-js/stdlib/pull/2934) _(by Muhammad Haris, Athan Reines)_
