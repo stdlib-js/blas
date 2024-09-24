@@ -619,6 +619,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dapxsumkbn-unreleased">
+
+#### [@stdlib/blas/ext/base/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumkbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`bc3a86b`](https://github.com/stdlib-js/stdlib/commit/bc3a86bd7570b474ee165594dbb48e389f68fa60) - add C `ndarray` API and refactor `blas/ext/base/dapxsumkbn` [(#2930)](https://github.com/stdlib-js/stdlib/pull/2930)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dcusumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/dcusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumkbn2)
@@ -1043,6 +1065,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bc3a86b`](https://github.com/stdlib-js/stdlib/commit/bc3a86bd7570b474ee165594dbb48e389f68fa60) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumkbn` [(#2930)](https://github.com/stdlib-js/stdlib/pull/2930) _(by Muhammad Haris, Athan Reines)_
 -   [`b853deb`](https://github.com/stdlib-js/stdlib/commit/b853deb21c917918997772530f2d464b1bc6eb35) - **feat:** refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dnrm2` [(#2941)](https://github.com/stdlib-js/stdlib/pull/2941) _(by Aman Bhansali, Athan Reines)_
 -   [`0ec855b`](https://github.com/stdlib-js/stdlib/commit/0ec855b18df29ca56cea94790c3563d038851981) - **feat:** add C `ndarray` implementation for `blas/base/dsdot` [(#2938)](https://github.com/stdlib-js/stdlib/pull/2938) _(by Aman Bhansali, Athan Reines)_
 -   [`e4f28df`](https://github.com/stdlib-js/stdlib/commit/e4f28df214f15513bdafeb5a6bbc3bde115dc63b) - **feat:** add C `ndarray` implementation for `blas/base/ddot` [(#2936)](https://github.com/stdlib-js/stdlib/pull/2936) _(by Aman Bhansali)_
