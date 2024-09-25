@@ -1185,6 +1185,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3095c9a`](https://github.com/stdlib-js/stdlib/commit/3095c9a511ea9d5291e2af2344b239a6101ab31f) - **docs:** add example using little-endian arrays _(by Athan Reines)_
 -   [`dc08755`](https://github.com/stdlib-js/stdlib/commit/dc08755be693a93f1cef11bc0fe13d30829c9392) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsum` [(#2946)](https://github.com/stdlib-js/stdlib/pull/2946) _(by Muhammad Haris, Athan Reines)_
 -   [`8f72b43`](https://github.com/stdlib-js/stdlib/commit/8f72b432c0fc81a78641d5689722ecc9671c6f02) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
 -   [`9d55639`](https://github.com/stdlib-js/stdlib/commit/9d55639aa76472d280ee6c613cd338ee16552cd6) - **fix:** update C function names in `blas/ext/base/sfill` to prevent name collisions [(#2945)](https://github.com/stdlib-js/stdlib/pull/2945) _(by Muhammad Haris)_
