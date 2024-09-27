@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-26)
+## Unreleased (2024-09-27)
 
 <section class="packages">
 
@@ -785,6 +785,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dcusumkbn-unreleased">
+
+#### [@stdlib/blas/ext/base/dcusumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumkbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`62a5c3a`](https://github.com/stdlib-js/stdlib/commit/62a5c3ad48fc4b0d2757ecea35ae7893ae452ea6) - add C `ndarray` API and refactor `blas/ext/base/dcusumkbn` [(#2951)](https://github.com/stdlib-js/stdlib/pull/2951)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dcusumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/dcusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumkbn2)
@@ -1229,6 +1251,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`62a5c3a`](https://github.com/stdlib-js/stdlib/commit/62a5c3ad48fc4b0d2757ecea35ae7893ae452ea6) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumkbn` [(#2951)](https://github.com/stdlib-js/stdlib/pull/2951) _(by Muhammad Haris, Athan Reines)_
 -   [`6fd2e23`](https://github.com/stdlib-js/stdlib/commit/6fd2e23eb246789e43b311eabe9f2fac532175b7) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dasumpw` [(#2949)](https://github.com/stdlib-js/stdlib/pull/2949) _(by Muhammad Haris, Athan Reines)_
 -   [`2bcce62`](https://github.com/stdlib-js/stdlib/commit/2bcce6265ac56f754e447c3898b74f58710ea4a6) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dapxsumkbn2` [(#2948)](https://github.com/stdlib-js/stdlib/pull/2948) _(by Muhammad Haris)_
 -   [`3095c9a`](https://github.com/stdlib-js/stdlib/commit/3095c9a511ea9d5291e2af2344b239a6101ab31f) - **docs:** add example using little-endian arrays _(by Athan Reines)_
@@ -4357,12 +4380,11 @@ A total of 21 issues were closed in this release:
 
 ### Contributors
 
-A total of 34 people contributed to this release. Thank you to the following contributors:
+A total of 32 people contributed to this release. Thank you to the following contributors:
 
 -   AgPriyanshu18
 -   Aleksandr
 -   Aman Bhansali
--   Athan
 -   Athan Reines
 -   Bryan Elee
 -   Golden Kumar
@@ -4373,7 +4395,6 @@ A total of 34 people contributed to this release. Thank you to the following con
 -   Muhammad Haris
 -   NightKnight
 -   Philipp Burckhardt
--   Pranav
 -   Pranav Goswami
 -   Praneki
 -   Pratik
