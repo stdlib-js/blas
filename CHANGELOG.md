@@ -949,6 +949,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gfill-by-unreleased">
+
+#### [@stdlib/blas/ext/base/gfill-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gfill-by)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - remove unused imports from TS declaration file
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-sapxsumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/sapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn2)
@@ -1251,6 +1273,8 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7f368f6`](https://github.com/stdlib-js/stdlib/commit/7f368f6c3f4cea444a304a62616cea36a5f143eb) - **fix:** remove unused imports from TS declaration file _(by Philipp Burckhardt)_
+-   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 -   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`62a5c3a`](https://github.com/stdlib-js/stdlib/commit/62a5c3ad48fc4b0d2757ecea35ae7893ae452ea6) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumkbn` [(#2951)](https://github.com/stdlib-js/stdlib/pull/2951) _(by Muhammad Haris, Athan Reines)_
 -   [`6fd2e23`](https://github.com/stdlib-js/stdlib/commit/6fd2e23eb246789e43b311eabe9f2fac532175b7) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dasumpw` [(#2949)](https://github.com/stdlib-js/stdlib/pull/2949) _(by Muhammad Haris, Athan Reines)_
