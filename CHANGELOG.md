@@ -1356,6 +1356,8 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`0f8ee58`](https://github.com/stdlib-js/stdlib/commit/0f8ee58b842adebc77aeb2e6aebb41054ad6f3cd) - **docs:** fix overwriting of variables _(by Athan Reines)_
+-   [`ef474af`](https://github.com/stdlib-js/stdlib/commit/ef474af3b2f1eafffbbbc9e4bcb72541f72970ef) - **docs:** fix overwriting of variables _(by Athan Reines)_
 -   [`98600ec`](https://github.com/stdlib-js/stdlib/commit/98600eca7ebd8e7269f051a2e87612c33dca0638) - **feat:** add `blas/base/dcopy-wasm` [(#2959)](https://github.com/stdlib-js/stdlib/pull/2959) _(by Aman Bhansali, Athan Reines)_
 -   [`929a224`](https://github.com/stdlib-js/stdlib/commit/929a2241acc3b3714fb01fcb4a9e295810df5bf5) - **feat:** add `blas/base/saxpy-wasm` [(#2956)](https://github.com/stdlib-js/stdlib/pull/2956) _(by Aman Bhansali, Athan Reines)_
 -   [`1cd5988`](https://github.com/stdlib-js/stdlib/commit/1cd5988f17e8bd1e3282540d82e05536178423a4) - **docs:** fix copy _(by Athan Reines)_
