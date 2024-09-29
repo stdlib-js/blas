@@ -1174,6 +1174,30 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-ssort2sh-unreleased">
+
+#### [@stdlib/blas/ext/base/ssort2sh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssort2sh)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1536](https://github.com/stdlib-js/stdlib/issues/1536)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-zfill-unreleased">
 
 #### [@stdlib/blas/ext/base/zfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/zfill)
@@ -1332,6 +1356,18 @@
 
 <!-- /.breaking-changes -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#1536](https://github.com/stdlib-js/stdlib/issues/1536)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="contributors">
 
 ### Contributors
@@ -1356,6 +1392,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b57ae2e`](https://github.com/stdlib-js/stdlib/commit/b57ae2e52609433b1d07e0384a1c724a7308f401) - **refactor:** updated `blas/ext/base/ssort2sh` to follow current project conventions [(#2957)](https://github.com/stdlib-js/stdlib/pull/2957) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`0f8ee58`](https://github.com/stdlib-js/stdlib/commit/0f8ee58b842adebc77aeb2e6aebb41054ad6f3cd) - **docs:** fix overwriting of variables _(by Athan Reines)_
 -   [`ef474af`](https://github.com/stdlib-js/stdlib/commit/ef474af3b2f1eafffbbbc9e4bcb72541f72970ef) - **docs:** fix overwriting of variables _(by Athan Reines)_
 -   [`98600ec`](https://github.com/stdlib-js/stdlib/commit/98600eca7ebd8e7269f051a2e87612c33dca0638) - **feat:** add `blas/base/dcopy-wasm` [(#2959)](https://github.com/stdlib-js/stdlib/pull/2959) _(by Aman Bhansali, Athan Reines)_
