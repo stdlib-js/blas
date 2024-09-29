@@ -121,6 +121,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dcopy-wasm-unreleased">
+
+#### [@stdlib/blas/base/dcopy-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dcopy-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`98600ec`](https://github.com/stdlib-js/stdlib/commit/98600eca7ebd8e7269f051a2e87612c33dca0638) - add `blas/base/dcopy-wasm` [(#2959)](https://github.com/stdlib-js/stdlib/pull/2959)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-ddot-unreleased">
 
 #### [@stdlib/blas/base/ddot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ddot)
@@ -1334,6 +1356,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`98600ec`](https://github.com/stdlib-js/stdlib/commit/98600eca7ebd8e7269f051a2e87612c33dca0638) - **feat:** add `blas/base/dcopy-wasm` [(#2959)](https://github.com/stdlib-js/stdlib/pull/2959) _(by Aman Bhansali, Athan Reines)_
 -   [`929a224`](https://github.com/stdlib-js/stdlib/commit/929a2241acc3b3714fb01fcb4a9e295810df5bf5) - **feat:** add `blas/base/saxpy-wasm` [(#2956)](https://github.com/stdlib-js/stdlib/pull/2956) _(by Aman Bhansali, Athan Reines)_
 -   [`1cd5988`](https://github.com/stdlib-js/stdlib/commit/1cd5988f17e8bd1e3282540d82e05536178423a4) - **docs:** fix copy _(by Athan Reines)_
 -   [`a13603b`](https://github.com/stdlib-js/stdlib/commit/a13603b556defa762f7fe1d25fbfa3b621404f69) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusum` [(#2954)](https://github.com/stdlib-js/stdlib/pull/2954) _(by Muhammad Haris)_
