@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-29)
+## Unreleased (2024-09-30)
 
 <section class="packages">
 
@@ -1032,6 +1032,30 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsort2ins-unreleased">
+
+#### [@stdlib/blas/ext/base/dsort2ins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsort2ins)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1496](https://github.com/stdlib-js/stdlib/issues/1496)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gfill-by-unreleased">
 
 #### [@stdlib/blas/ext/base/gfill-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gfill-by)
@@ -1384,9 +1408,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 2 issues were closed in this release:
+A total of 3 issues were closed in this release:
 
-[#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536)
+[#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536)
 
 </section>
 
@@ -1416,6 +1440,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`cf62100`](https://github.com/stdlib-js/stdlib/commit/cf62100c3ef0fe8318291d861f7db73ff3acec33) - **refactor:** update `blas/ext/base/dsort2ins` to follow current project conventions [(#2961)](https://github.com/stdlib-js/stdlib/pull/2961) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`c1552d8`](https://github.com/stdlib-js/stdlib/commit/c1552d85dee747d03a1d0c152566e79ad08470df) - **refactor:** update `blas/ext/base/ssort2hp` to follow current project conventions [(#2960)](https://github.com/stdlib-js/stdlib/pull/2960) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`b57ae2e`](https://github.com/stdlib-js/stdlib/commit/b57ae2e52609433b1d07e0384a1c724a7308f401) - **refactor:** updated `blas/ext/base/ssort2sh` to follow current project conventions [(#2957)](https://github.com/stdlib-js/stdlib/pull/2957) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`0f8ee58`](https://github.com/stdlib-js/stdlib/commit/0f8ee58b842adebc77aeb2e6aebb41054ad6f3cd) - **docs:** fix overwriting of variables _(by Athan Reines)_
