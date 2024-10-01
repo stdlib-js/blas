@@ -640,6 +640,7 @@
 
 ##### Features
 
+-   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962)
 -   [`226a6d8`](https://github.com/stdlib-js/stdlib/commit/226a6d802c38bfc6c4fb2afe7453fb1767103034) - add C `ndarray` API to `blas/ext/base/cfill` [(#2925)](https://github.com/stdlib-js/stdlib/pull/2925)
 -   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907)
 -   [`fadff3a`](https://github.com/stdlib-js/stdlib/commit/fadff3a44660678d9ccce8bb101f579ca1913a64) - add `blas/ext/base/cfill` [(#2901)](https://github.com/stdlib-js/stdlib/pull/2901)
@@ -947,6 +948,7 @@
 
 ##### Features
 
+-   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962)
 -   [`040a335`](https://github.com/stdlib-js/stdlib/commit/040a33583774b120b5e486a072cff397fdb1d273) - add a C `ndarray` API, refactor, and clean-up
 
 </section>
@@ -1179,6 +1181,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962)
 -   [`fd41e1b`](https://github.com/stdlib-js/stdlib/commit/fd41e1bd1dc6b7c351702bdbf95978b343215b0b) - add C `ndarray` API to `blas/ext/base/sfill` [(#2923)](https://github.com/stdlib-js/stdlib/pull/2923)
 
 </section>
@@ -1281,6 +1284,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962)
 -   [`7e11338`](https://github.com/stdlib-js/stdlib/commit/7e11338ae6642c1389e51557262710bd6ebe44aa) - add `blas/ext/base/zfill` [(#2907)](https://github.com/stdlib-js/stdlib/pull/2907)
 
 </section>
@@ -1465,6 +1469,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - **feat:** add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962) _(by Muhammad Haris, Athan Reines)_
 -   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumors` _(by Muhammad Haris, Athan Reines)_
 -   [`cf62100`](https://github.com/stdlib-js/stdlib/commit/cf62100c3ef0fe8318291d861f7db73ff3acec33) - **refactor:** update `blas/ext/base/dsort2ins` to follow current project conventions [(#2961)](https://github.com/stdlib-js/stdlib/pull/2961) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`c1552d8`](https://github.com/stdlib-js/stdlib/commit/c1552d85dee747d03a1d0c152566e79ad08470df) - **refactor:** update `blas/ext/base/ssort2hp` to follow current project conventions [(#2960)](https://github.com/stdlib-js/stdlib/pull/2960) _(by Aayush Khanna, Philipp Burckhardt)_
