@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-30)
+## Unreleased (2024-10-01)
 
 <section class="packages">
 
@@ -845,6 +845,7 @@
 
 ##### Features
 
+-   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - add C `ndarray` API and refactor `blas/ext/base/dcusumors`
 -   [`a13603b`](https://github.com/stdlib-js/stdlib/commit/a13603b556defa762f7fe1d25fbfa3b621404f69) - add C `ndarray` API and refactor `blas/ext/base/dcusum` [(#2954)](https://github.com/stdlib-js/stdlib/pull/2954)
 
 </section>
@@ -867,6 +868,7 @@
 
 ##### Features
 
+-   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - add C `ndarray` API and refactor `blas/ext/base/dcusumors`
 -   [`a13603b`](https://github.com/stdlib-js/stdlib/commit/a13603b556defa762f7fe1d25fbfa3b621404f69) - add C `ndarray` API and refactor `blas/ext/base/dcusum` [(#2954)](https://github.com/stdlib-js/stdlib/pull/2954)
 -   [`62a5c3a`](https://github.com/stdlib-js/stdlib/commit/62a5c3ad48fc4b0d2757ecea35ae7893ae452ea6) - add C `ndarray` API and refactor `blas/ext/base/dcusumkbn` [(#2951)](https://github.com/stdlib-js/stdlib/pull/2951)
 
@@ -890,6 +892,7 @@
 
 ##### Features
 
+-   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - add C `ndarray` API and refactor `blas/ext/base/dcusumors`
 -   [`c4172be`](https://github.com/stdlib-js/stdlib/commit/c4172be96f0316ab213bbfe63b9678141a80709e) - add C `ndarray` API and refactor `blas/ext/base/dcusumkbn2` [(#2958)](https://github.com/stdlib-js/stdlib/pull/2958)
 
 </section>
@@ -905,6 +908,28 @@
 </section>
 
 <!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dcusumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dcusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - add C `ndarray` API and refactor `blas/ext/base/dcusumors`
+
+</section>
+
+<!-- /.features -->
 
 </details>
 
@@ -1440,6 +1465,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumors` _(by Muhammad Haris, Athan Reines)_
 -   [`cf62100`](https://github.com/stdlib-js/stdlib/commit/cf62100c3ef0fe8318291d861f7db73ff3acec33) - **refactor:** update `blas/ext/base/dsort2ins` to follow current project conventions [(#2961)](https://github.com/stdlib-js/stdlib/pull/2961) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`c1552d8`](https://github.com/stdlib-js/stdlib/commit/c1552d85dee747d03a1d0c152566e79ad08470df) - **refactor:** update `blas/ext/base/ssort2hp` to follow current project conventions [(#2960)](https://github.com/stdlib-js/stdlib/pull/2960) _(by Aayush Khanna, Philipp Burckhardt)_
 -   [`b57ae2e`](https://github.com/stdlib-js/stdlib/commit/b57ae2e52609433b1d07e0384a1c724a7308f401) - **refactor:** updated `blas/ext/base/ssort2sh` to follow current project conventions [(#2957)](https://github.com/stdlib-js/stdlib/pull/2957) _(by Aayush Khanna, Philipp Burckhardt)_
