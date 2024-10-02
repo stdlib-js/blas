@@ -329,6 +329,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dswap-wasm-unreleased">
+
+#### [@stdlib/blas/base/dswap-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dswap-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a3fb243`](https://github.com/stdlib-js/stdlib/commit/a3fb243895ebb2ad90f84bbe4d69c23e4663758c) - add `blas/base/dswap-wasm` [(#2976)](https://github.com/stdlib-js/stdlib/pull/2976)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sasum-unreleased">
 
 #### [@stdlib/blas/base/sasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sasum)
@@ -1479,6 +1501,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a3fb243`](https://github.com/stdlib-js/stdlib/commit/a3fb243895ebb2ad90f84bbe4d69c23e4663758c) - **feat:** add `blas/base/dswap-wasm` [(#2976)](https://github.com/stdlib-js/stdlib/pull/2976) _(by Aman Bhansali, Athan Reines)_
 -   [`fc1256b`](https://github.com/stdlib-js/stdlib/commit/fc1256b1cb1736d9669b986c03ceb29a77228ec8) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/cscal` [(#2967)](https://github.com/stdlib-js/stdlib/pull/2967) _(by Aman Bhansali, Athan Reines)_
 -   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - **feat:** add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962) _(by Muhammad Haris, Athan Reines)_
 -   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumors` _(by Muhammad Haris, Athan Reines)_
