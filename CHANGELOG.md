@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-10-02)
 
 <section class="packages">
 
@@ -15,6 +15,16 @@
 #### [@stdlib/blas/base/cscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cscal)
 
 <details>
+
+<section class="features">
+
+##### Features
+
+-   [`fc1256b`](https://github.com/stdlib-js/stdlib/commit/fc1256b1cb1736d9669b986c03ceb29a77228ec8) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/cscal` [(#2967)](https://github.com/stdlib-js/stdlib/pull/2967)
+
+</section>
+
+<!-- /.features -->
 
 <section class="bug-fixes">
 
@@ -1469,6 +1479,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fc1256b`](https://github.com/stdlib-js/stdlib/commit/fc1256b1cb1736d9669b986c03ceb29a77228ec8) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/cscal` [(#2967)](https://github.com/stdlib-js/stdlib/pull/2967) _(by Aman Bhansali, Athan Reines)_
 -   [`f446206`](https://github.com/stdlib-js/stdlib/commit/f4462062a216ceb2131121cbb299525b6b3b17ff) - **feat:** add C `ndarray` API and refactor `blas/ext/base/zfill` [(#2962)](https://github.com/stdlib-js/stdlib/pull/2962) _(by Muhammad Haris, Athan Reines)_
 -   [`5774557`](https://github.com/stdlib-js/stdlib/commit/5774557e951cb1ae566fc0587cbf03d47b067620) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumors` _(by Muhammad Haris, Athan Reines)_
 -   [`cf62100`](https://github.com/stdlib-js/stdlib/commit/cf62100c3ef0fe8318291d861f7db73ff3acec33) - **refactor:** update `blas/ext/base/dsort2ins` to follow current project conventions [(#2961)](https://github.com/stdlib-js/stdlib/pull/2961) _(by Aayush Khanna, Philipp Burckhardt)_
