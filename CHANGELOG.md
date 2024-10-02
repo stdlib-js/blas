@@ -351,6 +351,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-isamax-unreleased">
+
+#### [@stdlib/blas/base/isamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/isamax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`206c660`](https://github.com/stdlib-js/stdlib/commit/206c6608c3822e807d4a6cb4982838510bb36c21) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/isamax` [(#2931)](https://github.com/stdlib-js/stdlib/pull/2931)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sasum-unreleased">
 
 #### [@stdlib/blas/base/sasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sasum)
@@ -1501,6 +1523,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`206c660`](https://github.com/stdlib-js/stdlib/commit/206c6608c3822e807d4a6cb4982838510bb36c21) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/isamax` [(#2931)](https://github.com/stdlib-js/stdlib/pull/2931) _(by Aman Bhansali, Athan Reines)_
 -   [`41135da`](https://github.com/stdlib-js/stdlib/commit/41135daeb35150c6f4774ef73bb9e3648d0a7c36) - **test:** fix missing argument _(by Athan Reines)_
 -   [`e379b5c`](https://github.com/stdlib-js/stdlib/commit/e379b5cca26575571292841842a35a78d06f9ebd) - **test:** fix missing argument _(by Athan Reines)_
 -   [`a3fb243`](https://github.com/stdlib-js/stdlib/commit/a3fb243895ebb2ad90f84bbe4d69c23e4663758c) - **feat:** add `blas/base/dswap-wasm` [(#2976)](https://github.com/stdlib-js/stdlib/pull/2976) _(by Aman Bhansali, Athan Reines)_
