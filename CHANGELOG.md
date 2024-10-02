@@ -351,6 +351,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-idamax-unreleased">
+
+#### [@stdlib/blas/base/idamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/idamax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`86b103d`](https://github.com/stdlib-js/stdlib/commit/86b103d5332a58ad6e6a7c254453587460e5c021) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/idamax` [(#2980)](https://github.com/stdlib-js/stdlib/pull/2980)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-isamax-unreleased">
 
 #### [@stdlib/blas/base/isamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/isamax)
@@ -1523,6 +1545,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`86b103d`](https://github.com/stdlib-js/stdlib/commit/86b103d5332a58ad6e6a7c254453587460e5c021) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/idamax` [(#2980)](https://github.com/stdlib-js/stdlib/pull/2980) _(by Aman Bhansali, Athan Reines)_
 -   [`206c660`](https://github.com/stdlib-js/stdlib/commit/206c6608c3822e807d4a6cb4982838510bb36c21) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/isamax` [(#2931)](https://github.com/stdlib-js/stdlib/pull/2931) _(by Aman Bhansali, Athan Reines)_
 -   [`41135da`](https://github.com/stdlib-js/stdlib/commit/41135daeb35150c6f4774ef73bb9e3648d0a7c36) - **test:** fix missing argument _(by Athan Reines)_
 -   [`e379b5c`](https://github.com/stdlib-js/stdlib/commit/e379b5cca26575571292841842a35a78d06f9ebd) - **test:** fix missing argument _(by Athan Reines)_
