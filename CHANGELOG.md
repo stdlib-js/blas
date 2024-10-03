@@ -1036,6 +1036,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dcusumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dcusumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dcusumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3bd3f48`](https://github.com/stdlib-js/stdlib/commit/3bd3f480c66a81bc012efd838cef6e0cbda52870) - add C `ndarray` API and refactor `blas/ext/base/dcusumpw` [(#2981)](https://github.com/stdlib-js/stdlib/pull/2981)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dfill-unreleased">
 
 #### [@stdlib/blas/ext/base/dfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dfill)
@@ -1567,6 +1589,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3bd3f48`](https://github.com/stdlib-js/stdlib/commit/3bd3f480c66a81bc012efd838cef6e0cbda52870) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumpw` [(#2981)](https://github.com/stdlib-js/stdlib/pull/2981) _(by Muhammad Haris, Athan Reines)_
 -   [`5d79f98`](https://github.com/stdlib-js/stdlib/commit/5d79f98fcf24be0adf5ab357964d8afaa6707b86) - **feat:** add `blas/base/drot-wasm` [(#2979)](https://github.com/stdlib-js/stdlib/pull/2979) _(by Aman Bhansali, Athan Reines)_
 -   [`0441176`](https://github.com/stdlib-js/stdlib/commit/0441176842aa621bace6bb098ef669638b5cd787) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`0010618`](https://github.com/stdlib-js/stdlib/commit/001061803801fb497616cc99943129f5817e8eed) - **docs:** fix descriptions _(by Athan Reines)_
