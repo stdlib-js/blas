@@ -219,6 +219,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-drot-wasm-unreleased">
+
+#### [@stdlib/blas/base/drot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5d79f98`](https://github.com/stdlib-js/stdlib/commit/5d79f98fcf24be0adf5ab357964d8afaa6707b86) - add `blas/base/drot-wasm` [(#2979)](https://github.com/stdlib-js/stdlib/pull/2979)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-drotm-unreleased">
 
 #### [@stdlib/blas/base/drotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm)
@@ -1545,6 +1567,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5d79f98`](https://github.com/stdlib-js/stdlib/commit/5d79f98fcf24be0adf5ab357964d8afaa6707b86) - **feat:** add `blas/base/drot-wasm` [(#2979)](https://github.com/stdlib-js/stdlib/pull/2979) _(by Aman Bhansali, Athan Reines)_
 -   [`0441176`](https://github.com/stdlib-js/stdlib/commit/0441176842aa621bace6bb098ef669638b5cd787) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`0010618`](https://github.com/stdlib-js/stdlib/commit/001061803801fb497616cc99943129f5817e8eed) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`86b103d`](https://github.com/stdlib-js/stdlib/commit/86b103d5332a58ad6e6a7c254453587460e5c021) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/idamax` [(#2980)](https://github.com/stdlib-js/stdlib/pull/2980) _(by Aman Bhansali, Athan Reines)_
