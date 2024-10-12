@@ -373,6 +373,30 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dznrm2-unreleased">
+
+#### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2543](https://github.com/stdlib-js/stdlib/issues/2543)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-idamax-unreleased">
 
 #### [@stdlib/blas/base/idamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/idamax)
@@ -477,6 +501,30 @@
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-scnrm2-unreleased">
+
+#### [@stdlib/blas/base/scnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scnrm2)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2543](https://github.com/stdlib-js/stdlib/issues/2543)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -1625,9 +1673,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1530](https://github.com/stdlib-js/stdlib/issues/1530), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536)
+[#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1530](https://github.com/stdlib-js/stdlib/issues/1530), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536), [#2543](https://github.com/stdlib-js/stdlib/issues/2543)
 
 </section>
 
@@ -1658,6 +1706,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c0a5dbe`](https://github.com/stdlib-js/stdlib/commit/c0a5dbe868b88f8bcf770e128833d5768c041919) - **test:** achieve complete code coverage in `blas/base/dznrm2` and `blas/base/scnrm2` [(#2977)](https://github.com/stdlib-js/stdlib/pull/2977) _(by Gururaj Gurram)_
 -   [`efbff47`](https://github.com/stdlib-js/stdlib/commit/efbff479674b3a3941278a245dedda41baf137a3) - **refactor:** `blas/ext/base/snansumkbn2` according to current project conventions [(#3002)](https://github.com/stdlib-js/stdlib/pull/3002) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
 -   [`ea7b344`](https://github.com/stdlib-js/stdlib/commit/ea7b34499a4847bd917e120595a0c677fe8bddb9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnanasum` [(#2984)](https://github.com/stdlib-js/stdlib/pull/2984) _(by Muhammad Haris, Athan Reines)_
 -   [`6fe012e`](https://github.com/stdlib-js/stdlib/commit/6fe012ee17be4a3fad36642041770de4693ef5a3) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnanasumors` [(#2982)](https://github.com/stdlib-js/stdlib/pull/2982) _(by Muhammad Haris, Athan Reines)_
