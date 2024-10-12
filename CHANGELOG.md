@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-04)
+## Unreleased (2024-10-12)
 
 <section class="packages">
 
@@ -1368,6 +1368,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-snansumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/snansumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumkbn2)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1530](https://github.com/stdlib-js/stdlib/issues/1530)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-ssort2hp-unreleased">
 
 #### [@stdlib/blas/ext/base/ssort2hp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssort2hp)
@@ -1601,9 +1625,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536)
+[#1496](https://github.com/stdlib-js/stdlib/issues/1496), [#1530](https://github.com/stdlib-js/stdlib/issues/1530), [#1534](https://github.com/stdlib-js/stdlib/issues/1534), [#1536](https://github.com/stdlib-js/stdlib/issues/1536)
 
 </section>
 
@@ -1613,11 +1637,12 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
+-   Gururaj Gurram
 -   HarshaNP
 -   Muhammad Haris
 -   Philipp Burckhardt
@@ -1633,6 +1658,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`efbff47`](https://github.com/stdlib-js/stdlib/commit/efbff479674b3a3941278a245dedda41baf137a3) - **refactor:** `blas/ext/base/snansumkbn2` according to current project conventions [(#3002)](https://github.com/stdlib-js/stdlib/pull/3002) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
 -   [`ea7b344`](https://github.com/stdlib-js/stdlib/commit/ea7b34499a4847bd917e120595a0c677fe8bddb9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnanasum` [(#2984)](https://github.com/stdlib-js/stdlib/pull/2984) _(by Muhammad Haris, Athan Reines)_
 -   [`6fe012e`](https://github.com/stdlib-js/stdlib/commit/6fe012ee17be4a3fad36642041770de4693ef5a3) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnanasumors` [(#2982)](https://github.com/stdlib-js/stdlib/pull/2982) _(by Muhammad Haris, Athan Reines)_
 -   [`3bd3f48`](https://github.com/stdlib-js/stdlib/commit/3bd3f480c66a81bc012efd838cef6e0cbda52870) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dcusumpw` [(#2981)](https://github.com/stdlib-js/stdlib/pull/2981) _(by Muhammad Haris, Athan Reines)_
