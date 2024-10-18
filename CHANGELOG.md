@@ -1750,6 +1750,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`200e78a`](https://github.com/stdlib-js/stdlib/commit/200e78af939661bb4f435dc4f523cb57594c003e) - **docs:** add missing comma _(by Athan Reines)_
 -   [`bfcfb89`](https://github.com/stdlib-js/stdlib/commit/bfcfb8907b096bb574c9dffba4cc256687a4f213) - **feat:** add `blas/base/dscal-wasm` [(#2985)](https://github.com/stdlib-js/stdlib/pull/2985) _(by Aman Bhansali, Athan Reines)_
 -   [`01e414b`](https://github.com/stdlib-js/stdlib/commit/01e414bd9a03e578d44e2c284fcc77ce2fbcd825) - **docs:** fix examples in `blas/base/dnrm2-wasm` [(#3018)](https://github.com/stdlib-js/stdlib/pull/3018) _(by Aman Bhansali)_
 -   [`4f8bad3`](https://github.com/stdlib-js/stdlib/commit/4f8bad3ec19d742b1f08481bbb08ee2406312080) - **feat:** add `blas/base/dnrm2-wasm` [(#3014)](https://github.com/stdlib-js/stdlib/pull/3014) _(by Aman Bhansali, Athan Reines)_
