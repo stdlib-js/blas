@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-17)
+## Unreleased (2024-10-18)
 
 <section class="packages">
 
@@ -1728,6 +1728,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`01e414b`](https://github.com/stdlib-js/stdlib/commit/01e414bd9a03e578d44e2c284fcc77ce2fbcd825) - **docs:** fix examples in `blas/base/dnrm2-wasm` [(#3018)](https://github.com/stdlib-js/stdlib/pull/3018) _(by Aman Bhansali)_
 -   [`4f8bad3`](https://github.com/stdlib-js/stdlib/commit/4f8bad3ec19d742b1f08481bbb08ee2406312080) - **feat:** add `blas/base/dnrm2-wasm` [(#3014)](https://github.com/stdlib-js/stdlib/pull/3014) _(by Aman Bhansali, Athan Reines)_
 -   [`c0a5dbe`](https://github.com/stdlib-js/stdlib/commit/c0a5dbe868b88f8bcf770e128833d5768c041919) - **test:** achieve complete code coverage in `blas/base/dznrm2` and `blas/base/scnrm2` [(#2977)](https://github.com/stdlib-js/stdlib/pull/2977) _(by Gururaj Gurram)_
 -   [`efbff47`](https://github.com/stdlib-js/stdlib/commit/efbff479674b3a3941278a245dedda41baf137a3) - **refactor:** `blas/ext/base/snansumkbn2` according to current project conventions [(#3002)](https://github.com/stdlib-js/stdlib/pull/3002) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
