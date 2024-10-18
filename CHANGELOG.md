@@ -485,6 +485,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-idamax-wasm-unreleased">
+
+#### [@stdlib/blas/base/idamax-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/idamax-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8f8b649`](https://github.com/stdlib-js/stdlib/commit/8f8b6497126fee0256de7be78a9501edd37c70fb) - add `blas/base/idamax-wasm` [(#3016)](https://github.com/stdlib-js/stdlib/pull/3016)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-isamax-unreleased">
 
 #### [@stdlib/blas/base/isamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/isamax)
@@ -1772,6 +1794,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8f8b649`](https://github.com/stdlib-js/stdlib/commit/8f8b6497126fee0256de7be78a9501edd37c70fb) - **feat:** add `blas/base/idamax-wasm` [(#3016)](https://github.com/stdlib-js/stdlib/pull/3016) _(by Aman Bhansali, Athan Reines)_
 -   [`6c9018c`](https://github.com/stdlib-js/stdlib/commit/6c9018cb081c3e9e0510bd5609995bf38449e6d1) - **docs:** fix note _(by Athan Reines)_
 -   [`3ab8221`](https://github.com/stdlib-js/stdlib/commit/3ab82210f8241550f61dfc491345ee1ebd9bcf2f) - **docs:** fix note _(by Athan Reines)_
 -   [`1594f0f`](https://github.com/stdlib-js/stdlib/commit/1594f0f4dc6ff16c5b44a7ae6428784ff76f2b75) - **feat:** add `blas/base/ddot-wasm` [(#2986)](https://github.com/stdlib-js/stdlib/pull/2986) _(by Aman Bhansali, Athan Reines)_
