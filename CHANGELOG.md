@@ -175,6 +175,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-ddot-wasm-unreleased">
+
+#### [@stdlib/blas/base/ddot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ddot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1594f0f`](https://github.com/stdlib-js/stdlib/commit/1594f0f4dc6ff16c5b44a7ae6428784ff76f2b75) - add `blas/base/ddot-wasm` [(#2986)](https://github.com/stdlib-js/stdlib/pull/2986)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dnrm2-unreleased">
 
 #### [@stdlib/blas/base/dnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dnrm2)
@@ -1750,6 +1772,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1594f0f`](https://github.com/stdlib-js/stdlib/commit/1594f0f4dc6ff16c5b44a7ae6428784ff76f2b75) - **feat:** add `blas/base/ddot-wasm` [(#2986)](https://github.com/stdlib-js/stdlib/pull/2986) _(by Aman Bhansali, Athan Reines)_
 -   [`200e78a`](https://github.com/stdlib-js/stdlib/commit/200e78af939661bb4f435dc4f523cb57594c003e) - **docs:** add missing comma _(by Athan Reines)_
 -   [`bfcfb89`](https://github.com/stdlib-js/stdlib/commit/bfcfb8907b096bb574c9dffba4cc256687a4f213) - **feat:** add `blas/base/dscal-wasm` [(#2985)](https://github.com/stdlib-js/stdlib/pull/2985) _(by Aman Bhansali, Athan Reines)_
 -   [`01e414b`](https://github.com/stdlib-js/stdlib/commit/01e414bd9a03e578d44e2c284fcc77ce2fbcd825) - **docs:** fix examples in `blas/base/dnrm2-wasm` [(#3018)](https://github.com/stdlib-js/stdlib/pull/3018) _(by Aman Bhansali)_
