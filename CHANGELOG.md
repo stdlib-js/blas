@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-18)
+## Unreleased (2024-10-19)
 
 <section class="packages">
 
@@ -53,6 +53,28 @@
 ##### Features
 
 -   [`126c898`](https://github.com/stdlib-js/stdlib/commit/126c89855ae2df8c6db72ca48e138f6b45a179b0) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dasum` [(#2942)](https://github.com/stdlib-js/stdlib/pull/2942)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-dasum-wasm-unreleased">
+
+#### [@stdlib/blas/base/dasum-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dasum-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e3512fc`](https://github.com/stdlib-js/stdlib/commit/e3512fca3391a238a1f40a030406c9354cb7cc25) - add `blas/base/dasum-wasm` [(#2987)](https://github.com/stdlib-js/stdlib/pull/2987)
 
 </section>
 
@@ -1794,6 +1816,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e3512fc`](https://github.com/stdlib-js/stdlib/commit/e3512fca3391a238a1f40a030406c9354cb7cc25) - **feat:** add `blas/base/dasum-wasm` [(#2987)](https://github.com/stdlib-js/stdlib/pull/2987) _(by Aman Bhansali, Athan Reines)_
 -   [`8f8b649`](https://github.com/stdlib-js/stdlib/commit/8f8b6497126fee0256de7be78a9501edd37c70fb) - **feat:** add `blas/base/idamax-wasm` [(#3016)](https://github.com/stdlib-js/stdlib/pull/3016) _(by Aman Bhansali, Athan Reines)_
 -   [`6c9018c`](https://github.com/stdlib-js/stdlib/commit/6c9018cb081c3e9e0510bd5609995bf38449e6d1) - **docs:** fix note _(by Athan Reines)_
 -   [`3ab8221`](https://github.com/stdlib-js/stdlib/commit/3ab82210f8241550f61dfc491345ee1ebd9bcf2f) - **docs:** fix note _(by Athan Reines)_
