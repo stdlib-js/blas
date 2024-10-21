@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-19)
+## Unreleased (2024-10-21)
 
 <section class="packages">
 
@@ -653,6 +653,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`08f39b4`](https://github.com/stdlib-js/stdlib/commit/08f39b45439d043323ec402647f6b3ea8a5a4a56) - add C `ndarray` implementation for `blas/base/scopy` [(#2913)](https://github.com/stdlib-js/stdlib/pull/2913)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-scopy-wasm-unreleased">
+
+#### [@stdlib/blas/base/scopy-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scopy-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fe8255a`](https://github.com/stdlib-js/stdlib/commit/fe8255aaadeae80d038625abcda3264c70e9b32b) - add `blas/base/scopy-wasm` [(#3022)](https://github.com/stdlib-js/stdlib/pull/3022)
 
 </section>
 
@@ -1816,6 +1838,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fe8255a`](https://github.com/stdlib-js/stdlib/commit/fe8255aaadeae80d038625abcda3264c70e9b32b) - **feat:** add `blas/base/scopy-wasm` [(#3022)](https://github.com/stdlib-js/stdlib/pull/3022) _(by Aman Bhansali, Athan Reines)_
 -   [`e3512fc`](https://github.com/stdlib-js/stdlib/commit/e3512fca3391a238a1f40a030406c9354cb7cc25) - **feat:** add `blas/base/dasum-wasm` [(#2987)](https://github.com/stdlib-js/stdlib/pull/2987) _(by Aman Bhansali, Athan Reines)_
 -   [`8f8b649`](https://github.com/stdlib-js/stdlib/commit/8f8b6497126fee0256de7be78a9501edd37c70fb) - **feat:** add `blas/base/idamax-wasm` [(#3016)](https://github.com/stdlib-js/stdlib/pull/3016) _(by Aman Bhansali, Athan Reines)_
 -   [`6c9018c`](https://github.com/stdlib-js/stdlib/commit/6c9018cb081c3e9e0510bd5609995bf38449e6d1) - **docs:** fix note _(by Athan Reines)_
