@@ -1860,6 +1860,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e2ed2a3`](https://github.com/stdlib-js/stdlib/commit/e2ed2a3f152e6b424b9479b1103dcf382110e313) - **bench:** use single-precision utility _(by Athan Reines)_
 -   [`6b238d9`](https://github.com/stdlib-js/stdlib/commit/6b238d9a0b152532351c72100a5be2ca644eba1c) - **feat:** add `blas/base/sdot-wasm` [(#3025)](https://github.com/stdlib-js/stdlib/pull/3025) _(by Aman Bhansali, Athan Reines)_
 -   [`45539d2`](https://github.com/stdlib-js/stdlib/commit/45539d264609d023eb189457bf4b6d326fddaa9b) - **docs:** fix description _(by Athan Reines)_
 -   [`420e21c`](https://github.com/stdlib-js/stdlib/commit/420e21cbeb53062caad324e14b8ea8ca53d51755) - **docs:** fix examples and notes _(by Athan Reines)_
