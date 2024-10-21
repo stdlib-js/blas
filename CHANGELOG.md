@@ -796,6 +796,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-srot-wasm-unreleased">
+
+#### [@stdlib/blas/base/srot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3409af0`](https://github.com/stdlib-js/stdlib/commit/3409af04eea8a65bb04643be17d40b5a7974b5d6) - add `blas/base/srot-wasm` [(#3028)](https://github.com/stdlib-js/stdlib/pull/3028)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-srotm-unreleased">
 
 #### [@stdlib/blas/base/srotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srotm)
@@ -1860,6 +1882,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3409af0`](https://github.com/stdlib-js/stdlib/commit/3409af04eea8a65bb04643be17d40b5a7974b5d6) - **feat:** add `blas/base/srot-wasm` [(#3028)](https://github.com/stdlib-js/stdlib/pull/3028) _(by Aman Bhansali, Athan Reines)_
 -   [`e2ed2a3`](https://github.com/stdlib-js/stdlib/commit/e2ed2a3f152e6b424b9479b1103dcf382110e313) - **bench:** use single-precision utility _(by Athan Reines)_
 -   [`6b238d9`](https://github.com/stdlib-js/stdlib/commit/6b238d9a0b152532351c72100a5be2ca644eba1c) - **feat:** add `blas/base/sdot-wasm` [(#3025)](https://github.com/stdlib-js/stdlib/pull/3025) _(by Aman Bhansali, Athan Reines)_
 -   [`45539d2`](https://github.com/stdlib-js/stdlib/commit/45539d264609d023eb189457bf4b6d326fddaa9b) - **docs:** fix description _(by Athan Reines)_
