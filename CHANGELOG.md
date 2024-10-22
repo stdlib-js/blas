@@ -796,6 +796,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-snrm2-wasm-unreleased">
+
+#### [@stdlib/blas/base/snrm2-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/snrm2-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`243f857`](https://github.com/stdlib-js/stdlib/commit/243f85723b0b899c6cedcac0271f707bebdad918) - add `blas/base/snrm2-wasm` [(#3029)](https://github.com/stdlib-js/stdlib/pull/3029)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-srot-unreleased">
 
 #### [@stdlib/blas/base/srot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/srot)
@@ -1904,6 +1926,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`243f857`](https://github.com/stdlib-js/stdlib/commit/243f85723b0b899c6cedcac0271f707bebdad918) - **feat:** add `blas/base/snrm2-wasm` [(#3029)](https://github.com/stdlib-js/stdlib/pull/3029) _(by Aman Bhansali, Athan Reines)_
 -   [`5c30260`](https://github.com/stdlib-js/stdlib/commit/5c302603389144ab1f9e88ce926d8a504dfe1294) - **docs:** fix missing comma _(by Athan Reines)_
 -   [`9de99eb`](https://github.com/stdlib-js/stdlib/commit/9de99eb4266af077482ae26a14c2b526f725d305) - **feat:** add `blas/base/sasum-wasm` [(#3024)](https://github.com/stdlib-js/stdlib/pull/3024) _(by Aman Bhansali, Athan Reines)_
 -   [`3409af0`](https://github.com/stdlib-js/stdlib/commit/3409af04eea8a65bb04643be17d40b5a7974b5d6) - **feat:** add `blas/base/srot-wasm` [(#3028)](https://github.com/stdlib-js/stdlib/pull/3028) _(by Aman Bhansali, Athan Reines)_
