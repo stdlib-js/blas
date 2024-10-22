@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-21)
+## Unreleased (2024-10-22)
 
 <section class="packages">
 
@@ -563,6 +563,28 @@ This release closes the following issue:
 
 -   [`126c898`](https://github.com/stdlib-js/stdlib/commit/126c89855ae2df8c6db72ca48e138f6b45a179b0) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/dasum` [(#2942)](https://github.com/stdlib-js/stdlib/pull/2942)
 -   [`d93e862`](https://github.com/stdlib-js/stdlib/commit/d93e862d5d5919a73677b3c66e10e5f0bfd99ea0) - refactor JavaScript implementation and add C `ndarray` implementation for `blas/base/sasum` [(#2926)](https://github.com/stdlib-js/stdlib/pull/2926)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sasum-wasm-unreleased">
+
+#### [@stdlib/blas/base/sasum-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sasum-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`9de99eb`](https://github.com/stdlib-js/stdlib/commit/9de99eb4266af077482ae26a14c2b526f725d305) - add `blas/base/sasum-wasm` [(#3024)](https://github.com/stdlib-js/stdlib/pull/3024)
 
 </section>
 
@@ -1882,6 +1904,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9de99eb`](https://github.com/stdlib-js/stdlib/commit/9de99eb4266af077482ae26a14c2b526f725d305) - **feat:** add `blas/base/sasum-wasm` [(#3024)](https://github.com/stdlib-js/stdlib/pull/3024) _(by Aman Bhansali, Athan Reines)_
 -   [`3409af0`](https://github.com/stdlib-js/stdlib/commit/3409af04eea8a65bb04643be17d40b5a7974b5d6) - **feat:** add `blas/base/srot-wasm` [(#3028)](https://github.com/stdlib-js/stdlib/pull/3028) _(by Aman Bhansali, Athan Reines)_
 -   [`e2ed2a3`](https://github.com/stdlib-js/stdlib/commit/e2ed2a3f152e6b424b9479b1103dcf382110e313) - **bench:** use single-precision utility _(by Athan Reines)_
 -   [`6b238d9`](https://github.com/stdlib-js/stdlib/commit/6b238d9a0b152532351c72100a5be2ca644eba1c) - **feat:** add `blas/base/sdot-wasm` [(#3025)](https://github.com/stdlib-js/stdlib/pull/3025) _(by Aman Bhansali, Athan Reines)_
