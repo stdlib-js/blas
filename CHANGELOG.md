@@ -1904,6 +1904,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5c30260`](https://github.com/stdlib-js/stdlib/commit/5c302603389144ab1f9e88ce926d8a504dfe1294) - **docs:** fix missing comma _(by Athan Reines)_
 -   [`9de99eb`](https://github.com/stdlib-js/stdlib/commit/9de99eb4266af077482ae26a14c2b526f725d305) - **feat:** add `blas/base/sasum-wasm` [(#3024)](https://github.com/stdlib-js/stdlib/pull/3024) _(by Aman Bhansali, Athan Reines)_
 -   [`3409af0`](https://github.com/stdlib-js/stdlib/commit/3409af04eea8a65bb04643be17d40b5a7974b5d6) - **feat:** add `blas/base/srot-wasm` [(#3028)](https://github.com/stdlib-js/stdlib/pull/3028) _(by Aman Bhansali, Athan Reines)_
 -   [`e2ed2a3`](https://github.com/stdlib-js/stdlib/commit/e2ed2a3f152e6b424b9479b1103dcf382110e313) - **bench:** use single-precision utility _(by Athan Reines)_
