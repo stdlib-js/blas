@@ -1926,6 +1926,11 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f8c853a`](https://github.com/stdlib-js/stdlib/commit/f8c853aafa3551b514da3c640fc2003df1840715) - **docs:** fix notes _(by Athan Reines)_
+-   [`f2323a6`](https://github.com/stdlib-js/stdlib/commit/f2323a68e672e14217451bf76973084375a61e9a) - **docs:** fix notes _(by Athan Reines)_
+-   [`d50be97`](https://github.com/stdlib-js/stdlib/commit/d50be9724c245443e7227165659dac0868d9dbd8) - **docs:** fix notes _(by Athan Reines)_
+-   [`f7e5311`](https://github.com/stdlib-js/stdlib/commit/f7e53110fd50f318c4f908ff0fcc97d5589766c5) - **docs:** fix notes _(by Athan Reines)_
+-   [`ea972a9`](https://github.com/stdlib-js/stdlib/commit/ea972a96c02f99590f04a7f36cf577782f1713d2) - **docs:** fix notes _(by Athan Reines)_
 -   [`9aafd79`](https://github.com/stdlib-js/stdlib/commit/9aafd79e3f560b96d724aeade6fdaf2a72defe2a) - **docs:** fix example _(by Athan Reines)_
 -   [`c8b03cb`](https://github.com/stdlib-js/stdlib/commit/c8b03cb5ef49064325b8859de640833ee715ab20) - **docs:** fix comments _(by Athan Reines)_
 -   [`a7d96e6`](https://github.com/stdlib-js/stdlib/commit/a7d96e6c94fab2b408f88f966854550b66c1b620) - **docs:** fix comment _(by Athan Reines)_
