@@ -1926,6 +1926,9 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`91e37be`](https://github.com/stdlib-js/stdlib/commit/91e37be0fc89c072ee006802d5a568eab3003c9a) - **docs:** fix missing license headers _(by Athan Reines)_
+-   [`401609a`](https://github.com/stdlib-js/stdlib/commit/401609ac92116f94127c39ccd25edd678530a8e7) - **docs:** fix missing license header _(by Athan Reines)_
+-   [`5a7ec02`](https://github.com/stdlib-js/stdlib/commit/5a7ec022b24a9081169b23ceea806c53d8ab5a4d) - **docs:** fix missing license header _(by Athan Reines)_
 -   [`198a20c`](https://github.com/stdlib-js/stdlib/commit/198a20c9815eb5e0690baa5b4c2a18e29f75e62e) - **build:** update compiler flags and export resolution _(by Athan Reines)_
 -   [`85a6c6a`](https://github.com/stdlib-js/stdlib/commit/85a6c6a051660cab231134b7043796cff7ca1f2c) - **build:** update compiler flags and export resolution _(by Athan Reines)_
 -   [`75ff0b6`](https://github.com/stdlib-js/stdlib/commit/75ff0b69d20427fe929c697b480bee5beaf39716) - **build:** update compiler flags and export resolution _(by Athan Reines)_
