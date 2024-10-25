@@ -1926,6 +1926,13 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3de76a0`](https://github.com/stdlib-js/stdlib/commit/3de76a0863ce62bb51e324907a417370780c91bf) - **docs:** fix comments _(by Athan Reines)_
+-   [`21234b9`](https://github.com/stdlib-js/stdlib/commit/21234b9591e0034916f84b49a48a4662d2da37a7) - **docs:** fix comments _(by Athan Reines)_
+-   [`14e4fc8`](https://github.com/stdlib-js/stdlib/commit/14e4fc8a3ce1192c5c10e86fc2a994b438fa89cd) - **docs:** fix comment _(by Athan Reines)_
+-   [`50f1d89`](https://github.com/stdlib-js/stdlib/commit/50f1d890ee83daa67370a78753c1db1be44d92cc) - **docs:** fix comment _(by Athan Reines)_
+-   [`1d23b34`](https://github.com/stdlib-js/stdlib/commit/1d23b34a57833b3ab879c68b8c2a6fe8cb4445c8) - **docs:** fix comments _(by Athan Reines)_
+-   [`ee1deea`](https://github.com/stdlib-js/stdlib/commit/ee1deea7bbbcaca2a57ca98406e01a90a6da1ea4) - **docs:** fix comments _(by Athan Reines)_
+-   [`57a9346`](https://github.com/stdlib-js/stdlib/commit/57a9346e851b6d801be99f038961b8b42dd5b179) - **docs:** fix comments _(by Athan Reines)_
 -   [`91e37be`](https://github.com/stdlib-js/stdlib/commit/91e37be0fc89c072ee006802d5a568eab3003c9a) - **docs:** fix missing license headers _(by Athan Reines)_
 -   [`401609a`](https://github.com/stdlib-js/stdlib/commit/401609ac92116f94127c39ccd25edd678530a8e7) - **docs:** fix missing license header _(by Athan Reines)_
 -   [`5a7ec02`](https://github.com/stdlib-js/stdlib/commit/5a7ec022b24a9081169b23ceea806c53d8ab5a4d) - **docs:** fix missing license header _(by Athan Reines)_
