@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-22)
+## Unreleased (2024-10-25)
 
 <section class="packages">
 
@@ -1926,6 +1926,21 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`198a20c`](https://github.com/stdlib-js/stdlib/commit/198a20c9815eb5e0690baa5b4c2a18e29f75e62e) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`85a6c6a`](https://github.com/stdlib-js/stdlib/commit/85a6c6a051660cab231134b7043796cff7ca1f2c) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`75ff0b6`](https://github.com/stdlib-js/stdlib/commit/75ff0b69d20427fe929c697b480bee5beaf39716) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`2325635`](https://github.com/stdlib-js/stdlib/commit/2325635de551a3867b8a65ade8c1f43ef71b5871) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`4e19f61`](https://github.com/stdlib-js/stdlib/commit/4e19f611f6c3e875e976dd0c2bcab74628541d85) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`59f10a1`](https://github.com/stdlib-js/stdlib/commit/59f10a15ac63897778f1dbb98678043dba326667) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`90b36a5`](https://github.com/stdlib-js/stdlib/commit/90b36a5f3e5493be4427cbfdbd4ed6abc083f6fc) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`d681033`](https://github.com/stdlib-js/stdlib/commit/d681033f62799160a33f37a76c8ea64df6532179) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`f62e6d1`](https://github.com/stdlib-js/stdlib/commit/f62e6d1b3e4c6ca8602c14b47c25d8e23759eefc) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`f9e0fd5`](https://github.com/stdlib-js/stdlib/commit/f9e0fd5ff8176c64766214a77438c551ce9b41aa) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`f1e59ff`](https://github.com/stdlib-js/stdlib/commit/f1e59ff23bdc7b924746d39ef7bf2fc45a9f9e6d) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`b7102c9`](https://github.com/stdlib-js/stdlib/commit/b7102c9c3edcaf9903c62aa69cf00fc4282534d9) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`e0b5a46`](https://github.com/stdlib-js/stdlib/commit/e0b5a4655e834c4ad6359cb68806cb7807e5a5a0) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`1530f80`](https://github.com/stdlib-js/stdlib/commit/1530f80d4d9f298361cccc3463fee8315fbb83c3) - **build:** update compiler flags and export resolution _(by Athan Reines)_
+-   [`def99de`](https://github.com/stdlib-js/stdlib/commit/def99deab9d392f322f0e005be7c08dac2aa5014) - **build:** update compiler flags and export resolution _(by Athan Reines)_
 -   [`243f857`](https://github.com/stdlib-js/stdlib/commit/243f85723b0b899c6cedcac0271f707bebdad918) - **feat:** add `blas/base/snrm2-wasm` [(#3029)](https://github.com/stdlib-js/stdlib/pull/3029) _(by Aman Bhansali, Athan Reines)_
 -   [`5c30260`](https://github.com/stdlib-js/stdlib/commit/5c302603389144ab1f9e88ce926d8a504dfe1294) - **docs:** fix missing comma _(by Athan Reines)_
 -   [`9de99eb`](https://github.com/stdlib-js/stdlib/commit/9de99eb4266af077482ae26a14c2b526f725d305) - **feat:** add `blas/base/sasum-wasm` [(#3024)](https://github.com/stdlib-js/stdlib/pull/3024) _(by Aman Bhansali, Athan Reines)_
