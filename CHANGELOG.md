@@ -1926,6 +1926,12 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bef1dbe`](https://github.com/stdlib-js/stdlib/commit/bef1dbefc05949b1d6db5f2f9a2b173957aa7d38) - **docs:** fix comments _(by Athan Reines)_
+-   [`dd5ecf0`](https://github.com/stdlib-js/stdlib/commit/dd5ecf0a231b19a656f4024a79a0b182e42d69e9) - **docs:** fix comments _(by Athan Reines)_
+-   [`5950b02`](https://github.com/stdlib-js/stdlib/commit/5950b0290ff5c39e518f70e6f3bdbef1dea31cd1) - **docs:** fix comments _(by Athan Reines)_
+-   [`8967a46`](https://github.com/stdlib-js/stdlib/commit/8967a468209dffbb3a3a687615a8cdb514bc9a91) - **docs:** fix comments _(by Athan Reines)_
+-   [`7d54f12`](https://github.com/stdlib-js/stdlib/commit/7d54f1260a5b93aa60793c370aace11785682fa6) - **docs:** fix comments _(by Athan Reines)_
+-   [`4ace02e`](https://github.com/stdlib-js/stdlib/commit/4ace02ecce4fef6fb843449f2fa30f34d37593f0) - **docs:** fix comments _(by Athan Reines)_
 -   [`263ed0d`](https://github.com/stdlib-js/stdlib/commit/263ed0d5d9557daf7e471ce88bdfff5bf0aab168) - **docs:** fix param name _(by Athan Reines)_
 -   [`a7dd0cf`](https://github.com/stdlib-js/stdlib/commit/a7dd0cf36e8ff747083aff3aa4bfff4bf01dfd0c) - **style:** fix spacing _(by Athan Reines)_
 -   [`d3c6d35`](https://github.com/stdlib-js/stdlib/commit/d3c6d356c0789dc258bf9c56aeeb0f5e67fa7f8a) - **docs:** remove unused require _(by Athan Reines)_
