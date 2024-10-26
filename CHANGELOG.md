@@ -1926,6 +1926,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d3c6d35`](https://github.com/stdlib-js/stdlib/commit/d3c6d356c0789dc258bf9c56aeeb0f5e67fa7f8a) - **docs:** remove unused require _(by Athan Reines)_
 -   [`2c2e66f`](https://github.com/stdlib-js/stdlib/commit/2c2e66f414ee0df49f854cc3b48aad679a3666bd) - **docs:** fix example _(by Athan Reines)_
 -   [`f8c853a`](https://github.com/stdlib-js/stdlib/commit/f8c853aafa3551b514da3c640fc2003df1840715) - **docs:** fix notes _(by Athan Reines)_
 -   [`f2323a6`](https://github.com/stdlib-js/stdlib/commit/f2323a68e672e14217451bf76973084375a61e9a) - **docs:** fix notes _(by Athan Reines)_
