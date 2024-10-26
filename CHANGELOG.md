@@ -1948,6 +1948,8 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`63f08ff`](https://github.com/stdlib-js/stdlib/commit/63f08ffc835fe1cf26ad835bd799123c41b5695b) - **docs:** add return annotation _(by Athan Reines)_
+-   [`ba99cc0`](https://github.com/stdlib-js/stdlib/commit/ba99cc0e3cbc7bd4429c8b84aa43309c79054080) - **docs:** fix variable name _(by Athan Reines)_
 -   [`e692962`](https://github.com/stdlib-js/stdlib/commit/e69296220d967abab11a41b50f5f763abf13c640) - **feat:** add `blas/base/cscal-wasm` _(by Athan Reines)_
 -   [`bef1dbe`](https://github.com/stdlib-js/stdlib/commit/bef1dbefc05949b1d6db5f2f9a2b173957aa7d38) - **docs:** fix comments _(by Athan Reines)_
 -   [`dd5ecf0`](https://github.com/stdlib-js/stdlib/commit/dd5ecf0a231b19a656f4024a79a0b182e42d69e9) - **docs:** fix comments _(by Athan Reines)_
