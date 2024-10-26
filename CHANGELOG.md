@@ -42,6 +42,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-cscal-wasm-unreleased">
+
+#### [@stdlib/blas/base/cscal-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cscal-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e692962`](https://github.com/stdlib-js/stdlib/commit/e69296220d967abab11a41b50f5f763abf13c640) - add `blas/base/cscal-wasm`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dasum-unreleased">
 
 #### [@stdlib/blas/base/dasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dasum)
@@ -1926,6 +1948,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e692962`](https://github.com/stdlib-js/stdlib/commit/e69296220d967abab11a41b50f5f763abf13c640) - **feat:** add `blas/base/cscal-wasm` _(by Athan Reines)_
 -   [`bef1dbe`](https://github.com/stdlib-js/stdlib/commit/bef1dbefc05949b1d6db5f2f9a2b173957aa7d38) - **docs:** fix comments _(by Athan Reines)_
 -   [`dd5ecf0`](https://github.com/stdlib-js/stdlib/commit/dd5ecf0a231b19a656f4024a79a0b182e42d69e9) - **docs:** fix comments _(by Athan Reines)_
 -   [`5950b02`](https://github.com/stdlib-js/stdlib/commit/5950b0290ff5c39e518f70e6f3bdbef1dea31cd1) - **docs:** fix comments _(by Athan Reines)_
