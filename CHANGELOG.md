@@ -1469,6 +1469,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dnansumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dnansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7df5877`](https://github.com/stdlib-js/stdlib/commit/7df58771f61965f3c819af3ea3b9376fedd86a86) - add C `ndarray` API and refactor `blas/ext/base/dnansumors` [(#3001)](https://github.com/stdlib-js/stdlib/pull/3001)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dsapxsum-unreleased">
 
 #### [@stdlib/blas/ext/base/dsapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsapxsum)
@@ -1948,6 +1970,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7df5877`](https://github.com/stdlib-js/stdlib/commit/7df58771f61965f3c819af3ea3b9376fedd86a86) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnansumors` [(#3001)](https://github.com/stdlib-js/stdlib/pull/3001) _(by Muhammad Haris, Athan Reines)_
 -   [`63f08ff`](https://github.com/stdlib-js/stdlib/commit/63f08ffc835fe1cf26ad835bd799123c41b5695b) - **docs:** add return annotation _(by Athan Reines)_
 -   [`ba99cc0`](https://github.com/stdlib-js/stdlib/commit/ba99cc0e3cbc7bd4429c8b84aa43309c79054080) - **docs:** fix variable name _(by Athan Reines)_
 -   [`e692962`](https://github.com/stdlib-js/stdlib/commit/e69296220d967abab11a41b50f5f763abf13c640) - **feat:** add `blas/base/cscal-wasm` _(by Athan Reines)_
