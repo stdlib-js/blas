@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-27)
+## Unreleased (2024-10-30)
 
 <section class="packages">
 
@@ -1970,6 +1970,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fdd3963`](https://github.com/stdlib-js/stdlib/commit/fdd3963096904e999191e354dede1ca59461adc2) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`78a7b34`](https://github.com/stdlib-js/stdlib/commit/78a7b34ccda3efe8d2613eb2eb27f8ca00adb66e) - **chore:** update package meta data [(#3038)](https://github.com/stdlib-js/stdlib/pull/3038) _(by stdlib-bot, Athan Reines)_
 -   [`7df5877`](https://github.com/stdlib-js/stdlib/commit/7df58771f61965f3c819af3ea3b9376fedd86a86) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnansumors` [(#3001)](https://github.com/stdlib-js/stdlib/pull/3001) _(by Muhammad Haris, Athan Reines)_
 -   [`63f08ff`](https://github.com/stdlib-js/stdlib/commit/63f08ffc835fe1cf26ad835bd799123c41b5695b) - **docs:** add return annotation _(by Athan Reines)_
