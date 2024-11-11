@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-09)
+## Unreleased (2024-11-11)
 
 <section class="packages">
 
@@ -34,6 +34,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dnansumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dnansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansumors)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3075](https://github.com/stdlib-js/stdlib/issues/3075)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -42,9 +66,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3075](https://github.com/stdlib-js/stdlib/issues/3075)
 
 </section>
 
@@ -54,9 +78,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
+-   Gururaj Gurram
 -   Muhammad Haris
+-   Philipp Burckhardt
 
 </section>
 
@@ -68,6 +94,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`02735b4`](https://github.com/stdlib-js/stdlib/commit/02735b4090dddd143b4845f4f1916f8d73b3ef19) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumors` [(#3087)](https://github.com/stdlib-js/stdlib/pull/3087) _(by Gururaj Gurram, Philipp Burckhardt)_
 -   [`cc6362b`](https://github.com/stdlib-js/stdlib/commit/cc6362bffb6dbff54c3dd69257dfcb2dd7d372f4) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumkbn` [(#3051)](https://github.com/stdlib-js/stdlib/pull/3051) _(by Muhammad Haris)_
 
 </details>
