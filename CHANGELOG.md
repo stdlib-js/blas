@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="blas-ext-base-dnannsumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dnannsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`af8d471`](https://github.com/stdlib-js/stdlib/commit/af8d471a7e01113f814a78fc411c7949b69ca1f3) - add C `ndarray` API and refactor `blas/ext/base/dnannsumors` [(#2991)](https://github.com/stdlib-js/stdlib/pull/2991)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dnansum-unreleased">
 
 #### [@stdlib/blas/ext/base/dnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansum)
@@ -116,6 +138,7 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`af8d471`](https://github.com/stdlib-js/stdlib/commit/af8d471a7e01113f814a78fc411c7949b69ca1f3) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsumors` [(#2991)](https://github.com/stdlib-js/stdlib/pull/2991) _(by Muhammad Haris)_
 -   [`796d76a`](https://github.com/stdlib-js/stdlib/commit/796d76a43a378cd5496e4222baac2bde1658e6da) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnansum` [(#3052)](https://github.com/stdlib-js/stdlib/pull/3052) _(by Muhammad Haris)_
 -   [`02735b4`](https://github.com/stdlib-js/stdlib/commit/02735b4090dddd143b4845f4f1916f8d73b3ef19) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumors` [(#3087)](https://github.com/stdlib-js/stdlib/pull/3087) _(by Gururaj Gurram, Philipp Burckhardt)_
 -   [`cc6362b`](https://github.com/stdlib-js/stdlib/commit/cc6362bffb6dbff54c3dd69257dfcb2dd7d372f4) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumkbn` [(#3051)](https://github.com/stdlib-js/stdlib/pull/3051) _(by Muhammad Haris)_
