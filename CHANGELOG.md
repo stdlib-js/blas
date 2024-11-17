@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="blas-base-cswap-unreleased">
+
+#### [@stdlib/blas/base/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`953e73d`](https://github.com/stdlib-js/stdlib/commit/953e73d1fd1c06babf0ed16dcc94430152abf5a8) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/cswap` [(#3064)](https://github.com/stdlib-js/stdlib/pull/3064)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-drotm-wasm-unreleased">
 
 #### [@stdlib/blas/base/drotm-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm-wasm)
@@ -297,6 +319,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`953e73d`](https://github.com/stdlib-js/stdlib/commit/953e73d1fd1c06babf0ed16dcc94430152abf5a8) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/cswap` [(#3064)](https://github.com/stdlib-js/stdlib/pull/3064) _(by Aman Bhansali, Athan Reines)_
 -   [`38656e4`](https://github.com/stdlib-js/stdlib/commit/38656e4893257726e3c3276ff3cead5f2f02c5c5) - **docs:** fix example _(by Athan Reines)_
 -   [`cb425f9`](https://github.com/stdlib-js/stdlib/commit/cb425f9efa61a4f81ebf2154f132ebe1f125ae19) - **refactor:** remove explicit cast and update function parameter description in `blas/ext/base/drev` [(#3127)](https://github.com/stdlib-js/stdlib/pull/3127) _(by Muhammad Haris)_
 -   [`ada1567`](https://github.com/stdlib-js/stdlib/commit/ada15676ce0be30b050d3c0fbcbf777492bb3cac) - **feat:** add C `ndarray` implementation for `blas/base/zswap` [(#3080)](https://github.com/stdlib-js/stdlib/pull/3080) _(by Aman Bhansali, Athan Reines)_
