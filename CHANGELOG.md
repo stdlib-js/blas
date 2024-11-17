@@ -297,6 +297,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`38656e4`](https://github.com/stdlib-js/stdlib/commit/38656e4893257726e3c3276ff3cead5f2f02c5c5) - **docs:** fix example _(by Athan Reines)_
 -   [`cb425f9`](https://github.com/stdlib-js/stdlib/commit/cb425f9efa61a4f81ebf2154f132ebe1f125ae19) - **refactor:** remove explicit cast and update function parameter description in `blas/ext/base/drev` [(#3127)](https://github.com/stdlib-js/stdlib/pull/3127) _(by Muhammad Haris)_
 -   [`ada1567`](https://github.com/stdlib-js/stdlib/commit/ada15676ce0be30b050d3c0fbcbf777492bb3cac) - **feat:** add C `ndarray` implementation for `blas/base/zswap` [(#3080)](https://github.com/stdlib-js/stdlib/pull/3080) _(by Aman Bhansali, Athan Reines)_
 -   [`adbee81`](https://github.com/stdlib-js/stdlib/commit/adbee8105b6903730d070261f36127b5744cabbb) - **docs:** fix description _(by Athan Reines)_
