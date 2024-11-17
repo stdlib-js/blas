@@ -32,6 +32,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zcopy-unreleased">
+
+#### [@stdlib/blas/base/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zcopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`75e000c`](https://github.com/stdlib-js/stdlib/commit/75e000ca99d19069677358c0c890b2748fa3074a) - add C `ndarray` implementation for `blas/base/zcopy` [(#3081)](https://github.com/stdlib-js/stdlib/pull/3081)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dnannsumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/dnannsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumkbn2)
@@ -253,6 +275,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`75e000c`](https://github.com/stdlib-js/stdlib/commit/75e000ca99d19069677358c0c890b2748fa3074a) - **feat:** add C `ndarray` implementation for `blas/base/zcopy` [(#3081)](https://github.com/stdlib-js/stdlib/pull/3081) _(by Aman Bhansali, Athan Reines)_
 -   [`f80e82f`](https://github.com/stdlib-js/stdlib/commit/f80e82fac77275db101aaa28f61eebd7024e2c9f) - **refactor:** update `offset` handling and function parameter description for `blas/ext/base/dnannsumkbn2` [(#3123)](https://github.com/stdlib-js/stdlib/pull/3123) _(by Muhammad Haris)_
 -   [`fca01a0`](https://github.com/stdlib-js/stdlib/commit/fca01a0a8a63b87834a8beb6a4a698b8c6f7699e) - **test:** achieve 100% test coverage for `blas/ext/base/dnansumkbn2` [(#3105)](https://github.com/stdlib-js/stdlib/pull/3105) _(by Neeraj Pathak)_
 -   [`c442b93`](https://github.com/stdlib-js/stdlib/commit/c442b93d2ed3af2a2f50402b4b0dc87e9090f596) - **feat:** add `blas/base/drotm-wasm` [(#3021)](https://github.com/stdlib-js/stdlib/pull/3021) _(by Aman Bhansali, Athan Reines)_
