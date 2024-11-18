@@ -98,6 +98,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dznrm2-unreleased">
+
+#### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d05d7b3`](https://github.com/stdlib-js/stdlib/commit/d05d7b352455ff537847cd081aafd1fb77c67c3e) - add C `ndarray` implementation for `blas/base/dznrm2` [(#3130)](https://github.com/stdlib-js/stdlib/pull/3130)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-scasum-unreleased">
 
 #### [@stdlib/blas/base/scasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scasum)
@@ -407,6 +429,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d05d7b3`](https://github.com/stdlib-js/stdlib/commit/d05d7b352455ff537847cd081aafd1fb77c67c3e) - **feat:** add C `ndarray` implementation for `blas/base/dznrm2` [(#3130)](https://github.com/stdlib-js/stdlib/pull/3130) _(by Aman Bhansali, Athan Reines)_
 -   [`22b7505`](https://github.com/stdlib-js/stdlib/commit/22b75056694840ce79b3493940e442672bab96c6) - **refactor:** update `offset` handling and function documentation for `blas/ext/base/dsnannsumors` [(#3129)](https://github.com/stdlib-js/stdlib/pull/3129) _(by Muhammad Haris, stdlib-bot)_
 -   [`2d0ea39`](https://github.com/stdlib-js/stdlib/commit/2d0ea39cfb5e3f2c31e13520ac6bec201e7842ef) - **feat:** add C `ndarray` implementation for `blas/base/csrot` [(#3067)](https://github.com/stdlib-js/stdlib/pull/3067) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`7462db7`](https://github.com/stdlib-js/stdlib/commit/7462db759c64f25e883c731169e57a48067d076d) - **feat:** add C `ndarray` implementation for `blas/base/zdrot` [(#3069)](https://github.com/stdlib-js/stdlib/pull/3069) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
