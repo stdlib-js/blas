@@ -341,6 +341,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`cef4c74`](https://github.com/stdlib-js/stdlib/commit/cef4c747d92903b039c71391c2dc52ffd9e31cb3) - **docs:** fix example _(by Athan Reines)_
 -   [`17b2358`](https://github.com/stdlib-js/stdlib/commit/17b23580739e33491f1287c88d3083ec989cd756) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/scasum` [(#3068)](https://github.com/stdlib-js/stdlib/pull/3068) _(by Aman Bhansali, Athan Reines)_
 -   [`953e73d`](https://github.com/stdlib-js/stdlib/commit/953e73d1fd1c06babf0ed16dcc94430152abf5a8) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/cswap` [(#3064)](https://github.com/stdlib-js/stdlib/pull/3064) _(by Aman Bhansali, Athan Reines)_
 -   [`38656e4`](https://github.com/stdlib-js/stdlib/commit/38656e4893257726e3c3276ff3cead5f2f02c5c5) - **docs:** fix example _(by Athan Reines)_
