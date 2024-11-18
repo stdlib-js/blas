@@ -363,6 +363,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`52e9aa8`](https://github.com/stdlib-js/stdlib/commit/52e9aa8b65c4485c8a077dde000c44b5cfefc5fb) - **docs:** update example _(by Athan Reines)_
 -   [`8e33b88`](https://github.com/stdlib-js/stdlib/commit/8e33b88b7c99fbfa44e9af0ade340334fddcb2fd) - **docs:** fix example _(by Athan Reines)_
 -   [`b21aca4`](https://github.com/stdlib-js/stdlib/commit/b21aca4063a9e72d5f79c6788c137e481582e958) - **docs:** fix example _(by Athan Reines)_
 -   [`3327fe6`](https://github.com/stdlib-js/stdlib/commit/3327fe6ecc87dc059a04be79333e83a6cbaa08ee) - **style:** resolve lint error _(by Athan Reines)_
