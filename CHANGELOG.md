@@ -10,6 +10,28 @@
 
 ### Packages
 
+<section class="package" id="blas-base-ccopy-unreleased">
+
+#### [@stdlib/blas/base/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ccopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d7925a2`](https://github.com/stdlib-js/stdlib/commit/d7925a2cc0b94ebe0299ed39d2f463ecc3fd1149) - update JavaScipt implementation and add C `ndarray` implementation for `blas/base/ccopy` [(#3063)](https://github.com/stdlib-js/stdlib/pull/3063)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-cswap-unreleased">
 
 #### [@stdlib/blas/base/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap)
@@ -341,6 +363,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d7925a2`](https://github.com/stdlib-js/stdlib/commit/d7925a2cc0b94ebe0299ed39d2f463ecc3fd1149) - **feat:** update JavaScipt implementation and add C `ndarray` implementation for `blas/base/ccopy` [(#3063)](https://github.com/stdlib-js/stdlib/pull/3063) _(by Aman Bhansali, Athan Reines)_
 -   [`2defdab`](https://github.com/stdlib-js/stdlib/commit/2defdabcaaa1484616e212679d4ce72b9173d57d) - **test:** add tests for `blas/base/cscal-wasm` [(#3062)](https://github.com/stdlib-js/stdlib/pull/3062) _(by Aman Bhansali, Athan Reines)_
 -   [`cef4c74`](https://github.com/stdlib-js/stdlib/commit/cef4c747d92903b039c71391c2dc52ffd9e31cb3) - **docs:** fix example _(by Athan Reines)_
 -   [`17b2358`](https://github.com/stdlib-js/stdlib/commit/17b23580739e33491f1287c88d3083ec989cd756) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/scasum` [(#3068)](https://github.com/stdlib-js/stdlib/pull/3068) _(by Aman Bhansali, Athan Reines)_
