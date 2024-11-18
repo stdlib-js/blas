@@ -32,6 +32,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-csrot-unreleased">
+
+#### [@stdlib/blas/base/csrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/csrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2d0ea39`](https://github.com/stdlib-js/stdlib/commit/2d0ea39cfb5e3f2c31e13520ac6bec201e7842ef) - add C `ndarray` implementation for `blas/base/csrot` [(#3067)](https://github.com/stdlib-js/stdlib/pull/3067)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-cswap-unreleased">
 
 #### [@stdlib/blas/base/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap)
@@ -385,6 +407,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2d0ea39`](https://github.com/stdlib-js/stdlib/commit/2d0ea39cfb5e3f2c31e13520ac6bec201e7842ef) - **feat:** add C `ndarray` implementation for `blas/base/csrot` [(#3067)](https://github.com/stdlib-js/stdlib/pull/3067) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`7462db7`](https://github.com/stdlib-js/stdlib/commit/7462db759c64f25e883c731169e57a48067d076d) - **feat:** add C `ndarray` implementation for `blas/base/zdrot` [(#3069)](https://github.com/stdlib-js/stdlib/pull/3069) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`52e9aa8`](https://github.com/stdlib-js/stdlib/commit/52e9aa8b65c4485c8a077dde000c44b5cfefc5fb) - **docs:** update example _(by Athan Reines)_
 -   [`8e33b88`](https://github.com/stdlib-js/stdlib/commit/8e33b88b7c99fbfa44e9af0ade340334fddcb2fd) - **docs:** fix example _(by Athan Reines)_
