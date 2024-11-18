@@ -363,6 +363,8 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3327fe6`](https://github.com/stdlib-js/stdlib/commit/3327fe6ecc87dc059a04be79333e83a6cbaa08ee) - **style:** resolve lint error _(by Athan Reines)_
+-   [`be9fdef`](https://github.com/stdlib-js/stdlib/commit/be9fdef8ee4a08af772953051f18972be7011131) - **style:** resolve lint error _(by Athan Reines)_
 -   [`d7925a2`](https://github.com/stdlib-js/stdlib/commit/d7925a2cc0b94ebe0299ed39d2f463ecc3fd1149) - **feat:** update JavaScipt implementation and add C `ndarray` implementation for `blas/base/ccopy` [(#3063)](https://github.com/stdlib-js/stdlib/pull/3063) _(by Aman Bhansali, Athan Reines)_
 -   [`2defdab`](https://github.com/stdlib-js/stdlib/commit/2defdabcaaa1484616e212679d4ce72b9173d57d) - **test:** add tests for `blas/base/cscal-wasm` [(#3062)](https://github.com/stdlib-js/stdlib/pull/3062) _(by Aman Bhansali, Athan Reines)_
 -   [`cef4c74`](https://github.com/stdlib-js/stdlib/commit/cef4c747d92903b039c71391c2dc52ffd9e31cb3) - **docs:** fix example _(by Athan Reines)_
