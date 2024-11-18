@@ -120,6 +120,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zdrot-unreleased">
+
+#### [@stdlib/blas/base/zdrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zdrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7462db7`](https://github.com/stdlib-js/stdlib/commit/7462db759c64f25e883c731169e57a48067d076d) - add C `ndarray` implementation for `blas/base/zdrot` [(#3069)](https://github.com/stdlib-js/stdlib/pull/3069)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zswap-unreleased">
 
 #### [@stdlib/blas/base/zswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zswap)
@@ -363,6 +385,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7462db7`](https://github.com/stdlib-js/stdlib/commit/7462db759c64f25e883c731169e57a48067d076d) - **feat:** add C `ndarray` implementation for `blas/base/zdrot` [(#3069)](https://github.com/stdlib-js/stdlib/pull/3069) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`52e9aa8`](https://github.com/stdlib-js/stdlib/commit/52e9aa8b65c4485c8a077dde000c44b5cfefc5fb) - **docs:** update example _(by Athan Reines)_
 -   [`8e33b88`](https://github.com/stdlib-js/stdlib/commit/8e33b88b7c99fbfa44e9af0ade340334fddcb2fd) - **docs:** fix example _(by Athan Reines)_
 -   [`b21aca4`](https://github.com/stdlib-js/stdlib/commit/b21aca4063a9e72d5f79c6788c137e481582e958) - **docs:** fix example _(by Athan Reines)_
