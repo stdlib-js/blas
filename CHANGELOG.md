@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-17)
+## Unreleased (2024-11-18)
 
 <section class="packages">
 
@@ -43,6 +43,28 @@
 ##### Features
 
 -   [`c442b93`](https://github.com/stdlib-js/stdlib/commit/c442b93d2ed3af2a2f50402b4b0dc87e9090f596) - add `blas/base/drotm-wasm` [(#3021)](https://github.com/stdlib-js/stdlib/pull/3021)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-scasum-unreleased">
+
+#### [@stdlib/blas/base/scasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/scasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`17b2358`](https://github.com/stdlib-js/stdlib/commit/17b23580739e33491f1287c88d3083ec989cd756) - update JavaScript implementation and add C `ndarray` implementation for `blas/base/scasum` [(#3068)](https://github.com/stdlib-js/stdlib/pull/3068)
 
 </section>
 
@@ -319,6 +341,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`17b2358`](https://github.com/stdlib-js/stdlib/commit/17b23580739e33491f1287c88d3083ec989cd756) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/scasum` [(#3068)](https://github.com/stdlib-js/stdlib/pull/3068) _(by Aman Bhansali, Athan Reines)_
 -   [`953e73d`](https://github.com/stdlib-js/stdlib/commit/953e73d1fd1c06babf0ed16dcc94430152abf5a8) - **feat:** update JavaScript implementation and add C `ndarray` implementation for `blas/base/cswap` [(#3064)](https://github.com/stdlib-js/stdlib/pull/3064) _(by Aman Bhansali, Athan Reines)_
 -   [`38656e4`](https://github.com/stdlib-js/stdlib/commit/38656e4893257726e3c3276ff3cead5f2f02c5c5) - **docs:** fix example _(by Athan Reines)_
 -   [`cb425f9`](https://github.com/stdlib-js/stdlib/commit/cb425f9efa61a4f81ebf2154f132ebe1f125ae19) - **refactor:** remove explicit cast and update function parameter description in `blas/ext/base/drev` [(#3127)](https://github.com/stdlib-js/stdlib/pull/3127) _(by Muhammad Haris)_
