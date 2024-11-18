@@ -363,6 +363,8 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8e33b88`](https://github.com/stdlib-js/stdlib/commit/8e33b88b7c99fbfa44e9af0ade340334fddcb2fd) - **docs:** fix example _(by Athan Reines)_
+-   [`b21aca4`](https://github.com/stdlib-js/stdlib/commit/b21aca4063a9e72d5f79c6788c137e481582e958) - **docs:** fix example _(by Athan Reines)_
 -   [`3327fe6`](https://github.com/stdlib-js/stdlib/commit/3327fe6ecc87dc059a04be79333e83a6cbaa08ee) - **style:** resolve lint error _(by Athan Reines)_
 -   [`be9fdef`](https://github.com/stdlib-js/stdlib/commit/be9fdef8ee4a08af772953051f18972be7011131) - **style:** resolve lint error _(by Athan Reines)_
 -   [`d7925a2`](https://github.com/stdlib-js/stdlib/commit/d7925a2cc0b94ebe0299ed39d2f463ecc3fd1149) - **feat:** update JavaScipt implementation and add C `ndarray` implementation for `blas/base/ccopy` [(#3063)](https://github.com/stdlib-js/stdlib/pull/3063) _(by Aman Bhansali, Athan Reines)_
