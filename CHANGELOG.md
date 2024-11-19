@@ -432,7 +432,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 6 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Bhansali
 -   Athan Reines
@@ -440,6 +440,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 -   Muhammad Haris
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   Saurabh Singh
 
 </section>
 
@@ -451,6 +452,7 @@ A total of 6 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7f76495`](https://github.com/stdlib-js/stdlib/commit/7f76495810ffc554f5c8ef36d2458f6dfd1c31f2) - **test:** add tests to `blas/ext/base/dnanasum` [(#3056)](https://github.com/stdlib-js/stdlib/pull/3056) _(by Saurabh Singh, Athan Reines, stdlib-bot)_
 -   [`14b8f08`](https://github.com/stdlib-js/stdlib/commit/14b8f08874e0a6fc2f7cc6f31d6876afb159c7e4) - **feat:** add C `ndarray` implementation for `blas/base/scnrm2` [(#3133)](https://github.com/stdlib-js/stdlib/pull/3133) _(by Aman Bhansali)_
 -   [`d05d7b3`](https://github.com/stdlib-js/stdlib/commit/d05d7b352455ff537847cd081aafd1fb77c67c3e) - **feat:** add C `ndarray` implementation for `blas/base/dznrm2` [(#3130)](https://github.com/stdlib-js/stdlib/pull/3130) _(by Aman Bhansali, Athan Reines)_
 -   [`22b7505`](https://github.com/stdlib-js/stdlib/commit/22b75056694840ce79b3493940e442672bab96c6) - **refactor:** update `offset` handling and function documentation for `blas/ext/base/dsnannsumors` [(#3129)](https://github.com/stdlib-js/stdlib/pull/3129) _(by Muhammad Haris, stdlib-bot)_
