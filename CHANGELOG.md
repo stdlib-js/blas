@@ -476,6 +476,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bc9016d`](https://github.com/stdlib-js/stdlib/commit/bc9016d5f3a7e304851e2d2ca88cce6b7d3ae7e1) - **docs:** update parameter descriptions and add missing header in C example [(#3187)](https://github.com/stdlib-js/stdlib/pull/3187) _(by Muhammad Haris)_
 -   [`15d040c`](https://github.com/stdlib-js/stdlib/commit/15d040c67472ca6ffb9b3ff9414e39f907ca8294) - **refactor:** remove unnecessary variable declaration [(#3185)](https://github.com/stdlib-js/stdlib/pull/3185) _(by Muhammad Haris)_
 -   [`3bdf9dc`](https://github.com/stdlib-js/stdlib/commit/3bdf9dc95f583863afe2dc2d89d553c4996d123c) - **test:** add tests to `blas/ext/base/dnanasumors` [(#3104)](https://github.com/stdlib-js/stdlib/pull/3104) _(by Neeraj Pathak, Athan Reines, stdlib-bot)_
 -   [`7f76495`](https://github.com/stdlib-js/stdlib/commit/7f76495810ffc554f5c8ef36d2458f6dfd1c31f2) - **test:** add tests to `blas/ext/base/dnanasum` [(#3056)](https://github.com/stdlib-js/stdlib/pull/3056) _(by Saurabh Singh, Athan Reines, stdlib-bot)_
