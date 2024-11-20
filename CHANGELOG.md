@@ -254,6 +254,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dnannsumkbn-unreleased">
+
+#### [@stdlib/blas/ext/base/dnannsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumkbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f9fa434`](https://github.com/stdlib-js/stdlib/commit/f9fa434610b42939102b9f87eda61c3706a06a12) - add C `ndarray` API and refactor `blas/ext/base/dnannsumkbn` [(#2988)](https://github.com/stdlib-js/stdlib/pull/2988)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dnannsumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/dnannsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumkbn2)
@@ -498,6 +520,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f9fa434`](https://github.com/stdlib-js/stdlib/commit/f9fa434610b42939102b9f87eda61c3706a06a12) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsumkbn` [(#2988)](https://github.com/stdlib-js/stdlib/pull/2988) _(by Muhammad Haris)_
 -   [`b4c3fc8`](https://github.com/stdlib-js/stdlib/commit/b4c3fc8f5a8a1edeb82564db8b840b902ed1b5cd) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsapxsumpw` [(#3083)](https://github.com/stdlib-js/stdlib/pull/3083) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`bc9016d`](https://github.com/stdlib-js/stdlib/commit/bc9016d5f3a7e304851e2d2ca88cce6b7d3ae7e1) - **docs:** update parameter descriptions and add missing header in C example [(#3187)](https://github.com/stdlib-js/stdlib/pull/3187) _(by Muhammad Haris)_
 -   [`15d040c`](https://github.com/stdlib-js/stdlib/commit/15d040c67472ca6ffb9b3ff9414e39f907ca8294) - **refactor:** remove unnecessary variable declaration [(#3185)](https://github.com/stdlib-js/stdlib/pull/3185) _(by Muhammad Haris)_
