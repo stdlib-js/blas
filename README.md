@@ -35,38 +35,32 @@ limitations under the License.
 
 > Basic linear algebra subprograms (BLAS).
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/blas
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-blas = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/blas@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var blas = require( 'path/to/vendor/umd/blas/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.blas;
-})();
-</script>
+var blas = require( '@stdlib/blas' );
 ```
 
 #### blas
@@ -86,12 +80,12 @@ The namespace contains the following:
 
 -   <span class="signature">[`base`][@stdlib/blas/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) basic linear algebra subprograms (BLAS).</span>
 -   <span class="signature">[`ddot( x, y[, dim] )`][@stdlib/blas/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two double-precision floating-point vectors.</span>
--   <span class="signature">[`dswap( x, y )`][@stdlib/blas/dswap]</span><span class="delimiter">: </span><span class="description">interchange two double-precision floating-point vectors.</span>
+-   <span class="signature">[`dswap( x, y[, dim] )`][@stdlib/blas/dswap]</span><span class="delimiter">: </span><span class="description">interchange two double-precision floating-point vectors.</span>
 -   <span class="signature">[`ext`][@stdlib/blas/ext]</span><span class="delimiter">: </span><span class="description">extended basic linear algebra subprograms (BLAS).</span>
 -   <span class="signature">[`gdot( x, y )`][@stdlib/blas/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two vectors.</span>
 -   <span class="signature">[`gswap( x, y )`][@stdlib/blas/gswap]</span><span class="delimiter">: </span><span class="description">interchange two vectors.</span>
--   <span class="signature">[`sdot( x, y )`][@stdlib/blas/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two single-precision floating-point vectors.</span>
--   <span class="signature">[`sswap( x, y )`][@stdlib/blas/sswap]</span><span class="delimiter">: </span><span class="description">interchange two single-precision floating-point vectors.</span>
+-   <span class="signature">[`sdot( x, y[, dim] )`][@stdlib/blas/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two single-precision floating-point vectors.</span>
+-   <span class="signature">[`sswap( x, y[, dim] )`][@stdlib/blas/sswap]</span><span class="delimiter">: </span><span class="description">interchange two single-precision floating-point vectors.</span>
 
 </div>
 
@@ -109,21 +103,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/blas@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var blas = require( '@stdlib/blas' );
 
 console.log( objectKeys( blas ) );
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
