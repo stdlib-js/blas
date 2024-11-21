@@ -702,6 +702,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4eb9aea`](https://github.com/stdlib-js/stdlib/commit/4eb9aea88656f98ba3f65075b4a7cb3335284716) - **refactor:** replace `fabs` with `stdlib_base_abs` in C implementation of `blas/ext/base/dapxsumkbn` [(#3214)](https://github.com/stdlib-js/stdlib/pull/3214) _(by Muhammad Haris, stdlib-bot)_
 -   [`49f4678`](https://github.com/stdlib-js/stdlib/commit/49f46785af07e358a254308f25b80c6b6779ae48) - **chore:** update docs and tests of `blas/ext/base/dapxsum` [(#3213)](https://github.com/stdlib-js/stdlib/pull/3213) _(by Muhammad Haris)_
 -   [`f4009fd`](https://github.com/stdlib-js/stdlib/commit/f4009fd28715c51637c80513a1bf5b3b91784e7a) - **refactor:** update docs and handling of zero stride in `blas/ext/base/dapxsumkbn` [(#3212)](https://github.com/stdlib-js/stdlib/pull/3212) _(by Muhammad Haris)_
 -   [`14021a5`](https://github.com/stdlib-js/stdlib/commit/14021a537b3f627a4ff0b3228b78d0433a6eb562) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnansumpw` [(#3202)](https://github.com/stdlib-js/stdlib/pull/3202) _(by Muhammad Haris)_
