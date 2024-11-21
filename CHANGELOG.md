@@ -144,6 +144,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-cswap-wasm-unreleased">
+
+#### [@stdlib/blas/base/cswap-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`493db03`](https://github.com/stdlib-js/stdlib/commit/493db039c45d831e1c61346ac50224a592583760) - add `blas/base/cswap-wasm` [(#3211)](https://github.com/stdlib-js/stdlib/pull/3211)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-drotm-wasm-unreleased">
 
 #### [@stdlib/blas/base/drotm-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/drotm-wasm)
@@ -736,6 +758,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`493db03`](https://github.com/stdlib-js/stdlib/commit/493db039c45d831e1c61346ac50224a592583760) - **feat:** add `blas/base/cswap-wasm` [(#3211)](https://github.com/stdlib-js/stdlib/pull/3211) _(by Aman Bhansali, Athan Reines)_
 -   [`045a348`](https://github.com/stdlib-js/stdlib/commit/045a348d16c6bf78a9ebfb31c1c74de5536e37ea) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsum` [(#3197)](https://github.com/stdlib-js/stdlib/pull/3197) _(by Muhammad Haris, stdlib-bot)_
 -   [`243fe3d`](https://github.com/stdlib-js/stdlib/commit/243fe3d7fb26729eba74c461daab5b89e9c66c32) - **test:** add tests to `blas/ext/base/dnannsumkbn` [(#3218)](https://github.com/stdlib-js/stdlib/pull/3218) _(by Saurabh Singh)_
 -   [`ccc2637`](https://github.com/stdlib-js/stdlib/commit/ccc263768a96cc8e3a077a9026f90b68026dc0a7) - **docs:** fix missing license header for `blas/base/cscal-wasm` [(#3215)](https://github.com/stdlib-js/stdlib/pull/3215) _(by Aman Bhansali)_
