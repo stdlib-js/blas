@@ -254,6 +254,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-sscal-unreleased">
+
+#### [@stdlib/blas/base/sscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d23d168`](https://github.com/stdlib-js/stdlib/commit/d23d16808c4c6970f8ae2c583c05261396ea9e4b) - add C `ndarray` implementation for `blas/base/sscal` [(#3030)](https://github.com/stdlib-js/stdlib/pull/3030)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zcopy-unreleased">
 
 #### [@stdlib/blas/base/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zcopy)
@@ -758,6 +780,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`d23d168`](https://github.com/stdlib-js/stdlib/commit/d23d16808c4c6970f8ae2c583c05261396ea9e4b) - **feat:** add C `ndarray` implementation for `blas/base/sscal` [(#3030)](https://github.com/stdlib-js/stdlib/pull/3030) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`493db03`](https://github.com/stdlib-js/stdlib/commit/493db039c45d831e1c61346ac50224a592583760) - **feat:** add `blas/base/cswap-wasm` [(#3211)](https://github.com/stdlib-js/stdlib/pull/3211) _(by Aman Bhansali, Athan Reines)_
 -   [`045a348`](https://github.com/stdlib-js/stdlib/commit/045a348d16c6bf78a9ebfb31c1c74de5536e37ea) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsum` [(#3197)](https://github.com/stdlib-js/stdlib/pull/3197) _(by Muhammad Haris, stdlib-bot)_
 -   [`243fe3d`](https://github.com/stdlib-js/stdlib/commit/243fe3d7fb26729eba74c461daab5b89e9c66c32) - **test:** add tests to `blas/ext/base/dnannsumkbn` [(#3218)](https://github.com/stdlib-js/stdlib/pull/3218) _(by Saurabh Singh)_
