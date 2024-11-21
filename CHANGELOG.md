@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-20)
+## Unreleased (2024-11-21)
 
 <section class="packages">
 
@@ -394,6 +394,18 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3186](https://github.com/stdlib-js/stdlib/issues/3186)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -636,9 +648,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186)
 
 </section>
 
@@ -668,6 +680,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`297cdff`](https://github.com/stdlib-js/stdlib/commit/297cdffbf14b0f7cd87b0455b00d4a4fbf3b6cc3) - **test:** add tests to blas/ext/base/dnannsumbn2 [(#3205)](https://github.com/stdlib-js/stdlib/pull/3205) _(by Saurabh Singh, Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`f9fa434`](https://github.com/stdlib-js/stdlib/commit/f9fa434610b42939102b9f87eda61c3706a06a12) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsumkbn` [(#2988)](https://github.com/stdlib-js/stdlib/pull/2988) _(by Muhammad Haris)_
 -   [`b4c3fc8`](https://github.com/stdlib-js/stdlib/commit/b4c3fc8f5a8a1edeb82564db8b840b902ed1b5cd) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsapxsumpw` [(#3083)](https://github.com/stdlib-js/stdlib/pull/3083) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
