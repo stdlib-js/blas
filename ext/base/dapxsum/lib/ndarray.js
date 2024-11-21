@@ -29,7 +29,7 @@ var dapxsumkbn = require( './../../../../ext/base/dapxsumkbn' ).ndarray;
 * Adds a scalar constant to each double-precision floating-point strided array element and computes the sum.
 *
 * @param {PositiveInteger} N - number of indexed elements
-* @param {number} alpha - constant
+* @param {number} alpha - scalar constant
 * @param {Float64Array} x - input array
 * @param {integer} strideX - stride length
 * @param {NonNegativeInteger} offsetX - starting index
