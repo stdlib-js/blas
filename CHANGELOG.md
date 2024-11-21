@@ -528,6 +528,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dnansumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dnansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`14021a5`](https://github.com/stdlib-js/stdlib/commit/14021a537b3f627a4ff0b3228b78d0433a6eb562) - add C `ndarray` API and refactor `blas/ext/base/dnansumpw` [(#3202)](https://github.com/stdlib-js/stdlib/pull/3202)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-drev-unreleased">
 
 #### [@stdlib/blas/ext/base/drev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/drev)
@@ -680,6 +702,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`14021a5`](https://github.com/stdlib-js/stdlib/commit/14021a537b3f627a4ff0b3228b78d0433a6eb562) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnansumpw` [(#3202)](https://github.com/stdlib-js/stdlib/pull/3202) _(by Muhammad Haris)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`297cdff`](https://github.com/stdlib-js/stdlib/commit/297cdffbf14b0f7cd87b0455b00d4a4fbf3b6cc3) - **test:** add tests to blas/ext/base/dnannsumbn2 [(#3205)](https://github.com/stdlib-js/stdlib/pull/3205) _(by Saurabh Singh, Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
