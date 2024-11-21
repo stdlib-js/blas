@@ -356,6 +356,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dnannsum-unreleased">
+
+#### [@stdlib/blas/ext/base/dnannsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`045a348`](https://github.com/stdlib-js/stdlib/commit/045a348d16c6bf78a9ebfb31c1c74de5536e37ea) - add C `ndarray` API and refactor `blas/ext/base/dnannsum` [(#3197)](https://github.com/stdlib-js/stdlib/pull/3197)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dnannsumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/dnannsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumkbn)
@@ -714,6 +736,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`045a348`](https://github.com/stdlib-js/stdlib/commit/045a348d16c6bf78a9ebfb31c1c74de5536e37ea) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsum` [(#3197)](https://github.com/stdlib-js/stdlib/pull/3197) _(by Muhammad Haris, stdlib-bot)_
 -   [`243fe3d`](https://github.com/stdlib-js/stdlib/commit/243fe3d7fb26729eba74c461daab5b89e9c66c32) - **test:** add tests to `blas/ext/base/dnannsumkbn` [(#3218)](https://github.com/stdlib-js/stdlib/pull/3218) _(by Saurabh Singh)_
 -   [`ccc2637`](https://github.com/stdlib-js/stdlib/commit/ccc263768a96cc8e3a077a9026f90b68026dc0a7) - **docs:** fix missing license header for `blas/base/cscal-wasm` [(#3215)](https://github.com/stdlib-js/stdlib/pull/3215) _(by Aman Bhansali)_
 -   [`4eb9aea`](https://github.com/stdlib-js/stdlib/commit/4eb9aea88656f98ba3f65075b4a7cb3335284716) - **refactor:** replace `fabs` with `stdlib_base_abs` in C implementation of `blas/ext/base/dapxsumkbn` [(#3214)](https://github.com/stdlib-js/stdlib/pull/3214) _(by Muhammad Haris, stdlib-bot)_
