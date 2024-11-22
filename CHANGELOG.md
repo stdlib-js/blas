@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-21)
+## Unreleased (2024-11-22)
 
 <section class="packages">
 
@@ -512,6 +512,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dnannsumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dnannsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnannsumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ec233ec`](https://github.com/stdlib-js/stdlib/commit/ec233ec9cadd6f17a72dafa5e79b7eeee5a821eb) - add C `ndarray` API and refactor `blas/ext/base/dnannsumpw` [(#2994)](https://github.com/stdlib-js/stdlib/pull/2994)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dnansum-unreleased">
 
 #### [@stdlib/blas/ext/base/dnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnansum)
@@ -780,6 +802,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ec233ec`](https://github.com/stdlib-js/stdlib/commit/ec233ec9cadd6f17a72dafa5e79b7eeee5a821eb) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsumpw` [(#2994)](https://github.com/stdlib-js/stdlib/pull/2994) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`d23d168`](https://github.com/stdlib-js/stdlib/commit/d23d16808c4c6970f8ae2c583c05261396ea9e4b) - **feat:** add C `ndarray` implementation for `blas/base/sscal` [(#3030)](https://github.com/stdlib-js/stdlib/pull/3030) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`493db03`](https://github.com/stdlib-js/stdlib/commit/493db039c45d831e1c61346ac50224a592583760) - **feat:** add `blas/base/cswap-wasm` [(#3211)](https://github.com/stdlib-js/stdlib/pull/3211) _(by Aman Bhansali, Athan Reines)_
 -   [`045a348`](https://github.com/stdlib-js/stdlib/commit/045a348d16c6bf78a9ebfb31c1c74de5536e37ea) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsum` [(#3197)](https://github.com/stdlib-js/stdlib/pull/3197) _(by Muhammad Haris, stdlib-bot)_
