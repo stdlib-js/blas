@@ -144,6 +144,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-csrot-wasm-unreleased">
+
+#### [@stdlib/blas/base/csrot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/csrot-wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`05aab7d`](https://github.com/stdlib-js/stdlib/commit/05aab7d99007e790e05e82509b50c63db761b49a) - add `blas/base/csrot-wasm` [(#3203)](https://github.com/stdlib-js/stdlib/pull/3203)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-cswap-unreleased">
 
 #### [@stdlib/blas/base/cswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/cswap)
@@ -824,6 +846,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`05aab7d`](https://github.com/stdlib-js/stdlib/commit/05aab7d99007e790e05e82509b50c63db761b49a) - **feat:** add `blas/base/csrot-wasm` [(#3203)](https://github.com/stdlib-js/stdlib/pull/3203) _(by Aman Bhansali, Athan Reines)_
 -   [`6734e4d`](https://github.com/stdlib-js/stdlib/commit/6734e4dc3d249e2544ef1e22e2a5fd47ff3e6cd3) - **feat:** add `blas/base/ccopy-wasm` [(#3163)](https://github.com/stdlib-js/stdlib/pull/3163) _(by Aman Bhansali, Athan Reines)_
 -   [`ec233ec`](https://github.com/stdlib-js/stdlib/commit/ec233ec9cadd6f17a72dafa5e79b7eeee5a821eb) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dnannsumpw` [(#2994)](https://github.com/stdlib-js/stdlib/pull/2994) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`d23d168`](https://github.com/stdlib-js/stdlib/commit/d23d16808c4c6970f8ae2c583c05261396ea9e4b) - **feat:** add C `ndarray` implementation for `blas/base/sscal` [(#3030)](https://github.com/stdlib-js/stdlib/pull/3030) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
