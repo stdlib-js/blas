@@ -760,6 +760,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsapxsum-unreleased">
+
+#### [@stdlib/blas/ext/base/dsapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsapxsum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6ae3c11`](https://github.com/stdlib-js/stdlib/commit/6ae3c11e5494f6e5750638535b46454e3e325b6e) - add C `ndarray` API and refactor `blas/ext/base/dsapxsum` [(#3225)](https://github.com/stdlib-js/stdlib/pull/3225)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dsapxsumpw-unreleased">
 
 #### [@stdlib/blas/ext/base/dsapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsapxsumpw)
@@ -891,6 +913,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`6ae3c11`](https://github.com/stdlib-js/stdlib/commit/6ae3c11e5494f6e5750638535b46454e3e325b6e) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsapxsum` [(#3225)](https://github.com/stdlib-js/stdlib/pull/3225) _(by Muhammad Haris)_
 -   [`16d48af`](https://github.com/stdlib-js/stdlib/commit/16d48af4bbe9dade8ca3f9e323db29ec75c4924f) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumkbn2` [(#3227)](https://github.com/stdlib-js/stdlib/pull/3227) _(by Muhammad Haris)_
 -   [`9c913e5`](https://github.com/stdlib-js/stdlib/commit/9c913e504f964aa729ec1f19abbaae30174ddbd8) - **docs:** update descriptions of the function and its parameters in `blas/ext/base/dapx` [(#3226)](https://github.com/stdlib-js/stdlib/pull/3226) _(by Muhammad Haris)_
 -   [`f1fa458`](https://github.com/stdlib-js/stdlib/commit/f1fa458db16484f740ca8a80095231a31831226b) - **feat:** add `blas/ext/base/dapxsumkbn-wasm` [(#3204)](https://github.com/stdlib-js/stdlib/pull/3204) _(by Snehil Shah, Athan Reines, stdlib-bot)_
