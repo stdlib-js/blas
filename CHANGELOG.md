@@ -891,6 +891,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`16d48af`](https://github.com/stdlib-js/stdlib/commit/16d48af4bbe9dade8ca3f9e323db29ec75c4924f) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumkbn2` [(#3227)](https://github.com/stdlib-js/stdlib/pull/3227) _(by Muhammad Haris)_
 -   [`9c913e5`](https://github.com/stdlib-js/stdlib/commit/9c913e504f964aa729ec1f19abbaae30174ddbd8) - **docs:** update descriptions of the function and its parameters in `blas/ext/base/dapx` [(#3226)](https://github.com/stdlib-js/stdlib/pull/3226) _(by Muhammad Haris)_
 -   [`f1fa458`](https://github.com/stdlib-js/stdlib/commit/f1fa458db16484f740ca8a80095231a31831226b) - **feat:** add `blas/ext/base/dapxsumkbn-wasm` [(#3204)](https://github.com/stdlib-js/stdlib/pull/3204) _(by Snehil Shah, Athan Reines, stdlib-bot)_
 -   [`05aab7d`](https://github.com/stdlib-js/stdlib/commit/05aab7d99007e790e05e82509b50c63db761b49a) - **feat:** add `blas/base/csrot-wasm` [(#3203)](https://github.com/stdlib-js/stdlib/pull/3203) _(by Aman Bhansali, Athan Reines)_
