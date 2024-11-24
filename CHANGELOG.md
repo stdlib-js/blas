@@ -828,6 +828,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsnansumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dsnansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnansumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`7809a85`](https://github.com/stdlib-js/stdlib/commit/7809a85b47556362c61182b4f08563014dcb598a) - add C `ndarray` API and refactor `blas/ext/base/dsnansumors` [(#3246)](https://github.com/stdlib-js/stdlib/pull/3246)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-tools-unreleased">
 
 #### [@stdlib/blas/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools)
@@ -915,6 +937,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7809a85`](https://github.com/stdlib-js/stdlib/commit/7809a85b47556362c61182b4f08563014dcb598a) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansumors` [(#3246)](https://github.com/stdlib-js/stdlib/pull/3246) _(by Muhammad Haris)_
 -   [`1ea5a78`](https://github.com/stdlib-js/stdlib/commit/1ea5a786066c959ee3560a58ca884ffe1fa6a4de) - **docs:** remove stray character in `blas/ext/base/dapx` documentation [(#3250)](https://github.com/stdlib-js/stdlib/pull/3250) _(by Muhammad Haris)_
 -   [`d649da5`](https://github.com/stdlib-js/stdlib/commit/d649da5c2f30c5cb459d6c43215ce6066f5c7483) - **feat:** update namespace TypeScript declarations [(#3243)](https://github.com/stdlib-js/stdlib/pull/3243) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`6ae3c11`](https://github.com/stdlib-js/stdlib/commit/6ae3c11e5494f6e5750638535b46454e3e325b6e) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsapxsum` [(#3225)](https://github.com/stdlib-js/stdlib/pull/3225) _(by Muhammad Haris)_
