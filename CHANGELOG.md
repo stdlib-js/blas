@@ -800,6 +800,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`bff0533`](https://github.com/stdlib-js/stdlib/commit/bff0533b91d79f305e1918e0faa597ca3c98f2ca) - extract the scalar constant as a float in `blas/ext/base/dsapxsumpw` [(#3255)](https://github.com/stdlib-js/stdlib/pull/3255)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -937,6 +947,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bff0533`](https://github.com/stdlib-js/stdlib/commit/bff0533b91d79f305e1918e0faa597ca3c98f2ca) - **fix:** extract the scalar constant as a float in `blas/ext/base/dsapxsumpw` [(#3255)](https://github.com/stdlib-js/stdlib/pull/3255) _(by Muhammad Haris)_
 -   [`5ac82aa`](https://github.com/stdlib-js/stdlib/commit/5ac82aa10cd4472fac182be8f6a9954e8d1263f4) - **docs:** update namespace table of contents [(#3261)](https://github.com/stdlib-js/stdlib/pull/3261) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7809a85`](https://github.com/stdlib-js/stdlib/commit/7809a85b47556362c61182b4f08563014dcb598a) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansumors` [(#3246)](https://github.com/stdlib-js/stdlib/pull/3246) _(by Muhammad Haris)_
 -   [`1ea5a78`](https://github.com/stdlib-js/stdlib/commit/1ea5a786066c959ee3560a58ca884ffe1fa6a4de) - **docs:** remove stray character in `blas/ext/base/dapx` documentation [(#3250)](https://github.com/stdlib-js/stdlib/pull/3250) _(by Muhammad Haris)_
