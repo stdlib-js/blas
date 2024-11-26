@@ -870,6 +870,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsnansumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dsnansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsnansumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`de75f04`](https://github.com/stdlib-js/stdlib/commit/de75f0465fdaa762112195f16f6334b121204664) - add C `ndarray` API and refactor `blas/ext/base/dsnansumpw` [(#3262)](https://github.com/stdlib-js/stdlib/pull/3262)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-tools-unreleased">
 
 #### [@stdlib/blas/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools)
@@ -957,6 +979,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`de75f04`](https://github.com/stdlib-js/stdlib/commit/de75f0465fdaa762112195f16f6334b121204664) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansumpw` [(#3262)](https://github.com/stdlib-js/stdlib/pull/3262) _(by Muhammad Haris, Philipp Burckhardt)_
 -   [`755b053`](https://github.com/stdlib-js/stdlib/commit/755b053d5b7d5cbd675c060afc1ee049e431fdde) - **docs:** add missing header in `blas/ext/base/dsnannsumors` [(#3263)](https://github.com/stdlib-js/stdlib/pull/3263) _(by Muhammad Haris)_
 -   [`a39d0f3`](https://github.com/stdlib-js/stdlib/commit/a39d0f372c70df837af84d321fa0b9b3d61f453b) - **refactor:** update `offset` handling and function documentation for `blas/ext/base/dnannsumors` [(#3252)](https://github.com/stdlib-js/stdlib/pull/3252) _(by Muhammad Haris)_
 -   [`4458c49`](https://github.com/stdlib-js/stdlib/commit/4458c49e9901bdd83048c773b8cacc6361b8729b) - **fix:** extract the scalar constant as a float in `blas/ext/base/dsapxsum` [(#3254)](https://github.com/stdlib-js/stdlib/pull/3254) _(by Muhammad Haris)_
