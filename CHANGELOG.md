@@ -596,6 +596,18 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#3253](https://github.com/stdlib-js/stdlib/issues/3253)
+
+</section>
+
+<!-- /.issues -->
+
 </details>
 
 </section>
@@ -946,9 +958,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253)
 
 </section>
 
@@ -979,6 +991,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9d47d0e`](https://github.com/stdlib-js/stdlib/commit/9d47d0e141eaa5705b242eb84a2c34a94d61e462) - **test:** add tests to `blas/ext/base/dnannsumors` [(#3266)](https://github.com/stdlib-js/stdlib/pull/3266) _(by Saurabh Singh, Athan Reines)_
 -   [`e3a09c9`](https://github.com/stdlib-js/stdlib/commit/e3a09c998fe7ac472456650abc0b4ea726037982) - **style:** use consistent indentation _(by Athan Reines)_
 -   [`153d5f4`](https://github.com/stdlib-js/stdlib/commit/153d5f41f8402b84cd2929dc4cffc7b35c614d21) - **docs:** update namespace table of contents [(#3277)](https://github.com/stdlib-js/stdlib/pull/3277) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`3b3d051`](https://github.com/stdlib-js/stdlib/commit/3b3d051f432384bf94048076bc62355cd00745ef) - **docs:** fix incorrect punctuation in function description for `blas/ext/base/dsnansumpw` [(#3273)](https://github.com/stdlib-js/stdlib/pull/3273) _(by Muhammad Haris)_
