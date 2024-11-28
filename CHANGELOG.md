@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-27)
+## Unreleased (2024-11-28)
 
 <section class="packages">
 
@@ -1013,6 +1013,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2bbeaab`](https://github.com/stdlib-js/stdlib/commit/2bbeaab8c9acb98f125e05ee49d8413d76dadf5e) - **docs:** update namespace table of contents [(#3290)](https://github.com/stdlib-js/stdlib/pull/3290) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5c40302`](https://github.com/stdlib-js/stdlib/commit/5c4030282872bb10818edea642da92bad5f6dfdc) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansum` [(#3268)](https://github.com/stdlib-js/stdlib/pull/3268) _(by Muhammad Haris)_
 -   [`9d47d0e`](https://github.com/stdlib-js/stdlib/commit/9d47d0e141eaa5705b242eb84a2c34a94d61e462) - **test:** add tests to `blas/ext/base/dnannsumors` [(#3266)](https://github.com/stdlib-js/stdlib/pull/3266) _(by Saurabh Singh, Athan Reines)_
 -   [`e3a09c9`](https://github.com/stdlib-js/stdlib/commit/e3a09c998fe7ac472456650abc0b4ea726037982) - **style:** use consistent indentation _(by Athan Reines)_
