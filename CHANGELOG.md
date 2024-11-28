@@ -397,6 +397,7 @@
 
 ##### Features
 
+-   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259)
 -   [`d649da5`](https://github.com/stdlib-js/stdlib/commit/d649da5c2f30c5cb459d6c43215ce6066f5c7483) - update namespace TypeScript declarations [(#3243)](https://github.com/stdlib-js/stdlib/pull/3243)
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
@@ -1013,6 +1014,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - **feat:** update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`2bbeaab`](https://github.com/stdlib-js/stdlib/commit/2bbeaab8c9acb98f125e05ee49d8413d76dadf5e) - **docs:** update namespace table of contents [(#3290)](https://github.com/stdlib-js/stdlib/pull/3290) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5c40302`](https://github.com/stdlib-js/stdlib/commit/5c4030282872bb10818edea642da92bad5f6dfdc) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansum` [(#3268)](https://github.com/stdlib-js/stdlib/pull/3268) _(by Muhammad Haris)_
 -   [`9d47d0e`](https://github.com/stdlib-js/stdlib/commit/9d47d0e141eaa5705b242eb84a2c34a94d61e462) - **test:** add tests to `blas/ext/base/dnannsumors` [(#3266)](https://github.com/stdlib-js/stdlib/pull/3266) _(by Saurabh Singh, Athan Reines)_
