@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-28)
+## Unreleased (2024-12-01)
 
 <section class="packages">
 
@@ -927,6 +927,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-ssumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/ssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c83f108`](https://github.com/stdlib-js/stdlib/commit/c83f10824d14d8c0290b68a5f5bcedbdc2c52c6d) - add C `ndarray` API and refactor `blas/ext/base/ssumpw` [(#3285)](https://github.com/stdlib-js/stdlib/pull/3285)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-tools-unreleased">
 
 #### [@stdlib/blas/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools)
@@ -1014,6 +1036,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c83f108`](https://github.com/stdlib-js/stdlib/commit/c83f10824d14d8c0290b68a5f5bcedbdc2c52c6d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssumpw` [(#3285)](https://github.com/stdlib-js/stdlib/pull/3285) _(by Snehil Shah)_
 -   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - **feat:** update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`2bbeaab`](https://github.com/stdlib-js/stdlib/commit/2bbeaab8c9acb98f125e05ee49d8413d76dadf5e) - **docs:** update namespace table of contents [(#3290)](https://github.com/stdlib-js/stdlib/pull/3290) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5c40302`](https://github.com/stdlib-js/stdlib/commit/5c4030282872bb10818edea642da92bad5f6dfdc) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsnansum` [(#3268)](https://github.com/stdlib-js/stdlib/pull/3268) _(by Muhammad Haris)_
