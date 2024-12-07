@@ -927,6 +927,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-snansumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/snansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e3efb84`](https://github.com/stdlib-js/stdlib/commit/e3efb84a0ec88f76fa2a799252da98165fcd7d4d) - add C `ndarray` API and refactor `blas/ext/base/snansumpw` [(#3353)](https://github.com/stdlib-js/stdlib/pull/3353)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-ssumpw-unreleased">
 
 #### [@stdlib/blas/ext/base/ssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumpw)
@@ -1046,6 +1068,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e3efb84`](https://github.com/stdlib-js/stdlib/commit/e3efb84a0ec88f76fa2a799252da98165fcd7d4d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumpw` [(#3353)](https://github.com/stdlib-js/stdlib/pull/3353) _(by Snehil Shah)_
 -   [`ff80d7d`](https://github.com/stdlib-js/stdlib/commit/ff80d7db842f8b1d35213fde391bb7b5f063ac42) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dasumpw` [(#3362)](https://github.com/stdlib-js/stdlib/pull/3362) _(by Muhammad Haris)_
 -   [`fcedaac`](https://github.com/stdlib-js/stdlib/commit/fcedaac9fd61fd81a1aa6d522ed2c29b21465259) - **fix:** update the return type and remove unnecessary branches/tests in `blas/ext/base/ssumpw` [(#3321)](https://github.com/stdlib-js/stdlib/pull/3321) _(by Muhammad Haris)_
 -   [`d7058bc`](https://github.com/stdlib-js/stdlib/commit/d7058bca74f0b2ad6a94d422209e51a23a331a0d) - **test:** add opts _(by Philipp Burckhardt)_
