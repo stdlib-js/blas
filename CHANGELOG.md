@@ -1068,6 +1068,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5364192`](https://github.com/stdlib-js/stdlib/commit/536419208fcd2b06d9b24526c6b2ec73dc7ef736) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumpw` [(#3248)](https://github.com/stdlib-js/stdlib/pull/3248) _(by Muhammad Haris)_
 -   [`e3efb84`](https://github.com/stdlib-js/stdlib/commit/e3efb84a0ec88f76fa2a799252da98165fcd7d4d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumpw` [(#3353)](https://github.com/stdlib-js/stdlib/pull/3353) _(by Snehil Shah)_
 -   [`ff80d7d`](https://github.com/stdlib-js/stdlib/commit/ff80d7db842f8b1d35213fde391bb7b5f063ac42) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dasumpw` [(#3362)](https://github.com/stdlib-js/stdlib/pull/3362) _(by Muhammad Haris)_
 -   [`fcedaac`](https://github.com/stdlib-js/stdlib/commit/fcedaac9fd61fd81a1aa6d522ed2c29b21465259) - **fix:** update the return type and remove unnecessary branches/tests in `blas/ext/base/ssumpw` [(#3321)](https://github.com/stdlib-js/stdlib/pull/3321) _(by Muhammad Haris)_
