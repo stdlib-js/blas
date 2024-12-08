@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-07)
+## Unreleased (2024-12-08)
 
 <section class="packages">
 
@@ -1068,6 +1068,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`7e8187a`](https://github.com/stdlib-js/stdlib/commit/7e8187a766886c2fb9cdc356cf781f0a1802172c) - **docs:** update related packages sections [(#3368)](https://github.com/stdlib-js/stdlib/pull/3368) _(by stdlib-bot)_
 -   [`1b5ac87`](https://github.com/stdlib-js/stdlib/commit/1b5ac87b89851e816807a61dd1ef29c5989b838b) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumors` [(#3247)](https://github.com/stdlib-js/stdlib/pull/3247) _(by Muhammad Haris)_
 -   [`5364192`](https://github.com/stdlib-js/stdlib/commit/536419208fcd2b06d9b24526c6b2ec73dc7ef736) - **refactor:** update `stride` handling and function documentation for `blas/ext/base/dapxsumpw` [(#3248)](https://github.com/stdlib-js/stdlib/pull/3248) _(by Muhammad Haris)_
 -   [`e3efb84`](https://github.com/stdlib-js/stdlib/commit/e3efb84a0ec88f76fa2a799252da98165fcd7d4d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumpw` [(#3353)](https://github.com/stdlib-js/stdlib/pull/3353) _(by Snehil Shah)_
