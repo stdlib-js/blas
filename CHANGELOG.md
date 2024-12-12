@@ -79,6 +79,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-caxpy-unreleased">
+
+#### [@stdlib/blas/base/caxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/caxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-ccopy-unreleased">
 
 #### [@stdlib/blas/base/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ccopy)
@@ -200,6 +222,28 @@
 ##### Features
 
 -   [`493db03`](https://github.com/stdlib-js/stdlib/commit/493db039c45d831e1c61346ac50224a592583760) - add `blas/base/cswap-wasm` [(#3211)](https://github.com/stdlib-js/stdlib/pull/3211)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-daxpy-unreleased">
+
+#### [@stdlib/blas/base/daxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/daxpy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456)
 
 </section>
 
@@ -1069,6 +1113,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - **feat:** add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456) _(by Aman Bhansali, Athan Reines)_
 -   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
 -   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
 -   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
