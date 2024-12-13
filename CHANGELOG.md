@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-12)
+## Unreleased (2024-12-13)
 
 <section class="packages">
 
@@ -222,28 +222,6 @@
 ##### Features
 
 -   [`493db03`](https://github.com/stdlib-js/stdlib/commit/493db039c45d831e1c61346ac50224a592583760) - add `blas/base/cswap-wasm` [(#3211)](https://github.com/stdlib-js/stdlib/pull/3211)
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="blas-base-daxpy-unreleased">
-
-#### [@stdlib/blas/base/daxpy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/daxpy)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456)
 
 </section>
 
@@ -972,6 +950,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dssumors-unreleased">
+
+#### [@stdlib/blas/ext/base/dssumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5a3d324`](https://github.com/stdlib-js/stdlib/commit/5a3d324e7e80752fad34d120df3e6c85636f20c5) - add C `ndarray` API and refactor `blas/ext/base/dssumors` [(#3396)](https://github.com/stdlib-js/stdlib/pull/3396)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumpw-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumpw)
@@ -1113,6 +1113,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5a3d324`](https://github.com/stdlib-js/stdlib/commit/5a3d324e7e80752fad34d120df3e6c85636f20c5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssumors` [(#3396)](https://github.com/stdlib-js/stdlib/pull/3396) _(by Muhammad Haris, Athan Reines)_
 -   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - **feat:** add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456) _(by Aman Bhansali, Athan Reines)_
 -   [`cf7d38a`](https://github.com/stdlib-js/stdlib/commit/cf7d38ae3e7bce92cf47778f7b1c3da731121d77) - **docs:** update related packages sections [(#3527)](https://github.com/stdlib-js/stdlib/pull/3527) _(by stdlib-bot)_
 -   [`bf5643f`](https://github.com/stdlib-js/stdlib/commit/bf5643fb1a3f32a60903d8e210f71571e609119f) - **docs:** update related packages sections [(#3404)](https://github.com/stdlib-js/stdlib/pull/3404) _(by stdlib-bot)_
