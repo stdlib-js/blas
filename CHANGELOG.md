@@ -1135,6 +1135,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
 -   [`a04a9e3`](https://github.com/stdlib-js/stdlib/commit/a04a9e31780bfb285f51dba041da0c07b905a30d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssumpw` [(#3528)](https://github.com/stdlib-js/stdlib/pull/3528) _(by Muhammad Haris, Athan Reines)_
 -   [`5a3d324`](https://github.com/stdlib-js/stdlib/commit/5a3d324e7e80752fad34d120df3e6c85636f20c5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssumors` [(#3396)](https://github.com/stdlib-js/stdlib/pull/3396) _(by Muhammad Haris, Athan Reines)_
 -   [`b6ee443`](https://github.com/stdlib-js/stdlib/commit/b6ee443347db7dcd18b281f99a0617b3b64d86fc) - **feat:** add C `ndarray` implementation for `blas/base/caxpy` [(#3456)](https://github.com/stdlib-js/stdlib/pull/3456) _(by Aman Bhansali, Athan Reines)_
