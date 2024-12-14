@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-13)
+## Unreleased (2024-12-14)
 
 <section class="packages">
 
@@ -1157,6 +1157,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
 -   [`1f596cb`](https://github.com/stdlib-js/stdlib/commit/1f596cb9bd3a26c2a7a82ab578d460f88df8dea5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssumors` [(#3891)](https://github.com/stdlib-js/stdlib/pull/3891) _(by Snehil Shah)_
 -   [`5cb36ef`](https://github.com/stdlib-js/stdlib/commit/5cb36ef4c6f8158585ac88867a8dec21ed3fa372) - **docs:** update related packages sections [(#3890)](https://github.com/stdlib-js/stdlib/pull/3890) _(by stdlib-bot)_
 -   [`a04a9e3`](https://github.com/stdlib-js/stdlib/commit/a04a9e31780bfb285f51dba041da0c07b905a30d) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssumpw` [(#3528)](https://github.com/stdlib-js/stdlib/pull/3528) _(by Muhammad Haris, Athan Reines)_
