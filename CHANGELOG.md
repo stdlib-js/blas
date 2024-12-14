@@ -1157,6 +1157,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f2db85a`](https://github.com/stdlib-js/stdlib/commit/f2db85a9d8d46f224f61b0d6da9bbb36cff2b8c0) - **bench:** update benchmarks in `blas/ext/base/ssumpw` according to project conventions [(#3903)](https://github.com/stdlib-js/stdlib/pull/3903) _(by Snehil Shah)_
 -   [`0c9faed`](https://github.com/stdlib-js/stdlib/commit/0c9faedab42d5b816921487891de6aef305aa54f) - **docs:** update namespace table of contents [(#3902)](https://github.com/stdlib-js/stdlib/pull/3902) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`1c2b313`](https://github.com/stdlib-js/stdlib/commit/1c2b3137c2a54cf42deb3c8d0a1b50afc41f99ac) - **docs:** update namespace TypeScript declarations [(#3900)](https://github.com/stdlib-js/stdlib/pull/3900) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`2825b42`](https://github.com/stdlib-js/stdlib/commit/2825b42e8cd7483d15dfed1c6b389bfcb86d7ca0) - **docs:** update related packages sections [(#3898)](https://github.com/stdlib-js/stdlib/pull/3898) _(by stdlib-bot)_
