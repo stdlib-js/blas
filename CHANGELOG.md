@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-14)
+## Unreleased (2024-12-15)
 
 <section class="packages">
 
@@ -1179,6 +1179,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`ef82c21`](https://github.com/stdlib-js/stdlib/commit/ef82c2133cc2cb955eb1fc73da0209eda97de59a) - **docs:** update namespace table of contents [(#3918)](https://github.com/stdlib-js/stdlib/pull/3918) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`bcc704d`](https://github.com/stdlib-js/stdlib/commit/bcc704dd3fcb478859932dbb4909f50f3a401608) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumkbn` [(#3530)](https://github.com/stdlib-js/stdlib/pull/3530) _(by Muhammad Haris, Athan Reines)_
 -   [`f2db85a`](https://github.com/stdlib-js/stdlib/commit/f2db85a9d8d46f224f61b0d6da9bbb36cff2b8c0) - **bench:** update benchmarks in `blas/ext/base/ssumpw` according to project conventions [(#3903)](https://github.com/stdlib-js/stdlib/pull/3903) _(by Snehil Shah)_
 -   [`0c9faed`](https://github.com/stdlib-js/stdlib/commit/0c9faedab42d5b816921487891de6aef305aa54f) - **docs:** update namespace table of contents [(#3902)](https://github.com/stdlib-js/stdlib/pull/3902) _(by stdlib-bot, Philipp Burckhardt)_
