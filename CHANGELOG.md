@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-16)
+## Unreleased (2024-12-17)
 
 <section class="packages">
 
@@ -1180,6 +1180,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
 -   [`b20a9e6`](https://github.com/stdlib-js/stdlib/commit/b20a9e616e5d04cfc3e5bc71bd557e15af738050) - **docs:** update related packages sections [(#3936)](https://github.com/stdlib-js/stdlib/pull/3936) _(by stdlib-bot)_
 -   [`0e887d5`](https://github.com/stdlib-js/stdlib/commit/0e887d567344c8a31a382266389022ec26f2bcca) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
@@ -6560,18 +6561,19 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   Gunj Joshi
 -   Jaimin Godhani
 -   Krishnendu Das
--   Lovelin
+-   Lovelin Dhoni J B
 -   Muhammad Haris
+-   Naveen Kumar
 -   Philipp Burckhardt
 -   Pranav Goswami
--   Praneki
--   Pratik
+-   Pranjal Jha
+-   Pratik Singh
 -   Praveen Kumar
--   Priyansh
+-   Priyansh Prajapati
 -   Priyanshu Agarwal
 -   Raunak Kumar Gupta
 -   Rutam Kathale
--   Shivam
+-   Shivam Ahir
 -   Shubh Mehta
 -   Sivam Das
 -   Snehil Shah
@@ -6581,7 +6583,6 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   Utkarsh Raj
 -   Varad Gupta
 -   Xiaochuan Ye
--   naveen
 -   rainn
 
 </section>
@@ -6798,7 +6799,7 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   [`2efa65e`](https://github.com/stdlib-js/stdlib/commit/2efa65e1f4f0370910f25f6c6d267a9309645fc1) - **refactor:** support building with API suffix _(by Athan Reines)_
 -   [`4c6fd6f`](https://github.com/stdlib-js/stdlib/commit/4c6fd6fefe78a1b63247a9e5b72532e80f96711e) - **refactor:** support building with API suffix _(by Athan Reines)_
 -   [`db90892`](https://github.com/stdlib-js/stdlib/commit/db90892295bdc266a307ae736a02886621956a19) - **refactor:** support building with API suffix _(by Athan Reines)_
--   [`726cca7`](https://github.com/stdlib-js/stdlib/commit/726cca7d78896f87428818a08ac788e5f3ed5be0) - **refactor:** update `blas/ext/base/ssorthp` to follow current project conventions _(by naveen, Praveen Kumar, Philipp Burckhardt)_
+-   [`726cca7`](https://github.com/stdlib-js/stdlib/commit/726cca7d78896f87428818a08ac788e5f3ed5be0) - **refactor:** update `blas/ext/base/ssorthp` to follow current project conventions _(by Naveen Kumar, Praveen Kumar, Philipp Burckhardt)_
 -   [`5c514c7`](https://github.com/stdlib-js/stdlib/commit/5c514c7ad5828bc5047594ff001d11334f8f5670) - **fix:** specify integer type to match CBLAS _(by Athan Reines)_
 -   [`ee78820`](https://github.com/stdlib-js/stdlib/commit/ee788201141cbc9a25d1d74982c1c762080ae6fb) - **feat:** add support for specifying integer size _(by Athan Reines)_
 -   [`a847f6b`](https://github.com/stdlib-js/stdlib/commit/a847f6bab25f80db1039bba9494e6823b43b3b6e) - **docs:** remove comments _(by Athan Reines)_
@@ -6849,8 +6850,8 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   [`de9ca6a`](https://github.com/stdlib-js/stdlib/commit/de9ca6a375bffa0683dde68a81da5922edd3d9c2) - **fix:** update manifest.json _(by Philipp Burckhardt)_
 -   [`8d66a07`](https://github.com/stdlib-js/stdlib/commit/8d66a07b8e4058e8459f45180281653c5622ca40) - **refactor:** update `blas/ext/base/ssum` to follow current project conventions _(by Raunak Kumar Gupta, Pranav Goswami, Philipp Burckhardt)_
 -   [`f0cd892`](https://github.com/stdlib-js/stdlib/commit/f0cd892874105f78bd2eff263cdec03905c69bfd) - **refactor:** update `blas/ext/base/dnanasum` to follow current project conventions _(by Raunak Kumar Gupta, Philipp Burckhardt)_
--   [`430a72b`](https://github.com/stdlib-js/stdlib/commit/430a72b28eac37834cfb1b002078fbe372d656b7) - **refactor:** update `blas/ext/base/dnannsumpw` to follow current project conventions _(by naveen, Philipp Burckhardt)_
--   [`0f917bd`](https://github.com/stdlib-js/stdlib/commit/0f917bd3d395be1828ce69b763d5fe9d220306e5) - **refactor:** update `blas/ext/base/snansumkbn` to follow current project conventions _(by Priyansh, Philipp Burckhardt)_
+-   [`430a72b`](https://github.com/stdlib-js/stdlib/commit/430a72b28eac37834cfb1b002078fbe372d656b7) - **refactor:** update `blas/ext/base/dnannsumpw` to follow current project conventions _(by Naveen Kumar, Philipp Burckhardt)_
+-   [`0f917bd`](https://github.com/stdlib-js/stdlib/commit/0f917bd3d395be1828ce69b763d5fe9d220306e5) - **refactor:** update `blas/ext/base/snansumkbn` to follow current project conventions _(by Priyansh Prajapati, Philipp Burckhardt)_
 -   [`fb6571e`](https://github.com/stdlib-js/stdlib/commit/fb6571ecebab94780dbd3b6d32b0c0275a3d636b) - **feat:** add `blas/base/isamax` [(#2153)](https://github.com/stdlib-js/stdlib/pull/2153) _(by Aman Bhansali, Athan Reines)_
 -   [`8f1f9c6`](https://github.com/stdlib-js/stdlib/commit/8f1f9c67b94bf41c09ae2919af79dc5d9537d020) - **test:** fix descriptions _(by Athan Reines)_
 -   [`31bffe1`](https://github.com/stdlib-js/stdlib/commit/31bffe14003da840ab3f926be8357fe868fd75de) - **docs:** fix annotation _(by Athan Reines)_
@@ -6874,11 +6875,11 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   [`8dead56`](https://github.com/stdlib-js/stdlib/commit/8dead56dd7d25624eb7619ccb785111cf678f09d) - **feat:** update namespace TypeScript declarations [(#2181)](https://github.com/stdlib-js/stdlib/pull/2181 ) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`a7f3e44`](https://github.com/stdlib-js/stdlib/commit/a7f3e4462eacec13b65535bfe4a39aa57a6a94cc) - **refactor:** update `blas/ext/base/sfill` to follow current projects conventions _(by Priyanshu Agarwal, Athan Reines, Pranav Goswami, Philipp Burckhardt)_
 -   [`118791f`](https://github.com/stdlib-js/stdlib/commit/118791f7f5962aab921f28e52826236b16fe1d80) - **refactor:** update `blas/ext/base/dnannsumors` to follow current project conventions _(by Shubh Mehta, Philipp Burckhardt)_
--   [`326479a`](https://github.com/stdlib-js/stdlib/commit/326479a0533ad89929eac59ad1b122cd8cd9cc5f) - **refactor:** update `blas/ext/base/snansumors` to follow current project conventions _(by Pratik, Philipp Burckhardt)_
+-   [`326479a`](https://github.com/stdlib-js/stdlib/commit/326479a0533ad89929eac59ad1b122cd8cd9cc5f) - **refactor:** update `blas/ext/base/snansumors` to follow current project conventions _(by Pratik Singh, Philipp Burckhardt)_
 -   [`95653a3`](https://github.com/stdlib-js/stdlib/commit/95653a3f070bf770e5281a46d0d85ba18d72948b) - **feat:** add `blas/base/idamax` [(#2152)](https://github.com/stdlib-js/stdlib/pull/2152) _(by Aman Bhansali, Athan Reines)_
 -   [`67e80eb`](https://github.com/stdlib-js/stdlib/commit/67e80ebd10c9a8b86fbf2f86ce1781015ce305ef) - **refactor:** update `blas/ext/base/dnansumors` follow current project conventions _(by Utkarsh Raj, Philipp Burckhardt)_
 -   [`a65a14a`](https://github.com/stdlib-js/stdlib/commit/a65a14a9835be9bbae33c52607c537e761270ea2) - **refactor:** update `blas/ext/base/dnannsum` to follow current project conventions _(by Golden Kumar, Philipp Burckhardt)_
--   [`a5e27be`](https://github.com/stdlib-js/stdlib/commit/a5e27be21761ddb12f722eef6490a3958cb7d7bb) - **refactor:** update `blas/ext/base/sdssumpw` to follow current project conventions _(by Praneki, Philipp Burckhardt)_
+-   [`a5e27be`](https://github.com/stdlib-js/stdlib/commit/a5e27be21761ddb12f722eef6490a3958cb7d7bb) - **refactor:** update `blas/ext/base/sdssumpw` to follow current project conventions _(by Pranjal Jha, Philipp Burckhardt)_
 -   [`c13b428`](https://github.com/stdlib-js/stdlib/commit/c13b4282c1566c301c26b3b65ee054862f244ab5) - **refactor:** update `blas/ext/base/sdssum` to follow current project conventions _(by rainn, Philipp Burckhardt)_
 -   [`a0d8ed6`](https://github.com/stdlib-js/stdlib/commit/a0d8ed6fb23dddd6b674ebde3013026dd5d8ad7d) - **refactor:** update `blas/ext/base/dssumors` to follow current project conventions _(by Jaimin Godhani, Philipp Burckhardt)_
 -   [`f478364`](https://github.com/stdlib-js/stdlib/commit/f47836421fb3f8e6bc9f2288d7a7dc4c546ce465) - **refactor:** update `blas/ext/base/snansumpw` to follow current projects conventions _(by Priyanshu Agarwal, Philipp Burckhardt)_
@@ -6926,13 +6927,13 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   [`a9016c6`](https://github.com/stdlib-js/stdlib/commit/a9016c65a013cbabcf819c0733c05c59618d198c) - **refactor:** update `blas/ext/base/dnansumkbn` to follow current project conventions _(by Suraj Kumar)_
 -   [`6246c5d`](https://github.com/stdlib-js/stdlib/commit/6246c5dcbe7163afe809a80ce221a712ea56772d) - **refactor:** update `blas/ext/base/dnansumkbn2` to follow current project conventions _(by Suraj Kumar, Philipp Burckhardt)_
 -   [`7ba3296`](https://github.com/stdlib-js/stdlib/commit/7ba32967b87867957b1198cbcd5c2248235739fe) - **refactor:** update `blas/ext/base/dapxsumkbn2` to follow current project conventions _(by Suraj Kumar)_
--   [`16fabbd`](https://github.com/stdlib-js/stdlib/commit/16fabbd608ff5f4058b34e78d4e6109820bcd6b6) - **refactor:** update `blas/ext/base/dsapxsumpw` to follow current project conventions _(by Shivam, Philipp Burckhardt)_
+-   [`16fabbd`](https://github.com/stdlib-js/stdlib/commit/16fabbd608ff5f4058b34e78d4e6109820bcd6b6) - **refactor:** update `blas/ext/base/dsapxsumpw` to follow current project conventions _(by Shivam Ahir, Philipp Burckhardt)_
 -   [`71a78a5`](https://github.com/stdlib-js/stdlib/commit/71a78a5c3323c0025ecd05ca4afe7dc685f1faf5) - **refactor:** update `blas/ext/base/dcusumkbn2` to follow current project conventions _(by Varad Gupta, Philipp Burckhardt)_
--   [`8729504`](https://github.com/stdlib-js/stdlib/commit/872950417a5cd40b5e360c2bc123f007dafc3257) - **refactor:** update `blas/ext/base/dapxsumors` to follow current project conventions  _(by Shivam, Philipp Burckhardt)_
--   [`f1c46cd`](https://github.com/stdlib-js/stdlib/commit/f1c46cd7aed96dafc8b6fd7ea2a45927062b9fcd) - **refactor:** update `blas/ext/base/sasumpw` to follow current project conventions _(by Shivam, Philipp Burckhardt)_
--   [`8e8b47c`](https://github.com/stdlib-js/stdlib/commit/8e8b47cf5e52ef7543b99c3004075457316c611d) - **refactor:** `blas/ext/base/sapxsumkbn2` to follow current project conventions _(by Shivam, Philipp Burckhardt)_
--   [`f5dbe2d`](https://github.com/stdlib-js/stdlib/commit/f5dbe2dafe99f775e23ff16efbccd70e2ee50c66) - **refactor:** update `blas/ext/base/dsumors` to follow current project conventions _(by Shivam, Philipp Burckhardt)_
--   [`fd8b214`](https://github.com/stdlib-js/stdlib/commit/fd8b2148f3fe49e20a05f1663dec2e1a8f95b3bb) - **refactor:** update `blas/ext/base/dapxsumpw` to follow current project conventions _(by Shivam, Philipp Burckhardt)_
+-   [`8729504`](https://github.com/stdlib-js/stdlib/commit/872950417a5cd40b5e360c2bc123f007dafc3257) - **refactor:** update `blas/ext/base/dapxsumors` to follow current project conventions  _(by Shivam Ahir, Philipp Burckhardt)_
+-   [`f1c46cd`](https://github.com/stdlib-js/stdlib/commit/f1c46cd7aed96dafc8b6fd7ea2a45927062b9fcd) - **refactor:** update `blas/ext/base/sasumpw` to follow current project conventions _(by Shivam Ahir, Philipp Burckhardt)_
+-   [`8e8b47c`](https://github.com/stdlib-js/stdlib/commit/8e8b47cf5e52ef7543b99c3004075457316c611d) - **refactor:** `blas/ext/base/sapxsumkbn2` to follow current project conventions _(by Shivam Ahir, Philipp Burckhardt)_
+-   [`f5dbe2d`](https://github.com/stdlib-js/stdlib/commit/f5dbe2dafe99f775e23ff16efbccd70e2ee50c66) - **refactor:** update `blas/ext/base/dsumors` to follow current project conventions _(by Shivam Ahir, Philipp Burckhardt)_
+-   [`fd8b214`](https://github.com/stdlib-js/stdlib/commit/fd8b2148f3fe49e20a05f1663dec2e1a8f95b3bb) - **refactor:** update `blas/ext/base/dapxsumpw` to follow current project conventions _(by Shivam Ahir, Philipp Burckhardt)_
 -   [`9b2ca2c`](https://github.com/stdlib-js/stdlib/commit/9b2ca2ce1281165deebb28310a8e1c73ff409245) - **refactor:** update `blas/ext/base/scusumkbn` to follow current project conventions [(#2012)](https://github.com/stdlib-js/stdlib/pull/2012) _(by Varad Gupta, Athan Reines, Philipp Burckhardt)_
 -   [`f36cfab`](https://github.com/stdlib-js/stdlib/commit/f36cfab3875404fd9c58b6e2a6fedca5e04cb4d9) - **chore:** update package meta data [(#2014)](https://github.com/stdlib-js/stdlib/pull/2014) _(by stdlib-bot)_
 -   [`30b95a8`](https://github.com/stdlib-js/stdlib/commit/30b95a8aa9e71f21f802c6eae85e61ff280cc499) - **refactor:** update `blas/ext/base/sapxsumpw` to follow current project conventions [(#1962)](https://github.com/stdlib-js/stdlib/pull/1962) _(by Bryan Elee)_
@@ -6958,7 +6959,7 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   [`fbb34de`](https://github.com/stdlib-js/stdlib/commit/fbb34debfe94725c767866c47607520918ef9d84) - **fix:** update build configuration and remove unnecessary cast _(by Athan Reines)_
 -   [`8e4990d`](https://github.com/stdlib-js/stdlib/commit/8e4990df5507a997e5187f1fa05087add35a97db) - **docs:** update namespace TypeScript declarations [(#1975)](https://github.com/stdlib-js/stdlib/pull/1975) _(by stdlib-bot, Athan Reines)_
 -   [`1c4fd83`](https://github.com/stdlib-js/stdlib/commit/1c4fd83fa51544ade218820397796afb02f8c1f0) - **refactor:** update `blas/ext/base/sapxsum` to follow current project conventions [(#1850)](https://github.com/stdlib-js/stdlib/pull/1850) _(by Gunj Joshi, Athan Reines, Pranav Goswami)_
--   [`0d2528e`](https://github.com/stdlib-js/stdlib/commit/0d2528ece212fef00cf6c641c298d174b3c3ba04) - **refactor:** update `blas/ext/base/dapx` to follow current project conventions [(#1954)](https://github.com/stdlib-js/stdlib/pull/1954) _(by naveen, Athan Reines)_
+-   [`0d2528e`](https://github.com/stdlib-js/stdlib/commit/0d2528ece212fef00cf6c641c298d174b3c3ba04) - **refactor:** update `blas/ext/base/dapx` to follow current project conventions [(#1954)](https://github.com/stdlib-js/stdlib/pull/1954) _(by Naveen Kumar, Athan Reines)_
 -   [`23fba1c`](https://github.com/stdlib-js/stdlib/commit/23fba1c12a6ed102c00e7831aeb8cde2be56cff0) - **fix:** update build configuration _(by Athan Reines)_
 -   [`4d9c326`](https://github.com/stdlib-js/stdlib/commit/4d9c326d71d640f99f696a29c7f257961c1484b3) - **fix:** update build configuration _(by Athan Reines)_
 -   [`f95e706`](https://github.com/stdlib-js/stdlib/commit/f95e706ed33176af97b5ac72fe06d86931838354) - **refactor:** update `blas/ext/base/scusumpw` to follow current project conventions _(by Bryan Elee, Pranav, Philipp Burckhardt)_
@@ -6981,8 +6982,8 @@ A total of 32 people contributed to this release. Thank you to the following con
 -   [`98b0775`](https://github.com/stdlib-js/stdlib/commit/98b077561e30e6a99c7e3523e6782b007f8f5e9e) - **refactor:** update `blas/ext/base/ssumkbn` to follow current project conventions [(#1741)](https://github.com/stdlib-js/stdlib/pull/1741) _(by Snehil Shah, Athan Reines)_
 -   [`16fda9a`](https://github.com/stdlib-js/stdlib/commit/16fda9aaf8c2dca876866729caca692f32856c51) - **docs:** update namespace TypeScript declarations [(#1707)](https://github.com/stdlib-js/stdlib/pull/1707) _(by stdlib-bot, Athan Reines)_
 -   [`7c23a54`](https://github.com/stdlib-js/stdlib/commit/7c23a540fa9286c4ff1d7ec8411d56fc977fba82) - **refactor:** update `blas/ext/base/srev` to follow current project conventions [(#1700)](https://github.com/stdlib-js/stdlib/pull/1700) _(by Snehil Shah)_
--   [`ef026dc`](https://github.com/stdlib-js/stdlib/commit/ef026dce8372e35dca6057e58e593d084da9a05b) - **refactor:** update `blas/ext/base/ssumors`  to follow current project conventions _(by Lovelin, Athan Reines, Philipp Burckhardt)_
--   [`412acd6`](https://github.com/stdlib-js/stdlib/commit/412acd6244c7712b84bfc9d9ebd138e7f43bd659) - **refactor:** update `blas/ext/base/ssumpw` to follow current project conventions [(#1673)](https://github.com/stdlib-js/stdlib/pull/1673) _(by Lovelin, Athan Reines)_
+-   [`ef026dc`](https://github.com/stdlib-js/stdlib/commit/ef026dce8372e35dca6057e58e593d084da9a05b) - **refactor:** update `blas/ext/base/ssumors`  to follow current project conventions _(by Lovelin Dhoni J B, Athan Reines, Philipp Burckhardt)_
+-   [`412acd6`](https://github.com/stdlib-js/stdlib/commit/412acd6244c7712b84bfc9d9ebd138e7f43bd659) - **refactor:** update `blas/ext/base/ssumpw` to follow current project conventions [(#1673)](https://github.com/stdlib-js/stdlib/pull/1673) _(by Lovelin Dhoni J B, Athan Reines)_
 -   [`3163201`](https://github.com/stdlib-js/stdlib/commit/31632017d48d98b52623397755fe880b08eb1cb4) - **docs:** update namespace TypeScript declarations [(#1676)](https://github.com/stdlib-js/stdlib/pull/1676) _(by stdlib-bot, Athan Reines)_
 -   [`2675d58`](https://github.com/stdlib-js/stdlib/commit/2675d586a0877f212edf6231b529fdc9047cd694) - **refactor:** update `blas/ext/base/dfill` to follow current project conventions [(#1455)](https://github.com/stdlib-js/stdlib/pull/1455) _(by Snehil Shah, Athan Reines)_
 -   [`12dcb7a`](https://github.com/stdlib-js/stdlib/commit/12dcb7a46950ebba30902c6a390a6c4244e5b1aa) - **docs:** update related packages sections [(#1421)](https://github.com/stdlib-js/stdlib/pull/1421) _(by stdlib-bot)_
