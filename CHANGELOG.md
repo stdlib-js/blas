@@ -1017,6 +1017,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-sapxsumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/sapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn2)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`2222d50`](https://github.com/stdlib-js/stdlib/commit/2222d505c97a6c4f8acf89bdb3aae6f504589e04) - update include path and refactor addon
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumpw-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumpw)
@@ -1180,6 +1202,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2222d50`](https://github.com/stdlib-js/stdlib/commit/2222d505c97a6c4f8acf89bdb3aae6f504589e04) - **fix:** update include path and refactor addon _(by Athan Reines)_
 -   [`c322b66`](https://github.com/stdlib-js/stdlib/commit/c322b6647751b73a9d0fe12bf5665e8e2243d4ca) - **docs:** update related packages sections [(#4070)](https://github.com/stdlib-js/stdlib/pull/4070) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8bf8285`](https://github.com/stdlib-js/stdlib/commit/8bf8285aba0ecbd00ae145c4c5c098cd28135814) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
