@@ -1061,6 +1061,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-snansumors-unreleased">
+
+#### [@stdlib/blas/ext/base/snansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`c351e4b`](https://github.com/stdlib-js/stdlib/commit/c351e4b399c6d5c791e46db4cdfba9ce762d9548) - add C `ndarray` API and refactor `blas/ext/base/snansumors` [(#3955)](https://github.com/stdlib-js/stdlib/pull/3955)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumpw-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumpw)
@@ -1224,6 +1246,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c351e4b`](https://github.com/stdlib-js/stdlib/commit/c351e4b399c6d5c791e46db4cdfba9ce762d9548) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumors` [(#3955)](https://github.com/stdlib-js/stdlib/pull/3955) _(by Snehil Shah, Athan Reines)_
 -   [`f9fce59`](https://github.com/stdlib-js/stdlib/commit/f9fce5904d09fc2f61c1d7c21d26e59f7de17420) - **docs:** update related packages sections [(#4212)](https://github.com/stdlib-js/stdlib/pull/4212) _(by stdlib-bot)_
 -   [`cc8daaf`](https://github.com/stdlib-js/stdlib/commit/cc8daaf165f6426ba2b1d7edd68ff3e8f3d74478) - **fix:** update include path _(by Athan Reines)_
 -   [`4a70790`](https://github.com/stdlib-js/stdlib/commit/4a707903dfef7c2b56216000165706497d19a251) - **style:** add missing spaces _(by Philipp Burckhardt)_
