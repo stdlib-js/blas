@@ -1246,6 +1246,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`a6f3921`](https://github.com/stdlib-js/stdlib/commit/a6f3921560705503dcb5ee2575dd2f11417f58fb) - **docs:** update related packages sections [(#4242)](https://github.com/stdlib-js/stdlib/pull/4242) _(by stdlib-bot, Athan Reines)_
 -   [`dfc908c`](https://github.com/stdlib-js/stdlib/commit/dfc908c6bc6fd95ec99c86e3b5c13b6fc7a0cf81) - **docs:** update namespace TypeScript declarations [(#4243)](https://github.com/stdlib-js/stdlib/pull/4243) _(by stdlib-bot)_
 -   [`9228eef`](https://github.com/stdlib-js/stdlib/commit/9228eef3aea9350937b07e9c8a5fd33145ee45d6) - **docs:** update namespace table of contents [(#4245)](https://github.com/stdlib-js/stdlib/pull/4245) _(by stdlib-bot)_
 -   [`c351e4b`](https://github.com/stdlib-js/stdlib/commit/c351e4b399c6d5c791e46db4cdfba9ce762d9548) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumors` [(#3955)](https://github.com/stdlib-js/stdlib/pull/3955) _(by Snehil Shah, Athan Reines)_
