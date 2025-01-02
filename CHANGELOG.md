@@ -1061,6 +1061,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/dsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsumkbn2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`94c28dd`](https://github.com/stdlib-js/stdlib/commit/94c28dd762780658f66507d0912e35bdcbcff573) - add C `ndarray` API and refactor `blas/ext/base/dsumkbn2` [(#4316)](https://github.com/stdlib-js/stdlib/pull/4316)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-sapxsumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/sapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn2)
@@ -1290,6 +1312,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`94c28dd`](https://github.com/stdlib-js/stdlib/commit/94c28dd762780658f66507d0912e35bdcbcff573) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumkbn2` [(#4316)](https://github.com/stdlib-js/stdlib/pull/4316) _(by Muhammad Haris, Athan Reines)_
 -   [`b6ba484`](https://github.com/stdlib-js/stdlib/commit/b6ba4845ebbddc5d2b76fb24e4ac036e2ef35102) - **docs:** update namespace table of contents [(#4448)](https://github.com/stdlib-js/stdlib/pull/4448) _(by stdlib-bot)_
 -   [`c7ef80e`](https://github.com/stdlib-js/stdlib/commit/c7ef80ec0563a02728f398d31ccd05bc91055cdc) - **docs:** update namespace TypeScript declarations [(#4446)](https://github.com/stdlib-js/stdlib/pull/4446) _(by stdlib-bot)_
 -   [`e373bc9`](https://github.com/stdlib-js/stdlib/commit/e373bc91929cd46d5ed9a520cef9bfd5dcbb04c9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsum` [(#4312)](https://github.com/stdlib-js/stdlib/pull/4312) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
