@@ -1290,6 +1290,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c7ef80e`](https://github.com/stdlib-js/stdlib/commit/c7ef80ec0563a02728f398d31ccd05bc91055cdc) - **docs:** update namespace TypeScript declarations [(#4446)](https://github.com/stdlib-js/stdlib/pull/4446) _(by stdlib-bot)_
 -   [`e373bc9`](https://github.com/stdlib-js/stdlib/commit/e373bc91929cd46d5ed9a520cef9bfd5dcbb04c9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsum` [(#4312)](https://github.com/stdlib-js/stdlib/pull/4312) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`99388d1`](https://github.com/stdlib-js/stdlib/commit/99388d1aeabe238c519707b8e08843a4bdeb04d4) - **test:** fix grammar in descriptions _(by Athan Reines)_
 -   [`9000841`](https://github.com/stdlib-js/stdlib/commit/9000841dbe1534a4b1984975068101a641383840) - **style:** fix decimals _(by Athan Reines)_
