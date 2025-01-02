@@ -1312,6 +1312,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`464e2cc`](https://github.com/stdlib-js/stdlib/commit/464e2cc9a3bb6430d7397db2e70c62b0ca275f09) - **refactor:** update `blas/ext/base/gcusumkbn` to follow current project conventions [(#4412)](https://github.com/stdlib-js/stdlib/pull/4412) _(by Muhammad Haris, Athan Reines)_
 -   [`94c28dd`](https://github.com/stdlib-js/stdlib/commit/94c28dd762780658f66507d0912e35bdcbcff573) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumkbn2` [(#4316)](https://github.com/stdlib-js/stdlib/pull/4316) _(by Muhammad Haris, Athan Reines)_
 -   [`b6ba484`](https://github.com/stdlib-js/stdlib/commit/b6ba4845ebbddc5d2b76fb24e4ac036e2ef35102) - **docs:** update namespace table of contents [(#4448)](https://github.com/stdlib-js/stdlib/pull/4448) _(by stdlib-bot)_
 -   [`c7ef80e`](https://github.com/stdlib-js/stdlib/commit/c7ef80ec0563a02728f398d31ccd05bc91055cdc) - **docs:** update namespace TypeScript declarations [(#4446)](https://github.com/stdlib-js/stdlib/pull/4446) _(by stdlib-bot)_
