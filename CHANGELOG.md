@@ -1017,6 +1017,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsum-unreleased">
+
+#### [@stdlib/blas/ext/base/dsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e373bc9`](https://github.com/stdlib-js/stdlib/commit/e373bc91929cd46d5ed9a520cef9bfd5dcbb04c9) - add C `ndarray` API and refactor `blas/ext/base/dsum` [(#4312)](https://github.com/stdlib-js/stdlib/pull/4312)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dsumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/dsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsumkbn)
@@ -1268,6 +1290,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e373bc9`](https://github.com/stdlib-js/stdlib/commit/e373bc91929cd46d5ed9a520cef9bfd5dcbb04c9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsum` [(#4312)](https://github.com/stdlib-js/stdlib/pull/4312) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`99388d1`](https://github.com/stdlib-js/stdlib/commit/99388d1aeabe238c519707b8e08843a4bdeb04d4) - **test:** fix grammar in descriptions _(by Athan Reines)_
 -   [`9000841`](https://github.com/stdlib-js/stdlib/commit/9000841dbe1534a4b1984975068101a641383840) - **style:** fix decimals _(by Athan Reines)_
 -   [`f78ae7b`](https://github.com/stdlib-js/stdlib/commit/f78ae7b4ed12879282a4e9c20e6c7b5baf2d6e39) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssum` [(#4262)](https://github.com/stdlib-js/stdlib/pull/4262) _(by Muhammad Haris)_
