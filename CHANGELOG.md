@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-29)
+## Unreleased (2025-01-02)
 
 <section class="packages">
 
@@ -951,6 +951,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dssum-unreleased">
+
+#### [@stdlib/blas/ext/base/dssum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f78ae7b`](https://github.com/stdlib-js/stdlib/commit/f78ae7b4ed12879282a4e9c20e6c7b5baf2d6e39) - add C `ndarray` API and refactor `blas/ext/base/dssum` [(#4262)](https://github.com/stdlib-js/stdlib/pull/4262)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dssumors-unreleased">
 
 #### [@stdlib/blas/ext/base/dssumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dssumors)
@@ -1246,6 +1268,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`f78ae7b`](https://github.com/stdlib-js/stdlib/commit/f78ae7b4ed12879282a4e9c20e6c7b5baf2d6e39) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dssum` [(#4262)](https://github.com/stdlib-js/stdlib/pull/4262) _(by Muhammad Haris)_
 -   [`0d8ee2d`](https://github.com/stdlib-js/stdlib/commit/0d8ee2dd2425d7414487f65940dfc4c25c79ad1d) - **docs:** update related packages sections [(#4334)](https://github.com/stdlib-js/stdlib/pull/4334) _(by stdlib-bot)_
 -   [`cb750b6`](https://github.com/stdlib-js/stdlib/commit/cb750b6d8686990b958c9f62905dd236c86f98c6) - **docs:** fix C examples in `blas/ext/base/dsumkbn` [(#4315)](https://github.com/stdlib-js/stdlib/pull/4315) _(by Muhammad Haris)_
 -   [`a6f3921`](https://github.com/stdlib-js/stdlib/commit/a6f3921560705503dcb5ee2575dd2f11417f58fb) - **docs:** update related packages sections [(#4242)](https://github.com/stdlib-js/stdlib/pull/4242) _(by stdlib-bot, Athan Reines)_
