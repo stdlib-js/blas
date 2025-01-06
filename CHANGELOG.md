@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-05)
+## Unreleased (2025-01-06)
 
 <section class="packages">
 
@@ -1313,6 +1313,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`563a4f8`](https://github.com/stdlib-js/stdlib/commit/563a4f826ab757636ae08094fc6f62746042da4b) - **docs:** update related packages sections [(#4594)](https://github.com/stdlib-js/stdlib/pull/4594) _(by stdlib-bot)_
 -   [`f231799`](https://github.com/stdlib-js/stdlib/commit/f231799e1d40cfff7ceb79a6074166a08c4ba072) - **docs:** update related packages sections [(#4545)](https://github.com/stdlib-js/stdlib/pull/4545) _(by stdlib-bot)_
 -   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
 -   [`3cd2abf`](https://github.com/stdlib-js/stdlib/commit/3cd2abf7c694c28a32c13b4702d2e12dced5cc36) - **docs:** update namespace table of contents [(#4489)](https://github.com/stdlib-js/stdlib/pull/4489) _(by stdlib-bot)_
