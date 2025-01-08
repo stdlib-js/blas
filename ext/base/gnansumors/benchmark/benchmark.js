@@ -21,9 +21,7 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/base/uniform' );
-var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var filledarrayBy = require( '@stdlib/array/filled-by' );
+var randu = require( '@stdlib/random/base/randu' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var pkg = require( './../package.json' ).name;
@@ -33,19 +31,6 @@ var gnansumors = require( './../lib/main.js' );
 // FUNCTIONS //
 
 /**
-* Returns a random number.
-*
-* @private
-* @returns {number} random number
-*/
-function rand() {
-	if ( bernoulli( 0.8 ) > 0 ) {
-		return uniform( -10.0, 10.0 );
-	}
-	return NaN;
-}
-
-/**
 * Creates a benchmark function.
 *
 * @private
@@ -53,7 +38,17 @@ function rand() {
 * @returns {Function} benchmark function
 */
 function createBenchmark( len ) {
-	var x = filledarrayBy( len, 'generic', rand );
+	var x;
+	var i;
+
+	x = [];
+	for ( i = 0; i < len; i++ ) {
+		if ( randu() < 0.2 ) {
+			x.push( NaN );
+		} else {
+			x.push( ( randu()*10.0 ) - 20.0 );
+		}
+	}
 	return benchmark;
 
 	function benchmark( b ) {

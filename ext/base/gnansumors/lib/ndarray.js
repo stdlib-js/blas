@@ -30,39 +30,42 @@ var isnan = require( '@stdlib/math/base/assert/is-nan' );
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {NumericArray} x - input array
-* @param {integer} strideX - stride length
-* @param {NonNegativeInteger} offsetX - starting index
+* @param {integer} stride - stride length
+* @param {NonNegativeInteger} offset - starting index
 * @returns {number} sum
 *
 * @example
-* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
+* var floor = require( '@stdlib/math/base/special/floor' );
 *
-* var v = gnansumors( 4, x, 2, 1 );
+* var x = [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ];
+* var N = floor( x.length / 2 );
+*
+* var v = gnansumors( N, x, 2, 1 );
 * // returns 5.0
 */
-function gnansumors( N, x, strideX, offsetX ) {
-	var sum;
+function gnansumors( N, x, stride, offset ) {
 	var ix;
+	var s;
 	var i;
 
+	s = 0.0;
 	if ( N <= 0 ) {
-		return 0.0;
+		return s;
 	}
-	ix = offsetX;
-	if ( strideX === 0 ) {
-		if ( isnan( x[ ix ] ) ) {
-			return 0.0;
+	if ( N === 1 || stride === 0 ) {
+		if ( isnan( x[ offset ] ) ) {
+			return s;
 		}
-		return N * x[ ix ];
+		return x[ offset ];
 	}
-	sum = 0.0;
+	ix = offset;
 	for ( i = 0; i < N; i++ ) {
 		if ( isnan( x[ ix ] ) === false ) {
-			sum += x[ ix ];
+			s += x[ ix ];
 		}
-		ix += strideX;
+		ix += stride;
 	}
-	return sum;
+	return s;
 }
 
 

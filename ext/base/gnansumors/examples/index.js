@@ -18,19 +18,22 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/base/discrete-uniform' );
-var bernoulli = require( '@stdlib/random/base/bernoulli' );
-var filledarrayBy = require( '@stdlib/array/filled-by' );
+var randu = require( '@stdlib/random/base/randu' );
+var round = require( '@stdlib/math/base/special/round' );
+var Float64Array = require( '@stdlib/array/float64' );
 var gnansumors = require( './../lib' );
 
-function rand() {
-	if ( bernoulli( 0.7 ) > 0 ) {
-		return discreteUniform( 0, 100 );
-	}
-	return NaN;
-}
+var x;
+var i;
 
-var x = filledarrayBy( 10, 'float64', rand );
+x = new Float64Array( 10 );
+for ( i = 0; i < x.length; i++ ) {
+	if ( randu() < 0.2 ) {
+		x[ i ] = NaN;
+	} else {
+		x[ i ] = round( randu()*100.0 );
+	}
+}
 console.log( x );
 
 var v = gnansumors( x.length, x, 1 );
