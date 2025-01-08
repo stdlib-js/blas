@@ -1335,6 +1335,8 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`21006f2`](https://github.com/stdlib-js/stdlib/commit/21006f2b89ee26106054fb7895792c09f1f3fc7e) - **docs:** fix examples require path for `blas/ext/base/gnansumpw` [(#4642)](https://github.com/stdlib-js/stdlib/pull/4642) _(by Muhammad Haris)_
+-   [`0892e11`](https://github.com/stdlib-js/stdlib/commit/0892e116e96a8145f6d566e58bc6cff0d20ae3f2) - **refactor:** update `blas/ext/base/gnansumors` to follow current project conventions [(#4640)](https://github.com/stdlib-js/stdlib/pull/4640) _(by Muhammad Haris, Athan Reines)_
 -   [`a6a0193`](https://github.com/stdlib-js/stdlib/commit/a6a019330f3ef2ab111a56dc060f232bf6716e32) - **refactor:** update `blas/ext/base/gnansum` to follow current project conventions [(#4639)](https://github.com/stdlib-js/stdlib/pull/4639) _(by Muhammad Haris, Athan Reines)_
 -   [`86d1379`](https://github.com/stdlib-js/stdlib/commit/86d1379bcadc1736b92d507ce6ea03c58c24b1d3) - **refactor:** update `blas/ext/base/gnansumpw` to follow current project conventions [(#4641)](https://github.com/stdlib-js/stdlib/pull/4641) _(by Muhammad Haris)_
 -   [`2cd9a7e`](https://github.com/stdlib-js/stdlib/commit/2cd9a7e46e14388370c455983f91d6ef949bf3a4) - **refactor:** update `blas/ext/base/gnansumkbn2` to follow current project conventions [(#4634)](https://github.com/stdlib-js/stdlib/pull/4634) _(by Muhammad Haris)_
