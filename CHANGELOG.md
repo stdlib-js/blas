@@ -1335,6 +1335,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`2cd9a7e`](https://github.com/stdlib-js/stdlib/commit/2cd9a7e46e14388370c455983f91d6ef949bf3a4) - **refactor:** update `blas/ext/base/gnansumkbn2` to follow current project conventions [(#4634)](https://github.com/stdlib-js/stdlib/pull/4634) _(by Muhammad Haris)_
 -   [`e7febbb`](https://github.com/stdlib-js/stdlib/commit/e7febbb12a07c4040dcef0710f0efee4a4f38797) - **refactor:** update `blas/ext/base/gnansumkbn` to follow current project conventions [(#4632)](https://github.com/stdlib-js/stdlib/pull/4632) _(by Muhammad Haris)_
 -   [`a13b924`](https://github.com/stdlib-js/stdlib/commit/a13b924cf236742b407bb6dc137eef194fdfd88f) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumors` [(#4320)](https://github.com/stdlib-js/stdlib/pull/4320) _(by Muhammad Haris, Athan Reines)_
 -   [`563a4f8`](https://github.com/stdlib-js/stdlib/commit/563a4f826ab757636ae08094fc6f62746042da4b) - **docs:** update related packages sections [(#4594)](https://github.com/stdlib-js/stdlib/pull/4594) _(by stdlib-bot)_
