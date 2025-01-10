@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-09)
+## Unreleased (2025-01-10)
 
 <section class="packages">
 
@@ -1357,6 +1357,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`dbade8e`](https://github.com/stdlib-js/stdlib/commit/dbade8ed06df1ad8cef3ecf6c1f1f729ad62a53c) - **refactor:** update `blas/ext/base/gsumpw` to follow current project conventions [(#4680)](https://github.com/stdlib-js/stdlib/pull/4680) _(by Muhammad Haris)_
 -   [`76642bf`](https://github.com/stdlib-js/stdlib/commit/76642bf477c7431527bdeef8b979e92e8d93e6bb) - **docs:** update namespace table of contents [(#4658)](https://github.com/stdlib-js/stdlib/pull/4658) _(by stdlib-bot)_
 -   [`1d7a2df`](https://github.com/stdlib-js/stdlib/commit/1d7a2dfcb1cb9bae13f6ecd63aca3c4741433d29) - **docs:** update namespace TypeScript declarations [(#4656)](https://github.com/stdlib-js/stdlib/pull/4656) _(by stdlib-bot)_
 -   [`074b9a1`](https://github.com/stdlib-js/stdlib/commit/074b9a191c77d297bab5cb51cf82a727a650fe58) - **feat:** add C `ndarray` API and refactor `blas/ext/base/dsumpw` [(#4329)](https://github.com/stdlib-js/stdlib/pull/4329) _(by Muhammad Haris)_
