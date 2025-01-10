@@ -1357,6 +1357,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`bb638df`](https://github.com/stdlib-js/stdlib/commit/bb638df38852d5ba3e341e9d607a0900a5d55723) - **refactor:** update `blas/ext/base/gnannsumkbn` to follow current project conventions [(#4631)](https://github.com/stdlib-js/stdlib/pull/4631) _(by Muhammad Haris)_
 -   [`0639c11`](https://github.com/stdlib-js/stdlib/commit/0639c11f0aac69a249c9710c9031e4f9cec14f62) - **refactor:** update `blas/ext/base/gsumkbn2` to follow current project conventions [(#4678)](https://github.com/stdlib-js/stdlib/pull/4678) _(by Muhammad Haris)_
 -   [`c36f0e7`](https://github.com/stdlib-js/stdlib/commit/c36f0e73214c70c686defbaf5adc2d3e86a6595b) - **refactor:** update `blas/ext/base/gsumors` to follow current project conventions [(#4679)](https://github.com/stdlib-js/stdlib/pull/4679) _(by Muhammad Haris)_
 -   [`dbade8e`](https://github.com/stdlib-js/stdlib/commit/dbade8ed06df1ad8cef3ecf6c1f1f729ad62a53c) - **refactor:** update `blas/ext/base/gsumpw` to follow current project conventions [(#4680)](https://github.com/stdlib-js/stdlib/pull/4680) _(by Muhammad Haris)_
