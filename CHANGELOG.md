@@ -1357,7 +1357,6 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
--   [`dbb338e`](https://github.com/stdlib-js/stdlib/commit/dbb338e80336515e9f7ef602188985bbbe9b9010) - **docs:** update related packages sections [(#4690)](https://github.com/stdlib-js/stdlib/pull/4690) _(by stdlib-bot)_
 -   [`09b5945`](https://github.com/stdlib-js/stdlib/commit/09b5945ae5fedad2de3f3154c599868b8414967d) - **docs:** update namespace TypeScript declaration comments [(#4691)](https://github.com/stdlib-js/stdlib/pull/4691) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`ba7f732`](https://github.com/stdlib-js/stdlib/commit/ba7f7328fc7fe6e2049f79421f152303daa1f290) - **docs:** update namespace table of contents [(#4693)](https://github.com/stdlib-js/stdlib/pull/4693) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`bb638df`](https://github.com/stdlib-js/stdlib/commit/bb638df38852d5ba3e341e9d607a0900a5d55723) - **refactor:** update `blas/ext/base/gnannsumkbn` to follow current project conventions [(#4631)](https://github.com/stdlib-js/stdlib/pull/4631) _(by Muhammad Haris)_
