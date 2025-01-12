@@ -419,6 +419,7 @@
 
 ##### Features
 
+-   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
 -   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487)
 -   [`1a202e3`](https://github.com/stdlib-js/stdlib/commit/1a202e3605b10cd01bf9654f8356c72c5c8a8186) - update namespace TypeScript declarations [(#3916)](https://github.com/stdlib-js/stdlib/pull/3916)
 -   [`a64ea86`](https://github.com/stdlib-js/stdlib/commit/a64ea86886d159e09b37e8591fc53d9944618204) - update namespace TypeScript declarations [(#3371)](https://github.com/stdlib-js/stdlib/pull/3371)
@@ -1357,6 +1358,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - **feat:** update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706) _(by stdlib-bot)_
 -   [`cff470f`](https://github.com/stdlib-js/stdlib/commit/cff470f9608165100c8c122fce70c40b1af864ec) - **docs:** update namespace table of contents (#4708) _(by stdlib-bot, Planeshifter)_
 -   [`ea9e425`](https://github.com/stdlib-js/stdlib/commit/ea9e42538dd6342bf5c02c2d7c68aa1eae3b15d6) - **refactor:** update `blas/ext/base/grev` to follow current project conventions [(#4659)](https://github.com/stdlib-js/stdlib/pull/4659) _(by Muhammad Haris)_
 -   [`53c0427`](https://github.com/stdlib-js/stdlib/commit/53c0427db5f49ab6209c55941ff15270a3569d44) - **refactor:** update `blas/ext/base/gcusumors` to follow current project conventions [(#4453)](https://github.com/stdlib-js/stdlib/pull/4453) _(by Muhammad Haris, Athan Reines)_
