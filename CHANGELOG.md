@@ -1193,6 +1193,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-scusumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/scusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumkbn2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3ca8ed8`](https://github.com/stdlib-js/stdlib/commit/3ca8ed8f2fb388fcf6890322f6f880c30fd6094e) - add C `ndarray` API and refactor `blas/ext/base/scusumkbn2` [(#4788)](https://github.com/stdlib-js/stdlib/pull/4788)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumors-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumors)
@@ -1379,6 +1401,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3ca8ed8`](https://github.com/stdlib-js/stdlib/commit/3ca8ed8f2fb388fcf6890322f6f880c30fd6094e) - **feat:** add C `ndarray` API and refactor `blas/ext/base/scusumkbn2` [(#4788)](https://github.com/stdlib-js/stdlib/pull/4788) _(by Muhammad Haris, Athan Reines)_
 -   [`318ba82`](https://github.com/stdlib-js/stdlib/commit/318ba8201aedcc62f9717c216666964414be0864) - **docs:** update related packages sections [(#4784)](https://github.com/stdlib-js/stdlib/pull/4784) _(by stdlib-bot)_
 -   [`efadfe5`](https://github.com/stdlib-js/stdlib/commit/efadfe575cea2d97f30b2994691c5a7c43e8d838) - **bench:** refactor array generation _(by Athan Reines)_
 -   [`3d97ce8`](https://github.com/stdlib-js/stdlib/commit/3d97ce8fc13ec47c60a4698ba2668e6330c125ea) - **bench:** measure performance on generic arrays _(by Athan Reines)_
