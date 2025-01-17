@@ -1380,6 +1380,11 @@ A total of 9 people contributed to this release. Thank you to the following cont
 <details>
 
 -   [`318ba82`](https://github.com/stdlib-js/stdlib/commit/318ba8201aedcc62f9717c216666964414be0864) - **docs:** update related packages sections [(#4784)](https://github.com/stdlib-js/stdlib/pull/4784) _(by stdlib-bot)_
+-   [`efadfe5`](https://github.com/stdlib-js/stdlib/commit/efadfe575cea2d97f30b2994691c5a7c43e8d838) - **bench:** refactor array generation _(by Athan Reines)_
+-   [`3d97ce8`](https://github.com/stdlib-js/stdlib/commit/3d97ce8fc13ec47c60a4698ba2668e6330c125ea) - **bench:** measure performance on generic arrays _(by Athan Reines)_
+-   [`88696eb`](https://github.com/stdlib-js/stdlib/commit/88696ebda08b52c7a5e2a64680c75e3c5b113792) - **docs:** update require path _(by Athan Reines)_
+-   [`46e3e8c`](https://github.com/stdlib-js/stdlib/commit/46e3e8c0bfaae55d9bf70763c6af5bff7094076b) - **docs:** update require path _(by Athan Reines)_
+-   [`22cd928`](https://github.com/stdlib-js/stdlib/commit/22cd9281bd0197a555ad3c577665bbb15696119e) - **docs:** update require path _(by Athan Reines)_
 -   [`dfb4d35`](https://github.com/stdlib-js/stdlib/commit/dfb4d358b0ff1905f34f0a1552feeac26e9f88ba) - **docs:** update namespace table of contents [(#4760)](https://github.com/stdlib-js/stdlib/pull/4760) _(by stdlib-bot)_
 -   [`5ef1f55`](https://github.com/stdlib-js/stdlib/commit/5ef1f55b06a5ba1c096eb0ad6b07287344266bec) - **docs:** update related packages sections [(#4757)](https://github.com/stdlib-js/stdlib/pull/4757) _(by stdlib-bot)_
 -   [`6028758`](https://github.com/stdlib-js/stdlib/commit/6028758df442105f1ac0d4240450c96cf3ad4032) - **docs:** update namespace TypeScript declaration comments [(#4758)](https://github.com/stdlib-js/stdlib/pull/4758) _(by stdlib-bot, Philipp Burckhardt)_

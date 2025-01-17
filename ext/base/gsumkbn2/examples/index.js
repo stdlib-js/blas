@@ -19,7 +19,7 @@
 'use strict';
 
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var gsumkbn2 = require( './../../../../ext/base/gsumkbn2' );
+var gsumkbn2 = require( './../lib' );
 
 var x = discreteUniform( 10, -100, 100, {
 	'dtype': 'float64'
