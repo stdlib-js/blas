@@ -1543,6 +1543,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8e4ef81`](https://github.com/stdlib-js/stdlib/commit/8e4ef81d340f7a9ab87b23569f05496ff070f8cb) - **refactor:** update `blas/ext/base/gapx` to follow current project conventions [(#4347)](https://github.com/stdlib-js/stdlib/pull/4347) _(by Muhammad Haris)_
 -   [`4cc5a5b`](https://github.com/stdlib-js/stdlib/commit/4cc5a5b0170c928b2663858eddf9f24190c703f1) - **refactor:** update `blas/ext/base/gasumpw` to follow current project conventions [(#4384)](https://github.com/stdlib-js/stdlib/pull/4384) _(by Muhammad Haris)_
 -   [`69e8243`](https://github.com/stdlib-js/stdlib/commit/69e82436345b2556a4e494fca32a038735af0afa) - **refactor:** update `blas/ext/base/gapxsumpw` to follow current project conventions [(#4382)](https://github.com/stdlib-js/stdlib/pull/4382) _(by Muhammad Haris)_
 -   [`64846e4`](https://github.com/stdlib-js/stdlib/commit/64846e48c83b76227004369d36654c59d6f76aae) - **refactor:** update `blas/ext/base/gapxsumkbn2` to follow current project conventions [(#4378)](https://github.com/stdlib-js/stdlib/pull/4378) _(by Muhammad Haris, Athan Reines)_
