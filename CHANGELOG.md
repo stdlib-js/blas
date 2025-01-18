@@ -1565,6 +1565,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`c1d2e88`](https://github.com/stdlib-js/stdlib/commit/c1d2e88ef9f39de380cc3f561cb905e013f00587) - **test:** update test-cases for stride handling in `blas/ext/base/gapxsum` [(#4801)](https://github.com/stdlib-js/stdlib/pull/4801) _(by Muhammad Haris)_
 -   [`984dc38`](https://github.com/stdlib-js/stdlib/commit/984dc3890e96494a37e085efc4ee0d2bd09ad9bd) - **refactor:** update `blas/ext/base/gcusumkbn2` to follow current project conventions [(#4436)](https://github.com/stdlib-js/stdlib/pull/4436) _(by Muhammad Haris)_
 -   [`897aa61`](https://github.com/stdlib-js/stdlib/commit/897aa61d3548b7dceec551b64dd353d506bb307b) - **refactor:** update `blas/ext/base/gcusum` to follow current project conventions [(#4435)](https://github.com/stdlib-js/stdlib/pull/4435) _(by Muhammad Haris, Athan Reines)_
 -   [`c0a0110`](https://github.com/stdlib-js/stdlib/commit/c0a0110f91f4b6f2bef48d73c3a539d03f9dec9c) - **refactor:** update `blas/ext/base/gcusumpw` to follow current project conventions [(#4551)](https://github.com/stdlib-js/stdlib/pull/4551) _(by Muhammad Haris, Athan Reines)_
