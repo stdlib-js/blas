@@ -1183,6 +1183,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-sapxsumkbn-unreleased">
+
+#### [@stdlib/blas/ext/base/sapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`3d551c4`](https://github.com/stdlib-js/stdlib/commit/3d551c499345de88a1e897c26977cde8d5f263a9) - add C `ndarray` API and refactor `blas/ext/base/sapxsumkbn` [(#4714)](https://github.com/stdlib-js/stdlib/pull/4714)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-sapxsumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/sapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn2)
@@ -1543,6 +1565,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`3d551c4`](https://github.com/stdlib-js/stdlib/commit/3d551c499345de88a1e897c26977cde8d5f263a9) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sapxsumkbn` [(#4714)](https://github.com/stdlib-js/stdlib/pull/4714) _(by Muhammad Haris, stdlib-bot)_
 -   [`ffc3cf0`](https://github.com/stdlib-js/stdlib/commit/ffc3cf0d42d14e1f1d9de30577bb0bb80603be29) - **refactor:** update `blas/ext/base/gsumkbn` to follow current project conventions [(#4677#pullrequestreview-2560395620)](https://github.com/stdlib-js/stdlib/pull/4677#pullrequestreview-2560395620) _(by Muhammad Haris)_
 -   [`678f294`](https://github.com/stdlib-js/stdlib/commit/678f294c5f9cc5b9e89b38e1e6e1736d3c4b621c) - **refactor:** update `blas/ext/base/gapxsum` to follow current project conventions [(#4348)](https://github.com/stdlib-js/stdlib/pull/4348) _(by Muhammad Haris, Athan Reines)_
 -   [`8e4ef81`](https://github.com/stdlib-js/stdlib/commit/8e4ef81d340f7a9ab87b23569f05496ff070f8cb) - **refactor:** update `blas/ext/base/gapx` to follow current project conventions [(#4347)](https://github.com/stdlib-js/stdlib/pull/4347) _(by Muhammad Haris)_
