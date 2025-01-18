@@ -1161,6 +1161,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gsumors-unreleased">
+
+#### [@stdlib/blas/ext/base/gsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gsumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1fa205c`](https://github.com/stdlib-js/stdlib/commit/1fa205cc4a6002a53be6fda15006749a0e18eeec) - add support for accessor arrays
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-sapxsumkbn2-unreleased">
 
 #### [@stdlib/blas/ext/base/sapxsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsumkbn2)
@@ -1499,6 +1521,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`1fa205c`](https://github.com/stdlib-js/stdlib/commit/1fa205cc4a6002a53be6fda15006749a0e18eeec) - **feat:** add support for accessor arrays _(by Athan Reines)_
 -   [`e09860d`](https://github.com/stdlib-js/stdlib/commit/e09860df82de288c68c2e90f9ac8727caba3d7fd) - **fix:** update type definitions to support accessor arrays _(by Athan Reines)_
 -   [`c217016`](https://github.com/stdlib-js/stdlib/commit/c217016730b128f5a0beb06e28f28d671040ab97) - **refactor:** update `blas/ext/base/gfill-by` to follow current project conventions [(#4553)](https://github.com/stdlib-js/stdlib/pull/4553) _(by Muhammad Haris, Athan Reines)_
 -   [`b5162a4`](https://github.com/stdlib-js/stdlib/commit/b5162a4e01171af062b711f4be105a4e4a24fb8b) - **refactor:** update `blas/ext/base/gfill` to follow current project conventions [(#4552)](https://github.com/stdlib-js/stdlib/pull/4552) _(by Muhammad Haris)_
