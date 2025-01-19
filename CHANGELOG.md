@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-18)
+## Unreleased (2025-01-19)
 
 <section class="packages">
 
@@ -387,6 +387,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-zdscal-unreleased">
+
+#### [@stdlib/blas/base/zdscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zdscal)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`4b88dd6`](https://github.com/stdlib-js/stdlib/commit/4b88dd6a4fc83d387ea60a0b129bdaf53bc8c184) - add `blas/base/zdscal` [(#4738)](https://github.com/stdlib-js/stdlib/pull/4738)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zswap-unreleased">
 
 #### [@stdlib/blas/base/zswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zswap)
@@ -420,7 +442,6 @@
 ##### Features
 
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
--   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487)
 -   [`1a202e3`](https://github.com/stdlib-js/stdlib/commit/1a202e3605b10cd01bf9654f8356c72c5c8a8186) - update namespace TypeScript declarations [(#3916)](https://github.com/stdlib-js/stdlib/pull/3916)
 -   [`a64ea86`](https://github.com/stdlib-js/stdlib/commit/a64ea86886d159e09b37e8591fc53d9944618204) - update namespace TypeScript declarations [(#3371)](https://github.com/stdlib-js/stdlib/pull/3371)
 -   [`9818fa6`](https://github.com/stdlib-js/stdlib/commit/9818fa6dd8c90e045a147bfd1ba83cb1f693d17b) - update namespace TypeScript declarations [(#3259)](https://github.com/stdlib-js/stdlib/pull/3259)
@@ -438,6 +459,31 @@
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
     -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dapx-unreleased">
+
+#### [@stdlib/blas/ext/base/dapx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapx)
+
+<details>
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`02cbff3`](https://github.com/stdlib-js/stdlib/commit/02cbff35d876dcea7efd41794f414c7df5eddca4): - `c_dapx()` renamed to `stdlib_strided_dapx()`
+
+    -   - `c_dapx_ndarray()` renamed to `stdlib_strided_dapx_ndarray()`
+        All downstream usage of the old `c_dapx*` symbols must be updated to use the new symbols.
 
 </section>
 
@@ -1519,6 +1565,11 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`02cbff3`](https://github.com/stdlib-js/stdlib/commit/02cbff35d876dcea7efd41794f414c7df5eddca4): - `c_dapx()` renamed to `stdlib_strided_dapx()`
+
+    -   - `c_dapx_ndarray()` renamed to `stdlib_strided_dapx_ndarray()`
+        All downstream usage of the old `c_dapx*` symbols must be updated to use the new symbols.
+
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
     -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
@@ -1543,7 +1594,7 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 9 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1552,6 +1603,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   Muhammad Haris
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   Ricky Reusser
 -   Saurabh Singh
 -   Snehil Shah
 
@@ -1565,6 +1617,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`4b88dd6`](https://github.com/stdlib-js/stdlib/commit/4b88dd6a4fc83d387ea60a0b129bdaf53bc8c184) - **feat:** add `blas/base/zdscal` [(#4738)](https://github.com/stdlib-js/stdlib/pull/4738) _(by Ricky Reusser, Athan Reines)_
 -   [`c1d2e88`](https://github.com/stdlib-js/stdlib/commit/c1d2e88ef9f39de380cc3f561cb905e013f00587) - **test:** update test-cases for stride handling in `blas/ext/base/gapxsum` [(#4801)](https://github.com/stdlib-js/stdlib/pull/4801) _(by Muhammad Haris)_
 -   [`984dc38`](https://github.com/stdlib-js/stdlib/commit/984dc3890e96494a37e085efc4ee0d2bd09ad9bd) - **refactor:** update `blas/ext/base/gcusumkbn2` to follow current project conventions [(#4436)](https://github.com/stdlib-js/stdlib/pull/4436) _(by Muhammad Haris)_
 -   [`897aa61`](https://github.com/stdlib-js/stdlib/commit/897aa61d3548b7dceec551b64dd353d506bb307b) - **refactor:** update `blas/ext/base/gcusum` to follow current project conventions [(#4435)](https://github.com/stdlib-js/stdlib/pull/4435) _(by Muhammad Haris, Athan Reines)_
@@ -1626,7 +1679,7 @@ A total of 9 people contributed to this release. Thank you to the following cont
 -   [`f231799`](https://github.com/stdlib-js/stdlib/commit/f231799e1d40cfff7ceb79a6074166a08c4ba072) - **docs:** update related packages sections [(#4545)](https://github.com/stdlib-js/stdlib/pull/4545) _(by stdlib-bot)_
 -   [`321e49e`](https://github.com/stdlib-js/stdlib/commit/321e49e9965648f1b5eb6a840fe454959af0ec49) - **docs:** add missing periods to list items _(by Philipp Burckhardt)_
 -   [`3cd2abf`](https://github.com/stdlib-js/stdlib/commit/3cd2abf7c694c28a32c13b4702d2e12dced5cc36) - **docs:** update namespace table of contents [(#4489)](https://github.com/stdlib-js/stdlib/pull/4489) _(by stdlib-bot)_
--   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - **feat:** update namespace TypeScript declarations [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`133c539`](https://github.com/stdlib-js/stdlib/commit/133c5394889b68952968cd6f4ff192f9692deb9f) - **docs:** update namespace TypeScript declaration comments [(#4487)](https://github.com/stdlib-js/stdlib/pull/4487) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`d0c4941`](https://github.com/stdlib-js/stdlib/commit/d0c49411dbdee17017f411ca1c2d1acd0e4ccca9) - **refactor:** update `blas/ext/base/gapxsumkbn` to follow current project conventions [(#4358)](https://github.com/stdlib-js/stdlib/pull/4358) _(by Muhammad Haris, Athan Reines)_
 -   [`464e2cc`](https://github.com/stdlib-js/stdlib/commit/464e2cc9a3bb6430d7397db2e70c62b0ca275f09) - **refactor:** update `blas/ext/base/gcusumkbn` to follow current project conventions [(#4412)](https://github.com/stdlib-js/stdlib/pull/4412) _(by Muhammad Haris, Athan Reines)_
 -   [`090e47b`](https://github.com/stdlib-js/stdlib/commit/090e47b8d61456a35d74abcb39467e107d34ebe5) - **style:** remove decimals _(by Athan Reines)_
