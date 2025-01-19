@@ -1234,6 +1234,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-sapx-unreleased">
+
+#### [@stdlib/blas/ext/base/sapx](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapx)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2ea4452`](https://github.com/stdlib-js/stdlib/commit/2ea4452fa0f63499be526f392fa7fdd647d1a9b5) - add C `ndarray` API and refactor `blas/ext/base/sapx` [(#4696)](https://github.com/stdlib-js/stdlib/pull/4696)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`2ea4452`](https://github.com/stdlib-js/stdlib/commit/2ea4452fa0f63499be526f392fa7fdd647d1a9b5): rename `c_sapx` to `stdlib_strided_sapx`
+
+    -   To migrate, users should replace all instances of `c_sapx` with `stdlib_strided_sapx`.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-sapxsum-unreleased">
 
 #### [@stdlib/blas/ext/base/sapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sapxsum)
@@ -1614,6 +1648,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`2ea4452`](https://github.com/stdlib-js/stdlib/commit/2ea4452fa0f63499be526f392fa7fdd647d1a9b5): rename `c_sapx` to `stdlib_strided_sapx`
+
+    -   To migrate, users should replace all instances of `c_sapx` with `stdlib_strided_sapx`.
+
 -   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8): remove `dmax`
 
     -   To migrate, users should access `dmax` via the `stats/strided` namespace.
@@ -1670,6 +1708,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2ea4452`](https://github.com/stdlib-js/stdlib/commit/2ea4452fa0f63499be526f392fa7fdd647d1a9b5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sapx` [(#4696)](https://github.com/stdlib-js/stdlib/pull/4696) _(by Muhammad Haris, Athan Reines)_
 -   [`036fccd`](https://github.com/stdlib-js/stdlib/commit/036fccd5c53531a64ca81e8c4c0818d5f03ac411) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sapxsum` [(#4812)](https://github.com/stdlib-js/stdlib/pull/4812) _(by Muhammad Haris)_
 -   [`a1edb83`](https://github.com/stdlib-js/stdlib/commit/a1edb830ac6e7bb3297bddd7b5bcd4e34a51eee3) - **feat:** add C `ndarray` API and refactor `blas/ext/base/scusumors` [(#4813)](https://github.com/stdlib-js/stdlib/pull/4813) _(by Muhammad Haris)_
 -   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - **feat:** update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809) _(by stdlib-bot)_
