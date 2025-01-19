@@ -1430,6 +1430,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-scusumors-unreleased">
+
+#### [@stdlib/blas/ext/base/scusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/scusumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a1edb83`](https://github.com/stdlib-js/stdlib/commit/a1edb830ac6e7bb3297bddd7b5bcd4e34a51eee3) - add C `ndarray` API and refactor `blas/ext/base/scusumors` [(#4813)](https://github.com/stdlib-js/stdlib/pull/4813)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumors-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumors)
@@ -1626,6 +1648,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a1edb83`](https://github.com/stdlib-js/stdlib/commit/a1edb830ac6e7bb3297bddd7b5bcd4e34a51eee3) - **feat:** add C `ndarray` API and refactor `blas/ext/base/scusumors` [(#4813)](https://github.com/stdlib-js/stdlib/pull/4813) _(by Muhammad Haris)_
 -   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - **feat:** update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809) _(by stdlib-bot)_
 -   [`21c2f38`](https://github.com/stdlib-js/stdlib/commit/21c2f3822dd61cce49ec0e38ea0add2b91006162) - **docs:** update namespace table of contents [(#4811)](https://github.com/stdlib-js/stdlib/pull/4811) _(by stdlib-bot)_
 -   [`4b88dd6`](https://github.com/stdlib-js/stdlib/commit/4b88dd6a4fc83d387ea60a0b129bdaf53bc8c184) - **feat:** add `blas/base/zdscal` [(#4738)](https://github.com/stdlib-js/stdlib/pull/4738) _(by Ricky Reusser, Athan Reines)_
