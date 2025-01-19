@@ -441,6 +441,7 @@
 
 ##### Features
 
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809)
 -   [`e661213`](https://github.com/stdlib-js/stdlib/commit/e66121352ef767cdb87d19e938b1eccf7970fa3a) - update namespace TypeScript declarations [(#4706)](https://github.com/stdlib-js/stdlib/pull/4706)
 -   [`1a202e3`](https://github.com/stdlib-js/stdlib/commit/1a202e3605b10cd01bf9654f8356c72c5c8a8186) - update namespace TypeScript declarations [(#3916)](https://github.com/stdlib-js/stdlib/pull/3916)
 -   [`a64ea86`](https://github.com/stdlib-js/stdlib/commit/a64ea86886d159e09b37e8591fc53d9944618204) - update namespace TypeScript declarations [(#3371)](https://github.com/stdlib-js/stdlib/pull/3371)
@@ -455,6 +456,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8): remove `dmax`
+
+    -   To migrate, users should access `dmax` via the `stats/strided` namespace.
 
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
@@ -1565,6 +1570,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8): remove `dmax`
+
+    -   To migrate, users should access `dmax` via the `stats/strided` namespace.
+
 -   [`02cbff3`](https://github.com/stdlib-js/stdlib/commit/02cbff35d876dcea7efd41794f414c7df5eddca4): - `c_dapx()` renamed to `stdlib_strided_dapx()`
 
     -   - `c_dapx_ndarray()` renamed to `stdlib_strided_dapx_ndarray()`
@@ -1617,6 +1626,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0eac1eb`](https://github.com/stdlib-js/stdlib/commit/0eac1ebde891ba75b8c4939119a6c4b7c88ceed8) - **feat:** update namespace TypeScript declarations [(#4809)](https://github.com/stdlib-js/stdlib/pull/4809) _(by stdlib-bot)_
 -   [`21c2f38`](https://github.com/stdlib-js/stdlib/commit/21c2f3822dd61cce49ec0e38ea0add2b91006162) - **docs:** update namespace table of contents [(#4811)](https://github.com/stdlib-js/stdlib/pull/4811) _(by stdlib-bot)_
 -   [`4b88dd6`](https://github.com/stdlib-js/stdlib/commit/4b88dd6a4fc83d387ea60a0b129bdaf53bc8c184) - **feat:** add `blas/base/zdscal` [(#4738)](https://github.com/stdlib-js/stdlib/pull/4738) _(by Ricky Reusser, Athan Reines)_
 -   [`c1d2e88`](https://github.com/stdlib-js/stdlib/commit/c1d2e88ef9f39de380cc3f561cb905e013f00587) - **test:** update test-cases for stride handling in `blas/ext/base/gapxsum` [(#4801)](https://github.com/stdlib-js/stdlib/pull/4801) _(by Muhammad Haris)_
