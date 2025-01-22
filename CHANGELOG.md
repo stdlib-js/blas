@@ -1579,6 +1579,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-srev-unreleased">
+
+#### [@stdlib/blas/ext/base/srev](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/srev)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5) - add C `ndarray` API and refactor `blas/ext/base/srev` [(#4848)](https://github.com/stdlib-js/stdlib/pull/4848)
+
+</section>
+
+<!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5): rename `c_srev`
+
+    -   To migrate, users should replace usage of `c_srev` with `stdlib_strided_srev`. The API signatures remain the same.
+
+</section>
+
+<!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-ssumors-unreleased">
 
 #### [@stdlib/blas/ext/base/ssumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/ssumors)
@@ -1675,6 +1709,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5): rename `c_srev`
+
+    -   To migrate, users should replace usage of `c_srev` with `stdlib_strided_srev`. The API signatures remain the same.
+
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f): remove `stats/base/dcumaxabs`
 
     -   To migrate, users should access `dcumaxabs` via the `stats/strided` namespace.
@@ -1739,6 +1777,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/srev` [(#4848)](https://github.com/stdlib-js/stdlib/pull/4848) _(by Muhammad Haris, Athan Reines)_
 -   [`c97212e`](https://github.com/stdlib-js/stdlib/commit/c97212e122c2d20800469913282d9df791fcebf2) - **refactor:** avoid complex number instantiation _(by Athan Reines)_
 -   [`305beea`](https://github.com/stdlib-js/stdlib/commit/305beea04159cc7ee113442662a2694c14919f19) - **refactor:** use `complex/float64/base/scale` _(by Athan Reines)_
 -   [`63bb1c5`](https://github.com/stdlib-js/stdlib/commit/63bb1c5e4287293c7a7fcbcb5e1539b9d2891895) - **docs:** update related packages sections [(#4842)](https://github.com/stdlib-js/stdlib/pull/4842) _(by stdlib-bot, Athan Reines)_
