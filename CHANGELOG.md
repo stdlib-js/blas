@@ -1739,6 +1739,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`63bb1c5`](https://github.com/stdlib-js/stdlib/commit/63bb1c5e4287293c7a7fcbcb5e1539b9d2891895) - **docs:** update related packages sections [(#4842)](https://github.com/stdlib-js/stdlib/pull/4842) _(by stdlib-bot, Athan Reines)_
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - **feat:** update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843) _(by stdlib-bot)_
 -   [`399942d`](https://github.com/stdlib-js/stdlib/commit/399942d86d04b5b5aba4e41d6957f3089ad58ab1) - **docs:** update examples for `blas/base/ccopy` [(#4836)](https://github.com/stdlib-js/stdlib/pull/4836) _(by Gururaj Gurram, Athan Reines)_
 -   [`902977d`](https://github.com/stdlib-js/stdlib/commit/902977d7e637a7dfb1704fc4caa8fc3913d3246d) - **docs:** update related packages sections [(#4825)](https://github.com/stdlib-js/stdlib/pull/4825) _(by stdlib-bot)_
