@@ -1558,6 +1558,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-sdssumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/sdssumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/sdssumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a0fed4b`](https://github.com/stdlib-js/stdlib/commit/a0fed4bc22ae6098d4366f1d43fb4ed263f4c235) - add C `ndarray` API and refactor `blas/ext/base/sdssumpw` [(#4823)](https://github.com/stdlib-js/stdlib/pull/4823)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumkbn)
@@ -1844,6 +1866,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a0fed4b`](https://github.com/stdlib-js/stdlib/commit/a0fed4bc22ae6098d4366f1d43fb4ed263f4c235) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sdssumpw` [(#4823)](https://github.com/stdlib-js/stdlib/pull/4823) _(by Muhammad Haris)_
 -   [`b358161`](https://github.com/stdlib-js/stdlib/commit/b35816126979042a3a33446b8ab64d6ff0e8c68a) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumkbn` [(#4834)](https://github.com/stdlib-js/stdlib/pull/4834) _(by Muhammad Haris)_
 -   [`edcbd07`](https://github.com/stdlib-js/stdlib/commit/edcbd07c090a97f6aaacd7e42c288e7685716994) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sdsapxsumpw` [(#4815)](https://github.com/stdlib-js/stdlib/pull/4815) _(by Muhammad Haris, Athan Reines)_
 -   [`8409bd1`](https://github.com/stdlib-js/stdlib/commit/8409bd17639c21c94be23d8498789fca5352892b) - **feat:** update namespace TypeScript declarations [(#4856)](https://github.com/stdlib-js/stdlib/pull/4856) _(by stdlib-bot)_
