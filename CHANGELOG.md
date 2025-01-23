@@ -1535,6 +1535,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-snansumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/snansumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumkbn2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8bef034`](https://github.com/stdlib-js/stdlib/commit/8bef0343d2b8fc61121bafa7224320804b9e5932) - add C `ndarray` API and refactor `blas/ext/base/snansumkbn2` [(#4846)](https://github.com/stdlib-js/stdlib/pull/4846)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumors-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumors)
@@ -1777,6 +1799,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8bef034`](https://github.com/stdlib-js/stdlib/commit/8bef0343d2b8fc61121bafa7224320804b9e5932) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansumkbn2` [(#4846)](https://github.com/stdlib-js/stdlib/pull/4846) _(by Muhammad Haris)_
 -   [`7560ab3`](https://github.com/stdlib-js/stdlib/commit/7560ab3b55a8dfca4d494ea806f392b44fd93d09) - **refactor:** avoid temporary complex number instantiation _(by Athan Reines)_
 -   [`54148e1`](https://github.com/stdlib-js/stdlib/commit/54148e18d543531ecfa547d752eb4f252d8e51f5) - **feat:** add C `ndarray` API and refactor `blas/ext/base/srev` [(#4848)](https://github.com/stdlib-js/stdlib/pull/4848) _(by Muhammad Haris, Athan Reines)_
 -   [`c97212e`](https://github.com/stdlib-js/stdlib/commit/c97212e122c2d20800469913282d9df791fcebf2) - **refactor:** avoid complex number instantiation _(by Athan Reines)_
