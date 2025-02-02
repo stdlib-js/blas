@@ -1294,6 +1294,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gapxsumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/gapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gapxsumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5052523`](https://github.com/stdlib-js/stdlib/commit/5052523f838ba96e29282588584cfa02ed83ff8d) - add accessor arrays support `blas/ext/base/gapxsumpw` [(#4932)](https://github.com/stdlib-js/stdlib/pull/4932)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gasumpw-unreleased">
 
 #### [@stdlib/blas/ext/base/gasumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gasumpw)
@@ -2320,6 +2342,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`5052523`](https://github.com/stdlib-js/stdlib/commit/5052523f838ba96e29282588584cfa02ed83ff8d) - **feat:** add accessor arrays support `blas/ext/base/gapxsumpw` [(#4932)](https://github.com/stdlib-js/stdlib/pull/4932) _(by Muhammad Haris, Athan Reines)_
 -   [`419a872`](https://github.com/stdlib-js/stdlib/commit/419a872327435d5d3549cf6de16d1e9766a98e80) - **feat:** add accessor arrays support to `blas/ext/base/gapxsumors` [(#4930)](https://github.com/stdlib-js/stdlib/pull/4930) _(by Muhammad Haris, Athan Reines)_
 -   [`c879523`](https://github.com/stdlib-js/stdlib/commit/c87952362d00ce9a096b9d9c6dc0a3e92411856a) - **feat:** add accessor arrays support to `blas/ext/base/gapxsum` [(#4927)](https://github.com/stdlib-js/stdlib/pull/4927) _(by Muhammad Haris)_
 -   [`f78899e`](https://github.com/stdlib-js/stdlib/commit/f78899eb1aa02dd8364a544c99743b1c18c2c484) - **feat:** add accessor arrays support to `blas/ext/base/gnansumpw` [(#5037)](https://github.com/stdlib-js/stdlib/pull/5037) _(by Muhammad Haris)_
