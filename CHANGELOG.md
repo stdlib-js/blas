@@ -2008,6 +2008,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-snansum-unreleased">
+
+#### [@stdlib/blas/ext/base/snansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`6516030`](https://github.com/stdlib-js/stdlib/commit/65160305dccd83c8fbf6f9e011e9f9a13c2c0cf8) - add C `ndarray` API and refactor `blas/ext/base/snansum` [(#4872)](https://github.com/stdlib-js/stdlib/pull/4872)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-snansumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/snansumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/snansumkbn)
@@ -2364,6 +2386,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6516030`](https://github.com/stdlib-js/stdlib/commit/65160305dccd83c8fbf6f9e011e9f9a13c2c0cf8) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansum` [(#4872)](https://github.com/stdlib-js/stdlib/pull/4872) _(by Muhammad Haris, Athan Reines)_
 -   [`a660827`](https://github.com/stdlib-js/stdlib/commit/a660827c0f4b24c28029a8231783c9c7a679f714) - **feat:** add accessor arrays support to `blas/ext/base/gapxsumkbn2` [(#4928)](https://github.com/stdlib-js/stdlib/pull/4928) _(by Muhammad Haris, Athan Reines)_
 -   [`5052523`](https://github.com/stdlib-js/stdlib/commit/5052523f838ba96e29282588584cfa02ed83ff8d) - **feat:** add accessor arrays support `blas/ext/base/gapxsumpw` [(#4932)](https://github.com/stdlib-js/stdlib/pull/4932) _(by Muhammad Haris, Athan Reines)_
 -   [`419a872`](https://github.com/stdlib-js/stdlib/commit/419a872327435d5d3549cf6de16d1e9766a98e80) - **feat:** add accessor arrays support to `blas/ext/base/gapxsumors` [(#4930)](https://github.com/stdlib-js/stdlib/pull/4930) _(by Muhammad Haris, Athan Reines)_
