@@ -1382,6 +1382,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gsumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/gsumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gsumkbn2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`97f01ab`](https://github.com/stdlib-js/stdlib/commit/97f01ab3c49115bb526ccdb88bbe8fd07770f17a) - add accessor arrays support to `blas/ext/base/gsumkbn2` [(#4960)](https://github.com/stdlib-js/stdlib/pull/4960)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gsumors-unreleased">
 
 #### [@stdlib/blas/ext/base/gsumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gsumors)
@@ -2210,6 +2232,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`97f01ab`](https://github.com/stdlib-js/stdlib/commit/97f01ab3c49115bb526ccdb88bbe8fd07770f17a) - **feat:** add accessor arrays support to `blas/ext/base/gsumkbn2` [(#4960)](https://github.com/stdlib-js/stdlib/pull/4960) _(by Aayush Khanna)_
 -   [`1d1e8b7`](https://github.com/stdlib-js/stdlib/commit/1d1e8b724cd26e6d0cd70aec5883844ea3aa8e83) - **refactor:** remove redundant code in accessor functions [(#5014)](https://github.com/stdlib-js/stdlib/pull/5014) _(by Aayush Khanna)_
 -   [`9ce3d01`](https://github.com/stdlib-js/stdlib/commit/9ce3d0115c15027d2d971f8ea22950aa5b6774c5) - **feat:** add accessor arrays support to `blas/ext/base/gnansumors` [(#5036)](https://github.com/stdlib-js/stdlib/pull/5036) _(by Muhammad Haris, Athan Reines)_
 -   [`6f8898d`](https://github.com/stdlib-js/stdlib/commit/6f8898dbad41926bd7d03efc778e3a9a23742220) - **feat:** add accessor arrays support to `blas/ext/base/gnansumkbn2` [(#5034)](https://github.com/stdlib-js/stdlib/pull/5034) _(by Muhammad Haris)_
