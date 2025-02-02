@@ -2210,6 +2210,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1d1e8b7`](https://github.com/stdlib-js/stdlib/commit/1d1e8b724cd26e6d0cd70aec5883844ea3aa8e83) - **refactor:** remove redundant code in accessor functions [(#5014)](https://github.com/stdlib-js/stdlib/pull/5014) _(by Aayush Khanna)_
 -   [`9ce3d01`](https://github.com/stdlib-js/stdlib/commit/9ce3d0115c15027d2d971f8ea22950aa5b6774c5) - **feat:** add accessor arrays support to `blas/ext/base/gnansumors` [(#5036)](https://github.com/stdlib-js/stdlib/pull/5036) _(by Muhammad Haris, Athan Reines)_
 -   [`6f8898d`](https://github.com/stdlib-js/stdlib/commit/6f8898dbad41926bd7d03efc778e3a9a23742220) - **feat:** add accessor arrays support to `blas/ext/base/gnansumkbn2` [(#5034)](https://github.com/stdlib-js/stdlib/pull/5034) _(by Muhammad Haris)_
 -   [`2e66bec`](https://github.com/stdlib-js/stdlib/commit/2e66becd6ee0876f1ee00c55506a369bec2d7f7a) - **feat:** add accessor arrays support to `blas/ext/base/gnansumkbn` [(#5032)](https://github.com/stdlib-js/stdlib/pull/5032) _(by Muhammad Haris)_
