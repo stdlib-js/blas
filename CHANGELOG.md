@@ -1294,6 +1294,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gnansumkbn-unreleased">
+
+#### [@stdlib/blas/ext/base/gnansumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gnansumkbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`2e66bec`](https://github.com/stdlib-js/stdlib/commit/2e66becd6ee0876f1ee00c55506a369bec2d7f7a) - add accessor arrays support to `blas/ext/base/gnansumkbn` [(#5032)](https://github.com/stdlib-js/stdlib/pull/5032)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gsumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/gsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gsumkbn)
@@ -2144,6 +2166,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2e66bec`](https://github.com/stdlib-js/stdlib/commit/2e66becd6ee0876f1ee00c55506a369bec2d7f7a) - **feat:** add accessor arrays support to `blas/ext/base/gnansumkbn` [(#5032)](https://github.com/stdlib-js/stdlib/pull/5032) _(by Muhammad Haris)_
 -   [`feb71c7`](https://github.com/stdlib-js/stdlib/commit/feb71c7f3eb1875c1f654b8c8a791fe1ea9a0bb8) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sdsapxsum` [(#4885)](https://github.com/stdlib-js/stdlib/pull/4885) _(by Muhammad Haris)_
 -   [`e85fab1`](https://github.com/stdlib-js/stdlib/commit/e85fab1411db8fc69df853740872de2f1387237c) - **feat:** add C `ndarray` API and refactor `blas/ext/base/sdssum` [(#4873)](https://github.com/stdlib-js/stdlib/pull/4873) _(by Muhammad Haris)_
 -   [`291d653`](https://github.com/stdlib-js/stdlib/commit/291d653c5f5dfb48cb4c65db6a352c19965a38b6) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssum` [(#4871)](https://github.com/stdlib-js/stdlib/pull/4871) _(by Muhammad Haris)_
