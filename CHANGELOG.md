@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-03)
+## Unreleased (2025-02-04)
 
 <section class="packages">
 
@@ -2386,6 +2386,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ef11834`](https://github.com/stdlib-js/stdlib/commit/ef1183420e6bba80849c12f838aa7eb23c6d7635) - **docs:** update related packages sections [(#5048)](https://github.com/stdlib-js/stdlib/pull/5048) _(by stdlib-bot)_
 -   [`367ec2c`](https://github.com/stdlib-js/stdlib/commit/367ec2c5fe4a11f2e9a450ab4b21ea66db002cc2) - **docs:** update namespace TypeScript declarations [(#5039)](https://github.com/stdlib-js/stdlib/pull/5039) _(by stdlib-bot)_
 -   [`1d6c6cf`](https://github.com/stdlib-js/stdlib/commit/1d6c6cfd0bd793a8cae042416cc8dc10850f992b) - **docs:** update namespace table of contents [(#5041)](https://github.com/stdlib-js/stdlib/pull/5041) _(by stdlib-bot)_
 -   [`6516030`](https://github.com/stdlib-js/stdlib/commit/65160305dccd83c8fbf6f9e011e9f9a13c2c0cf8) - **feat:** add C `ndarray` API and refactor `blas/ext/base/snansum` [(#4872)](https://github.com/stdlib-js/stdlib/pull/4872) _(by Muhammad Haris, Athan Reines)_
