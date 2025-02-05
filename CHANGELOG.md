@@ -1426,6 +1426,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gcusumors-unreleased">
+
+#### [@stdlib/blas/ext/base/gcusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gcusumors)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8310c1f`](https://github.com/stdlib-js/stdlib/commit/8310c1f4054d2ff0ee8b05f1c77b1d3c846a1012) - add accessor arrays support to `blas/ext/base/gcusumors` [(#5010)](https://github.com/stdlib-js/stdlib/pull/5010)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gfill-unreleased">
 
 #### [@stdlib/blas/ext/base/gfill](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gfill)
@@ -2431,6 +2453,8 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8310c1f`](https://github.com/stdlib-js/stdlib/commit/8310c1f4054d2ff0ee8b05f1c77b1d3c846a1012) - **feat:** add accessor arrays support to `blas/ext/base/gcusumors` [(#5010)](https://github.com/stdlib-js/stdlib/pull/5010) _(by Muhammad Haris)_
+-   [`b74a0f9`](https://github.com/stdlib-js/stdlib/commit/b74a0f949366a73526a7ec849bc6e7fe7f0968eb) - **docs:** update namespace table of contents [(#5062)](https://github.com/stdlib-js/stdlib/pull/5062) _(by stdlib-bot)_
 -   [`aa13403`](https://github.com/stdlib-js/stdlib/commit/aa1340357b9da9aaec467703bd0e0d68e4a67d3e) - **docs:** update namespace TypeScript declarations [(#5060)](https://github.com/stdlib-js/stdlib/pull/5060) _(by stdlib-bot)_
 -   [`6184c0c`](https://github.com/stdlib-js/stdlib/commit/6184c0cbdfa9216a2b3743a7f52b030cbbbf28b1) - **docs:** update related packages sections [(#5059)](https://github.com/stdlib-js/stdlib/pull/5059) _(by stdlib-bot)_
 -   [`a6ba17c`](https://github.com/stdlib-js/stdlib/commit/a6ba17cee3a41741a04312d78ddde029470bf338) - **feat:** add C ndarray API and refactor `blas/ext/base/dsorthp` [(#5018)](https://github.com/stdlib-js/stdlib/pull/5018) _(by Prashant Kumar Yadav, stdlib-bot)_
