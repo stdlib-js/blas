@@ -1568,6 +1568,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gnansum-unreleased">
+
+#### [@stdlib/blas/ext/base/gnansum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gnansum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e242eb1`](https://github.com/stdlib-js/stdlib/commit/e242eb1e35da321f0e124a65f1c5e74e9be51dfe) - add accessor arrays support to `blas/ext/base/gnansum` [(#5066)](https://github.com/stdlib-js/stdlib/pull/5066)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gnansumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/gnansumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gnansumkbn)
@@ -2551,6 +2573,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e242eb1`](https://github.com/stdlib-js/stdlib/commit/e242eb1e35da321f0e124a65f1c5e74e9be51dfe) - **feat:** add accessor arrays support to `blas/ext/base/gnansum` [(#5066)](https://github.com/stdlib-js/stdlib/pull/5066) _(by Muhammad Haris)_
 -   [`e5a8c65`](https://github.com/stdlib-js/stdlib/commit/e5a8c6593a68bdf3d385fbb4c1d75ba4309bad5d) - **feat:** add accessor arrays support to `blas/ext/base/gcusum` [(#5065)](https://github.com/stdlib-js/stdlib/pull/5065) _(by Muhammad Haris, stdlib-bot)_
 -   [`068bbeb`](https://github.com/stdlib-js/stdlib/commit/068bbeb48863fd10ac825a7855192c00121b90ab) - **fix:** update return value and tests for `blas/ext/base/gcusumkbn` [(#5064)](https://github.com/stdlib-js/stdlib/pull/5064) _(by Muhammad Haris)_
 -   [`9da9e46`](https://github.com/stdlib-js/stdlib/commit/9da9e464d924bae935b701593e8c7a8cc4377f5c) - **feat:** add accessor arrays support to `blas/ext/base/gnannsumkbn` [(#5023)](https://github.com/stdlib-js/stdlib/pull/5023) _(by Muhammad Haris, Athan Reines)_
