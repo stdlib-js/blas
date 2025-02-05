@@ -1420,6 +1420,16 @@ This release closes the following issue:
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`068bbeb`](https://github.com/stdlib-js/stdlib/commit/068bbeb48863fd10ac825a7855192c00121b90ab) - update return value and tests for `blas/ext/base/gcusumkbn` [(#5064)](https://github.com/stdlib-js/stdlib/pull/5064)
+
+</section>
+
+<!-- /.bug-fixes -->
+
 </details>
 
 </section>
@@ -2519,6 +2529,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`068bbeb`](https://github.com/stdlib-js/stdlib/commit/068bbeb48863fd10ac825a7855192c00121b90ab) - **fix:** update return value and tests for `blas/ext/base/gcusumkbn` [(#5064)](https://github.com/stdlib-js/stdlib/pull/5064) _(by Muhammad Haris)_
 -   [`9da9e46`](https://github.com/stdlib-js/stdlib/commit/9da9e464d924bae935b701593e8c7a8cc4377f5c) - **feat:** add accessor arrays support to `blas/ext/base/gnannsumkbn` [(#5023)](https://github.com/stdlib-js/stdlib/pull/5023) _(by Muhammad Haris, Athan Reines)_
 -   [`6c90e8f`](https://github.com/stdlib-js/stdlib/commit/6c90e8fa6ad8f6bf254e6479d1a3ece17b5e92da) - **feat:** add accessor arrays support to `blas/ext/base/gcusumpw` [(#5012)](https://github.com/stdlib-js/stdlib/pull/5012) _(by Muhammad Haris)_
 -   [`1dd8adf`](https://github.com/stdlib-js/stdlib/commit/1dd8adfd104b90f0b87cd76ce0addbbd6f723aba) - **feat:** add accessor arrays support to `blas/ext/base/gcusumkbn2` [(#5009)](https://github.com/stdlib-js/stdlib/pull/5009) _(by Muhammad Haris, Athan Reines)_
