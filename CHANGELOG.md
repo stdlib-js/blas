@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-04)
+## Unreleased (2025-02-05)
 
 <section class="packages">
 
@@ -1019,6 +1019,28 @@ This release closes the following issue:
 ##### Features
 
 -   [`de75f04`](https://github.com/stdlib-js/stdlib/commit/de75f0465fdaa762112195f16f6334b121204664) - add C `ndarray` API and refactor `blas/ext/base/dsnansumpw` [(#3262)](https://github.com/stdlib-js/stdlib/pull/3262)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-ext-base-dsortins-unreleased">
+
+#### [@stdlib/blas/ext/base/dsortins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsortins)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d924c8d`](https://github.com/stdlib-js/stdlib/commit/d924c8d2c48611f1c90312877e39bf3e8df063c2) - add C ndarray API and refactor `blas/ext/base/dsortins` [(#5028)](https://github.com/stdlib-js/stdlib/pull/5028)
 
 </section>
 
@@ -2363,7 +2385,7 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 11 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -2372,6 +2394,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 -   Muhammad Haris
 -   Neeraj Pathak
 -   Philipp Burckhardt
+-   Prashant Kumar Yadav
 -   Ricky Reusser
 -   Saurabh Singh
 -   Snehil Shah
@@ -2386,6 +2409,7 @@ A total of 10 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d924c8d`](https://github.com/stdlib-js/stdlib/commit/d924c8d2c48611f1c90312877e39bf3e8df063c2) - **feat:** add C ndarray API and refactor `blas/ext/base/dsortins` [(#5028)](https://github.com/stdlib-js/stdlib/pull/5028) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`ef11834`](https://github.com/stdlib-js/stdlib/commit/ef1183420e6bba80849c12f838aa7eb23c6d7635) - **docs:** update related packages sections [(#5048)](https://github.com/stdlib-js/stdlib/pull/5048) _(by stdlib-bot)_
 -   [`367ec2c`](https://github.com/stdlib-js/stdlib/commit/367ec2c5fe4a11f2e9a450ab4b21ea66db002cc2) - **docs:** update namespace TypeScript declarations [(#5039)](https://github.com/stdlib-js/stdlib/pull/5039) _(by stdlib-bot)_
 -   [`1d6c6cf`](https://github.com/stdlib-js/stdlib/commit/1d6c6cfd0bd793a8cae042416cc8dc10850f992b) - **docs:** update namespace table of contents [(#5041)](https://github.com/stdlib-js/stdlib/pull/5041) _(by stdlib-bot)_
