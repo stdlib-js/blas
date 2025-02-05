@@ -1030,6 +1030,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsorthp-unreleased">
+
+#### [@stdlib/blas/ext/base/dsorthp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsorthp)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a6ba17c`](https://github.com/stdlib-js/stdlib/commit/a6ba17cee3a41741a04312d78ddde029470bf338) - add C ndarray API and refactor `blas/ext/base/dsorthp` [(#5018)](https://github.com/stdlib-js/stdlib/pull/5018)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dsortins-unreleased">
 
 #### [@stdlib/blas/ext/base/dsortins](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsortins)
@@ -2409,6 +2431,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a6ba17c`](https://github.com/stdlib-js/stdlib/commit/a6ba17cee3a41741a04312d78ddde029470bf338) - **feat:** add C ndarray API and refactor `blas/ext/base/dsorthp` [(#5018)](https://github.com/stdlib-js/stdlib/pull/5018) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`d924c8d`](https://github.com/stdlib-js/stdlib/commit/d924c8d2c48611f1c90312877e39bf3e8df063c2) - **feat:** add C ndarray API and refactor `blas/ext/base/dsortins` [(#5028)](https://github.com/stdlib-js/stdlib/pull/5028) _(by Prashant Kumar Yadav, stdlib-bot)_
 -   [`ef11834`](https://github.com/stdlib-js/stdlib/commit/ef1183420e6bba80849c12f838aa7eb23c6d7635) - **docs:** update related packages sections [(#5048)](https://github.com/stdlib-js/stdlib/pull/5048) _(by stdlib-bot)_
 -   [`367ec2c`](https://github.com/stdlib-js/stdlib/commit/367ec2c5fe4a11f2e9a450ab4b21ea66db002cc2) - **docs:** update namespace TypeScript declarations [(#5039)](https://github.com/stdlib-js/stdlib/pull/5039) _(by stdlib-bot)_
