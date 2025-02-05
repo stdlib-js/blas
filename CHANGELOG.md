@@ -1426,6 +1426,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-gcusumkbn2-unreleased">
+
+#### [@stdlib/blas/ext/base/gcusumkbn2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gcusumkbn2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`1dd8adf`](https://github.com/stdlib-js/stdlib/commit/1dd8adfd104b90f0b87cd76ce0addbbd6f723aba) - add accessor arrays support to `blas/ext/base/gcusumkbn2` [(#5009)](https://github.com/stdlib-js/stdlib/pull/5009)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-gcusumors-unreleased">
 
 #### [@stdlib/blas/ext/base/gcusumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/gcusumors)
@@ -2453,6 +2475,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`1dd8adf`](https://github.com/stdlib-js/stdlib/commit/1dd8adfd104b90f0b87cd76ce0addbbd6f723aba) - **feat:** add accessor arrays support to `blas/ext/base/gcusumkbn2` [(#5009)](https://github.com/stdlib-js/stdlib/pull/5009) _(by Muhammad Haris, Athan Reines)_
 -   [`8310c1f`](https://github.com/stdlib-js/stdlib/commit/8310c1f4054d2ff0ee8b05f1c77b1d3c846a1012) - **feat:** add accessor arrays support to `blas/ext/base/gcusumors` [(#5010)](https://github.com/stdlib-js/stdlib/pull/5010) _(by Muhammad Haris)_
 -   [`b74a0f9`](https://github.com/stdlib-js/stdlib/commit/b74a0f949366a73526a7ec849bc6e7fe7f0968eb) - **docs:** update namespace table of contents [(#5062)](https://github.com/stdlib-js/stdlib/pull/5062) _(by stdlib-bot)_
 -   [`aa13403`](https://github.com/stdlib-js/stdlib/commit/aa1340357b9da9aaec467703bd0e0d68e4a67d3e) - **docs:** update namespace TypeScript declarations [(#5060)](https://github.com/stdlib-js/stdlib/pull/5060) _(by stdlib-bot)_
