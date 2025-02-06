@@ -5423,6 +5423,7 @@ A total of 11 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`88e4c0a`](https://github.com/stdlib-js/stdlib/commit/88e4c0a78b9a33f5b74417de9a0eabca256803de) - **docs:** update related packages sections [(#5074)](https://github.com/stdlib-js/stdlib/pull/5074) _(by stdlib-bot)_
 -   [`beeca53`](https://github.com/stdlib-js/stdlib/commit/beeca539c35d8abd8bf52f2dabacafb56ef52d2d) - **remove:** remove `blas/base/srot-wasm` _(by Athan Reines)_
 -   [`bc81929`](https://github.com/stdlib-js/stdlib/commit/bc81929038bd6393df0e76e5ad6097e2528ab967) - **feat:** add `blas/base/wasm/srot` _(by Athan Reines)_
 -   [`7ff23bf`](https://github.com/stdlib-js/stdlib/commit/7ff23bf5084c883c8db90385b4986c6ac5361678) - **remove:** remove `blas/base/snrm2-wasm` _(by Athan Reines)_
