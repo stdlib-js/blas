@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-06)
+## Unreleased (2025-02-07)
 
 <section class="packages">
 
@@ -5436,6 +5436,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f9561f9`](https://github.com/stdlib-js/stdlib/commit/f9561f99cd606b6fd783ed2253a425c3bdddce4e) - **docs:** update related packages sections [(#5087)](https://github.com/stdlib-js/stdlib/pull/5087) _(by stdlib-bot)_
 -   [`84b7614`](https://github.com/stdlib-js/stdlib/commit/84b76143e3ee6e279536cbfcd8f3ef94e026bd60) - **chore:** address commit comment feedback [(#5078)](https://github.com/stdlib-js/stdlib/pull/5078) _(by Mohammad Bin Aftab, Philipp Burckhardt)_
 -   [`88e4c0a`](https://github.com/stdlib-js/stdlib/commit/88e4c0a78b9a33f5b74417de9a0eabca256803de) - **docs:** update related packages sections [(#5074)](https://github.com/stdlib-js/stdlib/pull/5074) _(by stdlib-bot)_
 -   [`beeca53`](https://github.com/stdlib-js/stdlib/commit/beeca539c35d8abd8bf52f2dabacafb56ef52d2d) - **remove:** remove `blas/base/srot-wasm` _(by Athan Reines)_
