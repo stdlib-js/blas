@@ -2042,6 +2042,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-isamax-unreleased">
+
+#### [@stdlib/blas/base/wasm/isamax](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/isamax)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`cd30ae4`](https://github.com/stdlib-js/stdlib/commit/cd30ae4e94a3874a3850eb5ddec63d9360e20413) - add `blas/base/wasm/isamax` [(#3984)](https://github.com/stdlib-js/stdlib/pull/3984)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-sasum-unreleased">
 
 #### [@stdlib/blas/base/wasm/sasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/sasum)
@@ -2163,6 +2185,28 @@
 ##### Features
 
 -   [`bc81929`](https://github.com/stdlib-js/stdlib/commit/bc81929038bd6393df0e76e5ad6097e2528ab967) - add `blas/base/wasm/srot`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-wasm-zcopy-unreleased">
+
+#### [@stdlib/blas/base/wasm/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zcopy)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e28cc73`](https://github.com/stdlib-js/stdlib/commit/e28cc73ce4cae0a780006c8256ca58f901b18624) - add `blas/base/wasm/zcopy` [(#3982)](https://github.com/stdlib-js/stdlib/pull/3982)
 
 </section>
 
@@ -2888,6 +2932,18 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5072](https://github.com/stdlib-js/stdlib/issues/5072)
+
+</section>
+
+<!-- /.issues -->
 
 </details>
 
@@ -5421,9 +5477,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 8 issues were closed in this release:
+A total of 9 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5073](https://github.com/stdlib-js/stdlib/issues/5073)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073)
 
 </section>
 
@@ -5458,6 +5514,9 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`32e4183`](https://github.com/stdlib-js/stdlib/commit/32e4183f26f6923e58795ce3551ddc96799e0ada) - **refactor:** address unnecessary casting and fix docs [(#5079)](https://github.com/stdlib-js/stdlib/pull/5079) _(by Saurabh Singh, Athan Reines)_
+-   [`cd30ae4`](https://github.com/stdlib-js/stdlib/commit/cd30ae4e94a3874a3850eb5ddec63d9360e20413) - **feat:** add `blas/base/wasm/isamax` [(#3984)](https://github.com/stdlib-js/stdlib/pull/3984) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
+-   [`e28cc73`](https://github.com/stdlib-js/stdlib/commit/e28cc73ce4cae0a780006c8256ca58f901b18624) - **feat:** add `blas/base/wasm/zcopy` [(#3982)](https://github.com/stdlib-js/stdlib/pull/3982) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`885fa05`](https://github.com/stdlib-js/stdlib/commit/885fa05dd8bef35faad5c336e30d643dce805171) - **docs:** fix example _(by Athan Reines)_
 -   [`4112d6d`](https://github.com/stdlib-js/stdlib/commit/4112d6de066fb6324fead4a004882527cf38856b) - **docs:** fix example _(by Athan Reines)_
 -   [`5cdd9f7`](https://github.com/stdlib-js/stdlib/commit/5cdd9f7f4b631411afcf489dbfdeb7088f1392ed) - **feat:** add `blas/base/wasm/zswap` [(#4011)](https://github.com/stdlib-js/stdlib/pull/4011) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
