@@ -2174,6 +2174,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-zswap-unreleased">
+
+#### [@stdlib/blas/base/wasm/zswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5cdd9f7`](https://github.com/stdlib-js/stdlib/commit/5cdd9f7f4b631411afcf489dbfdeb7088f1392ed) - add `blas/base/wasm/zswap` [(#4011)](https://github.com/stdlib-js/stdlib/pull/4011)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-zcopy-unreleased">
 
 #### [@stdlib/blas/base/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/zcopy)
@@ -5436,6 +5458,9 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`885fa05`](https://github.com/stdlib-js/stdlib/commit/885fa05dd8bef35faad5c336e30d643dce805171) - **docs:** fix example _(by Athan Reines)_
+-   [`4112d6d`](https://github.com/stdlib-js/stdlib/commit/4112d6de066fb6324fead4a004882527cf38856b) - **docs:** fix example _(by Athan Reines)_
+-   [`5cdd9f7`](https://github.com/stdlib-js/stdlib/commit/5cdd9f7f4b631411afcf489dbfdeb7088f1392ed) - **feat:** add `blas/base/wasm/zswap` [(#4011)](https://github.com/stdlib-js/stdlib/pull/4011) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`966f409`](https://github.com/stdlib-js/stdlib/commit/966f409c74eb6fb61c8514d0a87b19eebb9f56cd) - **docs:** update related packages sections [(#5108)](https://github.com/stdlib-js/stdlib/pull/5108) _(by stdlib-bot)_
 -   [`f9561f9`](https://github.com/stdlib-js/stdlib/commit/f9561f99cd606b6fd783ed2253a425c3bdddce4e) - **docs:** update related packages sections [(#5087)](https://github.com/stdlib-js/stdlib/pull/5087) _(by stdlib-bot)_
 -   [`84b7614`](https://github.com/stdlib-js/stdlib/commit/84b76143e3ee6e279536cbfcd8f3ef94e026bd60) - **chore:** address commit comment feedback [(#5078)](https://github.com/stdlib-js/stdlib/pull/5078) _(by Mohammad Bin Aftab, Philipp Burckhardt)_
