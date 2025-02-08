@@ -1734,6 +1734,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-ssyr-unreleased">
+
+#### [@stdlib/blas/base/ssyr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`924f85a`](https://github.com/stdlib-js/stdlib/commit/924f85ad57aec54ede64c9db9ee96459befa2c00) - add C implementation for `blas/base/ssyr` [(#2877)](https://github.com/stdlib-js/stdlib/pull/2877)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-ccopy-unreleased">
 
 #### [@stdlib/blas/base/wasm/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/ccopy)
@@ -5514,6 +5536,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`924f85a`](https://github.com/stdlib-js/stdlib/commit/924f85ad57aec54ede64c9db9ee96459befa2c00) - **feat:** add C implementation for `blas/base/ssyr` [(#2877)](https://github.com/stdlib-js/stdlib/pull/2877) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`32e4183`](https://github.com/stdlib-js/stdlib/commit/32e4183f26f6923e58795ce3551ddc96799e0ada) - **refactor:** address unnecessary casting and fix docs [(#5079)](https://github.com/stdlib-js/stdlib/pull/5079) _(by Saurabh Singh, Athan Reines)_
 -   [`cd30ae4`](https://github.com/stdlib-js/stdlib/commit/cd30ae4e94a3874a3850eb5ddec63d9360e20413) - **feat:** add `blas/base/wasm/isamax` [(#3984)](https://github.com/stdlib-js/stdlib/pull/3984) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`e28cc73`](https://github.com/stdlib-js/stdlib/commit/e28cc73ce4cae0a780006c8256ca58f901b18624) - **feat:** add `blas/base/wasm/zcopy` [(#3982)](https://github.com/stdlib-js/stdlib/pull/3982) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
