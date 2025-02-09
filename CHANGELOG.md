@@ -5624,6 +5624,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9ae04b5`](https://github.com/stdlib-js/stdlib/commit/9ae04b5c7607e49078a9ad3cdbb27e3addfaebd2) - **docs:** update namespace table of contents [(#5132)](https://github.com/stdlib-js/stdlib/pull/5132) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`22212ac`](https://github.com/stdlib-js/stdlib/commit/22212ac4eed8f336d9798ea7c70daf0ff0f1906a) - **docs:** update related packages sections [(#5129)](https://github.com/stdlib-js/stdlib/pull/5129) _(by stdlib-bot)_
 -   [`112b7ef`](https://github.com/stdlib-js/stdlib/commit/112b7ef36a44bc8b27ad757cc3099d2595aa8aaa) - **feat:** add accessor arrays support and refactor `blas/ext/base/gsorthp` [(#5117)](https://github.com/stdlib-js/stdlib/pull/5117) _(by Muhammad Haris)_
 -   [`5997441`](https://github.com/stdlib-js/stdlib/commit/599744168e3ece421aa012335f90104148aa1a4c) - **docs:** update examples for `blas/base/zcopy` [(#5121)](https://github.com/stdlib-js/stdlib/pull/5121) _(by Gururaj Gurram)_
