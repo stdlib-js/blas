@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-09)
+## Unreleased (2025-02-10)
 
 <section class="packages">
 
@@ -5704,6 +5704,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9a0d2cb`](https://github.com/stdlib-js/stdlib/commit/9a0d2cb8183bc4f1a13eb2ff212d0d0570b60a68) - **docs:** update namespace table of contents [(#5154)](https://github.com/stdlib-js/stdlib/pull/5154) _(by stdlib-bot)_
 -   [`d226d10`](https://github.com/stdlib-js/stdlib/commit/d226d10e5119e4480721039ce892da8ae874e468) - **feat:** add accessor arrays support and refactor `blas/ext/base/gsortins` [(#5120)](https://github.com/stdlib-js/stdlib/pull/5120) _(by Muhammad Haris, Athan Reines)_
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
 -   [`152dfd2`](https://github.com/stdlib-js/stdlib/commit/152dfd2a9f6f420dee659694435c9e44f3095601) - **feat:** add accessor arrays support to `blas/ext/base/gsum` [(#5134)](https://github.com/stdlib-js/stdlib/pull/5134) _(by Muhammad Haris)_
