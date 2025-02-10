@@ -5704,6 +5704,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d6e1030`](https://github.com/stdlib-js/stdlib/commit/d6e103056ea873a0cc9fa63fa60b56ff61d9a041) - **docs:** update namespace TypeScript declarations [(#5152)](https://github.com/stdlib-js/stdlib/pull/5152) _(by stdlib-bot)_
 -   [`9a0d2cb`](https://github.com/stdlib-js/stdlib/commit/9a0d2cb8183bc4f1a13eb2ff212d0d0570b60a68) - **docs:** update namespace table of contents [(#5154)](https://github.com/stdlib-js/stdlib/pull/5154) _(by stdlib-bot)_
 -   [`d226d10`](https://github.com/stdlib-js/stdlib/commit/d226d10e5119e4480721039ce892da8ae874e468) - **feat:** add accessor arrays support and refactor `blas/ext/base/gsortins` [(#5120)](https://github.com/stdlib-js/stdlib/pull/5120) _(by Muhammad Haris, Athan Reines)_
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - **feat:** update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130) _(by stdlib-bot)_
