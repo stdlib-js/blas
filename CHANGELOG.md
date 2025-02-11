@@ -5704,6 +5704,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4bc7b8c`](https://github.com/stdlib-js/stdlib/commit/4bc7b8cf8b26105f6a02decbe7030022024070df) - **docs:** update `blas/ext/base/dcusumpw` to follow current project conventions [(#5170)](https://github.com/stdlib-js/stdlib/pull/5170) _(by Muhammad Haris)_
 -   [`0feb415`](https://github.com/stdlib-js/stdlib/commit/0feb415ee92e1d3851665ac6729b6ea819f926ff) - **docs:** update `blas/ext/base/dnanasum` to follow current project conventions [(#5172)](https://github.com/stdlib-js/stdlib/pull/5172) _(by Muhammad Haris)_
 -   [`9d447dc`](https://github.com/stdlib-js/stdlib/commit/9d447dc24e6c56353c1dceae3bbfd88d11ce2066) - **docs:** update related packages sections [(#5151)](https://github.com/stdlib-js/stdlib/pull/5151) _(by stdlib-bot, Athan Reines)_
 -   [`347e559`](https://github.com/stdlib-js/stdlib/commit/347e5590cf124d86a7bbe1b7f734bb620bdeb5ba) - **docs:** fix incorrect structure in READMEs of `blas/ext/base/*` [(#5163)](https://github.com/stdlib-js/stdlib/pull/5163) _(by Aayush Khanna, Athan Reines)_
