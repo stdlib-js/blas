@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-11)
+## Unreleased (2025-02-12)
 
 <section class="packages">
 
@@ -5726,6 +5726,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`36768b4`](https://github.com/stdlib-js/stdlib/commit/36768b4fb7c5b0c7934fc8c9f1ab7f8ffe67b3e9) - **docs:** update related packages sections [(#5181)](https://github.com/stdlib-js/stdlib/pull/5181) _(by stdlib-bot)_
 -   [`d9c08b0`](https://github.com/stdlib-js/stdlib/commit/d9c08b0a4028175c0a95f5fa93617609ae65108a) - **docs:** update `blas/ext/base/dcusumkbn2` to follow current project conventions [(#5168)](https://github.com/stdlib-js/stdlib/pull/5168) _(by Muhammad Haris)_
 -   [`8357863`](https://github.com/stdlib-js/stdlib/commit/8357863b87da1554b4e249fb03e712dec8a58ee0) - **feat:** add C ndarray API and refactor `blas/ext/base/ssort2ins` [(#5114)](https://github.com/stdlib-js/stdlib/pull/5114) _(by Prashant Kumar Yadav, Muhammad Haris)_
 -   [`7a04093`](https://github.com/stdlib-js/stdlib/commit/7a040939ecb95a686cf2b66d7a912fcc39e5aa3d) - **docs:** update `blas/ext/base/dcusum` to follow current project conventions [(#5166)](https://github.com/stdlib-js/stdlib/pull/5166) _(by Muhammad Haris)_
