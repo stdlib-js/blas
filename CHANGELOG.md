@@ -5727,6 +5727,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e62caf3`](https://github.com/stdlib-js/stdlib/commit/e62caf3e3c27d418a7f364c5c0dd7590e4a081bd) - **docs:** update `blas/ext/base/dnannsum`  to follow current project conventions [(#5186)](https://github.com/stdlib-js/stdlib/pull/5186) _(by Muhammad Haris)_
 -   [`b5cca80`](https://github.com/stdlib-js/stdlib/commit/b5cca80877dfd53f4a40e3e4c4e0ae09e326f8cd) - **docs:** update `blas/ext/base/dnannsumkbn` to follow current project conventions [(#5187)](https://github.com/stdlib-js/stdlib/pull/5187) _(by Muhammad Haris)_
 -   [`d81ba51`](https://github.com/stdlib-js/stdlib/commit/d81ba51451a7b35e5b9fd259fe57cee796f3e81b) - **docs:** update `blas/ext/base/dnannsumkbn2` to follow current project conventions [(#5188)](https://github.com/stdlib-js/stdlib/pull/5188) _(by Muhammad Haris)_
 -   [`858ab0a`](https://github.com/stdlib-js/stdlib/commit/858ab0aa1a1b377c1feea02dacfc387d2671e1f3) - **docs:** update `blas/ext/base/dnannsumpw` to follow current project conventions [(#5190)](https://github.com/stdlib-js/stdlib/pull/5190) _(by Muhammad Haris)_
