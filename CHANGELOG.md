@@ -5727,6 +5727,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`858ab0a`](https://github.com/stdlib-js/stdlib/commit/858ab0aa1a1b377c1feea02dacfc387d2671e1f3) - **docs:** update `blas/ext/base/dnannsumpw` to follow current project conventions [(#5190)](https://github.com/stdlib-js/stdlib/pull/5190) _(by Muhammad Haris)_
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - **feat:** update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182) _(by stdlib-bot)_
 -   [`36768b4`](https://github.com/stdlib-js/stdlib/commit/36768b4fb7c5b0c7934fc8c9f1ab7f8ffe67b3e9) - **docs:** update related packages sections [(#5181)](https://github.com/stdlib-js/stdlib/pull/5181) _(by stdlib-bot)_
 -   [`d9c08b0`](https://github.com/stdlib-js/stdlib/commit/d9c08b0a4028175c0a95f5fa93617609ae65108a) - **docs:** update `blas/ext/base/dcusumkbn2` to follow current project conventions [(#5168)](https://github.com/stdlib-js/stdlib/pull/5168) _(by Muhammad Haris)_
