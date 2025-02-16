@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-15)
+## Unreleased (2025-02-16)
 
 <section class="packages">
 
@@ -5727,6 +5727,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2981d28`](https://github.com/stdlib-js/stdlib/commit/2981d283200482a49ced3e27416ec106eef3fd77) - **docs:** update `blas/ext/base/dfill` to follow current project conventions [(#5171)](https://github.com/stdlib-js/stdlib/pull/5171) _(by Muhammad Haris)_
 -   [`189249b`](https://github.com/stdlib-js/stdlib/commit/189249b59813ed32ab40c4bafb5a827859fb7032) - **docs:** update `blas/ext/base/dcusumkbn` to follow current project conventions [(#5167)](https://github.com/stdlib-js/stdlib/pull/5167) _(by Muhammad Haris)_
 -   [`76db518`](https://github.com/stdlib-js/stdlib/commit/76db5189912e676a421d5f79dc69cb4b5722c0bc) - **docs:** update `blas/ext/base/dcusumors` to follow current project conventions [(#5169)](https://github.com/stdlib-js/stdlib/pull/5169) _(by Muhammad Haris)_
 -   [`8e5b82c`](https://github.com/stdlib-js/stdlib/commit/8e5b82caeae6b84d4a888397c6087b0ea8666acf) - **docs:** update `blas/ext/base/dnannsumors` to follow current project conventions [(#5189)](https://github.com/stdlib-js/stdlib/pull/5189) _(by Muhammad Haris)_
