@@ -54,6 +54,7 @@
 
 ##### Features
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
 -   [`8e8437c`](https://github.com/stdlib-js/stdlib/commit/8e8437c92781ac1873dc5df96daae1ef17a2ce1f) - update namespace TypeScript declarations [(#4843)](https://github.com/stdlib-js/stdlib/pull/4843)
@@ -67,6 +68,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
 
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
@@ -2387,6 +2392,7 @@
 
 ##### Features
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
 -   [`14f3f1a`](https://github.com/stdlib-js/stdlib/commit/14f3f1af0988577680efc92522bb9a45a2cbd46b) - update namespace TypeScript declarations
@@ -2406,6 +2412,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
 
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
@@ -4642,6 +4652,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95): remove `add5`
+
+    -   To migrate, users should access the `add5` symbol via the `number/float64/base` namespace.
+
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a): remove `add`, `add3`, and `add4`
 
     -   To migrate, users should access those symbols in the `number/float64/base` namespace.
@@ -5749,6 +5763,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - **feat:** update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243) _(by stdlib-bot)_
 -   [`158bfde`](https://github.com/stdlib-js/stdlib/commit/158bfde6560ed70c956b17f29acd00d81e2bc3b7) - **docs:** update related packages sections [(#5242)](https://github.com/stdlib-js/stdlib/pull/5242) _(by stdlib-bot)_
 -   [`753fd55`](https://github.com/stdlib-js/stdlib/commit/753fd557418e004412e70379dfeda947bf319183) - **docs:** update examples for `blas/base/zdrot` [(#5209)](https://github.com/stdlib-js/stdlib/pull/5209) _(by Gururaj Gurram)_
 -   [`6d41523`](https://github.com/stdlib-js/stdlib/commit/6d415231212694d37366e40306fd5ffbdb04db94) - **docs:** update examples for `blas/base/zscal` [(#5226)](https://github.com/stdlib-js/stdlib/pull/5226) _(by Gururaj Gurram)_
