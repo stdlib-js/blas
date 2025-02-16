@@ -5727,6 +5727,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`7cfb8f7`](https://github.com/stdlib-js/stdlib/commit/7cfb8f70164eec956307120577cdcebf933df848) - **docs:** update examples for `blas/base/zaxpy` [(#5173)](https://github.com/stdlib-js/stdlib/pull/5173) _(by Gururaj Gurram)_
 -   [`2981d28`](https://github.com/stdlib-js/stdlib/commit/2981d283200482a49ced3e27416ec106eef3fd77) - **docs:** update `blas/ext/base/dfill` to follow current project conventions [(#5171)](https://github.com/stdlib-js/stdlib/pull/5171) _(by Muhammad Haris)_
 -   [`189249b`](https://github.com/stdlib-js/stdlib/commit/189249b59813ed32ab40c4bafb5a827859fb7032) - **docs:** update `blas/ext/base/dcusumkbn` to follow current project conventions [(#5167)](https://github.com/stdlib-js/stdlib/pull/5167) _(by Muhammad Haris)_
 -   [`76db518`](https://github.com/stdlib-js/stdlib/commit/76db5189912e676a421d5f79dc69cb4b5722c0bc) - **docs:** update `blas/ext/base/dcusumors` to follow current project conventions [(#5169)](https://github.com/stdlib-js/stdlib/pull/5169) _(by Muhammad Haris)_
