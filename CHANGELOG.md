@@ -5749,6 +5749,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`158bfde`](https://github.com/stdlib-js/stdlib/commit/158bfde6560ed70c956b17f29acd00d81e2bc3b7) - **docs:** update related packages sections [(#5242)](https://github.com/stdlib-js/stdlib/pull/5242) _(by stdlib-bot)_
 -   [`753fd55`](https://github.com/stdlib-js/stdlib/commit/753fd557418e004412e70379dfeda947bf319183) - **docs:** update examples for `blas/base/zdrot` [(#5209)](https://github.com/stdlib-js/stdlib/pull/5209) _(by Gururaj Gurram)_
 -   [`6d41523`](https://github.com/stdlib-js/stdlib/commit/6d415231212694d37366e40306fd5ffbdb04db94) - **docs:** update examples for `blas/base/zscal` [(#5226)](https://github.com/stdlib-js/stdlib/pull/5226) _(by Gururaj Gurram)_
 -   [`8449e0b`](https://github.com/stdlib-js/stdlib/commit/8449e0b1753e42118df3097fc8793cfd2571646e) - **docs:** update examples for `blas/base/zswap` [(#5218)](https://github.com/stdlib-js/stdlib/pull/5218) _(by Gururaj Gurram)_
