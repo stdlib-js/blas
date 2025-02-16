@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,11 +20,9 @@
 
 // MODULES //
 
-var isLayout = require( './../../../base/assert/is-layout' );
-var isMatrixTriangle = require( './../../../base/assert/is-matrix-triangle' );
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
-var format = require( '@stdlib/string/format' );
-var base = require( './base.js' );
+var resolveOrder = require( './../../../base/layout-resolve-enum' );
+var resolveUplo = require( './../../../base/matrix-triangle-resolve-enum' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -39,10 +37,6 @@ var base = require( './base.js' );
 * @param {Float32Array} x - input vector
 * @param {integer} strideX - `x` stride length
 * @param {Float32Array} AP - packed form of a symmetric matrix `A`
-* @throws {TypeError} first argument must be a valid order
-* @throws {TypeError} second argument must specify whether the lower or upper triangular matrix is supplied
-* @throws {RangeError} third argument must be a nonnegative integer
-* @throws {RangeError} sixth argument must be non-zero
 * @returns {Float32Array} `AP`
 *
 * @example
@@ -55,25 +49,8 @@ var base = require( './base.js' );
 * // AP => <Float32Array>[ 2.0, 4.0, 6.0, 5.0, 8.0, 10.0 ]
 */
 function sspr( order, uplo, N, alpha, x, strideX, AP ) {
-	var ox;
-
-	if ( !isLayout( order ) ) {
-		throw new TypeError( format( 'invalid argument. First argument must be a valid order. Value: `%s`.', order ) );
-	}
-	if ( !isMatrixTriangle( uplo ) ) {
-		throw new TypeError( format( 'invalid argument. Second argument must specify whether the lower or upper triangular matrix is supplied. Value: `%s`.', uplo ) );
-	}
-	if ( N < 0 ) {
-		throw new RangeError( format( 'invalid argument. Third argument must be a nonnegative integer. Value: `%d`.', N ) );
-	}
-	if ( strideX === 0 ) {
-		throw new RangeError( format( 'invalid argument. Sixth argument must be non-zero. Value: `%d`.', strideX ) );
-	}
-	if ( N === 0 || alpha === 0.0 ) {
-		return AP;
-	}
-	ox = stride2offset( N, strideX );
-	return base( order, uplo, N, alpha, x, strideX, ox, AP, 1, 0 );
+	addon( resolveOrder( order ), resolveUplo( uplo ), N, alpha, x, strideX, AP ); // eslint-disable-line max-len
+	return AP;
 }
 
 

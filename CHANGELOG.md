@@ -1739,6 +1739,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-sspr-unreleased">
+
+#### [@stdlib/blas/base/sspr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sspr)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8d34c0c`](https://github.com/stdlib-js/stdlib/commit/8d34c0c773e51c464e10e67dd9ccef4f95a00f2b) - add C implementation for `blas/base/sspr` [(#4491)](https://github.com/stdlib-js/stdlib/pull/4491)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-ssyr-unreleased">
 
 #### [@stdlib/blas/base/ssyr](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr)
@@ -5727,6 +5749,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8d34c0c`](https://github.com/stdlib-js/stdlib/commit/8d34c0c773e51c464e10e67dd9ccef4f95a00f2b) - **feat:** add C implementation for `blas/base/sspr` [(#4491)](https://github.com/stdlib-js/stdlib/pull/4491) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`7cfb8f7`](https://github.com/stdlib-js/stdlib/commit/7cfb8f70164eec956307120577cdcebf933df848) - **docs:** update examples for `blas/base/zaxpy` [(#5173)](https://github.com/stdlib-js/stdlib/pull/5173) _(by Gururaj Gurram)_
 -   [`2981d28`](https://github.com/stdlib-js/stdlib/commit/2981d283200482a49ced3e27416ec106eef3fd77) - **docs:** update `blas/ext/base/dfill` to follow current project conventions [(#5171)](https://github.com/stdlib-js/stdlib/pull/5171) _(by Muhammad Haris)_
 -   [`189249b`](https://github.com/stdlib-js/stdlib/commit/189249b59813ed32ab40c4bafb5a827859fb7032) - **docs:** update `blas/ext/base/dcusumkbn` to follow current project conventions [(#5167)](https://github.com/stdlib-js/stdlib/pull/5167) _(by Muhammad Haris)_
