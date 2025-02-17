@@ -5807,7 +5807,6 @@ A total of 12 people contributed to this release. Thank you to the following con
 
 <details>
 
--   [`b090b90`](https://github.com/stdlib-js/stdlib/commit/b090b90935fa0b18e554bf98a4ed0c2f7c51ec33) - **docs:** update related packages sections [(#5253)](https://github.com/stdlib-js/stdlib/pull/5253) _(by stdlib-bot)_
 -   [`8df3643`](https://github.com/stdlib-js/stdlib/commit/8df36439153e0c5f399c01b755213be55b2a696c) - **docs:** update namespace table of contents [(#5256)](https://github.com/stdlib-js/stdlib/pull/5256) _(by stdlib-bot)_
 -   [`c86e76e`](https://github.com/stdlib-js/stdlib/commit/c86e76e8c9ab907aedfccfbd74ca3ad39ff75a3e) - **feat:** add C `ndarray` implementation for `blas/base/zscal` [(#4864)](https://github.com/stdlib-js/stdlib/pull/4864) _(by Aman Bhansali, Athan Reines, stdlib-bot)_
 -   [`402bd40`](https://github.com/stdlib-js/stdlib/commit/402bd405359fba77de13d0136fbf3d1fb956e0ec) - **feat:** add `blas/base/wasm/sscal` [(#5224)](https://github.com/stdlib-js/stdlib/pull/5224) _(by Aman Bhansali, Athan Reines)_
