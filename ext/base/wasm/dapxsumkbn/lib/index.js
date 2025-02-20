@@ -21,11 +21,11 @@
 /**
 * WebAssembly routine to add a scalar constant to each double-precision floating-point strided array element and compute the sum using an improved Kahan–Babuška algorithm.
 *
-* @module @stdlib/blas/ext/base/dapxsumkbn-wasm
+* @module @stdlib/blas/ext/base/wasm/dapxsumkbn
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dapxsumkbn = require( '@stdlib/blas/ext/base/dapxsumkbn-wasm' );
+* var dapxsumkbn = require( '@stdlib/blas/ext/base/wasm/dapxsumkbn' );
 *
 * // Define a strided array:
 * var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
@@ -36,7 +36,7 @@
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
-* var dapxsumkbn = require( '@stdlib/blas/ext/base/dapxsumkbn-wasm' );
+* var dapxsumkbn = require( '@stdlib/blas/ext/base/wasm/dapxsumkbn' );
 *
 * // Define a strided array:
 * var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
@@ -49,7 +49,7 @@
 * var Memory = require( '@stdlib/wasm/memory' );
 * var oneTo = require( '@stdlib/array/one-to' );
 * var zeros = require( '@stdlib/array/zeros' );
-* var dapxsumkbn = require( '@stdlib/blas/ext/base/dapxsumkbn-wasm' );
+* var dapxsumkbn = require( '@stdlib/blas/ext/base/wasm/dapxsumkbn' );
 *
 * // Create a new memory instance with an initial size of 10 pages (640KiB) and a maximum size of 100 pages (6.4MiB):
 * var mem = new Memory({

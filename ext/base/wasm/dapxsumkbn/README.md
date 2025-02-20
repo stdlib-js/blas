@@ -27,7 +27,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dapxsumkbn = require( '@stdlib/blas/ext/base/dapxsumkbn-wasm' );
+var dapxsumkbn = require( '@stdlib/blas/ext/base/wasm/dapxsumkbn' );
 ```
 
 #### dapxsumkbn.main( N, alpha, x, strideX )
@@ -250,7 +250,7 @@ The function has the following additional parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dapxsumkbn = require( '@stdlib/blas/ext/base/dapxsumkbn-wasm' );
+var dapxsumkbn = require( '@stdlib/blas/ext/base/wasm/dapxsumkbn' );
 
 var opts = {
     'dtype': 'float64'

@@ -21,7 +21,7 @@
 var hasWebAssemblySupport = require( '@stdlib/assert/has-wasm-support' );
 var Memory = require( '@stdlib/wasm/memory' );
 var discreteUniform = require( '@stdlib/random/base/discrete-uniform' ).factory;
-var gfillBy = require( './../../../../ext/base/gfill-by' );
+var gfillBy = require( './../../../../../ext/base/gfill-by' );
 var Float64ArrayLE = require( '@stdlib/array/little-endian-float64' );
 var dapxsumkbn = require( './../lib' );
 

@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-19)
+## Unreleased (2025-02-20)
 
 <section class="packages">
 
@@ -2299,6 +2299,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-zdrot-unreleased">
+
+#### [@stdlib/blas/base/wasm/zdrot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zdrot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`99dc0fd`](https://github.com/stdlib-js/stdlib/commit/99dc0fd7d91a666b047c316ccfef58df5605e3ca) - add `blas/base/wasm/zdrot` [(#5293)](https://github.com/stdlib-js/stdlib/pull/5293)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-zswap-unreleased">
 
 #### [@stdlib/blas/base/wasm/zswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zswap)
@@ -2564,6 +2586,93 @@
 </section>
 
 <!-- /.features -->
+
+<section class="breaking-changes">
+
+##### BREAKING CHANGES
+
+-   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323): remove `@stdlib/blas/ext/base/dapxsumkbn-wasm`
+
+    -   To migrate, users should update their import paths to use
+        `@stdlib/blas/ext/base/wasm/dapxsumkbn`.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
+
+</section>
+
+<!-- /.breaking-changes -->
 
 </details>
 
@@ -4671,6 +4780,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-wasm-dapxsumkbn-unreleased">
+
+#### [@stdlib/blas/ext/base/wasm/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm/dapxsumkbn)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`46b98f4`](https://github.com/stdlib-js/stdlib/commit/46b98f4f6cc171d07810b3f756ff7c36e60ac8ed) - add `blas/ext/base/wasm/dapxsumkbn`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-tools-unreleased">
 
 #### [@stdlib/blas/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools)
@@ -4712,6 +4843,85 @@ This release closes the following issue:
 <section class="breaking-changes">
 
 ### BREAKING CHANGES
+
+-   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323): remove `@stdlib/blas/ext/base/dapxsumkbn-wasm`
+
+    -   To migrate, users should update their import paths to use
+        `@stdlib/blas/ext/base/wasm/dapxsumkbn`.
+        ---
+        type: pre_commit_static_analysis_report
+        description: Results of running static analysis checks when committing changes.
+        report:
+          - task: lint_filenames
+            status: passed
+          - task: lint_editorconfig
+            status: passed
+          - task: lint_markdown
+            status: na
+          - task: lint_package_json
+            status: na
+          - task: lint_repl_help
+            status: na
+          - task: lint_javascript_src
+            status: na
+          - task: lint_javascript_cli
+            status: na
+          - task: lint_javascript_examples
+            status: na
+          - task: lint_javascript_tests
+            status: na
+          - task: lint_javascript_benchmarks
+            status: na
+          - task: lint_python
+            status: na
+          - task: lint_r
+            status: na
+          - task: lint_c_src
+            status: na
+          - task: lint_c_examples
+            status: na
+          - task: lint_c_benchmarks
+            status: na
+          - task: lint_c_tests_fixtures
+            status: na
+          - task: lint_shell
+            status: na
+          - task: lint_typescript_declarations
+            status: na
+          - task: lint_typescript_tests
+            status: na
+          - task: lint_license_headers
+            status: passed
+        ---
+        ---
+        type: pre_push_report
+        description: Results of running various checks prior to pushing changes.
+        report:
+          - task: run_javascript_examples
+            status: passed
+          - task: run_c_examples
+            status: na
+          - task: run_cpp_examples
+            status: na
+          - task: run_javascript_readme_examples
+            status: passed
+          - task: run_c_benchmarks
+            status: na
+          - task: run_cpp_benchmarks
+            status: na
+          - task: run_fortran_benchmarks
+            status: na
+          - task: run_javascript_benchmarks
+            status: passed
+          - task: run_julia_benchmarks
+            status: na
+          - task: run_python_benchmarks
+            status: na
+          - task: run_r_benchmarks
+            status: na
+          - task: run_javascript_tests
+            status: passed
+        ---
 
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
 
@@ -5829,6 +6039,10 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`32d2b77`](https://github.com/stdlib-js/stdlib/commit/32d2b77dd2c991cadf726f929f992e109b61d92c) - **docs:** add missing API docs _(by Athan Reines)_
+-   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323) - **remove:** remove `blas/ext/base/dapxsumkbn-wasm` _(by Athan Reines)_
+-   [`46b98f4`](https://github.com/stdlib-js/stdlib/commit/46b98f4f6cc171d07810b3f756ff7c36e60ac8ed) - **feat:** add `blas/ext/base/wasm/dapxsumkbn` _(by Athan Reines)_
+-   [`99dc0fd`](https://github.com/stdlib-js/stdlib/commit/99dc0fd7d91a666b047c316ccfef58df5605e3ca) - **feat:** add `blas/base/wasm/zdrot` [(#5293)](https://github.com/stdlib-js/stdlib/pull/5293) _(by Aman Bhansali, stdlib-bot)_
 -   [`8446185`](https://github.com/stdlib-js/stdlib/commit/8446185b02979b037363bf390bacddf937a83886) - **docs:** update related packages sections [(#5307)](https://github.com/stdlib-js/stdlib/pull/5307) _(by stdlib-bot)_
 -   [`3587230`](https://github.com/stdlib-js/stdlib/commit/3587230f4c2d3a18427b3d7a09b03f56d83d6f6c) - **chore:** address commit comments regarding typo and refactor [(#5263)](https://github.com/stdlib-js/stdlib/pull/5263) _(by Suhaib Ilahi, Philipp Burckhardt)_
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - **feat:** update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254) _(by stdlib-bot)_
