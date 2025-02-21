@@ -54,6 +54,8 @@
 
 ##### Features
 
+-   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - add various level 1 and level 2 routines to namespace
+-   [`c1ac93f`](https://github.com/stdlib-js/stdlib/commit/c1ac93f393ce6fc122e388e2554d01b149b6fbc0) - add `wasm` to namespace
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
@@ -1793,6 +1795,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-unreleased">
+
+#### [@stdlib/blas/base/wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`5306dac`](https://github.com/stdlib-js/stdlib/commit/5306dac507668082336473811c64b04dc3b765ef) - add `blas/base/wasm` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-ccopy-unreleased">
 
 #### [@stdlib/blas/base/wasm/ccopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/ccopy)
@@ -2463,6 +2487,7 @@
 
 ##### Features
 
+-   [`40f5bae`](https://github.com/stdlib-js/stdlib/commit/40f5bae95d708401dbea4c37b2c220381638c4a0) - add `wasm` to namespace
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
 -   [`d66db3f`](https://github.com/stdlib-js/stdlib/commit/d66db3fd4b220adcc318a5993a97fe79e5b7445a) - update namespace TypeScript declarations [(#5130)](https://github.com/stdlib-js/stdlib/pull/5130)
@@ -4780,6 +4805,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-wasm-unreleased">
+
+#### [@stdlib/blas/ext/base/wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`a8b94d7`](https://github.com/stdlib-js/stdlib/commit/a8b94d7ea281eb5ac4477eaca40fdb38195ab2b3) - add `blas/ext/base/wasm` namespace
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-wasm-dapxsumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/wasm/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm/dapxsumkbn)
@@ -6039,6 +6086,12 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - **feat:** add various level 1 and level 2 routines to namespace _(by Athan Reines)_
+-   [`c1ac93f`](https://github.com/stdlib-js/stdlib/commit/c1ac93f393ce6fc122e388e2554d01b149b6fbc0) - **feat:** add `wasm` to namespace _(by Athan Reines)_
+-   [`40f5bae`](https://github.com/stdlib-js/stdlib/commit/40f5bae95d708401dbea4c37b2c220381638c4a0) - **feat:** add `wasm` to namespace _(by Athan Reines)_
+-   [`2c1cc13`](https://github.com/stdlib-js/stdlib/commit/2c1cc13215c24c7b1a9d2561a65e9c3dbf8acd9a) - **docs:** fix copyright year _(by Athan Reines)_
+-   [`a8b94d7`](https://github.com/stdlib-js/stdlib/commit/a8b94d7ea281eb5ac4477eaca40fdb38195ab2b3) - **feat:** add `blas/ext/base/wasm` namespace _(by Athan Reines)_
+-   [`5306dac`](https://github.com/stdlib-js/stdlib/commit/5306dac507668082336473811c64b04dc3b765ef) - **feat:** add `blas/base/wasm` namespace _(by Athan Reines)_
 -   [`6daebce`](https://github.com/stdlib-js/stdlib/commit/6daebceeb723392b00e87b2c6d7398b76be58b95) - **docs:** update related packages sections [(#5349)](https://github.com/stdlib-js/stdlib/pull/5349) _(by stdlib-bot)_
 -   [`32d2b77`](https://github.com/stdlib-js/stdlib/commit/32d2b77dd2c991cadf726f929f992e109b61d92c) - **docs:** add missing API docs _(by Athan Reines)_
 -   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323) - **remove:** remove `blas/ext/base/dapxsumkbn-wasm` _(by Athan Reines)_

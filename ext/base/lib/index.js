@@ -1062,6 +1062,15 @@ setReadOnly( ns, 'ssumors', require( './../../../ext/base/ssumors' ) );
 */
 setReadOnly( ns, 'ssumpw', require( './../../../ext/base/ssumpw' ) );
 
+/**
+* @name wasm
+* @memberof ns
+* @readonly
+* @type {Namespace}
+* @see {@link module:@stdlib/blas/ext/base/wasm}
+*/
+setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
+
 
 // EXPORTS //
 
