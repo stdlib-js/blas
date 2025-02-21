@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-20)
+## Unreleased (2025-02-21)
 
 <section class="packages">
 
@@ -6039,6 +6039,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6daebce`](https://github.com/stdlib-js/stdlib/commit/6daebceeb723392b00e87b2c6d7398b76be58b95) - **docs:** update related packages sections [(#5349)](https://github.com/stdlib-js/stdlib/pull/5349) _(by stdlib-bot)_
 -   [`32d2b77`](https://github.com/stdlib-js/stdlib/commit/32d2b77dd2c991cadf726f929f992e109b61d92c) - **docs:** add missing API docs _(by Athan Reines)_
 -   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323) - **remove:** remove `blas/ext/base/dapxsumkbn-wasm` _(by Athan Reines)_
 -   [`46b98f4`](https://github.com/stdlib-js/stdlib/commit/46b98f4f6cc171d07810b3f756ff7c36e60ac8ed) - **feat:** add `blas/ext/base/wasm/dapxsumkbn` _(by Athan Reines)_
