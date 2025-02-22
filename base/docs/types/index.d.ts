@@ -31,6 +31,8 @@ import daxpy = require( './../../../base/daxpy' );
 import dcabs1 = require( './../../../base/dcabs1' );
 import dcopy = require( './../../../base/dcopy' );
 import ddot = require( './../../../base/ddot' );
+import dgemm = require( './../../../base/dgemm' );
+import dgemv = require( './../../../base/dgemv' );
 import diagonalTypeEnum2Str = require( './../../../base/diagonal-type-enum2str' );
 import diagonalTypeResolveEnum = require( './../../../base/diagonal-type-resolve-enum' );
 import diagonalTypeResolveStr = require( './../../../base/diagonal-type-resolve-str' );
@@ -43,11 +45,13 @@ import drotm = require( './../../../base/drotm' );
 import dscal = require( './../../../base/dscal' );
 import dsdot = require( './../../../base/dsdot' );
 import dspmv = require( './../../../base/dspmv' );
+import dspr = require( './../../../base/dspr' );
 import dswap = require( './../../../base/dswap' );
 import dsymv = require( './../../../base/dsymv' );
 import dsyr = require( './../../../base/dsyr' );
 import dsyr2 = require( './../../../base/dsyr2' );
 import dtrmv = require( './../../../base/dtrmv' );
+import dtrsv = require( './../../../base/dtrsv' );
 import dznrm2 = require( './../../../base/dznrm2' );
 import gasum = require( './../../../base/gasum' );
 import gaxpy = require( './../../../base/gaxpy' );
@@ -81,6 +85,7 @@ import scnrm2 = require( './../../../base/scnrm2' );
 import scopy = require( './../../../base/scopy' );
 import sdot = require( './../../../base/sdot' );
 import sdsdot = require( './../../../base/sdsdot' );
+import sgemm = require( './../../../base/sgemm' );
 import sgemv = require( './../../../base/sgemv' );
 import snrm2 = require( './../../../base/snrm2' );
 import srot = require( './../../../base/srot' );
@@ -88,19 +93,23 @@ import srotg = require( './../../../base/srotg' );
 import srotm = require( './../../../base/srotm' );
 import sscal = require( './../../../base/sscal' );
 import sspmv = require( './../../../base/sspmv' );
+import sspr = require( './../../../base/sspr' );
 import sswap = require( './../../../base/sswap' );
 import ssymv = require( './../../../base/ssymv' );
 import ssyr = require( './../../../base/ssyr' );
 import ssyr2 = require( './../../../base/ssyr2' );
 import strmv = require( './../../../base/strmv' );
+import strsv = require( './../../../base/strsv' );
 import transposeOperationEnum2Str = require( './../../../base/transpose-operation-enum2str' );
 import transposeOperationResolveEnum = require( './../../../base/transpose-operation-resolve-enum' );
 import transposeOperationResolveStr = require( './../../../base/transpose-operation-resolve-str' );
 import transposeOperationStr2Enum = require( './../../../base/transpose-operation-str2enum' );
 import transposeOperations = require( './../../../base/transpose-operations' );
+import wasm = require( './../../../base/wasm' );
 import zaxpy = require( './../../../base/zaxpy' );
 import zcopy = require( './../../../base/zcopy' );
 import zdrot = require( './../../../base/zdrot' );
+import zdscal = require( './../../../base/zdscal' );
 import zscal = require( './../../../base/zscal' );
 import zswap = require( './../../../base/zswap' );
 
@@ -407,6 +416,86 @@ interface Namespace {
 	ddot: typeof ddot;
 
 	/**
+	* Performs the matrix-matrix operation `C = α*op(A)*op(B) + β*C` where `op(X)` is either `op(X) = X` or `op(X) = X^T`, `α` and `β` are scalars, `A`, `B`, and `C` are matrices, with `op(A)` an `M` by `K` matrix, `op(B)` a `K` by `N` matrix, and `C` an `M` by `N` matrix.
+	*
+	* @param order - storage layout
+	* @param transA - specifies whether `A` should be transposed, conjugate-transposed, or not transposed
+	* @param transB - specifies whether `B` should be transposed, conjugate-transposed, or not transposed
+	* @param M - number of rows in the matrix `op(A)` and in the matrix `C`
+	* @param N - number of columns in the matrix `op(B)` and in the matrix `C`
+	* @param K - number of columns in the matrix `op(A)` and number of rows in the matrix `op(B)`
+	* @param alpha - scalar constant
+	* @param A - first matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param B - second matrix
+	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
+	* @param beta - scalar constant
+	* @param C - third matrix
+	* @param LDC - stride of the first dimension of `C` (a.k.a., leading dimension of the matrix `C`)
+	* @returns `C`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var A = new Float64Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	* var B = new Float64Array( [ 1.0, 0.0, 1.0, 1.0 ] );
+	* var C = new Float64Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	*
+	* ns.dgemm( 'column-major', 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 2, B, 2, 1.0, C, 2 );
+	* // C => <Float64Array>[ 2.0, 6.0, 5.0, 11.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var A = new Float64Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	* var B = new Float64Array( [ 1.0, 0.0, 1.0, 1.0 ] );
+	* var C = new Float64Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	*
+	* ns.dgemm.ndarray( 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 1, 2, 0, B, 1, 2, 0, 1.0, C, 1, 2, 0 );
+	* // C => <Float64Array>[ 2.0, 6.0, 5.0, 11.0 ]
+	*/
+	dgemm: typeof dgemm;
+
+	/**
+	* Performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y`, where `α` and `β` are scalars, `x` and `y` are vectors, and `A` is an `M` by `N` matrix.
+	*
+	* @param order - storage layout
+	* @param trans - specifies whether `A` should be transposed, conjugate-transposed, or not transposed
+	* @param M - number of rows in the matrix `A`
+	* @param N - number of columns in the matrix `A`
+	* @param alpha - scalar constant
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - first input vector
+	* @param strideX - `x` stride length
+	* @param beta - scalar constant
+	* @param y - second input vector
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0 ] );
+	* var x = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+	* var y = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+	*
+	* ns.dgemv( 'row-major', 'no-transpose', 3, 3, 1.0, A, 3, x1, -1, 1.0, y1, -1 );
+	* // y => <Float64Array>[ 25.0, 16.0, 7.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0 ] );
+	* var x = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+	* var y = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+	*
+	* ns.dgemv.ndarray( 'no-transpose', 3, 3, 1.0, A, 3, 1, 0, x1, -1, 2, 1.0, y1, -1, 2 );
+	* // y => <Float64Array>[ 25.0, 16.0, 7.0 ]
+	*/
+	dgemv: typeof dgemv;
+
+	/**
 	* Returns the BLAS diagonal type string associated with a BLAS diagonal type enumeration constant.
 	*
 	* @param value - enumeration constant
@@ -693,6 +782,38 @@ interface Namespace {
 	dspmv: typeof dspmv;
 
 	/**
+	* Performs the symmetric rank 1 operation `A = α*x*x^T + A` where `α` is a scalar, `x` is an `N` element vector, and `A` is an `N` by `N` symmetric matrix supplied in packed form.
+	*
+	* @param order - storage layout
+	* @param uplo - specifies whether the upper or lower triangular part of the symmetric matrix `A` is being supplied
+	* @param N - number of elements along each dimension of `A`
+	* @param alpha - scalar constant
+	* @param x - input vector
+	* @param strideX - `x` stride length
+	* @param AP - packed form of a symmetric matrix `A`
+	* @returns `AP`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var AP = new Float64Array( [ 1.0, 1.0, 2.0, 1.0, 2.0, 3.0 ] );
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dspr( 'row-major', 'lower', 3, 1.0, x, 1, AP );
+	* // AP => <Float64Array>[ 2.0, 3.0, 6.0, 4.0, 8.0, 12.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var AP = new Float64Array( [ 1.0, 1.0, 2.0, 1.0, 2.0, 3.0 ] );
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dspr.ndarray( 'row-major', 'lower', 3, 1.0, x, 1, 0, AP, 1, 0 );
+	* // AP => <Float64Array>[ 2.0, 3.0, 6.0, 4.0, 8.0, 12.0 ]
+	*/
+	dspr: typeof dspr;
+
+	/**
 	* Interchanges two double-precision floating-point vectors.
 	*
 	* @param N - number of indexed elements
@@ -865,6 +986,40 @@ interface Namespace {
 	* // x => <Float64Array>[ 1.0, 5.0, 15.0 ]
 	*/
 	dtrmv: typeof dtrmv;
+
+	/**
+	* Solves one of the systems of equations `A*x = b` or `A^T*x = b` where `b` and `x` are `N` element vectors and `A` is an `N` by `N` unit, or non-unit, upper or lower triangular matrix.
+	*
+	* @param order - storage layout
+	* @param uplo - specifies whether `A` is an upper or lower triangular matrix
+	* @param trans - specifies whether `A` should be transposed, conjugate-transposed, or not transposed
+	* @param diag - specifies whether `A` has a unit diagonal
+	* @param N - number of elements along each dimension in the matrix `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - input vector
+	* @param strideX - `x` stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var A = new Float64Array( [ 1.0, 0.0, 0.0, 2.0, 3.0, 0.0, 4.0, 5.0, 6.0 ] );
+	* var x = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+	*
+	* ns.dtrsv( 'row-major', 'lower', 'no-transpose', 'non-unit', 3, A, 3, x, 1 );
+	* // x => <Float64Array>[ 1.0, ~-0.33, ~-0.22 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var A = new Float64Array( [ 1.0, 0.0, 0.0, 2.0, 3.0, 0.0, 4.0, 5.0, 6.0 ] );
+	* var x = new Float64Array( [ 1.0, 1.0, 1.0 ] );
+	*
+	* ns.dtrsv.ndarray( 'lower', 'no-transpose', 'non-unit', 3, A, 3, 1, 0, x, 1, 0 );
+	* // x => <Float64Array>[ 1.0, ~-0.33, ~-0.22 ]
+	*/
+	dtrsv: typeof dtrsv;
 
 	/**
 	* Computes the L2-norm of a complex double-precision floating-point vector.
@@ -1555,6 +1710,47 @@ interface Namespace {
 	sdsdot: typeof sdsdot;
 
 	/**
+	* Performs the matrix-matrix operation `C = α*op(A)*op(B) + β*C` where `op(X)` is either `op(X) = X` or `op(X) = X^T`, `α` and `β` are scalars, `A`, `B`, and `C` are matrices, with `op(A)` an `M` by `K` matrix, `op(B)` a `K` by `N` matrix, and `C` an `M` by `N` matrix.
+	*
+	* @param order - storage layout
+	* @param transA - specifies whether `A` should be transposed, conjugate-transposed, or not transposed
+	* @param transB - specifies whether `B` should be transposed, conjugate-transposed, or not transposed
+	* @param M - number of rows in the matrix `op(A)` and in the matrix `C`
+	* @param N - number of columns in the matrix `op(B)` and in the matrix `C`
+	* @param K - number of columns in the matrix `op(A)` and number of rows in the matrix `op(B)`
+	* @param alpha - scalar constant
+	* @param A - first matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param B - second matrix
+	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
+	* @param beta - scalar constant
+	* @param C - third matrix
+	* @param LDC - stride of the first dimension of `C` (a.k.a., leading dimension of the matrix `C`)
+	* @returns `C`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var A = new Float32Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	* var B = new Float32Array( [ 1.0, 0.0, 1.0, 1.0 ] );
+	* var C = new Float32Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	*
+	* ns.sgemm( 'column-major', 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 2, B, 2, 1.0, C, 2 );
+	* // C => <Float32Array>[ 2.0, 6.0, 5.0, 11.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var A = new Float32Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	* var B = new Float32Array( [ 1.0, 0.0, 1.0, 1.0 ] );
+	* var C = new Float32Array( [ 1.0, 3.0, 2.0, 4.0 ] );
+	*
+	* ns.sgemm.ndarray( 'no-transpose', 'no-transpose', 2, 2, 2, 1.0, A, 1, 2, 0, B, 1, 2, 0, 1.0, C, 1, 2, 0 );
+	* // C => <Float32Array>[ 2.0, 6.0, 5.0, 11.0 ]
+	*/
+	sgemm: typeof sgemm;
+
+	/**
 	* Performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y`, where `α` and `β` are scalars, `x` and `y` are vectors, and `A` is an `M` by `N` matrix.
 	*
 	* @param order - storage layout
@@ -1776,6 +1972,38 @@ interface Namespace {
 	sspmv: typeof sspmv;
 
 	/**
+	* Performs the symmetric rank 1 operation `A = α*x*x^T + A` where `α` is a scalar, `x` is an `N` element vector, and `A` is an `N` by `N` symmetric matrix supplied in packed form.
+	*
+	* @param order - storage layout
+	* @param uplo - specifies whether the upper or lower triangular part of the symmetric matrix `A` is supplied
+	* @param N - number of elements along each dimension of `A`
+	* @param alpha - scalar constant
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param AP - packed form of a symmetric matrix `A`
+	* @returns `AP`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var AP = new Float32Array( [ 1.0, 1.0, 2.0, 1.0, 2.0, 3.0 ] );
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	*
+	* ns.sspr( 'row-major', 'lower', 3, 1.0, x, 1, AP );
+	* // AP => <Float32Array>[ 2.0, 3.0, 6.0, 4.0, 8.0, 12.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var AP = new Float32Array( [ 1.0, 1.0, 2.0, 1.0, 2.0, 3.0 ] );
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	*
+	* ns.sspr.ndarray( 'row-major', 'lower', 3, 1.0, x, 1, 0, AP, 1, 0 );
+	* // AP => <Float32Array>[ 2.0, 3.0, 6.0, 4.0, 8.0, 12.0 ]
+	*/
+	sspr: typeof sspr;
+
+	/**
 	* Interchanges two single-precision floating-point vectors.
 	*
 	* @param N - number of indexed elements
@@ -1950,6 +2178,40 @@ interface Namespace {
 	strmv: typeof strmv;
 
 	/**
+	* Solves one of the systems of equations `A*x = b` or `A^T*x = b` where `b` and `x` are `N` element vectors and `A` is an `N` by `N` unit, or non-unit, upper or lower triangular matrix.
+	*
+	* @param order - storage layout
+	* @param uplo - specifies whether `A` is an upper or lower triangular matrix
+	* @param trans - specifies whether `A` should be transposed, conjugate-transposed, or not transposed
+	* @param diag - specifies whether `A` has a unit diagonal
+	* @param N - number of elements along each dimension in the matrix `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - input vector
+	* @param strideX - `x` stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var A = new Float32Array( [ 1.0, 0.0, 0.0, 2.0, 3.0, 0.0, 4.0, 5.0, 6.0 ] );
+	* var x = new Float32Array( [ 1.0, 1.0, 1.0 ] );
+	*
+	* ns.strsv( 'row-major', 'lower', 'no-transpose', 'non-unit', 3, A, 3, x, 1 );
+	* // x => <Float32Array>[ 1.0, ~-0.33, ~-0.22 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var A = new Float32Array( [ 1.0, 0.0, 0.0, 2.0, 3.0, 0.0, 4.0, 5.0, 6.0 ] );
+	* var x = new Float32Array( [ 1.0, 1.0, 1.0 ] );
+	*
+	* ns.strsv.ndarray( 'lower', 'no-transpose', 'non-unit', 3, A, 3, 1, 0, x, 1, 0 );
+	* // x => <Float32Array>[ 1.0, ~-0.33, ~-0.22 ]
+	*/
+	strsv: typeof strsv;
+
+	/**
 	* Returns the BLAS transpose operation string associated with a BLAS transpose operation enumeration constant.
 	*
 	* @param operation - enumeration constant
@@ -2022,6 +2284,11 @@ interface Namespace {
 	* // e.g., returns [ 'no-transpose', 'transpose', 'conjugate-transpose' ]
 	*/
 	transposeOperations: typeof transposeOperations;
+
+	/**
+	* Basic linear algebra subprograms (BLAS) compiled to WebAssembly.
+	*/
+	wasm: typeof wasm;
 
 	/**
 	* Scales a double-precision complex floating-point vector by a double-precision complex floating-point constant and adds the result to a double-precision complex floating-point vector.
@@ -2121,6 +2388,53 @@ interface Namespace {
 	* // zy => <Complex128Array>[ ~-0.6, ~-1.2, -3.0, ~-3.6, 0.0, 0.0, 0.0, 0.0 ]
 	*/
 	zdrot: typeof zdrot;
+
+	/**
+	* Scales a double-precision complex floating-point vector by a double-precision floating-point constant.
+	*
+	* @param N - number of indexed elements
+	* @param da - scalar constant
+	* @param zx - input array
+	* @param strideZX - `zx` stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var real = require( '@stdlib/complex/float64/real' );
+	* var imag = require( '@stdlib/complex/float64/imag' );
+	*
+	* var zx = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.zdscal( 3, 2.0, zx, 1 );
+	*
+	* var z = zx.get( 1 );
+	* // returns <Complex128>
+	*
+	* var re = real( z );
+	* // returns 6.0
+	*
+	* var im = imag( z );
+	* // returns 8.0
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var real = require( '@stdlib/complex/float64/real' );
+	* var imag = require( '@stdlib/complex/float64/imag' );
+	*
+	* var zx = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.zdscal.ndarray( 2, 2.0, zx, 1, 1 );
+	*
+	* var z = zx.get( 1 );
+	* // returns <Complex128>
+	*
+	* var re = real( z );
+	* // returns 10.0
+	*
+	* var im = imag( z );
+	* // returns 12.0
+	*/
+	zdscal: typeof zdscal;
 
 	/**
 	* Scales a double-precision complex floating-point vector by a double-precision complex floating-point constant.

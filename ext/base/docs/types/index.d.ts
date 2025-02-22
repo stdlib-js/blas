@@ -134,6 +134,7 @@ import ssumkbn = require( './../../../../ext/base/ssumkbn' );
 import ssumkbn2 = require( './../../../../ext/base/ssumkbn2' );
 import ssumors = require( './../../../../ext/base/ssumors' );
 import ssumpw = require( './../../../../ext/base/ssumpw' );
+import wasm = require( './../../../../ext/base/wasm' );
 
 /**
 * Interface describing the `base` namespace.
@@ -3269,6 +3270,11 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	ssumpw: typeof ssumpw;
+
+	/**
+	* Extensions to basic linear algebra subprograms (BLAS) compiled to WebAssembly.
+	*/
+	wasm: typeof wasm;
 }
 
 /**

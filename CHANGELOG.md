@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-21)
+## Unreleased (2025-02-22)
 
 <section class="packages">
 
@@ -54,6 +54,7 @@
 
 ##### Features
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - add various level 1 and level 2 routines to namespace
 -   [`c1ac93f`](https://github.com/stdlib-js/stdlib/commit/c1ac93f393ce6fc122e388e2554d01b149b6fbc0) - add `wasm` to namespace
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410) - update namespace TypeScript declarations [(#5254)](https://github.com/stdlib-js/stdlib/pull/5254)
@@ -1805,6 +1806,7 @@
 
 ##### Features
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`5306dac`](https://github.com/stdlib-js/stdlib/commit/5306dac507668082336473811c64b04dc3b765ef) - add `blas/base/wasm` namespace
 
 </section>
@@ -2487,6 +2489,7 @@
 
 ##### Features
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`40f5bae`](https://github.com/stdlib-js/stdlib/commit/40f5bae95d708401dbea4c37b2c220381638c4a0) - add `wasm` to namespace
 -   [`76cf95f`](https://github.com/stdlib-js/stdlib/commit/76cf95f336fc29cb4e83184fe6f215c23a723e95) - update namespace TypeScript declarations [(#5243)](https://github.com/stdlib-js/stdlib/pull/5243)
 -   [`5dde14b`](https://github.com/stdlib-js/stdlib/commit/5dde14b31ea6a661b88b7ba637e0e7a2fce272a4) - update namespace TypeScript declarations [(#5182)](https://github.com/stdlib-js/stdlib/pull/5182)
@@ -4815,6 +4818,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`a8b94d7`](https://github.com/stdlib-js/stdlib/commit/a8b94d7ea281eb5ac4477eaca40fdb38195ab2b3) - add `blas/ext/base/wasm` namespace
 
 </section>
@@ -6086,6 +6090,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - **feat:** update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364) _(by stdlib-bot)_
 -   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - **feat:** add various level 1 and level 2 routines to namespace _(by Athan Reines)_
 -   [`c1ac93f`](https://github.com/stdlib-js/stdlib/commit/c1ac93f393ce6fc122e388e2554d01b149b6fbc0) - **feat:** add `wasm` to namespace _(by Athan Reines)_
 -   [`40f5bae`](https://github.com/stdlib-js/stdlib/commit/40f5bae95d708401dbea4c37b2c220381638c4a0) - **feat:** add `wasm` to namespace _(by Athan Reines)_
