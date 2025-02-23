@@ -6090,6 +6090,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`bda44d4`](https://github.com/stdlib-js/stdlib/commit/bda44d4eac2da2fae254764a717df0586872cb2b) - **docs:** update examples for `blas/base/zdscal` [(#5392)](https://github.com/stdlib-js/stdlib/pull/5392) _(by Gururaj Gurram)_
 -   [`f2f05d9`](https://github.com/stdlib-js/stdlib/commit/f2f05d91b9e5960b7c69a7d157a50ede9b381335) - **docs:** update related packages sections [(#5384)](https://github.com/stdlib-js/stdlib/pull/5384) _(by stdlib-bot)_
 -   [`fc4a92a`](https://github.com/stdlib-js/stdlib/commit/fc4a92a4a2356e4de3026fcfcfbd6433121851a0) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`3772f8f`](https://github.com/stdlib-js/stdlib/commit/3772f8f53a07408b72cf4ec3e8334758f9aded0d) - **docs:** update namespace table of contents [(#5366)](https://github.com/stdlib-js/stdlib/pull/5366) _(by stdlib-bot, Philipp Burckhardt)_
