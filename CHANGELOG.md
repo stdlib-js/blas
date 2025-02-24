@@ -54,6 +54,7 @@
 
 ##### Features
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385)
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`2a23671`](https://github.com/stdlib-js/stdlib/commit/2a23671ce88a4b3fbfcf48b5edb8b73105463bdf) - add various level 1 and level 2 routines to namespace
 -   [`c1ac93f`](https://github.com/stdlib-js/stdlib/commit/c1ac93f393ce6fc122e388e2554d01b149b6fbc0) - add `wasm` to namespace
@@ -72,6 +73,10 @@
 <section class="breaking-changes">
 
 ##### BREAKING CHANGES
+
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
 
 -   [`ae8e7b9`](https://github.com/stdlib-js/stdlib/commit/ae8e7b9f2140d1a5b98e8bc03fb909df3171d410): remove `dmaxabs`
 
@@ -4895,6 +4900,10 @@ This release closes the following issue:
 
 ### BREAKING CHANGES
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce): remove `dnanmean` from `stats/base`
+
+    -   To migrate, users should access the same symbol via the `@stdlib/stats/strided` namespace.
+
 -   [`0864071`](https://github.com/stdlib-js/stdlib/commit/086407175aec71e2874727a7d3bad97d26289323): remove `@stdlib/blas/ext/base/dapxsumkbn-wasm`
 
     -   To migrate, users should update their import paths to use
@@ -6090,6 +6099,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`31d673e`](https://github.com/stdlib-js/stdlib/commit/31d673e7ec3a7393b6b689d9ab724b783deef4ce) - **feat:** update namespace TypeScript declarations [(#5385)](https://github.com/stdlib-js/stdlib/pull/5385) _(by stdlib-bot)_
 -   [`3ec92ae`](https://github.com/stdlib-js/stdlib/commit/3ec92aeaefd8a73587ab8a9e153e654da87c553f) - **docs:** update related packages sections [(#5401)](https://github.com/stdlib-js/stdlib/pull/5401) _(by stdlib-bot)_
 -   [`bda44d4`](https://github.com/stdlib-js/stdlib/commit/bda44d4eac2da2fae254764a717df0586872cb2b) - **docs:** update examples for `blas/base/zdscal` [(#5392)](https://github.com/stdlib-js/stdlib/pull/5392) _(by Gururaj Gurram)_
 -   [`f2f05d9`](https://github.com/stdlib-js/stdlib/commit/f2f05d91b9e5960b7c69a7d157a50ede9b381335) - **docs:** update related packages sections [(#5384)](https://github.com/stdlib-js/stdlib/pull/5384) _(by stdlib-bot)_
