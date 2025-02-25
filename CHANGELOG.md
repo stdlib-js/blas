@@ -1172,6 +1172,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-gasum-unreleased">
+
+#### [@stdlib/blas/base/gasum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gasum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-gscal-unreleased">
 
 #### [@stdlib/blas/base/gscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gscal)
@@ -6121,6 +6143,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - **feat:** add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439) _(by Muhammad Haris)_
 -   [`2d26990`](https://github.com/stdlib-js/stdlib/commit/2d26990255c7d3ef2396f2d8c7ebf545e7ba41ee) - **docs:** update examples for `blas/base/wasm/zcopy` [(#5442)](https://github.com/stdlib-js/stdlib/pull/5442) _(by Gururaj Gurram)_
 -   [`3b48bb5`](https://github.com/stdlib-js/stdlib/commit/3b48bb5eb47d5a8559d8d7e82f7639ee59d90d21) - **feat:** add accessor array support to `blas/base/gscal` [(#5418)](https://github.com/stdlib-js/stdlib/pull/5418) _(by Muhammad Haris, Athan Reines)_
 -   [`f027bb0`](https://github.com/stdlib-js/stdlib/commit/f027bb01176eb0409c263cf3a9c4529bafccc5a9) - **docs:** update examples for `blas/base/wasm/ccopy` [(#5410)](https://github.com/stdlib-js/stdlib/pull/5410) _(by Gururaj Gurram)_
