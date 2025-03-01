@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-28)
+## Unreleased (2025-03-01)
 
 <section class="packages">
 
@@ -3234,6 +3234,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dsort2sh-unreleased">
+
+#### [@stdlib/blas/ext/base/dsort2sh](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsort2sh)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5501](https://github.com/stdlib-js/stdlib/issues/5501)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dsorthp-unreleased">
 
 #### [@stdlib/blas/ext/base/dsorthp](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dsorthp)
@@ -6126,9 +6150,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 11 issues were closed in this release:
+A total of 12 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501)
 
 </section>
 
@@ -6138,12 +6162,13 @@ A total of 11 issues were closed in this release:
 
 ### Contributors
 
-A total of 13 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
 -   Gururaj Gurram
+-   Justyn Shelby
 -   Mohammad Bin Aftab
 -   Muhammad Haris
 -   Neeraj Pathak
@@ -6164,6 +6189,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`4fdea8f`](https://github.com/stdlib-js/stdlib/commit/4fdea8f772529eba17f6045c4188b1674d97b432) - **chore:** fix EditorConfig lint errors [(#5514)](https://github.com/stdlib-js/stdlib/pull/5514) _(by Justyn Shelby)_
 -   [`4efada9`](https://github.com/stdlib-js/stdlib/commit/4efada90febbd19180bcba37915b0f19e918348e) - **docs:** update namespace table of contents [(#5513)](https://github.com/stdlib-js/stdlib/pull/5513) _(by stdlib-bot)_
 -   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - **feat:** update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511) _(by stdlib-bot)_
 -   [`8dc22d7`](https://github.com/stdlib-js/stdlib/commit/8dc22d75fe8396c5fe89418a325a174c531d95eb) - **refactor:** update `blas/base/gscal` to follow current project conventions [(#5447)](https://github.com/stdlib-js/stdlib/pull/5447) _(by Saurabh Singh, Athan Reines, Muhammad Haris, stdlib-bot)_
