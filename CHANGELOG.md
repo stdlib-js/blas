@@ -2774,6 +2774,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dapxsumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/dapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b0d1c0e`](https://github.com/stdlib-js/stdlib/commit/b0d1c0ee0ff6fa05c8d5019939990d3fbdf08537) - add `blas/ext/base/wasm/dapxsumpw` [(#5642)](https://github.com/stdlib-js/stdlib/pull/5642)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5508](https://github.com/stdlib-js/stdlib/issues/5508)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dnanasumors-unreleased">
 
 #### [@stdlib/blas/ext/base/dnanasumors](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dnanasumors)
@@ -4943,6 +4977,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-wasm-dapxsumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/wasm/dapxsumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm/dapxsumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`b0d1c0e`](https://github.com/stdlib-js/stdlib/commit/b0d1c0ee0ff6fa05c8d5019939990d3fbdf08537) - add `blas/ext/base/wasm/dapxsumpw` [(#5642)](https://github.com/stdlib-js/stdlib/pull/5642)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5508](https://github.com/stdlib-js/stdlib/issues/5508)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-tools-unreleased">
 
 #### [@stdlib/blas/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools)
@@ -6150,9 +6218,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 12 issues were closed in this release:
+A total of 13 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5508](https://github.com/stdlib-js/stdlib/issues/5508)
 
 </section>
 
@@ -6189,6 +6257,8 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b0d1c0e`](https://github.com/stdlib-js/stdlib/commit/b0d1c0ee0ff6fa05c8d5019939990d3fbdf08537) - **feat:** add `blas/ext/base/wasm/dapxsumpw` [(#5642)](https://github.com/stdlib-js/stdlib/pull/5642) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
+-   [`5003dac`](https://github.com/stdlib-js/stdlib/commit/5003dac28f25072653f9cf6d9fe8761f5898085c) - **docs:** fix line wrapping _(by Athan Reines)_
 -   [`56ca4c4`](https://github.com/stdlib-js/stdlib/commit/56ca4c46231745f5c3aaf24352415306b6c5dd0c) - **docs:** fix line wrapping _(by Athan Reines)_
 -   [`ca7bf2d`](https://github.com/stdlib-js/stdlib/commit/ca7bf2d42bf8785f00754c838a855cc203f095e8) - **docs:** fix line wrapping _(by Athan Reines)_
 -   [`4fdea8f`](https://github.com/stdlib-js/stdlib/commit/4fdea8f772529eba17f6045c4188b1674d97b432) - **chore:** fix EditorConfig lint errors [(#5514)](https://github.com/stdlib-js/stdlib/pull/5514) _(by Justyn Shelby)_

@@ -54,6 +54,7 @@
     "@stdlib/console": "github:stdlib-js/console#main",
     "@stdlib/fs": "github:stdlib-js/fs#main",
     "@stdlib/random": "github:stdlib-js/random#main",
+    "@stdlib/time": "github:stdlib-js/time#main",
     "@stdlib/wasm": "github:stdlib-js/wasm#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
