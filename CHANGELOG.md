@@ -6257,6 +6257,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8a80a81`](https://github.com/stdlib-js/stdlib/commit/8a80a811f4c4d710106c73b6381fe0d3ed2ab901) - **build:** generalize scripts to auto-update copyright year _(by Athan Reines)_
 -   [`b0d1c0e`](https://github.com/stdlib-js/stdlib/commit/b0d1c0ee0ff6fa05c8d5019939990d3fbdf08537) - **feat:** add `blas/ext/base/wasm/dapxsumpw` [(#5642)](https://github.com/stdlib-js/stdlib/pull/5642) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`5003dac`](https://github.com/stdlib-js/stdlib/commit/5003dac28f25072653f9cf6d9fe8761f5898085c) - **docs:** fix line wrapping _(by Athan Reines)_
 -   [`56ca4c4`](https://github.com/stdlib-js/stdlib/commit/56ca4c46231745f5c3aaf24352415306b6c5dd0c) - **docs:** fix line wrapping _(by Athan Reines)_
