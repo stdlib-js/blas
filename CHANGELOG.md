@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-01)
+## Unreleased (2025-03-02)
 
 <section class="packages">
 
@@ -6189,6 +6189,8 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`56ca4c4`](https://github.com/stdlib-js/stdlib/commit/56ca4c46231745f5c3aaf24352415306b6c5dd0c) - **docs:** fix line wrapping _(by Athan Reines)_
+-   [`ca7bf2d`](https://github.com/stdlib-js/stdlib/commit/ca7bf2d42bf8785f00754c838a855cc203f095e8) - **docs:** fix line wrapping _(by Athan Reines)_
 -   [`4fdea8f`](https://github.com/stdlib-js/stdlib/commit/4fdea8f772529eba17f6045c4188b1674d97b432) - **chore:** fix EditorConfig lint errors [(#5514)](https://github.com/stdlib-js/stdlib/pull/5514) _(by Justyn Shelby)_
 -   [`4efada9`](https://github.com/stdlib-js/stdlib/commit/4efada90febbd19180bcba37915b0f19e918348e) - **docs:** update namespace table of contents [(#5513)](https://github.com/stdlib-js/stdlib/pull/5513) _(by stdlib-bot)_
 -   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799) - **feat:** update namespace TypeScript declarations [(#5511)](https://github.com/stdlib-js/stdlib/pull/5511) _(by stdlib-bot)_
