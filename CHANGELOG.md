@@ -1579,6 +1579,30 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-sdot-unreleased">
+
+#### [@stdlib/blas/base/sdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sdot)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5905](https://github.com/stdlib-js/stdlib/issues/5905)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-sdot-wasm-unreleased">
 
 #### [@stdlib/blas/base/sdot-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sdot-wasm)
@@ -6240,9 +6264,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 13 issues were closed in this release:
+A total of 14 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5508](https://github.com/stdlib-js/stdlib/issues/5508)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5905](https://github.com/stdlib-js/stdlib/issues/5905)
 
 </section>
 
@@ -6252,12 +6276,13 @@ A total of 13 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
 -   Gururaj Gurram
+-   Hemant M Mehta
 -   Justyn Shelby
 -   Mohammad Bin Aftab
 -   Muhammad Haris
@@ -6279,6 +6304,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b419e98`](https://github.com/stdlib-js/stdlib/commit/b419e9801458941ec974bd04be949735614d1432) - **bench:** suppress uninitialized variable warning [(#5918)](https://github.com/stdlib-js/stdlib/pull/5918) _(by Hemant M Mehta)_
 -   [`24ba370`](https://github.com/stdlib-js/stdlib/commit/24ba370b3ae9e9bc4aa0160f7d0e3879e62d2153) - **feat:** add accessor array support to `blas/base/gdot`  [(#5878)](https://github.com/stdlib-js/stdlib/pull/5878) _(by Muhammad Haris, Athan Reines)_
 -   [`bd9b313`](https://github.com/stdlib-js/stdlib/commit/bd9b313e9ccbc89f584a247d57c15388e019af2e) - **docs:** update examples for `blas/base/wasm/zswap` [(#5770)](https://github.com/stdlib-js/stdlib/pull/5770) _(by Gururaj Gurram)_
 -   [`8a80a81`](https://github.com/stdlib-js/stdlib/commit/8a80a811f4c4d710106c73b6381fe0d3ed2ab901) - **build:** generalize scripts to auto-update copyright year _(by Athan Reines)_
