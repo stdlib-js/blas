@@ -1221,6 +1221,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-gnrm2-unreleased">
+
+#### [@stdlib/blas/base/gnrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gnrm2)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`f572d78`](https://github.com/stdlib-js/stdlib/commit/f572d7875370c83107013a400f32d1ec3f473acb) - add accessor array support to `blas/base/gnrm2` [(#5778)](https://github.com/stdlib-js/stdlib/pull/5778)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-gscal-unreleased">
 
 #### [@stdlib/blas/base/gscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gscal)
@@ -6327,6 +6349,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`f572d78`](https://github.com/stdlib-js/stdlib/commit/f572d7875370c83107013a400f32d1ec3f473acb) - **feat:** add accessor array support to `blas/base/gnrm2` [(#5778)](https://github.com/stdlib-js/stdlib/pull/5778) _(by Muhammad Haris, Athan Reines)_
 -   [`460cd8f`](https://github.com/stdlib-js/stdlib/commit/460cd8f7b479efb7350a3b638be912b7e1bd5a7b) - **feat:** add `srotm` to namespace _(by Athan Reines)_
 -   [`8dc3f35`](https://github.com/stdlib-js/stdlib/commit/8dc3f35a39fdf2d24f7a9a80ed9e5d905d5cf10b) - **feat:** add `blas/base/wasm/srotm` [(#https://github.com/stodlib-js/stdlib/pull/5824)](https://github.com/stdlib-js/stdlib/pull/https://github.com/stodlib-js/stdlib/pull/5824) _(by Gururaj Gurram, Athan Reines)_
 -   [`14bab15`](https://github.com/stdlib-js/stdlib/commit/14bab159393b69aa3496cb3b715ea3b68de3e3d7) - **chore:** fix tests, spacing, and comments _(by Athan Reines)_
