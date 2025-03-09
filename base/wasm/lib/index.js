@@ -226,6 +226,15 @@ setReadOnly( ns, 'snrm2', require( './../../../base/snrm2' ) );
 setReadOnly( ns, 'srot', require( './../../../base/srot' ) );
 
 /**
+* @name srotm
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/srotm}
+*/
+setReadOnly( ns, 'srotm', require( './../../../base/srotm' ) );
+
+/**
 * @name sscal
 * @memberof ns
 * @readonly
