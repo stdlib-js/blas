@@ -2393,6 +2393,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-srotm-unreleased">
+
+#### [@stdlib/blas/base/wasm/srotm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/srotm)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`8dc3f35`](https://github.com/stdlib-js/stdlib/commit/8dc3f35a39fdf2d24f7a9a80ed9e5d905d5cf10b) - add `blas/base/wasm/srotm` [(#https://github.com/stodlib-js/stdlib/pull/5824)](https://github.com/stdlib-js/stdlib/pull/https://github.com/stodlib-js/stdlib/pull/5824)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-sscal-unreleased">
 
 #### [@stdlib/blas/base/wasm/sscal](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/sscal)
@@ -6304,6 +6326,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`8dc3f35`](https://github.com/stdlib-js/stdlib/commit/8dc3f35a39fdf2d24f7a9a80ed9e5d905d5cf10b) - **feat:** add `blas/base/wasm/srotm` [(#https://github.com/stodlib-js/stdlib/pull/5824)](https://github.com/stdlib-js/stdlib/pull/https://github.com/stodlib-js/stdlib/pull/5824) _(by Gururaj Gurram, Athan Reines)_
 -   [`b419e98`](https://github.com/stdlib-js/stdlib/commit/b419e9801458941ec974bd04be949735614d1432) - **bench:** suppress uninitialized variable warning [(#5918)](https://github.com/stdlib-js/stdlib/pull/5918) _(by Hemant M Mehta)_
 -   [`24ba370`](https://github.com/stdlib-js/stdlib/commit/24ba370b3ae9e9bc4aa0160f7d0e3879e62d2153) - **feat:** add accessor array support to `blas/base/gdot`  [(#5878)](https://github.com/stdlib-js/stdlib/pull/5878) _(by Muhammad Haris, Athan Reines)_
 -   [`bd9b313`](https://github.com/stdlib-js/stdlib/commit/bd9b313e9ccbc89f584a247d57c15388e019af2e) - **docs:** update examples for `blas/base/wasm/zswap` [(#5770)](https://github.com/stdlib-js/stdlib/pull/5770) _(by Gururaj Gurram)_
