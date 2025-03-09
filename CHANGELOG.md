@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-04)
+## Unreleased (2025-03-09)
 
 <section class="packages">
 
@@ -1188,6 +1188,28 @@
 ##### Features
 
 -   [`57184e0`](https://github.com/stdlib-js/stdlib/commit/57184e03168cf78b9daeee492995a7ea2670d463) - add accessor array support to `blas/base/gasum` [(#5439)](https://github.com/stdlib-js/stdlib/pull/5439)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-gdot-unreleased">
+
+#### [@stdlib/blas/base/gdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/gdot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`24ba370`](https://github.com/stdlib-js/stdlib/commit/24ba370b3ae9e9bc4aa0160f7d0e3879e62d2153) - add accessor array support to `blas/base/gdot`  [(#5878)](https://github.com/stdlib-js/stdlib/pull/5878)
 
 </section>
 
@@ -6257,6 +6279,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`24ba370`](https://github.com/stdlib-js/stdlib/commit/24ba370b3ae9e9bc4aa0160f7d0e3879e62d2153) - **feat:** add accessor array support to `blas/base/gdot`  [(#5878)](https://github.com/stdlib-js/stdlib/pull/5878) _(by Muhammad Haris, Athan Reines)_
 -   [`bd9b313`](https://github.com/stdlib-js/stdlib/commit/bd9b313e9ccbc89f584a247d57c15388e019af2e) - **docs:** update examples for `blas/base/wasm/zswap` [(#5770)](https://github.com/stdlib-js/stdlib/pull/5770) _(by Gururaj Gurram)_
 -   [`8a80a81`](https://github.com/stdlib-js/stdlib/commit/8a80a811f4c4d710106c73b6381fe0d3ed2ab901) - **build:** generalize scripts to auto-update copyright year _(by Athan Reines)_
 -   [`b0d1c0e`](https://github.com/stdlib-js/stdlib/commit/b0d1c0ee0ff6fa05c8d5019939990d3fbdf08537) - **feat:** add `blas/ext/base/wasm/dapxsumpw` [(#5642)](https://github.com/stdlib-js/stdlib/pull/5642) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
