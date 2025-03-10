@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-09)
+## Unreleased (2025-03-10)
 
 <section class="packages">
 
@@ -1940,6 +1940,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`6716e62`](https://github.com/stdlib-js/stdlib/commit/6716e624585aaba0041ae183089cb2b92851f366) - update namespace TypeScript declarations [(#5938)](https://github.com/stdlib-js/stdlib/pull/5938)
 -   [`460cd8f`](https://github.com/stdlib-js/stdlib/commit/460cd8f7b479efb7350a3b638be912b7e1bd5a7b) - add `srotm` to namespace
 -   [`9789396`](https://github.com/stdlib-js/stdlib/commit/9789396bd5111e963f4662c57c6b4159d4166946) - update namespace TypeScript declarations [(#5364)](https://github.com/stdlib-js/stdlib/pull/5364)
 -   [`5306dac`](https://github.com/stdlib-js/stdlib/commit/5306dac507668082336473811c64b04dc3b765ef) - add `blas/base/wasm` namespace
@@ -6349,6 +6350,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6716e62`](https://github.com/stdlib-js/stdlib/commit/6716e624585aaba0041ae183089cb2b92851f366) - **feat:** update namespace TypeScript declarations [(#5938)](https://github.com/stdlib-js/stdlib/pull/5938) _(by stdlib-bot)_
 -   [`f572d78`](https://github.com/stdlib-js/stdlib/commit/f572d7875370c83107013a400f32d1ec3f473acb) - **feat:** add accessor array support to `blas/base/gnrm2` [(#5778)](https://github.com/stdlib-js/stdlib/pull/5778) _(by Muhammad Haris, Athan Reines)_
 -   [`460cd8f`](https://github.com/stdlib-js/stdlib/commit/460cd8f7b479efb7350a3b638be912b7e1bd5a7b) - **feat:** add `srotm` to namespace _(by Athan Reines)_
 -   [`8dc3f35`](https://github.com/stdlib-js/stdlib/commit/8dc3f35a39fdf2d24f7a9a80ed9e5d905d5cf10b) - **feat:** add `blas/base/wasm/srotm` [(#https://github.com/stodlib-js/stdlib/pull/5824)](https://github.com/stdlib-js/stdlib/pull/https://github.com/stodlib-js/stdlib/pull/5824) _(by Gururaj Gurram, Athan Reines)_
