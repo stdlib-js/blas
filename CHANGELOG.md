@@ -6350,6 +6350,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`01a2787`](https://github.com/stdlib-js/stdlib/commit/01a27876b6668ecb1fb20285913270e14ae663a0) - **docs:** update examples for `blas/base/wasm/zdrot` [(#5805)](https://github.com/stdlib-js/stdlib/pull/5805) _(by Gururaj Gurram)_
 -   [`6716e62`](https://github.com/stdlib-js/stdlib/commit/6716e624585aaba0041ae183089cb2b92851f366) - **feat:** update namespace TypeScript declarations [(#5938)](https://github.com/stdlib-js/stdlib/pull/5938) _(by stdlib-bot)_
 -   [`f572d78`](https://github.com/stdlib-js/stdlib/commit/f572d7875370c83107013a400f32d1ec3f473acb) - **feat:** add accessor array support to `blas/base/gnrm2` [(#5778)](https://github.com/stdlib-js/stdlib/pull/5778) _(by Muhammad Haris, Athan Reines)_
 -   [`460cd8f`](https://github.com/stdlib-js/stdlib/commit/460cd8f7b479efb7350a3b638be912b7e1bd5a7b) - **feat:** add `srotm` to namespace _(by Athan Reines)_
