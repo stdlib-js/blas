@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2024 The Stdlib Authors.
+Copyright (c) 2025 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -18,47 +18,46 @@ limitations under the License.
 
 -->
 
-# dapxsumkbn
+# dnansumpw
 
-> Add a scalar constant to each double-precision floating-point strided array element and compute the sum using an improved Kahan–Babuška algorithm.
+> Calculate the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation.
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var dapxsumkbn = require( '@stdlib/blas/ext/base/wasm/dapxsumkbn' );
+var dnansumpw = require( '@stdlib/blas/ext/base/wasm/dnansumpw' );
 ```
 
-#### dapxsumkbn.main( N, alpha, x, strideX )
+#### dnansumpw.main( N, x, strideX )
 
-Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using an improved Kahan–Babuška algorithm.
+Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation.
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 
-var sum = dapxsumkbn.main( x.length, 5.0, x, 1 );
-// returns 16.0
+var v = dnansumpw.main( x.length, x, 1 );
+// returns 1.0
 ```
 
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
--   **alpha**: scalar constant.
 -   **x**: input [`Float64Array`][@stdlib/array/float64].
 -   **strideX**: stride length for `x`.
 
-The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to access every other element in `x`,
+The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to compute the sum of every other element in `x`,
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+var x = new Float64Array( [ 1.0, 2.0, NaN, -7.0, NaN, 3.0, 4.0, 2.0 ] );
 
-var sum = dapxsumkbn.main( 4, 5.0, x, 2 );
-// returns 25.0
+var sum = dnansumpw.main( 4, x, 2 );
+// returns 5.0
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -68,46 +67,46 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
-var x0 = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x0 = new Float64Array( [ 2.0, 1.0, NaN, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
-var sum = dapxsumkbn.main( 4, 5.0, x1, 2 );
-// returns 25.0
+var v = dnansumpw.main( 4, x1, 2 );
+// returns 5.0
 ```
 
-#### dapxsumkbn.ndarray( N, alpha, x, strideX, offsetX )
+#### dnansumpw.ndarray( N, x, strideX, offsetX )
 
-Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using an improved Kahan–Babuška algorithm and alternative indexing semantics.
+Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation and alternative indexing semantics.
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
 
-var sum = dapxsumkbn.ndarray( x.length, 5.0, x, 1, 0 );
-// returns 16.0
+var v = dnansumpw.ndarray( x.length, x, 1, 0 );
+// returns 1.0
 ```
 
 The function has the following additional parameters:
 
 -   **offsetX**: starting index for `x`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to access every other element starting from the second element:
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to calculate the sum of every other element starting from the second element:
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
 
-var x = new Float64Array( [ 2.0, 1.0, 2.0, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
+var x = new Float64Array( [ 2.0, 1.0, NaN, -2.0, -2.0, 2.0, 3.0, 4.0 ] );
 
-var v = dapxsumkbn.ndarray( 4, 5.0, x, 2, 1 );
-// returns 25.0
+var v = dnansumpw.ndarray( 4, x, 2, 1 );
+// returns 5.0
 ```
 
 * * *
 
 ### Module
 
-#### dapxsumkbn.Module( memory )
+#### dnansumpw.Module( memory )
 
 Returns a new WebAssembly [module wrapper][@stdlib/wasm/module-wrapper] instance which uses the provided WebAssembly [memory][@stdlib/wasm/memory] instance as its underlying memory.
 
@@ -123,16 +122,16 @@ var mem = new Memory({
 });
 
 // Create a BLAS routine:
-var mod = new dapxsumkbn.Module( mem );
+var mod = new dnansumpw.Module( mem );
 // returns <Module>
 
 // Initialize the routine:
 mod.initializeSync();
 ```
 
-#### dapxsumkbn.Module.prototype.main( N, alpha, xp, sx )
+#### dnansumpw.Module.prototype.main( N, xp, sx )
 
-Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using an improved Kahan–Babuška algorithm.
+Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation.
 
 <!-- eslint-disable node/no-sync -->
 
@@ -148,7 +147,7 @@ var mem = new Memory({
 });
 
 // Create a BLAS routine:
-var mod = new dapxsumkbn.Module( mem );
+var mod = new dnansumpw.Module( mem );
 // returns <Module>
 
 // Initialize the routine:
@@ -167,20 +166,19 @@ var xptr = 0;
 mod.write( xptr, oneTo( N, dtype ) );
 
 // Perform computation:
-var sum = mod.main( N, 5.0, xptr, 1 );
-// returns 21.0
+var v = mod.main( N, xptr, 1 );
+// returns 6.0
 ```
 
 The function has the following parameters:
 
 -   **N**: number of indexed elements.
--   **alpha**: scalar constant.
 -   **xp**: input [`Float64Array`][@stdlib/array/float64] pointer (i.e., byte offset).
 -   **sx**: stride length for `x`.
 
-#### dapxsumkbn.Module.prototype.ndarray( N, alpha, xp, sx, ox )
+#### dnansumpw.Module.prototype.ndarray( N, xp, sx, ox )
 
-Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using an improved Kahan–Babuška algorithm and alternative indexing semantics.
+Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation and alternative indexing semantics.
 
 <!-- eslint-disable node/no-sync -->
 
@@ -196,7 +194,7 @@ var mem = new Memory({
 });
 
 // Create a BLAS routine:
-var mod = new dapxsumkbn.Module( mem );
+var mod = new dnansumpw.Module( mem );
 // returns <Module>
 
 // Initialize the routine:
@@ -215,8 +213,8 @@ var xptr = 0;
 mod.write( xptr, oneTo( N, dtype ) );
 
 // Perform computation:
-var sum = mod.ndarray( N, 5.0, xptr, 1, 0 );
-// returns 21.0
+var v = mod.ndarray( N, xptr, 1, 0 );
+// returns 6.0
 ```
 
 The function has the following additional parameters:
@@ -234,7 +232,7 @@ The function has the following additional parameters:
 ## Notes
 
 -   If `N <= 0`, both `main` and `ndarray` methods return `0.0`.
--   This package implements routines using WebAssembly. When provided arrays which are not allocated on a `dapxsumkbn` module memory instance, data must be explicitly copied to module memory prior to computation. Data movement may entail a performance cost, and, thus, if you are using arrays external to module memory, you should prefer using [`@stdlib/blas/ext/base/dapxsumkbn`][@stdlib/blas/ext/base/dapxsumkbn]. However, if working with arrays which are allocated and explicitly managed on module memory, you can achieve better performance when compared to the pure JavaScript implementations found in [`@stdlib/blas/ext/base/dapxsumkbn`][@stdlib/blas/ext/base/dapxsumkbn]. Beware that such performance gains may come at the cost of additional complexity when having to perform manual memory management. Choosing between implementations depends heavily on the particular needs and constraints of your application, with no one choice universally better than the other.
+-   This package implements routines using WebAssembly. When provided arrays which are not allocated on a `dnansumpw` module memory instance, data must be explicitly copied to module memory prior to computation. Data movement may entail a performance cost, and, thus, if you are using arrays external to module memory, you should prefer using [`@stdlib/blas/ext/base/dnansumpw`][@stdlib/blas/ext/base/dnansumpw]. However, if working with arrays which are allocated and explicitly managed on module memory, you can achieve better performance when compared to the pure JavaScript implementations found in [`@stdlib/blas/ext/base/dnansumpw`][@stdlib/blas/ext/base/dnansumpw]. Beware that such performance gains may come at the cost of additional complexity when having to perform manual memory management. Choosing between implementations depends heavily on the particular needs and constraints of your application, with no one choice universally better than the other.
 
 </section>
 
@@ -250,7 +248,7 @@ The function has the following additional parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dapxsumkbn = require( '@stdlib/blas/ext/base/wasm/dapxsumkbn' );
+var dnansumpw = require( '@stdlib/blas/ext/base/wasm/dnansumpw' );
 
 var opts = {
     'dtype': 'float64'
@@ -258,8 +256,8 @@ var opts = {
 var x = discreteUniform( 10, 0, 100, opts );
 console.log( x );
 
-var sum = dapxsumkbn.ndarray( x.length, 5.0, x, 1, 0 );
-console.log( sum );
+var v = dnansumpw.ndarray( x.length, x, 1, 0 );
+console.log( v );
 ```
 
 </section>
@@ -286,7 +284,7 @@ console.log( sum );
 
 [@stdlib/wasm/module-wrapper]: https://github.com/stdlib-js/wasm-module-wrapper
 
-[@stdlib/blas/ext/base/dapxsumkbn]: https://github.com/stdlib-js/blas/tree/main/ext/base/dapxsumkbn
+[@stdlib/blas/ext/base/dnansumpw]: https://github.com/stdlib-js/blas/tree/main/ext/base/dnansumpw
 
 </section>
 

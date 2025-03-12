@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-10)
+## Unreleased (2025-03-12)
 
 <section class="packages">
 
@@ -3174,6 +3174,7 @@ This release closes the following issue:
 
 ##### Features
 
+-   [`e0e2ab2`](https://github.com/stdlib-js/stdlib/commit/e0e2ab2955fd340371c0989c5a7a2f96991ba232) - add `blas/ext/base/wasm/dnansumpw` [(#5968)](https://github.com/stdlib-js/stdlib/pull/5968)
 -   [`14021a5`](https://github.com/stdlib-js/stdlib/commit/14021a537b3f627a4ff0b3228b78d0433a6eb562) - add C `ndarray` API and refactor `blas/ext/base/dnansumpw` [(#3202)](https://github.com/stdlib-js/stdlib/pull/3202)
 
 </section>
@@ -5103,6 +5104,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-wasm-dnansumpw-unreleased">
+
+#### [@stdlib/blas/ext/base/wasm/dnansumpw](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm/dnansumpw)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e0e2ab2`](https://github.com/stdlib-js/stdlib/commit/e0e2ab2955fd340371c0989c5a7a2f96991ba232) - add `blas/ext/base/wasm/dnansumpw` [(#5968)](https://github.com/stdlib-js/stdlib/pull/5968)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-tools-unreleased">
 
 #### [@stdlib/blas/tools](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/tools)
@@ -6350,6 +6373,11 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`e0e2ab2`](https://github.com/stdlib-js/stdlib/commit/e0e2ab2955fd340371c0989c5a7a2f96991ba232) - **feat:** add `blas/ext/base/wasm/dnansumpw` [(#5968)](https://github.com/stdlib-js/stdlib/pull/5968) _(by Prashant Kumar Yadav, Athan Reines)_
+-   [`acaa750`](https://github.com/stdlib-js/stdlib/commit/acaa75027d9d1136ecdcedb2465e4e8ec77f2b2f) - **docs:** fix package name _(by Athan Reines)_
+-   [`49de088`](https://github.com/stdlib-js/stdlib/commit/49de088f6be300b4b48195ae836120e2c00d5546) - **docs:** fix package name _(by Athan Reines)_
+-   [`13e3172`](https://github.com/stdlib-js/stdlib/commit/13e317293037a43652cbbe6f9e7ebe9b23185a75) - **docs:** fix pkg name _(by Athan Reines)_
+-   [`6f4d5ce`](https://github.com/stdlib-js/stdlib/commit/6f4d5cedceae4e311e176fb3b042f188de18434e) - **docs:** fix pkg name _(by Athan Reines)_
 -   [`01a2787`](https://github.com/stdlib-js/stdlib/commit/01a27876b6668ecb1fb20285913270e14ae663a0) - **docs:** update examples for `blas/base/wasm/zdrot` [(#5805)](https://github.com/stdlib-js/stdlib/pull/5805) _(by Gururaj Gurram)_
 -   [`6716e62`](https://github.com/stdlib-js/stdlib/commit/6716e624585aaba0041ae183089cb2b92851f366) - **feat:** update namespace TypeScript declarations [(#5938)](https://github.com/stdlib-js/stdlib/pull/5938) _(by stdlib-bot)_
 -   [`f572d78`](https://github.com/stdlib-js/stdlib/commit/f572d7875370c83107013a400f32d1ec3f473acb) - **feat:** add accessor array support to `blas/base/gnrm2` [(#5778)](https://github.com/stdlib-js/stdlib/pull/5778) _(by Muhammad Haris, Athan Reines)_
