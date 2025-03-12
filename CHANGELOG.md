@@ -2725,6 +2725,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-dapxsum-unreleased">
+
+#### [@stdlib/blas/ext/base/dapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`654827d`](https://github.com/stdlib-js/stdlib/commit/654827df5358f2c70fde0259fbbcbfb607076119) - add `blas/ext/base/wasm/dapxsum` [(#5634)](https://github.com/stdlib-js/stdlib/pull/5634)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5505](https://github.com/stdlib-js/stdlib/issues/5505)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-dapxsumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/dapxsumkbn)
@@ -5048,6 +5082,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-ext-base-wasm-dapxsum-unreleased">
+
+#### [@stdlib/blas/ext/base/wasm/dapxsum](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm/dapxsum)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`654827d`](https://github.com/stdlib-js/stdlib/commit/654827df5358f2c70fde0259fbbcbfb607076119) - add `blas/ext/base/wasm/dapxsum` [(#5634)](https://github.com/stdlib-js/stdlib/pull/5634)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#5505](https://github.com/stdlib-js/stdlib/issues/5505)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-ext-base-wasm-dapxsumkbn-unreleased">
 
 #### [@stdlib/blas/ext/base/wasm/dapxsumkbn](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/ext/base/wasm/dapxsumkbn)
@@ -6333,9 +6401,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 14 issues were closed in this release:
+A total of 15 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5905](https://github.com/stdlib-js/stdlib/issues/5905)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5905](https://github.com/stdlib-js/stdlib/issues/5905)
 
 </section>
 
@@ -6345,7 +6413,7 @@ A total of 14 issues were closed in this release:
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -6362,6 +6430,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 -   Saurabh Singh
 -   Snehil Shah
 -   Suhaib Ilahi
+-   Vivek Maurya
 
 </section>
 
@@ -6373,6 +6442,7 @@ A total of 15 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`654827d`](https://github.com/stdlib-js/stdlib/commit/654827df5358f2c70fde0259fbbcbfb607076119) - **feat:** add `blas/ext/base/wasm/dapxsum` [(#5634)](https://github.com/stdlib-js/stdlib/pull/5634) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
 -   [`e0e2ab2`](https://github.com/stdlib-js/stdlib/commit/e0e2ab2955fd340371c0989c5a7a2f96991ba232) - **feat:** add `blas/ext/base/wasm/dnansumpw` [(#5968)](https://github.com/stdlib-js/stdlib/pull/5968) _(by Prashant Kumar Yadav, Athan Reines)_
 -   [`acaa750`](https://github.com/stdlib-js/stdlib/commit/acaa75027d9d1136ecdcedb2465e4e8ec77f2b2f) - **docs:** fix package name _(by Athan Reines)_
 -   [`49de088`](https://github.com/stdlib-js/stdlib/commit/49de088f6be300b4b48195ae836120e2c00d5546) - **docs:** fix package name _(by Athan Reines)_
