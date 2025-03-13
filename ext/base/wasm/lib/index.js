@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name dapxsum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dapxsum}
+*/
+setReadOnly( ns, 'dapxsum', require( './../../../../ext/base/dapxsum' ) );
+
+/**
 * @name dapxsumkbn
 * @memberof ns
 * @readonly
@@ -44,6 +53,24 @@ var ns = {};
 * @see {@link module:@stdlib/blas/ext/base/dapxsumkbn}
 */
 setReadOnly( ns, 'dapxsumkbn', require( './../../../../ext/base/dapxsumkbn' ) );
+
+/**
+* @name dapxsumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dapxsumpw}
+*/
+setReadOnly( ns, 'dapxsumpw', require( './../../../../ext/base/dapxsumpw' ) );
+
+/**
+* @name dnansumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dnansumpw}
+*/
+setReadOnly( ns, 'dnansumpw', require( './../../../../ext/base/dnansumpw' ) );
 
 
 // EXPORTS //
