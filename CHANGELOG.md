@@ -6444,6 +6444,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`db9696d`](https://github.com/stdlib-js/stdlib/commit/db9696db44c79bfcb4cb0361d2666aab5724716f) - **docs:** update related packages sections [(#6007)](https://github.com/stdlib-js/stdlib/pull/6007) _(by stdlib-bot, Athan Reines)_
 -   [`87abb74`](https://github.com/stdlib-js/stdlib/commit/87abb743fe577742c81ce1be6b5b8477da33b5f2) - **feat:** update namespace TypeScript declarations [(#6008)](https://github.com/stdlib-js/stdlib/pull/6008) _(by stdlib-bot)_
 -   [`5738d4d`](https://github.com/stdlib-js/stdlib/commit/5738d4d9acc9b1d68f33968e76c4ede936f2216f) - **feat:** add `dapxsum`, `dapxsumpw`, and `dnansumpw` to namespace _(by Athan Reines)_
 -   [`654827d`](https://github.com/stdlib-js/stdlib/commit/654827df5358f2c70fde0259fbbcbfb607076119) - **feat:** add `blas/ext/base/wasm/dapxsum` [(#5634)](https://github.com/stdlib-js/stdlib/pull/5634) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
