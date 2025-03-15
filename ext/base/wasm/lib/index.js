@@ -55,6 +55,15 @@ setReadOnly( ns, 'dapxsum', require( './../../../../ext/base/dapxsum' ) );
 setReadOnly( ns, 'dapxsumkbn', require( './../../../../ext/base/dapxsumkbn' ) );
 
 /**
+* @name dapxsumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dapxsumors}
+*/
+setReadOnly( ns, 'dapxsumors', require( './../../../../ext/base/dapxsumors' ) );
+
+/**
 * @name dapxsumpw
 * @memberof ns
 * @readonly
