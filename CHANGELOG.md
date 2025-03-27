@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-15)
+## Unreleased (2025-03-27)
 
 <section class="packages">
 
@@ -6582,6 +6582,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`575ced1`](https://github.com/stdlib-js/stdlib/commit/575ced18983327e0b22d55b2dd5076cc45f00e9e) - **docs:** update related packages sections [(#6385)](https://github.com/stdlib-js/stdlib/pull/6385) _(by stdlib-bot)_
 -   [`a6c8cab`](https://github.com/stdlib-js/stdlib/commit/a6c8cab0f0e6ba351af643c9b5c814710bac5439) - **docs:** fix examples _(by Athan Reines)_
 -   [`d2aa857`](https://github.com/stdlib-js/stdlib/commit/d2aa857a823eed13a409c724c4d19fa876ad2742) - **feat:** add `blas/ext/base/wasm/dasumpw` [(#5549)](https://github.com/stdlib-js/stdlib/pull/5549) _(by Aayush Khanna, Athan Reines, stdlib-bot)_
 -   [`3da41b7`](https://github.com/stdlib-js/stdlib/commit/3da41b7ccb754f5ffa7f4f9fc61799d570871a19) - **feat:** update namespace TypeScript declarations [(#6058)](https://github.com/stdlib-js/stdlib/pull/6058) _(by stdlib-bot)_
