@@ -280,7 +280,7 @@ int main( void ) {
 -   <span class="package-name">[`@stdlib/blas/ext/base/dsnansum`][@stdlib/blas/ext/base/dsnansum]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements, ignoring NaN values, using extended accumulation, and returning an extended precision result.</span>
 -   <span class="package-name">[`@stdlib/blas/ext/base/sdssum`][@stdlib/blas/ext/base/sdssum]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements using extended accumulation.</span>
 -   <span class="package-name">[`@stdlib/blas/ext/base/ssum`][@stdlib/blas/ext/base/ssum]</span><span class="delimiter">: </span><span class="description">calculate the sum of single-precision floating-point strided array elements.</span>
--   <span class="package-name">[`@stdlib/stats/base/dsmean`][@stdlib/stats/base/dsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.</span>
+-   <span class="package-name">[`@stdlib/stats/strided/dsmean`][@stdlib/stats/strided/dsmean]</span><span class="delimiter">: </span><span class="description">calculate the arithmetic mean of a single-precision floating-point strided array using extended accumulation and returning an extended precision result.</span>
 
 </section>
 
@@ -302,7 +302,7 @@ int main( void ) {
 
 [@stdlib/blas/ext/base/ssum]: https://github.com/stdlib-js/blas/tree/main/ext/base/ssum
 
-[@stdlib/stats/base/dsmean]: https://github.com/stdlib-js/stats-base-dsmean
+[@stdlib/stats/strided/dsmean]: https://github.com/stdlib-js/stats-strided-dsmean
 
 <!-- </related-links> -->
 
