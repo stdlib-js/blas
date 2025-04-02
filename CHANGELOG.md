@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-29)
+## Unreleased (2025-04-02)
 
 <section class="packages">
 
@@ -6553,7 +6553,7 @@ A total of 17 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 17 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -6567,6 +6567,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Ricky Reusser
+-   Rupa
 -   Saurabh Singh
 -   Snehil Shah
 -   Suhaib Ilahi
@@ -6582,6 +6583,7 @@ A total of 16 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`ea11328`](https://github.com/stdlib-js/stdlib/commit/ea113289e9129ffd1f51176afed9b5c795e1de21) - **docs:** update examples for `blas/base/wasm/cscal` [(#6495)](https://github.com/stdlib-js/stdlib/pull/6495) _(by Rupa, Athan Reines)_
 -   [`9367d41`](https://github.com/stdlib-js/stdlib/commit/9367d4175b33e490bdbea8da5062fe95919f5d85) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`cb0d914`](https://github.com/stdlib-js/stdlib/commit/cb0d914e7d8ec63ea70f13120f26f5c444e3e420) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`1d8b212`](https://github.com/stdlib-js/stdlib/commit/1d8b2124adec6be1f3d639ab0b53146a7539f243) - **refactor:** update paths _(by Aayush Khanna)_
