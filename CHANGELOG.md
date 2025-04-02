@@ -6553,7 +6553,7 @@ A total of 17 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -6569,6 +6569,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   Ricky Reusser
 -   Rupa
 -   Saurabh Singh
+-   Shabareesh Shetty
 -   Snehil Shah
 -   Suhaib Ilahi
 -   Vivek Maurya
@@ -6583,6 +6584,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`6aeed5c`](https://github.com/stdlib-js/stdlib/commit/6aeed5cee4eb79fb8fc4a5a7740f73077d3503b3) - **docs:** fix parameter name [(#6515)](https://github.com/stdlib-js/stdlib/pull/6515) _(by Shabareesh Shetty)_
 -   [`ea11328`](https://github.com/stdlib-js/stdlib/commit/ea113289e9129ffd1f51176afed9b5c795e1de21) - **docs:** update examples for `blas/base/wasm/cscal` [(#6495)](https://github.com/stdlib-js/stdlib/pull/6495) _(by Rupa, Athan Reines)_
 -   [`9367d41`](https://github.com/stdlib-js/stdlib/commit/9367d4175b33e490bdbea8da5062fe95919f5d85) - **refactor:** update paths _(by Aayush Khanna)_
 -   [`cb0d914`](https://github.com/stdlib-js/stdlib/commit/cb0d914e7d8ec63ea70f13120f26f5c444e3e420) - **refactor:** update paths _(by Aayush Khanna)_
