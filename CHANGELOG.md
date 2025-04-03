@@ -6584,6 +6584,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c9c5acc`](https://github.com/stdlib-js/stdlib/commit/c9c5accbc966de5c699551722fb8e1bb37877740) - **docs:** update examples for `blas/base/wasm/csrot` [(#5760)](https://github.com/stdlib-js/stdlib/pull/5760) _(by Shabareesh Shetty)_
 -   [`cd6e347`](https://github.com/stdlib-js/stdlib/commit/cd6e34715d7ae5217f999318d9229e95cbab6385) - **docs:** update example _(by Athan Reines)_
 -   [`770c8fa`](https://github.com/stdlib-js/stdlib/commit/770c8fa6962456db2eaa37b2ba2c1c7282a663ff) - **chore:** remove empty lines _(by Athan Reines)_
 -   [`6aeed5c`](https://github.com/stdlib-js/stdlib/commit/6aeed5cee4eb79fb8fc4a5a7740f73077d3503b3) - **docs:** fix parameter name [(#6515)](https://github.com/stdlib-js/stdlib/pull/6515) _(by Shabareesh Shetty)_
