@@ -66,11 +66,11 @@ var Complex64 = require( '@stdlib/complex/float32/ctor' );
 var cx = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 
 // Define a scalar constant:
-var ca = new Complex64( 2.0, 0.0 );
+var ca = new Complex64( 2.0, 2.0 );
 
 // Perform operation:
 cscal.main( 2, ca, cx, 2 );
-// cx => <Complex64Array>[ 2.0, 4.0, 3.0, 4.0, 10.0, 12.0 ]
+// cx => <Complex64Array>[ -2.0, 6.0, 3.0, 4.0, -2.0, 22.0 ]
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
