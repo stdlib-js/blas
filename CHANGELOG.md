@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-03)
+## Unreleased (2025-04-09)
 
 <section class="packages">
 
@@ -1155,6 +1155,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dsyr2-unreleased">
+
+#### [@stdlib/blas/base/dsyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dsyr2)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`e20f4e4`](https://github.com/stdlib-js/stdlib/commit/e20f4e4af09a7608b4f7ebeff0f8050295c646d9) - condition check in `blas/base/dsyr2` ndarray [(#6532)](https://github.com/stdlib-js/stdlib/pull/6532)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dznrm2-unreleased">
 
 #### [@stdlib/blas/base/dznrm2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dznrm2)
@@ -1923,6 +1945,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-ssyr2-unreleased">
+
+#### [@stdlib/blas/base/ssyr2](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/ssyr2)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`fc1d8d5`](https://github.com/stdlib-js/stdlib/commit/fc1d8d5ed542eec3ded1b128850909ebb5f8bc51) - condition checks in `blas/base/ssyr2` [(#6543)](https://github.com/stdlib-js/stdlib/pull/6543)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -6584,6 +6628,10 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`c9e3ff1`](https://github.com/stdlib-js/stdlib/commit/c9e3ff14ed5480358d1b0a97c7eafccd8234a1e9) - **test:** increase code coverage in `blas/base/zaxpy` [(#6568)](https://github.com/stdlib-js/stdlib/pull/6568) _(by Shabareesh Shetty)_
+-   [`9541650`](https://github.com/stdlib-js/stdlib/commit/9541650ee9c66a36c8e03a81036c5389383de9a3) - **test:** increase code coverage in `blas/base/ssyr2` [(#6544)](https://github.com/stdlib-js/stdlib/pull/6544) _(by Shabareesh Shetty, Athan Reines)_
+-   [`fc1d8d5`](https://github.com/stdlib-js/stdlib/commit/fc1d8d5ed542eec3ded1b128850909ebb5f8bc51) - **fix:** condition checks in `blas/base/ssyr2` [(#6543)](https://github.com/stdlib-js/stdlib/pull/6543) _(by Shabareesh Shetty)_
+-   [`e20f4e4`](https://github.com/stdlib-js/stdlib/commit/e20f4e4af09a7608b4f7ebeff0f8050295c646d9) - **fix:** condition check in `blas/base/dsyr2` ndarray [(#6532)](https://github.com/stdlib-js/stdlib/pull/6532) _(by Shabareesh Shetty)_
 -   [`d7583fb`](https://github.com/stdlib-js/stdlib/commit/d7583fbaca5c40a68bf25d4555b60a2b211b1f6e) - **test:** increase code coverage in `blas/base/caxpy` [(#6530)](https://github.com/stdlib-js/stdlib/pull/6530) _(by Shabareesh Shetty, Athan Reines)_
 -   [`c9c5acc`](https://github.com/stdlib-js/stdlib/commit/c9c5accbc966de5c699551722fb8e1bb37877740) - **docs:** update examples for `blas/base/wasm/csrot` [(#5760)](https://github.com/stdlib-js/stdlib/pull/5760) _(by Shabareesh Shetty)_
 -   [`cd6e347`](https://github.com/stdlib-js/stdlib/commit/cd6e34715d7ae5217f999318d9229e95cbab6385) - **docs:** update example _(by Athan Reines)_
