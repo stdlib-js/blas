@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-09)
+## Unreleased (2025-04-14)
 
 <section class="packages">
 
@@ -6628,6 +6628,8 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`b01614a`](https://github.com/stdlib-js/stdlib/commit/b01614a0b9870bdd463ce8bc20a89c1765128db2) - **test:** completes code coverage in `blas/base/dnrm2` [(#6531)](https://github.com/stdlib-js/stdlib/pull/6531) _(by Shabareesh Shetty, Athan Reines)_
+-   [`58a8f55`](https://github.com/stdlib-js/stdlib/commit/58a8f55ac6713976035ec7834012ae74455aa603) - **test:** increase code coverage in `blas/base/dsyr2` [(#6546)](https://github.com/stdlib-js/stdlib/pull/6546) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`c9e3ff1`](https://github.com/stdlib-js/stdlib/commit/c9e3ff14ed5480358d1b0a97c7eafccd8234a1e9) - **test:** increase code coverage in `blas/base/zaxpy` [(#6568)](https://github.com/stdlib-js/stdlib/pull/6568) _(by Shabareesh Shetty)_
 -   [`9541650`](https://github.com/stdlib-js/stdlib/commit/9541650ee9c66a36c8e03a81036c5389383de9a3) - **test:** increase code coverage in `blas/base/ssyr2` [(#6544)](https://github.com/stdlib-js/stdlib/pull/6544) _(by Shabareesh Shetty, Athan Reines)_
 -   [`fc1d8d5`](https://github.com/stdlib-js/stdlib/commit/fc1d8d5ed542eec3ded1b128850909ebb5f8bc51) - **fix:** condition checks in `blas/base/ssyr2` [(#6543)](https://github.com/stdlib-js/stdlib/pull/6543) _(by Shabareesh Shetty)_
