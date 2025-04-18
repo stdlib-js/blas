@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-14)
+## Unreleased (2025-04-18)
 
 <section class="packages">
 
@@ -6628,6 +6628,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`0b47cf8`](https://github.com/stdlib-js/stdlib/commit/0b47cf837eea09d4fd0c004f089b38890598d135) - **test:** increase test code coverage in `blas/base/snrm2` [(#6688)](https://github.com/stdlib-js/stdlib/pull/6688) _(by Shabareesh Shetty, Athan Reines)_
 -   [`b01614a`](https://github.com/stdlib-js/stdlib/commit/b01614a0b9870bdd463ce8bc20a89c1765128db2) - **test:** completes code coverage in `blas/base/dnrm2` [(#6531)](https://github.com/stdlib-js/stdlib/pull/6531) _(by Shabareesh Shetty, Athan Reines)_
 -   [`58a8f55`](https://github.com/stdlib-js/stdlib/commit/58a8f55ac6713976035ec7834012ae74455aa603) - **test:** increase code coverage in `blas/base/dsyr2` [(#6546)](https://github.com/stdlib-js/stdlib/pull/6546) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`c9e3ff1`](https://github.com/stdlib-js/stdlib/commit/c9e3ff14ed5480358d1b0a97c7eafccd8234a1e9) - **test:** increase code coverage in `blas/base/zaxpy` [(#6568)](https://github.com/stdlib-js/stdlib/pull/6568) _(by Shabareesh Shetty)_
