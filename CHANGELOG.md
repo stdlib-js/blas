@@ -6650,6 +6650,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`a45c18d`](https://github.com/stdlib-js/stdlib/commit/a45c18d8a9a109cc2f4b3d69625c39ef4c909f4c) - **test:** add test cases for `blas/base/strsv` [(#6721)](https://github.com/stdlib-js/stdlib/pull/6721) _(by Shabareesh Shetty)_
 -   [`d7c6f8e`](https://github.com/stdlib-js/stdlib/commit/d7c6f8e4a21779f8f4e54dac4a045b8ea8dbd497) - **feat:** add `blas/base/wasm/sswap` [(#6582)](https://github.com/stdlib-js/stdlib/pull/6582) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`c4c8949`](https://github.com/stdlib-js/stdlib/commit/c4c89491c78401962872fc128f68c3a16dc7703f) - **docs:** update examples _(by Athan Reines)_
 -   [`da11963`](https://github.com/stdlib-js/stdlib/commit/da1196318bfe07b24ab957208bac00d97e8aa3bf) - **test:** add test cases for `blas/base/dtrsv` [(#6708)](https://github.com/stdlib-js/stdlib/pull/6708) _(by Shabareesh Shetty)_
