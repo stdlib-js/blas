@@ -795,6 +795,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-dgemv-unreleased">
+
+#### [@stdlib/blas/base/dgemv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dgemv)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`dba36a2`](https://github.com/stdlib-js/stdlib/commit/dba36a22dc9997d6fc6f219f3a3c04018e637b8e) - add missing values in error messages in `blas/base/dgemv` [(#6726)](https://github.com/stdlib-js/stdlib/pull/6726)
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-dnrm2-wasm-unreleased">
 
 #### [@stdlib/blas/base/dnrm2-wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/dnrm2-wasm)
@@ -1710,6 +1732,28 @@ This release closes the following issue:
 </section>
 
 <!-- /.breaking-changes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="blas-base-sgemv-unreleased">
+
+#### [@stdlib/blas/base/sgemv](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/sgemv)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`b6e0aca`](https://github.com/stdlib-js/stdlib/commit/b6e0aca427f23e8ec53d6c62d41e4b550bdf08c6) - add missing values in error messages in `blas/base/sgemv` [(#6722)](https://github.com/stdlib-js/stdlib/pull/6722)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 </details>
 
@@ -6650,6 +6694,11 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`11547d9`](https://github.com/stdlib-js/stdlib/commit/11547d91e2263d65cd490822acb17bd82f3bc4da) - **test:** add test cases for `blas/base/ssyr` [(#6727)](https://github.com/stdlib-js/stdlib/pull/6727) _(by Shabareesh Shetty)_
+-   [`b6e0aca`](https://github.com/stdlib-js/stdlib/commit/b6e0aca427f23e8ec53d6c62d41e4b550bdf08c6) - **fix:** add missing values in error messages in `blas/base/sgemv` [(#6722)](https://github.com/stdlib-js/stdlib/pull/6722) _(by Shabareesh Shetty, Athan Reines)_
+-   [`dba36a2`](https://github.com/stdlib-js/stdlib/commit/dba36a22dc9997d6fc6f219f3a3c04018e637b8e) - **fix:** add missing values in error messages in `blas/base/dgemv` [(#6726)](https://github.com/stdlib-js/stdlib/pull/6726) _(by Shabareesh Shetty, Athan Reines)_
+-   [`0bff47f`](https://github.com/stdlib-js/stdlib/commit/0bff47f9ece2b44b42d70e0feab199bcf7f724e3) - **test:** add test cases for `blas/base/dgemm` [(#6724)](https://github.com/stdlib-js/stdlib/pull/6724) _(by Shabareesh Shetty)_
+-   [`7eeda08`](https://github.com/stdlib-js/stdlib/commit/7eeda08460d0f57cd0c49fe9e78da38634c41b4a) - **test:** add test cases for `blas/base/sgemm` [(#6725)](https://github.com/stdlib-js/stdlib/pull/6725) _(by Shabareesh Shetty)_
 -   [`a45c18d`](https://github.com/stdlib-js/stdlib/commit/a45c18d8a9a109cc2f4b3d69625c39ef4c909f4c) - **test:** add test cases for `blas/base/strsv` [(#6721)](https://github.com/stdlib-js/stdlib/pull/6721) _(by Shabareesh Shetty)_
 -   [`d7c6f8e`](https://github.com/stdlib-js/stdlib/commit/d7c6f8e4a21779f8f4e54dac4a045b8ea8dbd497) - **feat:** add `blas/base/wasm/sswap` [(#6582)](https://github.com/stdlib-js/stdlib/pull/6582) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`c4c8949`](https://github.com/stdlib-js/stdlib/commit/c4c89491c78401962872fc128f68c3a16dc7703f) - **docs:** update examples _(by Athan Reines)_
