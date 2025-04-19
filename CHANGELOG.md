@@ -2505,6 +2505,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-sswap-unreleased">
+
+#### [@stdlib/blas/base/wasm/sswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/sswap)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`d7c6f8e`](https://github.com/stdlib-js/stdlib/commit/d7c6f8e4a21779f8f4e54dac4a045b8ea8dbd497) - add `blas/base/wasm/sswap` [(#6582)](https://github.com/stdlib-js/stdlib/pull/6582)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-zcopy-unreleased">
 
 #### [@stdlib/blas/base/wasm/zcopy](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/zcopy)
@@ -6628,6 +6650,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`d7c6f8e`](https://github.com/stdlib-js/stdlib/commit/d7c6f8e4a21779f8f4e54dac4a045b8ea8dbd497) - **feat:** add `blas/base/wasm/sswap` [(#6582)](https://github.com/stdlib-js/stdlib/pull/6582) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`c4c8949`](https://github.com/stdlib-js/stdlib/commit/c4c89491c78401962872fc128f68c3a16dc7703f) - **docs:** update examples _(by Athan Reines)_
 -   [`da11963`](https://github.com/stdlib-js/stdlib/commit/da1196318bfe07b24ab957208bac00d97e8aa3bf) - **test:** add test cases for `blas/base/dtrsv` [(#6708)](https://github.com/stdlib-js/stdlib/pull/6708) _(by Shabareesh Shetty)_
 -   [`0b47cf8`](https://github.com/stdlib-js/stdlib/commit/0b47cf837eea09d4fd0c004f089b38890598d135) - **test:** increase test code coverage in `blas/base/snrm2` [(#6688)](https://github.com/stdlib-js/stdlib/pull/6688) _(by Shabareesh Shetty, Athan Reines)_
