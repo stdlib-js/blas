@@ -4754,6 +4754,10 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`9b76065`](https://github.com/stdlib-js/stdlib/commit/9b76065b017415494be482c0a085afda2e526a77) - **test:** add test cases for `blas/base/dsyr` [(#6729)](https://github.com/stdlib-js/stdlib/pull/6729) _(by Shabareesh Shetty)_
+-   [`b25755a`](https://github.com/stdlib-js/stdlib/commit/b25755aec061fdb02888f6e1cb400cec6aae8293) - **test:** add test cases for `blas/base/dsyr2` [(#6731)](https://github.com/stdlib-js/stdlib/pull/6731) _(by Shabareesh Shetty)_
+-   [`899dd17`](https://github.com/stdlib-js/stdlib/commit/899dd17a577e2158b040bb7d9464fb8a79e38d59) - **docs:** document exceptions in `blas/base/sgemm` [(#6746)](https://github.com/stdlib-js/stdlib/pull/6746) _(by Shabareesh Shetty)_
+-   [`4bf2683`](https://github.com/stdlib-js/stdlib/commit/4bf26831b85d4bd29ac6365a908302f792711d54) - **test:** add test cases for `blas/base/ssyr2` [(#6730)](https://github.com/stdlib-js/stdlib/pull/6730) _(by Shabareesh Shetty)_
 -   [`dae553b`](https://github.com/stdlib-js/stdlib/commit/dae553bfe3c1f0d651b07eda1b36e87a516df7ef) - **feat:** add `blas/base/wasm/dsdot` [(#6751)](https://github.com/stdlib-js/stdlib/pull/6751) _(by Shabareesh Shetty, stdlib-bot)_
 -   [`bf46e99`](https://github.com/stdlib-js/stdlib/commit/bf46e995c93ababb1eb49a635f1616697471b70a) - **style:** remove unused import [(#6781)](https://github.com/stdlib-js/stdlib/pull/6781) _(by Shabareesh Shetty)_
 -   [`43bfc6b`](https://github.com/stdlib-js/stdlib/commit/43bfc6bc1d850367f3957fdb550c40d25c6f0e62) - **fix:** include value in error message _(by Athan Reines)_
