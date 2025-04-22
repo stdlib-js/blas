@@ -83,10 +83,10 @@ function sgemm( transA, transB, M, N, K, alpha, A, strideA1, strideA2, offsetA, 
 		throw new RangeError( format( 'invalid argument. Fifth argument must be a nonnegative integer. Value: `%d`.', K ) );
 	}
 	if ( strideC1 === 0 ) {
-		throw new RangeError( format( 'invalid argument. Seventeenth argument must be non-zero.', strideC1 ) );
+		throw new RangeError( format( 'invalid argument. Seventeenth argument must be non-zero. Value: `%d`.', strideC1 ) );
 	}
 	if ( strideC2 === 0 ) {
-		throw new RangeError( format( 'invalid argument. Eighteenth argument must be non-zero.', strideC2 ) );
+		throw new RangeError( format( 'invalid argument. Eighteenth argument must be non-zero. Value: `%d`.', strideC2 ) );
 	}
 	return base( transA, transB, M, N, K, alpha, A, strideA1, strideA2, offsetA, B, strideB1, strideB2, offsetB, beta, C, strideC1, strideC2, offsetC ); // eslint-disable-line max-len
 }
