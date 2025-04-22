@@ -1422,6 +1422,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="blas-base-wasm-dsdot-unreleased">
+
+#### [@stdlib/blas/base/wasm/dsdot](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/dsdot)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`dae553b`](https://github.com/stdlib-js/stdlib/commit/dae553bfe3c1f0d651b07eda1b36e87a516df7ef) - add `blas/base/wasm/dsdot` [(#6751)](https://github.com/stdlib-js/stdlib/pull/6751)
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="blas-base-wasm-dswap-unreleased">
 
 #### [@stdlib/blas/base/wasm/dswap](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/blas/base/wasm/dswap)
@@ -4732,6 +4754,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 
 <details>
 
+-   [`dae553b`](https://github.com/stdlib-js/stdlib/commit/dae553bfe3c1f0d651b07eda1b36e87a516df7ef) - **feat:** add `blas/base/wasm/dsdot` [(#6751)](https://github.com/stdlib-js/stdlib/pull/6751) _(by Shabareesh Shetty, stdlib-bot)_
 -   [`bf46e99`](https://github.com/stdlib-js/stdlib/commit/bf46e995c93ababb1eb49a635f1616697471b70a) - **style:** remove unused import [(#6781)](https://github.com/stdlib-js/stdlib/pull/6781) _(by Shabareesh Shetty)_
 -   [`43bfc6b`](https://github.com/stdlib-js/stdlib/commit/43bfc6bc1d850367f3957fdb550c40d25c6f0e62) - **fix:** include value in error message _(by Athan Reines)_
 -   [`3b4fa18`](https://github.com/stdlib-js/stdlib/commit/3b4fa18ec5573c25c66e17441092bcbe4c63fe9f) - **fix:** include value in error message _(by Athan Reines)_
