@@ -410,6 +410,9 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`0c0e21d`](https://github.com/stdlib-js/stdlib/commit/0c0e21db7e88a8859b7db0bea76f89bbb9d1ca91) - **refactor:** avoid returning void expression _(by Athan Reines)_
+-   [`4e8417c`](https://github.com/stdlib-js/stdlib/commit/4e8417ce4fc30b5ef604a588a52042d7423b9fc1) - **bench:** fix Makefile and move to subfolder _(by Athan Reines)_
+-   [`d99e066`](https://github.com/stdlib-js/stdlib/commit/d99e06680eed2c42d9761dd4dfe47817a651bd92) - **bench:** fix Makefile and move to subfolder _(by Athan Reines)_
 -   [`fd5533d`](https://github.com/stdlib-js/stdlib/commit/fd5533da37b425b752f061378bff51fbe8695c56) - **feat:** add `sum` to namespace _(by Athan Reines)_
 -   [`8844c7b`](https://github.com/stdlib-js/stdlib/commit/8844c7b41c82acfa59305a97a26ffd6caa4ea06d) - **feat:** add `blas/ext/sum` _(by Athan Reines)_
 -   [`0dd7923`](https://github.com/stdlib-js/stdlib/commit/0dd7923fb188e73cb3d60f54fb97195e4cf15ea9) - **feat:** add `gcusum` to namespace _(by Athan Reines)_
