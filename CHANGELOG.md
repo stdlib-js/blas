@@ -194,6 +194,8 @@
 
 ### Bug Fixes
 
+-   [`9b15f0d`](https://github.com/stdlib-js/stdlib/commit/9b15f0ddca1266c21cca68caa9c04043eac9807d) - preserve the sign of zero
+-   [`b8e6c48`](https://github.com/stdlib-js/stdlib/commit/b8e6c48ca4127def37ab803eafdbdb2180bc90bb) - preserve the sign of zero
 -   [`4835ebd`](https://github.com/stdlib-js/stdlib/commit/4835ebdcb112d8e6ca9d6ac9584e1e14e2e861c6) - preserve the sign of zero
 -   [`4a04acc`](https://github.com/stdlib-js/stdlib/commit/4a04accd853a02a8b881c900fab0c4f47d46865d) - preserve the sign of zero
 -   [`cb8907d`](https://github.com/stdlib-js/stdlib/commit/cb8907dbdb8e4670c3519555e8abc2ddddbf1d77) - preserve the sign of zero
@@ -397,6 +399,13 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`9cb8df6`](https://github.com/stdlib-js/stdlib/commit/9cb8df6d6c62cb49e58261cd67a44db8b7872087) - **test:** fix missing `opts` argument _(by Athan Reines)_
+-   [`3c7589f`](https://github.com/stdlib-js/stdlib/commit/3c7589f373808eba7378584076207250ec04a344) - **test:** add zeros tests _(by Athan Reines)_
+-   [`9d2a4bc`](https://github.com/stdlib-js/stdlib/commit/9d2a4bc15987ad3a45b8f9b778fba9356b1a6043) - **test:** add zeros tests _(by Athan Reines)_
+-   [`2c27a58`](https://github.com/stdlib-js/stdlib/commit/2c27a5806960dad88da5212d768034de3779b3fa) - **test:** add zeros tests _(by Athan Reines)_
+-   [`b5fe718`](https://github.com/stdlib-js/stdlib/commit/b5fe71883c1c00246f21643e72bb30d14cead437) - **test:** add zeros tests _(by Athan Reines)_
+-   [`9b15f0d`](https://github.com/stdlib-js/stdlib/commit/9b15f0ddca1266c21cca68caa9c04043eac9807d) - **fix:** preserve the sign of zero _(by Athan Reines)_
+-   [`b8e6c48`](https://github.com/stdlib-js/stdlib/commit/b8e6c48ca4127def37ab803eafdbdb2180bc90bb) - **fix:** preserve the sign of zero _(by Athan Reines)_
 -   [`b415a2c`](https://github.com/stdlib-js/stdlib/commit/b415a2ccc60bdb573aee459ffde809ec017df1c2) - **test:** add zeros tests _(by Athan Reines)_
 -   [`c376ed9`](https://github.com/stdlib-js/stdlib/commit/c376ed9ecd7e1a73a2a8fd1de15134179779ccb8) - **test:** add zeros tests _(by Athan Reines)_
 -   [`71be45f`](https://github.com/stdlib-js/stdlib/commit/71be45f47dd783ce955d982425c7dbae5f6c09a5) - **test:** add zeros tests _(by Athan Reines)_
