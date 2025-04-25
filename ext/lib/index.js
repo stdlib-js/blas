@@ -45,6 +45,15 @@ var ns = {};
 */
 setReadOnly( ns, 'base', require( './../../ext/base' ) );
 
+/**
+* @name sum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/sum}
+*/
+setReadOnly( ns, 'sum', require( './../../ext/sum' ) );
+
 
 // EXPORTS //
 

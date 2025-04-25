@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`fd5533d`](https://github.com/stdlib-js/stdlib/commit/fd5533da37b425b752f061378bff51fbe8695c56) - add `sum` to namespace
+-   [`8844c7b`](https://github.com/stdlib-js/stdlib/commit/8844c7b41c82acfa59305a97a26ffd6caa4ea06d) - add `blas/ext/sum`
 -   [`0dd7923`](https://github.com/stdlib-js/stdlib/commit/0dd7923fb188e73cb3d60f54fb97195e4cf15ea9) - add `gcusum` to namespace
 -   [`fb346ab`](https://github.com/stdlib-js/stdlib/commit/fb346abc3e0cced9b159bcf2d518d43cac185884) - add `blas/ext/base/ndarray/gcusum`
 -   [`1741923`](https://github.com/stdlib-js/stdlib/commit/174192300a3db8664030bb40aeffa3670b3ae882) - add `scusum` to namespace
@@ -408,6 +410,8 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`fd5533d`](https://github.com/stdlib-js/stdlib/commit/fd5533da37b425b752f061378bff51fbe8695c56) - **feat:** add `sum` to namespace _(by Athan Reines)_
+-   [`8844c7b`](https://github.com/stdlib-js/stdlib/commit/8844c7b41c82acfa59305a97a26ffd6caa4ea06d) - **feat:** add `blas/ext/sum` _(by Athan Reines)_
 -   [`0dd7923`](https://github.com/stdlib-js/stdlib/commit/0dd7923fb188e73cb3d60f54fb97195e4cf15ea9) - **feat:** add `gcusum` to namespace _(by Athan Reines)_
 -   [`fb346ab`](https://github.com/stdlib-js/stdlib/commit/fb346abc3e0cced9b159bcf2d518d43cac185884) - **feat:** add `blas/ext/base/ndarray/gcusum` _(by Athan Reines)_
 -   [`1741923`](https://github.com/stdlib-js/stdlib/commit/174192300a3db8664030bb40aeffa3670b3ae882) - **feat:** add `scusum` to namespace _(by Athan Reines)_
