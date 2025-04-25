@@ -410,6 +410,7 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`8a48ebe`](https://github.com/stdlib-js/stdlib/commit/8a48ebe8c17721be56ba39a16bce3b13441fdc57) - **test:** add test cases for `blas/base/strmv` [(#6732)](https://github.com/stdlib-js/stdlib/pull/6732) _(by Shabareesh Shetty)_
 -   [`9d961d3`](https://github.com/stdlib-js/stdlib/commit/9d961d3dbc8299eaa1f3fe0a5bf7c471c2907c43) - **test:** add test cases for `blas/base/dtrmv` [(#6733)](https://github.com/stdlib-js/stdlib/pull/6733) _(by Shabareesh Shetty)_
 -   [`0c0e21d`](https://github.com/stdlib-js/stdlib/commit/0c0e21db7e88a8859b7db0bea76f89bbb9d1ca91) - **refactor:** avoid returning void expression _(by Athan Reines)_
 -   [`4e8417c`](https://github.com/stdlib-js/stdlib/commit/4e8417ce4fc30b5ef604a588a52042d7423b9fc1) - **bench:** fix Makefile and move to subfolder _(by Athan Reines)_
