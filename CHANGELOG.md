@@ -194,6 +194,8 @@
 
 ### Bug Fixes
 
+-   [`cb8907d`](https://github.com/stdlib-js/stdlib/commit/cb8907dbdb8e4670c3519555e8abc2ddddbf1d77) - preserve the sign of zero
+-   [`8355a12`](https://github.com/stdlib-js/stdlib/commit/8355a12db3136d06875016a248eb6f8410672bd2) - preserve the sign of zero
 -   [`43bfc6b`](https://github.com/stdlib-js/stdlib/commit/43bfc6bc1d850367f3957fdb550c40d25c6f0e62) - include value in error message
 -   [`3b4fa18`](https://github.com/stdlib-js/stdlib/commit/3b4fa18ec5573c25c66e17441092bcbe4c63fe9f) - include value in error message
 -   [`b6e0aca`](https://github.com/stdlib-js/stdlib/commit/b6e0aca427f23e8ec53d6c62d41e4b550bdf08c6) - add missing values in error messages in `blas/base/sgemv` [(#6722)](https://github.com/stdlib-js/stdlib/pull/6722)
@@ -393,6 +395,12 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`1a5f29d`](https://github.com/stdlib-js/stdlib/commit/1a5f29d7d9e481f34854dcbf00339d9ab8e85057) - **test:** add zeros tests _(by Athan Reines)_
+-   [`5d0823a`](https://github.com/stdlib-js/stdlib/commit/5d0823aa846bd681e9b4ce675521be1af39e5554) - **test:** add zeros tests _(by Athan Reines)_
+-   [`81aeefe`](https://github.com/stdlib-js/stdlib/commit/81aeefed3885d8b238875a1d656401b7d3149d10) - **test:** add zeros tests _(by Athan Reines)_
+-   [`446ce07`](https://github.com/stdlib-js/stdlib/commit/446ce073c82847d889c7b2e43e0ce3010a0767f9) - **test:** add zeros tests _(by Athan Reines)_
+-   [`cb8907d`](https://github.com/stdlib-js/stdlib/commit/cb8907dbdb8e4670c3519555e8abc2ddddbf1d77) - **fix:** preserve the sign of zero _(by Athan Reines)_
+-   [`8355a12`](https://github.com/stdlib-js/stdlib/commit/8355a12db3136d06875016a248eb6f8410672bd2) - **fix:** preserve the sign of zero _(by Athan Reines)_
 -   [`9284bd7`](https://github.com/stdlib-js/stdlib/commit/9284bd7fc74b1aea7556be0d1c98196a3eff2649) - **feat:** add `cfill` and `zfill` to namespace _(by Athan Reines)_
 -   [`b86b7d5`](https://github.com/stdlib-js/stdlib/commit/b86b7d5988cd3f2a083355b6a91a748dca9e509b) - **feat:** add `ndarray` to namespace _(by Athan Reines)_
 -   [`e5b3cfd`](https://github.com/stdlib-js/stdlib/commit/e5b3cfdc9a4dab44eacc47cf4e911e417ec0c8ce) - **feat:** add `blas/ext/base/ndarray` namespace _(by Athan Reines)_
