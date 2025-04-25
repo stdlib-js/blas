@@ -194,6 +194,8 @@
 
 ### Bug Fixes
 
+-   [`4835ebd`](https://github.com/stdlib-js/stdlib/commit/4835ebdcb112d8e6ca9d6ac9584e1e14e2e861c6) - preserve the sign of zero
+-   [`4a04acc`](https://github.com/stdlib-js/stdlib/commit/4a04accd853a02a8b881c900fab0c4f47d46865d) - preserve the sign of zero
 -   [`cb8907d`](https://github.com/stdlib-js/stdlib/commit/cb8907dbdb8e4670c3519555e8abc2ddddbf1d77) - preserve the sign of zero
 -   [`8355a12`](https://github.com/stdlib-js/stdlib/commit/8355a12db3136d06875016a248eb6f8410672bd2) - preserve the sign of zero
 -   [`43bfc6b`](https://github.com/stdlib-js/stdlib/commit/43bfc6bc1d850367f3957fdb550c40d25c6f0e62) - include value in error message
@@ -395,6 +397,12 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`b415a2c`](https://github.com/stdlib-js/stdlib/commit/b415a2ccc60bdb573aee459ffde809ec017df1c2) - **test:** add zeros tests _(by Athan Reines)_
+-   [`c376ed9`](https://github.com/stdlib-js/stdlib/commit/c376ed9ecd7e1a73a2a8fd1de15134179779ccb8) - **test:** add zeros tests _(by Athan Reines)_
+-   [`71be45f`](https://github.com/stdlib-js/stdlib/commit/71be45f47dd783ce955d982425c7dbae5f6c09a5) - **test:** add zeros tests _(by Athan Reines)_
+-   [`be45258`](https://github.com/stdlib-js/stdlib/commit/be45258cb4b35783be2c8df04d81eafdd9c1c1ac) - **test:** add zeros tests _(by Athan Reines)_
+-   [`4835ebd`](https://github.com/stdlib-js/stdlib/commit/4835ebdcb112d8e6ca9d6ac9584e1e14e2e861c6) - **fix:** preserve the sign of zero _(by Athan Reines)_
+-   [`4a04acc`](https://github.com/stdlib-js/stdlib/commit/4a04accd853a02a8b881c900fab0c4f47d46865d) - **fix:** preserve the sign of zero _(by Athan Reines)_
 -   [`1a5f29d`](https://github.com/stdlib-js/stdlib/commit/1a5f29d7d9e481f34854dcbf00339d9ab8e85057) - **test:** add zeros tests _(by Athan Reines)_
 -   [`5d0823a`](https://github.com/stdlib-js/stdlib/commit/5d0823aa846bd681e9b4ce675521be1af39e5554) - **test:** add zeros tests _(by Athan Reines)_
 -   [`81aeefe`](https://github.com/stdlib-js/stdlib/commit/81aeefed3885d8b238875a1d656401b7d3149d10) - **test:** add zeros tests _(by Athan Reines)_

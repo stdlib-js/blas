@@ -85,8 +85,23 @@ function gcusumkbn( N, sum, x, strideX, offsetX, y, strideY, offsetY ) {
 	ix = offsetX;
 	iy = offsetY;
 	s = sum;
+
+	// In order to preserve the sign of zero which can be lost during compensated summation below, find the first non-zero element...
+	if ( s === 0.0 ) {
+		for ( i = 0; i < N; i++ ) {
+			v = xget( xbuf, ix );
+			if ( v !== 0.0 ) {
+				break;
+			}
+			yset( ybuf, iy, s + v );
+			ix += strideX;
+			iy += strideY;
+		}
+	} else {
+		i = 0;
+	}
 	c = 0.0;
-	for ( i = 0; i < N; i++ ) {
+	for ( ; i < N; i++ ) {
 		v = xget( xbuf, ix );
 		t = s + v;
 		if ( abs( s ) >= abs( v ) ) {
