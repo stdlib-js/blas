@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name dcusum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcusum}
+*/
+setReadOnly( ns, 'dcusum', require( './../../../../ext/base/ndarray/dcusum' ) );
+
+/**
 * @name dsum
 * @memberof ns
 * @readonly
@@ -46,6 +55,15 @@ var ns = {};
 setReadOnly( ns, 'dsum', require( './../../../../ext/base/ndarray/dsum' ) );
 
 /**
+* @name gcusum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcusum}
+*/
+setReadOnly( ns, 'gcusum', require( './../../../../ext/base/ndarray/gcusum' ) );
+
+/**
 * @name gsum
 * @memberof ns
 * @readonly
@@ -53,6 +71,15 @@ setReadOnly( ns, 'dsum', require( './../../../../ext/base/ndarray/dsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gsum}
 */
 setReadOnly( ns, 'gsum', require( './../../../../ext/base/ndarray/gsum' ) );
+
+/**
+* @name scusum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scusum}
+*/
+setReadOnly( ns, 'scusum', require( './../../../../ext/base/ndarray/scusum' ) );
 
 /**
 * @name ssum

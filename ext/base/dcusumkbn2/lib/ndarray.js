@@ -79,7 +79,8 @@ function dcusumkbn2( N, sum, x, strideX, offsetX, y, strideY, offsetY ) {
 			if ( v !== 0.0 ) {
 				break;
 			}
-			y[ iy ] = sum + v;
+			sum += v;
+			y[ iy ] = sum;
 			ix += strideX;
 			iy += strideY;
 		}

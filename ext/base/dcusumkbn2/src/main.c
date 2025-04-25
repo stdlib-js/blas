@@ -91,7 +91,8 @@ void API_SUFFIX(stdlib_strided_dcusumkbn2_ndarray)( const CBLAS_INT N, const dou
 			if ( v != 0.0 ) {
 				break;
 			}
-			Y[ iy ] = s + v;
+			s += v;
+			Y[ iy ] = s;
 			ix += strideX;
 			iy += strideY;
 		}

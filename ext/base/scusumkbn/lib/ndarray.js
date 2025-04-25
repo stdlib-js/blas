@@ -79,7 +79,8 @@ function scusumkbn( N, sum, x, strideX, offsetX, y, strideY, offsetY ) {
 			if ( v !== 0.0 ) {
 				break;
 			}
-			y[ iy ] = float64ToFloat32( s + v );
+			s = float64ToFloat32( s + v );
+			y[ iy ] = s;
 			ix += strideX;
 			iy += strideY;
 		}

@@ -94,7 +94,8 @@ function gcusumkbn2( N, sum, x, strideX, offsetX, y, strideY, offsetY ) {
 			if ( v !== 0.0 ) {
 				break;
 			}
-			yset( ybuf, iy, sum + v );
+			sum += v;
+			yset( ybuf, iy, sum );
 			ix += strideX;
 			iy += strideY;
 		}

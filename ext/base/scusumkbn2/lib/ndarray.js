@@ -80,7 +80,8 @@ function scusumkbn2( N, sum, x, strideX, offsetX, y, strideY, offsetY ) {
 			if ( v !== 0.0 ) {
 				break;
 			}
-			y[ iy ] = float64ToFloat32( sum + v );
+			sum = float64ToFloat32( sum + v );
+			y[ iy ] = sum;
 			ix += strideX;
 			iy += strideY;
 		}
