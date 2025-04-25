@@ -202,6 +202,7 @@
 
 ### Bug Fixes
 
+-   [`05e83e1`](https://github.com/stdlib-js/stdlib/commit/05e83e1582cfeef43b39227e4a5c891f9934d1c0) - resolve typo in include guard
 -   [`a996667`](https://github.com/stdlib-js/stdlib/commit/a9966678dedd564a74999f2c4c5bd47c9a2b0c64) - propagate sign to the accumulated sum
 -   [`ee80204`](https://github.com/stdlib-js/stdlib/commit/ee80204dfe9c9a6409ebd7873354371bbdbac32e) - propagate sign to the accumulated sum
 -   [`499ac6a`](https://github.com/stdlib-js/stdlib/commit/499ac6abb988bb6e28cd350976d5fee2fd77cf90) - propagate sign to the accumulated sum
@@ -410,6 +411,8 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`05e83e1`](https://github.com/stdlib-js/stdlib/commit/05e83e1582cfeef43b39227e4a5c891f9934d1c0) - **fix:** resolve typo in include guard _(by Philipp Burckhardt)_
+-   [`366925e`](https://github.com/stdlib-js/stdlib/commit/366925e14f08852288d1422041d5613c1aaddb28) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`15a7123`](https://github.com/stdlib-js/stdlib/commit/15a712368f65c35d45ee6ae2e8f573a0304fac5c) - **docs:** document exceptions in `blas/base/strsv` [(#6744)](https://github.com/stdlib-js/stdlib/pull/6744) _(by Shabareesh Shetty)_
 -   [`ee26dcf`](https://github.com/stdlib-js/stdlib/commit/ee26dcf73ee8b2265231fc8b960e20d564869198) - **docs:** document exceptions in `blas/base/dtrsv` [(#6743)](https://github.com/stdlib-js/stdlib/pull/6743) _(by Shabareesh Shetty)_
 -   [`8a48ebe`](https://github.com/stdlib-js/stdlib/commit/8a48ebe8c17721be56ba39a16bce3b13441fdc57) - **test:** add test cases for `blas/base/strmv` [(#6732)](https://github.com/stdlib-js/stdlib/pull/6732) _(by Shabareesh Shetty)_
