@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-25)
+## Unreleased (2025-04-26)
 
 <section class="features">
 
@@ -411,6 +411,7 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
 -   [`05e83e1`](https://github.com/stdlib-js/stdlib/commit/05e83e1582cfeef43b39227e4a5c891f9934d1c0) - **fix:** resolve typo in include guard _(by Philipp Burckhardt)_
 -   [`366925e`](https://github.com/stdlib-js/stdlib/commit/366925e14f08852288d1422041d5613c1aaddb28) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`15a7123`](https://github.com/stdlib-js/stdlib/commit/15a712368f65c35d45ee6ae2e8f573a0304fac5c) - **docs:** document exceptions in `blas/base/strsv` [(#6744)](https://github.com/stdlib-js/stdlib/pull/6744) _(by Shabareesh Shetty)_
