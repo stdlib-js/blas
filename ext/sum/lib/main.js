@@ -31,13 +31,10 @@ var factory = require( '@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-fac
 
 var idtypes = dtypes( 'numeric_and_generic' );
 var odtypes = dtypes( 'numeric_and_generic' );
-
-// FIXME: consider defining an "accumulation" policy so that small integer arrays do not readily overflow (see the Array API Standard; if changed, need to update the README accordingly)
-
-// FIXME: may need to consider C arithmetic emulation, including for signed/unsigned integers, in order to ensure consistent results (currently, `gsum` accumulates in double-precision in JS; however, given that integer summation is modulo arithmetic, this may not be an issue, as the results may be the same)
-
-// FIXME: per the Array API Standard, if the output dtype differs from the input dtype, the input ndarray should be cast prior to computation (ref: https://data-apis.org/array-api/latest/API_specification/generated/array_api.sum.html)
-var policy = 'same';
+var policies = {
+	'output': 'accumulation',
+	'casting': 'promoted'
+};
 var table = {
 	'types': [
 		'float64', // input
@@ -98,7 +95,7 @@ var table = {
 * var v = out.get();
 * // returns 39.0
 */
-var sum = factory( table, [ idtypes ], odtypes, policy );
+var sum = factory( table, [ idtypes ], odtypes, policies );
 
 
 // EXPORTS //
