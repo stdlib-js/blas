@@ -33,7 +33,7 @@ var idtypes = dtypes( 'numeric_and_generic' );
 var odtypes = dtypes( 'numeric_and_generic' );
 var policies = {
 	'output': 'accumulation',
-	'casting': 'promoted'
+	'casting': 'none' // NOTE: in this case, we know that, at least for `gsum`, all scalar accumulation happens in double-precision, so casting an `int8` array to, e.g., `int32` is not necessary. Were we ever to implement specialized kernels beyond floating-point, we may need to revisit depending on the precision of the underlying accumulators.
 };
 var table = {
 	'types': [

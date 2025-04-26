@@ -412,6 +412,7 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`e41167e`](https://github.com/stdlib-js/stdlib/commit/e41167e33fe84e229aa03e1a8ca6de6f7e6f39e7) - **refactor:** update casting policy _(by Athan Reines)_
 -   [`de5763c`](https://github.com/stdlib-js/stdlib/commit/de5763c0ae79e809d74237f084b066411be59f0d) - **fix:** replace policy string with policy object _(by Athan Reines)_
 -   [`b9d5fc2`](https://github.com/stdlib-js/stdlib/commit/b9d5fc27dcdc1d57f94f63be1d05276c63025c14) - **docs:** update namespace table of contents [(#6819)](https://github.com/stdlib-js/stdlib/pull/6819) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`9f85b5d`](https://github.com/stdlib-js/stdlib/commit/9f85b5d90cb6fcaf052116cd06aa4a693757f0ec) - **test:** fix description _(by Philipp Burckhardt)_
