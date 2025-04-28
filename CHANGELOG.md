@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-26)
+## Unreleased (2025-04-28)
 
 <section class="features">
 
 ### Features
 
+-   [`5bf5fef`](https://github.com/stdlib-js/stdlib/commit/5bf5fef7f910bc7ca08b3689daed5160f674fa8e) - add `cusum` to namespace
+-   [`0024458`](https://github.com/stdlib-js/stdlib/commit/002445886a8f8e74dbbdabeff31ab45cece00096) - add `blas/ext/cusum`
 -   [`fd5533d`](https://github.com/stdlib-js/stdlib/commit/fd5533da37b425b752f061378bff51fbe8695c56) - add `sum` to namespace
 -   [`8844c7b`](https://github.com/stdlib-js/stdlib/commit/8844c7b41c82acfa59305a97a26ffd6caa4ea06d) - add `blas/ext/sum`
 -   [`0dd7923`](https://github.com/stdlib-js/stdlib/commit/0dd7923fb188e73cb3d60f54fb97195e4cf15ea9) - add `gcusum` to namespace
@@ -412,6 +414,9 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`5bf5fef`](https://github.com/stdlib-js/stdlib/commit/5bf5fef7f910bc7ca08b3689daed5160f674fa8e) - **feat:** add `cusum` to namespace _(by Athan Reines)_
+-   [`0024458`](https://github.com/stdlib-js/stdlib/commit/002445886a8f8e74dbbdabeff31ab45cece00096) - **feat:** add `blas/ext/cusum` _(by Athan Reines)_
+-   [`eb8260d`](https://github.com/stdlib-js/stdlib/commit/eb8260d1a9960852789d77150a8a51ac582c8a7d) - **docs:** update note _(by Athan Reines)_
 -   [`e41167e`](https://github.com/stdlib-js/stdlib/commit/e41167e33fe84e229aa03e1a8ca6de6f7e6f39e7) - **refactor:** update casting policy _(by Athan Reines)_
 -   [`de5763c`](https://github.com/stdlib-js/stdlib/commit/de5763c0ae79e809d74237f084b066411be59f0d) - **fix:** replace policy string with policy object _(by Athan Reines)_
 -   [`b9d5fc2`](https://github.com/stdlib-js/stdlib/commit/b9d5fc27dcdc1d57f94f63be1d05276c63025c14) - **docs:** update namespace table of contents [(#6819)](https://github.com/stdlib-js/stdlib/pull/6819) _(by stdlib-bot, Philipp Burckhardt)_
