@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-28)
+## Unreleased (2025-04-29)
 
 <section class="features">
 
@@ -414,6 +414,7 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`6464a4b`](https://github.com/stdlib-js/stdlib/commit/6464a4ba00ba9579a2da77a0e2282a0f03bfdc01) - **docs:** update namespace table of contents [(#6828)](https://github.com/stdlib-js/stdlib/pull/6828) _(by stdlib-bot)_
 -   [`5bf5fef`](https://github.com/stdlib-js/stdlib/commit/5bf5fef7f910bc7ca08b3689daed5160f674fa8e) - **feat:** add `cusum` to namespace _(by Athan Reines)_
 -   [`0024458`](https://github.com/stdlib-js/stdlib/commit/002445886a8f8e74dbbdabeff31ab45cece00096) - **feat:** add `blas/ext/cusum` _(by Athan Reines)_
 -   [`eb8260d`](https://github.com/stdlib-js/stdlib/commit/eb8260d1a9960852789d77150a8a51ac582c8a7d) - **docs:** update note _(by Athan Reines)_
