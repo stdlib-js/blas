@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bd0050a`](https://github.com/stdlib-js/stdlib/commit/bd0050a6aaec1ca4cdc1a4491f45084da84f5bf7) - add `blas/ext/base/wasm/dnanasumors` [(#6110)](https://github.com/stdlib-js/stdlib/pull/6110)
 -   [`5731206`](https://github.com/stdlib-js/stdlib/commit/5731206687fc0584469a369adb69dd44b26277ed) - add `blas/ext/base/wasm/sapxsumkbn` [(#5764)](https://github.com/stdlib-js/stdlib/pull/5764)
 -   [`6570841`](https://github.com/stdlib-js/stdlib/commit/65708419e4449c1cc7628ef2b22739383c40a24e) - add `blas/base/wasm/sdsdot` [(#6768)](https://github.com/stdlib-js/stdlib/pull/6768)
 -   [`5bf5fef`](https://github.com/stdlib-js/stdlib/commit/5bf5fef7f910bc7ca08b3689daed5160f674fa8e) - add `cusum` to namespace
@@ -416,6 +417,7 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`bd0050a`](https://github.com/stdlib-js/stdlib/commit/bd0050a6aaec1ca4cdc1a4491f45084da84f5bf7) - **feat:** add `blas/ext/base/wasm/dnanasumors` [(#6110)](https://github.com/stdlib-js/stdlib/pull/6110) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`5731206`](https://github.com/stdlib-js/stdlib/commit/5731206687fc0584469a369adb69dd44b26277ed) - **feat:** add `blas/ext/base/wasm/sapxsumkbn` [(#5764)](https://github.com/stdlib-js/stdlib/pull/5764) _(by Gururaj Gurram, Athan Reines)_
 -   [`6570841`](https://github.com/stdlib-js/stdlib/commit/65708419e4449c1cc7628ef2b22739383c40a24e) - **feat:** add `blas/base/wasm/sdsdot` [(#6768)](https://github.com/stdlib-js/stdlib/pull/6768) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`a70718c`](https://github.com/stdlib-js/stdlib/commit/a70718ca8db6cd301910b76200a2a1496951dbc7) - **docs:** update examples for `blas/base/wasm/cswap` [(#6846)](https://github.com/stdlib-js/stdlib/pull/6846) _(by Shabareesh Shetty)_
