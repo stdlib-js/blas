@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-29)
+## Unreleased (2025-04-30)
 
 <section class="features">
 
 ### Features
 
+-   [`5731206`](https://github.com/stdlib-js/stdlib/commit/5731206687fc0584469a369adb69dd44b26277ed) - add `blas/ext/base/wasm/sapxsumkbn` [(#5764)](https://github.com/stdlib-js/stdlib/pull/5764)
 -   [`6570841`](https://github.com/stdlib-js/stdlib/commit/65708419e4449c1cc7628ef2b22739383c40a24e) - add `blas/base/wasm/sdsdot` [(#6768)](https://github.com/stdlib-js/stdlib/pull/6768)
 -   [`5bf5fef`](https://github.com/stdlib-js/stdlib/commit/5bf5fef7f910bc7ca08b3689daed5160f674fa8e) - add `cusum` to namespace
 -   [`0024458`](https://github.com/stdlib-js/stdlib/commit/002445886a8f8e74dbbdabeff31ab45cece00096) - add `blas/ext/cusum`
@@ -415,6 +416,7 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`5731206`](https://github.com/stdlib-js/stdlib/commit/5731206687fc0584469a369adb69dd44b26277ed) - **feat:** add `blas/ext/base/wasm/sapxsumkbn` [(#5764)](https://github.com/stdlib-js/stdlib/pull/5764) _(by Gururaj Gurram, Athan Reines)_
 -   [`6570841`](https://github.com/stdlib-js/stdlib/commit/65708419e4449c1cc7628ef2b22739383c40a24e) - **feat:** add `blas/base/wasm/sdsdot` [(#6768)](https://github.com/stdlib-js/stdlib/pull/6768) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`a70718c`](https://github.com/stdlib-js/stdlib/commit/a70718ca8db6cd301910b76200a2a1496951dbc7) - **docs:** update examples for `blas/base/wasm/cswap` [(#6846)](https://github.com/stdlib-js/stdlib/pull/6846) _(by Shabareesh Shetty)_
 -   [`6464a4b`](https://github.com/stdlib-js/stdlib/commit/6464a4ba00ba9579a2da77a0e2282a0f03bfdc01) - **docs:** update namespace table of contents [(#6828)](https://github.com/stdlib-js/stdlib/pull/6828) _(by stdlib-bot)_
