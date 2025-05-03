@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-30)
+## Unreleased (2025-05-03)
 
 <section class="features">
 
@@ -208,6 +208,9 @@
 
 ### Bug Fixes
 
+-   [`20cb136`](https://github.com/stdlib-js/stdlib/commit/20cb1367a6e088ab29a0018a15f2e06b802e77c5) - restrict set of allowed data types
+-   [`8259ed5`](https://github.com/stdlib-js/stdlib/commit/8259ed5b9d1f003567f1534962163799c6254c88) - restrict set of allowed data types
+-   [`cd6132a`](https://github.com/stdlib-js/stdlib/commit/cd6132a767338fc1726bf333c7a65ace1c37edde) - update package name
 -   [`de5763c`](https://github.com/stdlib-js/stdlib/commit/de5763c0ae79e809d74237f084b066411be59f0d) - replace policy string with policy object
 -   [`05e83e1`](https://github.com/stdlib-js/stdlib/commit/05e83e1582cfeef43b39227e4a5c891f9934d1c0) - resolve typo in include guard
 -   [`a996667`](https://github.com/stdlib-js/stdlib/commit/a9966678dedd564a74999f2c4c5bd47c9a2b0c64) - propagate sign to the accumulated sum
@@ -418,6 +421,11 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`475dc22`](https://github.com/stdlib-js/stdlib/commit/475dc227d741fcb816fc101523cc94975230e2d9) - **docs:** update note _(by Athan Reines)_
+-   [`0105776`](https://github.com/stdlib-js/stdlib/commit/0105776252892d8bb6b2e26e1a7900aa12174393) - **docs:** update note _(by Athan Reines)_
+-   [`20cb136`](https://github.com/stdlib-js/stdlib/commit/20cb1367a6e088ab29a0018a15f2e06b802e77c5) - **fix:** restrict set of allowed data types _(by Athan Reines)_
+-   [`8259ed5`](https://github.com/stdlib-js/stdlib/commit/8259ed5b9d1f003567f1534962163799c6254c88) - **fix:** restrict set of allowed data types _(by Athan Reines)_
+-   [`cd6132a`](https://github.com/stdlib-js/stdlib/commit/cd6132a767338fc1726bf333c7a65ace1c37edde) - **fix:** update package name _(by Athan Reines)_
 -   [`fbb364e`](https://github.com/stdlib-js/stdlib/commit/fbb364ea4aac82c08e986f6dfe78825af7cd6cfa) - **build:** update configuration _(by Athan Reines)_
 -   [`fdd8f3a`](https://github.com/stdlib-js/stdlib/commit/fdd8f3a3d04fb0aaca79cccf33707eeb43e1f97c) - **docs:** update examples for `blas/base/wasm/cswap` [(#5766)](https://github.com/stdlib-js/stdlib/pull/5766) _(by Gururaj Gurram, Athan Reines)_
 -   [`8f6c511`](https://github.com/stdlib-js/stdlib/commit/8f6c511ee70428b4b262fe29547f6d25f2e7d3bd) - **docs:** remove trailing semicolons _(by Athan Reines)_
