@@ -71,10 +71,9 @@ interface Unary {
 	*
 	* @example
 	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var array = require( '@stdlib/ndarray/array' );
 	*
-	* var xbuf = [ -1.0, 2.0, -3.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+	* var x = array( [ -1.0, 2.0, -3.0 ] );
 	*
 	* var y = cusum( x );
 	* // returns <ndarray>
@@ -94,10 +93,9 @@ interface Unary {
 	*
 	* @example
 	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var array = require( '@stdlib/ndarray/array' );
 	*
-	* var xbuf = [ -1.0, 2.0, -3.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+	* var x = array( [ -1.0, 2.0, -3.0 ] );
 	*
 	* var y = cusum( x, 10.0 );
 	* // returns <ndarray>
@@ -118,11 +116,9 @@ interface Unary {
 	* @example
 	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var zerosLike = require( '@stdlib/ndarray/zeros-like' );
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var array = require( '@stdlib/ndarray/array' );
 	*
-	* var xbuf = [ -1.0, 2.0, -3.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-	*
+	* var x = array( [ -1.0, 2.0, -3.0 ] );
 	* var y = zerosLike( x );
 	*
 	* var out = cusum.assign( x, y );
@@ -148,11 +144,9 @@ interface Unary {
 	* @example
 	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var zerosLike = require( '@stdlib/ndarray/zeros-like' );
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	* var array = require( '@stdlib/ndarray/array' );
 	*
-	* var xbuf = [ -1.0, 2.0, -3.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-	*
+	* var x = array( [ -1.0, 2.0, -3.0 ] );
 	* var y = zerosLike( x );
 	*
 	* var out = cusum.assign( x, 10.0, y );
@@ -176,10 +170,9 @@ interface Unary {
 *
 * @example
 * var ndarray2array = require( '@stdlib/ndarray/to-array' );
-* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var array = require( '@stdlib/ndarray/array' );
 *
-* var xbuf = [ -1.0, 2.0, -3.0 ];
-* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+* var x = array( [ -1.0, 2.0, -3.0 ] );
 *
 * var y = cusum( x );
 * // returns <ndarray>
@@ -190,11 +183,9 @@ interface Unary {
 * @example
 * var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var zerosLike = require( '@stdlib/ndarray/zeros-like' );
-* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var array = require( '@stdlib/ndarray/array' );
 *
-* var xbuf = [ -1.0, 2.0, -3.0 ];
-* var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-*
+* var x = array( [ -1.0, 2.0, -3.0 ] );
 * var y = zerosLike( x );
 *
 * var out = cusum.assign( x, y );

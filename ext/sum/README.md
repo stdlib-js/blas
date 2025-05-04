@@ -35,10 +35,9 @@ var sum = require( '@stdlib/blas/ext/sum' );
 Computes the sum along one or more [ndarray][@stdlib/ndarray/ctor] dimensions.
 
 ```javascript
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0 ];
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0 ] );
 
 var y = sum( x );
 // returns <ndarray>
@@ -62,17 +61,22 @@ By default, the function performs a reduction over all elements in a provided in
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
-var x = new ndarray( 'generic', xbuf, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0, 4.0 ], {
+    'shape': [ 2, 2 ],
+    'order': 'row-major'
+});
+
+var v = ndarray2array( x );
+// returns [ [ -1.0, 2.0 ], [ -3.0, 4.0 ] ]
 
 var y = sum( x, {
     'dims': [ 0 ]
 });
 // returns <ndarray>
 
-var v = ndarray2array( y );
+v = ndarray2array( y );
 // returns [ -4.0, 6.0 ]
 
 y = sum( x, {
@@ -96,10 +100,15 @@ By default, the function excludes reduced dimensions from the output [ndarray][@
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
-var x = new ndarray( 'generic', xbuf, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0, 4.0 ], {
+    'shape': [ 2, 2 ],
+    'order': 'row-major'
+});
+
+var v = ndarray2array( x );
+// returns [ [ -1.0, 2.0 ], [ -3.0, 4.0 ] ]
 
 var y = sum( x, {
     'dims': [ 0 ],
@@ -107,7 +116,7 @@ var y = sum( x, {
 });
 // returns <ndarray>
 
-var v = ndarray2array( y );
+v = ndarray2array( y );
 // returns [ [ -4.0, 6.0 ] ]
 
 y = sum( x, {
@@ -132,18 +141,19 @@ v = ndarray2array( y );
 By default, the function returns an [ndarray][@stdlib/ndarray/ctor] having a [data type][@stdlib/ndarray/dtypes] determined by the function's output data type [policy][@stdlib/ndarray/output-dtype-policies]. To override the default behavior, set the `dtype` option.
 
 ```javascript
-var dtype = require( '@stdlib/ndarray/dtype' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var getDType = require( '@stdlib/ndarray/dtype' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0 ];
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0 ], {
+    'dtype': 'generic'
+});
 
 var y = sum( x, {
     'dtype': 'float64'
 });
 // returns <ndarray>
 
-var dt = dtype( y );
+var dt = getDType( y );
 // returns 'float64'
 ```
 
@@ -152,13 +162,11 @@ var dt = dtype( y );
 Computes the sum along one or more [ndarray][@stdlib/ndarray/ctor] dimensions and assigns results to a provided output [ndarray][@stdlib/ndarray/ctor].
 
 ```javascript
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
+var zeros = require( '@stdlib/ndarray/zeros' );
 
-var xbuf = [ -1.0, 2.0, -3.0 ];
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-
-var ybuf = [ 0.0 ];
-var y = new ndarray( 'generic', ybuf, [], [ 0 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0 ] );
+var y = zeros( [] );
 
 var out = sum.assign( x, y );
 // returns <ndarray>
@@ -204,7 +212,7 @@ The method accepts the following options:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dtype = require( '@stdlib/ndarray/dtype' );
+var getDType = require( '@stdlib/ndarray/dtype' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var ndarray = require( '@stdlib/ndarray/ctor' );
 var sum = require( '@stdlib/blas/ext/sum' );
@@ -224,7 +232,7 @@ var y = sum( x, {
 });
 
 // Resolve the output array data type:
-var dt = dtype( y );
+var dt = getDType( y );
 console.log( dt );
 
 // Print the results:

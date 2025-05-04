@@ -36,10 +36,9 @@ Computes the cumulative sum along one or more [ndarray][@stdlib/ndarray/ctor] di
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0 ];
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0 ] );
 
 var y = cusum( x );
 // returns <ndarray>
@@ -63,10 +62,9 @@ By default, the function uses the additive identity when computing the cumulativ
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0 ];
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0 ] );
 
 var y = cusum( x, 10.0 );
 // returns <ndarray>
@@ -79,17 +77,22 @@ By default, the function performs the operation over all elements in a provided 
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
-var x = new ndarray( 'generic', xbuf, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0, 4.0 ], {
+    'shape': [ 2, 2 ],
+    'order': 'row-major'
+});
+
+var v = ndarray2array( x );
+// returns [ [ -1.0, 2.0 ], [ -3.0, 4.0 ] ]
 
 var y = cusum( x, {
     'dims': [ 0 ]
 });
 // returns <ndarray>
 
-var v = ndarray2array( y );
+v = ndarray2array( y );
 // returns [ [ -1.0, 2.0 ], [ -4.0, 6.0 ] ]
 
 y = cusum( x, {
@@ -114,10 +117,11 @@ By default, the function returns an [ndarray][@stdlib/ndarray/ctor] having a [da
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var dtype = require( '@stdlib/ndarray/dtype' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
 
-var xbuf = [ -1.0, 2.0, -3.0 ];
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0 ], {
+    'dtype': 'generic'
+});
 
 var y = cusum( x, {
     'dtype': 'float64'
@@ -134,13 +138,11 @@ Computes the cumulative sum along one or more [ndarray][@stdlib/ndarray/ctor] di
 
 ```javascript
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var ndarray = require( '@stdlib/ndarray/ctor' );
+var array = require( '@stdlib/ndarray/array' );
+var zerosLike = require( '@stdlib/ndarray/zeros-like' );
 
-var xbuf = [ -1.0, 2.0, -3.0 ];
-var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
-
-var ybuf = [ 0.0, 0.0, 0.0 ];
-var y = new ndarray( 'generic', ybuf, [ ybuf.length ], [ 1 ], 0, 'row-major' );
+var x = array( [ -1.0, 2.0, -3.0 ] );
+var y = zerosLike( x );
 
 var out = cusum.assign( x, y );
 // returns <ndarray>
@@ -186,7 +188,7 @@ The method accepts the following options:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dtype = require( '@stdlib/ndarray/dtype' );
+var getDType = require( '@stdlib/ndarray/dtype' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var ndarray = require( '@stdlib/ndarray/ctor' );
 var cusum = require( '@stdlib/blas/ext/cusum' );
@@ -206,7 +208,7 @@ var y = cusum( x, 100.0, {
 });
 
 // Resolve the output array data type:
-var dt = dtype( y );
+var dt = getDType( y );
 console.log( dt );
 
 // Print the results:
