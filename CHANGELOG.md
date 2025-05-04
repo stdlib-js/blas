@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-03)
+## Unreleased (2025-05-04)
 
 <section class="features">
 
@@ -421,6 +421,8 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`6c79b2f`](https://github.com/stdlib-js/stdlib/commit/6c79b2f8296fbc8ac2de470e6ff7ae446102c60f) - **docs:** update note _(by Athan Reines)_
+-   [`74fd8e4`](https://github.com/stdlib-js/stdlib/commit/74fd8e4917e02ca9186c9da4cfd676321ba7998f) - **docs:** update note _(by Athan Reines)_
 -   [`475dc22`](https://github.com/stdlib-js/stdlib/commit/475dc227d741fcb816fc101523cc94975230e2d9) - **docs:** update note _(by Athan Reines)_
 -   [`0105776`](https://github.com/stdlib-js/stdlib/commit/0105776252892d8bb6b2e26e1a7900aa12174393) - **docs:** update note _(by Athan Reines)_
 -   [`20cb136`](https://github.com/stdlib-js/stdlib/commit/20cb1367a6e088ab29a0018a15f2e06b802e77c5) - **fix:** restrict set of allowed data types _(by Athan Reines)_
