@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-04)
+## Unreleased (2025-05-14)
 
 <section class="features">
 
 ### Features
 
+-   [`47043f4`](https://github.com/stdlib-js/stdlib/commit/47043f4dd5b22794abc28364824a19e1712a8dc7) - add `blas/ext/base/wasm/dapx` [(#5643)](https://github.com/stdlib-js/stdlib/pull/5643)
 -   [`09ffc2c`](https://github.com/stdlib-js/stdlib/commit/09ffc2c08be90669defcaaa19a50b53a6d7473f8) - add `stats/strided/wasm/dmeanors` [(#5832)](https://github.com/stdlib-js/stdlib/pull/5832)
 -   [`bd0050a`](https://github.com/stdlib-js/stdlib/commit/bd0050a6aaec1ca4cdc1a4491f45084da84f5bf7) - add `blas/ext/base/wasm/dnanasumors` [(#6110)](https://github.com/stdlib-js/stdlib/pull/6110)
 -   [`5731206`](https://github.com/stdlib-js/stdlib/commit/5731206687fc0584469a369adb69dd44b26277ed) - add `blas/ext/base/wasm/sapxsumkbn` [(#5764)](https://github.com/stdlib-js/stdlib/pull/5764)
@@ -407,9 +408,9 @@
 
 ### Closed Issues
 
-A total of 17 issues were closed in this release:
+A total of 18 issues were closed in this release:
 
-[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5905](https://github.com/stdlib-js/stdlib/issues/5905)
+[#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5905](https://github.com/stdlib-js/stdlib/issues/5905)
 
 </section>
 
@@ -421,6 +422,25 @@ A total of 17 issues were closed in this release:
 
 <details>
 
+-   [`47043f4`](https://github.com/stdlib-js/stdlib/commit/47043f4dd5b22794abc28364824a19e1712a8dc7) - **feat:** add `blas/ext/base/wasm/dapx` [(#5643)](https://github.com/stdlib-js/stdlib/pull/5643) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
+-   [`44d408f`](https://github.com/stdlib-js/stdlib/commit/44d408f29e90ec7932cd46644f990c66c13b8bdb) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`cc34e03`](https://github.com/stdlib-js/stdlib/commit/cc34e0328c78ed7016921e7be6429221ce77c308) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`4c297d2`](https://github.com/stdlib-js/stdlib/commit/4c297d2fc5c4a88aa52bc3caa4b8e1f521b12f61) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`fc9c88f`](https://github.com/stdlib-js/stdlib/commit/fc9c88ff41a53e19630356e768ed4cbb1a0b7ae2) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`a776cc4`](https://github.com/stdlib-js/stdlib/commit/a776cc41c4226be534fbbfe732a9b086e97dd761) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`b67d4da`](https://github.com/stdlib-js/stdlib/commit/b67d4dac3483903ba9841a9928a0c426635df639) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`822db7a`](https://github.com/stdlib-js/stdlib/commit/822db7aaf5701519a8e4acbfdd37cccd21c14e4a) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`7fa5636`](https://github.com/stdlib-js/stdlib/commit/7fa5636178573b29101c6e9446df3b22b715690a) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`c2aba8f`](https://github.com/stdlib-js/stdlib/commit/c2aba8fce7f351b4a6f82072f26b9dcc47e94798) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`46c8d4e`](https://github.com/stdlib-js/stdlib/commit/46c8d4e6f632a8fb7942c1661e5a4e5d75d59c60) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`73df28f`](https://github.com/stdlib-js/stdlib/commit/73df28f560c71e48e82d17375dc5ef3c8364b769) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`62f4456`](https://github.com/stdlib-js/stdlib/commit/62f44566136dc483daf350847f016c63c714b530) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`dfa9446`](https://github.com/stdlib-js/stdlib/commit/dfa944638baf665a4f16321a88ffd5091b2b14fb) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`57d1395`](https://github.com/stdlib-js/stdlib/commit/57d1395e198e37c8cad32925889ba763f8ad7bd7) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`ed487e8`](https://github.com/stdlib-js/stdlib/commit/ed487e8db5c2d97407b3011aeb4acbf292c034f1) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`71fcdf5`](https://github.com/stdlib-js/stdlib/commit/71fcdf5cead762267457905a25443c287cdbaea6) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`b638337`](https://github.com/stdlib-js/stdlib/commit/b6383374787db53707fcd6c6722aec0af6cc62d5) - **refactor:** use base assertion utility _(by Athan Reines)_
+-   [`cf0a752`](https://github.com/stdlib-js/stdlib/commit/cf0a7526f5cf517387cc8fccce569c3e7d3508e0) - **refactor:** use base assertion utility _(by Athan Reines)_
 -   [`e0ef8c0`](https://github.com/stdlib-js/stdlib/commit/e0ef8c087391aed873416ff772da92ef34eabee8) - **docs:** update examples _(by Athan Reines)_
 -   [`eece266`](https://github.com/stdlib-js/stdlib/commit/eece266922d61be79ec4a518122770d6e5a45c35) - **docs:** update examples _(by Athan Reines)_
 -   [`6c79b2f`](https://github.com/stdlib-js/stdlib/commit/6c79b2f8296fbc8ac2de470e6ff7ae446102c60f) - **docs:** update note _(by Athan Reines)_
