@@ -1098,6 +1098,15 @@ setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
 */
 setReadOnly( ns, 'zfill', require( './../../../ext/base/zfill' ) );
 
+/**
+* @name zsumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zsumkbn}
+*/
+setReadOnly( ns, 'zsumkbn', require( './../../../ext/base/zsumkbn' ) );
+
 
 // EXPORTS //
 
