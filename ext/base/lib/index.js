@@ -46,6 +46,24 @@ var ns = {};
 setReadOnly( ns, 'cfill', require( './../../../ext/base/cfill' ) );
 
 /**
+* @name csum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/csum}
+*/
+setReadOnly( ns, 'csum', require( './../../../ext/base/csum' ) );
+
+/**
+* @name csumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/csumkbn}
+*/
+setReadOnly( ns, 'csumkbn', require( './../../../ext/base/csumkbn' ) );
+
+/**
 * @name dapx
 * @memberof ns
 * @readonly
@@ -1106,6 +1124,15 @@ setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
 * @see {@link module:@stdlib/blas/ext/base/zfill}
 */
 setReadOnly( ns, 'zfill', require( './../../../ext/base/zfill' ) );
+
+/**
+* @name zsum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zsum}
+*/
+setReadOnly( ns, 'zsum', require( './../../../ext/base/zsum' ) );
 
 /**
 * @name zsumkbn
