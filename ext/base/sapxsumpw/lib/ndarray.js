@@ -53,6 +53,9 @@ var ssumpw = require( './../../../../ext/base/ssumpw' ).ndarray;
 * // returns 25.0
 */
 function sapxsumpw( N, alpha, x, strideX, offsetX ) {
+	if ( N <= 0 ) {
+		return 0.0;
+	}
 	return f32( f32( N * alpha ) + ssumpw( N, x, strideX, offsetX ) );
 }
 

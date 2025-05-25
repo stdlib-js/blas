@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e030bba`](https://github.com/stdlib-js/stdlib/commit/e030bba632158023584c3e28c080fdf289d15014) - add `gnannsumpw` to namespace
 -   [`cbd656d`](https://github.com/stdlib-js/stdlib/commit/cbd656db90d14e150baa2a23deb44cb645ef2298) - add `blas/ext/base/gnannsumpw`
 -   [`7324255`](https://github.com/stdlib-js/stdlib/commit/7324255304f2fdb5afddd9166579122fcdc2aa2a) - add `zsumkbn` to namespace
 -   [`6b320d7`](https://github.com/stdlib-js/stdlib/commit/6b320d701480d7467d131f161f87b38d2849f5e8) - add `blas/ext/base/zsumkbn`
@@ -213,6 +214,9 @@
 
 ### Bug Fixes
 
+-   [`15922b7`](https://github.com/stdlib-js/stdlib/commit/15922b7bcaaaa3eb81bc6fec90898f0bd52e66fc) - address indexing bug
+-   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - address indexing bug
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - add missing checks for `N` and address failing tests stemming from refactoring
 -   [`4c5e486`](https://github.com/stdlib-js/stdlib/commit/4c5e4866ffc225fb1468ef98d156b984748a3cb1) - update implementation to preserve signed zeros
 -   [`95641f7`](https://github.com/stdlib-js/stdlib/commit/95641f75c1764479af76b23eac8a90101ee12f8d) - update implementation to preserve signed zeros
 -   [`e20b7f5`](https://github.com/stdlib-js/stdlib/commit/e20b7f533ddf8cbc27f142011a8ed65d3229e380) - update implementation to preserve signed zeros
@@ -460,6 +464,11 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`15922b7`](https://github.com/stdlib-js/stdlib/commit/15922b7bcaaaa3eb81bc6fec90898f0bd52e66fc) - **fix:** address indexing bug _(by Athan Reines)_
+-   [`c917f58`](https://github.com/stdlib-js/stdlib/commit/c917f586cbdc1ba098e933bb731ab3ad536eefe4) - **test:** address failing test case _(by Athan Reines)_
+-   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - **fix:** address indexing bug _(by Athan Reines)_
+-   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - **fix:** add missing checks for `N` and address failing tests stemming from refactoring _(by Athan Reines)_
+-   [`e030bba`](https://github.com/stdlib-js/stdlib/commit/e030bba632158023584c3e28c080fdf289d15014) - **feat:** add `gnannsumpw` to namespace _(by Athan Reines)_
 -   [`4c5e486`](https://github.com/stdlib-js/stdlib/commit/4c5e4866ffc225fb1468ef98d156b984748a3cb1) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`95641f7`](https://github.com/stdlib-js/stdlib/commit/95641f75c1764479af76b23eac8a90101ee12f8d) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`e20b7f5`](https://github.com/stdlib-js/stdlib/commit/e20b7f533ddf8cbc27f142011a8ed65d3229e380) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_

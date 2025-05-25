@@ -50,6 +50,9 @@ var gsumkbn = require( './../../../../ext/base/gsumkbn' ).ndarray;
 * // returns 25.0
 */
 function gapxsumkbn( N, alpha, x, strideX, offsetX ) {
+	if ( N <= 0 ) {
+		return 0.0;
+	}
 	return ( N * alpha ) + gsumkbn( N, x, strideX, offsetX );
 }
 

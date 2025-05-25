@@ -595,6 +595,15 @@ setReadOnly( ns, 'gfillBy', require( './../../../ext/base/gfill-by' ) );
 setReadOnly( ns, 'gnannsumkbn', require( './../../../ext/base/gnannsumkbn' ) );
 
 /**
+* @name gnannsumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gnannsumpw}
+*/
+setReadOnly( ns, 'gnannsumpw', require( './../../../ext/base/gnannsumpw' ) );
+
+/**
 * @name gnansum
 * @memberof ns
 * @readonly
