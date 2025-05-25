@@ -24,6 +24,8 @@ var dtypes = require( '@stdlib/ndarray/dtypes' );
 var gsum = require( './../../../ext/base/ndarray/gsum' );
 var dsum = require( './../../../ext/base/ndarray/dsum' );
 var ssum = require( './../../../ext/base/ndarray/ssum' );
+var csum = require( './../../../ext/base/ndarray/csum' );
+var zsum = require( './../../../ext/base/ndarray/zsum' );
 var factory = require( '@stdlib/ndarray/base/unary-reduce-strided1d-dispatch-factory' );
 
 
@@ -37,14 +39,16 @@ var policies = {
 };
 var table = {
 	'types': [
-		'float64', // input
-		'float32'  // input
-
-		// FIXME: add specialized support for `csum` and `zsum` once the corresponding packages are implemented
+		'float64',    // input
+		'float32',    // input
+		'complex128', // input
+		'complex64'   // input
 	],
 	'fcns': [
 		dsum,
-		ssum
+		ssum,
+		zsum,
+		csum
 	],
 	'default': gsum
 };

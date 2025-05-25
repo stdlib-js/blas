@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`a11b832`](https://github.com/stdlib-js/stdlib/commit/a11b832b9c10879eedf7b86dc83772d6abef7931) - add `csum` to namespace
+-   [`28b0465`](https://github.com/stdlib-js/stdlib/commit/28b046502e53a887c1eb70f712b223a60d4c7833) - add `blas/ext/base/ndarray/csum`
 -   [`e30c3ba`](https://github.com/stdlib-js/stdlib/commit/e30c3baa0ea634ee95dfb857b56bc3b8eb57e3f3) - add `zsum` to namespace
 -   [`d1c43bf`](https://github.com/stdlib-js/stdlib/commit/d1c43bf928d136b64bce740e38fae1e23d482c23) - add `blas/ext/base/ndarray/zsum`
 -   [`22f1408`](https://github.com/stdlib-js/stdlib/commit/22f140863e59a9e1a2f89a6912a0c520a7fc7956) - add `csum` to namespace
@@ -222,6 +224,9 @@
 
 ### Bug Fixes
 
+-   [`71cafe3`](https://github.com/stdlib-js/stdlib/commit/71cafe3750d452180ec33524aa0d2fb19322b743) - add support for complex64 and complex128
+-   [`3014ce9`](https://github.com/stdlib-js/stdlib/commit/3014ce93b3fd6a8d7d26b7951d762f5100faffdf) - update return type
+-   [`2acc7f0`](https://github.com/stdlib-js/stdlib/commit/2acc7f03aa6e89410deb74d99f466cc1cd400384) - update return type
 -   [`15922b7`](https://github.com/stdlib-js/stdlib/commit/15922b7bcaaaa3eb81bc6fec90898f0bd52e66fc) - address indexing bug
 -   [`549f1c1`](https://github.com/stdlib-js/stdlib/commit/549f1c1889b0d324eab00a142121ef26ed080592) - address indexing bug
 -   [`981c7ba`](https://github.com/stdlib-js/stdlib/commit/981c7baecfe6ab8ab4d973e95cd20453f90c5e28) - add missing checks for `N` and address failing tests stemming from refactoring
@@ -472,6 +477,11 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`71cafe3`](https://github.com/stdlib-js/stdlib/commit/71cafe3750d452180ec33524aa0d2fb19322b743) - **fix:** add support for complex64 and complex128 _(by Athan Reines)_
+-   [`3014ce9`](https://github.com/stdlib-js/stdlib/commit/3014ce93b3fd6a8d7d26b7951d762f5100faffdf) - **fix:** update return type _(by Athan Reines)_
+-   [`2acc7f0`](https://github.com/stdlib-js/stdlib/commit/2acc7f03aa6e89410deb74d99f466cc1cd400384) - **fix:** update return type _(by Athan Reines)_
+-   [`a11b832`](https://github.com/stdlib-js/stdlib/commit/a11b832b9c10879eedf7b86dc83772d6abef7931) - **feat:** add `csum` to namespace _(by Athan Reines)_
+-   [`28b0465`](https://github.com/stdlib-js/stdlib/commit/28b046502e53a887c1eb70f712b223a60d4c7833) - **feat:** add `blas/ext/base/ndarray/csum` _(by Athan Reines)_
 -   [`e30c3ba`](https://github.com/stdlib-js/stdlib/commit/e30c3baa0ea634ee95dfb857b56bc3b8eb57e3f3) - **feat:** add `zsum` to namespace _(by Athan Reines)_
 -   [`d1c43bf`](https://github.com/stdlib-js/stdlib/commit/d1c43bf928d136b64bce740e38fae1e23d482c23) - **feat:** add `blas/ext/base/ndarray/zsum` _(by Athan Reines)_
 -   [`22f1408`](https://github.com/stdlib-js/stdlib/commit/22f140863e59a9e1a2f89a6912a0c520a7fc7956) - **feat:** add `csum` to namespace _(by Athan Reines)_

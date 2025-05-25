@@ -19,7 +19,7 @@
 /* eslint-disable space-in-parens */
 
 import zeros = require( '@stdlib/ndarray/zeros' );
-import zsum = require( './index' );
+import csum = require( './index' );
 
 
 // TESTS //
@@ -27,31 +27,31 @@ import zsum = require( './index' );
 // The function returns a complex number...
 {
 	const x = zeros( [ 10 ], {
-		'dtype': 'complex128'
+		'dtype': 'complex64'
 	});
 
-	zsum( [ x ] ); // $ExpectType Complex128
+	csum( [ x ] ); // $ExpectType Complex64
 }
 
 // The compiler throws an error if the function is provided a first argument which is not an array of ndarrays...
 {
-	zsum( '10' ); // $ExpectError
-	zsum( 10 ); // $ExpectError
-	zsum( true ); // $ExpectError
-	zsum( false ); // $ExpectError
-	zsum( null ); // $ExpectError
-	zsum( undefined ); // $ExpectError
-	zsum( [] ); // $ExpectError
-	zsum( {} ); // $ExpectError
-	zsum( ( x: number ): number => x ); // $ExpectError
+	csum( '10' ); // $ExpectError
+	csum( 10 ); // $ExpectError
+	csum( true ); // $ExpectError
+	csum( false ); // $ExpectError
+	csum( null ); // $ExpectError
+	csum( undefined ); // $ExpectError
+	csum( [] ); // $ExpectError
+	csum( {} ); // $ExpectError
+	csum( ( x: number ): number => x ); // $ExpectError
 }
 
 // The compiler throws an error if the function is provided an unsupported number of arguments...
 {
 	const x = zeros( [ 10 ], {
-		'dtype': 'complex128'
+		'dtype': 'complex64'
 	});
 
-	zsum(); // $ExpectError
-	zsum( [ x ], {} ); // $ExpectError
+	csum(); // $ExpectError
+	csum( [ x ], {} ); // $ExpectError
 }

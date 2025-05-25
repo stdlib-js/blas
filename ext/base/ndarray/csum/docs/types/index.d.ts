@@ -20,28 +20,28 @@
 
 /// <reference types="@stdlib/types"/>
 
-import { complex128ndarray } from '@stdlib/types/ndarray';
-import { Complex128 } from '@stdlib/types/complex';
+import { complex64ndarray } from '@stdlib/types/ndarray';
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
-* Computes the sum of all elements in a one-dimensional double-precision complex floating-point ndarray.
+* Computes the sum of all elements in a one-dimensional single-precision complex floating-point ndarray.
 *
 * @param arrays - array-like object containing an input ndarray
 * @returns sum
 *
 * @example
-* var Complex128Array = require( '@stdlib/array/complex128' );
+* var Complex64Array = require( '@stdlib/array/complex64' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 *
-* var xbuf = new Complex128Array( [ 1.0, 3.0, 4.0, 2.0 ] );
-* var x = new ndarray( 'complex128', xbuf, [ 2 ], [ 1 ], 0, 'row-major' );
+* var xbuf = new Complex64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+* var x = new ndarray( 'complex64', xbuf, [ 2 ], [ 1 ], 0, 'row-major' );
 *
-* var v = zsum( [ x ] );
-* // returns <Complex128>[ 5.0, 5.0 ]
+* var v = csum( [ x ] );
+* // returns <Complex64>[ 5.0, 5.0 ]
 */
-declare function zsum( arrays: [ complex128ndarray ] ): Complex128;
+declare function csum( arrays: [ complex64ndarray ] ): Complex64;
 
 
 // EXPORTS //
 
-export = zsum;
+export = csum;

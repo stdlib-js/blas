@@ -1,4 +1,4 @@
-/*
+/**
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,32 +16,30 @@
 * limitations under the License.
 */
 
-// TypeScript Version: 4.1
-
-/// <reference types="@stdlib/types"/>
-
-import { complex128ndarray } from '@stdlib/types/ndarray';
-import { Complex128 } from '@stdlib/types/complex';
+'use strict';
 
 /**
-* Computes the sum of all elements in a one-dimensional double-precision complex floating-point ndarray.
+* Compute the sum of all elements in a one-dimensional single-precision complex floating-point ndarray.
 *
-* @param arrays - array-like object containing an input ndarray
-* @returns sum
+* @module @stdlib/blas/ext/base/ndarray/csum
 *
 * @example
-* var Complex128Array = require( '@stdlib/array/complex128' );
+* var Complex64Array = require( '@stdlib/array/complex64' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var csum = require( '@stdlib/blas/ext/base/ndarray/csum' );
 *
-* var xbuf = new Complex128Array( [ 1.0, 3.0, 4.0, 2.0 ] );
-* var x = new ndarray( 'complex128', xbuf, [ 2 ], [ 1 ], 0, 'row-major' );
+* var xbuf = new Complex64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+* var x = new ndarray( 'complex64', xbuf, [ 2 ], [ 1 ], 0, 'row-major' );
 *
-* var v = zsum( [ x ] );
-* // returns <Complex128>[ 5.0, 5.0 ]
+* var v = csum( [ x ] );
+* // returns <Complex64>[ 5.0, 5.0 ]
 */
-declare function zsum( arrays: [ complex128ndarray ] ): Complex128;
+
+// MODULES //
+
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-export = zsum;
+module.exports = main;
