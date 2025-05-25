@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`e30c3ba`](https://github.com/stdlib-js/stdlib/commit/e30c3baa0ea634ee95dfb857b56bc3b8eb57e3f3) - add `zsum` to namespace
+-   [`d1c43bf`](https://github.com/stdlib-js/stdlib/commit/d1c43bf928d136b64bce740e38fae1e23d482c23) - add `blas/ext/base/ndarray/zsum`
 -   [`22f1408`](https://github.com/stdlib-js/stdlib/commit/22f140863e59a9e1a2f89a6912a0c520a7fc7956) - add `csum` to namespace
 -   [`10ccb4a`](https://github.com/stdlib-js/stdlib/commit/10ccb4a44321d0caf5602042c78b49232de2b1dc) - add `blas/ext/base/csum`
 -   [`4f9ada3`](https://github.com/stdlib-js/stdlib/commit/4f9ada3914fe2a20811614089c1d2ce8bc6a15f0) - add `csumkbn` to namespace
@@ -470,6 +472,8 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`e30c3ba`](https://github.com/stdlib-js/stdlib/commit/e30c3baa0ea634ee95dfb857b56bc3b8eb57e3f3) - **feat:** add `zsum` to namespace _(by Athan Reines)_
+-   [`d1c43bf`](https://github.com/stdlib-js/stdlib/commit/d1c43bf928d136b64bce740e38fae1e23d482c23) - **feat:** add `blas/ext/base/ndarray/zsum` _(by Athan Reines)_
 -   [`22f1408`](https://github.com/stdlib-js/stdlib/commit/22f140863e59a9e1a2f89a6912a0c520a7fc7956) - **feat:** add `csum` to namespace _(by Athan Reines)_
 -   [`10ccb4a`](https://github.com/stdlib-js/stdlib/commit/10ccb4a44321d0caf5602042c78b49232de2b1dc) - **feat:** add `blas/ext/base/csum` _(by Athan Reines)_
 -   [`84af975`](https://github.com/stdlib-js/stdlib/commit/84af975367b6d0694ffbd0a27b7da0a0c144b4fb) - **chore:** clean-up _(by Athan Reines)_

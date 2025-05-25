@@ -90,6 +90,15 @@ setReadOnly( ns, 'scusum', require( './../../../../ext/base/ndarray/scusum' ) );
 */
 setReadOnly( ns, 'ssum', require( './../../../../ext/base/ndarray/ssum' ) );
 
+/**
+* @name zsum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zsum}
+*/
+setReadOnly( ns, 'zsum', require( './../../../../ext/base/ndarray/zsum' ) );
+
 
 // EXPORTS //
 
