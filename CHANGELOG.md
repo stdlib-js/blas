@@ -464,6 +464,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`12b992e`](https://github.com/stdlib-js/stdlib/commit/12b992eca7ac911aa20fe41aa4fffc9dec128c9d) - **test:** address failing test cases _(by Athan Reines)_
 -   [`b729264`](https://github.com/stdlib-js/stdlib/commit/b729264841b1af47c4831a8b38ebe51882017381) - **bench:** fix package path _(by Athan Reines)_
 -   [`15922b7`](https://github.com/stdlib-js/stdlib/commit/15922b7bcaaaa3eb81bc6fec90898f0bd52e66fc) - **fix:** address indexing bug _(by Athan Reines)_
 -   [`c917f58`](https://github.com/stdlib-js/stdlib/commit/c917f586cbdc1ba098e933bb731ab3ad536eefe4) - **test:** address failing test case _(by Athan Reines)_
