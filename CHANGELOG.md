@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2025-05-27)
 
 <section class="features">
 
@@ -224,6 +224,8 @@
 
 ### Bug Fixes
 
+-   [`aa52ed9`](https://github.com/stdlib-js/stdlib/commit/aa52ed96730b4835b3ef403b2abbcd7910e3e483) - update implementation to preserve signed zeros
+-   [`b0eea3a`](https://github.com/stdlib-js/stdlib/commit/b0eea3afaee1bdd3f14826bc9a92a92e68b51d17) - update implementation to preserve signed zeros
 -   [`151f3e5`](https://github.com/stdlib-js/stdlib/commit/151f3e5714bf1b13e00b72ee0c98fb65ee095ba8) - update implementation to preserve signed zeros
 -   [`71cafe3`](https://github.com/stdlib-js/stdlib/commit/71cafe3750d452180ec33524aa0d2fb19322b743) - add support for complex64 and complex128
 -   [`3014ce9`](https://github.com/stdlib-js/stdlib/commit/3014ce93b3fd6a8d7d26b7951d762f5100faffdf) - update return type
@@ -478,6 +480,9 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`aa52ed9`](https://github.com/stdlib-js/stdlib/commit/aa52ed96730b4835b3ef403b2abbcd7910e3e483) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
+-   [`3d169cb`](https://github.com/stdlib-js/stdlib/commit/3d169cb917480674de265c6212d1f4e96cd4a654) - **test:** add signed zero tests _(by Athan Reines)_
+-   [`b0eea3a`](https://github.com/stdlib-js/stdlib/commit/b0eea3afaee1bdd3f14826bc9a92a92e68b51d17) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`151f3e5`](https://github.com/stdlib-js/stdlib/commit/151f3e5714bf1b13e00b72ee0c98fb65ee095ba8) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`9bfb869`](https://github.com/stdlib-js/stdlib/commit/9bfb8691fc945a8e38c592d0e387c84aa31d8585) - **test:** add signed zero tests _(by Athan Reines)_
 -   [`f20c234`](https://github.com/stdlib-js/stdlib/commit/f20c234a4112d25281d202e8a0cf9ba223becb4c) - **docs:** update namespace table of contents [(#7092)](https://github.com/stdlib-js/stdlib/pull/7092) _(by stdlib-bot)_
