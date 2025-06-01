@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-27)
+## Unreleased (2025-06-01)
 
 <section class="features">
 
@@ -224,6 +224,7 @@
 
 ### Bug Fixes
 
+-   [`0b4a818`](https://github.com/stdlib-js/stdlib/commit/0b4a8186131a6a245fe1d893afae19c0524dbbef) - use correct dependencies in `manifest.json` of `blas/base/zscal` [(#7121)](https://github.com/stdlib-js/stdlib/pull/7121)
 -   [`aa52ed9`](https://github.com/stdlib-js/stdlib/commit/aa52ed96730b4835b3ef403b2abbcd7910e3e483) - update implementation to preserve signed zeros
 -   [`b0eea3a`](https://github.com/stdlib-js/stdlib/commit/b0eea3afaee1bdd3f14826bc9a92a92e68b51d17) - update implementation to preserve signed zeros
 -   [`151f3e5`](https://github.com/stdlib-js/stdlib/commit/151f3e5714bf1b13e00b72ee0c98fb65ee095ba8) - update implementation to preserve signed zeros
@@ -480,6 +481,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`0b4a818`](https://github.com/stdlib-js/stdlib/commit/0b4a8186131a6a245fe1d893afae19c0524dbbef) - **fix:** use correct dependencies in `manifest.json` of `blas/base/zscal` [(#7121)](https://github.com/stdlib-js/stdlib/pull/7121) _(by Shabareesh Shetty)_
 -   [`aa52ed9`](https://github.com/stdlib-js/stdlib/commit/aa52ed96730b4835b3ef403b2abbcd7910e3e483) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
 -   [`3d169cb`](https://github.com/stdlib-js/stdlib/commit/3d169cb917480674de265c6212d1f4e96cd4a654) - **test:** add signed zero tests _(by Athan Reines)_
 -   [`b0eea3a`](https://github.com/stdlib-js/stdlib/commit/b0eea3afaee1bdd3f14826bc9a92a92e68b51d17) - **fix:** update implementation to preserve signed zeros _(by Athan Reines)_
