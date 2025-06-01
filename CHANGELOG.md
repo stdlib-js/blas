@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - add `csscal` to namespace
 -   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513)
 -   [`a11b832`](https://github.com/stdlib-js/stdlib/commit/a11b832b9c10879eedf7b86dc83772d6abef7931) - add `csum` to namespace
 -   [`28b0465`](https://github.com/stdlib-js/stdlib/commit/28b046502e53a887c1eb70f712b223a60d4c7833) - add `blas/ext/base/ndarray/csum`
@@ -482,6 +483,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - **feat:** add `csscal` to namespace _(by Athan Reines)_
 -   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - **feat:** add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`842df0c`](https://github.com/stdlib-js/stdlib/commit/842df0c167d3ff3932c7ca8471c5397b4a651c76) - **refactor:** ensure float32 emulation _(by Athan Reines)_
 -   [`4d38ce8`](https://github.com/stdlib-js/stdlib/commit/4d38ce8450beef896c74e578fc03478f7e2f4a97) - **test:** update test descriptions _(by Athan Reines)_

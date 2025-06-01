@@ -82,6 +82,15 @@ setReadOnly( blas, 'cscal', require( './../../base/cscal' ) );
 setReadOnly( blas, 'csrot', require( './../../base/csrot' ) );
 
 /**
+* @name csscal
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/csscal}
+*/
+setReadOnly( blas, 'csscal', require( './../../base/csscal' ) );
+
+/**
 * @name cswap
 * @memberof blas
 * @readonly
