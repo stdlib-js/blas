@@ -481,6 +481,9 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`8082b9b`](https://github.com/stdlib-js/stdlib/commit/8082b9b709667b420e451dde8ca3684d25ecd73d) - **docs:** change variable naming in `blas/base/caxpy` [(#6796)](https://github.com/stdlib-js/stdlib/pull/6796) _(by Shabareesh Shetty, Athan Reines)_
+-   [`b1267d7`](https://github.com/stdlib-js/stdlib/commit/b1267d7dadca632cf07d2d57ffaedb0a087a2a2a) - **test:** add test cases for `blas/base/ssyr2` [(#7133)](https://github.com/stdlib-js/stdlib/pull/7133) _(by Shabareesh Shetty, Athan Reines)_
+-   [`d135424`](https://github.com/stdlib-js/stdlib/commit/d135424ecc329f4c64726d2ff57ea9ac511275f6) - **test:** add test cases for `blas/base/dsyr2` [(#7132)](https://github.com/stdlib-js/stdlib/pull/7132) _(by Shabareesh Shetty, Athan Reines)_
 -   [`b1a3710`](https://github.com/stdlib-js/stdlib/commit/b1a37102ff35dc3ecd007e2368922460473802d9) - **test:** add test cases for `blas/base/ssyr` [(#7131)](https://github.com/stdlib-js/stdlib/pull/7131) _(by Shabareesh Shetty, Athan Reines)_
 -   [`6555228`](https://github.com/stdlib-js/stdlib/commit/65552285402918e100f9562cdef24493fc43550a) - **test:** add test cases for `blas/base/dsyr` [(#7128)](https://github.com/stdlib-js/stdlib/pull/7128) _(by Shabareesh Shetty)_
 -   [`0b4a818`](https://github.com/stdlib-js/stdlib/commit/0b4a8186131a6a245fe1d893afae19c0524dbbef) - **fix:** use correct dependencies in `manifest.json` of `blas/base/zscal` [(#7121)](https://github.com/stdlib-js/stdlib/pull/7121) _(by Shabareesh Shetty)_
