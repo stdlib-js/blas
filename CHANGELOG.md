@@ -481,6 +481,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`6a08789`](https://github.com/stdlib-js/stdlib/commit/6a08789b6476be6b9e88e17242360c83da70a8cf) - **docs:** change variable naming in `blas/base/zcopy` [(#6821)](https://github.com/stdlib-js/stdlib/pull/6821) _(by Shabareesh Shetty)_
 -   [`f2f1317`](https://github.com/stdlib-js/stdlib/commit/f2f1317f36f2c931b921eac1a2f40630b588a2dd) - **docs:** change variable naming in `blas/base/ccopy` [(#6820)](https://github.com/stdlib-js/stdlib/pull/6820) _(by Shabareesh Shetty)_
 -   [`942294c`](https://github.com/stdlib-js/stdlib/commit/942294c9665952160bd142c8e2e72188a568503e) - **docs:** change variable naming in `blas/base/zaxpy` [(#6815)](https://github.com/stdlib-js/stdlib/pull/6815) _(by Shabareesh Shetty)_
 -   [`294bab1`](https://github.com/stdlib-js/stdlib/commit/294bab1d4a1be1c46251730463ed3730af48e5cc) - **docs:** change variable naming in `blas/base/cscal` [(#6881)](https://github.com/stdlib-js/stdlib/pull/6881) _(by Shabareesh Shetty, Athan Reines)_
