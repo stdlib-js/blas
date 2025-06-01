@@ -375,7 +375,7 @@ tape( 'the function supports a `y` offset', function test( t ) {
 	t.end();
 });
 
-tape( 'the function returns a reference to the destination array', function test( t ) {
+tape( 'the function returns a reference to the second input array', function test( t ) {
 	var out;
 	var x;
 	var y;
@@ -389,7 +389,7 @@ tape( 'the function returns a reference to the destination array', function test
 	t.end();
 });
 
-tape( 'if provided an `N` parameter less than or equal to `0`, the function returns both vectors unchanged', function test( t ) {
+tape( 'if provided an `N` parameter less than or equal to `0`, the function leaves both arrays unchanged', function test( t ) {
 	var viewX;
 	var viewY;
 	var xe;
