@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-02)
+## Unreleased (2025-06-03)
 
 <section class="features">
 
@@ -483,6 +483,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`9a2b61d`](https://github.com/stdlib-js/stdlib/commit/9a2b61d04186d607367371e9ef345df179516692) - **docs:** update namespace table of contents [(#7187)](https://github.com/stdlib-js/stdlib/pull/7187) _(by stdlib-bot)_
 -   [`4b2abf0`](https://github.com/stdlib-js/stdlib/commit/4b2abf00490c06b2627ae5f75968a9a4c005d166) - **docs:** change variable naming for `blas/base/dznrm2` [(#7174)](https://github.com/stdlib-js/stdlib/pull/7174) _(by Shabareesh Shetty, Athan Reines)_
 -   [`4514170`](https://github.com/stdlib-js/stdlib/commit/4514170ad8cf99fd55fc30804fd1f1d17e11ed7f) - **docs:** update namespace table of contents [(#7162)](https://github.com/stdlib-js/stdlib/pull/7162) _(by stdlib-bot)_
 -   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - **feat:** add `csscal` to namespace _(by Athan Reines)_
