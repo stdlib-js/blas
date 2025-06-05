@@ -483,6 +483,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`5c6db32`](https://github.com/stdlib-js/stdlib/commit/5c6db32796b7e3dab9871a5e3587b3f0ce5453dc) - **refactor:** rename variable in `blas/base/srotg` [(#7209)](https://github.com/stdlib-js/stdlib/pull/7209) _(by Shabareesh Shetty)_
 -   [`02183ed`](https://github.com/stdlib-js/stdlib/commit/02183ed3e98014c54c9331e6ce9797526de18122) - **refactor:** rename variable in `blas/base/saxpy` [(#7207)](https://github.com/stdlib-js/stdlib/pull/7207) _(by Shabareesh Shetty)_
 -   [`847dd6f`](https://github.com/stdlib-js/stdlib/commit/847dd6ffbfbd48ccf523e0af97201280bf0022f1) - **refactor:** rename variable in `blas/base/sdsdot` [(#7208)](https://github.com/stdlib-js/stdlib/pull/7208) _(by Shabareesh Shetty)_
 -   [`c3a2ca6`](https://github.com/stdlib-js/stdlib/commit/c3a2ca66a8adc663cc4e5ab5f6c7b1b529e895ca) - **refactor:** rename variable in `blas/base/sdot` [(#7210)](https://github.com/stdlib-js/stdlib/pull/7210) _(by Shabareesh Shetty)_
