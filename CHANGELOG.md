@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-04)
+## Unreleased (2025-06-05)
 
 <section class="features">
 
@@ -483,6 +483,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`4dd744c`](https://github.com/stdlib-js/stdlib/commit/4dd744c4f9e9b088b6ec33e7d45c4b7280c86d2d) - **refactor:** rename variable in `blas/base/scusumkbn` [(#7213)](https://github.com/stdlib-js/stdlib/pull/7213) _(by Shabareesh Shetty)_
 -   [`744337a`](https://github.com/stdlib-js/stdlib/commit/744337aaebfd4a9631f17765bce57a38c5374173) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`0723bf6`](https://github.com/stdlib-js/stdlib/commit/0723bf6fcac199cdd9c4b7384adf81be918216af) - **test:** add test cases for `blas/base/dgemv` [(#7124)](https://github.com/stdlib-js/stdlib/pull/7124) _(by Shabareesh Shetty, Athan Reines)_
 -   [`9a2b61d`](https://github.com/stdlib-js/stdlib/commit/9a2b61d04186d607367371e9ef345df179516692) - **docs:** update namespace table of contents [(#7187)](https://github.com/stdlib-js/stdlib/pull/7187) _(by stdlib-bot)_
