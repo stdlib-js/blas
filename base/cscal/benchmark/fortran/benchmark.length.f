@@ -152,7 +152,7 @@ contains
     ! ..
     call random_number( r1 )
     call random_number( r2 )
-    alpha = cmplx( (real(r1)*5.0), (real(r2)*5.0) )
+    alpha = cmplx( (real(r1)*0.5), (real(r2)*0.5) )
     do i = 1, len
       call random_number( r1 )
       call random_number( r2 )
