@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-05)
+## Unreleased (2025-06-07)
 
 <section class="features">
 
@@ -483,6 +483,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`4427c2e`](https://github.com/stdlib-js/stdlib/commit/4427c2e66d64d52d597dddf6e531d87d6c433cc5) - **test:** change structure of fixtures for `blas/base/dtrmv` [(#7190)](https://github.com/stdlib-js/stdlib/pull/7190) _(by Shabareesh Shetty)_
 -   [`5c6db32`](https://github.com/stdlib-js/stdlib/commit/5c6db32796b7e3dab9871a5e3587b3f0ce5453dc) - **refactor:** rename variable in `blas/base/srotg` [(#7209)](https://github.com/stdlib-js/stdlib/pull/7209) _(by Shabareesh Shetty)_
 -   [`02183ed`](https://github.com/stdlib-js/stdlib/commit/02183ed3e98014c54c9331e6ce9797526de18122) - **refactor:** rename variable in `blas/base/saxpy` [(#7207)](https://github.com/stdlib-js/stdlib/pull/7207) _(by Shabareesh Shetty)_
 -   [`847dd6f`](https://github.com/stdlib-js/stdlib/commit/847dd6ffbfbd48ccf523e0af97201280bf0022f1) - **refactor:** rename variable in `blas/base/sdsdot` [(#7208)](https://github.com/stdlib-js/stdlib/pull/7208) _(by Shabareesh Shetty)_
