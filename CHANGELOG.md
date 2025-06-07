@@ -483,6 +483,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`f5c3bbb`](https://github.com/stdlib-js/stdlib/commit/f5c3bbbaf92d52e8abc2a06758f815e37aee8acb) - **refactor:** rename variable in `blas/ext/base/scusumkbn2` [(#7245)](https://github.com/stdlib-js/stdlib/pull/7245) _(by Shabareesh Shetty)_
 -   [`6279e52`](https://github.com/stdlib-js/stdlib/commit/6279e527265742e1630811edb2b633f1f88b7e67) - **bench:** fix overflow _(by Athan Reines)_
 -   [`09c9ceb`](https://github.com/stdlib-js/stdlib/commit/09c9ceb58c6dd23c10f1980094851983c57d693f) - **chore:** fix formatting _(by Athan Reines)_
 -   [`51bf6f9`](https://github.com/stdlib-js/stdlib/commit/51bf6f9d2bb027aacecda87e02f957badbc246b0) - **bench:** fix formatting _(by Athan Reines)_
