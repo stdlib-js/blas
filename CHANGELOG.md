@@ -483,6 +483,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`c67ccf3`](https://github.com/stdlib-js/stdlib/commit/c67ccf3815cf568888df36136427047cb98049e9) - **test:** add test cases for `blas/base/dtrsv` [(#7165)](https://github.com/stdlib-js/stdlib/pull/7165) _(by Shabareesh Shetty)_
 -   [`a6cc0ea`](https://github.com/stdlib-js/stdlib/commit/a6cc0eaad0bc431fb2c531517697992fff2e6608) - **test:** add test cases for `blas/base/strmv` [(#7164)](https://github.com/stdlib-js/stdlib/pull/7164) _(by Shabareesh Shetty)_
 -   [`2e40ad9`](https://github.com/stdlib-js/stdlib/commit/2e40ad9683287aecc1a08663caf41967612f728c) - **docs:** change variable naming for `blas/base/scnrm2` [(#7176)](https://github.com/stdlib-js/stdlib/pull/7176) _(by Shabareesh Shetty)_
 -   [`4427c2e`](https://github.com/stdlib-js/stdlib/commit/4427c2e66d64d52d597dddf6e531d87d6c433cc5) - **test:** change structure of fixtures for `blas/base/dtrmv` [(#7190)](https://github.com/stdlib-js/stdlib/pull/7190) _(by Shabareesh Shetty)_
