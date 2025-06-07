@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244)
 -   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - add `csscal` to namespace
 -   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513)
 -   [`a11b832`](https://github.com/stdlib-js/stdlib/commit/a11b832b9c10879eedf7b86dc83772d6abef7931) - add `csum` to namespace
@@ -483,6 +484,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - **feat:** add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244) _(by Shabareesh Shetty, Athan Reines)_
 -   [`7531b27`](https://github.com/stdlib-js/stdlib/commit/7531b27b47a63c889677a4525a6791cb700a3fac) - **test:** change structure of fixtures for `blas/base/strmv` [(#7252)](https://github.com/stdlib-js/stdlib/pull/7252) _(by Shabareesh Shetty)_
 -   [`a3c291e`](https://github.com/stdlib-js/stdlib/commit/a3c291efac68f24917f22d48f46d0255a4f32d02) - **docs:** change variable naming for `blas/base/scasum` [(#7193)](https://github.com/stdlib-js/stdlib/pull/7193) _(by Shabareesh Shetty, stdlib-bot)_
 -   [`04c89d1`](https://github.com/stdlib-js/stdlib/commit/04c89d16aca5b3c1a38b8494a82fd1c4bef55139) - **test:** add test cases for `blas/base/dtrmv` [(#7163)](https://github.com/stdlib-js/stdlib/pull/7163) _(by Shabareesh Shetty)_
