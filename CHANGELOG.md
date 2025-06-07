@@ -483,6 +483,8 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`7457723`](https://github.com/stdlib-js/stdlib/commit/74577238d8a2c72ecd1011dfd54d028034c68531) - **refactor:** rename variable in `blas/ext/base/` [(#7250)](https://github.com/stdlib-js/stdlib/pull/7250) _(by Shabareesh Shetty)_
+-   [`590e884`](https://github.com/stdlib-js/stdlib/commit/590e88459645372c6068872dd38fbd25748c4638) - **refactor:** rename variable in `blas/ext/base/snansumkbn2` [(#7249)](https://github.com/stdlib-js/stdlib/pull/7249) _(by Shabareesh Shetty)_
 -   [`4413523`](https://github.com/stdlib-js/stdlib/commit/4413523ede7210d3a51731f9bb08aa8238330a25) - **refactor:** rename variable in `blas/ext/base/snansumkbn` [(#7248)](https://github.com/stdlib-js/stdlib/pull/7248) _(by Shabareesh Shetty)_
 -   [`5653a9f`](https://github.com/stdlib-js/stdlib/commit/5653a9fe8ef8ec98cdd4968708a82b847b7d3185) - **refactor:** rename variable in `blas/ext/base/snansumpw` [(#7247)](https://github.com/stdlib-js/stdlib/pull/7247) _(by Shabareesh Shetty)_
 -   [`f5c3bbb`](https://github.com/stdlib-js/stdlib/commit/f5c3bbbaf92d52e8abc2a06758f815e37aee8acb) - **refactor:** rename variable in `blas/ext/base/scusumkbn2` [(#7245)](https://github.com/stdlib-js/stdlib/pull/7245) _(by Shabareesh Shetty)_
