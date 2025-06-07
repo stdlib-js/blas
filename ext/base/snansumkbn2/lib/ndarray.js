@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var f32 = require( '@stdlib/number/float64/base/to-float32' );
+var float64ToFloat32 = require( '@stdlib/number/float64/base/to-float32' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var absf = require( '@stdlib/math/base/special/absf' );
 
@@ -71,7 +71,7 @@ function snansumkbn2( N, x, strideX, offsetX ) {
 		if ( isnanf( x[ ix ] ) ) {
 			return 0.0;
 		}
-		return f32( N * x[ ix ] );
+		return float64ToFloat32( N * x[ ix ] );
 	}
 	sum = 0.0;
 	ccs = 0.0; // second order correction term for lost low order bits
@@ -79,25 +79,25 @@ function snansumkbn2( N, x, strideX, offsetX ) {
 	for ( i = 0; i < N; i++ ) {
 		v = x[ ix ];
 		if ( isnanf( v ) === false ) {
-			t = f32( sum + v );
+			t = float64ToFloat32( sum + v );
 			if ( absf( sum ) >= absf( v ) ) {
-				c = f32( f32( sum-t ) + v );
+				c = float64ToFloat32( float64ToFloat32( sum-t ) + v );
 			} else {
-				c = f32( f32( v-t ) + sum );
+				c = float64ToFloat32( float64ToFloat32( v-t ) + sum );
 			}
 			sum = t;
-			t = f32( cs + c );
+			t = float64ToFloat32( cs + c );
 			if ( absf( cs ) >= absf( c ) ) {
-				cc = f32( f32( cs-t ) + c );
+				cc = float64ToFloat32( float64ToFloat32( cs-t ) + c );
 			} else {
-				cc = f32( f32( c-t ) + cs );
+				cc = float64ToFloat32( float64ToFloat32( c-t ) + cs );
 			}
 			cs = t;
-			ccs = f32( ccs + cc );
+			ccs = float64ToFloat32( ccs + cc );
 		}
 		ix += strideX;
 	}
-	return f32( sum + f32( cs + ccs ) );
+	return float64ToFloat32( sum + float64ToFloat32( cs + ccs ) );
 }
 
 
