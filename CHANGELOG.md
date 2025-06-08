@@ -484,6 +484,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`bcd0411`](https://github.com/stdlib-js/stdlib/commit/bcd04112308e7d7b42de2bc04599d490e429ebc8) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`8e82087`](https://github.com/stdlib-js/stdlib/commit/8e820870a43e8b649135a6f664174efc81569de6) - **docs:** update namespace table of contents [(#7261)](https://github.com/stdlib-js/stdlib/pull/7261) _(by stdlib-bot)_
 -   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - **feat:** add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244) _(by Shabareesh Shetty, Athan Reines)_
 -   [`7531b27`](https://github.com/stdlib-js/stdlib/commit/7531b27b47a63c889677a4525a6791cb700a3fac) - **test:** change structure of fixtures for `blas/base/strmv` [(#7252)](https://github.com/stdlib-js/stdlib/pull/7252) _(by Shabareesh Shetty)_
