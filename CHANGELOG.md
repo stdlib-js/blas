@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-08)
+## Unreleased (2025-06-09)
 
 <section class="features">
 
@@ -484,6 +484,7 @@ A total of 22 issues were closed in this release:
 
 <details>
 
+-   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`bcd0411`](https://github.com/stdlib-js/stdlib/commit/bcd04112308e7d7b42de2bc04599d490e429ebc8) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`8e82087`](https://github.com/stdlib-js/stdlib/commit/8e820870a43e8b649135a6f664174efc81569de6) - **docs:** update namespace table of contents [(#7261)](https://github.com/stdlib-js/stdlib/pull/7261) _(by stdlib-bot)_
 -   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - **feat:** add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244) _(by Shabareesh Shetty, Athan Reines)_
