@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-09)
+## Unreleased (2025-06-18)
 
 <section class="features">
 
@@ -484,6 +484,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`161c07f`](https://github.com/stdlib-js/stdlib/commit/161c07f799df67fe19580ad0fbf1093d39566142) - **docs:** update copy _(by Athan Reines)_
 -   [`dde0849`](https://github.com/stdlib-js/stdlib/commit/dde0849e582545d8e2a213ba1039238cdcff1ec5) - **chore:** fix C lint errors [(#7286)](https://github.com/stdlib-js/stdlib/pull/7286) _(by Pierre Forstmann, Athan Reines)_
 -   [`3565318`](https://github.com/stdlib-js/stdlib/commit/3565318e3639b3e44890ed15ccd73560d3cac14c) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`bcd0411`](https://github.com/stdlib-js/stdlib/commit/bcd04112308e7d7b42de2bc04599d490e429ebc8) - **refactor:** update paths _(by Gururaj Gurram)_
