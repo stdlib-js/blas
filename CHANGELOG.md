@@ -227,6 +227,8 @@
 
 ### Bug Fixes
 
+-   [`b2e273f`](https://github.com/stdlib-js/stdlib/commit/b2e273fd7a2c7d51b21c175f87ada0efbff82381) - add missing `create-double` dependency to `sdssum` manifest
+-   [`912f410`](https://github.com/stdlib-js/stdlib/commit/912f41098b5dbf1dc535e48259d60f9e1adbec90) - add missing `argv-strided-float64array` dependency to `dapxsum` manifest
 -   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401)
 -   [`0b4a818`](https://github.com/stdlib-js/stdlib/commit/0b4a8186131a6a245fe1d893afae19c0524dbbef) - use correct dependencies in `manifest.json` of `blas/base/zscal` [(#7121)](https://github.com/stdlib-js/stdlib/pull/7121)
 -   [`aa52ed9`](https://github.com/stdlib-js/stdlib/commit/aa52ed96730b4835b3ef403b2abbcd7910e3e483) - update implementation to preserve signed zeros
@@ -485,6 +487,8 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`b2e273f`](https://github.com/stdlib-js/stdlib/commit/b2e273fd7a2c7d51b21c175f87ada0efbff82381) - **fix:** add missing `create-double` dependency to `sdssum` manifest _(by Philipp Burckhardt)_
+-   [`912f410`](https://github.com/stdlib-js/stdlib/commit/912f41098b5dbf1dc535e48259d60f9e1adbec90) - **fix:** add missing `argv-strided-float64array` dependency to `dapxsum` manifest _(by Philipp Burckhardt)_
 -   [`1ee2330`](https://github.com/stdlib-js/stdlib/commit/1ee23306fe818017146addffcd919821e4f6e06e) - **docs:** change variable naming in `blas/base/zdscal` [(#6790)](https://github.com/stdlib-js/stdlib/pull/6790) _(by Shabareesh Shetty)_
 -   [`168de01`](https://github.com/stdlib-js/stdlib/commit/168de01f5b4706dcff0aa60b98c83c85381ddd24) - **docs:** update parameter description in `blas/base/csscal` [(#7399)](https://github.com/stdlib-js/stdlib/pull/7399) _(by Shabareesh Shetty)_
 -   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - **fix:** use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401) _(by Shabareesh Shetty)_
