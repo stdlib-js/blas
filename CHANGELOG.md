@@ -485,6 +485,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`1ee2330`](https://github.com/stdlib-js/stdlib/commit/1ee23306fe818017146addffcd919821e4f6e06e) - **docs:** change variable naming in `blas/base/zdscal` [(#6790)](https://github.com/stdlib-js/stdlib/pull/6790) _(by Shabareesh Shetty)_
 -   [`168de01`](https://github.com/stdlib-js/stdlib/commit/168de01f5b4706dcff0aa60b98c83c85381ddd24) - **docs:** update parameter description in `blas/base/csscal` [(#7399)](https://github.com/stdlib-js/stdlib/pull/7399) _(by Shabareesh Shetty)_
 -   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - **fix:** use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401) _(by Shabareesh Shetty)_
 -   [`67e3e62`](https://github.com/stdlib-js/stdlib/commit/67e3e626914282ea5dafe86d603e446fb2679890) - **docs:** update param description in `blas/base/dtrsv` [(#7384)](https://github.com/stdlib-js/stdlib/pull/7384) _(by Aayush Khanna)_
