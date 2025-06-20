@@ -487,6 +487,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
 -   [`b2e273f`](https://github.com/stdlib-js/stdlib/commit/b2e273fd7a2c7d51b21c175f87ada0efbff82381) - **fix:** add missing `create-double` dependency to `sdssum` manifest _(by Philipp Burckhardt)_
 -   [`912f410`](https://github.com/stdlib-js/stdlib/commit/912f41098b5dbf1dc535e48259d60f9e1adbec90) - **fix:** add missing `argv-strided-float64array` dependency to `dapxsum` manifest _(by Philipp Burckhardt)_
 -   [`1ee2330`](https://github.com/stdlib-js/stdlib/commit/1ee23306fe818017146addffcd919821e4f6e06e) - **docs:** change variable naming in `blas/base/zdscal` [(#6790)](https://github.com/stdlib-js/stdlib/pull/6790) _(by Shabareesh Shetty)_
