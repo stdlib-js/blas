@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-18)
+## Unreleased (2025-06-20)
 
 <section class="features">
 
@@ -227,6 +227,7 @@
 
 ### Bug Fixes
 
+-   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401)
 -   [`0b4a818`](https://github.com/stdlib-js/stdlib/commit/0b4a8186131a6a245fe1d893afae19c0524dbbef) - use correct dependencies in `manifest.json` of `blas/base/zscal` [(#7121)](https://github.com/stdlib-js/stdlib/pull/7121)
 -   [`aa52ed9`](https://github.com/stdlib-js/stdlib/commit/aa52ed96730b4835b3ef403b2abbcd7910e3e483) - update implementation to preserve signed zeros
 -   [`b0eea3a`](https://github.com/stdlib-js/stdlib/commit/b0eea3afaee1bdd3f14826bc9a92a92e68b51d17) - update implementation to preserve signed zeros
@@ -484,6 +485,8 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`168de01`](https://github.com/stdlib-js/stdlib/commit/168de01f5b4706dcff0aa60b98c83c85381ddd24) - **docs:** update parameter description in `blas/base/csscal` [(#7399)](https://github.com/stdlib-js/stdlib/pull/7399) _(by Shabareesh Shetty)_
+-   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - **fix:** use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401) _(by Shabareesh Shetty)_
 -   [`67e3e62`](https://github.com/stdlib-js/stdlib/commit/67e3e626914282ea5dafe86d603e446fb2679890) - **docs:** update param description in `blas/base/dtrsv` [(#7384)](https://github.com/stdlib-js/stdlib/pull/7384) _(by Aayush Khanna)_
 -   [`161c07f`](https://github.com/stdlib-js/stdlib/commit/161c07f799df67fe19580ad0fbf1093d39566142) - **docs:** update copy _(by Athan Reines)_
 -   [`dde0849`](https://github.com/stdlib-js/stdlib/commit/dde0849e582545d8e2a213ba1039238cdcff1ec5) - **chore:** fix C lint errors [(#7286)](https://github.com/stdlib-js/stdlib/pull/7286) _(by Pierre Forstmann, Athan Reines)_
