@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-20)
+## Unreleased (2025-06-21)
 
 <section class="features">
 
@@ -487,6 +487,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
 -   [`b2e273f`](https://github.com/stdlib-js/stdlib/commit/b2e273fd7a2c7d51b21c175f87ada0efbff82381) - **fix:** add missing `create-double` dependency to `sdssum` manifest _(by Philipp Burckhardt)_
 -   [`912f410`](https://github.com/stdlib-js/stdlib/commit/912f41098b5dbf1dc535e48259d60f9e1adbec90) - **fix:** add missing `argv-strided-float64array` dependency to `dapxsum` manifest _(by Philipp Burckhardt)_
