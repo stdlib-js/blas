@@ -490,6 +490,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`bac5dfa`](https://github.com/stdlib-js/stdlib/commit/bac5dfaf33f0d0b07988126ef565c726b56cf447) - **test:** update test expected values [(#7449)](https://github.com/stdlib-js/stdlib/pull/7449) _(by Shabareesh Shetty)_
 -   [`68d705a`](https://github.com/stdlib-js/stdlib/commit/68d705a06a2ccf8c292b85a53b091e461ff90c14) - **feat:** add `blas/base/wasm/scnrm2` [(#6791)](https://github.com/stdlib-js/stdlib/pull/6791) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`48f7e10`](https://github.com/stdlib-js/stdlib/commit/48f7e1053c1096c4dd8b50a176c6008b216a35d2) - **feat:** add `blas/ext/base/sindex-of` [(#7318)](https://github.com/stdlib-js/stdlib/pull/7318) _(by Muhammad Haris, Athan Reines)_
 -   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - **feat:** add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
