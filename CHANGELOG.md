@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-21)
+## Unreleased (2025-06-22)
 
 <section class="features">
 
 ### Features
 
+-   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287)
 -   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244)
 -   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - add `csscal` to namespace
 -   [`5e7c277`](https://github.com/stdlib-js/stdlib/commit/5e7c2775daca2981424380301394025c5893646b) - add `blas/base/csscal` [(#6513)](https://github.com/stdlib-js/stdlib/pull/6513)
@@ -487,6 +488,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - **feat:** add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
 -   [`b2e273f`](https://github.com/stdlib-js/stdlib/commit/b2e273fd7a2c7d51b21c175f87ada0efbff82381) - **fix:** add missing `create-double` dependency to `sdssum` manifest _(by Philipp Burckhardt)_
