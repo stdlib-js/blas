@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`48f7e10`](https://github.com/stdlib-js/stdlib/commit/48f7e1053c1096c4dd8b50a176c6008b216a35d2) - add `blas/ext/base/sindex-of` [(#7318)](https://github.com/stdlib-js/stdlib/pull/7318)
 -   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287)
 -   [`cb8489a`](https://github.com/stdlib-js/stdlib/commit/cb8489a1e33cc21eba3dd883e6ada2b2e2ce82db) - add support for accessor arrays `blas/base/gaxpy` [(#7244)](https://github.com/stdlib-js/stdlib/pull/7244)
 -   [`d74a508`](https://github.com/stdlib-js/stdlib/commit/d74a5082a8ffcb0a7c1e8be569f5e6f03b34af49) - add `csscal` to namespace
@@ -488,6 +489,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`48f7e10`](https://github.com/stdlib-js/stdlib/commit/48f7e1053c1096c4dd8b50a176c6008b216a35d2) - **feat:** add `blas/ext/base/sindex-of` [(#7318)](https://github.com/stdlib-js/stdlib/pull/7318) _(by Muhammad Haris, Athan Reines)_
 -   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - **feat:** add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`3f4be91`](https://github.com/stdlib-js/stdlib/commit/3f4be91fd9025e696b72b5159fee981f47937c7f) - **docs:** update namespace table of contents [(#7433)](https://github.com/stdlib-js/stdlib/pull/7433) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`5d83a20`](https://github.com/stdlib-js/stdlib/commit/5d83a20bab1fd787ba28f19cb13c20d395398b43) - **style:** remove double empty lines in C files _(by Philipp Burckhardt)_
