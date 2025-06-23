@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-22)
+## Unreleased (2025-06-23)
 
 <section class="features">
 
@@ -230,6 +230,7 @@
 
 ### Bug Fixes
 
+-   [`3f259f1`](https://github.com/stdlib-js/stdlib/commit/3f259f14f7cab0ea9cc1841df478f49120857040) - use correct data type of `searchElement` in C implementation [(#7463)](https://github.com/stdlib-js/stdlib/pull/7463)
 -   [`b2e273f`](https://github.com/stdlib-js/stdlib/commit/b2e273fd7a2c7d51b21c175f87ada0efbff82381) - add missing `create-double` dependency to `sdssum` manifest
 -   [`912f410`](https://github.com/stdlib-js/stdlib/commit/912f41098b5dbf1dc535e48259d60f9e1adbec90) - add missing `argv-strided-float64array` dependency to `dapxsum` manifest
 -   [`18e08fc`](https://github.com/stdlib-js/stdlib/commit/18e08fc9d34c34bdc23e4ebd305d3ec5d034ef51) - use appropriate variable in error message [(#7401)](https://github.com/stdlib-js/stdlib/pull/7401)
@@ -490,6 +491,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`3f259f1`](https://github.com/stdlib-js/stdlib/commit/3f259f14f7cab0ea9cc1841df478f49120857040) - **fix:** use correct data type of `searchElement` in C implementation [(#7463)](https://github.com/stdlib-js/stdlib/pull/7463) _(by Muhammad Haris)_
 -   [`bac5dfa`](https://github.com/stdlib-js/stdlib/commit/bac5dfaf33f0d0b07988126ef565c726b56cf447) - **test:** update test expected values [(#7449)](https://github.com/stdlib-js/stdlib/pull/7449) _(by Shabareesh Shetty)_
 -   [`68d705a`](https://github.com/stdlib-js/stdlib/commit/68d705a06a2ccf8c292b85a53b091e461ff90c14) - **feat:** add `blas/base/wasm/scnrm2` [(#6791)](https://github.com/stdlib-js/stdlib/pull/6791) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`48f7e10`](https://github.com/stdlib-js/stdlib/commit/48f7e1053c1096c4dd8b50a176c6008b216a35d2) - **feat:** add `blas/ext/base/sindex-of` [(#7318)](https://github.com/stdlib-js/stdlib/pull/7318) _(by Muhammad Haris, Athan Reines)_
