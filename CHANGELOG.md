@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-23)
+## Unreleased (2025-06-24)
 
 <section class="features">
 
@@ -230,6 +230,9 @@
 
 ### Bug Fixes
 
+-   [`e995ce7`](https://github.com/stdlib-js/stdlib/commit/e995ce7c82cbe834b8e330968a08810e5b959282) - ensure accessor array support
+-   [`f6e1c78`](https://github.com/stdlib-js/stdlib/commit/f6e1c7823e871a259642c49f1e6b40bd7bb73f4b) - ensure accessor array support
+-   [`fc03354`](https://github.com/stdlib-js/stdlib/commit/fc0335492cf50370e574ce2bfea6ac310d0f2e5d) - ensure accessor array support
 -   [`3f259f1`](https://github.com/stdlib-js/stdlib/commit/3f259f14f7cab0ea9cc1841df478f49120857040) - use correct data type of `searchElement` in C implementation [(#7463)](https://github.com/stdlib-js/stdlib/pull/7463)
 -   [`b2e273f`](https://github.com/stdlib-js/stdlib/commit/b2e273fd7a2c7d51b21c175f87ada0efbff82381) - add missing `create-double` dependency to `sdssum` manifest
 -   [`912f410`](https://github.com/stdlib-js/stdlib/commit/912f41098b5dbf1dc535e48259d60f9e1adbec90) - add missing `argv-strided-float64array` dependency to `dapxsum` manifest
@@ -491,6 +494,9 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`e995ce7`](https://github.com/stdlib-js/stdlib/commit/e995ce7c82cbe834b8e330968a08810e5b959282) - **fix:** ensure accessor array support _(by Athan Reines)_
+-   [`f6e1c78`](https://github.com/stdlib-js/stdlib/commit/f6e1c7823e871a259642c49f1e6b40bd7bb73f4b) - **fix:** ensure accessor array support _(by Athan Reines)_
+-   [`fc03354`](https://github.com/stdlib-js/stdlib/commit/fc0335492cf50370e574ce2bfea6ac310d0f2e5d) - **fix:** ensure accessor array support _(by Athan Reines)_
 -   [`fe87ef3`](https://github.com/stdlib-js/stdlib/commit/fe87ef3f1d320867b195765cd1aec7800270e33e) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`3f259f1`](https://github.com/stdlib-js/stdlib/commit/3f259f14f7cab0ea9cc1841df478f49120857040) - **fix:** use correct data type of `searchElement` in C implementation [(#7463)](https://github.com/stdlib-js/stdlib/pull/7463) _(by Muhammad Haris)_
 -   [`bac5dfa`](https://github.com/stdlib-js/stdlib/commit/bac5dfaf33f0d0b07988126ef565c726b56cf447) - **test:** update test expected values [(#7449)](https://github.com/stdlib-js/stdlib/pull/7449) _(by Shabareesh Shetty)_
