@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ecac5aa`](https://github.com/stdlib-js/stdlib/commit/ecac5aa8d2cc807cc10884fcf4c5df06e88012b3) - add `blas/ext/base/dindex-of` [(#7465)](https://github.com/stdlib-js/stdlib/pull/7465)
 -   [`68d705a`](https://github.com/stdlib-js/stdlib/commit/68d705a06a2ccf8c292b85a53b091e461ff90c14) - add `blas/base/wasm/scnrm2` [(#6791)](https://github.com/stdlib-js/stdlib/pull/6791)
 -   [`48f7e10`](https://github.com/stdlib-js/stdlib/commit/48f7e1053c1096c4dd8b50a176c6008b216a35d2) - add `blas/ext/base/sindex-of` [(#7318)](https://github.com/stdlib-js/stdlib/pull/7318)
 -   [`e7e1a3a`](https://github.com/stdlib-js/stdlib/commit/e7e1a3a6f2e5499e77c8cf7821614e4ad1838129) - add `blas/base/igamax` [(#7287)](https://github.com/stdlib-js/stdlib/pull/7287)
@@ -494,6 +495,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`ecac5aa`](https://github.com/stdlib-js/stdlib/commit/ecac5aa8d2cc807cc10884fcf4c5df06e88012b3) - **feat:** add `blas/ext/base/dindex-of` [(#7465)](https://github.com/stdlib-js/stdlib/pull/7465) _(by Muhammad Haris, Athan Reines)_
 -   [`e762ecf`](https://github.com/stdlib-js/stdlib/commit/e762ecf510ff53385304a1e062d23eb9fda90d01) - **docs:** fix signatures _(by Athan Reines)_
 -   [`e995ce7`](https://github.com/stdlib-js/stdlib/commit/e995ce7c82cbe834b8e330968a08810e5b959282) - **fix:** ensure accessor array support _(by Athan Reines)_
 -   [`f6e1c78`](https://github.com/stdlib-js/stdlib/commit/f6e1c7823e871a259642c49f1e6b40bd7bb73f4b) - **fix:** ensure accessor array support _(by Athan Reines)_
