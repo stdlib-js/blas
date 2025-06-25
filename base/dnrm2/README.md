@@ -214,7 +214,7 @@ Computes the L2-norm of a double-precision floating-point vector using alternati
 ```c
 const double x[] = { 1.0, -2.0, 2.0 };
 
-double v = c_dnrm2( 3, x, -1, 2 );
+double v = c_dnrm2_ndarray( 3, x, -1, 2 );
 // returns 3.0
 ```
 

@@ -496,6 +496,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`1321911`](https://github.com/stdlib-js/stdlib/commit/1321911685e6ad3b66de365a1d314324d2838344) - **feat:** add `blas/base/wasm/scasum` [(#6285)](https://github.com/stdlib-js/stdlib/pull/6285) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`ecac5aa`](https://github.com/stdlib-js/stdlib/commit/ecac5aa8d2cc807cc10884fcf4c5df06e88012b3) - **feat:** add `blas/ext/base/dindex-of` [(#7465)](https://github.com/stdlib-js/stdlib/pull/7465) _(by Muhammad Haris, Athan Reines)_
 -   [`e762ecf`](https://github.com/stdlib-js/stdlib/commit/e762ecf510ff53385304a1e062d23eb9fda90d01) - **docs:** fix signatures _(by Athan Reines)_

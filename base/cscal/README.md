@@ -225,7 +225,7 @@ Scales values from `X` by `alpha` using alternative indexing semantics.
 float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
 const stdlib_complex64_t alpha = stdlib_complex64( 2.0f, 2.0f );
 
-c_cscal( 4, alpha, (void *)x, 1, 0 );
+c_cscal_ndarray( 4, alpha, (void *)x, 1, 0 );
 ```
 
 The function accepts the following arguments:
