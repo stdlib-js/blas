@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1321911`](https://github.com/stdlib-js/stdlib/commit/1321911685e6ad3b66de365a1d314324d2838344) - add `blas/base/wasm/scasum` [(#6285)](https://github.com/stdlib-js/stdlib/pull/6285)
 -   [`ecac5aa`](https://github.com/stdlib-js/stdlib/commit/ecac5aa8d2cc807cc10884fcf4c5df06e88012b3) - add `blas/ext/base/dindex-of` [(#7465)](https://github.com/stdlib-js/stdlib/pull/7465)
 -   [`68d705a`](https://github.com/stdlib-js/stdlib/commit/68d705a06a2ccf8c292b85a53b091e461ff90c14) - add `blas/base/wasm/scnrm2` [(#6791)](https://github.com/stdlib-js/stdlib/pull/6791)
 -   [`48f7e10`](https://github.com/stdlib-js/stdlib/commit/48f7e1053c1096c4dd8b50a176c6008b216a35d2) - add `blas/ext/base/sindex-of` [(#7318)](https://github.com/stdlib-js/stdlib/pull/7318)
@@ -495,6 +496,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`1321911`](https://github.com/stdlib-js/stdlib/commit/1321911685e6ad3b66de365a1d314324d2838344) - **feat:** add `blas/base/wasm/scasum` [(#6285)](https://github.com/stdlib-js/stdlib/pull/6285) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`ecac5aa`](https://github.com/stdlib-js/stdlib/commit/ecac5aa8d2cc807cc10884fcf4c5df06e88012b3) - **feat:** add `blas/ext/base/dindex-of` [(#7465)](https://github.com/stdlib-js/stdlib/pull/7465) _(by Muhammad Haris, Athan Reines)_
 -   [`e762ecf`](https://github.com/stdlib-js/stdlib/commit/e762ecf510ff53385304a1e062d23eb9fda90d01) - **docs:** fix signatures _(by Athan Reines)_
 -   [`e995ce7`](https://github.com/stdlib-js/stdlib/commit/e995ce7c82cbe834b8e330968a08810e5b959282) - **fix:** ensure accessor array support _(by Athan Reines)_
