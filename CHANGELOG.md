@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-24)
+## Unreleased (2025-06-25)
 
 <section class="features">
 
@@ -494,6 +494,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`e762ecf`](https://github.com/stdlib-js/stdlib/commit/e762ecf510ff53385304a1e062d23eb9fda90d01) - **docs:** fix signatures _(by Athan Reines)_
 -   [`e995ce7`](https://github.com/stdlib-js/stdlib/commit/e995ce7c82cbe834b8e330968a08810e5b959282) - **fix:** ensure accessor array support _(by Athan Reines)_
 -   [`f6e1c78`](https://github.com/stdlib-js/stdlib/commit/f6e1c7823e871a259642c49f1e6b40bd7bb73f4b) - **fix:** ensure accessor array support _(by Athan Reines)_
 -   [`fc03354`](https://github.com/stdlib-js/stdlib/commit/fc0335492cf50370e574ce2bfea6ac310d0f2e5d) - **fix:** ensure accessor array support _(by Athan Reines)_
