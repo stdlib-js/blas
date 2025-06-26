@@ -497,6 +497,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`992d491`](https://github.com/stdlib-js/stdlib/commit/992d491518fcbdc4f61570f3289bfafc8835eecd) - **test:** address failing tests due to upstream refactoring _(by Athan Reines)_
 -   [`231adcc`](https://github.com/stdlib-js/stdlib/commit/231adcca7fe97378ed76193faba8ccf41123ad83) - **feat:** add JavaScript implementation and clean-up `blas/base/dger` [(#6395)](https://github.com/stdlib-js/stdlib/pull/6395) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`1321911`](https://github.com/stdlib-js/stdlib/commit/1321911685e6ad3b66de365a1d314324d2838344) - **feat:** add `blas/base/wasm/scasum` [(#6285)](https://github.com/stdlib-js/stdlib/pull/6285) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
