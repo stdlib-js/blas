@@ -497,6 +497,9 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`85a9c18`](https://github.com/stdlib-js/stdlib/commit/85a9c18a4a4edcf9ccfc590137ecc76812e86204) - **chore:** disable lint rule _(by Philipp Burckhardt)_
+-   [`4dba421`](https://github.com/stdlib-js/stdlib/commit/4dba421f5bd8acafdd58e1c7681965b9ad267bc7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
+-   [`69ad0f3`](https://github.com/stdlib-js/stdlib/commit/69ad0f330677990bab1fe157e167998d94a58eea) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`992d491`](https://github.com/stdlib-js/stdlib/commit/992d491518fcbdc4f61570f3289bfafc8835eecd) - **test:** address failing tests due to upstream refactoring _(by Athan Reines)_
 -   [`231adcc`](https://github.com/stdlib-js/stdlib/commit/231adcca7fe97378ed76193faba8ccf41123ad83) - **feat:** add JavaScript implementation and clean-up `blas/base/dger` [(#6395)](https://github.com/stdlib-js/stdlib/pull/6395) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`7c9afed`](https://github.com/stdlib-js/stdlib/commit/7c9afed6a288c9e7d3048dfa0ac8f085759d73f4) - **chore:** minor clean-up _(by Philipp Burckhardt)_
