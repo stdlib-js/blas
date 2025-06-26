@@ -497,6 +497,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`c221279`](https://github.com/stdlib-js/stdlib/commit/c2212790b0118b7787b5e292244b4364c08ea05a) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`85a9c18`](https://github.com/stdlib-js/stdlib/commit/85a9c18a4a4edcf9ccfc590137ecc76812e86204) - **chore:** disable lint rule _(by Philipp Burckhardt)_
 -   [`4dba421`](https://github.com/stdlib-js/stdlib/commit/4dba421f5bd8acafdd58e1c7681965b9ad267bc7) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`69ad0f3`](https://github.com/stdlib-js/stdlib/commit/69ad0f330677990bab1fe157e167998d94a58eea) - **docs:** minor clean-up _(by Philipp Burckhardt)_
