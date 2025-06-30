@@ -501,6 +501,9 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`9452043`](https://github.com/stdlib-js/stdlib/commit/945204344168a2cc6c9d2aa29b483c35fbe933a1) - **test:** account for N * alpha in test case _(by Philipp Burckhardt)_
+-   [`01d345a`](https://github.com/stdlib-js/stdlib/commit/01d345a6335bc1fdfeb42c0c2888378fd332e6be) - **test:** pass in missing opts for native tests _(by Philipp Burckhardt)_
+-   [`80d95e6`](https://github.com/stdlib-js/stdlib/commit/80d95e66ee80a2e03c81f11844e0d54bd79029fc) - **test:** pass in missing opts for native tests _(by Philipp Burckhardt)_
 -   [`97e8058`](https://github.com/stdlib-js/stdlib/commit/97e8058cf6d707a5451cc5528e8c0814f138543f) - **feat:** add `blas/ext/base/gindex-of` [(#7493)](https://github.com/stdlib-js/stdlib/pull/7493) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`ea875d6`](https://github.com/stdlib-js/stdlib/commit/ea875d60ea897e1d599634ce69eabd740275dda4) - **feat:** add C implementation for `blas/base/dgemv` [(#7013)](https://github.com/stdlib-js/stdlib/pull/7013) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`f27e62f`](https://github.com/stdlib-js/stdlib/commit/f27e62f31b16eb5c92f5c0af88b00b6d5124b9f6) - **fix:** provide correct number of arguments _(by Athan Reines)_
