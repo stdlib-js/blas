@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-26)
+## Unreleased (2025-06-30)
 
 <section class="features">
 
 ### Features
 
+-   [`97e8058`](https://github.com/stdlib-js/stdlib/commit/97e8058cf6d707a5451cc5528e8c0814f138543f) - add `blas/ext/base/gindex-of` [(#7493)](https://github.com/stdlib-js/stdlib/pull/7493)
+-   [`ea875d6`](https://github.com/stdlib-js/stdlib/commit/ea875d60ea897e1d599634ce69eabd740275dda4) - add C implementation for `blas/base/dgemv` [(#7013)](https://github.com/stdlib-js/stdlib/pull/7013)
 -   [`231adcc`](https://github.com/stdlib-js/stdlib/commit/231adcca7fe97378ed76193faba8ccf41123ad83) - add JavaScript implementation and clean-up `blas/base/dger` [(#6395)](https://github.com/stdlib-js/stdlib/pull/6395)
 -   [`1321911`](https://github.com/stdlib-js/stdlib/commit/1321911685e6ad3b66de365a1d314324d2838344) - add `blas/base/wasm/scasum` [(#6285)](https://github.com/stdlib-js/stdlib/pull/6285)
 -   [`ecac5aa`](https://github.com/stdlib-js/stdlib/commit/ecac5aa8d2cc807cc10884fcf4c5df06e88012b3) - add `blas/ext/base/dindex-of` [(#7465)](https://github.com/stdlib-js/stdlib/pull/7465)
@@ -233,6 +235,8 @@
 
 ### Bug Fixes
 
+-   [`f27e62f`](https://github.com/stdlib-js/stdlib/commit/f27e62f31b16eb5c92f5c0af88b00b6d5124b9f6) - provide correct number of arguments
+-   [`6688495`](https://github.com/stdlib-js/stdlib/commit/6688495296d51628b4a85466de99b5a5347cff94) - provide correct number of arguments
 -   [`e995ce7`](https://github.com/stdlib-js/stdlib/commit/e995ce7c82cbe834b8e330968a08810e5b959282) - ensure accessor array support
 -   [`f6e1c78`](https://github.com/stdlib-js/stdlib/commit/f6e1c7823e871a259642c49f1e6b40bd7bb73f4b) - ensure accessor array support
 -   [`fc03354`](https://github.com/stdlib-js/stdlib/commit/fc0335492cf50370e574ce2bfea6ac310d0f2e5d) - ensure accessor array support
@@ -497,6 +501,10 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`97e8058`](https://github.com/stdlib-js/stdlib/commit/97e8058cf6d707a5451cc5528e8c0814f138543f) - **feat:** add `blas/ext/base/gindex-of` [(#7493)](https://github.com/stdlib-js/stdlib/pull/7493) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
+-   [`ea875d6`](https://github.com/stdlib-js/stdlib/commit/ea875d60ea897e1d599634ce69eabd740275dda4) - **feat:** add C implementation for `blas/base/dgemv` [(#7013)](https://github.com/stdlib-js/stdlib/pull/7013) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`f27e62f`](https://github.com/stdlib-js/stdlib/commit/f27e62f31b16eb5c92f5c0af88b00b6d5124b9f6) - **fix:** provide correct number of arguments _(by Athan Reines)_
+-   [`6688495`](https://github.com/stdlib-js/stdlib/commit/6688495296d51628b4a85466de99b5a5347cff94) - **fix:** provide correct number of arguments _(by Athan Reines)_
 -   [`46ff8ea`](https://github.com/stdlib-js/stdlib/commit/46ff8ea7761ae438c4718681c5890f146fb0985e) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`721033e`](https://github.com/stdlib-js/stdlib/commit/721033eede9b3a4667728f40695d933f49f541c1) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`c221279`](https://github.com/stdlib-js/stdlib/commit/c2212790b0118b7787b5e292244b4364c08ea05a) - **docs:** minor clean-up _(by Philipp Burckhardt)_

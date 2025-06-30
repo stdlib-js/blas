@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,19 +21,11 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var uniform = require( '@stdlib/random/array/uniform' );
-var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
-var floor = require( '@stdlib/math/base/special/floor' );
+var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
+var oneTo = require( '@stdlib/array/one-to' );
 var pkg = require( './../package.json' ).name;
-var dgemv = require( './../lib/ndarray.js' );
-
-
-// VARIABLES //
-
-var options = {
-	'dtype': 'float64'
-};
+var gindexOf = require( './../lib/ndarray.js' );
 
 
 // FUNCTIONS //
@@ -42,13 +34,11 @@ var options = {
 * Creates a benchmark function.
 *
 * @private
-* @param {PositiveInteger} N - array length
+* @param {PositiveInteger} len - array length
 * @returns {Function} benchmark function
 */
-function createBenchmark( N ) {
-	var x = uniform( N, -10.0, 10.0, options );
-	var y = uniform( N, -10.0, 10.0, options );
-	var A = uniform( N*N, -10.0, 10.0, options );
+function createBenchmark( len ) {
+	var x = oneTo( len, 'float64' );
 	return benchmark;
 
 	/**
@@ -58,19 +48,19 @@ function createBenchmark( N ) {
 	* @param {Benchmark} b - benchmark instance
 	*/
 	function benchmark( b ) {
-		var z;
+		var out;
 		var i;
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			z = dgemv( 'no-transpose', N, N, 1.0, A, N, 1, 0, x, 1, 0, 1.0, y, 1, 0 );
-			if ( isnan( z[ i%z.length ] ) ) {
-				b.fail( 'should not return NaN' );
+			out = gindexOf( x.length, len+1, x, 1, 0 );
+			if ( out !== out ) {
+				b.fail( 'should return an integer' );
 			}
 		}
 		b.toc();
-		if ( isnan( z[ i%z.length ] ) ) {
-			b.fail( 'should not return NaN' );
+		if ( !isInteger( out ) ) {
+			b.fail( 'should return an integer' );
 		}
 		b.pass( 'benchmark finished' );
 		b.end();
@@ -86,9 +76,9 @@ function createBenchmark( N ) {
 * @private
 */
 function main() {
+	var len;
 	var min;
 	var max;
-	var N;
 	var f;
 	var i;
 
@@ -96,9 +86,10 @@ function main() {
 	max = 6; // 10^max
 
 	for ( i = min; i <= max; i++ ) {
-		N = floor( pow( pow( 10, i ), 1.0/2.0 ) );
-		f = createBenchmark( N );
-		bench( pkg+':ndarray:size='+(N*N), f );
+		len = pow( 10, i );
+
+		f = createBenchmark( len );
+		bench( pkg+':ndarray:len='+len, f );
 	}
 }
 

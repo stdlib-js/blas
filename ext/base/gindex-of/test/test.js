@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,22 +18,21 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var dgemv = require( './../lib' );
+// MODULES //
 
-var opts = {
-	'dtype': 'float64'
-};
+var tape = require( 'tape' );
+var gindexOf = require( './../lib' );
 
-var M = 3;
-var N = 3;
 
-var A = discreteUniform( M*N, 0, 255, opts );
-var x = discreteUniform( N, 0, 255, opts );
-var y = discreteUniform( M, 0, 255, opts );
+// TESTS //
 
-dgemv( 'row-major', 'no-transpose', M, N, 1.0, A, N, x, 1, 1.0, y, 1 );
-console.log( y );
+tape( 'main export is a function', function test( t ) {
+	t.ok( true, __filename );
+	t.strictEqual( typeof gindexOf, 'function', 'main export is a function' );
+	t.end();
+});
 
-dgemv.ndarray( 'no-transpose', M, N, 1.0, A, N, 1, 0, x, 1, 0, 1.0, y, 1, 0 );
-console.log( y );
+tape( 'attached to the main export is a method providing an ndarray interface', function test( t ) {
+	t.strictEqual( typeof gindexOf.ndarray, 'function', 'method is a function' );
+	t.end();
+});

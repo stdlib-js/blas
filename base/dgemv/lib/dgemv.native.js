@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -23,10 +23,11 @@
 var isLayout = require( './../../../base/assert/is-layout' );
 var isMatrixTranspose = require( './../../../base/assert/is-transpose-operation' );
 var isColumnMajor = require( '@stdlib/ndarray/base/assert/is-column-major-string' );
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
 var max = require( '@stdlib/math/base/special/fast/max' );
+var resolveOrder = require( './../../../base/layout-resolve-enum' );
+var resolveTrans = require( './../../../base/transpose-operation-resolve-enum' );
 var format = require( '@stdlib/string/format' );
-var base = require( './base.js' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -66,15 +67,7 @@ var base = require( './base.js' );
 * // y => <Float64Array>[ 7.0, 16.0 ]
 */
 function dgemv( order, trans, M, N, alpha, A, LDA, x, strideX, beta, y, strideY ) { // eslint-disable-line max-params, max-len
-	var iscm;
 	var vala;
-	var xlen;
-	var ylen;
-	var sa1;
-	var sa2;
-	var ox;
-	var oy;
-
 	if ( !isLayout( order ) ) {
 		throw new TypeError( format( 'invalid argument. First argument must be a valid order. Value: `%s`.', order ) );
 	}
@@ -87,8 +80,13 @@ function dgemv( order, trans, M, N, alpha, A, LDA, x, strideX, beta, y, strideY 
 	if ( N < 0 ) {
 		throw new RangeError( format( 'invalid argument. Fourth argument must be a nonnegative integer. Value: `%d`.', N ) );
 	}
-	iscm = isColumnMajor( order );
-	if ( iscm ) {
+	if ( strideX === 0 ) {
+		throw new RangeError( format( 'invalid argument. Ninth argument must be non-zero. Value: `%d`.', strideX ) );
+	}
+	if ( strideY === 0 ) {
+		throw new RangeError( format( 'invalid argument. Twelfth argument must be non-zero. Value: `%d`.', strideY ) );
+	}
+	if ( isColumnMajor( order ) ) {
 		vala = M;
 	} else {
 		vala = N;
@@ -96,33 +94,12 @@ function dgemv( order, trans, M, N, alpha, A, LDA, x, strideX, beta, y, strideY 
 	if ( LDA < max( 1, vala ) ) {
 		throw new RangeError( format( 'invalid argument. Seventh argument must be greater than or equal to max(1,%d). Value: `%d`.', vala, LDA ) );
 	}
-	if ( strideX === 0 ) {
-		throw new RangeError( format( 'invalid argument. Ninth argument must be non-zero. Value: `%d`.', strideX ) );
-	}
-	if ( strideY === 0 ) {
-		throw new RangeError( format( 'invalid argument. Twelfth argument must be non-zero. Value: `%d`.', strideY ) );
-	}
 	// Check if we can early return...
 	if ( M === 0 || N === 0 || ( alpha === 0.0 && beta === 1.0 ) ) {
 		return y;
 	}
-	if ( trans === 'no-transpose' ) {
-		xlen = N;
-		ylen = M;
-	} else {
-		xlen = M;
-		ylen = N;
-	}
-	ox = stride2offset( xlen, strideX );
-	oy = stride2offset( ylen, strideY );
-	if ( iscm ) {
-		sa1 = 1;
-		sa2 = LDA;
-	} else { // order === 'row-major'
-		sa1 = LDA;
-		sa2 = 1;
-	}
-	return base( trans, M, N, alpha, A, sa1, sa2, 0, x, strideX, ox, beta, y, strideY, oy ); // eslint-disable-line max-len
+	addon( resolveOrder( order ), resolveTrans( trans ), M, N, alpha, A, LDA, x, strideX, beta, y, strideY ); // eslint-disable-line max-len
+	return y;
 }
 
 
