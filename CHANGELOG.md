@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-30)
+## Unreleased (2025-07-01)
 
 <section class="features">
 
 ### Features
 
+-   [`0935821`](https://github.com/stdlib-js/stdlib/commit/093582109c03a692eb83fc0c2f661cbebe2e28b1) - add `blas/ext/base/ndarray/sindex-of` [(#7529)](https://github.com/stdlib-js/stdlib/pull/7529)
 -   [`97e8058`](https://github.com/stdlib-js/stdlib/commit/97e8058cf6d707a5451cc5528e8c0814f138543f) - add `blas/ext/base/gindex-of` [(#7493)](https://github.com/stdlib-js/stdlib/pull/7493)
 -   [`ea875d6`](https://github.com/stdlib-js/stdlib/commit/ea875d60ea897e1d599634ce69eabd740275dda4) - add C implementation for `blas/base/dgemv` [(#7013)](https://github.com/stdlib-js/stdlib/pull/7013)
 -   [`231adcc`](https://github.com/stdlib-js/stdlib/commit/231adcca7fe97378ed76193faba8ccf41123ad83) - add JavaScript implementation and clean-up `blas/base/dger` [(#6395)](https://github.com/stdlib-js/stdlib/pull/6395)
@@ -501,6 +502,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`0935821`](https://github.com/stdlib-js/stdlib/commit/093582109c03a692eb83fc0c2f661cbebe2e28b1) - **feat:** add `blas/ext/base/ndarray/sindex-of` [(#7529)](https://github.com/stdlib-js/stdlib/pull/7529) _(by Muhammad Haris, Athan Reines)_
 -   [`8e907f0`](https://github.com/stdlib-js/stdlib/commit/8e907f03fee0f39eb4eff0e078dec5a13cce0073) - **test:** account for N * alpha in test case _(by Philipp Burckhardt)_
 -   [`d64fbb8`](https://github.com/stdlib-js/stdlib/commit/d64fbb8c4e6c4d9b15ae11a153844903bef76115) - **test:** account for N * alpha in test case _(by Philipp Burckhardt)_
 -   [`9452043`](https://github.com/stdlib-js/stdlib/commit/945204344168a2cc6c9d2aa29b483c35fbe933a1) - **test:** account for N * alpha in test case _(by Philipp Burckhardt)_
