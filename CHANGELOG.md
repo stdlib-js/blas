@@ -502,6 +502,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`53cb5ce`](https://github.com/stdlib-js/stdlib/commit/53cb5cec01d65b42bccee658c7ed3bd1d6b7c441) - **docs:** fix data type [(#7536)](https://github.com/stdlib-js/stdlib/pull/7536) _(by Shabareesh Shetty)_
 -   [`0935821`](https://github.com/stdlib-js/stdlib/commit/093582109c03a692eb83fc0c2f661cbebe2e28b1) - **feat:** add `blas/ext/base/ndarray/sindex-of` [(#7529)](https://github.com/stdlib-js/stdlib/pull/7529) _(by Muhammad Haris, Athan Reines)_
 -   [`8e907f0`](https://github.com/stdlib-js/stdlib/commit/8e907f03fee0f39eb4eff0e078dec5a13cce0073) - **test:** account for N * alpha in test case _(by Philipp Burckhardt)_
 -   [`d64fbb8`](https://github.com/stdlib-js/stdlib/commit/d64fbb8c4e6c4d9b15ae11a153844903bef76115) - **test:** account for N * alpha in test case _(by Philipp Burckhardt)_
