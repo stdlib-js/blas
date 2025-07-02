@@ -208,7 +208,7 @@ console.log(A);
 
 #### c_dger( layout, M, N, alpha, \*X, strideX, \*Y, strideY, \*A, LDA )
 
-Performs the rank 1 operation `A = alpha*x*y^T + A`, where `alpha` is a scalar, `x` is an `M` element vector, `y` is an `N` element vector, and `A` is an `M`-by-`N` matrix.
+Performs the rank 1 operation `A = alpha*x*y^T + A`, where `alpha` is a scalar, `X` is an `M` element vector, `Y` is an `N` element vector, and `A` is an `M`-by-`N` matrix.
 
 ```c
 #include "stdlib/blas/base/shared.h"
@@ -244,7 +244,7 @@ void c_dger( const CBLAS_LAYOUT layout, const CBLAS_INT M, const CBLAS_INT N, co
 
 #### c_dger_ndarray( M, N, alpha, \*X, sx, ox, \*Y, sy, oy, \*A, sa1, sa2, oa )
 
-Performs the rank 1 operation `A = alpha*x*y^T + A`, using alternative indexing semantics and where `alpha` is a scalar, `x` is an `M` element vector, `y` is an `N` element vector, and `A` is an `M`-by-`N` matrix.
+Performs the rank 1 operation `A = alpha*x*y^T + A`, using alternative indexing semantics and where `alpha` is a scalar, `X` is an `M` element vector, `Y` is an `N` element vector, and `A` is an `M`-by-`N` matrix.
 
 ```c
 #include "stdlib/blas/base/shared.h"
