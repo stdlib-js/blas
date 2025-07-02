@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-01)
+## Unreleased (2025-07-02)
 
 <section class="features">
 
 ### Features
 
+-   [`d766607`](https://github.com/stdlib-js/stdlib/commit/d766607664c4c1cc78a88285eec5ec89918249a2) - add `blas/ext/base/ndarray/gindex-of` [(#7541)](https://github.com/stdlib-js/stdlib/pull/7541)
 -   [`e588c9a`](https://github.com/stdlib-js/stdlib/commit/e588c9ad63a7b8a5d5c1f3c246a24aac438ac158) - add `blas/ext/base/ndarray/dindex-of` [(#7539)](https://github.com/stdlib-js/stdlib/pull/7539)
 -   [`0935821`](https://github.com/stdlib-js/stdlib/commit/093582109c03a692eb83fc0c2f661cbebe2e28b1) - add `blas/ext/base/ndarray/sindex-of` [(#7529)](https://github.com/stdlib-js/stdlib/pull/7529)
 -   [`97e8058`](https://github.com/stdlib-js/stdlib/commit/97e8058cf6d707a5451cc5528e8c0814f138543f) - add `blas/ext/base/gindex-of` [(#7493)](https://github.com/stdlib-js/stdlib/pull/7493)
@@ -504,6 +505,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`d766607`](https://github.com/stdlib-js/stdlib/commit/d766607664c4c1cc78a88285eec5ec89918249a2) - **feat:** add `blas/ext/base/ndarray/gindex-of` [(#7541)](https://github.com/stdlib-js/stdlib/pull/7541) _(by Muhammad Haris)_
 -   [`e588c9a`](https://github.com/stdlib-js/stdlib/commit/e588c9ad63a7b8a5d5c1f3c246a24aac438ac158) - **feat:** add `blas/ext/base/ndarray/dindex-of` [(#7539)](https://github.com/stdlib-js/stdlib/pull/7539) _(by Muhammad Haris, Athan Reines)_
 -   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - **fix:** update `caxpy` manifest to include missing dependencies for Mac builds _(by Philipp Burckhardt)_
 -   [`53cb5ce`](https://github.com/stdlib-js/stdlib/commit/53cb5cec01d65b42bccee658c7ed3bd1d6b7c441) - **docs:** fix data type [(#7536)](https://github.com/stdlib-js/stdlib/pull/7536) _(by Shabareesh Shetty)_
