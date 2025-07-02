@@ -57,9 +57,9 @@ The function has the following parameters:
 -   **M**: number of rows in the matrix `A`.
 -   **N**: number of columns in the matrix `A`.
 -   **α**: scalar constant.
--   **x**: input [`Float64Array`][mdn-float64array].
+-   **x**: an `M` element [`Float64Array`][mdn-float64array].
 -   **sx**: stride length for `x`.
--   **y**: output [`Float64Array`][mdn-float64array].
+-   **y**: an `N` element [`Float64Array`][mdn-float64array].
 -   **sy**: stride length for `y`.
 -   **A**: input matrix stored in linear memory as a [`Float64Array`][mdn-float64array].
 -   **lda**: stride of the first dimension of `A` (leading dimension of `A`).
