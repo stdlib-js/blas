@@ -505,6 +505,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`8992c1c`](https://github.com/stdlib-js/stdlib/commit/8992c1c7183ba70421f329143f2524de124ad301) - **docs:** update type _(by Athan Reines)_
 -   [`d766607`](https://github.com/stdlib-js/stdlib/commit/d766607664c4c1cc78a88285eec5ec89918249a2) - **feat:** add `blas/ext/base/ndarray/gindex-of` [(#7541)](https://github.com/stdlib-js/stdlib/pull/7541) _(by Muhammad Haris)_
 -   [`e588c9a`](https://github.com/stdlib-js/stdlib/commit/e588c9ad63a7b8a5d5c1f3c246a24aac438ac158) - **feat:** add `blas/ext/base/ndarray/dindex-of` [(#7539)](https://github.com/stdlib-js/stdlib/pull/7539) _(by Muhammad Haris, Athan Reines)_
 -   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - **fix:** update `caxpy` manifest to include missing dependencies for Mac builds _(by Philipp Burckhardt)_
