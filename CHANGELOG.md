@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767)
 -   [`d766607`](https://github.com/stdlib-js/stdlib/commit/d766607664c4c1cc78a88285eec5ec89918249a2) - add `blas/ext/base/ndarray/gindex-of` [(#7541)](https://github.com/stdlib-js/stdlib/pull/7541)
 -   [`e588c9a`](https://github.com/stdlib-js/stdlib/commit/e588c9ad63a7b8a5d5c1f3c246a24aac438ac158) - add `blas/ext/base/ndarray/dindex-of` [(#7539)](https://github.com/stdlib-js/stdlib/pull/7539)
 -   [`0935821`](https://github.com/stdlib-js/stdlib/commit/093582109c03a692eb83fc0c2f661cbebe2e28b1) - add `blas/ext/base/ndarray/sindex-of` [(#7529)](https://github.com/stdlib-js/stdlib/pull/7529)
@@ -505,6 +506,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - **feat:** add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767) _(by Aman Bhansali, Athan Reines, stdlib-bot, Shabareesh Shetty)_
 -   [`a2f0378`](https://github.com/stdlib-js/stdlib/commit/a2f0378a76569c79599c550b781a1dc96a935f76) - **docs:** use consistent capitalization _(by Athan Reines)_
 -   [`a1d90a8`](https://github.com/stdlib-js/stdlib/commit/a1d90a8485273025956d41831ed12e423032f580) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`01f149a`](https://github.com/stdlib-js/stdlib/commit/01f149a97d76b4e8e14353d87f4dbabca338f5a1) - **docs:** fix typo _(by Athan Reines)_
