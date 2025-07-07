@@ -1,8 +1,7 @@
-
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,17 +20,22 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var floor = require( '@stdlib/math/base/special/floor' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-var sgemv = require( './../lib/ndarray.js' );
 
 
 // VARIABLES //
 
+var sgemv = tryRequire( resolve( __dirname, './../lib/sgemv.native.js' ) );
+var opts = {
+	'skip': ( sgemv instanceof Error )
+};
 var options = {
 	'dtype': 'float32'
 };
@@ -52,25 +56,19 @@ function createBenchmark( N ) {
 	var A = uniform( N*N, -10.0, 10.0, options );
 	return benchmark;
 
-	/**
-	* Benchmark function.
-	*
-	* @private
-	* @param {Benchmark} b - benchmark instance
-	*/
 	function benchmark( b ) {
 		var z;
 		var i;
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			z = sgemv( 'no-transpose', N, N, 1.0, A, N, 1, 0, x, 1, 0, 1.0, y, 1, 0 );
-			if ( isnanf( z[ i%z.length ] ) ) {
+			z = sgemv( 'row-major', 'no-transpose', N, N, 1.0, A, N, x, 1, 1.0, y, 1 );
+			if ( isnanf( z ) ) {
 				b.fail( 'should not return NaN' );
 			}
 		}
 		b.toc();
-		if ( isnanf( z[ i%z.length ] ) ) {
+		if ( isnanf( z ) ) {
 			b.fail( 'should not return NaN' );
 		}
 		b.pass( 'benchmark finished' );
@@ -99,7 +97,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		N = floor( pow( pow( 10, i ), 1.0/2.0 ) );
 		f = createBenchmark( N );
-		bench( pkg+':ndarray:size='+(N*N), f );
+		bench( pkg+'::native:size='+(N*N), opts, f );
 	}
 }
 

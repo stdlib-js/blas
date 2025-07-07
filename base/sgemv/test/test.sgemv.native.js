@@ -1,7 +1,8 @@
+
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -22,9 +23,10 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var Float32Array = require( '@stdlib/array/float32' );
-var sgemv = require( './../lib/sgemv.js' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 
 
 // FIXTURES //
@@ -50,20 +52,28 @@ var rxb = require( './fixtures/row_major_x_zeros_beta_one.json' );
 var ra = require( './fixtures/row_major_alpha_zero.json' );
 
 
+// VARIABLES //
+
+var sgemv = tryRequire( resolve( __dirname, './../lib/sgemv.native.js' ) );
+var opts = {
+	'skip': ( sgemv instanceof Error )
+};
+
+
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof sgemv, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function has an arity of 12', function test( t ) {
+tape( 'the function has an arity of 12', opts, function test( t ) {
 	t.strictEqual( sgemv.length, 12, 'returns expected value' );
 	t.end();
 });
 
-tape( 'the function throws an error if provided an invalid first argument', function test( t ) {
+tape( 'the function throws an error if provided an invalid first argument', opts, function test( t ) {
 	var values;
 	var data;
 	var i;
@@ -89,7 +99,7 @@ tape( 'the function throws an error if provided an invalid first argument', func
 	}
 });
 
-tape( 'the function throws an error if provided an invalid second argument', function test( t ) {
+tape( 'the function throws an error if provided an invalid second argument', opts, function test( t ) {
 	var values;
 	var data;
 	var i;
@@ -115,7 +125,7 @@ tape( 'the function throws an error if provided an invalid second argument', fun
 	}
 });
 
-tape( 'the function throws an error if provided an invalid third argument', function test( t ) {
+tape( 'the function throws an error if provided an invalid third argument', opts, function test( t ) {
 	var values;
 	var data;
 	var i;
@@ -140,7 +150,7 @@ tape( 'the function throws an error if provided an invalid third argument', func
 	}
 });
 
-tape( 'the function throws an error if provided an invalid fourth argument', function test( t ) {
+tape( 'the function throws an error if provided an invalid fourth argument', opts, function test( t ) {
 	var values;
 	var data;
 	var i;
@@ -165,7 +175,7 @@ tape( 'the function throws an error if provided an invalid fourth argument', fun
 	}
 });
 
-tape( 'the function throws an error if provided an invalid seventh argument', function test( t ) {
+tape( 'the function throws an error if provided an invalid seventh argument', opts, function test( t ) {
 	var values;
 	var data;
 	var i;
@@ -192,7 +202,7 @@ tape( 'the function throws an error if provided an invalid seventh argument', fu
 	}
 });
 
-tape( 'the function throws an error if provided an invalid ninth argument', function test( t ) {
+tape( 'the function throws an error if provided an invalid ninth argument', opts, function test( t ) {
 	var values;
 	var data;
 	var i;
@@ -215,7 +225,7 @@ tape( 'the function throws an error if provided an invalid ninth argument', func
 	}
 });
 
-tape( 'the function throws an error if provided an invalid twelfth argument', function test( t ) {
+tape( 'the function throws an error if provided an invalid twelfth argument', opts, function test( t ) {
 	var values;
 	var data;
 	var i;
@@ -238,7 +248,7 @@ tape( 'the function throws an error if provided an invalid twelfth argument', fu
 	}
 });
 
-tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (row-major, no-transpose)', function test( t ) {
+tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (row-major, no-transpose)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -261,7 +271,7 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 	t.end();
 });
 
-tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (column-major, no-transpose)', function test( t ) {
+tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (column-major, no-transpose)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -284,7 +294,7 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 	t.end();
 });
 
-tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (row-major, transpose)', function test( t ) {
+tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (row-major, transpose)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -307,7 +317,7 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 	t.end();
 });
 
-tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (column-major, transpose)', function test( t ) {
+tape( 'the function performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` (column-major, transpose)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -330,7 +340,7 @@ tape( 'the function performs one of the matrix-vector operations `y = α*A*x + �
 	t.end();
 });
 
-tape( 'the function returns a reference to the second input vector (row-major)', function test( t ) {
+tape( 'the function returns a reference to the second input vector (row-major)', opts, function test( t ) {
 	var data;
 	var out;
 	var a;
@@ -349,7 +359,7 @@ tape( 'the function returns a reference to the second input vector (row-major)',
 	t.end();
 });
 
-tape( 'the function returns a reference to the second input vector (column-major)', function test( t ) {
+tape( 'the function returns a reference to the second input vector (column-major)', opts, function test( t ) {
 	var data;
 	var out;
 	var a;
@@ -368,7 +378,7 @@ tape( 'the function returns a reference to the second input vector (column-major
 	t.end();
 });
 
-tape( 'if either `M` or `N` is `0`, the function returns the second input vector unchanged (row-major)', function test( t ) {
+tape( 'if either `M` or `N` is `0`, the function returns the second input vector unchanged (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -395,7 +405,7 @@ tape( 'if either `M` or `N` is `0`, the function returns the second input vector
 	t.end();
 });
 
-tape( 'if either `M` or `N` is `0`, the function returns the second input vector unchanged (column-major)', function test( t ) {
+tape( 'if either `M` or `N` is `0`, the function returns the second input vector unchanged (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -422,7 +432,7 @@ tape( 'if either `M` or `N` is `0`, the function returns the second input vector
 	t.end();
 });
 
-tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vector unchanged (row-major)', function test( t ) {
+tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vector unchanged (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -445,7 +455,7 @@ tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vec
 	t.end();
 });
 
-tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vector unchanged (column-major)', function test( t ) {
+tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vector unchanged (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -468,7 +478,7 @@ tape( 'if `α` is `0` and `β` is `1`, the function returns the second input vec
 	t.end();
 });
 
-tape( 'if `x` contains only zeros and `β` is `1`, the function returns the second input vector unchanged (row-major)', function test( t ) {
+tape( 'if `x` contains only zeros and `β` is `1`, the function returns the second input vector unchanged (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -491,7 +501,7 @@ tape( 'if `x` contains only zeros and `β` is `1`, the function returns the seco
 	t.end();
 });
 
-tape( 'if `x` contains only zeros and `β` is `1`, the function returns the second input vector unchanged (column-major)', function test( t ) {
+tape( 'if `x` contains only zeros and `β` is `1`, the function returns the second input vector unchanged (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -514,7 +524,7 @@ tape( 'if `x` contains only zeros and `β` is `1`, the function returns the seco
 	t.end();
 });
 
-tape( 'if `α` is `0`, the function scales the second input vector by `β` (row-major)', function test( t ) {
+tape( 'if `α` is `0`, the function scales the second input vector by `β` (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -537,7 +547,7 @@ tape( 'if `α` is `0`, the function scales the second input vector by `β` (row-
 	t.end();
 });
 
-tape( 'if `α` is `0`, the function scales the second input vector by `β` (column-major)', function test( t ) {
+tape( 'if `α` is `0`, the function scales the second input vector by `β` (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -560,7 +570,7 @@ tape( 'if `α` is `0`, the function scales the second input vector by `β` (colu
 	t.end();
 });
 
-tape( 'if `x` contains only zeros and `β` is not `1`, the function scales the second input vector by `β` (row-major)', function test( t ) {
+tape( 'if `x` contains only zeros and `β` is not `1`, the function scales the second input vector by `β` (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -583,7 +593,7 @@ tape( 'if `x` contains only zeros and `β` is not `1`, the function scales the s
 	t.end();
 });
 
-tape( 'if `x` contains only zeros and `β` is not `1`, the function scales the second input vector by `β` (column-major)', function test( t ) {
+tape( 'if `x` contains only zeros and `β` is not `1`, the function scales the second input vector by `β` (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -606,7 +616,7 @@ tape( 'if `x` contains only zeros and `β` is not `1`, the function scales the s
 	t.end();
 });
 
-tape( 'the function supports specifying `x` and `y` strides (row-major)', function test( t ) {
+tape( 'the function supports specifying `x` and `y` strides (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -629,7 +639,7 @@ tape( 'the function supports specifying `x` and `y` strides (row-major)', functi
 	t.end();
 });
 
-tape( 'the function supports specifying `x` and `y` strides (column-major)', function test( t ) {
+tape( 'the function supports specifying `x` and `y` strides (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -652,7 +662,7 @@ tape( 'the function supports specifying `x` and `y` strides (column-major)', fun
 	t.end();
 });
 
-tape( 'the function supports specifying a negative `x` stride (row-major)', function test( t ) {
+tape( 'the function supports specifying a negative `x` stride (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -675,7 +685,7 @@ tape( 'the function supports specifying a negative `x` stride (row-major)', func
 	t.end();
 });
 
-tape( 'the function supports specifying a negative `x` stride (column-major)', function test( t ) {
+tape( 'the function supports specifying a negative `x` stride (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -698,7 +708,7 @@ tape( 'the function supports specifying a negative `x` stride (column-major)', f
 	t.end();
 });
 
-tape( 'the function supports specifying a negative `y` stride (row-major)', function test( t ) {
+tape( 'the function supports specifying a negative `y` stride (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -721,7 +731,7 @@ tape( 'the function supports specifying a negative `y` stride (row-major)', func
 	t.end();
 });
 
-tape( 'the function supports specifying a negative `y` stride (column-major)', function test( t ) {
+tape( 'the function supports specifying a negative `y` stride (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -744,7 +754,7 @@ tape( 'the function supports specifying a negative `y` stride (column-major)', f
 	t.end();
 });
 
-tape( 'the function supports complex access patterns (row-major)', function test( t ) {
+tape( 'the function supports complex access patterns (row-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;
@@ -767,7 +777,7 @@ tape( 'the function supports complex access patterns (row-major)', function test
 	t.end();
 });
 
-tape( 'the function supports complex access patterns (column-major)', function test( t ) {
+tape( 'the function supports complex access patterns (column-major)', opts, function test( t ) {
 	var expected;
 	var data;
 	var out;

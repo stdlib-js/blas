@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-02)
+## Unreleased (2025-07-07)
 
 <section class="features">
 
 ### Features
 
+-   [`2ba34b6`](https://github.com/stdlib-js/stdlib/commit/2ba34b6ff6943eff6b48b8963c2d2817413c9c1c) - add C implementation for `blas/base/sgemv` [(#6984)](https://github.com/stdlib-js/stdlib/pull/6984)
 -   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767)
 -   [`d766607`](https://github.com/stdlib-js/stdlib/commit/d766607664c4c1cc78a88285eec5ec89918249a2) - add `blas/ext/base/ndarray/gindex-of` [(#7541)](https://github.com/stdlib-js/stdlib/pull/7541)
 -   [`e588c9a`](https://github.com/stdlib-js/stdlib/commit/e588c9ad63a7b8a5d5c1f3c246a24aac438ac158) - add `blas/ext/base/ndarray/dindex-of` [(#7539)](https://github.com/stdlib-js/stdlib/pull/7539)
@@ -239,6 +240,7 @@
 
 ### Bug Fixes
 
+-   [`3878734`](https://github.com/stdlib-js/stdlib/commit/3878734f1a4d27c98b100165d9e3842e960169b3) - update error check and messages
 -   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - update `caxpy` manifest to include missing dependencies for Mac builds
 -   [`f27e62f`](https://github.com/stdlib-js/stdlib/commit/f27e62f31b16eb5c92f5c0af88b00b6d5124b9f6) - provide correct number of arguments
 -   [`6688495`](https://github.com/stdlib-js/stdlib/commit/6688495296d51628b4a85466de99b5a5347cff94) - provide correct number of arguments
@@ -506,6 +508,10 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`3878734`](https://github.com/stdlib-js/stdlib/commit/3878734f1a4d27c98b100165d9e3842e960169b3) - **fix:** update error check and messages _(by Philipp Burckhardt)_
+-   [`332199e`](https://github.com/stdlib-js/stdlib/commit/332199e73b253aee2f8b37284ac4b6c87ede5454) - **docs:** fix typo and function name _(by Philipp Burckhardt)_
+-   [`2ba34b6`](https://github.com/stdlib-js/stdlib/commit/2ba34b6ff6943eff6b48b8963c2d2817413c9c1c) - **feat:** add C implementation for `blas/base/sgemv` [(#6984)](https://github.com/stdlib-js/stdlib/pull/6984) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`e34aa06`](https://github.com/stdlib-js/stdlib/commit/e34aa06da0790d4551851e4d2ab4e02510bfd5ce) - **chore:** clean-up _(by Athan Reines)_
 -   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - **feat:** add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767) _(by Aman Bhansali, Athan Reines, stdlib-bot, Shabareesh Shetty)_
 -   [`a2f0378`](https://github.com/stdlib-js/stdlib/commit/a2f0378a76569c79599c550b781a1dc96a935f76) - **docs:** use consistent capitalization _(by Athan Reines)_
 -   [`a1d90a8`](https://github.com/stdlib-js/stdlib/commit/a1d90a8485273025956d41831ed12e423032f580) - **docs:** fix descriptions _(by Athan Reines)_
