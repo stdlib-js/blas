@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-07)
+## Unreleased (2025-07-08)
 
 <section class="features">
 
@@ -240,6 +240,9 @@
 
 ### Bug Fixes
 
+-   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - consistently use constants instead of hardcoded numbers in unrolled BLAS loops
+-   [`5986aa6`](https://github.com/stdlib-js/stdlib/commit/5986aa661893a77a297c0aa18b44f6f58d93c948) - use correct number of elements for X
+-   [`d76695b`](https://github.com/stdlib-js/stdlib/commit/d76695b21bc8a799580c3a0acde2b22501b11f92) - update error check and messages
 -   [`3878734`](https://github.com/stdlib-js/stdlib/commit/3878734f1a4d27c98b100165d9e3842e960169b3) - update error check and messages
 -   [`ae34cce`](https://github.com/stdlib-js/stdlib/commit/ae34cce2706107d6738b4830d43e4130ff7399e4) - update `caxpy` manifest to include missing dependencies for Mac builds
 -   [`f27e62f`](https://github.com/stdlib-js/stdlib/commit/f27e62f31b16eb5c92f5c0af88b00b6d5124b9f6) - provide correct number of arguments
@@ -508,6 +511,11 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - **fix:** consistently use constants instead of hardcoded numbers in unrolled BLAS loops _(by Philipp Burckhardt)_
+-   [`7ec74ef`](https://github.com/stdlib-js/stdlib/commit/7ec74ef82dc2c2442729e5ec84073d61d8501c84) - **docs:** avoid using JS strict equality operators in C comments _(by Philipp Burckhardt)_
+-   [`5986aa6`](https://github.com/stdlib-js/stdlib/commit/5986aa661893a77a297c0aa18b44f6f58d93c948) - **fix:** use correct number of elements for X _(by Philipp Burckhardt)_
+-   [`d76695b`](https://github.com/stdlib-js/stdlib/commit/d76695b21bc8a799580c3a0acde2b22501b11f92) - **fix:** update error check and messages _(by Philipp Burckhardt)_
+-   [`edcb3f2`](https://github.com/stdlib-js/stdlib/commit/edcb3f2cf5f9e4d724c842416aca70a210a7eb51) - **docs:** fix parameter name in Doxygen comment and error messages _(by Philipp Burckhardt)_
 -   [`3878734`](https://github.com/stdlib-js/stdlib/commit/3878734f1a4d27c98b100165d9e3842e960169b3) - **fix:** update error check and messages _(by Philipp Burckhardt)_
 -   [`332199e`](https://github.com/stdlib-js/stdlib/commit/332199e73b253aee2f8b37284ac4b6c87ede5454) - **docs:** fix typo and function name _(by Philipp Burckhardt)_
 -   [`2ba34b6`](https://github.com/stdlib-js/stdlib/commit/2ba34b6ff6943eff6b48b8963c2d2817413c9c1c) - **feat:** add C implementation for `blas/base/sgemv` [(#6984)](https://github.com/stdlib-js/stdlib/pull/6984) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
