@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3a086a9`](https://github.com/stdlib-js/stdlib/commit/3a086a9dbff8f1e5e60fb65346f1e3ecd5390794) - add `blas/ext/base/dlast-index-of` [(#7587)](https://github.com/stdlib-js/stdlib/pull/7587)
 -   [`2ba34b6`](https://github.com/stdlib-js/stdlib/commit/2ba34b6ff6943eff6b48b8963c2d2817413c9c1c) - add C implementation for `blas/base/sgemv` [(#6984)](https://github.com/stdlib-js/stdlib/pull/6984)
 -   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767)
 -   [`d766607`](https://github.com/stdlib-js/stdlib/commit/d766607664c4c1cc78a88285eec5ec89918249a2) - add `blas/ext/base/ndarray/gindex-of` [(#7541)](https://github.com/stdlib-js/stdlib/pull/7541)
@@ -511,6 +512,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`3a086a9`](https://github.com/stdlib-js/stdlib/commit/3a086a9dbff8f1e5e60fb65346f1e3ecd5390794) - **feat:** add `blas/ext/base/dlast-index-of` [(#7587)](https://github.com/stdlib-js/stdlib/pull/7587) _(by Muhammad Haris, Athan Reines)_
 -   [`001aca0`](https://github.com/stdlib-js/stdlib/commit/001aca0bf468b222a3b5c86164a4cd97c65d43a0) - **test:** fix broken tests and add notes _(by Athan Reines)_
 -   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - **fix:** consistently use constants instead of hardcoded numbers in unrolled BLAS loops _(by Philipp Burckhardt)_
 -   [`7ec74ef`](https://github.com/stdlib-js/stdlib/commit/7ec74ef82dc2c2442729e5ec84073d61d8501c84) - **docs:** avoid using JS strict equality operators in C comments _(by Philipp Burckhardt)_
