@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-08)
+## Unreleased (2025-07-09)
 
 <section class="features">
 
@@ -511,6 +511,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`001aca0`](https://github.com/stdlib-js/stdlib/commit/001aca0bf468b222a3b5c86164a4cd97c65d43a0) - **test:** fix broken tests and add notes _(by Athan Reines)_
 -   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - **fix:** consistently use constants instead of hardcoded numbers in unrolled BLAS loops _(by Philipp Burckhardt)_
 -   [`7ec74ef`](https://github.com/stdlib-js/stdlib/commit/7ec74ef82dc2c2442729e5ec84073d61d8501c84) - **docs:** avoid using JS strict equality operators in C comments _(by Philipp Burckhardt)_
 -   [`5986aa6`](https://github.com/stdlib-js/stdlib/commit/5986aa661893a77a297c0aa18b44f6f58d93c948) - **fix:** use correct number of elements for X _(by Philipp Burckhardt)_

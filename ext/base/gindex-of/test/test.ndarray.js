@@ -48,13 +48,13 @@ tape( 'the function returns the first index of an element which equals a provide
 	actual = gindexOf( x.length, 1.0, x, 1, 0 );
 	t.strictEqual( actual, 0, 'returns expected value' );
 
-	actual = gindexOf( x.length, 2.0, x, 1, 1 );
+	actual = gindexOf( x.length-1, 2.0, x, 1, 1 );
 	t.strictEqual( actual, 1, 'returns expected value' );
 
-	actual = gindexOf( x.length, 3.0, x, 1, 2 );
+	actual = gindexOf( x.length-2, 3.0, x, 1, 2 );
 	t.strictEqual( actual, 2, 'returns expected value' );
 
-	actual = gindexOf( x.length, 4.0, x, 1, 2 );
+	actual = gindexOf( x.length-2, 4.0, x, 1, 2 );
 	t.strictEqual( actual, -1, 'returns expected value' );
 
 	// Negative stride...
