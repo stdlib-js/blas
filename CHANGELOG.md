@@ -512,6 +512,8 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`da78bfd`](https://github.com/stdlib-js/stdlib/commit/da78bfdfeba353df81c72939367a93839f9dade7) - **docs:** minor clean-up and fix array bounds error in example code _(by Philipp Burckhardt)_
+-   [`defed16`](https://github.com/stdlib-js/stdlib/commit/defed163077b2e81d04aecb77ad15d14f71b2207) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`3a086a9`](https://github.com/stdlib-js/stdlib/commit/3a086a9dbff8f1e5e60fb65346f1e3ecd5390794) - **feat:** add `blas/ext/base/dlast-index-of` [(#7587)](https://github.com/stdlib-js/stdlib/pull/7587) _(by Muhammad Haris, Athan Reines)_
 -   [`001aca0`](https://github.com/stdlib-js/stdlib/commit/001aca0bf468b222a3b5c86164a4cd97c65d43a0) - **test:** fix broken tests and add notes _(by Athan Reines)_
 -   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - **fix:** consistently use constants instead of hardcoded numbers in unrolled BLAS loops _(by Philipp Burckhardt)_
