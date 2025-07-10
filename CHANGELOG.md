@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-09)
+## Unreleased (2025-07-10)
 
 <section class="features">
 
 ### Features
 
+-   [`0f5cc54`](https://github.com/stdlib-js/stdlib/commit/0f5cc5417a349f11b47a8883269cd10276cfb7a9) - add `blas/ext/base/slast-index-of` [(#7597)](https://github.com/stdlib-js/stdlib/pull/7597)
 -   [`3a086a9`](https://github.com/stdlib-js/stdlib/commit/3a086a9dbff8f1e5e60fb65346f1e3ecd5390794) - add `blas/ext/base/dlast-index-of` [(#7587)](https://github.com/stdlib-js/stdlib/pull/7587)
 -   [`2ba34b6`](https://github.com/stdlib-js/stdlib/commit/2ba34b6ff6943eff6b48b8963c2d2817413c9c1c) - add C implementation for `blas/base/sgemv` [(#6984)](https://github.com/stdlib-js/stdlib/pull/6984)
 -   [`f1e8702`](https://github.com/stdlib-js/stdlib/commit/f1e87027f6350b20d9618166e80e2e0a9cee60fb) - add `blas/base/sger` [(#2767)](https://github.com/stdlib-js/stdlib/pull/2767)
@@ -512,6 +513,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`0f5cc54`](https://github.com/stdlib-js/stdlib/commit/0f5cc5417a349f11b47a8883269cd10276cfb7a9) - **feat:** add `blas/ext/base/slast-index-of` [(#7597)](https://github.com/stdlib-js/stdlib/pull/7597) _(by Muhammad Haris, Athan Reines)_
 -   [`da78bfd`](https://github.com/stdlib-js/stdlib/commit/da78bfdfeba353df81c72939367a93839f9dade7) - **docs:** minor clean-up and fix array bounds error in example code _(by Philipp Burckhardt)_
 -   [`defed16`](https://github.com/stdlib-js/stdlib/commit/defed163077b2e81d04aecb77ad15d14f71b2207) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`3a086a9`](https://github.com/stdlib-js/stdlib/commit/3a086a9dbff8f1e5e60fb65346f1e3ecd5390794) - **feat:** add `blas/ext/base/dlast-index-of` [(#7587)](https://github.com/stdlib-js/stdlib/pull/7587) _(by Muhammad Haris, Athan Reines)_
