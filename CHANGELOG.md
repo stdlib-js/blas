@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f00edc4`](https://github.com/stdlib-js/stdlib/commit/f00edc4c273fd59eea49d661feb88d3c89134eae) - add `blas/ext/base/glast-index-of` [(#7598)](https://github.com/stdlib-js/stdlib/pull/7598)
 -   [`79c448b`](https://github.com/stdlib-js/stdlib/commit/79c448b38d50ff66e7d3900fdcde5bab4062eb30) - add `blas/ext/base/ndarray/dlast-index-of` [(#7603)](https://github.com/stdlib-js/stdlib/pull/7603)
 -   [`0f5cc54`](https://github.com/stdlib-js/stdlib/commit/0f5cc5417a349f11b47a8883269cd10276cfb7a9) - add `blas/ext/base/slast-index-of` [(#7597)](https://github.com/stdlib-js/stdlib/pull/7597)
 -   [`3a086a9`](https://github.com/stdlib-js/stdlib/commit/3a086a9dbff8f1e5e60fb65346f1e3ecd5390794) - add `blas/ext/base/dlast-index-of` [(#7587)](https://github.com/stdlib-js/stdlib/pull/7587)
@@ -514,6 +515,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`f00edc4`](https://github.com/stdlib-js/stdlib/commit/f00edc4c273fd59eea49d661feb88d3c89134eae) - **feat:** add `blas/ext/base/glast-index-of` [(#7598)](https://github.com/stdlib-js/stdlib/pull/7598) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`0322739`](https://github.com/stdlib-js/stdlib/commit/0322739ecb60c7442c786477605e09f7be066686) - **test:** add tests _(by Athan Reines)_
 -   [`25ece44`](https://github.com/stdlib-js/stdlib/commit/25ece4459ce722768f12f7726eaace8176ee28ae) - **docs:** fix types _(by Athan Reines)_
 -   [`f9fe489`](https://github.com/stdlib-js/stdlib/commit/f9fe489919cc268600f9f215d6e3fc717455bd51) - **bench:** update import path _(by Athan Reines)_
