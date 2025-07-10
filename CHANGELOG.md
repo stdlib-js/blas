@@ -514,6 +514,9 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`25ece44`](https://github.com/stdlib-js/stdlib/commit/25ece4459ce722768f12f7726eaace8176ee28ae) - **docs:** fix types _(by Athan Reines)_
+-   [`f9fe489`](https://github.com/stdlib-js/stdlib/commit/f9fe489919cc268600f9f215d6e3fc717455bd51) - **bench:** update import path _(by Athan Reines)_
+-   [`97fc701`](https://github.com/stdlib-js/stdlib/commit/97fc7013a8cb7b173439695f208e5784ef04829b) - **docs:** add note _(by Athan Reines)_
 -   [`79c448b`](https://github.com/stdlib-js/stdlib/commit/79c448b38d50ff66e7d3900fdcde5bab4062eb30) - **feat:** add `blas/ext/base/ndarray/dlast-index-of` [(#7603)](https://github.com/stdlib-js/stdlib/pull/7603) _(by Muhammad Haris)_
 -   [`0f5cc54`](https://github.com/stdlib-js/stdlib/commit/0f5cc5417a349f11b47a8883269cd10276cfb7a9) - **feat:** add `blas/ext/base/slast-index-of` [(#7597)](https://github.com/stdlib-js/stdlib/pull/7597) _(by Muhammad Haris, Athan Reines)_
 -   [`da78bfd`](https://github.com/stdlib-js/stdlib/commit/da78bfdfeba353df81c72939367a93839f9dade7) - **docs:** minor clean-up and fix array bounds error in example code _(by Philipp Burckhardt)_
