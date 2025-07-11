@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b7ebe14`](https://github.com/stdlib-js/stdlib/commit/b7ebe14a38ddc3ccce67834db16835f420431494) - add `blas/ext/base/wasm/dnansumkbn2` [(#5735)](https://github.com/stdlib-js/stdlib/pull/5735)
 -   [`2efac32`](https://github.com/stdlib-js/stdlib/commit/2efac325d613685fef890809870c53b374abff3b) - add `blas/ext/base/ndarray/glast-index-of` [(#7607)](https://github.com/stdlib-js/stdlib/pull/7607)
 -   [`c811786`](https://github.com/stdlib-js/stdlib/commit/c811786b99640b0b08a3d7441e780b81c83dd81d) - add `blas/ext/base/ndarray/slast-index-of` [(#7605)](https://github.com/stdlib-js/stdlib/pull/7605)
 -   [`f00edc4`](https://github.com/stdlib-js/stdlib/commit/f00edc4c273fd59eea49d661feb88d3c89134eae) - add `blas/ext/base/glast-index-of` [(#7598)](https://github.com/stdlib-js/stdlib/pull/7598)
@@ -503,9 +504,9 @@
 
 ### Closed Issues
 
-A total of 23 issues were closed in this release:
+A total of 24 issues were closed in this release:
 
-[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241)
+[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5732](https://github.com/stdlib-js/stdlib/issues/5732), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241)
 
 </section>
 
@@ -517,6 +518,7 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`b7ebe14`](https://github.com/stdlib-js/stdlib/commit/b7ebe14a38ddc3ccce67834db16835f420431494) - **feat:** add `blas/ext/base/wasm/dnansumkbn2` [(#5735)](https://github.com/stdlib-js/stdlib/pull/5735) _(by Shabareesh Shetty, Athan Reines, JoyBoy, stdlib-bot)_
 -   [`9cc5aa7`](https://github.com/stdlib-js/stdlib/commit/9cc5aa7406c2b2d0029a355fa037a599f8cf5b05) - **docs:** remove self-requires from main.js example code _(by Philipp Burckhardt)_
 -   [`5c65581`](https://github.com/stdlib-js/stdlib/commit/5c65581bfb4aef890bb548f30185e8cd28e31a64) - **chore:** use correct function name and docs _(by Philipp Burckhardt)_
 -   [`2efac32`](https://github.com/stdlib-js/stdlib/commit/2efac325d613685fef890809870c53b374abff3b) - **feat:** add `blas/ext/base/ndarray/glast-index-of` [(#7607)](https://github.com/stdlib-js/stdlib/pull/7607) _(by Muhammad Haris, stdlib-bot)_
