@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -22,11 +22,11 @@
 
 var isLayout = require( './../../../base/assert/is-layout' );
 var isMatrixTriangle = require( './../../../base/assert/is-matrix-triangle' );
-var isColumnMajor = require( '@stdlib/ndarray/base/assert/is-column-major-string' );
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
 var max = require( '@stdlib/math/base/special/fast/max' );
+var resolveOrder = require( './../../../base/layout-resolve-enum' );
+var resolveUplo = require( './../../../base/matrix-triangle-resolve-enum' );
 var format = require( '@stdlib/string/format' );
-var base = require( './base.js' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -59,10 +59,6 @@ var base = require( './base.js' );
 * // A => <Float64Array>[ 2.0, 4.0, 6.0, 2.0, 5.0, 8.0, 3.0, 2.0, 10.0 ]
 */
 function dsyr( order, uplo, N, alpha, x, strideX, A, LDA ) {
-	var sa1;
-	var sa2;
-	var ox;
-
 	if ( !isLayout( order ) ) {
 		throw new TypeError( format( 'invalid argument. First argument must be a valid order. Value: `%s`.', order ) );
 	}
@@ -82,15 +78,8 @@ function dsyr( order, uplo, N, alpha, x, strideX, A, LDA ) {
 	if ( N === 0 || alpha === 0.0 ) {
 		return A;
 	}
-	if ( isColumnMajor( order ) ) {
-		sa1 = 1;
-		sa2 = LDA;
-	} else { // order === 'row-major'
-		sa1 = LDA;
-		sa2 = 1;
-	}
-	ox = stride2offset( N, strideX );
-	return base( uplo, N, alpha, x, strideX, ox, A, sa1, sa2, 0 );
+	addon( resolveOrder( order ), resolveUplo( uplo ), N, alpha, x, strideX, A, LDA ); // eslint-disable-line max-len
+	return A;
 }
 
 

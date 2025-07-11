@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,7 +20,10 @@
 
 // MODULES //
 
-var isRowMajor = require( '@stdlib/ndarray/base/assert/is-row-major' );
+var isMatrixTriangle = require( './../../../base/assert/is-matrix-triangle' );
+var resolveUplo = require( './../../../base/matrix-triangle-resolve-enum' );
+var format = require( '@stdlib/string/format' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -28,7 +31,6 @@ var isRowMajor = require( '@stdlib/ndarray/base/assert/is-row-major' );
 /**
 * Performs the symmetric rank 1 operation `A = α*x*x^T + A` where `α` is a scalar, `x` is an `N` element vector, and `A` is an `N` by `N` symmetric matrix.
 *
-* @private
 * @param {string} uplo - specifies whether the upper or lower triangular part of the symmetric matrix `A` should be referenced
 * @param {NonNegativeInteger} N - number of elements along each dimension of `A`
 * @param {number} alpha - scalar constant
@@ -39,6 +41,9 @@ var isRowMajor = require( '@stdlib/ndarray/base/assert/is-row-major' );
 * @param {integer} strideA1 - stride of the first dimension of `A`
 * @param {integer} strideA2 - stride of the second dimension of `A`
 * @param {NonNegativeInteger} offsetA - starting index for `A`
+* @throws {TypeError} first argument must specify whether to reference the lower or upper triangular matrix
+* @throws {RangeError} second argument must be a nonnegative integer
+* @throws {RangeError} fifth argument must be non-zero
 * @returns {Float64Array} `A`
 *
 * @example
@@ -51,61 +56,20 @@ var isRowMajor = require( '@stdlib/ndarray/base/assert/is-row-major' );
 * // A => <Float64Array>[ 2.0, 4.0, 6.0, 2.0, 5.0, 8.0, 3.0, 2.0, 10.0 ]
 */
 function dsyr( uplo, N, alpha, x, strideX, offsetX, A, strideA1, strideA2, offsetA ) { // eslint-disable-line max-len
-	var isrm;
-	var tmp;
-	var ix0;
-	var ix1;
-	var sa0;
-	var sa1;
-	var i0;
-	var i1;
-	var oa;
-	var ox;
-
-	isrm = isRowMajor( [ strideA1, strideA2 ] );
-	if ( isrm ) {
-		// For row-major matrices, the last dimension has the fastest changing index...
-		sa0 = strideA2; // stride for innermost loop
-		sa1 = strideA1; // stride for outermost loop
-	} else { // isColMajor
-		// For column-major matrices, the first dimension has the fastest changing index...
-		sa0 = strideA1; // stride for innermost loop
-		sa1 = strideA2; // stride for outermost loop
+	if ( !isMatrixTriangle( uplo ) ) {
+		throw new TypeError( format( 'invalid argument. First argument must specify whether to reference the lower or upper triangular matrix. Value: `%s`.', uplo ) );
 	}
-	ox = offsetX;
-	if (
-		( !isrm && uplo === 'upper' ) ||
-		( isrm && uplo === 'lower' )
-	) {
-		ix1 = ox;
-		for ( i1 = 0; i1 < N; i1++ ) {
-			if ( x[ ix1 ] !== 0.0 ) {
-				tmp = alpha * x[ ix1 ];
-				oa = offsetA + (sa1*i1);
-				ix0 = ox;
-				for ( i0 = 0; i0 <= i1; i0++ ) {
-					A[ oa+(sa0*i0) ] += x[ ix0 ] * tmp;
-					ix0 += strideX;
-				}
-			}
-			ix1 += strideX;
-		}
+	if ( N < 0 ) {
+		throw new RangeError( format( 'invalid argument. Second argument must be a nonnegative integer. Value: `%d`.', N ) );
+	}
+	if ( strideX === 0 ) {
+		throw new RangeError( format( 'invalid argument. Fifth argument must be non-zero. Value: `%d`.', strideX ) );
+	}
+	// Check if we can early return...
+	if ( N === 0 || alpha === 0.0 ) {
 		return A;
 	}
-	// ( isrm && uplo === 'upper' ) || ( !isrm && uplo === 'lower' )
-	ix1 = ox;
-	for ( i1 = 0; i1 < N; i1++ ) {
-		if ( x[ ix1 ] !== 0.0 ) {
-			tmp = alpha * x[ ix1 ];
-			oa = offsetA + (sa1*i1);
-			ix0 = ix1;
-			for ( i0 = i1; i0 < N; i0++ ) {
-				A[ oa+(sa0*i0) ] += x[ ix0 ] * tmp;
-				ix0 += strideX;
-			}
-		}
-		ix1 += strideX;
-	}
+	addon.ndarray( resolveUplo( uplo ), N, alpha, x, strideX, offsetX, A, strideA1, strideA2, offsetA ); // eslint-disable-line max-len
 	return A;
 }
 

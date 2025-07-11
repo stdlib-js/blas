@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fffbf73`](https://github.com/stdlib-js/stdlib/commit/fffbf730b1a27175ece26a82f05c4053567e4386) - add C implementation for `blas/base/dsyr`  [(#6566)](https://github.com/stdlib-js/stdlib/pull/6566)
 -   [`b7ebe14`](https://github.com/stdlib-js/stdlib/commit/b7ebe14a38ddc3ccce67834db16835f420431494) - add `blas/ext/base/wasm/dnansumkbn2` [(#5735)](https://github.com/stdlib-js/stdlib/pull/5735)
 -   [`2efac32`](https://github.com/stdlib-js/stdlib/commit/2efac325d613685fef890809870c53b374abff3b) - add `blas/ext/base/ndarray/glast-index-of` [(#7607)](https://github.com/stdlib-js/stdlib/pull/7607)
 -   [`c811786`](https://github.com/stdlib-js/stdlib/commit/c811786b99640b0b08a3d7441e780b81c83dd81d) - add `blas/ext/base/ndarray/slast-index-of` [(#7605)](https://github.com/stdlib-js/stdlib/pull/7605)
@@ -518,6 +519,7 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`fffbf73`](https://github.com/stdlib-js/stdlib/commit/fffbf730b1a27175ece26a82f05c4053567e4386) - **feat:** add C implementation for `blas/base/dsyr`  [(#6566)](https://github.com/stdlib-js/stdlib/pull/6566) _(by Shabareesh Shetty, Athan Reines)_
 -   [`b7ebe14`](https://github.com/stdlib-js/stdlib/commit/b7ebe14a38ddc3ccce67834db16835f420431494) - **feat:** add `blas/ext/base/wasm/dnansumkbn2` [(#5735)](https://github.com/stdlib-js/stdlib/pull/5735) _(by Shabareesh Shetty, Athan Reines, JoyBoy, stdlib-bot)_
 -   [`9cc5aa7`](https://github.com/stdlib-js/stdlib/commit/9cc5aa7406c2b2d0029a355fa037a599f8cf5b05) - **docs:** remove self-requires from main.js example code _(by Philipp Burckhardt)_
 -   [`5c65581`](https://github.com/stdlib-js/stdlib/commit/5c65581bfb4aef890bb548f30185e8cd28e31a64) - **chore:** use correct function name and docs _(by Philipp Burckhardt)_

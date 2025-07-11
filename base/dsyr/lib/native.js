@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -18,25 +18,18 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
-var ones = require( '@stdlib/array/ones' );
-var dsyr = require( './../lib' );
+// MODULES //
 
-var opts = {
-	'dtype': 'float64'
-};
+var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
+var dsyr = require( './dsyr.native.js' );
+var ndarray = require( './ndarray.native.js' );
 
-var N = 3;
 
-// Create N-by-N symmetric matrices:
-var A1 = ones( N*N, opts.dtype );
-var A2 = ones( N*N, opts.dtype );
+// MAIN //
 
-// Create a random vector:
-var x = discreteUniform( N, -10.0, 10.0, opts );
+setReadOnly( dsyr, 'ndarray', ndarray );
 
-dsyr( 'row-major', 'upper', 3, 1.0, x, 1, A1, 3 );
-console.log( A1 );
 
-dsyr.ndarray( 'upper', 3, 1.0, x, 1, 0, A2, 3, 1, 0 );
-console.log( A2 );
+// EXPORTS //
+
+module.exports = dsyr;
