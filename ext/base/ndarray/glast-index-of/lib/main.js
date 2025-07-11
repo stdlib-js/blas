@@ -31,7 +31,7 @@ var ndarraylike2scalar = require( '@stdlib/ndarray/base/ndarraylike2scalar' );
 // MAIN //
 
 /**
-* Returns the first index of a search element in a one-dimensional ndarray.
+* Returns the last index of a search element in a one-dimensional ndarray.
 *
 * @param {ArrayLikeObject<Object>} arrays - array-like object containing a one-dimensional input ndarray, a zero-dimensional ndarray containing the search element, and a zero-dimensional ndarray containing the index from which to begin searching
 * @returns {integer} index
@@ -39,9 +39,8 @@ var ndarraylike2scalar = require( '@stdlib/ndarray/base/ndarraylike2scalar' );
 * @example
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
 * var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-* var gindexOf = require( '@stdlib/blas/ext/base/ndarray/gindex-of' );
 *
-* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+* var xbuf = [ 1.0, 2.0, 4.0, 2.0 ];
 * var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
 *
 * var searchElement = scalar2ndarray( 2.0, {
@@ -52,10 +51,10 @@ var ndarraylike2scalar = require( '@stdlib/ndarray/base/ndarraylike2scalar' );
 *     'dtype': 'generic'
 * });
 *
-* var v = gindexOf( [ x, searchElement, fromIndex ] );
+* var v = glastIndexOf( [ x, searchElement, fromIndex ] );
 * // returns 3
 */
-function gindexOf( arrays ) {
+function glastIndexOf( arrays ) {
 	var searchElement;
 	var fromIndex;
 	var stride;
@@ -91,4 +90,4 @@ function gindexOf( arrays ) {
 
 // EXPORTS //
 
-module.exports = gindexOf;
+module.exports = glastIndexOf;

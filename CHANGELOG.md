@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-10)
+## Unreleased (2025-07-11)
 
 <section class="features">
 
@@ -517,6 +517,8 @@ A total of 23 issues were closed in this release:
 
 <details>
 
+-   [`9cc5aa7`](https://github.com/stdlib-js/stdlib/commit/9cc5aa7406c2b2d0029a355fa037a599f8cf5b05) - **docs:** remove self-requires from main.js example code _(by Philipp Burckhardt)_
+-   [`5c65581`](https://github.com/stdlib-js/stdlib/commit/5c65581bfb4aef890bb548f30185e8cd28e31a64) - **chore:** use correct function name and docs _(by Philipp Burckhardt)_
 -   [`2efac32`](https://github.com/stdlib-js/stdlib/commit/2efac325d613685fef890809870c53b374abff3b) - **feat:** add `blas/ext/base/ndarray/glast-index-of` [(#7607)](https://github.com/stdlib-js/stdlib/pull/7607) _(by Muhammad Haris, stdlib-bot)_
 -   [`c811786`](https://github.com/stdlib-js/stdlib/commit/c811786b99640b0b08a3d7441e780b81c83dd81d) - **feat:** add `blas/ext/base/ndarray/slast-index-of` [(#7605)](https://github.com/stdlib-js/stdlib/pull/7605) _(by Muhammad Haris, stdlib-bot)_
 -   [`f00edc4`](https://github.com/stdlib-js/stdlib/commit/f00edc4c273fd59eea49d661feb88d3c89134eae) - **feat:** add `blas/ext/base/glast-index-of` [(#7598)](https://github.com/stdlib-js/stdlib/pull/7598) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
