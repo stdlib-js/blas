@@ -35,6 +35,7 @@ var rl = require( './fixtures/row_major_l.json' );
 var rxp = require( './fixtures/row_major_xp.json' );
 var rxn = require( './fixtures/row_major_xn.json' );
 var roa = require( './fixtures/row_major_oa.json' );
+var rox = require( './fixtures/row_major_ox.json' );
 var rsa1sa2 = require( './fixtures/row_major_sa1_sa2.json' );
 var rsa1nsa2 = require( './fixtures/row_major_sa1n_sa2.json' );
 var rsa1sa2n = require( './fixtures/row_major_sa1_sa2n.json' );
@@ -46,6 +47,7 @@ var cl = require( './fixtures/column_major_l.json' );
 var cxp = require( './fixtures/column_major_xp.json' );
 var cxn = require( './fixtures/column_major_xn.json' );
 var coa = require( './fixtures/column_major_oa.json' );
+var cox = require( './fixtures/column_major_ox.json' );
 var csa1sa2 = require( './fixtures/column_major_sa1_sa2.json' );
 var csa1nsa2 = require( './fixtures/column_major_sa1n_sa2.json' );
 var csa1sa2n = require( './fixtures/column_major_sa1_sa2n.json' );
@@ -144,6 +146,52 @@ tape( 'the function throws an error if provided an invalid fifth argument', opts
 	function badValue( value ) {
 		return function badValue() {
 			dsyr( data.uplo, data.N, data.alpha, new Float64Array( data.x ), value, data.offsetX, new Float64Array( data.A ), data.strideA1, data.strideA2, data.offsetA );
+		};
+	}
+});
+
+tape( 'the function throws an error if provided an invalid eighth argument', opts, function test( t ) {
+	var values;
+	var data;
+	var i;
+
+	data = ru;
+
+	values = [
+		0
+	];
+
+	for ( i = 0; i < values.length; i++ ) {
+		t.throws( badValue( values[ i ] ), RangeError, 'throws an error when provided ' + values[ i ] );
+	}
+	t.end();
+
+	function badValue( value ) {
+		return function badValue() {
+			dsyr( data.uplo, data.N, data.alpha, new Float64Array( data.x ), data.strideX, data.offsetX, new Float64Array( data.A ), value, data.strideA2, data.offsetA );
+		};
+	}
+});
+
+tape( 'the function throws an error if provided an invalid ninth argument', opts, function test( t ) {
+	var values;
+	var data;
+	var i;
+
+	data = ru;
+
+	values = [
+		0
+	];
+
+	for ( i = 0; i < values.length; i++ ) {
+		t.throws( badValue( values[ i ] ), RangeError, 'throws an error when provided ' + values[ i ] );
+	}
+	t.end();
+
+	function badValue( value ) {
+		return function badValue() {
+			dsyr( data.uplo, data.N, data.alpha, new Float64Array( data.x ), data.strideX, data.offsetX, new Float64Array( data.A ), data.strideA1, value, data.offsetA );
 		};
 	}
 });
@@ -580,6 +628,48 @@ tape( 'the function supports specifying a negative `x` stride (column-major)', o
 	var x;
 
 	data = cxn;
+
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+
+	expected = new Float64Array( data.A_out );
+
+	out = dsyr( data.uplo, data.N, data.alpha, x, data.strideX, data.offsetX, a, data.strideA1, data.strideA2, data.offsetA );
+	t.strictEqual( out, a, 'returns expected value' );
+	t.deepEqual( out, expected, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function supports specifying an `x` offset (row-major)', opts, function test( t ) {
+	var expected;
+	var data;
+	var out;
+	var a;
+	var x;
+
+	data = rox;
+
+	a = new Float64Array( data.A );
+	x = new Float64Array( data.x );
+
+	expected = new Float64Array( data.A_out );
+
+	out = dsyr( data.uplo, data.N, data.alpha, x, data.strideX, data.offsetX, a, data.strideA1, data.strideA2, data.offsetA );
+	t.strictEqual( out, a, 'returns expected value' );
+	t.deepEqual( out, expected, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function supports specifying an `x` offset (column-major)', opts, function test( t ) {
+	var expected;
+	var data;
+	var out;
+	var a;
+	var x;
+
+	data = cox;
 
 	a = new Float64Array( data.A );
 	x = new Float64Array( data.x );

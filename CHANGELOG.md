@@ -248,6 +248,7 @@
 
 ### Bug Fixes
 
+-   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - add missing checks and tests
 -   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - consistently use constants instead of hardcoded numbers in unrolled BLAS loops
 -   [`5986aa6`](https://github.com/stdlib-js/stdlib/commit/5986aa661893a77a297c0aa18b44f6f58d93c948) - use correct number of elements for X
 -   [`d76695b`](https://github.com/stdlib-js/stdlib/commit/d76695b21bc8a799580c3a0acde2b22501b11f92) - update error check and messages
@@ -519,6 +520,7 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - **fix:** add missing checks and tests _(by Athan Reines)_
 -   [`fffbf73`](https://github.com/stdlib-js/stdlib/commit/fffbf730b1a27175ece26a82f05c4053567e4386) - **feat:** add C implementation for `blas/base/dsyr`  [(#6566)](https://github.com/stdlib-js/stdlib/pull/6566) _(by Shabareesh Shetty, Athan Reines)_
 -   [`b7ebe14`](https://github.com/stdlib-js/stdlib/commit/b7ebe14a38ddc3ccce67834db16835f420431494) - **feat:** add `blas/ext/base/wasm/dnansumkbn2` [(#5735)](https://github.com/stdlib-js/stdlib/pull/5735) _(by Shabareesh Shetty, Athan Reines, JoyBoy, stdlib-bot)_
 -   [`b300eed`](https://github.com/stdlib-js/stdlib/commit/b300eedd44a9e0e1a2a435c056675dc0c84337ba) - **docs:** remove annotations _(by Athan Reines)_
