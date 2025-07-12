@@ -10,6 +10,21 @@
 
 ### Features
 
+-   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - add `isMatrixOrientation` to namespace
+-   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - add `blas/base/assert/is-matrix-orientation`
+-   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - add `CBLAS_ORIENT` type definition
+-   [`cdc7b67`](https://github.com/stdlib-js/stdlib/commit/cdc7b67ac69e144e998cc528d01ab3411c2f4840) - add `matrixOrientationResolveStr` to namespace
+-   [`2447a9a`](https://github.com/stdlib-js/stdlib/commit/2447a9aec572af8ad2c947866ddca212879aa936) - add `blas/base/matrix-orientation-resolve-str`
+-   [`c341ba9`](https://github.com/stdlib-js/stdlib/commit/c341ba97aa2078585f745120d6fd4f51ae27fdce) - add `matrixOrientationResolveEnum` to namespace
+-   [`ac80c7b`](https://github.com/stdlib-js/stdlib/commit/ac80c7b4275e9a7181829ec05c1bc327ddfeb12d) - add `blas/base/matrix-orientation-resolve-enum`
+-   [`aba62e8`](https://github.com/stdlib-js/stdlib/commit/aba62e8405e0098e22f6fa43e10afc420c3b29d9) - add `igamax` to namespace
+-   [`d8ce58b`](https://github.com/stdlib-js/stdlib/commit/d8ce58b2475ec10d7cd8c42e251a93985ae2b1a2) - add `matrixOrientationEnum2Str` to namespace
+-   [`293b15b`](https://github.com/stdlib-js/stdlib/commit/293b15b049248eb59630868de38957fe303f8985) - add `blas/base/matrix-orientation-enum2str`
+-   [`25e1f75`](https://github.com/stdlib-js/stdlib/commit/25e1f75a99dcd4e6a0bb52d0a068403285825eea) - add `matrixOrientationStr2Enum` to namespace
+-   [`ac4b23d`](https://github.com/stdlib-js/stdlib/commit/ac4b23d1d6a536500ec9bcbb873f1a4c7b862fa8) - add `blas/base/matrix-orientation-str2enum`
+-   [`51560ac`](https://github.com/stdlib-js/stdlib/commit/51560acc32ace8fc2f0bdcc1fe66713a3a08aa3b) - add `dger` and `sger` to namespace
+-   [`5302af0`](https://github.com/stdlib-js/stdlib/commit/5302af04f65062c3fc94a0be68a2a9ae19a6aa50) - add `matrixOrientations` to namespace
+-   [`7584303`](https://github.com/stdlib-js/stdlib/commit/7584303bc16b4045e94834e5f4f92765506fdb00) - add `blas/base/matrix-orientations`
 -   [`fffbf73`](https://github.com/stdlib-js/stdlib/commit/fffbf730b1a27175ece26a82f05c4053567e4386) - add C implementation for `blas/base/dsyr`  [(#6566)](https://github.com/stdlib-js/stdlib/pull/6566)
 -   [`b7ebe14`](https://github.com/stdlib-js/stdlib/commit/b7ebe14a38ddc3ccce67834db16835f420431494) - add `blas/ext/base/wasm/dnansumkbn2` [(#5735)](https://github.com/stdlib-js/stdlib/pull/5735)
 -   [`2efac32`](https://github.com/stdlib-js/stdlib/commit/2efac325d613685fef890809870c53b374abff3b) - add `blas/ext/base/ndarray/glast-index-of` [(#7607)](https://github.com/stdlib-js/stdlib/pull/7607)
@@ -248,6 +263,8 @@
 
 ### Bug Fixes
 
+-   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
+-   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - update field name
 -   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - add missing checks and tests
 -   [`e039f2a`](https://github.com/stdlib-js/stdlib/commit/e039f2a6f7ff1b4141dba2d0f5a2fb8a03d7a9b8) - consistently use constants instead of hardcoded numbers in unrolled BLAS loops
 -   [`5986aa6`](https://github.com/stdlib-js/stdlib/commit/5986aa661893a77a297c0aa18b44f6f58d93c948) - use correct number of elements for X
@@ -520,6 +537,24 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - **feat:** add `isMatrixOrientation` to namespace _(by Athan Reines)_
+-   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - **feat:** add `blas/base/assert/is-matrix-orientation` _(by Athan Reines)_
+-   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - **feat:** add `CBLAS_ORIENT` type definition _(by Athan Reines)_
+-   [`cdc7b67`](https://github.com/stdlib-js/stdlib/commit/cdc7b67ac69e144e998cc528d01ab3411c2f4840) - **feat:** add `matrixOrientationResolveStr` to namespace _(by Athan Reines)_
+-   [`2447a9a`](https://github.com/stdlib-js/stdlib/commit/2447a9aec572af8ad2c947866ddca212879aa936) - **feat:** add `blas/base/matrix-orientation-resolve-str` _(by Athan Reines)_
+-   [`c341ba9`](https://github.com/stdlib-js/stdlib/commit/c341ba97aa2078585f745120d6fd4f51ae27fdce) - **feat:** add `matrixOrientationResolveEnum` to namespace _(by Athan Reines)_
+-   [`ac80c7b`](https://github.com/stdlib-js/stdlib/commit/ac80c7b4275e9a7181829ec05c1bc327ddfeb12d) - **feat:** add `blas/base/matrix-orientation-resolve-enum` _(by Athan Reines)_
+-   [`aba62e8`](https://github.com/stdlib-js/stdlib/commit/aba62e8405e0098e22f6fa43e10afc420c3b29d9) - **feat:** add `igamax` to namespace _(by Athan Reines)_
+-   [`d8ce58b`](https://github.com/stdlib-js/stdlib/commit/d8ce58b2475ec10d7cd8c42e251a93985ae2b1a2) - **feat:** add `matrixOrientationEnum2Str` to namespace _(by Athan Reines)_
+-   [`293b15b`](https://github.com/stdlib-js/stdlib/commit/293b15b049248eb59630868de38957fe303f8985) - **feat:** add `blas/base/matrix-orientation-enum2str` _(by Athan Reines)_
+-   [`25e1f75`](https://github.com/stdlib-js/stdlib/commit/25e1f75a99dcd4e6a0bb52d0a068403285825eea) - **feat:** add `matrixOrientationStr2Enum` to namespace _(by Athan Reines)_
+-   [`ac4b23d`](https://github.com/stdlib-js/stdlib/commit/ac4b23d1d6a536500ec9bcbb873f1a4c7b862fa8) - **feat:** add `blas/base/matrix-orientation-str2enum` _(by Athan Reines)_
+-   [`64bcad8`](https://github.com/stdlib-js/stdlib/commit/64bcad80462130920dd92692acd842125ca040a7) - **docs:** update copy _(by Athan Reines)_
+-   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - **fix:** rename fields to be more explicit _(by Athan Reines)_
+-   [`51560ac`](https://github.com/stdlib-js/stdlib/commit/51560acc32ace8fc2f0bdcc1fe66713a3a08aa3b) - **feat:** add `dger` and `sger` to namespace _(by Athan Reines)_
+-   [`5302af0`](https://github.com/stdlib-js/stdlib/commit/5302af04f65062c3fc94a0be68a2a9ae19a6aa50) - **feat:** add `matrixOrientations` to namespace _(by Athan Reines)_
+-   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - **fix:** update field name _(by Athan Reines)_
+-   [`7584303`](https://github.com/stdlib-js/stdlib/commit/7584303bc16b4045e94834e5f4f92765506fdb00) - **feat:** add `blas/base/matrix-orientations` _(by Athan Reines)_
 -   [`37aabaf`](https://github.com/stdlib-js/stdlib/commit/37aabafe30fd671f0fd7ea58b21d192abe6e3208) - **test:** fix test case _(by Athan Reines)_
 -   [`a41c427`](https://github.com/stdlib-js/stdlib/commit/a41c427ee9ddd87f48288a737ea9820ea48b5498) - **refactor:** reduce pointer arithmetic operations _(by Athan Reines)_
 -   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - **fix:** add missing checks and tests _(by Athan Reines)_

@@ -55,6 +55,15 @@ setReadOnly( ns, 'isDiagonalType', require( './../../../base/assert/is-diagonal-
 setReadOnly( ns, 'isLayout', require( './../../../base/assert/is-layout' ) );
 
 /**
+* @name isMatrixOrientation
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/assert/is-matrix-orientation}
+*/
+setReadOnly( ns, 'isMatrixOrientation', require( './../../../base/assert/is-matrix-orientation' ) );
+
+/**
 * @name isMatrixTriangle
 * @memberof ns
 * @readonly

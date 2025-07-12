@@ -163,6 +163,15 @@ setReadOnly( blas, 'dgemm', require( './../../base/dgemm' ) );
 setReadOnly( blas, 'dgemv', require( './../../base/dgemv' ) );
 
 /**
+* @name dger
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/dger}
+*/
+setReadOnly( blas, 'dger', require( './../../base/dger' ) );
+
+/**
 * @name diagonalTypeEnum2Str
 * @memberof blas
 * @readonly
@@ -415,6 +424,15 @@ setReadOnly( blas, 'gswap', require( './../../base/gswap' ) );
 setReadOnly( blas, 'idamax', require( './../../base/idamax' ) );
 
 /**
+* @name igamax
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/igamax}
+*/
+setReadOnly( blas, 'igamax', require( './../../base/igamax' ) );
+
+/**
 * @name isamax
 * @memberof blas
 * @readonly
@@ -467,6 +485,51 @@ setReadOnly( blas, 'layoutStr2Enum', require( './../../base/layout-str2enum' ) )
 * @see {@link module:@stdlib/blas/base/layouts}
 */
 setReadOnly( blas, 'layouts', require( './../../base/layouts' ) );
+
+/**
+* @name matrixOrientationEnum2Str
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/matrix-orientation-enum2str}
+*/
+setReadOnly( blas, 'matrixOrientationEnum2Str', require( './../../base/matrix-orientation-enum2str' ) );
+
+/**
+* @name matrixOrientationResolveEnum
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/matrix-orientation-resolve-enum}
+*/
+setReadOnly( blas, 'matrixOrientationResolveEnum', require( './../../base/matrix-orientation-resolve-enum' ) );
+
+/**
+* @name matrixOrientationResolveStr
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/matrix-orientation-resolve-str}
+*/
+setReadOnly( blas, 'matrixOrientationResolveStr', require( './../../base/matrix-orientation-resolve-str' ) );
+
+/**
+* @name matrixOrientationStr2Enum
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/matrix-orientation-str2enum}
+*/
+setReadOnly( blas, 'matrixOrientationStr2Enum', require( './../../base/matrix-orientation-str2enum' ) );
+
+/**
+* @name matrixOrientations
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/matrix-orientations}
+*/
+setReadOnly( blas, 'matrixOrientations', require( './../../base/matrix-orientations' ) );
 
 /**
 * @name matrixTriangleEnum2Str
@@ -647,6 +710,15 @@ setReadOnly( blas, 'sgemm', require( './../../base/sgemm' ) );
 * @see {@link module:@stdlib/blas/base/sgemv}
 */
 setReadOnly( blas, 'sgemv', require( './../../base/sgemv' ) );
+
+/**
+* @name sger
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/sger}
+*/
+setReadOnly( blas, 'sger', require( './../../base/sger' ) );
 
 /**
 * @name snrm2
