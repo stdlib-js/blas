@@ -40,7 +40,7 @@ limitations under the License.
 var str2enum = require( '@stdlib/blas/base/matrix-orientation-str2enum' );
 ```
 
-#### str2enum( operation )
+#### str2enum( value )
 
 Returns the enumeration constant associated with a matrix orientation.
 

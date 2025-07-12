@@ -263,6 +263,7 @@
 
 ### Bug Fixes
 
+-   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
 -   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
 -   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - update field name
 -   [`c9f4cb9`](https://github.com/stdlib-js/stdlib/commit/c9f4cb9b593f963d25efc20a6bd3b2aeeda515c2) - add missing checks and tests
@@ -537,6 +538,12 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`c9c2744`](https://github.com/stdlib-js/stdlib/commit/c9c274420d450483ea3518e73e5103961ec8f4b5) - **docs:** fix parameter name _(by Philipp Burckhardt)_
+-   [`c458860`](https://github.com/stdlib-js/stdlib/commit/c458860b027331d80f38f87461fb8f7e80283e39) - **refactor:** use smaller dtype _(by Athan Reines)_
+-   [`398570f`](https://github.com/stdlib-js/stdlib/commit/398570f2b74d19d9725a40e8c47f0a1e76af6f0a) - **refactor:** use smaller dtype _(by Athan Reines)_
+-   [`62ff36c`](https://github.com/stdlib-js/stdlib/commit/62ff36cb90d77208942f34b4bca9b592d6fb2093) - **docs:** remove returns annotations _(by Athan Reines)_
+-   [`63a51aa`](https://github.com/stdlib-js/stdlib/commit/63a51aa8549108ed0c1b50cef872ef9cc6f87311) - **docs:** remove returns annotations _(by Athan Reines)_
+-   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - **fix:** update path _(by Athan Reines)_
 -   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - **feat:** add `isMatrixOrientation` to namespace _(by Athan Reines)_
 -   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - **feat:** add `blas/base/assert/is-matrix-orientation` _(by Athan Reines)_
 -   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - **feat:** add `CBLAS_ORIENT` type definition _(by Athan Reines)_

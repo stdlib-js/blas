@@ -21,9 +21,9 @@
 
 #include "stdlib/blas/base/diagonal_types.h"
 #include "stdlib/blas/base/layouts.h"
+#include "stdlib/blas/base/matrix_orientations.h"
 #include "stdlib/blas/base/matrix_triangles.h"
 #include "stdlib/blas/base/operation_sides.h"
-#include "stdlib/blas/base/orientations.h"
 #include "stdlib/blas/base/transpose_operations.h"
 #include <stddef.h>
 #include <stdint.h>

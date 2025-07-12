@@ -35,9 +35,9 @@
       "dependencies": [
         "@stdlib/blas/base/diagonal-types",
         "@stdlib/blas/base/layouts",
+        "@stdlib/blas/base/matrix-orientations",
         "@stdlib/blas/base/matrix-triangles",
         "@stdlib/blas/base/operation-sides",
-        "@stdlib/blas/base/orientations",
         "@stdlib/blas/base/transpose-operations"
       ]
     }
