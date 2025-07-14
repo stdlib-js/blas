@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-13)
+## Unreleased (2025-07-14)
 
 <section class="features">
 
@@ -538,6 +538,7 @@ A total of 24 issues were closed in this release:
 
 <details>
 
+-   [`708320e`](https://github.com/stdlib-js/stdlib/commit/708320e43d505cd6f390bf6014d58cb5e092cbaf) - **docs:** update related packages sections [(#7647)](https://github.com/stdlib-js/stdlib/pull/7647) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`e01e9d8`](https://github.com/stdlib-js/stdlib/commit/e01e9d8efc5ba72da1a68a6abf2d4058e6d89a02) - **docs:** use appropriate data type in string interpolation [(#7631)](https://github.com/stdlib-js/stdlib/pull/7631) _(by Shabareesh Shetty)_
 -   [`c9c2744`](https://github.com/stdlib-js/stdlib/commit/c9c274420d450483ea3518e73e5103961ec8f4b5) - **docs:** fix parameter name _(by Philipp Burckhardt)_
 -   [`c458860`](https://github.com/stdlib-js/stdlib/commit/c458860b027331d80f38f87461fb8f7e80283e39) - **refactor:** use smaller dtype _(by Athan Reines)_
