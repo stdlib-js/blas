@@ -545,6 +545,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`7ee7d36`](https://github.com/stdlib-js/stdlib/commit/7ee7d3670bc523f7353b5bf2d048a144a2c67e01) - **docs:** fix typo _(by Athan Reines)_
+-   [`2ec2116`](https://github.com/stdlib-js/stdlib/commit/2ec2116fb43058cddc4bf726defbe60823bd2590) - **docs:** fix typo _(by Athan Reines)_
 -   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`2e9d1b7`](https://github.com/stdlib-js/stdlib/commit/2e9d1b7a10a3058d75cfe6ea5470beacea086a63) - **feat:** add `sswap` to namespace _(by Athan Reines)_
 -   [`efbe0fa`](https://github.com/stdlib-js/stdlib/commit/efbe0fade8b7c664b085fd683e9d7e76147e16e3) - **feat:** add `sdsdot` to namespace _(by Athan Reines)_
