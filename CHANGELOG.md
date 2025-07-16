@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`75e2622`](https://github.com/stdlib-js/stdlib/commit/75e2622f2a9c4a5f7b6fc639dcabe3129d9f6ca9) - add C implementation for `blas/base/dsyr2` [(#6572)](https://github.com/stdlib-js/stdlib/pull/6572)
 -   [`2e9d1b7`](https://github.com/stdlib-js/stdlib/commit/2e9d1b7a10a3058d75cfe6ea5470beacea086a63) - add `sswap` to namespace
 -   [`efbe0fa`](https://github.com/stdlib-js/stdlib/commit/efbe0fade8b7c664b085fd683e9d7e76147e16e3) - add `sdsdot` to namespace
 -   [`091b506`](https://github.com/stdlib-js/stdlib/commit/091b506bbff10a11cebaf052692aff11cd50ca62) - add `scnrm2` to namespace
@@ -545,6 +546,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`92d4b33`](https://github.com/stdlib-js/stdlib/commit/92d4b337fe0f7aed4e2adaeb57da42ec639cff38) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`75e2622`](https://github.com/stdlib-js/stdlib/commit/75e2622f2a9c4a5f7b6fc639dcabe3129d9f6ca9) - **feat:** add C implementation for `blas/base/dsyr2` [(#6572)](https://github.com/stdlib-js/stdlib/pull/6572) _(by Shabareesh Shetty, Athan Reines, stdlib-bot, Aman Bhansali)_
 -   [`7ee7d36`](https://github.com/stdlib-js/stdlib/commit/7ee7d3670bc523f7353b5bf2d048a144a2c67e01) - **docs:** fix typo _(by Athan Reines)_
 -   [`2ec2116`](https://github.com/stdlib-js/stdlib/commit/2ec2116fb43058cddc4bf726defbe60823bd2590) - **docs:** fix typo _(by Athan Reines)_
 -   [`5388bba`](https://github.com/stdlib-js/stdlib/commit/5388bba36044d2de93dacb0134c6e5539b02928c) - **chore:** minor clean-up _(by Philipp Burckhardt)_

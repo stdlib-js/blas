@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -21,8 +21,9 @@
 // MODULES //
 
 var isMatrixTriangle = require( './../../../base/assert/is-matrix-triangle' );
+var resolveUplo = require( './../../../base/matrix-triangle-resolve-enum' );
 var format = require( '@stdlib/string/format' );
-var base = require( './base.js' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -84,7 +85,8 @@ function dsyr2( uplo, N, alpha, x, strideX, offsetX, y, strideY, offsetY, A, str
 	if ( N === 0 || alpha === 0.0 ) {
 		return A;
 	}
-	return base( uplo, N, alpha, x, strideX, offsetX, y, strideY, offsetY, A, strideA1, strideA2, offsetA ); // eslint-disable-line max-len
+	addon.ndarray( resolveUplo( uplo ), N, alpha, x, strideX, offsetX, y, strideY, offsetY, A, strideA1, strideA2, offsetA ); // eslint-disable-line max-len
+	return A;
 }
 
 

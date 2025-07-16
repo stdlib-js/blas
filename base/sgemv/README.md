@@ -53,7 +53,7 @@ The function has the following parameters:
 -   **N**: number of columns in the matrix `A`.
 -   **α**: scalar constant.
 -   **A**: input matrix stored in linear memory as a [`Float32Array`][mdn-float32array].
--   **lda**: stride of the first dimension of `A` (leading dimension of `A`).
+-   **lda**: stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`).
 -   **x**: input [`Float32Array`][mdn-float32array].
 -   **sx**: stride length for `x`.
 -   **β**: scalar constant.
