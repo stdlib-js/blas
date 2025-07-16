@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`2e9d1b7`](https://github.com/stdlib-js/stdlib/commit/2e9d1b7a10a3058d75cfe6ea5470beacea086a63) - add `sswap` to namespace
+-   [`efbe0fa`](https://github.com/stdlib-js/stdlib/commit/efbe0fade8b7c664b085fd683e9d7e76147e16e3) - add `sdsdot` to namespace
+-   [`091b506`](https://github.com/stdlib-js/stdlib/commit/091b506bbff10a11cebaf052692aff11cd50ca62) - add `scnrm2` to namespace
+-   [`3cc3bc4`](https://github.com/stdlib-js/stdlib/commit/3cc3bc4bad2a228a7f3a987be7985c2d2fca2988) - add `scasum` to namespace
+-   [`6cf5764`](https://github.com/stdlib-js/stdlib/commit/6cf5764f637dd02b06970fc6716ab6aba955b7dc) - add `dznrm2` to namespace
+-   [`b666af6`](https://github.com/stdlib-js/stdlib/commit/b666af681143dbb7fad3eaccaa5221b5491a7207) - add `dsdot` to namespace
 -   [`e6adda2`](https://github.com/stdlib-js/stdlib/commit/e6adda297e305a79f5aca249d654cd197e8ec8bf) - add `blas/base/wasm/dznrm2` [(#6795)](https://github.com/stdlib-js/stdlib/pull/6795)
 -   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - add `isMatrixOrientation` to namespace
 -   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - add `blas/base/assert/is-matrix-orientation`
@@ -539,6 +545,12 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`2e9d1b7`](https://github.com/stdlib-js/stdlib/commit/2e9d1b7a10a3058d75cfe6ea5470beacea086a63) - **feat:** add `sswap` to namespace _(by Athan Reines)_
+-   [`efbe0fa`](https://github.com/stdlib-js/stdlib/commit/efbe0fade8b7c664b085fd683e9d7e76147e16e3) - **feat:** add `sdsdot` to namespace _(by Athan Reines)_
+-   [`091b506`](https://github.com/stdlib-js/stdlib/commit/091b506bbff10a11cebaf052692aff11cd50ca62) - **feat:** add `scnrm2` to namespace _(by Athan Reines)_
+-   [`3cc3bc4`](https://github.com/stdlib-js/stdlib/commit/3cc3bc4bad2a228a7f3a987be7985c2d2fca2988) - **feat:** add `scasum` to namespace _(by Athan Reines)_
+-   [`6cf5764`](https://github.com/stdlib-js/stdlib/commit/6cf5764f637dd02b06970fc6716ab6aba955b7dc) - **feat:** add `dznrm2` to namespace _(by Athan Reines)_
+-   [`b666af6`](https://github.com/stdlib-js/stdlib/commit/b666af681143dbb7fad3eaccaa5221b5491a7207) - **feat:** add `dsdot` to namespace _(by Athan Reines)_
 -   [`e6adda2`](https://github.com/stdlib-js/stdlib/commit/e6adda297e305a79f5aca249d654cd197e8ec8bf) - **feat:** add `blas/base/wasm/dznrm2` [(#6795)](https://github.com/stdlib-js/stdlib/pull/6795) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`40e9eaa`](https://github.com/stdlib-js/stdlib/commit/40e9eaa2b7391c661a6bf953938b82adee3761bd) - **bench:** fix random value generation _(by Athan Reines)_
 -   [`1070a84`](https://github.com/stdlib-js/stdlib/commit/1070a840f5b25d142478ca21fce3109dd0dfc983) - **bench:** fix random value generation _(by Athan Reines)_

@@ -145,6 +145,15 @@ setReadOnly( ns, 'drotm', require( './../../../base/drotm' ) );
 setReadOnly( ns, 'dscal', require( './../../../base/dscal' ) );
 
 /**
+* @name dsdot
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/dsdot}
+*/
+setReadOnly( ns, 'dsdot', require( './../../../base/dsdot' ) );
+
+/**
 * @name dswap
 * @memberof ns
 * @readonly
@@ -152,6 +161,15 @@ setReadOnly( ns, 'dscal', require( './../../../base/dscal' ) );
 * @see {@link module:@stdlib/blas/base/dswap}
 */
 setReadOnly( ns, 'dswap', require( './../../../base/dswap' ) );
+
+/**
+* @name dznrm2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/dznrm2}
+*/
+setReadOnly( ns, 'dznrm2', require( './../../../base/dznrm2' ) );
 
 /**
 * @name idamax
@@ -190,6 +208,24 @@ setReadOnly( ns, 'sasum', require( './../../../base/sasum' ) );
 setReadOnly( ns, 'saxpy', require( './../../../base/saxpy' ) );
 
 /**
+* @name scasum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/scasum}
+*/
+setReadOnly( ns, 'scasum', require( './../../../base/scasum' ) );
+
+/**
+* @name scnrm2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/scnrm2}
+*/
+setReadOnly( ns, 'scnrm2', require( './../../../base/scnrm2' ) );
+
+/**
 * @name scopy
 * @memberof ns
 * @readonly
@@ -206,6 +242,15 @@ setReadOnly( ns, 'scopy', require( './../../../base/scopy' ) );
 * @see {@link module:@stdlib/blas/base/sdot}
 */
 setReadOnly( ns, 'sdot', require( './../../../base/sdot' ) );
+
+/**
+* @name sdsdot
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/sdsdot}
+*/
+setReadOnly( ns, 'sdsdot', require( './../../../base/sdsdot' ) );
 
 /**
 * @name snrm2
@@ -242,6 +287,15 @@ setReadOnly( ns, 'srotm', require( './../../../base/srotm' ) );
 * @see {@link module:@stdlib/blas/base/sscal}
 */
 setReadOnly( ns, 'sscal', require( './../../../base/sscal' ) );
+
+/**
+* @name sswap
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/sswap}
+*/
+setReadOnly( ns, 'sswap', require( './../../../base/sswap' ) );
 
 /**
 * @name zcopy
