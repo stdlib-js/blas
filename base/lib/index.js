@@ -388,6 +388,15 @@ setReadOnly( blas, 'gcopy', require( './../../base/gcopy' ) );
 setReadOnly( blas, 'gdot', require( './../../base/gdot' ) );
 
 /**
+* @name gger
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/gger}
+*/
+setReadOnly( blas, 'gger', require( './../../base/gger' ) );
+
+/**
 * @name gnrm2
 * @memberof blas
 * @readonly
