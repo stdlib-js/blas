@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-14)
+## Unreleased (2025-07-16)
 
 <section class="features">
 
 ### Features
 
+-   [`e6adda2`](https://github.com/stdlib-js/stdlib/commit/e6adda297e305a79f5aca249d654cd197e8ec8bf) - add `blas/base/wasm/dznrm2` [(#6795)](https://github.com/stdlib-js/stdlib/pull/6795)
 -   [`0b41f37`](https://github.com/stdlib-js/stdlib/commit/0b41f37fd5a455514797c54480879da3fa06201f) - add `isMatrixOrientation` to namespace
 -   [`f5f4f53`](https://github.com/stdlib-js/stdlib/commit/f5f4f53480b1bfdf40b771f3720fecfa9a68911d) - add `blas/base/assert/is-matrix-orientation`
 -   [`0bc0123`](https://github.com/stdlib-js/stdlib/commit/0bc0123a316f3efc9ce8a97a4de24a98a7ad2bb8) - add `CBLAS_ORIENT` type definition
@@ -538,6 +539,11 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`e6adda2`](https://github.com/stdlib-js/stdlib/commit/e6adda297e305a79f5aca249d654cd197e8ec8bf) - **feat:** add `blas/base/wasm/dznrm2` [(#6795)](https://github.com/stdlib-js/stdlib/pull/6795) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`40e9eaa`](https://github.com/stdlib-js/stdlib/commit/40e9eaa2b7391c661a6bf953938b82adee3761bd) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`1070a84`](https://github.com/stdlib-js/stdlib/commit/1070a840f5b25d142478ca21fce3109dd0dfc983) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`9de8599`](https://github.com/stdlib-js/stdlib/commit/9de85992004be1bb16c4374f090bdbf4f1861928) - **bench:** fix random value generation _(by Athan Reines)_
+-   [`9dc4177`](https://github.com/stdlib-js/stdlib/commit/9dc4177ac62c2bfaa7db9f6168cb4b3846e8ea07) - **bench:** fix random value generation _(by Athan Reines)_
 -   [`3192ef5`](https://github.com/stdlib-js/stdlib/commit/3192ef5e908c2ac107edf9ac4a4c92bd2997aa67) - **chore:** fix C lint errors [(#7646)](https://github.com/stdlib-js/stdlib/pull/7646) _(by GeoDaoyu)_
 -   [`708320e`](https://github.com/stdlib-js/stdlib/commit/708320e43d505cd6f390bf6014d58cb5e092cbaf) - **docs:** update related packages sections [(#7647)](https://github.com/stdlib-js/stdlib/pull/7647) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`e01e9d8`](https://github.com/stdlib-js/stdlib/commit/e01e9d8efc5ba72da1a68a6abf2d4058e6d89a02) - **docs:** use appropriate data type in string interpolation [(#7631)](https://github.com/stdlib-js/stdlib/pull/7631) _(by Shabareesh Shetty)_
