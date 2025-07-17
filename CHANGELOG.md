@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127)
 -   [`9dc8cd1`](https://github.com/stdlib-js/stdlib/commit/9dc8cd1f528d402a9072014d9e54ac01172814ed) - add `gger` to namespace
 -   [`c807834`](https://github.com/stdlib-js/stdlib/commit/c8078342575813bde0e5cc0e37b54ac2b75e74b8) - add `blas/base/gger` [(#7629)](https://github.com/stdlib-js/stdlib/pull/7629)
 -   [`75e2622`](https://github.com/stdlib-js/stdlib/commit/75e2622f2a9c4a5f7b6fc639dcabe3129d9f6ca9) - add C implementation for `blas/base/dsyr2` [(#6572)](https://github.com/stdlib-js/stdlib/pull/6572)
@@ -548,6 +549,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - **feat:** add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127) _(by Shabareesh Shetty, Athan Reines)_
 -   [`bbcd10e`](https://github.com/stdlib-js/stdlib/commit/bbcd10e4612d8b164f5716b1a3d79aecba358548) - **docs:** fix parameter name _(by Athan Reines)_
 -   [`f892202`](https://github.com/stdlib-js/stdlib/commit/f89220228daf5c84c2a5cfdcc03633ac2cc78a7c) - **docs:** fix description _(by Athan Reines)_
 -   [`9dc8cd1`](https://github.com/stdlib-js/stdlib/commit/9dc8cd1f528d402a9072014d9e54ac01172814ed) - **feat:** add `gger` to namespace _(by Athan Reines)_

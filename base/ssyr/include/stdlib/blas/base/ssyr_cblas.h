@@ -32,9 +32,9 @@ extern "C" {
 #endif
 
 /**
-* Performs the symmetric rank 1 operation `A = α*x*x^T + A`.
+* Performs the symmetric rank 1 operation `A = α*x*x^T + A` where `α` is a scalar, `x` is an `N` element vector, and `A` is an `N` by `N` symmetric matrix.
 */
-void API_SUFFIX(cblas_ssyr)( const CBLAS_LAYOUT order, const CBLAS_UPLO uplo, const CBLAS_INT N, const float alpha, const float *X, const CBLAS_INT strideX, float *A, const CBLAS_INT LDA );
+void API_SUFFIX(cblas_ssyr)( const CBLAS_LAYOUT layout, const CBLAS_UPLO uplo, const CBLAS_INT N, const float alpha, const float *X, const CBLAS_INT strideX, float *A, const CBLAS_INT LDA );
 
 #ifdef __cplusplus
 }
