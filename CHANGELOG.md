@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-16)
+## Unreleased (2025-07-17)
 
 <section class="features">
 
@@ -548,6 +548,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`f892202`](https://github.com/stdlib-js/stdlib/commit/f89220228daf5c84c2a5cfdcc03633ac2cc78a7c) - **docs:** fix description _(by Athan Reines)_
 -   [`9dc8cd1`](https://github.com/stdlib-js/stdlib/commit/9dc8cd1f528d402a9072014d9e54ac01172814ed) - **feat:** add `gger` to namespace _(by Athan Reines)_
 -   [`c807834`](https://github.com/stdlib-js/stdlib/commit/c8078342575813bde0e5cc0e37b54ac2b75e74b8) - **feat:** add `blas/base/gger` [(#7629)](https://github.com/stdlib-js/stdlib/pull/7629) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`92d4b33`](https://github.com/stdlib-js/stdlib/commit/92d4b337fe0f7aed4e2adaeb57da42ec639cff38) - **docs:** fix descriptions _(by Athan Reines)_
