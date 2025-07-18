@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-17)
+## Unreleased (2025-07-18)
 
 <section class="features">
 
@@ -274,6 +274,7 @@
 
 ### Bug Fixes
 
+-   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - use correct stride in error message
 -   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
 -   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
 -   [`2cb36f7`](https://github.com/stdlib-js/stdlib/commit/2cb36f78f8a2e23a6be89070c1c8c6c7d257a096) - update field name
@@ -549,6 +550,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`ade0259`](https://github.com/stdlib-js/stdlib/commit/ade02597cebc6c28007b5082d28abcf73c076e57) - **style:** remove leading empty line _(by Philipp Burckhardt)_
+-   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - **fix:** use correct stride in error message _(by Philipp Burckhardt)_
 -   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - **feat:** add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127) _(by Shabareesh Shetty, Athan Reines)_
 -   [`bbcd10e`](https://github.com/stdlib-js/stdlib/commit/bbcd10e4612d8b164f5716b1a3d79aecba358548) - **docs:** fix parameter name _(by Athan Reines)_
 -   [`f892202`](https://github.com/stdlib-js/stdlib/commit/f89220228daf5c84c2a5cfdcc03633ac2cc78a7c) - **docs:** fix description _(by Athan Reines)_
