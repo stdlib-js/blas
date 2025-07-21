@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-18)
+## Unreleased (2025-07-21)
 
 <section class="features">
 
@@ -550,6 +550,9 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`f911d85`](https://github.com/stdlib-js/stdlib/commit/f911d85bd1fbe895bc360b5062ab7d7890029f48) - **refactor:** update include header guards for `blas/base/dsyr` [(#7689)](https://github.com/stdlib-js/stdlib/pull/7689) _(by Shabareesh Shetty)_
+-   [`099dca8`](https://github.com/stdlib-js/stdlib/commit/099dca8ca5d4ec5078cfc376b0533bd1dac34f95) - **docs:** fix method invocation in example _(by Athan Reines)_
+-   [`670819f`](https://github.com/stdlib-js/stdlib/commit/670819fd8dfa1f77eaeb50565311e2695d38d0b8) - **docs:** fix method invocation in example [(#7691)](https://github.com/stdlib-js/stdlib/pull/7691) _(by Shabareesh Shetty)_
 -   [`ade0259`](https://github.com/stdlib-js/stdlib/commit/ade02597cebc6c28007b5082d28abcf73c076e57) - **style:** remove leading empty line _(by Philipp Burckhardt)_
 -   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - **fix:** use correct stride in error message _(by Philipp Burckhardt)_
 -   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - **feat:** add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127) _(by Shabareesh Shetty, Athan Reines)_
