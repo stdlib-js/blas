@@ -550,6 +550,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`a9776fd`](https://github.com/stdlib-js/stdlib/commit/a9776fdca0331c293eade49bd195836fbb434999) - **refactor:** update include header guards for single precision complex packages [(#7708)](https://github.com/stdlib-js/stdlib/pull/7708) _(by Shabareesh Shetty)_
 -   [`f911d85`](https://github.com/stdlib-js/stdlib/commit/f911d85bd1fbe895bc360b5062ab7d7890029f48) - **refactor:** update include header guards for `blas/base/dsyr` [(#7689)](https://github.com/stdlib-js/stdlib/pull/7689) _(by Shabareesh Shetty)_
 -   [`099dca8`](https://github.com/stdlib-js/stdlib/commit/099dca8ca5d4ec5078cfc376b0533bd1dac34f95) - **docs:** fix method invocation in example _(by Athan Reines)_
 -   [`670819f`](https://github.com/stdlib-js/stdlib/commit/670819fd8dfa1f77eaeb50565311e2695d38d0b8) - **docs:** fix method invocation in example [(#7691)](https://github.com/stdlib-js/stdlib/pull/7691) _(by Shabareesh Shetty)_
