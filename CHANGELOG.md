@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-22)
+## Unreleased (2025-07-23)
 
 <section class="features">
 
 ### Features
 
+-   [`cf8cf0a`](https://github.com/stdlib-js/stdlib/commit/cf8cf0ac2b13ca1d2feb416e87154f713a37e507) - add `blas/ext/index-of` [(#7565)](https://github.com/stdlib-js/stdlib/pull/7565)
 -   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127)
 -   [`9dc8cd1`](https://github.com/stdlib-js/stdlib/commit/9dc8cd1f528d402a9072014d9e54ac01172814ed) - add `gger` to namespace
 -   [`c807834`](https://github.com/stdlib-js/stdlib/commit/c8078342575813bde0e5cc0e37b54ac2b75e74b8) - add `blas/base/gger` [(#7629)](https://github.com/stdlib-js/stdlib/pull/7629)
@@ -550,6 +551,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`cf8cf0a`](https://github.com/stdlib-js/stdlib/commit/cf8cf0ac2b13ca1d2feb416e87154f713a37e507) - **feat:** add `blas/ext/index-of` [(#7565)](https://github.com/stdlib-js/stdlib/pull/7565) _(by Muhammad Haris, Athan Reines)_
 -   [`11f3cfa`](https://github.com/stdlib-js/stdlib/commit/11f3cfa5a658d7cb105aeb2578b7d72ea62f1e97) - **refactor:** update include header guards for double precision real packages [(#7711)](https://github.com/stdlib-js/stdlib/pull/7711) _(by Shabareesh Shetty)_
 -   [`bfa899f`](https://github.com/stdlib-js/stdlib/commit/bfa899f1968bc5b112549fc3e839973744706297) - **refactor:** update include header guards for double precision complex packages [(#7709)](https://github.com/stdlib-js/stdlib/pull/7709) _(by Shabareesh Shetty)_
 -   [`d559fd7`](https://github.com/stdlib-js/stdlib/commit/d559fd70de9ec9b1d72d22543876f380e4062c69) - **refactor:** update include header guards for single precision real packages [(#7710)](https://github.com/stdlib-js/stdlib/pull/7710) _(by Shabareesh Shetty)_
