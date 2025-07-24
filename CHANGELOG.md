@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-23)
+## Unreleased (2025-07-24)
 
 <section class="features">
 
@@ -551,6 +551,9 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`821035c`](https://github.com/stdlib-js/stdlib/commit/821035c992e57ecadb7531c71f4bcb084b32461c) - **refactor:** only check properties when options has been provided _(by Philipp Burckhardt)_
+-   [`4c956ca`](https://github.com/stdlib-js/stdlib/commit/4c956ca79f7be9a1cddcf8376760749913332718) - **docs:** fix JSDoc type _(by Philipp Burckhardt)_
+-   [`f83b3c1`](https://github.com/stdlib-js/stdlib/commit/f83b3c136f2ecd76e4604f27059c60d391f1c2d5) - **bench:** update parameters for ndarray benchmarking [(#7732)](https://github.com/stdlib-js/stdlib/pull/7732) _(by Shabareesh Shetty)_
 -   [`cf8cf0a`](https://github.com/stdlib-js/stdlib/commit/cf8cf0ac2b13ca1d2feb416e87154f713a37e507) - **feat:** add `blas/ext/index-of` [(#7565)](https://github.com/stdlib-js/stdlib/pull/7565) _(by Muhammad Haris, Athan Reines)_
 -   [`11f3cfa`](https://github.com/stdlib-js/stdlib/commit/11f3cfa5a658d7cb105aeb2578b7d72ea62f1e97) - **refactor:** update include header guards for double precision real packages [(#7711)](https://github.com/stdlib-js/stdlib/pull/7711) _(by Shabareesh Shetty)_
 -   [`bfa899f`](https://github.com/stdlib-js/stdlib/commit/bfa899f1968bc5b112549fc3e839973744706297) - **refactor:** update include header guards for double precision complex packages [(#7709)](https://github.com/stdlib-js/stdlib/pull/7709) _(by Shabareesh Shetty)_
