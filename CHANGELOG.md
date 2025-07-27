@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-24)
+## Unreleased (2025-07-27)
 
 <section class="features">
 
 ### Features
 
+-   [`0b79b81`](https://github.com/stdlib-js/stdlib/commit/0b79b81b45a018fa9a2f8a3a834164af9f944d40) - add `blas/base/ndarray/gdot` [(#7740)](https://github.com/stdlib-js/stdlib/pull/7740)
 -   [`cf8cf0a`](https://github.com/stdlib-js/stdlib/commit/cf8cf0ac2b13ca1d2feb416e87154f713a37e507) - add `blas/ext/index-of` [(#7565)](https://github.com/stdlib-js/stdlib/pull/7565)
 -   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127)
 -   [`9dc8cd1`](https://github.com/stdlib-js/stdlib/commit/9dc8cd1f528d402a9072014d9e54ac01172814ed) - add `gger` to namespace
@@ -551,6 +552,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`0b79b81`](https://github.com/stdlib-js/stdlib/commit/0b79b81b45a018fa9a2f8a3a834164af9f944d40) - **feat:** add `blas/base/ndarray/gdot` [(#7740)](https://github.com/stdlib-js/stdlib/pull/7740) _(by Gururaj Gurram, Athan Reines)_
 -   [`821035c`](https://github.com/stdlib-js/stdlib/commit/821035c992e57ecadb7531c71f4bcb084b32461c) - **refactor:** only check properties when options has been provided _(by Philipp Burckhardt)_
 -   [`4c956ca`](https://github.com/stdlib-js/stdlib/commit/4c956ca79f7be9a1cddcf8376760749913332718) - **docs:** fix JSDoc type _(by Philipp Burckhardt)_
 -   [`f83b3c1`](https://github.com/stdlib-js/stdlib/commit/f83b3c136f2ecd76e4604f27059c60d391f1c2d5) - **bench:** update parameters for ndarray benchmarking [(#7732)](https://github.com/stdlib-js/stdlib/pull/7732) _(by Shabareesh Shetty)_
