@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-28)
+## Unreleased (2025-08-03)
 
 <section class="features">
 
 ### Features
 
+-   [`9f11b61`](https://github.com/stdlib-js/stdlib/commit/9f11b6123d01cd7debd87a6d0fd8c1d1619f69b9) - add `blas/ext/base/gfind-index` [(#7727)](https://github.com/stdlib-js/stdlib/pull/7727)
+-   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697)
 -   [`0b79b81`](https://github.com/stdlib-js/stdlib/commit/0b79b81b45a018fa9a2f8a3a834164af9f944d40) - add `blas/base/ndarray/gdot` [(#7740)](https://github.com/stdlib-js/stdlib/pull/7740)
 -   [`cf8cf0a`](https://github.com/stdlib-js/stdlib/commit/cf8cf0ac2b13ca1d2feb416e87154f713a37e507) - add `blas/ext/index-of` [(#7565)](https://github.com/stdlib-js/stdlib/pull/7565)
 -   [`4f94e60`](https://github.com/stdlib-js/stdlib/commit/4f94e6071dbc28c204f01b2aae41618cc0bfc60b) - add C implementation to `blas/base/ssyr` [(#7127)](https://github.com/stdlib-js/stdlib/pull/7127)
@@ -552,6 +554,13 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`9f11b61`](https://github.com/stdlib-js/stdlib/commit/9f11b6123d01cd7debd87a6d0fd8c1d1619f69b9) - **feat:** add `blas/ext/base/gfind-index` [(#7727)](https://github.com/stdlib-js/stdlib/pull/7727) _(by Muhammad Haris, Athan Reines)_
+-   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - **feat:** add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
+-   [`295ec84`](https://github.com/stdlib-js/stdlib/commit/295ec846a762e879e8e86aa6640530c92ab5e563) - **docs:** update descriptions _(by Athan Reines)_
+-   [`159a7bd`](https://github.com/stdlib-js/stdlib/commit/159a7bdca75971055131d61d5cb67a6856ec2d30) - **docs:** update descriptions _(by Athan Reines)_
+-   [`a384a64`](https://github.com/stdlib-js/stdlib/commit/a384a64b85c34cf2911bb01af7ae248649467037) - **docs:** update descriptions _(by Athan Reines)_
+-   [`c005d72`](https://github.com/stdlib-js/stdlib/commit/c005d72ccf277b527f30f691b557dc690ce7d7c7) - **docs:** ensure consistent capitalization _(by Athan Reines)_
+-   [`1582d42`](https://github.com/stdlib-js/stdlib/commit/1582d42f6efd18df7ae13857ff78ba73b65bdb7d) - **docs:** ensure consistent capitalization _(by Athan Reines)_
 -   [`0b79b81`](https://github.com/stdlib-js/stdlib/commit/0b79b81b45a018fa9a2f8a3a834164af9f944d40) - **feat:** add `blas/base/ndarray/gdot` [(#7740)](https://github.com/stdlib-js/stdlib/pull/7740) _(by Gururaj Gurram, Athan Reines)_
 -   [`821035c`](https://github.com/stdlib-js/stdlib/commit/821035c992e57ecadb7531c71f4bcb084b32461c) - **refactor:** only check properties when options has been provided _(by Philipp Burckhardt)_
 -   [`4c956ca`](https://github.com/stdlib-js/stdlib/commit/4c956ca79f7be9a1cddcf8376760749913332718) - **docs:** fix JSDoc type _(by Philipp Burckhardt)_
