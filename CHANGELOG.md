@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`99ceb58`](https://github.com/stdlib-js/stdlib/commit/99ceb580d1a79b9ed6f828ad7367cca290edd888) - add `blas/ext/base/ndarray/gfind-index` [(#7743)](https://github.com/stdlib-js/stdlib/pull/7743)
 -   [`7c488c6`](https://github.com/stdlib-js/stdlib/commit/7c488c68c58e8d3d4bdde31606f96ac95829742f) - add `blas/ext/base/ndarray/gsorthp` [(#7756)](https://github.com/stdlib-js/stdlib/pull/7756)
 -   [`9f11b61`](https://github.com/stdlib-js/stdlib/commit/9f11b6123d01cd7debd87a6d0fd8c1d1619f69b9) - add `blas/ext/base/gfind-index` [(#7727)](https://github.com/stdlib-js/stdlib/pull/7727)
 -   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697)
@@ -555,6 +556,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`99ceb58`](https://github.com/stdlib-js/stdlib/commit/99ceb580d1a79b9ed6f828ad7367cca290edd888) - **feat:** add `blas/ext/base/ndarray/gfind-index` [(#7743)](https://github.com/stdlib-js/stdlib/pull/7743) _(by Muhammad Haris, Athan Reines)_
 -   [`2cffc9d`](https://github.com/stdlib-js/stdlib/commit/2cffc9d24250e42639db3f11cf49bd4e4bc174bf) - **test:** correct test assertion messages _(by Philipp Burckhardt)_
 -   [`7c488c6`](https://github.com/stdlib-js/stdlib/commit/7c488c68c58e8d3d4bdde31606f96ac95829742f) - **feat:** add `blas/ext/base/ndarray/gsorthp` [(#7756)](https://github.com/stdlib-js/stdlib/pull/7756) _(by Muhammad Haris, Athan Reines)_
 -   [`12a15ec`](https://github.com/stdlib-js/stdlib/commit/12a15ece0351b7760ebed4fb8edfa669bd470118) - **docs:** fix function alias in example [(#7829)](https://github.com/stdlib-js/stdlib/pull/7829) _(by Shabareesh Shetty)_
