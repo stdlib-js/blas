@@ -48,7 +48,7 @@ tape( 'the function sorts a one-dimensional ndarray (increasing order)', functio
 	t.strictEqual( actual.dtype, x.dtype, 'returns expected value' );
 	t.deepEqual( [ 1.0, 2.0, 3.0, 4.0, 5.0 ], x.data, 'returns expected value' );
 	t.deepEqual( actual.shape, x.shape, 'returns expected value' );
-	t.deepEqual( actual.strides, x.strides, 'return expected value' );
+	t.deepEqual( actual.strides, x.strides, 'returns expected value' );
 	t.strictEqual( actual.offset, x.offset, 'returns expected value' );
 
 	t.end();
@@ -68,7 +68,7 @@ tape( 'the function sorts a one-dimensional ndarray (decreasing order)', functio
 	t.strictEqual( actual.dtype, x.dtype, 'returns expected value' );
 	t.deepEqual( [ 5.0, 4.0, 3.0, 2.0, 1.0 ], x.data, 'returns expected value' );
 	t.deepEqual( actual.shape, x.shape, 'returns expected value' );
-	t.deepEqual( actual.strides, x.strides, 'return expected value' );
+	t.deepEqual( actual.strides, x.strides, 'returns expected value' );
 	t.strictEqual( actual.offset, x.offset, 'returns expected value' );
 
 	t.end();
