@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-03)
+## Unreleased (2025-08-09)
 
 <section class="features">
 
 ### Features
 
+-   [`7c488c6`](https://github.com/stdlib-js/stdlib/commit/7c488c68c58e8d3d4bdde31606f96ac95829742f) - add `blas/ext/base/ndarray/gsorthp` [(#7756)](https://github.com/stdlib-js/stdlib/pull/7756)
 -   [`9f11b61`](https://github.com/stdlib-js/stdlib/commit/9f11b6123d01cd7debd87a6d0fd8c1d1619f69b9) - add `blas/ext/base/gfind-index` [(#7727)](https://github.com/stdlib-js/stdlib/pull/7727)
 -   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697)
 -   [`0b79b81`](https://github.com/stdlib-js/stdlib/commit/0b79b81b45a018fa9a2f8a3a834164af9f944d40) - add `blas/base/ndarray/gdot` [(#7740)](https://github.com/stdlib-js/stdlib/pull/7740)
@@ -554,6 +555,11 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`7c488c6`](https://github.com/stdlib-js/stdlib/commit/7c488c68c58e8d3d4bdde31606f96ac95829742f) - **feat:** add `blas/ext/base/ndarray/gsorthp` [(#7756)](https://github.com/stdlib-js/stdlib/pull/7756) _(by Muhammad Haris, Athan Reines)_
+-   [`12a15ec`](https://github.com/stdlib-js/stdlib/commit/12a15ece0351b7760ebed4fb8edfa669bd470118) - **docs:** fix function alias in example [(#7829)](https://github.com/stdlib-js/stdlib/pull/7829) _(by Shabareesh Shetty)_
+-   [`8a0618b`](https://github.com/stdlib-js/stdlib/commit/8a0618bf4e79916cd2e32e9159e0299b7c1bcf34) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`6eee151`](https://github.com/stdlib-js/stdlib/commit/6eee15199727d04e3757e66f38384e97b8a333da) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
+-   [`da7e4e4`](https://github.com/stdlib-js/stdlib/commit/da7e4e422963b771b74c3db51d0d081adee34724) - **docs:** fix arguments in example code _(by Philipp Burckhardt)_
 -   [`9f11b61`](https://github.com/stdlib-js/stdlib/commit/9f11b6123d01cd7debd87a6d0fd8c1d1619f69b9) - **feat:** add `blas/ext/base/gfind-index` [(#7727)](https://github.com/stdlib-js/stdlib/pull/7727) _(by Muhammad Haris, Athan Reines)_
 -   [`6177f03`](https://github.com/stdlib-js/stdlib/commit/6177f031124ddaf3fa330f2cffe453ec03b7ac60) - **feat:** add `blas/base/ggemv` [(#7697)](https://github.com/stdlib-js/stdlib/pull/7697) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`295ec84`](https://github.com/stdlib-js/stdlib/commit/295ec846a762e879e8e86aa6640530c92ab5e563) - **docs:** update descriptions _(by Athan Reines)_
