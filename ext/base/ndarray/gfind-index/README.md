@@ -41,7 +41,6 @@ var gfindIndex = require( '@stdlib/blas/ext/base/ndarray/gfind-index' );
 Returns the index of the first element in a one-dimensional ndarray which passes a test implemented by a predicate function.
 
 ```javascript
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 
 function isEven( v ) {
@@ -58,7 +57,6 @@ var idx = gfindIndex( [ x ], isEven );
 If no element passes a test implemented by a predicate function, the function returns `-1`.
 
 ```javascript
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 
 function isEven( v ) {

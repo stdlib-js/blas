@@ -60,8 +60,6 @@ function gfindIndex( arrays, clbk, thisArg ) {
 	* @private
 	* @param {*} value - current array element
 	* @param {NonNegativeInteger} aidx - current array element index
-	* @param {NonNegativeInteger} sidx - current strided array element index
-	* @param {Collection} arr - input array
 	* @returns {*} result
 	*/
 	function wrapper( value, aidx ) {
