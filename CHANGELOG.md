@@ -556,6 +556,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`ad4c2ac`](https://github.com/stdlib-js/stdlib/commit/ad4c2ac4c5a44cf6917ae884f1579be87f8b27a3) - **docs:** add notes _(by Athan Reines)_
+-   [`88b1acc`](https://github.com/stdlib-js/stdlib/commit/88b1acca4315fb234f9ff7f54dbbb8d07136f8d1) - **docs:** minor clean-up _(by Athan Reines)_
 -   [`a2556fa`](https://github.com/stdlib-js/stdlib/commit/a2556fa44ca75d9213153fb92435455076813139) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`99ceb58`](https://github.com/stdlib-js/stdlib/commit/99ceb580d1a79b9ed6f828ad7367cca290edd888) - **feat:** add `blas/ext/base/ndarray/gfind-index` [(#7743)](https://github.com/stdlib-js/stdlib/pull/7743) _(by Muhammad Haris, Athan Reines)_
 -   [`2cffc9d`](https://github.com/stdlib-js/stdlib/commit/2cffc9d24250e42639db3f11cf49bd4e4bc174bf) - **test:** correct test assertion messages _(by Philipp Burckhardt)_
