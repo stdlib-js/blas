@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3b4283e`](https://github.com/stdlib-js/stdlib/commit/3b4283e7c7e337873c973dd47743b1d61d9fd356) - add `blas/ext/base/gfind-last-index` [(#7785)](https://github.com/stdlib-js/stdlib/pull/7785)
 -   [`99ceb58`](https://github.com/stdlib-js/stdlib/commit/99ceb580d1a79b9ed6f828ad7367cca290edd888) - add `blas/ext/base/ndarray/gfind-index` [(#7743)](https://github.com/stdlib-js/stdlib/pull/7743)
 -   [`7c488c6`](https://github.com/stdlib-js/stdlib/commit/7c488c68c58e8d3d4bdde31606f96ac95829742f) - add `blas/ext/base/ndarray/gsorthp` [(#7756)](https://github.com/stdlib-js/stdlib/pull/7756)
 -   [`9f11b61`](https://github.com/stdlib-js/stdlib/commit/9f11b6123d01cd7debd87a6d0fd8c1d1619f69b9) - add `blas/ext/base/gfind-index` [(#7727)](https://github.com/stdlib-js/stdlib/pull/7727)
@@ -556,6 +557,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`3b4283e`](https://github.com/stdlib-js/stdlib/commit/3b4283e7c7e337873c973dd47743b1d61d9fd356) - **feat:** add `blas/ext/base/gfind-last-index` [(#7785)](https://github.com/stdlib-js/stdlib/pull/7785) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`ad4c2ac`](https://github.com/stdlib-js/stdlib/commit/ad4c2ac4c5a44cf6917ae884f1579be87f8b27a3) - **docs:** add notes _(by Athan Reines)_
 -   [`88b1acc`](https://github.com/stdlib-js/stdlib/commit/88b1acca4315fb234f9ff7f54dbbb8d07136f8d1) - **docs:** minor clean-up _(by Athan Reines)_
 -   [`a2556fa`](https://github.com/stdlib-js/stdlib/commit/a2556fa44ca75d9213153fb92435455076813139) - **chore:** minor clean-up _(by Philipp Burckhardt)_
