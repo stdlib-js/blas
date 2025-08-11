@@ -559,6 +559,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`e1d4bc2`](https://github.com/stdlib-js/stdlib/commit/e1d4bc2359b13220c43c397eacfea81fc79bd334) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a868191`](https://github.com/stdlib-js/stdlib/commit/a86819118c19f1669e45ef86564043c84705803f) - **feat:** add `blas/ext/base/ndarray/dsorthp` [(#7854)](https://github.com/stdlib-js/stdlib/pull/7854) _(by Muhammad Haris)_
 -   [`a7b8f1e`](https://github.com/stdlib-js/stdlib/commit/a7b8f1ef11fdf661d4048e92b5b0256ba5bf0063) - **feat:** add `blas/ext/base/ndarray/ssorthp` [(#7839)](https://github.com/stdlib-js/stdlib/pull/7839) _(by Muhammad Haris, Athan Reines)_
 -   [`3b4283e`](https://github.com/stdlib-js/stdlib/commit/3b4283e7c7e337873c973dd47743b1d61d9fd356) - **feat:** add `blas/ext/base/gfind-last-index` [(#7785)](https://github.com/stdlib-js/stdlib/pull/7785) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
