@@ -149,7 +149,6 @@ function findIndex( x ) {
 			opts.dtype = options.dtype;
 		}
 	}
-	// Resolve the list of non-reduced dimensions:
 	if ( ndims( x ) < 1 ) {
 		throw new RangeError( 'invalid argument. First argument must have at least one dimension.' );
 	}
