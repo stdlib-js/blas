@@ -559,6 +559,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`952be79`](https://github.com/stdlib-js/stdlib/commit/952be79ec684a1e05c4e794b1a35a484b360a60e) - **test:** use consistent assertions _(by Athan Reines)_
 -   [`5cc9d8a`](https://github.com/stdlib-js/stdlib/commit/5cc9d8aaa4135db8afdeb3233894ce22fcbbfdc9) - **docs:** restore removed JSDoc parameters _(by Philipp Burckhardt)_
 -   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`e1d4bc2`](https://github.com/stdlib-js/stdlib/commit/e1d4bc2359b13220c43c397eacfea81fc79bd334) - **chore:** minor clean-up _(by Philipp Burckhardt)_
