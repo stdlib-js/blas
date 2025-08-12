@@ -565,6 +565,10 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`6cc361e`](https://github.com/stdlib-js/stdlib/commit/6cc361ee03deef0ba27363afe74f61416d5a3c17) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`93810d1`](https://github.com/stdlib-js/stdlib/commit/93810d14406a986ba1347d1440d353836f22af40) - **docs:** update description _(by Athan Reines)_
+-   [`d293a23`](https://github.com/stdlib-js/stdlib/commit/d293a2321d3c9dc0c4e016cb890032d0b32d28fc) - **docs:** add missing periods _(by Philipp Burckhardt)_
+-   [`5f1cbd7`](https://github.com/stdlib-js/stdlib/commit/5f1cbd7f87b8f288a483a419b6eee93dd3d1a739) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`c9efaa7`](https://github.com/stdlib-js/stdlib/commit/c9efaa7d339165aa5393e6bb441faab7140064ce) - **feat:** add `findIndex`, `findLastIndex`, and `indexOf` to namespace _(by Athan Reines)_
 -   [`dac237c`](https://github.com/stdlib-js/stdlib/commit/dac237ca75536454a6d2d3062471b766f6404889) - **feat:** add `blas/ext/find-last-index` [(#7827)](https://github.com/stdlib-js/stdlib/pull/7827) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`6ce3f42`](https://github.com/stdlib-js/stdlib/commit/6ce3f4224de787dbba86e55e43bb5ba70df1b14b) - **docs:** remove obsolete comment _(by Athan Reines)_
