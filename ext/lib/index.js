@@ -55,6 +55,33 @@ setReadOnly( ns, 'base', require( './../../ext/base' ) );
 setReadOnly( ns, 'cusum', require( './../../ext/cusum' ) );
 
 /**
+* @name findIndex
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/find-index}
+*/
+setReadOnly( ns, 'findIndex', require( './../../ext/find-index' ) );
+
+/**
+* @name findLastIndex
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/find-last-index}
+*/
+setReadOnly( ns, 'findLastIndex', require( './../../ext/find-last-index' ) );
+
+/**
+* @name indexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/index-of}
+*/
+setReadOnly( ns, 'indexOf', require( './../../ext/index-of' ) );
+
+/**
 * @name sum
 * @memberof ns
 * @readonly

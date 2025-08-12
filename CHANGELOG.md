@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c9efaa7`](https://github.com/stdlib-js/stdlib/commit/c9efaa7d339165aa5393e6bb441faab7140064ce) - add `findIndex`, `findLastIndex`, and `indexOf` to namespace
 -   [`dac237c`](https://github.com/stdlib-js/stdlib/commit/dac237ca75536454a6d2d3062471b766f6404889) - add `blas/ext/find-last-index` [(#7827)](https://github.com/stdlib-js/stdlib/pull/7827)
 -   [`f08a71f`](https://github.com/stdlib-js/stdlib/commit/f08a71f18d953ba2c911c17d506ab1e752c9f609) - add `blas/base/ggemm` [(#7847)](https://github.com/stdlib-js/stdlib/pull/7847)
 -   [`f928b2f`](https://github.com/stdlib-js/stdlib/commit/f928b2fc629b187e21d707e7e7b68e3b4bcd3f79) - add `blas/ext/base/ndarray/gfind-last-index` [(#7786)](https://github.com/stdlib-js/stdlib/pull/7786)
@@ -564,6 +565,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`c9efaa7`](https://github.com/stdlib-js/stdlib/commit/c9efaa7d339165aa5393e6bb441faab7140064ce) - **feat:** add `findIndex`, `findLastIndex`, and `indexOf` to namespace _(by Athan Reines)_
 -   [`dac237c`](https://github.com/stdlib-js/stdlib/commit/dac237ca75536454a6d2d3062471b766f6404889) - **feat:** add `blas/ext/find-last-index` [(#7827)](https://github.com/stdlib-js/stdlib/pull/7827) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`6ce3f42`](https://github.com/stdlib-js/stdlib/commit/6ce3f4224de787dbba86e55e43bb5ba70df1b14b) - **docs:** remove obsolete comment _(by Athan Reines)_
 -   [`83e8845`](https://github.com/stdlib-js/stdlib/commit/83e8845c749e7f02ba66ccc6d0132022d15cf15d) - **fix:** update error messages _(by Athan Reines)_
