@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3ac7464`](https://github.com/stdlib-js/stdlib/commit/3ac74642bf027780a216a4261f49ffedd46a8812) - add `blas/ext/find-index` [(#7814)](https://github.com/stdlib-js/stdlib/pull/7814)
 -   [`a868191`](https://github.com/stdlib-js/stdlib/commit/a86819118c19f1669e45ef86564043c84705803f) - add `blas/ext/base/ndarray/dsorthp` [(#7854)](https://github.com/stdlib-js/stdlib/pull/7854)
 -   [`a7b8f1e`](https://github.com/stdlib-js/stdlib/commit/a7b8f1ef11fdf661d4048e92b5b0256ba5bf0063) - add `blas/ext/base/ndarray/ssorthp` [(#7839)](https://github.com/stdlib-js/stdlib/pull/7839)
 -   [`3b4283e`](https://github.com/stdlib-js/stdlib/commit/3b4283e7c7e337873c973dd47743b1d61d9fd356) - add `blas/ext/base/gfind-last-index` [(#7785)](https://github.com/stdlib-js/stdlib/pull/7785)
@@ -559,6 +560,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`3ac7464`](https://github.com/stdlib-js/stdlib/commit/3ac74642bf027780a216a4261f49ffedd46a8812) - **feat:** add `blas/ext/find-index` [(#7814)](https://github.com/stdlib-js/stdlib/pull/7814) _(by Muhammad Haris, Athan Reines)_
 -   [`952be79`](https://github.com/stdlib-js/stdlib/commit/952be79ec684a1e05c4e794b1a35a484b360a60e) - **test:** use consistent assertions _(by Athan Reines)_
 -   [`5cc9d8a`](https://github.com/stdlib-js/stdlib/commit/5cc9d8aaa4135db8afdeb3233894ce22fcbbfdc9) - **docs:** restore removed JSDoc parameters _(by Philipp Burckhardt)_
 -   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
