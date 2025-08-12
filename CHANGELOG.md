@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-11)
+## Unreleased (2025-08-12)
 
 <section class="features">
 
@@ -559,6 +559,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`5cc9d8a`](https://github.com/stdlib-js/stdlib/commit/5cc9d8aaa4135db8afdeb3233894ce22fcbbfdc9) - **docs:** restore removed JSDoc parameters _(by Philipp Burckhardt)_
+-   [`0f7607a`](https://github.com/stdlib-js/stdlib/commit/0f7607a1d5bc88b5ee38d5091725678eafd304f6) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`e1d4bc2`](https://github.com/stdlib-js/stdlib/commit/e1d4bc2359b13220c43c397eacfea81fc79bd334) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a868191`](https://github.com/stdlib-js/stdlib/commit/a86819118c19f1669e45ef86564043c84705803f) - **feat:** add `blas/ext/base/ndarray/dsorthp` [(#7854)](https://github.com/stdlib-js/stdlib/pull/7854) _(by Muhammad Haris)_
 -   [`a7b8f1e`](https://github.com/stdlib-js/stdlib/commit/a7b8f1ef11fdf661d4048e92b5b0256ba5bf0063) - **feat:** add `blas/ext/base/ndarray/ssorthp` [(#7839)](https://github.com/stdlib-js/stdlib/pull/7839) _(by Muhammad Haris, Athan Reines)_
