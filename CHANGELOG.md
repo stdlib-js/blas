@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f08a71f`](https://github.com/stdlib-js/stdlib/commit/f08a71f18d953ba2c911c17d506ab1e752c9f609) - add `blas/base/ggemm` [(#7847)](https://github.com/stdlib-js/stdlib/pull/7847)
 -   [`f928b2f`](https://github.com/stdlib-js/stdlib/commit/f928b2fc629b187e21d707e7e7b68e3b4bcd3f79) - add `blas/ext/base/ndarray/gfind-last-index` [(#7786)](https://github.com/stdlib-js/stdlib/pull/7786)
 -   [`3ac7464`](https://github.com/stdlib-js/stdlib/commit/3ac74642bf027780a216a4261f49ffedd46a8812) - add `blas/ext/find-index` [(#7814)](https://github.com/stdlib-js/stdlib/pull/7814)
 -   [`a868191`](https://github.com/stdlib-js/stdlib/commit/a86819118c19f1669e45ef86564043c84705803f) - add `blas/ext/base/ndarray/dsorthp` [(#7854)](https://github.com/stdlib-js/stdlib/pull/7854)
@@ -285,6 +286,7 @@
 
 ### Bug Fixes
 
+-   [`83e8845`](https://github.com/stdlib-js/stdlib/commit/83e8845c749e7f02ba66ccc6d0132022d15cf15d) - update error messages
 -   [`785bc4c`](https://github.com/stdlib-js/stdlib/commit/785bc4c84dee00021ec5f0bad034bf99603ba5cb) - use correct stride in error message
 -   [`2192700`](https://github.com/stdlib-js/stdlib/commit/21927004b3028a79326c41bd78e8dfe3d3044553) - update path
 -   [`55fe412`](https://github.com/stdlib-js/stdlib/commit/55fe4127100d635e8c4b534e4d08565035c6d8ae) - rename fields to be more explicit
@@ -561,6 +563,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`83e8845`](https://github.com/stdlib-js/stdlib/commit/83e8845c749e7f02ba66ccc6d0132022d15cf15d) - **fix:** update error messages _(by Athan Reines)_
+-   [`f08a71f`](https://github.com/stdlib-js/stdlib/commit/f08a71f18d953ba2c911c17d506ab1e752c9f609) - **feat:** add `blas/base/ggemm` [(#7847)](https://github.com/stdlib-js/stdlib/pull/7847) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`f928b2f`](https://github.com/stdlib-js/stdlib/commit/f928b2fc629b187e21d707e7e7b68e3b4bcd3f79) - **feat:** add `blas/ext/base/ndarray/gfind-last-index` [(#7786)](https://github.com/stdlib-js/stdlib/pull/7786) _(by Muhammad Haris, Athan Reines)_
 -   [`1880c41`](https://github.com/stdlib-js/stdlib/commit/1880c41dc2fe59e2eb1d1d474be835019278357c) - **docs:** fix description and type _(by Athan Reines)_
 -   [`3ac7464`](https://github.com/stdlib-js/stdlib/commit/3ac74642bf027780a216a4261f49ffedd46a8812) - **feat:** add `blas/ext/find-index` [(#7814)](https://github.com/stdlib-js/stdlib/pull/7814) _(by Muhammad Haris, Athan Reines)_
