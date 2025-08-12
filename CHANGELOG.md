@@ -560,6 +560,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`1880c41`](https://github.com/stdlib-js/stdlib/commit/1880c41dc2fe59e2eb1d1d474be835019278357c) - **docs:** fix description and type _(by Athan Reines)_
 -   [`3ac7464`](https://github.com/stdlib-js/stdlib/commit/3ac74642bf027780a216a4261f49ffedd46a8812) - **feat:** add `blas/ext/find-index` [(#7814)](https://github.com/stdlib-js/stdlib/pull/7814) _(by Muhammad Haris, Athan Reines)_
 -   [`952be79`](https://github.com/stdlib-js/stdlib/commit/952be79ec684a1e05c4e794b1a35a484b360a60e) - **test:** use consistent assertions _(by Athan Reines)_
 -   [`5cc9d8a`](https://github.com/stdlib-js/stdlib/commit/5cc9d8aaa4135db8afdeb3233894ce22fcbbfdc9) - **docs:** restore removed JSDoc parameters _(by Philipp Burckhardt)_
