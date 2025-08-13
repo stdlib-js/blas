@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-08-13)
 
 <section class="features">
 
 ### Features
 
+-   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738)
 -   [`c9efaa7`](https://github.com/stdlib-js/stdlib/commit/c9efaa7d339165aa5393e6bb441faab7140064ce) - add `findIndex`, `findLastIndex`, and `indexOf` to namespace
 -   [`dac237c`](https://github.com/stdlib-js/stdlib/commit/dac237ca75536454a6d2d3062471b766f6404889) - add `blas/ext/find-last-index` [(#7827)](https://github.com/stdlib-js/stdlib/pull/7827)
 -   [`f08a71f`](https://github.com/stdlib-js/stdlib/commit/f08a71f18d953ba2c911c17d506ab1e752c9f609) - add `blas/base/ggemm` [(#7847)](https://github.com/stdlib-js/stdlib/pull/7847)
@@ -565,6 +566,7 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - **feat:** add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`6cc361e`](https://github.com/stdlib-js/stdlib/commit/6cc361ee03deef0ba27363afe74f61416d5a3c17) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`93810d1`](https://github.com/stdlib-js/stdlib/commit/93810d14406a986ba1347d1440d353836f22af40) - **docs:** update description _(by Athan Reines)_
 -   [`d293a23`](https://github.com/stdlib-js/stdlib/commit/d293a2321d3c9dc0c4e016cb890032d0b32d28fc) - **docs:** add missing periods _(by Philipp Burckhardt)_
