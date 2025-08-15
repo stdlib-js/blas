@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-13)
+## Unreleased (2025-08-15)
 
 <section class="features">
 
@@ -552,9 +552,9 @@
 
 ### Closed Issues
 
-A total of 25 issues were closed in this release:
+A total of 26 issues were closed in this release:
 
-[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5732](https://github.com/stdlib-js/stdlib/issues/5732), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241), [#7645](https://github.com/stdlib-js/stdlib/issues/7645)
+[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5732](https://github.com/stdlib-js/stdlib/issues/5732), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241), [#7645](https://github.com/stdlib-js/stdlib/issues/7645), [#7877](https://github.com/stdlib-js/stdlib/issues/7877)
 
 </section>
 
@@ -566,6 +566,8 @@ A total of 25 issues were closed in this release:
 
 <details>
 
+-   [`1913191`](https://github.com/stdlib-js/stdlib/commit/1913191dea38c0f42f7143747c121db38f1ebc35) - **chore:** fix C lint errors [(#7878)](https://github.com/stdlib-js/stdlib/pull/7878) _(by GeoDaoyu)_
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - **feat:** add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`6cc361e`](https://github.com/stdlib-js/stdlib/commit/6cc361ee03deef0ba27363afe74f61416d5a3c17) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`93810d1`](https://github.com/stdlib-js/stdlib/commit/93810d14406a986ba1347d1440d353836f22af40) - **docs:** update description _(by Athan Reines)_
