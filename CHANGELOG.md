@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-15)
+## Unreleased (2025-08-18)
 
 <section class="features">
 
@@ -566,6 +566,9 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`20ae685`](https://github.com/stdlib-js/stdlib/commit/20ae6858f9bea5a07a619b688dad98a0a77dcfb6) - **docs:** correctly call .ndarray in second example _(by Philipp Burckhardt)_
+-   [`8cea287`](https://github.com/stdlib-js/stdlib/commit/8cea2870cc30848a616b76259b3274caae387b10) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
+-   [`e38f6c6`](https://github.com/stdlib-js/stdlib/commit/e38f6c6e0c0bccec552a2346c900e1f7711da7b0) - **test:** add user reference matrix [(#7895)](https://github.com/stdlib-js/stdlib/pull/7895) _(by Shabareesh Shetty)_
 -   [`1913191`](https://github.com/stdlib-js/stdlib/commit/1913191dea38c0f42f7143747c121db38f1ebc35) - **chore:** fix C lint errors [(#7878)](https://github.com/stdlib-js/stdlib/pull/7878) _(by GeoDaoyu)_
 -   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - **feat:** add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
