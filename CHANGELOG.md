@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-18)
+## Unreleased (2025-08-19)
 
 <section class="features">
 
 ### Features
 
+-   [`e66b879`](https://github.com/stdlib-js/stdlib/commit/e66b8795bb85a7bcab4c7af5aecbaa5529b6626c) - add `blas/base/ndarray/ddot` [(#7906)](https://github.com/stdlib-js/stdlib/pull/7906)
 -   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738)
 -   [`c9efaa7`](https://github.com/stdlib-js/stdlib/commit/c9efaa7d339165aa5393e6bb441faab7140064ce) - add `findIndex`, `findLastIndex`, and `indexOf` to namespace
 -   [`dac237c`](https://github.com/stdlib-js/stdlib/commit/dac237ca75536454a6d2d3062471b766f6404889) - add `blas/ext/find-last-index` [(#7827)](https://github.com/stdlib-js/stdlib/pull/7827)
@@ -566,6 +567,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`e66b879`](https://github.com/stdlib-js/stdlib/commit/e66b8795bb85a7bcab4c7af5aecbaa5529b6626c) - **feat:** add `blas/base/ndarray/ddot` [(#7906)](https://github.com/stdlib-js/stdlib/pull/7906) _(by Gururaj Gurram, Athan Reines)_
 -   [`20ae685`](https://github.com/stdlib-js/stdlib/commit/20ae6858f9bea5a07a619b688dad98a0a77dcfb6) - **docs:** correctly call .ndarray in second example _(by Philipp Burckhardt)_
 -   [`8cea287`](https://github.com/stdlib-js/stdlib/commit/8cea2870cc30848a616b76259b3274caae387b10) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`e38f6c6`](https://github.com/stdlib-js/stdlib/commit/e38f6c6e0c0bccec552a2346c900e1f7711da7b0) - **test:** add user reference matrix [(#7895)](https://github.com/stdlib-js/stdlib/pull/7895) _(by Shabareesh Shetty)_
