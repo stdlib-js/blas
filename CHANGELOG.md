@@ -567,6 +567,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`fa35502`](https://github.com/stdlib-js/stdlib/commit/fa355021abc829672cea53bbf10dc3a26bbf4ac7) - **docs:** remove comment _(by Athan Reines)_
 -   [`e66b879`](https://github.com/stdlib-js/stdlib/commit/e66b8795bb85a7bcab4c7af5aecbaa5529b6626c) - **feat:** add `blas/base/ndarray/ddot` [(#7906)](https://github.com/stdlib-js/stdlib/pull/7906) _(by Gururaj Gurram, Athan Reines)_
 -   [`20ae685`](https://github.com/stdlib-js/stdlib/commit/20ae6858f9bea5a07a619b688dad98a0a77dcfb6) - **docs:** correctly call .ndarray in second example _(by Philipp Burckhardt)_
 -   [`8cea287`](https://github.com/stdlib-js/stdlib/commit/8cea2870cc30848a616b76259b3274caae387b10) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
