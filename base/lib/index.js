@@ -388,6 +388,24 @@ setReadOnly( blas, 'gcopy', require( './../../base/gcopy' ) );
 setReadOnly( blas, 'gdot', require( './../../base/gdot' ) );
 
 /**
+* @name ggemm
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ggemm}
+*/
+setReadOnly( blas, 'ggemm', require( './../../base/ggemm' ) );
+
+/**
+* @name ggemv
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ggemv}
+*/
+setReadOnly( blas, 'ggemv', require( './../../base/ggemv' ) );
+
+/**
 * @name gger
 * @memberof blas
 * @readonly
@@ -422,6 +440,15 @@ setReadOnly( blas, 'gscal', require( './../../base/gscal' ) );
 * @see {@link module:@stdlib/blas/base/gswap}
 */
 setReadOnly( blas, 'gswap', require( './../../base/gswap' ) );
+
+/**
+* @name gsyr
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/gsyr}
+*/
+setReadOnly( blas, 'gsyr', require( './../../base/gsyr' ) );
 
 /**
 * @name idamax
@@ -899,6 +926,15 @@ setReadOnly( blas, 'transposeOperations', require( './../../base/transpose-opera
 * @see {@link module:@stdlib/blas/base/wasm}
 */
 setReadOnly( blas, 'wasm', require( './../../base/wasm' ) );
+
+/**
+* @name xerbla
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/xerbla}
+*/
+setReadOnly( blas, 'xerbla', require( './../../base/xerbla' ) );
 
 /**
 * @name zaxpy

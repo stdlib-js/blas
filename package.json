@@ -40,6 +40,7 @@
     "@stdlib/assert": "github:stdlib-js/assert#main",
     "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
+    "@stdlib/fs": "github:stdlib-js/fs#main",
     "@stdlib/math": "github:stdlib-js/math#main",
     "@stdlib/napi": "github:stdlib-js/napi#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
@@ -47,15 +48,14 @@
     "@stdlib/strided": "github:stdlib-js/strided#main",
     "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/types": "github:stdlib-js/types#main",
-    "@stdlib/utils": "github:stdlib-js/utils#main"
+    "@stdlib/utils": "github:stdlib-js/utils#main",
+    "@stdlib/wasm": "github:stdlib-js/wasm#main"
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench#main",
     "@stdlib/console": "github:stdlib-js/console#main",
-    "@stdlib/fs": "github:stdlib-js/fs#main",
     "@stdlib/random": "github:stdlib-js/random#main",
     "@stdlib/time": "github:stdlib-js/time#main",
-    "@stdlib/wasm": "github:stdlib-js/wasm#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",

@@ -55,6 +55,33 @@ setReadOnly( ns, 'csum', require( './../../../../ext/base/ndarray/csum' ) );
 setReadOnly( ns, 'dcusum', require( './../../../../ext/base/ndarray/dcusum' ) );
 
 /**
+* @name dindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dindex-of}
+*/
+setReadOnly( ns, 'dindexOf', require( './../../../../ext/base/ndarray/dindex-of' ) );
+
+/**
+* @name dlastIndexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dlast-index-of}
+*/
+setReadOnly( ns, 'dlastIndexOf', require( './../../../../ext/base/ndarray/dlast-index-of' ) );
+
+/**
+* @name dsorthp
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsorthp}
+*/
+setReadOnly( ns, 'dsorthp', require( './../../../../ext/base/ndarray/dsorthp' ) );
+
+/**
 * @name dsum
 * @memberof ns
 * @readonly
@@ -73,6 +100,51 @@ setReadOnly( ns, 'dsum', require( './../../../../ext/base/ndarray/dsum' ) );
 setReadOnly( ns, 'gcusum', require( './../../../../ext/base/ndarray/gcusum' ) );
 
 /**
+* @name gfindIndex
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfind-index}
+*/
+setReadOnly( ns, 'gfindIndex', require( './../../../../ext/base/ndarray/gfind-index' ) );
+
+/**
+* @name gfindLastIndex
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfind-last-index}
+*/
+setReadOnly( ns, 'gfindLastIndex', require( './../../../../ext/base/ndarray/gfind-last-index' ) );
+
+/**
+* @name gindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gindex-of}
+*/
+setReadOnly( ns, 'gindexOf', require( './../../../../ext/base/ndarray/gindex-of' ) );
+
+/**
+* @name glastIndexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/glast-index-of}
+*/
+setReadOnly( ns, 'glastIndexOf', require( './../../../../ext/base/ndarray/glast-index-of' ) );
+
+/**
+* @name gsorthp
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gsorthp}
+*/
+setReadOnly( ns, 'gsorthp', require( './../../../../ext/base/ndarray/gsorthp' ) );
+
+/**
 * @name gsum
 * @memberof ns
 * @readonly
@@ -89,6 +161,33 @@ setReadOnly( ns, 'gsum', require( './../../../../ext/base/ndarray/gsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/scusum}
 */
 setReadOnly( ns, 'scusum', require( './../../../../ext/base/ndarray/scusum' ) );
+
+/**
+* @name sindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sindex-of}
+*/
+setReadOnly( ns, 'sindexOf', require( './../../../../ext/base/ndarray/sindex-of' ) );
+
+/**
+* @name slastIndexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/slast-index-of}
+*/
+setReadOnly( ns, 'slastIndexOf', require( './../../../../ext/base/ndarray/slast-index-of' ) );
+
+/**
+* @name ssorthp
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ssorthp}
+*/
+setReadOnly( ns, 'ssorthp', require( './../../../../ext/base/ndarray/ssorthp' ) );
 
 /**
 * @name ssum

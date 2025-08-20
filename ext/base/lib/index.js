@@ -181,6 +181,24 @@ setReadOnly( ns, 'dcusumpw', require( './../../../ext/base/dcusumpw' ) );
 setReadOnly( ns, 'dfill', require( './../../../ext/base/dfill' ) );
 
 /**
+* @name dindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dindex-of}
+*/
+setReadOnly( ns, 'dindexOf', require( './../../../ext/base/dindex-of' ) );
+
+/**
+* @name dlastIndexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dlast-index-of}
+*/
+setReadOnly( ns, 'dlastIndexOf', require( './../../../ext/base/dlast-index-of' ) );
+
+/**
 * @name dnanasum
 * @memberof ns
 * @readonly
@@ -197,6 +215,15 @@ setReadOnly( ns, 'dnanasum', require( './../../../ext/base/dnanasum' ) );
 * @see {@link module:@stdlib/blas/ext/base/dnanasumors}
 */
 setReadOnly( ns, 'dnanasumors', require( './../../../ext/base/dnanasumors' ) );
+
+/**
+* @name dnancusumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dnancusumkbn}
+*/
+setReadOnly( ns, 'dnancusumkbn', require( './../../../ext/base/dnancusumkbn' ) );
 
 /**
 * @name dnannsum
@@ -604,6 +631,42 @@ setReadOnly( ns, 'gfill', require( './../../../ext/base/gfill' ) );
 setReadOnly( ns, 'gfillBy', require( './../../../ext/base/gfill-by' ) );
 
 /**
+* @name gfindIndex
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfind-index}
+*/
+setReadOnly( ns, 'gfindIndex', require( './../../../ext/base/gfind-index' ) );
+
+/**
+* @name gfindLastIndex
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfind-last-index}
+*/
+setReadOnly( ns, 'gfindLastIndex', require( './../../../ext/base/gfind-last-index' ) );
+
+/**
+* @name gindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of}
+*/
+setReadOnly( ns, 'gindexOf', require( './../../../ext/base/gindex-of' ) );
+
+/**
+* @name glastIndexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/glast-index-of}
+*/
+setReadOnly( ns, 'glastIndexOf', require( './../../../ext/base/glast-index-of' ) );
+
+/**
 * @name gnannsumkbn
 * @memberof ns
 * @readonly
@@ -953,6 +1016,24 @@ setReadOnly( ns, 'sdssumpw', require( './../../../ext/base/sdssumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/sfill}
 */
 setReadOnly( ns, 'sfill', require( './../../../ext/base/sfill' ) );
+
+/**
+* @name sindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sindex-of}
+*/
+setReadOnly( ns, 'sindexOf', require( './../../../ext/base/sindex-of' ) );
+
+/**
+* @name slastIndexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/slast-index-of}
+*/
+setReadOnly( ns, 'slastIndexOf', require( './../../../ext/base/slast-index-of' ) );
 
 /**
 * @name snansum
