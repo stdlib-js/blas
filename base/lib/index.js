@@ -928,15 +928,6 @@ setReadOnly( blas, 'transposeOperations', require( './../../base/transpose-opera
 setReadOnly( blas, 'wasm', require( './../../base/wasm' ) );
 
 /**
-* @name xerbla
-* @memberof blas
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/blas/base/xerbla}
-*/
-setReadOnly( blas, 'xerbla', require( './../../base/xerbla' ) );
-
-/**
 * @name zaxpy
 * @memberof blas
 * @readonly
