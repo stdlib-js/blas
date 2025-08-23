@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
-var ndarray = require( './ndarray.js' );
+var reinterpret = require( '@stdlib/strided/base/reinterpret-complex128' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -33,8 +33,10 @@ var ndarray = require( './ndarray.js' );
 * @param {Complex128} alpha - scalar constant
 * @param {Complex128Array} x - first input array
 * @param {integer} strideX - stride length for `x`
+* @param {integer} offsetX - starting index for `x`
 * @param {Complex128Array} y - second input array
 * @param {integer} strideY - stride length for `y`
+* @param {integer} offsetY - starting index for `y`
 * @returns {Complex128Array} second input array
 *
 * @example
@@ -45,13 +47,14 @@ var ndarray = require( './ndarray.js' );
 * var y = new Complex128Array( [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] );
 * var alpha = new Complex128( 2.0, 2.0 );
 *
-* zaxpy( 3, alpha, x, 1, y, 1 );
+* zaxpy( 3, alpha, x, 1, 0, y, 1, 0 );
 * // y => <Complex128Array>[ -1.0, 7.0, -1.0, 15.0, -1.0, 23.0 ]
 */
-function zaxpy( N, alpha, x, strideX, y, strideY ) {
-	var ix = stride2offset( N, strideX );
-	var iy = stride2offset( N, strideY );
-	return ndarray( N, alpha, x, strideX, ix, y, strideY, iy );
+function zaxpy( N, alpha, x, strideX, offsetX, y, strideY, offsetY ) {
+	var viewX = reinterpret( x, 0 );
+	var viewY = reinterpret( y, 0 );
+	addon.ndarray( N, alpha, viewX, strideX, offsetX, viewY, strideY, offsetY );
+	return y;
 }
 
 

@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-20)
+## Unreleased (2025-08-23)
 
 <section class="features">
 
 ### Features
 
+-   [`e457e47`](https://github.com/stdlib-js/stdlib/commit/e457e479937148f7c056b3717a913dd8e02bf9fe) - add C implementation for `blas/base/zaxpy` [(#7594)](https://github.com/stdlib-js/stdlib/pull/7594)
 -   [`fbf2b82`](https://github.com/stdlib-js/stdlib/commit/fbf2b825782a1a55ef98bfbddd031b53707bc522) - add missing functions to namespace
 -   [`b998f9f`](https://github.com/stdlib-js/stdlib/commit/b998f9f74bd8ce4b6719c96bb629441751276f75) - add missing functions to namespace
 -   [`20e035e`](https://github.com/stdlib-js/stdlib/commit/20e035e834102c1d18a354a5a61d0759cd78cddf) - add missing functions to namespace
@@ -573,6 +574,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`e457e47`](https://github.com/stdlib-js/stdlib/commit/e457e479937148f7c056b3717a913dd8e02bf9fe) - **feat:** add C implementation for `blas/base/zaxpy` [(#7594)](https://github.com/stdlib-js/stdlib/pull/7594) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`933ae5e`](https://github.com/stdlib-js/stdlib/commit/933ae5eaa70b01019a3b8880d2666dddbd129298) - **fix:** remove xerbla from namespaces _(by Philipp Burckhardt)_
 -   [`5acfd64`](https://github.com/stdlib-js/stdlib/commit/5acfd64326637640433a7e3ffc5d101db23ab1d8) - **docs:** fix example code _(by Philipp Burckhardt)_
 -   [`aaee349`](https://github.com/stdlib-js/stdlib/commit/aaee349836bc2324f9ce4e3428bc5828f28e372c) - **docs:** round return annotation values correctly _(by Philipp Burckhardt)_

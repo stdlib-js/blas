@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,13 +20,22 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var Float64Array = require( '@stdlib/array/float64' );
 var Complex128Array = require( '@stdlib/array/complex128' );
 var Complex128 = require( '@stdlib/complex/float64/ctor' );
 var EPS = require( '@stdlib/constants/float64/eps' );
 var abs = require( '@stdlib/math/base/special/abs' );
-var zaxpy = require( './../lib/ndarray.js' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// VARIABLES //
+
+var zaxpy = tryRequire( resolve( __dirname, './../lib/ndarray.native.js' ) );
+var opts = {
+	'skip': ( zaxpy instanceof Error )
+};
 
 
 // FUNCTIONS //
@@ -60,18 +69,18 @@ function isApprox( t, actual, expected, rtol ) {
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof zaxpy, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function has an arity of 8', function test( t ) {
+tape( 'the function has an arity of 8', opts, function test( t ) {
 	t.strictEqual( zaxpy.length, 8, 'arity of 8' );
 	t.end();
 });
 
-tape( 'the function scales elements from `x` by `alpha` and adds the result to `y`', function test( t ) {
+tape( 'the function scales elements from `x` by `alpha` and adds the result to `y`', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -135,7 +144,71 @@ tape( 'the function scales elements from `x` by `alpha` and adds the result to `
 	t.end();
 });
 
-tape( 'the function supports an `x` stride', function test( t ) {
+tape( 'if dcabs1( alpha ) === 0.0; the function returns the second input array unchanged', opts, function test( t ) {
+	var expected;
+	var viewY;
+	var alpha;
+	var x;
+	var y;
+
+	x = new Complex128Array([
+		0.7,  // 1
+		-0.8, // 1
+		-0.4,
+		-0.7,
+		-0.1, // 2
+		-0.9, // 2
+		0.2,
+		-0.8,
+		-0.9, // 3
+		-0.4, // 3
+		0.1,
+		0.4,
+		-0.6, // 4
+		0.6   // 4
+	]);
+	y = new Complex128Array([
+		0.6,  // 1
+		-0.6, // 1
+		-0.9, // 2
+		0.5,  // 2
+		0.7,  // 3
+		-0.6, // 3
+		0.1,  // 4
+		-0.5, // 4
+		-0.1,
+		-0.2,
+		-0.5,
+		-0.3,
+		0.8,
+		-0.7
+	]);
+	alpha = new Complex128( 0.0, 0.0 );
+
+	zaxpy( 4, alpha, x, 2, 0, y, 1, 0 );
+
+	viewY = new Float64Array( y.buffer );
+	expected = new Float64Array([
+		0.6,  // 1
+		-0.6, // 1
+		-0.9, // 2
+		0.5,  // 2
+		0.7,  // 3
+		-0.6, // 3
+		0.1,  // 4
+		-0.5, // 4
+		-0.1,
+		-0.2,
+		-0.5,
+		-0.3,
+		0.8,
+		-0.7
+	]);
+	isApprox( t, viewY, expected, 14.0 );
+	t.end();
+});
+
+tape( 'the function supports an `x` stride', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -199,7 +272,7 @@ tape( 'the function supports an `x` stride', function test( t ) {
 	t.end();
 });
 
-tape( 'the function supports an `x` offset', function test( t ) {
+tape( 'the function supports an `x` offset', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -263,7 +336,7 @@ tape( 'the function supports an `x` offset', function test( t ) {
 	t.end();
 });
 
-tape( 'the function supports a `y` stride', function test( t ) {
+tape( 'the function supports a `y` stride', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -327,7 +400,7 @@ tape( 'the function supports a `y` stride', function test( t ) {
 	t.end();
 });
 
-tape( 'the function supports a `y` offset', function test( t ) {
+tape( 'the function supports a `y` offset', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -391,7 +464,7 @@ tape( 'the function supports a `y` offset', function test( t ) {
 	t.end();
 });
 
-tape( 'the function returns a reference to the second input array', function test( t ) {
+tape( 'the function returns a reference to the second input array', opts, function test( t ) {
 	var alpha;
 	var out;
 	var x;
@@ -407,30 +480,7 @@ tape( 'the function returns a reference to the second input array', function tes
 	t.end();
 });
 
-tape( 'if provided `alpha` parameter equal to `0`, the function returns the second input array unchanged', function test( t ) {
-	var expected;
-	var viewY;
-	var alpha;
-	var x;
-	var y;
-
-	x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	y = new Complex128Array( [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] );
-	alpha = new Complex128( 0.0, 0.0 );
-
-	viewY = new Float64Array( y.buffer );
-	expected = new Float64Array( [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ] );
-
-	zaxpy( -1, alpha, x, 1, 0, y, 1, 0 );
-	t.deepEqual( viewY, expected, 'returns expected value' );
-
-	zaxpy( 0, alpha, x, 1, 0, y, 1, 0 );
-	t.deepEqual( viewY, expected, 'returns expected value' );
-
-	t.end();
-});
-
-tape( 'if provided an `N` parameter less than or equal to `0`, the function returns the second input array unchanged', function test( t ) {
+tape( 'if provided an `N` parameter less than or equal to `0`, the function returns the second input array unchanged', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -453,7 +503,7 @@ tape( 'if provided an `N` parameter less than or equal to `0`, the function retu
 	t.end();
 });
 
-tape( 'the function supports a negative `x` stride', function test( t ) {
+tape( 'the function supports a negative `x` stride', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -517,7 +567,7 @@ tape( 'the function supports a negative `x` stride', function test( t ) {
 	t.end();
 });
 
-tape( 'the function supports a negative `y` stride', function test( t ) {
+tape( 'the function supports a negative `y` stride', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;
@@ -581,7 +631,7 @@ tape( 'the function supports a negative `y` stride', function test( t ) {
 	t.end();
 });
 
-tape( 'the function supports complex access patterns', function test( t ) {
+tape( 'the function supports complex access patterns', opts, function test( t ) {
 	var expected;
 	var viewY;
 	var alpha;

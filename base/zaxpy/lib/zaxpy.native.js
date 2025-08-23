@@ -1,7 +1,7 @@
 /**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -20,8 +20,8 @@
 
 // MODULES //
 
-var stride2offset = require( '@stdlib/strided/base/stride2offset' );
-var ndarray = require( './ndarray.js' );
+var reinterpret = require( '@stdlib/strided/base/reinterpret-complex128' );
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -49,9 +49,10 @@ var ndarray = require( './ndarray.js' );
 * // y => <Complex128Array>[ -1.0, 7.0, -1.0, 15.0, -1.0, 23.0 ]
 */
 function zaxpy( N, alpha, x, strideX, y, strideY ) {
-	var ix = stride2offset( N, strideX );
-	var iy = stride2offset( N, strideY );
-	return ndarray( N, alpha, x, strideX, ix, y, strideY, iy );
+	var viewX = reinterpret( x, 0 );
+	var viewY = reinterpret( y, 0 );
+	addon( N, alpha, viewX, strideX, viewY, strideY );
+	return y;
 }
 
 
