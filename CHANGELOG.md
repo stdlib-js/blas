@@ -297,7 +297,6 @@
 
 ### Bug Fixes
 
--   [`655f6d4`](https://github.com/stdlib-js/stdlib/commit/655f6d4b995f3981f6eec0166721858e36ea98f2) - update `fromIndex` handling in `blas/ext/base/ndarray/glast-index-of` [(#8008)](https://github.com/stdlib-js/stdlib/pull/8008)
 -   [`5c0304c`](https://github.com/stdlib-js/stdlib/commit/5c0304cac2c538d91d09b6b30202f71e9b2b8650) - update `fromIndex` handling in `blas/ext/base/ndarray/slast-index-of` [(#8007)](https://github.com/stdlib-js/stdlib/pull/8007)
 -   [`69832d0`](https://github.com/stdlib-js/stdlib/commit/69832d001442f72da76dbb168d961856ede4a962) - update `fromIndex` handling in `blas/ext/base/ndarray/dlast-index-of` [(#7894)](https://github.com/stdlib-js/stdlib/pull/7894)
 -   [`15d72a1`](https://github.com/stdlib-js/stdlib/commit/15d72a11d2c316d6e07e667eea6a8ca69156dfd1) - update error messages and fix parameter name
@@ -579,7 +578,6 @@ A total of 26 issues were closed in this release:
 
 <details>
 
--   [`655f6d4`](https://github.com/stdlib-js/stdlib/commit/655f6d4b995f3981f6eec0166721858e36ea98f2) - **fix:** update `fromIndex` handling in `blas/ext/base/ndarray/glast-index-of` [(#8008)](https://github.com/stdlib-js/stdlib/pull/8008) _(by Muhammad Haris)_
 -   [`5c0304c`](https://github.com/stdlib-js/stdlib/commit/5c0304cac2c538d91d09b6b30202f71e9b2b8650) - **fix:** update `fromIndex` handling in `blas/ext/base/ndarray/slast-index-of` [(#8007)](https://github.com/stdlib-js/stdlib/pull/8007) _(by Muhammad Haris)_
 -   [`69832d0`](https://github.com/stdlib-js/stdlib/commit/69832d001442f72da76dbb168d961856ede4a962) - **fix:** update `fromIndex` handling in `blas/ext/base/ndarray/dlast-index-of` [(#7894)](https://github.com/stdlib-js/stdlib/pull/7894) _(by Muhammad Haris, Athan Reines)_
 -   [`4dc4f6c`](https://github.com/stdlib-js/stdlib/commit/4dc4f6c755105fa814122e27b0da02a982f7118b) - **refactor:** update implementation for `blas/base/ssymv` [(#2843)](https://github.com/stdlib-js/stdlib/pull/2843) _(by Aman Bhansali, Athan Reines, Shabareesh Shetty, stdlib-bot)_
