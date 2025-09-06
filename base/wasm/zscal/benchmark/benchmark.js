@@ -21,19 +21,23 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
+var hasWebAssemblySupport = require( '@stdlib/assert/has-wasm-support' );
 var uniform = require( '@stdlib/random/array/uniform' );
-var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
+var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
-var ndarray = require( '@stdlib/ndarray/base/ctor' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+var Complex128Array = require( '@stdlib/array/complex128' );
+var Complex128 = require( '@stdlib/complex/float64/ctor' );
 var pkg = require( './../package.json' ).name;
-var glastIndexOf = require( './../lib' );
+var zscal = require( './../lib' );
 
 
 // VARIABLES //
 
+var opts = {
+	'skip': !hasWebAssemblySupport()
+};
 var options = {
-	'dtype': 'generic'
+	'dtype': 'float64'
 };
 
 
@@ -43,41 +47,40 @@ var options = {
 * Creates a benchmark function.
 *
 * @private
-* @param {PositiveInteger} len - array length
+* @param {PositiveInteger} N - array length
 * @returns {Function} benchmark function
 */
-function createBenchmark( len ) {
-	var searchElement;
-	var fromIndex;
+function createBenchmark( N ) {
+	var alpha;
 	var xbuf;
 	var x;
 
-	xbuf = uniform( len, 0.0, 100.0, options );
-	x = new ndarray( options.dtype, xbuf, [ len ], [ 1 ], 0, 'row-major' );
+	xbuf = uniform( N*2, -100.0, 100.0, options );
+	x = new Complex128Array( xbuf.buffer );
 
-	searchElement = scalar2ndarray( -10.0, {
-		'dtype': options.dtype
-	});
-	fromIndex = scalar2ndarray( -1, {
-		'dtype': 'generic'
-	});
+	alpha = new Complex128( 1.0, 0.0 );
 
 	return benchmark;
 
+	/**
+	* Benchmark function.
+	*
+	* @private
+	* @param {Benchmark} b - benchmark instance
+	*/
 	function benchmark( b ) {
-		var out;
 		var i;
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			out = glastIndexOf( [ x, searchElement, fromIndex ] );
-			if ( out !== out ) {
-				b.fail( 'should return an integer' );
+			zscal.main( x.length, alpha, x, 1 );
+			if ( isnan( xbuf[ i%(N*2) ] ) ) {
+				b.fail( 'should not return NaN' );
 			}
 		}
 		b.toc();
-		if ( !isInteger( out ) ) {
-			b.fail( 'should return an integer' );
+		if ( isnan( xbuf[ i%(N*2) ] ) ) {
+			b.fail( 'should not return NaN' );
 		}
 		b.pass( 'benchmark finished' );
 		b.end();
@@ -93,9 +96,9 @@ function createBenchmark( len ) {
 * @private
 */
 function main() {
-	var len;
 	var min;
 	var max;
+	var N;
 	var f;
 	var i;
 
@@ -103,9 +106,9 @@ function main() {
 	max = 6; // 10^max
 
 	for ( i = min; i <= max; i++ ) {
-		len = pow( 10, i );
-		f = createBenchmark( len );
-		bench( pkg+':len='+len, f );
+		N = pow( 10, i );
+		f = createBenchmark( N );
+		bench( pkg+':size='+N, opts, f );
 	}
 }
 
