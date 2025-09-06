@@ -580,6 +580,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`1891116`](https://github.com/stdlib-js/stdlib/commit/1891116f31ac5680c4349c2159bb5d115e6239ae) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - **feat:** add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`655f6d4`](https://github.com/stdlib-js/stdlib/commit/655f6d4b995f3981f6eec0166721858e36ea98f2) - **fix:** update `fromIndex` handling in `blas/ext/base/ndarray/glast-index-of` [(#8008)](https://github.com/stdlib-js/stdlib/pull/8008) _(by Muhammad Haris)_
 -   [`5c0304c`](https://github.com/stdlib-js/stdlib/commit/5c0304cac2c538d91d09b6b30202f71e9b2b8650) - **fix:** update `fromIndex` handling in `blas/ext/base/ndarray/slast-index-of` [(#8007)](https://github.com/stdlib-js/stdlib/pull/8007) _(by Muhammad Haris)_
