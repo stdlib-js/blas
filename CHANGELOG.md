@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-06)
+## Unreleased (2025-09-07)
 
 <section class="features">
 
 ### Features
 
+-   [`68d2365`](https://github.com/stdlib-js/stdlib/commit/68d23656d0335ed8f30f86c2548c699a5a988502) - add C and Fortran implementation for `blas/base/zdscal` [(#7086)](https://github.com/stdlib-js/stdlib/pull/7086)
 -   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810)
 -   [`9861705`](https://github.com/stdlib-js/stdlib/commit/986170553f7fa289eca57e9aedbd194f7a70c420) - add C implementation for `blas/base/ssyr2` [(#2880)](https://github.com/stdlib-js/stdlib/pull/2880)
 -   [`e457e47`](https://github.com/stdlib-js/stdlib/commit/e457e479937148f7c056b3717a913dd8e02bf9fe) - add C implementation for `blas/base/zaxpy` [(#7594)](https://github.com/stdlib-js/stdlib/pull/7594)
@@ -580,6 +581,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`68d2365`](https://github.com/stdlib-js/stdlib/commit/68d23656d0335ed8f30f86c2548c699a5a988502) - **feat:** add C and Fortran implementation for `blas/base/zdscal` [(#7086)](https://github.com/stdlib-js/stdlib/pull/7086) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`1891116`](https://github.com/stdlib-js/stdlib/commit/1891116f31ac5680c4349c2159bb5d115e6239ae) - **docs:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - **feat:** add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`655f6d4`](https://github.com/stdlib-js/stdlib/commit/655f6d4b995f3981f6eec0166721858e36ea98f2) - **fix:** update `fromIndex` handling in `blas/ext/base/ndarray/glast-index-of` [(#8008)](https://github.com/stdlib-js/stdlib/pull/8008) _(by Muhammad Haris)_

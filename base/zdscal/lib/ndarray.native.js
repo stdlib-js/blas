@@ -21,7 +21,7 @@
 // MODULES //
 
 var reinterpret = require( '@stdlib/strided/base/reinterpret-complex128' );
-var scale = require( '@stdlib/complex/float64/base/scale' ).strided;
+var addon = require( './../src/addon.node' );
 
 
 // MAIN //
@@ -30,7 +30,7 @@ var scale = require( '@stdlib/complex/float64/base/scale' ).strided;
 * Scales a double-precision complex floating-point vector by a double-precision floating-point constant.
 *
 * @param {PositiveInteger} N - number of indexed elements
-* @param {number} alpha - constant
+* @param {number} alpha - scalar constant
 * @param {Complex128Array} x - input array
 * @param {integer} strideX - `x` stride length
 * @param {NonNegativeInteger} offsetX - starting `x` index
@@ -45,25 +45,8 @@ var scale = require( '@stdlib/complex/float64/base/scale' ).strided;
 * // x => <Complex128Array>[ 2.0, 4.0, 6.0, 8.0, 10.0, 12.0 ]
 */
 function zdscal( N, alpha, x, strideX, offsetX ) {
-	var view;
-	var ix;
-	var sx;
-	var i;
-
-	if ( N <= 0 || alpha === 1.0 ) {
-		return x;
-	}
-	// Reinterpret the input array as a real-valued array of interleaved real and imaginary components:
-	view = reinterpret( x, 0 );
-
-	// Adjust the stride and offset accordingly:
-	ix = offsetX * 2;
-	sx = strideX * 2;
-
-	for ( i = 0; i < N; i++ ) {
-		scale( alpha, view, 1, ix, view, 1, ix );
-		ix += sx;
-	}
+	var viewX = reinterpret( x, 0 );
+	addon.ndarray( N, alpha, viewX, strideX, offsetX );
 	return x;
 }
 
