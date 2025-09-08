@@ -300,6 +300,8 @@
 
 ### Bug Fixes
 
+-   [`7533913`](https://github.com/stdlib-js/stdlib/commit/75339137b0ab48062cb7e1cd05da5ded33a6cf9c) - update argument juggling
+-   [`1df6eba`](https://github.com/stdlib-js/stdlib/commit/1df6ebab765027588ea35e8b532cc049fabe3b96) - update argument juggling
 -   [`76883dd`](https://github.com/stdlib-js/stdlib/commit/76883dd26350489a351296785ca002838d9d39d5) - update error message
 -   [`655f6d4`](https://github.com/stdlib-js/stdlib/commit/655f6d4b995f3981f6eec0166721858e36ea98f2) - update `fromIndex` handling in `blas/ext/base/ndarray/glast-index-of` [(#8008)](https://github.com/stdlib-js/stdlib/pull/8008)
 -   [`5c0304c`](https://github.com/stdlib-js/stdlib/commit/5c0304cac2c538d91d09b6b30202f71e9b2b8650) - update `fromIndex` handling in `blas/ext/base/ndarray/slast-index-of` [(#8007)](https://github.com/stdlib-js/stdlib/pull/8007)
@@ -583,6 +585,8 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`7533913`](https://github.com/stdlib-js/stdlib/commit/75339137b0ab48062cb7e1cd05da5ded33a6cf9c) - **fix:** update argument juggling _(by Athan Reines)_
+-   [`1df6eba`](https://github.com/stdlib-js/stdlib/commit/1df6ebab765027588ea35e8b532cc049fabe3b96) - **fix:** update argument juggling _(by Athan Reines)_
 -   [`15144b7`](https://github.com/stdlib-js/stdlib/commit/15144b70b6941fd5bc92ab6380b1a91e6bb82620) - **test:** add tests for full code coverage _(by Athan Reines)_
 -   [`b5c1ed2`](https://github.com/stdlib-js/stdlib/commit/b5c1ed2e30623cf0cf5b801930d3ad3dfd2cc454) - **test:** add tests for full code coverage _(by Athan Reines)_
 -   [`8811beb`](https://github.com/stdlib-js/stdlib/commit/8811beb4ad993beb4e99401b5ec8a9f0df8e7569) - **feat:** add `blas/ext/last-index-of` [(#7665)](https://github.com/stdlib-js/stdlib/pull/7665) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
