@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8811beb`](https://github.com/stdlib-js/stdlib/commit/8811beb4ad993beb4e99401b5ec8a9f0df8e7569) - add `blas/ext/last-index-of` [(#7665)](https://github.com/stdlib-js/stdlib/pull/7665)
 -   [`68d2365`](https://github.com/stdlib-js/stdlib/commit/68d23656d0335ed8f30f86c2548c699a5a988502) - add C and Fortran implementation for `blas/base/zdscal` [(#7086)](https://github.com/stdlib-js/stdlib/pull/7086)
 -   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810)
 -   [`9861705`](https://github.com/stdlib-js/stdlib/commit/986170553f7fa289eca57e9aedbd194f7a70c420) - add C implementation for `blas/base/ssyr2` [(#2880)](https://github.com/stdlib-js/stdlib/pull/2880)
@@ -582,6 +583,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`8811beb`](https://github.com/stdlib-js/stdlib/commit/8811beb4ad993beb4e99401b5ec8a9f0df8e7569) - **feat:** add `blas/ext/last-index-of` [(#7665)](https://github.com/stdlib-js/stdlib/pull/7665) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`dfbc640`](https://github.com/stdlib-js/stdlib/commit/dfbc6406250c55ee702dc31e569fd65e1fcc1111) - **test:** address test failures _(by Athan Reines)_
 -   [`d08aa12`](https://github.com/stdlib-js/stdlib/commit/d08aa12963712cb6cd6f18f4dad3391a38a8d95e) - **test:** add tests for a fromIndex ndarray _(by Athan Reines)_
 -   [`a51a1a2`](https://github.com/stdlib-js/stdlib/commit/a51a1a2d7d06f299e3df58664968191a3738887f) - **test:** add tests for a fromIndex ndarray _(by Athan Reines)_
