@@ -490,7 +490,41 @@ tape( 'the function throws an error if provided a first argument which is a zero
 	}
 });
 
-tape( 'the function throws an error if provided a third argument which is not an ndarray-like object, an integer, or an object', function test( t ) {
+tape( 'the function throws an error if provided a fromIndex argument which is not an ndarray-like object, an integer, or an object', function test( t ) {
+	var values;
+	var i;
+	var x;
+	var y;
+
+	x = zeros( [ 2, 2 ], {
+		'dtype': 'float64'
+	});
+	y = zeros( [], {
+		'dtype': 'generic'
+	});
+	values = [
+		'5',
+		NaN,
+		true,
+		false,
+		null,
+		void 0,
+		[],
+		function noop() {}
+	];
+	for ( i = 0; i < values.length; i++ ) {
+		t.throws( badValue( values[ i ] ), TypeError, 'throws an error when provided ' + values[ i ] );
+	}
+	t.end();
+
+	function badValue( value ) {
+		return function badValue() {
+			lastIndexOf( x, scalar2ndarray( 2.0 ), value, y );
+		};
+	}
+});
+
+tape( 'the function throws an error if provided a fromIndex argument which is not an ndarray-like object, an integer, or an object (options)', function test( t ) {
 	var values;
 	var i;
 	var x;

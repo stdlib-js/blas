@@ -583,6 +583,8 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`15144b7`](https://github.com/stdlib-js/stdlib/commit/15144b70b6941fd5bc92ab6380b1a91e6bb82620) - **test:** add tests for full code coverage _(by Athan Reines)_
+-   [`b5c1ed2`](https://github.com/stdlib-js/stdlib/commit/b5c1ed2e30623cf0cf5b801930d3ad3dfd2cc454) - **test:** add tests for full code coverage _(by Athan Reines)_
 -   [`8811beb`](https://github.com/stdlib-js/stdlib/commit/8811beb4ad993beb4e99401b5ec8a9f0df8e7569) - **feat:** add `blas/ext/last-index-of` [(#7665)](https://github.com/stdlib-js/stdlib/pull/7665) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`dfbc640`](https://github.com/stdlib-js/stdlib/commit/dfbc6406250c55ee702dc31e569fd65e1fcc1111) - **test:** address test failures _(by Athan Reines)_
 -   [`d08aa12`](https://github.com/stdlib-js/stdlib/commit/d08aa12963712cb6cd6f18f4dad3391a38a8d95e) - **test:** add tests for a fromIndex ndarray _(by Athan Reines)_
