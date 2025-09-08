@@ -582,6 +582,8 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`dfbc640`](https://github.com/stdlib-js/stdlib/commit/dfbc6406250c55ee702dc31e569fd65e1fcc1111) - **test:** address test failures _(by Athan Reines)_
+-   [`d08aa12`](https://github.com/stdlib-js/stdlib/commit/d08aa12963712cb6cd6f18f4dad3391a38a8d95e) - **test:** add tests for a fromIndex ndarray _(by Athan Reines)_
 -   [`a51a1a2`](https://github.com/stdlib-js/stdlib/commit/a51a1a2d7d06f299e3df58664968191a3738887f) - **test:** add tests for a fromIndex ndarray _(by Athan Reines)_
 -   [`1f2836f`](https://github.com/stdlib-js/stdlib/commit/1f2836ff2dc2a2808f1578555431b54cf5008ef2) - **test:** add tests for 0d input arrays _(by Athan Reines)_
 -   [`1eb5a82`](https://github.com/stdlib-js/stdlib/commit/1eb5a82086b8d5cfde3e34980cebf8e0dacf18ed) - **docs:** document default values _(by Athan Reines)_
