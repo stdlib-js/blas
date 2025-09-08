@@ -582,6 +582,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`1eb5a82`](https://github.com/stdlib-js/stdlib/commit/1eb5a82086b8d5cfde3e34980cebf8e0dacf18ed) - **docs:** document default values _(by Athan Reines)_
 -   [`76883dd`](https://github.com/stdlib-js/stdlib/commit/76883dd26350489a351296785ca002838d9d39d5) - **fix:** update error message _(by Athan Reines)_
 -   [`4ec3a47`](https://github.com/stdlib-js/stdlib/commit/4ec3a471ad594bf710eb4e78a6650136389cb0a7) - **refactor:** update paths _(by Gururaj Gurram)_
 -   [`68d2365`](https://github.com/stdlib-js/stdlib/commit/68d23656d0335ed8f30f86c2548c699a5a988502) - **feat:** add C and Fortran implementation for `blas/base/zdscal` [(#7086)](https://github.com/stdlib-js/stdlib/pull/7086) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
