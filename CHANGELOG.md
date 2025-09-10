@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-08)
+## Unreleased (2025-09-10)
 
 <section class="features">
 
@@ -585,6 +585,8 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`33d711b`](https://github.com/stdlib-js/stdlib/commit/33d711b32194fa35075481f408444ce4bb48a32d) - **docs:** add missing forward slashes to return annotations _(by Philipp Burckhardt)_
+-   [`82be305`](https://github.com/stdlib-js/stdlib/commit/82be305dfecc75ac71e18dbed841aa6f8022e7be) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`7533913`](https://github.com/stdlib-js/stdlib/commit/75339137b0ab48062cb7e1cd05da5ded33a6cf9c) - **fix:** update argument juggling _(by Athan Reines)_
 -   [`1df6eba`](https://github.com/stdlib-js/stdlib/commit/1df6ebab765027588ea35e8b532cc049fabe3b96) - **fix:** update argument juggling _(by Athan Reines)_
 -   [`15144b7`](https://github.com/stdlib-js/stdlib/commit/15144b70b6941fd5bc92ab6380b1a91e6bb82620) - **test:** add tests for full code coverage _(by Athan Reines)_
