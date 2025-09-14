@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-10)
+## Unreleased (2025-09-14)
 
 <section class="features">
 
 ### Features
 
+-   [`e89922e`](https://github.com/stdlib-js/stdlib/commit/e89922e920edb3748871809093270ed4879c4c49) - add `gindexOfRow` to namespace
+-   [`de5a92e`](https://github.com/stdlib-js/stdlib/commit/de5a92e19185c9ec4e51cc6d54125bd3171ab989) - add `blas/ext/base/gindex-of-row`
 -   [`8811beb`](https://github.com/stdlib-js/stdlib/commit/8811beb4ad993beb4e99401b5ec8a9f0df8e7569) - add `blas/ext/last-index-of` [(#7665)](https://github.com/stdlib-js/stdlib/pull/7665)
 -   [`68d2365`](https://github.com/stdlib-js/stdlib/commit/68d23656d0335ed8f30f86c2548c699a5a988502) - add C and Fortran implementation for `blas/base/zdscal` [(#7086)](https://github.com/stdlib-js/stdlib/pull/7086)
 -   [`ab94c83`](https://github.com/stdlib-js/stdlib/commit/ab94c83ad9d32ce492cb65a0146bb6408973b478) - add `blas/base/wasm/zscal` [(#6810)](https://github.com/stdlib-js/stdlib/pull/6810)
@@ -585,6 +587,8 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`e89922e`](https://github.com/stdlib-js/stdlib/commit/e89922e920edb3748871809093270ed4879c4c49) - **feat:** add `gindexOfRow` to namespace _(by Athan Reines)_
+-   [`de5a92e`](https://github.com/stdlib-js/stdlib/commit/de5a92e19185c9ec4e51cc6d54125bd3171ab989) - **feat:** add `blas/ext/base/gindex-of-row` _(by Athan Reines)_
 -   [`33d711b`](https://github.com/stdlib-js/stdlib/commit/33d711b32194fa35075481f408444ce4bb48a32d) - **docs:** add missing forward slashes to return annotations _(by Philipp Burckhardt)_
 -   [`82be305`](https://github.com/stdlib-js/stdlib/commit/82be305dfecc75ac71e18dbed841aa6f8022e7be) - **docs:** clean-up TSDoc examples _(by Philipp Burckhardt)_
 -   [`7533913`](https://github.com/stdlib-js/stdlib/commit/75339137b0ab48062cb7e1cd05da5ded33a6cf9c) - **fix:** update argument juggling _(by Athan Reines)_
