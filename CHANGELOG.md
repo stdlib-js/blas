@@ -587,6 +587,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`905019c`](https://github.com/stdlib-js/stdlib/commit/905019c024611308865950e3d1dd51c642176e82) - **docs:** fix grammar in function descriptions _(by Philipp Burckhardt)_
 -   [`e1d0d22`](https://github.com/stdlib-js/stdlib/commit/e1d0d2249cb00b7b62171a498e4a4cf4f0813695) - **docs:** fix formatting [(#8079)](https://github.com/stdlib-js/stdlib/pull/8079) _(by stdlib-bot)_
 -   [`e89922e`](https://github.com/stdlib-js/stdlib/commit/e89922e920edb3748871809093270ed4879c4c49) - **feat:** add `gindexOfRow` to namespace _(by Athan Reines)_
 -   [`de5a92e`](https://github.com/stdlib-js/stdlib/commit/de5a92e19185c9ec4e51cc6d54125bd3171ab989) - **feat:** add `blas/ext/base/gindex-of-row` _(by Athan Reines)_

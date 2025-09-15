@@ -26,7 +26,7 @@ var base = require( './base.js' );
 // MAIN //
 
 /**
-* Returns the index of the first row in a input matrix which has the same elements as a provided search vector using alternative indexing semantics.
+* Returns the index of the first row in an input matrix which has the same elements as a provided search vector using alternative indexing semantics.
 *
 * ## Notes
 *

@@ -19,7 +19,7 @@
 'use strict';
 
 /**
-* Return the index of the first row in a input matrix which has the same elements as a provided search vector.
+* Return the index of the first row in an input matrix which has the same elements as a provided search vector.
 *
 * @module @stdlib/blas/ext/base/gindex-of-row
 *

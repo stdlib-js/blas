@@ -33,7 +33,7 @@ type InputArray = Collection<unknown> | AccessorArrayLike<unknown>;
 */
 interface Routine {
 	/**
-	* Returns the index of the first row in a input matrix which has the same elements as a provided search vector.
+	* Returns the index of the first row in an input matrix which has the same elements as a provided search vector.
 	*
 	* ## Notes
 	*
@@ -58,7 +58,7 @@ interface Routine {
 	( order: Layout, M: number, N: number, A: InputArray, LDA: number, x: InputArray, strideX: number ): number;
 
 	/**
-	* Returns the index of the first row in a input matrix which has the same elements as a provided search vector using alternative indexing semantics.
+	* Returns the index of the first row in an input matrix which has the same elements as a provided search vector using alternative indexing semantics.
 	*
 	* ## Notes
 	*
@@ -85,7 +85,7 @@ interface Routine {
 }
 
 /**
-* Returns the index of the first row in a input matrix which has the same elements as a provided search vector.
+* Returns the index of the first row in an input matrix which has the same elements as a provided search vector.
 *
 * ## Notes
 *
