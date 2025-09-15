@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-14)
+## Unreleased (2025-09-15)
 
 <section class="features">
 
@@ -587,6 +587,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`e1d0d22`](https://github.com/stdlib-js/stdlib/commit/e1d0d2249cb00b7b62171a498e4a4cf4f0813695) - **docs:** fix formatting [(#8079)](https://github.com/stdlib-js/stdlib/pull/8079) _(by stdlib-bot)_
 -   [`e89922e`](https://github.com/stdlib-js/stdlib/commit/e89922e920edb3748871809093270ed4879c4c49) - **feat:** add `gindexOfRow` to namespace _(by Athan Reines)_
 -   [`de5a92e`](https://github.com/stdlib-js/stdlib/commit/de5a92e19185c9ec4e51cc6d54125bd3171ab989) - **feat:** add `blas/ext/base/gindex-of-row` _(by Athan Reines)_
 -   [`33d711b`](https://github.com/stdlib-js/stdlib/commit/33d711b32194fa35075481f408444ce4bb48a32d) - **docs:** add missing forward slashes to return annotations _(by Philipp Burckhardt)_
