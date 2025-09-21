@@ -4,12 +4,19 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-15)
+## Unreleased (2025-09-21)
 
 <section class="features">
 
 ### Features
 
+-   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - update `blas/base` TypeScript declarations
+-   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - update `blas/ext/base/ndarray` TypeScript declarations
+-   [`3d39d59`](https://github.com/stdlib-js/stdlib/commit/3d39d59f9920911a00c2c438dfd49dee408edc67) - update `blas/ext/base` TypeScript declarations
+-   [`e593f08`](https://github.com/stdlib-js/stdlib/commit/e593f08c83e3b12477e3460d9150d75299d2123c) - update `blas/ext` TypeScript declarations
+-   [`567d262`](https://github.com/stdlib-js/stdlib/commit/567d262b3cdddaa38241d33d0f3f54616c1aa7be) - update `blas/ext/base/wasm` TypeScript declarations
+-   [`30e0dfd`](https://github.com/stdlib-js/stdlib/commit/30e0dfd038ad78b093a6250982e40e8685c5775a) - update `blas/base/wasm` TypeScript declarations
+-   [`d78ef70`](https://github.com/stdlib-js/stdlib/commit/d78ef70c653ac6ea86d6bf93e3e6af5fc97aa18f) - update `blas/base/assert` TypeScript declarations
 -   [`e89922e`](https://github.com/stdlib-js/stdlib/commit/e89922e920edb3748871809093270ed4879c4c49) - add `gindexOfRow` to namespace
 -   [`de5a92e`](https://github.com/stdlib-js/stdlib/commit/de5a92e19185c9ec4e51cc6d54125bd3171ab989) - add `blas/ext/base/gindex-of-row`
 -   [`8811beb`](https://github.com/stdlib-js/stdlib/commit/8811beb4ad993beb4e99401b5ec8a9f0df8e7569) - add `blas/ext/last-index-of` [(#7665)](https://github.com/stdlib-js/stdlib/pull/7665)
@@ -587,6 +594,23 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - **feat:** update `blas/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`3d39d59`](https://github.com/stdlib-js/stdlib/commit/3d39d59f9920911a00c2c438dfd49dee408edc67) - **feat:** update `blas/ext/base` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`e593f08`](https://github.com/stdlib-js/stdlib/commit/e593f08c83e3b12477e3460d9150d75299d2123c) - **feat:** update `blas/ext` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`567d262`](https://github.com/stdlib-js/stdlib/commit/567d262b3cdddaa38241d33d0f3f54616c1aa7be) - **feat:** update `blas/ext/base/wasm` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`c92ba2d`](https://github.com/stdlib-js/stdlib/commit/c92ba2d92c3ae4ea40f9b86fc5d620d7f9579f55) - **docs:** clean-up code in TSDoc examples and remove self-requires _(by Philipp Burckhardt)_
+-   [`3dc5f1e`](https://github.com/stdlib-js/stdlib/commit/3dc5f1ef335565c05ee4be5878de5b587c7f28d6) - **docs:** fix require paths for complex arrays _(by Philipp Burckhardt)_
+-   [`30e0dfd`](https://github.com/stdlib-js/stdlib/commit/30e0dfd038ad78b093a6250982e40e8685c5775a) - **feat:** update `blas/base/wasm` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`d78ef70`](https://github.com/stdlib-js/stdlib/commit/d78ef70c653ac6ea86d6bf93e3e6af5fc97aa18f) - **feat:** update `blas/base/assert` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`4d84e34`](https://github.com/stdlib-js/stdlib/commit/4d84e3478381848a944b5538bb51f5893e5686b7) - **docs:** update type _(by Athan Reines)_
+-   [`0a5260e`](https://github.com/stdlib-js/stdlib/commit/0a5260e6aa9182cf1a9e1fc3a9de5490b48049ef) - **docs:** update type _(by Athan Reines)_
+-   [`966aadc`](https://github.com/stdlib-js/stdlib/commit/966aadc45f808116483e177d44fb34df11a347c3) - **docs:** update type _(by Athan Reines)_
+-   [`1f53e33`](https://github.com/stdlib-js/stdlib/commit/1f53e332f6dc2f8a2c710ac23baeda35f4016ed2) - **docs:** update type _(by Athan Reines)_
+-   [`59e4ee6`](https://github.com/stdlib-js/stdlib/commit/59e4ee626666a842d0ceebd94fa035003dcf946f) - **docs:** update type _(by Athan Reines)_
+-   [`ac78d4f`](https://github.com/stdlib-js/stdlib/commit/ac78d4f7a00dd61a91e8583fb1b2076237ec373c) - **docs:** update type _(by Athan Reines)_
+-   [`ddbd40d`](https://github.com/stdlib-js/stdlib/commit/ddbd40d31c6efac28bda0bef87d40b7b086147b5) - **docs:** update type _(by Athan Reines)_
+-   [`200af8b`](https://github.com/stdlib-js/stdlib/commit/200af8bd450ccbd20ba7931ddebea2bbea21d7af) - **test:** use functional APIs for accessing ndarray properties _(by Athan Reines)_
 -   [`905019c`](https://github.com/stdlib-js/stdlib/commit/905019c024611308865950e3d1dd51c642176e82) - **docs:** fix grammar in function descriptions _(by Philipp Burckhardt)_
 -   [`e1d0d22`](https://github.com/stdlib-js/stdlib/commit/e1d0d2249cb00b7b62171a498e4a4cf4f0813695) - **docs:** fix formatting [(#8079)](https://github.com/stdlib-js/stdlib/pull/8079) _(by stdlib-bot)_
 -   [`e89922e`](https://github.com/stdlib-js/stdlib/commit/e89922e920edb3748871809093270ed4879c4c49) - **feat:** add `gindexOfRow` to namespace _(by Athan Reines)_

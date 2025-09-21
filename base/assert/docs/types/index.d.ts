@@ -22,6 +22,7 @@
 
 import isDiagonalType = require( './../../../../base/assert/is-diagonal-type' );
 import isLayout = require( './../../../../base/assert/is-layout' );
+import isMatrixOrientation = require( './../../../../base/assert/is-matrix-orientation' );
 import isMatrixTriangle = require( './../../../../base/assert/is-matrix-triangle' );
 import isOperationSide = require( './../../../../base/assert/is-operation-side' );
 import isTransposeOperation = require( './../../../../base/assert/is-transpose-operation' );
@@ -65,6 +66,24 @@ interface Namespace {
 	* // returns false
 	*/
 	isLayout: typeof isLayout;
+
+	/**
+	* Tests whether an input value is a matrix orientation.
+	*
+	* @param v - value to test
+	* @returns boolean indicating whether an input value is a matrix orientation
+	*
+	* @example
+	* var bool = ns.isMatrixOrientation( 'rows' );
+	* // returns true
+	*
+	* bool = ns.isMatrixOrientation( 'columns' );
+	* // returns true
+	*
+	* bool = ns.isMatrixOrientation( 'foo' );
+	* // returns false
+	*/
+	isMatrixOrientation: typeof isMatrixOrientation;
 
 	/**
 	* Tests whether an input value is a BLAS matrix triangle.
