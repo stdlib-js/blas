@@ -184,7 +184,6 @@ console.log( A2 );
 
 [@stdlib/array/base/accessor]: https://github.com/stdlib-js/array-base-accessor
 
-
 </section>
 
 <!-- /.links -->

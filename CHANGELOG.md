@@ -595,6 +595,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`8317b7f`](https://github.com/stdlib-js/stdlib/commit/8317b7f2c2eb21b2f36d734bfd853d7bc75d10a9) - **style:** remove empty line [(#8122)](https://github.com/stdlib-js/stdlib/pull/8122) _(by stdlib-bot)_
 -   [`950f099`](https://github.com/stdlib-js/stdlib/commit/950f099d95c6fae1e4fdafd3f729eb0e1aad3a54) - **test:** add tests for full branch coverage _(by Athan Reines)_
 -   [`bff3c1e`](https://github.com/stdlib-js/stdlib/commit/bff3c1ef43c76a9bf1748c53c79ae2b6d6d9cf48) - **feat:** add `blas/ext/sorthp` [(#8098)](https://github.com/stdlib-js/stdlib/pull/8098) _(by Muhammad Haris, Athan Reines)_
 -   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - **feat:** update `blas/base` TypeScript declarations _(by Philipp Burckhardt)_
