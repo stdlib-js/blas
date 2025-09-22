@@ -1184,6 +1184,18 @@ tape( 'the function supports providing a `sortOrder` argument (scalar, options)'
 	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
 	t.strictEqual( isSameArray( getData( actual ), expected ), true, 'returns expected value' );
 
+	xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
+	x = new ndarray( 'generic', xbuf, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
+
+	actual = sorthp( x, 0.0, {} );
+	expected = [ -1.0, 2.0, -3.0, 4.0 ];
+
+	t.strictEqual( actual, x, 'returns expected value' );
+	t.strictEqual( getDType( actual ), 'generic', 'returns expected value' );
+	t.deepEqual( getShape( actual ), getShape( x ), 'returns expected value' );
+	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
+	t.strictEqual( isSameArray( getData( actual ), expected ), true, 'returns expected value' );
+
 	t.end();
 });
 
@@ -1214,6 +1226,18 @@ tape( 'the function supports providing a `sortOrder` argument (0d ndarray)', fun
 
 	actual = sorthp( x, scalar2ndarray( -1.0, opts ) );
 	expected = [ 4.0, 2.0, -1.0, -3.0 ];
+
+	t.strictEqual( actual, x, 'returns expected value' );
+	t.strictEqual( getDType( actual ), opts.dtype, 'returns expected value' );
+	t.deepEqual( getShape( actual ), getShape( x ), 'returns expected value' );
+	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
+	t.strictEqual( isSameArray( getData( actual ), expected ), true, 'returns expected value' );
+
+	xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
+	x = new ndarray( opts.dtype, xbuf, [ 2, 2 ], [ 2, 1 ], 0, 'column-major' );
+
+	actual = sorthp( x, scalar2ndarray( 0.0, opts ) );
+	expected = [ -1.0, 2.0, -3.0, 4.0 ];
 
 	t.strictEqual( actual, x, 'returns expected value' );
 	t.strictEqual( getDType( actual ), opts.dtype, 'returns expected value' );
@@ -1258,6 +1282,18 @@ tape( 'the function supports providing a `sortOrder` argument (0d ndarray, optio
 	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
 	t.strictEqual( isSameArray( getData( actual ), expected ), true, 'returns expected value' );
 
+	xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
+	x = new ndarray( opts.dtype, xbuf, [ 2, 2 ], [ 2, 1 ], 0, 'column-major' );
+
+	actual = sorthp( x, scalar2ndarray( 0.0, opts ), {} );
+	expected = [ -1.0, 2.0, -3.0, 4.0 ];
+
+	t.strictEqual( actual, x, 'returns expected value' );
+	t.strictEqual( getDType( actual ), opts.dtype, 'returns expected value' );
+	t.deepEqual( getShape( actual ), getShape( x ), 'returns expected value' );
+	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
+	t.strictEqual( isSameArray( getData( actual ), expected ), true, 'returns expected value' );
+
 	t.end();
 });
 
@@ -1288,6 +1324,20 @@ tape( 'the function supports providing a `sortOrder` argument (scalar, broadcast
 		'dims': [ 0 ]
 	});
 	expected = [ [ 2.0, 4.0 ], [ -1.0, -3.0 ] ];
+
+	t.strictEqual( actual, x, 'returns expected value' );
+	t.strictEqual( getDType( actual ), 'generic', 'returns expected value' );
+	t.deepEqual( getShape( actual ), getShape( x ), 'returns expected value' );
+	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
+	t.deepEqual( ndarray2array( actual ), expected, 'returns expected value' );
+
+	xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
+	x = new ndarray( 'generic', xbuf, [ 2, 2 ], [ 1, 2 ], 0, 'column-major' );
+
+	actual = sorthp( x, 0.0, {
+		'dims': [ 0 ]
+	});
+	expected = [ [ -1.0, -3.0 ], [ 2.0, 4.0 ] ];
 
 	t.strictEqual( actual, x, 'returns expected value' );
 	t.strictEqual( getDType( actual ), 'generic', 'returns expected value' );
@@ -1329,6 +1379,20 @@ tape( 'the function supports providing a `sortOrder` argument (0d ndarray, broad
 		'dims': [ 0 ]
 	});
 	expected = [ [ 2.0, 4.0 ], [ -1.0, -3.0 ] ];
+
+	t.strictEqual( actual, x, 'returns expected value' );
+	t.strictEqual( getDType( actual ), opts.dtype, 'returns expected value' );
+	t.deepEqual( getShape( actual ), getShape( x ), 'returns expected value' );
+	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
+	t.deepEqual( ndarray2array( actual ), expected, 'returns expected value' );
+
+	xbuf = [ -1.0, 2.0, -3.0, 4.0 ];
+	x = new ndarray( opts.dtype, xbuf, [ 2, 2 ], [ 1, 2 ], 0, 'column-major' );
+
+	actual = sorthp( x, scalar2ndarray( 0.0, opts ), {
+		'dims': [ 0 ]
+	});
+	expected = [ [ -1.0, -3.0 ], [ 2.0, 4.0 ] ];
 
 	t.strictEqual( actual, x, 'returns expected value' );
 	t.strictEqual( getDType( actual ), opts.dtype, 'returns expected value' );
@@ -1468,6 +1532,22 @@ tape( 'the function supports providing a `sortOrder` argument (ndarray)', functi
 		'dims': [ 0 ]
 	});
 	expected = [ [ -1.0, 4.0 ], [ 2.0, -3.0 ] ];
+
+	t.strictEqual( actual, x, 'returns expected value' );
+	t.strictEqual( getDType( actual ), opts.dtype, 'returns expected value' );
+	t.deepEqual( getShape( actual ), getShape( x ), 'returns expected value' );
+	t.strictEqual( getOrder( actual ), getOrder( x ), 'returns expected value' );
+	t.deepEqual( ndarray2array( actual ), expected, 'returns expected value' );
+
+	xbuf = [ 1.0, -2.0, -3.0, 4.0 ];
+	x = new ndarray( opts.dtype, xbuf, [ 2, 2 ], [ 2, 1 ], 0, 'row-major' );
+
+	obuf = [ 0.0, -1.0 ];
+	sortOrder = new ndarray( opts.dtype, obuf, [ 2 ], [ 1 ], 0, 'row-major' );
+	actual = sorthp( x, sortOrder, {
+		'dims': [ 1 ]
+	});
+	expected = [ [ 1.0, -2.0 ], [ 4.0, -3.0 ] ];
 
 	t.strictEqual( actual, x, 'returns expected value' );
 	t.strictEqual( getDType( actual ), opts.dtype, 'returns expected value' );
