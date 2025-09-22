@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-21)
+## Unreleased (2025-09-22)
 
 <section class="features">
 
 ### Features
 
+-   [`bff3c1e`](https://github.com/stdlib-js/stdlib/commit/bff3c1ef43c76a9bf1748c53c79ae2b6d6d9cf48) - add `blas/ext/sorthp` [(#8098)](https://github.com/stdlib-js/stdlib/pull/8098)
 -   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - update `blas/base` TypeScript declarations
 -   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - update `blas/ext/base/ndarray` TypeScript declarations
 -   [`3d39d59`](https://github.com/stdlib-js/stdlib/commit/3d39d59f9920911a00c2c438dfd49dee408edc67) - update `blas/ext/base` TypeScript declarations
@@ -594,6 +595,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`bff3c1e`](https://github.com/stdlib-js/stdlib/commit/bff3c1ef43c76a9bf1748c53c79ae2b6d6d9cf48) - **feat:** add `blas/ext/sorthp` [(#8098)](https://github.com/stdlib-js/stdlib/pull/8098) _(by Muhammad Haris, Athan Reines)_
 -   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - **feat:** update `blas/base` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`12636b6`](https://github.com/stdlib-js/stdlib/commit/12636b62433a9a59fefdb4a0b548ff26f94f6d3c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`3d39d59`](https://github.com/stdlib-js/stdlib/commit/3d39d59f9920911a00c2c438dfd49dee408edc67) - **feat:** update `blas/ext/base` TypeScript declarations _(by Philipp Burckhardt)_
