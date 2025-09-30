@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-29)
+## Unreleased (2025-09-30)
 
 <section class="features">
 
@@ -595,6 +595,7 @@ A total of 26 issues were closed in this release:
 
 <details>
 
+-   [`bb33be6`](https://github.com/stdlib-js/stdlib/commit/bb33be6522625aae9440ea4e9988a9b69c4b58ec) - **docs:** fix examples [(#8161)](https://github.com/stdlib-js/stdlib/pull/8161) _(by stdlib-bot)_
 -   [`d94514b`](https://github.com/stdlib-js/stdlib/commit/d94514bc9418f5b42df6233204d5005d53af00ca) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`23cbd7c`](https://github.com/stdlib-js/stdlib/commit/23cbd7c52abe915808ec95031ef1fbf0a5c91cd7) - **chore:** fix typo in `blas/ext/sorthp` description _(by Philipp Burckhardt)_
