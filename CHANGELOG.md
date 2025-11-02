@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-10-13)
+## Unreleased (2025-11-02)
 
 <section class="features">
 
@@ -595,6 +595,7 @@ A total of 27 issues were closed in this release:
 
 <details>
 
+-   [`e543b93`](https://github.com/stdlib-js/stdlib/commit/e543b934946086e56d0bedcb0b54df4e87e1a090) - **test:** fix descriptions _(by Athan Reines)_
 -   [`53ffc05`](https://github.com/stdlib-js/stdlib/commit/53ffc054bf593936293c275279ceab2e17c45973) - **chore:** fix JavaScript lint errors [(#8211)](https://github.com/stdlib-js/stdlib/pull/8211) _(by Payal Goswami)_
 -   [`bb33be6`](https://github.com/stdlib-js/stdlib/commit/bb33be6522625aae9440ea4e9988a9b69c4b58ec) - **docs:** fix examples [(#8161)](https://github.com/stdlib-js/stdlib/pull/8161) _(by stdlib-bot)_
 -   [`d94514b`](https://github.com/stdlib-js/stdlib/commit/d94514bc9418f5b42df6233204d5005d53af00ca) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
@@ -666,7 +667,7 @@ A total of 27 issues were closed in this release:
 -   [`20ae685`](https://github.com/stdlib-js/stdlib/commit/20ae6858f9bea5a07a619b688dad98a0a77dcfb6) - **docs:** correctly call .ndarray in second example _(by Philipp Burckhardt)_
 -   [`8cea287`](https://github.com/stdlib-js/stdlib/commit/8cea2870cc30848a616b76259b3274caae387b10) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`e38f6c6`](https://github.com/stdlib-js/stdlib/commit/e38f6c6e0c0bccec552a2346c900e1f7711da7b0) - **test:** add user reference matrix [(#7895)](https://github.com/stdlib-js/stdlib/pull/7895) _(by Shabareesh Shetty)_
--   [`1913191`](https://github.com/stdlib-js/stdlib/commit/1913191dea38c0f42f7143747c121db38f1ebc35) - **chore:** fix C lint errors [(#7878)](https://github.com/stdlib-js/stdlib/pull/7878) _(by GeoDaoyu)_
+-   [`1913191`](https://github.com/stdlib-js/stdlib/commit/1913191dea38c0f42f7143747c121db38f1ebc35) - **chore:** fix C lint errors [(#7878)](https://github.com/stdlib-js/stdlib/pull/7878) _(by Geo Daoyu)_
 -   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`f1ddfef`](https://github.com/stdlib-js/stdlib/commit/f1ddfef59e6460cd9f6505566434c2ed3dafa3df) - **feat:** add `blas/base/gsyr` [(#7738)](https://github.com/stdlib-js/stdlib/pull/7738) _(by Shabareesh Shetty, Athan Reines, stdlib-bot)_
 -   [`6cc361e`](https://github.com/stdlib-js/stdlib/commit/6cc361ee03deef0ba27363afe74f61416d5a3c17) - **docs:** fix descriptions _(by Athan Reines)_
@@ -740,7 +741,7 @@ A total of 27 issues were closed in this release:
 -   [`1070a84`](https://github.com/stdlib-js/stdlib/commit/1070a840f5b25d142478ca21fce3109dd0dfc983) - **bench:** fix random value generation _(by Athan Reines)_
 -   [`9de8599`](https://github.com/stdlib-js/stdlib/commit/9de85992004be1bb16c4374f090bdbf4f1861928) - **bench:** fix random value generation _(by Athan Reines)_
 -   [`9dc4177`](https://github.com/stdlib-js/stdlib/commit/9dc4177ac62c2bfaa7db9f6168cb4b3846e8ea07) - **bench:** fix random value generation _(by Athan Reines)_
--   [`3192ef5`](https://github.com/stdlib-js/stdlib/commit/3192ef5e908c2ac107edf9ac4a4c92bd2997aa67) - **chore:** fix C lint errors [(#7646)](https://github.com/stdlib-js/stdlib/pull/7646) _(by GeoDaoyu)_
+-   [`3192ef5`](https://github.com/stdlib-js/stdlib/commit/3192ef5e908c2ac107edf9ac4a4c92bd2997aa67) - **chore:** fix C lint errors [(#7646)](https://github.com/stdlib-js/stdlib/pull/7646) _(by Geo Daoyu)_
 -   [`708320e`](https://github.com/stdlib-js/stdlib/commit/708320e43d505cd6f390bf6014d58cb5e092cbaf) - **docs:** update related packages sections [(#7647)](https://github.com/stdlib-js/stdlib/pull/7647) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`e01e9d8`](https://github.com/stdlib-js/stdlib/commit/e01e9d8efc5ba72da1a68a6abf2d4058e6d89a02) - **docs:** use appropriate data type in string interpolation [(#7631)](https://github.com/stdlib-js/stdlib/pull/7631) _(by Shabareesh Shetty)_
 -   [`c9c2744`](https://github.com/stdlib-js/stdlib/commit/c9c274420d450483ea3518e73e5103961ec8f4b5) - **docs:** fix parameter name _(by Philipp Burckhardt)_
@@ -1000,7 +1001,7 @@ A total of 27 issues were closed in this release:
 -   [`1ed8400`](https://github.com/stdlib-js/stdlib/commit/1ed8400db79e87f245a7ad7d80d942e420b82e60) - **refactor:** simplify implementation _(by Athan Reines)_
 -   [`3723b66`](https://github.com/stdlib-js/stdlib/commit/3723b660d122770a9b4862695fd5c02eb5da352b) - **chore:** fix EditorConfig lint errors [(#7001)](https://github.com/stdlib-js/stdlib/pull/7001) _(by Lalit Narayan Yadav)_
 -   [`576b85b`](https://github.com/stdlib-js/stdlib/commit/576b85bb15cbf83346f8f100e48acf573ac1fcfe) - **chore:** fix C lint errors [(#7033)](https://github.com/stdlib-js/stdlib/pull/7033) _(by Uday Kakade)_
--   [`a75bd09`](https://github.com/stdlib-js/stdlib/commit/a75bd09ef2db7eb2761ebc1e776ebcfa123d7493) - **chore:** fix EditorConfig lint errors [(#7029)](https://github.com/stdlib-js/stdlib/pull/7029) _(by zhanggy)_
+-   [`a75bd09`](https://github.com/stdlib-js/stdlib/commit/a75bd09ef2db7eb2761ebc1e776ebcfa123d7493) - **chore:** fix EditorConfig lint errors [(#7029)](https://github.com/stdlib-js/stdlib/pull/7029) _(by Geo Daoyu)_
 -   [`f750524`](https://github.com/stdlib-js/stdlib/commit/f75052497fb09596b3708ecaafa31948b0c499f0) - **feat:** add `blas/ext/base/dnancusumkbn` [(#5822)](https://github.com/stdlib-js/stdlib/pull/5822) _(by Vivek Maurya, Athan Reines, stdlib-bot)_
 -   [`47043f4`](https://github.com/stdlib-js/stdlib/commit/47043f4dd5b22794abc28364824a19e1712a8dc7) - **feat:** add `blas/ext/base/wasm/dapx` [(#5643)](https://github.com/stdlib-js/stdlib/pull/5643) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`44d408f`](https://github.com/stdlib-js/stdlib/commit/44d408f29e90ec7932cd46644f990c66c13b8bdb) - **refactor:** use base assertion utility _(by Athan Reines)_
@@ -1562,12 +1563,12 @@ A total of 27 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
--   GeoDaoyu
+-   Geo Daoyu
 -   Gururaj Gurram
 -   Hemant M Mehta
 -   Justyn Shelby
@@ -1587,7 +1588,6 @@ A total of 24 people contributed to this release. Thank you to the following con
 -   Suhaib Ilahi
 -   Uday Kakade
 -   Vivek Maurya
--   zhanggy
 
 </section>
 
@@ -1924,7 +1924,7 @@ A total of 5 issues were closed in this release:
 -   [`4ca068f`](https://github.com/stdlib-js/stdlib/commit/4ca068f174225d1eaec123656682589febf1b547) - **test:** update to test for exact equality [(#2864)](https://github.com/stdlib-js/stdlib/pull/2864) _(by Aman Bhansali)_
 -   [`3e80682`](https://github.com/stdlib-js/stdlib/commit/3e80682320d42a999f428fcf3d30e6711b6b9b89) - **refactor:** update implementation for `blas/ext/base/sdsnansumpw` _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`c6bf7de`](https://github.com/stdlib-js/stdlib/commit/c6bf7de53b6ab8c44263cee7fdf1cdfe2815864d) - **refactor:** update implementation for `blas/ext/base/sapxsumors` _(by Yaswanth Kosuru, Philipp Burckhardt)_
--   [`7cc8bb9`](https://github.com/stdlib-js/stdlib/commit/7cc8bb9a96147bb94fe8cfddc180a6ec535fc368) - **refactor:** update `blas/ext/base/dsnannsumors` _(by HarshaNP, Philipp Burckhardt)_
+-   [`7cc8bb9`](https://github.com/stdlib-js/stdlib/commit/7cc8bb9a96147bb94fe8cfddc180a6ec535fc368) - **refactor:** update `blas/ext/base/dsnannsumors` _(by Gitty Harsha, Philipp Burckhardt)_
 -   [`e9f4e07`](https://github.com/stdlib-js/stdlib/commit/e9f4e0759a14b8da93d4e0837b886d8ed56bc696) - **refactor:** update `blas/ext/base/dsnansumpw` to follow current conventions _(by Yaswanth Kosuru, Philipp Burckhardt)_
 -   [`e0cef99`](https://github.com/stdlib-js/stdlib/commit/e0cef995e884021db3001dc1a3cfef0ca7b368c2) - **style:** remove extra spaces for regular expressions in publish script _(by Philipp Burckhardt)_
 -   [`da12183`](https://github.com/stdlib-js/stdlib/commit/da121832eca80c36e1e32929e994fef44ca8a4cc) - **feat:** add `blas/base/dspr` [(#2794)](https://github.com/stdlib-js/stdlib/pull/2794) _(by Aman Bhansali, Athan Reines)_
@@ -1944,8 +1944,8 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
+-   Gitty Harsha
 -   Gururaj Gurram
--   HarshaNP
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Yaswanth Kosuru
