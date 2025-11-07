@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-03)
+## Unreleased (2025-11-07)
 
 <section class="features">
 
@@ -596,6 +596,7 @@ A total of 28 issues were closed in this release:
 
 <details>
 
+-   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`2ec7e51`](https://github.com/stdlib-js/stdlib/commit/2ec7e5165cab5afc566fe1a337b67c8bd9335cf2) - **style:** remove whitespace [(#8370)](https://github.com/stdlib-js/stdlib/pull/8370) _(by anujmishra03, Athan Reines)_
 -   [`570bbcf`](https://github.com/stdlib-js/stdlib/commit/570bbcf40d890923d59e0a25ffb2c2a4052b9a59) - **feat:** add `blas/ext/to-sortedhp` [(#8182)](https://github.com/stdlib-js/stdlib/pull/8182) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`9402798`](https://github.com/stdlib-js/stdlib/commit/9402798c7ffef6221973cfdfee262f831a0c2f28) - **docs:** remove incorrect comment _(by Athan Reines)_
