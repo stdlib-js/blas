@@ -596,6 +596,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`a9fb57e`](https://github.com/stdlib-js/stdlib/commit/a9fb57ec46973d10d247dfbe68d0b11a24970688) - **docs:** update descriptions _(by Philipp Burckhardt)_
 -   [`ed24f16`](https://github.com/stdlib-js/stdlib/commit/ed24f164c64a5e1f07581ea699b5264a945f8ef0) - **chore:** fix C lint errors [(#8446)](https://github.com/stdlib-js/stdlib/pull/8446) _(by kaushal-kumar-it, Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`2ec7e51`](https://github.com/stdlib-js/stdlib/commit/2ec7e5165cab5afc566fe1a337b67c8bd9335cf2) - **style:** remove whitespace [(#8370)](https://github.com/stdlib-js/stdlib/pull/8370) _(by anujmishra03, Athan Reines)_
