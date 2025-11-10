@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-09)
+## Unreleased (2025-11-10)
 
 <section class="features">
 
 ### Features
 
+-   [`dd86a9a`](https://github.com/stdlib-js/stdlib/commit/dd86a9a4d5b0613903a5a502416d250e6f3cba86) - add `dlinspace` to namespace
+-   [`b187382`](https://github.com/stdlib-js/stdlib/commit/b18738234e698259d919d7ffccc25e5a8ab68c70) - add `blas/ext/base/dlinspace`
 -   [`570bbcf`](https://github.com/stdlib-js/stdlib/commit/570bbcf40d890923d59e0a25ffb2c2a4052b9a59) - add `blas/ext/to-sortedhp` [(#8182)](https://github.com/stdlib-js/stdlib/pull/8182)
 -   [`bff3c1e`](https://github.com/stdlib-js/stdlib/commit/bff3c1ef43c76a9bf1748c53c79ae2b6d6d9cf48) - add `blas/ext/sorthp` [(#8098)](https://github.com/stdlib-js/stdlib/pull/8098)
 -   [`08ff2de`](https://github.com/stdlib-js/stdlib/commit/08ff2de759f79583df55a39c58c7e94d05d1149e) - update `blas/base` TypeScript declarations
@@ -596,6 +598,8 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`dd86a9a`](https://github.com/stdlib-js/stdlib/commit/dd86a9a4d5b0613903a5a502416d250e6f3cba86) - **feat:** add `dlinspace` to namespace _(by Athan Reines)_
+-   [`b187382`](https://github.com/stdlib-js/stdlib/commit/b18738234e698259d919d7ffccc25e5a8ab68c70) - **feat:** add `blas/ext/base/dlinspace` _(by Athan Reines)_
 -   [`a9fb57e`](https://github.com/stdlib-js/stdlib/commit/a9fb57ec46973d10d247dfbe68d0b11a24970688) - **docs:** update descriptions _(by Philipp Burckhardt)_
 -   [`ed24f16`](https://github.com/stdlib-js/stdlib/commit/ed24f164c64a5e1f07581ea699b5264a945f8ef0) - **chore:** fix C lint errors [(#8446)](https://github.com/stdlib-js/stdlib/pull/8446) _(by kaushal-kumar-it, Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
