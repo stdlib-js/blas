@@ -600,6 +600,8 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`b3817aa`](https://github.com/stdlib-js/stdlib/commit/b3817aa9b503e211474c485bc381251d47aa308b) - **docs:** fix function signature and remove extrs spaces _(by Philipp Burckhardt)_
+-   [`af7c8c4`](https://github.com/stdlib-js/stdlib/commit/af7c8c4e389209dd4004613c251d449e99ba09f7) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`03e2dbf`](https://github.com/stdlib-js/stdlib/commit/03e2dbff8a6f36028a410d5b98c8796880bb3516) - **feat:** add `slinspace` to namespace _(by Athan Reines)_
 -   [`30f0d38`](https://github.com/stdlib-js/stdlib/commit/30f0d38377dd9eb72f4cdc452f2b74268c2812d6) - **feat:** add `blas/ext/base/slinspace` _(by Athan Reines)_
 -   [`c46348e`](https://github.com/stdlib-js/stdlib/commit/c46348e63572c385a5a10c111a0214c9bb28eeec) - **docs:** update copy _(by Athan Reines)_
