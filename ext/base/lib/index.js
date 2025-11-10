@@ -1054,6 +1054,15 @@ setReadOnly( ns, 'sindexOf', require( './../../../ext/base/sindex-of' ) );
 setReadOnly( ns, 'slastIndexOf', require( './../../../ext/base/slast-index-of' ) );
 
 /**
+* @name slinspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/slinspace}
+*/
+setReadOnly( ns, 'slinspace', require( './../../../ext/base/slinspace' ) );
+
+/**
 * @name snansum
 * @memberof ns
 * @readonly
