@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`b642a63`](https://github.com/stdlib-js/stdlib/commit/b642a63efa55eb3d91078fbb861e159954e477f2) - add `glinspace` to namespace
+-   [`10ffd72`](https://github.com/stdlib-js/stdlib/commit/10ffd722bf162e9287b35adb167a8d76e1d1f840) - add `blas/ext/base/glinspace`
 -   [`03e2dbf`](https://github.com/stdlib-js/stdlib/commit/03e2dbff8a6f36028a410d5b98c8796880bb3516) - add `slinspace` to namespace
 -   [`30f0d38`](https://github.com/stdlib-js/stdlib/commit/30f0d38377dd9eb72f4cdc452f2b74268c2812d6) - add `blas/ext/base/slinspace`
 -   [`dd86a9a`](https://github.com/stdlib-js/stdlib/commit/dd86a9a4d5b0613903a5a502416d250e6f3cba86) - add `dlinspace` to namespace
@@ -600,6 +602,10 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`b642a63`](https://github.com/stdlib-js/stdlib/commit/b642a63efa55eb3d91078fbb861e159954e477f2) - **feat:** add `glinspace` to namespace _(by Athan Reines)_
+-   [`10ffd72`](https://github.com/stdlib-js/stdlib/commit/10ffd722bf162e9287b35adb167a8d76e1d1f840) - **feat:** add `blas/ext/base/glinspace` _(by Athan Reines)_
+-   [`e937de1`](https://github.com/stdlib-js/stdlib/commit/e937de144bb9fb0349aba8235a0b69a6a1b29b4a) - **test:** update descriptions _(by Athan Reines)_
+-   [`55a95d9`](https://github.com/stdlib-js/stdlib/commit/55a95d9901d416bf70348029ae16209965f5bcd5) - **test:** update descriptions _(by Athan Reines)_
 -   [`7e1263e`](https://github.com/stdlib-js/stdlib/commit/7e1263e4afaadb487cb9e17036f77f4c00caa4de) - **docs:** add notes _(by Athan Reines)_
 -   [`9ef2243`](https://github.com/stdlib-js/stdlib/commit/9ef2243e74763fa05f732c476492b18e9d3711c1) - **docs:** add notes _(by Athan Reines)_
 -   [`c84485f`](https://github.com/stdlib-js/stdlib/commit/c84485fea2e4dfabf2d07dcfa9dabe68a854f72f) - **docs:** update notes _(by Athan Reines)_

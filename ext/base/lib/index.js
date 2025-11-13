@@ -685,6 +685,15 @@ setReadOnly( ns, 'gindexOfRow', require( './../../../ext/base/gindex-of-row' ) )
 setReadOnly( ns, 'glastIndexOf', require( './../../../ext/base/glast-index-of' ) );
 
 /**
+* @name glinspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/glinspace}
+*/
+setReadOnly( ns, 'glinspace', require( './../../../ext/base/glinspace' ) );
+
+/**
 * @name gnannsumkbn
 * @memberof ns
 * @readonly
