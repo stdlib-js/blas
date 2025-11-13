@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-11)
+## Unreleased (2025-11-13)
 
 <section class="features">
 
@@ -600,6 +600,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`ff50310`](https://github.com/stdlib-js/stdlib/commit/ff5031015827c1783e8b7b62713361ca6c7bc655) - **chore:** fix lint errors _(by Philipp Burckhardt)_
 -   [`66ebb7c`](https://github.com/stdlib-js/stdlib/commit/66ebb7c0d1caf106e213ee524972175da5170e5b) - **docs:** update namespace table of contents [(#8501)](https://github.com/stdlib-js/stdlib/pull/8501) _(by stdlib-bot)_
 -   [`b3817aa`](https://github.com/stdlib-js/stdlib/commit/b3817aa9b503e211474c485bc381251d47aa308b) - **docs:** fix function signature and remove extrs spaces _(by Philipp Burckhardt)_
 -   [`af7c8c4`](https://github.com/stdlib-js/stdlib/commit/af7c8c4e389209dd4004613c251d449e99ba09f7) - **style:** add missing spaces _(by Philipp Burckhardt)_
