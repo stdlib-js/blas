@@ -600,6 +600,10 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`7e1263e`](https://github.com/stdlib-js/stdlib/commit/7e1263e4afaadb487cb9e17036f77f4c00caa4de) - **docs:** add notes _(by Athan Reines)_
+-   [`9ef2243`](https://github.com/stdlib-js/stdlib/commit/9ef2243e74763fa05f732c476492b18e9d3711c1) - **docs:** add notes _(by Athan Reines)_
+-   [`c84485f`](https://github.com/stdlib-js/stdlib/commit/c84485fea2e4dfabf2d07dcfa9dabe68a854f72f) - **docs:** update notes _(by Athan Reines)_
+-   [`674864d`](https://github.com/stdlib-js/stdlib/commit/674864dd866f52f3d697a8edb29a3a94e1174ef9) - **docs:** add notes _(by Athan Reines)_
 -   [`ff50310`](https://github.com/stdlib-js/stdlib/commit/ff5031015827c1783e8b7b62713361ca6c7bc655) - **chore:** fix lint errors _(by Philipp Burckhardt)_
 -   [`66ebb7c`](https://github.com/stdlib-js/stdlib/commit/66ebb7c0d1caf106e213ee524972175da5170e5b) - **docs:** update namespace table of contents [(#8501)](https://github.com/stdlib-js/stdlib/pull/8501) _(by stdlib-bot)_
 -   [`b3817aa`](https://github.com/stdlib-js/stdlib/commit/b3817aa9b503e211474c485bc381251d47aa308b) - **docs:** fix function signature and remove extrs spaces _(by Philipp Burckhardt)_
