@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-13)
+## Unreleased (2025-11-14)
 
 <section class="features">
 
@@ -602,6 +602,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`648d656`](https://github.com/stdlib-js/stdlib/commit/648d656c7c42fb4a88457b04755cd3cad2156226) - **docs:** update namespace table of contents [(#8528)](https://github.com/stdlib-js/stdlib/pull/8528) _(by stdlib-bot)_
 -   [`b642a63`](https://github.com/stdlib-js/stdlib/commit/b642a63efa55eb3d91078fbb861e159954e477f2) - **feat:** add `glinspace` to namespace _(by Athan Reines)_
 -   [`10ffd72`](https://github.com/stdlib-js/stdlib/commit/10ffd722bf162e9287b35adb167a8d76e1d1f840) - **feat:** add `blas/ext/base/glinspace` _(by Athan Reines)_
 -   [`e937de1`](https://github.com/stdlib-js/stdlib/commit/e937de144bb9fb0349aba8235a0b69a6a1b29b4a) - **test:** update descriptions _(by Athan Reines)_
