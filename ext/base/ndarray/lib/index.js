@@ -145,6 +145,15 @@ setReadOnly( ns, 'gindexOf', require( './../../../../ext/base/ndarray/gindex-of'
 setReadOnly( ns, 'glastIndexOf', require( './../../../../ext/base/ndarray/glast-index-of' ) );
 
 /**
+* @name glinspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/glinspace}
+*/
+setReadOnly( ns, 'glinspace', require( './../../../../ext/base/ndarray/glinspace' ) );
+
+/**
 * @name gsorthp
 * @memberof ns
 * @readonly
