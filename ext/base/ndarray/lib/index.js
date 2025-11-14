@@ -190,6 +190,15 @@ setReadOnly( ns, 'sindexOf', require( './../../../../ext/base/ndarray/sindex-of'
 setReadOnly( ns, 'slastIndexOf', require( './../../../../ext/base/ndarray/slast-index-of' ) );
 
 /**
+* @name slinspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/slinspace}
+*/
+setReadOnly( ns, 'slinspace', require( './../../../../ext/base/ndarray/slinspace' ) );
+
+/**
 * @name ssorthp
 * @memberof ns
 * @readonly

@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`899b839`](https://github.com/stdlib-js/stdlib/commit/899b839b7929d45713c86fa13823d0a2291d8992) - add `slinspace` to namespace
+-   [`b9842dc`](https://github.com/stdlib-js/stdlib/commit/b9842dc2f84922f9f7de4829abad0b0888cff69a) - add `blas/ext/base/ndarray/slinspace`
 -   [`466d960`](https://github.com/stdlib-js/stdlib/commit/466d9605a5025efeb6b51c401828a4a08ac7a3ae) - add `dlinspace` to namespace
 -   [`1719cd8`](https://github.com/stdlib-js/stdlib/commit/1719cd89e8f6e6ac9f333675aebe0cc300adb8cc) - add `blas/ext/base/ndarray/dlinspace`
 -   [`b642a63`](https://github.com/stdlib-js/stdlib/commit/b642a63efa55eb3d91078fbb861e159954e477f2) - add `glinspace` to namespace
@@ -604,6 +606,8 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`899b839`](https://github.com/stdlib-js/stdlib/commit/899b839b7929d45713c86fa13823d0a2291d8992) - **feat:** add `slinspace` to namespace _(by Athan Reines)_
+-   [`b9842dc`](https://github.com/stdlib-js/stdlib/commit/b9842dc2f84922f9f7de4829abad0b0888cff69a) - **feat:** add `blas/ext/base/ndarray/slinspace` _(by Athan Reines)_
 -   [`466d960`](https://github.com/stdlib-js/stdlib/commit/466d9605a5025efeb6b51c401828a4a08ac7a3ae) - **feat:** add `dlinspace` to namespace _(by Athan Reines)_
 -   [`1719cd8`](https://github.com/stdlib-js/stdlib/commit/1719cd89e8f6e6ac9f333675aebe0cc300adb8cc) - **feat:** add `blas/ext/base/ndarray/dlinspace` _(by Athan Reines)_
 -   [`2bf161a`](https://github.com/stdlib-js/stdlib/commit/2bf161a46f190ef9cef087f5d701c1913d70b819) - **bench:** fix test conditions _(by Athan Reines)_
