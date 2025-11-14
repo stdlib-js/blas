@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`c8d069a`](https://github.com/stdlib-js/stdlib/commit/c8d069a244fed6f3fab921e1b3d2feea7a1cd129) - add `toSortedhp` to namespace
+-   [`f8b1e45`](https://github.com/stdlib-js/stdlib/commit/f8b1e45046d0319eaeaee3d05063785d4711d34f) - add `sorthp` to namespace
+-   [`4ebafda`](https://github.com/stdlib-js/stdlib/commit/4ebafda08154a6d5d9f74646f4dd0329bb04d5bf) - add `lastIndexOf` to namespace
 -   [`6fdf24d`](https://github.com/stdlib-js/stdlib/commit/6fdf24d200357c698de76ae216b49ab08cceda79) - add `glinspace` to namespace
 -   [`bd86c8c`](https://github.com/stdlib-js/stdlib/commit/bd86c8cd632c31006ffde434efdecf1d0ba33ae1) - add `blas/ext/base/ndarray/glinspace`
 -   [`899b839`](https://github.com/stdlib-js/stdlib/commit/899b839b7929d45713c86fa13823d0a2291d8992) - add `slinspace` to namespace
@@ -608,6 +611,9 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`c8d069a`](https://github.com/stdlib-js/stdlib/commit/c8d069a244fed6f3fab921e1b3d2feea7a1cd129) - **feat:** add `toSortedhp` to namespace _(by Athan Reines)_
+-   [`f8b1e45`](https://github.com/stdlib-js/stdlib/commit/f8b1e45046d0319eaeaee3d05063785d4711d34f) - **feat:** add `sorthp` to namespace _(by Athan Reines)_
+-   [`4ebafda`](https://github.com/stdlib-js/stdlib/commit/4ebafda08154a6d5d9f74646f4dd0329bb04d5bf) - **feat:** add `lastIndexOf` to namespace _(by Athan Reines)_
 -   [`6fdf24d`](https://github.com/stdlib-js/stdlib/commit/6fdf24d200357c698de76ae216b49ab08cceda79) - **feat:** add `glinspace` to namespace _(by Athan Reines)_
 -   [`bd86c8c`](https://github.com/stdlib-js/stdlib/commit/bd86c8cd632c31006ffde434efdecf1d0ba33ae1) - **feat:** add `blas/ext/base/ndarray/glinspace` _(by Athan Reines)_
 -   [`899b839`](https://github.com/stdlib-js/stdlib/commit/899b839b7929d45713c86fa13823d0a2291d8992) - **feat:** add `slinspace` to namespace _(by Athan Reines)_

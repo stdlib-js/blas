@@ -82,6 +82,24 @@ setReadOnly( ns, 'findLastIndex', require( './../../ext/find-last-index' ) );
 setReadOnly( ns, 'indexOf', require( './../../ext/index-of' ) );
 
 /**
+* @name lastIndexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/last-index-of}
+*/
+setReadOnly( ns, 'lastIndexOf', require( './../../ext/last-index-of' ) );
+
+/**
+* @name sorthp
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/sorthp}
+*/
+setReadOnly( ns, 'sorthp', require( './../../ext/sorthp' ) );
+
+/**
 * @name sum
 * @memberof ns
 * @readonly
@@ -89,6 +107,15 @@ setReadOnly( ns, 'indexOf', require( './../../ext/index-of' ) );
 * @see {@link module:@stdlib/blas/ext/sum}
 */
 setReadOnly( ns, 'sum', require( './../../ext/sum' ) );
+
+/**
+* @name toSortedhp
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/to-sortedhp}
+*/
+setReadOnly( ns, 'toSortedhp', require( './../../ext/to-sortedhp' ) );
 
 
 // EXPORTS //
