@@ -73,6 +73,15 @@ setReadOnly( ns, 'dindexOf', require( './../../../../ext/base/ndarray/dindex-of'
 setReadOnly( ns, 'dlastIndexOf', require( './../../../../ext/base/ndarray/dlast-index-of' ) );
 
 /**
+* @name dlinspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dlinspace}
+*/
+setReadOnly( ns, 'dlinspace', require( './../../../../ext/base/ndarray/dlinspace' ) );
+
+/**
 * @name dsorthp
 * @memberof ns
 * @readonly
