@@ -611,6 +611,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`7c208b6`](https://github.com/stdlib-js/stdlib/commit/7c208b6abfdc8f1d7910d371c03aae428605ddef) - **docs:** fix missing decimals _(by Athan Reines)_
 -   [`c8d069a`](https://github.com/stdlib-js/stdlib/commit/c8d069a244fed6f3fab921e1b3d2feea7a1cd129) - **feat:** add `toSortedhp` to namespace _(by Athan Reines)_
 -   [`f8b1e45`](https://github.com/stdlib-js/stdlib/commit/f8b1e45046d0319eaeaee3d05063785d4711d34f) - **feat:** add `sorthp` to namespace _(by Athan Reines)_
 -   [`4ebafda`](https://github.com/stdlib-js/stdlib/commit/4ebafda08154a6d5d9f74646f4dd0329bb04d5bf) - **feat:** add `lastIndexOf` to namespace _(by Athan Reines)_
