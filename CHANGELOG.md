@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-14)
+## Unreleased (2025-11-15)
 
 <section class="features">
 
@@ -611,6 +611,10 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`f951347`](https://github.com/stdlib-js/stdlib/commit/f951347e91866c8a0706312aa4fa8344a91e4cf2) - **refactor:** use base utility _(by Athan Reines)_
+-   [`34fcb67`](https://github.com/stdlib-js/stdlib/commit/34fcb67337218c3a85b646efeaccdf7a62ac0b9c) - **refactor:** use base utility _(by Athan Reines)_
+-   [`a11cf72`](https://github.com/stdlib-js/stdlib/commit/a11cf72e288f0cb5daf625b21b1ebf89ebdaf06e) - **refactor:** use base utility _(by Athan Reines)_
+-   [`c11a2ae`](https://github.com/stdlib-js/stdlib/commit/c11a2ae201d2451bc94a4be71da344bc06576120) - **refactor:** use base utility _(by Athan Reines)_
 -   [`7c208b6`](https://github.com/stdlib-js/stdlib/commit/7c208b6abfdc8f1d7910d371c03aae428605ddef) - **docs:** fix missing decimals _(by Athan Reines)_
 -   [`c8d069a`](https://github.com/stdlib-js/stdlib/commit/c8d069a244fed6f3fab921e1b3d2feea7a1cd129) - **feat:** add `toSortedhp` to namespace _(by Athan Reines)_
 -   [`f8b1e45`](https://github.com/stdlib-js/stdlib/commit/f8b1e45046d0319eaeaee3d05063785d4711d34f) - **feat:** add `sorthp` to namespace _(by Athan Reines)_
