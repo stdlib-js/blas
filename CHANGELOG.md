@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-15)
+## Unreleased (2025-11-16)
 
 <section class="features">
 
@@ -611,6 +611,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`a0a76ca`](https://github.com/stdlib-js/stdlib/commit/a0a76caf35c0df0a8de6406f56b32e59c89daf07) - **docs:** update namespace table of contents [(#8536)](https://github.com/stdlib-js/stdlib/pull/8536) _(by stdlib-bot)_
 -   [`f951347`](https://github.com/stdlib-js/stdlib/commit/f951347e91866c8a0706312aa4fa8344a91e4cf2) - **refactor:** use base utility _(by Athan Reines)_
 -   [`34fcb67`](https://github.com/stdlib-js/stdlib/commit/34fcb67337218c3a85b646efeaccdf7a62ac0b9c) - **refactor:** use base utility _(by Athan Reines)_
 -   [`a11cf72`](https://github.com/stdlib-js/stdlib/commit/a11cf72e288f0cb5daf625b21b1ebf89ebdaf06e) - **refactor:** use base utility _(by Athan Reines)_
