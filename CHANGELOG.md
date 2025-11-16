@@ -326,6 +326,7 @@
 
 ### Bug Fixes
 
+-   [`04668ca`](https://github.com/stdlib-js/stdlib/commit/04668cac4fdc3642a3531261f5a203d71e45e81d) - import correct data type
 -   [`7533913`](https://github.com/stdlib-js/stdlib/commit/75339137b0ab48062cb7e1cd05da5ded33a6cf9c) - update argument juggling
 -   [`1df6eba`](https://github.com/stdlib-js/stdlib/commit/1df6ebab765027588ea35e8b532cc049fabe3b96) - update argument juggling
 -   [`76883dd`](https://github.com/stdlib-js/stdlib/commit/76883dd26350489a351296785ca002838d9d39d5) - update error message
@@ -611,6 +612,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`04668ca`](https://github.com/stdlib-js/stdlib/commit/04668cac4fdc3642a3531261f5a203d71e45e81d) - **fix:** import correct data type _(by Athan Reines)_
 -   [`a0a76ca`](https://github.com/stdlib-js/stdlib/commit/a0a76caf35c0df0a8de6406f56b32e59c89daf07) - **docs:** update namespace table of contents [(#8536)](https://github.com/stdlib-js/stdlib/pull/8536) _(by stdlib-bot)_
 -   [`f951347`](https://github.com/stdlib-js/stdlib/commit/f951347e91866c8a0706312aa4fa8344a91e4cf2) - **refactor:** use base utility _(by Athan Reines)_
 -   [`34fcb67`](https://github.com/stdlib-js/stdlib/commit/34fcb67337218c3a85b646efeaccdf7a62ac0b9c) - **refactor:** use base utility _(by Athan Reines)_
