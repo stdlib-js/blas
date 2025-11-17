@@ -615,6 +615,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`66f9e29`](https://github.com/stdlib-js/stdlib/commit/66f9e29b1c8622840b583123374c65a330712471) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`24e1741`](https://github.com/stdlib-js/stdlib/commit/24e174134cde28a3231f72920d83374ce6e9f402) - **docs:** update copy _(by Athan Reines)_
 -   [`6d38098`](https://github.com/stdlib-js/stdlib/commit/6d380980eadd8ecd4b773abeb11d4c6422f98753) - **docs:** use double quotes _(by Athan Reines)_
 -   [`05fa508`](https://github.com/stdlib-js/stdlib/commit/05fa508642bd188a9a2e907ad7510b2b2b8742f3) - **feat:** add `linspace` to namespace _(by Athan Reines)_
