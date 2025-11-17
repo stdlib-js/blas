@@ -91,6 +91,15 @@ setReadOnly( ns, 'indexOf', require( './../../ext/index-of' ) );
 setReadOnly( ns, 'lastIndexOf', require( './../../ext/last-index-of' ) );
 
 /**
+* @name linspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/linspace}
+*/
+setReadOnly( ns, 'linspace', require( './../../ext/linspace' ) );
+
+/**
 * @name sorthp
 * @memberof ns
 * @readonly

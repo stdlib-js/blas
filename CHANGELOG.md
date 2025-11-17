@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`05fa508`](https://github.com/stdlib-js/stdlib/commit/05fa508642bd188a9a2e907ad7510b2b2b8742f3) - add `linspace` to namespace
+-   [`3936ac7`](https://github.com/stdlib-js/stdlib/commit/3936ac7831947ba379cb6120f89a2d477924779e) - add `blas/ext/linspace`
 -   [`c8d069a`](https://github.com/stdlib-js/stdlib/commit/c8d069a244fed6f3fab921e1b3d2feea7a1cd129) - add `toSortedhp` to namespace
 -   [`f8b1e45`](https://github.com/stdlib-js/stdlib/commit/f8b1e45046d0319eaeaee3d05063785d4711d34f) - add `sorthp` to namespace
 -   [`4ebafda`](https://github.com/stdlib-js/stdlib/commit/4ebafda08154a6d5d9f74646f4dd0329bb04d5bf) - add `lastIndexOf` to namespace
@@ -613,6 +615,8 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`05fa508`](https://github.com/stdlib-js/stdlib/commit/05fa508642bd188a9a2e907ad7510b2b2b8742f3) - **feat:** add `linspace` to namespace _(by Athan Reines)_
+-   [`3936ac7`](https://github.com/stdlib-js/stdlib/commit/3936ac7831947ba379cb6120f89a2d477924779e) - **feat:** add `blas/ext/linspace` _(by Athan Reines)_
 -   [`404b4d6`](https://github.com/stdlib-js/stdlib/commit/404b4d6daae129b3889d1ce609285c0ebe8f5715) - **fix:** remove extra dtype array _(by Athan Reines)_
 -   [`45329d5`](https://github.com/stdlib-js/stdlib/commit/45329d5370c1a2c6e582357b6d76908fcbab99d1) - **test:** fix ndarray buffers _(by Athan Reines)_
 -   [`04668ca`](https://github.com/stdlib-js/stdlib/commit/04668cac4fdc3642a3531261f5a203d71e45e81d) - **fix:** import correct data type _(by Athan Reines)_
