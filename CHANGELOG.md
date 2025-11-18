@@ -615,6 +615,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`f2010cd`](https://github.com/stdlib-js/stdlib/commit/f2010cdee7b9f341028d588da04c7a12be37765d) - **docs:** add missing space _(by Philipp Burckhardt)_
 -   [`f370594`](https://github.com/stdlib-js/stdlib/commit/f37059471f31dd8eccd662262b77b73a6c88c79b) - **docs:** update namespace table of contents [(#8549)](https://github.com/stdlib-js/stdlib/pull/8549) _(by stdlib-bot)_
 -   [`66f9e29`](https://github.com/stdlib-js/stdlib/commit/66f9e29b1c8622840b583123374c65a330712471) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`24e1741`](https://github.com/stdlib-js/stdlib/commit/24e174134cde28a3231f72920d83374ce6e9f402) - **docs:** update copy _(by Athan Reines)_
