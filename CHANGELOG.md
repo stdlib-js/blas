@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-18)
+## Unreleased (2025-11-19)
 
 <section class="features">
 
 ### Features
 
+-   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
 -   [`05fa508`](https://github.com/stdlib-js/stdlib/commit/05fa508642bd188a9a2e907ad7510b2b2b8742f3) - add `linspace` to namespace
 -   [`3936ac7`](https://github.com/stdlib-js/stdlib/commit/3936ac7831947ba379cb6120f89a2d477924779e) - add `blas/ext/linspace`
 -   [`c8d069a`](https://github.com/stdlib-js/stdlib/commit/c8d069a244fed6f3fab921e1b3d2feea7a1cd129) - add `toSortedhp` to namespace
@@ -615,6 +616,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - **feat:** add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`f2010cd`](https://github.com/stdlib-js/stdlib/commit/f2010cdee7b9f341028d588da04c7a12be37765d) - **docs:** add missing space _(by Philipp Burckhardt)_
 -   [`f370594`](https://github.com/stdlib-js/stdlib/commit/f37059471f31dd8eccd662262b77b73a6c88c79b) - **docs:** update namespace table of contents [(#8549)](https://github.com/stdlib-js/stdlib/pull/8549) _(by stdlib-bot)_
 -   [`66f9e29`](https://github.com/stdlib-js/stdlib/commit/66f9e29b1c8622840b583123374c65a330712471) - **docs:** fix descriptions _(by Athan Reines)_
