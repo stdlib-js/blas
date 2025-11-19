@@ -329,6 +329,49 @@
 
 ### Bug Fixes
 
+-   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - ensure correct `this` context when creating a new Module instance
+-   [`e8977d9`](https://github.com/stdlib-js/stdlib/commit/e8977d9abad1e2eda67f94f4950e042374608544) - ensure correct `this` context when creating a new Module instance
+-   [`8ece787`](https://github.com/stdlib-js/stdlib/commit/8ece787eae84c27b4018185aaba3371eea94fa99) - ensure correct `this` context when creating a new Module instance
+-   [`f29497c`](https://github.com/stdlib-js/stdlib/commit/f29497ca191d4fd9efd09ceee5a84475e0cd5254) - ensure correct `this` context when creating a new Module instance
+-   [`d6938d5`](https://github.com/stdlib-js/stdlib/commit/d6938d53981d720b936cb9411d2e01f170e9973f) - ensure correct `this` context when creating a new Module instance
+-   [`b809219`](https://github.com/stdlib-js/stdlib/commit/b809219ed266c469a961aa6c869ee61b748db660) - ensure correct `this` context when creating a new Module instance
+-   [`bccfe25`](https://github.com/stdlib-js/stdlib/commit/bccfe250e9f717342b1451141182c99a53ac2089) - ensure correct `this` context when creating a new Module instance
+-   [`803c894`](https://github.com/stdlib-js/stdlib/commit/803c8949799474e1679463caafd348f448e9c677) - ensure correct `this` context when creating a new Module instance
+-   [`c27a7e9`](https://github.com/stdlib-js/stdlib/commit/c27a7e98f6306b4cf66dd70c42b0c41e497b3f7c) - ensure correct `this` context when creating a new Module instance
+-   [`8125f8a`](https://github.com/stdlib-js/stdlib/commit/8125f8a7d988a6b2b74210c3488940908e25f2d8) - ensure correct `this` context when creating a new Module instance
+-   [`676583e`](https://github.com/stdlib-js/stdlib/commit/676583e192071f480faa50d621fef87a224551be) - ensure correct `this` context when creating a new Module instance
+-   [`df52b7f`](https://github.com/stdlib-js/stdlib/commit/df52b7f3c5c5392acf12c25966394825a9b0456f) - ensure correct `this` context when creating a new Module instance
+-   [`61e0335`](https://github.com/stdlib-js/stdlib/commit/61e0335c0ff8f7513bbad00487b64ae8b1a67571) - ensure correct `this` context when creating a new Module instance
+-   [`55fa05c`](https://github.com/stdlib-js/stdlib/commit/55fa05c389353d524f0a863280736a447816922d) - ensure correct `this` context when creating a new Module instance
+-   [`3dfd0c2`](https://github.com/stdlib-js/stdlib/commit/3dfd0c232a017affa53d73220da56c567cf8d33e) - ensure correct `this` context when creating a new Module instance
+-   [`9510ee4`](https://github.com/stdlib-js/stdlib/commit/9510ee43bea1b22c5433cbbc362b2f900bb1dd3f) - ensure correct `this` context when creating a new Module instance
+-   [`6bc8f81`](https://github.com/stdlib-js/stdlib/commit/6bc8f819e371a63a6041071ff9a30799b2a2cb4c) - ensure correct `this` context when creating a new Module instance
+-   [`7cbbcf1`](https://github.com/stdlib-js/stdlib/commit/7cbbcf13b97e89c81f2e07a323746381a82191fb) - ensure correct `this` context when creating a new Module instance
+-   [`0ef99a2`](https://github.com/stdlib-js/stdlib/commit/0ef99a2aadba86132750b40f1fa8bb131a2f859d) - ensure correct `this` context when creating a new Module instance
+-   [`8ae604e`](https://github.com/stdlib-js/stdlib/commit/8ae604e6ef25e05e4220be300f44b5274797cbb5) - ensure correct `this` context when creating a new Module instance
+-   [`6d97052`](https://github.com/stdlib-js/stdlib/commit/6d970525345f91f7bb285703446bf1f8a4bd732d) - ensure correct `this` context when creating a new Module instance
+-   [`54db98f`](https://github.com/stdlib-js/stdlib/commit/54db98f7cab8284d639b5f5a5702eed9010fbf11) - ensure correct `this` context when creating a new Module instance
+-   [`578f2de`](https://github.com/stdlib-js/stdlib/commit/578f2debc7b64165e9cfae647934f1eda0177364) - ensure correct `this` context when creating a new Module instance
+-   [`89566ea`](https://github.com/stdlib-js/stdlib/commit/89566ea1428d1d9e4812f6181b61ed2cb9d2aba5) - ensure correct `this` context when creating a new Module instance
+-   [`994c9db`](https://github.com/stdlib-js/stdlib/commit/994c9dbb93d4479fef43bcb12b1300147b49b1ef) - ensure correct `this` context when creating a new Module instance
+-   [`2742d75`](https://github.com/stdlib-js/stdlib/commit/2742d75728658e62ad0f795fed5f83fd354d77ea) - ensure correct `this` context when creating a new Module instance
+-   [`9dcd7d5`](https://github.com/stdlib-js/stdlib/commit/9dcd7d54bc8f6ea733d78806d97ade2c0c159a7c) - ensure correct `this` context when creating a new Module instance
+-   [`56240d2`](https://github.com/stdlib-js/stdlib/commit/56240d2b8b50c715e4f7609ff83960cc3b82a0f5) - ensure correct `this` context when creating a new Module instance
+-   [`0f3db29`](https://github.com/stdlib-js/stdlib/commit/0f3db293964ba355568c1a1f9ca03aabf4358eac) - ensure correct `this` context when creating a new Module instance
+-   [`e0a1ed5`](https://github.com/stdlib-js/stdlib/commit/e0a1ed57c0f59fa37480dec3226023952d1d0574) - ensure correct `this` context when creating a new Module instance
+-   [`4fa382b`](https://github.com/stdlib-js/stdlib/commit/4fa382b165e8c3525a6e0b8186c80ddd12a99394) - ensure correct `this` context when creating a new Module instance
+-   [`d9a46f4`](https://github.com/stdlib-js/stdlib/commit/d9a46f4aa27c7d7f524be324bb9d8712638bda36) - ensure correct `this` context when creating a new Module instance
+-   [`c4b98d3`](https://github.com/stdlib-js/stdlib/commit/c4b98d34af5011605361c5924ad3aa12ba8aa67d) - ensure correct `this` context when creating a new Module instance
+-   [`3e3a5dd`](https://github.com/stdlib-js/stdlib/commit/3e3a5dd6065bf138f094c6f00aa828a15f00eebe) - ensure correct `this` context when creating a new Module instance
+-   [`442e10e`](https://github.com/stdlib-js/stdlib/commit/442e10eb7ed4edb530525cdbf377064260e12229) - ensure correct `this` context when creating a new Module instance
+-   [`8ec483b`](https://github.com/stdlib-js/stdlib/commit/8ec483b22a52beb45e08a5ab4c09bbe94c8c6448) - ensure correct `this` context when creating a new Module instance
+-   [`2f6263c`](https://github.com/stdlib-js/stdlib/commit/2f6263c88eb4378319e33ba881ad6a5e05429aea) - ensure correct `this` context when creating a new Module instance
+-   [`482c826`](https://github.com/stdlib-js/stdlib/commit/482c826e1a295ac57f1a22fe863c57a3ab56850c) - ensure correct `this` context when creating a new Module instance
+-   [`9c9117c`](https://github.com/stdlib-js/stdlib/commit/9c9117c23cfe53504a7d003cb660c0dd18ecd257) - ensure correct `this` context when creating a new Module instance
+-   [`73ab253`](https://github.com/stdlib-js/stdlib/commit/73ab25369feaf6674b3a21e9c56655e34d5d717f) - ensure correct `this` context when creating a new Module instance
+-   [`a86283f`](https://github.com/stdlib-js/stdlib/commit/a86283f988a980a51500a4d45d60ccd2ba46417c) - ensure correct `this` context when creating a new Module instance
+-   [`08eb445`](https://github.com/stdlib-js/stdlib/commit/08eb4454182eef74c3396ae5df5b6bfdd958a22a) - ensure correct `this` context when creating a new Module instance
+-   [`7782edc`](https://github.com/stdlib-js/stdlib/commit/7782edc3a976a94f6e0b881751b98d0a13bfe71a) - ensure correct `this` context when creating a new Module instance
 -   [`404b4d6`](https://github.com/stdlib-js/stdlib/commit/404b4d6daae129b3889d1ce609285c0ebe8f5715) - remove extra dtype array
 -   [`04668ca`](https://github.com/stdlib-js/stdlib/commit/04668cac4fdc3642a3531261f5a203d71e45e81d) - import correct data type
 -   [`7533913`](https://github.com/stdlib-js/stdlib/commit/75339137b0ab48062cb7e1cd05da5ded33a6cf9c) - update argument juggling
@@ -616,6 +659,49 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`e8977d9`](https://github.com/stdlib-js/stdlib/commit/e8977d9abad1e2eda67f94f4950e042374608544) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`8ece787`](https://github.com/stdlib-js/stdlib/commit/8ece787eae84c27b4018185aaba3371eea94fa99) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`f29497c`](https://github.com/stdlib-js/stdlib/commit/f29497ca191d4fd9efd09ceee5a84475e0cd5254) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`d6938d5`](https://github.com/stdlib-js/stdlib/commit/d6938d53981d720b936cb9411d2e01f170e9973f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`b809219`](https://github.com/stdlib-js/stdlib/commit/b809219ed266c469a961aa6c869ee61b748db660) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`bccfe25`](https://github.com/stdlib-js/stdlib/commit/bccfe250e9f717342b1451141182c99a53ac2089) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`803c894`](https://github.com/stdlib-js/stdlib/commit/803c8949799474e1679463caafd348f448e9c677) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`c27a7e9`](https://github.com/stdlib-js/stdlib/commit/c27a7e98f6306b4cf66dd70c42b0c41e497b3f7c) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`8125f8a`](https://github.com/stdlib-js/stdlib/commit/8125f8a7d988a6b2b74210c3488940908e25f2d8) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`676583e`](https://github.com/stdlib-js/stdlib/commit/676583e192071f480faa50d621fef87a224551be) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`df52b7f`](https://github.com/stdlib-js/stdlib/commit/df52b7f3c5c5392acf12c25966394825a9b0456f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`61e0335`](https://github.com/stdlib-js/stdlib/commit/61e0335c0ff8f7513bbad00487b64ae8b1a67571) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`55fa05c`](https://github.com/stdlib-js/stdlib/commit/55fa05c389353d524f0a863280736a447816922d) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`3dfd0c2`](https://github.com/stdlib-js/stdlib/commit/3dfd0c232a017affa53d73220da56c567cf8d33e) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`9510ee4`](https://github.com/stdlib-js/stdlib/commit/9510ee43bea1b22c5433cbbc362b2f900bb1dd3f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`6bc8f81`](https://github.com/stdlib-js/stdlib/commit/6bc8f819e371a63a6041071ff9a30799b2a2cb4c) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`7cbbcf1`](https://github.com/stdlib-js/stdlib/commit/7cbbcf13b97e89c81f2e07a323746381a82191fb) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`0ef99a2`](https://github.com/stdlib-js/stdlib/commit/0ef99a2aadba86132750b40f1fa8bb131a2f859d) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`8ae604e`](https://github.com/stdlib-js/stdlib/commit/8ae604e6ef25e05e4220be300f44b5274797cbb5) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`6d97052`](https://github.com/stdlib-js/stdlib/commit/6d970525345f91f7bb285703446bf1f8a4bd732d) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`54db98f`](https://github.com/stdlib-js/stdlib/commit/54db98f7cab8284d639b5f5a5702eed9010fbf11) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`578f2de`](https://github.com/stdlib-js/stdlib/commit/578f2debc7b64165e9cfae647934f1eda0177364) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`89566ea`](https://github.com/stdlib-js/stdlib/commit/89566ea1428d1d9e4812f6181b61ed2cb9d2aba5) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`994c9db`](https://github.com/stdlib-js/stdlib/commit/994c9dbb93d4479fef43bcb12b1300147b49b1ef) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`2742d75`](https://github.com/stdlib-js/stdlib/commit/2742d75728658e62ad0f795fed5f83fd354d77ea) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`9dcd7d5`](https://github.com/stdlib-js/stdlib/commit/9dcd7d54bc8f6ea733d78806d97ade2c0c159a7c) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`56240d2`](https://github.com/stdlib-js/stdlib/commit/56240d2b8b50c715e4f7609ff83960cc3b82a0f5) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`0f3db29`](https://github.com/stdlib-js/stdlib/commit/0f3db293964ba355568c1a1f9ca03aabf4358eac) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`e0a1ed5`](https://github.com/stdlib-js/stdlib/commit/e0a1ed57c0f59fa37480dec3226023952d1d0574) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`4fa382b`](https://github.com/stdlib-js/stdlib/commit/4fa382b165e8c3525a6e0b8186c80ddd12a99394) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`d9a46f4`](https://github.com/stdlib-js/stdlib/commit/d9a46f4aa27c7d7f524be324bb9d8712638bda36) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`c4b98d3`](https://github.com/stdlib-js/stdlib/commit/c4b98d34af5011605361c5924ad3aa12ba8aa67d) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`3e3a5dd`](https://github.com/stdlib-js/stdlib/commit/3e3a5dd6065bf138f094c6f00aa828a15f00eebe) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`442e10e`](https://github.com/stdlib-js/stdlib/commit/442e10eb7ed4edb530525cdbf377064260e12229) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`8ec483b`](https://github.com/stdlib-js/stdlib/commit/8ec483b22a52beb45e08a5ab4c09bbe94c8c6448) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`2f6263c`](https://github.com/stdlib-js/stdlib/commit/2f6263c88eb4378319e33ba881ad6a5e05429aea) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`482c826`](https://github.com/stdlib-js/stdlib/commit/482c826e1a295ac57f1a22fe863c57a3ab56850c) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`9c9117c`](https://github.com/stdlib-js/stdlib/commit/9c9117c23cfe53504a7d003cb660c0dd18ecd257) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`73ab253`](https://github.com/stdlib-js/stdlib/commit/73ab25369feaf6674b3a21e9c56655e34d5d717f) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`a86283f`](https://github.com/stdlib-js/stdlib/commit/a86283f988a980a51500a4d45d60ccd2ba46417c) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`08eb445`](https://github.com/stdlib-js/stdlib/commit/08eb4454182eef74c3396ae5df5b6bfdd958a22a) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
+-   [`7782edc`](https://github.com/stdlib-js/stdlib/commit/7782edc3a976a94f6e0b881751b98d0a13bfe71a) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - **feat:** add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100) _(by Prashant Kumar Yadav, Athan Reines, stdlib-bot)_
 -   [`f2010cd`](https://github.com/stdlib-js/stdlib/commit/f2010cdee7b9f341028d588da04c7a12be37765d) - **docs:** add missing space _(by Philipp Burckhardt)_
 -   [`f370594`](https://github.com/stdlib-js/stdlib/commit/f37059471f31dd8eccd662262b77b73a6c88c79b) - **docs:** update namespace table of contents [(#8549)](https://github.com/stdlib-js/stdlib/pull/8549) _(by stdlib-bot)_
