@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-19)
+## Unreleased (2025-11-20)
 
 <section class="features">
 
 ### Features
 
+-   [`974a2c4`](https://github.com/stdlib-js/stdlib/commit/974a2c4641f08c90fab2a884a95cd0930b055900) - add `blas/ext/base/drrss` [(#8556)](https://github.com/stdlib-js/stdlib/pull/8556)
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
 -   [`05fa508`](https://github.com/stdlib-js/stdlib/commit/05fa508642bd188a9a2e907ad7510b2b2b8742f3) - add `linspace` to namespace
 -   [`3936ac7`](https://github.com/stdlib-js/stdlib/commit/3936ac7831947ba379cb6120f89a2d477924779e) - add `blas/ext/linspace`
@@ -659,6 +660,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`974a2c4`](https://github.com/stdlib-js/stdlib/commit/974a2c4641f08c90fab2a884a95cd0930b055900) - **feat:** add `blas/ext/base/drrss` [(#8556)](https://github.com/stdlib-js/stdlib/pull/8556) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`73e4725`](https://github.com/stdlib-js/stdlib/commit/73e4725ad922926de4747c08a8121c99ef8a548d) - **style:** remove extraneous empty line _(by Philipp Burckhardt)_
 -   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
 -   [`e8977d9`](https://github.com/stdlib-js/stdlib/commit/e8977d9abad1e2eda67f94f4950e042374608544) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
@@ -1724,7 +1726,7 @@ A total of 29 issues were closed in this release:
 
 ### Contributors
 
-A total of 25 people contributed to this release. Thank you to the following contributors:
+A total of 26 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1736,6 +1738,7 @@ A total of 25 people contributed to this release. Thank you to the following con
 -   Lalit Narayan Yadav
 -   Mohammad Bin Aftab
 -   Muhammad Haris
+-   Nakul Krishnakumar
 -   Neeraj Pathak
 -   Payal Goswami
 -   Philipp Burckhardt
