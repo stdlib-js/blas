@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-20)
+## Unreleased (2025-11-21)
 
 <section class="features">
 
@@ -660,6 +660,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`e62f498`](https://github.com/stdlib-js/stdlib/commit/e62f498b2bad582476862a5872115ae22152fe88) - **docs:** fix example code and return annotations in TSDoc examples _(by Philipp Burckhardt)_
 -   [`974a2c4`](https://github.com/stdlib-js/stdlib/commit/974a2c4641f08c90fab2a884a95cd0930b055900) - **feat:** add `blas/ext/base/drrss` [(#8556)](https://github.com/stdlib-js/stdlib/pull/8556) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`73e4725`](https://github.com/stdlib-js/stdlib/commit/73e4725ad922926de4747c08a8121c99ef8a548d) - **style:** remove extraneous empty line _(by Philipp Burckhardt)_
 -   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - **fix:** ensure correct `this` context when creating a new Module instance _(by Philipp Burckhardt)_
