@@ -660,6 +660,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`086231d`](https://github.com/stdlib-js/stdlib/commit/086231d0bcfe2d4a9c4c932fc9333f8ac63c4087) - **bench:** refactor to use string interpolation in `blas/ext/base/dfill` _(by Athan Reines)_
 -   [`f0f8a70`](https://github.com/stdlib-js/stdlib/commit/f0f8a70989b6cfdabf6b928650c50b28aab5e224) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dfill` _(by Athan Reines)_
 -   [`f49428b`](https://github.com/stdlib-js/stdlib/commit/f49428bb322ae44614ba5be829cff4b146c1d143) - **docs:** improve doctests for complex number typed arrays _(by Athan Reines)_
 -   [`e8c8651`](https://github.com/stdlib-js/stdlib/commit/e8c8651693bc38d999b5f46cf31ccd370ad6cb8c) - **docs:** improve doctests for complex number instances in `blas/ext/base/cfill` _(by Athan Reines)_
