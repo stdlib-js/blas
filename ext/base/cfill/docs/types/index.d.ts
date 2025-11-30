@@ -37,19 +37,15 @@ interface Routine {
 	* @returns input array
 	*
 	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
 	* var Complex64Array = require( '@stdlib/array/complex64' );
 	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
 	*
-	* var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	* var x = new Complex64Array( arr );
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 	*
 	* var alpha = new Complex64( 10.0, 10.0 );
 	*
 	* cfill( x.length, alpha, x, 1 );
-	*
-	* var y = x.get( 0 );
-	* // returns <Complex64>[ 10.0, 10.0 ]
+	* // x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 	*/
 	( N: number, alpha: Complex64, x: Complex64Array, strideX: number ): Complex64Array;
 
@@ -64,19 +60,15 @@ interface Routine {
 	* @returns input array
 	*
 	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
 	* var Complex64Array = require( '@stdlib/array/complex64' );
 	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
 	*
-	* var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	* var x = new Complex64Array( arr );
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 	*
 	* var alpha = new Complex64( 10.0, 10.0 );
 	*
-	* cfill( x.length, alpha, x, 1, 0 );
-	*
-	* var y = x.get( 0 );
-	* // returns <Complex64>[ 10.0, 10.0 ]
+	* cfill.ndarray( x.length, alpha, x, 1, 0 );
+	* // x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 	*/
 	ndarray( N: number, alpha: Complex64, x: Complex64Array, strideX: number, offsetX: number ): Complex64Array;
 }
@@ -91,19 +83,26 @@ interface Routine {
 * @returns input array
 *
 * @example
-* var Float32Array = require( '@stdlib/array/float32' );
 * var Complex64Array = require( '@stdlib/array/complex64' );
 * var Complex64 = require( '@stdlib/complex/float32/ctor' );
 *
-* var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-* var x = new Complex64Array( arr );
+* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 *
 * var alpha = new Complex64( 10.0, 10.0 );
 *
 * cfill( x.length, alpha, x, 1 );
+* // x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 *
-* var y = x.get( 0 );
-* // returns <Complex64>[ 10.0, 10.0 ]
+* @example
+* var Complex64Array = require( '@stdlib/array/complex64' );
+* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+*
+* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+*
+* var alpha = new Complex64( 10.0, 10.0 );
+*
+* cfill.ndarray( x.length, alpha, x, 1, 0 );
+* // x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 */
 declare var cfill: Routine;
 

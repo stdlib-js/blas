@@ -35,19 +35,15 @@ var cfill = require( '@stdlib/blas/ext/base/cfill' );
 Fills a single-precision complex floating-point strided array `x` with a specified scalar constant `alpha`.
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
 
-var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-var x = new Complex64Array( arr );
+var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 
 var alpha = new Complex64( 10.0, 10.0 );
 
 cfill( x.length, alpha, x, 1 );
-
-var y = x.get( 0 );
-// returns <Complex64>[ 10.0, 10.0 ]
+// x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 ```
 
 The function has the following parameters:
@@ -60,36 +56,25 @@ The function has the following parameters:
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to fill every other element:
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
 
-var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-var x = new Complex64Array( arr );
+var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 
 var alpha = new Complex64( 10.0, 10.0 );
 
 cfill( 2, alpha, x, 2 );
-
-var y = x.get( 0 );
-// returns <Complex64>[ 10.0, 10.0 ]
-
-y = x.get( 1 );
-// returns <Complex64>[ 3.0, 4.0 ]
+// x => <Complex64Array>[ 10.0, 10.0, 3.0, 4.0, 10.0, 10.0, 7.0, 8.0 ]
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
 
-// Create the underlying floating-point array:
-var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-
 // Initial array:
-var x0 = new Complex64Array( arr );
+var x0 = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 
 // Create an offset view:
 var x1 = new Complex64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
@@ -99,12 +84,7 @@ var alpha = new Complex64( 10.0, 10.0 );
 
 // Fill every other element:
 cfill( 2, alpha, x1, 2 );
-
-var y = x0.get( 0 );
-// returns <Complex64>[ 1.0, 2.0 ]
-
-y = x0.get( 1 );
-// returns <Complex64>[ 10.0, 10.0 ]
+// x0 => <Complex64Array>[ 1.0, 2.0, 10.0, 10.0, 5.0, 6.0, 10.0, 10.0 ]
 ```
 
 #### cfill.ndarray( N, alpha, x, strideX, offsetX )
@@ -112,19 +92,15 @@ y = x0.get( 1 );
 Fills a single-precision complex floating-point strided array `x` with a specified scalar constant `alpha` using alternative indexing semantics.
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
 
-var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-var x = new Complex64Array( arr );
+var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 
 var alpha = new Complex64( 10.0, 10.0 );
 
 cfill.ndarray( x.length, alpha, x, 1, 0 );
-
-var y = x.get( 0 );
-// returns <Complex64>[ 10.0, 10.0 ]
+// x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 ```
 
 The function has the following additional parameters:
@@ -134,25 +110,15 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameter supports indexing semantics based on a starting index. For example, to access only the last two elements of the strided array:
 
 ```javascript
-var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
 
-var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-var x = new Complex64Array( arr );
+var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 
 var alpha = new Complex64( 10.0, 10.0 );
 
-cfill.ndarray( 2, alpha, x, 1, x.length-2 );
-
-var y = x.get( 0 );
-// returns <Complex64>[ 1.0, 2.0 ]
-
-y = x.get( 1 );
-// returns <Complex64>[ 10.0, 10.0 ]
-
-y = x.get( 2 );
-// returns <Complex64>[ 10.0, 10.0 ]
+cfill.ndarray( 2, alpha, x, 1, 1 );
+// x => <Complex64Array>[ 1.0, 2.0, 10.0, 10.0, 10.0, 10.0 ]
 ```
 
 </section>

@@ -660,6 +660,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`f49428b`](https://github.com/stdlib-js/stdlib/commit/f49428bb322ae44614ba5be829cff4b146c1d143) - **docs:** improve doctests for complex number typed arrays _(by Athan Reines)_
 -   [`e8c8651`](https://github.com/stdlib-js/stdlib/commit/e8c8651693bc38d999b5f46cf31ccd370ad6cb8c) - **docs:** improve doctests for complex number instances in `blas/ext/base/cfill` _(by Athan Reines)_
 -   [`c520b5a`](https://github.com/stdlib-js/stdlib/commit/c520b5a0cae0c85e946f8a646e7cc8c01b3b5673) - **docs:** address TSDoc lint errors and add doctest aliases _(by Philipp Burckhardt)_
 -   [`3f7b1ed`](https://github.com/stdlib-js/stdlib/commit/3f7b1ed405cdb77a3357d424f462e8d3b2276df5) - **docs:** fix code in TSDoc examples _(by Philipp Burckhardt)_
