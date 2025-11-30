@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-21)
+## Unreleased (2025-11-30)
 
 <section class="features">
 
@@ -660,6 +660,10 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`e8c8651`](https://github.com/stdlib-js/stdlib/commit/e8c8651693bc38d999b5f46cf31ccd370ad6cb8c) - **docs:** improve doctests for complex number instances in `blas/ext/base/cfill` _(by Athan Reines)_
+-   [`c520b5a`](https://github.com/stdlib-js/stdlib/commit/c520b5a0cae0c85e946f8a646e7cc8c01b3b5673) - **docs:** address TSDoc lint errors and add doctest aliases _(by Philipp Burckhardt)_
+-   [`3f7b1ed`](https://github.com/stdlib-js/stdlib/commit/3f7b1ed405cdb77a3357d424f462e8d3b2276df5) - **docs:** fix code in TSDoc examples _(by Philipp Burckhardt)_
+-   [`47088cc`](https://github.com/stdlib-js/stdlib/commit/47088cc299d84289a904dd2e7d2cdf0aee9057aa) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
 -   [`e62f498`](https://github.com/stdlib-js/stdlib/commit/e62f498b2bad582476862a5872115ae22152fe88) - **docs:** fix example code and return annotations in TSDoc examples _(by Philipp Burckhardt)_
 -   [`974a2c4`](https://github.com/stdlib-js/stdlib/commit/974a2c4641f08c90fab2a884a95cd0930b055900) - **feat:** add `blas/ext/base/drrss` [(#8556)](https://github.com/stdlib-js/stdlib/pull/8556) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`73e4725`](https://github.com/stdlib-js/stdlib/commit/73e4725ad922926de4747c08a8121c99ef8a548d) - **style:** remove extraneous empty line _(by Philipp Burckhardt)_

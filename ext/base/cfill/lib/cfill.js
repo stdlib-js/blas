@@ -39,8 +39,6 @@ var ndarray = require( './ndarray.js' );
 * var Float32Array = require( '@stdlib/array/float32' );
 * var Complex64Array = require( '@stdlib/array/complex64' );
 * var Complex64 = require( '@stdlib/complex/float32/ctor' );
-* var realf = require( '@stdlib/complex/float32/real' );
-* var imagf = require( '@stdlib/complex/float32/imag' );
 *
 * var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 * var x = new Complex64Array( arr );
@@ -50,13 +48,7 @@ var ndarray = require( './ndarray.js' );
 * cfill( x.length, alpha, x, 1 );
 *
 * var y = x.get( 0 );
-* // returns <Complex64>
-*
-* var re = realf( y );
-* // returns 10.0
-*
-* var im = imagf( y );
-* // returns 10.0
+* // returns <Complex64>[ 10.0, 10.0 ]
 */
 function cfill( N, alpha, x, strideX ) {
 	return ndarray( N, alpha, x, strideX, stride2offset( N, strideX ) );

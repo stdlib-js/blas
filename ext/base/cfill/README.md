@@ -38,8 +38,6 @@ Fills a single-precision complex floating-point strided array `x` with a specifi
 var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var realf = require( '@stdlib/complex/float32/real' );
-var imagf = require( '@stdlib/complex/float32/imag' );
 
 var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 var x = new Complex64Array( arr );
@@ -49,13 +47,7 @@ var alpha = new Complex64( 10.0, 10.0 );
 cfill( x.length, alpha, x, 1 );
 
 var y = x.get( 0 );
-// returns <Complex64>
-
-var re = realf( y );
-// returns 10.0
-
-var im = imagf( y );
-// returns 10.0
+// returns <Complex64>[ 10.0, 10.0 ]
 ```
 
 The function has the following parameters:
@@ -71,8 +63,6 @@ The `N` and stride parameters determine which elements in the strided array are 
 var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var realf = require( '@stdlib/complex/float32/real' );
-var imagf = require( '@stdlib/complex/float32/imag' );
 
 var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 var x = new Complex64Array( arr );
@@ -82,22 +72,10 @@ var alpha = new Complex64( 10.0, 10.0 );
 cfill( 2, alpha, x, 2 );
 
 var y = x.get( 0 );
-// returns <Complex64>
-
-var re = realf( y );
-// returns 10.0
-
-var im = imagf( y );
-// returns 10.0
+// returns <Complex64>[ 10.0, 10.0 ]
 
 y = x.get( 1 );
-// returns <Complex64>
-
-re = realf( y );
-// returns 3.0
-
-im = imagf( y );
-// returns 4.0
+// returns <Complex64>[ 3.0, 4.0 ]
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
@@ -106,8 +84,6 @@ Note that indexing is relative to the first index. To introduce an offset, use [
 var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var realf = require( '@stdlib/complex/float32/real' );
-var imagf = require( '@stdlib/complex/float32/imag' );
 
 // Create the underlying floating-point array:
 var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
@@ -125,22 +101,10 @@ var alpha = new Complex64( 10.0, 10.0 );
 cfill( 2, alpha, x1, 2 );
 
 var y = x0.get( 0 );
-// returns <Complex64>
-
-var re = realf( y );
-// returns 1.0
-
-var im = imagf( y );
-// returns 2.0
+// returns <Complex64>[ 1.0, 2.0 ]
 
 y = x0.get( 1 );
-// returns <Complex64>
-
-re = realf( y );
-// returns 10.0
-
-im = imagf( y );
-// returns 10.0
+// returns <Complex64>[ 10.0, 10.0 ]
 ```
 
 #### cfill.ndarray( N, alpha, x, strideX, offsetX )
@@ -151,8 +115,6 @@ Fills a single-precision complex floating-point strided array `x` with a specifi
 var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var realf = require( '@stdlib/complex/float32/real' );
-var imagf = require( '@stdlib/complex/float32/imag' );
 
 var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 var x = new Complex64Array( arr );
@@ -162,13 +124,7 @@ var alpha = new Complex64( 10.0, 10.0 );
 cfill.ndarray( x.length, alpha, x, 1, 0 );
 
 var y = x.get( 0 );
-// returns <Complex64>
-
-var re = realf( y );
-// returns 10.0
-
-var im = imagf( y );
-// returns 10.0
+// returns <Complex64>[ 10.0, 10.0 ]
 ```
 
 The function has the following additional parameters:
@@ -181,8 +137,6 @@ While [`typed array`][mdn-typed-array] views mandate a view offset based on the 
 var Float32Array = require( '@stdlib/array/float32' );
 var Complex64Array = require( '@stdlib/array/complex64' );
 var Complex64 = require( '@stdlib/complex/float32/ctor' );
-var realf = require( '@stdlib/complex/float32/real' );
-var imagf = require( '@stdlib/complex/float32/imag' );
 
 var arr = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
 var x = new Complex64Array( arr );
@@ -192,31 +146,13 @@ var alpha = new Complex64( 10.0, 10.0 );
 cfill.ndarray( 2, alpha, x, 1, x.length-2 );
 
 var y = x.get( 0 );
-// returns <Complex64>
-
-var re = realf( y );
-// returns 1.0
-
-var im = imagf( y );
-// returns 2.0
+// returns <Complex64>[ 1.0, 2.0 ]
 
 y = x.get( 1 );
-// returns <Complex64>
-
-re = realf( y );
-// returns 10.0
-
-im = imagf( y );
-// returns 10.0
+// returns <Complex64>[ 10.0, 10.0 ]
 
 y = x.get( 2 );
-// returns <Complex64>
-
-re = realf( y );
-// returns 10.0
-
-im = imagf( y );
-// returns 10.0
+// returns <Complex64>[ 10.0, 10.0 ]
 ```
 
 </section>
