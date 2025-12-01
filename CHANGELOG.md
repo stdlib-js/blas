@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-11-30)
+## Unreleased (2025-12-01)
 
 <section class="features">
 
 ### Features
 
+-   [`403d421`](https://github.com/stdlib-js/stdlib/commit/403d421f3a683c9885ec061323e740c952abab75) - update TS declarations of `blas/ext/base` namespace
 -   [`974a2c4`](https://github.com/stdlib-js/stdlib/commit/974a2c4641f08c90fab2a884a95cd0930b055900) - add `blas/ext/base/drrss` [(#8556)](https://github.com/stdlib-js/stdlib/pull/8556)
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
 -   [`05fa508`](https://github.com/stdlib-js/stdlib/commit/05fa508642bd188a9a2e907ad7510b2b2b8742f3) - add `linspace` to namespace
@@ -660,6 +661,10 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`818054a`](https://github.com/stdlib-js/stdlib/commit/818054a494c75b6cdbc7b9e33891a5e08f2c8031) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
+-   [`403d421`](https://github.com/stdlib-js/stdlib/commit/403d421f3a683c9885ec061323e740c952abab75) - **feat:** update TS declarations of `blas/ext/base` namespace _(by Philipp Burckhardt)_
+-   [`da28542`](https://github.com/stdlib-js/stdlib/commit/da28542b62c44fd61b46c6564d4f5a26f4707d31) - **docs:** fix example code in TS declarations for `blas/base` namespace _(by Philipp Burckhardt)_
+-   [`7e39b69`](https://github.com/stdlib-js/stdlib/commit/7e39b69431dfad9f542cd3b8028d4bd50718fc24) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`7c3d0ed`](https://github.com/stdlib-js/stdlib/commit/7c3d0edd0bdce765b55a68d512a7186e3a1c7ae5) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapx` [(#8646)](https://github.com/stdlib-js/stdlib/pull/8646) _(by Pratik)_
 -   [`086231d`](https://github.com/stdlib-js/stdlib/commit/086231d0bcfe2d4a9c4c932fc9333f8ac63c4087) - **bench:** refactor to use string interpolation in `blas/ext/base/dfill` _(by Athan Reines)_
 -   [`f0f8a70`](https://github.com/stdlib-js/stdlib/commit/f0f8a70989b6cfdabf6b928650c50b28aab5e224) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dfill` _(by Athan Reines)_
