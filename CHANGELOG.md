@@ -661,6 +661,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`6f4927c`](https://github.com/stdlib-js/stdlib/commit/6f4927cd89940a77eea0f1eef8fb7a3b5cdb0e2c) - **docs:** improve doctests for complex number instances in `blas/ext/base/zfill` [(#8648)](https://github.com/stdlib-js/stdlib/pull/8648) _(by Divyanshu, Athan Reines)_
 -   [`818054a`](https://github.com/stdlib-js/stdlib/commit/818054a494c75b6cdbc7b9e33891a5e08f2c8031) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`403d421`](https://github.com/stdlib-js/stdlib/commit/403d421f3a683c9885ec061323e740c952abab75) - **feat:** update TS declarations of `blas/ext/base` namespace _(by Philipp Burckhardt)_
 -   [`da28542`](https://github.com/stdlib-js/stdlib/commit/da28542b62c44fd61b46c6564d4f5a26f4707d31) - **docs:** fix example code in TS declarations for `blas/base` namespace _(by Philipp Burckhardt)_
@@ -1740,11 +1741,12 @@ A total of 29 issues were closed in this release:
 
 ### Contributors
 
-A total of 27 people contributed to this release. Thank you to the following contributors:
+A total of 28 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
+-   Divyanshu
 -   Geo Daoyu
 -   Gururaj Gurram
 -   Hemant M Mehta
