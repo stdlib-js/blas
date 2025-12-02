@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-01)
+## Unreleased (2025-12-02)
 
 <section class="features">
 
@@ -661,6 +661,8 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`d3c2ccc`](https://github.com/stdlib-js/stdlib/commit/d3c2ccca187782867ce02171a4d0da106728a731) - **docs:** resolve typos and documentation inconsistencies _(by Philipp Burckhardt)_
+-   [`e964c37`](https://github.com/stdlib-js/stdlib/commit/e964c37eeba945d054546cf026ce9daf56ad260c) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnancusumkbn` [(#8679)](https://github.com/stdlib-js/stdlib/pull/8679) _(by Sijan Bhandari, Athan Reines)_
 -   [`6f4927c`](https://github.com/stdlib-js/stdlib/commit/6f4927cd89940a77eea0f1eef8fb7a3b5cdb0e2c) - **docs:** improve doctests for complex number instances in `blas/ext/base/zfill` [(#8648)](https://github.com/stdlib-js/stdlib/pull/8648) _(by Divyanshu, Athan Reines)_
 -   [`818054a`](https://github.com/stdlib-js/stdlib/commit/818054a494c75b6cdbc7b9e33891a5e08f2c8031) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`403d421`](https://github.com/stdlib-js/stdlib/commit/403d421f3a683c9885ec061323e740c952abab75) - **feat:** update TS declarations of `blas/ext/base` namespace _(by Philipp Burckhardt)_
@@ -1741,7 +1743,7 @@ A total of 29 issues were closed in this release:
 
 ### Contributors
 
-A total of 28 people contributed to this release. Thank you to the following contributors:
+A total of 29 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1765,6 +1767,7 @@ A total of 28 people contributed to this release. Thank you to the following con
 -   Rupa
 -   Saurabh Singh
 -   Shabareesh Shetty
+-   Sijan Bhandari
 -   Snehil Shah
 -   Suhaib Ilahi
 -   Uday Kakade
