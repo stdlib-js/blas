@@ -661,6 +661,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`d3c2ccc`](https://github.com/stdlib-js/stdlib/commit/d3c2ccca187782867ce02171a4d0da106728a731) - **docs:** resolve typos and documentation inconsistencies _(by Philipp Burckhardt)_
 -   [`e964c37`](https://github.com/stdlib-js/stdlib/commit/e964c37eeba945d054546cf026ce9daf56ad260c) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnancusumkbn` [(#8679)](https://github.com/stdlib-js/stdlib/pull/8679) _(by Sijan Bhandari, Athan Reines)_
 -   [`6f4927c`](https://github.com/stdlib-js/stdlib/commit/6f4927cd89940a77eea0f1eef8fb7a3b5cdb0e2c) - **docs:** improve doctests for complex number instances in `blas/ext/base/zfill` [(#8648)](https://github.com/stdlib-js/stdlib/pull/8648) _(by Divyanshu, Athan Reines)_
