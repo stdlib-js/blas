@@ -661,6 +661,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`57d4088`](https://github.com/stdlib-js/stdlib/commit/57d40888b041ba88da1d555662d0734deb2f8a10) - **bench:** refactor to use dynamic memory allocation in `blas/base/ddot` [(#8713)](https://github.com/stdlib-js/stdlib/pull/8713) _(by Faraz Ghani, Athan Reines, Philipp Burckhardt)_
 -   [`ee4d86a`](https://github.com/stdlib-js/stdlib/commit/ee4d86a633fbd5f33524af8ff97c3104df5d6e97) - **bench:** refactor to use dynamic memory allocation in `blas/base/drot` [(#8711)](https://github.com/stdlib-js/stdlib/pull/8711) _(by Faraz Ghani, Athan Reines)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`d3c2ccc`](https://github.com/stdlib-js/stdlib/commit/d3c2ccca187782867ce02171a4d0da106728a731) - **docs:** resolve typos and documentation inconsistencies _(by Philipp Burckhardt)_
