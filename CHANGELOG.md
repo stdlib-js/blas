@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-02)
+## Unreleased (2025-12-03)
 
 <section class="features">
 
@@ -661,6 +661,7 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`ee4d86a`](https://github.com/stdlib-js/stdlib/commit/ee4d86a633fbd5f33524af8ff97c3104df5d6e97) - **bench:** refactor to use dynamic memory allocation in `blas/base/drot` [(#8711)](https://github.com/stdlib-js/stdlib/pull/8711) _(by Faraz Ghani, Athan Reines)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`d3c2ccc`](https://github.com/stdlib-js/stdlib/commit/d3c2ccca187782867ce02171a4d0da106728a731) - **docs:** resolve typos and documentation inconsistencies _(by Philipp Burckhardt)_
 -   [`e964c37`](https://github.com/stdlib-js/stdlib/commit/e964c37eeba945d054546cf026ce9daf56ad260c) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnancusumkbn` [(#8679)](https://github.com/stdlib-js/stdlib/pull/8679) _(by Sijan Bhandari, Athan Reines)_
@@ -1744,12 +1745,13 @@ A total of 29 issues were closed in this release:
 
 ### Contributors
 
-A total of 29 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
 -   Athan Reines
 -   Divyanshu
+-   Faraz Ghani
 -   Geo Daoyu
 -   Gururaj Gurram
 -   Hemant M Mehta
