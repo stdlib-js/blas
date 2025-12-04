@@ -4,12 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-03)
+## Unreleased (2025-12-04)
 
 <section class="features">
 
 ### Features
 
+-   [`2416a32`](https://github.com/stdlib-js/stdlib/commit/2416a3288d2de3fbd126d59dcb6bacd6b8452835) - update `blas/ext` TypeScript declarations
+-   [`e17d59e`](https://github.com/stdlib-js/stdlib/commit/e17d59e1309c01a67a34da99428a6e26a9e79854) - update `blas/ext/base/ndarray` TypeScript declarations
+-   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188) - remove unsupported signature for complex numbers
 -   [`403d421`](https://github.com/stdlib-js/stdlib/commit/403d421f3a683c9885ec061323e740c952abab75) - update TS declarations of `blas/ext/base` namespace
 -   [`974a2c4`](https://github.com/stdlib-js/stdlib/commit/974a2c4641f08c90fab2a884a95cd0930b055900) - add `blas/ext/base/drrss` [(#8556)](https://github.com/stdlib-js/stdlib/pull/8556)
 -   [`cf4140d`](https://github.com/stdlib-js/stdlib/commit/cf4140d45ad394171a01c08307a51c70aa25ece0) - add `stats/strided/wasm/dmeanpw`  [(#7100)](https://github.com/stdlib-js/stdlib/pull/7100)
@@ -485,6 +488,7 @@
 
 ### BREAKING CHANGES
 
+-   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188): remove unsupported signature for complex numbers
 -   [`211d758`](https://github.com/stdlib-js/stdlib/commit/211d7589cc78cf73556270c7bd8e669537d21799): remove `mulf` from `math/base/ops` namespace
 
     -   To migrate, users should access the same symbol via the `number/float32/base` namespace.
@@ -647,9 +651,9 @@
 
 ### Closed Issues
 
-A total of 29 issues were closed in this release:
+A total of 30 issues were closed in this release:
 
-[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5732](https://github.com/stdlib-js/stdlib/issues/5732), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241), [#7645](https://github.com/stdlib-js/stdlib/issues/7645), [#7877](https://github.com/stdlib-js/stdlib/issues/7877), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8357](https://github.com/stdlib-js/stdlib/issues/8357), [#8443](https://github.com/stdlib-js/stdlib/issues/8443)
+[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5732](https://github.com/stdlib-js/stdlib/issues/5732), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241), [#7645](https://github.com/stdlib-js/stdlib/issues/7645), [#7877](https://github.com/stdlib-js/stdlib/issues/7877), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8357](https://github.com/stdlib-js/stdlib/issues/8357), [#8443](https://github.com/stdlib-js/stdlib/issues/8443), [#8700](https://github.com/stdlib-js/stdlib/issues/8700)
 
 </section>
 
@@ -661,6 +665,11 @@ A total of 29 issues were closed in this release:
 
 <details>
 
+-   [`59db850`](https://github.com/stdlib-js/stdlib/commit/59db8508c6113b3c5e3951b34877fc933d317ccd) - **chore:** address commit comments [(#8752)](https://github.com/stdlib-js/stdlib/pull/8752) _(by utshav khatiwada)_
+-   [`4d90d1a`](https://github.com/stdlib-js/stdlib/commit/4d90d1a8908b2328735f43fccaca8e9a1daffb35) - **docs:** fix example code in TSDoc declarations _(by Philipp Burckhardt)_
+-   [`2416a32`](https://github.com/stdlib-js/stdlib/commit/2416a3288d2de3fbd126d59dcb6bacd6b8452835) - **feat:** update `blas/ext` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`e17d59e`](https://github.com/stdlib-js/stdlib/commit/e17d59e1309c01a67a34da99428a6e26a9e79854) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations _(by Philipp Burckhardt)_
+-   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188) - **feat:** remove unsupported signature for complex numbers _(by Philipp Burckhardt)_
 -   [`57d4088`](https://github.com/stdlib-js/stdlib/commit/57d40888b041ba88da1d555662d0734deb2f8a10) - **bench:** refactor to use dynamic memory allocation in `blas/base/ddot` [(#8713)](https://github.com/stdlib-js/stdlib/pull/8713) _(by Faraz Ghani, Athan Reines, Philipp Burckhardt)_
 -   [`ee4d86a`](https://github.com/stdlib-js/stdlib/commit/ee4d86a633fbd5f33524af8ff97c3104df5d6e97) - **bench:** refactor to use dynamic memory allocation in `blas/base/drot` [(#8711)](https://github.com/stdlib-js/stdlib/pull/8711) _(by Faraz Ghani, Athan Reines)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
@@ -1746,7 +1755,7 @@ A total of 29 issues were closed in this release:
 
 ### Contributors
 
-A total of 30 people contributed to this release. Thank you to the following contributors:
+A total of 31 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1778,6 +1787,7 @@ A total of 30 people contributed to this release. Thank you to the following con
 -   Vivek Maurya
 -   anujmishra03
 -   kaushal-kumar-it
+-   utshav khatiwada
 
 </section>
 
