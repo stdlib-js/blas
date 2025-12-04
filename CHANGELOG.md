@@ -665,6 +665,7 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`6ec2cb3`](https://github.com/stdlib-js/stdlib/commit/6ec2cb37bec2b8be85359e3e818c5b807fe2bb29) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansumors` [(#8761)](https://github.com/stdlib-js/stdlib/pull/8761) _(by Sijan Bhandari)_
 -   [`cf2c089`](https://github.com/stdlib-js/stdlib/commit/cf2c089f7c6f8f025a5a719abc802cad2f166764) - **docs:** remove note _(by Athan Reines)_
 -   [`59db850`](https://github.com/stdlib-js/stdlib/commit/59db8508c6113b3c5e3951b34877fc933d317ccd) - **chore:** address commit comments [(#8752)](https://github.com/stdlib-js/stdlib/pull/8752) _(by utshav khatiwada)_
 -   [`4d90d1a`](https://github.com/stdlib-js/stdlib/commit/4d90d1a8908b2328735f43fccaca8e9a1daffb35) - **docs:** fix example code in TSDoc declarations _(by Philipp Burckhardt)_
