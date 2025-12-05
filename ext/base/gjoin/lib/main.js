@@ -39,7 +39,7 @@ var ndarray = require( './ndarray.js' );
 * var x = [ 1, 2, 3, 4 ];
 *
 * var out = gjoin( x.length, ',', x, 1 );
-* // return '1,2,3,4'
+* // returns '1,2,3,4'
 */
 function gjoin( N, separator, x, strideX ) {
 	return ndarray( N, separator, x, strideX, stride2offset( N, strideX ) );

@@ -668,6 +668,9 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`0ea23ed`](https://github.com/stdlib-js/stdlib/commit/0ea23ed7a9be84a6e534984b7a5de2e5cdadfa5a) - **bench:** add missing docblock in \`blas/base/sscal\` _(by Philipp Burckhardt)_
+-   [`d3f52bb`](https://github.com/stdlib-js/stdlib/commit/d3f52bbb4e2257902fa8c19ec43e9c561833ff42) - **bench:** add missing float literal suffix in \`blas/base/isamax\` _(by Philipp Burckhardt)_
+-   [`a297ebe`](https://github.com/stdlib-js/stdlib/commit/a297ebeb5aae3de8c04c56e02e5e0ef4f229b2f8) - **docs:** fix doctest return annotation comment _(by Philipp Burckhardt)_
 -   [`e924862`](https://github.com/stdlib-js/stdlib/commit/e924862135cc2cd2d1dbee6fe94fdefb5e8ae8fe) - **bench:** refactor to use dynamic memory allocation in `blas/base/snrm2` [(#8818)](https://github.com/stdlib-js/stdlib/pull/8818) _(by Krishna Awasthi, Athan Reines)_
 -   [`67088b9`](https://github.com/stdlib-js/stdlib/commit/67088b9007a9543c3672f6b3c3710bd12f315501) - **bench:** refactor to use dynamic memory allocation in `blas/base/sasum` [(#8817)](https://github.com/stdlib-js/stdlib/pull/8817) _(by Krishna Awasthi, Athan Reines)_
 -   [`7dd0179`](https://github.com/stdlib-js/stdlib/commit/7dd017988d1db6401aaa7ca1ec9590dc6aa1e011) - **bench:** refactor to use dynamic memory allocation in `blas/base/sscal` [(#8819)](https://github.com/stdlib-js/stdlib/pull/8819) _(by Krishna Awasthi)_
