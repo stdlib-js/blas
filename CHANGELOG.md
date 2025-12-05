@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`6769689`](https://github.com/stdlib-js/stdlib/commit/6769689839392b84f2cceefeb6bede09f888b8f3) - add `blas/ext/base/gjoin` [(#8742)](https://github.com/stdlib-js/stdlib/pull/8742)
+-   [`c2dad77`](https://github.com/stdlib-js/stdlib/commit/c2dad770ea88b0c85655e0a208518ea8ae747bdc) - add `blas/ext/base/ndarray/dsumkbn` [(#8795)](https://github.com/stdlib-js/stdlib/pull/8795)
+-   [`d9231e2`](https://github.com/stdlib-js/stdlib/commit/d9231e2308cb3d8f603cc1bc5411b661a3fb083b) - add `blas/ext/base/ndarray/csumkbn` [(#8772)](https://github.com/stdlib-js/stdlib/pull/8772)
 -   [`2416a32`](https://github.com/stdlib-js/stdlib/commit/2416a3288d2de3fbd126d59dcb6bacd6b8452835) - update `blas/ext` TypeScript declarations
 -   [`e17d59e`](https://github.com/stdlib-js/stdlib/commit/e17d59e1309c01a67a34da99428a6e26a9e79854) - update `blas/ext/base/ndarray` TypeScript declarations
 -   [`0efd288`](https://github.com/stdlib-js/stdlib/commit/0efd2889280e00281c200d16528a636922fb8188) - remove unsupported signature for complex numbers
@@ -665,6 +668,9 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`6769689`](https://github.com/stdlib-js/stdlib/commit/6769689839392b84f2cceefeb6bede09f888b8f3) - **feat:** add `blas/ext/base/gjoin` [(#8742)](https://github.com/stdlib-js/stdlib/pull/8742) _(by Muhammad Haris, Athan Reines)_
+-   [`c2dad77`](https://github.com/stdlib-js/stdlib/commit/c2dad770ea88b0c85655e0a208518ea8ae747bdc) - **feat:** add `blas/ext/base/ndarray/dsumkbn` [(#8795)](https://github.com/stdlib-js/stdlib/pull/8795) _(by Kaustubh Patange, Athan Reines)_
+-   [`d9231e2`](https://github.com/stdlib-js/stdlib/commit/d9231e2308cb3d8f603cc1bc5411b661a3fb083b) - **feat:** add `blas/ext/base/ndarray/csumkbn` [(#8772)](https://github.com/stdlib-js/stdlib/pull/8772) _(by Kaustubh Patange, Athan Reines)_
 -   [`09c6032`](https://github.com/stdlib-js/stdlib/commit/09c603243ffb5539937ebd1986e9d9029c7a52cb) - **chore:** update array allocation and example path [(#8789)](https://github.com/stdlib-js/stdlib/pull/8789) _(by Atharv1405)_
 -   [`f23afb4`](https://github.com/stdlib-js/stdlib/commit/f23afb42543609f099f1ea329cb56892bb6437b3) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnanasum` [(#8714)](https://github.com/stdlib-js/stdlib/pull/8714) _(by Faraz Ghani, Athan Reines)_
 -   [`30ab067`](https://github.com/stdlib-js/stdlib/commit/30ab067adba7be2a54c72df42b3ff6b1ae72f304) - **bench:** refactor to use dynamic memory allocation in `blas/base/daxpy` [(#8680)](https://github.com/stdlib-js/stdlib/pull/8680) _(by Faraz Ghani, Athan Reines)_
@@ -1762,7 +1768,7 @@ A total of 31 issues were closed in this release:
 
 ### Contributors
 
-A total of 33 people contributed to this release. Thank you to the following contributors:
+A total of 34 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1774,6 +1780,7 @@ A total of 33 people contributed to this release. Thank you to the following con
 -   Gururaj Gurram
 -   Hemant M Mehta
 -   Justyn Shelby
+-   Kaustubh Patange
 -   Lalit Narayan Yadav
 -   Mohammad Bin Aftab
 -   Muhammad Haris
