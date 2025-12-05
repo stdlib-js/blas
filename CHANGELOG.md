@@ -668,6 +668,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`72cb0d7`](https://github.com/stdlib-js/stdlib/commit/72cb0d719966736444cda29320021f5cc74090cd) - **bench:** refactor to use dynamic memory allocation in `blas/base/idamax` [(#8815)](https://github.com/stdlib-js/stdlib/pull/8815) _(by Krishna Awasthi)_
 -   [`6769689`](https://github.com/stdlib-js/stdlib/commit/6769689839392b84f2cceefeb6bede09f888b8f3) - **feat:** add `blas/ext/base/gjoin` [(#8742)](https://github.com/stdlib-js/stdlib/pull/8742) _(by Muhammad Haris, Athan Reines)_
 -   [`c2dad77`](https://github.com/stdlib-js/stdlib/commit/c2dad770ea88b0c85655e0a208518ea8ae747bdc) - **feat:** add `blas/ext/base/ndarray/dsumkbn` [(#8795)](https://github.com/stdlib-js/stdlib/pull/8795) _(by Kaustubh Patange, Athan Reines)_
 -   [`d9231e2`](https://github.com/stdlib-js/stdlib/commit/d9231e2308cb3d8f603cc1bc5411b661a3fb083b) - **feat:** add `blas/ext/base/ndarray/csumkbn` [(#8772)](https://github.com/stdlib-js/stdlib/pull/8772) _(by Kaustubh Patange, Athan Reines)_
@@ -1768,7 +1769,7 @@ A total of 31 issues were closed in this release:
 
 ### Contributors
 
-A total of 34 people contributed to this release. Thank you to the following contributors:
+A total of 35 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1781,6 +1782,7 @@ A total of 34 people contributed to this release. Thank you to the following con
 -   Hemant M Mehta
 -   Justyn Shelby
 -   Kaustubh Patange
+-   Krishna Awasthi
 -   Lalit Narayan Yadav
 -   Mohammad Bin Aftab
 -   Muhammad Haris
