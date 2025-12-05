@@ -665,6 +665,7 @@ A total of 30 issues were closed in this release:
 
 <details>
 
+-   [`30ab067`](https://github.com/stdlib-js/stdlib/commit/30ab067adba7be2a54c72df42b3ff6b1ae72f304) - **bench:** refactor to use dynamic memory allocation in `blas/base/daxpy` [(#8680)](https://github.com/stdlib-js/stdlib/pull/8680) _(by Faraz Ghani, Athan Reines)_
 -   [`89a5bbd`](https://github.com/stdlib-js/stdlib/commit/89a5bbda013fe507eb6aa0c350428ebb7e484030) - **bench:** refactor to use dynamic memory allocation in `blas/base/dcopy` [(#8712)](https://github.com/stdlib-js/stdlib/pull/8712) _(by Faraz Ghani, Athan Reines)_
 -   [`6f01a24`](https://github.com/stdlib-js/stdlib/commit/6f01a245cb537f48bed2e576501b5d5df9fadba0) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/ssumkbn` [(#8762)](https://github.com/stdlib-js/stdlib/pull/8762) _(by Omar Mohamed, Athan Reines)_
 -   [`6ec2cb3`](https://github.com/stdlib-js/stdlib/commit/6ec2cb37bec2b8be85359e3e818c5b807fe2bb29) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansumors` [(#8761)](https://github.com/stdlib-js/stdlib/pull/8761) _(by Sijan Bhandari)_
