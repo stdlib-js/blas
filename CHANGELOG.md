@@ -668,6 +668,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`e924862`](https://github.com/stdlib-js/stdlib/commit/e924862135cc2cd2d1dbee6fe94fdefb5e8ae8fe) - **bench:** refactor to use dynamic memory allocation in `blas/base/snrm2` [(#8818)](https://github.com/stdlib-js/stdlib/pull/8818) _(by Krishna Awasthi, Athan Reines)_
 -   [`67088b9`](https://github.com/stdlib-js/stdlib/commit/67088b9007a9543c3672f6b3c3710bd12f315501) - **bench:** refactor to use dynamic memory allocation in `blas/base/sasum` [(#8817)](https://github.com/stdlib-js/stdlib/pull/8817) _(by Krishna Awasthi, Athan Reines)_
 -   [`7dd0179`](https://github.com/stdlib-js/stdlib/commit/7dd017988d1db6401aaa7ca1ec9590dc6aa1e011) - **bench:** refactor to use dynamic memory allocation in `blas/base/sscal` [(#8819)](https://github.com/stdlib-js/stdlib/pull/8819) _(by Krishna Awasthi)_
 -   [`60b2261`](https://github.com/stdlib-js/stdlib/commit/60b2261376b1b45cba645edff4dc566f50de0f58) - **bench:** refactor to use dynamic memory allocation in `blas/base/isamax` [(#8816)](https://github.com/stdlib-js/stdlib/pull/8816) _(by Krishna Awasthi)_
