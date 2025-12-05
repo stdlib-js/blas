@@ -668,6 +668,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`4910e96`](https://github.com/stdlib-js/stdlib/commit/4910e96586d51102016c2347de92f2b904dbea60) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsum` [(#8812)](https://github.com/stdlib-js/stdlib/pull/8812) _(by Krishna Awasthi)_
 -   [`72cb0d7`](https://github.com/stdlib-js/stdlib/commit/72cb0d719966736444cda29320021f5cc74090cd) - **bench:** refactor to use dynamic memory allocation in `blas/base/idamax` [(#8815)](https://github.com/stdlib-js/stdlib/pull/8815) _(by Krishna Awasthi)_
 -   [`6769689`](https://github.com/stdlib-js/stdlib/commit/6769689839392b84f2cceefeb6bede09f888b8f3) - **feat:** add `blas/ext/base/gjoin` [(#8742)](https://github.com/stdlib-js/stdlib/pull/8742) _(by Muhammad Haris, Athan Reines)_
 -   [`c2dad77`](https://github.com/stdlib-js/stdlib/commit/c2dad770ea88b0c85655e0a208518ea8ae747bdc) - **feat:** add `blas/ext/base/ndarray/dsumkbn` [(#8795)](https://github.com/stdlib-js/stdlib/pull/8795) _(by Kaustubh Patange, Athan Reines)_
