@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-05)
+## Unreleased (2025-12-06)
 
 <section class="features">
 
@@ -668,6 +668,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`7eab9c5`](https://github.com/stdlib-js/stdlib/commit/7eab9c55ef559183a133a94a644daf4cf8d25ad9) - **bench:** refactor to use dynamic memory allocation in `blas/base/dswap` [(#8820)](https://github.com/stdlib-js/stdlib/pull/8820) _(by Krishna Awasthi)_
 -   [`0ea23ed`](https://github.com/stdlib-js/stdlib/commit/0ea23ed7a9be84a6e534984b7a5de2e5cdadfa5a) - **bench:** add missing docblock in \`blas/base/sscal\` _(by Philipp Burckhardt)_
 -   [`d3f52bb`](https://github.com/stdlib-js/stdlib/commit/d3f52bbb4e2257902fa8c19ec43e9c561833ff42) - **bench:** add missing float literal suffix in \`blas/base/isamax\` _(by Philipp Burckhardt)_
 -   [`a297ebe`](https://github.com/stdlib-js/stdlib/commit/a297ebeb5aae3de8c04c56e02e5e0ef4f229b2f8) - **docs:** fix doctest return annotation comment _(by Philipp Burckhardt)_
