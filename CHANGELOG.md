@@ -668,9 +668,11 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`4eb9d2a`](https://github.com/stdlib-js/stdlib/commit/4eb9d2a1dc5b2c5bd11a54ea62f1f88d2372d9a9) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`7a9032d`](https://github.com/stdlib-js/stdlib/commit/7a9032ded62c31a8d6aaa5c2620db0e624006466) - **test:** fix assertion description _(by Philipp Burckhardt)_
 -   [`7eab9c5`](https://github.com/stdlib-js/stdlib/commit/7eab9c55ef559183a133a94a644daf4cf8d25ad9) - **bench:** refactor to use dynamic memory allocation in `blas/base/dswap` [(#8820)](https://github.com/stdlib-js/stdlib/pull/8820) _(by Krishna Awasthi)_
--   [`0ea23ed`](https://github.com/stdlib-js/stdlib/commit/0ea23ed7a9be84a6e534984b7a5de2e5cdadfa5a) - **bench:** add missing docblock in \`blas/base/sscal\` _(by Philipp Burckhardt)_
--   [`d3f52bb`](https://github.com/stdlib-js/stdlib/commit/d3f52bbb4e2257902fa8c19ec43e9c561833ff42) - **bench:** add missing float literal suffix in \`blas/base/isamax\` _(by Philipp Burckhardt)_
+-   [`0ea23ed`](https://github.com/stdlib-js/stdlib/commit/0ea23ed7a9be84a6e534984b7a5de2e5cdadfa5a) - **bench:** add missing docblock in `blas/base/sscal` _(by Philipp Burckhardt)_
+-   [`d3f52bb`](https://github.com/stdlib-js/stdlib/commit/d3f52bbb4e2257902fa8c19ec43e9c561833ff42) - **bench:** add missing float literal suffix in `blas/base/isamax` _(by Philipp Burckhardt)_
 -   [`a297ebe`](https://github.com/stdlib-js/stdlib/commit/a297ebeb5aae3de8c04c56e02e5e0ef4f229b2f8) - **docs:** fix doctest return annotation comment _(by Philipp Burckhardt)_
 -   [`e924862`](https://github.com/stdlib-js/stdlib/commit/e924862135cc2cd2d1dbee6fe94fdefb5e8ae8fe) - **bench:** refactor to use dynamic memory allocation in `blas/base/snrm2` [(#8818)](https://github.com/stdlib-js/stdlib/pull/8818) _(by Krishna Awasthi, Athan Reines)_
 -   [`67088b9`](https://github.com/stdlib-js/stdlib/commit/67088b9007a9543c3672f6b3c3710bd12f315501) - **bench:** refactor to use dynamic memory allocation in `blas/base/sasum` [(#8817)](https://github.com/stdlib-js/stdlib/pull/8817) _(by Krishna Awasthi, Athan Reines)_
