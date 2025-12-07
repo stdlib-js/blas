@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b05bc14`](https://github.com/stdlib-js/stdlib/commit/b05bc14bda37bf896299ce18a3927d6ecd6f0575) - add `blas/ext/base/ndarray/gsumkbn` [(#8834)](https://github.com/stdlib-js/stdlib/pull/8834)
 -   [`6769689`](https://github.com/stdlib-js/stdlib/commit/6769689839392b84f2cceefeb6bede09f888b8f3) - add `blas/ext/base/gjoin` [(#8742)](https://github.com/stdlib-js/stdlib/pull/8742)
 -   [`c2dad77`](https://github.com/stdlib-js/stdlib/commit/c2dad770ea88b0c85655e0a208518ea8ae747bdc) - add `blas/ext/base/ndarray/dsumkbn` [(#8795)](https://github.com/stdlib-js/stdlib/pull/8795)
 -   [`d9231e2`](https://github.com/stdlib-js/stdlib/commit/d9231e2308cb3d8f603cc1bc5411b661a3fb083b) - add `blas/ext/base/ndarray/csumkbn` [(#8772)](https://github.com/stdlib-js/stdlib/pull/8772)
@@ -337,6 +338,7 @@
 
 ### Bug Fixes
 
+-   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - use correct return type in Routine interface and fix descriptions
 -   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - ensure correct `this` context when creating a new Module instance
 -   [`e8977d9`](https://github.com/stdlib-js/stdlib/commit/e8977d9abad1e2eda67f94f4950e042374608544) - ensure correct `this` context when creating a new Module instance
 -   [`8ece787`](https://github.com/stdlib-js/stdlib/commit/8ece787eae84c27b4018185aaba3371eea94fa99) - ensure correct `this` context when creating a new Module instance
@@ -668,6 +670,8 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - **fix:** use correct return type in Routine interface and fix descriptions _(by Philipp Burckhardt)_
+-   [`b05bc14`](https://github.com/stdlib-js/stdlib/commit/b05bc14bda37bf896299ce18a3927d6ecd6f0575) - **feat:** add `blas/ext/base/ndarray/gsumkbn` [(#8834)](https://github.com/stdlib-js/stdlib/pull/8834) _(by Kaustubh Patange, Athan Reines)_
 -   [`5639985`](https://github.com/stdlib-js/stdlib/commit/5639985e5a750823b6fce1bbc16fe0c3e5d641c7) - **docs:** fix type _(by Athan Reines)_
 -   [`241e0ef`](https://github.com/stdlib-js/stdlib/commit/241e0ef722b134c071400ed3392eb73cae82b476) - **docs:** fix docs _(by Athan Reines)_
 -   [`f7509ad`](https://github.com/stdlib-js/stdlib/commit/f7509adb98a5c726e927fe5c0e16a8c4bb949457) - **docs:** fix examples _(by Athan Reines)_

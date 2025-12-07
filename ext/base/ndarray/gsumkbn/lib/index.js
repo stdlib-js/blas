@@ -18,26 +18,27 @@
 
 'use strict';
 
-var hasWebAssemblySupport = require( '@stdlib/assert/has-wasm-support' );
-var oneTo = require( '@stdlib/array/one-to' );
-var dapx = require( './../lib' );
+/**
+* Compute the sum of all elements in a one-dimensional ndarray using an improved Kahan–Babuška algorithm.
+*
+* @module @stdlib/blas/ext/base/ndarray/gsumkbn
+*
+* @example
+* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var gsumkbn = require( '@stdlib/blas/ext/base/ndarray/gsumkbn' );
+*
+* var xbuf = [ 1.0, 3.0, 4.0, 2.0 ];
+* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+*
+* var v = gsumkbn( [ x ] );
+* // returns 10.0
+*/
 
-function main() {
-	if ( !hasWebAssemblySupport() ) {
-		console.error( 'Environment does not support WebAssembly.' );
-		return;
-	}
-	// Specify a vector length:
-	var N = 3;
+// MODULES //
 
-	var x = oneTo( N, 'float64' );
+var main = require( './main.js' );
 
-	// Perform computation:
-	var out = dapx.ndarray( N, 5.0, x, 1, 0 );
 
-	// Print the results:
-	console.log( out );
-	// => <Float64Array>[ 6.0, 7.0, 8.0, 9.0, 10.0 ]
-}
+// EXPORTS //
 
-main();
+module.exports = main;

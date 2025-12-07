@@ -18,26 +18,16 @@
 
 'use strict';
 
-var hasWebAssemblySupport = require( '@stdlib/assert/has-wasm-support' );
-var oneTo = require( '@stdlib/array/one-to' );
-var dapx = require( './../lib' );
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var ndarray = require( '@stdlib/ndarray/base/ctor' );
+var ndarray2array = require( '@stdlib/ndarray/to-array' );
+var gsumkbn = require( './../lib' );
 
-function main() {
-	if ( !hasWebAssemblySupport() ) {
-		console.error( 'Environment does not support WebAssembly.' );
-		return;
-	}
-	// Specify a vector length:
-	var N = 3;
+var xbuf = discreteUniform( 10, -50, 50, {
+	'dtype': 'generic'
+});
+var x = new ndarray( 'generic', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+console.log( ndarray2array( x ) );
 
-	var x = oneTo( N, 'float64' );
-
-	// Perform computation:
-	var out = dapx.ndarray( N, 5.0, x, 1, 0 );
-
-	// Print the results:
-	console.log( out );
-	// => <Float64Array>[ 6.0, 7.0, 8.0, 9.0, 10.0 ]
-}
-
-main();
+var v = gsumkbn( [ x ] );
+console.log( v );
