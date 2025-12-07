@@ -668,6 +668,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`241e0ef`](https://github.com/stdlib-js/stdlib/commit/241e0ef722b134c071400ed3392eb73cae82b476) - **docs:** fix docs _(by Athan Reines)_
 -   [`f7509ad`](https://github.com/stdlib-js/stdlib/commit/f7509adb98a5c726e927fe5c0e16a8c4bb949457) - **docs:** fix examples _(by Athan Reines)_
 -   [`4eb9d2a`](https://github.com/stdlib-js/stdlib/commit/4eb9d2a1dc5b2c5bd11a54ea62f1f88d2372d9a9) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`7a9032d`](https://github.com/stdlib-js/stdlib/commit/7a9032ded62c31a8d6aaa5c2620db0e624006466) - **test:** fix assertion description _(by Philipp Burckhardt)_
