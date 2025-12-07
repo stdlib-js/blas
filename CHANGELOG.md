@@ -670,6 +670,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`d57ae08`](https://github.com/stdlib-js/stdlib/commit/d57ae087e42493094552ca3ea2a5e6d71bf09c49) - **docs:** fix return annotations and remove extra return variable _(by Philipp Burckhardt)_
 -   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - **fix:** use correct return type in Routine interface and fix descriptions _(by Philipp Burckhardt)_
 -   [`b05bc14`](https://github.com/stdlib-js/stdlib/commit/b05bc14bda37bf896299ce18a3927d6ecd6f0575) - **feat:** add `blas/ext/base/ndarray/gsumkbn` [(#8834)](https://github.com/stdlib-js/stdlib/pull/8834) _(by Kaustubh Patange, Athan Reines)_
 -   [`5639985`](https://github.com/stdlib-js/stdlib/commit/5639985e5a750823b6fce1bbc16fe0c3e5d641c7) - **docs:** fix type _(by Athan Reines)_
