@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-07)
+## Unreleased (2025-12-08)
 
 <section class="features">
 
@@ -670,6 +670,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`1ad050f`](https://github.com/stdlib-js/stdlib/commit/1ad050f89071f72e94b72c56acbb0fb8c270f7bf) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumkbn` [(#8868)](https://github.com/stdlib-js/stdlib/pull/8868) _(by ashutoshsao)_
 -   [`d57ae08`](https://github.com/stdlib-js/stdlib/commit/d57ae087e42493094552ca3ea2a5e6d71bf09c49) - **docs:** fix return annotations and remove extra return variable _(by Philipp Burckhardt)_
 -   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - **fix:** use correct return type in Routine interface and fix descriptions _(by Philipp Burckhardt)_
 -   [`b05bc14`](https://github.com/stdlib-js/stdlib/commit/b05bc14bda37bf896299ce18a3927d6ecd6f0575) - **feat:** add `blas/ext/base/ndarray/gsumkbn` [(#8834)](https://github.com/stdlib-js/stdlib/pull/8834) _(by Kaustubh Patange, Athan Reines)_
@@ -1790,7 +1791,7 @@ A total of 31 issues were closed in this release:
 
 ### Contributors
 
-A total of 35 people contributed to this release. Thank you to the following contributors:
+A total of 36 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1825,6 +1826,7 @@ A total of 35 people contributed to this release. Thank you to the following con
 -   Uday Kakade
 -   Vivek Maurya
 -   anujmishra03
+-   ashutoshsao
 -   kaushal-kumar-it
 -   utshav khatiwada
 
