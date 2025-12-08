@@ -672,6 +672,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`922f550`](https://github.com/stdlib-js/stdlib/commit/922f5502739518bfbf14a690a7e73af49d3172c0) - **docs:** fix return type _(by Athan Reines)_
 -   [`74cc5b7`](https://github.com/stdlib-js/stdlib/commit/74cc5b707c7b46cecda166f2a6b4b40e722a29bd) - **bench:** refactor to use dynamic memory allocation in `blas/base/caxpy` [(#8885)](https://github.com/stdlib-js/stdlib/pull/8885) _(by Ishwar)_
 -   [`adb046f`](https://github.com/stdlib-js/stdlib/commit/adb046f66b2be43d2334b2c2412b1f3b6317c11d) - **feat:** add `blas/ext/base/ndarray/ssumkbn` [(#8822)](https://github.com/stdlib-js/stdlib/pull/8822) _(by Kaustubh Patange, Athan Reines)_
 -   [`1f944ee`](https://github.com/stdlib-js/stdlib/commit/1f944ee53f4d8ab7bf57c27d9010bf71cd62268e) - **feat:** add `blas/ext/base/ndarray/dsumkbn2` [(#8831)](https://github.com/stdlib-js/stdlib/pull/8831) _(by Kaustubh Patange, Athan Reines)_
