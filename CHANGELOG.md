@@ -672,6 +672,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`74cc5b7`](https://github.com/stdlib-js/stdlib/commit/74cc5b707c7b46cecda166f2a6b4b40e722a29bd) - **bench:** refactor to use dynamic memory allocation in `blas/base/caxpy` [(#8885)](https://github.com/stdlib-js/stdlib/pull/8885) _(by Ishwar)_
 -   [`adb046f`](https://github.com/stdlib-js/stdlib/commit/adb046f66b2be43d2334b2c2412b1f3b6317c11d) - **feat:** add `blas/ext/base/ndarray/ssumkbn` [(#8822)](https://github.com/stdlib-js/stdlib/pull/8822) _(by Kaustubh Patange, Athan Reines)_
 -   [`1f944ee`](https://github.com/stdlib-js/stdlib/commit/1f944ee53f4d8ab7bf57c27d9010bf71cd62268e) - **feat:** add `blas/ext/base/ndarray/dsumkbn2` [(#8831)](https://github.com/stdlib-js/stdlib/pull/8831) _(by Kaustubh Patange, Athan Reines)_
 -   [`1ad050f`](https://github.com/stdlib-js/stdlib/commit/1ad050f89071f72e94b72c56acbb0fb8c270f7bf) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumkbn` [(#8868)](https://github.com/stdlib-js/stdlib/pull/8868) _(by ashutoshsao)_
@@ -1795,7 +1796,7 @@ A total of 31 issues were closed in this release:
 
 ### Contributors
 
-A total of 36 people contributed to this release. Thank you to the following contributors:
+A total of 37 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1806,6 +1807,7 @@ A total of 36 people contributed to this release. Thank you to the following con
 -   Geo Daoyu
 -   Gururaj Gurram
 -   Hemant M Mehta
+-   Ishwar
 -   Justyn Shelby
 -   Kaustubh Patange
 -   Krishna Awasthi
