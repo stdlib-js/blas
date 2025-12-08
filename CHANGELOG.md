@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`adb046f`](https://github.com/stdlib-js/stdlib/commit/adb046f66b2be43d2334b2c2412b1f3b6317c11d) - add `blas/ext/base/ndarray/ssumkbn` [(#8822)](https://github.com/stdlib-js/stdlib/pull/8822)
+-   [`1f944ee`](https://github.com/stdlib-js/stdlib/commit/1f944ee53f4d8ab7bf57c27d9010bf71cd62268e) - add `blas/ext/base/ndarray/dsumkbn2` [(#8831)](https://github.com/stdlib-js/stdlib/pull/8831)
 -   [`b05bc14`](https://github.com/stdlib-js/stdlib/commit/b05bc14bda37bf896299ce18a3927d6ecd6f0575) - add `blas/ext/base/ndarray/gsumkbn` [(#8834)](https://github.com/stdlib-js/stdlib/pull/8834)
 -   [`6769689`](https://github.com/stdlib-js/stdlib/commit/6769689839392b84f2cceefeb6bede09f888b8f3) - add `blas/ext/base/gjoin` [(#8742)](https://github.com/stdlib-js/stdlib/pull/8742)
 -   [`c2dad77`](https://github.com/stdlib-js/stdlib/commit/c2dad770ea88b0c85655e0a208518ea8ae747bdc) - add `blas/ext/base/ndarray/dsumkbn` [(#8795)](https://github.com/stdlib-js/stdlib/pull/8795)
@@ -670,6 +672,8 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`adb046f`](https://github.com/stdlib-js/stdlib/commit/adb046f66b2be43d2334b2c2412b1f3b6317c11d) - **feat:** add `blas/ext/base/ndarray/ssumkbn` [(#8822)](https://github.com/stdlib-js/stdlib/pull/8822) _(by Kaustubh Patange, Athan Reines)_
+-   [`1f944ee`](https://github.com/stdlib-js/stdlib/commit/1f944ee53f4d8ab7bf57c27d9010bf71cd62268e) - **feat:** add `blas/ext/base/ndarray/dsumkbn2` [(#8831)](https://github.com/stdlib-js/stdlib/pull/8831) _(by Kaustubh Patange, Athan Reines)_
 -   [`1ad050f`](https://github.com/stdlib-js/stdlib/commit/1ad050f89071f72e94b72c56acbb0fb8c270f7bf) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumkbn` [(#8868)](https://github.com/stdlib-js/stdlib/pull/8868) _(by ashutoshsao)_
 -   [`d57ae08`](https://github.com/stdlib-js/stdlib/commit/d57ae087e42493094552ca3ea2a5e6d71bf09c49) - **docs:** fix return annotations and remove extra return variable _(by Philipp Burckhardt)_
 -   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - **fix:** use correct return type in Routine interface and fix descriptions _(by Philipp Burckhardt)_
