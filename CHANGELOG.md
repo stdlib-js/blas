@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`059d020`](https://github.com/stdlib-js/stdlib/commit/059d020cd8c31968e1e4630cd78351d6bceead99) - add `blas/ext/base/ndarray/zsumkbn` [(#8862)](https://github.com/stdlib-js/stdlib/pull/8862)
+-   [`6a97dca`](https://github.com/stdlib-js/stdlib/commit/6a97dca9df9663a5c3367a8ded884072628de997) - add `blas/ext/base/ndarray/scusumkbn` [(#8845)](https://github.com/stdlib-js/stdlib/pull/8845)
+-   [`acdb9b9`](https://github.com/stdlib-js/stdlib/commit/acdb9b9e49c31bba37daa19f73c921b0023a90fb) - add `blas/ext/base/ndarray/dcusumkbn2` [(#8891)](https://github.com/stdlib-js/stdlib/pull/8891)
 -   [`3f386fa`](https://github.com/stdlib-js/stdlib/commit/3f386fabb7af4c6f8be1c2848242e615db387239) - add `blas/ext/base/ndarray/dcusumkbn` [(#8785)](https://github.com/stdlib-js/stdlib/pull/8785)
 -   [`adb046f`](https://github.com/stdlib-js/stdlib/commit/adb046f66b2be43d2334b2c2412b1f3b6317c11d) - add `blas/ext/base/ndarray/ssumkbn` [(#8822)](https://github.com/stdlib-js/stdlib/pull/8822)
 -   [`1f944ee`](https://github.com/stdlib-js/stdlib/commit/1f944ee53f4d8ab7bf57c27d9010bf71cd62268e) - add `blas/ext/base/ndarray/dsumkbn2` [(#8831)](https://github.com/stdlib-js/stdlib/pull/8831)
@@ -673,6 +676,12 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`2b8dee8`](https://github.com/stdlib-js/stdlib/commit/2b8dee8d46327dd7568afb783450c1d648341495) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsum` [(#8907)](https://github.com/stdlib-js/stdlib/pull/8907) _(by Krishna Awasthi)_
+-   [`ae855a7`](https://github.com/stdlib-js/stdlib/commit/ae855a7428806e594ea681348e166f7fe8833dc5) - **docs:** fix reference in `blas/ext/base/ndarray/dcusumkbn` README _(by Philipp Burckhardt)_
+-   [`1e07403`](https://github.com/stdlib-js/stdlib/commit/1e074034dfc14ccc5ec31573fa52678f72b707cf) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`059d020`](https://github.com/stdlib-js/stdlib/commit/059d020cd8c31968e1e4630cd78351d6bceead99) - **feat:** add `blas/ext/base/ndarray/zsumkbn` [(#8862)](https://github.com/stdlib-js/stdlib/pull/8862) _(by Kaustubh Patange, Athan Reines)_
+-   [`6a97dca`](https://github.com/stdlib-js/stdlib/commit/6a97dca9df9663a5c3367a8ded884072628de997) - **feat:** add `blas/ext/base/ndarray/scusumkbn` [(#8845)](https://github.com/stdlib-js/stdlib/pull/8845) _(by Kaustubh Patange)_
+-   [`acdb9b9`](https://github.com/stdlib-js/stdlib/commit/acdb9b9e49c31bba37daa19f73c921b0023a90fb) - **feat:** add `blas/ext/base/ndarray/dcusumkbn2` [(#8891)](https://github.com/stdlib-js/stdlib/pull/8891) _(by Kaustubh Patange)_
 -   [`8ffe947`](https://github.com/stdlib-js/stdlib/commit/8ffe947c0f22228a49d41ee15ca9daea6d25a9f4) - **bench:** refactor to use dynamic memory allocation in `blas/base/cscal` [(#8887)](https://github.com/stdlib-js/stdlib/pull/8887) _(by Ishwar, Athan Reines)_
 -   [`3f386fa`](https://github.com/stdlib-js/stdlib/commit/3f386fabb7af4c6f8be1c2848242e615db387239) - **feat:** add `blas/ext/base/ndarray/dcusumkbn` [(#8785)](https://github.com/stdlib-js/stdlib/pull/8785) _(by Kaustubh Patange, Athan Reines)_
 -   [`922f550`](https://github.com/stdlib-js/stdlib/commit/922f5502739518bfbf14a690a7e73af49d3172c0) - **docs:** fix return type _(by Athan Reines)_

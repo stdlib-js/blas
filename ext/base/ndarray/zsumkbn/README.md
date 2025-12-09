@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# dcusumkbn
+# zsumkbn
 
-> Compute the cumulative sum of a one-dimensional double-precision floating-point ndarray using an improved Kahan–Babuška algorithm.
+> Compute the sum of all elements in a one-dimensional double-precision complex floating-point ndarray using an improved Kahan–Babuška algorithm.
 
 <section class="intro">
 
@@ -33,40 +33,27 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dcusumkbn = require( '@stdlib/blas/ext/base/ndarray/dcusumkbn' );
+var zsumkbn = require( '@stdlib/blas/ext/base/ndarray/zsumkbn' );
 ```
 
-#### dcusumkbn( arrays )
+#### zsumkbn( arrays )
 
-Computes the cumulative sum of a one-dimensional double-precision floating-point ndarray using an improved Kahan–Babuška algorithm.
+Computes the sum of all elements in a one-dimensional double-precision complex floating-point ndarray using an improved Kahan–Babuška algorithm.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
-var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var scalar2ndarray = require( '@stdlib/ndarray/base/from-scalar' );
+var Complex128Array = require( '@stdlib/array/complex128' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
 
-var xbuf = new Float64Array( [ 1.0, 3.0, 4.0, 2.0 ] );
-var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+var xbuf = new Complex128Array( [ 1.0, 3.0, 4.0, 2.0 ] );
+var x = new ndarray( 'complex128', xbuf, [ 2 ], [ 1 ], 0, 'row-major' );
 
-var ybuf = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
-var y = new ndarray( 'float64', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
-
-var initial = scalar2ndarray( 0.0, 'float64', 'row-major' );
-
-var v = dcusumkbn( [ x, y, initial ] );
-// returns <ndarray>
-
-var bool = ( v === y );
-// returns true
-
-var arr = ndarray2array( v );
-// returns [ 1.0, 4.0, 8.0, 10.0 ]
+var v = zsumkbn( [ x ] );
+// returns <Complex128>[ 5.0, 5.0 ]
 ```
 
 The function has the following parameters:
 
--   **arrays**: array-like object containing a one-dimensional input ndarray, a one-dimensional output ndarray, and a zero-dimensional ndarray containing the initial sum.
+-   **arrays**: array-like object containing a one-dimensional input ndarray.
 
 </section>
 
@@ -76,7 +63,7 @@ The function has the following parameters:
 
 ## Notes
 
--   If provided an empty one-dimensional input ndarray, the function returns the output ndarray unchanged.
+-   If provided an empty one-dimensional ndarray, the function returns `0.0 + 0.0i`.
 
 </section>
 
@@ -90,27 +77,21 @@ The function has the following parameters:
 
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var Complex128Array = require( '@stdlib/array/complex128' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
-var zerosLike = require( '@stdlib/ndarray/zeros-like' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var dcusumkbn = require( '@stdlib/blas/ext/base/ndarray/dcusumkbn' );
+var zsumkbn = require( '@stdlib/blas/ext/base/ndarray/zsumkbn' );
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
 });
-var x = new ndarray( 'float64', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
+xbuf = new Complex128Array( xbuf );
+
+var x = new ndarray( 'complex128', xbuf, [ xbuf.length ], [ 1 ], 0, 'row-major' );
 console.log( ndarray2array( x ) );
 
-var y = zerosLike( x );
-console.log( ndarray2array( y ) );
-
-var initial = scalar2ndarray( 100.0, {
-    'dtype': 'float64'
-});
-
-var v = dcusumkbn( [ x, y, initial ] );
-console.log( ndarray2array( v ) );
+var v = zsumkbn( [ x ] );
+console.log( v );
 ```
 
 </section>

@@ -18,9 +18,9 @@ limitations under the License.
 
 -->
 
-# dcusumkbn
+# dcusumkbn2
 
-> Compute the cumulative sum of a one-dimensional double-precision floating-point ndarray using an improved Kahan–Babuška algorithm.
+> Compute the cumulative sum of a one-dimensional double-precision floating-point ndarray using a second-order iterative Kahan–Babuška algorithm.
 
 <section class="intro">
 
@@ -33,12 +33,12 @@ limitations under the License.
 ## Usage
 
 ```javascript
-var dcusumkbn = require( '@stdlib/blas/ext/base/ndarray/dcusumkbn' );
+var dcusumkbn2 = require( '@stdlib/blas/ext/base/ndarray/dcusumkbn2' );
 ```
 
-#### dcusumkbn( arrays )
+#### dcusumkbn2( arrays )
 
-Computes the cumulative sum of a one-dimensional double-precision floating-point ndarray using an improved Kahan–Babuška algorithm.
+Computes the cumulative sum of a one-dimensional double-precision floating-point ndarray using a second-order iterative Kahan–Babuška algorithm.
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
@@ -54,7 +54,7 @@ var y = new ndarray( 'float64', ybuf, [ 4 ], [ 1 ], 0, 'row-major' );
 
 var initial = scalar2ndarray( 0.0, 'float64', 'row-major' );
 
-var v = dcusumkbn( [ x, y, initial ] );
+var v = dcusumkbn2( [ x, y, initial ] );
 // returns <ndarray>
 
 var bool = ( v === y );
@@ -94,7 +94,7 @@ var ndarray = require( '@stdlib/ndarray/base/ctor' );
 var zerosLike = require( '@stdlib/ndarray/zeros-like' );
 var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var dcusumkbn = require( '@stdlib/blas/ext/base/ndarray/dcusumkbn' );
+var dcusumkbn2 = require( '@stdlib/blas/ext/base/ndarray/dcusumkbn2' );
 
 var xbuf = discreteUniform( 10, -50, 50, {
     'dtype': 'float64'
@@ -109,7 +109,7 @@ var initial = scalar2ndarray( 100.0, {
     'dtype': 'float64'
 });
 
-var v = dcusumkbn( [ x, y, initial ] );
+var v = dcusumkbn2( [ x, y, initial ] );
 console.log( ndarray2array( v ) );
 ```
 
@@ -121,7 +121,7 @@ console.log( ndarray2array( v ) );
 
 ## References
 
--   Neumaier, Arnold. 1974. "Rounding Error Analysis of Some Methods for Summing Finite Sums." _Zeitschrift Für Angewandte Mathematik Und Mechanik_ 54 (1): 39–51. doi:[10.1002/zamm.19740540106][@neumaier:1974a].
+-   Klein, Andreas. 2005. "A Generalized Kahan-Babuška-Summation-Algorithm." _Computing_ 76 (3): 279–93. doi:[10.1007/s00607-005-0139-x][@klein:2005a].
 
 </section>
 
@@ -139,7 +139,7 @@ console.log( ndarray2array( v ) );
 
 <section class="links">
 
-[@neumaier:1974a]: https://doi.org/10.1002/zamm.19740540106
+[@klein:2005a]: https://doi.org/10.1007/s00607-005-0139-x
 
 </section>
 
