@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-08)
+## Unreleased (2025-12-09)
 
 <section class="features">
 
 ### Features
 
+-   [`3f386fa`](https://github.com/stdlib-js/stdlib/commit/3f386fabb7af4c6f8be1c2848242e615db387239) - add `blas/ext/base/ndarray/dcusumkbn` [(#8785)](https://github.com/stdlib-js/stdlib/pull/8785)
 -   [`adb046f`](https://github.com/stdlib-js/stdlib/commit/adb046f66b2be43d2334b2c2412b1f3b6317c11d) - add `blas/ext/base/ndarray/ssumkbn` [(#8822)](https://github.com/stdlib-js/stdlib/pull/8822)
 -   [`1f944ee`](https://github.com/stdlib-js/stdlib/commit/1f944ee53f4d8ab7bf57c27d9010bf71cd62268e) - add `blas/ext/base/ndarray/dsumkbn2` [(#8831)](https://github.com/stdlib-js/stdlib/pull/8831)
 -   [`b05bc14`](https://github.com/stdlib-js/stdlib/commit/b05bc14bda37bf896299ce18a3927d6ecd6f0575) - add `blas/ext/base/ndarray/gsumkbn` [(#8834)](https://github.com/stdlib-js/stdlib/pull/8834)
@@ -672,6 +673,8 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`8ffe947`](https://github.com/stdlib-js/stdlib/commit/8ffe947c0f22228a49d41ee15ca9daea6d25a9f4) - **bench:** refactor to use dynamic memory allocation in `blas/base/cscal` [(#8887)](https://github.com/stdlib-js/stdlib/pull/8887) _(by Ishwar, Athan Reines)_
+-   [`3f386fa`](https://github.com/stdlib-js/stdlib/commit/3f386fabb7af4c6f8be1c2848242e615db387239) - **feat:** add `blas/ext/base/ndarray/dcusumkbn` [(#8785)](https://github.com/stdlib-js/stdlib/pull/8785) _(by Kaustubh Patange, Athan Reines)_
 -   [`922f550`](https://github.com/stdlib-js/stdlib/commit/922f5502739518bfbf14a690a7e73af49d3172c0) - **docs:** fix return type _(by Athan Reines)_
 -   [`74cc5b7`](https://github.com/stdlib-js/stdlib/commit/74cc5b707c7b46cecda166f2a6b4b40e722a29bd) - **bench:** refactor to use dynamic memory allocation in `blas/base/caxpy` [(#8885)](https://github.com/stdlib-js/stdlib/pull/8885) _(by Ishwar)_
 -   [`adb046f`](https://github.com/stdlib-js/stdlib/commit/adb046f66b2be43d2334b2c2412b1f3b6317c11d) - **feat:** add `blas/ext/base/ndarray/ssumkbn` [(#8822)](https://github.com/stdlib-js/stdlib/pull/8822) _(by Kaustubh Patange, Athan Reines)_
