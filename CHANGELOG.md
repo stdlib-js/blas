@@ -676,6 +676,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`58614e9`](https://github.com/stdlib-js/stdlib/commit/58614e9818a663340ffa96c626c0f8173badfded) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumkbn` [(#8908)](https://github.com/stdlib-js/stdlib/pull/8908) _(by Krishna Awasthi)_
 -   [`2b8dee8`](https://github.com/stdlib-js/stdlib/commit/2b8dee8d46327dd7568afb783450c1d648341495) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsum` [(#8907)](https://github.com/stdlib-js/stdlib/pull/8907) _(by Krishna Awasthi)_
 -   [`ae855a7`](https://github.com/stdlib-js/stdlib/commit/ae855a7428806e594ea681348e166f7fe8833dc5) - **docs:** fix reference in `blas/ext/base/ndarray/dcusumkbn` README _(by Philipp Burckhardt)_
 -   [`1e07403`](https://github.com/stdlib-js/stdlib/commit/1e074034dfc14ccc5ec31573fa52678f72b707cf) - **chore:** minor clean-up _(by Philipp Burckhardt)_
