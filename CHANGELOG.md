@@ -676,6 +676,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`387f879`](https://github.com/stdlib-js/stdlib/commit/387f87942ffbb3764f284afbb5682f059e0ba4d4) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumpw` [(#8911)](https://github.com/stdlib-js/stdlib/pull/8911) _(by Krishna Awasthi)_
 -   [`bbf53c0`](https://github.com/stdlib-js/stdlib/commit/bbf53c047e169d847b3f25f9fb7967d4e69bb70d) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumors` [(#8910)](https://github.com/stdlib-js/stdlib/pull/8910) _(by Krishna Awasthi)_
 -   [`9df0e8d`](https://github.com/stdlib-js/stdlib/commit/9df0e8d07d2f5893547b8647bf89abf85671eb3a) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumkbn2` [(#8909)](https://github.com/stdlib-js/stdlib/pull/8909) _(by Krishna Awasthi)_
 -   [`58614e9`](https://github.com/stdlib-js/stdlib/commit/58614e9818a663340ffa96c626c0f8173badfded) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsumkbn` [(#8908)](https://github.com/stdlib-js/stdlib/pull/8908) _(by Krishna Awasthi)_
