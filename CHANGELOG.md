@@ -680,6 +680,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`e57055b`](https://github.com/stdlib-js/stdlib/commit/e57055b3156cd61492450c6ef263771e481df0e9) - **bench:** refactor to use dynamic memory allocation in `blas/base/ccopy` [(#8922)](https://github.com/stdlib-js/stdlib/pull/8922) _(by Ishwar, Athan Reines)_
 -   [`99eae14`](https://github.com/stdlib-js/stdlib/commit/99eae14ef40d46b514449a901fe00f4127c7bd0c) - **feat:** add `blas/ext/base/ndarray/gjoin` [(#8925)](https://github.com/stdlib-js/stdlib/pull/8925) _(by Muhammad Haris, Athan Reines)_
 -   [`3324cb1`](https://github.com/stdlib-js/stdlib/commit/3324cb149f69dea1c7c4e3407a4cafa13a9aeeaa) - **feat:** add `blas/ext/base/ndarray/gsumkbn2` [(#8921)](https://github.com/stdlib-js/stdlib/pull/8921) _(by Kaustubh Patange, Athan Reines)_
 -   [`299d2eb`](https://github.com/stdlib-js/stdlib/commit/299d2eb6a315fa27311058fbee36b1db139acac3) - **feat:** add `blas/ext/base/ndarray/scusumkbn2` [(#8906)](https://github.com/stdlib-js/stdlib/pull/8906) _(by Kaustubh Patange)_
