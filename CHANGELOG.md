@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5c5f27a`](https://github.com/stdlib-js/stdlib/commit/5c5f27a007799eb9dd6b3cab98bf225c0064b5ac) - add `blas/ext/base/ndarray/gcusumkbn` [(#8946)](https://github.com/stdlib-js/stdlib/pull/8946)
 -   [`99eae14`](https://github.com/stdlib-js/stdlib/commit/99eae14ef40d46b514449a901fe00f4127c7bd0c) - add `blas/ext/base/ndarray/gjoin` [(#8925)](https://github.com/stdlib-js/stdlib/pull/8925)
 -   [`3324cb1`](https://github.com/stdlib-js/stdlib/commit/3324cb149f69dea1c7c4e3407a4cafa13a9aeeaa) - add `blas/ext/base/ndarray/gsumkbn2` [(#8921)](https://github.com/stdlib-js/stdlib/pull/8921)
 -   [`299d2eb`](https://github.com/stdlib-js/stdlib/commit/299d2eb6a315fa27311058fbee36b1db139acac3) - add `blas/ext/base/ndarray/scusumkbn2` [(#8906)](https://github.com/stdlib-js/stdlib/pull/8906)
@@ -680,6 +681,8 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`350c422`](https://github.com/stdlib-js/stdlib/commit/350c422846b1576c0fd6ff4489809376bf71cf76) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/cfill` [(#8970)](https://github.com/stdlib-js/stdlib/pull/8970) _(by Sujal charati, Athan Reines)_
+-   [`5c5f27a`](https://github.com/stdlib-js/stdlib/commit/5c5f27a007799eb9dd6b3cab98bf225c0064b5ac) - **feat:** add `blas/ext/base/ndarray/gcusumkbn` [(#8946)](https://github.com/stdlib-js/stdlib/pull/8946) _(by Kaustubh Patange, Athan Reines)_
 -   [`b4642cd`](https://github.com/stdlib-js/stdlib/commit/b4642cd82a1263bef638e317f251008053a10308) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnansumkbn2` [(#8935)](https://github.com/stdlib-js/stdlib/pull/8935) _(by Krishna Awasthi)_
 -   [`7951d27`](https://github.com/stdlib-js/stdlib/commit/7951d272e22f889200729c0fc77e73f38fc51a1c) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnansumpw` [(#8937)](https://github.com/stdlib-js/stdlib/pull/8937) _(by Krishna Awasthi)_
 -   [`d4bf364`](https://github.com/stdlib-js/stdlib/commit/d4bf364834e14eb3ebae1956a1b1ab0c14f89430) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnansumors` [(#8936)](https://github.com/stdlib-js/stdlib/pull/8936) _(by Krishna Awasthi)_
@@ -1828,7 +1831,7 @@ A total of 31 issues were closed in this release:
 
 ### Contributors
 
-A total of 37 people contributed to this release. Thank you to the following contributors:
+A total of 38 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Aman Bhansali
@@ -1861,6 +1864,7 @@ A total of 37 people contributed to this release. Thank you to the following con
 -   Sijan Bhandari
 -   Snehil Shah
 -   Suhaib Ilahi
+-   Sujal charati
 -   Uday Kakade
 -   Vivek Maurya
 -   anujmishra03
