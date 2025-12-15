@@ -681,6 +681,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`800a7b9`](https://github.com/stdlib-js/stdlib/commit/800a7b95be99e40d9f56fd59ce8411c1652355e3) - **docs:** use correct buffer during output ndarray construction [(#9003)](https://github.com/stdlib-js/stdlib/pull/9003) _(by Kaustubh Patange)_
 -   [`7b477a7`](https://github.com/stdlib-js/stdlib/commit/7b477a7ae70ae79841d3d792bc7d798733c854e4) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumors` [(#9004)](https://github.com/stdlib-js/stdlib/pull/9004) _(by Abhay Singh)_
 -   [`350c422`](https://github.com/stdlib-js/stdlib/commit/350c422846b1576c0fd6ff4489809376bf71cf76) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/cfill` [(#8970)](https://github.com/stdlib-js/stdlib/pull/8970) _(by Sujal charati, Athan Reines)_
 -   [`5c5f27a`](https://github.com/stdlib-js/stdlib/commit/5c5f27a007799eb9dd6b3cab98bf225c0064b5ac) - **feat:** add `blas/ext/base/ndarray/gcusumkbn` [(#8946)](https://github.com/stdlib-js/stdlib/pull/8946) _(by Kaustubh Patange, Athan Reines)_
