@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`80a6219`](https://github.com/stdlib-js/stdlib/commit/80a62194a9b3d67f030eadcb5c252da12d1379d0) - add `blas/ext/base/ndarray/dsumors` [(#8959)](https://github.com/stdlib-js/stdlib/pull/8959)
+-   [`134e322`](https://github.com/stdlib-js/stdlib/commit/134e322ebf78422a72d2f7e2aeddf72f7d65c4c1) - add `blas/ext/base/ndarray/gcusumkbn2` [(#8949)](https://github.com/stdlib-js/stdlib/pull/8949)
 -   [`5c5f27a`](https://github.com/stdlib-js/stdlib/commit/5c5f27a007799eb9dd6b3cab98bf225c0064b5ac) - add `blas/ext/base/ndarray/gcusumkbn` [(#8946)](https://github.com/stdlib-js/stdlib/pull/8946)
 -   [`99eae14`](https://github.com/stdlib-js/stdlib/commit/99eae14ef40d46b514449a901fe00f4127c7bd0c) - add `blas/ext/base/ndarray/gjoin` [(#8925)](https://github.com/stdlib-js/stdlib/pull/8925)
 -   [`3324cb1`](https://github.com/stdlib-js/stdlib/commit/3324cb149f69dea1c7c4e3407a4cafa13a9aeeaa) - add `blas/ext/base/ndarray/gsumkbn2` [(#8921)](https://github.com/stdlib-js/stdlib/pull/8921)
@@ -681,6 +683,8 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`80a6219`](https://github.com/stdlib-js/stdlib/commit/80a62194a9b3d67f030eadcb5c252da12d1379d0) - **feat:** add `blas/ext/base/ndarray/dsumors` [(#8959)](https://github.com/stdlib-js/stdlib/pull/8959) _(by Kaustubh Patange, Athan Reines)_
+-   [`134e322`](https://github.com/stdlib-js/stdlib/commit/134e322ebf78422a72d2f7e2aeddf72f7d65c4c1) - **feat:** add `blas/ext/base/ndarray/gcusumkbn2` [(#8949)](https://github.com/stdlib-js/stdlib/pull/8949) _(by Kaustubh Patange, Athan Reines)_
 -   [`800a7b9`](https://github.com/stdlib-js/stdlib/commit/800a7b95be99e40d9f56fd59ce8411c1652355e3) - **docs:** use correct buffer during output ndarray construction [(#9003)](https://github.com/stdlib-js/stdlib/pull/9003) _(by Kaustubh Patange)_
 -   [`7b477a7`](https://github.com/stdlib-js/stdlib/commit/7b477a7ae70ae79841d3d792bc7d798733c854e4) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumors` [(#9004)](https://github.com/stdlib-js/stdlib/pull/9004) _(by Abhay Singh)_
 -   [`350c422`](https://github.com/stdlib-js/stdlib/commit/350c422846b1576c0fd6ff4489809376bf71cf76) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/cfill` [(#8970)](https://github.com/stdlib-js/stdlib/pull/8970) _(by Sujal charati, Athan Reines)_
