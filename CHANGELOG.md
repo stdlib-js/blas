@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2d032e5`](https://github.com/stdlib-js/stdlib/commit/2d032e5f644a15e2ab5098348d3ad5abc780a2cb) - add `blas/ext/base/ndarray/ssumors` [(#8960)](https://github.com/stdlib-js/stdlib/pull/8960)
 -   [`ab039af`](https://github.com/stdlib-js/stdlib/commit/ab039af4d26ad85f5ae9c23fedce2cb18f00e0ee) - add `blas/ext/base/ndarray/dcusumors` [(#8952)](https://github.com/stdlib-js/stdlib/pull/8952)
 -   [`5afc506`](https://github.com/stdlib-js/stdlib/commit/5afc506110434c94021bbb1f683561e6632b57f3) - add `blas/ext/base/ndarray/gsumors` [(#8985)](https://github.com/stdlib-js/stdlib/pull/8985)
 -   [`bc751f1`](https://github.com/stdlib-js/stdlib/commit/bc751f1c5689ba5f3d86d2b5854c03645ba13cb4) - add `blas/ext/base/ndarray/scusumors` [(#8964)](https://github.com/stdlib-js/stdlib/pull/8964)
@@ -686,6 +687,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`2d032e5`](https://github.com/stdlib-js/stdlib/commit/2d032e5f644a15e2ab5098348d3ad5abc780a2cb) - **feat:** add `blas/ext/base/ndarray/ssumors` [(#8960)](https://github.com/stdlib-js/stdlib/pull/8960) _(by Kaustubh Patange)_
 -   [`ab039af`](https://github.com/stdlib-js/stdlib/commit/ab039af4d26ad85f5ae9c23fedce2cb18f00e0ee) - **feat:** add `blas/ext/base/ndarray/dcusumors` [(#8952)](https://github.com/stdlib-js/stdlib/pull/8952) _(by Krishna Awasthi, Athan Reines)_
 -   [`5afc506`](https://github.com/stdlib-js/stdlib/commit/5afc506110434c94021bbb1f683561e6632b57f3) - **feat:** add `blas/ext/base/ndarray/gsumors` [(#8985)](https://github.com/stdlib-js/stdlib/pull/8985) _(by Kaustubh Patange, Athan Reines)_
 -   [`bc751f1`](https://github.com/stdlib-js/stdlib/commit/bc751f1c5689ba5f3d86d2b5854c03645ba13cb4) - **feat:** add `blas/ext/base/ndarray/scusumors` [(#8964)](https://github.com/stdlib-js/stdlib/pull/8964) _(by Kaustubh Patange, Athan Reines)_
