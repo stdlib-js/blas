@@ -689,6 +689,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`82bc0ec`](https://github.com/stdlib-js/stdlib/commit/82bc0ec916a8020ebc9c42db141ef91ade618358) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumpw` [(#9047)](https://github.com/stdlib-js/stdlib/pull/9047) _(by Abhay Singh)_
 -   [`77d3625`](https://github.com/stdlib-js/stdlib/commit/77d36259bc49a82a0b2431a6b6f2762553ee713a) - **feat:** add `blas/ext/base/ndarray/ssumpw` [(#9062)](https://github.com/stdlib-js/stdlib/pull/9062) _(by Kaustubh Patange, Athan Reines)_
 -   [`ce244d5`](https://github.com/stdlib-js/stdlib/commit/ce244d5fb7f465e8555677ff5b85b968fe1ce134) - **feat:** add `blas/ext/base/ndarray/dsumpw` [(#9058)](https://github.com/stdlib-js/stdlib/pull/9058) _(by Kaustubh Patange, Athan Reines)_
 -   [`2d032e5`](https://github.com/stdlib-js/stdlib/commit/2d032e5f644a15e2ab5098348d3ad5abc780a2cb) - **feat:** add `blas/ext/base/ndarray/ssumors` [(#8960)](https://github.com/stdlib-js/stdlib/pull/8960) _(by Kaustubh Patange)_
