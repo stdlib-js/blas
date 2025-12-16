@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a94a26e`](https://github.com/stdlib-js/stdlib/commit/a94a26e292aa8c373238991c8549f44fc80b2a33) - add `blas/ext/base/ndarray/dcusumpw` [(#9060)](https://github.com/stdlib-js/stdlib/pull/9060)
 -   [`153933e`](https://github.com/stdlib-js/stdlib/commit/153933ea9fc8fce00d2d4b74b5d96b3006cd5e4a) - add `blas/ext/base/ndarray/gcusumors` [(#9005)](https://github.com/stdlib-js/stdlib/pull/9005)
 -   [`553b27c`](https://github.com/stdlib-js/stdlib/commit/553b27c7a39353154a8c9084beffe9fa8c65870b) - add `blas/ext/base/ndarray/gsumpw` [(#9080)](https://github.com/stdlib-js/stdlib/pull/9080)
 -   [`77d3625`](https://github.com/stdlib-js/stdlib/commit/77d36259bc49a82a0b2431a6b6f2762553ee713a) - add `blas/ext/base/ndarray/ssumpw` [(#9062)](https://github.com/stdlib-js/stdlib/pull/9062)
@@ -691,6 +692,7 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`a94a26e`](https://github.com/stdlib-js/stdlib/commit/a94a26e292aa8c373238991c8549f44fc80b2a33) - **feat:** add `blas/ext/base/ndarray/dcusumpw` [(#9060)](https://github.com/stdlib-js/stdlib/pull/9060) _(by Kaustubh Patange)_
 -   [`153933e`](https://github.com/stdlib-js/stdlib/commit/153933ea9fc8fce00d2d4b74b5d96b3006cd5e4a) - **feat:** add `blas/ext/base/ndarray/gcusumors` [(#9005)](https://github.com/stdlib-js/stdlib/pull/9005) _(by Kaustubh Patange, Athan Reines)_
 -   [`553b27c`](https://github.com/stdlib-js/stdlib/commit/553b27c7a39353154a8c9084beffe9fa8c65870b) - **feat:** add `blas/ext/base/ndarray/gsumpw` [(#9080)](https://github.com/stdlib-js/stdlib/pull/9080) _(by Kaustubh Patange, Athan Reines)_
 -   [`82bc0ec`](https://github.com/stdlib-js/stdlib/commit/82bc0ec916a8020ebc9c42db141ef91ade618358) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumpw` [(#9047)](https://github.com/stdlib-js/stdlib/pull/9047) _(by Abhay Singh)_
