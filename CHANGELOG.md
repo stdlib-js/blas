@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-15)
+## Unreleased (2025-12-16)
 
 <section class="features">
 
 ### Features
 
+-   [`5afc506`](https://github.com/stdlib-js/stdlib/commit/5afc506110434c94021bbb1f683561e6632b57f3) - add `blas/ext/base/ndarray/gsumors` [(#8985)](https://github.com/stdlib-js/stdlib/pull/8985)
+-   [`bc751f1`](https://github.com/stdlib-js/stdlib/commit/bc751f1c5689ba5f3d86d2b5854c03645ba13cb4) - add `blas/ext/base/ndarray/scusumors` [(#8964)](https://github.com/stdlib-js/stdlib/pull/8964)
 -   [`80a6219`](https://github.com/stdlib-js/stdlib/commit/80a62194a9b3d67f030eadcb5c252da12d1379d0) - add `blas/ext/base/ndarray/dsumors` [(#8959)](https://github.com/stdlib-js/stdlib/pull/8959)
 -   [`134e322`](https://github.com/stdlib-js/stdlib/commit/134e322ebf78422a72d2f7e2aeddf72f7d65c4c1) - add `blas/ext/base/ndarray/gcusumkbn2` [(#8949)](https://github.com/stdlib-js/stdlib/pull/8949)
 -   [`5c5f27a`](https://github.com/stdlib-js/stdlib/commit/5c5f27a007799eb9dd6b3cab98bf225c0064b5ac) - add `blas/ext/base/ndarray/gcusumkbn` [(#8946)](https://github.com/stdlib-js/stdlib/pull/8946)
@@ -683,6 +685,8 @@ A total of 31 issues were closed in this release:
 
 <details>
 
+-   [`5afc506`](https://github.com/stdlib-js/stdlib/commit/5afc506110434c94021bbb1f683561e6632b57f3) - **feat:** add `blas/ext/base/ndarray/gsumors` [(#8985)](https://github.com/stdlib-js/stdlib/pull/8985) _(by Kaustubh Patange, Athan Reines)_
+-   [`bc751f1`](https://github.com/stdlib-js/stdlib/commit/bc751f1c5689ba5f3d86d2b5854c03645ba13cb4) - **feat:** add `blas/ext/base/ndarray/scusumors` [(#8964)](https://github.com/stdlib-js/stdlib/pull/8964) _(by Kaustubh Patange, Athan Reines)_
 -   [`80a6219`](https://github.com/stdlib-js/stdlib/commit/80a62194a9b3d67f030eadcb5c252da12d1379d0) - **feat:** add `blas/ext/base/ndarray/dsumors` [(#8959)](https://github.com/stdlib-js/stdlib/pull/8959) _(by Kaustubh Patange, Athan Reines)_
 -   [`134e322`](https://github.com/stdlib-js/stdlib/commit/134e322ebf78422a72d2f7e2aeddf72f7d65c4c1) - **feat:** add `blas/ext/base/ndarray/gcusumkbn2` [(#8949)](https://github.com/stdlib-js/stdlib/pull/8949) _(by Kaustubh Patange, Athan Reines)_
 -   [`800a7b9`](https://github.com/stdlib-js/stdlib/commit/800a7b95be99e40d9f56fd59ce8411c1652355e3) - **docs:** use correct buffer during output ndarray construction [(#9003)](https://github.com/stdlib-js/stdlib/pull/9003) _(by Kaustubh Patange)_
