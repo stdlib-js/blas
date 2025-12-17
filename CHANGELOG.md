@@ -694,6 +694,7 @@ A total of 32 issues were closed in this release:
 
 <details>
 
+-   [`ea9f072`](https://github.com/stdlib-js/stdlib/commit/ea9f072b321a395594b7904a11807f7f78d09b28) - **bench:** refactor to use dynamic memory allocation in `blas/base/csrot` [(#9090)](https://github.com/stdlib-js/stdlib/pull/9090) _(by Ishwar, Athan Reines)_
 -   [`69e2651`](https://github.com/stdlib-js/stdlib/commit/69e265181cf077440d7b05328610e8eed6826e99) - **feat:** add `blas/ext/base/ndarray/dnansum` [(#9091)](https://github.com/stdlib-js/stdlib/pull/9091) _(by Kaustubh Patange, Athan Reines)_
 -   [`601434c`](https://github.com/stdlib-js/stdlib/commit/601434cd743a76e8079c58b39d406adbb5638657) - **chore:** fix JavaScript lint errors [(#9114)](https://github.com/stdlib-js/stdlib/pull/9114) _(by Rohit R Bhat)_
 -   [`1dc9764`](https://github.com/stdlib-js/stdlib/commit/1dc9764dfb9e7e2435f9f0cc1e4d451fa5d6c78e) - **bench:** refactor to use dynamic memory allocation in `blas/base/drotm` [(#9088)](https://github.com/stdlib-js/stdlib/pull/9088) _(by anee3)_
