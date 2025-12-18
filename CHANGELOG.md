@@ -684,9 +684,9 @@
 
 ### Closed Issues
 
-A total of 33 issues were closed in this release:
+A total of 34 issues were closed in this release:
 
-[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5732](https://github.com/stdlib-js/stdlib/issues/5732), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241), [#7645](https://github.com/stdlib-js/stdlib/issues/7645), [#7877](https://github.com/stdlib-js/stdlib/issues/7877), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8265](https://github.com/stdlib-js/stdlib/issues/8265), [#8357](https://github.com/stdlib-js/stdlib/issues/8357), [#8443](https://github.com/stdlib-js/stdlib/issues/8443), [#8700](https://github.com/stdlib-js/stdlib/issues/8700), [#9108](https://github.com/stdlib-js/stdlib/issues/9108), [#9135](https://github.com/stdlib-js/stdlib/issues/9135)
+[#318](https://github.com/stdlib-js/stdlib/issues/318), [#3046](https://github.com/stdlib-js/stdlib/issues/3046), [#3073](https://github.com/stdlib-js/stdlib/issues/3073), [#3074](https://github.com/stdlib-js/stdlib/issues/3074), [#3075](https://github.com/stdlib-js/stdlib/issues/3075), [#3186](https://github.com/stdlib-js/stdlib/issues/3186), [#3201](https://github.com/stdlib-js/stdlib/issues/3201), [#3253](https://github.com/stdlib-js/stdlib/issues/3253), [#5072](https://github.com/stdlib-js/stdlib/issues/5072), [#5073](https://github.com/stdlib-js/stdlib/issues/5073), [#5237](https://github.com/stdlib-js/stdlib/issues/5237), [#5440](https://github.com/stdlib-js/stdlib/issues/5440), [#5501](https://github.com/stdlib-js/stdlib/issues/5501), [#5504](https://github.com/stdlib-js/stdlib/issues/5504), [#5505](https://github.com/stdlib-js/stdlib/issues/5505), [#5507](https://github.com/stdlib-js/stdlib/issues/5507), [#5508](https://github.com/stdlib-js/stdlib/issues/5508), [#5509](https://github.com/stdlib-js/stdlib/issues/5509), [#5732](https://github.com/stdlib-js/stdlib/issues/5732), [#5905](https://github.com/stdlib-js/stdlib/issues/5905), [#6992](https://github.com/stdlib-js/stdlib/issues/6992), [#7018](https://github.com/stdlib-js/stdlib/issues/7018), [#7032](https://github.com/stdlib-js/stdlib/issues/7032), [#7241](https://github.com/stdlib-js/stdlib/issues/7241), [#7645](https://github.com/stdlib-js/stdlib/issues/7645), [#7877](https://github.com/stdlib-js/stdlib/issues/7877), [#8195](https://github.com/stdlib-js/stdlib/issues/8195), [#8265](https://github.com/stdlib-js/stdlib/issues/8265), [#8357](https://github.com/stdlib-js/stdlib/issues/8357), [#8443](https://github.com/stdlib-js/stdlib/issues/8443), [#8700](https://github.com/stdlib-js/stdlib/issues/8700), [#9108](https://github.com/stdlib-js/stdlib/issues/9108), [#9134](https://github.com/stdlib-js/stdlib/issues/9134), [#9135](https://github.com/stdlib-js/stdlib/issues/9135)
 
 </section>
 
@@ -698,6 +698,7 @@ A total of 33 issues were closed in this release:
 
 <details>
 
+-   [`540a83e`](https://github.com/stdlib-js/stdlib/commit/540a83e5de5378d3c74ab97ee4ce92517fa00a56) - **docs:** fix broken Markdown link [(#9170)](https://github.com/stdlib-js/stdlib/pull/9170) _(by Manit Roy)_
 -   [`f507f85`](https://github.com/stdlib-js/stdlib/commit/f507f85e95340a7d556f15ecac5c080eb59d300e) - **feat:** add `blas/ext/base/ndarray/dnansumpw` [(#9174)](https://github.com/stdlib-js/stdlib/pull/9174) _(by Kaustubh Patange)_
 -   [`975f9f6`](https://github.com/stdlib-js/stdlib/commit/975f9f62eb9925e728ee997cb5800721679a3c02) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sapx` [(#9176)](https://github.com/stdlib-js/stdlib/pull/9176) _(by Samarth Kolarkar)_
 -   [`2af3f7b`](https://github.com/stdlib-js/stdlib/commit/2af3f7b7bb5e163b156d81049d94d4877cbd178d) - **feat:** add `blas/ext/base/ndarray/gnansum` [(#9178)](https://github.com/stdlib-js/stdlib/pull/9178) _(by Kaustubh Patange, Athan Reines)_
@@ -1873,7 +1874,7 @@ A total of 33 issues were closed in this release:
 
 ### Contributors
 
-A total of 42 people contributed to this release. Thank you to the following contributors:
+A total of 43 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -1890,6 +1891,7 @@ A total of 42 people contributed to this release. Thank you to the following con
 -   Kaustubh Patange
 -   Krishna Awasthi
 -   Lalit Narayan Yadav
+-   Manit Roy
 -   Mohammad Bin Aftab
 -   Muhammad Haris
 -   Nakul Krishnakumar
