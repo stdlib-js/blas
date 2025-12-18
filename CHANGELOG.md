@@ -697,6 +697,7 @@ A total of 33 issues were closed in this release:
 
 <details>
 
+-   [`975f9f6`](https://github.com/stdlib-js/stdlib/commit/975f9f62eb9925e728ee997cb5800721679a3c02) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sapx` [(#9176)](https://github.com/stdlib-js/stdlib/pull/9176) _(by Samarth Kolarkar)_
 -   [`2af3f7b`](https://github.com/stdlib-js/stdlib/commit/2af3f7b7bb5e163b156d81049d94d4877cbd178d) - **feat:** add `blas/ext/base/ndarray/gnansum` [(#9178)](https://github.com/stdlib-js/stdlib/pull/9178) _(by Kaustubh Patange, Athan Reines)_
 -   [`160d77b`](https://github.com/stdlib-js/stdlib/commit/160d77b7424aafbc8b30bdad10112f40f2010a98) - **docs:** fix broken Markdown link [(#9175)](https://github.com/stdlib-js/stdlib/pull/9175) _(by Sujal charati)_
 -   [`ade2288`](https://github.com/stdlib-js/stdlib/commit/ade22888073ed27f49fa6ab11dfacbebcb730f44) - **feat:** add `blas/ext/base/ndarray/dnansumkbn2` [(#9165)](https://github.com/stdlib-js/stdlib/pull/9165) _(by Kaustubh Patange)_
@@ -1870,7 +1871,7 @@ A total of 33 issues were closed in this release:
 
 ### Contributors
 
-A total of 41 people contributed to this release. Thank you to the following contributors:
+A total of 42 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -1900,6 +1901,7 @@ A total of 41 people contributed to this release. Thank you to the following con
 -   Ricky Reusser
 -   Rohit R Bhat
 -   Rupa
+-   Samarth Kolarkar
 -   Saurabh Singh
 -   Shabareesh Shetty
 -   Sijan Bhandari
