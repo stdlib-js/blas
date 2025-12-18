@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-17)
+## Unreleased (2025-12-18)
 
 <section class="features">
 
 ### Features
 
+-   [`2af3f7b`](https://github.com/stdlib-js/stdlib/commit/2af3f7b7bb5e163b156d81049d94d4877cbd178d) - add `blas/ext/base/ndarray/gnansum` [(#9178)](https://github.com/stdlib-js/stdlib/pull/9178)
 -   [`ade2288`](https://github.com/stdlib-js/stdlib/commit/ade22888073ed27f49fa6ab11dfacbebcb730f44) - add `blas/ext/base/ndarray/dnansumkbn2` [(#9165)](https://github.com/stdlib-js/stdlib/pull/9165)
 -   [`b295d2f`](https://github.com/stdlib-js/stdlib/commit/b295d2f26220a6e5e86e9dd652a95b451e645235) - add `blas/ext/base/ndarray/dnansumkbn` [(#9095)](https://github.com/stdlib-js/stdlib/pull/9095)
 -   [`69e2651`](https://github.com/stdlib-js/stdlib/commit/69e265181cf077440d7b05328610e8eed6826e99) - add `blas/ext/base/ndarray/dnansum` [(#9091)](https://github.com/stdlib-js/stdlib/pull/9091)
@@ -696,6 +697,7 @@ A total of 33 issues were closed in this release:
 
 <details>
 
+-   [`2af3f7b`](https://github.com/stdlib-js/stdlib/commit/2af3f7b7bb5e163b156d81049d94d4877cbd178d) - **feat:** add `blas/ext/base/ndarray/gnansum` [(#9178)](https://github.com/stdlib-js/stdlib/pull/9178) _(by Kaustubh Patange, Athan Reines)_
 -   [`160d77b`](https://github.com/stdlib-js/stdlib/commit/160d77b7424aafbc8b30bdad10112f40f2010a98) - **docs:** fix broken Markdown link [(#9175)](https://github.com/stdlib-js/stdlib/pull/9175) _(by Sujal charati)_
 -   [`ade2288`](https://github.com/stdlib-js/stdlib/commit/ade22888073ed27f49fa6ab11dfacbebcb730f44) - **feat:** add `blas/ext/base/ndarray/dnansumkbn2` [(#9165)](https://github.com/stdlib-js/stdlib/pull/9165) _(by Kaustubh Patange)_
 -   [`b295d2f`](https://github.com/stdlib-js/stdlib/commit/b295d2f26220a6e5e86e9dd652a95b451e645235) - **feat:** add `blas/ext/base/ndarray/dnansumkbn` [(#9095)](https://github.com/stdlib-js/stdlib/pull/9095) _(by Kaustubh Patange, Athan Reines)_
