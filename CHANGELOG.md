@@ -703,6 +703,7 @@ A total of 38 issues were closed in this release:
 
 <details>
 
+-   [`cc35d03`](https://github.com/stdlib-js/stdlib/commit/cc35d03d3f23656f8db521d3fcb842bfafec3f2a) - **docs:** fix option _(by Athan Reines)_
 -   [`533daa7`](https://github.com/stdlib-js/stdlib/commit/533daa7ac4cb7322aa875d70c63d7a995711dadc) - **refactor:** avoid repeated operation _(by Athan Reines)_
 -   [`6cc55bb`](https://github.com/stdlib-js/stdlib/commit/6cc55bbc6957bdf2c26330dcd566f20db3f28bad) - **bench:** refactor to use dynamic memory allocation in `blas/base/dsyr` [(#9211)](https://github.com/stdlib-js/stdlib/pull/9211) _(by Samarth Kolarkar, Athan Reines)_
 -   [`37dbfbc`](https://github.com/stdlib-js/stdlib/commit/37dbfbc078d735afbd7db36462f3e409f54ddcfe) - **feat:** add `blas/ext/base/ndarray/snansumkbn2` [(#9212)](https://github.com/stdlib-js/stdlib/pull/9212) _(by Kaustubh Patange)_
