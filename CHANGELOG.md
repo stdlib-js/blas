@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7322ab4`](https://github.com/stdlib-js/stdlib/commit/7322ab4debf2b31f9ce6727ea66ccb3b9e55466f) - add `blas/ext/base/ndarray/snansum` [(#9209)](https://github.com/stdlib-js/stdlib/pull/9209)
 -   [`8860f46`](https://github.com/stdlib-js/stdlib/commit/8860f46092dc78429068aa6b39bace97aab34a08) - add `blas/ext/base/ndarray/snansumpw` [(#9222)](https://github.com/stdlib-js/stdlib/pull/9222)
 -   [`bec7083`](https://github.com/stdlib-js/stdlib/commit/bec7083cfc9ec6a5d95305f8b9605166a7cdd656) - add `blas/ext/base/ndarray/snansumors` [(#9224)](https://github.com/stdlib-js/stdlib/pull/9224)
 -   [`f507f85`](https://github.com/stdlib-js/stdlib/commit/f507f85e95340a7d556f15ecac5c080eb59d300e) - add `blas/ext/base/ndarray/dnansumpw` [(#9174)](https://github.com/stdlib-js/stdlib/pull/9174)
@@ -700,6 +701,7 @@ A total of 38 issues were closed in this release:
 
 <details>
 
+-   [`7322ab4`](https://github.com/stdlib-js/stdlib/commit/7322ab4debf2b31f9ce6727ea66ccb3b9e55466f) - **feat:** add `blas/ext/base/ndarray/snansum` [(#9209)](https://github.com/stdlib-js/stdlib/pull/9209) _(by Kaustubh Patange)_
 -   [`8860f46`](https://github.com/stdlib-js/stdlib/commit/8860f46092dc78429068aa6b39bace97aab34a08) - **feat:** add `blas/ext/base/ndarray/snansumpw` [(#9222)](https://github.com/stdlib-js/stdlib/pull/9222) _(by Kaustubh Patange)_
 -   [`bec7083`](https://github.com/stdlib-js/stdlib/commit/bec7083cfc9ec6a5d95305f8b9605166a7cdd656) - **feat:** add `blas/ext/base/ndarray/snansumors` [(#9224)](https://github.com/stdlib-js/stdlib/pull/9224) _(by Kaustubh Patange)_
 -   [`c0665d3`](https://github.com/stdlib-js/stdlib/commit/c0665d30371329f38dd6cd07ae8f4954bb831f42) - **docs:** fix broken Markdown link [(#9164)](https://github.com/stdlib-js/stdlib/pull/9164) _(by Manit Roy)_
