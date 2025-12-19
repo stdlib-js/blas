@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`37dbfbc`](https://github.com/stdlib-js/stdlib/commit/37dbfbc078d735afbd7db36462f3e409f54ddcfe) - add `blas/ext/base/ndarray/snansumkbn2` [(#9212)](https://github.com/stdlib-js/stdlib/pull/9212)
+-   [`1a0dac7`](https://github.com/stdlib-js/stdlib/commit/1a0dac714dc61ed826715d6fcb9c6e34ed8f88e1) - add `blas/ext/base/ndarray/snansumkbn` [(#9210)](https://github.com/stdlib-js/stdlib/pull/9210)
 -   [`7322ab4`](https://github.com/stdlib-js/stdlib/commit/7322ab4debf2b31f9ce6727ea66ccb3b9e55466f) - add `blas/ext/base/ndarray/snansum` [(#9209)](https://github.com/stdlib-js/stdlib/pull/9209)
 -   [`8860f46`](https://github.com/stdlib-js/stdlib/commit/8860f46092dc78429068aa6b39bace97aab34a08) - add `blas/ext/base/ndarray/snansumpw` [(#9222)](https://github.com/stdlib-js/stdlib/pull/9222)
 -   [`bec7083`](https://github.com/stdlib-js/stdlib/commit/bec7083cfc9ec6a5d95305f8b9605166a7cdd656) - add `blas/ext/base/ndarray/snansumors` [(#9224)](https://github.com/stdlib-js/stdlib/pull/9224)
@@ -701,6 +703,9 @@ A total of 38 issues were closed in this release:
 
 <details>
 
+-   [`6cc55bb`](https://github.com/stdlib-js/stdlib/commit/6cc55bbc6957bdf2c26330dcd566f20db3f28bad) - **bench:** refactor to use dynamic memory allocation in `blas/base/dsyr` [(#9211)](https://github.com/stdlib-js/stdlib/pull/9211) _(by Samarth Kolarkar, Athan Reines)_
+-   [`37dbfbc`](https://github.com/stdlib-js/stdlib/commit/37dbfbc078d735afbd7db36462f3e409f54ddcfe) - **feat:** add `blas/ext/base/ndarray/snansumkbn2` [(#9212)](https://github.com/stdlib-js/stdlib/pull/9212) _(by Kaustubh Patange)_
+-   [`1a0dac7`](https://github.com/stdlib-js/stdlib/commit/1a0dac714dc61ed826715d6fcb9c6e34ed8f88e1) - **feat:** add `blas/ext/base/ndarray/snansumkbn` [(#9210)](https://github.com/stdlib-js/stdlib/pull/9210) _(by Kaustubh Patange)_
 -   [`7322ab4`](https://github.com/stdlib-js/stdlib/commit/7322ab4debf2b31f9ce6727ea66ccb3b9e55466f) - **feat:** add `blas/ext/base/ndarray/snansum` [(#9209)](https://github.com/stdlib-js/stdlib/pull/9209) _(by Kaustubh Patange)_
 -   [`8860f46`](https://github.com/stdlib-js/stdlib/commit/8860f46092dc78429068aa6b39bace97aab34a08) - **feat:** add `blas/ext/base/ndarray/snansumpw` [(#9222)](https://github.com/stdlib-js/stdlib/pull/9222) _(by Kaustubh Patange)_
 -   [`bec7083`](https://github.com/stdlib-js/stdlib/commit/bec7083cfc9ec6a5d95305f8b9605166a7cdd656) - **feat:** add `blas/ext/base/ndarray/snansumors` [(#9224)](https://github.com/stdlib-js/stdlib/pull/9224) _(by Kaustubh Patange)_
