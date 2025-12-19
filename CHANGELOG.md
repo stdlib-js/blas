@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-18)
+## Unreleased (2025-12-19)
 
 <section class="features">
 
@@ -698,6 +698,8 @@ A total of 37 issues were closed in this release:
 
 <details>
 
+-   [`3633d58`](https://github.com/stdlib-js/stdlib/commit/3633d5834de17c392e5fb5bb2a3b45198da52831) - **bench:** refactor to use dynamic memory allocation [(#9218)](https://github.com/stdlib-js/stdlib/pull/9218) _(by Samarth Kolarkar)_
+-   [`d53a54e`](https://github.com/stdlib-js/stdlib/commit/d53a54e14e5c74531c5a181cf183dc92c643d65d) - **bench:** refactor to use dynamic memory allocation [(#9219)](https://github.com/stdlib-js/stdlib/pull/9219) _(by Samarth Kolarkar)_
 -   [`4f36427`](https://github.com/stdlib-js/stdlib/commit/4f3642777584bc664945dc190cb2f568a984a0ac) - **bench:** refactor to use dynamic memory allocation in `blas/base/cswap` [(#9226)](https://github.com/stdlib-js/stdlib/pull/9226) _(by piyxsh31)_
 -   [`8a20a3e`](https://github.com/stdlib-js/stdlib/commit/8a20a3e35f760bc807bdd9cf3916c660b90b1dd0) - **docs:** fix broken Markdown links in `zswap`, `ssyr2`, and `assert` packages [(#9161)](https://github.com/stdlib-js/stdlib/pull/9161) _(by Almunazza, Philipp Burckhardt)_
 -   [`540a83e`](https://github.com/stdlib-js/stdlib/commit/540a83e5de5378d3c74ab97ee4ce92517fa00a56) - **docs:** fix broken Markdown link [(#9170)](https://github.com/stdlib-js/stdlib/pull/9170) _(by Manit Roy)_
