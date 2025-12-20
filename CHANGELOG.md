@@ -710,6 +710,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`1a8bdaa`](https://github.com/stdlib-js/stdlib/commit/1a8bdaaab1034a671ad77af6891d2cb6a9592bd9) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/drrss` [(#9285)](https://github.com/stdlib-js/stdlib/pull/9285) _(by Seoha Son)_
 -   [`7107476`](https://github.com/stdlib-js/stdlib/commit/7107476a6938b0dda4a3e88c22feefda7864870c) - **feat:** add `blas/ext/base/ndarray/dnansumors` [(#9169)](https://github.com/stdlib-js/stdlib/pull/9169) _(by Kaustubh Patange)_
 -   [`3cf4aa6`](https://github.com/stdlib-js/stdlib/commit/3cf4aa6a77ac1a7a80a36803db5e157c8356cc3e) - **feat:** add `blas/ext/base/ndarray/dsortsh` [(#9271)](https://github.com/stdlib-js/stdlib/pull/9271) _(by Kaustubh Patange, Athan Reines)_
 -   [`d57045f`](https://github.com/stdlib-js/stdlib/commit/d57045fec3f0dab1790f3926fd31604724c81540) - **chore:** minor clean-up _(by Philipp Burckhardt)_
@@ -1918,7 +1919,7 @@ A total of 46 issues were closed in this release:
 
 ### Contributors
 
-A total of 46 people contributed to this release. Thank you to the following contributors:
+A total of 47 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -1953,6 +1954,7 @@ A total of 46 people contributed to this release. Thank you to the following con
 -   Rupa
 -   Samarth Kolarkar
 -   Saurabh Singh
+-   Seoha Son
 -   Shabareesh Shetty
 -   Sijan Bhandari
 -   Snehil Shah
