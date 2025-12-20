@@ -708,6 +708,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`d57045f`](https://github.com/stdlib-js/stdlib/commit/d57045fec3f0dab1790f3926fd31604724c81540) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`8c17399`](https://github.com/stdlib-js/stdlib/commit/8c17399ca9130b6cc74048bf65448eff78b7dfd2) - **docs:** fix broken Markdown link [(#9173)](https://github.com/stdlib-js/stdlib/pull/9173) _(by Sujal charati)_
 -   [`623b764`](https://github.com/stdlib-js/stdlib/commit/623b7649bc363bece2174f2fb260fdaa71d77277) - **docs:** fix broken Markdown link [(#9172)](https://github.com/stdlib-js/stdlib/pull/9172) _(by Sujal charati)_
 -   [`045d1ef`](https://github.com/stdlib-js/stdlib/commit/045d1ef371e4d0ce83cff49ef7ef5616e5d7adc9) - **feat:** add `blas/ext/base/ndarray/dsortins` [(#9254)](https://github.com/stdlib-js/stdlib/pull/9254) _(by Kaustubh Patange, Athan Reines, stdlib-bot)_
