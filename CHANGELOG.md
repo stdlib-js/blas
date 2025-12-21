@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-20)
+## Unreleased (2025-12-21)
 
 <section class="features">
 
 ### Features
 
+-   [`f8eacb1`](https://github.com/stdlib-js/stdlib/commit/f8eacb18a4189ce2c75eed17a9b04acc01cebff0) - add `blas/ext/join` [(#9009)](https://github.com/stdlib-js/stdlib/pull/9009)
 -   [`7107476`](https://github.com/stdlib-js/stdlib/commit/7107476a6938b0dda4a3e88c22feefda7864870c) - add `blas/ext/base/ndarray/dnansumors` [(#9169)](https://github.com/stdlib-js/stdlib/pull/9169)
 -   [`3cf4aa6`](https://github.com/stdlib-js/stdlib/commit/3cf4aa6a77ac1a7a80a36803db5e157c8356cc3e) - add `blas/ext/base/ndarray/dsortsh` [(#9271)](https://github.com/stdlib-js/stdlib/pull/9271)
 -   [`045d1ef`](https://github.com/stdlib-js/stdlib/commit/045d1ef371e4d0ce83cff49ef7ef5616e5d7adc9) - add `blas/ext/base/ndarray/dsortins` [(#9254)](https://github.com/stdlib-js/stdlib/pull/9254)
@@ -710,6 +711,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`f8eacb1`](https://github.com/stdlib-js/stdlib/commit/f8eacb18a4189ce2c75eed17a9b04acc01cebff0) - **feat:** add `blas/ext/join` [(#9009)](https://github.com/stdlib-js/stdlib/pull/9009) _(by Muhammad Haris, Athan Reines)_
 -   [`1a8bdaa`](https://github.com/stdlib-js/stdlib/commit/1a8bdaaab1034a671ad77af6891d2cb6a9592bd9) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/drrss` [(#9285)](https://github.com/stdlib-js/stdlib/pull/9285) _(by Seoha Son)_
 -   [`7107476`](https://github.com/stdlib-js/stdlib/commit/7107476a6938b0dda4a3e88c22feefda7864870c) - **feat:** add `blas/ext/base/ndarray/dnansumors` [(#9169)](https://github.com/stdlib-js/stdlib/pull/9169) _(by Kaustubh Patange)_
 -   [`3cf4aa6`](https://github.com/stdlib-js/stdlib/commit/3cf4aa6a77ac1a7a80a36803db5e157c8356cc3e) - **feat:** add `blas/ext/base/ndarray/dsortsh` [(#9271)](https://github.com/stdlib-js/stdlib/pull/9271) _(by Kaustubh Patange, Athan Reines)_
