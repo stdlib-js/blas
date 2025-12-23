@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-22)
+## Unreleased (2025-12-23)
 
 <section class="features">
 
@@ -711,6 +711,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`d11ab68`](https://github.com/stdlib-js/stdlib/commit/d11ab683437527d00e02409ad12166b4d0217cf2) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansumpw` [(#9314)](https://github.com/stdlib-js/stdlib/pull/9314) _(by Kumawat Rohit Suhas, Athan Reines)_
 -   [`29fc92b`](https://github.com/stdlib-js/stdlib/commit/29fc92b2cfc9285b1f8eb6ad0623e520168efa9c) - **bench:** refactor to use dynamic memory allocation in `blas/base/dsdot` [(#9309)](https://github.com/stdlib-js/stdlib/pull/9309) _(by Yohan Park, Athan Reines)_
 -   [`f8eacb1`](https://github.com/stdlib-js/stdlib/commit/f8eacb18a4189ce2c75eed17a9b04acc01cebff0) - **feat:** add `blas/ext/join` [(#9009)](https://github.com/stdlib-js/stdlib/pull/9009) _(by Muhammad Haris, Athan Reines)_
 -   [`1a8bdaa`](https://github.com/stdlib-js/stdlib/commit/1a8bdaaab1034a671ad77af6891d2cb6a9592bd9) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/drrss` [(#9285)](https://github.com/stdlib-js/stdlib/pull/9285) _(by Seoha Son)_
@@ -1922,7 +1923,7 @@ A total of 46 issues were closed in this release:
 
 ### Contributors
 
-A total of 48 people contributed to this release. Thank you to the following contributors:
+A total of 49 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -1940,6 +1941,7 @@ A total of 48 people contributed to this release. Thank you to the following con
 -   Justyn Shelby
 -   Kaustubh Patange
 -   Krishna Awasthi
+-   Kumawat Rohit Suhas
 -   Lalit Narayan Yadav
 -   Manit Roy
 -   Mohammad Bin Aftab
