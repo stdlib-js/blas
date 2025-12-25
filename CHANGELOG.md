@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-23)
+## Unreleased (2025-12-25)
 
 <section class="features">
 
@@ -379,6 +379,7 @@
 
 ### Bug Fixes
 
+-   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368)
 -   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - use correct return type in Routine interface and fix descriptions
 -   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - ensure correct `this` context when creating a new Module instance
 -   [`e8977d9`](https://github.com/stdlib-js/stdlib/commit/e8977d9abad1e2eda67f94f4950e042374608544) - ensure correct `this` context when creating a new Module instance
@@ -711,6 +712,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - **fix:** return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368) _(by Gururaj Gurram)_
 -   [`d11ab68`](https://github.com/stdlib-js/stdlib/commit/d11ab683437527d00e02409ad12166b4d0217cf2) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansumpw` [(#9314)](https://github.com/stdlib-js/stdlib/pull/9314) _(by Kumawat Rohit Suhas, Athan Reines)_
 -   [`29fc92b`](https://github.com/stdlib-js/stdlib/commit/29fc92b2cfc9285b1f8eb6ad0623e520168efa9c) - **bench:** refactor to use dynamic memory allocation in `blas/base/dsdot` [(#9309)](https://github.com/stdlib-js/stdlib/pull/9309) _(by Yohan Park, Athan Reines)_
 -   [`f8eacb1`](https://github.com/stdlib-js/stdlib/commit/f8eacb18a4189ce2c75eed17a9b04acc01cebff0) - **feat:** add `blas/ext/join` [(#9009)](https://github.com/stdlib-js/stdlib/pull/9009) _(by Muhammad Haris, Athan Reines)_
