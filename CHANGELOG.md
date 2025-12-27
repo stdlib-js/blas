@@ -712,6 +712,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`2637835`](https://github.com/stdlib-js/stdlib/commit/263783534228a47323720b01a10b43a6d39a2e2f) - **docs:** use consistent markup _(by Athan Reines)_
 -   [`77af67c`](https://github.com/stdlib-js/stdlib/commit/77af67c42fd8fa04d95b032bfa9a254d229cd700) - **docs:** fix missing decimals and use consistent spacing _(by Athan Reines)_
 -   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - **fix:** return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368) _(by Gururaj Gurram)_
 -   [`d11ab68`](https://github.com/stdlib-js/stdlib/commit/d11ab683437527d00e02409ad12166b4d0217cf2) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansumpw` [(#9314)](https://github.com/stdlib-js/stdlib/pull/9314) _(by Kumawat Rohit Suhas, Athan Reines)_
