@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-27)
+## Unreleased (2025-12-29)
 
 <section class="features">
 
@@ -379,6 +379,7 @@
 
 ### Bug Fixes
 
+-   [`9d02160`](https://github.com/stdlib-js/stdlib/commit/9d021607aa675ebf1c53796be54565634bedea68) - normalize all dtypes to strings
 -   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368)
 -   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - use correct return type in Routine interface and fix descriptions
 -   [`258a8a9`](https://github.com/stdlib-js/stdlib/commit/258a8a9dc4341c90796f4dcabede0eba149d09c4) - ensure correct `this` context when creating a new Module instance
@@ -712,6 +713,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`9d02160`](https://github.com/stdlib-js/stdlib/commit/9d021607aa675ebf1c53796be54565634bedea68) - **fix:** normalize all dtypes to strings _(by Athan Reines)_
+-   [`763181d`](https://github.com/stdlib-js/stdlib/commit/763181dc6c9f930a0165e90ea9f6af3903f6c04a) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumkbn2` [(#9396)](https://github.com/stdlib-js/stdlib/pull/9396) _(by Sagar Ratna Chaudhary)_
 -   [`2637835`](https://github.com/stdlib-js/stdlib/commit/263783534228a47323720b01a10b43a6d39a2e2f) - **docs:** use consistent markup _(by Athan Reines)_
 -   [`77af67c`](https://github.com/stdlib-js/stdlib/commit/77af67c42fd8fa04d95b032bfa9a254d229cd700) - **docs:** fix missing decimals and use consistent spacing _(by Athan Reines)_
 -   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - **fix:** return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368) _(by Gururaj Gurram)_
@@ -1927,7 +1930,7 @@ A total of 46 issues were closed in this release:
 
 ### Contributors
 
-A total of 49 people contributed to this release. Thank you to the following contributors:
+A total of 50 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -1961,6 +1964,7 @@ A total of 49 people contributed to this release. Thank you to the following con
 -   Ricky Reusser
 -   Rohit R Bhat
 -   Rupa
+-   Sagar Ratna Chaudhary
 -   Samarth Kolarkar
 -   Saurabh Singh
 -   Seoha Son
