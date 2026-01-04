@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-29)
+## Unreleased (2026-01-04)
 
 <section class="features">
 
@@ -713,6 +713,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`9d02160`](https://github.com/stdlib-js/stdlib/commit/9d021607aa675ebf1c53796be54565634bedea68) - **fix:** normalize all dtypes to strings _(by Athan Reines)_
 -   [`763181d`](https://github.com/stdlib-js/stdlib/commit/763181dc6c9f930a0165e90ea9f6af3903f6c04a) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumkbn2` [(#9396)](https://github.com/stdlib-js/stdlib/pull/9396) _(by Sagar Ratna Chaudhary)_
 -   [`2637835`](https://github.com/stdlib-js/stdlib/commit/263783534228a47323720b01a10b43a6d39a2e2f) - **docs:** use consistent markup _(by Athan Reines)_
