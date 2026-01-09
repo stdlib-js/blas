@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-04)
+## Unreleased (2026-01-09)
 
 <section class="features">
 
 ### Features
 
+-   [`f36844d`](https://github.com/stdlib-js/stdlib/commit/f36844d1d51ef37e1934b6013481e39ef8052d09) - add `blas/ext/base/drssbl` [(#8722)](https://github.com/stdlib-js/stdlib/pull/8722)
 -   [`f8eacb1`](https://github.com/stdlib-js/stdlib/commit/f8eacb18a4189ce2c75eed17a9b04acc01cebff0) - add `blas/ext/join` [(#9009)](https://github.com/stdlib-js/stdlib/pull/9009)
 -   [`7107476`](https://github.com/stdlib-js/stdlib/commit/7107476a6938b0dda4a3e88c22feefda7864870c) - add `blas/ext/base/ndarray/dnansumors` [(#9169)](https://github.com/stdlib-js/stdlib/pull/9169)
 -   [`3cf4aa6`](https://github.com/stdlib-js/stdlib/commit/3cf4aa6a77ac1a7a80a36803db5e157c8356cc3e) - add `blas/ext/base/ndarray/dsortsh` [(#9271)](https://github.com/stdlib-js/stdlib/pull/9271)
@@ -713,6 +714,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`f36844d`](https://github.com/stdlib-js/stdlib/commit/f36844d1d51ef37e1934b6013481e39ef8052d09) - **feat:** add `blas/ext/base/drssbl` [(#8722)](https://github.com/stdlib-js/stdlib/pull/8722) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`9d02160`](https://github.com/stdlib-js/stdlib/commit/9d021607aa675ebf1c53796be54565634bedea68) - **fix:** normalize all dtypes to strings _(by Athan Reines)_
 -   [`763181d`](https://github.com/stdlib-js/stdlib/commit/763181dc6c9f930a0165e90ea9f6af3903f6c04a) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumkbn2` [(#9396)](https://github.com/stdlib-js/stdlib/pull/9396) _(by Sagar Ratna Chaudhary)_
