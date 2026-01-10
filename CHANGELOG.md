@@ -715,6 +715,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - **feat:** add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`223666d`](https://github.com/stdlib-js/stdlib/commit/223666db0fdb0aba4b1390d470ccc826fdaf44ab) - **chore:** clean-up _(by Athan Reines)_
 -   [`272fd1f`](https://github.com/stdlib-js/stdlib/commit/272fd1fc3c65386c4955ccfa39aa59adc812578a) - **docs:** update example to match text and supply missing argument in C code _(by Philipp Burckhardt)_
