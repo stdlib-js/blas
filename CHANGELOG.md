@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-09)
+## Unreleased (2026-01-10)
 
 <section class="features">
 
@@ -714,6 +714,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`272fd1f`](https://github.com/stdlib-js/stdlib/commit/272fd1fc3c65386c4955ccfa39aa59adc812578a) - **docs:** update example to match text and supply missing argument in C code _(by Philipp Burckhardt)_
 -   [`f36844d`](https://github.com/stdlib-js/stdlib/commit/f36844d1d51ef37e1934b6013481e39ef8052d09) - **feat:** add `blas/ext/base/drssbl` [(#8722)](https://github.com/stdlib-js/stdlib/pull/8722) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
 -   [`46c47ec`](https://github.com/stdlib-js/stdlib/commit/46c47ec0c92f9a3608290ef8a6ca5cf0e9258866) - **refactor:** update paths _(by Neeraj Pathak)_
 -   [`9d02160`](https://github.com/stdlib-js/stdlib/commit/9d021607aa675ebf1c53796be54565634bedea68) - **fix:** normalize all dtypes to strings _(by Athan Reines)_
