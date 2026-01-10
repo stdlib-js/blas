@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647)
 -   [`f36844d`](https://github.com/stdlib-js/stdlib/commit/f36844d1d51ef37e1934b6013481e39ef8052d09) - add `blas/ext/base/drssbl` [(#8722)](https://github.com/stdlib-js/stdlib/pull/8722)
 -   [`f8eacb1`](https://github.com/stdlib-js/stdlib/commit/f8eacb18a4189ce2c75eed17a9b04acc01cebff0) - add `blas/ext/join` [(#9009)](https://github.com/stdlib-js/stdlib/pull/9009)
 -   [`7107476`](https://github.com/stdlib-js/stdlib/commit/7107476a6938b0dda4a3e88c22feefda7864870c) - add `blas/ext/base/ndarray/dnansumors` [(#9169)](https://github.com/stdlib-js/stdlib/pull/9169)
@@ -714,6 +715,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - **feat:** add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`223666d`](https://github.com/stdlib-js/stdlib/commit/223666db0fdb0aba4b1390d470ccc826fdaf44ab) - **chore:** clean-up _(by Athan Reines)_
 -   [`272fd1f`](https://github.com/stdlib-js/stdlib/commit/272fd1fc3c65386c4955ccfa39aa59adc812578a) - **docs:** update example to match text and supply missing argument in C code _(by Philipp Burckhardt)_
 -   [`f36844d`](https://github.com/stdlib-js/stdlib/commit/f36844d1d51ef37e1934b6013481e39ef8052d09) - **feat:** add `blas/ext/base/drssbl` [(#8722)](https://github.com/stdlib-js/stdlib/pull/8722) _(by Nakul Krishnakumar, Athan Reines, stdlib-bot)_
