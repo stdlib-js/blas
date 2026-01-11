@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-10)
+## Unreleased (2026-01-11)
 
 <section class="features">
 
 ### Features
 
+-   [`38631fc`](https://github.com/stdlib-js/stdlib/commit/38631fc2f158f3334031ae6a8ac31d0307d46159) - add `blas/ext/base/dsort` [(#9684)](https://github.com/stdlib-js/stdlib/pull/9684)
 -   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647)
 -   [`f36844d`](https://github.com/stdlib-js/stdlib/commit/f36844d1d51ef37e1934b6013481e39ef8052d09) - add `blas/ext/base/drssbl` [(#8722)](https://github.com/stdlib-js/stdlib/pull/8722)
 -   [`f8eacb1`](https://github.com/stdlib-js/stdlib/commit/f8eacb18a4189ce2c75eed17a9b04acc01cebff0) - add `blas/ext/join` [(#9009)](https://github.com/stdlib-js/stdlib/pull/9009)
@@ -715,6 +716,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`38631fc`](https://github.com/stdlib-js/stdlib/commit/38631fc2f158f3334031ae6a8ac31d0307d46159) - **feat:** add `blas/ext/base/dsort` [(#9684)](https://github.com/stdlib-js/stdlib/pull/9684) _(by Muhammad Haris, Athan Reines)_
 -   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - **feat:** add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647) _(by Nakul Krishnakumar, Athan Reines)_
 -   [`223666d`](https://github.com/stdlib-js/stdlib/commit/223666db0fdb0aba4b1390d470ccc826fdaf44ab) - **chore:** clean-up _(by Athan Reines)_
