@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-11)
+## Unreleased (2026-01-12)
 
 <section class="features">
 
@@ -716,6 +716,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`4026f6b`](https://github.com/stdlib-js/stdlib/commit/4026f6b885a77192ae147c6314c691db8d375f26) - **docs:** add references _(by Athan Reines)_
+-   [`7c08a3d`](https://github.com/stdlib-js/stdlib/commit/7c08a3d15a919d79650bfc723822f0c3134e5277) - **docs:** add references _(by Athan Reines)_
 -   [`38631fc`](https://github.com/stdlib-js/stdlib/commit/38631fc2f158f3334031ae6a8ac31d0307d46159) - **feat:** add `blas/ext/base/dsort` [(#9684)](https://github.com/stdlib-js/stdlib/pull/9684) _(by Muhammad Haris, Athan Reines)_
 -   [`2035f34`](https://github.com/stdlib-js/stdlib/commit/2035f344a1a469278042b7532f034dc6119933b3) - **docs:** add function documentation _(by Athan Reines)_
 -   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - **feat:** add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647) _(by Nakul Krishnakumar, Athan Reines)_
