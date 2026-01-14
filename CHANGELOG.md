@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-12)
+## Unreleased (2026-01-14)
 
 <section class="features">
 
@@ -716,6 +716,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`b1ccc8c`](https://github.com/stdlib-js/stdlib/commit/b1ccc8cfa3a936af09b78f992d16e5e9e0fc3cad) - **docs:** remove note _(by Athan Reines)_
 -   [`4026f6b`](https://github.com/stdlib-js/stdlib/commit/4026f6b885a77192ae147c6314c691db8d375f26) - **docs:** add references _(by Athan Reines)_
 -   [`7c08a3d`](https://github.com/stdlib-js/stdlib/commit/7c08a3d15a919d79650bfc723822f0c3134e5277) - **docs:** add references _(by Athan Reines)_
 -   [`38631fc`](https://github.com/stdlib-js/stdlib/commit/38631fc2f158f3334031ae6a8ac31d0307d46159) - **feat:** add `blas/ext/base/dsort` [(#9684)](https://github.com/stdlib-js/stdlib/pull/9684) _(by Muhammad Haris, Athan Reines)_
