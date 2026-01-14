@@ -717,6 +717,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`046aa27`](https://github.com/stdlib-js/stdlib/commit/046aa2706a8234829cc81483d0dcd3d21867258c) - **refactor:** update require path _(by Athan Reines)_
+-   [`3bcebe9`](https://github.com/stdlib-js/stdlib/commit/3bcebe9121e353676f8bfcb1d0f5870dc6d74146) - **refactor:** update require path _(by Athan Reines)_
 -   [`19d5fc4`](https://github.com/stdlib-js/stdlib/commit/19d5fc4f36db513023e981a90103c9718eea59ff) - **feat:** add `blas/ext/base/gsort` [(#9712)](https://github.com/stdlib-js/stdlib/pull/9712) _(by Muhammad Haris, Athan Reines)_
 -   [`b1ccc8c`](https://github.com/stdlib-js/stdlib/commit/b1ccc8cfa3a936af09b78f992d16e5e9e0fc3cad) - **docs:** remove note _(by Athan Reines)_
 -   [`4026f6b`](https://github.com/stdlib-js/stdlib/commit/4026f6b885a77192ae147c6314c691db8d375f26) - **docs:** add references _(by Athan Reines)_
