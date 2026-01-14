@@ -717,6 +717,8 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`388fbd3`](https://github.com/stdlib-js/stdlib/commit/388fbd3b0145683c9a1eed07884d481552fc58d9) - **style:** remove empty line and reorder declarations _(by Athan Reines)_
+-   [`eb06ec9`](https://github.com/stdlib-js/stdlib/commit/eb06ec9ef3065afe65255cac5d792ab2e21ba570) - **docs:** update examples _(by Athan Reines)_
 -   [`046aa27`](https://github.com/stdlib-js/stdlib/commit/046aa2706a8234829cc81483d0dcd3d21867258c) - **refactor:** update require path _(by Athan Reines)_
 -   [`3bcebe9`](https://github.com/stdlib-js/stdlib/commit/3bcebe9121e353676f8bfcb1d0f5870dc6d74146) - **refactor:** update require path _(by Athan Reines)_
 -   [`19d5fc4`](https://github.com/stdlib-js/stdlib/commit/19d5fc4f36db513023e981a90103c9718eea59ff) - **feat:** add `blas/ext/base/gsort` [(#9712)](https://github.com/stdlib-js/stdlib/pull/9712) _(by Muhammad Haris, Athan Reines)_
