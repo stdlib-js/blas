@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`19d5fc4`](https://github.com/stdlib-js/stdlib/commit/19d5fc4f36db513023e981a90103c9718eea59ff) - add `blas/ext/base/gsort` [(#9712)](https://github.com/stdlib-js/stdlib/pull/9712)
 -   [`38631fc`](https://github.com/stdlib-js/stdlib/commit/38631fc2f158f3334031ae6a8ac31d0307d46159) - add `blas/ext/base/dsort` [(#9684)](https://github.com/stdlib-js/stdlib/pull/9684)
 -   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647)
 -   [`f36844d`](https://github.com/stdlib-js/stdlib/commit/f36844d1d51ef37e1934b6013481e39ef8052d09) - add `blas/ext/base/drssbl` [(#8722)](https://github.com/stdlib-js/stdlib/pull/8722)
@@ -716,6 +717,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`19d5fc4`](https://github.com/stdlib-js/stdlib/commit/19d5fc4f36db513023e981a90103c9718eea59ff) - **feat:** add `blas/ext/base/gsort` [(#9712)](https://github.com/stdlib-js/stdlib/pull/9712) _(by Muhammad Haris, Athan Reines)_
 -   [`b1ccc8c`](https://github.com/stdlib-js/stdlib/commit/b1ccc8cfa3a936af09b78f992d16e5e9e0fc3cad) - **docs:** remove note _(by Athan Reines)_
 -   [`4026f6b`](https://github.com/stdlib-js/stdlib/commit/4026f6b885a77192ae147c6314c691db8d375f26) - **docs:** add references _(by Athan Reines)_
 -   [`7c08a3d`](https://github.com/stdlib-js/stdlib/commit/7c08a3d15a919d79650bfc723822f0c3134e5277) - **docs:** add references _(by Athan Reines)_
