@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`55a4c2f`](https://github.com/stdlib-js/stdlib/commit/55a4c2f90ee136423bf8d282893fdf6a3ba805ef) - add `blas/ext/base/drsskbn` [(#9013)](https://github.com/stdlib-js/stdlib/pull/9013)
 -   [`19d5fc4`](https://github.com/stdlib-js/stdlib/commit/19d5fc4f36db513023e981a90103c9718eea59ff) - add `blas/ext/base/gsort` [(#9712)](https://github.com/stdlib-js/stdlib/pull/9712)
 -   [`38631fc`](https://github.com/stdlib-js/stdlib/commit/38631fc2f158f3334031ae6a8ac31d0307d46159) - add `blas/ext/base/dsort` [(#9684)](https://github.com/stdlib-js/stdlib/pull/9684)
 -   [`caea326`](https://github.com/stdlib-js/stdlib/commit/caea3266d32a5b6deadd1b75747d5d88e08699d2) - add `blas/ext/base/drss` [(#9647)](https://github.com/stdlib-js/stdlib/pull/9647)
@@ -718,8 +717,6 @@ A total of 46 issues were closed in this release:
 
 <details>
 
--   [`55a4c2f`](https://github.com/stdlib-js/stdlib/commit/55a4c2f90ee136423bf8d282893fdf6a3ba805ef) - **feat:** add `blas/ext/base/drsskbn` [(#9013)](https://github.com/stdlib-js/stdlib/pull/9013) _(by Nakul Krishnakumar, stdlib-bot, Athan Reines, Philipp Burckhardt)_
--   [`388fbd3`](https://github.com/stdlib-js/stdlib/commit/388fbd3b0145683c9a1eed07884d481552fc58d9) - **style:** remove empty line and reorder declarations _(by Athan Reines)_
 -   [`eb06ec9`](https://github.com/stdlib-js/stdlib/commit/eb06ec9ef3065afe65255cac5d792ab2e21ba570) - **docs:** update examples _(by Athan Reines)_
 -   [`046aa27`](https://github.com/stdlib-js/stdlib/commit/046aa2706a8234829cc81483d0dcd3d21867258c) - **refactor:** update require path _(by Athan Reines)_
 -   [`3bcebe9`](https://github.com/stdlib-js/stdlib/commit/3bcebe9121e353676f8bfcb1d0f5870dc6d74146) - **refactor:** update require path _(by Athan Reines)_
