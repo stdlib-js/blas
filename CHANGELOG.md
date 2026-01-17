@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-16)
+## Unreleased (2026-01-17)
 
 <section class="features">
 
@@ -718,6 +718,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`d45387d`](https://github.com/stdlib-js/stdlib/commit/d45387d1f3fdfa5d217c1e6a6ee2f75fba4f4bd7) - **docs:** update `blas/ext/base/ndarray` TypeScript declaration example code [(#9793)](https://github.com/stdlib-js/stdlib/pull/9793) _(by stdlib-bot)_
 -   [`267b6c4`](https://github.com/stdlib-js/stdlib/commit/267b6c4821ff03378a33888a3fc83330de7a660d) - **docs:** improve doctests for ndarray instances in `ndarray/dcusum` [(#9772)](https://github.com/stdlib-js/stdlib/pull/9772) _(by Diyan)_
 -   [`55a4c2f`](https://github.com/stdlib-js/stdlib/commit/55a4c2f90ee136423bf8d282893fdf6a3ba805ef) - **feat:** add `blas/ext/base/drsskbn` [(#9013)](https://github.com/stdlib-js/stdlib/pull/9013) _(by Nakul Krishnakumar, stdlib-bot, Athan Reines, Philipp Burckhardt)_
 -   [`388fbd3`](https://github.com/stdlib-js/stdlib/commit/388fbd3b0145683c9a1eed07884d481552fc58d9) - **style:** remove empty line and reorder declarations _(by Athan Reines)_
