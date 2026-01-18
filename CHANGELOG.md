@@ -384,6 +384,7 @@
 
 ### Bug Fixes
 
+-   [`83c537b`](https://github.com/stdlib-js/stdlib/commit/83c537bacb40e371143295b9493c7d984d9b70ba) - add missing exports comment
 -   [`9d02160`](https://github.com/stdlib-js/stdlib/commit/9d021607aa675ebf1c53796be54565634bedea68) - normalize all dtypes to strings
 -   [`600afbd`](https://github.com/stdlib-js/stdlib/commit/600afbd33e98dfe849a1232e00080a6d9adf7fda) - return correct parameter [(#9368)](https://github.com/stdlib-js/stdlib/pull/9368)
 -   [`dbc772f`](https://github.com/stdlib-js/stdlib/commit/dbc772fe67de423b24bebecdd657d09683f793cf) - use correct return type in Routine interface and fix descriptions
@@ -718,6 +719,7 @@ A total of 46 issues were closed in this release:
 
 <details>
 
+-   [`83c537b`](https://github.com/stdlib-js/stdlib/commit/83c537bacb40e371143295b9493c7d984d9b70ba) - **fix:** add missing exports comment _(by Philipp Burckhardt)_
 -   [`d45387d`](https://github.com/stdlib-js/stdlib/commit/d45387d1f3fdfa5d217c1e6a6ee2f75fba4f4bd7) - **docs:** update `blas/ext/base/ndarray` TypeScript declaration example code [(#9793)](https://github.com/stdlib-js/stdlib/pull/9793) _(by stdlib-bot)_
 -   [`267b6c4`](https://github.com/stdlib-js/stdlib/commit/267b6c4821ff03378a33888a3fc83330de7a660d) - **docs:** improve doctests for ndarray instances in `ndarray/dcusum` [(#9772)](https://github.com/stdlib-js/stdlib/pull/9772) _(by Diyan)_
 -   [`55a4c2f`](https://github.com/stdlib-js/stdlib/commit/55a4c2f90ee136423bf8d282893fdf6a3ba805ef) - **feat:** add `blas/ext/base/drsskbn` [(#9013)](https://github.com/stdlib-js/stdlib/pull/9013) _(by Nakul Krishnakumar, stdlib-bot, Athan Reines, Philipp Burckhardt)_
