@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-30)
+## Unreleased (2026-01-31)
 
 <section class="features">
 
@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`2b2ae6a`](https://github.com/stdlib-js/stdlib/commit/2b2ae6abbdb5752c90e0164c74d7669607e65895) - **docs:** improve doctests for ndarray instances in `ndarray/dcusumpw` [(#10005)](https://github.com/stdlib-js/stdlib/pull/10005) _(by Bhargav Dabhade)_
 -   [`2503829`](https://github.com/stdlib-js/stdlib/commit/25038294c6793e8d14d5776bd364c99ab1a98ddc) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumors` [(#9974)](https://github.com/stdlib-js/stdlib/pull/9974) _(by AyushiJain18270)_
 -   [`4018ee6`](https://github.com/stdlib-js/stdlib/commit/4018ee617715d836b7cc1dd3ab5861b5ff1d5b6e) - **bench:** fix name _(by Athan Reines)_
 -   [`3a975ff`](https://github.com/stdlib-js/stdlib/commit/3a975ff10be645021132858cbea5e588afdfaa38) - **bench:** fix name _(by Athan Reines)_
@@ -1961,7 +1962,7 @@ A total of 47 issues were closed in this release:
 
 ### Contributors
 
-A total of 53 people contributed to this release. Thank you to the following contributors:
+A total of 54 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -1970,6 +1971,7 @@ A total of 53 people contributed to this release. Thank you to the following con
 -   Athan Reines
 -   Atharv1405
 -   AyushiJain18270
+-   Bhargav Dabhade
 -   DivitJain26
 -   Divyanshu
 -   Diyan
