@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`928d410`](https://github.com/stdlib-js/stdlib/commit/928d41013a8327b8727232d4b44b2879a9687e05) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dcusumkbn` [(#10085)](https://github.com/stdlib-js/stdlib/pull/10085) _(by Loay Ahmed)_
 -   [`63ff72c`](https://github.com/stdlib-js/stdlib/commit/63ff72c16348d71085f70d8cb8d413921a0ce551) - **bench:** refactor to use dynamic memory allocation in `blas/base/ext/dcusumors` [(#10086)](https://github.com/stdlib-js/stdlib/pull/10086) _(by AyushiJain18270)_
 -   [`2b2ae6a`](https://github.com/stdlib-js/stdlib/commit/2b2ae6abbdb5752c90e0164c74d7669607e65895) - **docs:** improve doctests for ndarray instances in `ndarray/dcusumpw` [(#10005)](https://github.com/stdlib-js/stdlib/pull/10005) _(by Bhargav Dabhade)_
 -   [`2503829`](https://github.com/stdlib-js/stdlib/commit/25038294c6793e8d14d5776bd364c99ab1a98ddc) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumors` [(#9974)](https://github.com/stdlib-js/stdlib/pull/9974) _(by AyushiJain18270)_
@@ -1963,7 +1964,7 @@ A total of 47 issues were closed in this release:
 
 ### Contributors
 
-A total of 54 people contributed to this release. Thank you to the following contributors:
+A total of 55 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -1986,6 +1987,7 @@ A total of 54 people contributed to this release. Thank you to the following con
 -   Krishna Awasthi
 -   Kumawat Rohit Suhas
 -   Lalit Narayan Yadav
+-   Loay Ahmed
 -   Manit Roy
 -   Mohammad Bin Aftab
 -   Muhammad Haris
