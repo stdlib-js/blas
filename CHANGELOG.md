@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-31)
+## Unreleased (2026-02-05)
 
 <section class="features">
 
@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`63ff72c`](https://github.com/stdlib-js/stdlib/commit/63ff72c16348d71085f70d8cb8d413921a0ce551) - **bench:** refactor to use dynamic memory allocation in `blas/base/ext/dcusumors` [(#10086)](https://github.com/stdlib-js/stdlib/pull/10086) _(by AyushiJain18270)_
 -   [`2b2ae6a`](https://github.com/stdlib-js/stdlib/commit/2b2ae6abbdb5752c90e0164c74d7669607e65895) - **docs:** improve doctests for ndarray instances in `ndarray/dcusumpw` [(#10005)](https://github.com/stdlib-js/stdlib/pull/10005) _(by Bhargav Dabhade)_
 -   [`2503829`](https://github.com/stdlib-js/stdlib/commit/25038294c6793e8d14d5776bd364c99ab1a98ddc) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dcusumors` [(#9974)](https://github.com/stdlib-js/stdlib/pull/9974) _(by AyushiJain18270)_
 -   [`4018ee6`](https://github.com/stdlib-js/stdlib/commit/4018ee617715d836b7cc1dd3ab5861b5ff1d5b6e) - **bench:** fix name _(by Athan Reines)_
