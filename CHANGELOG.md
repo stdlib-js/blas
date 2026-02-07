@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`9d9b268`](https://github.com/stdlib-js/stdlib/commit/9d9b2684d2d965826e3fa1426a1eb204e44231a8) - **bench:** refactor to use dynamic memory allocation in `blas/base/saxpy` [(#10146)](https://github.com/stdlib-js/stdlib/pull/10146) _(by Prajjwal Bajpai)_
 -   [`b22ed96`](https://github.com/stdlib-js/stdlib/commit/b22ed969fd6fcff0278ffc6c50c2ce774ab00ba7) - **bench:** refactor to use string interpolation in `blas/base/saxpy` [(#10147)](https://github.com/stdlib-js/stdlib/pull/10147) _(by Prajjwal Bajpai)_
 -   [`928d410`](https://github.com/stdlib-js/stdlib/commit/928d41013a8327b8727232d4b44b2879a9687e05) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dcusumkbn` [(#10085)](https://github.com/stdlib-js/stdlib/pull/10085) _(by Loay Ahmed)_
 -   [`63ff72c`](https://github.com/stdlib-js/stdlib/commit/63ff72c16348d71085f70d8cb8d413921a0ce551) - **bench:** refactor to use dynamic memory allocation in `blas/base/ext/dcusumors` [(#10086)](https://github.com/stdlib-js/stdlib/pull/10086) _(by AyushiJain18270)_
