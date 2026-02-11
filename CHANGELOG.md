@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-09)
+## Unreleased (2026-02-11)
 
 <section class="features">
 
@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`e825c5f`](https://github.com/stdlib-js/stdlib/commit/e825c5f034fc6bdfe21abd22ab6f6f82eb31153c) - **bench(dcusum):** use dynamic memory allocation [(#10209)](https://github.com/stdlib-js/stdlib/pull/10209) _(by me0-0, Philipp Burckhardt)_
 -   [`9d9b268`](https://github.com/stdlib-js/stdlib/commit/9d9b2684d2d965826e3fa1426a1eb204e44231a8) - **bench:** refactor to use dynamic memory allocation in `blas/base/saxpy` [(#10146)](https://github.com/stdlib-js/stdlib/pull/10146) _(by Prajjwal Bajpai)_
 -   [`b22ed96`](https://github.com/stdlib-js/stdlib/commit/b22ed969fd6fcff0278ffc6c50c2ce774ab00ba7) - **bench:** refactor to use string interpolation in `blas/base/saxpy` [(#10147)](https://github.com/stdlib-js/stdlib/pull/10147) _(by Prajjwal Bajpai)_
 -   [`928d410`](https://github.com/stdlib-js/stdlib/commit/928d41013a8327b8727232d4b44b2879a9687e05) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dcusumkbn` [(#10085)](https://github.com/stdlib-js/stdlib/pull/10085) _(by Loay Ahmed)_
@@ -1966,7 +1967,7 @@ A total of 47 issues were closed in this release:
 
 ### Contributors
 
-A total of 56 people contributed to this release. Thank you to the following contributors:
+A total of 57 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -2022,6 +2023,7 @@ A total of 56 people contributed to this release. Thank you to the following con
 -   anujmishra03
 -   ashutoshsao
 -   kaushal-kumar-it
+-   me0-0
 -   piyxsh31
 -   utshav khatiwada
 
