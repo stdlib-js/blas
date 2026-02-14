@@ -720,6 +720,8 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`941a193`](https://github.com/stdlib-js/stdlib/commit/941a1939d08e0aff5c4fe5b3106cba6410566cd6) - **bench:** use string interpolation in `blas/base/zdrot` [(#10254)](https://github.com/stdlib-js/stdlib/pull/10254) _(by Om-A-osc)_
+-   [`f490e6f`](https://github.com/stdlib-js/stdlib/commit/f490e6fc9a92d5e8e9d125d842b9c572b04eb4b3) - **bench:** use string interpolation in `blas/base/zscal` [(#10255)](https://github.com/stdlib-js/stdlib/pull/10255) _(by Om-A-osc)_
 -   [`f33b43c`](https://github.com/stdlib-js/stdlib/commit/f33b43c48b34eaa32ac9a1b3d1ae92509cd06251) - **bench:** use string interpolation in `blas/base/zswap` [(#10256)](https://github.com/stdlib-js/stdlib/pull/10256) _(by Om-A-osc)_
 -   [`a92ae46`](https://github.com/stdlib-js/stdlib/commit/a92ae4642159e98a945676a90269ffc75a211b87) - **bench:** refactor to use string interpolation in `blas/base/ddot` [(#10259)](https://github.com/stdlib-js/stdlib/pull/10259) _(by Bhargav Dabhade)_
 -   [`f1626a2`](https://github.com/stdlib-js/stdlib/commit/f1626a2f9e5d8a71f99d878dfb2e60132e27af6d) - **bench:** refactor to use dynamic memory allocation in `blas/base/sdsdot` [(#10188)](https://github.com/stdlib-js/stdlib/pull/10188) _(by Prajjwal Bajpai)_
