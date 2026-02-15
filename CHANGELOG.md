@@ -720,7 +720,6 @@ A total of 47 issues were closed in this release:
 
 <details>
 
--   [`ea860cb`](https://github.com/stdlib-js/stdlib/commit/ea860cb837689aeec224d0f0e4f71054bc5b309d) - **bench:** refactor to use string interpolation in `blas/base/dcopy` [(#10260)](https://github.com/stdlib-js/stdlib/pull/10260) _(by Bhargav Dabhade)_
 -   [`ac4c4d6`](https://github.com/stdlib-js/stdlib/commit/ac4c4d68fb8dafc6566eadf8961eb3ad03b482f7) - **docs:** update `blas/ext` TypeScript declarations [(#10286)](https://github.com/stdlib-js/stdlib/pull/10286) _(by stdlib-bot)_
 -   [`3c238a1`](https://github.com/stdlib-js/stdlib/commit/3c238a1427a903ef8c48b45f3bc07483c2c82625) - **docs:** improve doctests for ndarray instances in `blas/ext/cusum` [(#10236)](https://github.com/stdlib-js/stdlib/pull/10236) _(by AyushiJain18270)_
 -   [`091611e`](https://github.com/stdlib-js/stdlib/commit/091611e823cdf35c232dec0ba9ef441f5542acd2) - **bench:** use string interpolation in `blas/base/zdscal` [(#10253)](https://github.com/stdlib-js/stdlib/pull/10253) _(by Om-A-osc)_
