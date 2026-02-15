@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`80b62e9`](https://github.com/stdlib-js/stdlib/commit/80b62e996caedc9d65e3c4d319b2abd01d0429e7) - **bench:** refactor to use string interpolation in `blas/base/sdot` [(#10175)](https://github.com/stdlib-js/stdlib/pull/10175) _(by Prajjwal Bajpai)_
 -   [`51c43ad`](https://github.com/stdlib-js/stdlib/commit/51c43ad346f4f7a14e7f131b0ea5ebf477959bae) - **bench:** refactor to use string interpolation in `blas/base/sdsdot` [(#10190)](https://github.com/stdlib-js/stdlib/pull/10190) _(by Prajjwal Bajpai)_
 -   [`9df57d4`](https://github.com/stdlib-js/stdlib/commit/9df57d4d7a7383c849ad00e3cc4335888b6f2197) - **docs:** improve doctests for ndarray instances in `ndarray/gcusum` [(#10250)](https://github.com/stdlib-js/stdlib/pull/10250) _(by AyushiJain18270)_
 -   [`ea860cb`](https://github.com/stdlib-js/stdlib/commit/ea860cb837689aeec224d0f0e4f71054bc5b309d) - **bench:** refactor to use string interpolation in `blas/base/dcopy` [(#10260)](https://github.com/stdlib-js/stdlib/pull/10260) _(by Bhargav Dabhade)_
