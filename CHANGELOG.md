@@ -720,6 +720,8 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`70190d9`](https://github.com/stdlib-js/stdlib/commit/70190d95cd081cf661a70f834828a0b93bef5288) - **bench:** refactor to use string interpolation in `blas/ext/base/ndarray/dcusumkbn` [(#10296)](https://github.com/stdlib-js/stdlib/pull/10296) _(by AyushiJain18270)_
+-   [`17fd10b`](https://github.com/stdlib-js/stdlib/commit/17fd10bc90d3cb7469ad3c2e4713363b7097eb42) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10310)](https://github.com/stdlib-js/stdlib/pull/10310) _(by stdlib-bot)_
 -   [`7d88343`](https://github.com/stdlib-js/stdlib/commit/7d88343dc553ac2b116119cb618d3eee0f11a513) - **bench:** refactor to use dynamic memory allocation in `blas/base/srot` [(#10287)](https://github.com/stdlib-js/stdlib/pull/10287) _(by Prajjwal Bajpai)_
 -   [`9fc0b94`](https://github.com/stdlib-js/stdlib/commit/9fc0b943505f6b3fb58781fe53b726e65c061e2e) - **bench:** refactor to use string interpolation in `blas/base/srot` [(#10289)](https://github.com/stdlib-js/stdlib/pull/10289) _(by Prajjwal Bajpai)_
 -   [`570ea52`](https://github.com/stdlib-js/stdlib/commit/570ea52237318497987a193d4b8069a6dceff78f) - **bench:** use string interpolation in `blas/base/dgemv` [(#10290)](https://github.com/stdlib-js/stdlib/pull/10290) _(by Om-A-osc)_
