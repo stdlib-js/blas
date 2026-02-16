@@ -720,6 +720,9 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`9fc0b94`](https://github.com/stdlib-js/stdlib/commit/9fc0b943505f6b3fb58781fe53b726e65c061e2e) - **bench:** refactor to use string interpolation in `blas/base/srot` [(#10289)](https://github.com/stdlib-js/stdlib/pull/10289) _(by Prajjwal Bajpai)_
+-   [`570ea52`](https://github.com/stdlib-js/stdlib/commit/570ea52237318497987a193d4b8069a6dceff78f) - **bench:** use string interpolation in `blas/base/dgemv` [(#10290)](https://github.com/stdlib-js/stdlib/pull/10290) _(by Om-A-osc)_
+-   [`d3f62b1`](https://github.com/stdlib-js/stdlib/commit/d3f62b1dc6a274e004e047928832ce378798768a) - **bench:** use string interpolation in `blas/base/dger` [(#10292)](https://github.com/stdlib-js/stdlib/pull/10292) _(by Om-A-osc)_
 -   [`8a000b4`](https://github.com/stdlib-js/stdlib/commit/8a000b4c884be979078c342d56f96b52a8bc5b0c) - **bench:** use string interpolation in `blas/base/dgemm` [(#10294)](https://github.com/stdlib-js/stdlib/pull/10294) _(by Om-A-osc)_
 -   [`1cccd61`](https://github.com/stdlib-js/stdlib/commit/1cccd611ff6c4edd77ecf39f8f684b583499d379) - **bench:** use string interpolation in `blas/base/drot` [(#10295)](https://github.com/stdlib-js/stdlib/pull/10295) _(by Om-A-osc)_
 -   [`dd728e2`](https://github.com/stdlib-js/stdlib/commit/dd728e2944ff7318d68b89e9e8c33d9e84d94e7e) - **bench:** refactor to use string interpolation in `blas/base/cscal` [(#10308)](https://github.com/stdlib-js/stdlib/pull/10308) _(by Bhargav Dabhade)_
