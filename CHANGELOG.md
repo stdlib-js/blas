@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`f834c92`](https://github.com/stdlib-js/stdlib/commit/f834c92ade215691ff1d2d5cf36894e8ed697ffe) - **bench:** refactor to use string interpolation in `blas/ext/base/ndarray/dcusumpw` [(#10329)](https://github.com/stdlib-js/stdlib/pull/10329) _(by AyushiJain18270)_
 -   [`9a18a03`](https://github.com/stdlib-js/stdlib/commit/9a18a03e86bfed34475b176b2732303aab09c86c) - **bench:** refactor to use dynamic memory allocation in `blas/base/sspr` [(#10332)](https://github.com/stdlib-js/stdlib/pull/10332) _(by Prajjwal Bajpai)_
 -   [`338737a`](https://github.com/stdlib-js/stdlib/commit/338737a1f9c6f3b88a9bc5338f35dc90dc82b43a) - **bench:** refactor to use string interpolation in `blas/base/sspr` [(#10333)](https://github.com/stdlib-js/stdlib/pull/10333) _(by Prajjwal Bajpai, Philipp Burckhardt)_
 -   [`5c41472`](https://github.com/stdlib-js/stdlib/commit/5c41472c12ae782ea7dc703108ccbd92405c5397) - **bench:** refactor to use string interpolation in `blas/base/srotm` [(#10314)](https://github.com/stdlib-js/stdlib/pull/10314) _(by Prajjwal Bajpai)_
