@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-16)
+## Unreleased (2026-02-18)
 
 <section class="features">
 
@@ -720,6 +720,7 @@ A total of 47 issues were closed in this release:
 
 <details>
 
+-   [`338737a`](https://github.com/stdlib-js/stdlib/commit/338737a1f9c6f3b88a9bc5338f35dc90dc82b43a) - **bench:** refactor to use string interpolation in `blas/base/sspr` [(#10333)](https://github.com/stdlib-js/stdlib/pull/10333) _(by Prajjwal Bajpai, Philipp Burckhardt)_
 -   [`5c41472`](https://github.com/stdlib-js/stdlib/commit/5c41472c12ae782ea7dc703108ccbd92405c5397) - **bench:** refactor to use string interpolation in `blas/base/srotm` [(#10314)](https://github.com/stdlib-js/stdlib/pull/10314) _(by Prajjwal Bajpai)_
 -   [`a429a6a`](https://github.com/stdlib-js/stdlib/commit/a429a6abc8c3588478436c91a3ced18c31198948) - **bench:** refactor to use dynamic memory allocation in `blas/base/scopy` [(#10155)](https://github.com/stdlib-js/stdlib/pull/10155) _(by Prajjwal Bajpai)_
 -   [`d86efd1`](https://github.com/stdlib-js/stdlib/commit/d86efd10c0a4bc76a291c78ee8ebde52aa4f4926) - **bench:** refactor to use string interpolation in `blas/base/scopy` [(#10156)](https://github.com/stdlib-js/stdlib/pull/10156) _(by Prajjwal Bajpai)_
