@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-18)
+## Unreleased (2026-02-19)
 
 <section class="features">
 
@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`0e5ccc5`](https://github.com/stdlib-js/stdlib/commit/0e5ccc5a2d4faa9df26004b4931020c4c38eff5e) - **bench:** use string interpolation in `blas/ext/base/ndarray/gsumkbn` [(#10353)](https://github.com/stdlib-js/stdlib/pull/10353) _(by AyushiJain18270)_
 -   [`d7c9e82`](https://github.com/stdlib-js/stdlib/commit/d7c9e8257ce6c5eead817a24a26556c3efb62cf8) - **test:** remove empty line between require statements in `test.dsyr2.js` [(#10288)](https://github.com/stdlib-js/stdlib/pull/10288) _(by Lakshmi Sravya Vedantham, lakshmisravya123)_
 -   [`f834c92`](https://github.com/stdlib-js/stdlib/commit/f834c92ade215691ff1d2d5cf36894e8ed697ffe) - **bench:** refactor to use string interpolation in `blas/ext/base/ndarray/dcusumpw` [(#10329)](https://github.com/stdlib-js/stdlib/pull/10329) _(by AyushiJain18270)_
 -   [`9a18a03`](https://github.com/stdlib-js/stdlib/commit/9a18a03e86bfed34475b176b2732303aab09c86c) - **bench:** refactor to use dynamic memory allocation in `blas/base/sspr` [(#10332)](https://github.com/stdlib-js/stdlib/pull/10332) _(by Prajjwal Bajpai)_
