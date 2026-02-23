@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`ff26214`](https://github.com/stdlib-js/stdlib/commit/ff262145f210fc52950aa2de33b8a746d0bdf805) - **bench:** refactor to use string interpolation in `blas/base/dasum` [(#10411)](https://github.com/stdlib-js/stdlib/pull/10411) _(by Shubham)_
 -   [`23859a1`](https://github.com/stdlib-js/stdlib/commit/23859a1be95fbece6101dd9527c053d029a76f64) - **bench:** refactor to use string interpolation in `blas/base/dznrm2` [(#10410)](https://github.com/stdlib-js/stdlib/pull/10410) _(by Shubham)_
 -   [`0e5ccc5`](https://github.com/stdlib-js/stdlib/commit/0e5ccc5a2d4faa9df26004b4931020c4c38eff5e) - **bench:** use string interpolation in `blas/ext/base/ndarray/gsumkbn` [(#10353)](https://github.com/stdlib-js/stdlib/pull/10353) _(by AyushiJain18270)_
 -   [`d7c9e82`](https://github.com/stdlib-js/stdlib/commit/d7c9e8257ce6c5eead817a24a26556c3efb62cf8) - **test:** remove empty line between require statements in `test.dsyr2.js` [(#10288)](https://github.com/stdlib-js/stdlib/pull/10288) _(by Lakshmi Sravya Vedantham, lakshmisravya123)_
