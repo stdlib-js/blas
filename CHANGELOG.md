@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`2b6a46b`](https://github.com/stdlib-js/stdlib/commit/2b6a46b984472ebff561251d4918c164e2a57b59) - **bench:** refactor to use string interpolation in `blas/base/cswap` [(#10393)](https://github.com/stdlib-js/stdlib/pull/10393) _(by Shubham)_
 -   [`ac99312`](https://github.com/stdlib-js/stdlib/commit/ac99312b4e8b2b6a31bb37a7077399ee35a2c186) - **bench:** refactor to use string interpolation in `blas/base/csrot` [(#10391)](https://github.com/stdlib-js/stdlib/pull/10391) _(by Shubham)_
 -   [`9108058`](https://github.com/stdlib-js/stdlib/commit/9108058ec47102a250344cb84df5e8de2a40435b) - **bench:** refactor to use string interpolation in `blas/base/dnrm2` [(#10408)](https://github.com/stdlib-js/stdlib/pull/10408) _(by Shubham)_
 -   [`25a83a9`](https://github.com/stdlib-js/stdlib/commit/25a83a9791bb03905fa36e7905d5a8551417f578) - **bench:** refactor to use string interpolation in `blas/base/daxpy` [(#10409)](https://github.com/stdlib-js/stdlib/pull/10409) _(by Shubham)_
