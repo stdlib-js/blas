@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`8f2c32e`](https://github.com/stdlib-js/stdlib/commit/8f2c32e8ba9b6f92d5eb397b3ef357ed5edc3d15) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsnansumors` [(#10113)](https://github.com/stdlib-js/stdlib/pull/10113) _(by AyushiJain18270)_
 -   [`7bb3870`](https://github.com/stdlib-js/stdlib/commit/7bb3870f66f09ffa34133204b0e02bc9411c9e6d) - **bench:** refactor to use string interpolation in `blas/base/caxpy` [(#10367)](https://github.com/stdlib-js/stdlib/pull/10367) _(by Shubham)_
 -   [`fc49fa5`](https://github.com/stdlib-js/stdlib/commit/fc49fa5c72ab4433c55f48750ea4cae10446c40c) - **bench:** refactor to use string interpolation in `blas/base/ccopy` [(#10368)](https://github.com/stdlib-js/stdlib/pull/10368) _(by Shubham)_
 -   [`b54e895`](https://github.com/stdlib-js/stdlib/commit/b54e8953f36e1feed4338c25f8e422ab6616ac30) - **bench:** refactor to use string interpolation in `blas/base/csscal` [(#10392)](https://github.com/stdlib-js/stdlib/pull/10392) _(by Shubham)_
