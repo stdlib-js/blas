@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`9f7e9c8`](https://github.com/stdlib-js/stdlib/commit/9f7e9c8319f1557ae399ddde2f912ef86361a9f9) - **docs:** improve doctests for ndarray instances in `ndarray/scusum` [(#10403)](https://github.com/stdlib-js/stdlib/pull/10403) _(by AyushiJain18270)_
 -   [`920af07`](https://github.com/stdlib-js/stdlib/commit/920af071bafa97f0a933d6c3f0d04e33ad7e0b39) - **bench:** refactor to use string interpolation in `blas/base/ssymv` [(#10456)](https://github.com/stdlib-js/stdlib/pull/10456) _(by Lokesh Ranjan)_
 -   [`5b091c2`](https://github.com/stdlib-js/stdlib/commit/5b091c2142b1eb2472a7049910be65fcda5a87bf) - **bench:** refactor to use string interpolation in `blas/base/ssyr` [(#10458)](https://github.com/stdlib-js/stdlib/pull/10458) _(by Lokesh Ranjan)_
 -   [`ce9806d`](https://github.com/stdlib-js/stdlib/commit/ce9806d70a5ca2d24fc81930a0bd84a58203769e) - **bench:** refactor to use string interpolation in `blas/base/ssyr2` [(#10460)](https://github.com/stdlib-js/stdlib/pull/10460) _(by Lokesh Ranjan)_
