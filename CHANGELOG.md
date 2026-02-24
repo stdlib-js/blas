@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`833eeed`](https://github.com/stdlib-js/stdlib/commit/833eeed3643df0fd0d94df57c68065b8ada8a74f) - **bench:** refactor to use string interpolation in `blas/base/sasum` [(#10429)](https://github.com/stdlib-js/stdlib/pull/10429) _(by Shubham)_
 -   [`82e5efd`](https://github.com/stdlib-js/stdlib/commit/82e5efd18ff2c2d276e88e4384e49d5f32c24959) - **bench:** refactor to use string interpolation in `blas/base/scasum` [(#10430)](https://github.com/stdlib-js/stdlib/pull/10430) _(by Shubham)_
 -   [`a8411ae`](https://github.com/stdlib-js/stdlib/commit/a8411ae90fd217e642d0d70ffa6cd2494967f73d) - **bench:** refactor to use string interpolation in `blas/base/scnrm2` [(#10431)](https://github.com/stdlib-js/stdlib/pull/10431) _(by Shubham)_
 -   [`8f2c32e`](https://github.com/stdlib-js/stdlib/commit/8f2c32e8ba9b6f92d5eb397b3ef357ed5edc3d15) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsnansumors` [(#10113)](https://github.com/stdlib-js/stdlib/pull/10113) _(by AyushiJain18270)_
