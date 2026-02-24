@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`9a0fc0a`](https://github.com/stdlib-js/stdlib/commit/9a0fc0a169aba8d7986307a49dcdb5ee6b0eeb15) - **bench:** refactor to use string interpolation in `blas/base/sspmv` [(#10455)](https://github.com/stdlib-js/stdlib/pull/10455) _(by Lokesh Ranjan)_
 -   [`c1755b9`](https://github.com/stdlib-js/stdlib/commit/c1755b981f95c57388279aa966dfc43595434846) - **bench:** refactor to use string interpolation in `blas/base/isamax` [(#10428)](https://github.com/stdlib-js/stdlib/pull/10428) _(by Shubham)_
 -   [`833eeed`](https://github.com/stdlib-js/stdlib/commit/833eeed3643df0fd0d94df57c68065b8ada8a74f) - **bench:** refactor to use string interpolation in `blas/base/sasum` [(#10429)](https://github.com/stdlib-js/stdlib/pull/10429) _(by Shubham)_
 -   [`82e5efd`](https://github.com/stdlib-js/stdlib/commit/82e5efd18ff2c2d276e88e4384e49d5f32c24959) - **bench:** refactor to use string interpolation in `blas/base/scasum` [(#10430)](https://github.com/stdlib-js/stdlib/pull/10430) _(by Shubham)_
@@ -2011,7 +2012,7 @@ A total of 48 issues were closed in this release:
 
 ### Contributors
 
-A total of 61 people contributed to this release. Thank you to the following contributors:
+A total of 62 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -2036,6 +2037,7 @@ A total of 61 people contributed to this release. Thank you to the following con
 -   Lakshmi Sravya Vedantham
 -   Lalit Narayan Yadav
 -   Loay Ahmed
+-   Lokesh Ranjan
 -   Manit Roy
 -   Mohammad Bin Aftab
 -   Muhammad Haris
