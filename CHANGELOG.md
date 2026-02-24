@@ -720,6 +720,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`4be2dc5`](https://github.com/stdlib-js/stdlib/commit/4be2dc517dc9668611f34b2a57c8a90fa5b48d53) - **bench:** refactor to use string interpolation in `blas/base/snrm2` [(#10452)](https://github.com/stdlib-js/stdlib/pull/10452) _(by Lokesh Ranjan)_
 -   [`5faf52b`](https://github.com/stdlib-js/stdlib/commit/5faf52b86b2a03b2ac4434598792700547a5a81f) - **bench:** refactor to use string interpolation in `blas/base/srotg` [(#10453)](https://github.com/stdlib-js/stdlib/pull/10453) _(by Lokesh Ranjan)_
 -   [`78c066a`](https://github.com/stdlib-js/stdlib/commit/78c066ad4f3da1d33317f3188b77ea0436ea7428) - **bench:** refactor to use string interpolation in `blas/base/sscal` [(#10454)](https://github.com/stdlib-js/stdlib/pull/10454) _(by Lokesh Ranjan)_
 -   [`9a0fc0a`](https://github.com/stdlib-js/stdlib/commit/9a0fc0a169aba8d7986307a49dcdb5ee6b0eeb15) - **bench:** refactor to use string interpolation in `blas/base/sspmv` [(#10455)](https://github.com/stdlib-js/stdlib/pull/10455) _(by Lokesh Ranjan)_
