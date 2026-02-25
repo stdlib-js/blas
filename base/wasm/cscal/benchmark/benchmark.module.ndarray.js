@@ -28,7 +28,6 @@ var uniform = require( '@stdlib/random/array/uniform' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var Float32Array = require( '@stdlib/array/float32' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var cscal = require( './../lib' );
 
@@ -138,7 +137,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s::module,pointers:ndarray:len=%d', pkg, len ), opts, f );
+		bench( pkg+'::module,pointers:ndarray:len='+len, opts, f );
 	}
 }
 

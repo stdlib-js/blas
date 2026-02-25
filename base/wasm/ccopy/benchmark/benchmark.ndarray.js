@@ -26,7 +26,6 @@ var uniform = require( '@stdlib/random/array/uniform' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var Complex64Array = require( '@stdlib/array/complex64' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var ccopy = require( './../lib' );
 
@@ -110,7 +109,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:ndarray:len=%d', pkg, len ), opts, f );
+		bench( pkg+':ndarray:len='+len, opts, f );
 	}
 }
 
