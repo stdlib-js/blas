@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var gfindLastIndex = require( './../../../../ext/base/gfind-last-index/lib' );
+var gfindLastIndex = require( './../lib' );
 
 
 // TESTS //

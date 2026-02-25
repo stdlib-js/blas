@@ -21,7 +21,7 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var gfindIndex = require( './../../../../ext/base/gfind-index/lib' );
+var gfindIndex = require( './../lib' );
 
 
 // TESTS //
