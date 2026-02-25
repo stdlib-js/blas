@@ -721,6 +721,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`4ff9eb4`](https://github.com/stdlib-js/stdlib/commit/4ff9eb447269f2a45e7a7deb589e8675e67af11e) - **bench:** refactor to use string interpolation in `blas/base/wasm/cscal` [(#10488)](https://github.com/stdlib-js/stdlib/pull/10488) _(by Shubham)_
 -   [`e7bbe68`](https://github.com/stdlib-js/stdlib/commit/e7bbe68e59ac0a3adb146adab70fb5db47038847) - **bench:** refactor to use string interpolation in `blas/base/wasm/csrot` [(#10489)](https://github.com/stdlib-js/stdlib/pull/10489) _(by Shubham)_
 -   [`3dd5b4f`](https://github.com/stdlib-js/stdlib/commit/3dd5b4fd6aea4394b8a39b587961d2f94c4cdd9c) - **bench:** refactor to use string interpolation in `blas/base/sswap` [(#10491)](https://github.com/stdlib-js/stdlib/pull/10491) _(by Shubham)_
 -   [`6080e64`](https://github.com/stdlib-js/stdlib/commit/6080e640d14b68905c598330ebcb6bb8e415ddd0) - **style:** remove whitespace inside `API_SUFFIX` macro calls _(by Philipp Burckhardt)_
