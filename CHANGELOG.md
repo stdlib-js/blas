@@ -721,6 +721,7 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`3dd5b4f`](https://github.com/stdlib-js/stdlib/commit/3dd5b4fd6aea4394b8a39b587961d2f94c4cdd9c) - **bench:** refactor to use string interpolation in `blas/base/sswap` [(#10491)](https://github.com/stdlib-js/stdlib/pull/10491) _(by Shubham)_
 -   [`6080e64`](https://github.com/stdlib-js/stdlib/commit/6080e640d14b68905c598330ebcb6bb8e415ddd0) - **style:** remove whitespace inside `API_SUFFIX` macro calls _(by Philipp Burckhardt)_
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - **fix:** remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn` _(by Philipp Burckhardt)_
 -   [`c66d383`](https://github.com/stdlib-js/stdlib/commit/c66d383f66a223c0bfc3c099ba59826b8f22c783) - **docs:** add missing semicolons in `blas/ext` TypeScript examples _(by Philipp Burckhardt)_
