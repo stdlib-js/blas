@@ -384,6 +384,7 @@
 
 ### Bug Fixes
 
+-   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
 -   [`0ea192f`](https://github.com/stdlib-js/stdlib/commit/0ea192f53e0a69d4158693c1f4bab555a3a2fde2) - add missing exports comments
 -   [`83c537b`](https://github.com/stdlib-js/stdlib/commit/83c537bacb40e371143295b9493c7d984d9b70ba) - add missing exports comment
 -   [`9d02160`](https://github.com/stdlib-js/stdlib/commit/9d021607aa675ebf1c53796be54565634bedea68) - normalize all dtypes to strings
@@ -720,6 +721,10 @@ A total of 48 issues were closed in this release:
 
 <details>
 
+-   [`6080e64`](https://github.com/stdlib-js/stdlib/commit/6080e640d14b68905c598330ebcb6bb8e415ddd0) - **style:** remove whitespace inside `API_SUFFIX` macro calls _(by Philipp Burckhardt)_
+-   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - **fix:** remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn` _(by Philipp Burckhardt)_
+-   [`c66d383`](https://github.com/stdlib-js/stdlib/commit/c66d383f66a223c0bfc3c099ba59826b8f22c783) - **docs:** add missing semicolons in `blas/ext` TypeScript examples _(by Philipp Burckhardt)_
+-   [`f7191c0`](https://github.com/stdlib-js/stdlib/commit/f7191c093f0607ad6de9b7a21612f36bb3a84d90) - **chore:** use relative paths and remove trailing slashes in require paths _(by Philipp Burckhardt)_
 -   [`a448775`](https://github.com/stdlib-js/stdlib/commit/a44877524a5d66af917bdac7d3e2ea7e74ff6329) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10477)](https://github.com/stdlib-js/stdlib/pull/10477) _(by stdlib-bot)_
 -   [`500788a`](https://github.com/stdlib-js/stdlib/commit/500788a9423352a0e8fd50b7eda644ff8e79c8b9) - **test:** use relative paths _(by Philipp Burckhardt)_
 -   [`9f7e9c8`](https://github.com/stdlib-js/stdlib/commit/9f7e9c8319f1557ae399ddde2f912ef86361a9f9) - **docs:** improve doctests for ndarray instances in `ndarray/scusum` [(#10403)](https://github.com/stdlib-js/stdlib/pull/10403) _(by AyushiJain18270)_
