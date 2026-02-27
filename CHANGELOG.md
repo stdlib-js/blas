@@ -721,8 +721,6 @@ A total of 49 issues were closed in this release:
 
 <details>
 
--   [`34a2bca`](https://github.com/stdlib-js/stdlib/commit/34a2bcac9bd7b76456a57cd7bcbfea5a8da4c7be) - **bench:** refactor to use string interpolation in `blas/base/wasm/dasum` [(#10506)](https://github.com/stdlib-js/stdlib/pull/10506) _(by Shubham)_
--   [`680d163`](https://github.com/stdlib-js/stdlib/commit/680d163820a00a331e89bcd9aabc5fcd3cc8d2c4) - **bench:** refactor to use string interpolation in `blas/base/wasm/ddot` [(#10507)](https://github.com/stdlib-js/stdlib/pull/10507) _(by Shubham)_
 -   [`0024bd6`](https://github.com/stdlib-js/stdlib/commit/0024bd635fe210b1d2a13ccc6abf34633a9cd1d7) - **bench:** refactor to use string interpolation in `blas/base/wasm/dcopy` [(#10508)](https://github.com/stdlib-js/stdlib/pull/10508) _(by Shubham)_
 -   [`ea168c7`](https://github.com/stdlib-js/stdlib/commit/ea168c728e02cb236ed771716c785534b6b77dad) - **bench:** refactor to use string interpolation in `blas/base/wasm/dnrm2` [(#10509)](https://github.com/stdlib-js/stdlib/pull/10509) _(by Shubham)_
 -   [`5e94b53`](https://github.com/stdlib-js/stdlib/commit/5e94b5366163e541eee1767360ac01eecf4a5df4) - **bench:** use string interpolation in `blas/base/dspr` [(#10516)](https://github.com/stdlib-js/stdlib/pull/10516) _(by Om-A-osc)_

@@ -23,7 +23,6 @@
 var bench = require( '@stdlib/bench' );
 var hasWebAssemblySupport = require( '@stdlib/assert/has-wasm-support' );
 var Memory = require( '@stdlib/wasm/memory' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var dasum = require( './../lib' );
 
@@ -37,7 +36,7 @@ var opts = {
 
 // MAIN //
 
-bench( format( '%s:Module:constructor', pkg ), opts, function benchmark( b ) {
+bench( pkg+':Module:constructor', opts, function benchmark( b ) {
 	var values;
 	var o;
 	var v;
