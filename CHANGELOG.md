@@ -721,6 +721,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
 -   [`841ab2e`](https://github.com/stdlib-js/stdlib/commit/841ab2eab4f9ee75fc3c99b0dfc186051061e0bf) - **bench:** refactor to use string interpolation in `blas/base/wasm/daxpy` [(#10505)](https://github.com/stdlib-js/stdlib/pull/10505) _(by Shubham)_
 -   [`34a2bca`](https://github.com/stdlib-js/stdlib/commit/34a2bcac9bd7b76456a57cd7bcbfea5a8da4c7be) - **bench:** refactor to use string interpolation in `blas/base/wasm/dasum` [(#10506)](https://github.com/stdlib-js/stdlib/pull/10506) _(by Shubham)_
 -   [`680d163`](https://github.com/stdlib-js/stdlib/commit/680d163820a00a331e89bcd9aabc5fcd3cc8d2c4) - **bench:** refactor to use string interpolation in `blas/base/wasm/ddot` [(#10507)](https://github.com/stdlib-js/stdlib/pull/10507) _(by Shubham)_
