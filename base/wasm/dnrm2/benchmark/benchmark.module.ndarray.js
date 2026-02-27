@@ -27,7 +27,6 @@ var bytesPerElement = require( '@stdlib/ndarray/base/bytes-per-element' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var dnrm2 = require( './../lib' );
 
@@ -124,7 +123,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s::module,pointers:ndarray:len=%d', pkg, len ), opts, f );
+		bench( pkg+'::module,pointers:ndarray:len='+len, opts, f );
 	}
 }
 
