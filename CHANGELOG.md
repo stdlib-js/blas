@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-26)
+## Unreleased (2026-02-27)
 
 <section class="features">
 
@@ -721,6 +721,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`8bb0e6f`](https://github.com/stdlib-js/stdlib/commit/8bb0e6f15ff0a45a403393551d630830ee0afa05) - **bench:** use string interpolation in `blas/base/dsymv` [(#10521)](https://github.com/stdlib-js/stdlib/pull/10521) _(by Om-A-osc)_
 -   [`a78342c`](https://github.com/stdlib-js/stdlib/commit/a78342cc43324f4c168429d8c76c85691f502faf) - **chore:** fix JavaScript lint errors [(#10482)](https://github.com/stdlib-js/stdlib/pull/10482) _(by Aryan kumar)_
 -   [`872f2fa`](https://github.com/stdlib-js/stdlib/commit/872f2fae9ed2edd497d3fc48dafc129f73dc103d) - **bench:** refactor to use string interpolation in `blas/base/wasm/ccopy` [(#10487)](https://github.com/stdlib-js/stdlib/pull/10487) _(by Shubham)_
 -   [`4ff9eb4`](https://github.com/stdlib-js/stdlib/commit/4ff9eb447269f2a45e7a7deb589e8675e67af11e) - **bench:** refactor to use string interpolation in `blas/base/wasm/cscal` [(#10488)](https://github.com/stdlib-js/stdlib/pull/10488) _(by Shubham)_
