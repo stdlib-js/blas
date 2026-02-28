@@ -724,6 +724,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`5a53af0`](https://github.com/stdlib-js/stdlib/commit/5a53af029ad1dd8b36b11583e3081cf2d61aa06b) - **bench:** refactor to use string interpolation in `blas/ext/base/dapxsumpw` [(#10518)](https://github.com/stdlib-js/stdlib/pull/10518) _(by Kamal Singh Rautela)_
 -   [`8fff79b`](https://github.com/stdlib-js/stdlib/commit/8fff79b16224ab75b57074709c5f8d9d9c9439e5) - **bench:** use string interpolation in `blas/base/dtrmv` [(#10551)](https://github.com/stdlib-js/stdlib/pull/10551) _(by Om-A-osc)_
 -   [`9d4fd4d`](https://github.com/stdlib-js/stdlib/commit/9d4fd4d04449738e03dfc62aab9dce8f9ae4d822) - **bench:** use string interpolation in `blas/base/gasum` [(#10553)](https://github.com/stdlib-js/stdlib/pull/10553) _(by Om-A-osc)_
 -   [`637d083`](https://github.com/stdlib-js/stdlib/commit/637d0837af7524404e244e128e237a07f2e30819) - **bench:** use string interpolation in `blas/base/dtrsv` [(#10552)](https://github.com/stdlib-js/stdlib/pull/10552) _(by Om-A-osc)_
