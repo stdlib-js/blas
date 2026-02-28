@@ -724,6 +724,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`49a4c22`](https://github.com/stdlib-js/stdlib/commit/49a4c224154a4eb0337818c19353046705c9cea5) - **bench:** refactor to use string interpolation in `blas/ext/base/dapxsumkbn2` [(#10575)](https://github.com/stdlib-js/stdlib/pull/10575) _(by Prajjwal Bajpai)_
 -   [`d7c9033`](https://github.com/stdlib-js/stdlib/commit/d7c9033dec5f569d53dd71706ce6f1124e886259) - **feat:** add C implementation for `blas/ext/base/ndarray/dsum` [(#10065)](https://github.com/stdlib-js/stdlib/pull/10065) _(by Kaustubh Patange, Athan Reines)_
 -   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - **feat:** add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734) _(by Muhammad Haris, Athan Reines)_
 -   [`839986d`](https://github.com/stdlib-js/stdlib/commit/839986d9f41ebee28ff3139ec094ab9c8b98d8df) - **test:** ensure dtype equality _(by Athan Reines)_
