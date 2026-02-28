@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-27)
+## Unreleased (2026-02-28)
 
 <section class="features">
 
@@ -721,6 +721,8 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`43e7c3a`](https://github.com/stdlib-js/stdlib/commit/43e7c3ac1af11e9f93a122a2e09d6e0a3b4a2cd5) - **bench:** refactor to use string interpolation in `blas/base/wasm/dsdot` [(#10549)](https://github.com/stdlib-js/stdlib/pull/10549) _(by Shubham)_
+-   [`1f61670`](https://github.com/stdlib-js/stdlib/commit/1f61670cd14e63d5dec2da8950a2d42a76542e4b) - **bench:** refactor to use string interpolation in `blas/base/wasm/drotm` [(#10550)](https://github.com/stdlib-js/stdlib/pull/10550) _(by Shubham)_
 -   [`c890b1a`](https://github.com/stdlib-js/stdlib/commit/c890b1ad0c88bdb2ec57a7e423f835a15947bfd5) - **bench:** refactor to use string interpolation in `blas/ext/base/dcusum` [(#10532)](https://github.com/stdlib-js/stdlib/pull/10532) _(by Kamal Singh Rautela)_
 -   [`3422651`](https://github.com/stdlib-js/stdlib/commit/3422651a3ec2e6717f25d82020a62f00dbe2aa78) - **docs:** add missing section closing comments in READMEs _(by Philipp Burckhardt)_
 -   [`841ab2e`](https://github.com/stdlib-js/stdlib/commit/841ab2eab4f9ee75fc3c99b0dfc186051061e0bf) - **bench:** refactor to use string interpolation in `blas/base/wasm/daxpy` [(#10505)](https://github.com/stdlib-js/stdlib/pull/10505) _(by Shubham)_
