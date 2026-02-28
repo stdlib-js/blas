@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078)
 -   [`d7c9033`](https://github.com/stdlib-js/stdlib/commit/d7c9033dec5f569d53dd71706ce6f1124e886259) - add C implementation for `blas/ext/base/ndarray/dsum` [(#10065)](https://github.com/stdlib-js/stdlib/pull/10065)
 -   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734)
 -   [`55a4c2f`](https://github.com/stdlib-js/stdlib/commit/55a4c2f90ee136423bf8d282893fdf6a3ba805ef) - add `blas/ext/base/drsskbn` [(#9013)](https://github.com/stdlib-js/stdlib/pull/9013)
@@ -724,6 +725,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - **feat:** add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078) _(by Kaustubh Patange, Athan Reines)_
 -   [`5a53af0`](https://github.com/stdlib-js/stdlib/commit/5a53af029ad1dd8b36b11583e3081cf2d61aa06b) - **bench:** refactor to use string interpolation in `blas/ext/base/dapxsumpw` [(#10518)](https://github.com/stdlib-js/stdlib/pull/10518) _(by Kamal Singh Rautela)_
 -   [`8fff79b`](https://github.com/stdlib-js/stdlib/commit/8fff79b16224ab75b57074709c5f8d9d9c9439e5) - **bench:** use string interpolation in `blas/base/dtrmv` [(#10551)](https://github.com/stdlib-js/stdlib/pull/10551) _(by Om-A-osc)_
 -   [`9d4fd4d`](https://github.com/stdlib-js/stdlib/commit/9d4fd4d04449738e03dfc62aab9dce8f9ae4d822) - **bench:** use string interpolation in `blas/base/gasum` [(#10553)](https://github.com/stdlib-js/stdlib/pull/10553) _(by Om-A-osc)_
