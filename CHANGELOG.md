@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734)
 -   [`55a4c2f`](https://github.com/stdlib-js/stdlib/commit/55a4c2f90ee136423bf8d282893fdf6a3ba805ef) - add `blas/ext/base/drsskbn` [(#9013)](https://github.com/stdlib-js/stdlib/pull/9013)
 -   [`19d5fc4`](https://github.com/stdlib-js/stdlib/commit/19d5fc4f36db513023e981a90103c9718eea59ff) - add `blas/ext/base/gsort` [(#9712)](https://github.com/stdlib-js/stdlib/pull/9712)
 -   [`38631fc`](https://github.com/stdlib-js/stdlib/commit/38631fc2f158f3334031ae6a8ac31d0307d46159) - add `blas/ext/base/dsort` [(#9684)](https://github.com/stdlib-js/stdlib/pull/9684)
@@ -722,6 +723,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - **feat:** add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734) _(by Muhammad Haris, Athan Reines)_
 -   [`839986d`](https://github.com/stdlib-js/stdlib/commit/839986d9f41ebee28ff3139ec094ab9c8b98d8df) - **test:** ensure dtype equality _(by Athan Reines)_
 -   [`7620700`](https://github.com/stdlib-js/stdlib/commit/76207003b2d5be09c0bc2b5bf156c691ba224640) - **docs:** fix type _(by Athan Reines)_
 -   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - **fix:** improve type specificity _(by Athan Reines)_
