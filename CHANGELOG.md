@@ -722,6 +722,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`7620700`](https://github.com/stdlib-js/stdlib/commit/76207003b2d5be09c0bc2b5bf156c691ba224640) - **docs:** fix type _(by Athan Reines)_
 -   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - **fix:** improve type specificity _(by Athan Reines)_
 -   [`116c553`](https://github.com/stdlib-js/stdlib/commit/116c5535ab59050c12731f9cff548b0ae3bb8662) - **bench:** refactor to use string interpolation in `blas/base/wasm/dscal` [(#10545)](https://github.com/stdlib-js/stdlib/pull/10545) _(by Shubham)_
 -   [`db9486e`](https://github.com/stdlib-js/stdlib/commit/db9486e09c6c357c40d15ea3685930088827bc4e) - **bench:** refactor to use string interpolation in `blas/base/wasm/drot` [(#10546)](https://github.com/stdlib-js/stdlib/pull/10546) _(by Shubham)_
