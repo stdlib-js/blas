@@ -724,6 +724,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`9d4fd4d`](https://github.com/stdlib-js/stdlib/commit/9d4fd4d04449738e03dfc62aab9dce8f9ae4d822) - **bench:** use string interpolation in `blas/base/gasum` [(#10553)](https://github.com/stdlib-js/stdlib/pull/10553) _(by Om-A-osc)_
 -   [`637d083`](https://github.com/stdlib-js/stdlib/commit/637d0837af7524404e244e128e237a07f2e30819) - **bench:** use string interpolation in `blas/base/dtrsv` [(#10552)](https://github.com/stdlib-js/stdlib/pull/10552) _(by Om-A-osc)_
 -   [`c333671`](https://github.com/stdlib-js/stdlib/commit/c3336710c7caf084fc146ddaed7bb9e02a1bb891) - **bench:** refactor to use dynamic memory allocation in `blas/base/sswap` [(#10573)](https://github.com/stdlib-js/stdlib/pull/10573) _(by Prajjwal Bajpai)_
 -   [`2e03fe9`](https://github.com/stdlib-js/stdlib/commit/2e03fe9e548309edda7bf7c5c66c3f671a9e2daf) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumkbn2` [(#10574)](https://github.com/stdlib-js/stdlib/pull/10574) _(by Prajjwal Bajpai)_
