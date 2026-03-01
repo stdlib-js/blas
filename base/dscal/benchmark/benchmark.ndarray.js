@@ -22,7 +22,6 @@
 
 var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/array/uniform' );
-var format = require( '@stdlib/string/format' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var pkg = require( './../package.json' ).name;
@@ -91,7 +90,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:ndarray:len=%d', pkg, len ), f );
+		bench( pkg+':ndarray:len='+len, f );
 	}
 }
 
