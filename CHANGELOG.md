@@ -726,7 +726,6 @@ A total of 49 issues were closed in this release:
 
 <details>
 
--   [`b0773f9`](https://github.com/stdlib-js/stdlib/commit/b0773f9860652d9260abaca63427be7005566c47) - **bench:** refactor to use string interpolation in `blas/ext/base/gfill` [(#10598)](https://github.com/stdlib-js/stdlib/pull/10598) _(by Kamal Singh Rautela)_
 -   [`05aeb60`](https://github.com/stdlib-js/stdlib/commit/05aeb60441cfa5797b8d55ca9063b3fff3eccdf6) - **bench:** refactor to use string interpolation in `blas/ext/base/gnannsumkbn` [(#10599)](https://github.com/stdlib-js/stdlib/pull/10599) _(by Kamal Singh Rautela)_
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - **fix:** rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum` _(by Philipp Burckhardt)_
 -   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
