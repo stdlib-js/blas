@@ -726,6 +726,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`78769c9`](https://github.com/stdlib-js/stdlib/commit/78769c92ed228492a9e865548593f29f02195123) - **bench:** refactor to use string interpolation in `blas/ext/base/dcusumkbn2` [(#10612)](https://github.com/stdlib-js/stdlib/pull/10612) _(by Prajjwal Bajpai)_
 -   [`ad0f0a5`](https://github.com/stdlib-js/stdlib/commit/ad0f0a54f142e137f1522929a5d6dd8bb32280c8) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dindex-of` [(#10613)](https://github.com/stdlib-js/stdlib/pull/10613) _(by Prajjwal Bajpai)_
 -   [`f411fa5`](https://github.com/stdlib-js/stdlib/commit/f411fa53fac2c98be1d464cf9b5b2d6677653606) - **bench:** refactor to use string interpolation in `blas/ext/base/dindex-of` [(#10614)](https://github.com/stdlib-js/stdlib/pull/10614) _(by Prajjwal Bajpai)_
 -   [`8336cd9`](https://github.com/stdlib-js/stdlib/commit/8336cd990af10cea439e8c2a36a6b006fe907d2e) - **bench:** use string interpolation in `blas/base/dscal` [(#10512)](https://github.com/stdlib-js/stdlib/pull/10512) _(by Om-A-osc)_
