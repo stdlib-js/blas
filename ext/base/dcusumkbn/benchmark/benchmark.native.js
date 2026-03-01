@@ -27,7 +27,6 @@ var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var Float64Array = require( '@stdlib/array/float64' );
 var tryRequire = require( '@stdlib/utils/try-require' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 
 
@@ -107,7 +106,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s::native:len=%d', pkg, len ), opts, f );
+		bench( pkg+'::native:len='+len, opts, f );
 	}
 }
 
