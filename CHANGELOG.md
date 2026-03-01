@@ -726,6 +726,8 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`f992fd9`](https://github.com/stdlib-js/stdlib/commit/f992fd9d5c6d9d1509dd949a0ec8e2347174eaa6) - **bench:** refactor to use string interpolation in `blas/ext/base/dcusumkbn` [(#10594)](https://github.com/stdlib-js/stdlib/pull/10594) _(by Kamal Singh Rautela)_
+-   [`ecc6654`](https://github.com/stdlib-js/stdlib/commit/ecc6654065495c2a63494ce53f2562b63283cbfc) - **bench:** refactor to use string interpolation in `blas/ext/base/dssum` [(#10595)](https://github.com/stdlib-js/stdlib/pull/10595) _(by Kamal Singh Rautela)_
 -   [`5ac94b8`](https://github.com/stdlib-js/stdlib/commit/5ac94b89dc4b92727eab8359e0a9d950c98e40c7) - **bench:** refactor to use string interpolation in `blas/ext/base/gapxsumkbn` [(#10597)](https://github.com/stdlib-js/stdlib/pull/10597) _(by Kamal Singh Rautela)_
 -   [`b0773f9`](https://github.com/stdlib-js/stdlib/commit/b0773f9860652d9260abaca63427be7005566c47) - **bench:** refactor to use string interpolation in `blas/ext/base/gfill` [(#10598)](https://github.com/stdlib-js/stdlib/pull/10598) _(by Kamal Singh Rautela)_
 -   [`05aeb60`](https://github.com/stdlib-js/stdlib/commit/05aeb60441cfa5797b8d55ca9063b3fff3eccdf6) - **bench:** refactor to use string interpolation in `blas/ext/base/gnannsumkbn` [(#10599)](https://github.com/stdlib-js/stdlib/pull/10599) _(by Kamal Singh Rautela)_
