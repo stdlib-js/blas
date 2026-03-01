@@ -726,6 +726,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`a62dd7c`](https://github.com/stdlib-js/stdlib/commit/a62dd7c2fc0d7be93ea3dbb7a8ac479c3bd10bdf) - **bench:** use string interpolation in `blas/base/dswap` [(#10517)](https://github.com/stdlib-js/stdlib/pull/10517) _(by Om-A-osc)_
 -   [`85d50a9`](https://github.com/stdlib-js/stdlib/commit/85d50a9a5e8d44eaf8008c64e5db9fbd809cb14b) - **bench:** refactor to use string interpolation in blas/ext/base/dnannsum [(#10535)](https://github.com/stdlib-js/stdlib/pull/10535) _(by Kamal Singh Rautela)_
 -   [`e82033f`](https://github.com/stdlib-js/stdlib/commit/e82033f3e1a0f1ad99a8ea825c12438e2f9b2d26) - **bench:** refactor to use string interpolation in blas/ext/base/dnannsumkbn [(#10536)](https://github.com/stdlib-js/stdlib/pull/10536) _(by Kamal Singh Rautela)_
 -   [`491c1d6`](https://github.com/stdlib-js/stdlib/commit/491c1d665303b698c8220868eb201ac6467d8805) - **bench:** refactor to use string interpolation in blas/ext/base/dnannsumkbn2 [(#10537)](https://github.com/stdlib-js/stdlib/pull/10537) _(by Kamal Singh Rautela)_
