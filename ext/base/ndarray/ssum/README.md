@@ -121,7 +121,7 @@ console.log( v );
 #include "stdlib/blas/ext/base/ndarray/ssum.h"
 ```
 
-#### stdlib_blas_ssum( arrays )
+#### stdlib_blas_ext_ssum( arrays )
 
 Computes the sum of all elements in a one-dimensional single-precision floating-point ndarray.
 
@@ -143,7 +143,7 @@ struct ndarray *x = stdlib_ndarray_allocate( STDLIB_NDARRAY_FLOAT32, (uint8_t *)
 
 // Compute the sum:
 const struct ndarray *arrays[] = { x };
-float v = stdlib_blas_ssum( arrays );
+float v = stdlib_blas_ext_ssum( arrays );
 // returns 10.0f
 
 // Free allocated memory:
@@ -155,7 +155,7 @@ The function accepts the following arguments:
 -   **arrays**: `[in] struct ndarray**` list containing a one-dimensional input ndarray.
 
 ```c
-float stdlib_blas_ssum( const struct ndarray *arrays[] );
+float stdlib_blas_ext_ssum( const struct ndarray *arrays[] );
 ```
 
 </section>
@@ -224,7 +224,7 @@ int main( void ) {
     const struct ndarray *arrays[] = { x };
 
     // Compute the sum:
-    float v = stdlib_blas_ssum( arrays );
+    float v = stdlib_blas_ext_ssum( arrays );
 
     // Print the result:
     printf( "sum: %f\n", v );

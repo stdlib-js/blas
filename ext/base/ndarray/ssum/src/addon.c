@@ -46,7 +46,7 @@ static napi_value addon( napi_env env, napi_callback_info info ) {
 		return NULL;
 	}
 	// Perform computation:
-	STDLIB_NAPI_CREATE_DOUBLE( env, (double)stdlib_blas_ssum( arrays ), v );
+	STDLIB_NAPI_CREATE_DOUBLE( env, (double)stdlib_blas_ext_ssum( arrays ), v );
 
 	// Free allocated memory:
 	stdlib_ndarray_free( arrays[ 0 ] );

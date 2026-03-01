@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-02-28)
+## Unreleased (2026-03-01)
 
 <section class="features">
 
@@ -387,6 +387,7 @@
 
 ### Bug Fixes
 
+-   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
 -   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - improve type specificity
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
 -   [`0ea192f`](https://github.com/stdlib-js/stdlib/commit/0ea192f53e0a69d4158693c1f4bab555a3a2fde2) - add missing exports comments
@@ -725,6 +726,8 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - **fix:** rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum` _(by Philipp Burckhardt)_
+-   [`95e3a15`](https://github.com/stdlib-js/stdlib/commit/95e3a153b0483dbee7c0d55cb80eee826f0933fb) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - **feat:** add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078) _(by Kaustubh Patange, Athan Reines)_
 -   [`5a53af0`](https://github.com/stdlib-js/stdlib/commit/5a53af029ad1dd8b36b11583e3081cf2d61aa06b) - **bench:** refactor to use string interpolation in `blas/ext/base/dapxsumpw` [(#10518)](https://github.com/stdlib-js/stdlib/pull/10518) _(by Kamal Singh Rautela)_
 -   [`8fff79b`](https://github.com/stdlib-js/stdlib/commit/8fff79b16224ab75b57074709c5f8d9d9c9439e5) - **bench:** use string interpolation in `blas/base/dtrmv` [(#10551)](https://github.com/stdlib-js/stdlib/pull/10551) _(by Om-A-osc)_
