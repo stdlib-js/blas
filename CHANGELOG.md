@@ -726,6 +726,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ceffd77`](https://github.com/stdlib-js/stdlib/commit/ceffd77b7979af5b1ea1799dee084a65c82b4526) - **bench:** refactor to use string interpolation in `blas/base/sgemm` [(#10490)](https://github.com/stdlib-js/stdlib/pull/10490) _(by Shubham, Philipp Burckhardt)_
 -   [`d244f4c`](https://github.com/stdlib-js/stdlib/commit/d244f4cc4c04b774c1c5e8372b013832140f2342) - **bench:** refactor to use string interpolation in `blas/ext/base/dasumpw` [(#10610)](https://github.com/stdlib-js/stdlib/pull/10610) _(by Prajjwal Bajpai)_
 -   [`57a3d9d`](https://github.com/stdlib-js/stdlib/commit/57a3d9dd0af3d39cdb470c353d9edca50913ba98) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dcusumkbn2` [(#10611)](https://github.com/stdlib-js/stdlib/pull/10611) _(by Prajjwal Bajpai)_
