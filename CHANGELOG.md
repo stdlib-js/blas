@@ -726,6 +726,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`3e083af`](https://github.com/stdlib-js/stdlib/commit/3e083af31f5fc9950048b32c12a4b8c29749bb4b) - **bench:** use string interpolation in `blas/base/layout-resolve-enum` [(#10639)](https://github.com/stdlib-js/stdlib/pull/10639) _(by Om-A-osc)_
 -   [`f6cd485`](https://github.com/stdlib-js/stdlib/commit/f6cd485f63fe0b928849b5b8f78276e1802066b5) - **bench:** refactor to use string interpolation in `blas/ext/base/dlast-index-of` [(#10641)](https://github.com/stdlib-js/stdlib/pull/10641) _(by Prajjwal Bajpai)_
 -   [`dbaa3a7`](https://github.com/stdlib-js/stdlib/commit/dbaa3a787a2c6c9e1277d069e68d326e7fe45a6d) - **bench:** refactor to use string interpolation in `blas/ext/base/dlinspace` [(#10643)](https://github.com/stdlib-js/stdlib/pull/10643) _(by Prajjwal Bajpai)_
 -   [`4310d8b`](https://github.com/stdlib-js/stdlib/commit/4310d8bfe49580a9a170d96a984b33529dfa9ca1) - **bench:** refactor to use string interpolation in `blas/ext/base/dnanasumors` [(#10646)](https://github.com/stdlib-js/stdlib/pull/10646) _(by Prajjwal Bajpai)_
