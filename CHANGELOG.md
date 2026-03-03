@@ -726,6 +726,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`cae80a6`](https://github.com/stdlib-js/stdlib/commit/cae80a65d0b09b4edb6f0f26e35918133bdb03fc) - **bench:** use string interpolation in `blas/base/idamax` [(#10637)](https://github.com/stdlib-js/stdlib/pull/10637) _(by Om-A-osc)_
 -   [`5e7f879`](https://github.com/stdlib-js/stdlib/commit/5e7f8796c3680e1b505342ac1b9b3f1f5c419b51) - **bench:** use string interpolation in `blas/base/igamax` [(#10638)](https://github.com/stdlib-js/stdlib/pull/10638) _(by Om-A-osc)_
 -   [`3e083af`](https://github.com/stdlib-js/stdlib/commit/3e083af31f5fc9950048b32c12a4b8c29749bb4b) - **bench:** use string interpolation in `blas/base/layout-resolve-enum` [(#10639)](https://github.com/stdlib-js/stdlib/pull/10639) _(by Om-A-osc)_
 -   [`f6cd485`](https://github.com/stdlib-js/stdlib/commit/f6cd485f63fe0b928849b5b8f78276e1802066b5) - **bench:** refactor to use string interpolation in `blas/ext/base/dlast-index-of` [(#10641)](https://github.com/stdlib-js/stdlib/pull/10641) _(by Prajjwal Bajpai)_
