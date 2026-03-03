@@ -726,6 +726,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`d4d6328`](https://github.com/stdlib-js/stdlib/commit/d4d63285f41a4c1c7d4311366a84aa28ec2c35fc) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnannsumkbn2` [(#10653)](https://github.com/stdlib-js/stdlib/pull/10653) _(by Prajjwal Bajpai)_
 -   [`a8e6f76`](https://github.com/stdlib-js/stdlib/commit/a8e6f760cc0b04517c3765f5bb7daa4df4932564) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnannsumors` [(#10654)](https://github.com/stdlib-js/stdlib/pull/10654) _(by Prajjwal Bajpai)_
 -   [`605b1df`](https://github.com/stdlib-js/stdlib/commit/605b1dfa2f484bb76264475b1308c883a08eab75) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`ceffd77`](https://github.com/stdlib-js/stdlib/commit/ceffd77b7979af5b1ea1799dee084a65c82b4526) - **bench:** refactor to use string interpolation in `blas/base/sgemm` [(#10490)](https://github.com/stdlib-js/stdlib/pull/10490) _(by Shubham, Philipp Burckhardt)_
