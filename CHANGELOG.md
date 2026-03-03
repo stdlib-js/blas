@@ -726,6 +726,7 @@ A total of 49 issues were closed in this release:
 
 <details>
 
+-   [`c8c5967`](https://github.com/stdlib-js/stdlib/commit/c8c59670058483712917ca30934bd64b54ef43cb) - **bench:** use string interpolation in `blas/base/gdot` [(#10630)](https://github.com/stdlib-js/stdlib/pull/10630) _(by Om-A-osc)_
 -   [`0a04e3a`](https://github.com/stdlib-js/stdlib/commit/0a04e3a7ee2aa25b2f6ae417f0575aa7c07f5781) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnanasumors` [(#10645)](https://github.com/stdlib-js/stdlib/pull/10645) _(by Prajjwal Bajpai)_
 -   [`35ea0d4`](https://github.com/stdlib-js/stdlib/commit/35ea0d4dbf9ebf0c5b023027b3624c2b95fd2cad) - **bench:** use string interpolation in `blas/base/ggemv` [(#10631)](https://github.com/stdlib-js/stdlib/pull/10631) _(by Om-A-osc)_
 -   [`92f02f1`](https://github.com/stdlib-js/stdlib/commit/92f02f17f30a0af998f0441777138c56678e1d84) - **bench:** use string interpolation in `blas/base/gger` [(#10632)](https://github.com/stdlib-js/stdlib/pull/10632) _(by Om-A-osc)_
