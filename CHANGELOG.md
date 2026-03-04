@@ -726,6 +726,9 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`c8d626b`](https://github.com/stdlib-js/stdlib/commit/c8d626b5b79c93a1d186c11abda9bc914437208d) - **bench:** refactor to use string interpolation in blas/ext/base/dcusumors [(#10684)](https://github.com/stdlib-js/stdlib/pull/10684) _(by Kamal Singh Rautela)_
+-   [`5580cbf`](https://github.com/stdlib-js/stdlib/commit/5580cbfe037815ebde8175b87c07a9b38c172a93) - **bench:** refactor to use string interpolation in blas/ext/base/drrss [(#10685)](https://github.com/stdlib-js/stdlib/pull/10685) _(by Kamal Singh Rautela)_
+-   [`ba0442d`](https://github.com/stdlib-js/stdlib/commit/ba0442d78dfb95a369e6b8009fc98a4f6e950738) - **bench:** refactor to use string interpolation in blas/ext/base/dsumkbn [(#10686)](https://github.com/stdlib-js/stdlib/pull/10686) _(by Kamal Singh Rautela)_
 -   [`3c77fef`](https://github.com/stdlib-js/stdlib/commit/3c77fefb397dfb4eee466d40c2aeedbc2196b06f) - **bench:** refactor to use string interpolation in blas/ext/base/dsumkbn2 [(#10687)](https://github.com/stdlib-js/stdlib/pull/10687) _(by Kamal Singh Rautela)_
 -   [`46a5202`](https://github.com/stdlib-js/stdlib/commit/46a52026e28300a929d47b5f730170f0e1110b6a) - **bench:** refactor to use string interpolation in blas/ext/base/dsumors [(#10688)](https://github.com/stdlib-js/stdlib/pull/10688) _(by Kamal Singh Rautela)_
 -   [`121fdcb`](https://github.com/stdlib-js/stdlib/commit/121fdcb93d35bc185984e33c19f483770dc6b5f7) - **chore:** fix JavaScript lint errors (issue #10621) [(#10623)](https://github.com/stdlib-js/stdlib/pull/10623) _(by Partha Das)_
