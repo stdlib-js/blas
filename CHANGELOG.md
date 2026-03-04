@@ -726,6 +726,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`cc8c008`](https://github.com/stdlib-js/stdlib/commit/cc8c0087de7e9cfe07db74a221e2e1c69f5489e8) - **bench:** refactor to use string interpolation in blas/ext/base/dapxsum [(#10679)](https://github.com/stdlib-js/stdlib/pull/10679) _(by Kamal Singh Rautela)_
 -   [`25b2be0`](https://github.com/stdlib-js/stdlib/commit/25b2be0b4c022edb83dbf1ad118f6421525246af) - **bench:** refactor to use string interpolation in blas/ext/base/dapxsumors [(#10680)](https://github.com/stdlib-js/stdlib/pull/10680) _(by Kamal Singh Rautela)_
 -   [`e2500d8`](https://github.com/stdlib-js/stdlib/commit/e2500d89064c91840b42ee708a55da88a05b8a7b) - **bench:** refactor to use string interpolation in blas/ext/base/drev [(#10683)](https://github.com/stdlib-js/stdlib/pull/10683) _(by Kamal Singh Rautela)_
 -   [`c8d626b`](https://github.com/stdlib-js/stdlib/commit/c8d626b5b79c93a1d186c11abda9bc914437208d) - **bench:** refactor to use string interpolation in blas/ext/base/dcusumors [(#10684)](https://github.com/stdlib-js/stdlib/pull/10684) _(by Kamal Singh Rautela)_
