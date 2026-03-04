@@ -726,6 +726,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`46a5202`](https://github.com/stdlib-js/stdlib/commit/46a52026e28300a929d47b5f730170f0e1110b6a) - **bench:** refactor to use string interpolation in blas/ext/base/dsumors [(#10688)](https://github.com/stdlib-js/stdlib/pull/10688) _(by Kamal Singh Rautela)_
 -   [`121fdcb`](https://github.com/stdlib-js/stdlib/commit/121fdcb93d35bc185984e33c19f483770dc6b5f7) - **chore:** fix JavaScript lint errors (issue #10621) [(#10623)](https://github.com/stdlib-js/stdlib/pull/10623) _(by Partha Das)_
 -   [`c8c5967`](https://github.com/stdlib-js/stdlib/commit/c8c59670058483712917ca30934bd64b54ef43cb) - **bench:** use string interpolation in `blas/base/gdot` [(#10630)](https://github.com/stdlib-js/stdlib/pull/10630) _(by Om-A-osc)_
 -   [`0a04e3a`](https://github.com/stdlib-js/stdlib/commit/0a04e3a7ee2aa25b2f6ae417f0575aa7c07f5781) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnanasumors` [(#10645)](https://github.com/stdlib-js/stdlib/pull/10645) _(by Prajjwal Bajpai)_
