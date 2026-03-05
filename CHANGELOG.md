@@ -726,6 +726,7 @@ A total of 50 issues were closed in this release:
 
 <details>
 
+-   [`0e9fa94`](https://github.com/stdlib-js/stdlib/commit/0e9fa94fed73fa94a657f5596a3de997aa9a5473) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumpw` [(#10607)](https://github.com/stdlib-js/stdlib/pull/10607) _(by Prajjwal Bajpai)_
 -   [`727913e`](https://github.com/stdlib-js/stdlib/commit/727913e9b2237fea29d90d1d6cb39c44ea904de7) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dasumpw` [(#10608)](https://github.com/stdlib-js/stdlib/pull/10608) _(by Prajjwal Bajpai)_
 -   [`cc8c008`](https://github.com/stdlib-js/stdlib/commit/cc8c0087de7e9cfe07db74a221e2e1c69f5489e8) - **bench:** refactor to use string interpolation in blas/ext/base/dapxsum [(#10679)](https://github.com/stdlib-js/stdlib/pull/10679) _(by Kamal Singh Rautela)_
 -   [`25b2be0`](https://github.com/stdlib-js/stdlib/commit/25b2be0b4c022edb83dbf1ad118f6421525246af) - **bench:** refactor to use string interpolation in blas/ext/base/dapxsumors [(#10680)](https://github.com/stdlib-js/stdlib/pull/10680) _(by Kamal Singh Rautela)_
