@@ -726,6 +726,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`1dc0aa4`](https://github.com/stdlib-js/stdlib/commit/1dc0aa4201f948f2c61466728be8f46b3273cf5f) - **docs:** improve doctests for ndarray instances in `blas/ddot` [(#10720)](https://github.com/stdlib-js/stdlib/pull/10720) _(by Aniket Sonawane)_
 -   [`fd40b63`](https://github.com/stdlib-js/stdlib/commit/fd40b63056d9bec36f7be2ad30cabf036efaa301) - **chore:** fix JavaScript lint errors [(#10723)](https://github.com/stdlib-js/stdlib/pull/10723) _(by Partha Das)_
 -   [`0e9fa94`](https://github.com/stdlib-js/stdlib/commit/0e9fa94fed73fa94a657f5596a3de997aa9a5473) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumpw` [(#10607)](https://github.com/stdlib-js/stdlib/pull/10607) _(by Prajjwal Bajpai)_
 -   [`727913e`](https://github.com/stdlib-js/stdlib/commit/727913e9b2237fea29d90d1d6cb39c44ea904de7) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dasumpw` [(#10608)](https://github.com/stdlib-js/stdlib/pull/10608) _(by Prajjwal Bajpai)_
@@ -2128,12 +2129,13 @@ A total of 51 issues were closed in this release:
 
 ### Contributors
 
-A total of 65 people contributed to this release. Thank you to the following contributors:
+A total of 66 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
 -   Almunazza
 -   Aman Bhansali
+-   Aniket Sonawane
 -   Aryan kumar
 -   Athan Reines
 -   Atharv1405
