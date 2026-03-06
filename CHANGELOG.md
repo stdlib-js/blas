@@ -387,6 +387,7 @@
 
 ### Bug Fixes
 
+-   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707)
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
 -   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - improve type specificity
 -   [`383707f`](https://github.com/stdlib-js/stdlib/commit/383707fb11279899f663267e47dcb303070f63b4) - remove erroneous `browser` field excluding `ndarray` method in `stats/strided/mskminabs` and `blas/ext/base/gnannsumkbn`
@@ -726,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - **fix:** correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707) _(by Dhruvan Gnanadhandayuthapani)_
 -   [`1dc0aa4`](https://github.com/stdlib-js/stdlib/commit/1dc0aa4201f948f2c61466728be8f46b3273cf5f) - **docs:** improve doctests for ndarray instances in `blas/ddot` [(#10720)](https://github.com/stdlib-js/stdlib/pull/10720) _(by Aniket Sonawane)_
 -   [`fd40b63`](https://github.com/stdlib-js/stdlib/commit/fd40b63056d9bec36f7be2ad30cabf036efaa301) - **chore:** fix JavaScript lint errors [(#10723)](https://github.com/stdlib-js/stdlib/pull/10723) _(by Partha Das)_
 -   [`0e9fa94`](https://github.com/stdlib-js/stdlib/commit/0e9fa94fed73fa94a657f5596a3de997aa9a5473) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dapxsumpw` [(#10607)](https://github.com/stdlib-js/stdlib/pull/10607) _(by Prajjwal Bajpai)_
@@ -2129,7 +2131,7 @@ A total of 51 issues were closed in this release:
 
 ### Contributors
 
-A total of 66 people contributed to this release. Thank you to the following contributors:
+A total of 67 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -2141,6 +2143,7 @@ A total of 66 people contributed to this release. Thank you to the following con
 -   Atharv1405
 -   AyushiJain18270
 -   Bhargav Dabhade
+-   Dhruvan Gnanadhandayuthapani
 -   DivitJain26
 -   Divyanshu
 -   Diyan
