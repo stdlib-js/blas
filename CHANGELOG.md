@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-06)
+## Unreleased (2026-03-07)
 
 <section class="features">
 
@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`5ed244e`](https://github.com/stdlib-js/stdlib/commit/5ed244ee6047477f423d968a9b494a81c8864c46) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/ssumpw` [(#10776)](https://github.com/stdlib-js/stdlib/pull/10776) _(by Prajjwal Bajpai)_
 -   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - **fix:** correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707) _(by Dhruvan Gnanadhandayuthapani)_
 -   [`1dc0aa4`](https://github.com/stdlib-js/stdlib/commit/1dc0aa4201f948f2c61466728be8f46b3273cf5f) - **docs:** improve doctests for ndarray instances in `blas/ddot` [(#10720)](https://github.com/stdlib-js/stdlib/pull/10720) _(by Aniket Sonawane)_
 -   [`fd40b63`](https://github.com/stdlib-js/stdlib/commit/fd40b63056d9bec36f7be2ad30cabf036efaa301) - **chore:** fix JavaScript lint errors [(#10723)](https://github.com/stdlib-js/stdlib/pull/10723) _(by Partha Das)_
