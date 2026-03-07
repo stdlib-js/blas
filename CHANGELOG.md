@@ -727,6 +727,8 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`ef95ace`](https://github.com/stdlib-js/stdlib/commit/ef95ace0e3be3eef2cd063badcf88252a6706734) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sdssum` [(#10763)](https://github.com/stdlib-js/stdlib/pull/10763) _(by Prajjwal Bajpai)_
+-   [`ec69441`](https://github.com/stdlib-js/stdlib/commit/ec69441600191d157aadcdfa908b8609d8660c05) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sdssumpw` [(#10764)](https://github.com/stdlib-js/stdlib/pull/10764) _(by Prajjwal Bajpai)_
 -   [`71e6ce1`](https://github.com/stdlib-js/stdlib/commit/71e6ce12aa606b929239587830d6881cad04855d) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sfill` [(#10765)](https://github.com/stdlib-js/stdlib/pull/10765) _(by Prajjwal Bajpai)_
 -   [`5631ee3`](https://github.com/stdlib-js/stdlib/commit/5631ee3a2888adafe52f58704ef0164c44f26f8f) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sindex-of` [(#10766)](https://github.com/stdlib-js/stdlib/pull/10766) _(by Prajjwal Bajpai)_
 -   [`789b5e2`](https://github.com/stdlib-js/stdlib/commit/789b5e2aa6129b72bd4d7304ad29be9ff37faeaf) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/slast-index-of` [(#10767)](https://github.com/stdlib-js/stdlib/pull/10767) _(by Prajjwal Bajpai)_
