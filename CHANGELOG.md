@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`e149607`](https://github.com/stdlib-js/stdlib/commit/e1496079a30f0c44bd840ac4585c97ad57e2c4cd) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sapxsumpw` [(#10757)](https://github.com/stdlib-js/stdlib/pull/10757) _(by Prajjwal Bajpai)_
 -   [`bfced81`](https://github.com/stdlib-js/stdlib/commit/bfced813ceaa65fce10f67b427e7ac551317e5d6) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sasumpw` [(#10758)](https://github.com/stdlib-js/stdlib/pull/10758) _(by Prajjwal Bajpai)_
 -   [`24a5f5b`](https://github.com/stdlib-js/stdlib/commit/24a5f5b38a0257c37a3bb81ab6eb846bfdd7dbfe) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sdsapxsum` [(#10759)](https://github.com/stdlib-js/stdlib/pull/10759) _(by Prajjwal Bajpai)_
 -   [`cdc7b56`](https://github.com/stdlib-js/stdlib/commit/cdc7b56915af02e725d29f40216be57bacc69bc9) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/sdsapxsumpw` [(#10760)](https://github.com/stdlib-js/stdlib/pull/10760) _(by Prajjwal Bajpai)_
