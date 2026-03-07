@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`69589e5`](https://github.com/stdlib-js/stdlib/commit/69589e5f144ccd841a19e4afcc986d2f90cbb900) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/slinspace` [(#10768)](https://github.com/stdlib-js/stdlib/pull/10768) _(by Prajjwal Bajpai)_
 -   [`c8299c8`](https://github.com/stdlib-js/stdlib/commit/c8299c8742aae38d379e1f213135fd8616dc935a) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansum` [(#10769)](https://github.com/stdlib-js/stdlib/pull/10769) _(by Prajjwal Bajpai)_
 -   [`4964a4a`](https://github.com/stdlib-js/stdlib/commit/4964a4a50c8a60aa826599089c06e6deb9812e08) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansumkbn` [(#10770)](https://github.com/stdlib-js/stdlib/pull/10770) _(by Prajjwal Bajpai)_
 -   [`a2693db`](https://github.com/stdlib-js/stdlib/commit/a2693dbe8cc4423dc5e12c207b0fac9f66440cd2) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/snansumkbn2` [(#10771)](https://github.com/stdlib-js/stdlib/pull/10771) _(by Prajjwal Bajpai)_
