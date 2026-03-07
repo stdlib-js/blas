@@ -727,8 +727,6 @@ A total of 51 issues were closed in this release:
 
 <details>
 
--   [`84a5b0a`](https://github.com/stdlib-js/stdlib/commit/84a5b0adbab8424b0e1e5b96610edf6df31eb98b) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/ssum` [(#10773)](https://github.com/stdlib-js/stdlib/pull/10773) _(by Prajjwal Bajpai)_
--   [`5059f23`](https://github.com/stdlib-js/stdlib/commit/5059f2330c008e2a97f8d8a3931d23536d38c6a0) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/ssumkbn2` [(#10774)](https://github.com/stdlib-js/stdlib/pull/10774) _(by Prajjwal Bajpai)_
 -   [`8b5ae6f`](https://github.com/stdlib-js/stdlib/commit/8b5ae6ff28fa91a5494328a3a6481a0e855542ab) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/ssumors` [(#10775)](https://github.com/stdlib-js/stdlib/pull/10775) _(by Prajjwal Bajpai)_
 -   [`5ed244e`](https://github.com/stdlib-js/stdlib/commit/5ed244ee6047477f423d968a9b494a81c8864c46) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/ssumpw` [(#10776)](https://github.com/stdlib-js/stdlib/pull/10776) _(by Prajjwal Bajpai)_
 -   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - **fix:** correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707) _(by Dhruvan Gnanadhandayuthapani)_
