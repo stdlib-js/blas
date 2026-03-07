@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`a8f58e8`](https://github.com/stdlib-js/stdlib/commit/a8f58e85d51447565496639ff55fec3fbbfe0212) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dlinspace` [(#10741)](https://github.com/stdlib-js/stdlib/pull/10741) _(by Aniket Sonawane)_
 -   [`2892bd5`](https://github.com/stdlib-js/stdlib/commit/2892bd5b7f023ad2bbb1f644f7a0691d070143a1) - **docs:** update `blas` TypeScript declarations [(#10793)](https://github.com/stdlib-js/stdlib/pull/10793) _(by stdlib-bot)_
 -   [`5e4ca5b`](https://github.com/stdlib-js/stdlib/commit/5e4ca5b367081cf17ec0d201e722609598b2c4d9) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dnannsumpw` [(#10742)](https://github.com/stdlib-js/stdlib/pull/10742) _(by Prajjwal Bajpai)_
 -   [`8c645eb`](https://github.com/stdlib-js/stdlib/commit/8c645eb0cf64aa26ad02168e41e02587d4bc0d9b) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/drev` [(#10743)](https://github.com/stdlib-js/stdlib/pull/10743) _(by Prajjwal Bajpai)_
