@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`5ee28a1`](https://github.com/stdlib-js/stdlib/commit/5ee28a102d197b6c15b43e30c9f94c632a1beb85) - **bench:** refactor to use string interpolation in blas/ext/base/gapxsumkbn2 [(#10815)](https://github.com/stdlib-js/stdlib/pull/10815) _(by Kamal Singh Rautela)_
 -   [`89100b8`](https://github.com/stdlib-js/stdlib/commit/89100b8756289ccfd440069cbbc253d480352102) - **bench:** refactor to use string interpolation in blas/ext/base/gcusum [(#10816)](https://github.com/stdlib-js/stdlib/pull/10816) _(by Kamal Singh Rautela)_
 -   [`041cda0`](https://github.com/stdlib-js/stdlib/commit/041cda0c07550e530ad445b3f5612adea9bcc2d2) - **bench:** refactor to use string interpolation in blas/ext/base/glast-index-of [(#10817)](https://github.com/stdlib-js/stdlib/pull/10817) _(by Kamal Singh Rautela)_
 -   [`0f36255`](https://github.com/stdlib-js/stdlib/commit/0f362554d1999b233a60616232d914ff82eb5bb8) - **bench:** refactor to use string interpolation in blas/ext/base/gsort2ins [(#10818)](https://github.com/stdlib-js/stdlib/pull/10818) _(by Kamal Singh Rautela)_
