@@ -727,6 +727,8 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`b0892e4`](https://github.com/stdlib-js/stdlib/commit/b0892e4fb1447bdfe78a602136537369dd45fd6f) - **bench:** refactor to use string interpolation in blas/ext/to-sortedhp [(#10830)](https://github.com/stdlib-js/stdlib/pull/10830) _(by Kamal Singh Rautela)_
+-   [`7a0de75`](https://github.com/stdlib-js/stdlib/commit/7a0de756636e7d90355dff3bb7023f339154384f) - **bench:** refactor to use string interpolation in blas/sdot [(#10831)](https://github.com/stdlib-js/stdlib/pull/10831) _(by Kamal Singh Rautela)_
 -   [`0b42f76`](https://github.com/stdlib-js/stdlib/commit/0b42f762488cbfac85195af43eec9454d714bf91) - **bench:** refactor to use string interpolation in blas/tools/swap-factory [(#10832)](https://github.com/stdlib-js/stdlib/pull/10832) _(by Kamal Singh Rautela)_
 -   [`a8f58e8`](https://github.com/stdlib-js/stdlib/commit/a8f58e85d51447565496639ff55fec3fbbfe0212) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dlinspace` [(#10741)](https://github.com/stdlib-js/stdlib/pull/10741) _(by Aniket Sonawane)_
 -   [`2892bd5`](https://github.com/stdlib-js/stdlib/commit/2892bd5b7f023ad2bbb1f644f7a0691d070143a1) - **docs:** update `blas` TypeScript declarations [(#10793)](https://github.com/stdlib-js/stdlib/pull/10793) _(by stdlib-bot)_
