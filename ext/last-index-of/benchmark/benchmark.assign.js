@@ -26,7 +26,6 @@ var pow = require( '@stdlib/math/base/special/pow' );
 var uniform = require( '@stdlib/random/array/uniform' );
 var zeros = require( '@stdlib/ndarray/zeros' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var lastIndexOf = require( './../lib' );
 
@@ -107,7 +106,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:assign:dtype=%s,len=%d', pkg, options.dtype, len ), f );
+		bench( pkg+':assign:dtype='+options.dtype+',len='+len, f );
 	}
 }
 
