@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`65c6f12`](https://github.com/stdlib-js/stdlib/commit/65c6f12da87e86f496ee12c8e7045f100773af00) - **bench:** refactor to use string interpolation in blas/ddot [(#10813)](https://github.com/stdlib-js/stdlib/pull/10813) _(by Kamal Singh Rautela)_
 -   [`0abbc3a`](https://github.com/stdlib-js/stdlib/commit/0abbc3a05ed90414ddd2448afb8320f0f795607b) - **bench:** refactor to use string interpolation in blas/ext/base/dapxsumkbn [(#10814)](https://github.com/stdlib-js/stdlib/pull/10814) _(by Kamal Singh Rautela)_
 -   [`7d63533`](https://github.com/stdlib-js/stdlib/commit/7d63533e0bbced363f0ae9f4e536cd5d7690c226) - **bench:** refactor to use string interpolation in blas/ext/base/snansumpw [(#10820)](https://github.com/stdlib-js/stdlib/pull/10820) _(by Kamal Singh Rautela)_
 -   [`3c79af8`](https://github.com/stdlib-js/stdlib/commit/3c79af8ce70c17b691c222e53e6819b3d788fdfb) - **bench:** refactor to use string interpolation in blas/ext/base/ssumkbn [(#10821)](https://github.com/stdlib-js/stdlib/pull/10821) _(by Kamal Singh Rautela)_
