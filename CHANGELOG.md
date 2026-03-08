@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`117fa4e`](https://github.com/stdlib-js/stdlib/commit/117fa4e7727d7c1d2a13fa34d2b67fbbb0b8f1b4) - **bench:** refactor to use string interpolation in blas/ext/sorthp [(#10828)](https://github.com/stdlib-js/stdlib/pull/10828) _(by Kamal Singh Rautela)_
 -   [`e5fc67c`](https://github.com/stdlib-js/stdlib/commit/e5fc67cfc9f597d0fa47ae250ce7420341525497) - **bench:** refactor to use string interpolation in blas/ext/sum [(#10829)](https://github.com/stdlib-js/stdlib/pull/10829) _(by Kamal Singh Rautela)_
 -   [`b0892e4`](https://github.com/stdlib-js/stdlib/commit/b0892e4fb1447bdfe78a602136537369dd45fd6f) - **bench:** refactor to use string interpolation in blas/ext/to-sortedhp [(#10830)](https://github.com/stdlib-js/stdlib/pull/10830) _(by Kamal Singh Rautela)_
 -   [`7a0de75`](https://github.com/stdlib-js/stdlib/commit/7a0de756636e7d90355dff3bb7023f339154384f) - **bench:** refactor to use string interpolation in blas/sdot [(#10831)](https://github.com/stdlib-js/stdlib/pull/10831) _(by Kamal Singh Rautela)_
