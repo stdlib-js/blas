@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-09)
+## Unreleased (2026-03-12)
 
 <section class="features">
 
@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`3fc0d14`](https://github.com/stdlib-js/stdlib/commit/3fc0d14a4d2c612972f412dc76ceca1f056f0207) - **bench:** refactor to use string interpolation in `blas/ext/base/ssorthp` [(#10896)](https://github.com/stdlib-js/stdlib/pull/10896) _(by Partha Das)_
 -   [`5ee2387`](https://github.com/stdlib-js/stdlib/commit/5ee238783bec8d29308ff494cf1712f267e89acc) - **docs:** update `blas/ext/base/ndarray` TypeScript declarations [(#10803)](https://github.com/stdlib-js/stdlib/pull/10803) _(by stdlib-bot)_
 -   [`65c6f12`](https://github.com/stdlib-js/stdlib/commit/65c6f12da87e86f496ee12c8e7045f100773af00) - **bench:** refactor to use string interpolation in blas/ddot [(#10813)](https://github.com/stdlib-js/stdlib/pull/10813) _(by Kamal Singh Rautela)_
 -   [`0abbc3a`](https://github.com/stdlib-js/stdlib/commit/0abbc3a05ed90414ddd2448afb8320f0f795607b) - **bench:** refactor to use string interpolation in blas/ext/base/dapxsumkbn [(#10814)](https://github.com/stdlib-js/stdlib/pull/10814) _(by Kamal Singh Rautela)_
