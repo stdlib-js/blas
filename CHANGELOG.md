@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`12305c2`](https://github.com/stdlib-js/stdlib/commit/12305c2f852bd54ea9c4b6bce68a01438c0153ed) - **bench:** refactor to use string interpolation in `blas/ext/base/ssumkbn2` [(#10892)](https://github.com/stdlib-js/stdlib/pull/10892) _(by Partha Das)_
 -   [`650dc29`](https://github.com/stdlib-js/stdlib/commit/650dc29842a569f2edf461ba5f1fe8f0d5e69a83) - **bench:** refactor to use string interpolation in `blas/ext/base/ssum` [(#10893)](https://github.com/stdlib-js/stdlib/pull/10893) _(by Partha Das)_
 -   [`0cbc854`](https://github.com/stdlib-js/stdlib/commit/0cbc854085acdfafd0146f41ad1379e04b8cd980) - **bench:** refactor to use string interpolation in `blas/ext/base/ssortsh` [(#10894)](https://github.com/stdlib-js/stdlib/pull/10894) _(by Partha Das)_
 -   [`0fd4f45`](https://github.com/stdlib-js/stdlib/commit/0fd4f455bff03c90b036950a7af767c1943c35e9) - **bench:** refactor to use string interpolation in `blas/ext/base/ssortins` [(#10895)](https://github.com/stdlib-js/stdlib/pull/10895) _(by Partha Das)_
