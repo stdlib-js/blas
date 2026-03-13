@@ -387,6 +387,7 @@
 
 ### Bug Fixes
 
+-   [`51981c7`](https://github.com/stdlib-js/stdlib/commit/51981c7c552f088da5cc1a36c005a9f3d550bfea) - preserve sign of zero in native C implementation of `blas/ext/base/ssumpw`
 -   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707)
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
 -   [`60fcd9d`](https://github.com/stdlib-js/stdlib/commit/60fcd9dc51b43ad76b1b14e6d7b4c30a5670114a) - improve type specificity
@@ -727,6 +728,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`51981c7`](https://github.com/stdlib-js/stdlib/commit/51981c7c552f088da5cc1a36c005a9f3d550bfea) - **fix:** preserve sign of zero in native C implementation of `blas/ext/base/ssumpw` _(by Philipp Burckhardt)_
 -   [`41e2b32`](https://github.com/stdlib-js/stdlib/commit/41e2b321ee542ca7774071f7cf0f437a7d814be6) - **bench:** restore benchmark names _(by Philipp Burckhardt)_
 -   [`8510d5a`](https://github.com/stdlib-js/stdlib/commit/8510d5a97f6292d1bb35ca610fee5fac307b62fc) - **bench:** refactor to use string interpolation in `blas/ext/base/ssumpw` [(#10890)](https://github.com/stdlib-js/stdlib/pull/10890) _(by Partha Das)_
 -   [`2d61cd4`](https://github.com/stdlib-js/stdlib/commit/2d61cd4b240dd14d3a8d91d442bcd998e80302f7) - **bench:** refactor to use string interpolation in `blas/ext/base/zsumkbn` [(#10887)](https://github.com/stdlib-js/stdlib/pull/10887) _(by Partha Das)_
