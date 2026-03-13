@@ -727,6 +727,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`4c4690c`](https://github.com/stdlib-js/stdlib/commit/4c4690c5030e5fdc36916d5d9ef2e72be8fc5e58) - **bench:** refactor to use string interpolation in `blas/ext/base/zsum` [(#10888)](https://github.com/stdlib-js/stdlib/pull/10888) _(by Partha Das)_
 -   [`7b564a3`](https://github.com/stdlib-js/stdlib/commit/7b564a39babd79ca96b5dba128d963b85ba5d94f) - **bench:** refactor to use string interpolation in `blas/ext/base/zfill` [(#10889)](https://github.com/stdlib-js/stdlib/pull/10889) _(by Partha Das)_
 -   [`8d13323`](https://github.com/stdlib-js/stdlib/commit/8d133232f414bf1c76d68d3b05152c103433c25e) - **bench:** refactor to use string interpolation in `blas/ext/base/ssumors` [(#10891)](https://github.com/stdlib-js/stdlib/pull/10891) _(by Partha Das)_
 -   [`12305c2`](https://github.com/stdlib-js/stdlib/commit/12305c2f852bd54ea9c4b6bce68a01438c0153ed) - **bench:** refactor to use string interpolation in `blas/ext/base/ssumkbn2` [(#10892)](https://github.com/stdlib-js/stdlib/pull/10892) _(by Partha Das)_
