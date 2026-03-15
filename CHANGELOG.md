@@ -728,6 +728,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`d33a1c1`](https://github.com/stdlib-js/stdlib/commit/d33a1c1712e2e53ab1cdc41404e82216f3244787) - **bench:** refactor to use string interpolation in `blas/ext/base/snansumors` [(#10969)](https://github.com/stdlib-js/stdlib/pull/10969) _(by Partha Das)_
 -   [`e25b196`](https://github.com/stdlib-js/stdlib/commit/e25b196c5ea81c36b71f50dbacfae298f9f06b2f) - **bench:** refactor to use string interpolation in `blas/ext/base/snansumkbn2` [(#10970)](https://github.com/stdlib-js/stdlib/pull/10970) _(by Partha Das)_
 -   [`51981c7`](https://github.com/stdlib-js/stdlib/commit/51981c7c552f088da5cc1a36c005a9f3d550bfea) - **fix:** preserve sign of zero in native C implementation of `blas/ext/base/ssumpw` _(by Philipp Burckhardt)_
 -   [`41e2b32`](https://github.com/stdlib-js/stdlib/commit/41e2b321ee542ca7774071f7cf0f437a7d814be6) - **bench:** restore benchmark names _(by Philipp Burckhardt)_
