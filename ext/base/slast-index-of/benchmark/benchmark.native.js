@@ -26,7 +26,6 @@ var pow = require( '@stdlib/math/base/special/pow' );
 var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
 var oneTo = require( '@stdlib/array/one-to' );
 var tryRequire = require( '@stdlib/utils/try-require' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 
 
@@ -99,7 +98,7 @@ function main() {
 		len = pow( 10, i );
 
 		f = createBenchmark( len );
-		bench( format( '%s::native:len=%d', pkg, len ), opts, f );
+		bench( pkg+'::native:len='+len, opts, f );
 	}
 }
 
