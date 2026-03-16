@@ -728,6 +728,9 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`7a25b7b`](https://github.com/stdlib-js/stdlib/commit/7a25b7ba3a26a6742ece99abb673440c1adca0ec) - **bench:** refactor to use string interpolation in `blas/ext/base/snansumkbn` [(#10971)](https://github.com/stdlib-js/stdlib/pull/10971) _(by Partha Das)_
+-   [`59184d4`](https://github.com/stdlib-js/stdlib/commit/59184d4483dc012c2f342a356ce9ed7c6643819c) - **bench:** refactor to use string interpolation in `blas/ext/base/snansum` [(#10987)](https://github.com/stdlib-js/stdlib/pull/10987) _(by Partha Das)_
+-   [`df4dee8`](https://github.com/stdlib-js/stdlib/commit/df4dee8ede99d4e66716ecdd3cece77adf994435) - **bench:** refactor to use string interpolation in `blas/ext/base/slinspace` [(#10988)](https://github.com/stdlib-js/stdlib/pull/10988) _(by Partha Das)_
 -   [`5fa6e8c`](https://github.com/stdlib-js/stdlib/commit/5fa6e8cc15bfdc07d39385d8fa2a28006086ec98) - **bench:** refactor to use string interpolation in `blas/ext/base/slast-index-of` [(#10989)](https://github.com/stdlib-js/stdlib/pull/10989) _(by Partha Das)_
 -   [`eae42da`](https://github.com/stdlib-js/stdlib/commit/eae42daf32dff24dab6d478552e41b87b7bd0ded) - **bench:** refactor to use string interpolation in `blas/gdot` [(#10990)](https://github.com/stdlib-js/stdlib/pull/10990) _(by Partha Das)_
 -   [`263b0ab`](https://github.com/stdlib-js/stdlib/commit/263b0ab0698420dfba03454b75e49843d3f768d6) - **bench:** refactor to use string interpolation in `blas/gswap` [(#10991)](https://github.com/stdlib-js/stdlib/pull/10991) _(by Partha Das)_
