@@ -728,6 +728,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`263b0ab`](https://github.com/stdlib-js/stdlib/commit/263b0ab0698420dfba03454b75e49843d3f768d6) - **bench:** refactor to use string interpolation in `blas/gswap` [(#10991)](https://github.com/stdlib-js/stdlib/pull/10991) _(by Partha Das)_
 -   [`419ec67`](https://github.com/stdlib-js/stdlib/commit/419ec67071942898599659a234990245f9d4f93f) - **bench:** refactor to use string interpolation in `blas/dswap` [(#10992)](https://github.com/stdlib-js/stdlib/pull/10992) _(by Partha Das)_
 -   [`d33a1c1`](https://github.com/stdlib-js/stdlib/commit/d33a1c1712e2e53ab1cdc41404e82216f3244787) - **bench:** refactor to use string interpolation in `blas/ext/base/snansumors` [(#10969)](https://github.com/stdlib-js/stdlib/pull/10969) _(by Partha Das)_
 -   [`e25b196`](https://github.com/stdlib-js/stdlib/commit/e25b196c5ea81c36b71f50dbacfae298f9f06b2f) - **bench:** refactor to use string interpolation in `blas/ext/base/snansumkbn2` [(#10970)](https://github.com/stdlib-js/stdlib/pull/10970) _(by Partha Das)_
