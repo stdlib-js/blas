@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-15)
+## Unreleased (2026-03-16)
 
 <section class="features">
 
@@ -728,6 +728,7 @@ A total of 51 issues were closed in this release:
 
 <details>
 
+-   [`419ec67`](https://github.com/stdlib-js/stdlib/commit/419ec67071942898599659a234990245f9d4f93f) - **bench:** refactor to use string interpolation in `blas/dswap` [(#10992)](https://github.com/stdlib-js/stdlib/pull/10992) _(by Partha Das)_
 -   [`d33a1c1`](https://github.com/stdlib-js/stdlib/commit/d33a1c1712e2e53ab1cdc41404e82216f3244787) - **bench:** refactor to use string interpolation in `blas/ext/base/snansumors` [(#10969)](https://github.com/stdlib-js/stdlib/pull/10969) _(by Partha Das)_
 -   [`e25b196`](https://github.com/stdlib-js/stdlib/commit/e25b196c5ea81c36b71f50dbacfae298f9f06b2f) - **bench:** refactor to use string interpolation in `blas/ext/base/snansumkbn2` [(#10970)](https://github.com/stdlib-js/stdlib/pull/10970) _(by Partha Das)_
 -   [`51981c7`](https://github.com/stdlib-js/stdlib/commit/51981c7c552f088da5cc1a36c005a9f3d550bfea) - **fix:** preserve sign of zero in native C implementation of `blas/ext/base/ssumpw` _(by Philipp Burckhardt)_
