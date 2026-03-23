@@ -728,6 +728,8 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`f5df047`](https://github.com/stdlib-js/stdlib/commit/f5df047313143bc14a8d24bb6b5f02f3ce04b15c) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusum` [(#11096)](https://github.com/stdlib-js/stdlib/pull/11096) _(by Prajjwal Bajpai)_
+-   [`27f6ddb`](https://github.com/stdlib-js/stdlib/commit/27f6ddb2a9366177b0af9617e88cb7e3d4ea7148) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsorthp` [(#11097)](https://github.com/stdlib-js/stdlib/pull/11097) _(by Prajjwal Bajpai)_
 -   [`815ead6`](https://github.com/stdlib-js/stdlib/commit/815ead632da74b38efea5b512189599ebda62f67) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsortins` [(#11098)](https://github.com/stdlib-js/stdlib/pull/11098) _(by Prajjwal Bajpai)_
 -   [`a57b8ad`](https://github.com/stdlib-js/stdlib/commit/a57b8ad76d770e40902fea6f32f5e7ed7ae4d9fb) - **bench:** refactor to use string interpolation in `blas/base/ggemm` [(#10427)](https://github.com/stdlib-js/stdlib/pull/10427) _(by Shubham, Athan Reines, stdlib-bot)_
 -   [`8884d20`](https://github.com/stdlib-js/stdlib/commit/8884d201ffbfa3345c90fffc6dce6a8d0933f8e4) - **bench:** refactor to use string interpolation in `blas/ext/base/ssort2ins` [(#10913)](https://github.com/stdlib-js/stdlib/pull/10913) _(by Partha Das)_
