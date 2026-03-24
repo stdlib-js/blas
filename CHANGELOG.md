@@ -728,6 +728,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`60ced5c`](https://github.com/stdlib-js/stdlib/commit/60ced5c5a401f36223c967c9993d702dc8e2a78e) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusumors` [(#11108)](https://github.com/stdlib-js/stdlib/pull/11108) _(by Prajjwal Bajpai)_
 -   [`3be5bc3`](https://github.com/stdlib-js/stdlib/commit/3be5bc3da7fa0f80d8db33ae9201b51144bdb3bd) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusumpw` [(#11109)](https://github.com/stdlib-js/stdlib/pull/11109) _(by Prajjwal Bajpai)_
 -   [`f5df047`](https://github.com/stdlib-js/stdlib/commit/f5df047313143bc14a8d24bb6b5f02f3ce04b15c) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusum` [(#11096)](https://github.com/stdlib-js/stdlib/pull/11096) _(by Prajjwal Bajpai)_
 -   [`27f6ddb`](https://github.com/stdlib-js/stdlib/commit/27f6ddb2a9366177b0af9617e88cb7e3d4ea7148) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/dsorthp` [(#11097)](https://github.com/stdlib-js/stdlib/pull/11097) _(by Prajjwal Bajpai)_
