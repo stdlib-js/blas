@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`13cf096`](https://github.com/stdlib-js/stdlib/commit/13cf0961eca66b2645d3733c963ffa492ef447aa) - add `gcircshift` to namespace
 -   [`d8b3767`](https://github.com/stdlib-js/stdlib/commit/d8b37675b6f8aa8b91bf918a2434719eb8433c41) - add `blas/ext/base/gcircshift` [(#11007)](https://github.com/stdlib-js/stdlib/pull/11007)
 -   [`56b1e38`](https://github.com/stdlib-js/stdlib/commit/56b1e387b0bad1bbb8b6dde4a73882775b67a59e) - add `gsort` to namespace
 -   [`00fd0cf`](https://github.com/stdlib-js/stdlib/commit/00fd0cf3e9997b181a4c95355d62eb514d150495) - add `gjoin` to namespace
@@ -736,6 +737,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`13cf096`](https://github.com/stdlib-js/stdlib/commit/13cf0961eca66b2645d3733c963ffa492ef447aa) - **feat:** add `gcircshift` to namespace _(by Athan Reines)_
 -   [`d8b3767`](https://github.com/stdlib-js/stdlib/commit/d8b37675b6f8aa8b91bf918a2434719eb8433c41) - **feat:** add `blas/ext/base/gcircshift` [(#11007)](https://github.com/stdlib-js/stdlib/pull/11007) _(by Muhammad Haris, Athan Reines)_
 -   [`f9d1409`](https://github.com/stdlib-js/stdlib/commit/f9d140985e169d34f4e66bd770dc675ea28588a3) - **docs:** add missing JSDoc comment _(by Athan Reines)_
 -   [`56b1e38`](https://github.com/stdlib-js/stdlib/commit/56b1e387b0bad1bbb8b6dde4a73882775b67a59e) - **feat:** add `gsort` to namespace _(by Athan Reines)_

@@ -631,6 +631,15 @@ setReadOnly( ns, 'gapxsumpw', require( './../../../ext/base/gapxsumpw' ) );
 setReadOnly( ns, 'gasumpw', require( './../../../ext/base/gasumpw' ) );
 
 /**
+* @name gcircshift
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcircshift}
+*/
+setReadOnly( ns, 'gcircshift', require( './../../../ext/base/gcircshift' ) );
+
+/**
 * @name gcusum
 * @memberof ns
 * @readonly
