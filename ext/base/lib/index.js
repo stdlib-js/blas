@@ -334,6 +334,42 @@ setReadOnly( ns, 'dnansumpw', require( './../../../ext/base/dnansumpw' ) );
 setReadOnly( ns, 'drev', require( './../../../ext/base/drev' ) );
 
 /**
+* @name drrss
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/drrss}
+*/
+setReadOnly( ns, 'drrss', require( './../../../ext/base/drrss' ) );
+
+/**
+* @name drss
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/drss}
+*/
+setReadOnly( ns, 'drss', require( './../../../ext/base/drss' ) );
+
+/**
+* @name drssbl
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/drssbl}
+*/
+setReadOnly( ns, 'drssbl', require( './../../../ext/base/drssbl' ) );
+
+/**
+* @name drsskbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/drsskbn}
+*/
+setReadOnly( ns, 'drsskbn', require( './../../../ext/base/drsskbn' ) );
+
+/**
 * @name dsapxsum
 * @memberof ns
 * @readonly
@@ -386,6 +422,15 @@ setReadOnly( ns, 'dsnansumors', require( './../../../ext/base/dsnansumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/dsnansumpw}
 */
 setReadOnly( ns, 'dsnansumpw', require( './../../../ext/base/dsnansumpw' ) );
+
+/**
+* @name dsort
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dsort}
+*/
+setReadOnly( ns, 'dsort', require( './../../../ext/base/dsort' ) );
 
 /**
 * @name dsort2hp
@@ -512,6 +557,15 @@ setReadOnly( ns, 'dsumors', require( './../../../ext/base/dsumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/dsumpw}
 */
 setReadOnly( ns, 'dsumpw', require( './../../../ext/base/dsumpw' ) );
+
+/**
+* @name dzeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dzero-to}
+*/
+setReadOnly( ns, 'dzeroTo', require( './../../../ext/base/dzero-to' ) );
 
 /**
 * @name gapx
@@ -676,6 +730,15 @@ setReadOnly( ns, 'gindexOf', require( './../../../ext/base/gindex-of' ) );
 setReadOnly( ns, 'gindexOfRow', require( './../../../ext/base/gindex-of-row' ) );
 
 /**
+* @name gjoin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gjoin}
+*/
+setReadOnly( ns, 'gjoin', require( './../../../ext/base/gjoin' ) );
+
+/**
 * @name glastIndexOf
 * @memberof ns
 * @readonly
@@ -764,6 +827,15 @@ setReadOnly( ns, 'gnansumpw', require( './../../../ext/base/gnansumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/grev}
 */
 setReadOnly( ns, 'grev', require( './../../../ext/base/grev' ) );
+
+/**
+* @name gsort
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gsort}
+*/
+setReadOnly( ns, 'gsort', require( './../../../ext/base/gsort' ) );
 
 /**
 * @name gsort2hp

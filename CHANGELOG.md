@@ -10,6 +10,12 @@
 
 ### Features
 
+-   [`56b1e38`](https://github.com/stdlib-js/stdlib/commit/56b1e387b0bad1bbb8b6dde4a73882775b67a59e) - add `gsort` to namespace
+-   [`00fd0cf`](https://github.com/stdlib-js/stdlib/commit/00fd0cf3e9997b181a4c95355d62eb514d150495) - add `gjoin` to namespace
+-   [`38ff7f6`](https://github.com/stdlib-js/stdlib/commit/38ff7f678b0f46e0b4c1e8c12685db547e3091f6) - add `drss`, `drssbl`, `drsskbn` to namespace
+-   [`560fbcb`](https://github.com/stdlib-js/stdlib/commit/560fbcbacd73996764e4ac55106cd6c6d76ea094) - add `drrss` to namespace
+-   [`c13dc0d`](https://github.com/stdlib-js/stdlib/commit/c13dc0d589036ef489dca53a6d0f4b4758bd8e44) - add `dsort` to namespace
+-   [`5f11e57`](https://github.com/stdlib-js/stdlib/commit/5f11e57b9f6a0b9e680680a39a43efac00d44242) - add `dzeroTo` to namespace
 -   [`9015bd8`](https://github.com/stdlib-js/stdlib/commit/9015bd8546020c055cbd29b093b3a0d43b3c3397) - add `blas/ext/base/dzero-to` [(#11146)](https://github.com/stdlib-js/stdlib/pull/11146)
 -   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078)
 -   [`d7c9033`](https://github.com/stdlib-js/stdlib/commit/d7c9033dec5f569d53dd71706ce6f1124e886259) - add C implementation for `blas/ext/base/ndarray/dsum` [(#10065)](https://github.com/stdlib-js/stdlib/pull/10065)
@@ -729,6 +735,12 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`56b1e38`](https://github.com/stdlib-js/stdlib/commit/56b1e387b0bad1bbb8b6dde4a73882775b67a59e) - **feat:** add `gsort` to namespace _(by Athan Reines)_
+-   [`00fd0cf`](https://github.com/stdlib-js/stdlib/commit/00fd0cf3e9997b181a4c95355d62eb514d150495) - **feat:** add `gjoin` to namespace _(by Athan Reines)_
+-   [`38ff7f6`](https://github.com/stdlib-js/stdlib/commit/38ff7f678b0f46e0b4c1e8c12685db547e3091f6) - **feat:** add `drss`, `drssbl`, `drsskbn` to namespace _(by Athan Reines)_
+-   [`560fbcb`](https://github.com/stdlib-js/stdlib/commit/560fbcbacd73996764e4ac55106cd6c6d76ea094) - **feat:** add `drrss` to namespace _(by Athan Reines)_
+-   [`c13dc0d`](https://github.com/stdlib-js/stdlib/commit/c13dc0d589036ef489dca53a6d0f4b4758bd8e44) - **feat:** add `dsort` to namespace _(by Athan Reines)_
+-   [`5f11e57`](https://github.com/stdlib-js/stdlib/commit/5f11e57b9f6a0b9e680680a39a43efac00d44242) - **feat:** add `dzeroTo` to namespace _(by Athan Reines)_
 -   [`9015bd8`](https://github.com/stdlib-js/stdlib/commit/9015bd8546020c055cbd29b093b3a0d43b3c3397) - **feat:** add `blas/ext/base/dzero-to` [(#11146)](https://github.com/stdlib-js/stdlib/pull/11146) _(by Muhammad Haris, Athan Reines)_
 -   [`60ced5c`](https://github.com/stdlib-js/stdlib/commit/60ced5c5a401f36223c967c9993d702dc8e2a78e) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusumors` [(#11108)](https://github.com/stdlib-js/stdlib/pull/11108) _(by Prajjwal Bajpai)_
 -   [`3be5bc3`](https://github.com/stdlib-js/stdlib/commit/3be5bc3da7fa0f80d8db33ae9201b51144bdb3bd) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusumpw` [(#11109)](https://github.com/stdlib-js/stdlib/pull/11109) _(by Prajjwal Bajpai)_
