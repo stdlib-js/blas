@@ -735,6 +735,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`f9d1409`](https://github.com/stdlib-js/stdlib/commit/f9d140985e169d34f4e66bd770dc675ea28588a3) - **docs:** add missing JSDoc comment _(by Athan Reines)_
 -   [`56b1e38`](https://github.com/stdlib-js/stdlib/commit/56b1e387b0bad1bbb8b6dde4a73882775b67a59e) - **feat:** add `gsort` to namespace _(by Athan Reines)_
 -   [`00fd0cf`](https://github.com/stdlib-js/stdlib/commit/00fd0cf3e9997b181a4c95355d62eb514d150495) - **feat:** add `gjoin` to namespace _(by Athan Reines)_
 -   [`38ff7f6`](https://github.com/stdlib-js/stdlib/commit/38ff7f678b0f46e0b4c1e8c12685db547e3091f6) - **feat:** add `drss`, `drssbl`, `drsskbn` to namespace _(by Athan Reines)_
