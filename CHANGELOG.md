@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-24)
+## Unreleased (2026-03-26)
 
 <section class="features">
 
 ### Features
 
+-   [`9015bd8`](https://github.com/stdlib-js/stdlib/commit/9015bd8546020c055cbd29b093b3a0d43b3c3397) - add `blas/ext/base/dzero-to` [(#11146)](https://github.com/stdlib-js/stdlib/pull/11146)
 -   [`0e62b3f`](https://github.com/stdlib-js/stdlib/commit/0e62b3fbc7f29583bfd0ba72f9e3d900af99e9a4) - add C implementation for `blas/ext/base/ndarray/ssum` [(#10078)](https://github.com/stdlib-js/stdlib/pull/10078)
 -   [`d7c9033`](https://github.com/stdlib-js/stdlib/commit/d7c9033dec5f569d53dd71706ce6f1124e886259) - add C implementation for `blas/ext/base/ndarray/dsum` [(#10065)](https://github.com/stdlib-js/stdlib/pull/10065)
 -   [`de74169`](https://github.com/stdlib-js/stdlib/commit/de7416999fa2bd9a2e912d70b97540b0575d0599) - add `blas/ext/base/ndarray/gsort` [(#9734)](https://github.com/stdlib-js/stdlib/pull/9734)
@@ -728,6 +729,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`9015bd8`](https://github.com/stdlib-js/stdlib/commit/9015bd8546020c055cbd29b093b3a0d43b3c3397) - **feat:** add `blas/ext/base/dzero-to` [(#11146)](https://github.com/stdlib-js/stdlib/pull/11146) _(by Muhammad Haris, Athan Reines)_
 -   [`60ced5c`](https://github.com/stdlib-js/stdlib/commit/60ced5c5a401f36223c967c9993d702dc8e2a78e) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusumors` [(#11108)](https://github.com/stdlib-js/stdlib/pull/11108) _(by Prajjwal Bajpai)_
 -   [`3be5bc3`](https://github.com/stdlib-js/stdlib/commit/3be5bc3da7fa0f80d8db33ae9201b51144bdb3bd) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusumpw` [(#11109)](https://github.com/stdlib-js/stdlib/pull/11109) _(by Prajjwal Bajpai)_
 -   [`f5df047`](https://github.com/stdlib-js/stdlib/commit/f5df047313143bc14a8d24bb6b5f02f3ce04b15c) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base/scusum` [(#11096)](https://github.com/stdlib-js/stdlib/pull/11096) _(by Prajjwal Bajpai)_
