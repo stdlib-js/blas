@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d36550d`](https://github.com/stdlib-js/stdlib/commit/d36550d382e11c60c6c0ee4bb3ff17c64c97089c) - add `blas/ext/base/scircshift` [(#11006)](https://github.com/stdlib-js/stdlib/pull/11006)
 -   [`231767b`](https://github.com/stdlib-js/stdlib/commit/231767bcab64bda4f716847c7f389d3470af9db9) - add `blas/ext/base/dcircshift` [(#10977)](https://github.com/stdlib-js/stdlib/pull/10977)
 -   [`13cf096`](https://github.com/stdlib-js/stdlib/commit/13cf0961eca66b2645d3733c963ffa492ef447aa) - add `gcircshift` to namespace
 -   [`d8b3767`](https://github.com/stdlib-js/stdlib/commit/d8b37675b6f8aa8b91bf918a2434719eb8433c41) - add `blas/ext/base/gcircshift` [(#11007)](https://github.com/stdlib-js/stdlib/pull/11007)
@@ -738,6 +739,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`d36550d`](https://github.com/stdlib-js/stdlib/commit/d36550d382e11c60c6c0ee4bb3ff17c64c97089c) - **feat:** add `blas/ext/base/scircshift` [(#11006)](https://github.com/stdlib-js/stdlib/pull/11006) _(by Muhammad Haris, Athan Reines)_
 -   [`231767b`](https://github.com/stdlib-js/stdlib/commit/231767bcab64bda4f716847c7f389d3470af9db9) - **feat:** add `blas/ext/base/dcircshift` [(#10977)](https://github.com/stdlib-js/stdlib/pull/10977) _(by Muhammad Haris, Athan Reines)_
 -   [`13cf096`](https://github.com/stdlib-js/stdlib/commit/13cf0961eca66b2645d3733c963ffa492ef447aa) - **feat:** add `gcircshift` to namespace _(by Athan Reines)_
 -   [`d8b3767`](https://github.com/stdlib-js/stdlib/commit/d8b37675b6f8aa8b91bf918a2434719eb8433c41) - **feat:** add `blas/ext/base/gcircshift` [(#11007)](https://github.com/stdlib-js/stdlib/pull/11007) _(by Muhammad Haris, Athan Reines)_
