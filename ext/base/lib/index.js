@@ -127,6 +127,15 @@ setReadOnly( ns, 'dapxsumpw', require( './../../../ext/base/dapxsumpw' ) );
 setReadOnly( ns, 'dasumpw', require( './../../../ext/base/dasumpw' ) );
 
 /**
+* @name dcircshift
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcircshift}
+*/
+setReadOnly( ns, 'dcircshift', require( './../../../ext/base/dcircshift' ) );
+
+/**
 * @name dcusum
 * @memberof ns
 * @readonly
@@ -323,6 +332,15 @@ setReadOnly( ns, 'dnansumors', require( './../../../ext/base/dnansumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/dnansumpw}
 */
 setReadOnly( ns, 'dnansumpw', require( './../../../ext/base/dnansumpw' ) );
+
+/**
+* @name doneTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/done-to}
+*/
+setReadOnly( ns, 'doneTo', require( './../../../ext/base/done-to' ) );
 
 /**
 * @name drev
@@ -640,6 +658,15 @@ setReadOnly( ns, 'gasumpw', require( './../../../ext/base/gasumpw' ) );
 setReadOnly( ns, 'gcircshift', require( './../../../ext/base/gcircshift' ) );
 
 /**
+* @name gconjoin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gconjoin}
+*/
+setReadOnly( ns, 'gconjoin', require( './../../../ext/base/gconjoin' ) );
+
+/**
 * @name gcusum
 * @memberof ns
 * @readonly
@@ -746,6 +773,15 @@ setReadOnly( ns, 'gindexOfRow', require( './../../../ext/base/gindex-of-row' ) )
 * @see {@link module:@stdlib/blas/ext/base/gjoin}
 */
 setReadOnly( ns, 'gjoin', require( './../../../ext/base/gjoin' ) );
+
+/**
+* @name gjoinBetween
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gjoin-between}
+*/
+setReadOnly( ns, 'gjoinBetween', require( './../../../ext/base/gjoin-between' ) );
 
 /**
 * @name glastIndexOf
@@ -1016,6 +1052,15 @@ setReadOnly( ns, 'sapxsumpw', require( './../../../ext/base/sapxsumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/sasumpw}
 */
 setReadOnly( ns, 'sasumpw', require( './../../../ext/base/sasumpw' ) );
+
+/**
+* @name scircshift
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scircshift}
+*/
+setReadOnly( ns, 'scircshift', require( './../../../ext/base/scircshift' ) );
 
 /**
 * @name scusum
