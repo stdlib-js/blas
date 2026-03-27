@@ -763,6 +763,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
 -   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - **feat:** add `zsumkbn` to namespace _(by Athan Reines)_
 -   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - **feat:** add `ssum*` packages to namespace _(by Athan Reines)_
 -   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - **feat:** add `snansum*` packages to namespace _(by Athan Reines)_
