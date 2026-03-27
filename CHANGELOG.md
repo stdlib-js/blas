@@ -743,6 +743,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`bf03c10`](https://github.com/stdlib-js/stdlib/commit/bf03c101fdc1f29ee4838246efe4161ffa673ab8) - **docs:** fix examples _(by Athan Reines)_
 -   [`a13b269`](https://github.com/stdlib-js/stdlib/commit/a13b26917f85ed3410e65d3920f2855225a58818) - **feat:** add `blas/ext/base/ndarray/gjoin-between` [(#11163)](https://github.com/stdlib-js/stdlib/pull/11163) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`f53f0cf`](https://github.com/stdlib-js/stdlib/commit/f53f0cf595e5591fe9f7320f4f192fe8c5afa7a8) - **feat:** add `blas/ext/base/done-to` [(#11161)](https://github.com/stdlib-js/stdlib/pull/11161) _(by Muhammad Haris, Athan Reines)_
 -   [`e146f6e`](https://github.com/stdlib-js/stdlib/commit/e146f6ea7925fef840e262e9894014f5f56fc5bc) - **feat:** add `blas/ext/base/gconjoin` [(#11142)](https://github.com/stdlib-js/stdlib/pull/11142) _(by Muhammad Haris, Athan Reines)_
