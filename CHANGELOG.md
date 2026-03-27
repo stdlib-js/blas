@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e146f6e`](https://github.com/stdlib-js/stdlib/commit/e146f6ea7925fef840e262e9894014f5f56fc5bc) - add `blas/ext/base/gconjoin` [(#11142)](https://github.com/stdlib-js/stdlib/pull/11142)
 -   [`34c1828`](https://github.com/stdlib-js/stdlib/commit/34c1828ee03a00a6d136c48e1b9399cd284aaed5) - add `blas/ext/base/gjoin-between` [(#11140)](https://github.com/stdlib-js/stdlib/pull/11140)
 -   [`d36550d`](https://github.com/stdlib-js/stdlib/commit/d36550d382e11c60c6c0ee4bb3ff17c64c97089c) - add `blas/ext/base/scircshift` [(#11006)](https://github.com/stdlib-js/stdlib/pull/11006)
 -   [`231767b`](https://github.com/stdlib-js/stdlib/commit/231767bcab64bda4f716847c7f389d3470af9db9) - add `blas/ext/base/dcircshift` [(#10977)](https://github.com/stdlib-js/stdlib/pull/10977)
@@ -740,6 +741,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`e146f6e`](https://github.com/stdlib-js/stdlib/commit/e146f6ea7925fef840e262e9894014f5f56fc5bc) - **feat:** add `blas/ext/base/gconjoin` [(#11142)](https://github.com/stdlib-js/stdlib/pull/11142) _(by Muhammad Haris, Athan Reines)_
 -   [`34c1828`](https://github.com/stdlib-js/stdlib/commit/34c1828ee03a00a6d136c48e1b9399cd284aaed5) - **feat:** add `blas/ext/base/gjoin-between` [(#11140)](https://github.com/stdlib-js/stdlib/pull/11140) _(by Muhammad Haris, Athan Reines)_
 -   [`d36550d`](https://github.com/stdlib-js/stdlib/commit/d36550d382e11c60c6c0ee4bb3ff17c64c97089c) - **feat:** add `blas/ext/base/scircshift` [(#11006)](https://github.com/stdlib-js/stdlib/pull/11006) _(by Muhammad Haris, Athan Reines)_
 -   [`231767b`](https://github.com/stdlib-js/stdlib/commit/231767bcab64bda4f716847c7f389d3470af9db9) - **feat:** add `blas/ext/base/dcircshift` [(#10977)](https://github.com/stdlib-js/stdlib/pull/10977) _(by Muhammad Haris, Athan Reines)_
