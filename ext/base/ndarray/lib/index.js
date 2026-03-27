@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'csum', require( './../../../../ext/base/ndarray/csum' ) );
 
 /**
+* @name csumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/csumkbn}
+*/
+setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) );
+
+/**
 * @name dcusum
 * @memberof ns
 * @readonly
@@ -53,6 +62,42 @@ setReadOnly( ns, 'csum', require( './../../../../ext/base/ndarray/csum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dcusum}
 */
 setReadOnly( ns, 'dcusum', require( './../../../../ext/base/ndarray/dcusum' ) );
+
+/**
+* @name dcusumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcusumkbn}
+*/
+setReadOnly( ns, 'dcusumkbn', require( './../../../../ext/base/ndarray/dcusumkbn' ) );
+
+/**
+* @name dcusumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcusumkbn2}
+*/
+setReadOnly( ns, 'dcusumkbn2', require( './../../../../ext/base/ndarray/dcusumkbn2' ) );
+
+/**
+* @name dcusumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcusumors}
+*/
+setReadOnly( ns, 'dcusumors', require( './../../../../ext/base/ndarray/dcusumors' ) );
+
+/**
+* @name dcusumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcusumpw}
+*/
+setReadOnly( ns, 'dcusumpw', require( './../../../../ext/base/ndarray/dcusumpw' ) );
 
 /**
 * @name dindexOf
@@ -82,6 +127,51 @@ setReadOnly( ns, 'dlastIndexOf', require( './../../../../ext/base/ndarray/dlast-
 setReadOnly( ns, 'dlinspace', require( './../../../../ext/base/ndarray/dlinspace' ) );
 
 /**
+* @name dnansum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dnansum}
+*/
+setReadOnly( ns, 'dnansum', require( './../../../../ext/base/ndarray/dnansum' ) );
+
+/**
+* @name dnansumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dnansumkbn}
+*/
+setReadOnly( ns, 'dnansumkbn', require( './../../../../ext/base/ndarray/dnansumkbn' ) );
+
+/**
+* @name dnansumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dnansumkbn2}
+*/
+setReadOnly( ns, 'dnansumkbn2', require( './../../../../ext/base/ndarray/dnansumkbn2' ) );
+
+/**
+* @name dnansumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dnansumors}
+*/
+setReadOnly( ns, 'dnansumors', require( './../../../../ext/base/ndarray/dnansumors' ) );
+
+/**
+* @name dnansumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dnansumpw}
+*/
+setReadOnly( ns, 'dnansumpw', require( './../../../../ext/base/ndarray/dnansumpw' ) );
+
+/**
 * @name dsorthp
 * @memberof ns
 * @readonly
@@ -89,6 +179,24 @@ setReadOnly( ns, 'dlinspace', require( './../../../../ext/base/ndarray/dlinspace
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dsorthp}
 */
 setReadOnly( ns, 'dsorthp', require( './../../../../ext/base/ndarray/dsorthp' ) );
+
+/**
+* @name dsortins
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsortins}
+*/
+setReadOnly( ns, 'dsortins', require( './../../../../ext/base/ndarray/dsortins' ) );
+
+/**
+* @name dsortsh
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsortsh}
+*/
+setReadOnly( ns, 'dsortsh', require( './../../../../ext/base/ndarray/dsortsh' ) );
 
 /**
 * @name dsum
@@ -100,6 +208,42 @@ setReadOnly( ns, 'dsorthp', require( './../../../../ext/base/ndarray/dsorthp' ) 
 setReadOnly( ns, 'dsum', require( './../../../../ext/base/ndarray/dsum' ) );
 
 /**
+* @name dsumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsumkbn}
+*/
+setReadOnly( ns, 'dsumkbn', require( './../../../../ext/base/ndarray/dsumkbn' ) );
+
+/**
+* @name dsumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsumkbn2}
+*/
+setReadOnly( ns, 'dsumkbn2', require( './../../../../ext/base/ndarray/dsumkbn2' ) );
+
+/**
+* @name dsumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsumors}
+*/
+setReadOnly( ns, 'dsumors', require( './../../../../ext/base/ndarray/dsumors' ) );
+
+/**
+* @name dsumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsumpw}
+*/
+setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
+
+/**
 * @name gcusum
 * @memberof ns
 * @readonly
@@ -107,6 +251,42 @@ setReadOnly( ns, 'dsum', require( './../../../../ext/base/ndarray/dsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gcusum}
 */
 setReadOnly( ns, 'gcusum', require( './../../../../ext/base/ndarray/gcusum' ) );
+
+/**
+* @name gcusumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcusumkbn}
+*/
+setReadOnly( ns, 'gcusumkbn', require( './../../../../ext/base/ndarray/gcusumkbn' ) );
+
+/**
+* @name gcusumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcusumkbn2}
+*/
+setReadOnly( ns, 'gcusumkbn2', require( './../../../../ext/base/ndarray/gcusumkbn2' ) );
+
+/**
+* @name gcusumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcusumors}
+*/
+setReadOnly( ns, 'gcusumors', require( './../../../../ext/base/ndarray/gcusumors' ) );
+
+/**
+* @name gcusumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcusumpw}
+*/
+setReadOnly( ns, 'gcusumpw', require( './../../../../ext/base/ndarray/gcusumpw' ) );
 
 /**
 * @name gfindIndex
@@ -172,6 +352,60 @@ setReadOnly( ns, 'glastIndexOf', require( './../../../../ext/base/ndarray/glast-
 setReadOnly( ns, 'glinspace', require( './../../../../ext/base/ndarray/glinspace' ) );
 
 /**
+* @name gnansum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gnansum}
+*/
+setReadOnly( ns, 'gnansum', require( './../../../../ext/base/ndarray/gnansum' ) );
+
+/**
+* @name gnansumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gnansumkbn}
+*/
+setReadOnly( ns, 'gnansumkbn', require( './../../../../ext/base/ndarray/gnansumkbn' ) );
+
+/**
+* @name gnansumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gnansumkbn2}
+*/
+setReadOnly( ns, 'gnansumkbn2', require( './../../../../ext/base/ndarray/gnansumkbn2' ) );
+
+/**
+* @name gnansumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gnansumors}
+*/
+setReadOnly( ns, 'gnansumors', require( './../../../../ext/base/ndarray/gnansumors' ) );
+
+/**
+* @name gnansumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gnansumpw}
+*/
+setReadOnly( ns, 'gnansumpw', require( './../../../../ext/base/ndarray/gnansumpw' ) );
+
+/**
+* @name gsort
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gsort}
+*/
+setReadOnly( ns, 'gsort', require( './../../../../ext/base/ndarray/gsort' ) );
+
+/**
 * @name gsorthp
 * @memberof ns
 * @readonly
@@ -190,6 +424,42 @@ setReadOnly( ns, 'gsorthp', require( './../../../../ext/base/ndarray/gsorthp' ) 
 setReadOnly( ns, 'gsum', require( './../../../../ext/base/ndarray/gsum' ) );
 
 /**
+* @name gsumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gsumkbn}
+*/
+setReadOnly( ns, 'gsumkbn', require( './../../../../ext/base/ndarray/gsumkbn' ) );
+
+/**
+* @name gsumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gsumkbn2}
+*/
+setReadOnly( ns, 'gsumkbn2', require( './../../../../ext/base/ndarray/gsumkbn2' ) );
+
+/**
+* @name gsumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gsumors}
+*/
+setReadOnly( ns, 'gsumors', require( './../../../../ext/base/ndarray/gsumors' ) );
+
+/**
+* @name gsumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gsumpw}
+*/
+setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
+
+/**
 * @name scusum
 * @memberof ns
 * @readonly
@@ -197,6 +467,33 @@ setReadOnly( ns, 'gsum', require( './../../../../ext/base/ndarray/gsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/scusum}
 */
 setReadOnly( ns, 'scusum', require( './../../../../ext/base/ndarray/scusum' ) );
+
+/**
+* @name scusumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scusumkbn}
+*/
+setReadOnly( ns, 'scusumkbn', require( './../../../../ext/base/ndarray/scusumkbn' ) );
+
+/**
+* @name scusumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scusumkbn2}
+*/
+setReadOnly( ns, 'scusumkbn2', require( './../../../../ext/base/ndarray/scusumkbn2' ) );
+
+/**
+* @name scusumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scusumors}
+*/
+setReadOnly( ns, 'scusumors', require( './../../../../ext/base/ndarray/scusumors' ) );
 
 /**
 * @name sindexOf
@@ -226,6 +523,51 @@ setReadOnly( ns, 'slastIndexOf', require( './../../../../ext/base/ndarray/slast-
 setReadOnly( ns, 'slinspace', require( './../../../../ext/base/ndarray/slinspace' ) );
 
 /**
+* @name snansum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/snansum}
+*/
+setReadOnly( ns, 'snansum', require( './../../../../ext/base/ndarray/snansum' ) );
+
+/**
+* @name snansumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/snansumkbn}
+*/
+setReadOnly( ns, 'snansumkbn', require( './../../../../ext/base/ndarray/snansumkbn' ) );
+
+/**
+* @name snansumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/snansumkbn2}
+*/
+setReadOnly( ns, 'snansumkbn2', require( './../../../../ext/base/ndarray/snansumkbn2' ) );
+
+/**
+* @name snansumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/snansumors}
+*/
+setReadOnly( ns, 'snansumors', require( './../../../../ext/base/ndarray/snansumors' ) );
+
+/**
+* @name snansumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/snansumpw}
+*/
+setReadOnly( ns, 'snansumpw', require( './../../../../ext/base/ndarray/snansumpw' ) );
+
+/**
 * @name ssorthp
 * @memberof ns
 * @readonly
@@ -244,6 +586,42 @@ setReadOnly( ns, 'ssorthp', require( './../../../../ext/base/ndarray/ssorthp' ) 
 setReadOnly( ns, 'ssum', require( './../../../../ext/base/ndarray/ssum' ) );
 
 /**
+* @name ssumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ssumkbn}
+*/
+setReadOnly( ns, 'ssumkbn', require( './../../../../ext/base/ndarray/ssumkbn' ) );
+
+/**
+* @name ssumkbn2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ssumkbn2}
+*/
+setReadOnly( ns, 'ssumkbn2', require( './../../../../ext/base/ndarray/ssumkbn2' ) );
+
+/**
+* @name ssumors
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ssumors}
+*/
+setReadOnly( ns, 'ssumors', require( './../../../../ext/base/ndarray/ssumors' ) );
+
+/**
+* @name ssumpw
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ssumpw}
+*/
+setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
+
+/**
 * @name zsum
 * @memberof ns
 * @readonly
@@ -251,6 +629,15 @@ setReadOnly( ns, 'ssum', require( './../../../../ext/base/ndarray/ssum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zsum}
 */
 setReadOnly( ns, 'zsum', require( './../../../../ext/base/ndarray/zsum' ) );
+
+/**
+* @name zsumkbn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zsumkbn}
+*/
+setReadOnly( ns, 'zsumkbn', require( './../../../../ext/base/ndarray/zsumkbn' ) );
 
 
 // EXPORTS //

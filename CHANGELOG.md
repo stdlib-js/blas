@@ -10,6 +10,19 @@
 
 ### Features
 
+-   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - add `zsumkbn` to namespace
+-   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - add `ssum*` packages to namespace
+-   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - add `snansum*` packages to namespace
+-   [`4fd2a21`](https://github.com/stdlib-js/stdlib/commit/4fd2a219ae6e07280d6cc6a1b5b09a4041372cfc) - add `scusum*` packages to namespace
+-   [`88a1858`](https://github.com/stdlib-js/stdlib/commit/88a185876ae0c29b939971a8c4886c2baf802c85) - add `gsum*` packages to namespace
+-   [`561c7a6`](https://github.com/stdlib-js/stdlib/commit/561c7a6c4a48617c17afb9f27cb542f3a6d21edf) - add `gsort` to namespace
+-   [`825d1ff`](https://github.com/stdlib-js/stdlib/commit/825d1ff16c1ebde30a9a0e42d13c8a454970f600) - add `gnansum*` packages to namespace
+-   [`973f4df`](https://github.com/stdlib-js/stdlib/commit/973f4df4b3ddb831ff8419e4eb2510c7e381b0e4) - add `gcusum*` packages to namespace
+-   [`cf3741e`](https://github.com/stdlib-js/stdlib/commit/cf3741e5a445a8bb8b6a8374ce9f2580895881e7) - add `dsum*` packages to namespace
+-   [`722ad36`](https://github.com/stdlib-js/stdlib/commit/722ad364638938e89ecbf6701814987815372ab6) - add `dsort*` packages to namespace
+-   [`8fe4e5c`](https://github.com/stdlib-js/stdlib/commit/8fe4e5cccb92b68eb3e72f350e983bea6087dec4) - add `dnansum*` packages to namespace
+-   [`aeb4f1b`](https://github.com/stdlib-js/stdlib/commit/aeb4f1bcd4fd85e034b7d3147794df15b979ab8f) - add `dcusumkbn`, `dcusumkbn2`, `dcusumors`, `dcusumpw` to namespace
+-   [`b9a7439`](https://github.com/stdlib-js/stdlib/commit/b9a7439d4f1ca46f88cc855042770f6c67833b01) - add `csumkbn` to namespace
 -   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - add `gjoinBetween` to namespace
 -   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - add `gjoin` to namespace
 -   [`8ea2465`](https://github.com/stdlib-js/stdlib/commit/8ea24652dd16bf22b2bd22ecc6afb8c82cf8ba39) - add `scircshift` to namespace
@@ -750,6 +763,19 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - **feat:** add `zsumkbn` to namespace _(by Athan Reines)_
+-   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - **feat:** add `ssum*` packages to namespace _(by Athan Reines)_
+-   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - **feat:** add `snansum*` packages to namespace _(by Athan Reines)_
+-   [`4fd2a21`](https://github.com/stdlib-js/stdlib/commit/4fd2a219ae6e07280d6cc6a1b5b09a4041372cfc) - **feat:** add `scusum*` packages to namespace _(by Athan Reines)_
+-   [`88a1858`](https://github.com/stdlib-js/stdlib/commit/88a185876ae0c29b939971a8c4886c2baf802c85) - **feat:** add `gsum*` packages to namespace _(by Athan Reines)_
+-   [`561c7a6`](https://github.com/stdlib-js/stdlib/commit/561c7a6c4a48617c17afb9f27cb542f3a6d21edf) - **feat:** add `gsort` to namespace _(by Athan Reines)_
+-   [`825d1ff`](https://github.com/stdlib-js/stdlib/commit/825d1ff16c1ebde30a9a0e42d13c8a454970f600) - **feat:** add `gnansum*` packages to namespace _(by Athan Reines)_
+-   [`973f4df`](https://github.com/stdlib-js/stdlib/commit/973f4df4b3ddb831ff8419e4eb2510c7e381b0e4) - **feat:** add `gcusum*` packages to namespace _(by Athan Reines)_
+-   [`cf3741e`](https://github.com/stdlib-js/stdlib/commit/cf3741e5a445a8bb8b6a8374ce9f2580895881e7) - **feat:** add `dsum*` packages to namespace _(by Athan Reines)_
+-   [`722ad36`](https://github.com/stdlib-js/stdlib/commit/722ad364638938e89ecbf6701814987815372ab6) - **feat:** add `dsort*` packages to namespace _(by Athan Reines)_
+-   [`8fe4e5c`](https://github.com/stdlib-js/stdlib/commit/8fe4e5cccb92b68eb3e72f350e983bea6087dec4) - **feat:** add `dnansum*` packages to namespace _(by Athan Reines)_
+-   [`aeb4f1b`](https://github.com/stdlib-js/stdlib/commit/aeb4f1bcd4fd85e034b7d3147794df15b979ab8f) - **feat:** add `dcusumkbn`, `dcusumkbn2`, `dcusumors`, `dcusumpw` to namespace _(by Athan Reines)_
+-   [`b9a7439`](https://github.com/stdlib-js/stdlib/commit/b9a7439d4f1ca46f88cc855042770f6c67833b01) - **feat:** add `csumkbn` to namespace _(by Athan Reines)_
 -   [`85155cb`](https://github.com/stdlib-js/stdlib/commit/85155cb6ae402aec36efd20d55c56b2c77436c0c) - **feat:** add `gjoinBetween` to namespace _(by Athan Reines)_
 -   [`0c0ad66`](https://github.com/stdlib-js/stdlib/commit/0c0ad66098389167a139e820fbb7ccf1743affb5) - **feat:** add `gjoin` to namespace _(by Athan Reines)_
 -   [`8ea2465`](https://github.com/stdlib-js/stdlib/commit/8ea24652dd16bf22b2bd22ecc6afb8c82cf8ba39) - **feat:** add `scircshift` to namespace _(by Athan Reines)_
