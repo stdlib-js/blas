@@ -55,6 +55,15 @@ setReadOnly( ns, 'csum', require( './../../../../ext/base/ndarray/csum' ) );
 setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) );
 
 /**
+* @name dcircshift
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcircshift}
+*/
+setReadOnly( ns, 'dcircshift', require( './../../../../ext/base/ndarray/dcircshift' ) );
+
+/**
 * @name dcusum
 * @memberof ns
 * @readonly
@@ -467,6 +476,15 @@ setReadOnly( ns, 'gsumors', require( './../../../../ext/base/ndarray/gsumors' ) 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gsumpw}
 */
 setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
+
+/**
+* @name scircshift
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scircshift}
+*/
+setReadOnly( ns, 'scircshift', require( './../../../../ext/base/ndarray/scircshift' ) );
 
 /**
 * @name scusum
