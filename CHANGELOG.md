@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-27)
+## Unreleased (2026-03-28)
 
 <section class="features">
 
@@ -763,6 +763,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`8892296`](https://github.com/stdlib-js/stdlib/commit/889229649e046242045e484d4c35097b2fb9ca68) - **docs:** add missing private annotation in `blas/ext/base/ndarray/ssum` [(#11175)](https://github.com/stdlib-js/stdlib/pull/11175) _(by Kaustubh Patange)_
 -   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
 -   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - **feat:** add `zsumkbn` to namespace _(by Athan Reines)_
 -   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - **feat:** add `ssum*` packages to namespace _(by Athan Reines)_
