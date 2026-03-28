@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`899e976`](https://github.com/stdlib-js/stdlib/commit/899e9768a73c76b8d2239f3939f2e2a3c669a19c) - add `blas/ext/base/ndarray/dcircshift` [(#11176)](https://github.com/stdlib-js/stdlib/pull/11176)
 -   [`ed59264`](https://github.com/stdlib-js/stdlib/commit/ed592647ff3cf67201974cef05dddebdd392ba7c) - add `gcircshift` to namespace
 -   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178)
 -   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - add `zsumkbn` to namespace
@@ -765,6 +766,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`899e976`](https://github.com/stdlib-js/stdlib/commit/899e9768a73c76b8d2239f3939f2e2a3c669a19c) - **feat:** add `blas/ext/base/ndarray/dcircshift` [(#11176)](https://github.com/stdlib-js/stdlib/pull/11176) _(by Muhammad Haris)_
 -   [`ed59264`](https://github.com/stdlib-js/stdlib/commit/ed592647ff3cf67201974cef05dddebdd392ba7c) - **feat:** add `gcircshift` to namespace _(by Athan Reines)_
 -   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - **feat:** add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178) _(by Muhammad Haris, Athan Reines)_
 -   [`8892296`](https://github.com/stdlib-js/stdlib/commit/889229649e046242045e484d4c35097b2fb9ca68) - **docs:** add missing private annotation in `blas/ext/base/ndarray/ssum` [(#11175)](https://github.com/stdlib-js/stdlib/pull/11175) _(by Kaustubh Patange)_
