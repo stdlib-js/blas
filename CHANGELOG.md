@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178)
 -   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - add `zsumkbn` to namespace
 -   [`f05fd5e`](https://github.com/stdlib-js/stdlib/commit/f05fd5ec7c534ff7bfcdf0b003844668be74cd37) - add `ssum*` packages to namespace
 -   [`00a150a`](https://github.com/stdlib-js/stdlib/commit/00a150a8f248211a585ff64f6d06377d1c07da1b) - add `snansum*` packages to namespace
@@ -763,6 +764,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`fdf402d`](https://github.com/stdlib-js/stdlib/commit/fdf402da400ed2f7423f8aeffddddc765b719648) - **feat:** add `blas/ext/base/ndarray/gcircshift` [(#11178)](https://github.com/stdlib-js/stdlib/pull/11178) _(by Muhammad Haris, Athan Reines)_
 -   [`8892296`](https://github.com/stdlib-js/stdlib/commit/889229649e046242045e484d4c35097b2fb9ca68) - **docs:** add missing private annotation in `blas/ext/base/ndarray/ssum` [(#11175)](https://github.com/stdlib-js/stdlib/pull/11175) _(by Kaustubh Patange)_
 -   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
 -   [`8427c6a`](https://github.com/stdlib-js/stdlib/commit/8427c6a346e575bdc3aba46679763649f91fae97) - **feat:** add `zsumkbn` to namespace _(by Athan Reines)_
