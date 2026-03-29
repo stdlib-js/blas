@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`3b257de`](https://github.com/stdlib-js/stdlib/commit/3b257dea9539f4c1357c0461925ec75a5721036d) - add `szeroTo` to namespace
+-   [`e0dd86c`](https://github.com/stdlib-js/stdlib/commit/e0dd86c929140ee807487322e957b2760401c6ea) - add `dindexOfRow` to namespace
+-   [`083aed7`](https://github.com/stdlib-js/stdlib/commit/083aed7c06206cea17f486d8b66ce811d4b72476) - add `czeroTo` to namespace
 -   [`ddb70d6`](https://github.com/stdlib-js/stdlib/commit/ddb70d636f1fa0223cfdbb90d2a3acbbbe631488) - add `blas/ext/base/dindex-of-row` [(#11162)](https://github.com/stdlib-js/stdlib/pull/11162)
 -   [`eec976a`](https://github.com/stdlib-js/stdlib/commit/eec976a8177ebe0904deead69da4ca504463fe57) - add `blas/ext/base/czero-to` [(#11192)](https://github.com/stdlib-js/stdlib/pull/11192)
 -   [`b241a6d`](https://github.com/stdlib-js/stdlib/commit/b241a6dd8bd6f2275c1168919d110d13e795001d) - add `blas/ext/base/szero-to` [(#11190)](https://github.com/stdlib-js/stdlib/pull/11190)
@@ -771,6 +774,9 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`3b257de`](https://github.com/stdlib-js/stdlib/commit/3b257dea9539f4c1357c0461925ec75a5721036d) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
+-   [`e0dd86c`](https://github.com/stdlib-js/stdlib/commit/e0dd86c929140ee807487322e957b2760401c6ea) - **feat:** add `dindexOfRow` to namespace _(by Athan Reines)_
+-   [`083aed7`](https://github.com/stdlib-js/stdlib/commit/083aed7c06206cea17f486d8b66ce811d4b72476) - **feat:** add `czeroTo` to namespace _(by Athan Reines)_
 -   [`ddb70d6`](https://github.com/stdlib-js/stdlib/commit/ddb70d636f1fa0223cfdbb90d2a3acbbbe631488) - **feat:** add `blas/ext/base/dindex-of-row` [(#11162)](https://github.com/stdlib-js/stdlib/pull/11162) _(by Muhammad Haris, Athan Reines)_
 -   [`eec976a`](https://github.com/stdlib-js/stdlib/commit/eec976a8177ebe0904deead69da4ca504463fe57) - **feat:** add `blas/ext/base/czero-to` [(#11192)](https://github.com/stdlib-js/stdlib/pull/11192) _(by Muhammad Haris)_
 -   [`b241a6d`](https://github.com/stdlib-js/stdlib/commit/b241a6dd8bd6f2275c1168919d110d13e795001d) - **feat:** add `blas/ext/base/szero-to` [(#11190)](https://github.com/stdlib-js/stdlib/pull/11190) _(by Muhammad Haris, Athan Reines)_

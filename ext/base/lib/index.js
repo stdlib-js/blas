@@ -64,6 +64,15 @@ setReadOnly( ns, 'csum', require( './../../../ext/base/csum' ) );
 setReadOnly( ns, 'csumkbn', require( './../../../ext/base/csumkbn' ) );
 
 /**
+* @name czeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/czero-to}
+*/
+setReadOnly( ns, 'czeroTo', require( './../../../ext/base/czero-to' ) );
+
+/**
 * @name dapx
 * @memberof ns
 * @readonly
@@ -197,6 +206,15 @@ setReadOnly( ns, 'dfill', require( './../../../ext/base/dfill' ) );
 * @see {@link module:@stdlib/blas/ext/base/dindex-of}
 */
 setReadOnly( ns, 'dindexOf', require( './../../../ext/base/dindex-of' ) );
+
+/**
+* @name dindexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dindex-of-row}
+*/
+setReadOnly( ns, 'dindexOfRow', require( './../../../ext/base/dindex-of-row' ) );
 
 /**
 * @name dlastIndexOf
@@ -1349,6 +1367,15 @@ setReadOnly( ns, 'ssumors', require( './../../../ext/base/ssumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/ssumpw}
 */
 setReadOnly( ns, 'ssumpw', require( './../../../ext/base/ssumpw' ) );
+
+/**
+* @name szeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/szero-to}
+*/
+setReadOnly( ns, 'szeroTo', require( './../../../ext/base/szero-to' ) );
 
 /**
 * @name wasm
