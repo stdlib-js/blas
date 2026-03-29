@@ -774,6 +774,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`a0169bc`](https://github.com/stdlib-js/stdlib/commit/a0169bcfc0d05ac94c206ac5d6d0a898ec304463) - **docs:** remove unused `ndarray2array` requires from README usage examples [(#11194)](https://github.com/stdlib-js/stdlib/pull/11194) _(by Philipp Burckhardt)_
 -   [`3b257de`](https://github.com/stdlib-js/stdlib/commit/3b257dea9539f4c1357c0461925ec75a5721036d) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
 -   [`e0dd86c`](https://github.com/stdlib-js/stdlib/commit/e0dd86c929140ee807487322e957b2760401c6ea) - **feat:** add `dindexOfRow` to namespace _(by Athan Reines)_
 -   [`083aed7`](https://github.com/stdlib-js/stdlib/commit/083aed7c06206cea17f486d8b66ce811d4b72476) - **feat:** add `czeroTo` to namespace _(by Athan Reines)_
