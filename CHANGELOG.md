@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-28)
+## Unreleased (2026-03-29)
 
 <section class="features">
 
 ### Features
 
+-   [`eec976a`](https://github.com/stdlib-js/stdlib/commit/eec976a8177ebe0904deead69da4ca504463fe57) - add `blas/ext/base/czero-to` [(#11192)](https://github.com/stdlib-js/stdlib/pull/11192)
 -   [`b241a6d`](https://github.com/stdlib-js/stdlib/commit/b241a6dd8bd6f2275c1168919d110d13e795001d) - add `blas/ext/base/szero-to` [(#11190)](https://github.com/stdlib-js/stdlib/pull/11190)
 -   [`80a1fc1`](https://github.com/stdlib-js/stdlib/commit/80a1fc1f478db29c13e4bbbe3a00ad330542ff00) - add `dcircshift` and `scircshift` to namespace
 -   [`1b0b669`](https://github.com/stdlib-js/stdlib/commit/1b0b669c1ce63a75ce46c6a06f0f07a7544d5bfa) - add `blas/ext/base/ndarray/scircshift` [(#11177)](https://github.com/stdlib-js/stdlib/pull/11177)
@@ -769,6 +770,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`eec976a`](https://github.com/stdlib-js/stdlib/commit/eec976a8177ebe0904deead69da4ca504463fe57) - **feat:** add `blas/ext/base/czero-to` [(#11192)](https://github.com/stdlib-js/stdlib/pull/11192) _(by Muhammad Haris)_
 -   [`b241a6d`](https://github.com/stdlib-js/stdlib/commit/b241a6dd8bd6f2275c1168919d110d13e795001d) - **feat:** add `blas/ext/base/szero-to` [(#11190)](https://github.com/stdlib-js/stdlib/pull/11190) _(by Muhammad Haris, Athan Reines)_
 -   [`80a1fc1`](https://github.com/stdlib-js/stdlib/commit/80a1fc1f478db29c13e4bbbe3a00ad330542ff00) - **feat:** add `dcircshift` and `scircshift` to namespace _(by Athan Reines)_
 -   [`1b0b669`](https://github.com/stdlib-js/stdlib/commit/1b0b669c1ce63a75ce46c6a06f0f07a7544d5bfa) - **feat:** add `blas/ext/base/ndarray/scircshift` [(#11177)](https://github.com/stdlib-js/stdlib/pull/11177) _(by Muhammad Haris, Athan Reines)_
