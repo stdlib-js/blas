@@ -1000,6 +1000,15 @@ setReadOnly( ns, 'gsumors', require( './../../../ext/base/gsumors' ) );
 setReadOnly( ns, 'gsumpw', require( './../../../ext/base/gsumpw' ) );
 
 /**
+* @name gzeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gzero-to}
+*/
+setReadOnly( ns, 'gzeroTo', require( './../../../ext/base/gzero-to' ) );
+
+/**
 * @name ndarray
 * @memberof ns
 * @readonly
