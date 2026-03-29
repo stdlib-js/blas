@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206)
 -   [`e25407e`](https://github.com/stdlib-js/stdlib/commit/e25407edd41c8eb563bb7a452677b1283bd3c3a2) - add `gzeroTo` to namespace
 -   [`20b2de0`](https://github.com/stdlib-js/stdlib/commit/20b2de04ae9d607abca38591e859a5e5f8eab88c) - add `blas/ext/base/gzero-to` [(#11191)](https://github.com/stdlib-js/stdlib/pull/11191)
 -   [`36db74c`](https://github.com/stdlib-js/stdlib/commit/36db74cb5fea70abbc7f05332af94197e520ab2a) - update `blas/ext/base/ndarray` TypeScript declarations [(#11197)](https://github.com/stdlib-js/stdlib/pull/11197)
@@ -777,6 +778,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - **feat:** add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206) _(by Kaustubh Patange, Athan Reines)_
 -   [`e25407e`](https://github.com/stdlib-js/stdlib/commit/e25407edd41c8eb563bb7a452677b1283bd3c3a2) - **feat:** add `gzeroTo` to namespace _(by Athan Reines)_
 -   [`20b2de0`](https://github.com/stdlib-js/stdlib/commit/20b2de04ae9d607abca38591e859a5e5f8eab88c) - **feat:** add `blas/ext/base/gzero-to` [(#11191)](https://github.com/stdlib-js/stdlib/pull/11191) _(by Muhammad Haris, Athan Reines)_
 -   [`ba129b3`](https://github.com/stdlib-js/stdlib/commit/ba129b35eed5099aece6caa686c3794e9a6b08b5) - **docs:** update namespace table of contents [(#11198)](https://github.com/stdlib-js/stdlib/pull/11198) _(by stdlib-bot)_
