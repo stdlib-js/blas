@@ -783,6 +783,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`e5563e6`](https://github.com/stdlib-js/stdlib/commit/e5563e64c220207b23b0a7d6103986b9a2d4d196) - **bench:** refactor to use string interpolation in `blas/base/matrix-triangle-resolve-str` [(#11208)](https://github.com/stdlib-js/stdlib/pull/11208) _(by Kamal Singh Rautela)_
 -   [`39f546e`](https://github.com/stdlib-js/stdlib/commit/39f546ef68ed924078037e33ab7ea1097c48ef27) - **bench:** refactor to use string interpolation in `blas/base/diagonal-type-resolve-str` [(#11207)](https://github.com/stdlib-js/stdlib/pull/11207) _(by Kamal Singh Rautela)_
 -   [`956d892`](https://github.com/stdlib-js/stdlib/commit/956d892ba4361d840a86d4f246e3a7b9bfaa4cfd) - **bench:** refactor to use string interpolation in `blas/base/matrix-orientation-resolve-str` [(#11218)](https://github.com/stdlib-js/stdlib/pull/11218) _(by Kamal Singh Rautela)_
 -   [`9e4bd00`](https://github.com/stdlib-js/stdlib/commit/9e4bd00aa58ccaf697ef60feb35fe34db59cd60c) - **bench:** refactor to use string interpolation in `blas/base/layout-resolve-string` [(#11219)](https://github.com/stdlib-js/stdlib/pull/11219) _(by Kamal Singh Rautela)_
