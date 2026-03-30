@@ -613,6 +613,15 @@ setReadOnly( blas, 'matrixTriangleStr2Enum', require( './../../base/matrix-trian
 setReadOnly( blas, 'matrixTriangles', require( './../../base/matrix-triangles' ) );
 
 /**
+* @name ndarray
+* @memberof blas
+* @readonly
+* @type {Namespace}
+* @see {@link module:@stdlib/blas/base/ndarray}
+*/
+setReadOnly( blas, 'ndarray', require( './../../base/ndarray' ) );
+
+/**
 * @name operationSideEnum2Str
 * @memberof blas
 * @readonly

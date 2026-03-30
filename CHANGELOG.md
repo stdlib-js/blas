@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-03-29)
+## Unreleased (2026-03-30)
 
 <section class="features">
 
 ### Features
 
+-   [`972a005`](https://github.com/stdlib-js/stdlib/commit/972a0050d4ce65fe987718730115a90aa6313ce3) - add `ndarray` to namespace
+-   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - add `blas/base/ndarray` namespace
 -   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206)
 -   [`e25407e`](https://github.com/stdlib-js/stdlib/commit/e25407edd41c8eb563bb7a452677b1283bd3c3a2) - add `gzeroTo` to namespace
 -   [`20b2de0`](https://github.com/stdlib-js/stdlib/commit/20b2de04ae9d607abca38591e859a5e5f8eab88c) - add `blas/ext/base/gzero-to` [(#11191)](https://github.com/stdlib-js/stdlib/pull/11191)
@@ -437,6 +439,7 @@
 
 ### Bug Fixes
 
+-   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - add namespace package files
 -   [`51981c7`](https://github.com/stdlib-js/stdlib/commit/51981c7c552f088da5cc1a36c005a9f3d550bfea) - preserve sign of zero in native C implementation of `blas/ext/base/ssumpw`
 -   [`0e41789`](https://github.com/stdlib-js/stdlib/commit/0e4178970f971d23a583327347070a4eba7281e5) - correct function call to cblas in `blas/base/ddot` [(#10707)](https://github.com/stdlib-js/stdlib/pull/10707)
 -   [`c703f0f`](https://github.com/stdlib-js/stdlib/commit/c703f0f66c85fdd8890b2a0603ebe9934892d1b6) - rename C function to `stdlib_blas_ext_ssum` in `blas/ext/base/ndarray/ssum`
@@ -778,6 +781,9 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - **fix:** add namespace package files _(by Athan Reines)_
+-   [`972a005`](https://github.com/stdlib-js/stdlib/commit/972a0050d4ce65fe987718730115a90aa6313ce3) - **feat:** add `ndarray` to namespace _(by Athan Reines)_
+-   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - **feat:** add `blas/base/ndarray` namespace _(by Athan Reines)_
 -   [`123d52a`](https://github.com/stdlib-js/stdlib/commit/123d52a068d091362473cfdfe6cfd96db4775fae) - **feat:** add `blas/base/ndarray/dasum` [(#11206)](https://github.com/stdlib-js/stdlib/pull/11206) _(by Kaustubh Patange, Athan Reines)_
 -   [`e25407e`](https://github.com/stdlib-js/stdlib/commit/e25407edd41c8eb563bb7a452677b1283bd3c3a2) - **feat:** add `gzeroTo` to namespace _(by Athan Reines)_
 -   [`20b2de0`](https://github.com/stdlib-js/stdlib/commit/20b2de04ae9d607abca38591e859a5e5f8eab88c) - **feat:** add `blas/ext/base/gzero-to` [(#11191)](https://github.com/stdlib-js/stdlib/pull/11191) _(by Muhammad Haris, Athan Reines)_
