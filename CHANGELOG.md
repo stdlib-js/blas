@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - add `sasum` to namespace
 -   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215)
 -   [`972a005`](https://github.com/stdlib-js/stdlib/commit/972a0050d4ce65fe987718730115a90aa6313ce3) - add `ndarray` to namespace
 -   [`eb01558`](https://github.com/stdlib-js/stdlib/commit/eb01558caf34b3a230bfaae621c716c09055e3f3) - add `blas/base/ndarray` namespace
@@ -782,6 +783,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - **feat:** add `sasum` to namespace _(by Athan Reines)_
 -   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - **feat:** add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215) _(by Kaustubh Patange, Athan Reines)_
 -   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - **fix:** add namespace package files _(by Athan Reines)_
 -   [`972a005`](https://github.com/stdlib-js/stdlib/commit/972a0050d4ce65fe987718730115a90aa6313ce3) - **feat:** add `ndarray` to namespace _(by Athan Reines)_
