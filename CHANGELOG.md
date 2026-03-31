@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0cf9821`](https://github.com/stdlib-js/stdlib/commit/0cf9821201fa638279fd4bbb7696c3ebd56253ff) - add `blas/ext/circshift` [(#11189)](https://github.com/stdlib-js/stdlib/pull/11189)
 -   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225)
 -   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - add `sasum` to namespace
 -   [`26bd7e3`](https://github.com/stdlib-js/stdlib/commit/26bd7e30ed17904d35d0eb419d611647081a7f2b) - add `blas/base/ndarray/sasum` [(#11215)](https://github.com/stdlib-js/stdlib/pull/11215)
@@ -784,6 +785,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`0cf9821`](https://github.com/stdlib-js/stdlib/commit/0cf9821201fa638279fd4bbb7696c3ebd56253ff) - **feat:** add `blas/ext/circshift` [(#11189)](https://github.com/stdlib-js/stdlib/pull/11189) _(by Muhammad Haris, Athan Reines)_
 -   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - **feat:** add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225) _(by Kaustubh Patange, Athan Reines)_
 -   [`eabc418`](https://github.com/stdlib-js/stdlib/commit/eabc41856394898c0eb87c8998c0be31f1b4e1a5) - **docs:** update namespace table of contents [(#11238)](https://github.com/stdlib-js/stdlib/pull/11238) _(by stdlib-bot)_
 -   [`e5563e6`](https://github.com/stdlib-js/stdlib/commit/e5563e64c220207b23b0a7d6103986b9a2d4d196) - **bench:** refactor to use string interpolation in `blas/base/matrix-triangle-resolve-str` [(#11208)](https://github.com/stdlib-js/stdlib/pull/11208) _(by Kamal Singh Rautela)_
