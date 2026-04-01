@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258)
 -   [`aec699a`](https://github.com/stdlib-js/stdlib/commit/aec699a23fadd9ac026d51904b1756c1a6e98061) - add `blas/ext/base/sone-to` [(#11265)](https://github.com/stdlib-js/stdlib/pull/11265)
 -   [`5bde225`](https://github.com/stdlib-js/stdlib/commit/5bde225dc771d6d87760e89007cfe0c454c3747b) - add `blas/ext/base/zzero-to` [(#11222)](https://github.com/stdlib-js/stdlib/pull/11222)
 -   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250)
@@ -788,6 +789,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - **feat:** add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258) _(by Muhammad Haris)_
 -   [`aec699a`](https://github.com/stdlib-js/stdlib/commit/aec699a23fadd9ac026d51904b1756c1a6e98061) - **feat:** add `blas/ext/base/sone-to` [(#11265)](https://github.com/stdlib-js/stdlib/pull/11265) _(by Muhammad Haris)_
 -   [`5bde225`](https://github.com/stdlib-js/stdlib/commit/5bde225dc771d6d87760e89007cfe0c454c3747b) - **feat:** add `blas/ext/base/zzero-to` [(#11222)](https://github.com/stdlib-js/stdlib/pull/11222) _(by Muhammad Haris, Athan Reines)_
 -   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250) _(by stdlib-bot)_
