@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250)
 -   [`0cf9821`](https://github.com/stdlib-js/stdlib/commit/0cf9821201fa638279fd4bbb7696c3ebd56253ff) - add `blas/ext/circshift` [(#11189)](https://github.com/stdlib-js/stdlib/pull/11189)
 -   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225)
 -   [`fdc8470`](https://github.com/stdlib-js/stdlib/commit/fdc8470da0ab5f88ac5b2085dcdfd5f73601f12e) - add `sasum` to namespace
@@ -785,6 +786,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`ea264e0`](https://github.com/stdlib-js/stdlib/commit/ea264e067f538fd074552cd197f458c3fad8c69a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11250)](https://github.com/stdlib-js/stdlib/pull/11250) _(by stdlib-bot)_
 -   [`04fd54f`](https://github.com/stdlib-js/stdlib/commit/04fd54f42c8c1b0af88660d7ce791f71891a2187) - **refactor:** improve type specificity in `blas/base/ndarray/gdot` [(#11245)](https://github.com/stdlib-js/stdlib/pull/11245) _(by Kaustubh Patange)_
 -   [`0cf9821`](https://github.com/stdlib-js/stdlib/commit/0cf9821201fa638279fd4bbb7696c3ebd56253ff) - **feat:** add `blas/ext/circshift` [(#11189)](https://github.com/stdlib-js/stdlib/pull/11189) _(by Muhammad Haris, Athan Reines)_
 -   [`68e429f`](https://github.com/stdlib-js/stdlib/commit/68e429f58616af1defd8cddfcc9b62ec47c5607a) - **feat:** add `blas/base/ndarray/gasum` [(#11225)](https://github.com/stdlib-js/stdlib/pull/11225) _(by Kaustubh Patange, Athan Reines)_
