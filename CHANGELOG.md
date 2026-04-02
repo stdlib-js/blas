@@ -800,6 +800,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`005bc76`](https://github.com/stdlib-js/stdlib/commit/005bc7603d9898b0fd9a9d3f13e0666645711af5) - **bench:** fix benchmark name _(by Athan Reines)_
 -   [`947396d`](https://github.com/stdlib-js/stdlib/commit/947396d8cb773d48baa65abe550f6c5fa41d3087) - **feat:** add `join` to namespace _(by Athan Reines)_
 -   [`e28e722`](https://github.com/stdlib-js/stdlib/commit/e28e7227b7b94ad41c0efde755dabee7ac08478a) - **feat:** add `circshift` to namespace _(by Athan Reines)_
 -   [`e032aae`](https://github.com/stdlib-js/stdlib/commit/e032aae332443ea4fb933cdf65ab799739c35dc5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_
