@@ -83,6 +83,7 @@ import matrixTriangleResolveEnum = require( './../../../base/matrix-triangle-res
 import matrixTriangleResolveStr = require( './../../../base/matrix-triangle-resolve-str' );
 import matrixTriangleStr2Enum = require( './../../../base/matrix-triangle-str2enum' );
 import matrixTriangles = require( './../../../base/matrix-triangles' );
+import ndarray = require( './../../../base/ndarray' );
 import operationSideEnum2Str = require( './../../../base/operation-side-enum2str' );
 import operationSideResolveEnum = require( './../../../base/operation-side-resolve-enum' );
 import operationSideResolveStr = require( './../../../base/operation-side-resolve-str' );
@@ -1704,6 +1705,11 @@ interface Namespace {
 	* // e.g., returns [ 'upper', 'lower' ]
 	*/
 	matrixTriangles: typeof matrixTriangles;
+
+	/**
+	* Base ndarray BLAS functions.
+	*/
+	ndarray: typeof ndarray;
 
 	/**
 	* Returns the BLAS operation side string associated with a BLAS operation side enumeration constant.

@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`114a601`](https://github.com/stdlib-js/stdlib/commit/114a601d0828bd6f9c1384b1d43dae63f36c6070) - update `blas/base` TypeScript declarations [(#11269)](https://github.com/stdlib-js/stdlib/pull/11269)
 -   [`f47983a`](https://github.com/stdlib-js/stdlib/commit/f47983ae61191f72eec30550607540f555724ad9) - add `blas/ext/base/ndarray/dzero-to` [(#11260)](https://github.com/stdlib-js/stdlib/pull/11260)
 -   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259)
 -   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258)
@@ -791,6 +792,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`114a601`](https://github.com/stdlib-js/stdlib/commit/114a601d0828bd6f9c1384b1d43dae63f36c6070) - **feat:** update `blas/base` TypeScript declarations [(#11269)](https://github.com/stdlib-js/stdlib/pull/11269) _(by stdlib-bot)_
 -   [`f47983a`](https://github.com/stdlib-js/stdlib/commit/f47983ae61191f72eec30550607540f555724ad9) - **feat:** add `blas/ext/base/ndarray/dzero-to` [(#11260)](https://github.com/stdlib-js/stdlib/pull/11260) _(by Muhammad Haris)_
 -   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - **feat:** add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259) _(by Muhammad Haris)_
 -   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - **feat:** add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258) _(by Muhammad Haris)_
