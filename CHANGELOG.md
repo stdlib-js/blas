@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-01)
+## Unreleased (2026-04-02)
 
 <section class="features">
 
 ### Features
 
+-   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259)
 -   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258)
 -   [`aec699a`](https://github.com/stdlib-js/stdlib/commit/aec699a23fadd9ac026d51904b1756c1a6e98061) - add `blas/ext/base/sone-to` [(#11265)](https://github.com/stdlib-js/stdlib/pull/11265)
 -   [`5bde225`](https://github.com/stdlib-js/stdlib/commit/5bde225dc771d6d87760e89007cfe0c454c3747b) - add `blas/ext/base/zzero-to` [(#11222)](https://github.com/stdlib-js/stdlib/pull/11222)
@@ -789,6 +790,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - **feat:** add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259) _(by Muhammad Haris)_
 -   [`ed8d4b1`](https://github.com/stdlib-js/stdlib/commit/ed8d4b1af281aac638132dd10f4d936af14e2f21) - **feat:** add `blas/ext/base/ndarray/gzero-to` [(#11258)](https://github.com/stdlib-js/stdlib/pull/11258) _(by Muhammad Haris)_
 -   [`aec699a`](https://github.com/stdlib-js/stdlib/commit/aec699a23fadd9ac026d51904b1756c1a6e98061) - **feat:** add `blas/ext/base/sone-to` [(#11265)](https://github.com/stdlib-js/stdlib/pull/11265) _(by Muhammad Haris)_
 -   [`5bde225`](https://github.com/stdlib-js/stdlib/commit/5bde225dc771d6d87760e89007cfe0c454c3747b) - **feat:** add `blas/ext/base/zzero-to` [(#11222)](https://github.com/stdlib-js/stdlib/pull/11222) _(by Muhammad Haris, Athan Reines)_
