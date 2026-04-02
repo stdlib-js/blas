@@ -1207,6 +1207,15 @@ setReadOnly( ns, 'sfill', require( './../../../ext/base/sfill' ) );
 setReadOnly( ns, 'sindexOf', require( './../../../ext/base/sindex-of' ) );
 
 /**
+* @name sindexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sindex-of-row}
+*/
+setReadOnly( ns, 'sindexOfRow', require( './../../../ext/base/sindex-of-row' ) );
+
+/**
 * @name slastIndexOf
 * @memberof ns
 * @readonly
