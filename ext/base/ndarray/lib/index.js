@@ -253,6 +253,15 @@ setReadOnly( ns, 'dsumors', require( './../../../../ext/base/ndarray/dsumors' ) 
 setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
 
 /**
+* @name dzeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dzero-to}
+*/
+setReadOnly( ns, 'dzeroTo', require( './../../../../ext/base/ndarray/dzero-to' ) );
+
+/**
 * @name gcircshift
 * @memberof ns
 * @readonly
@@ -478,6 +487,15 @@ setReadOnly( ns, 'gsumors', require( './../../../../ext/base/ndarray/gsumors' ) 
 setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
 
 /**
+* @name gzeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gzero-to}
+*/
+setReadOnly( ns, 'gzeroTo', require( './../../../../ext/base/ndarray/gzero-to' ) );
+
+/**
 * @name scircshift
 * @memberof ns
 * @readonly
@@ -647,6 +665,15 @@ setReadOnly( ns, 'ssumors', require( './../../../../ext/base/ndarray/ssumors' ) 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/ssumpw}
 */
 setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
+
+/**
+* @name szeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/szero-to}
+*/
+setReadOnly( ns, 'szeroTo', require( './../../../../ext/base/ndarray/szero-to' ) );
 
 /**
 * @name zsum

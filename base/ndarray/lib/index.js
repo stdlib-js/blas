@@ -55,6 +55,15 @@ setReadOnly( ns, 'dasum', require( './../../../base/ndarray/dasum' ) );
 setReadOnly( ns, 'ddot', require( './../../../base/ndarray/ddot' ) );
 
 /**
+* @name gasum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/gasum}
+*/
+setReadOnly( ns, 'gasum', require( './../../../base/ndarray/gasum' ) );
+
+/**
 * @name gdot
 * @memberof ns
 * @readonly

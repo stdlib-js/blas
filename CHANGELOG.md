@@ -10,6 +10,14 @@
 
 ### Features
 
+-   [`947396d`](https://github.com/stdlib-js/stdlib/commit/947396d8cb773d48baa65abe550f6c5fa41d3087) - add `join` to namespace
+-   [`e28e722`](https://github.com/stdlib-js/stdlib/commit/e28e7227b7b94ad41c0efde755dabee7ac08478a) - add `circshift` to namespace
+-   [`e032aae`](https://github.com/stdlib-js/stdlib/commit/e032aae332443ea4fb933cdf65ab799739c35dc5) - add `soneTo` to namespace
+-   [`d9e018a`](https://github.com/stdlib-js/stdlib/commit/d9e018a06fcdb391e5ba31186a0e30c6a915b591) - add `zzeroTo` to namespace
+-   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - add `szeroTo` to namespace
+-   [`2e70241`](https://github.com/stdlib-js/stdlib/commit/2e70241ab99ecf58e4aed0ebade4983398804782) - add `gzeroTo` to namespace
+-   [`c706e69`](https://github.com/stdlib-js/stdlib/commit/c706e698793d4d06642ba3c09eb81976ba451117) - add `dzeroTo` to namespace
+-   [`15f466e`](https://github.com/stdlib-js/stdlib/commit/15f466e17312e1fe7590e54cd7bb899701111d2e) - add `gasum` to namespace
 -   [`114a601`](https://github.com/stdlib-js/stdlib/commit/114a601d0828bd6f9c1384b1d43dae63f36c6070) - update `blas/base` TypeScript declarations [(#11269)](https://github.com/stdlib-js/stdlib/pull/11269)
 -   [`f47983a`](https://github.com/stdlib-js/stdlib/commit/f47983ae61191f72eec30550607540f555724ad9) - add `blas/ext/base/ndarray/dzero-to` [(#11260)](https://github.com/stdlib-js/stdlib/pull/11260)
 -   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259)
@@ -792,6 +800,14 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`947396d`](https://github.com/stdlib-js/stdlib/commit/947396d8cb773d48baa65abe550f6c5fa41d3087) - **feat:** add `join` to namespace _(by Athan Reines)_
+-   [`e28e722`](https://github.com/stdlib-js/stdlib/commit/e28e7227b7b94ad41c0efde755dabee7ac08478a) - **feat:** add `circshift` to namespace _(by Athan Reines)_
+-   [`e032aae`](https://github.com/stdlib-js/stdlib/commit/e032aae332443ea4fb933cdf65ab799739c35dc5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_
+-   [`d9e018a`](https://github.com/stdlib-js/stdlib/commit/d9e018a06fcdb391e5ba31186a0e30c6a915b591) - **feat:** add `zzeroTo` to namespace _(by Athan Reines)_
+-   [`34f7f92`](https://github.com/stdlib-js/stdlib/commit/34f7f921c1d3138dd155f790d7d036e3e1ed8a0e) - **feat:** add `szeroTo` to namespace _(by Athan Reines)_
+-   [`2e70241`](https://github.com/stdlib-js/stdlib/commit/2e70241ab99ecf58e4aed0ebade4983398804782) - **feat:** add `gzeroTo` to namespace _(by Athan Reines)_
+-   [`c706e69`](https://github.com/stdlib-js/stdlib/commit/c706e698793d4d06642ba3c09eb81976ba451117) - **feat:** add `dzeroTo` to namespace _(by Athan Reines)_
+-   [`15f466e`](https://github.com/stdlib-js/stdlib/commit/15f466e17312e1fe7590e54cd7bb899701111d2e) - **feat:** add `gasum` to namespace _(by Athan Reines)_
 -   [`114a601`](https://github.com/stdlib-js/stdlib/commit/114a601d0828bd6f9c1384b1d43dae63f36c6070) - **feat:** update `blas/base` TypeScript declarations [(#11269)](https://github.com/stdlib-js/stdlib/pull/11269) _(by stdlib-bot)_
 -   [`f47983a`](https://github.com/stdlib-js/stdlib/commit/f47983ae61191f72eec30550607540f555724ad9) - **feat:** add `blas/ext/base/ndarray/dzero-to` [(#11260)](https://github.com/stdlib-js/stdlib/pull/11260) _(by Muhammad Haris)_
 -   [`d6db92c`](https://github.com/stdlib-js/stdlib/commit/d6db92cf63e0550c2f16386dbc07db987667f273) - **feat:** add `blas/ext/base/ndarray/szero-to` [(#11259)](https://github.com/stdlib-js/stdlib/pull/11259) _(by Muhammad Haris)_

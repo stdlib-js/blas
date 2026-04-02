@@ -1270,6 +1270,15 @@ setReadOnly( ns, 'snansumors', require( './../../../ext/base/snansumors' ) );
 setReadOnly( ns, 'snansumpw', require( './../../../ext/base/snansumpw' ) );
 
 /**
+* @name soneTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sone-to}
+*/
+setReadOnly( ns, 'soneTo', require( './../../../ext/base/sone-to' ) );
+
+/**
 * @name srev
 * @memberof ns
 * @readonly
@@ -1421,6 +1430,15 @@ setReadOnly( ns, 'zsum', require( './../../../ext/base/zsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/zsumkbn}
 */
 setReadOnly( ns, 'zsumkbn', require( './../../../ext/base/zsumkbn' ) );
+
+/**
+* @name zzeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zzero-to}
+*/
+setReadOnly( ns, 'zzeroTo', require( './../../../ext/base/zzero-to' ) );
 
 
 // EXPORTS //

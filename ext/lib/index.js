@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'base', require( './../../ext/base' ) );
 
 /**
+* @name circshift
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/circshift}
+*/
+setReadOnly( ns, 'circshift', require( './../../ext/circshift' ) );
+
+/**
 * @name cusum
 * @memberof ns
 * @readonly
@@ -80,6 +89,15 @@ setReadOnly( ns, 'findLastIndex', require( './../../ext/find-last-index' ) );
 * @see {@link module:@stdlib/blas/ext/index-of}
 */
 setReadOnly( ns, 'indexOf', require( './../../ext/index-of' ) );
+
+/**
+* @name join
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/join}
+*/
+setReadOnly( ns, 'join', require( './../../ext/join' ) );
 
 /**
 * @name lastIndexOf
