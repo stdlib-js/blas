@@ -805,6 +805,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`62019bc`](https://github.com/stdlib-js/stdlib/commit/62019bc2c7d48c306c0febf889b6eecccc8858f3) - **test:** rename fixture folders to follow project conventions _(by Athan Reines)_
 -   [`5e92b2e`](https://github.com/stdlib-js/stdlib/commit/5e92b2ead2deb9c3ae9fdd92c89b70ab9aeb484d) - **feat:** add `gindexOfColumn` to namespace _(by Athan Reines)_
 -   [`d9f3a19`](https://github.com/stdlib-js/stdlib/commit/d9f3a193e6aa81f6e7f2baf25baa625584e62054) - **feat:** add `blas/ext/base/gindex-of-column` [(#11240)](https://github.com/stdlib-js/stdlib/pull/11240) _(by Muhammad Haris)_
 -   [`faaf3b3`](https://github.com/stdlib-js/stdlib/commit/faaf3b363bc48813c2c82b4b930727ae257cde54) - **docs:** update namespace table of contents [(#11276)](https://github.com/stdlib-js/stdlib/pull/11276) _(by stdlib-bot)_
