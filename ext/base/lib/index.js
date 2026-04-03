@@ -775,6 +775,15 @@ setReadOnly( ns, 'gfindLastIndex', require( './../../../ext/base/gfind-last-inde
 setReadOnly( ns, 'gindexOf', require( './../../../ext/base/gindex-of' ) );
 
 /**
+* @name gindexOfColumn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-column}
+*/
+setReadOnly( ns, 'gindexOfColumn', require( './../../../ext/base/gindex-of-column' ) );
+
+/**
 * @name gindexOfRow
 * @memberof ns
 * @readonly
