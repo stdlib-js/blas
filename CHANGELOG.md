@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`e2a1555`](https://github.com/stdlib-js/stdlib/commit/e2a1555ba78bb49af32f469b9ded95943ef50b52) - update `blas/ext/base/ndarray` TypeScript declarations [(#11291)](https://github.com/stdlib-js/stdlib/pull/11291)
 -   [`a45ea82`](https://github.com/stdlib-js/stdlib/commit/a45ea826f197439c6c47b5ba8604cf62cacf58b5) - add `blas/ext/base/zindex-of-row` [(#11239)](https://github.com/stdlib-js/stdlib/pull/11239)
 -   [`8b19d00`](https://github.com/stdlib-js/stdlib/commit/8b19d00b71edcd61143c31573eab59cfc6936ab4) - add `blas/ext/base/ndarray/zzero-to` [(#11263)](https://github.com/stdlib-js/stdlib/pull/11263)
 -   [`b9e4786`](https://github.com/stdlib-js/stdlib/commit/b9e4786e846b86bc14ce82a411c07ca8ebbfef32) - add `blas/ext/base/ndarray/czero-to` [(#11261)](https://github.com/stdlib-js/stdlib/pull/11261)
@@ -809,7 +808,6 @@ A total of 52 issues were closed in this release:
 
 <details>
 
--   [`e2a1555`](https://github.com/stdlib-js/stdlib/commit/e2a1555ba78bb49af32f469b9ded95943ef50b52) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11291)](https://github.com/stdlib-js/stdlib/pull/11291) _(by stdlib-bot)_
 -   [`539e603`](https://github.com/stdlib-js/stdlib/commit/539e603a2ff1164233a5c54e95b2fb8340418eec) - **docs:** update namespace table of contents [(#11292)](https://github.com/stdlib-js/stdlib/pull/11292) _(by stdlib-bot)_
 -   [`a45ea82`](https://github.com/stdlib-js/stdlib/commit/a45ea826f197439c6c47b5ba8604cf62cacf58b5) - **feat:** add `blas/ext/base/zindex-of-row` [(#11239)](https://github.com/stdlib-js/stdlib/pull/11239) _(by Muhammad Haris, Athan Reines)_
 -   [`8b19d00`](https://github.com/stdlib-js/stdlib/commit/8b19d00b71edcd61143c31573eab59cfc6936ab4) - **feat:** add `blas/ext/base/ndarray/zzero-to` [(#11263)](https://github.com/stdlib-js/stdlib/pull/11263) _(by Muhammad Haris)_

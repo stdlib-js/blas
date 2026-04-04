@@ -44,7 +44,6 @@ import dsumkbn = require( './../../../../../ext/base/ndarray/dsumkbn' );
 import dsumkbn2 = require( './../../../../../ext/base/ndarray/dsumkbn2' );
 import dsumors = require( './../../../../../ext/base/ndarray/dsumors' );
 import dsumpw = require( './../../../../../ext/base/ndarray/dsumpw' );
-import dzeroTo = require( './../../../../../ext/base/ndarray/dzero-to' );
 import gcircshift = require( './../../../../../ext/base/ndarray/gcircshift' );
 import gcusum = require( './../../../../../ext/base/ndarray/gcusum' );
 import gcusumkbn = require( './../../../../../ext/base/ndarray/gcusumkbn' );
@@ -70,7 +69,6 @@ import gsumkbn = require( './../../../../../ext/base/ndarray/gsumkbn' );
 import gsumkbn2 = require( './../../../../../ext/base/ndarray/gsumkbn2' );
 import gsumors = require( './../../../../../ext/base/ndarray/gsumors' );
 import gsumpw = require( './../../../../../ext/base/ndarray/gsumpw' );
-import gzeroTo = require( './../../../../../ext/base/ndarray/gzero-to' );
 import scircshift = require( './../../../../../ext/base/ndarray/scircshift' );
 import scusum = require( './../../../../../ext/base/ndarray/scusum' );
 import scusumkbn = require( './../../../../../ext/base/ndarray/scusumkbn' );
@@ -90,7 +88,6 @@ import ssumkbn = require( './../../../../../ext/base/ndarray/ssumkbn' );
 import ssumkbn2 = require( './../../../../../ext/base/ndarray/ssumkbn2' );
 import ssumors = require( './../../../../../ext/base/ndarray/ssumors' );
 import ssumpw = require( './../../../../../ext/base/ndarray/ssumpw' );
-import szeroTo = require( './../../../../../ext/base/ndarray/szero-to' );
 import zsum = require( './../../../../../ext/base/ndarray/zsum' );
 import zsumkbn = require( './../../../../../ext/base/ndarray/zsumkbn' );
 
@@ -662,25 +659,6 @@ interface Namespace {
 	* // returns 10.0
 	*/
 	dsumpw: typeof dsumpw;
-
-	/**
-	* Fills a one-dimensional double-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.
-	*
-	* @param arrays - array-like object containing a one-dimensional input ndarray
-	* @returns input ndarray
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
-	*
-	* var xbuf = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
-	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
-	* // returns <ndarray>[ 0.0, 0.0, 0.0, 0.0 ]
-	*
-	* var out = ns.dzeroTo( [ x ] );
-	* // returns <ndarray>[ 0.0, 1.0, 2.0, 3.0 ]
-	*/
-	dzeroTo: typeof dzeroTo;
 
 	/**
 	* Circularly shifts the elements of a one-dimensional ndarray by a specified number of positions.
@@ -1280,24 +1258,6 @@ interface Namespace {
 	gsumpw: typeof gsumpw;
 
 	/**
-	* Fills a one-dimensional ndarray with linearly spaced numeric elements which increment by `1` starting from zero.
-	*
-	* @param arrays - array-like object containing a one-dimensional input ndarray
-	* @returns input ndarray
-	*
-	* @example
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
-	*
-	* var xbuf = [ 0.0, 0.0, 0.0, 0.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
-	* // returns <ndarray>[ 0.0, 0.0, 0.0, 0.0 ]
-	*
-	* var out = ns.gzeroTo( [ x ] );
-	* // returns <ndarray>[ 0.0, 1.0, 2.0, 3.0 ]
-	*/
-	gzeroTo: typeof gzeroTo;
-
-	/**
 	* Circularly shifts the elements of a one-dimensional single-precision floating-point ndarray by a specified number of positions.
 	*
 	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying the number of positions to shift
@@ -1748,25 +1708,6 @@ interface Namespace {
 	* // returns 10.0
 	*/
 	ssumpw: typeof ssumpw;
-
-	/**
-	* Fills a one-dimensional single-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.
-	*
-	* @param arrays - array-like object containing a one-dimensional input ndarray
-	* @returns input ndarray
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
-	*
-	* var xbuf = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
-	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
-	* // returns <ndarray>[ 0.0, 0.0, 0.0, 0.0 ]
-	*
-	* var out = ns.szeroTo( [ x ] );
-	* // returns <ndarray>[ 0.0, 1.0, 2.0, 3.0 ]
-	*/
-	szeroTo: typeof szeroTo;
 
 	/**
 	* Computes the sum of all elements in a one-dimensional double-precision complex floating-point ndarray.
