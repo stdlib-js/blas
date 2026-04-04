@@ -55,6 +55,15 @@ setReadOnly( ns, 'csum', require( './../../../../ext/base/ndarray/csum' ) );
 setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) );
 
 /**
+* @name czeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/czero-to}
+*/
+setReadOnly( ns, 'czeroTo', require( './../../../../ext/base/ndarray/czero-to' ) );
+
+/**
 * @name dcircshift
 * @memberof ns
 * @readonly
@@ -692,6 +701,15 @@ setReadOnly( ns, 'zsum', require( './../../../../ext/base/ndarray/zsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zsumkbn}
 */
 setReadOnly( ns, 'zsumkbn', require( './../../../../ext/base/ndarray/zsumkbn' ) );
+
+/**
+* @name zzeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zzero-to}
+*/
+setReadOnly( ns, 'zzeroTo', require( './../../../../ext/base/ndarray/zzero-to' ) );
 
 
 // EXPORTS //

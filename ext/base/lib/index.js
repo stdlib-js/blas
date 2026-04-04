@@ -1432,6 +1432,15 @@ setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
 setReadOnly( ns, 'zfill', require( './../../../ext/base/zfill' ) );
 
 /**
+* @name zindexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zindex-of-row}
+*/
+setReadOnly( ns, 'zindexOfRow', require( './../../../ext/base/zindex-of-row' ) );
+
+/**
 * @name zsum
 * @memberof ns
 * @readonly
