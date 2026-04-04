@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`69ccb2a`](https://github.com/stdlib-js/stdlib/commit/69ccb2ab3f6d076145ab82dd1946f488bed50780) - add `blas/ext/base/cindex-of-row` [(#11233)](https://github.com/stdlib-js/stdlib/pull/11233)
 -   [`c16f303`](https://github.com/stdlib-js/stdlib/commit/c16f3039df4d59b17e1baea799a176f905a7ba39) - add `czeroTo` to namespace
 -   [`f768772`](https://github.com/stdlib-js/stdlib/commit/f7687726c11a71226031614921f20b21c91ae09c) - add `zzeroTo` to namespace
 -   [`5fc1ce2`](https://github.com/stdlib-js/stdlib/commit/5fc1ce2dfd66bb648b1a9e1658caf3cb4cb4c8ae) - add `zindexOfRow` to namespace
@@ -812,6 +813,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`69ccb2a`](https://github.com/stdlib-js/stdlib/commit/69ccb2ab3f6d076145ab82dd1946f488bed50780) - **feat:** add `blas/ext/base/cindex-of-row` [(#11233)](https://github.com/stdlib-js/stdlib/pull/11233) _(by Muhammad Haris, Athan Reines)_
 -   [`d479058`](https://github.com/stdlib-js/stdlib/commit/d479058e503f9625161a2666e308d6976902d0f6) - **docs:** update descriptions _(by Athan Reines)_
 -   [`c16f303`](https://github.com/stdlib-js/stdlib/commit/c16f3039df4d59b17e1baea799a176f905a7ba39) - **feat:** add `czeroTo` to namespace _(by Athan Reines)_
 -   [`f768772`](https://github.com/stdlib-js/stdlib/commit/f7687726c11a71226031614921f20b21c91ae09c) - **feat:** add `zzeroTo` to namespace _(by Athan Reines)_
