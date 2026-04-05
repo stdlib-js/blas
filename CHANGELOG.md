@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`702dc4c`](https://github.com/stdlib-js/stdlib/commit/702dc4c4ca83a386b8bdacba727870e7efc32b7d) - add `blas/ext/base/ndarray/done-to` [(#11301)](https://github.com/stdlib-js/stdlib/pull/11301)
+-   [`8df0bb4`](https://github.com/stdlib-js/stdlib/commit/8df0bb4179b9e0b3c534b06ea7240aeef72a7b4a) - update `blas/ext/base/ndarray` TypeScript declarations [(#11305)](https://github.com/stdlib-js/stdlib/pull/11305)
 -   [`69ccb2a`](https://github.com/stdlib-js/stdlib/commit/69ccb2ab3f6d076145ab82dd1946f488bed50780) - add `blas/ext/base/cindex-of-row` [(#11233)](https://github.com/stdlib-js/stdlib/pull/11233)
 -   [`c16f303`](https://github.com/stdlib-js/stdlib/commit/c16f3039df4d59b17e1baea799a176f905a7ba39) - add `czeroTo` to namespace
 -   [`f768772`](https://github.com/stdlib-js/stdlib/commit/f7687726c11a71226031614921f20b21c91ae09c) - add `zzeroTo` to namespace
@@ -813,6 +815,8 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`702dc4c`](https://github.com/stdlib-js/stdlib/commit/702dc4c4ca83a386b8bdacba727870e7efc32b7d) - **feat:** add `blas/ext/base/ndarray/done-to` [(#11301)](https://github.com/stdlib-js/stdlib/pull/11301) _(by Muhammad Haris)_
+-   [`8df0bb4`](https://github.com/stdlib-js/stdlib/commit/8df0bb4179b9e0b3c534b06ea7240aeef72a7b4a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11305)](https://github.com/stdlib-js/stdlib/pull/11305) _(by stdlib-bot)_
 -   [`74aac03`](https://github.com/stdlib-js/stdlib/commit/74aac03cebab8148a102cda6436096540440f6b0) - **docs:** update namespace table of contents [(#11306)](https://github.com/stdlib-js/stdlib/pull/11306) _(by stdlib-bot)_
 -   [`69ccb2a`](https://github.com/stdlib-js/stdlib/commit/69ccb2ab3f6d076145ab82dd1946f488bed50780) - **feat:** add `blas/ext/base/cindex-of-row` [(#11233)](https://github.com/stdlib-js/stdlib/pull/11233) _(by Muhammad Haris, Athan Reines)_
 -   [`d479058`](https://github.com/stdlib-js/stdlib/commit/d479058e503f9625161a2666e308d6976902d0f6) - **docs:** update descriptions _(by Athan Reines)_
