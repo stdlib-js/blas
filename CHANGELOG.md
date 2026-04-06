@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-05)
+## Unreleased (2026-04-06)
 
 <section class="features">
 
 ### Features
 
+-   [`a77496b`](https://github.com/stdlib-js/stdlib/commit/a77496b935e22aa6a993a7e42bc7f174fe89d1d6) - update `blas/ext/base` TypeScript declarations [(#11314)](https://github.com/stdlib-js/stdlib/pull/11314)
 -   [`74f9832`](https://github.com/stdlib-js/stdlib/commit/74f98320c3ecfbe641a3a1bbe8661b715a119a7a) - add `blas/ext/base/gone-to` [(#11298)](https://github.com/stdlib-js/stdlib/pull/11298)
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302)
 -   [`702dc4c`](https://github.com/stdlib-js/stdlib/commit/702dc4c4ca83a386b8bdacba727870e7efc32b7d) - add `blas/ext/base/ndarray/done-to` [(#11301)](https://github.com/stdlib-js/stdlib/pull/11301)
@@ -817,6 +818,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`a77496b`](https://github.com/stdlib-js/stdlib/commit/a77496b935e22aa6a993a7e42bc7f174fe89d1d6) - **feat:** update `blas/ext/base` TypeScript declarations [(#11314)](https://github.com/stdlib-js/stdlib/pull/11314) _(by stdlib-bot)_
 -   [`74f9832`](https://github.com/stdlib-js/stdlib/commit/74f98320c3ecfbe641a3a1bbe8661b715a119a7a) - **feat:** add `blas/ext/base/gone-to` [(#11298)](https://github.com/stdlib-js/stdlib/pull/11298) _(by Muhammad Haris)_
 -   [`87e85c4`](https://github.com/stdlib-js/stdlib/commit/87e85c45c5078b68a361f60456f249a88ff57f7d) - **feat:** add `blas/ext/base/ndarray/sone-to` [(#11302)](https://github.com/stdlib-js/stdlib/pull/11302) _(by Muhammad Haris)_
 -   [`702dc4c`](https://github.com/stdlib-js/stdlib/commit/702dc4c4ca83a386b8bdacba727870e7efc32b7d) - **feat:** add `blas/ext/base/ndarray/done-to` [(#11301)](https://github.com/stdlib-js/stdlib/pull/11301) _(by Muhammad Haris)_
