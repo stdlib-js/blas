@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-06)
+## Unreleased (2026-04-07)
 
 <section class="features">
 
 ### Features
 
+-   [`f7bab5c`](https://github.com/stdlib-js/stdlib/commit/f7bab5c115b0a9ad1ce2436b25a73e703be268d8) - add `blas/ext/base/cone-to` [(#11299)](https://github.com/stdlib-js/stdlib/pull/11299)
 -   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - add `soneTo` to namespace
 -   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - add `doneTo` to namespace
 -   [`32bf665`](https://github.com/stdlib-js/stdlib/commit/32bf665642723bf67d5d9f4799ec97a74c37a230) - add `zoneTo` to namespace
@@ -824,6 +825,7 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`f7bab5c`](https://github.com/stdlib-js/stdlib/commit/f7bab5c115b0a9ad1ce2436b25a73e703be268d8) - **feat:** add `blas/ext/base/cone-to` [(#11299)](https://github.com/stdlib-js/stdlib/pull/11299) _(by Muhammad Haris)_
 -   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_
 -   [`91bc1cb`](https://github.com/stdlib-js/stdlib/commit/91bc1cb9a564dc0827136738e39b5b1c7c7b5dc7) - **feat:** add `doneTo` to namespace _(by Athan Reines)_
 -   [`32bf665`](https://github.com/stdlib-js/stdlib/commit/32bf665642723bf67d5d9f4799ec97a74c37a230) - **feat:** add `zoneTo` to namespace _(by Athan Reines)_
