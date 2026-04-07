@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`f8be298`](https://github.com/stdlib-js/stdlib/commit/f8be298367efe43ece03373744891ccfc22b9945) - add `coneTo` to namespace
+-   [`5b0f76d`](https://github.com/stdlib-js/stdlib/commit/5b0f76d17b0ad323617cb7afbd89a3e81f7a2985) - add `goneTo` to namespace
 -   [`cf9c1fd`](https://github.com/stdlib-js/stdlib/commit/cf9c1fd10bbb26b8ffe798bef302240f93389953) - add `blas/ext/base/ndarray/gone-to` [(#11308)](https://github.com/stdlib-js/stdlib/pull/11308)
 -   [`f7bab5c`](https://github.com/stdlib-js/stdlib/commit/f7bab5c115b0a9ad1ce2436b25a73e703be268d8) - add `blas/ext/base/cone-to` [(#11299)](https://github.com/stdlib-js/stdlib/pull/11299)
 -   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - add `soneTo` to namespace
@@ -826,6 +828,8 @@ A total of 52 issues were closed in this release:
 
 <details>
 
+-   [`f8be298`](https://github.com/stdlib-js/stdlib/commit/f8be298367efe43ece03373744891ccfc22b9945) - **feat:** add `coneTo` to namespace _(by Athan Reines)_
+-   [`5b0f76d`](https://github.com/stdlib-js/stdlib/commit/5b0f76d17b0ad323617cb7afbd89a3e81f7a2985) - **feat:** add `goneTo` to namespace _(by Athan Reines)_
 -   [`cf9c1fd`](https://github.com/stdlib-js/stdlib/commit/cf9c1fd10bbb26b8ffe798bef302240f93389953) - **feat:** add `blas/ext/base/ndarray/gone-to` [(#11308)](https://github.com/stdlib-js/stdlib/pull/11308) _(by Muhammad Haris)_
 -   [`f7bab5c`](https://github.com/stdlib-js/stdlib/commit/f7bab5c115b0a9ad1ce2436b25a73e703be268d8) - **feat:** add `blas/ext/base/cone-to` [(#11299)](https://github.com/stdlib-js/stdlib/pull/11299) _(by Muhammad Haris)_
 -   [`31214ce`](https://github.com/stdlib-js/stdlib/commit/31214cef89dc16436602f8290be8717d30381fd5) - **feat:** add `soneTo` to namespace _(by Athan Reines)_

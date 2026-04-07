@@ -55,6 +55,15 @@ setReadOnly( ns, 'cfill', require( './../../../ext/base/cfill' ) );
 setReadOnly( ns, 'cindexOfRow', require( './../../../ext/base/cindex-of-row' ) );
 
 /**
+* @name coneTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cone-to}
+*/
+setReadOnly( ns, 'coneTo', require( './../../../ext/base/cone-to' ) );
+
+/**
 * @name csum
 * @memberof ns
 * @readonly

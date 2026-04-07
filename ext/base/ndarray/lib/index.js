@@ -442,6 +442,15 @@ setReadOnly( ns, 'gnansumors', require( './../../../../ext/base/ndarray/gnansumo
 setReadOnly( ns, 'gnansumpw', require( './../../../../ext/base/ndarray/gnansumpw' ) );
 
 /**
+* @name goneTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gone-to}
+*/
+setReadOnly( ns, 'goneTo', require( './../../../../ext/base/ndarray/gone-to' ) );
+
+/**
 * @name gsort
 * @memberof ns
 * @readonly
