@@ -829,6 +829,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`7559ce0`](https://github.com/stdlib-js/stdlib/commit/7559ce053cbf8bada23603bd78d8cd062140e1d0) - **refactor:** add explicit rank tests for initial value argument _(by Athan Reines)_
 -   [`9d4553a`](https://github.com/stdlib-js/stdlib/commit/9d4553a3cff34f427bd71476a7485abfa57673fc) - **test:** fix broken test _(by Athan Reines)_
 -   [`c4e430f`](https://github.com/stdlib-js/stdlib/commit/c4e430f98dea05d522358f6fc995e36c86347eb8) - **refactor:** add explicit rank check _(by Athan Reines)_
 -   [`e943036`](https://github.com/stdlib-js/stdlib/commit/e943036fc2a2c94421d4afcb3bc35723bba57834) - **refactor:** use explicit utility for returning the rank of an array _(by Athan Reines)_
