@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-07)
+## Unreleased (2026-04-08)
 
 <section class="features">
 
@@ -829,6 +829,10 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`9d4553a`](https://github.com/stdlib-js/stdlib/commit/9d4553a3cff34f427bd71476a7485abfa57673fc) - **test:** fix broken test _(by Athan Reines)_
+-   [`c4e430f`](https://github.com/stdlib-js/stdlib/commit/c4e430f98dea05d522358f6fc995e36c86347eb8) - **refactor:** add explicit rank check _(by Athan Reines)_
+-   [`e943036`](https://github.com/stdlib-js/stdlib/commit/e943036fc2a2c94421d4afcb3bc35723bba57834) - **refactor:** use explicit utility for returning the rank of an array _(by Athan Reines)_
+-   [`7aa3592`](https://github.com/stdlib-js/stdlib/commit/7aa35928770a4d0bcddfdabc7417928c8bcc949d) - **refactor:** add explicit rank check _(by Athan Reines)_
 -   [`062b6a7`](https://github.com/stdlib-js/stdlib/commit/062b6a71c5fada8235a85d908bce29c7f4c43a60) - **chore:** fix JavaScript lint errors [(#11315)](https://github.com/stdlib-js/stdlib/pull/11315) _(by Mandeep2333, Athan Reines)_
 -   [`b117c97`](https://github.com/stdlib-js/stdlib/commit/b117c97db1b322d6d347c1bb0c7f18edf6963dfa) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11321)](https://github.com/stdlib-js/stdlib/pull/11321) _(by stdlib-bot)_
 -   [`bb0baff`](https://github.com/stdlib-js/stdlib/commit/bb0baff5acc1fbfa5f34b31045dde2ebd123c140) - **docs:** update namespace table of contents [(#11322)](https://github.com/stdlib-js/stdlib/pull/11322) _(by stdlib-bot)_
