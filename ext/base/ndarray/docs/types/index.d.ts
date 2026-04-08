@@ -65,7 +65,6 @@ import gnansumkbn = require( './../../../../../ext/base/ndarray/gnansumkbn' );
 import gnansumkbn2 = require( './../../../../../ext/base/ndarray/gnansumkbn2' );
 import gnansumors = require( './../../../../../ext/base/ndarray/gnansumors' );
 import gnansumpw = require( './../../../../../ext/base/ndarray/gnansumpw' );
-import goneTo = require( './../../../../../ext/base/ndarray/gone-to' );
 import gsort = require( './../../../../../ext/base/ndarray/gsort' );
 import gsorthp = require( './../../../../../ext/base/ndarray/gsorthp' );
 import gsum = require( './../../../../../ext/base/ndarray/gsum' );
@@ -1176,24 +1175,6 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	gnansumpw: typeof gnansumpw;
-
-	/**
-	* Fills a one-dimensional ndarray with linearly spaced numeric elements which increment by `1` starting from one.
-	*
-	* @param arrays - array-like object containing a one-dimensional input ndarray
-	* @returns input ndarray
-	*
-	* @example
-	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
-	*
-	* var xbuf = [ 0.0, 0.0, 0.0, 0.0 ];
-	* var x = new ndarray( 'generic', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
-	* // returns <ndarray>[ 0.0, 0.0, 0.0, 0.0 ]
-	*
-	* var out = ns.goneTo( [ x ] );
-	* // returns <ndarray>[ 1.0, 2.0, 3.0, 4.0 ]
-	*/
-	goneTo: typeof goneTo;
 
 	/**
 	* Sorts a one-dimensional ndarray.
