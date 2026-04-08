@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`143bb4b`](https://github.com/stdlib-js/stdlib/commit/143bb4bccf5b59d9aebdc2428f0081c4d47a4d01) - update `blas/ext/base/ndarray` TypeScript declarations [(#11329)](https://github.com/stdlib-js/stdlib/pull/11329)
 -   [`b117c97`](https://github.com/stdlib-js/stdlib/commit/b117c97db1b322d6d347c1bb0c7f18edf6963dfa) - update `blas/ext/base/ndarray` TypeScript declarations [(#11321)](https://github.com/stdlib-js/stdlib/pull/11321)
 -   [`f8be298`](https://github.com/stdlib-js/stdlib/commit/f8be298367efe43ece03373744891ccfc22b9945) - add `coneTo` to namespace
 -   [`5b0f76d`](https://github.com/stdlib-js/stdlib/commit/5b0f76d17b0ad323617cb7afbd89a3e81f7a2985) - add `goneTo` to namespace
@@ -829,6 +830,8 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`143bb4b`](https://github.com/stdlib-js/stdlib/commit/143bb4bccf5b59d9aebdc2428f0081c4d47a4d01) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11329)](https://github.com/stdlib-js/stdlib/pull/11329) _(by stdlib-bot)_
+-   [`21f03e5`](https://github.com/stdlib-js/stdlib/commit/21f03e53ac27f2d0930a7add36f49ea1cde5d3a2) - **docs:** update namespace table of contents [(#11330)](https://github.com/stdlib-js/stdlib/pull/11330) _(by stdlib-bot)_
 -   [`7559ce0`](https://github.com/stdlib-js/stdlib/commit/7559ce053cbf8bada23603bd78d8cd062140e1d0) - **refactor:** add explicit rank tests for initial value argument _(by Athan Reines)_
 -   [`9d4553a`](https://github.com/stdlib-js/stdlib/commit/9d4553a3cff34f427bd71476a7485abfa57673fc) - **test:** fix broken test _(by Athan Reines)_
 -   [`c4e430f`](https://github.com/stdlib-js/stdlib/commit/c4e430f98dea05d522358f6fc995e36c86347eb8) - **refactor:** add explicit rank check _(by Athan Reines)_
