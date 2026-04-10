@@ -834,6 +834,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`eb1560d`](https://github.com/stdlib-js/stdlib/commit/eb1560d536dfc64c0b05c73a7ca0362b319d5e92) - **docs:** clean-up copy _(by Athan Reines)_
 -   [`8c9281a`](https://github.com/stdlib-js/stdlib/commit/8c9281a143c4fd5a78eff7d7ef659e584ad524b8) - **feat:** add `blas/ext/base/ndarray/cone-to` [(#11340)](https://github.com/stdlib-js/stdlib/pull/11340) _(by Muhammad Haris)_
 -   [`461fbfd`](https://github.com/stdlib-js/stdlib/commit/461fbfde2d1db83737307cb67e6f4b4493143bb3) - **feat:** add `blas/ext/base/ndarray/zone-to` [(#11342)](https://github.com/stdlib-js/stdlib/pull/11342) _(by Muhammad Haris)_
 -   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - **fix:** resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337) _(by Philipp Burckhardt)_
