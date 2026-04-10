@@ -47,7 +47,7 @@ interface Routine {
 	* @param x - input array
 	* @param strideX - stride length for `x`
 	* @param out - output matrix
-	* @param ldo - stride of the first dimension of `out` (a.k.a., leading dimension of the matrix `out`)
+	* @param ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
 	* @returns output matrix
 	*
 	* @example
@@ -94,7 +94,7 @@ interface Routine {
 * @param x - input array
 * @param strideX - stride length for `x`
 * @param out - output matrix
-* @param ldo - stride of the first dimension of `out` (a.k.a., leading dimension of the matrix `out`)
+* @param ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
 * @returns output matrix
 *
 * @example

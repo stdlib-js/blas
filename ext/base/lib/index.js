@@ -1045,6 +1045,15 @@ setReadOnly( ns, 'gsumors', require( './../../../ext/base/gsumors' ) );
 setReadOnly( ns, 'gsumpw', require( './../../../ext/base/gsumpw' ) );
 
 /**
+* @name gvander
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gvander}
+*/
+setReadOnly( ns, 'gvander', require( './../../../ext/base/gvander' ) );
+
+/**
 * @name gzeroTo
 * @memberof ns
 * @readonly

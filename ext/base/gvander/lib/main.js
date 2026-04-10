@@ -40,7 +40,7 @@ var base = require( './base.js' );
 * @param {NumericArray} x - input array
 * @param {integer} strideX - stride length for `x`
 * @param {NumericArray} out - output matrix
-* @param {PositiveInteger} ldo - stride of the first dimension of `out` (a.k.a., leading dimension of the matrix `out`)
+* @param {PositiveInteger} ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
 * @throws {TypeError} first argument must be a valid order
 * @throws {RangeError} third argument must be a nonnegative integer
 * @throws {RangeError} fourth argument must be a nonnegative integer

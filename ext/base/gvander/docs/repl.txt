@@ -49,8 +49,8 @@
         Output matrix.
 
     ldo: integer
-        Stride of the first dimension of `out` (a.k.a., leading dimension of
-        the matrix `out`).
+        Stride between successive contiguous vectors of the matrix `out`
+        (a.k.a., leading dimension of the matrix `out`).
 
     Returns
     -------

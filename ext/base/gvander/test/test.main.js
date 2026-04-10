@@ -377,7 +377,7 @@ tape( 'the function returns the output matrix (accessors)', function test( t ) {
 	t.end();
 });
 
-tape( 'the function supports specifying a stride (row-major)', function test( t ) {
+tape( 'the function supports specifying a stride for `x` (row-major)', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -394,7 +394,7 @@ tape( 'the function supports specifying a stride (row-major)', function test( t 
 	t.end();
 });
 
-tape( 'the function supports specifying a stride (row-major, accessors)', function test( t ) {
+tape( 'the function supports specifying a stride for `x` (row-major, accessors)', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -410,7 +410,7 @@ tape( 'the function supports specifying a stride (row-major, accessors)', functi
 	t.end();
 });
 
-tape( 'the function supports specifying a negative stride (row-major)', function test( t ) {
+tape( 'the function supports specifying a negative stride for `x` (row-major)', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -428,7 +428,7 @@ tape( 'the function supports specifying a negative stride (row-major)', function
 	t.end();
 });
 
-tape( 'the function supports specifying a stride (column-major)', function test( t ) {
+tape( 'the function supports specifying a stride for `x` (column-major)', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -445,7 +445,7 @@ tape( 'the function supports specifying a stride (column-major)', function test(
 	t.end();
 });
 
-tape( 'the function supports specifying a stride (column-major, accessors)', function test( t ) {
+tape( 'the function supports specifying a stride for `x` (column-major, accessors)', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -461,7 +461,7 @@ tape( 'the function supports specifying a stride (column-major, accessors)', fun
 	t.end();
 });
 
-tape( 'the function supports specifying a negative stride (column-major)', function test( t ) {
+tape( 'the function supports specifying a negative stride for `x` (column-major)', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -675,7 +675,7 @@ tape( 'the function handles zero values in the input array (row-major, increasin
 	t.end();
 });
 
-tape( 'the function handles single column (N=1)', function test( t ) {
+tape( 'the function handles a single column (N=1)', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -692,7 +692,7 @@ tape( 'the function handles single column (N=1)', function test( t ) {
 	t.end();
 });
 
-tape( 'the function handles single row (M=1)', function test( t ) {
+tape( 'the function handles a single row (M=1)', function test( t ) {
 	var expected;
 	var out;
 	var x;

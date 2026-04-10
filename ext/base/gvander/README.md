@@ -57,7 +57,7 @@ The function has the following parameters:
 -   **x**: input [`Array`][mdn-array] or [`typed array`][mdn-typed-array].
 -   **strideX**: stride length for `x`.
 -   **out**: output matrix.
--   **ldo**: stride of the first dimension of `out` (a.k.a., leading dimension of the matrix `out`).
+-   **ldo**: stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`).
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
 
