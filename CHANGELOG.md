@@ -841,6 +841,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`e7b800e`](https://github.com/stdlib-js/stdlib/commit/e7b800e54e43b76dc9d3dbd2a1198501bf8df104) - **test:** address failing tests _(by Athan Reines)_
 -   [`0621f73`](https://github.com/stdlib-js/stdlib/commit/0621f73e9460d7c9459b81d9749678721597ca7d) - **feat:** add `gvander` to namespace _(by Athan Reines)_
 -   [`c4d0293`](https://github.com/stdlib-js/stdlib/commit/c4d0293b4ea81eddd7ab8e22fd4b19ea23de5019) - **docs:** update parameter description _(by Athan Reines)_
 -   [`651b8bb`](https://github.com/stdlib-js/stdlib/commit/651b8bbe847b7de36af899154eba488b13ef3f14) - **bench:** refactor to use dynamic memory allocation in `blas/base/srotm` [(#10313)](https://github.com/stdlib-js/stdlib/pull/10313) _(by Prajjwal Bajpai, stdlib-bot)_
