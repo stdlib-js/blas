@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`75860d1`](https://github.com/stdlib-js/stdlib/commit/75860d17ef63bc5920a2fcf5e9db9910e54d7881) - add `blas/ext/base/gvander` [(#10934)](https://github.com/stdlib-js/stdlib/pull/10934)
 -   [`a737728`](https://github.com/stdlib-js/stdlib/commit/a7377281de9f9c0b4d7654a266ec357d5f663f60) - add `greplicate` to namespace
 -   [`1d20b6d`](https://github.com/stdlib-js/stdlib/commit/1d20b6da25ab99a62f8dee4c7d5cbdee3727b963) - add `blas/ext/base/greplicate` [(#11303)](https://github.com/stdlib-js/stdlib/pull/11303)
 -   [`0f3aec0`](https://github.com/stdlib-js/stdlib/commit/0f3aec07e8e555b62358cc0f49405deb0c46a886) - add `zeroTo` to namespace
@@ -839,6 +840,8 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`6dc0130`](https://github.com/stdlib-js/stdlib/commit/6dc01302b920263a8c8997fc9c30f2962bc2e6c5) - **docs:** update namespace table of contents [(#11350)](https://github.com/stdlib-js/stdlib/pull/11350) _(by stdlib-bot)_
+-   [`75860d1`](https://github.com/stdlib-js/stdlib/commit/75860d17ef63bc5920a2fcf5e9db9910e54d7881) - **feat:** add `blas/ext/base/gvander` [(#10934)](https://github.com/stdlib-js/stdlib/pull/10934) _(by Muhammad Haris, Athan Reines)_
 -   [`45d8ff9`](https://github.com/stdlib-js/stdlib/commit/45d8ff9c4c61258e53e7de4dcf2006c4882ceb2d) - **docs:** update examples _(by Athan Reines)_
 -   [`b8150f9`](https://github.com/stdlib-js/stdlib/commit/b8150f92f6a76a9d1c39a705395151694a147f45) - **docs:** update examples _(by Athan Reines)_
 -   [`336d3d9`](https://github.com/stdlib-js/stdlib/commit/336d3d97e0d467b9599ec3a7fab83110799669ae) - **docs:** update examples _(by Athan Reines)_
