@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b78ba63`](https://github.com/stdlib-js/stdlib/commit/b78ba63761c164190dcd0cc02047155d584c1f88) - add C implementation for `blas/ext/base/ndarray/snansum` [(#10777)](https://github.com/stdlib-js/stdlib/pull/10777)
 -   [`9d15ff6`](https://github.com/stdlib-js/stdlib/commit/9d15ff63cdd5256a7fb5281058e45bc85c8bb473) - add `saxpy` to namespace
 -   [`fce7baa`](https://github.com/stdlib-js/stdlib/commit/fce7baa6cdf55e6658b438e1317d07c66f5ad1d8) - add `blas/base/ndarray/saxpy` [(#11344)](https://github.com/stdlib-js/stdlib/pull/11344)
 -   [`21df16f`](https://github.com/stdlib-js/stdlib/commit/21df16f1c3ecab15292b1aa5288c0d3b7a387962) - add `daxpy` to namespace
@@ -845,6 +846,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`b78ba63`](https://github.com/stdlib-js/stdlib/commit/b78ba63761c164190dcd0cc02047155d584c1f88) - **feat:** add C implementation for `blas/ext/base/ndarray/snansum` [(#10777)](https://github.com/stdlib-js/stdlib/pull/10777) _(by Kaustubh Patange)_
 -   [`9d15ff6`](https://github.com/stdlib-js/stdlib/commit/9d15ff63cdd5256a7fb5281058e45bc85c8bb473) - **feat:** add `saxpy` to namespace _(by Athan Reines)_
 -   [`fce7baa`](https://github.com/stdlib-js/stdlib/commit/fce7baa6cdf55e6658b438e1317d07c66f5ad1d8) - **feat:** add `blas/base/ndarray/saxpy` [(#11344)](https://github.com/stdlib-js/stdlib/pull/11344) _(by Kaustubh Patange)_
 -   [`21df16f`](https://github.com/stdlib-js/stdlib/commit/21df16f1c3ecab15292b1aa5288c0d3b7a387962) - **feat:** add `daxpy` to namespace _(by Athan Reines)_
