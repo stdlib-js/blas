@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`8ba4fc7`](https://github.com/stdlib-js/stdlib/commit/8ba4fc7a273c6b3b73c3f0135003a4a5731ddfd2) - add `blas/ext/zero-to` [(#11296)](https://github.com/stdlib-js/stdlib/pull/11296)
+-   [`ec9d82b`](https://github.com/stdlib-js/stdlib/commit/ec9d82b92675431d0f878971fb7200748754c205) - add `coneTo` and `zoneTo` to namespace
 -   [`8c9281a`](https://github.com/stdlib-js/stdlib/commit/8c9281a143c4fd5a78eff7d7ef659e584ad524b8) - add `blas/ext/base/ndarray/cone-to` [(#11340)](https://github.com/stdlib-js/stdlib/pull/11340)
 -   [`461fbfd`](https://github.com/stdlib-js/stdlib/commit/461fbfde2d1db83737307cb67e6f4b4493143bb3) - add `blas/ext/base/ndarray/zone-to` [(#11342)](https://github.com/stdlib-js/stdlib/pull/11342)
 -   [`648676b`](https://github.com/stdlib-js/stdlib/commit/648676b96f3524953e4e79bbd6159fdf72343502) - update `blas/ext/base` TypeScript declarations [(#11336)](https://github.com/stdlib-js/stdlib/pull/11336)
@@ -834,6 +836,8 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`8ba4fc7`](https://github.com/stdlib-js/stdlib/commit/8ba4fc7a273c6b3b73c3f0135003a4a5731ddfd2) - **feat:** add `blas/ext/zero-to` [(#11296)](https://github.com/stdlib-js/stdlib/pull/11296) _(by Muhammad Haris, Athan Reines)_
+-   [`ec9d82b`](https://github.com/stdlib-js/stdlib/commit/ec9d82b92675431d0f878971fb7200748754c205) - **feat:** add `coneTo` and `zoneTo` to namespace _(by Athan Reines)_
 -   [`eb1560d`](https://github.com/stdlib-js/stdlib/commit/eb1560d536dfc64c0b05c73a7ca0362b319d5e92) - **docs:** clean-up copy _(by Athan Reines)_
 -   [`8c9281a`](https://github.com/stdlib-js/stdlib/commit/8c9281a143c4fd5a78eff7d7ef659e584ad524b8) - **feat:** add `blas/ext/base/ndarray/cone-to` [(#11340)](https://github.com/stdlib-js/stdlib/pull/11340) _(by Muhammad Haris)_
 -   [`461fbfd`](https://github.com/stdlib-js/stdlib/commit/461fbfde2d1db83737307cb67e6f4b4493143bb3) - **feat:** add `blas/ext/base/ndarray/zone-to` [(#11342)](https://github.com/stdlib-js/stdlib/pull/11342) _(by Muhammad Haris)_
