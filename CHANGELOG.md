@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c02f734`](https://github.com/stdlib-js/stdlib/commit/c02f73443c5dea23bb890bdc14f7667ffd20b8ee) - add `blas/base/ndarray/daxpy` [(#11318)](https://github.com/stdlib-js/stdlib/pull/11318)
 -   [`0621f73`](https://github.com/stdlib-js/stdlib/commit/0621f73e9460d7c9459b81d9749678721597ca7d) - add `gvander` to namespace
 -   [`75860d1`](https://github.com/stdlib-js/stdlib/commit/75860d17ef63bc5920a2fcf5e9db9910e54d7881) - add `blas/ext/base/gvander` [(#10934)](https://github.com/stdlib-js/stdlib/pull/10934)
 -   [`a737728`](https://github.com/stdlib-js/stdlib/commit/a7377281de9f9c0b4d7654a266ec357d5f663f60) - add `greplicate` to namespace
@@ -841,6 +842,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`c02f734`](https://github.com/stdlib-js/stdlib/commit/c02f73443c5dea23bb890bdc14f7667ffd20b8ee) - **feat:** add `blas/base/ndarray/daxpy` [(#11318)](https://github.com/stdlib-js/stdlib/pull/11318) _(by Kaustubh Patange, Athan Reines)_
 -   [`e7b800e`](https://github.com/stdlib-js/stdlib/commit/e7b800e54e43b76dc9d3dbd2a1198501bf8df104) - **test:** address failing tests _(by Athan Reines)_
 -   [`0621f73`](https://github.com/stdlib-js/stdlib/commit/0621f73e9460d7c9459b81d9749678721597ca7d) - **feat:** add `gvander` to namespace _(by Athan Reines)_
 -   [`c4d0293`](https://github.com/stdlib-js/stdlib/commit/c4d0293b4ea81eddd7ab8e22fd4b19ea23de5019) - **docs:** update parameter description _(by Athan Reines)_
