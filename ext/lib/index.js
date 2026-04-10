@@ -144,6 +144,15 @@ setReadOnly( ns, 'sum', require( './../../ext/sum' ) );
 */
 setReadOnly( ns, 'toSortedhp', require( './../../ext/to-sortedhp' ) );
 
+/**
+* @name zeroTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/zero-to}
+*/
+setReadOnly( ns, 'zeroTo', require( './../../ext/zero-to' ) );
+
 
 // EXPORTS //
 
