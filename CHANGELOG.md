@@ -840,6 +840,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`2022569`](https://github.com/stdlib-js/stdlib/commit/2022569674a4a4d184b3c8a3098fe70fa77ceef5) - **docs:** update descriptions [(#11349)](https://github.com/stdlib-js/stdlib/pull/11349) _(by stdlib-bot)_
 -   [`6dc0130`](https://github.com/stdlib-js/stdlib/commit/6dc01302b920263a8c8997fc9c30f2962bc2e6c5) - **docs:** update namespace table of contents [(#11350)](https://github.com/stdlib-js/stdlib/pull/11350) _(by stdlib-bot)_
 -   [`75860d1`](https://github.com/stdlib-js/stdlib/commit/75860d17ef63bc5920a2fcf5e9db9910e54d7881) - **feat:** add `blas/ext/base/gvander` [(#10934)](https://github.com/stdlib-js/stdlib/pull/10934) _(by Muhammad Haris, Athan Reines)_
 -   [`45d8ff9`](https://github.com/stdlib-js/stdlib/commit/45d8ff9c4c61258e53e7de4dcf2006c4882ceb2d) - **docs:** update examples _(by Athan Reines)_
