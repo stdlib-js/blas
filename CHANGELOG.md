@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`a737728`](https://github.com/stdlib-js/stdlib/commit/a7377281de9f9c0b4d7654a266ec357d5f663f60) - add `greplicate` to namespace
+-   [`1d20b6d`](https://github.com/stdlib-js/stdlib/commit/1d20b6da25ab99a62f8dee4c7d5cbdee3727b963) - add `blas/ext/base/greplicate` [(#11303)](https://github.com/stdlib-js/stdlib/pull/11303)
 -   [`0f3aec0`](https://github.com/stdlib-js/stdlib/commit/0f3aec07e8e555b62358cc0f49405deb0c46a886) - add `zeroTo` to namespace
 -   [`8ba4fc7`](https://github.com/stdlib-js/stdlib/commit/8ba4fc7a273c6b3b73c3f0135003a4a5731ddfd2) - add `blas/ext/zero-to` [(#11296)](https://github.com/stdlib-js/stdlib/pull/11296)
 -   [`ec9d82b`](https://github.com/stdlib-js/stdlib/commit/ec9d82b92675431d0f878971fb7200748754c205) - add `coneTo` and `zoneTo` to namespace
@@ -837,6 +839,8 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`a737728`](https://github.com/stdlib-js/stdlib/commit/a7377281de9f9c0b4d7654a266ec357d5f663f60) - **feat:** add `greplicate` to namespace _(by Athan Reines)_
+-   [`1d20b6d`](https://github.com/stdlib-js/stdlib/commit/1d20b6da25ab99a62f8dee4c7d5cbdee3727b963) - **feat:** add `blas/ext/base/greplicate` [(#11303)](https://github.com/stdlib-js/stdlib/pull/11303) _(by Muhammad Haris, Athan Reines)_
 -   [`0f3aec0`](https://github.com/stdlib-js/stdlib/commit/0f3aec07e8e555b62358cc0f49405deb0c46a886) - **feat:** add `zeroTo` to namespace _(by Athan Reines)_
 -   [`8ba4fc7`](https://github.com/stdlib-js/stdlib/commit/8ba4fc7a273c6b3b73c3f0135003a4a5731ddfd2) - **feat:** add `blas/ext/zero-to` [(#11296)](https://github.com/stdlib-js/stdlib/pull/11296) _(by Muhammad Haris, Athan Reines)_
 -   [`ec9d82b`](https://github.com/stdlib-js/stdlib/commit/ec9d82b92675431d0f878971fb7200748754c205) - **feat:** add `coneTo` and `zoneTo` to namespace _(by Athan Reines)_

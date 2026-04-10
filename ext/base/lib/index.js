@@ -919,6 +919,15 @@ setReadOnly( ns, 'gnansumpw', require( './../../../ext/base/gnansumpw' ) );
 setReadOnly( ns, 'goneTo', require( './../../../ext/base/gone-to' ) );
 
 /**
+* @name greplicate
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/greplicate}
+*/
+setReadOnly( ns, 'greplicate', require( './../../../ext/base/greplicate' ) );
+
+/**
 * @name grev
 * @memberof ns
 * @readonly
