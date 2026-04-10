@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'dasum', require( './../../../base/ndarray/dasum' ) );
 
 /**
+* @name daxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/daxpy}
+*/
+setReadOnly( ns, 'daxpy', require( './../../../base/ndarray/daxpy' ) );
+
+/**
 * @name ddot
 * @memberof ns
 * @readonly
