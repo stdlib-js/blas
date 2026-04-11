@@ -21,16 +21,28 @@
 // MODULES //
 
 var tape = require( 'tape' );
-var proxyquire = require( 'proxyquire' );
-var IS_BROWSER = require( '@stdlib/assert/is-browser' );
+var isSameComplex64 = require( '@stdlib/assert/is-same-complex64' );
+var Complex64Array = require( '@stdlib/array/complex64' );
+var Complex64 = require( '@stdlib/complex/float32/ctor' );
+var ndarray = require( '@stdlib/ndarray/base/ctor' );
 var csum = require( './../lib' );
 
 
-// VARIABLES //
+// FUNCTIONS //
 
-var opts = {
-	'skip': IS_BROWSER
-};
+/**
+* Returns a one-dimensional ndarray.
+*
+* @private
+* @param {Complex64Array} buffer - underlying data buffer
+* @param {NonNegativeInteger} length - number of indexed elements
+* @param {integer} stride - stride length
+* @param {NonNegativeInteger} offset - index offset
+* @returns {ndarray} one-dimensional ndarray
+*/
+function vector( buffer, length, stride, offset ) {
+	return new ndarray( 'complex64', buffer, [ length ], [ stride ], offset, 'row-major' );
+}
 
 
 // TESTS //
@@ -41,37 +53,147 @@ tape( 'main export is a function', function test( t ) {
 	t.end();
 });
 
-tape( 'if a native implementation is available, the main export is the native implementation', opts, function test( t ) {
-	var csum = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
-	});
-
-	t.strictEqual( csum, mock, 'returns expected value' );
+tape( 'the function has an arity of 1', function test( t ) {
+	t.strictEqual( csum.length, 1, 'has expected arity' );
 	t.end();
-
-	function tryRequire() {
-		return mock;
-	}
-
-	function mock() {
-		// Mock...
-	}
 });
 
-tape( 'if a native implementation is not available, the main export is a JavaScript implementation', opts, function test( t ) {
-	var csum;
-	var main;
+tape( 'the function computes the sum of all elements in a one-dimensional ndarray', function test( t ) {
+	var x;
+	var v;
 
-	main = require( './../lib/main.js' );
+	x = new Complex64Array( [ 1.0, -2.0, -4.0, 5.0, 0.0, 3.0 ] );
+	v = csum( [ vector( x, 3, 1, 0 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( -3.0, 6.0 ) ), true, 'returns expected value' );
 
-	csum = proxyquire( './../lib', {
-		'@stdlib/utils/try-require': tryRequire
-	});
+	x = new Complex64Array( [ -4.0, -5.0, -4.0, -5.0 ] );
+	v = csum( [ vector( x, 2, 1, 0 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( -8.0, -10.0 ) ), true, 'returns expected value' );
 
-	t.strictEqual( csum, main, 'returns expected value' );
+	x = new Complex64Array( [ -0.0, 0.0, -0.0, -0.0 ] );
+	v = csum( [ vector( x, 2, 1, 0 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( -0.0, 0.0 ) ), true, 'returns expected value' );
+
+	x = new Complex64Array( [ NaN, NaN ] );
+	v = csum( [ vector( x, 1, 1, 0 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( NaN, NaN ) ), true, 'returns expected value' );
+
+	x = new Complex64Array( [ NaN, NaN, NaN, NaN ] );
+	v = csum( [ vector( x, 2, 1, 0 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( NaN, NaN ) ), true, 'returns expected value' );
+
 	t.end();
+});
 
-	function tryRequire() {
-		return new Error( 'Cannot find module' );
-	}
+tape( 'if provided an empty vector, the function returns `0.0`', function test( t ) {
+	var x;
+	var v;
+
+	x = new Complex64Array( [] );
+
+	v = csum( [ vector( x, 0, 1, 0 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( 0.0, 0.0 ) ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'if provided a vector containing a single element, the function returns that element', function test( t ) {
+	var x;
+	var v;
+
+	x = new Complex64Array( [ 1.0, 2.0 ] );
+
+	v = csum( [ vector( x, 1, 1, 0 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( 1.0, 2.0 ) ), true, 'returns expected value' );
+
+	t.end();
+});
+
+tape( 'the function supports one-dimensional ndarrays having non-unit strides', function test( t ) {
+	var x;
+	var v;
+
+	x = new Complex64Array([
+		1.0,  // 0
+		1.0,  // 0
+		2.0,
+		2.0,
+		2.0,  // 1
+		2.0,  // 1
+		-7.0,
+		-7.0,
+		-2.0, // 2
+		-2.0, // 2
+		3.0,
+		3.0,
+		4.0,  // 3
+		4.0,  // 3
+		2.0,
+		2.0
+	]);
+
+	v = csum( [ vector( x, 4, 2, 0 ) ] );
+
+	t.strictEqual( isSameComplex64( v, new Complex64( 5.0, 5.0 ) ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function supports one-dimensional ndarrays having negative strides', function test( t ) {
+	var x;
+	var v;
+
+	x = new Complex64Array([
+		1.0,  // 3
+		1.0,  // 3
+		2.0,
+		2.0,
+		2.0,  // 2
+		2.0,  // 2
+		-7.0,
+		-7.0,
+		-2.0, // 1
+		-2.0, // 1
+		3.0,
+		3.0,
+		4.0,  // 0
+		4.0,  // 0
+		2.0,
+		2.0
+	]);
+
+	v = csum( [ vector( x, 4, -2, 6 ) ] );
+
+	t.strictEqual( isSameComplex64( v, new Complex64( 5.0, 5.0 ) ), true, 'returns expected value' );
+	t.end();
+});
+
+tape( 'the function supports one-dimensional ndarrays having non-zero offsets', function test( t ) {
+	var x;
+	var v;
+
+	x = new Complex64Array([
+		-9.0,
+		-9.0,
+		1.0,  // 3
+		1.0,  // 3
+		2.0,
+		2.0,
+		2.0,  // 2
+		2.0,  // 2
+		-7.0,
+		-7.0,
+		-2.0, // 1
+		-2.0, // 1
+		3.0,
+		3.0,
+		4.0,  // 0
+		4.0,  // 0
+		2.0,
+		2.0
+	]);
+
+	v = csum( [ vector( x, 4, 2, 1 ) ] );
+	t.strictEqual( isSameComplex64( v, new Complex64( 5.0, 5.0 ) ), true, 'returns expected value' );
+
+	t.end();
 });

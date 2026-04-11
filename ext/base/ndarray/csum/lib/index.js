@@ -37,23 +37,9 @@
 
 // MODULES //
 
-var join = require( 'path' ).join;
-var tryRequire = require( '@stdlib/utils/try-require' );
-var isError = require( '@stdlib/assert/is-error' );
 var main = require( './main.js' );
-
-
-// MAIN //
-
-var csum;
-var tmp = tryRequire( join( __dirname, './native.js' ) );
-if ( isError( tmp ) ) {
-	csum = main;
-} else {
-	csum = tmp;
-}
 
 
 // EXPORTS //
 
-module.exports = csum;
+module.exports = main;
