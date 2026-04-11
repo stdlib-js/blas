@@ -850,6 +850,9 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`be217cb`](https://github.com/stdlib-js/stdlib/commit/be217cb556c03812a58ba0d7a85708749f7dd3e0) - **bench:** fix descriptions _(by Athan Reines)_
+-   [`3c53cd5`](https://github.com/stdlib-js/stdlib/commit/3c53cd5e6631fc84321e5f5808c739a1f0de0d7d) - **bench:** fix descriptions _(by Athan Reines)_
+-   [`9581084`](https://github.com/stdlib-js/stdlib/commit/9581084bd518b51be6d9df4bccfb5a34a1e1b7dd) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`a889040`](https://github.com/stdlib-js/stdlib/commit/a889040bbfbd378e5f784bd19f0b24f88c9bb2b9) - **test:** ensure support for dtype instances _(by Athan Reines)_
 -   [`9fceca8`](https://github.com/stdlib-js/stdlib/commit/9fceca87d82dacde8ead8d4a030cad27ed50ae70) - **test:** ensure support for dtype instances _(by Athan Reines)_
 -   [`75ff8fe`](https://github.com/stdlib-js/stdlib/commit/75ff8fe6e7a73c630b4dbdb4543e626d95afa2fb) - **test:** ensure support for dtype instances _(by Athan Reines)_
