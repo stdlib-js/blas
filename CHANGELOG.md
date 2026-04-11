@@ -850,6 +850,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`9bfb6b0`](https://github.com/stdlib-js/stdlib/commit/9bfb6b06411afd725918cef27c7dc97ba282eed9) - **test:** ensure support for dtype instances _(by Athan Reines)_
 -   [`37363f2`](https://github.com/stdlib-js/stdlib/commit/37363f29620c7f2037efaa6cbcce72f74adce03c) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11356)](https://github.com/stdlib-js/stdlib/pull/11356) _(by stdlib-bot)_
 -   [`843db97`](https://github.com/stdlib-js/stdlib/commit/843db97a005833d8362c60da9a0326eca5aad1b8) - **docs:** update namespace table of contents [(#11358)](https://github.com/stdlib-js/stdlib/pull/11358) _(by stdlib-bot)_
 -   [`9260f31`](https://github.com/stdlib-js/stdlib/commit/9260f31994955a4c597080f7044d73f1f26ba856) - **feat:** add C implementation for `blas/ext/base/ndarray/csum` [(#10696)](https://github.com/stdlib-js/stdlib/pull/10696) _(by Kaustubh Patange, Athan Reines, stdlib-bot)_
