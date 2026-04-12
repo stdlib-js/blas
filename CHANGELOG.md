@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400)
 -   [`90824dc`](https://github.com/stdlib-js/stdlib/commit/90824dc2c39a70dd1595c064e67a389f138001fb) - add C `ndarray` API and refactor `blas/ext/base/ssorthp` [(#9698)](https://github.com/stdlib-js/stdlib/pull/9698)
 -   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710)
 -   [`37363f2`](https://github.com/stdlib-js/stdlib/commit/37363f29620c7f2037efaa6cbcce72f74adce03c) - update `blas/base/ndarray` TypeScript declarations [(#11356)](https://github.com/stdlib-js/stdlib/pull/11356)
@@ -852,6 +853,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400) _(by stdlib-bot)_
 -   [`4c5ee9d`](https://github.com/stdlib-js/stdlib/commit/4c5ee9de4719b72e1b2f36fe71f9e418c032ac8e) - **docs:** update namespace table of contents [(#11402)](https://github.com/stdlib-js/stdlib/pull/11402) _(by stdlib-bot)_
 -   [`90824dc`](https://github.com/stdlib-js/stdlib/commit/90824dc2c39a70dd1595c064e67a389f138001fb) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssorthp` [(#9698)](https://github.com/stdlib-js/stdlib/pull/9698) _(by Muhammad Haris, Athan Reines)_
 -   [`e0aa4bb`](https://github.com/stdlib-js/stdlib/commit/e0aa4bbd1d4affd798a1cdde34a436ff3951c2ad) - **feat:** add `blas/ext/base/ndarray/dsort` [(#9710)](https://github.com/stdlib-js/stdlib/pull/9710) _(by Sagar Ratna Chaudhary, Athan Reines, stdlib-bot)_
