@@ -853,6 +853,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`39db70f`](https://github.com/stdlib-js/stdlib/commit/39db70f0446038735b98e82abc26b369ac34938f) - **bench:** refactor to use string interpolation in `@stdlib/blas` [(#11397)](https://github.com/stdlib-js/stdlib/pull/11397) _(by Karan Anand)_
 -   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400) _(by stdlib-bot)_
 -   [`4c5ee9d`](https://github.com/stdlib-js/stdlib/commit/4c5ee9de4719b72e1b2f36fe71f9e418c032ac8e) - **docs:** update namespace table of contents [(#11402)](https://github.com/stdlib-js/stdlib/pull/11402) _(by stdlib-bot)_
 -   [`90824dc`](https://github.com/stdlib-js/stdlib/commit/90824dc2c39a70dd1595c064e67a389f138001fb) - **feat:** add C `ndarray` API and refactor `blas/ext/base/ssorthp` [(#9698)](https://github.com/stdlib-js/stdlib/pull/9698) _(by Muhammad Haris, Athan Reines)_
@@ -2523,7 +2524,7 @@ A total of 53 issues were closed in this release:
 
 ### Contributors
 
-A total of 68 people contributed to this release. Thank you to the following contributors:
+A total of 69 people contributed to this release. Thank you to the following contributors:
 
 -   Aayush Khanna
 -   Abhay Singh
@@ -2546,6 +2547,7 @@ A total of 68 people contributed to this release. Thank you to the following con
 -   Ishwar
 -   Justyn Shelby
 -   Kamal Singh Rautela
+-   Karan Anand
 -   Kaustubh Patange
 -   Krishna Awasthi
 -   Kumawat Rohit Suhas
