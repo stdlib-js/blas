@@ -853,6 +853,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`06cfc24`](https://github.com/stdlib-js/stdlib/commit/06cfc24f6e476f83649e6e35cacfee6b1a525a66) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11377)](https://github.com/stdlib-js/stdlib/pull/11377) _(by Karan Anand)_
 -   [`39db70f`](https://github.com/stdlib-js/stdlib/commit/39db70f0446038735b98e82abc26b369ac34938f) - **bench:** refactor to use string interpolation in `@stdlib/blas` [(#11397)](https://github.com/stdlib-js/stdlib/pull/11397) _(by Karan Anand)_
 -   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400) _(by stdlib-bot)_
 -   [`4c5ee9d`](https://github.com/stdlib-js/stdlib/commit/4c5ee9de4719b72e1b2f36fe71f9e418c032ac8e) - **docs:** update namespace table of contents [(#11402)](https://github.com/stdlib-js/stdlib/pull/11402) _(by stdlib-bot)_
