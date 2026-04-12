@@ -853,6 +853,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`97d43ad`](https://github.com/stdlib-js/stdlib/commit/97d43ad9b6a396299f0df31eedab868a234c9ed1) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11374)](https://github.com/stdlib-js/stdlib/pull/11374) _(by Karan Anand)_
 -   [`df6fbe8`](https://github.com/stdlib-js/stdlib/commit/df6fbe8072b04fc62d2cf41a1f54f68c73acc58f) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11379)](https://github.com/stdlib-js/stdlib/pull/11379) _(by Karan Anand)_
 -   [`5cd4771`](https://github.com/stdlib-js/stdlib/commit/5cd4771232fb55177f21eae72c44ddf62d9fe6d6) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11376)](https://github.com/stdlib-js/stdlib/pull/11376) _(by Karan Anand)_
 -   [`8b35b4c`](https://github.com/stdlib-js/stdlib/commit/8b35b4cef53d3b11df972158e90fe90da6f31234) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11375)](https://github.com/stdlib-js/stdlib/pull/11375) _(by Karan Anand)_
