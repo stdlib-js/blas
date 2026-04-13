@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cbcb5a5`](https://github.com/stdlib-js/stdlib/commit/cbcb5a5f99dd8664a828a5742fb0ba5d384a7f5a) - add `blas/base/ndarray/gaxpy` [(#11442)](https://github.com/stdlib-js/stdlib/pull/11442)
 -   [`4bb0678`](https://github.com/stdlib-js/stdlib/commit/4bb06788fb4591402eebc85e92dcae6df313d85c) - update `blas/ext/base` TypeScript declarations [(#11419)](https://github.com/stdlib-js/stdlib/pull/11419)
 -   [`9b3c5a5`](https://github.com/stdlib-js/stdlib/commit/9b3c5a5ffbff621234850a90e660493910d1b976) - update `blas/ext/base/ndarray` TypeScript declarations [(#11400)](https://github.com/stdlib-js/stdlib/pull/11400)
 -   [`90824dc`](https://github.com/stdlib-js/stdlib/commit/90824dc2c39a70dd1595c064e67a389f138001fb) - add C `ndarray` API and refactor `blas/ext/base/ssorthp` [(#9698)](https://github.com/stdlib-js/stdlib/pull/9698)
@@ -854,6 +855,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`cbcb5a5`](https://github.com/stdlib-js/stdlib/commit/cbcb5a5f99dd8664a828a5742fb0ba5d384a7f5a) - **feat:** add `blas/base/ndarray/gaxpy` [(#11442)](https://github.com/stdlib-js/stdlib/pull/11442) _(by Kaustubh Patange, Athan Reines)_
 -   [`4bb0678`](https://github.com/stdlib-js/stdlib/commit/4bb06788fb4591402eebc85e92dcae6df313d85c) - **feat:** update `blas/ext/base` TypeScript declarations [(#11419)](https://github.com/stdlib-js/stdlib/pull/11419) _(by stdlib-bot)_
 -   [`1a3f9ed`](https://github.com/stdlib-js/stdlib/commit/1a3f9edaa5dd7978e023dce7adeb29d5c9511880) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11380)](https://github.com/stdlib-js/stdlib/pull/11380) _(by Karan Anand)_
 -   [`859a76e`](https://github.com/stdlib-js/stdlib/commit/859a76ed33db283810c39d81e2b3d41daef0ba80) - **bench:** refactor to use string interpolation in `blas/ext/base` [(#11378)](https://github.com/stdlib-js/stdlib/pull/11378) _(by Karan Anand)_
