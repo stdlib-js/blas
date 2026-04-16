@@ -859,6 +859,7 @@ A total of 55 issues were closed in this release:
 
 <details>
 
+-   [`a503990`](https://github.com/stdlib-js/stdlib/commit/a503990551e29e0152560945aa621f05bff97af1) - **docs:** fix parameter description in `blas/base/strsv` [(#11466)](https://github.com/stdlib-js/stdlib/pull/11466) _(by Kaustubh Patange)_
 -   [`d4396d9`](https://github.com/stdlib-js/stdlib/commit/d4396d99dd16a6ef76496a499ddf392cb2f6c564) - **chore:** fix lint errors [(#11474)](https://github.com/stdlib-js/stdlib/pull/11474) _(by Guneet Gill)_
 -   [`f36ea49`](https://github.com/stdlib-js/stdlib/commit/f36ea4994d75e6cc36a9447388918bf0a0d984e8) - **test:** incorrect fixture import path in `dtrsv` [(#11453)](https://github.com/stdlib-js/stdlib/pull/11453) _(by Divit Jain)_
 -   [`4e5c850`](https://github.com/stdlib-js/stdlib/commit/4e5c85028b82e98217bfe1e1ae6f946991057a5d) - **feat:** update `blas/ext` TypeScript declarations [(#11464)](https://github.com/stdlib-js/stdlib/pull/11464) _(by stdlib-bot)_
