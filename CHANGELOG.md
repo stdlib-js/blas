@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`54aee70`](https://github.com/stdlib-js/stdlib/commit/54aee70f85a87f79c6b17e4a8cc13a1549a565ed) - add `ssort` to namespace
 -   [`4e5c850`](https://github.com/stdlib-js/stdlib/commit/4e5c85028b82e98217bfe1e1ae6f946991057a5d) - update `blas/ext` TypeScript declarations [(#11464)](https://github.com/stdlib-js/stdlib/pull/11464)
 -   [`3c7f8d2`](https://github.com/stdlib-js/stdlib/commit/3c7f8d29fb78997b36d33204f92d2e176a834c13) - add `blas/ext/base/ssort` [(#9697)](https://github.com/stdlib-js/stdlib/pull/9697)
 -   [`93c9868`](https://github.com/stdlib-js/stdlib/commit/93c9868ae12a7268932c3a07ad4cd96cba34a419) - update `blas/base/ndarray` TypeScript declarations [(#11447)](https://github.com/stdlib-js/stdlib/pull/11447)
@@ -859,6 +860,7 @@ A total of 56 issues were closed in this release:
 
 <details>
 
+-   [`54aee70`](https://github.com/stdlib-js/stdlib/commit/54aee70f85a87f79c6b17e4a8cc13a1549a565ed) - **feat:** add `ssort` to namespace _(by Athan Reines)_
 -   [`9d5c961`](https://github.com/stdlib-js/stdlib/commit/9d5c9618fc710cf8f4c5ada77277f2af48f797b3) - **chore:** fix JavaScript lint errors [(#11277)](https://github.com/stdlib-js/stdlib/pull/11277) _(by Mandeep2333)_
 -   [`a503990`](https://github.com/stdlib-js/stdlib/commit/a503990551e29e0152560945aa621f05bff97af1) - **docs:** fix parameter description in `blas/base/strsv` [(#11466)](https://github.com/stdlib-js/stdlib/pull/11466) _(by Kaustubh Patange)_
 -   [`d4396d9`](https://github.com/stdlib-js/stdlib/commit/d4396d99dd16a6ef76496a499ddf392cb2f6c564) - **chore:** fix lint errors [(#11474)](https://github.com/stdlib-js/stdlib/pull/11474) _(by Guneet Gill)_

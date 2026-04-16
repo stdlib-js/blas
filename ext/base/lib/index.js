@@ -1351,6 +1351,15 @@ setReadOnly( ns, 'soneTo', require( './../../../ext/base/sone-to' ) );
 setReadOnly( ns, 'srev', require( './../../../ext/base/srev' ) );
 
 /**
+* @name ssort
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ssort}
+*/
+setReadOnly( ns, 'ssort', require( './../../../ext/base/ssort' ) );
+
+/**
 * @name ssort2hp
 * @memberof ns
 * @readonly
