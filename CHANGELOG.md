@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-14)
+## Unreleased (2026-04-16)
 
 <section class="features">
 
 ### Features
 
+-   [`3c7f8d2`](https://github.com/stdlib-js/stdlib/commit/3c7f8d29fb78997b36d33204f92d2e176a834c13) - add `blas/ext/base/ssort` [(#9697)](https://github.com/stdlib-js/stdlib/pull/9697)
 -   [`93c9868`](https://github.com/stdlib-js/stdlib/commit/93c9868ae12a7268932c3a07ad4cd96cba34a419) - update `blas/base/ndarray` TypeScript declarations [(#11447)](https://github.com/stdlib-js/stdlib/pull/11447)
 -   [`ebaed5c`](https://github.com/stdlib-js/stdlib/commit/ebaed5c878d5abeaaadcb83a8a6e4544ab12f881) - add `gaxpy` to namespace
 -   [`cbcb5a5`](https://github.com/stdlib-js/stdlib/commit/cbcb5a5f99dd8664a828a5742fb0ba5d384a7f5a) - add `blas/base/ndarray/gaxpy` [(#11442)](https://github.com/stdlib-js/stdlib/pull/11442)
@@ -857,6 +858,7 @@ A total of 53 issues were closed in this release:
 
 <details>
 
+-   [`3c7f8d2`](https://github.com/stdlib-js/stdlib/commit/3c7f8d29fb78997b36d33204f92d2e176a834c13) - **feat:** add `blas/ext/base/ssort` [(#9697)](https://github.com/stdlib-js/stdlib/pull/9697) _(by Muhammad Haris, Athan Reines, stdlib-bot)_
 -   [`93c9868`](https://github.com/stdlib-js/stdlib/commit/93c9868ae12a7268932c3a07ad4cd96cba34a419) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11447)](https://github.com/stdlib-js/stdlib/pull/11447) _(by stdlib-bot)_
 -   [`36e8e4b`](https://github.com/stdlib-js/stdlib/commit/36e8e4be9c05de181d5e69f7a0f4b689d27c3f35) - **docs:** update namespace table of contents [(#11448)](https://github.com/stdlib-js/stdlib/pull/11448) _(by stdlib-bot)_
 -   [`ebaed5c`](https://github.com/stdlib-js/stdlib/commit/ebaed5c878d5abeaaadcb83a8a6e4544ab12f881) - **feat:** add `gaxpy` to namespace _(by Athan Reines)_
