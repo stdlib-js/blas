@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`23e187a`](https://github.com/stdlib-js/stdlib/commit/23e187a6553e5dd975edb40d6be307da13818101) - add `blas/ext/one-to` [(#11513)](https://github.com/stdlib-js/stdlib/pull/11513)
 -   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - add `dvander` and `svander` to namespace
 -   [`a6347fb`](https://github.com/stdlib-js/stdlib/commit/a6347fbbb83cf7df3e6243f1b024ef6eeab2d5f2) - add `sort` to namespace
 -   [`b5b774b`](https://github.com/stdlib-js/stdlib/commit/b5b774b666dbeca1c7b9e15ad7aa8193d14c3cf2) - add `blas/ext/sort` [(#11512)](https://github.com/stdlib-js/stdlib/pull/11512)
@@ -881,6 +882,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`23e187a`](https://github.com/stdlib-js/stdlib/commit/23e187a6553e5dd975edb40d6be307da13818101) - **feat:** add `blas/ext/one-to` [(#11513)](https://github.com/stdlib-js/stdlib/pull/11513) _(by Muhammad Haris)_
 -   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - **feat:** add `dvander` and `svander` to namespace _(by Athan Reines)_
 -   [`a6347fb`](https://github.com/stdlib-js/stdlib/commit/a6347fbbb83cf7df3e6243f1b024ef6eeab2d5f2) - **feat:** add `sort` to namespace _(by Athan Reines)_
 -   [`f86463f`](https://github.com/stdlib-js/stdlib/commit/f86463f707d7ae6e64851f890959d8f6515f885c) - **test:** fix dtype comparisons _(by Athan Reines)_
