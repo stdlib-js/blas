@@ -118,6 +118,15 @@ setReadOnly( ns, 'lastIndexOf', require( './../../ext/last-index-of' ) );
 setReadOnly( ns, 'linspace', require( './../../ext/linspace' ) );
 
 /**
+* @name oneTo
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/one-to}
+*/
+setReadOnly( ns, 'oneTo', require( './../../ext/one-to' ) );
+
+/**
 * @name sort
 * @memberof ns
 * @readonly
