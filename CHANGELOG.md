@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`85b48f1`](https://github.com/stdlib-js/stdlib/commit/85b48f1932349ff73045a1e53e7477296233381c) - add `blas/ext/base/gwhere` [(#11345)](https://github.com/stdlib-js/stdlib/pull/11345)
 -   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496)
 -   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - add `dsort` to namespace
 -   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - add `ssort` to namespace
@@ -864,6 +865,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`85b48f1`](https://github.com/stdlib-js/stdlib/commit/85b48f1932349ff73045a1e53e7477296233381c) - **feat:** add `blas/ext/base/gwhere` [(#11345)](https://github.com/stdlib-js/stdlib/pull/11345) _(by Muhammad Haris, Athan Reines)_
 -   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
 -   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496) _(by stdlib-bot)_
 -   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - **feat:** add `dsort` to namespace _(by Athan Reines)_
