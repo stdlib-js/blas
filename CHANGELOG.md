@@ -860,6 +860,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`b2160c6`](https://github.com/stdlib-js/stdlib/commit/b2160c655c2ce47912079386eab7ecf61c6bbceb) - **docs:** improve doctests for ndarray instances in `blas/ext/index-of` [(#11488)](https://github.com/stdlib-js/stdlib/pull/11488) _(by Uday Kakade)_
 -   [`15486dd`](https://github.com/stdlib-js/stdlib/commit/15486dd0fd476b34264b9773b2724d3b59484da5) - **test:** incorrect fixture import path in `strsv` [(#11491)](https://github.com/stdlib-js/stdlib/pull/11491) _(by Divit Jain)_
 -   [`54aee70`](https://github.com/stdlib-js/stdlib/commit/54aee70f85a87f79c6b17e4a8cc13a1549a565ed) - **feat:** add `ssort` to namespace _(by Athan Reines)_
 -   [`9d5c961`](https://github.com/stdlib-js/stdlib/commit/9d5c9618fc710cf8f4c5ada77277f2af48f797b3) - **chore:** fix JavaScript lint errors [(#11277)](https://github.com/stdlib-js/stdlib/pull/11277) _(by Mandeep2333)_
