@@ -876,6 +876,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`97b509e`](https://github.com/stdlib-js/stdlib/commit/97b509e9e82501c0367c22cab0ef6c98b27618ef) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dsorthp` [(#11503)](https://github.com/stdlib-js/stdlib/pull/11503) _(by Prajjwal Bajpai)_
 -   [`6c430c7`](https://github.com/stdlib-js/stdlib/commit/6c430c7cf0ad336df590a4bee5e05c78346e5dc2) - **feat:** add `gnancount` to namespace _(by Athan Reines)_
 -   [`c84f0ca`](https://github.com/stdlib-js/stdlib/commit/c84f0caa56429dc035cfb22a105d62a3178b5c87) - **feat:** add `blas/ext/base/gnancount` _(by Athan Reines)_
 -   [`e7d8e09`](https://github.com/stdlib-js/stdlib/commit/e7d8e0920f12d60fd5e6d53386f5864d881a509c) - **feat:** add `snancount` to namespace _(by Athan Reines)_
