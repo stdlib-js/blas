@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b5b774b`](https://github.com/stdlib-js/stdlib/commit/b5b774b666dbeca1c7b9e15ad7aa8193d14c3cf2) - add `blas/ext/sort` [(#11512)](https://github.com/stdlib-js/stdlib/pull/11512)
 -   [`d03f7d8`](https://github.com/stdlib-js/stdlib/commit/d03f7d836afb3c0b1acfd8fa44fadf52e915cb12) - add `blas/ext/base/svander` [(#10926)](https://github.com/stdlib-js/stdlib/pull/10926)
 -   [`3b3e2b8`](https://github.com/stdlib-js/stdlib/commit/3b3e2b81e52d051809bdb28b2758254d3253a437) - add `blas/ext/base/dvander` [(#10923)](https://github.com/stdlib-js/stdlib/pull/10923)
 -   [`6c430c7`](https://github.com/stdlib-js/stdlib/commit/6c430c7cf0ad336df590a4bee5e05c78346e5dc2) - add `gnancount` to namespace
@@ -878,6 +879,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`b5b774b`](https://github.com/stdlib-js/stdlib/commit/b5b774b666dbeca1c7b9e15ad7aa8193d14c3cf2) - **feat:** add `blas/ext/sort` [(#11512)](https://github.com/stdlib-js/stdlib/pull/11512) _(by Muhammad Haris, Athan Reines)_
 -   [`d03f7d8`](https://github.com/stdlib-js/stdlib/commit/d03f7d836afb3c0b1acfd8fa44fadf52e915cb12) - **feat:** add `blas/ext/base/svander` [(#10926)](https://github.com/stdlib-js/stdlib/pull/10926) _(by Muhammad Haris)_
 -   [`3b3e2b8`](https://github.com/stdlib-js/stdlib/commit/3b3e2b81e52d051809bdb28b2758254d3253a437) - **feat:** add `blas/ext/base/dvander` [(#10923)](https://github.com/stdlib-js/stdlib/pull/10923) _(by Muhammad Haris, Athan Reines)_
 -   [`97b509e`](https://github.com/stdlib-js/stdlib/commit/97b509e9e82501c0367c22cab0ef6c98b27618ef) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/dsorthp` [(#11503)](https://github.com/stdlib-js/stdlib/pull/11503) _(by Prajjwal Bajpai)_
