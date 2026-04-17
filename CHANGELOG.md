@@ -860,6 +860,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`4743252`](https://github.com/stdlib-js/stdlib/commit/4743252abb3eb47297a10260e2ed159389036143) - **docs:** improve doctests for ndarray instances in `blas/ext/find-index` [(#11486)](https://github.com/stdlib-js/stdlib/pull/11486) _(by Uday Kakade)_
 -   [`ace9b98`](https://github.com/stdlib-js/stdlib/commit/ace9b98cd31056ec3efbbd14b3c12defe96b07fc) - **docs:** improve doctests for ndarray instances in `blas/ext/find-last-index` [(#11487)](https://github.com/stdlib-js/stdlib/pull/11487) _(by Uday Kakade)_
 -   [`b2160c6`](https://github.com/stdlib-js/stdlib/commit/b2160c655c2ce47912079386eab7ecf61c6bbceb) - **docs:** improve doctests for ndarray instances in `blas/ext/index-of` [(#11488)](https://github.com/stdlib-js/stdlib/pull/11488) _(by Uday Kakade)_
 -   [`15486dd`](https://github.com/stdlib-js/stdlib/commit/15486dd0fd476b34264b9773b2724d3b59484da5) - **test:** incorrect fixture import path in `strsv` [(#11491)](https://github.com/stdlib-js/stdlib/pull/11491) _(by Divit Jain)_
