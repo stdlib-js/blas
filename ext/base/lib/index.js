@@ -622,6 +622,15 @@ setReadOnly( ns, 'dsumors', require( './../../../ext/base/dsumors' ) );
 setReadOnly( ns, 'dsumpw', require( './../../../ext/base/dsumpw' ) );
 
 /**
+* @name dvander
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dvander}
+*/
+setReadOnly( ns, 'dvander', require( './../../../ext/base/dvander' ) );
+
+/**
 * @name dzeroTo
 * @memberof ns
 * @readonly
@@ -1493,6 +1502,15 @@ setReadOnly( ns, 'ssumors', require( './../../../ext/base/ssumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/ssumpw}
 */
 setReadOnly( ns, 'ssumpw', require( './../../../ext/base/ssumpw' ) );
+
+/**
+* @name svander
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/svander}
+*/
+setReadOnly( ns, 'svander', require( './../../../ext/base/svander' ) );
 
 /**
 * @name szeroTo

@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - add `dvander` and `svander` to namespace
+-   [`a6347fb`](https://github.com/stdlib-js/stdlib/commit/a6347fbbb83cf7df3e6243f1b024ef6eeab2d5f2) - add `sort` to namespace
 -   [`b5b774b`](https://github.com/stdlib-js/stdlib/commit/b5b774b666dbeca1c7b9e15ad7aa8193d14c3cf2) - add `blas/ext/sort` [(#11512)](https://github.com/stdlib-js/stdlib/pull/11512)
 -   [`d03f7d8`](https://github.com/stdlib-js/stdlib/commit/d03f7d836afb3c0b1acfd8fa44fadf52e915cb12) - add `blas/ext/base/svander` [(#10926)](https://github.com/stdlib-js/stdlib/pull/10926)
 -   [`3b3e2b8`](https://github.com/stdlib-js/stdlib/commit/3b3e2b81e52d051809bdb28b2758254d3253a437) - add `blas/ext/base/dvander` [(#10923)](https://github.com/stdlib-js/stdlib/pull/10923)
@@ -879,6 +881,11 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - **feat:** add `dvander` and `svander` to namespace _(by Athan Reines)_
+-   [`a6347fb`](https://github.com/stdlib-js/stdlib/commit/a6347fbbb83cf7df3e6243f1b024ef6eeab2d5f2) - **feat:** add `sort` to namespace _(by Athan Reines)_
+-   [`f86463f`](https://github.com/stdlib-js/stdlib/commit/f86463f707d7ae6e64851f890959d8f6515f885c) - **test:** fix dtype comparisons _(by Athan Reines)_
+-   [`1c2eddf`](https://github.com/stdlib-js/stdlib/commit/1c2eddf59350cdc7dfd3d66eab07ab0291d5f9f6) - **test:** fix dtype comparisons _(by Athan Reines)_
+-   [`d81c41f`](https://github.com/stdlib-js/stdlib/commit/d81c41ff6be7e2f2f8e0289aee0d616739d10931) - **test:** fix dtype comparison and update examples _(by Athan Reines)_
 -   [`b5b774b`](https://github.com/stdlib-js/stdlib/commit/b5b774b666dbeca1c7b9e15ad7aa8193d14c3cf2) - **feat:** add `blas/ext/sort` [(#11512)](https://github.com/stdlib-js/stdlib/pull/11512) _(by Muhammad Haris, Athan Reines)_
 -   [`d03f7d8`](https://github.com/stdlib-js/stdlib/commit/d03f7d836afb3c0b1acfd8fa44fadf52e915cb12) - **feat:** add `blas/ext/base/svander` [(#10926)](https://github.com/stdlib-js/stdlib/pull/10926) _(by Muhammad Haris)_
 -   [`3b3e2b8`](https://github.com/stdlib-js/stdlib/commit/3b3e2b81e52d051809bdb28b2758254d3253a437) - **feat:** add `blas/ext/base/dvander` [(#10923)](https://github.com/stdlib-js/stdlib/pull/10923) _(by Muhammad Haris, Athan Reines)_
