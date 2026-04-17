@@ -208,6 +208,15 @@ setReadOnly( ns, 'dnansumpw', require( './../../../../ext/base/ndarray/dnansumpw
 setReadOnly( ns, 'doneTo', require( './../../../../ext/base/ndarray/done-to' ) );
 
 /**
+* @name dsort
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dsort}
+*/
+setReadOnly( ns, 'dsort', require( './../../../../ext/base/ndarray/dsort' ) );
+
+/**
 * @name dsorthp
 * @memberof ns
 * @readonly
@@ -656,6 +665,15 @@ setReadOnly( ns, 'snansumpw', require( './../../../../ext/base/ndarray/snansumpw
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sone-to}
 */
 setReadOnly( ns, 'soneTo', require( './../../../../ext/base/ndarray/sone-to' ) );
+
+/**
+* @name ssort
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ssort}
+*/
+setReadOnly( ns, 'ssort', require( './../../../../ext/base/ndarray/ssort' ) );
 
 /**
 * @name ssorthp
