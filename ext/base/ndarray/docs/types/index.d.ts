@@ -39,6 +39,7 @@ import dnansumkbn2 = require( './../../../../../ext/base/ndarray/dnansumkbn2' );
 import dnansumors = require( './../../../../../ext/base/ndarray/dnansumors' );
 import dnansumpw = require( './../../../../../ext/base/ndarray/dnansumpw' );
 import doneTo = require( './../../../../../ext/base/ndarray/done-to' );
+import dsort = require( './../../../../../ext/base/ndarray/dsort' );
 import dsorthp = require( './../../../../../ext/base/ndarray/dsorthp' );
 import dsortins = require( './../../../../../ext/base/ndarray/dsortins' );
 import dsortsh = require( './../../../../../ext/base/ndarray/dsortsh' );
@@ -89,6 +90,7 @@ import snansumkbn2 = require( './../../../../../ext/base/ndarray/snansumkbn2' );
 import snansumors = require( './../../../../../ext/base/ndarray/snansumors' );
 import snansumpw = require( './../../../../../ext/base/ndarray/snansumpw' );
 import soneTo = require( './../../../../../ext/base/ndarray/sone-to' );
+import ssort = require( './../../../../../ext/base/ndarray/ssort' );
 import ssorthp = require( './../../../../../ext/base/ndarray/ssorthp' );
 import ssum = require( './../../../../../ext/base/ndarray/ssum' );
 import ssumkbn = require( './../../../../../ext/base/ndarray/ssumkbn' );
@@ -537,6 +539,36 @@ interface Namespace {
 	* // returns <ndarray>[ 1.0, 2.0, 3.0, 4.0 ]
 	*/
 	doneTo: typeof doneTo;
+
+	/**
+	* Sorts a one-dimensional double-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   When the sort order is less than zero, the input ndarray is sorted in **decreasing** order. When the sort order is greater than zero, the input ndarray is sorted in **increasing** order. When the sort order is equal to zero, the input ndarray is left unchanged.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying the sort order
+	* @returns input ndarray
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var x = new ndarray( 'float64', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ord = scalar2ndarray( 1.0, {
+	*    'dtype': 'generic'
+	* });
+	*
+	* var out = ns.dsort( [ x, ord ] );
+	* // returns <ndarray>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* var bool = ( out === x );
+	* // returns true
+	*/
+	dsort: typeof dsort;
 
 	/**
 	* Sorts a one-dimensional double-precision floating-point ndarray using heapsort.
@@ -1722,6 +1754,36 @@ interface Namespace {
 	* // returns <ndarray>[ 1.0, 2.0, 3.0, 4.0 ]
 	*/
 	soneTo: typeof soneTo;
+
+	/**
+	* Sorts a one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   When the sort order is less than zero, the input ndarray is sorted in **decreasing** order. When the sort order is greater than zero, the input ndarray is sorted in **increasing** order. When the sort order is equal to zero, the input ndarray is left unchanged.
+	*
+	* @param arrays - array-like object containing a one-dimensional input ndarray and a zero-dimensional ndarray specifying the sort order
+	* @returns input ndarray
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var x = new ndarray( 'float32', xbuf, [ 4 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ord = scalar2ndarray( 1.0, {
+	*    'dtype': 'generic'
+	* });
+	*
+	* var out = ns.ssort( [ x, ord ] );
+	* // returns <ndarray>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* var bool = ( out === x );
+	* // returns true
+	*/
+	ssort: typeof ssort;
 
 	/**
 	* Sorts a one-dimensional single-precision floating-point ndarray using heapsort.

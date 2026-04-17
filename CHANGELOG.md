@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496)
 -   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - add `dsort` to namespace
 -   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - add `ssort` to namespace
 -   [`fafa2d5`](https://github.com/stdlib-js/stdlib/commit/fafa2d535bd201a047b251afdb6aaa096b998961) - add `blas/ext/base/ndarray/ssort` [(#11484)](https://github.com/stdlib-js/stdlib/pull/11484)
@@ -863,6 +864,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`2ab6254`](https://github.com/stdlib-js/stdlib/commit/2ab6254a552c8bb1024eb5fc5baa35cd4812f64b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11496)](https://github.com/stdlib-js/stdlib/pull/11496) _(by stdlib-bot)_
 -   [`aacc13a`](https://github.com/stdlib-js/stdlib/commit/aacc13a91e7131c5829cdb3622990a92805aabc9) - **feat:** add `dsort` to namespace _(by Athan Reines)_
 -   [`56329f6`](https://github.com/stdlib-js/stdlib/commit/56329f6843adb81d057638457604f1442db76484) - **feat:** add `ssort` to namespace _(by Athan Reines)_
 -   [`fafa2d5`](https://github.com/stdlib-js/stdlib/commit/fafa2d535bd201a047b251afdb6aaa096b998961) - **feat:** add `blas/ext/base/ndarray/ssort` [(#11484)](https://github.com/stdlib-js/stdlib/pull/11484) _(by Muhammad Haris, Athan Reines)_
