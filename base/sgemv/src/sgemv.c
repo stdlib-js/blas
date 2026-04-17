@@ -83,7 +83,7 @@ void API_SUFFIX(c_sgemv)( const CBLAS_LAYOUT layout, const CBLAS_TRANSPOSE trans
 	} else {
 		vala = v;
 	}
-	if ( LDA < v ) {
+	if ( LDA < vala ) {
 		c_xerbla( 10, "c_sgemv", "Error: invalid argument. Seventh argument must be greater than or equal to max(1,%d). Value: `%d`.", vala, LDA );
 		return;
 	}

@@ -523,6 +523,8 @@
 
 ### Bug Fixes
 
+-   [`1802636`](https://github.com/stdlib-js/stdlib/commit/180263640132ce8b6d5a1b31f74bf84399d2236a) - fix comparison
+-   [`26071a9`](https://github.com/stdlib-js/stdlib/commit/26071a932480eb7f4d0e40a124130e8172c44cba) - fix comparison
 -   [`e47ee45`](https://github.com/stdlib-js/stdlib/commit/e47ee4551cf19ad584361fb80c9eed84ff9ea792) - resolve bugs, docs, and JSDoc type errors [(#11337)](https://github.com/stdlib-js/stdlib/pull/11337)
 -   [`4e1b1df`](https://github.com/stdlib-js/stdlib/commit/4e1b1dfba22bc37cbf13902963692e6e30df16ee) - add namespace package files
 -   [`51981c7`](https://github.com/stdlib-js/stdlib/commit/51981c7c552f088da5cc1a36c005a9f3d550bfea) - preserve sign of zero in native C implementation of `blas/ext/base/ssumpw`
@@ -866,6 +868,8 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`1802636`](https://github.com/stdlib-js/stdlib/commit/180263640132ce8b6d5a1b31f74bf84399d2236a) - **fix:** fix comparison _(by Athan Reines)_
+-   [`26071a9`](https://github.com/stdlib-js/stdlib/commit/26071a932480eb7f4d0e40a124130e8172c44cba) - **fix:** fix comparison _(by Athan Reines)_
 -   [`51cb65c`](https://github.com/stdlib-js/stdlib/commit/51cb65ca010a117520cada40c81ead09956e1724) - **feat:** add `gwhere` to namespace _(by Athan Reines)_
 -   [`85b48f1`](https://github.com/stdlib-js/stdlib/commit/85b48f1932349ff73045a1e53e7477296233381c) - **feat:** add `blas/ext/base/gwhere` [(#11345)](https://github.com/stdlib-js/stdlib/pull/11345) _(by Muhammad Haris, Athan Reines)_
 -   [`10210e4`](https://github.com/stdlib-js/stdlib/commit/10210e49f0b5e71b93243d12b650048dc17abed3) - **docs:** update namespace table of contents [(#11497)](https://github.com/stdlib-js/stdlib/pull/11497) _(by stdlib-bot)_
