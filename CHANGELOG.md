@@ -860,6 +860,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`fa69a58`](https://github.com/stdlib-js/stdlib/commit/fa69a5843285eae8c1340497bf27ecc51875f384) - **docs:** improve doctests for ndarray instances in `blas/ext/sum` [(#11481)](https://github.com/stdlib-js/stdlib/pull/11481) _(by Uday Kakade)_
 -   [`b434fcc`](https://github.com/stdlib-js/stdlib/commit/b434fcc0eee2e5a6930b5c99a0fe8515dcff2fae) - **docs:** improve doctests for ndarray instances in `blas/ext/sorthp` [(#11483)](https://github.com/stdlib-js/stdlib/pull/11483) _(by Uday Kakade)_
 -   [`4743252`](https://github.com/stdlib-js/stdlib/commit/4743252abb3eb47297a10260e2ed159389036143) - **docs:** improve doctests for ndarray instances in `blas/ext/find-index` [(#11486)](https://github.com/stdlib-js/stdlib/pull/11486) _(by Uday Kakade)_
 -   [`ace9b98`](https://github.com/stdlib-js/stdlib/commit/ace9b98cd31056ec3efbbd14b3c12defe96b07fc) - **docs:** improve doctests for ndarray instances in `blas/ext/find-last-index` [(#11487)](https://github.com/stdlib-js/stdlib/pull/11487) _(by Uday Kakade)_
