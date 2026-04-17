@@ -31,7 +31,7 @@ var strided = require( './../../../../../ext/base/dsort' ).ndarray;
 // MAIN //
 
 /**
-* Sorts a double-precision floating-point ndarray.
+* Sorts a one-dimensional double-precision floating-point ndarray.
 *
 * ## Notes
 *
