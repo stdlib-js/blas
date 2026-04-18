@@ -582,6 +582,7 @@ interface Namespace {
 	*
 	* @example
 	* var Float64Array = require( '@stdlib/array/float64' );
+	* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
 	*
@@ -593,7 +594,10 @@ interface Namespace {
 	* });
 	*
 	* var out = ns.dsorthp( [ x, ord ] );
-	* // returns <ndarray>[ -4.0, -2.0, 1.0, 3.0 ]
+	* // returns <ndarray>
+	*
+	* var arr = ndarray2array( out );
+	* // returns [ -4.0, -2.0, 1.0, 3.0 ]
 	*/
 	dsorthp: typeof dsorthp;
 

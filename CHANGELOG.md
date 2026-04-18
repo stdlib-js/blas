@@ -883,7 +883,6 @@ A total of 57 issues were closed in this release:
 
 <details>
 
--   [`849495e`](https://github.com/stdlib-js/stdlib/commit/849495ef3b7239b2bd93d2a8bf8716240e12e56f) - **docs:** update example [(#11519)](https://github.com/stdlib-js/stdlib/pull/11519) _(by stdlib-bot)_
 -   [`2505815`](https://github.com/stdlib-js/stdlib/commit/25058156cf7b1138c5c33209a5143100c376b46d) - **docs:** update namespace table of contents [(#11520)](https://github.com/stdlib-js/stdlib/pull/11520) _(by stdlib-bot)_
 -   [`de040ca`](https://github.com/stdlib-js/stdlib/commit/de040ca809d0935470dcbb63dcaa458db1391cc4) - **docs:** update related packages sections [(#11518)](https://github.com/stdlib-js/stdlib/pull/11518) _(by stdlib-bot)_
 -   [`c064029`](https://github.com/stdlib-js/stdlib/commit/c06402992542270511454072f3ff59a3920bbc19) - **feat:** add `oneTo` to namespace _(by Athan Reines)_
