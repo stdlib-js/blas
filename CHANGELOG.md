@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`076b86b`](https://github.com/stdlib-js/stdlib/commit/076b86b2fc9a3b6a62a1ba7a23f11aa1193cfd5b) - add `blas/base/ndarray/zaxpy` [(#11507)](https://github.com/stdlib-js/stdlib/pull/11507)
 -   [`c28307a`](https://github.com/stdlib-js/stdlib/commit/c28307a65268e356c2ea48a6582102e35d48be6f) - add `blas/base/ndarray/caxpy` [(#11459)](https://github.com/stdlib-js/stdlib/pull/11459)
 -   [`c064029`](https://github.com/stdlib-js/stdlib/commit/c06402992542270511454072f3ff59a3920bbc19) - add `oneTo` to namespace
 -   [`23e187a`](https://github.com/stdlib-js/stdlib/commit/23e187a6553e5dd975edb40d6be307da13818101) - add `blas/ext/one-to` [(#11513)](https://github.com/stdlib-js/stdlib/pull/11513)
@@ -884,6 +885,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`076b86b`](https://github.com/stdlib-js/stdlib/commit/076b86b2fc9a3b6a62a1ba7a23f11aa1193cfd5b) - **feat:** add `blas/base/ndarray/zaxpy` [(#11507)](https://github.com/stdlib-js/stdlib/pull/11507) _(by Kaustubh Patange)_
 -   [`c28307a`](https://github.com/stdlib-js/stdlib/commit/c28307a65268e356c2ea48a6582102e35d48be6f) - **feat:** add `blas/base/ndarray/caxpy` [(#11459)](https://github.com/stdlib-js/stdlib/pull/11459) _(by Kaustubh Patange, stdlib-bot)_
 -   [`849495e`](https://github.com/stdlib-js/stdlib/commit/849495ef3b7239b2bd93d2a8bf8716240e12e56f) - **docs:** update example [(#11519)](https://github.com/stdlib-js/stdlib/pull/11519) _(by stdlib-bot)_
 -   [`2505815`](https://github.com/stdlib-js/stdlib/commit/25058156cf7b1138c5c33209a5143100c376b46d) - **docs:** update namespace table of contents [(#11520)](https://github.com/stdlib-js/stdlib/pull/11520) _(by stdlib-bot)_
