@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b0c2f7b`](https://github.com/stdlib-js/stdlib/commit/b0c2f7b7b8d123d1194bc64faac54bf6baa2e673) - add `caxpy` and `daxpy` to namespace
 -   [`076b86b`](https://github.com/stdlib-js/stdlib/commit/076b86b2fc9a3b6a62a1ba7a23f11aa1193cfd5b) - add `blas/base/ndarray/zaxpy` [(#11507)](https://github.com/stdlib-js/stdlib/pull/11507)
 -   [`c28307a`](https://github.com/stdlib-js/stdlib/commit/c28307a65268e356c2ea48a6582102e35d48be6f) - add `blas/base/ndarray/caxpy` [(#11459)](https://github.com/stdlib-js/stdlib/pull/11459)
 -   [`c064029`](https://github.com/stdlib-js/stdlib/commit/c06402992542270511454072f3ff59a3920bbc19) - add `oneTo` to namespace
@@ -885,6 +886,9 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`b0c2f7b`](https://github.com/stdlib-js/stdlib/commit/b0c2f7b7b8d123d1194bc64faac54bf6baa2e673) - **feat:** add `caxpy` and `daxpy` to namespace _(by Athan Reines)_
+-   [`d4c1b8b`](https://github.com/stdlib-js/stdlib/commit/d4c1b8b1d39a0c99e207a16aac091bf5f5c07941) - **test:** update description _(by Athan Reines)_
+-   [`b8ad692`](https://github.com/stdlib-js/stdlib/commit/b8ad692edb5a6567e471fbbfc20df12f34dd214c) - **test:** update description _(by Athan Reines)_
 -   [`076b86b`](https://github.com/stdlib-js/stdlib/commit/076b86b2fc9a3b6a62a1ba7a23f11aa1193cfd5b) - **feat:** add `blas/base/ndarray/zaxpy` [(#11507)](https://github.com/stdlib-js/stdlib/pull/11507) _(by Kaustubh Patange)_
 -   [`c28307a`](https://github.com/stdlib-js/stdlib/commit/c28307a65268e356c2ea48a6582102e35d48be6f) - **feat:** add `blas/base/ndarray/caxpy` [(#11459)](https://github.com/stdlib-js/stdlib/pull/11459) _(by Kaustubh Patange, stdlib-bot)_
 -   [`849495e`](https://github.com/stdlib-js/stdlib/commit/849495ef3b7239b2bd93d2a8bf8716240e12e56f) - **docs:** update example [(#11519)](https://github.com/stdlib-js/stdlib/pull/11519) _(by stdlib-bot)_

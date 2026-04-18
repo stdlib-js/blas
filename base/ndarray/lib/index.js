@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name caxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/caxpy}
+*/
+setReadOnly( ns, 'caxpy', require( './../../../base/ndarray/caxpy' ) );
+
+/**
 * @name dasum
 * @memberof ns
 * @readonly
@@ -116,6 +125,15 @@ setReadOnly( ns, 'saxpy', require( './../../../base/ndarray/saxpy' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/sdot}
 */
 setReadOnly( ns, 'sdot', require( './../../../base/ndarray/sdot' ) );
+
+/**
+* @name zaxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/zaxpy}
+*/
+setReadOnly( ns, 'zaxpy', require( './../../../base/ndarray/zaxpy' ) );
 
 
 // EXPORTS //
