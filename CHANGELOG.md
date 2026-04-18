@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-17)
+## Unreleased (2026-04-18)
 
 <section class="features">
 
@@ -883,6 +883,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`de040ca`](https://github.com/stdlib-js/stdlib/commit/de040ca809d0935470dcbb63dcaa458db1391cc4) - **docs:** update related packages sections [(#11518)](https://github.com/stdlib-js/stdlib/pull/11518) _(by stdlib-bot)_
 -   [`c064029`](https://github.com/stdlib-js/stdlib/commit/c06402992542270511454072f3ff59a3920bbc19) - **feat:** add `oneTo` to namespace _(by Athan Reines)_
 -   [`23e187a`](https://github.com/stdlib-js/stdlib/commit/23e187a6553e5dd975edb40d6be307da13818101) - **feat:** add `blas/ext/one-to` [(#11513)](https://github.com/stdlib-js/stdlib/pull/11513) _(by Muhammad Haris)_
 -   [`da1d1ef`](https://github.com/stdlib-js/stdlib/commit/da1d1ef00505a288d455266c61a954b6d3c20a00) - **feat:** add `dvander` and `svander` to namespace _(by Athan Reines)_
