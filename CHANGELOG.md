@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`535ec3b`](https://github.com/stdlib-js/stdlib/commit/535ec3ba9e8bbc13d16592246b7f45b19e2d7bfa) - add `blas/ext/base/znancount` [(#11514)](https://github.com/stdlib-js/stdlib/pull/11514)
 -   [`aba7460`](https://github.com/stdlib-js/stdlib/commit/aba7460d1b535300619c014a8cd8972f5f5cc41b) - update `blas/base/ndarray` TypeScript declarations [(#11560)](https://github.com/stdlib-js/stdlib/pull/11560)
 -   [`1764738`](https://github.com/stdlib-js/stdlib/commit/17647387e691a8e7429f9248ece23fa6ce182cb5) - add `gunitspace` to namespace
 -   [`e66bcc9`](https://github.com/stdlib-js/stdlib/commit/e66bcc917ce5e6b1009d588d1762fed4e5bdb456) - add `dcopy` to namespace
@@ -891,6 +892,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`535ec3b`](https://github.com/stdlib-js/stdlib/commit/535ec3ba9e8bbc13d16592246b7f45b19e2d7bfa) - **feat:** add `blas/ext/base/znancount` [(#11514)](https://github.com/stdlib-js/stdlib/pull/11514) _(by Om-A-osc)_
 -   [`0873811`](https://github.com/stdlib-js/stdlib/commit/0873811a6cdde040bef142386df8f1fe2c64d4df) - **docs:** inline ndarray output in doctests and add missing article [(#11557)](https://github.com/stdlib-js/stdlib/pull/11557) _(by Philipp Burckhardt)_
 -   [`97d6f49`](https://github.com/stdlib-js/stdlib/commit/97d6f49c357589bfb8cd5a22ac3cb1d7e04db4fb) - **docs:** improve doctests for ndarray instances in `blas/sdot` [(#11578)](https://github.com/stdlib-js/stdlib/pull/11578) _(by Uday Kakade)_
 -   [`638fdf0`](https://github.com/stdlib-js/stdlib/commit/638fdf0149590cc7e645ac544cb1d36ccc0d867a) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn2` [(#11576)](https://github.com/stdlib-js/stdlib/pull/11576) _(by Uday Kakade)_
