@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-18)
+## Unreleased (2026-04-19)
 
 <section class="features">
 
@@ -886,6 +886,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`dcba41a`](https://github.com/stdlib-js/stdlib/commit/dcba41a4e2aba7d6c89489bc24ae7c3eb1202394) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/scusumors` [(#11551)](https://github.com/stdlib-js/stdlib/pull/11551) _(by Uday Kakade)_
 -   [`b0c2f7b`](https://github.com/stdlib-js/stdlib/commit/b0c2f7b7b8d123d1194bc64faac54bf6baa2e673) - **feat:** add `caxpy` and `daxpy` to namespace _(by Athan Reines)_
 -   [`d4c1b8b`](https://github.com/stdlib-js/stdlib/commit/d4c1b8b1d39a0c99e207a16aac091bf5f5c07941) - **test:** update description _(by Athan Reines)_
 -   [`b8ad692`](https://github.com/stdlib-js/stdlib/commit/b8ad692edb5a6567e471fbbfc20df12f34dd214c) - **test:** update description _(by Athan Reines)_
