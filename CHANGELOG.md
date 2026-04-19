@@ -891,6 +891,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`3c29f4b`](https://github.com/stdlib-js/stdlib/commit/3c29f4b4fd3bf3bf1f6a132c50bc684444d7674b) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumkbn` [(#11574)](https://github.com/stdlib-js/stdlib/pull/11574) _(by Uday Kakade)_
 -   [`ea0027d`](https://github.com/stdlib-js/stdlib/commit/ea0027d3192bfccf9851eed2a333af3fee8c4a7c) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumors` [(#11573)](https://github.com/stdlib-js/stdlib/pull/11573) _(by Uday Kakade)_
 -   [`85636fc`](https://github.com/stdlib-js/stdlib/commit/85636fc4c88f2b13210775178edb2d477d8f57af) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/gcusumpw` [(#11572)](https://github.com/stdlib-js/stdlib/pull/11572) _(by Uday Kakade)_
 -   [`1e24d10`](https://github.com/stdlib-js/stdlib/commit/1e24d102fcb9c24bd27bdb25fc37752f9dd2c2cb) - **docs:** improve doctests for ndarray instances in `blas/ext/base/ndarray/scusumkbn2` [(#11570)](https://github.com/stdlib-js/stdlib/pull/11570) _(by Uday Kakade)_
