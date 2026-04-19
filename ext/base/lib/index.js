@@ -1558,6 +1558,15 @@ setReadOnly( ns, 'zfill', require( './../../../ext/base/zfill' ) );
 setReadOnly( ns, 'zindexOfRow', require( './../../../ext/base/zindex-of-row' ) );
 
 /**
+* @name znancount
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/znancount}
+*/
+setReadOnly( ns, 'znancount', require( './../../../ext/base/znancount' ) );
+
+/**
 * @name zoneTo
 * @memberof ns
 * @readonly
