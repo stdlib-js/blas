@@ -26,6 +26,7 @@
 * @example
 * var Float32Array = require( '@stdlib/array/float32' );
 * var ndarray = require( '@stdlib/ndarray/base/ctor' );
+* var ndarray2array = require( '@stdlib/ndarray/to-array' );
 * var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 * var ssorthp = require( '@stdlib/blas/ext/base/ndarray/ssorthp' );
 *
@@ -37,7 +38,10 @@
 * });
 *
 * var out = ssorthp( [ x, ord ] );
-* // returns <ndarray>[ -4.0, -2.0, 1.0, 3.0 ]
+* // returns <ndarray>
+*
+* var arr = ndarray2array( out );
+* // returns [ -4.0, -2.0, 1.0, 3.0 ]
 */
 
 // MODULES //

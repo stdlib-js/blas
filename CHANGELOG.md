@@ -886,7 +886,6 @@ A total of 57 issues were closed in this release:
 
 <details>
 
--   [`e0c37cb`](https://github.com/stdlib-js/stdlib/commit/e0c37cb6b44afd455dd85f7b24021c6fe53cd1bf) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/ssorthp` [(#11547)](https://github.com/stdlib-js/stdlib/pull/11547) _(by Uday Kakade)_
 -   [`8f8221b`](https://github.com/stdlib-js/stdlib/commit/8f8221bd4d6927bbe4b44d0f7c6b300c0d806467) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/slinspace` [(#11549)](https://github.com/stdlib-js/stdlib/pull/11549) _(by Uday Kakade)_
 -   [`2367b73`](https://github.com/stdlib-js/stdlib/commit/2367b73618b8d8262820deca4c143b54e9d39f18) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/glinspace` [(#11550)](https://github.com/stdlib-js/stdlib/pull/11550) _(by Uday Kakade)_
 -   [`dcba41a`](https://github.com/stdlib-js/stdlib/commit/dcba41a4e2aba7d6c89489bc24ae7c3eb1202394) - **docs:** improve doctests for ndarray instances in `blas/ext/ndarray/scusumors` [(#11551)](https://github.com/stdlib-js/stdlib/pull/11551) _(by Uday Kakade)_
