@@ -64,6 +64,15 @@ setReadOnly( ns, 'dasum', require( './../../../base/ndarray/dasum' ) );
 setReadOnly( ns, 'daxpy', require( './../../../base/ndarray/daxpy' ) );
 
 /**
+* @name dcopy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dcopy}
+*/
+setReadOnly( ns, 'dcopy', require( './../../../base/ndarray/dcopy' ) );
+
+/**
 * @name ddot
 * @memberof ns
 * @readonly
