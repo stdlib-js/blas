@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`aba7460`](https://github.com/stdlib-js/stdlib/commit/aba7460d1b535300619c014a8cd8972f5f5cc41b) - update `blas/base/ndarray` TypeScript declarations [(#11560)](https://github.com/stdlib-js/stdlib/pull/11560)
 -   [`1764738`](https://github.com/stdlib-js/stdlib/commit/17647387e691a8e7429f9248ece23fa6ce182cb5) - add `gunitspace` to namespace
 -   [`e66bcc9`](https://github.com/stdlib-js/stdlib/commit/e66bcc917ce5e6b1009d588d1762fed4e5bdb456) - add `dcopy` to namespace
 -   [`e92d656`](https://github.com/stdlib-js/stdlib/commit/e92d6562ce95ea73bd3a6f37ff4f454d0d1b336b) - add `blas/ext/base/gunitspace` [(#11555)](https://github.com/stdlib-js/stdlib/pull/11555)
@@ -890,6 +891,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`aba7460`](https://github.com/stdlib-js/stdlib/commit/aba7460d1b535300619c014a8cd8972f5f5cc41b) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11560)](https://github.com/stdlib-js/stdlib/pull/11560) _(by stdlib-bot)_
 -   [`84d7a1f`](https://github.com/stdlib-js/stdlib/commit/84d7a1f44c1127dfc9c22b7132d1166d1a96c64b) - **docs:** update namespace table of contents [(#11562)](https://github.com/stdlib-js/stdlib/pull/11562) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`1764738`](https://github.com/stdlib-js/stdlib/commit/17647387e691a8e7429f9248ece23fa6ce182cb5) - **feat:** add `gunitspace` to namespace _(by Athan Reines)_
 -   [`e66bcc9`](https://github.com/stdlib-js/stdlib/commit/e66bcc917ce5e6b1009d588d1762fed4e5bdb456) - **feat:** add `dcopy` to namespace _(by Athan Reines)_
