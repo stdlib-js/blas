@@ -100,6 +100,15 @@ setReadOnly( ns, 'gasum', require( './../../../base/ndarray/gasum' ) );
 setReadOnly( ns, 'gaxpy', require( './../../../base/ndarray/gaxpy' ) );
 
 /**
+* @name gcopy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/gcopy}
+*/
+setReadOnly( ns, 'gcopy', require( './../../../base/ndarray/gcopy' ) );
+
+/**
 * @name gdot
 * @memberof ns
 * @readonly
@@ -125,6 +134,15 @@ setReadOnly( ns, 'sasum', require( './../../../base/ndarray/sasum' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/saxpy}
 */
 setReadOnly( ns, 'saxpy', require( './../../../base/ndarray/saxpy' ) );
+
+/**
+* @name scopy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/scopy}
+*/
+setReadOnly( ns, 'scopy', require( './../../../base/ndarray/scopy' ) );
 
 /**
 * @name sdot
