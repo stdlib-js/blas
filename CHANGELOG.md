@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b713703`](https://github.com/stdlib-js/stdlib/commit/b713703c05f165a333938d8487f7bf456960a329) - add `blas/base/ndarray/gcopy` [(#11625)](https://github.com/stdlib-js/stdlib/pull/11625)
 -   [`93bd6c2`](https://github.com/stdlib-js/stdlib/commit/93bd6c2029c3eef6bf8fcb239a4ddd18d86d434d) - add `blas/base/ndarray/scopy` [(#11626)](https://github.com/stdlib-js/stdlib/pull/11626)
 -   [`19a6bb7`](https://github.com/stdlib-js/stdlib/commit/19a6bb776dbb08fe1f99c8346fabbd9ecb257786) - add `znancount` to namespace
 -   [`535ec3b`](https://github.com/stdlib-js/stdlib/commit/535ec3ba9e8bbc13d16592246b7f45b19e2d7bfa) - add `blas/ext/base/znancount` [(#11514)](https://github.com/stdlib-js/stdlib/pull/11514)
@@ -894,6 +895,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`b713703`](https://github.com/stdlib-js/stdlib/commit/b713703c05f165a333938d8487f7bf456960a329) - **feat:** add `blas/base/ndarray/gcopy` [(#11625)](https://github.com/stdlib-js/stdlib/pull/11625) _(by Kaustubh Patange, Athan Reines)_
 -   [`93bd6c2`](https://github.com/stdlib-js/stdlib/commit/93bd6c2029c3eef6bf8fcb239a4ddd18d86d434d) - **feat:** add `blas/base/ndarray/scopy` [(#11626)](https://github.com/stdlib-js/stdlib/pull/11626) _(by Kaustubh Patange, Athan Reines)_
 -   [`67cdf3c`](https://github.com/stdlib-js/stdlib/commit/67cdf3cc8be241859493c2da00974d595eef73cb) - **chore:** propagate recent doctest and lint fixes to sibling packages [(#11585)](https://github.com/stdlib-js/stdlib/pull/11585) _(by Philipp Burckhardt)_
 -   [`19a6bb7`](https://github.com/stdlib-js/stdlib/commit/19a6bb776dbb08fe1f99c8346fabbd9ecb257786) - **feat:** add `znancount` to namespace _(by Athan Reines)_
