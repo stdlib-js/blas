@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d33beca`](https://github.com/stdlib-js/stdlib/commit/d33beca3d3d8a769ccff4d569654dc37db66642f) - update `blas/base/ndarray` TypeScript declarations [(#11635)](https://github.com/stdlib-js/stdlib/pull/11635)
 -   [`f7b1332`](https://github.com/stdlib-js/stdlib/commit/f7b13321b3c1284ca942ddfbc152f96b4d415e64) - add `gcopy` and `scopy` to namespace
 -   [`b713703`](https://github.com/stdlib-js/stdlib/commit/b713703c05f165a333938d8487f7bf456960a329) - add `blas/base/ndarray/gcopy` [(#11625)](https://github.com/stdlib-js/stdlib/pull/11625)
 -   [`93bd6c2`](https://github.com/stdlib-js/stdlib/commit/93bd6c2029c3eef6bf8fcb239a4ddd18d86d434d) - add `blas/base/ndarray/scopy` [(#11626)](https://github.com/stdlib-js/stdlib/pull/11626)
@@ -896,6 +897,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`d33beca`](https://github.com/stdlib-js/stdlib/commit/d33beca3d3d8a769ccff4d569654dc37db66642f) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11635)](https://github.com/stdlib-js/stdlib/pull/11635) _(by stdlib-bot)_
 -   [`f7b1332`](https://github.com/stdlib-js/stdlib/commit/f7b13321b3c1284ca942ddfbc152f96b4d415e64) - **feat:** add `gcopy` and `scopy` to namespace _(by Athan Reines)_
 -   [`b713703`](https://github.com/stdlib-js/stdlib/commit/b713703c05f165a333938d8487f7bf456960a329) - **feat:** add `blas/base/ndarray/gcopy` [(#11625)](https://github.com/stdlib-js/stdlib/pull/11625) _(by Kaustubh Patange, Athan Reines)_
 -   [`93bd6c2`](https://github.com/stdlib-js/stdlib/commit/93bd6c2029c3eef6bf8fcb239a4ddd18d86d434d) - **feat:** add `blas/base/ndarray/scopy` [(#11626)](https://github.com/stdlib-js/stdlib/pull/11626) _(by Kaustubh Patange, Athan Reines)_
