@@ -208,6 +208,15 @@ setReadOnly( ns, 'dcusumors', require( './../../../ext/base/dcusumors' ) );
 setReadOnly( ns, 'dcusumpw', require( './../../../ext/base/dcusumpw' ) );
 
 /**
+* @name ddiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ddiff}
+*/
+setReadOnly( ns, 'ddiff', require( './../../../ext/base/ddiff' ) );
+
+/**
 * @name dfill
 * @memberof ns
 * @readonly
