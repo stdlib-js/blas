@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684)
 -   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683)
 -   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682)
 -   [`47177aa`](https://github.com/stdlib-js/stdlib/commit/47177aab565253e124bcd95faf021ee7e4c20f03) - add `blas/ext/base/sunitspace` [(#11681)](https://github.com/stdlib-js/stdlib/pull/11681)
@@ -900,6 +901,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - **feat:** add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684) _(by Kaustubh Patange, Athan Reines)_
 -   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - **feat:** add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683) _(by Kaustubh Patange, Athan Reines)_
 -   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - **feat:** add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682) _(by Muhammad Haris)_
 -   [`47177aa`](https://github.com/stdlib-js/stdlib/commit/47177aab565253e124bcd95faf021ee7e4c20f03) - **feat:** add `blas/ext/base/sunitspace` [(#11681)](https://github.com/stdlib-js/stdlib/pull/11681) _(by Muhammad Haris)_
