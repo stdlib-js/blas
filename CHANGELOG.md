@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-20)
+## Unreleased (2026-04-21)
 
 <section class="features">
 
 ### Features
 
+-   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682)
 -   [`47177aa`](https://github.com/stdlib-js/stdlib/commit/47177aab565253e124bcd95faf021ee7e4c20f03) - add `blas/ext/base/sunitspace` [(#11681)](https://github.com/stdlib-js/stdlib/pull/11681)
 -   [`d33beca`](https://github.com/stdlib-js/stdlib/commit/d33beca3d3d8a769ccff4d569654dc37db66642f) - update `blas/base/ndarray` TypeScript declarations [(#11635)](https://github.com/stdlib-js/stdlib/pull/11635)
 -   [`f7b1332`](https://github.com/stdlib-js/stdlib/commit/f7b13321b3c1284ca942ddfbc152f96b4d415e64) - add `gcopy` and `scopy` to namespace
@@ -898,6 +899,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - **feat:** add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682) _(by Muhammad Haris)_
 -   [`47177aa`](https://github.com/stdlib-js/stdlib/commit/47177aab565253e124bcd95faf021ee7e4c20f03) - **feat:** add `blas/ext/base/sunitspace` [(#11681)](https://github.com/stdlib-js/stdlib/pull/11681) _(by Muhammad Haris)_
 -   [`0f96d30`](https://github.com/stdlib-js/stdlib/commit/0f96d3092e11bed46e6cd83efd770c2d6fa77af1) - **docs:** update namespace table of contents [(#11637)](https://github.com/stdlib-js/stdlib/pull/11637) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`d33beca`](https://github.com/stdlib-js/stdlib/commit/d33beca3d3d8a769ccff4d569654dc37db66642f) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11635)](https://github.com/stdlib-js/stdlib/pull/11635) _(by stdlib-bot)_
