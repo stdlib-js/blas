@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b3e5d1b`](https://github.com/stdlib-js/stdlib/commit/b3e5d1b5ccfd6f4d1b41761911b5dfddcec034fb) - add `blas/base/cgemv` [(#10485)](https://github.com/stdlib-js/stdlib/pull/10485)
 -   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684)
 -   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683)
 -   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682)
@@ -901,6 +902,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`b3e5d1b`](https://github.com/stdlib-js/stdlib/commit/b3e5d1b5ccfd6f4d1b41761911b5dfddcec034fb) - **feat:** add `blas/base/cgemv` [(#10485)](https://github.com/stdlib-js/stdlib/pull/10485) _(by Divit Jain, Athan Reines)_
 -   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - **feat:** add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684) _(by Kaustubh Patange, Athan Reines)_
 -   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - **feat:** add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683) _(by Kaustubh Patange, Athan Reines)_
 -   [`02e7b9c`](https://github.com/stdlib-js/stdlib/commit/02e7b9c7fc5c4011cf3d2c491591a927f25d52d5) - **feat:** add `blas/ext/base/dunitspace` [(#11682)](https://github.com/stdlib-js/stdlib/pull/11682) _(by Muhammad Haris)_
