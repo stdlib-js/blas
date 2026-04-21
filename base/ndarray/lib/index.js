@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'caxpy', require( './../../../base/ndarray/caxpy' ) );
 
 /**
+* @name ccopy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/ccopy}
+*/
+setReadOnly( ns, 'ccopy', require( './../../../base/ndarray/ccopy' ) );
+
+/**
 * @name dasum
 * @memberof ns
 * @readonly
@@ -161,6 +170,15 @@ setReadOnly( ns, 'sdot', require( './../../../base/ndarray/sdot' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/zaxpy}
 */
 setReadOnly( ns, 'zaxpy', require( './../../../base/ndarray/zaxpy' ) );
+
+/**
+* @name zcopy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/zcopy}
+*/
+setReadOnly( ns, 'zcopy', require( './../../../base/ndarray/zcopy' ) );
 
 
 // EXPORTS //

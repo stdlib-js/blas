@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`521dbb8`](https://github.com/stdlib-js/stdlib/commit/521dbb8b8e93611123c8bcbd21498a0b6d30e6ba) - add `dunitspace` and `sunitspace` to namespace
+-   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - add `ccopy` and `zcopy` to namespace
+-   [`8fb4543`](https://github.com/stdlib-js/stdlib/commit/8fb454362a24376567c1d20ad12f1a11fd396617) - add `cgemv` to namespace
 -   [`b3e5d1b`](https://github.com/stdlib-js/stdlib/commit/b3e5d1b5ccfd6f4d1b41761911b5dfddcec034fb) - add `blas/base/cgemv` [(#10485)](https://github.com/stdlib-js/stdlib/pull/10485)
 -   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684)
 -   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683)
@@ -902,6 +905,9 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`521dbb8`](https://github.com/stdlib-js/stdlib/commit/521dbb8b8e93611123c8bcbd21498a0b6d30e6ba) - **feat:** add `dunitspace` and `sunitspace` to namespace _(by Athan Reines)_
+-   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - **feat:** add `ccopy` and `zcopy` to namespace _(by Athan Reines)_
+-   [`8fb4543`](https://github.com/stdlib-js/stdlib/commit/8fb454362a24376567c1d20ad12f1a11fd396617) - **feat:** add `cgemv` to namespace _(by Athan Reines)_
 -   [`b3e5d1b`](https://github.com/stdlib-js/stdlib/commit/b3e5d1b5ccfd6f4d1b41761911b5dfddcec034fb) - **feat:** add `blas/base/cgemv` [(#10485)](https://github.com/stdlib-js/stdlib/pull/10485) _(by Divit Jain, Athan Reines)_
 -   [`aabf7be`](https://github.com/stdlib-js/stdlib/commit/aabf7bed6dde7c1fce56a255d377bb3a456770d7) - **feat:** add `blas/base/ndarray/zcopy` [(#11684)](https://github.com/stdlib-js/stdlib/pull/11684) _(by Kaustubh Patange, Athan Reines)_
 -   [`73d09de`](https://github.com/stdlib-js/stdlib/commit/73d09de47a794870553c2642f461ddee63730bb5) - **feat:** add `blas/base/ndarray/ccopy` [(#11683)](https://github.com/stdlib-js/stdlib/pull/11683) _(by Kaustubh Patange, Athan Reines)_

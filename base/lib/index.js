@@ -64,6 +64,15 @@ setReadOnly( blas, 'caxpy', require( './../../base/caxpy' ) );
 setReadOnly( blas, 'ccopy', require( './../../base/ccopy' ) );
 
 /**
+* @name cgemv
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/cgemv}
+*/
+setReadOnly( blas, 'cgemv', require( './../../base/cgemv' ) );
+
+/**
 * @name cscal
 * @memberof blas
 * @readonly

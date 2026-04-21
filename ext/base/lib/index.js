@@ -622,6 +622,15 @@ setReadOnly( ns, 'dsumors', require( './../../../ext/base/dsumors' ) );
 setReadOnly( ns, 'dsumpw', require( './../../../ext/base/dsumpw' ) );
 
 /**
+* @name dunitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dunitspace}
+*/
+setReadOnly( ns, 'dunitspace', require( './../../../ext/base/dunitspace' ) );
+
+/**
 * @name dvander
 * @memberof ns
 * @readonly
@@ -1511,6 +1520,15 @@ setReadOnly( ns, 'ssumors', require( './../../../ext/base/ssumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/ssumpw}
 */
 setReadOnly( ns, 'ssumpw', require( './../../../ext/base/ssumpw' ) );
+
+/**
+* @name sunitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sunitspace}
+*/
+setReadOnly( ns, 'sunitspace', require( './../../../ext/base/sunitspace' ) );
 
 /**
 * @name svander
