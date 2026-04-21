@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a081627`](https://github.com/stdlib-js/stdlib/commit/a08162791c287674776de93e95a441c2de9e6498) - add `blas/ext/base/ddiff` [(#10376)](https://github.com/stdlib-js/stdlib/pull/10376)
 -   [`288292f`](https://github.com/stdlib-js/stdlib/commit/288292ff16379fec5a112801a547bc44b0ffb93e) - update `blas/base/ndarray` TypeScript declarations [(#11687)](https://github.com/stdlib-js/stdlib/pull/11687)
 -   [`521dbb8`](https://github.com/stdlib-js/stdlib/commit/521dbb8b8e93611123c8bcbd21498a0b6d30e6ba) - add `dunitspace` and `sunitspace` to namespace
 -   [`50c0046`](https://github.com/stdlib-js/stdlib/commit/50c00461c288a1fcdecaab5b6e67acb008f1b8a7) - add `ccopy` and `zcopy` to namespace
@@ -906,6 +907,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`a081627`](https://github.com/stdlib-js/stdlib/commit/a08162791c287674776de93e95a441c2de9e6498) - **feat:** add `blas/ext/base/ddiff` [(#10376)](https://github.com/stdlib-js/stdlib/pull/10376) _(by Muhammad Haris, Athan Reines)_
 -   [`0f62461`](https://github.com/stdlib-js/stdlib/commit/0f62461c976de87b8782e28eceaa89b7f42f89e2) - **docs:** update namespace table of contents [(#11688)](https://github.com/stdlib-js/stdlib/pull/11688) _(by stdlib-bot)_
 -   [`288292f`](https://github.com/stdlib-js/stdlib/commit/288292ff16379fec5a112801a547bc44b0ffb93e) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11687)](https://github.com/stdlib-js/stdlib/pull/11687) _(by stdlib-bot)_
 -   [`521dbb8`](https://github.com/stdlib-js/stdlib/commit/521dbb8b8e93611123c8bcbd21498a0b6d30e6ba) - **feat:** add `dunitspace` and `sunitspace` to namespace _(by Athan Reines)_
