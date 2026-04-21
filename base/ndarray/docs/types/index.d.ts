@@ -21,6 +21,7 @@
 /* eslint-disable max-lines */
 
 import caxpy = require( './../../../../base/ndarray/caxpy' );
+import ccopy = require( './../../../../base/ndarray/ccopy' );
 import dasum = require( './../../../../base/ndarray/dasum' );
 import daxpy = require( './../../../../base/ndarray/daxpy' );
 import dcopy = require( './../../../../base/ndarray/dcopy' );
@@ -34,6 +35,7 @@ import saxpy = require( './../../../../base/ndarray/saxpy' );
 import scopy = require( './../../../../base/ndarray/scopy' );
 import sdot = require( './../../../../base/ndarray/sdot' );
 import zaxpy = require( './../../../../base/ndarray/zaxpy' );
+import zcopy = require( './../../../../base/ndarray/zcopy' );
 
 /**
 * Interface describing the `ndarray` namespace.
@@ -66,6 +68,30 @@ interface Namespace {
 	* // returns true
 	*/
 	caxpy: typeof caxpy;
+
+	/**
+	* Copies values from a one-dimensional single-precision complex floating-point ndarray `x` into a one-dimensional single-precision complex floating-point ndarray `y`.
+	*
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var x = new ndarray( 'complex64', xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ybuf = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new ndarray( 'complex64', ybuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	*
+	* var z = ns.ccopy( [ x, y ] );
+	* // returns <ndarray>[ <Complex64>[ 1.0, 2.0 ], <Complex64>[ 3.0, 4.0 ], <Complex64>[ 5.0, 6.0 ] ]
+	*
+	* var bool = ( z === y );
+	* // returns true
+	*/
+	ccopy: typeof ccopy;
 
 	/**
 	* Computes the sum of absolute values for all elements in a one-dimensional double-precision floating-point ndarray.
@@ -360,6 +386,30 @@ interface Namespace {
 	* // returns true
 	*/
 	zaxpy: typeof zaxpy;
+
+	/**
+	* Copies values from a one-dimensional double-precision complex floating-point ndarray `x` into a one-dimensional double-precision complex floating-point ndarray `y`.
+	*
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var ndarray = require( '@stdlib/ndarray/base/ctor' );
+	*
+	* var xbuf = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var x = new ndarray( 'complex128', xbuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	*
+	* var ybuf = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new ndarray( 'complex128', ybuf, [ 3 ], [ 1 ], 0, 'row-major' );
+	*
+	* var z = ns.zcopy( [ x, y ] );
+	* // returns <ndarray>[ <Complex128>[ 1.0, 2.0 ], <Complex128>[ 3.0, 4.0 ], <Complex128>[ 5.0, 6.0 ] ]
+	*
+	* var bool = ( z === y );
+	* // returns true
+	*/
+	zcopy: typeof zcopy;
 }
 
 /**
