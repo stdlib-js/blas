@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711)
 -   [`bad4f4c`](https://github.com/stdlib-js/stdlib/commit/bad4f4cfbb59a6d12e985580defb647ff4861b6c) - add `blas/ext/base/cunitspace` [(#11708)](https://github.com/stdlib-js/stdlib/pull/11708)
 -   [`6f2e5f6`](https://github.com/stdlib-js/stdlib/commit/6f2e5f611e255de47b53b93c6c0e58786124be4b) - add `ddiff` to namespace
 -   [`a081627`](https://github.com/stdlib-js/stdlib/commit/a08162791c287674776de93e95a441c2de9e6498) - add `blas/ext/base/ddiff` [(#10376)](https://github.com/stdlib-js/stdlib/pull/10376)
@@ -909,6 +910,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - **feat:** update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711) _(by stdlib-bot)_
 -   [`11fe978`](https://github.com/stdlib-js/stdlib/commit/11fe9784619f60b1e31355e2ab06ad55ea90c312) - **chore:** minor clean-up [(#11694)](https://github.com/stdlib-js/stdlib/pull/11694) _(by Philipp Burckhardt, Athan Reines)_
 -   [`bad4f4c`](https://github.com/stdlib-js/stdlib/commit/bad4f4cfbb59a6d12e985580defb647ff4861b6c) - **feat:** add `blas/ext/base/cunitspace` [(#11708)](https://github.com/stdlib-js/stdlib/pull/11708) _(by Muhammad Haris)_
 -   [`c5b700a`](https://github.com/stdlib-js/stdlib/commit/c5b700a07866477389f3cfde0573c303956e8e03) - **bench:** refactor to use dynamic memory allocation in `blas/ext/base` [(#11695)](https://github.com/stdlib-js/stdlib/pull/11695) _(by Uday Kakade)_

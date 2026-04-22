@@ -23,6 +23,7 @@
 import assert = require( './../../../base/assert' );
 import caxpy = require( './../../../base/caxpy' );
 import ccopy = require( './../../../base/ccopy' );
+import cgemv = require( './../../../base/cgemv' );
 import cscal = require( './../../../base/cscal' );
 import csrot = require( './../../../base/csrot' );
 import csscal = require( './../../../base/csscal' );
@@ -199,6 +200,51 @@ interface Namespace {
 	* // y => <Complex64Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ]
 	*/
 	ccopy: typeof ccopy;
+
+	/**
+	* Performs one of the matrix-vector operations `y = α*A*x + β*y` or `y = α*A^T*x + β*y` or `y = α*A^H*x + β*y`, where `α` and `β` are scalars, `x` and `y` are vectors, and `A` is an `M` by `N` matrix.
+	*
+	* @param order - storage layout
+	* @param trans - specifies whether `A` should be transposed, conjugate-transposed, or not transposed
+	* @param M - number of rows in the matrix `A`
+	* @param N - number of columns in the matrix `A`
+	* @param alpha - scalar constant
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - first input vector
+	* @param strideX - `x` stride length
+	* @param beta - scalar constant
+	* @param y - second input vector
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var A = new Complex64Array( [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 5.0, 6.0, 6.0, 7.0, 7.0, 8.0, 8.0 ] );
+	* var x = new Complex64Array( [ 1.0, 1.0, 2.0, 2.0 ] );
+	* var y = new Complex64Array( [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0 ] );
+	* var alpha = new Complex64( 0.5, 0.5 );
+	* var beta = new Complex64( 0.5, -0.5 );
+	*
+	* ns.cgemv( 'column-major', 'no-transpose', 4, 2, alpha, A, 4, x, 1, beta, y, 1 );
+	* // y => <Complex64Array>[ -10.0, 11.0, -12.0, 14.0, -14.0, 17.0, -16.0, 20.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var A = new Complex64Array( [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0, 5.0, 5.0, 6.0, 6.0, 7.0, 7.0, 8.0, 8.0 ] );
+	* var x = new Complex64Array( [ 1.0, 1.0, 2.0, 2.0 ] );
+	* var y = new Complex64Array( [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0, 4.0, 4.0 ] );
+	* var alpha = new Complex64( 0.5, 0.5 );
+	* var beta = new Complex64( 0.5, -0.5 );
+	*
+	* ns.cgemv.ndarray( 'no-transpose', 4, 2, alpha, A, 1, 4, 0, x, 1, 0, beta, y, 1, 0 );
+	* // y => <Complex64Array>[ -10.0, 11.0, -12.0, 14.0, -14.0, 17.0, -16.0, 20.0 ]
+	*/
+	cgemv: typeof cgemv;
 
 	/**
 	* Scales a single-precision complex floating-point vector by a single-precision complex floating-point constant.
