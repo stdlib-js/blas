@@ -910,6 +910,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`9e425b0`](https://github.com/stdlib-js/stdlib/commit/9e425b0d518324df48c43e78327c6b01b6483d75) - **docs:** update namespace table of contents [(#11712)](https://github.com/stdlib-js/stdlib/pull/11712) _(by stdlib-bot)_
 -   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - **feat:** update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711) _(by stdlib-bot)_
 -   [`11fe978`](https://github.com/stdlib-js/stdlib/commit/11fe9784619f60b1e31355e2ab06ad55ea90c312) - **chore:** minor clean-up [(#11694)](https://github.com/stdlib-js/stdlib/pull/11694) _(by Philipp Burckhardt, Athan Reines)_
 -   [`bad4f4c`](https://github.com/stdlib-js/stdlib/commit/bad4f4cfbb59a6d12e985580defb647ff4861b6c) - **feat:** add `blas/ext/base/cunitspace` [(#11708)](https://github.com/stdlib-js/stdlib/pull/11708) _(by Muhammad Haris)_
