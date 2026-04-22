@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7c287ff`](https://github.com/stdlib-js/stdlib/commit/7c287ff7a9a2e2b4b3f07afd719a440f8e6bccf2) - add `blas/ext/base/sdiff` [(#10901)](https://github.com/stdlib-js/stdlib/pull/10901)
 -   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711)
 -   [`bad4f4c`](https://github.com/stdlib-js/stdlib/commit/bad4f4cfbb59a6d12e985580defb647ff4861b6c) - add `blas/ext/base/cunitspace` [(#11708)](https://github.com/stdlib-js/stdlib/pull/11708)
 -   [`6f2e5f6`](https://github.com/stdlib-js/stdlib/commit/6f2e5f611e255de47b53b93c6c0e58786124be4b) - add `ddiff` to namespace
@@ -910,6 +911,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`7c287ff`](https://github.com/stdlib-js/stdlib/commit/7c287ff7a9a2e2b4b3f07afd719a440f8e6bccf2) - **feat:** add `blas/ext/base/sdiff` [(#10901)](https://github.com/stdlib-js/stdlib/pull/10901) _(by Muhammad Haris)_
 -   [`9e425b0`](https://github.com/stdlib-js/stdlib/commit/9e425b0d518324df48c43e78327c6b01b6483d75) - **docs:** update namespace table of contents [(#11712)](https://github.com/stdlib-js/stdlib/pull/11712) _(by stdlib-bot)_
 -   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - **feat:** update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711) _(by stdlib-bot)_
 -   [`11fe978`](https://github.com/stdlib-js/stdlib/commit/11fe9784619f60b1e31355e2ab06ad55ea90c312) - **chore:** minor clean-up [(#11694)](https://github.com/stdlib-js/stdlib/pull/11694) _(by Philipp Burckhardt, Athan Reines)_
