@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`5d7de9d`](https://github.com/stdlib-js/stdlib/commit/5d7de9dc58abb2a9b049a17b87f988d9d52ed56e) - add `cunitspace` to namespace
+-   [`ae4bc4f`](https://github.com/stdlib-js/stdlib/commit/ae4bc4f7d737d97ac8e404e86402a41baa851952) - add `zunitspace` to namespace
+-   [`d3bdd8a`](https://github.com/stdlib-js/stdlib/commit/d3bdd8a67196c7dc8c03410bdf39718002b6223f) - add `sdiff` to namespace
 -   [`84f5112`](https://github.com/stdlib-js/stdlib/commit/84f5112f3421879e142a220cd8d6853c2f00fd3d) - add `blas/ext/base/zunitspace` [(#11709)](https://github.com/stdlib-js/stdlib/pull/11709)
 -   [`7c287ff`](https://github.com/stdlib-js/stdlib/commit/7c287ff7a9a2e2b4b3f07afd719a440f8e6bccf2) - add `blas/ext/base/sdiff` [(#10901)](https://github.com/stdlib-js/stdlib/pull/10901)
 -   [`e764597`](https://github.com/stdlib-js/stdlib/commit/e76459793b63f8dcd9850db3f9b83b338b5fbcee) - update `blas/base` TypeScript declarations [(#11711)](https://github.com/stdlib-js/stdlib/pull/11711)
@@ -912,6 +915,9 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`5d7de9d`](https://github.com/stdlib-js/stdlib/commit/5d7de9dc58abb2a9b049a17b87f988d9d52ed56e) - **feat:** add `cunitspace` to namespace _(by Athan Reines)_
+-   [`ae4bc4f`](https://github.com/stdlib-js/stdlib/commit/ae4bc4f7d737d97ac8e404e86402a41baa851952) - **feat:** add `zunitspace` to namespace _(by Athan Reines)_
+-   [`d3bdd8a`](https://github.com/stdlib-js/stdlib/commit/d3bdd8a67196c7dc8c03410bdf39718002b6223f) - **feat:** add `sdiff` to namespace _(by Athan Reines)_
 -   [`84f5112`](https://github.com/stdlib-js/stdlib/commit/84f5112f3421879e142a220cd8d6853c2f00fd3d) - **feat:** add `blas/ext/base/zunitspace` [(#11709)](https://github.com/stdlib-js/stdlib/pull/11709) _(by Muhammad Haris)_
 -   [`7c287ff`](https://github.com/stdlib-js/stdlib/commit/7c287ff7a9a2e2b4b3f07afd719a440f8e6bccf2) - **feat:** add `blas/ext/base/sdiff` [(#10901)](https://github.com/stdlib-js/stdlib/pull/10901) _(by Muhammad Haris)_
 -   [`9e425b0`](https://github.com/stdlib-js/stdlib/commit/9e425b0d518324df48c43e78327c6b01b6483d75) - **docs:** update namespace table of contents [(#11712)](https://github.com/stdlib-js/stdlib/pull/11712) _(by stdlib-bot)_
