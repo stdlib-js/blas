@@ -91,6 +91,15 @@ setReadOnly( ns, 'dcopy', require( './../../../base/ndarray/dcopy' ) );
 setReadOnly( ns, 'ddot', require( './../../../base/ndarray/ddot' ) );
 
 /**
+* @name dswap
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dswap}
+*/
+setReadOnly( ns, 'dswap', require( './../../../base/ndarray/dswap' ) );
+
+/**
 * @name gasum
 * @memberof ns
 * @readonly
