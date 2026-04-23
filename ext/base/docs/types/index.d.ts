@@ -25,6 +25,7 @@ import cindexOfRow = require( './../../../../ext/base/cindex-of-row' );
 import coneTo = require( './../../../../ext/base/cone-to' );
 import csum = require( './../../../../ext/base/csum' );
 import csumkbn = require( './../../../../ext/base/csumkbn' );
+import cunitspace = require( './../../../../ext/base/cunitspace' );
 import czeroTo = require( './../../../../ext/base/czero-to' );
 import dapx = require( './../../../../ext/base/dapx' );
 import dapxsum = require( './../../../../ext/base/dapxsum' );
@@ -39,6 +40,7 @@ import dcusumkbn = require( './../../../../ext/base/dcusumkbn' );
 import dcusumkbn2 = require( './../../../../ext/base/dcusumkbn2' );
 import dcusumors = require( './../../../../ext/base/dcusumors' );
 import dcusumpw = require( './../../../../ext/base/dcusumpw' );
+import ddiff = require( './../../../../ext/base/ddiff' );
 import dfill = require( './../../../../ext/base/dfill' );
 import dindexOf = require( './../../../../ext/base/dindex-of' );
 import dindexOfRow = require( './../../../../ext/base/dindex-of-row' );
@@ -46,6 +48,7 @@ import dlastIndexOf = require( './../../../../ext/base/dlast-index-of' );
 import dlinspace = require( './../../../../ext/base/dlinspace' );
 import dnanasum = require( './../../../../ext/base/dnanasum' );
 import dnanasumors = require( './../../../../ext/base/dnanasumors' );
+import dnancount = require( './../../../../ext/base/dnancount' );
 import dnancusumkbn = require( './../../../../ext/base/dnancusumkbn' );
 import dnannsum = require( './../../../../ext/base/dnannsum' );
 import dnannsumkbn = require( './../../../../ext/base/dnannsumkbn' );
@@ -84,6 +87,8 @@ import dsumkbn = require( './../../../../ext/base/dsumkbn' );
 import dsumkbn2 = require( './../../../../ext/base/dsumkbn2' );
 import dsumors = require( './../../../../ext/base/dsumors' );
 import dsumpw = require( './../../../../ext/base/dsumpw' );
+import dunitspace = require( './../../../../ext/base/dunitspace' );
+import dvander = require( './../../../../ext/base/dvander' );
 import dzeroTo = require( './../../../../ext/base/dzero-to' );
 import gapx = require( './../../../../ext/base/gapx' );
 import gapxsum = require( './../../../../ext/base/gapxsum' );
@@ -110,6 +115,7 @@ import gjoin = require( './../../../../ext/base/gjoin' );
 import gjoinBetween = require( './../../../../ext/base/gjoin-between' );
 import glastIndexOf = require( './../../../../ext/base/glast-index-of' );
 import glinspace = require( './../../../../ext/base/glinspace' );
+import gnancount = require( './../../../../ext/base/gnancount' );
 import gnannsumkbn = require( './../../../../ext/base/gnannsumkbn' );
 import gnannsumpw = require( './../../../../ext/base/gnannsumpw' );
 import gnansum = require( './../../../../ext/base/gnansum' );
@@ -132,7 +138,9 @@ import gsumkbn = require( './../../../../ext/base/gsumkbn' );
 import gsumkbn2 = require( './../../../../ext/base/gsumkbn2' );
 import gsumors = require( './../../../../ext/base/gsumors' );
 import gsumpw = require( './../../../../ext/base/gsumpw' );
+import gunitspace = require( './../../../../ext/base/gunitspace' );
 import gvander = require( './../../../../ext/base/gvander' );
+import gwhere = require( './../../../../ext/base/gwhere' );
 import gzeroTo = require( './../../../../ext/base/gzero-to' );
 import ndarray = require( './../../../../ext/base/ndarray' );
 import sapx = require( './../../../../ext/base/sapx' );
@@ -148,6 +156,7 @@ import scusumkbn = require( './../../../../ext/base/scusumkbn' );
 import scusumkbn2 = require( './../../../../ext/base/scusumkbn2' );
 import scusumors = require( './../../../../ext/base/scusumors' );
 import scusumpw = require( './../../../../ext/base/scusumpw' );
+import sdiff = require( './../../../../ext/base/sdiff' );
 import sdsapxsum = require( './../../../../ext/base/sdsapxsum' );
 import sdsapxsumpw = require( './../../../../ext/base/sdsapxsumpw' );
 import sdsnansum = require( './../../../../ext/base/sdsnansum' );
@@ -159,6 +168,7 @@ import sindexOf = require( './../../../../ext/base/sindex-of' );
 import sindexOfRow = require( './../../../../ext/base/sindex-of-row' );
 import slastIndexOf = require( './../../../../ext/base/slast-index-of' );
 import slinspace = require( './../../../../ext/base/slinspace' );
+import snancount = require( './../../../../ext/base/snancount' );
 import snansum = require( './../../../../ext/base/snansum' );
 import snansumkbn = require( './../../../../ext/base/snansumkbn' );
 import snansumkbn2 = require( './../../../../ext/base/snansumkbn2' );
@@ -166,6 +176,7 @@ import snansumors = require( './../../../../ext/base/snansumors' );
 import snansumpw = require( './../../../../ext/base/snansumpw' );
 import soneTo = require( './../../../../ext/base/sone-to' );
 import srev = require( './../../../../ext/base/srev' );
+import ssort = require( './../../../../ext/base/ssort' );
 import ssort2hp = require( './../../../../ext/base/ssort2hp' );
 import ssort2ins = require( './../../../../ext/base/ssort2ins' );
 import ssort2sh = require( './../../../../ext/base/ssort2sh' );
@@ -177,13 +188,17 @@ import ssumkbn = require( './../../../../ext/base/ssumkbn' );
 import ssumkbn2 = require( './../../../../ext/base/ssumkbn2' );
 import ssumors = require( './../../../../ext/base/ssumors' );
 import ssumpw = require( './../../../../ext/base/ssumpw' );
+import sunitspace = require( './../../../../ext/base/sunitspace' );
+import svander = require( './../../../../ext/base/svander' );
 import szeroTo = require( './../../../../ext/base/szero-to' );
 import wasm = require( './../../../../ext/base/wasm' );
 import zfill = require( './../../../../ext/base/zfill' );
 import zindexOfRow = require( './../../../../ext/base/zindex-of-row' );
+import znancount = require( './../../../../ext/base/znancount' );
 import zoneTo = require( './../../../../ext/base/zone-to' );
 import zsum = require( './../../../../ext/base/zsum' );
 import zsumkbn = require( './../../../../ext/base/zsumkbn' );
+import zunitspace = require( './../../../../ext/base/zunitspace' );
 import zzeroTo = require( './../../../../ext/base/zzero-to' );
 
 /**
@@ -343,6 +358,35 @@ interface Namespace {
 	* // returns <Complex64>[ 3.0, 1.0 ]
 	*/
 	csumkbn: typeof csumkbn;
+
+	/**
+	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cunitspace( x.length, new Complex64( 3.0, 0.0 ), x, 1 );
+	* // x => <Complex64Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cunitspace.ndarray( x.length, new Complex64( 3.0, 0.0 ), x, 1, 0 );
+	* // x => <Complex64Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*/
+	cunitspace: typeof cunitspace;
 
 	/**
 	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
@@ -741,6 +785,60 @@ interface Namespace {
 	dcusumpw: typeof dcusumpw;
 
 	/**
+	* Calculates the k-th discrete forward difference of a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 5 );
+	* var w = new Float64Array( 6 );
+	*
+	* ns.ddiff( x.length, 2, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	*
+	* console.log( out );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 5 );
+	* var w = new Float64Array( 6 );
+	*
+	* ns.ddiff.ndarray( x.length, 2, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	*
+	* console.log( out );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	ddiff: typeof ddiff;
+
+	/**
 	* Fills a double-precision floating-point strided array with a specified scalar value.
 	*
 	* @param N - number of indexed elements
@@ -968,6 +1066,32 @@ interface Namespace {
 	* // returns 5.0
 	*/
 	dnanasumors: typeof dnanasumors;
+
+	/**
+	* Computes the number of non-`NaN` elements in a double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns number of non-`NaN` elements
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnancount( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnancount.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	dnancount: typeof dnancount;
 
 	/**
 	* Computes the cumulative sum of double-precision floating-point strided array elements ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
@@ -2056,6 +2180,66 @@ interface Namespace {
 	dsumpw: typeof dsumpw;
 
 	/**
+	* Fills a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dunitspace( x.length, 3.0, x, 1 );
+	* // x => <Float64Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dunitspace.ndarray( x.length, 3.0, x, 1, 0 );
+	* // x => <Float64Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*/
+	dunitspace: typeof dunitspace;
+
+	/**
+	* Generates a double-precision floating-point Vandermonde matrix.
+	*
+	* @param order - storage layout
+	* @param mode - mode indicating whether to generate increasing or decreasing powers
+	* @param M - number of rows in `out`
+	* @param N - number of columns in `out`
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output matrix
+	* @param ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
+	* @returns output matrix
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float64Array( 9 );
+	*
+	* ns.dvander( 'row-major', -1, 3, 3, x, 1, out, 3 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float64Array( 9 );
+	*
+	* ns.dvander.ndarray( -1, 3, 3, x, 1, 0, out, 3, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*/
+	dvander: typeof dvander;
+
+	/**
 	* Fills a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
 	*
 	* @param N - number of indexed elements
@@ -2784,6 +2968,28 @@ interface Namespace {
 	glinspace: typeof glinspace;
 
 	/**
+	* Computes the number of non-`NaN` elements in a strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns count
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnancount( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnancount.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	gnancount: typeof gnancount;
+
+	/**
 	* Computes the sum of strided array elements, ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
 	*
 	* @param N - number of indexed elements
@@ -3330,6 +3536,29 @@ interface Namespace {
 	gsumpw: typeof gsumpw;
 
 	/**
+	* Fills a strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gunitspace( x.length, 3.0, x, 1 );
+	* // x => [ 3.0, 4.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gunitspace.ndarray( x.length, 3.0, x, 1, 0 );
+	* // x => [ 3.0, 4.0, 5.0, 6.0 ]
+	*/
+	gunitspace: typeof gunitspace;
+
+	/**
 	* Generates a Vandermonde matrix.
 	*
 	* @param order - storage layout
@@ -3357,6 +3586,40 @@ interface Namespace {
 	* // out => [ 1.0, 1.0, 1.0, 1.0, 2.0, 4.0, 1.0, 3.0, 9.0 ]
 	*/
 	gvander: typeof gvander;
+
+	/**
+	* Takes elements from one of two strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var condition = [ 1, 0, 1 ];
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var y = [ 4.0, 5.0, 6.0 ];
+	* var out = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => [ 1.0, 5.0, 3.0 ]
+	*
+	* @example
+	* var condition = [ 1, 0, 1 ];
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var y = [ 4.0, 5.0, 6.0 ];
+	* var out = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => [ 1.0, 5.0, 3.0 ]
+	*/
+	gwhere: typeof gwhere;
 
 	/**
 	* Fills a strided array with linearly spaced numeric elements which increment by `1` starting from zero.
@@ -3756,6 +4019,60 @@ interface Namespace {
 	scusumpw: typeof scusumpw;
 
 	/**
+	* Calculates the k-th discrete forward difference of a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 5 );
+	* var w = new Float32Array( 6 );
+	*
+	* ns.sdiff( x.length, 2, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	*
+	* console.log( out );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 5 );
+	* var w = new Float32Array( 6 );
+	*
+	* ns.sdiff.ndarray( x.length, 2, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	*
+	* console.log( out );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	sdiff: typeof sdiff;
+
+	/**
 	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum using extended accumulation.
 	*
 	* @param N - number of indexed elements
@@ -4091,6 +4408,32 @@ interface Namespace {
 	slinspace: typeof slinspace;
 
 	/**
+	* Computes the number of non-`NaN` elements in a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns number of non-`NaN` elements
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snancount( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snancount.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	snancount: typeof snancount;
+
+	/**
 	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values.
 	*
 	* @param N - number of indexed elements
@@ -4271,6 +4614,33 @@ interface Namespace {
 	* // x => <Float32Array>[ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
 	*/
 	srev: typeof srev;
+
+	/**
+	* Sorts a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssort( x.length, 1.0, x, 1 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssort.ndarray( x.length, 1.0, x, 1, 0 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	ssort: typeof ssort;
 
 	/**
 	* Simultaneously sorts two single-precision floating-point strided arrays based on the sort order of the first array using heapsort.
@@ -4607,6 +4977,66 @@ interface Namespace {
 	ssumpw: typeof ssumpw;
 
 	/**
+	* Fills a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.sunitspace( x.length, 3.0, x, 1 );
+	* // x => <Float32Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.sunitspace.ndarray( x.length, 3.0, x, 1, 0 );
+	* // x => <Float32Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*/
+	sunitspace: typeof sunitspace;
+
+	/**
+	* Generates a single-precision floating-point Vandermonde matrix.
+	*
+	* @param order - storage layout
+	* @param mode - mode indicating whether to generate increasing or decreasing powers
+	* @param M - number of rows in `out`
+	* @param N - number of columns in `out`
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output matrix
+	* @param ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
+	* @returns output matrix
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float32Array( 9 );
+	*
+	* ns.svander( 'row-major', -1, 3, 3, x, 1, out, 3 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float32Array( 9 );
+	*
+	* ns.svander.ndarray( -1, 3, 3, x, 1, 0, out, 3, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*/
+	svander: typeof svander;
+
+	/**
 	* Fills a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
 	*
 	* @param N - number of indexed elements
@@ -4707,6 +5137,32 @@ interface Namespace {
 	zindexOfRow: typeof zindexOfRow;
 
 	/**
+	* Computes the number of non-`NaN` elements in a double-precision complex floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns number of non-`NaN` elements
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, NaN, NaN, 3.0, 4.0 ] );
+	*
+	* var v = ns.znancount( 3, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, NaN, NaN, 3.0, 4.0 ] );
+	*
+	* var v = ns.znancount.ndarray( 3, x, 1, 0 );
+	* // returns 2
+	*/
+	znancount: typeof znancount;
+
+	/**
 	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from one.
 	*
 	* @param N - number of indexed elements
@@ -4783,6 +5239,35 @@ interface Namespace {
 	* // returns <Complex128>[ 3.0, 1.0 ]
 	*/
 	zsumkbn: typeof zsumkbn;
+
+	/**
+	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zunitspace( x.length, new Complex128( 3.0, 0.0 ), x, 1 );
+	* // x => <Complex128Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zunitspace.ndarray( x.length, new Complex128( 3.0, 0.0 ), x, 1, 0 );
+	* // x => <Complex128Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*/
+	zunitspace: typeof zunitspace;
 
 	/**
 	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.

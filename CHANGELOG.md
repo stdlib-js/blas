@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-22)
+## Unreleased (2026-04-23)
 
 <section class="features">
 
 ### Features
 
+-   [`538ced0`](https://github.com/stdlib-js/stdlib/commit/538ced061007046094f1786c6d3fda9a113130b3) - update `blas/ext/base` TypeScript declarations [(#11737)](https://github.com/stdlib-js/stdlib/pull/11737)
 -   [`5d7de9d`](https://github.com/stdlib-js/stdlib/commit/5d7de9dc58abb2a9b049a17b87f988d9d52ed56e) - add `cunitspace` to namespace
 -   [`ae4bc4f`](https://github.com/stdlib-js/stdlib/commit/ae4bc4f7d737d97ac8e404e86402a41baa851952) - add `zunitspace` to namespace
 -   [`d3bdd8a`](https://github.com/stdlib-js/stdlib/commit/d3bdd8a67196c7dc8c03410bdf39718002b6223f) - add `sdiff` to namespace
@@ -915,6 +916,9 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`4e221de`](https://github.com/stdlib-js/stdlib/commit/4e221de394e933182e6b487be8a35737a33a4994) - **docs:** remove extra empty lines [(#11735)](https://github.com/stdlib-js/stdlib/pull/11735) _(by stdlib-bot)_
+-   [`973f832`](https://github.com/stdlib-js/stdlib/commit/973f8327ee125d0f34d1d168be7511346216f189) - **docs:** update namespace table of contents [(#11738)](https://github.com/stdlib-js/stdlib/pull/11738) _(by stdlib-bot)_
+-   [`538ced0`](https://github.com/stdlib-js/stdlib/commit/538ced061007046094f1786c6d3fda9a113130b3) - **feat:** update `blas/ext/base` TypeScript declarations [(#11737)](https://github.com/stdlib-js/stdlib/pull/11737) _(by stdlib-bot)_
 -   [`5d7de9d`](https://github.com/stdlib-js/stdlib/commit/5d7de9dc58abb2a9b049a17b87f988d9d52ed56e) - **feat:** add `cunitspace` to namespace _(by Athan Reines)_
 -   [`ae4bc4f`](https://github.com/stdlib-js/stdlib/commit/ae4bc4f7d737d97ac8e404e86402a41baa851952) - **feat:** add `zunitspace` to namespace _(by Athan Reines)_
 -   [`d3bdd8a`](https://github.com/stdlib-js/stdlib/commit/d3bdd8a67196c7dc8c03410bdf39718002b6223f) - **feat:** add `sdiff` to namespace _(by Athan Reines)_
