@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`68ef817`](https://github.com/stdlib-js/stdlib/commit/68ef81746517bdba3d02ea39e564034a9d999194) - add `blas/base/ndarray/dswap` [(#11715)](https://github.com/stdlib-js/stdlib/pull/11715)
 -   [`538ced0`](https://github.com/stdlib-js/stdlib/commit/538ced061007046094f1786c6d3fda9a113130b3) - update `blas/ext/base` TypeScript declarations [(#11737)](https://github.com/stdlib-js/stdlib/pull/11737)
 -   [`5d7de9d`](https://github.com/stdlib-js/stdlib/commit/5d7de9dc58abb2a9b049a17b87f988d9d52ed56e) - add `cunitspace` to namespace
 -   [`ae4bc4f`](https://github.com/stdlib-js/stdlib/commit/ae4bc4f7d737d97ac8e404e86402a41baa851952) - add `zunitspace` to namespace
@@ -916,6 +917,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`68ef817`](https://github.com/stdlib-js/stdlib/commit/68ef81746517bdba3d02ea39e564034a9d999194) - **feat:** add `blas/base/ndarray/dswap` [(#11715)](https://github.com/stdlib-js/stdlib/pull/11715) _(by Kaustubh Patange)_
 -   [`40db61d`](https://github.com/stdlib-js/stdlib/commit/40db61db7ca352e3a55a699a010d984fc05f6144) - **chore:** follow-up fixes [(#11721)](https://github.com/stdlib-js/stdlib/pull/11721) _(by Philipp Burckhardt)_
 -   [`20303f7`](https://github.com/stdlib-js/stdlib/commit/20303f76bbd7bb77a4d612c86632f2f876a99110) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`e2618f8`](https://github.com/stdlib-js/stdlib/commit/e2618f884bbcbbb72692813c76971c92b34c908c) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
