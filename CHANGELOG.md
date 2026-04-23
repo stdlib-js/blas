@@ -916,7 +916,29 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`20303f7`](https://github.com/stdlib-js/stdlib/commit/20303f76bbd7bb77a4d612c86632f2f876a99110) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`e2618f8`](https://github.com/stdlib-js/stdlib/commit/e2618f884bbcbbb72692813c76971c92b34c908c) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`c3572a5`](https://github.com/stdlib-js/stdlib/commit/c3572a5816b22013703e3014c88d2eab4a52f8c3) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`2e59e9b`](https://github.com/stdlib-js/stdlib/commit/2e59e9b50235f2996b131a892f5eedd3c3fd3528) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`7d4ea22`](https://github.com/stdlib-js/stdlib/commit/7d4ea22d0d3c16fe531d537a9989ec27acd8978b) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`df7655b`](https://github.com/stdlib-js/stdlib/commit/df7655bacb00c52977be66799abbd482ac472502) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`658b47f`](https://github.com/stdlib-js/stdlib/commit/658b47ff91c18a7f224b7e38292cc425c26c481f) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`8d67903`](https://github.com/stdlib-js/stdlib/commit/8d67903715f03fb1f7c38fb998d08cbfbceec9e3) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`0779fd4`](https://github.com/stdlib-js/stdlib/commit/0779fd40d190cee898a170518996788f07d1e755) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`49da1c2`](https://github.com/stdlib-js/stdlib/commit/49da1c22aac2c26d5a9dad732b2689e575f6d5b8) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`feff743`](https://github.com/stdlib-js/stdlib/commit/feff743017eddc40e1a4e0f4b9ea1a34807b75ca) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`c08bad2`](https://github.com/stdlib-js/stdlib/commit/c08bad2df031a450754d936aa7c10c88f98cc331) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`a130f47`](https://github.com/stdlib-js/stdlib/commit/a130f47df3b27b9412267db960ba60352807d18c) - **bench:** use top-level API _(by Athan Reines)_
+-   [`d960478`](https://github.com/stdlib-js/stdlib/commit/d96047882f797b2e57ed5fb56b8f44127b3c1fc1) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`293cf5b`](https://github.com/stdlib-js/stdlib/commit/293cf5bf842d9a22879e78e2348fda5a40f892dd) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`fce0c34`](https://github.com/stdlib-js/stdlib/commit/fce0c34bb44389b762c7a6d5183b2f8017db78ac) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
+-   [`f550ac9`](https://github.com/stdlib-js/stdlib/commit/f550ac9103bc93eaec89164fc7c5c2e916ae221c) - **docs:** update list _(by Athan Reines)_
+-   [`f1813da`](https://github.com/stdlib-js/stdlib/commit/f1813dabd21da054ff60d0b76c758c5c28ea0dfc) - **chore:** propagate recent fixes to sibling packages [(#11723)](https://github.com/stdlib-js/stdlib/pull/11723) _(by Philipp Burckhardt)_
+-   [`4e221de`](https://github.com/stdlib-js/stdlib/commit/4e221de394e933182e6b487be8a35737a33a4994) - **docs:** remove extra empty lines [(#11735)](https://github.com/stdlib-js/stdlib/pull/11735) _(by stdlib-bot)_
+-   [`973f832`](https://github.com/stdlib-js/stdlib/commit/973f8327ee125d0f34d1d168be7511346216f189) - **docs:** update namespace table of contents [(#11738)](https://github.com/stdlib-js/stdlib/pull/11738) _(by stdlib-bot)_
 -   [`538ced0`](https://github.com/stdlib-js/stdlib/commit/538ced061007046094f1786c6d3fda9a113130b3) - **feat:** update `blas/ext/base` TypeScript declarations [(#11737)](https://github.com/stdlib-js/stdlib/pull/11737) _(by stdlib-bot)_
+-   [`a51e9f1`](https://github.com/stdlib-js/stdlib/commit/a51e9f13e99edd632e5f87ef186993e20504f4fd) - **docs:** remove import statement _(by Athan Reines)_
+-   [`1f18356`](https://github.com/stdlib-js/stdlib/commit/1f1835608fc2bc213687e46be730a8a50d1539e3) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
 -   [`5d7de9d`](https://github.com/stdlib-js/stdlib/commit/5d7de9dc58abb2a9b049a17b87f988d9d52ed56e) - **feat:** add `cunitspace` to namespace _(by Athan Reines)_
 -   [`ae4bc4f`](https://github.com/stdlib-js/stdlib/commit/ae4bc4f7d737d97ac8e404e86402a41baa851952) - **feat:** add `zunitspace` to namespace _(by Athan Reines)_
 -   [`d3bdd8a`](https://github.com/stdlib-js/stdlib/commit/d3bdd8a67196c7dc8c03410bdf39718002b6223f) - **feat:** add `sdiff` to namespace _(by Athan Reines)_
