@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-23)
+## Unreleased (2026-04-24)
 
 <section class="features">
 
@@ -918,6 +918,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`9b264bc`](https://github.com/stdlib-js/stdlib/commit/9b264bc6232e511b08d2b5e4ae79216803d46ffd) - **docs:** update namespace table of contents [(#11754)](https://github.com/stdlib-js/stdlib/pull/11754) _(by stdlib-bot)_
 -   [`57e6e8b`](https://github.com/stdlib-js/stdlib/commit/57e6e8b95cbf57aa054c836f3b6f46c8892b8d44) - **chore:** propagate `blas/base/ndarray/*` modernization fixes to sibling packages [(#11742)](https://github.com/stdlib-js/stdlib/pull/11742) _(by Philipp Burckhardt)_
 -   [`9188369`](https://github.com/stdlib-js/stdlib/commit/918836933ae30e70806a221774aa67a46ddab166) - **feat:** add `dswap` to namespace _(by Athan Reines)_
 -   [`68ef817`](https://github.com/stdlib-js/stdlib/commit/68ef81746517bdba3d02ea39e564034a9d999194) - **feat:** add `blas/base/ndarray/dswap` [(#11715)](https://github.com/stdlib-js/stdlib/pull/11715) _(by Kaustubh Patange)_
