@@ -154,6 +154,15 @@ setReadOnly( ns, 'sorthp', require( './../../ext/sorthp' ) );
 setReadOnly( ns, 'sum', require( './../../ext/sum' ) );
 
 /**
+* @name toSorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/to-sorted}
+*/
+setReadOnly( ns, 'toSorted', require( './../../ext/to-sorted' ) );
+
+/**
 * @name toSortedhp
 * @memberof ns
 * @readonly
