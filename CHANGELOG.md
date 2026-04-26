@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bd4ba4e`](https://github.com/stdlib-js/stdlib/commit/bd4ba4ebe0b3793118ab3a6313f76422c2b38cd1) - add `blas/ext/base/gdiff` [(#10903)](https://github.com/stdlib-js/stdlib/pull/10903)
 -   [`a023392`](https://github.com/stdlib-js/stdlib/commit/a02339241efe9c852f08fb5b13fced915c02ad4d) - add `blas/ext/base/dcartesian-square` [(#10797)](https://github.com/stdlib-js/stdlib/pull/10797)
 -   [`013a23b`](https://github.com/stdlib-js/stdlib/commit/013a23bc7b0889a4bd171a7f51bce5d1217e45f4) - add `swhere` to namespace
 -   [`28917cf`](https://github.com/stdlib-js/stdlib/commit/28917cf0c4386cb3c16c5bec7fbb3ac7ae9ffe54) - add `blas/ext/base/swhere` [(#11582)](https://github.com/stdlib-js/stdlib/pull/11582)
@@ -931,6 +932,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`bd4ba4e`](https://github.com/stdlib-js/stdlib/commit/bd4ba4ebe0b3793118ab3a6313f76422c2b38cd1) - **feat:** add `blas/ext/base/gdiff` [(#10903)](https://github.com/stdlib-js/stdlib/pull/10903) _(by Muhammad Haris, Athan Reines)_
 -   [`a023392`](https://github.com/stdlib-js/stdlib/commit/a02339241efe9c852f08fb5b13fced915c02ad4d) - **feat:** add `blas/ext/base/dcartesian-square` [(#10797)](https://github.com/stdlib-js/stdlib/pull/10797) _(by Muhammad Haris, Athan Reines)_
 -   [`32f6869`](https://github.com/stdlib-js/stdlib/commit/32f6869a2e39b376329470a79eedeaa4388e8ac9) - **docs:** fix missing type _(by Athan Reines)_
 -   [`013a23b`](https://github.com/stdlib-js/stdlib/commit/013a23bc7b0889a4bd171a7f51bce5d1217e45f4) - **feat:** add `swhere` to namespace _(by Athan Reines)_
