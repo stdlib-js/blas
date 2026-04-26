@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`013a23b`](https://github.com/stdlib-js/stdlib/commit/013a23bc7b0889a4bd171a7f51bce5d1217e45f4) - add `swhere` to namespace
 -   [`28917cf`](https://github.com/stdlib-js/stdlib/commit/28917cf0c4386cb3c16c5bec7fbb3ac7ae9ffe54) - add `blas/ext/base/swhere` [(#11582)](https://github.com/stdlib-js/stdlib/pull/11582)
 -   [`8d3c814`](https://github.com/stdlib-js/stdlib/commit/8d3c814b1afa9c348ffb0180d74bd4da5e3a5eb2) - add `*unitspace` symbols to namespace
 -   [`cfc58ab`](https://github.com/stdlib-js/stdlib/commit/cfc58ab9bb051fe400e496981598c0bbfc0da30e) - add `blas/ext/base/ndarray/zunitspace` [(#11730)](https://github.com/stdlib-js/stdlib/pull/11730)
@@ -929,6 +930,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`013a23b`](https://github.com/stdlib-js/stdlib/commit/013a23bc7b0889a4bd171a7f51bce5d1217e45f4) - **feat:** add `swhere` to namespace _(by Athan Reines)_
 -   [`0dc62ae`](https://github.com/stdlib-js/stdlib/commit/0dc62ae39a4817ff888e9736c3ea599f6beff4e5) - **build:** replace `eslint-plugin-node` with `eslint-plugin-n` [(#10952)](https://github.com/stdlib-js/stdlib/pull/10952) _(by Philipp Burckhardt, Athan Reines)_
 -   [`28917cf`](https://github.com/stdlib-js/stdlib/commit/28917cf0c4386cb3c16c5bec7fbb3ac7ae9ffe54) - **feat:** add `blas/ext/base/swhere` [(#11582)](https://github.com/stdlib-js/stdlib/pull/11582) _(by Muhammad Haris, Athan Reines)_
 -   [`8d3c814`](https://github.com/stdlib-js/stdlib/commit/8d3c814b1afa9c348ffb0180d74bd4da5e3a5eb2) - **feat:** add `*unitspace` symbols to namespace _(by Athan Reines)_

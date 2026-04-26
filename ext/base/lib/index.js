@@ -1567,6 +1567,15 @@ setReadOnly( ns, 'sunitspace', require( './../../../ext/base/sunitspace' ) );
 setReadOnly( ns, 'svander', require( './../../../ext/base/svander' ) );
 
 /**
+* @name swhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/swhere}
+*/
+setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
+
+/**
 * @name szeroTo
 * @memberof ns
 * @readonly
