@@ -172,6 +172,15 @@ setReadOnly( ns, 'toSorted', require( './../../ext/to-sorted' ) );
 setReadOnly( ns, 'toSortedhp', require( './../../ext/to-sortedhp' ) );
 
 /**
+* @name unitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/unitspace}
+*/
+setReadOnly( ns, 'unitspace', require( './../../ext/unitspace' ) );
+
+/**
 * @name zeroTo
 * @memberof ns
 * @readonly

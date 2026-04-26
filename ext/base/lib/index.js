@@ -163,6 +163,15 @@ setReadOnly( ns, 'dapxsumpw', require( './../../../ext/base/dapxsumpw' ) );
 setReadOnly( ns, 'dasumpw', require( './../../../ext/base/dasumpw' ) );
 
 /**
+* @name dcartesianSquare
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcartesian-square}
+*/
+setReadOnly( ns, 'dcartesianSquare', require( './../../../ext/base/dcartesian-square' ) );
+
+/**
 * @name dcircshift
 * @memberof ns
 * @readonly
@@ -791,6 +800,15 @@ setReadOnly( ns, 'gcusumors', require( './../../../ext/base/gcusumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/gcusumpw}
 */
 setReadOnly( ns, 'gcusumpw', require( './../../../ext/base/gcusumpw' ) );
+
+/**
+* @name gdiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gdiff}
+*/
+setReadOnly( ns, 'gdiff', require( './../../../ext/base/gdiff' ) );
 
 /**
 * @name gfill

@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`a3078e1`](https://github.com/stdlib-js/stdlib/commit/a3078e1b3da2f651a15563b092822ade951275af) - add `gdiff` and `dcartesianSquare` to namespace
+-   [`e544184`](https://github.com/stdlib-js/stdlib/commit/e544184ff876854d9936c3fc8d7be94c22eb4b9e) - add `unitspace` to namespace
 -   [`9f702bf`](https://github.com/stdlib-js/stdlib/commit/9f702bfb31cc11eae2b1e6aa122ab38ec190af7c) - add `blas/ext/unitspace` [(#11802)](https://github.com/stdlib-js/stdlib/pull/11802)
 -   [`bd4ba4e`](https://github.com/stdlib-js/stdlib/commit/bd4ba4ebe0b3793118ab3a6313f76422c2b38cd1) - add `blas/ext/base/gdiff` [(#10903)](https://github.com/stdlib-js/stdlib/pull/10903)
 -   [`a023392`](https://github.com/stdlib-js/stdlib/commit/a02339241efe9c852f08fb5b13fced915c02ad4d) - add `blas/ext/base/dcartesian-square` [(#10797)](https://github.com/stdlib-js/stdlib/pull/10797)
@@ -933,6 +935,8 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`a3078e1`](https://github.com/stdlib-js/stdlib/commit/a3078e1b3da2f651a15563b092822ade951275af) - **feat:** add `gdiff` and `dcartesianSquare` to namespace _(by Athan Reines)_
+-   [`e544184`](https://github.com/stdlib-js/stdlib/commit/e544184ff876854d9936c3fc8d7be94c22eb4b9e) - **feat:** add `unitspace` to namespace _(by Athan Reines)_
 -   [`9f702bf`](https://github.com/stdlib-js/stdlib/commit/9f702bfb31cc11eae2b1e6aa122ab38ec190af7c) - **feat:** add `blas/ext/unitspace` [(#11802)](https://github.com/stdlib-js/stdlib/pull/11802) _(by Muhammad Haris, Athan Reines)_
 -   [`bd4ba4e`](https://github.com/stdlib-js/stdlib/commit/bd4ba4ebe0b3793118ab3a6313f76422c2b38cd1) - **feat:** add `blas/ext/base/gdiff` [(#10903)](https://github.com/stdlib-js/stdlib/pull/10903) _(by Muhammad Haris, Athan Reines)_
 -   [`a023392`](https://github.com/stdlib-js/stdlib/commit/a02339241efe9c852f08fb5b13fced915c02ad4d) - **feat:** add `blas/ext/base/dcartesian-square` [(#10797)](https://github.com/stdlib-js/stdlib/pull/10797) _(by Muhammad Haris, Athan Reines)_
