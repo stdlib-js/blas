@@ -532,6 +532,15 @@ setReadOnly( ns, 'gsumors', require( './../../../../ext/base/ndarray/gsumors' ) 
 setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
 
 /**
+* @name gunitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gunitspace}
+*/
+setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspace' ) );
+
+/**
 * @name gzeroTo
 * @memberof ns
 * @readonly

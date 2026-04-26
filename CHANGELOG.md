@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`efefff5`](https://github.com/stdlib-js/stdlib/commit/efefff580c7e737aca6f7ea81fe52e26b1f97464) - add `gunitspace` to namespace
 -   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726)
 -   [`7a39426`](https://github.com/stdlib-js/stdlib/commit/7a3942642216f59766c5e75ea107b1cc40461fc9) - add `toSorted` to namespace
 -   [`31f10bd`](https://github.com/stdlib-js/stdlib/commit/31f10bde362541de6e57fde3d01d9800511325a6) - add `blas/ext/to-sorted` [(#11718)](https://github.com/stdlib-js/stdlib/pull/11718)
@@ -922,6 +923,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`efefff5`](https://github.com/stdlib-js/stdlib/commit/efefff580c7e737aca6f7ea81fe52e26b1f97464) - **feat:** add `gunitspace` to namespace _(by Athan Reines)_
 -   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - **feat:** add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726) _(by Muhammad Haris, Athan Reines)_
 -   [`392a8dc`](https://github.com/stdlib-js/stdlib/commit/392a8dce20ee0948ed6ad38f98efbee608997450) - **docs:** update example _(by Athan Reines)_
 -   [`5a06940`](https://github.com/stdlib-js/stdlib/commit/5a06940ac26e639280b53b34b6707f6ac714d28a) - **docs:** fix typos and examples [(#11761)](https://github.com/stdlib-js/stdlib/pull/11761) _(by Philipp Burckhardt, Athan Reines)_
