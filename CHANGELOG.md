@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-25)
+## Unreleased (2026-04-26)
 
 <section class="features">
 
 ### Features
 
+-   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726)
 -   [`7a39426`](https://github.com/stdlib-js/stdlib/commit/7a3942642216f59766c5e75ea107b1cc40461fc9) - add `toSorted` to namespace
 -   [`31f10bd`](https://github.com/stdlib-js/stdlib/commit/31f10bde362541de6e57fde3d01d9800511325a6) - add `blas/ext/to-sorted` [(#11718)](https://github.com/stdlib-js/stdlib/pull/11718)
 -   [`fe150a0`](https://github.com/stdlib-js/stdlib/commit/fe150a043da24741d6bedfce0c666f89a1fae559) - update `blas/base/ndarray` TypeScript declarations [(#11752)](https://github.com/stdlib-js/stdlib/pull/11752)
@@ -921,6 +922,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - **feat:** add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726) _(by Muhammad Haris, Athan Reines)_
 -   [`392a8dc`](https://github.com/stdlib-js/stdlib/commit/392a8dce20ee0948ed6ad38f98efbee608997450) - **docs:** update example _(by Athan Reines)_
 -   [`5a06940`](https://github.com/stdlib-js/stdlib/commit/5a06940ac26e639280b53b34b6707f6ac714d28a) - **docs:** fix typos and examples [(#11761)](https://github.com/stdlib-js/stdlib/pull/11761) _(by Philipp Burckhardt, Athan Reines)_
 -   [`ca7dfb4`](https://github.com/stdlib-js/stdlib/commit/ca7dfb4bf50cf032f569da107490f3eec971ec1c) - **chore:** modernize examples and benchmarks _(by Athan Reines)_
