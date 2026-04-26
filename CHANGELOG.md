@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`28917cf`](https://github.com/stdlib-js/stdlib/commit/28917cf0c4386cb3c16c5bec7fbb3ac7ae9ffe54) - add `blas/ext/base/swhere` [(#11582)](https://github.com/stdlib-js/stdlib/pull/11582)
 -   [`8d3c814`](https://github.com/stdlib-js/stdlib/commit/8d3c814b1afa9c348ffb0180d74bd4da5e3a5eb2) - add `*unitspace` symbols to namespace
 -   [`cfc58ab`](https://github.com/stdlib-js/stdlib/commit/cfc58ab9bb051fe400e496981598c0bbfc0da30e) - add `blas/ext/base/ndarray/zunitspace` [(#11730)](https://github.com/stdlib-js/stdlib/pull/11730)
 -   [`e5f860f`](https://github.com/stdlib-js/stdlib/commit/e5f860f9bb41461d13e1f5b9395d3efd164abc75) - add `blas/ext/base/ndarray/cunitspace` [(#11729)](https://github.com/stdlib-js/stdlib/pull/11729)
@@ -928,6 +929,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`28917cf`](https://github.com/stdlib-js/stdlib/commit/28917cf0c4386cb3c16c5bec7fbb3ac7ae9ffe54) - **feat:** add `blas/ext/base/swhere` [(#11582)](https://github.com/stdlib-js/stdlib/pull/11582) _(by Muhammad Haris, Athan Reines)_
 -   [`8d3c814`](https://github.com/stdlib-js/stdlib/commit/8d3c814b1afa9c348ffb0180d74bd4da5e3a5eb2) - **feat:** add `*unitspace` symbols to namespace _(by Athan Reines)_
 -   [`cfc58ab`](https://github.com/stdlib-js/stdlib/commit/cfc58ab9bb051fe400e496981598c0bbfc0da30e) - **feat:** add `blas/ext/base/ndarray/zunitspace` [(#11730)](https://github.com/stdlib-js/stdlib/pull/11730) _(by Muhammad Haris, Athan Reines)_
 -   [`e5f860f`](https://github.com/stdlib-js/stdlib/commit/e5f860f9bb41461d13e1f5b9395d3efd164abc75) - **feat:** add `blas/ext/base/ndarray/cunitspace` [(#11729)](https://github.com/stdlib-js/stdlib/pull/11729) _(by Muhammad Haris, Athan Reines)_
