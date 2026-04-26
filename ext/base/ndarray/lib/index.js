@@ -64,6 +64,15 @@ setReadOnly( ns, 'csum', require( './../../../../ext/base/ndarray/csum' ) );
 setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) );
 
 /**
+* @name cunitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cunitspace}
+*/
+setReadOnly( ns, 'cunitspace', require( './../../../../ext/base/ndarray/cunitspace' ) );
+
+/**
 * @name czeroTo
 * @memberof ns
 * @readonly
@@ -287,6 +296,15 @@ setReadOnly( ns, 'dsumors', require( './../../../../ext/base/ndarray/dsumors' ) 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dsumpw}
 */
 setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
+
+/**
+* @name dunitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dunitspace}
+*/
+setReadOnly( ns, 'dunitspace', require( './../../../../ext/base/ndarray/dunitspace' ) );
 
 /**
 * @name dzeroTo
@@ -739,6 +757,15 @@ setReadOnly( ns, 'ssumors', require( './../../../../ext/base/ndarray/ssumors' ) 
 setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
 
 /**
+* @name sunitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sunitspace}
+*/
+setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspace' ) );
+
+/**
 * @name szeroTo
 * @memberof ns
 * @readonly
@@ -773,6 +800,15 @@ setReadOnly( ns, 'zsum', require( './../../../../ext/base/ndarray/zsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zsumkbn}
 */
 setReadOnly( ns, 'zsumkbn', require( './../../../../ext/base/ndarray/zsumkbn' ) );
+
+/**
+* @name zunitspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zunitspace}
+*/
+setReadOnly( ns, 'zunitspace', require( './../../../../ext/base/ndarray/zunitspace' ) );
 
 /**
 * @name zzeroTo
