@@ -923,6 +923,8 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`be8badf`](https://github.com/stdlib-js/stdlib/commit/be8badf0b08c28c7950bcf4e08e0279565e0be54) - **docs:** update `blas/base/ndarray` TypeScript declarations [(#11787)](https://github.com/stdlib-js/stdlib/pull/11787) _(by stdlib-bot)_
+-   [`7442c80`](https://github.com/stdlib-js/stdlib/commit/7442c80a194a19e0784a8093afb743146dd3a668) - **docs:** update namespace table of contents [(#11789)](https://github.com/stdlib-js/stdlib/pull/11789) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`efefff5`](https://github.com/stdlib-js/stdlib/commit/efefff580c7e737aca6f7ea81fe52e26b1f97464) - **feat:** add `gunitspace` to namespace _(by Athan Reines)_
 -   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - **feat:** add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726) _(by Muhammad Haris, Athan Reines)_
 -   [`392a8dc`](https://github.com/stdlib-js/stdlib/commit/392a8dce20ee0948ed6ad38f98efbee608997450) - **docs:** update example _(by Athan Reines)_
