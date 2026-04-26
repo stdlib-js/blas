@@ -45,15 +45,7 @@ interface Namespace {
 	/**
 	* Multiplies a one-dimensional single-precision complex floating-point ndarray `x` by a constant `alpha` and adds the result to a one-dimensional single-precision complex floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing a scalar constant.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray, an output ndarray, and a zero-dimensional ndarray containing a scalar constant
 	* @returns output ndarray
 	*
 	* @example
@@ -79,14 +71,7 @@ interface Namespace {
 	/**
 	* Copies values from a one-dimensional single-precision complex floating-point ndarray `x` into a one-dimensional single-precision complex floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
 	* @returns output ndarray
 	*
 	* @example
@@ -106,13 +91,7 @@ interface Namespace {
 	/**
 	* Computes the sum of absolute values for all elements in a one-dimensional double-precision floating-point ndarray.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing a one-dimensional input ndarray
 	* @returns sum
 	*
 	* @example
@@ -128,15 +107,7 @@ interface Namespace {
 	/**
 	* Multiplies a one-dimensional double-precision floating-point ndarray `x` by a constant `alpha` and adds the result to a one-dimensional double-precision floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing a scalar constant.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray, an output ndarray, and a zero-dimensional ndarray containing a scalar constant
 	* @returns output ndarray
 	*
 	* @example
@@ -161,14 +132,7 @@ interface Namespace {
 	/**
 	* Copies values from a one-dimensional double-precision floating-point ndarray `x` into a one-dimensional double-precision floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
 	* @returns output ndarray
 	*
 	* @example
@@ -188,14 +152,7 @@ interface Namespace {
 	/**
 	* Computes the dot product of two one-dimensional double-precision floating-point ndarrays.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a first one-dimensional input ndarray.
-	*     -   a second one-dimensional input ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing two one-dimensional input ndarrays
 	* @returns dot product
 	*
 	* @example
@@ -212,14 +169,7 @@ interface Namespace {
 	/**
 	* Interchanges two one-dimensional double-precision floating-point ndarrays.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing two input ndarrays
 	* @returns second input ndarray
 	*
 	* @example
@@ -240,13 +190,7 @@ interface Namespace {
 	/**
 	* Computes the sum of absolute values for all elements in a one-dimensional ndarray.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing a one-dimensional input ndarray
 	* @returns sum
 	*
 	* @example
@@ -262,15 +206,7 @@ interface Namespace {
 	/**
 	* Multiplies a one-dimensional ndarray `x` by a constant `alpha` and adds the result to a one-dimensional ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing a scalar constant.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray, an output ndarray, and a zero-dimensional ndarray containing a scalar constant
 	* @returns output ndarray
 	*
 	* @example
@@ -295,14 +231,7 @@ interface Namespace {
 	/**
 	* Copies values from a one-dimensional ndarray `x` into a one-dimensional ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
 	* @returns output ndarray
 	*
 	* @example
@@ -322,14 +251,7 @@ interface Namespace {
 	/**
 	* Computes the dot product of two one-dimensional ndarrays.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a first one-dimensional input ndarray.
-	*     -   a second one-dimensional input ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing two one-dimensional input ndarrays
 	* @returns dot product
 	*
 	* @example
@@ -346,13 +268,7 @@ interface Namespace {
 	/**
 	* Computes the sum of absolute values for all elements in a one-dimensional single-precision floating-point ndarray.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing a one-dimensional input ndarray
 	* @returns sum
 	*
 	* @example
@@ -368,15 +284,7 @@ interface Namespace {
 	/**
 	* Multiplies a one-dimensional single-precision floating-point ndarray `x` by a constant `alpha` and adds the result to a one-dimensional single-precision floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing a scalar constant.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray, an output ndarray, and a zero-dimensional ndarray containing a scalar constant
 	* @returns output ndarray
 	*
 	* @example
@@ -401,14 +309,7 @@ interface Namespace {
 	/**
 	* Copies values from a one-dimensional single-precision floating-point ndarray `x` into a one-dimensional single-precision floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
 	* @returns output ndarray
 	*
 	* @example
@@ -428,14 +329,7 @@ interface Namespace {
 	/**
 	* Computes the dot product of two one-dimensional single-precision floating-point ndarrays.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a first one-dimensional input ndarray.
-	*     -   a second one-dimensional input ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing two one-dimensional input ndarrays
 	* @returns dot product
 	*
 	* @example
@@ -452,15 +346,7 @@ interface Namespace {
 	/**
 	* Multiplies a one-dimensional double-precision complex floating-point ndarray `x` by a constant `alpha` and adds the result to a one-dimensional double-precision complex floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing a scalar constant.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray, an output ndarray, and a zero-dimensional ndarray containing a scalar constant
 	* @returns output ndarray
 	*
 	* @example
@@ -486,14 +372,7 @@ interface Namespace {
 	/**
 	* Copies values from a one-dimensional double-precision complex floating-point ndarray `x` into a one-dimensional double-precision complex floating-point ndarray `y`.
 	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
+	* @param arrays - array-like object containing an input ndarray and an output ndarray
 	* @returns output ndarray
 	*
 	* @example
