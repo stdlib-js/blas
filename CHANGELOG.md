@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d77217d`](https://github.com/stdlib-js/stdlib/commit/d77217d6b2c994cfb813116c5a149366cb3a3662) - add `blas/ext/base/ndarray/sunitspace` [(#11728)](https://github.com/stdlib-js/stdlib/pull/11728)
 -   [`58a6c2d`](https://github.com/stdlib-js/stdlib/commit/58a6c2d73e76c26c7ca0f6b50e7f6e2f0e5354e2) - add `blas/ext/base/ndarray/dunitspace` [(#11727)](https://github.com/stdlib-js/stdlib/pull/11727)
 -   [`efefff5`](https://github.com/stdlib-js/stdlib/commit/efefff580c7e737aca6f7ea81fe52e26b1f97464) - add `gunitspace` to namespace
 -   [`7a4cb65`](https://github.com/stdlib-js/stdlib/commit/7a4cb65f70474b106a71956d45e1ebe0c4093225) - add `blas/ext/base/ndarray/gunitspace` [(#11726)](https://github.com/stdlib-js/stdlib/pull/11726)
@@ -924,6 +925,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`d77217d`](https://github.com/stdlib-js/stdlib/commit/d77217d6b2c994cfb813116c5a149366cb3a3662) - **feat:** add `blas/ext/base/ndarray/sunitspace` [(#11728)](https://github.com/stdlib-js/stdlib/pull/11728) _(by Muhammad Haris, Athan Reines)_
 -   [`58a6c2d`](https://github.com/stdlib-js/stdlib/commit/58a6c2d73e76c26c7ca0f6b50e7f6e2f0e5354e2) - **feat:** add `blas/ext/base/ndarray/dunitspace` [(#11727)](https://github.com/stdlib-js/stdlib/pull/11727) _(by Muhammad Haris, Athan Reines)_
 -   [`be8badf`](https://github.com/stdlib-js/stdlib/commit/be8badf0b08c28c7950bcf4e08e0279565e0be54) - **docs:** update `blas/base/ndarray` TypeScript declarations [(#11787)](https://github.com/stdlib-js/stdlib/pull/11787) _(by stdlib-bot)_
 -   [`7442c80`](https://github.com/stdlib-js/stdlib/commit/7442c80a194a19e0784a8093afb743146dd3a668) - **docs:** update namespace table of contents [(#11789)](https://github.com/stdlib-js/stdlib/pull/11789) _(by stdlib-bot, Philipp Burckhardt)_
