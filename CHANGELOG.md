@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808)
 -   [`a3078e1`](https://github.com/stdlib-js/stdlib/commit/a3078e1b3da2f651a15563b092822ade951275af) - add `gdiff` and `dcartesianSquare` to namespace
 -   [`e544184`](https://github.com/stdlib-js/stdlib/commit/e544184ff876854d9936c3fc8d7be94c22eb4b9e) - add `unitspace` to namespace
 -   [`9f702bf`](https://github.com/stdlib-js/stdlib/commit/9f702bfb31cc11eae2b1e6aa122ab38ec190af7c) - add `blas/ext/unitspace` [(#11802)](https://github.com/stdlib-js/stdlib/pull/11802)
@@ -935,6 +936,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808) _(by stdlib-bot)_
 -   [`6ba8e82`](https://github.com/stdlib-js/stdlib/commit/6ba8e82a0cb57d07aad26c642ef7d68fdaa892d1) - **docs:** fix wording in dswap notes for `blas/base/ndarray` [(#11797)](https://github.com/stdlib-js/stdlib/pull/11797) _(by Philipp Burckhardt)_
 -   [`a3078e1`](https://github.com/stdlib-js/stdlib/commit/a3078e1b3da2f651a15563b092822ade951275af) - **feat:** add `gdiff` and `dcartesianSquare` to namespace _(by Athan Reines)_
 -   [`e544184`](https://github.com/stdlib-js/stdlib/commit/e544184ff876854d9936c3fc8d7be94c22eb4b9e) - **feat:** add `unitspace` to namespace _(by Athan Reines)_
