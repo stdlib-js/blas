@@ -34,6 +34,7 @@ import dapxsumkbn2 = require( './../../../../ext/base/dapxsumkbn2' );
 import dapxsumors = require( './../../../../ext/base/dapxsumors' );
 import dapxsumpw = require( './../../../../ext/base/dapxsumpw' );
 import dasumpw = require( './../../../../ext/base/dasumpw' );
+import dcartesianSquare = require( './../../../../ext/base/dcartesian-square' );
 import dcircshift = require( './../../../../ext/base/dcircshift' );
 import dcusum = require( './../../../../ext/base/dcusum' );
 import dcusumkbn = require( './../../../../ext/base/dcusumkbn' );
@@ -104,6 +105,7 @@ import gcusumkbn = require( './../../../../ext/base/gcusumkbn' );
 import gcusumkbn2 = require( './../../../../ext/base/gcusumkbn2' );
 import gcusumors = require( './../../../../ext/base/gcusumors' );
 import gcusumpw = require( './../../../../ext/base/gcusumpw' );
+import gdiff = require( './../../../../ext/base/gdiff' );
 import gfill = require( './../../../../ext/base/gfill' );
 import gfillBy = require( './../../../../ext/base/gfill-by' );
 import gfindIndex = require( './../../../../ext/base/gfind-index' );
@@ -190,6 +192,7 @@ import ssumors = require( './../../../../ext/base/ssumors' );
 import ssumpw = require( './../../../../ext/base/ssumpw' );
 import sunitspace = require( './../../../../ext/base/sunitspace' );
 import svander = require( './../../../../ext/base/svander' );
+import swhere = require( './../../../../ext/base/swhere' );
 import szeroTo = require( './../../../../ext/base/szero-to' );
 import wasm = require( './../../../../ext/base/wasm' );
 import zfill = require( './../../../../ext/base/zfill' );
@@ -601,6 +604,37 @@ interface Namespace {
 	* // returns 5.0
 	*/
 	dasumpw: typeof dasumpw;
+
+	/**
+	* Computes the Cartesian square for a double-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianSquare.ndarray( x.length, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	dcartesianSquare: typeof dcartesianSquare;
 
 	/**
 	* Circularly shifts the elements of a double-precision floating-point strided array by a specified number of positions.
@@ -2608,6 +2642,56 @@ interface Namespace {
 	* // y => [ 1.0, -1.0, 1.0 ]
 	*/
 	gcusumpw: typeof gcusumpw;
+
+	/**
+	* Calculates the k-th discrete forward difference of a strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 2.0, 4.0, 7.0, 11.0, 16.0 ];
+	* var p = [ 1.0 ];
+	* var a = [ 22.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gdiff( x.length, 2, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	*
+	* console.log( out );
+	* // => [ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var x = [ 2.0, 4.0, 7.0, 11.0, 16.0 ];
+	* var p = [ 1.0 ];
+	* var a = [ 22.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gdiff.ndarray( x.length, 2, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	*
+	* console.log( out );
+	* // => [ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	gdiff: typeof gdiff;
 
 	/**
 	* Fills a strided array with a specified scalar constant.
@@ -5035,6 +5119,44 @@ interface Namespace {
 	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
 	*/
 	svander: typeof svander;
+
+	/**
+	* Takes elements from one of two single-precision floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float32Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float32Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Float32Array>[ 1.0, 5.0, 3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float32Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float32Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 5.0, 3.0 ]
+	*/
+	swhere: typeof swhere;
 
 	/**
 	* Fills a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.

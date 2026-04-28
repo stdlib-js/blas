@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-27)
+## Unreleased (2026-04-28)
 
 <section class="features">
 
 ### Features
 
+-   [`d71d459`](https://github.com/stdlib-js/stdlib/commit/d71d4593f4f406fb0df5838f6c4f818d757146a7) - update `blas/ext/base` TypeScript declarations [(#11821)](https://github.com/stdlib-js/stdlib/pull/11821)
 -   [`40fe5f8`](https://github.com/stdlib-js/stdlib/commit/40fe5f8fed0fd9f58d175cbe7956a64906c60758) - add `blas/base/ndarray/sswap` [(#11812)](https://github.com/stdlib-js/stdlib/pull/11812)
 -   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808)
 -   [`a3078e1`](https://github.com/stdlib-js/stdlib/commit/a3078e1b3da2f651a15563b092822ade951275af) - add `gdiff` and `dcartesianSquare` to namespace
@@ -937,6 +938,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`d71d459`](https://github.com/stdlib-js/stdlib/commit/d71d4593f4f406fb0df5838f6c4f818d757146a7) - **feat:** update `blas/ext/base` TypeScript declarations [(#11821)](https://github.com/stdlib-js/stdlib/pull/11821) _(by stdlib-bot)_
 -   [`40fe5f8`](https://github.com/stdlib-js/stdlib/commit/40fe5f8fed0fd9f58d175cbe7956a64906c60758) - **feat:** add `blas/base/ndarray/sswap` [(#11812)](https://github.com/stdlib-js/stdlib/pull/11812) _(by Kaustubh Patange)_
 -   [`54c4bf0`](https://github.com/stdlib-js/stdlib/commit/54c4bf0a710d135c9a435f44b87171a1b23970de) - **chore:** minor clean-up [(#11814)](https://github.com/stdlib-js/stdlib/pull/11814) _(by Philipp Burckhardt)_
 -   [`8b687a9`](https://github.com/stdlib-js/stdlib/commit/8b687a9fcb935144ef3a544458e33830c95dc3df) - **docs:** update descriptions _(by Athan Reines)_
