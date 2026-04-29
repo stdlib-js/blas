@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-28)
+## Unreleased (2026-04-29)
 
 <section class="features">
 
 ### Features
 
+-   [`6832211`](https://github.com/stdlib-js/stdlib/commit/68322111f05a96c8ac8c92c6f19079524e17d8f0) - update `blas/ext` TypeScript declarations [(#11833)](https://github.com/stdlib-js/stdlib/pull/11833)
 -   [`d71d459`](https://github.com/stdlib-js/stdlib/commit/d71d4593f4f406fb0df5838f6c4f818d757146a7) - update `blas/ext/base` TypeScript declarations [(#11821)](https://github.com/stdlib-js/stdlib/pull/11821)
 -   [`40fe5f8`](https://github.com/stdlib-js/stdlib/commit/40fe5f8fed0fd9f58d175cbe7956a64906c60758) - add `blas/base/ndarray/sswap` [(#11812)](https://github.com/stdlib-js/stdlib/pull/11812)
 -   [`8b4a0aa`](https://github.com/stdlib-js/stdlib/commit/8b4a0aa79df6b1f2018e2e07b33e8cd106611007) - update `blas/ext/base/ndarray` TypeScript declarations [(#11808)](https://github.com/stdlib-js/stdlib/pull/11808)
@@ -938,6 +939,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`6832211`](https://github.com/stdlib-js/stdlib/commit/68322111f05a96c8ac8c92c6f19079524e17d8f0) - **feat:** update `blas/ext` TypeScript declarations [(#11833)](https://github.com/stdlib-js/stdlib/pull/11833) _(by stdlib-bot)_
 -   [`d71d459`](https://github.com/stdlib-js/stdlib/commit/d71d4593f4f406fb0df5838f6c4f818d757146a7) - **feat:** update `blas/ext/base` TypeScript declarations [(#11821)](https://github.com/stdlib-js/stdlib/pull/11821) _(by stdlib-bot)_
 -   [`40fe5f8`](https://github.com/stdlib-js/stdlib/commit/40fe5f8fed0fd9f58d175cbe7956a64906c60758) - **feat:** add `blas/base/ndarray/sswap` [(#11812)](https://github.com/stdlib-js/stdlib/pull/11812) _(by Kaustubh Patange)_
 -   [`54c4bf0`](https://github.com/stdlib-js/stdlib/commit/54c4bf0a710d135c9a435f44b87171a1b23970de) - **chore:** minor clean-up [(#11814)](https://github.com/stdlib-js/stdlib/pull/11814) _(by Philipp Burckhardt)_
