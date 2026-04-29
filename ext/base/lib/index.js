@@ -1225,6 +1225,15 @@ setReadOnly( ns, 'sapxsumpw', require( './../../../ext/base/sapxsumpw' ) );
 setReadOnly( ns, 'sasumpw', require( './../../../ext/base/sasumpw' ) );
 
 /**
+* @name scartesianSquare
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scartesian-square}
+*/
+setReadOnly( ns, 'scartesianSquare', require( './../../../ext/base/scartesian-square' ) );
+
+/**
 * @name scircshift
 * @memberof ns
 * @readonly
