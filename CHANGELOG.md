@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`792a723`](https://github.com/stdlib-js/stdlib/commit/792a7238e246fb9a89373a96f61ad582927a95b2) - add `blas/ext/base/scartesian-square` [(#11827)](https://github.com/stdlib-js/stdlib/pull/11827)
 -   [`a2a4681`](https://github.com/stdlib-js/stdlib/commit/a2a4681008f539ba9062cf158a043351aad2af1b) - add `sswap` to namespace
 -   [`6832211`](https://github.com/stdlib-js/stdlib/commit/68322111f05a96c8ac8c92c6f19079524e17d8f0) - update `blas/ext` TypeScript declarations [(#11833)](https://github.com/stdlib-js/stdlib/pull/11833)
 -   [`d71d459`](https://github.com/stdlib-js/stdlib/commit/d71d4593f4f406fb0df5838f6c4f818d757146a7) - update `blas/ext/base` TypeScript declarations [(#11821)](https://github.com/stdlib-js/stdlib/pull/11821)
@@ -940,6 +941,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`792a723`](https://github.com/stdlib-js/stdlib/commit/792a7238e246fb9a89373a96f61ad582927a95b2) - **feat:** add `blas/ext/base/scartesian-square` [(#11827)](https://github.com/stdlib-js/stdlib/pull/11827) _(by Muhammad Haris, Athan Reines)_
 -   [`a2a4681`](https://github.com/stdlib-js/stdlib/commit/a2a4681008f539ba9062cf158a043351aad2af1b) - **feat:** add `sswap` to namespace _(by Athan Reines)_
 -   [`16f0b29`](https://github.com/stdlib-js/stdlib/commit/16f0b29fb88f155754b1ebbd15542a3651c7a31d) - **refactor:** remove duplicated assignments _(by Athan Reines)_
 -   [`6832211`](https://github.com/stdlib-js/stdlib/commit/68322111f05a96c8ac8c92c6f19079524e17d8f0) - **feat:** update `blas/ext` TypeScript declarations [(#11833)](https://github.com/stdlib-js/stdlib/pull/11833) _(by stdlib-bot)_
