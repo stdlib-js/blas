@@ -172,6 +172,15 @@ setReadOnly( ns, 'scopy', require( './../../../base/ndarray/scopy' ) );
 setReadOnly( ns, 'sdot', require( './../../../base/ndarray/sdot' ) );
 
 /**
+* @name sswap
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/sswap}
+*/
+setReadOnly( ns, 'sswap', require( './../../../base/ndarray/sswap' ) );
+
+/**
 * @name zaxpy
 * @memberof ns
 * @readonly
