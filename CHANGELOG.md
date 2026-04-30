@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-04-29)
+## Unreleased (2026-04-30)
 
 <section class="features">
 
@@ -943,6 +943,7 @@ A total of 57 issues were closed in this release:
 
 <details>
 
+-   [`e34b36c`](https://github.com/stdlib-js/stdlib/commit/e34b36cdedc2287b3eff185f30986cb65bfd6ca5) - **docs:** update namespace table of contents [(#11855)](https://github.com/stdlib-js/stdlib/pull/11855) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8dda5d2`](https://github.com/stdlib-js/stdlib/commit/8dda5d2a2fd66efea9709ff2fe42dc872d8e04f5) - **feat:** add `blas/base/ndarray/gswap` [(#11836)](https://github.com/stdlib-js/stdlib/pull/11836) _(by Kaustubh Patange)_
 -   [`5d5a65b`](https://github.com/stdlib-js/stdlib/commit/5d5a65bfdc252e39e6f19ef5af204eb71d53e9ee) - **feat:** add `scartesianSquare` to namespace _(by Athan Reines)_
 -   [`792a723`](https://github.com/stdlib-js/stdlib/commit/792a7238e246fb9a89373a96f61ad582927a95b2) - **feat:** add `blas/ext/base/scartesian-square` [(#11827)](https://github.com/stdlib-js/stdlib/pull/11827) _(by Muhammad Haris, Athan Reines)_
