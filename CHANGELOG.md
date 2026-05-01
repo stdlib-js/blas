@@ -946,6 +946,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
 -   [`c7a6b5c`](https://github.com/stdlib-js/stdlib/commit/c7a6b5c8415f4a1a0da6d3a08ef6dffd93d21590) - **chore:** fix JavaScript lint errors [(#11865)](https://github.com/stdlib-js/stdlib/pull/11865) _(by Clinton Phillips)_
 -   [`895ee0f`](https://github.com/stdlib-js/stdlib/commit/895ee0f3609b433be1cebf627ca70eb62c7cf866) - **feat:** update `blas/ext/base` TypeScript declarations [(#11870)](https://github.com/stdlib-js/stdlib/pull/11870) _(by stdlib-bot)_
 -   [`05ab958`](https://github.com/stdlib-js/stdlib/commit/05ab958cfab77048c1d2dab1c847cd60027b0264) - **feat:** add `gswap` to namespace _(by Athan Reines)_
