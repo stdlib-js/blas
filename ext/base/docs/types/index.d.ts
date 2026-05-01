@@ -152,6 +152,7 @@ import sapxsumkbn2 = require( './../../../../ext/base/sapxsumkbn2' );
 import sapxsumors = require( './../../../../ext/base/sapxsumors' );
 import sapxsumpw = require( './../../../../ext/base/sapxsumpw' );
 import sasumpw = require( './../../../../ext/base/sasumpw' );
+import scartesianSquare = require( './../../../../ext/base/scartesian-square' );
 import scircshift = require( './../../../../ext/base/scircshift' );
 import scusum = require( './../../../../ext/base/scusum' );
 import scusumkbn = require( './../../../../ext/base/scusumkbn' );
@@ -3919,6 +3920,37 @@ interface Namespace {
 	* // returns 5.0
 	*/
 	sasumpw: typeof sasumpw;
+
+	/**
+	* Computes the Cartesian square for a single-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianSquare.ndarray( x.length, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	scartesianSquare: typeof scartesianSquare;
 
 	/**
 	* Circularly shifts the elements of a single-precision floating-point strided array by a specified number of positions.
