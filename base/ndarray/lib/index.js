@@ -136,6 +136,15 @@ setReadOnly( ns, 'gcopy', require( './../../../base/ndarray/gcopy' ) );
 setReadOnly( ns, 'gdot', require( './../../../base/ndarray/gdot' ) );
 
 /**
+* @name gswap
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/gswap}
+*/
+setReadOnly( ns, 'gswap', require( './../../../base/ndarray/gswap' ) );
+
+/**
 * @name sasum
 * @memberof ns
 * @readonly
