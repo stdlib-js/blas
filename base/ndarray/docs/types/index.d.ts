@@ -31,6 +31,7 @@ import gasum = require( './../../../../base/ndarray/gasum' );
 import gaxpy = require( './../../../../base/ndarray/gaxpy' );
 import gcopy = require( './../../../../base/ndarray/gcopy' );
 import gdot = require( './../../../../base/ndarray/gdot' );
+import gswap = require( './../../../../base/ndarray/gswap' );
 import sasum = require( './../../../../base/ndarray/sasum' );
 import saxpy = require( './../../../../base/ndarray/saxpy' );
 import scopy = require( './../../../../base/ndarray/scopy' );
@@ -343,6 +344,34 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	gdot: typeof gdot;
+
+	/**
+	* Interchanges two one-dimensional ndarrays.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns second input ndarray
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	*
+	* var x = vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ], 'generic' );
+	* var y = vector( [ 6.0, 7.0, 8.0, 9.0, 10.0 ], 'generic' );
+	*
+	* var z = ns.gswap( [ x, y ] );
+	* // x => <ndarray>[ 6.0, 7.0, 8.0, 9.0, 10.0 ]
+	* // y => <ndarray>[ 1.0, 2.0, 3.0, 4.0, 5.0 ]
+	*
+	* var bool = ( z === y );
+	* // returns true
+	*/
+	gswap: typeof gswap;
 
 	/**
 	* Computes the sum of absolute values for all elements in a one-dimensional single-precision floating-point ndarray.

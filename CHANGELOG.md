@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-01)
+## Unreleased (2026-05-02)
 
 <section class="features">
 
 ### Features
 
+-   [`6560df2`](https://github.com/stdlib-js/stdlib/commit/6560df2363460d89f8b8c4bcfcc5cab86069b194) - update `blas/base/ndarray` TypeScript declarations [(#11886)](https://github.com/stdlib-js/stdlib/pull/11886)
 -   [`895ee0f`](https://github.com/stdlib-js/stdlib/commit/895ee0f3609b433be1cebf627ca70eb62c7cf866) - update `blas/ext/base` TypeScript declarations [(#11870)](https://github.com/stdlib-js/stdlib/pull/11870)
 -   [`05ab958`](https://github.com/stdlib-js/stdlib/commit/05ab958cfab77048c1d2dab1c847cd60027b0264) - add `gswap` to namespace
 -   [`7e5f19e`](https://github.com/stdlib-js/stdlib/commit/7e5f19e57f8deb253b24202293bbd3cf45b80bbc) - update `blas/base/ndarray` TypeScript declarations [(#11854)](https://github.com/stdlib-js/stdlib/pull/11854)
@@ -946,6 +947,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`6560df2`](https://github.com/stdlib-js/stdlib/commit/6560df2363460d89f8b8c4bcfcc5cab86069b194) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11886)](https://github.com/stdlib-js/stdlib/pull/11886) _(by stdlib-bot)_
 -   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
 -   [`c7a6b5c`](https://github.com/stdlib-js/stdlib/commit/c7a6b5c8415f4a1a0da6d3a08ef6dffd93d21590) - **chore:** fix JavaScript lint errors [(#11865)](https://github.com/stdlib-js/stdlib/pull/11865) _(by Clinton Phillips)_
 -   [`895ee0f`](https://github.com/stdlib-js/stdlib/commit/895ee0f3609b433be1cebf627ca70eb62c7cf866) - **feat:** update `blas/ext/base` TypeScript declarations [(#11870)](https://github.com/stdlib-js/stdlib/pull/11870) _(by stdlib-bot)_
