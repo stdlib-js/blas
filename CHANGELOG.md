@@ -947,6 +947,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`6b5e5b7`](https://github.com/stdlib-js/stdlib/commit/6b5e5b7e959c0553d16dc40fef9af38ed3c318d2) - **style:** remove empty line [(#11885)](https://github.com/stdlib-js/stdlib/pull/11885) _(by stdlib-bot)_
 -   [`4357292`](https://github.com/stdlib-js/stdlib/commit/4357292825d418623c6f92aefc406a854a13fec6) - **docs:** update namespace table of contents [(#11887)](https://github.com/stdlib-js/stdlib/pull/11887) _(by stdlib-bot)_
 -   [`6560df2`](https://github.com/stdlib-js/stdlib/commit/6560df2363460d89f8b8c4bcfcc5cab86069b194) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11886)](https://github.com/stdlib-js/stdlib/pull/11886) _(by stdlib-bot)_
 -   [`cd99d80`](https://github.com/stdlib-js/stdlib/commit/cd99d8072389d37a05848951926c3fe51da19832) - **docs:** propagate fixes to sibling packages [(#11843)](https://github.com/stdlib-js/stdlib/pull/11843) _(by Philipp Burckhardt)_
