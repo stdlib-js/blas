@@ -55,6 +55,15 @@ setReadOnly( ns, 'caxpy', require( './../../../base/ndarray/caxpy' ) );
 setReadOnly( ns, 'ccopy', require( './../../../base/ndarray/ccopy' ) );
 
 /**
+* @name cswap
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/cswap}
+*/
+setReadOnly( ns, 'cswap', require( './../../../base/ndarray/cswap' ) );
+
+/**
 * @name dasum
 * @memberof ns
 * @readonly
@@ -206,6 +215,15 @@ setReadOnly( ns, 'zaxpy', require( './../../../base/ndarray/zaxpy' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/zcopy}
 */
 setReadOnly( ns, 'zcopy', require( './../../../base/ndarray/zcopy' ) );
+
+/**
+* @name zswap
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/zswap}
+*/
+setReadOnly( ns, 'zswap', require( './../../../base/ndarray/zswap' ) );
 
 
 // EXPORTS //
