@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7199788`](https://github.com/stdlib-js/stdlib/commit/7199788892ed9713ed7a4df51d40d0e17b45d5df) - add `blas/base/ndarray/zswap` [(#11899)](https://github.com/stdlib-js/stdlib/pull/11899)
 -   [`1affa4e`](https://github.com/stdlib-js/stdlib/commit/1affa4e75b978741ac17ca99af52083f915eec33) - add `blas/base/ndarray/cswap` [(#11894)](https://github.com/stdlib-js/stdlib/pull/11894)
 -   [`6560df2`](https://github.com/stdlib-js/stdlib/commit/6560df2363460d89f8b8c4bcfcc5cab86069b194) - update `blas/base/ndarray` TypeScript declarations [(#11886)](https://github.com/stdlib-js/stdlib/pull/11886)
 -   [`895ee0f`](https://github.com/stdlib-js/stdlib/commit/895ee0f3609b433be1cebf627ca70eb62c7cf866) - update `blas/ext/base` TypeScript declarations [(#11870)](https://github.com/stdlib-js/stdlib/pull/11870)
@@ -948,6 +949,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`7199788`](https://github.com/stdlib-js/stdlib/commit/7199788892ed9713ed7a4df51d40d0e17b45d5df) - **feat:** add `blas/base/ndarray/zswap` [(#11899)](https://github.com/stdlib-js/stdlib/pull/11899) _(by Kaustubh Patange)_
 -   [`1affa4e`](https://github.com/stdlib-js/stdlib/commit/1affa4e75b978741ac17ca99af52083f915eec33) - **feat:** add `blas/base/ndarray/cswap` [(#11894)](https://github.com/stdlib-js/stdlib/pull/11894) _(by Kaustubh Patange)_
 -   [`6b5e5b7`](https://github.com/stdlib-js/stdlib/commit/6b5e5b7e959c0553d16dc40fef9af38ed3c318d2) - **style:** remove empty line [(#11885)](https://github.com/stdlib-js/stdlib/pull/11885) _(by stdlib-bot)_
 -   [`4357292`](https://github.com/stdlib-js/stdlib/commit/4357292825d418623c6f92aefc406a854a13fec6) - **docs:** update namespace table of contents [(#11887)](https://github.com/stdlib-js/stdlib/pull/11887) _(by stdlib-bot)_
