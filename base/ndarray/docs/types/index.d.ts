@@ -22,6 +22,7 @@
 
 import caxpy = require( './../../../../base/ndarray/caxpy' );
 import ccopy = require( './../../../../base/ndarray/ccopy' );
+import cswap = require( './../../../../base/ndarray/cswap' );
 import dasum = require( './../../../../base/ndarray/dasum' );
 import daxpy = require( './../../../../base/ndarray/daxpy' );
 import dcopy = require( './../../../../base/ndarray/dcopy' );
@@ -39,6 +40,7 @@ import sdot = require( './../../../../base/ndarray/sdot' );
 import sswap = require( './../../../../base/ndarray/sswap' );
 import zaxpy = require( './../../../../base/ndarray/zaxpy' );
 import zcopy = require( './../../../../base/ndarray/zcopy' );
+import zswap = require( './../../../../base/ndarray/zswap' );
 
 /**
 * Interface describing the `ndarray` namespace.
@@ -104,6 +106,34 @@ interface Namespace {
 	* // returns true
 	*/
 	ccopy: typeof ccopy;
+
+	/**
+	* Interchanges two one-dimensional complex single-precision floating-point ndarrays.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns second input ndarray
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	*
+	* var x = new Complex64Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex64Vector( [ 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	*
+	* var z = ns.cswap( [ x, y ] );
+	* // x => <ndarray>[ <Complex64>[ 7.0, 8.0 ], <Complex64>[ 9.0, 10.0 ], <Complex64>[ 11.0, 12.0 ] ]
+	* // y => <ndarray>[ <Complex64>[ 1.0, 2.0 ], <Complex64>[ 3.0, 4.0 ], <Complex64>[ 5.0, 6.0 ] ]
+	*
+	* var bool = ( z === y );
+	* // returns true
+	*/
+	cswap: typeof cswap;
 
 	/**
 	* Computes the sum of absolute values for all elements in a one-dimensional double-precision floating-point ndarray.
@@ -567,6 +597,34 @@ interface Namespace {
 	* // returns true
 	*/
 	zcopy: typeof zcopy;
+
+	/**
+	* Interchanges two one-dimensional complex double-precision floating-point ndarrays.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns second input ndarray
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	*
+	* var x = new Complex128Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Vector( [ 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	*
+	* var z = ns.zswap( [ x, y ] );
+	* // x => <ndarray>[ <Complex128>[ 7.0, 8.0 ], <Complex128>[ 9.0, 10.0 ], <Complex128>[ 11.0, 12.0 ] ]
+	* // y => <ndarray>[ <Complex128>[ 1.0, 2.0 ], <Complex128>[ 3.0, 4.0 ], <Complex128>[ 5.0, 6.0 ] ]
+	*
+	* var bool = ( z === y );
+	* // returns true
+	*/
+	zswap: typeof zswap;
 }
 
 /**
