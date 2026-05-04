@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b146f9a`](https://github.com/stdlib-js/stdlib/commit/b146f9a52c16f631a236eb3311436e5d62cb315e) - add `dcartesianPower` to namespace
 -   [`cb59572`](https://github.com/stdlib-js/stdlib/commit/cb595723f0b3efc37c357a7b49b35bdbe0319cd2) - add `blas/ext/base/dcartesian-power` [(#10806)](https://github.com/stdlib-js/stdlib/pull/10806)
 -   [`fb8a142`](https://github.com/stdlib-js/stdlib/commit/fb8a142aa8801ab9c47f77a6990df86e7959ef44) - add `cswap` and `zswap` to namespace
 -   [`7199788`](https://github.com/stdlib-js/stdlib/commit/7199788892ed9713ed7a4df51d40d0e17b45d5df) - add `blas/base/ndarray/zswap` [(#11899)](https://github.com/stdlib-js/stdlib/pull/11899)
@@ -951,6 +952,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`b146f9a`](https://github.com/stdlib-js/stdlib/commit/b146f9a52c16f631a236eb3311436e5d62cb315e) - **feat:** add `dcartesianPower` to namespace _(by Athan Reines)_
 -   [`cb59572`](https://github.com/stdlib-js/stdlib/commit/cb595723f0b3efc37c357a7b49b35bdbe0319cd2) - **feat:** add `blas/ext/base/dcartesian-power` [(#10806)](https://github.com/stdlib-js/stdlib/pull/10806) _(by Muhammad Haris, Athan Reines)_
 -   [`fb8a142`](https://github.com/stdlib-js/stdlib/commit/fb8a142aa8801ab9c47f77a6990df86e7959ef44) - **feat:** add `cswap` and `zswap` to namespace _(by Athan Reines)_
 -   [`7199788`](https://github.com/stdlib-js/stdlib/commit/7199788892ed9713ed7a4df51d40d0e17b45d5df) - **feat:** add `blas/base/ndarray/zswap` [(#11899)](https://github.com/stdlib-js/stdlib/pull/11899) _(by Kaustubh Patange)_

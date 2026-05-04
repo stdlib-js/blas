@@ -163,6 +163,15 @@ setReadOnly( ns, 'dapxsumpw', require( './../../../ext/base/dapxsumpw' ) );
 setReadOnly( ns, 'dasumpw', require( './../../../ext/base/dasumpw' ) );
 
 /**
+* @name dcartesianPower
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcartesian-power}
+*/
+setReadOnly( ns, 'dcartesianPower', require( './../../../ext/base/dcartesian-power' ) );
+
+/**
 * @name dcartesianSquare
 * @memberof ns
 * @readonly
