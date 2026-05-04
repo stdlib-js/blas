@@ -958,6 +958,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`a3a5677`](https://github.com/stdlib-js/stdlib/commit/a3a5677b7bdb9957229fbc1ebd46a82c160c06d7) - **docs:** follow-up fixes [(#11925)](https://github.com/stdlib-js/stdlib/pull/11925) _(by Philipp Burckhardt)_
 -   [`8238153`](https://github.com/stdlib-js/stdlib/commit/8238153ec0e75749592ea606bd1f09696a930581) - **feat:** add `zwhere` to namespace _(by Athan Reines)_
 -   [`0aac018`](https://github.com/stdlib-js/stdlib/commit/0aac018cf5c51c1436e53a0d91c43ef777ea3dba) - **feat:** add `dscal` and `sscal` to namespace _(by Athan Reines)_
 -   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - **feat:** add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920) _(by Kaustubh Patange, Athan Reines)_
