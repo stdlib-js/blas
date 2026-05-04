@@ -952,6 +952,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
 -   [`b146f9a`](https://github.com/stdlib-js/stdlib/commit/b146f9a52c16f631a236eb3311436e5d62cb315e) - **feat:** add `dcartesianPower` to namespace _(by Athan Reines)_
 -   [`cb59572`](https://github.com/stdlib-js/stdlib/commit/cb595723f0b3efc37c357a7b49b35bdbe0319cd2) - **feat:** add `blas/ext/base/dcartesian-power` [(#10806)](https://github.com/stdlib-js/stdlib/pull/10806) _(by Muhammad Haris, Athan Reines)_
 -   [`fb8a142`](https://github.com/stdlib-js/stdlib/commit/fb8a142aa8801ab9c47f77a6990df86e7959ef44) - **feat:** add `cswap` and `zswap` to namespace _(by Athan Reines)_
