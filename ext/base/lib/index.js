@@ -1693,6 +1693,15 @@ setReadOnly( ns, 'zsumkbn', require( './../../../ext/base/zsumkbn' ) );
 setReadOnly( ns, 'zunitspace', require( './../../../ext/base/zunitspace' ) );
 
 /**
+* @name zwhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zwhere}
+*/
+setReadOnly( ns, 'zwhere', require( './../../../ext/base/zwhere' ) );
+
+/**
 * @name zzeroTo
 * @memberof ns
 * @readonly

@@ -100,6 +100,15 @@ setReadOnly( ns, 'dcopy', require( './../../../base/ndarray/dcopy' ) );
 setReadOnly( ns, 'ddot', require( './../../../base/ndarray/ddot' ) );
 
 /**
+* @name dscal
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dscal}
+*/
+setReadOnly( ns, 'dscal', require( './../../../base/ndarray/dscal' ) );
+
+/**
 * @name dswap
 * @memberof ns
 * @readonly
@@ -188,6 +197,15 @@ setReadOnly( ns, 'scopy', require( './../../../base/ndarray/scopy' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/sdot}
 */
 setReadOnly( ns, 'sdot', require( './../../../base/ndarray/sdot' ) );
+
+/**
+* @name sscal
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/sscal}
+*/
+setReadOnly( ns, 'sscal', require( './../../../base/ndarray/sscal' ) );
 
 /**
 * @name sswap

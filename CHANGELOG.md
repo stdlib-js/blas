@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`8238153`](https://github.com/stdlib-js/stdlib/commit/8238153ec0e75749592ea606bd1f09696a930581) - add `zwhere` to namespace
+-   [`0aac018`](https://github.com/stdlib-js/stdlib/commit/0aac018cf5c51c1436e53a0d91c43ef777ea3dba) - add `dscal` and `sscal` to namespace
 -   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920)
 -   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919)
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846)
@@ -956,6 +958,8 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`8238153`](https://github.com/stdlib-js/stdlib/commit/8238153ec0e75749592ea606bd1f09696a930581) - **feat:** add `zwhere` to namespace _(by Athan Reines)_
+-   [`0aac018`](https://github.com/stdlib-js/stdlib/commit/0aac018cf5c51c1436e53a0d91c43ef777ea3dba) - **feat:** add `dscal` and `sscal` to namespace _(by Athan Reines)_
 -   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - **feat:** add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920) _(by Kaustubh Patange, Athan Reines)_
 -   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - **feat:** add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919) _(by Kaustubh Patange, Athan Reines)_
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - **feat:** add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846) _(by Muhammad Haris, Athan Reines)_
