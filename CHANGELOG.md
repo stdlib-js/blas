@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920)
 -   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919)
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846)
 -   [`6dcb4ea`](https://github.com/stdlib-js/stdlib/commit/6dcb4eaa32327b2558f94af939c93ba1739794db) - update `blas/base/ndarray` TypeScript declarations [(#11915)](https://github.com/stdlib-js/stdlib/pull/11915)
@@ -955,6 +956,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`d4e606a`](https://github.com/stdlib-js/stdlib/commit/d4e606adffc2175480a939fec9c8ea5a1d85fa57) - **feat:** add `blas/base/ndarray/sscal` [(#11920)](https://github.com/stdlib-js/stdlib/pull/11920) _(by Kaustubh Patange, Athan Reines)_
 -   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - **feat:** add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919) _(by Kaustubh Patange, Athan Reines)_
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - **feat:** add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846) _(by Muhammad Haris, Athan Reines)_
 -   [`6dcb4ea`](https://github.com/stdlib-js/stdlib/commit/6dcb4eaa32327b2558f94af939c93ba1739794db) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11915)](https://github.com/stdlib-js/stdlib/pull/11915) _(by stdlib-bot)_
