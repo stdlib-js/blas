@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919)
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846)
 -   [`6dcb4ea`](https://github.com/stdlib-js/stdlib/commit/6dcb4eaa32327b2558f94af939c93ba1739794db) - update `blas/base/ndarray` TypeScript declarations [(#11915)](https://github.com/stdlib-js/stdlib/pull/11915)
 -   [`b146f9a`](https://github.com/stdlib-js/stdlib/commit/b146f9a52c16f631a236eb3311436e5d62cb315e) - add `dcartesianPower` to namespace
@@ -954,6 +955,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`a9c81ae`](https://github.com/stdlib-js/stdlib/commit/a9c81ae4cbbc8f19656cbfe5b657f4b6c25f14c9) - **feat:** add `blas/base/ndarray/dscal` [(#11919)](https://github.com/stdlib-js/stdlib/pull/11919) _(by Kaustubh Patange, Athan Reines)_
 -   [`4cbd368`](https://github.com/stdlib-js/stdlib/commit/4cbd368e1c95b8277b1fc973ff894a0f70a08c44) - **feat:** add `blas/ext/base/zwhere` [(#11846)](https://github.com/stdlib-js/stdlib/pull/11846) _(by Muhammad Haris, Athan Reines)_
 -   [`6dcb4ea`](https://github.com/stdlib-js/stdlib/commit/6dcb4eaa32327b2558f94af939c93ba1739794db) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11915)](https://github.com/stdlib-js/stdlib/pull/11915) _(by stdlib-bot)_
 -   [`738b2c7`](https://github.com/stdlib-js/stdlib/commit/738b2c717eb26b3e374351f754d578f2035aaf20) - **docs:** update namespace table of contents [(#11916)](https://github.com/stdlib-js/stdlib/pull/11916) _(by stdlib-bot)_
