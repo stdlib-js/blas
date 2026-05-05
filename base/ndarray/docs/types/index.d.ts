@@ -27,6 +27,7 @@ import dasum = require( './../../../../base/ndarray/dasum' );
 import daxpy = require( './../../../../base/ndarray/daxpy' );
 import dcopy = require( './../../../../base/ndarray/dcopy' );
 import ddot = require( './../../../../base/ndarray/ddot' );
+import dscal = require( './../../../../base/ndarray/dscal' );
 import dswap = require( './../../../../base/ndarray/dswap' );
 import gasum = require( './../../../../base/ndarray/gasum' );
 import gaxpy = require( './../../../../base/ndarray/gaxpy' );
@@ -37,6 +38,7 @@ import sasum = require( './../../../../base/ndarray/sasum' );
 import saxpy = require( './../../../../base/ndarray/saxpy' );
 import scopy = require( './../../../../base/ndarray/scopy' );
 import sdot = require( './../../../../base/ndarray/sdot' );
+import sscal = require( './../../../../base/ndarray/sscal' );
 import sswap = require( './../../../../base/ndarray/sswap' );
 import zaxpy = require( './../../../../base/ndarray/zaxpy' );
 import zcopy = require( './../../../../base/ndarray/zcopy' );
@@ -108,7 +110,7 @@ interface Namespace {
 	ccopy: typeof ccopy;
 
 	/**
-	* Interchanges two one-dimensional single-precision complex floating-point ndarrays.
+	* Interchanges two one-dimensional complex single-precision floating-point ndarrays.
 	*
 	* ## Notes
 	*
@@ -240,6 +242,37 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	ddot: typeof ddot;
+
+	/**
+	* Multiplies a one-dimensional double-precision floating-point ndarray by a scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing a scalar constant.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float64Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var y = ns.dscal( [ x, alpha ] );
+	* // returns <ndarray>[ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+	*
+	* var bool = ( y === x );
+	* // returns true
+	*/
+	dscal: typeof dscal;
 
 	/**
 	* Interchanges two one-dimensional double-precision floating-point ndarrays.
@@ -510,6 +543,37 @@ interface Namespace {
 	sdot: typeof sdot;
 
 	/**
+	* Multiplies a one-dimensional single-precision floating-point ndarray by a scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing a scalar constant.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'float32'
+	* });
+	*
+	* var y = ns.sscal( [ x, alpha ] );
+	* // returns <ndarray>[ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+	*
+	* var bool = ( y === x );
+	* // returns true
+	*/
+	sscal: typeof sscal;
+
+	/**
 	* Interchanges two one-dimensional single-precision floating-point ndarrays.
 	*
 	* ## Notes
@@ -599,7 +663,7 @@ interface Namespace {
 	zcopy: typeof zcopy;
 
 	/**
-	* Interchanges two one-dimensional double-precision complex floating-point ndarrays.
+	* Interchanges two one-dimensional complex double-precision floating-point ndarrays.
 	*
 	* ## Notes
 	*
