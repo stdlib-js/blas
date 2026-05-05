@@ -618,6 +618,7 @@
 
 ### Bug Fixes
 
+-   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952)
 -   [`33e1dc1`](https://github.com/stdlib-js/stdlib/commit/33e1dc142e433a91b6cad99f89dca3255c56b81f) - use correct variable in interpolation
 -   [`ebc279f`](https://github.com/stdlib-js/stdlib/commit/ebc279f1f644eafb21ad4db9d322196bd4318b7a) - use correct variable in interpolation
 -   [`1802636`](https://github.com/stdlib-js/stdlib/commit/180263640132ce8b6d5a1b31f74bf84399d2236a) - fix comparison
@@ -965,6 +966,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - **fix:** propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952) _(by Philipp Burckhardt)_
 -   [`6d28870`](https://github.com/stdlib-js/stdlib/commit/6d288709c0687064b62303d447e2629dc26b93c2) - **feat:** add `gcartesianPower` and `scartesianPower` to namespace _(by Athan Reines)_
 -   [`f07b7a6`](https://github.com/stdlib-js/stdlib/commit/f07b7a6a4a4668c1953a3ba442c7e2e7b5091bb0) - **feat:** add `cscal` and `gscal` to namespace _(by Athan Reines)_
 -   [`b0713ea`](https://github.com/stdlib-js/stdlib/commit/b0713eab38c54a2e13a01a17df978df42dee4579) - **docs:** update descriptions to be consistent with elsewhere in project _(by Athan Reines)_
