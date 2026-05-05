@@ -748,6 +748,15 @@ setReadOnly( ns, 'gapxsumpw', require( './../../../ext/base/gapxsumpw' ) );
 setReadOnly( ns, 'gasumpw', require( './../../../ext/base/gasumpw' ) );
 
 /**
+* @name gcartesianPower
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcartesian-power}
+*/
+setReadOnly( ns, 'gcartesianPower', require( './../../../ext/base/gcartesian-power' ) );
+
+/**
 * @name gcircshift
 * @memberof ns
 * @readonly
@@ -1232,6 +1241,15 @@ setReadOnly( ns, 'sapxsumpw', require( './../../../ext/base/sapxsumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/sasumpw}
 */
 setReadOnly( ns, 'sasumpw', require( './../../../ext/base/sasumpw' ) );
+
+/**
+* @name scartesianPower
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scartesian-power}
+*/
+setReadOnly( ns, 'scartesianPower', require( './../../../ext/base/scartesian-power' ) );
 
 /**
 * @name scartesianSquare

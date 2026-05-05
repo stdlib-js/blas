@@ -55,6 +55,15 @@ setReadOnly( ns, 'caxpy', require( './../../../base/ndarray/caxpy' ) );
 setReadOnly( ns, 'ccopy', require( './../../../base/ndarray/ccopy' ) );
 
 /**
+* @name cscal
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/cscal}
+*/
+setReadOnly( ns, 'cscal', require( './../../../base/ndarray/cscal' ) );
+
+/**
 * @name cswap
 * @memberof ns
 * @readonly
@@ -152,6 +161,15 @@ setReadOnly( ns, 'gcopy', require( './../../../base/ndarray/gcopy' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/gdot}
 */
 setReadOnly( ns, 'gdot', require( './../../../base/ndarray/gdot' ) );
+
+/**
+* @name gscal
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/gscal}
+*/
+setReadOnly( ns, 'gscal', require( './../../../base/ndarray/gscal' ) );
 
 /**
 * @name gswap
