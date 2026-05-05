@@ -110,7 +110,7 @@ interface Namespace {
 	ccopy: typeof ccopy;
 
 	/**
-	* Interchanges two one-dimensional complex single-precision floating-point ndarrays.
+	* Interchanges two one-dimensional single-precision complex floating-point ndarrays.
 	*
 	* ## Notes
 	*
@@ -663,7 +663,7 @@ interface Namespace {
 	zcopy: typeof zcopy;
 
 	/**
-	* Interchanges two one-dimensional complex double-precision floating-point ndarrays.
+	* Interchanges two one-dimensional double-precision complex floating-point ndarrays.
 	*
 	* ## Notes
 	*

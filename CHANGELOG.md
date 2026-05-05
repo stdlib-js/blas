@@ -963,6 +963,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`b0713ea`](https://github.com/stdlib-js/stdlib/commit/b0713eab38c54a2e13a01a17df978df42dee4579) - **docs:** update descriptions to be consistent with elsewhere in project _(by Athan Reines)_
 -   [`868e779`](https://github.com/stdlib-js/stdlib/commit/868e779f9d834758c0b1a4b888c14e0c17c62bba) - **feat:** add `blas/base/ndarray/gscal` [(#11946)](https://github.com/stdlib-js/stdlib/pull/11946) _(by Kaustubh Patange, Athan Reines)_
 -   [`43cc026`](https://github.com/stdlib-js/stdlib/commit/43cc026839ef78523c9edba57f57849030d63c1c) - **feat:** add `blas/base/ndarray/cscal` [(#11944)](https://github.com/stdlib-js/stdlib/pull/11944) _(by Kaustubh Patange, Athan Reines)_
 -   [`181b4cc`](https://github.com/stdlib-js/stdlib/commit/181b4cc56c3da41a434fadea64fd1fe48d3684cf) - **feat:** add `blas/ext/base/gcartesian-power` [(#11926)](https://github.com/stdlib-js/stdlib/pull/11926) _(by Muhammad Haris)_
