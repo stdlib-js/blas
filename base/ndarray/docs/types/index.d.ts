@@ -22,6 +22,7 @@
 
 import caxpy = require( './../../../../base/ndarray/caxpy' );
 import ccopy = require( './../../../../base/ndarray/ccopy' );
+import cscal = require( './../../../../base/ndarray/cscal' );
 import cswap = require( './../../../../base/ndarray/cswap' );
 import dasum = require( './../../../../base/ndarray/dasum' );
 import daxpy = require( './../../../../base/ndarray/daxpy' );
@@ -33,6 +34,7 @@ import gasum = require( './../../../../base/ndarray/gasum' );
 import gaxpy = require( './../../../../base/ndarray/gaxpy' );
 import gcopy = require( './../../../../base/ndarray/gcopy' );
 import gdot = require( './../../../../base/ndarray/gdot' );
+import gscal = require( './../../../../base/ndarray/gscal' );
 import gswap = require( './../../../../base/ndarray/gswap' );
 import sasum = require( './../../../../base/ndarray/sasum' );
 import saxpy = require( './../../../../base/ndarray/saxpy' );
@@ -108,6 +110,38 @@ interface Namespace {
 	* // returns true
 	*/
 	ccopy: typeof ccopy;
+
+	/**
+	* Multiplies a one-dimensional single-precision complex floating-point ndarray by a scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing a scalar constant.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex64Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var alpha = scalar2ndarray( new Complex64( 2.0, 0.0 ), {
+	*     'dtype': 'complex64'
+	* });
+	*
+	* var y = ns.cscal( [ x, alpha ] );
+	* // returns <ndarray>[ <Complex64>[ 2.0, 4.0 ], <Complex64>[ 6.0, 8.0 ], <Complex64>[ 10.0, 12.0 ] ]
+	*
+	* var bool = ( y === x );
+	* // returns true
+	*/
+	cscal: typeof cscal;
 
 	/**
 	* Interchanges two one-dimensional single-precision complex floating-point ndarrays.
@@ -407,6 +441,37 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	gdot: typeof gdot;
+
+	/**
+	* Multiplies a one-dimensional ndarray by a scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing a scalar constant.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ], 'generic' );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var y = ns.gscal( [ x, alpha ] );
+	* // returns <ndarray>[ 5.0, 10.0, 15.0, 20.0, 25.0 ]
+	*
+	* var bool = ( y === x );
+	* // returns true
+	*/
+	gscal: typeof gscal;
 
 	/**
 	* Interchanges two one-dimensional ndarrays.
