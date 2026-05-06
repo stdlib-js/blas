@@ -969,6 +969,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`7acb10f`](https://github.com/stdlib-js/stdlib/commit/7acb10fe279a12ff58df34a3d847828606cd0acd) - **docs:** update namespace table of contents [(#11961)](https://github.com/stdlib-js/stdlib/pull/11961) _(by stdlib-bot)_
 -   [`9530a86`](https://github.com/stdlib-js/stdlib/commit/9530a86c3b6acb84a1ee6ba75433c3dc50064206) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11959)](https://github.com/stdlib-js/stdlib/pull/11959) _(by stdlib-bot)_
 -   [`1bf4605`](https://github.com/stdlib-js/stdlib/commit/1bf46057a53789eec258488f4d5ec01abaac72cb) - **feat:** add `zscal` to namespace _(by Athan Reines)_
 -   [`4925e23`](https://github.com/stdlib-js/stdlib/commit/4925e23d21d14e204e3fcef6b7122c9673199df3) - **feat:** add `blas/base/ndarray/zscal` [(#11956)](https://github.com/stdlib-js/stdlib/pull/11956) _(by Kaustubh Patange, Athan Reines)_
