@@ -970,6 +970,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`e94576d`](https://github.com/stdlib-js/stdlib/commit/e94576d8ccbef00e161a87ffcc605083ba7457e0) - **docs:** remove unused imports in `blas/base/zswap` [(#11976)](https://github.com/stdlib-js/stdlib/pull/11976) _(by Karan Anand)_
 -   [`0c3e5bd`](https://github.com/stdlib-js/stdlib/commit/0c3e5bd9e7be52a36fdddff2821fe66b840436ec) - **feat:** add `blas/ext/base/gcartesian-square` [(#11828)](https://github.com/stdlib-js/stdlib/pull/11828) _(by Muhammad Haris, Athan Reines)_
 -   [`2628663`](https://github.com/stdlib-js/stdlib/commit/26286631e01471db55b3be13e2a21762b5507f7b) - **chore:** add missing keywords in `blas/ext/base/ndarray` cusum packages [(#11967)](https://github.com/stdlib-js/stdlib/pull/11967) _(by Philipp Burckhardt)_
 -   [`11d0e3d`](https://github.com/stdlib-js/stdlib/commit/11d0e3d9386eaabe20ec43a53f00227730e9c951) - **refactor:** replace internal utility _(by Athan Reines)_
