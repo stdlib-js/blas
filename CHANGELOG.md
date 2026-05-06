@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0c3e5bd`](https://github.com/stdlib-js/stdlib/commit/0c3e5bd9e7be52a36fdddff2821fe66b840436ec) - add `blas/ext/base/gcartesian-square` [(#11828)](https://github.com/stdlib-js/stdlib/pull/11828)
 -   [`9530a86`](https://github.com/stdlib-js/stdlib/commit/9530a86c3b6acb84a1ee6ba75433c3dc50064206) - update `blas/base/ndarray` TypeScript declarations [(#11959)](https://github.com/stdlib-js/stdlib/pull/11959)
 -   [`1bf4605`](https://github.com/stdlib-js/stdlib/commit/1bf46057a53789eec258488f4d5ec01abaac72cb) - add `zscal` to namespace
 -   [`4925e23`](https://github.com/stdlib-js/stdlib/commit/4925e23d21d14e204e3fcef6b7122c9673199df3) - add `blas/base/ndarray/zscal` [(#11956)](https://github.com/stdlib-js/stdlib/pull/11956)
@@ -969,6 +970,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`0c3e5bd`](https://github.com/stdlib-js/stdlib/commit/0c3e5bd9e7be52a36fdddff2821fe66b840436ec) - **feat:** add `blas/ext/base/gcartesian-square` [(#11828)](https://github.com/stdlib-js/stdlib/pull/11828) _(by Muhammad Haris, Athan Reines)_
 -   [`2628663`](https://github.com/stdlib-js/stdlib/commit/26286631e01471db55b3be13e2a21762b5507f7b) - **chore:** add missing keywords in `blas/ext/base/ndarray` cusum packages [(#11967)](https://github.com/stdlib-js/stdlib/pull/11967) _(by Philipp Burckhardt)_
 -   [`11d0e3d`](https://github.com/stdlib-js/stdlib/commit/11d0e3d9386eaabe20ec43a53f00227730e9c951) - **refactor:** replace internal utility _(by Athan Reines)_
 -   [`eae38b8`](https://github.com/stdlib-js/stdlib/commit/eae38b89b7d61dd025ba0779b01cea8779ad27e2) - **refactor:** replace internal utility _(by Athan Reines)_
