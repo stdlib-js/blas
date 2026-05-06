@@ -253,6 +253,15 @@ setReadOnly( ns, 'zaxpy', require( './../../../base/ndarray/zaxpy' ) );
 setReadOnly( ns, 'zcopy', require( './../../../base/ndarray/zcopy' ) );
 
 /**
+* @name zscal
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/zscal}
+*/
+setReadOnly( ns, 'zscal', require( './../../../base/ndarray/zscal' ) );
+
+/**
 * @name zswap
 * @memberof ns
 * @readonly
