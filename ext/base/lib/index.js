@@ -676,6 +676,15 @@ setReadOnly( ns, 'dunitspace', require( './../../../ext/base/dunitspace' ) );
 setReadOnly( ns, 'dvander', require( './../../../ext/base/dvander' ) );
 
 /**
+* @name dwhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dwhere}
+*/
+setReadOnly( ns, 'dwhere', require( './../../../ext/base/dwhere' ) );
+
+/**
 * @name dzeroTo
 * @memberof ns
 * @readonly
