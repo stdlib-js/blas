@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5c9fae7`](https://github.com/stdlib-js/stdlib/commit/5c9fae7c41d7a36ab2c82dd76fb1fc0db4b401ac) - add `blas/ext/base/dwhere` [(#11831)](https://github.com/stdlib-js/stdlib/pull/11831)
 -   [`3b9515c`](https://github.com/stdlib-js/stdlib/commit/3b9515c50ed33f750fd6b6546cce8d2ab4597c04) - add `gcartesianSquare` to namespace
 -   [`0c3e5bd`](https://github.com/stdlib-js/stdlib/commit/0c3e5bd9e7be52a36fdddff2821fe66b840436ec) - add `blas/ext/base/gcartesian-square` [(#11828)](https://github.com/stdlib-js/stdlib/pull/11828)
 -   [`9530a86`](https://github.com/stdlib-js/stdlib/commit/9530a86c3b6acb84a1ee6ba75433c3dc50064206) - update `blas/base/ndarray` TypeScript declarations [(#11959)](https://github.com/stdlib-js/stdlib/pull/11959)
@@ -971,6 +972,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`5c9fae7`](https://github.com/stdlib-js/stdlib/commit/5c9fae7c41d7a36ab2c82dd76fb1fc0db4b401ac) - **feat:** add `blas/ext/base/dwhere` [(#11831)](https://github.com/stdlib-js/stdlib/pull/11831) _(by Muhammad Haris, Athan Reines)_
 -   [`3b9515c`](https://github.com/stdlib-js/stdlib/commit/3b9515c50ed33f750fd6b6546cce8d2ab4597c04) - **feat:** add `gcartesianSquare` to namespace _(by Athan Reines)_
 -   [`f598b20`](https://github.com/stdlib-js/stdlib/commit/f598b204b92ae6506508187df09cf820fcfe7a80) - **docs:** remove note _(by Athan Reines)_
 -   [`5b0ee90`](https://github.com/stdlib-js/stdlib/commit/5b0ee90828fbfcf28be89b0b7811619ccc33712a) - **docs:** remove note _(by Athan Reines)_
