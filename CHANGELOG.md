@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c3e3ffd`](https://github.com/stdlib-js/stdlib/commit/c3e3ffd4dc1abffc093c840645e0397c6d0b39e8) - add `cwhere` to namespace
 -   [`544556c`](https://github.com/stdlib-js/stdlib/commit/544556ce29897ee460c7716893a6d30a8c98a9d7) - add `blas/ext/base/cwhere` [(#11844)](https://github.com/stdlib-js/stdlib/pull/11844)
 -   [`583a833`](https://github.com/stdlib-js/stdlib/commit/583a833601728354cdce9c8fc4d9bd44fa605710) - update `blas/base/ndarray` TypeScript declarations [(#11985)](https://github.com/stdlib-js/stdlib/pull/11985)
 -   [`5293ab6`](https://github.com/stdlib-js/stdlib/commit/5293ab6382db10d2ba5b3ac102162195dd42a703) - add `dwhere` to namespace
@@ -975,6 +976,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`c3e3ffd`](https://github.com/stdlib-js/stdlib/commit/c3e3ffd4dc1abffc093c840645e0397c6d0b39e8) - **feat:** add `cwhere` to namespace _(by Athan Reines)_
 -   [`544556c`](https://github.com/stdlib-js/stdlib/commit/544556ce29897ee460c7716893a6d30a8c98a9d7) - **feat:** add `blas/ext/base/cwhere` [(#11844)](https://github.com/stdlib-js/stdlib/pull/11844) _(by Muhammad Haris, Athan Reines)_
 -   [`583a833`](https://github.com/stdlib-js/stdlib/commit/583a833601728354cdce9c8fc4d9bd44fa605710) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#11985)](https://github.com/stdlib-js/stdlib/pull/11985) _(by stdlib-bot)_
 -   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_

@@ -91,6 +91,15 @@ setReadOnly( ns, 'csumkbn', require( './../../../ext/base/csumkbn' ) );
 setReadOnly( ns, 'cunitspace', require( './../../../ext/base/cunitspace' ) );
 
 /**
+* @name cwhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cwhere}
+*/
+setReadOnly( ns, 'cwhere', require( './../../../ext/base/cwhere' ) );
+
+/**
 * @name czeroTo
 * @memberof ns
 * @readonly
