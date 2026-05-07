@@ -973,6 +973,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`11fb87d`](https://github.com/stdlib-js/stdlib/commit/11fb87dac7ae762d325640afbb400d6aa5fc3736) - **docs:** update namespace table of contents [(#11986)](https://github.com/stdlib-js/stdlib/pull/11986) _(by stdlib-bot)_
 -   [`5293ab6`](https://github.com/stdlib-js/stdlib/commit/5293ab6382db10d2ba5b3ac102162195dd42a703) - **feat:** add `dwhere` to namespace _(by Athan Reines)_
 -   [`5c9fae7`](https://github.com/stdlib-js/stdlib/commit/5c9fae7c41d7a36ab2c82dd76fb1fc0db4b401ac) - **feat:** add `blas/ext/base/dwhere` [(#11831)](https://github.com/stdlib-js/stdlib/pull/11831) _(by Muhammad Haris, Athan Reines)_
 -   [`3b9515c`](https://github.com/stdlib-js/stdlib/commit/3b9515c50ed33f750fd6b6546cce8d2ab4597c04) - **feat:** add `gcartesianSquare` to namespace _(by Athan Reines)_
