@@ -44,6 +44,7 @@ import sscal = require( './../../../../base/ndarray/sscal' );
 import sswap = require( './../../../../base/ndarray/sswap' );
 import zaxpy = require( './../../../../base/ndarray/zaxpy' );
 import zcopy = require( './../../../../base/ndarray/zcopy' );
+import zscal = require( './../../../../base/ndarray/zscal' );
 import zswap = require( './../../../../base/ndarray/zswap' );
 
 /**
@@ -726,6 +727,38 @@ interface Namespace {
 	* // returns true
 	*/
 	zcopy: typeof zcopy;
+
+	/**
+	* Multiplies a one-dimensional double-precision complex floating-point ndarray by a scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing a scalar constant.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex128Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var alpha = scalar2ndarray( new Complex128( 2.0, 0.0 ), {
+	*     'dtype': 'complex128'
+	* });
+	*
+	* var y = ns.zscal( [ x, alpha ] );
+	* // returns <ndarray>[ <Complex128>[ 2.0, 4.0 ], <Complex128>[ 6.0, 8.0 ], <Complex128>[ 10.0, 12.0 ] ]
+	*
+	* var bool = ( y === x );
+	* // returns true
+	*/
+	zscal: typeof zscal;
 
 	/**
 	* Interchanges two one-dimensional double-precision complex floating-point ndarrays.
