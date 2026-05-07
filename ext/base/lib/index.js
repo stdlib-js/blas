@@ -757,6 +757,15 @@ setReadOnly( ns, 'gasumpw', require( './../../../ext/base/gasumpw' ) );
 setReadOnly( ns, 'gcartesianPower', require( './../../../ext/base/gcartesian-power' ) );
 
 /**
+* @name gcartesianSquare
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcartesian-square}
+*/
+setReadOnly( ns, 'gcartesianSquare', require( './../../../ext/base/gcartesian-square' ) );
+
+/**
 * @name gcircshift
 * @memberof ns
 * @readonly
