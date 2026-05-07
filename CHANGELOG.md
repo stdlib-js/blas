@@ -970,6 +970,8 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`f598b20`](https://github.com/stdlib-js/stdlib/commit/f598b204b92ae6506508187df09cf820fcfe7a80) - **docs:** remove note _(by Athan Reines)_
+-   [`5b0ee90`](https://github.com/stdlib-js/stdlib/commit/5b0ee90828fbfcf28be89b0b7811619ccc33712a) - **docs:** remove note _(by Athan Reines)_
 -   [`0dd5d2b`](https://github.com/stdlib-js/stdlib/commit/0dd5d2bed9ccea95d15ebbd110a7eea323ff81fa) - **refactor:** remove unused header _(by Athan Reines)_
 -   [`9b3f20e`](https://github.com/stdlib-js/stdlib/commit/9b3f20ecfb18a3acb806c66c0cb35562ce54d506) - **refactor:** remove unused header _(by Athan Reines)_
 -   [`bcdee7b`](https://github.com/stdlib-js/stdlib/commit/bcdee7beb5eea973b528014038f1d602730213a3) - **docs:** improve doctests for complex number typed arrays in `blas/ext/base/zfill` [(#11977)](https://github.com/stdlib-js/stdlib/pull/11977) _(by Karan Anand)_
