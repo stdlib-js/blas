@@ -970,6 +970,8 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`0dd5d2b`](https://github.com/stdlib-js/stdlib/commit/0dd5d2bed9ccea95d15ebbd110a7eea323ff81fa) - **refactor:** remove unused header _(by Athan Reines)_
+-   [`9b3f20e`](https://github.com/stdlib-js/stdlib/commit/9b3f20ecfb18a3acb806c66c0cb35562ce54d506) - **refactor:** remove unused header _(by Athan Reines)_
 -   [`bcdee7b`](https://github.com/stdlib-js/stdlib/commit/bcdee7beb5eea973b528014038f1d602730213a3) - **docs:** improve doctests for complex number typed arrays in `blas/ext/base/zfill` [(#11977)](https://github.com/stdlib-js/stdlib/pull/11977) _(by Karan Anand)_
 -   [`e94576d`](https://github.com/stdlib-js/stdlib/commit/e94576d8ccbef00e161a87ffcc605083ba7457e0) - **docs:** remove unused imports in `blas/base/zswap` [(#11976)](https://github.com/stdlib-js/stdlib/pull/11976) _(by Karan Anand)_
 -   [`0c3e5bd`](https://github.com/stdlib-js/stdlib/commit/0c3e5bd9e7be52a36fdddff2821fe66b840436ec) - **feat:** add `blas/ext/base/gcartesian-square` [(#11828)](https://github.com/stdlib-js/stdlib/pull/11828) _(by Muhammad Haris, Athan Reines)_
