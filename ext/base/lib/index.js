@@ -946,6 +946,15 @@ setReadOnly( ns, 'gjoinBetween', require( './../../../ext/base/gjoin-between' ) 
 setReadOnly( ns, 'glastIndexOf', require( './../../../ext/base/glast-index-of' ) );
 
 /**
+* @name glastIndexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/glast-index-of-row}
+*/
+setReadOnly( ns, 'glastIndexOfRow', require( './../../../ext/base/glast-index-of-row' ) );
+
+/**
 * @name glinspace
 * @memberof ns
 * @readonly
