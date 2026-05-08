@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`03cd59e`](https://github.com/stdlib-js/stdlib/commit/03cd59e46eb4a2ccdb5810b3e87635770a3f5e9e) - add `blas/ext/base/slast-index-of-row` [(#11931)](https://github.com/stdlib-js/stdlib/pull/11931)
 -   [`cecfaba`](https://github.com/stdlib-js/stdlib/commit/cecfaba846295aed36d6fc5cd4c6913d6f918622) - update `blas/ext/base` TypeScript declarations [(#11994)](https://github.com/stdlib-js/stdlib/pull/11994)
 -   [`bd61437`](https://github.com/stdlib-js/stdlib/commit/bd61437b35e4d8d57ce98b0501c6b1f87d9ef425) - add `glastIndexOfRow` to namespace
 -   [`7c02336`](https://github.com/stdlib-js/stdlib/commit/7c02336dc7a51f2e5b1aaca05ed4e16199bec1cd) - add `blas/ext/base/glast-index-of-row` [(#11929)](https://github.com/stdlib-js/stdlib/pull/11929)
@@ -979,6 +980,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`03cd59e`](https://github.com/stdlib-js/stdlib/commit/03cd59e46eb4a2ccdb5810b3e87635770a3f5e9e) - **feat:** add `blas/ext/base/slast-index-of-row` [(#11931)](https://github.com/stdlib-js/stdlib/pull/11931) _(by Muhammad Haris)_
 -   [`918d2ff`](https://github.com/stdlib-js/stdlib/commit/918d2ff186886691b3e26eeb849beb7777bed172) - **docs:** update namespace table of contents [(#11995)](https://github.com/stdlib-js/stdlib/pull/11995) _(by stdlib-bot)_
 -   [`cecfaba`](https://github.com/stdlib-js/stdlib/commit/cecfaba846295aed36d6fc5cd4c6913d6f918622) - **feat:** update `blas/ext/base` TypeScript declarations [(#11994)](https://github.com/stdlib-js/stdlib/pull/11994) _(by stdlib-bot)_
 -   [`ee5eced`](https://github.com/stdlib-js/stdlib/commit/ee5eced0f709feb30aef70262e7bdf97e89910c2) - **docs:** improve doctests for complex number typed arrays in `blas/base/wasm` [(#11975)](https://github.com/stdlib-js/stdlib/pull/11975) _(by Karan Anand, Athan Reines)_
