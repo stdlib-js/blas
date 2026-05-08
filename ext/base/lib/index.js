@@ -1450,6 +1450,15 @@ setReadOnly( ns, 'sindexOfRow', require( './../../../ext/base/sindex-of-row' ) )
 setReadOnly( ns, 'slastIndexOf', require( './../../../ext/base/slast-index-of' ) );
 
 /**
+* @name slastIndexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/slast-index-of-row}
+*/
+setReadOnly( ns, 'slastIndexOfRow', require( './../../../ext/base/slast-index-of-row' ) );
+
+/**
 * @name slinspace
 * @memberof ns
 * @readonly
