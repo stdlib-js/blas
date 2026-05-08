@@ -26,6 +26,7 @@ import coneTo = require( './../../../../ext/base/cone-to' );
 import csum = require( './../../../../ext/base/csum' );
 import csumkbn = require( './../../../../ext/base/csumkbn' );
 import cunitspace = require( './../../../../ext/base/cunitspace' );
+import cwhere = require( './../../../../ext/base/cwhere' );
 import czeroTo = require( './../../../../ext/base/czero-to' );
 import dapx = require( './../../../../ext/base/dapx' );
 import dapxsum = require( './../../../../ext/base/dapxsum' );
@@ -34,6 +35,7 @@ import dapxsumkbn2 = require( './../../../../ext/base/dapxsumkbn2' );
 import dapxsumors = require( './../../../../ext/base/dapxsumors' );
 import dapxsumpw = require( './../../../../ext/base/dapxsumpw' );
 import dasumpw = require( './../../../../ext/base/dasumpw' );
+import dcartesianPower = require( './../../../../ext/base/dcartesian-power' );
 import dcartesianSquare = require( './../../../../ext/base/dcartesian-square' );
 import dcircshift = require( './../../../../ext/base/dcircshift' );
 import dcusum = require( './../../../../ext/base/dcusum' );
@@ -90,6 +92,7 @@ import dsumors = require( './../../../../ext/base/dsumors' );
 import dsumpw = require( './../../../../ext/base/dsumpw' );
 import dunitspace = require( './../../../../ext/base/dunitspace' );
 import dvander = require( './../../../../ext/base/dvander' );
+import dwhere = require( './../../../../ext/base/dwhere' );
 import dzeroTo = require( './../../../../ext/base/dzero-to' );
 import gapx = require( './../../../../ext/base/gapx' );
 import gapxsum = require( './../../../../ext/base/gapxsum' );
@@ -98,6 +101,8 @@ import gapxsumkbn2 = require( './../../../../ext/base/gapxsumkbn2' );
 import gapxsumors = require( './../../../../ext/base/gapxsumors' );
 import gapxsumpw = require( './../../../../ext/base/gapxsumpw' );
 import gasumpw = require( './../../../../ext/base/gasumpw' );
+import gcartesianPower = require( './../../../../ext/base/gcartesian-power' );
+import gcartesianSquare = require( './../../../../ext/base/gcartesian-square' );
 import gcircshift = require( './../../../../ext/base/gcircshift' );
 import gconjoin = require( './../../../../ext/base/gconjoin' );
 import gcusum = require( './../../../../ext/base/gcusum' );
@@ -116,6 +121,7 @@ import gindexOfRow = require( './../../../../ext/base/gindex-of-row' );
 import gjoin = require( './../../../../ext/base/gjoin' );
 import gjoinBetween = require( './../../../../ext/base/gjoin-between' );
 import glastIndexOf = require( './../../../../ext/base/glast-index-of' );
+import glastIndexOfRow = require( './../../../../ext/base/glast-index-of-row' );
 import glinspace = require( './../../../../ext/base/glinspace' );
 import gnancount = require( './../../../../ext/base/gnancount' );
 import gnannsumkbn = require( './../../../../ext/base/gnannsumkbn' );
@@ -152,6 +158,7 @@ import sapxsumkbn2 = require( './../../../../ext/base/sapxsumkbn2' );
 import sapxsumors = require( './../../../../ext/base/sapxsumors' );
 import sapxsumpw = require( './../../../../ext/base/sapxsumpw' );
 import sasumpw = require( './../../../../ext/base/sasumpw' );
+import scartesianPower = require( './../../../../ext/base/scartesian-power' );
 import scartesianSquare = require( './../../../../ext/base/scartesian-square' );
 import scircshift = require( './../../../../ext/base/scircshift' );
 import scusum = require( './../../../../ext/base/scusum' );
@@ -203,6 +210,7 @@ import zoneTo = require( './../../../../ext/base/zone-to' );
 import zsum = require( './../../../../ext/base/zsum' );
 import zsumkbn = require( './../../../../ext/base/zsumkbn' );
 import zunitspace = require( './../../../../ext/base/zunitspace' );
+import zwhere = require( './../../../../ext/base/zwhere' );
 import zzeroTo = require( './../../../../ext/base/zzero-to' );
 
 /**
@@ -391,6 +399,46 @@ interface Namespace {
 	* // x => <Complex64Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
 	*/
 	cunitspace: typeof cunitspace;
+
+	/**
+	* Takes elements from one of two single-precision complex floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex64Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex64Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Complex64Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex64Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex64Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Complex64Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*/
+	cwhere: typeof cwhere;
 
 	/**
 	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
@@ -605,6 +653,38 @@ interface Namespace {
 	* // returns 5.0
 	*/
 	dasumpw: typeof dasumpw;
+
+	/**
+	* Computes the Cartesian power for a double-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param k - power
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianPower.ndarray( x.length, 2, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	dcartesianPower: typeof dcartesianPower;
 
 	/**
 	* Computes the Cartesian square for a double-precision floating-point strided array.
@@ -2275,6 +2355,44 @@ interface Namespace {
 	dvander: typeof dvander;
 
 	/**
+	* Takes elements from one of two double-precision floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float64Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float64Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Float64Array>[ 1.0, 5.0, 3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float64Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float64Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 5.0, 3.0 ]
+	*/
+	dwhere: typeof dwhere;
+
+	/**
 	* Fills a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
 	*
 	* @param N - number of indexed elements
@@ -2459,6 +2577,61 @@ interface Namespace {
 	* // returns 5.0
 	*/
 	gasumpw: typeof gasumpw;
+
+	/**
+	* Computes the Cartesian power for a strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param k - power
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianPower.ndarray( x.length, 2, x, 1, 0, out, 2, 1, 0 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	gcartesianPower: typeof gcartesianPower;
+
+	/**
+	* Computes the Cartesian square for a strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianSquare.ndarray( x.length, x, 1, 0, out, 2, 1, 0 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	gcartesianSquare: typeof gcartesianSquare;
 
 	/**
 	* Circularly shifts the elements of a strided array by a specified number of positions.
@@ -3014,6 +3187,43 @@ interface Namespace {
 	* // returns 1
 	*/
 	glastIndexOf: typeof glastIndexOf;
+
+	/**
+	* Returns the index of the last row in an input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = [ 3.0, 4.0 ];
+	* var workspace = [ 0, 0, 0 ];
+	*
+	* var out = ns.glastIndexOfRow( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 2
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = [ 3.0, 4.0 ];
+	* var workspace = [ 0, 0, 0 ];
+	*
+	* var out = ns.glastIndexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 2
+	*/
+	glastIndexOfRow: typeof glastIndexOfRow;
 
 	/**
 	* Fills a strided array with linearly spaced values over a specified interval.
@@ -3920,6 +4130,38 @@ interface Namespace {
 	* // returns 5.0
 	*/
 	sasumpw: typeof sasumpw;
+
+	/**
+	* Computes the Cartesian power for a single-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param k - power
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianPower.ndarray( x.length, 2, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	scartesianPower: typeof scartesianPower;
 
 	/**
 	* Computes the Cartesian square for a single-precision floating-point strided array.
@@ -5231,19 +5473,15 @@ interface Namespace {
 	* @returns input array
 	*
 	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
 	* var Complex128Array = require( '@stdlib/array/complex128' );
 	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
 	*
-	* var arr = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	* var x = new Complex128Array( arr );
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 	*
 	* var alpha = new Complex128( 10.0, 10.0 );
 	*
 	* ns.zfill( x.length, alpha, x, 1 );
-	*
-	* var y = x.get( 0 );
-	* // returns <Complex128>[ 10.0, 10.0 ]
+	* // x => <Complex128Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 	*/
 	zfill: typeof zfill;
 
@@ -5422,6 +5660,46 @@ interface Namespace {
 	* // x => <Complex128Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
 	*/
 	zunitspace: typeof zunitspace;
+
+	/**
+	* Takes elements from one of two double-precision complex floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex128Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex128Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex128Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex128Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*/
+	zwhere: typeof zwhere;
 
 	/**
 	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
