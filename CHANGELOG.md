@@ -979,6 +979,7 @@ A total of 58 issues were closed in this release:
 
 <details>
 
+-   [`918d2ff`](https://github.com/stdlib-js/stdlib/commit/918d2ff186886691b3e26eeb849beb7777bed172) - **docs:** update namespace table of contents [(#11995)](https://github.com/stdlib-js/stdlib/pull/11995) _(by stdlib-bot)_
 -   [`cecfaba`](https://github.com/stdlib-js/stdlib/commit/cecfaba846295aed36d6fc5cd4c6913d6f918622) - **feat:** update `blas/ext/base` TypeScript declarations [(#11994)](https://github.com/stdlib-js/stdlib/pull/11994) _(by stdlib-bot)_
 -   [`ee5eced`](https://github.com/stdlib-js/stdlib/commit/ee5eced0f709feb30aef70262e7bdf97e89910c2) - **docs:** improve doctests for complex number typed arrays in `blas/base/wasm` [(#11975)](https://github.com/stdlib-js/stdlib/pull/11975) _(by Karan Anand, Athan Reines)_
 -   [`bd61437`](https://github.com/stdlib-js/stdlib/commit/bd61437b35e4d8d57ce98b0501c6b1f87d9ef425) - **feat:** add `glastIndexOfRow` to namespace _(by Athan Reines)_
