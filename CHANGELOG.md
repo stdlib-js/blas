@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`2a2c905`](https://github.com/stdlib-js/stdlib/commit/2a2c90531ec95197093b0ffbec4946e8a8246dea) - update `blas/ext/base` TypeScript declarations [(#12005)](https://github.com/stdlib-js/stdlib/pull/12005)
 -   [`cfecd68`](https://github.com/stdlib-js/stdlib/commit/cfecd68a37a2593d143fe35e3bd1e2b6de31ffbf) - add `dindexOfColumn` to namespace
 -   [`5fd5c85`](https://github.com/stdlib-js/stdlib/commit/5fd5c85cdf7761f3e958064cfcbaee974ff1204b) - add `blas/ext/base/dindex-of-column` [(#11935)](https://github.com/stdlib-js/stdlib/pull/11935)
 -   [`6bae4bc`](https://github.com/stdlib-js/stdlib/commit/6bae4bc2b0f2922fa6dc649b0ca27a81065479fe) - add `slastIndexOfRow` to namespace
@@ -984,7 +983,6 @@ A total of 58 issues were closed in this release:
 
 <details>
 
--   [`2a2c905`](https://github.com/stdlib-js/stdlib/commit/2a2c90531ec95197093b0ffbec4946e8a8246dea) - **feat:** update `blas/ext/base` TypeScript declarations [(#12005)](https://github.com/stdlib-js/stdlib/pull/12005) _(by stdlib-bot)_
 -   [`a87e8f7`](https://github.com/stdlib-js/stdlib/commit/a87e8f712cd373220adcf47c5d6f325ce1dbdaa1) - **docs:** update namespace table of contents [(#12006)](https://github.com/stdlib-js/stdlib/pull/12006) _(by stdlib-bot)_
 -   [`cfecd68`](https://github.com/stdlib-js/stdlib/commit/cfecd68a37a2593d143fe35e3bd1e2b6de31ffbf) - **feat:** add `dindexOfColumn` to namespace _(by Athan Reines)_
 -   [`5fd5c85`](https://github.com/stdlib-js/stdlib/commit/5fd5c85cdf7761f3e958064cfcbaee974ff1204b) - **feat:** add `blas/ext/base/dindex-of-column` [(#11935)](https://github.com/stdlib-js/stdlib/pull/11935) _(by Muhammad Haris, Athan Reines)_

@@ -46,7 +46,6 @@ import dcusumpw = require( './../../../../ext/base/dcusumpw' );
 import ddiff = require( './../../../../ext/base/ddiff' );
 import dfill = require( './../../../../ext/base/dfill' );
 import dindexOf = require( './../../../../ext/base/dindex-of' );
-import dindexOfColumn = require( './../../../../ext/base/dindex-of-column' );
 import dindexOfRow = require( './../../../../ext/base/dindex-of-row' );
 import dlastIndexOf = require( './../../../../ext/base/dlast-index-of' );
 import dlinspace = require( './../../../../ext/base/dlinspace' );
@@ -178,7 +177,6 @@ import sfill = require( './../../../../ext/base/sfill' );
 import sindexOf = require( './../../../../ext/base/sindex-of' );
 import sindexOfRow = require( './../../../../ext/base/sindex-of-row' );
 import slastIndexOf = require( './../../../../ext/base/slast-index-of' );
-import slastIndexOfRow = require( './../../../../ext/base/slast-index-of-row' );
 import slinspace = require( './../../../../ext/base/slinspace' );
 import snancount = require( './../../../../ext/base/snancount' );
 import snansum = require( './../../../../ext/base/snansum' );
@@ -1012,49 +1010,6 @@ interface Namespace {
 	* // returns 1
 	*/
 	dindexOf: typeof dindexOf;
-
-	/**
-	* Returns the index of the first column in a double-precision floating-point input matrix which has the same elements as a provided search vector.
-	*
-	* ## Notes
-	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
-	* -   The `workspace` array is only applicable when an input matrix is stored in row-major order. When the matrix is stored in column-major order, the workspace array is ignored.
-	*
-	* @param order - storage layout
-	* @param M - number of rows in `A`
-	* @param N - number of columns in `A`
-	* @param A - input matrix
-	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
-	* @param x - search vector
-	* @param strideX - stride length for `x`
-	* @param workspace - workspace array for tracking column match candidates
-	* @param strideW - stride length for `workspace`
-	* @returns column index
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ] );
-	* var x = new Float64Array( [ 2.0, 4.0, 0.0 ] );
-	* var workspace = new Uint8Array( 2 );
-	*
-	* var out = ns.dindexOfColumn( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
-	* // returns 1
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ] );
-	* var x = new Float64Array( [ 2.0, 4.0, 0.0 ] );
-	* var workspace = new Uint8Array( 2 );
-	*
-	* var out = ns.dindexOfColumn.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
-	* // returns 1
-	*/
-	dindexOfColumn: typeof dindexOfColumn;
 
 	/**
 	* Returns the index of the first row in a double-precision floating-point input matrix which has the same elements as a provided search vector.
@@ -4764,49 +4719,6 @@ interface Namespace {
 	* // returns 1
 	*/
 	slastIndexOf: typeof slastIndexOf;
-
-	/**
-	* Returns the index of the last row in a single-precision floating-point input matrix which has the same elements as a provided search vector.
-	*
-	* ## Notes
-	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
-	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
-	*
-	* @param order - storage layout
-	* @param M - number of rows in `A`
-	* @param N - number of columns in `A`
-	* @param A - input matrix
-	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
-	* @param x - search vector
-	* @param strideX - stride length for `x`
-	* @param workspace - workspace array for tracking row match candidates
-	* @param strideW - stride length for `workspace`
-	* @returns row index
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
-	* var x = new Float32Array( [ 3.0, 4.0 ] );
-	* var workspace = new Uint8Array( 3 );
-	*
-	* var out = ns.slastIndexOfRow( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
-	* // returns 2
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	* var Uint8Array = require( '@stdlib/array/uint8' );
-	*
-	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
-	* var x = new Float32Array( [ 3.0, 4.0 ] );
-	* var workspace = new Uint8Array( 3 );
-	*
-	* var out = ns.slastIndexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
-	* // returns 2
-	*/
-	slastIndexOfRow: typeof slastIndexOfRow;
 
 	/**
 	* Fills a single-precision floating-point strided array with linearly spaced values over a specified interval.
