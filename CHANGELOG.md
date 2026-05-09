@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - add `csscal` to namespace
 -   [`626ed3d`](https://github.com/stdlib-js/stdlib/commit/626ed3d83cc94d0abd3d3c3f574032c0913eb0f9) - add `blas/base/ndarray/csscal` [(#12003)](https://github.com/stdlib-js/stdlib/pull/12003)
 -   [`2a2c905`](https://github.com/stdlib-js/stdlib/commit/2a2c90531ec95197093b0ffbec4946e8a8246dea) - update `blas/ext/base` TypeScript declarations [(#12005)](https://github.com/stdlib-js/stdlib/pull/12005)
 -   [`cfecd68`](https://github.com/stdlib-js/stdlib/commit/cfecd68a37a2593d143fe35e3bd1e2b6de31ffbf) - add `dindexOfColumn` to namespace
@@ -986,6 +987,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - **feat:** add `csscal` to namespace _(by Athan Reines)_
 -   [`41d54f5`](https://github.com/stdlib-js/stdlib/commit/41d54f576b76d7c3491f711198f1dd7009e8e072) - **chore:** fix JavaScript lint errors [(#11703)](https://github.com/stdlib-js/stdlib/pull/11703) _(by Bhumika Sudarshani)_
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - **fix:** resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963) _(by Nathanael Mbale, Athan Reines)_
 -   [`626ed3d`](https://github.com/stdlib-js/stdlib/commit/626ed3d83cc94d0abd3d3c3f574032c0913eb0f9) - **feat:** add `blas/base/ndarray/csscal` [(#12003)](https://github.com/stdlib-js/stdlib/pull/12003) _(by Kaustubh Patange)_
