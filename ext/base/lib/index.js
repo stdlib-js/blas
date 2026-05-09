@@ -271,6 +271,15 @@ setReadOnly( ns, 'dfill', require( './../../../ext/base/dfill' ) );
 setReadOnly( ns, 'dindexOf', require( './../../../ext/base/dindex-of' ) );
 
 /**
+* @name dindexOfColumn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dindex-of-column}
+*/
+setReadOnly( ns, 'dindexOfColumn', require( './../../../ext/base/dindex-of-column' ) );
+
+/**
 * @name dindexOfRow
 * @memberof ns
 * @readonly
