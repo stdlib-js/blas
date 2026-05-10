@@ -989,6 +989,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`eed3993`](https://github.com/stdlib-js/stdlib/commit/eed3993cc5025fa69b40a2f36015b8c590e9b6b1) - **refactor:** align `blas/ext/base/gcartesian-square` JSDoc and accessor return with siblings [(#11988)](https://github.com/stdlib-js/stdlib/pull/11988) _(by Philipp Burckhardt)_
 -   [`8ad7ea2`](https://github.com/stdlib-js/stdlib/commit/8ad7ea2f5654f163c8d489e606f9985ad7206be2) - **fix:** update stride validation error messages [(#11998)](https://github.com/stdlib-js/stdlib/pull/11998) _(by Philipp Burckhardt, Athan Reines)_
 -   [`97531ec`](https://github.com/stdlib-js/stdlib/commit/97531ec62caeddc8d193057ccc87bd4495eb5619) - **docs:** add notes content to `blas/ext/base/ndarray/gjoin` README [(#12037)](https://github.com/stdlib-js/stdlib/pull/12037) _(by Philipp Burckhardt)_
 -   [`ccc096f`](https://github.com/stdlib-js/stdlib/commit/ccc096fc2a242ff39859377bd2b9862cd7484656) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12034)](https://github.com/stdlib-js/stdlib/pull/12034) _(by stdlib-bot)_
