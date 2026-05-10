@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-09)
+## Unreleased (2026-05-10)
 
 <section class="features">
 
@@ -987,6 +987,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`6aadf15`](https://github.com/stdlib-js/stdlib/commit/6aadf15bef12a9e449e43ca4eb963d3272a51700) - **docs:** update namespace table of contents [(#12036)](https://github.com/stdlib-js/stdlib/pull/12036) _(by stdlib-bot)_
 -   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - **feat:** add `csscal` to namespace _(by Athan Reines)_
 -   [`41d54f5`](https://github.com/stdlib-js/stdlib/commit/41d54f576b76d7c3491f711198f1dd7009e8e072) - **chore:** fix JavaScript lint errors [(#11703)](https://github.com/stdlib-js/stdlib/pull/11703) _(by Bhumika Sudarshani)_
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - **fix:** resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963) _(by Nathanael Mbale, Athan Reines)_
