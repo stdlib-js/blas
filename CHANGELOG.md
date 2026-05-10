@@ -988,6 +988,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`97531ec`](https://github.com/stdlib-js/stdlib/commit/97531ec62caeddc8d193057ccc87bd4495eb5619) - **docs:** add notes content to `blas/ext/base/ndarray/gjoin` README [(#12037)](https://github.com/stdlib-js/stdlib/pull/12037) _(by Philipp Burckhardt)_
 -   [`ccc096f`](https://github.com/stdlib-js/stdlib/commit/ccc096fc2a242ff39859377bd2b9862cd7484656) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12034)](https://github.com/stdlib-js/stdlib/pull/12034) _(by stdlib-bot)_
 -   [`6aadf15`](https://github.com/stdlib-js/stdlib/commit/6aadf15bef12a9e449e43ca4eb963d3272a51700) - **docs:** update namespace table of contents [(#12036)](https://github.com/stdlib-js/stdlib/pull/12036) _(by stdlib-bot)_
 -   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - **feat:** add `csscal` to namespace _(by Athan Reines)_
