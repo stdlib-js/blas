@@ -298,6 +298,15 @@ setReadOnly( ns, 'dindexOfRow', require( './../../../ext/base/dindex-of-row' ) )
 setReadOnly( ns, 'dlastIndexOf', require( './../../../ext/base/dlast-index-of' ) );
 
 /**
+* @name dlastIndexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dlast-index-of-row}
+*/
+setReadOnly( ns, 'dlastIndexOfRow', require( './../../../ext/base/dlast-index-of-row' ) );
+
+/**
 * @name dlinspace
 * @memberof ns
 * @readonly
@@ -1439,6 +1448,15 @@ setReadOnly( ns, 'sfill', require( './../../../ext/base/sfill' ) );
 * @see {@link module:@stdlib/blas/ext/base/sindex-of}
 */
 setReadOnly( ns, 'sindexOf', require( './../../../ext/base/sindex-of' ) );
+
+/**
+* @name sindexOfColumn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sindex-of-column}
+*/
+setReadOnly( ns, 'sindexOfColumn', require( './../../../ext/base/sindex-of-column' ) );
 
 /**
 * @name sindexOfRow
