@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'cfill', require( './../../../ext/base/cfill' ) );
 
 /**
+* @name cindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cindex-of}
+*/
+setReadOnly( ns, 'cindexOf', require( './../../../ext/base/cindex-of' ) );
+
+/**
 * @name cindexOfRow
 * @memberof ns
 * @readonly
@@ -1727,6 +1736,15 @@ setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
 * @see {@link module:@stdlib/blas/ext/base/zfill}
 */
 setReadOnly( ns, 'zfill', require( './../../../ext/base/zfill' ) );
+
+/**
+* @name zindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zindex-of}
+*/
+setReadOnly( ns, 'zindexOf', require( './../../../ext/base/zindex-of' ) );
 
 /**
 * @name zindexOfRow
