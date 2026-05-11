@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`37d6e1a`](https://github.com/stdlib-js/stdlib/commit/37d6e1a13b9adadb6e2435ff0d197ed6c4618f08) - add `blas/ext/base/zlast-index-of-row` [(#12016)](https://github.com/stdlib-js/stdlib/pull/12016)
 -   [`ffd98ea`](https://github.com/stdlib-js/stdlib/commit/ffd98eacb7a311fe200c3fc8630fb8bfc05ad54c) - add `cindexOf` and `zindexOf` to namespace
 -   [`9fe52ef`](https://github.com/stdlib-js/stdlib/commit/9fe52ef6bee547b7df7bfab7fc7bc36cf3fec510) - add `blas/ext/base/cindex-of` [(#11798)](https://github.com/stdlib-js/stdlib/pull/11798)
 -   [`7fb79ff`](https://github.com/stdlib-js/stdlib/commit/7fb79ff35cfcb8311ec4ca24ece274f7c6bdb4d8) - add `blas/ext/base/zindex-of` [(#11800)](https://github.com/stdlib-js/stdlib/pull/11800)
@@ -999,6 +1000,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`37d6e1a`](https://github.com/stdlib-js/stdlib/commit/37d6e1a13b9adadb6e2435ff0d197ed6c4618f08) - **feat:** add `blas/ext/base/zlast-index-of-row` [(#12016)](https://github.com/stdlib-js/stdlib/pull/12016) _(by Muhammad Haris, Athan Reines)_
 -   [`ffd98ea`](https://github.com/stdlib-js/stdlib/commit/ffd98eacb7a311fe200c3fc8630fb8bfc05ad54c) - **feat:** add `cindexOf` and `zindexOf` to namespace _(by Athan Reines)_
 -   [`9fe52ef`](https://github.com/stdlib-js/stdlib/commit/9fe52ef6bee547b7df7bfab7fc7bc36cf3fec510) - **feat:** add `blas/ext/base/cindex-of` [(#11798)](https://github.com/stdlib-js/stdlib/pull/11798) _(by Muhammad Haris)_
 -   [`7fb79ff`](https://github.com/stdlib-js/stdlib/commit/7fb79ff35cfcb8311ec4ca24ece274f7c6bdb4d8) - **feat:** add `blas/ext/base/zindex-of` [(#11800)](https://github.com/stdlib-js/stdlib/pull/11800) _(by Muhammad Haris)_
