@@ -996,6 +996,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`c534f97`](https://github.com/stdlib-js/stdlib/commit/c534f971488b2a5ebacca4dccf73a9d9b4e09bc7) - **docs:** update namespace table of contents [(#12092)](https://github.com/stdlib-js/stdlib/pull/12092) _(by stdlib-bot)_
 -   [`cc63b7a`](https://github.com/stdlib-js/stdlib/commit/cc63b7a923561de213c54f207327f5017be27dbb) - **feat:** add `dlastIndexOfRow` and `sindexOfColumn` to namespace _(by Athan Reines)_
 -   [`5adb91b`](https://github.com/stdlib-js/stdlib/commit/5adb91b530474c4fd82c27b6a43344d6e2e29f7f) - **feat:** add `blas/ext/base/dlast-index-of-row` [(#12013)](https://github.com/stdlib-js/stdlib/pull/12013) _(by Muhammad Haris, Athan Reines)_
 -   [`3abbe0d`](https://github.com/stdlib-js/stdlib/commit/3abbe0dfbbaddc85e1f0bd9c62fe043c7c7ed85a) - **feat:** add `blas/ext/base/sindex-of-column` [(#12055)](https://github.com/stdlib-js/stdlib/pull/12055) _(by Muhammad Haris, Athan Reines)_
