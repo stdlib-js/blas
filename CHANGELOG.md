@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c1d19ca`](https://github.com/stdlib-js/stdlib/commit/c1d19cabf2c4ae23a1b96f4fd1a50e9b689809f6) - add `blas/base/ndarray/dnrm2` [(#12056)](https://github.com/stdlib-js/stdlib/pull/12056)
 -   [`537c3df`](https://github.com/stdlib-js/stdlib/commit/537c3df0a7acec885781a6e39482a93ebbae015b) - add `blas/base/ndarray/zdscal` [(#12015)](https://github.com/stdlib-js/stdlib/pull/12015)
 -   [`ccc096f`](https://github.com/stdlib-js/stdlib/commit/ccc096fc2a242ff39859377bd2b9862cd7484656) - update `blas/base/ndarray` TypeScript declarations [(#12034)](https://github.com/stdlib-js/stdlib/pull/12034)
 -   [`3e87387`](https://github.com/stdlib-js/stdlib/commit/3e873878a62d48c1fe165b12f534c7937999e28c) - add `csscal` to namespace
@@ -990,6 +991,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`c1d19ca`](https://github.com/stdlib-js/stdlib/commit/c1d19cabf2c4ae23a1b96f4fd1a50e9b689809f6) - **feat:** add `blas/base/ndarray/dnrm2` [(#12056)](https://github.com/stdlib-js/stdlib/pull/12056) _(by Kaustubh Patange)_
 -   [`537c3df`](https://github.com/stdlib-js/stdlib/commit/537c3df0a7acec885781a6e39482a93ebbae015b) - **feat:** add `blas/base/ndarray/zdscal` [(#12015)](https://github.com/stdlib-js/stdlib/pull/12015) _(by Kaustubh Patange)_
 -   [`eed3993`](https://github.com/stdlib-js/stdlib/commit/eed3993cc5025fa69b40a2f36015b8c590e9b6b1) - **refactor:** align `blas/ext/base/gcartesian-square` JSDoc and accessor return with siblings [(#11988)](https://github.com/stdlib-js/stdlib/pull/11988) _(by Philipp Burckhardt)_
 -   [`8ad7ea2`](https://github.com/stdlib-js/stdlib/commit/8ad7ea2f5654f163c8d489e606f9985ad7206be2) - **fix:** update stride validation error messages [(#11998)](https://github.com/stdlib-js/stdlib/pull/11998) _(by Philipp Burckhardt, Athan Reines)_
