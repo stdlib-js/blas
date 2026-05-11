@@ -118,6 +118,15 @@ setReadOnly( ns, 'dcopy', require( './../../../base/ndarray/dcopy' ) );
 setReadOnly( ns, 'ddot', require( './../../../base/ndarray/ddot' ) );
 
 /**
+* @name dnrm2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dnrm2}
+*/
+setReadOnly( ns, 'dnrm2', require( './../../../base/ndarray/dnrm2' ) );
+
+/**
 * @name dscal
 * @memberof ns
 * @readonly
@@ -260,6 +269,15 @@ setReadOnly( ns, 'zaxpy', require( './../../../base/ndarray/zaxpy' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/zcopy}
 */
 setReadOnly( ns, 'zcopy', require( './../../../base/ndarray/zcopy' ) );
+
+/**
+* @name zdscal
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/zdscal}
+*/
+setReadOnly( ns, 'zdscal', require( './../../../base/ndarray/zdscal' ) );
 
 /**
 * @name zscal
