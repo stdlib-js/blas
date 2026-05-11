@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5adb91b`](https://github.com/stdlib-js/stdlib/commit/5adb91b530474c4fd82c27b6a43344d6e2e29f7f) - add `blas/ext/base/dlast-index-of-row` [(#12013)](https://github.com/stdlib-js/stdlib/pull/12013)
 -   [`3abbe0d`](https://github.com/stdlib-js/stdlib/commit/3abbe0dfbbaddc85e1f0bd9c62fe043c7c7ed85a) - add `blas/ext/base/sindex-of-column` [(#12055)](https://github.com/stdlib-js/stdlib/pull/12055)
 -   [`d0b2b89`](https://github.com/stdlib-js/stdlib/commit/d0b2b89c1ab6971c32b9c2caadb65bbd1f678c32) - add `zdscal` to namespace
 -   [`e9837f5`](https://github.com/stdlib-js/stdlib/commit/e9837f55748bd8736373f246184e60ff96e13f7d) - add `dnrm2` to namespace
@@ -994,6 +995,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`5adb91b`](https://github.com/stdlib-js/stdlib/commit/5adb91b530474c4fd82c27b6a43344d6e2e29f7f) - **feat:** add `blas/ext/base/dlast-index-of-row` [(#12013)](https://github.com/stdlib-js/stdlib/pull/12013) _(by Muhammad Haris, Athan Reines)_
 -   [`3abbe0d`](https://github.com/stdlib-js/stdlib/commit/3abbe0dfbbaddc85e1f0bd9c62fe043c7c7ed85a) - **feat:** add `blas/ext/base/sindex-of-column` [(#12055)](https://github.com/stdlib-js/stdlib/pull/12055) _(by Muhammad Haris, Athan Reines)_
 -   [`026ec2d`](https://github.com/stdlib-js/stdlib/commit/026ec2db75d40177357a7f226dc6f13c0e66fa34) - **docs:** add math equation _(by Athan Reines)_
 -   [`d0b2b89`](https://github.com/stdlib-js/stdlib/commit/d0b2b89c1ab6971c32b9c2caadb65bbd1f678c32) - **feat:** add `zdscal` to namespace _(by Athan Reines)_
