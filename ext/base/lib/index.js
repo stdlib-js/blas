@@ -64,6 +64,15 @@ setReadOnly( ns, 'cindexOf', require( './../../../ext/base/cindex-of' ) );
 setReadOnly( ns, 'cindexOfRow', require( './../../../ext/base/cindex-of-row' ) );
 
 /**
+* @name clastIndexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/clast-index-of-row}
+*/
+setReadOnly( ns, 'clastIndexOfRow', require( './../../../ext/base/clast-index-of-row' ) );
+
+/**
 * @name coneTo
 * @memberof ns
 * @readonly
@@ -1754,6 +1763,15 @@ setReadOnly( ns, 'zindexOf', require( './../../../ext/base/zindex-of' ) );
 * @see {@link module:@stdlib/blas/ext/base/zindex-of-row}
 */
 setReadOnly( ns, 'zindexOfRow', require( './../../../ext/base/zindex-of-row' ) );
+
+/**
+* @name zlastIndexOfRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zlast-index-of-row}
+*/
+setReadOnly( ns, 'zlastIndexOfRow', require( './../../../ext/base/zlast-index-of-row' ) );
 
 /**
 * @name znancount
