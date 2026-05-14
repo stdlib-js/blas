@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-12)
+## Unreleased (2026-05-14)
 
 <section class="features">
 
@@ -1002,6 +1002,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`00769bf`](https://github.com/stdlib-js/stdlib/commit/00769bf95066c75eb9b03ca7d8ac01fdc2bf79fc) - **chore:** add `blas` and `extended` keywords to `nancount` packages in `blas/ext/base` [(#12120)](https://github.com/stdlib-js/stdlib/pull/12120) _(by Philipp Burckhardt)_
 -   [`31695e0`](https://github.com/stdlib-js/stdlib/commit/31695e02a15528f3ac30d6d8ef5b376c33b42fae) - **docs:** update namespace table of contents [(#12100)](https://github.com/stdlib-js/stdlib/pull/12100) _(by stdlib-bot)_
 -   [`4363d92`](https://github.com/stdlib-js/stdlib/commit/4363d9250c5763ab03766fd7d1eeefd8d95492dc) - **feat:** add `clastIndexOfRow` and `zlastIndexOfRow` to namespace _(by Athan Reines)_
 -   [`34e6d72`](https://github.com/stdlib-js/stdlib/commit/34e6d72459f98985d2d6ca0a103f6ca31d0af4ad) - **feat:** add `blas/ext/base/clast-index-of-row` [(#12029)](https://github.com/stdlib-js/stdlib/pull/12029) _(by Muhammad Haris, Athan Reines)_
