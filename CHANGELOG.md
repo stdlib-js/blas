@@ -1006,6 +1006,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`20f5ae9`](https://github.com/stdlib-js/stdlib/commit/20f5ae916616322edc3771798e51017ecc977c6a) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/dgemm` [(#12131)](https://github.com/stdlib-js/stdlib/pull/12131) _(by Kaustubh Patange, Athan Reines)_
 -   [`80b1ef7`](https://github.com/stdlib-js/stdlib/commit/80b1ef78393a2d7ffcae70014b0d357075ab1b1e) - **feat:** add `zindexOfColumn` and `cindexOfColumn` to namespace _(by Athan Reines)_
 -   [`62dad13`](https://github.com/stdlib-js/stdlib/commit/62dad13b7b98d04adc5c19f89dacddcfcd8a5a69) - **feat:** add `blas/ext/base/zindex-of-column` [(#12067)](https://github.com/stdlib-js/stdlib/pull/12067) _(by Muhammad Haris, Athan Reines)_
 -   [`995d771`](https://github.com/stdlib-js/stdlib/commit/995d771d82266b26ba8ca39e51143cc7e38b9274) - **feat:** add `blas/ext/base/cindex-of-column` [(#12075)](https://github.com/stdlib-js/stdlib/pull/12075) _(by Muhammad Haris, Athan Reines)_
