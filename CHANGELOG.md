@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`32f6946`](https://github.com/stdlib-js/stdlib/commit/32f694605abe1a94473ecec1b9192ad9698c88ee) - update `blas/base/ndarray` TypeScript declarations [(#12123)](https://github.com/stdlib-js/stdlib/pull/12123)
 -   [`4363d92`](https://github.com/stdlib-js/stdlib/commit/4363d9250c5763ab03766fd7d1eeefd8d95492dc) - add `clastIndexOfRow` and `zlastIndexOfRow` to namespace
 -   [`34e6d72`](https://github.com/stdlib-js/stdlib/commit/34e6d72459f98985d2d6ca0a103f6ca31d0af4ad) - add `blas/ext/base/clast-index-of-row` [(#12029)](https://github.com/stdlib-js/stdlib/pull/12029)
 -   [`37d6e1a`](https://github.com/stdlib-js/stdlib/commit/37d6e1a13b9adadb6e2435ff0d197ed6c4618f08) - add `blas/ext/base/zlast-index-of-row` [(#12016)](https://github.com/stdlib-js/stdlib/pull/12016)
@@ -1002,6 +1003,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`32f6946`](https://github.com/stdlib-js/stdlib/commit/32f694605abe1a94473ecec1b9192ad9698c88ee) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12123)](https://github.com/stdlib-js/stdlib/pull/12123) _(by stdlib-bot)_
 -   [`00769bf`](https://github.com/stdlib-js/stdlib/commit/00769bf95066c75eb9b03ca7d8ac01fdc2bf79fc) - **chore:** add `blas` and `extended` keywords to `nancount` packages in `blas/ext/base` [(#12120)](https://github.com/stdlib-js/stdlib/pull/12120) _(by Philipp Burckhardt)_
 -   [`31695e0`](https://github.com/stdlib-js/stdlib/commit/31695e02a15528f3ac30d6d8ef5b376c33b42fae) - **docs:** update namespace table of contents [(#12100)](https://github.com/stdlib-js/stdlib/pull/12100) _(by stdlib-bot)_
 -   [`4363d92`](https://github.com/stdlib-js/stdlib/commit/4363d9250c5763ab03766fd7d1eeefd8d95492dc) - **feat:** add `clastIndexOfRow` and `zlastIndexOfRow` to namespace _(by Athan Reines)_

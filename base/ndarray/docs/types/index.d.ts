@@ -29,6 +29,7 @@ import dasum = require( './../../../../base/ndarray/dasum' );
 import daxpy = require( './../../../../base/ndarray/daxpy' );
 import dcopy = require( './../../../../base/ndarray/dcopy' );
 import ddot = require( './../../../../base/ndarray/ddot' );
+import dnrm2 = require( './../../../../base/ndarray/dnrm2' );
 import dscal = require( './../../../../base/ndarray/dscal' );
 import dswap = require( './../../../../base/ndarray/dswap' );
 import gasum = require( './../../../../base/ndarray/gasum' );
@@ -45,6 +46,7 @@ import sscal = require( './../../../../base/ndarray/sscal' );
 import sswap = require( './../../../../base/ndarray/sswap' );
 import zaxpy = require( './../../../../base/ndarray/zaxpy' );
 import zcopy = require( './../../../../base/ndarray/zcopy' );
+import zdscal = require( './../../../../base/ndarray/zdscal' );
 import zscal = require( './../../../../base/ndarray/zscal' );
 import zswap = require( './../../../../base/ndarray/zswap' );
 
@@ -309,6 +311,28 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	ddot: typeof ddot;
+
+	/**
+	* Computes the L2-norm of a one-dimensional double-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns L2-norm
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	*
+	* var x = new Float64Vector( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var y = ns.dnrm2( [ x ] );
+	* // returns 3.0
+	*/
+	dnrm2: typeof dnrm2;
 
 	/**
 	* Multiplies a one-dimensional double-precision floating-point ndarray by a scalar constant.
@@ -759,6 +783,37 @@ interface Namespace {
 	* // returns true
 	*/
 	zcopy: typeof zcopy;
+
+	/**
+	* Multiplies a one-dimensional double-precision complex floating-point ndarray by a double-precision floating-point scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing a scalar constant.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex128Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var alpha = scalar2ndarray( 2.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var y = ns.zdscal( [ x, alpha ] );
+	* // returns <ndarray>[ <Complex128>[ 2.0, 4.0 ], <Complex128>[ 6.0, 8.0 ], <Complex128>[ 10.0, 12.0 ] ]
+	*
+	* var bool = ( y === x );
+	* // returns true
+	*/
+	zdscal: typeof zdscal;
 
 	/**
 	* Multiplies a one-dimensional double-precision complex floating-point ndarray by a scalar constant.
