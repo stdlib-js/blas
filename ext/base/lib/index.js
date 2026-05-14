@@ -55,6 +55,15 @@ setReadOnly( ns, 'cfill', require( './../../../ext/base/cfill' ) );
 setReadOnly( ns, 'cindexOf', require( './../../../ext/base/cindex-of' ) );
 
 /**
+* @name cindexOfColumn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cindex-of-column}
+*/
+setReadOnly( ns, 'cindexOfColumn', require( './../../../ext/base/cindex-of-column' ) );
+
+/**
 * @name cindexOfRow
 * @memberof ns
 * @readonly
@@ -1754,6 +1763,15 @@ setReadOnly( ns, 'zfill', require( './../../../ext/base/zfill' ) );
 * @see {@link module:@stdlib/blas/ext/base/zindex-of}
 */
 setReadOnly( ns, 'zindexOf', require( './../../../ext/base/zindex-of' ) );
+
+/**
+* @name zindexOfColumn
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zindex-of-column}
+*/
+setReadOnly( ns, 'zindexOfColumn', require( './../../../ext/base/zindex-of-column' ) );
 
 /**
 * @name zindexOfRow
