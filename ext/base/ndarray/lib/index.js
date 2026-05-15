@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name cindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cindex-of}
+*/
+setReadOnly( ns, 'cindexOf', require( './../../../../ext/base/ndarray/cindex-of' ) );
+
+/**
 * @name coneTo
 * @memberof ns
 * @readonly
@@ -773,6 +782,15 @@ setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspa
 * @see {@link module:@stdlib/blas/ext/base/ndarray/szero-to}
 */
 setReadOnly( ns, 'szeroTo', require( './../../../../ext/base/ndarray/szero-to' ) );
+
+/**
+* @name zindexOf
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zindex-of}
+*/
+setReadOnly( ns, 'zindexOf', require( './../../../../ext/base/ndarray/zindex-of' ) );
 
 /**
 * @name zoneTo

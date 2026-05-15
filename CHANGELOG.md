@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`668b99b`](https://github.com/stdlib-js/stdlib/commit/668b99bbb0e95cc49329b41479f9281ac26c00c7) - add specialized support for complex numbers
+-   [`6bb174f`](https://github.com/stdlib-js/stdlib/commit/6bb174f15e9b209cb91493417b4df44e7d1353eb) - add `zindexOf` and `cindexOf` to namespace
 -   [`ca72b06`](https://github.com/stdlib-js/stdlib/commit/ca72b065a77016d4f71b828dd0833de8ca01b509) - add `blas/ext/base/ndarray/cindex-of` [(#12148)](https://github.com/stdlib-js/stdlib/pull/12148)
 -   [`822b656`](https://github.com/stdlib-js/stdlib/commit/822b65687926b7386e5109e0284b6d6aaf0c4542) - add `blas/ext/base/ndarray/zindex-of` [(#12147)](https://github.com/stdlib-js/stdlib/pull/12147)
 -   [`c9dee92`](https://github.com/stdlib-js/stdlib/commit/c9dee92460d791b74a40a6c286399d73af558047) - update `blas/ext/base` TypeScript declarations [(#12140)](https://github.com/stdlib-js/stdlib/pull/12140)
@@ -1009,6 +1011,8 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`668b99b`](https://github.com/stdlib-js/stdlib/commit/668b99bbb0e95cc49329b41479f9281ac26c00c7) - **feat:** add specialized support for complex numbers _(by Athan Reines)_
+-   [`6bb174f`](https://github.com/stdlib-js/stdlib/commit/6bb174f15e9b209cb91493417b4df44e7d1353eb) - **feat:** add `zindexOf` and `cindexOf` to namespace _(by Athan Reines)_
 -   [`ca72b06`](https://github.com/stdlib-js/stdlib/commit/ca72b065a77016d4f71b828dd0833de8ca01b509) - **feat:** add `blas/ext/base/ndarray/cindex-of` [(#12148)](https://github.com/stdlib-js/stdlib/pull/12148) _(by Muhammad Haris)_
 -   [`822b656`](https://github.com/stdlib-js/stdlib/commit/822b65687926b7386e5109e0284b6d6aaf0c4542) - **feat:** add `blas/ext/base/ndarray/zindex-of` [(#12147)](https://github.com/stdlib-js/stdlib/pull/12147) _(by Muhammad Haris, Athan Reines)_
 -   [`c9dee92`](https://github.com/stdlib-js/stdlib/commit/c9dee92460d791b74a40a6c286399d73af558047) - **feat:** update `blas/ext/base` TypeScript declarations [(#12140)](https://github.com/stdlib-js/stdlib/pull/12140) _(by stdlib-bot)_
