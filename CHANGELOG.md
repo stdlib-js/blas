@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`822b656`](https://github.com/stdlib-js/stdlib/commit/822b65687926b7386e5109e0284b6d6aaf0c4542) - add `blas/ext/base/ndarray/zindex-of` [(#12147)](https://github.com/stdlib-js/stdlib/pull/12147)
+-   [`c9dee92`](https://github.com/stdlib-js/stdlib/commit/c9dee92460d791b74a40a6c286399d73af558047) - update `blas/ext/base` TypeScript declarations [(#12140)](https://github.com/stdlib-js/stdlib/pull/12140)
 -   [`80b1ef7`](https://github.com/stdlib-js/stdlib/commit/80b1ef78393a2d7ffcae70014b0d357075ab1b1e) - add `zindexOfColumn` and `cindexOfColumn` to namespace
 -   [`62dad13`](https://github.com/stdlib-js/stdlib/commit/62dad13b7b98d04adc5c19f89dacddcfcd8a5a69) - add `blas/ext/base/zindex-of-column` [(#12067)](https://github.com/stdlib-js/stdlib/pull/12067)
 -   [`995d771`](https://github.com/stdlib-js/stdlib/commit/995d771d82266b26ba8ca39e51143cc7e38b9274) - add `blas/ext/base/cindex-of-column` [(#12075)](https://github.com/stdlib-js/stdlib/pull/12075)
@@ -1006,6 +1008,8 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`822b656`](https://github.com/stdlib-js/stdlib/commit/822b65687926b7386e5109e0284b6d6aaf0c4542) - **feat:** add `blas/ext/base/ndarray/zindex-of` [(#12147)](https://github.com/stdlib-js/stdlib/pull/12147) _(by Muhammad Haris, Athan Reines)_
+-   [`c9dee92`](https://github.com/stdlib-js/stdlib/commit/c9dee92460d791b74a40a6c286399d73af558047) - **feat:** update `blas/ext/base` TypeScript declarations [(#12140)](https://github.com/stdlib-js/stdlib/pull/12140) _(by stdlib-bot)_
 -   [`5f6ce93`](https://github.com/stdlib-js/stdlib/commit/5f6ce933d6e8794302bf652392b22d8811eef537) - **docs:** update namespace table of contents [(#12141)](https://github.com/stdlib-js/stdlib/pull/12141) _(by stdlib-bot)_
 -   [`20f5ae9`](https://github.com/stdlib-js/stdlib/commit/20f5ae916616322edc3771798e51017ecc977c6a) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/dgemm` [(#12131)](https://github.com/stdlib-js/stdlib/pull/12131) _(by Kaustubh Patange, Athan Reines)_
 -   [`80b1ef7`](https://github.com/stdlib-js/stdlib/commit/80b1ef78393a2d7ffcae70014b0d357075ab1b1e) - **feat:** add `zindexOfColumn` and `cindexOfColumn` to namespace _(by Athan Reines)_
