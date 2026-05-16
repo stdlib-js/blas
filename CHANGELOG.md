@@ -1012,6 +1012,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`66ec9de`](https://github.com/stdlib-js/stdlib/commit/66ec9de8d5be3960d329762c2c132adcbd35337d) - **docs:** update namespace table of contents [(#12151)](https://github.com/stdlib-js/stdlib/pull/12151) _(by stdlib-bot)_
 -   [`193ef92`](https://github.com/stdlib-js/stdlib/commit/193ef92269b918b379332d43d792209adbd0e495) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12150)](https://github.com/stdlib-js/stdlib/pull/12150) _(by stdlib-bot)_
 -   [`668b99b`](https://github.com/stdlib-js/stdlib/commit/668b99bbb0e95cc49329b41479f9281ac26c00c7) - **feat:** add specialized support for complex numbers _(by Athan Reines)_
 -   [`6bb174f`](https://github.com/stdlib-js/stdlib/commit/6bb174f15e9b209cb91493417b4df44e7d1353eb) - **feat:** add `zindexOf` and `cindexOf` to namespace _(by Athan Reines)_
