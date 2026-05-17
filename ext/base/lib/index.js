@@ -811,6 +811,15 @@ setReadOnly( ns, 'gapxsumpw', require( './../../../ext/base/gapxsumpw' ) );
 setReadOnly( ns, 'gasumpw', require( './../../../ext/base/gasumpw' ) );
 
 /**
+* @name gaxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gaxpb}
+*/
+setReadOnly( ns, 'gaxpb', require( './../../../ext/base/gaxpb' ) );
+
+/**
 * @name gcartesianPower
 * @memberof ns
 * @readonly
