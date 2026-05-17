@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-16)
+## Unreleased (2026-05-17)
 
 <section class="features">
 
@@ -662,6 +662,7 @@
 
 ### Bug Fixes
 
+-   [`dff4820`](https://github.com/stdlib-js/stdlib/commit/dff4820f380b561fb0044e3d6deb894aa4a8f865) - update `blas/ext/base/gapx` TypeScript test type expectations [(#12169)](https://github.com/stdlib-js/stdlib/pull/12169)
 -   [`8ad7ea2`](https://github.com/stdlib-js/stdlib/commit/8ad7ea2f5654f163c8d489e606f9985ad7206be2) - update stride validation error messages [(#11998)](https://github.com/stdlib-js/stdlib/pull/11998)
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963)
 -   [`74e79f9`](https://github.com/stdlib-js/stdlib/commit/74e79f9fd8dfae766dd9a016f0c1e63b9abae097) - propagate `API_SUFFIX` wrappers and complex number description wording [(#11952)](https://github.com/stdlib-js/stdlib/pull/11952)
@@ -1012,6 +1013,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`dff4820`](https://github.com/stdlib-js/stdlib/commit/dff4820f380b561fb0044e3d6deb894aa4a8f865) - **fix:** update `blas/ext/base/gapx` TypeScript test type expectations [(#12169)](https://github.com/stdlib-js/stdlib/pull/12169) _(by Karan Anand)_
 -   [`66ec9de`](https://github.com/stdlib-js/stdlib/commit/66ec9de8d5be3960d329762c2c132adcbd35337d) - **docs:** update namespace table of contents [(#12151)](https://github.com/stdlib-js/stdlib/pull/12151) _(by stdlib-bot)_
 -   [`193ef92`](https://github.com/stdlib-js/stdlib/commit/193ef92269b918b379332d43d792209adbd0e495) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12150)](https://github.com/stdlib-js/stdlib/pull/12150) _(by stdlib-bot)_
 -   [`668b99b`](https://github.com/stdlib-js/stdlib/commit/668b99bbb0e95cc49329b41479f9281ac26c00c7) - **feat:** add specialized support for complex numbers _(by Athan Reines)_
