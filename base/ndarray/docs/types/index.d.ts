@@ -42,6 +42,7 @@ import sasum = require( './../../../../base/ndarray/sasum' );
 import saxpy = require( './../../../../base/ndarray/saxpy' );
 import scopy = require( './../../../../base/ndarray/scopy' );
 import sdot = require( './../../../../base/ndarray/sdot' );
+import snrm2 = require( './../../../../base/ndarray/snrm2' );
 import sscal = require( './../../../../base/ndarray/sscal' );
 import sswap = require( './../../../../base/ndarray/sswap' );
 import zaxpy = require( './../../../../base/ndarray/zaxpy' );
@@ -663,6 +664,28 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	sdot: typeof sdot;
+
+	/**
+	* Computes the L2-norm of a one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns L2-norm
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	*
+	* var x = new Float32Vector( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var y = ns.snrm2( [ x ] );
+	* // returns 3.0
+	*/
+	snrm2: typeof snrm2;
 
 	/**
 	* Multiplies a one-dimensional single-precision floating-point ndarray by a scalar constant.
