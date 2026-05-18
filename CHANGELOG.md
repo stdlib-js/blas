@@ -1018,6 +1018,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`435bb3c`](https://github.com/stdlib-js/stdlib/commit/435bb3c833f76f9a0a325d435929444dd4407100) - **test:** add alpha & beta tests for `blas/base/sgemm` [(#12190)](https://github.com/stdlib-js/stdlib/pull/12190) _(by Kaustubh Patange, Athan Reines)_
 -   [`42bb7cc`](https://github.com/stdlib-js/stdlib/commit/42bb7cc5d2655b31498a8815725b248006c00263) - **test:** add alpha & beta tests for `blas/base/dgemm` [(#10709)](https://github.com/stdlib-js/stdlib/pull/10709) _(by Dhruvan Gnanadhandayuthapani, Athan Reines, Kaustubh Patange)_
 -   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187) _(by stdlib-bot)_
 -   [`8a676c9`](https://github.com/stdlib-js/stdlib/commit/8a676c90f885ee4c0ffd9b324f4e4707ea025843) - **docs:** update namespace table of contents [(#12189)](https://github.com/stdlib-js/stdlib/pull/12189) _(by stdlib-bot)_
