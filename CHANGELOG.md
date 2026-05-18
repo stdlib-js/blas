@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2a0b1a1`](https://github.com/stdlib-js/stdlib/commit/2a0b1a14207a659f1deb4d0c2a4afb5a99ce40d5) - add `C` implementation for `blas/base/cgemv` [(#11739)](https://github.com/stdlib-js/stdlib/pull/11739)
 -   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187)
 -   [`253d30f`](https://github.com/stdlib-js/stdlib/commit/253d30fa746ea523a925707173eada2f3f78c4b5) - add `gaxpb` to namespace
 -   [`67dc0d6`](https://github.com/stdlib-js/stdlib/commit/67dc0d63e0b690405c200eaa8ad2748cfcbaf7d0) - add `snrm2` to namespace
@@ -1018,6 +1019,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`2a0b1a1`](https://github.com/stdlib-js/stdlib/commit/2a0b1a14207a659f1deb4d0c2a4afb5a99ce40d5) - **feat:** add `C` implementation for `blas/base/cgemv` [(#11739)](https://github.com/stdlib-js/stdlib/pull/11739) _(by Divit Jain, Athan Reines)_
 -   [`435bb3c`](https://github.com/stdlib-js/stdlib/commit/435bb3c833f76f9a0a325d435929444dd4407100) - **test:** add alpha & beta tests for `blas/base/sgemm` [(#12190)](https://github.com/stdlib-js/stdlib/pull/12190) _(by Kaustubh Patange, Athan Reines)_
 -   [`42bb7cc`](https://github.com/stdlib-js/stdlib/commit/42bb7cc5d2655b31498a8815725b248006c00263) - **test:** add alpha & beta tests for `blas/base/dgemm` [(#10709)](https://github.com/stdlib-js/stdlib/pull/10709) _(by Dhruvan Gnanadhandayuthapani, Athan Reines, Kaustubh Patange)_
 -   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187) _(by stdlib-bot)_
