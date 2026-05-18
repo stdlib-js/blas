@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-17)
+## Unreleased (2026-05-18)
 
 <section class="features">
 
@@ -1017,6 +1017,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`8a676c9`](https://github.com/stdlib-js/stdlib/commit/8a676c90f885ee4c0ffd9b324f4e4707ea025843) - **docs:** update namespace table of contents [(#12189)](https://github.com/stdlib-js/stdlib/pull/12189) _(by stdlib-bot)_
 -   [`a6856ed`](https://github.com/stdlib-js/stdlib/commit/a6856ed70d323f4f09e5c5d382a18282f431de9d) - **docs:** update notes [(#12130)](https://github.com/stdlib-js/stdlib/pull/12130) _(by Philipp Burckhardt)_
 -   [`fbf2d91`](https://github.com/stdlib-js/stdlib/commit/fbf2d918b4fba88e148b3deba62b37cb667524aa) - **test:** fix typo in test description [(#12176)](https://github.com/stdlib-js/stdlib/pull/12176) _(by Philipp Burckhardt)_
 -   [`253d30f`](https://github.com/stdlib-js/stdlib/commit/253d30fa746ea523a925707173eada2f3f78c4b5) - **feat:** add `gaxpb` to namespace _(by Athan Reines)_
