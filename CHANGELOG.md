@@ -670,6 +670,7 @@
 
 ### Bug Fixes
 
+-   [`c606f03`](https://github.com/stdlib-js/stdlib/commit/c606f03c3ef85ae8483d29198403f3cdd3b9da73) - correct bugs and typos in `blas/base/cgemv` [(#12192)](https://github.com/stdlib-js/stdlib/pull/12192)
 -   [`dff4820`](https://github.com/stdlib-js/stdlib/commit/dff4820f380b561fb0044e3d6deb894aa4a8f865) - update `blas/ext/base/gapx` TypeScript test type expectations [(#12169)](https://github.com/stdlib-js/stdlib/pull/12169)
 -   [`8ad7ea2`](https://github.com/stdlib-js/stdlib/commit/8ad7ea2f5654f163c8d489e606f9985ad7206be2) - update stride validation error messages [(#11998)](https://github.com/stdlib-js/stdlib/pull/11998)
 -   [`6f01b40`](https://github.com/stdlib-js/stdlib/commit/6f01b4051c71295399ccf3f414d343fc7957caab) - resolve JavaScript lint errors [(#11963)](https://github.com/stdlib-js/stdlib/pull/11963)
@@ -1021,6 +1022,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`c606f03`](https://github.com/stdlib-js/stdlib/commit/c606f03c3ef85ae8483d29198403f3cdd3b9da73) - **fix:** correct bugs and typos in `blas/base/cgemv` [(#12192)](https://github.com/stdlib-js/stdlib/pull/12192) _(by Philipp Burckhardt)_
 -   [`f18c4cf`](https://github.com/stdlib-js/stdlib/commit/f18c4cfba3dcfe67a22040e3bd126cded18dc01d) - **feat:** add `blas/ext/base/daxpb` [(#12181)](https://github.com/stdlib-js/stdlib/pull/12181) _(by Karan Anand, Athan Reines)_
 -   [`e143b11`](https://github.com/stdlib-js/stdlib/commit/e143b110e11ee35abc354f03d29f53e19698080f) - **feat:** update `blas/ext/base` TypeScript declarations [(#12197)](https://github.com/stdlib-js/stdlib/pull/12197) _(by stdlib-bot)_
 -   [`fc3275c`](https://github.com/stdlib-js/stdlib/commit/fc3275c0cf47be38f09963fa95322cecf614348d) - **test:** add alpha & beta tests for `blas/base/ggemm` [(#12194)](https://github.com/stdlib-js/stdlib/pull/12194) _(by Kaustubh Patange)_
