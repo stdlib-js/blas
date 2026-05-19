@@ -199,6 +199,15 @@ setReadOnly( ns, 'dapxsumpw', require( './../../../ext/base/dapxsumpw' ) );
 setReadOnly( ns, 'dasumpw', require( './../../../ext/base/dasumpw' ) );
 
 /**
+* @name daxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/daxpb}
+*/
+setReadOnly( ns, 'daxpb', require( './../../../ext/base/daxpb' ) );
+
+/**
 * @name dcartesianPower
 * @memberof ns
 * @readonly
@@ -1331,6 +1340,15 @@ setReadOnly( ns, 'sapxsumpw', require( './../../../ext/base/sapxsumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/sasumpw}
 */
 setReadOnly( ns, 'sasumpw', require( './../../../ext/base/sasumpw' ) );
+
+/**
+* @name saxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/saxpb}
+*/
+setReadOnly( ns, 'saxpb', require( './../../../ext/base/saxpb' ) );
 
 /**
 * @name scartesianPower
