@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f18c4cf`](https://github.com/stdlib-js/stdlib/commit/f18c4cfba3dcfe67a22040e3bd126cded18dc01d) - add `blas/ext/base/daxpb` [(#12181)](https://github.com/stdlib-js/stdlib/pull/12181)
 -   [`e143b11`](https://github.com/stdlib-js/stdlib/commit/e143b110e11ee35abc354f03d29f53e19698080f) - update `blas/ext/base` TypeScript declarations [(#12197)](https://github.com/stdlib-js/stdlib/pull/12197)
 -   [`2a0b1a1`](https://github.com/stdlib-js/stdlib/commit/2a0b1a14207a659f1deb4d0c2a4afb5a99ce40d5) - add `C` implementation for `blas/base/cgemv` [(#11739)](https://github.com/stdlib-js/stdlib/pull/11739)
 -   [`2f8ce6b`](https://github.com/stdlib-js/stdlib/commit/2f8ce6bdaa96703077a9308113191002ab26dd5f) - update `blas/base/ndarray` TypeScript declarations [(#12187)](https://github.com/stdlib-js/stdlib/pull/12187)
@@ -1020,6 +1021,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`f18c4cf`](https://github.com/stdlib-js/stdlib/commit/f18c4cfba3dcfe67a22040e3bd126cded18dc01d) - **feat:** add `blas/ext/base/daxpb` [(#12181)](https://github.com/stdlib-js/stdlib/pull/12181) _(by Karan Anand, Athan Reines)_
 -   [`e143b11`](https://github.com/stdlib-js/stdlib/commit/e143b110e11ee35abc354f03d29f53e19698080f) - **feat:** update `blas/ext/base` TypeScript declarations [(#12197)](https://github.com/stdlib-js/stdlib/pull/12197) _(by stdlib-bot)_
 -   [`fc3275c`](https://github.com/stdlib-js/stdlib/commit/fc3275c0cf47be38f09963fa95322cecf614348d) - **test:** add alpha & beta tests for `blas/base/ggemm` [(#12194)](https://github.com/stdlib-js/stdlib/pull/12194) _(by Kaustubh Patange)_
 -   [`2a0b1a1`](https://github.com/stdlib-js/stdlib/commit/2a0b1a14207a659f1deb4d0c2a4afb5a99ce40d5) - **feat:** add `C` implementation for `blas/base/cgemv` [(#11739)](https://github.com/stdlib-js/stdlib/pull/11739) _(by Divit Jain, Athan Reines)_
