@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8b4a8d3`](https://github.com/stdlib-js/stdlib/commit/8b4a8d32cd58b709b892f0487c981012de036ccd) - add `blas/base/ndarray/gnrm2` [(#12206)](https://github.com/stdlib-js/stdlib/pull/12206)
 -   [`0d57983`](https://github.com/stdlib-js/stdlib/commit/0d57983c34c524d74428c894f4b1978bd6748386) - add `daxpb` and `saxpb` to namespace
 -   [`103392c`](https://github.com/stdlib-js/stdlib/commit/103392c9afbdde68c21474d580f35d634155fd0c) - add `blas/ext/base/saxpb` [(#12200)](https://github.com/stdlib-js/stdlib/pull/12200)
 -   [`f18c4cf`](https://github.com/stdlib-js/stdlib/commit/f18c4cfba3dcfe67a22040e3bd126cded18dc01d) - add `blas/ext/base/daxpb` [(#12181)](https://github.com/stdlib-js/stdlib/pull/12181)
@@ -1024,6 +1025,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`8b4a8d3`](https://github.com/stdlib-js/stdlib/commit/8b4a8d32cd58b709b892f0487c981012de036ccd) - **feat:** add `blas/base/ndarray/gnrm2` [(#12206)](https://github.com/stdlib-js/stdlib/pull/12206) _(by Kaustubh Patange)_
 -   [`9559de0`](https://github.com/stdlib-js/stdlib/commit/9559de093ed0c43ba65c7b6829be61a5967cd2f4) - **chore:** propagate typo and doc-note fixes across `blas` sibling packages [(#12202)](https://github.com/stdlib-js/stdlib/pull/12202) _(by Philipp Burckhardt)_
 -   [`0d57983`](https://github.com/stdlib-js/stdlib/commit/0d57983c34c524d74428c894f4b1978bd6748386) - **feat:** add `daxpb` and `saxpb` to namespace _(by Athan Reines)_
 -   [`103392c`](https://github.com/stdlib-js/stdlib/commit/103392c9afbdde68c21474d580f35d634155fd0c) - **feat:** add `blas/ext/base/saxpb` [(#12200)](https://github.com/stdlib-js/stdlib/pull/12200) _(by Karan Anand, Athan Reines)_
