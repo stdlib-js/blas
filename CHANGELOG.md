@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-18)
+## Unreleased (2026-05-19)
 
 <section class="features">
 
@@ -1019,6 +1019,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`fc3275c`](https://github.com/stdlib-js/stdlib/commit/fc3275c0cf47be38f09963fa95322cecf614348d) - **test:** add alpha & beta tests for `blas/base/ggemm` [(#12194)](https://github.com/stdlib-js/stdlib/pull/12194) _(by Kaustubh Patange)_
 -   [`2a0b1a1`](https://github.com/stdlib-js/stdlib/commit/2a0b1a14207a659f1deb4d0c2a4afb5a99ce40d5) - **feat:** add `C` implementation for `blas/base/cgemv` [(#11739)](https://github.com/stdlib-js/stdlib/pull/11739) _(by Divit Jain, Athan Reines)_
 -   [`435bb3c`](https://github.com/stdlib-js/stdlib/commit/435bb3c833f76f9a0a325d435929444dd4407100) - **test:** add alpha & beta tests for `blas/base/sgemm` [(#12190)](https://github.com/stdlib-js/stdlib/pull/12190) _(by Kaustubh Patange, Athan Reines)_
 -   [`42bb7cc`](https://github.com/stdlib-js/stdlib/commit/42bb7cc5d2655b31498a8815725b248006c00263) - **test:** add alpha & beta tests for `blas/base/dgemm` [(#10709)](https://github.com/stdlib-js/stdlib/pull/10709) _(by Dhruvan Gnanadhandayuthapani, Athan Reines, Kaustubh Patange)_
