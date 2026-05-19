@@ -1024,6 +1024,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`9559de0`](https://github.com/stdlib-js/stdlib/commit/9559de093ed0c43ba65c7b6829be61a5967cd2f4) - **chore:** propagate typo and doc-note fixes across `blas` sibling packages [(#12202)](https://github.com/stdlib-js/stdlib/pull/12202) _(by Philipp Burckhardt)_
 -   [`0d57983`](https://github.com/stdlib-js/stdlib/commit/0d57983c34c524d74428c894f4b1978bd6748386) - **feat:** add `daxpb` and `saxpb` to namespace _(by Athan Reines)_
 -   [`103392c`](https://github.com/stdlib-js/stdlib/commit/103392c9afbdde68c21474d580f35d634155fd0c) - **feat:** add `blas/ext/base/saxpb` [(#12200)](https://github.com/stdlib-js/stdlib/pull/12200) _(by Karan Anand, Athan Reines)_
 -   [`2384460`](https://github.com/stdlib-js/stdlib/commit/23844609387e67c18bc0db81a5abcacdce492ffc) - **docs:** propagate recent doc-note and grammar fixes to sibling packages [(#12193)](https://github.com/stdlib-js/stdlib/pull/12193) _(by Philipp Burckhardt)_
