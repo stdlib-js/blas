@@ -1774,6 +1774,15 @@ setReadOnly( ns, 'szeroTo', require( './../../../ext/base/szero-to' ) );
 setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
 
 /**
+* @name zdiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zdiff}
+*/
+setReadOnly( ns, 'zdiff', require( './../../../ext/base/zdiff' ) );
+
+/**
 * @name zfill
 * @memberof ns
 * @readonly
