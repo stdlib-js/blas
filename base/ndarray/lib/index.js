@@ -181,6 +181,15 @@ setReadOnly( ns, 'gcopy', require( './../../../base/ndarray/gcopy' ) );
 setReadOnly( ns, 'gdot', require( './../../../base/ndarray/gdot' ) );
 
 /**
+* @name gnrm2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/gnrm2}
+*/
+setReadOnly( ns, 'gnrm2', require( './../../../base/ndarray/gnrm2' ) );
+
+/**
 * @name gscal
 * @memberof ns
 * @readonly
