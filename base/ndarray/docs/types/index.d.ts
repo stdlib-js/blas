@@ -36,6 +36,7 @@ import gasum = require( './../../../../base/ndarray/gasum' );
 import gaxpy = require( './../../../../base/ndarray/gaxpy' );
 import gcopy = require( './../../../../base/ndarray/gcopy' );
 import gdot = require( './../../../../base/ndarray/gdot' );
+import gnrm2 = require( './../../../../base/ndarray/gnrm2' );
 import gscal = require( './../../../../base/ndarray/gscal' );
 import gswap = require( './../../../../base/ndarray/gswap' );
 import sasum = require( './../../../../base/ndarray/sasum' );
@@ -499,6 +500,28 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	gdot: typeof gdot;
+
+	/**
+	* Computes the L2-norm of a one-dimensional ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns L2-norm
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	*
+	* var x = vector( [ 1.0, -2.0, 2.0 ], 'generic' );
+	*
+	* var y = ns.gnrm2( [ x ] );
+	* // returns 3.0
+	*/
+	gnrm2: typeof gnrm2;
 
 	/**
 	* Multiplies a one-dimensional ndarray by a scalar constant.
