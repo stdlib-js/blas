@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e46390e`](https://github.com/stdlib-js/stdlib/commit/e46390e267c0a2b1c0d4f5d088b5374873bd10be) - add `blas/ext/base/dediff` [(#10619)](https://github.com/stdlib-js/stdlib/pull/10619)
 -   [`5cb5df2`](https://github.com/stdlib-js/stdlib/commit/5cb5df24dea651203b5609fb82855a1cd70b3895) - add `zdiff` to namespace
 -   [`3d96dae`](https://github.com/stdlib-js/stdlib/commit/3d96daefeb96e6183eab2e438d30ce73e5d6b20e) - add `blas/ext/base/zdiff` [(#11741)](https://github.com/stdlib-js/stdlib/pull/11741)
 -   [`41d20ff`](https://github.com/stdlib-js/stdlib/commit/41d20ff84eb292d6c3438d3852910e6ee050a26a) - update `blas/base/ndarray` TypeScript declarations [(#12212)](https://github.com/stdlib-js/stdlib/pull/12212)
@@ -1031,6 +1032,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`e46390e`](https://github.com/stdlib-js/stdlib/commit/e46390e267c0a2b1c0d4f5d088b5374873bd10be) - **feat:** add `blas/ext/base/dediff` [(#10619)](https://github.com/stdlib-js/stdlib/pull/10619) _(by Muhammad Haris, Athan Reines)_
 -   [`5cb5df2`](https://github.com/stdlib-js/stdlib/commit/5cb5df24dea651203b5609fb82855a1cd70b3895) - **feat:** add `zdiff` to namespace _(by Athan Reines)_
 -   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - **fix:** add missing `API_SUFFIX` and fix types _(by Athan Reines)_
 -   [`a11c3ee`](https://github.com/stdlib-js/stdlib/commit/a11c3ee5ae67e719b024612187f7c0444bc811f0) - **fix:** add missing `API_SUFFIX` and fix types _(by Athan Reines)_
