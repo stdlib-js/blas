@@ -1027,6 +1027,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`050caba`](https://github.com/stdlib-js/stdlib/commit/050cabae51fef57497301d6a63e0e52fb929167d) - **docs:** update namespace table of contents [(#12213)](https://github.com/stdlib-js/stdlib/pull/12213) _(by stdlib-bot)_
 -   [`41d20ff`](https://github.com/stdlib-js/stdlib/commit/41d20ff84eb292d6c3438d3852910e6ee050a26a) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12212)](https://github.com/stdlib-js/stdlib/pull/12212) _(by stdlib-bot)_
 -   [`5f10afd`](https://github.com/stdlib-js/stdlib/commit/5f10afd45a118a59cc25439b34e88845745a2b6e) - **feat:** add `gnrm2` to namespace _(by Athan Reines)_
 -   [`442d1f9`](https://github.com/stdlib-js/stdlib/commit/442d1f9d521d9293a4bae3141a6be5bd438b453c) - **chore:** correct issues found during recent `develop` commit review [(#12201)](https://github.com/stdlib-js/stdlib/pull/12201) _(by Philipp Burckhardt)_
