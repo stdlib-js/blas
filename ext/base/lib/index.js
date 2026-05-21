@@ -1495,6 +1495,15 @@ setReadOnly( ns, 'sdssum', require( './../../../ext/base/sdssum' ) );
 setReadOnly( ns, 'sdssumpw', require( './../../../ext/base/sdssumpw' ) );
 
 /**
+* @name sediff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sediff}
+*/
+setReadOnly( ns, 'sediff', require( './../../../ext/base/sediff' ) );
+
+/**
 * @name sfill
 * @memberof ns
 * @readonly
