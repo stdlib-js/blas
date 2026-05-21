@@ -1034,6 +1034,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`e1dd43f`](https://github.com/stdlib-js/stdlib/commit/e1dd43fddd1f3e3bbe14af8f0341fc3127595c54) - **docs:** update namespace table of contents [(#12225)](https://github.com/stdlib-js/stdlib/pull/12225) _(by stdlib-bot)_
 -   [`b2bd6d6`](https://github.com/stdlib-js/stdlib/commit/b2bd6d650e731b983bb4e891fcb1d419c2e8c43b) - **feat:** add `sediff` to namespace _(by Athan Reines)_
 -   [`4fe4366`](https://github.com/stdlib-js/stdlib/commit/4fe4366076c122648cf44226f4ffa7f455fe3217) - **feat:** add `blas/ext/base/sediff` [(#10905)](https://github.com/stdlib-js/stdlib/pull/10905) _(by Muhammad Haris, Athan Reines)_
 -   [`0cea577`](https://github.com/stdlib-js/stdlib/commit/0cea57704630db4428c0c23b7a97c4a8ad6270d2) - **docs:** update copy _(by Athan Reines)_
