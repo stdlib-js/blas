@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-20)
+## Unreleased (2026-05-21)
 
 <section class="features">
 
@@ -1032,6 +1032,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`618583c`](https://github.com/stdlib-js/stdlib/commit/618583c836de8dbcc90cdc5a547287944a67882e) - **docs:** update copy _(by Athan Reines)_
 -   [`e46390e`](https://github.com/stdlib-js/stdlib/commit/e46390e267c0a2b1c0d4f5d088b5374873bd10be) - **feat:** add `blas/ext/base/dediff` [(#10619)](https://github.com/stdlib-js/stdlib/pull/10619) _(by Muhammad Haris, Athan Reines)_
 -   [`5cb5df2`](https://github.com/stdlib-js/stdlib/commit/5cb5df24dea651203b5609fb82855a1cd70b3895) - **feat:** add `zdiff` to namespace _(by Athan Reines)_
 -   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - **fix:** add missing `API_SUFFIX` and fix types _(by Athan Reines)_
