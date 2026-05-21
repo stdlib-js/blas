@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4fe4366`](https://github.com/stdlib-js/stdlib/commit/4fe4366076c122648cf44226f4ffa7f455fe3217) - add `blas/ext/base/sediff` [(#10905)](https://github.com/stdlib-js/stdlib/pull/10905)
 -   [`e46390e`](https://github.com/stdlib-js/stdlib/commit/e46390e267c0a2b1c0d4f5d088b5374873bd10be) - add `blas/ext/base/dediff` [(#10619)](https://github.com/stdlib-js/stdlib/pull/10619)
 -   [`5cb5df2`](https://github.com/stdlib-js/stdlib/commit/5cb5df24dea651203b5609fb82855a1cd70b3895) - add `zdiff` to namespace
 -   [`3d96dae`](https://github.com/stdlib-js/stdlib/commit/3d96daefeb96e6183eab2e438d30ce73e5d6b20e) - add `blas/ext/base/zdiff` [(#11741)](https://github.com/stdlib-js/stdlib/pull/11741)
@@ -1032,6 +1033,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`4fe4366`](https://github.com/stdlib-js/stdlib/commit/4fe4366076c122648cf44226f4ffa7f455fe3217) - **feat:** add `blas/ext/base/sediff` [(#10905)](https://github.com/stdlib-js/stdlib/pull/10905) _(by Muhammad Haris, Athan Reines)_
 -   [`0cea577`](https://github.com/stdlib-js/stdlib/commit/0cea57704630db4428c0c23b7a97c4a8ad6270d2) - **docs:** update copy _(by Athan Reines)_
 -   [`618583c`](https://github.com/stdlib-js/stdlib/commit/618583c836de8dbcc90cdc5a547287944a67882e) - **docs:** update copy _(by Athan Reines)_
 -   [`e46390e`](https://github.com/stdlib-js/stdlib/commit/e46390e267c0a2b1c0d4f5d088b5374873bd10be) - **feat:** add `blas/ext/base/dediff` [(#10619)](https://github.com/stdlib-js/stdlib/pull/10619) _(by Muhammad Haris, Athan Reines)_
