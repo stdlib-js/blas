@@ -1035,6 +1035,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`dc7c32d`](https://github.com/stdlib-js/stdlib/commit/dc7c32d50c1520971ea636d31cd0ff1fa37a2f52) - **style:** fix spacing in multiline arrays [(#12230)](https://github.com/stdlib-js/stdlib/pull/12230) _(by Philipp Burckhardt)_
 -   [`059850c`](https://github.com/stdlib-js/stdlib/commit/059850c92f803f5fb315bbaba905d0ceaeb3f6c1) - **feat:** add `blas/base/ndarray/scnrm2` [(#12232)](https://github.com/stdlib-js/stdlib/pull/12232) _(by Kaustubh Patange)_
 -   [`6615546`](https://github.com/stdlib-js/stdlib/commit/6615546b345be4962195031e37f9e708885826ca) - **test:** correct typos and errors in `blas/ext/base/dediff` [(#12228)](https://github.com/stdlib-js/stdlib/pull/12228) _(by Philipp Burckhardt)_
 -   [`e1dd43f`](https://github.com/stdlib-js/stdlib/commit/e1dd43fddd1f3e3bbe14af8f0341fc3127595c54) - **docs:** update namespace table of contents [(#12225)](https://github.com/stdlib-js/stdlib/pull/12225) _(by stdlib-bot)_
