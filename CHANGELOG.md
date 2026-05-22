@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-21)
+## Unreleased (2026-05-22)
 
 <section class="features">
 
 ### Features
 
+-   [`059850c`](https://github.com/stdlib-js/stdlib/commit/059850c92f803f5fb315bbaba905d0ceaeb3f6c1) - add `blas/base/ndarray/scnrm2` [(#12232)](https://github.com/stdlib-js/stdlib/pull/12232)
 -   [`b2bd6d6`](https://github.com/stdlib-js/stdlib/commit/b2bd6d650e731b983bb4e891fcb1d419c2e8c43b) - add `sediff` to namespace
 -   [`4fe4366`](https://github.com/stdlib-js/stdlib/commit/4fe4366076c122648cf44226f4ffa7f455fe3217) - add `blas/ext/base/sediff` [(#10905)](https://github.com/stdlib-js/stdlib/pull/10905)
 -   [`e46390e`](https://github.com/stdlib-js/stdlib/commit/e46390e267c0a2b1c0d4f5d088b5374873bd10be) - add `blas/ext/base/dediff` [(#10619)](https://github.com/stdlib-js/stdlib/pull/10619)
@@ -1034,6 +1035,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`059850c`](https://github.com/stdlib-js/stdlib/commit/059850c92f803f5fb315bbaba905d0ceaeb3f6c1) - **feat:** add `blas/base/ndarray/scnrm2` [(#12232)](https://github.com/stdlib-js/stdlib/pull/12232) _(by Kaustubh Patange)_
 -   [`6615546`](https://github.com/stdlib-js/stdlib/commit/6615546b345be4962195031e37f9e708885826ca) - **test:** correct typos and errors in `blas/ext/base/dediff` [(#12228)](https://github.com/stdlib-js/stdlib/pull/12228) _(by Philipp Burckhardt)_
 -   [`e1dd43f`](https://github.com/stdlib-js/stdlib/commit/e1dd43fddd1f3e3bbe14af8f0341fc3127595c54) - **docs:** update namespace table of contents [(#12225)](https://github.com/stdlib-js/stdlib/pull/12225) _(by stdlib-bot)_
 -   [`b2bd6d6`](https://github.com/stdlib-js/stdlib/commit/b2bd6d650e731b983bb4e891fcb1d419c2e8c43b) - **feat:** add `sediff` to namespace _(by Athan Reines)_
