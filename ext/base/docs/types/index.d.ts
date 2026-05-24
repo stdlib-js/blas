@@ -38,6 +38,7 @@ import dapxsumkbn2 = require( './../../../../ext/base/dapxsumkbn2' );
 import dapxsumors = require( './../../../../ext/base/dapxsumors' );
 import dapxsumpw = require( './../../../../ext/base/dapxsumpw' );
 import dasumpw = require( './../../../../ext/base/dasumpw' );
+import daxpb = require( './../../../../ext/base/daxpb' );
 import dcartesianPower = require( './../../../../ext/base/dcartesian-power' );
 import dcartesianSquare = require( './../../../../ext/base/dcartesian-square' );
 import dcircshift = require( './../../../../ext/base/dcircshift' );
@@ -47,6 +48,7 @@ import dcusumkbn2 = require( './../../../../ext/base/dcusumkbn2' );
 import dcusumors = require( './../../../../ext/base/dcusumors' );
 import dcusumpw = require( './../../../../ext/base/dcusumpw' );
 import ddiff = require( './../../../../ext/base/ddiff' );
+import dediff = require( './../../../../ext/base/dediff' );
 import dfill = require( './../../../../ext/base/dfill' );
 import dindexOf = require( './../../../../ext/base/dindex-of' );
 import dindexOfColumn = require( './../../../../ext/base/dindex-of-column' );
@@ -164,6 +166,7 @@ import sapxsumkbn2 = require( './../../../../ext/base/sapxsumkbn2' );
 import sapxsumors = require( './../../../../ext/base/sapxsumors' );
 import sapxsumpw = require( './../../../../ext/base/sapxsumpw' );
 import sasumpw = require( './../../../../ext/base/sasumpw' );
+import saxpb = require( './../../../../ext/base/saxpb' );
 import scartesianPower = require( './../../../../ext/base/scartesian-power' );
 import scartesianSquare = require( './../../../../ext/base/scartesian-square' );
 import scircshift = require( './../../../../ext/base/scircshift' );
@@ -179,6 +182,7 @@ import sdsnansum = require( './../../../../ext/base/sdsnansum' );
 import sdsnansumpw = require( './../../../../ext/base/sdsnansumpw' );
 import sdssum = require( './../../../../ext/base/sdssum' );
 import sdssumpw = require( './../../../../ext/base/sdssumpw' );
+import sediff = require( './../../../../ext/base/sediff' );
 import sfill = require( './../../../../ext/base/sfill' );
 import sindexOf = require( './../../../../ext/base/sindex-of' );
 import sindexOfColumn = require( './../../../../ext/base/sindex-of-column' );
@@ -211,6 +215,7 @@ import svander = require( './../../../../ext/base/svander' );
 import swhere = require( './../../../../ext/base/swhere' );
 import szeroTo = require( './../../../../ext/base/szero-to' );
 import wasm = require( './../../../../ext/base/wasm' );
+import zdiff = require( './../../../../ext/base/zdiff' );
 import zfill = require( './../../../../ext/base/zfill' );
 import zindexOf = require( './../../../../ext/base/zindex-of' );
 import zindexOfColumn = require( './../../../../ext/base/zindex-of-column' );
@@ -342,7 +347,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -385,7 +390,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -787,6 +792,34 @@ interface Namespace {
 	dasumpw: typeof dasumpw;
 
 	/**
+	* Multiplies each element in a double-precision floating-point strided array by a scalar constant and adds a scalar constant to each result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.daxpb( x.length, 5.0, 3.0, x, 1 );
+	* // x => <Float64Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.daxpb.ndarray( x.length, 5.0, 3.0, x, 1, 0 );
+	* // x => <Float64Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*/
+	daxpb: typeof daxpb;
+
+	/**
 	* Computes the Cartesian power for a double-precision floating-point strided array.
 	*
 	* @param order - storage layout
@@ -1086,6 +1119,46 @@ interface Namespace {
 	ddiff: typeof ddiff;
 
 	/**
+	* Calculates the differences between consecutive elements of a double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements to prepend
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements to append
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 6 );
+	*
+	* ns.dediff( x.length, x, 1, 1, p, 1, 1, a, 1, out, 1 );
+	* // out => <Float64Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 6 );
+	*
+	* ns.dediff.ndarray( x.length, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*/
+	dediff: typeof dediff;
+
+	/**
 	* Fills a double-precision floating-point strided array with a specified scalar value.
 	*
 	* @param N - number of indexed elements
@@ -1191,7 +1264,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -1265,7 +1338,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -3293,7 +3366,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
 	*
 	* @param order - storage layout
 	* @param M - number of rows in `A`
@@ -3325,7 +3398,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	*
 	* @param order - storage layout
 	* @param M - number of rows in `A`
@@ -3435,7 +3508,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -4374,6 +4447,34 @@ interface Namespace {
 	sasumpw: typeof sasumpw;
 
 	/**
+	* Multiplies each element in a single-precision floating-point strided array by a scalar constant and adds a scalar constant to each result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.saxpb( x.length, 5.0, 3.0, x, 1 );
+	* // x => <Float32Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.saxpb.ndarray( x.length, 5.0, 3.0, x, 1, 0 );
+	* // x => <Float32Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*/
+	saxpb: typeof saxpb;
+
+	/**
 	* Computes the Cartesian power for a single-precision floating-point strided array.
 	*
 	* @param order - storage layout
@@ -4831,6 +4932,46 @@ interface Namespace {
 	sdssumpw: typeof sdssumpw;
 
 	/**
+	* Calculates the differences between consecutive elements of a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements to prepend
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements to append
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 6 );
+	*
+	* ns.sediff( x.length, x, 1, 1, p, 1, 1, a, 1, out, 1 );
+	* // out => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 6 );
+	*
+	* ns.sediff.ndarray( x.length, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*/
+	sediff: typeof sediff;
+
+	/**
 	* Fills a single-precision floating-point strided array with a specified scalar value.
 	*
 	* @param N - number of indexed elements
@@ -4893,7 +5034,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in row-major order. When the matrix is stored in column-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -4936,7 +5077,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -5010,7 +5151,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -5792,6 +5933,56 @@ interface Namespace {
 	wasm: typeof wasm;
 
 	/**
+	* Calculates the k-th discrete forward difference of a double-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 2.0, -2.0, 4.0, -4.0, 6.0, -6.0, 8.0, -8.0, 10.0, -10.0 ] );
+	* var p = new Complex128Array( [ 1.0, -1.0 ] );
+	* var a = new Complex128Array( [ 11.0, -11.0 ] );
+	* var out = new Complex128Array( 6 );
+	* var w = new Complex128Array( 6 );
+	*
+	* ns.zdiff( x.length, 1, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 1.0, -1.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 2.0, -2.0, 4.0, -4.0, 6.0, -6.0, 8.0, -8.0, 10.0, -10.0 ] );
+	* var p = new Complex128Array( [ 1.0, -1.0 ] );
+	* var a = new Complex128Array( [ 11.0, -11.0 ] );
+	* var out = new Complex128Array( 6 );
+	* var w = new Complex128Array( 6 );
+	*
+	* ns.zdiff.ndarray( x.length, 1, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 1.0, -1.0 ]
+	*/
+	zdiff: typeof zdiff;
+
+	/**
 	* Fills a double-precision complex floating-point strided array with a specified scalar constant.
 	*
 	* @param N - number of indexed elements
@@ -5894,7 +6085,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
@@ -5937,7 +6128,7 @@ interface Namespace {
 	*
 	* ## Notes
 	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a search vector, the function returns `-1` (i.e., an invalid index).
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
 	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
 	*
 	* @param order - storage layout
