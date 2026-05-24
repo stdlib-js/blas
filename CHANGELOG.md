@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e1489ee`](https://github.com/stdlib-js/stdlib/commit/e1489ee6c7d1dff5122ccf182b389cb3545c91f2) - add `capx` to namespace
 -   [`ce17493`](https://github.com/stdlib-js/stdlib/commit/ce17493d5f87ef366feced6ec5d4d871c4507033) - add `blas/ext/base/capx` [(#12239)](https://github.com/stdlib-js/stdlib/pull/12239)
 -   [`1003900`](https://github.com/stdlib-js/stdlib/commit/1003900dbae60a66c99d4adbb7f21b6cb98f6f73) - update `blas/ext/base` TypeScript declarations [(#12238)](https://github.com/stdlib-js/stdlib/pull/12238)
 -   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - add `dznrm2` and `scnrm2` to namespace
@@ -1039,6 +1040,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`e1489ee`](https://github.com/stdlib-js/stdlib/commit/e1489ee6c7d1dff5122ccf182b389cb3545c91f2) - **feat:** add `capx` to namespace _(by Athan Reines)_
 -   [`ce17493`](https://github.com/stdlib-js/stdlib/commit/ce17493d5f87ef366feced6ec5d4d871c4507033) - **feat:** add `blas/ext/base/capx` [(#12239)](https://github.com/stdlib-js/stdlib/pull/12239) _(by Karan Anand, Athan Reines)_
 -   [`3fe5568`](https://github.com/stdlib-js/stdlib/commit/3fe55682827c8e66b74576d5cf6fe396001d4571) - **docs:** propagate fixes from `develop` across `stats`, `blas`, and `plot` siblings [(#12267)](https://github.com/stdlib-js/stdlib/pull/12267) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6742bc8`](https://github.com/stdlib-js/stdlib/commit/6742bc8b4bee95d10b29c7d8d8446e3416057441) - **docs:** follow-up fixes for commits merged to `develop` on 2026-05-24 [(#12265)](https://github.com/stdlib-js/stdlib/pull/12265) _(by Philipp Burckhardt)_
