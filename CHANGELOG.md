@@ -1038,7 +1038,6 @@ A total of 60 issues were closed in this release:
 
 <details>
 
--   [`91a6a85`](https://github.com/stdlib-js/stdlib/commit/91a6a85ebfca1036a0123648aa5165900c1cc74a) - **docs:** fix offset parameter wording in multi-offset READMEs [(#12243)](https://github.com/stdlib-js/stdlib/pull/12243) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1003900`](https://github.com/stdlib-js/stdlib/commit/1003900dbae60a66c99d4adbb7f21b6cb98f6f73) - **feat:** update `blas/ext/base` TypeScript declarations [(#12238)](https://github.com/stdlib-js/stdlib/pull/12238) _(by stdlib-bot)_
 -   [`7800c9a`](https://github.com/stdlib-js/stdlib/commit/7800c9a717853e6fc12795832bc4c34c06b2ef95) - **test:** fix grammar of test descriptions in `blas/base/dger` [(#12242)](https://github.com/stdlib-js/stdlib/pull/12242) _(by Divit Jain)_
 -   [`f345dd6`](https://github.com/stdlib-js/stdlib/commit/f345dd6347b486da3185b27ab987035b4d3f4b52) - **docs:** fix incorrect logging in `blas/base/cgemv` example [(#12240)](https://github.com/stdlib-js/stdlib/pull/12240) _(by Divit Jain)_
