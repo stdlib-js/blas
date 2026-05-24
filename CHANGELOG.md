@@ -1038,6 +1038,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`3fe5568`](https://github.com/stdlib-js/stdlib/commit/3fe55682827c8e66b74576d5cf6fe396001d4571) - **docs:** propagate fixes from `develop` across `stats`, `blas`, and `plot` siblings [(#12267)](https://github.com/stdlib-js/stdlib/pull/12267) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6742bc8`](https://github.com/stdlib-js/stdlib/commit/6742bc8b4bee95d10b29c7d8d8446e3416057441) - **docs:** follow-up fixes for commits merged to `develop` on 2026-05-24 [(#12265)](https://github.com/stdlib-js/stdlib/pull/12265) _(by Philipp Burckhardt)_
 -   [`09c01f1`](https://github.com/stdlib-js/stdlib/commit/09c01f1f47916fcb39701c130eb78718e6e524f7) - **docs:** fix `@throws` annotation in `blas/ext/one-to` and `blas/ext/zero-to` [(#12266)](https://github.com/stdlib-js/stdlib/pull/12266) _(by Philipp Burckhardt)_
 -   [`40dad68`](https://github.com/stdlib-js/stdlib/commit/40dad68e605aadfb8380e25d3b8f9dc1a0a3389a) - **chore:** fix JavaScript lint errors [(#12257)](https://github.com/stdlib-js/stdlib/pull/12257) _(by Nathanael Mbale, Athan Reines)_
