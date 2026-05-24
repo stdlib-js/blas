@@ -145,6 +145,15 @@ setReadOnly( ns, 'dscal', require( './../../../base/ndarray/dscal' ) );
 setReadOnly( ns, 'dswap', require( './../../../base/ndarray/dswap' ) );
 
 /**
+* @name dznrm2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dznrm2}
+*/
+setReadOnly( ns, 'dznrm2', require( './../../../base/ndarray/dznrm2' ) );
+
+/**
 * @name gasum
 * @memberof ns
 * @readonly
@@ -224,6 +233,15 @@ setReadOnly( ns, 'sasum', require( './../../../base/ndarray/sasum' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/saxpy}
 */
 setReadOnly( ns, 'saxpy', require( './../../../base/ndarray/saxpy' ) );
+
+/**
+* @name scnrm2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/scnrm2}
+*/
+setReadOnly( ns, 'scnrm2', require( './../../../base/ndarray/scnrm2' ) );
 
 /**
 * @name scopy

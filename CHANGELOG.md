@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-22)
+## Unreleased (2026-05-24)
 
 <section class="features">
 
 ### Features
 
+-   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - add `dznrm2` and `scnrm2` to namespace
 -   [`6e874c2`](https://github.com/stdlib-js/stdlib/commit/6e874c29c595b6a4834a1a75ec8be89f187c7d35) - add `blas/base/ndarray/dznrm2` [(#12233)](https://github.com/stdlib-js/stdlib/pull/12233)
 -   [`059850c`](https://github.com/stdlib-js/stdlib/commit/059850c92f803f5fb315bbaba905d0ceaeb3f6c1) - add `blas/base/ndarray/scnrm2` [(#12232)](https://github.com/stdlib-js/stdlib/pull/12232)
 -   [`b2bd6d6`](https://github.com/stdlib-js/stdlib/commit/b2bd6d650e731b983bb4e891fcb1d419c2e8c43b) - add `sediff` to namespace
@@ -1036,6 +1037,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - **feat:** add `dznrm2` and `scnrm2` to namespace _(by Athan Reines)_
 -   [`6e874c2`](https://github.com/stdlib-js/stdlib/commit/6e874c29c595b6a4834a1a75ec8be89f187c7d35) - **feat:** add `blas/base/ndarray/dznrm2` [(#12233)](https://github.com/stdlib-js/stdlib/pull/12233) _(by Kaustubh Patange)_
 -   [`8441545`](https://github.com/stdlib-js/stdlib/commit/8441545518bc1d000fcd81a6ab91548f56eafaa6) - **docs:** fix offset parameter wording in `blas/ext/base/*sort2*` READMEs [(#12229)](https://github.com/stdlib-js/stdlib/pull/12229) _(by Philipp Burckhardt)_
 -   [`dc7c32d`](https://github.com/stdlib-js/stdlib/commit/dc7c32d50c1520971ea636d31cd0ff1fa37a2f52) - **style:** fix spacing in multiline arrays [(#12230)](https://github.com/stdlib-js/stdlib/pull/12230) _(by Philipp Burckhardt)_
