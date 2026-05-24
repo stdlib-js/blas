@@ -1037,6 +1037,7 @@ A total of 60 issues were closed in this release:
 
 <details>
 
+-   [`7800c9a`](https://github.com/stdlib-js/stdlib/commit/7800c9a717853e6fc12795832bc4c34c06b2ef95) - **test:** fix grammar of test descriptions in `blas/base/dger` [(#12242)](https://github.com/stdlib-js/stdlib/pull/12242) _(by Divit Jain)_
 -   [`f345dd6`](https://github.com/stdlib-js/stdlib/commit/f345dd6347b486da3185b27ab987035b4d3f4b52) - **docs:** fix incorrect logging in `blas/base/cgemv` example [(#12240)](https://github.com/stdlib-js/stdlib/pull/12240) _(by Divit Jain)_
 -   [`0c071d9`](https://github.com/stdlib-js/stdlib/commit/0c071d9e238dd139f9e04506f83521a9889aabe6) - **feat:** add `dznrm2` and `scnrm2` to namespace _(by Athan Reines)_
 -   [`6e874c2`](https://github.com/stdlib-js/stdlib/commit/6e874c29c595b6a4834a1a75ec8be89f187c7d35) - **feat:** add `blas/base/ndarray/dznrm2` [(#12233)](https://github.com/stdlib-js/stdlib/pull/12233) _(by Kaustubh Patange)_
