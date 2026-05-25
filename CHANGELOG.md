@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-24)
+## Unreleased (2026-05-25)
 
 <section class="features">
 
@@ -1040,6 +1040,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`c1be7ac`](https://github.com/stdlib-js/stdlib/commit/c1be7aca75e7707e553f94375997f04c38b97135) - **docs:** update namespace table of contents [(#12272)](https://github.com/stdlib-js/stdlib/pull/12272) _(by stdlib-bot)_
 -   [`e1489ee`](https://github.com/stdlib-js/stdlib/commit/e1489ee6c7d1dff5122ccf182b389cb3545c91f2) - **feat:** add `capx` to namespace _(by Athan Reines)_
 -   [`ce17493`](https://github.com/stdlib-js/stdlib/commit/ce17493d5f87ef366feced6ec5d4d871c4507033) - **feat:** add `blas/ext/base/capx` [(#12239)](https://github.com/stdlib-js/stdlib/pull/12239) _(by Karan Anand, Athan Reines)_
 -   [`3fe5568`](https://github.com/stdlib-js/stdlib/commit/3fe55682827c8e66b74576d5cf6fe396001d4571) - **docs:** propagate fixes from `develop` across `stats`, `blas`, and `plot` siblings [(#12267)](https://github.com/stdlib-js/stdlib/pull/12267) _(by Philipp Burckhardt, Athan Reines)_
