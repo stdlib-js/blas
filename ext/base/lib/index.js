@@ -1279,6 +1279,15 @@ setReadOnly( ns, 'gvander', require( './../../../ext/base/gvander' ) );
 setReadOnly( ns, 'gwhere', require( './../../../ext/base/gwhere' ) );
 
 /**
+* @name gxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gxsa}
+*/
+setReadOnly( ns, 'gxsa', require( './../../../ext/base/gxsa' ) );
+
+/**
 * @name gzeroTo
 * @memberof ns
 * @readonly
@@ -1799,6 +1808,15 @@ setReadOnly( ns, 'szeroTo', require( './../../../ext/base/szero-to' ) );
 * @see {@link module:@stdlib/blas/ext/base/wasm}
 */
 setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
+
+/**
+* @name zapx
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zapx}
+*/
+setReadOnly( ns, 'zapx', require( './../../../ext/base/zapx' ) );
 
 /**
 * @name zdiff

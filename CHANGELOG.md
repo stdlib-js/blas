@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`86501b1`](https://github.com/stdlib-js/stdlib/commit/86501b1234b243f0c7f31dfa917d607f82249d6b) - add `zapx` and `gxsa` to namespace
 -   [`f8352cd`](https://github.com/stdlib-js/stdlib/commit/f8352cd7cf5ea0e4953d92f9ebc4577b532bdc68) - add `blas/ext/base/gxsa` [(#12278)](https://github.com/stdlib-js/stdlib/pull/12278)
 -   [`314d9a5`](https://github.com/stdlib-js/stdlib/commit/314d9a591ea1a4b933537f87daee280907f9e767) - add `blas/ext/base/zapx` [(#12275)](https://github.com/stdlib-js/stdlib/pull/12275)
 -   [`e1489ee`](https://github.com/stdlib-js/stdlib/commit/e1489ee6c7d1dff5122ccf182b389cb3545c91f2) - add `capx` to namespace
@@ -1042,6 +1043,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`86501b1`](https://github.com/stdlib-js/stdlib/commit/86501b1234b243f0c7f31dfa917d607f82249d6b) - **feat:** add `zapx` and `gxsa` to namespace _(by Athan Reines)_
 -   [`f8352cd`](https://github.com/stdlib-js/stdlib/commit/f8352cd7cf5ea0e4953d92f9ebc4577b532bdc68) - **feat:** add `blas/ext/base/gxsa` [(#12278)](https://github.com/stdlib-js/stdlib/pull/12278) _(by Karan Anand, Athan Reines)_
 -   [`314d9a5`](https://github.com/stdlib-js/stdlib/commit/314d9a591ea1a4b933537f87daee280907f9e767) - **feat:** add `blas/ext/base/zapx` [(#12275)](https://github.com/stdlib-js/stdlib/pull/12275) _(by Karan Anand, Athan Reines)_
 -   [`c1be7ac`](https://github.com/stdlib-js/stdlib/commit/c1be7aca75e7707e553f94375997f04c38b97135) - **docs:** update namespace table of contents [(#12272)](https://github.com/stdlib-js/stdlib/pull/12272) _(by stdlib-bot)_
