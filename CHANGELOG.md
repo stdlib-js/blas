@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7b093b7`](https://github.com/stdlib-js/stdlib/commit/7b093b7ee8b530aec31a849d9aa701ed276b7014) - add `blas/base/ndarray/scasum` [(#12283)](https://github.com/stdlib-js/stdlib/pull/12283)
 -   [`e8b5180`](https://github.com/stdlib-js/stdlib/commit/e8b51809cf30d7aac3736c9932751ca8c452d761) - add `blas/base/ndarray/sdsdot` [(#12285)](https://github.com/stdlib-js/stdlib/pull/12285)
 -   [`496a0da`](https://github.com/stdlib-js/stdlib/commit/496a0da44f5c7e26c592403d52669e5abcb41518) - add `blas/base/ndarray/dsdot` [(#12284)](https://github.com/stdlib-js/stdlib/pull/12284)
 -   [`921e1e8`](https://github.com/stdlib-js/stdlib/commit/921e1e88a2c4ef9ab67ae82bec76b4d28d8c30dc) - add `blas/ext/base/sxsa` [(#12291)](https://github.com/stdlib-js/stdlib/pull/12291)
@@ -1047,6 +1048,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`7b093b7`](https://github.com/stdlib-js/stdlib/commit/7b093b7ee8b530aec31a849d9aa701ed276b7014) - **feat:** add `blas/base/ndarray/scasum` [(#12283)](https://github.com/stdlib-js/stdlib/pull/12283) _(by Kaustubh Patange)_
 -   [`e8b5180`](https://github.com/stdlib-js/stdlib/commit/e8b51809cf30d7aac3736c9932751ca8c452d761) - **feat:** add `blas/base/ndarray/sdsdot` [(#12285)](https://github.com/stdlib-js/stdlib/pull/12285) _(by Kaustubh Patange, Athan Reines)_
 -   [`496a0da`](https://github.com/stdlib-js/stdlib/commit/496a0da44f5c7e26c592403d52669e5abcb41518) - **feat:** add `blas/base/ndarray/dsdot` [(#12284)](https://github.com/stdlib-js/stdlib/pull/12284) _(by Kaustubh Patange)_
 -   [`921e1e8`](https://github.com/stdlib-js/stdlib/commit/921e1e88a2c4ef9ab67ae82bec76b4d28d8c30dc) - **feat:** add `blas/ext/base/sxsa` [(#12291)](https://github.com/stdlib-js/stdlib/pull/12291) _(by Karan Anand)_
