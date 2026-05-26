@@ -18,12 +18,6 @@
 
 'use strict';
 
-// MODULES //
-
-var arraylike2object = require( '@stdlib/array/base/arraylike2object' );
-var accessors = require( './accessors.js' );
-
-
 // VARIABLES //
 
 var M = 5;
@@ -32,33 +26,30 @@ var M = 5;
 // MAIN //
 
 /**
-* Subtracts a scalar constant from each element in a strided array.
+* Subtracts a scalar constant from each element in a single-precision floating-point strided array.
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {number} alpha - scalar constant
-* @param {NumericArray} x - input array
+* @param {Float32Array} x - input array
 * @param {integer} strideX - stride length
 * @param {NonNegativeInteger} offsetX - starting index
-* @returns {NumericArray} input array
+* @returns {Float32Array} input array
 *
 * @example
-* var x = [ 1.0, -2.0, 3.0, -4.0, 5.0, -6.0 ];
+* var Float32Array = require( '@stdlib/array/float32' );
 *
-* gxsa( 3, 5.0, x, 1, x.length-3 );
-* // x => [ 1.0, -2.0, 3.0, -9.0, 0.0, -11.0 ]
+* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0, 5.0, -6.0 ] );
+*
+* sxsa( 3, 5.0, x, 1, x.length-3 );
+* // x => <Float32Array>[ 1.0, -2.0, 3.0, -9.0, 0.0, -11.0 ]
 */
-function gxsa( N, alpha, x, strideX, offsetX ) {
+function sxsa( N, alpha, x, strideX, offsetX ) {
 	var ix;
 	var m;
-	var o;
 	var i;
 
 	if ( N <= 0 || alpha === 0.0 ) {
 		return x;
-	}
-	o = arraylike2object( x );
-	if ( o.accessorProtocol ) {
-		return accessors( N, alpha, o, strideX, offsetX );
 	}
 	ix = offsetX;
 
@@ -96,4 +87,4 @@ function gxsa( N, alpha, x, strideX, offsetX ) {
 
 // EXPORTS //
 
-module.exports = gxsa;
+module.exports = sxsa;
