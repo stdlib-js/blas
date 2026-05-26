@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'capx', require( './../../../ext/base/capx' ) );
 
 /**
+* @name caxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/caxpb}
+*/
+setReadOnly( ns, 'caxpb', require( './../../../ext/base/caxpb' ) );
+
+/**
 * @name cfill
 * @memberof ns
 * @readonly
@@ -764,6 +773,15 @@ setReadOnly( ns, 'dvander', require( './../../../ext/base/dvander' ) );
 * @see {@link module:@stdlib/blas/ext/base/dwhere}
 */
 setReadOnly( ns, 'dwhere', require( './../../../ext/base/dwhere' ) );
+
+/**
+* @name dxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dxsa}
+*/
+setReadOnly( ns, 'dxsa', require( './../../../ext/base/dxsa' ) );
 
 /**
 * @name dzeroTo
@@ -1790,6 +1808,15 @@ setReadOnly( ns, 'svander', require( './../../../ext/base/svander' ) );
 * @see {@link module:@stdlib/blas/ext/base/swhere}
 */
 setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
+
+/**
+* @name sxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sxsa}
+*/
+setReadOnly( ns, 'sxsa', require( './../../../ext/base/sxsa' ) );
 
 /**
 * @name szeroTo

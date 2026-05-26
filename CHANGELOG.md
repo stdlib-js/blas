@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`58bbb07`](https://github.com/stdlib-js/stdlib/commit/58bbb0763e6ac0b06b9f2b9eaf5ed072fe227c7f) - add `daxpb` to namespace
+-   [`00d6b7b`](https://github.com/stdlib-js/stdlib/commit/00d6b7b1413d67615382602e1dc1192e7b0752ba) - add `caxpb`, `dxsa`, and `sxsa` to namespace
+-   [`80c8b05`](https://github.com/stdlib-js/stdlib/commit/80c8b056a3d9325307479e83f658f223d10a0143) - add `dsdot`, `scasum`, and `sdsdot` to namespace
 -   [`1f36fca`](https://github.com/stdlib-js/stdlib/commit/1f36fca74e8419638a5232f553ce012cd15b1533) - add `blas/ext/base/ndarray/daxpb` [(#12276)](https://github.com/stdlib-js/stdlib/pull/12276)
 -   [`a5376c6`](https://github.com/stdlib-js/stdlib/commit/a5376c6ccc03169e27c2d9880e0eb18abf4c2080) - add `blas/ext/base/caxpb` [(#12274)](https://github.com/stdlib-js/stdlib/pull/12274)
 -   [`ec4adc0`](https://github.com/stdlib-js/stdlib/commit/ec4adc08abd89e5a09c5bb6c975bed83562807b7) - add `blas/ext/base/dxsa` [(#12279)](https://github.com/stdlib-js/stdlib/pull/12279)
@@ -1052,6 +1055,9 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`58bbb07`](https://github.com/stdlib-js/stdlib/commit/58bbb0763e6ac0b06b9f2b9eaf5ed072fe227c7f) - **feat:** add `daxpb` to namespace _(by Athan Reines)_
+-   [`00d6b7b`](https://github.com/stdlib-js/stdlib/commit/00d6b7b1413d67615382602e1dc1192e7b0752ba) - **feat:** add `caxpb`, `dxsa`, and `sxsa` to namespace _(by Athan Reines)_
+-   [`80c8b05`](https://github.com/stdlib-js/stdlib/commit/80c8b056a3d9325307479e83f658f223d10a0143) - **feat:** add `dsdot`, `scasum`, and `sdsdot` to namespace _(by Athan Reines)_
 -   [`1f36fca`](https://github.com/stdlib-js/stdlib/commit/1f36fca74e8419638a5232f553ce012cd15b1533) - **feat:** add `blas/ext/base/ndarray/daxpb` [(#12276)](https://github.com/stdlib-js/stdlib/pull/12276) _(by Karan Anand, Athan Reines)_
 -   [`a5376c6`](https://github.com/stdlib-js/stdlib/commit/a5376c6ccc03169e27c2d9880e0eb18abf4c2080) - **feat:** add `blas/ext/base/caxpb` [(#12274)](https://github.com/stdlib-js/stdlib/pull/12274) _(by Karan Anand)_
 -   [`ec4adc0`](https://github.com/stdlib-js/stdlib/commit/ec4adc08abd89e5a09c5bb6c975bed83562807b7) - **feat:** add `blas/ext/base/dxsa` [(#12279)](https://github.com/stdlib-js/stdlib/pull/12279) _(by Karan Anand, Athan Reines)_

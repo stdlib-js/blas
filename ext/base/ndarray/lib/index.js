@@ -91,6 +91,15 @@ setReadOnly( ns, 'cunitspace', require( './../../../../ext/base/ndarray/cunitspa
 setReadOnly( ns, 'czeroTo', require( './../../../../ext/base/ndarray/czero-to' ) );
 
 /**
+* @name daxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/daxpb}
+*/
+setReadOnly( ns, 'daxpb', require( './../../../../ext/base/ndarray/daxpb' ) );
+
+/**
 * @name dcircshift
 * @memberof ns
 * @readonly
