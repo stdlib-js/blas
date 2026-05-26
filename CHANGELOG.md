@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`0bdbd47`](https://github.com/stdlib-js/stdlib/commit/0bdbd47051ef7aeb48af4049e31cf39f339d8ea7) - update `blas/base/ndarray` TypeScript declarations [(#12294)](https://github.com/stdlib-js/stdlib/pull/12294)
 -   [`86501b1`](https://github.com/stdlib-js/stdlib/commit/86501b1234b243f0c7f31dfa917d607f82249d6b) - add `zapx` and `gxsa` to namespace
 -   [`f8352cd`](https://github.com/stdlib-js/stdlib/commit/f8352cd7cf5ea0e4953d92f9ebc4577b532bdc68) - add `blas/ext/base/gxsa` [(#12278)](https://github.com/stdlib-js/stdlib/pull/12278)
 -   [`314d9a5`](https://github.com/stdlib-js/stdlib/commit/314d9a591ea1a4b933537f87daee280907f9e767) - add `blas/ext/base/zapx` [(#12275)](https://github.com/stdlib-js/stdlib/pull/12275)
@@ -1044,8 +1043,6 @@ A total of 61 issues were closed in this release:
 
 <details>
 
--   [`8f8c656`](https://github.com/stdlib-js/stdlib/commit/8f8c656623bdcb456e2389f90deb03b45a0875b5) - **docs:** align `alpha` description in `blas/ext/base/gxsa` [(#12286)](https://github.com/stdlib-js/stdlib/pull/12286) _(by Philipp Burckhardt)_
--   [`0bdbd47`](https://github.com/stdlib-js/stdlib/commit/0bdbd47051ef7aeb48af4049e31cf39f339d8ea7) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12294)](https://github.com/stdlib-js/stdlib/pull/12294) _(by stdlib-bot)_
 -   [`b48d4b6`](https://github.com/stdlib-js/stdlib/commit/b48d4b6cbf0b7a286bc5d2fc10b61ddf85971243) - **docs:** update namespace table of contents [(#12295)](https://github.com/stdlib-js/stdlib/pull/12295) _(by stdlib-bot)_
 -   [`86501b1`](https://github.com/stdlib-js/stdlib/commit/86501b1234b243f0c7f31dfa917d607f82249d6b) - **feat:** add `zapx` and `gxsa` to namespace _(by Athan Reines)_
 -   [`f8352cd`](https://github.com/stdlib-js/stdlib/commit/f8352cd7cf5ea0e4953d92f9ebc4577b532bdc68) - **feat:** add `blas/ext/base/gxsa` [(#12278)](https://github.com/stdlib-js/stdlib/pull/12278) _(by Karan Anand, Athan Reines)_

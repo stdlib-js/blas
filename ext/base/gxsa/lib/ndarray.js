@@ -35,7 +35,7 @@ var M = 5;
 * Subtracts a scalar constant from each element in a strided array.
 *
 * @param {PositiveInteger} N - number of indexed elements
-* @param {number} alpha - scalar constant
+* @param {number} alpha - scalar
 * @param {NumericArray} x - input array
 * @param {integer} strideX - stride length
 * @param {NonNegativeInteger} offsetX - starting index
