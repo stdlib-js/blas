@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1f36fca`](https://github.com/stdlib-js/stdlib/commit/1f36fca74e8419638a5232f553ce012cd15b1533) - add `blas/ext/base/ndarray/daxpb` [(#12276)](https://github.com/stdlib-js/stdlib/pull/12276)
 -   [`a5376c6`](https://github.com/stdlib-js/stdlib/commit/a5376c6ccc03169e27c2d9880e0eb18abf4c2080) - add `blas/ext/base/caxpb` [(#12274)](https://github.com/stdlib-js/stdlib/pull/12274)
 -   [`ec4adc0`](https://github.com/stdlib-js/stdlib/commit/ec4adc08abd89e5a09c5bb6c975bed83562807b7) - add `blas/ext/base/dxsa` [(#12279)](https://github.com/stdlib-js/stdlib/pull/12279)
 -   [`7b093b7`](https://github.com/stdlib-js/stdlib/commit/7b093b7ee8b530aec31a849d9aa701ed276b7014) - add `blas/base/ndarray/scasum` [(#12283)](https://github.com/stdlib-js/stdlib/pull/12283)
@@ -1051,6 +1052,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`1f36fca`](https://github.com/stdlib-js/stdlib/commit/1f36fca74e8419638a5232f553ce012cd15b1533) - **feat:** add `blas/ext/base/ndarray/daxpb` [(#12276)](https://github.com/stdlib-js/stdlib/pull/12276) _(by Karan Anand, Athan Reines)_
 -   [`a5376c6`](https://github.com/stdlib-js/stdlib/commit/a5376c6ccc03169e27c2d9880e0eb18abf4c2080) - **feat:** add `blas/ext/base/caxpb` [(#12274)](https://github.com/stdlib-js/stdlib/pull/12274) _(by Karan Anand)_
 -   [`ec4adc0`](https://github.com/stdlib-js/stdlib/commit/ec4adc08abd89e5a09c5bb6c975bed83562807b7) - **feat:** add `blas/ext/base/dxsa` [(#12279)](https://github.com/stdlib-js/stdlib/pull/12279) _(by Karan Anand, Athan Reines)_
 -   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - **fix:** use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282) _(by Kaustubh Patange)_
