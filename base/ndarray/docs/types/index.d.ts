@@ -32,6 +32,7 @@ import ddot = require( './../../../../base/ndarray/ddot' );
 import dnrm2 = require( './../../../../base/ndarray/dnrm2' );
 import dscal = require( './../../../../base/ndarray/dscal' );
 import dswap = require( './../../../../base/ndarray/dswap' );
+import dznrm2 = require( './../../../../base/ndarray/dznrm2' );
 import gasum = require( './../../../../base/ndarray/gasum' );
 import gaxpy = require( './../../../../base/ndarray/gaxpy' );
 import gcopy = require( './../../../../base/ndarray/gcopy' );
@@ -41,6 +42,7 @@ import gscal = require( './../../../../base/ndarray/gscal' );
 import gswap = require( './../../../../base/ndarray/gswap' );
 import sasum = require( './../../../../base/ndarray/sasum' );
 import saxpy = require( './../../../../base/ndarray/saxpy' );
+import scnrm2 = require( './../../../../base/ndarray/scnrm2' );
 import scopy = require( './../../../../base/ndarray/scopy' );
 import sdot = require( './../../../../base/ndarray/sdot' );
 import snrm2 = require( './../../../../base/ndarray/snrm2' );
@@ -396,6 +398,28 @@ interface Namespace {
 	dswap: typeof dswap;
 
 	/**
+	* Computes the L2-norm of a one-dimensional double-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns L2-norm
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	*
+	* var x = new Complex128Vector( [ 1.0, 2.0, 2.0, 4.0 ] );
+	*
+	* var y = ns.dznrm2( [ x ] );
+	* // returns 5.0
+	*/
+	dznrm2: typeof dznrm2;
+
+	/**
 	* Computes the sum of absolute values for all elements in a one-dimensional ndarray.
 	*
 	* ## Notes
@@ -636,6 +660,28 @@ interface Namespace {
 	* // returns true
 	*/
 	saxpy: typeof saxpy;
+
+	/**
+	* Computes the L2-norm of a one-dimensional single-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns L2-norm
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	*
+	* var x = new Complex64Vector( [ 1.0, 2.0, 2.0, 4.0 ] );
+	*
+	* var y = ns.scnrm2( [ x ] );
+	* // returns 5.0
+	*/
+	scnrm2: typeof scnrm2;
 
 	/**
 	* Copies values from a one-dimensional single-precision floating-point ndarray `x` into a one-dimensional single-precision floating-point ndarray `y`.
