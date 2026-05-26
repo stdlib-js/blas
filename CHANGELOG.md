@@ -694,6 +694,7 @@
 
 ### Bug Fixes
 
+-   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282)
 -   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - add missing `API_SUFFIX` and fix types
 -   [`a11c3ee`](https://github.com/stdlib-js/stdlib/commit/a11c3ee5ae67e719b024612187f7c0444bc811f0) - add missing `API_SUFFIX` and fix types
 -   [`c606f03`](https://github.com/stdlib-js/stdlib/commit/c606f03c3ef85ae8483d29198403f3cdd3b9da73) - correct bugs and typos in `blas/base/cgemv` [(#12192)](https://github.com/stdlib-js/stdlib/pull/12192)
@@ -1048,6 +1049,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - **fix:** use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282) _(by Kaustubh Patange)_
 -   [`b3c6c81`](https://github.com/stdlib-js/stdlib/commit/b3c6c81b5393667114babd5ed2d56c5d66c026ee) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/sgemm` [(#12280)](https://github.com/stdlib-js/stdlib/pull/12280) _(by Kaustubh Patange)_
 -   [`04fe53b`](https://github.com/stdlib-js/stdlib/commit/04fe53bd9b6e5c08bce0053ab34a212005320a76) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/ggemm` [(#12281)](https://github.com/stdlib-js/stdlib/pull/12281) _(by Kaustubh Patange)_
 -   [`7b093b7`](https://github.com/stdlib-js/stdlib/commit/7b093b7ee8b530aec31a849d9aa701ed276b7014) - **feat:** add `blas/base/ndarray/scasum` [(#12283)](https://github.com/stdlib-js/stdlib/pull/12283) _(by Kaustubh Patange)_
