@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e8b5180`](https://github.com/stdlib-js/stdlib/commit/e8b51809cf30d7aac3736c9932751ca8c452d761) - add `blas/base/ndarray/sdsdot` [(#12285)](https://github.com/stdlib-js/stdlib/pull/12285)
 -   [`496a0da`](https://github.com/stdlib-js/stdlib/commit/496a0da44f5c7e26c592403d52669e5abcb41518) - add `blas/base/ndarray/dsdot` [(#12284)](https://github.com/stdlib-js/stdlib/pull/12284)
 -   [`921e1e8`](https://github.com/stdlib-js/stdlib/commit/921e1e88a2c4ef9ab67ae82bec76b4d28d8c30dc) - add `blas/ext/base/sxsa` [(#12291)](https://github.com/stdlib-js/stdlib/pull/12291)
 -   [`0bdbd47`](https://github.com/stdlib-js/stdlib/commit/0bdbd47051ef7aeb48af4049e31cf39f339d8ea7) - update `blas/base/ndarray` TypeScript declarations [(#12294)](https://github.com/stdlib-js/stdlib/pull/12294)
@@ -1046,6 +1047,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`e8b5180`](https://github.com/stdlib-js/stdlib/commit/e8b51809cf30d7aac3736c9932751ca8c452d761) - **feat:** add `blas/base/ndarray/sdsdot` [(#12285)](https://github.com/stdlib-js/stdlib/pull/12285) _(by Kaustubh Patange, Athan Reines)_
 -   [`496a0da`](https://github.com/stdlib-js/stdlib/commit/496a0da44f5c7e26c592403d52669e5abcb41518) - **feat:** add `blas/base/ndarray/dsdot` [(#12284)](https://github.com/stdlib-js/stdlib/pull/12284) _(by Kaustubh Patange)_
 -   [`921e1e8`](https://github.com/stdlib-js/stdlib/commit/921e1e88a2c4ef9ab67ae82bec76b4d28d8c30dc) - **feat:** add `blas/ext/base/sxsa` [(#12291)](https://github.com/stdlib-js/stdlib/pull/12291) _(by Karan Anand)_
 -   [`8f8c656`](https://github.com/stdlib-js/stdlib/commit/8f8c656623bdcb456e2389f90deb03b45a0875b5) - **docs:** align `alpha` description in `blas/ext/base/gxsa` [(#12286)](https://github.com/stdlib-js/stdlib/pull/12286) _(by Philipp Burckhardt)_
