@@ -1058,6 +1058,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`4ed822d`](https://github.com/stdlib-js/stdlib/commit/4ed822d3426ea2ca9f5858de9a7e75e4e4447780) - **docs:** follow-up fixes for commits merged to `develop` on 2026-05-26 [(#12300)](https://github.com/stdlib-js/stdlib/pull/12300) _(by Philipp Burckhardt)_
 -   [`1ff31b2`](https://github.com/stdlib-js/stdlib/commit/1ff31b207d3beac881a96679697f767595248eb4) - **feat:** add `blas/base/dzasum` [(#4697)](https://github.com/stdlib-js/stdlib/pull/4697) _(by Gururaj Gurram, Athan Reines, Shabareesh Shetty, Kaustubh Patange)_
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`6bf10af`](https://github.com/stdlib-js/stdlib/commit/6bf10afeef0c79c8b1f4aaed67ba416712ca5cb5) - **bench:** rename misspelled `benchmark.stack.js` in `blas/sdot` [(#12290)](https://github.com/stdlib-js/stdlib/pull/12290) _(by Philipp Burckhardt)_
