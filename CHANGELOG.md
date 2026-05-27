@@ -702,6 +702,7 @@
 
 ### Bug Fixes
 
+-   [`7d90009`](https://github.com/stdlib-js/stdlib/commit/7d900094623c7f16cd5cabc1c50e27135a8d4691) - import `src` utility and fix description in `blas/base/cscal` [(#12315)](https://github.com/stdlib-js/stdlib/pull/12315)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 -   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282)
 -   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - add missing `API_SUFFIX` and fix types
@@ -1058,6 +1059,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`7d90009`](https://github.com/stdlib-js/stdlib/commit/7d900094623c7f16cd5cabc1c50e27135a8d4691) - **fix:** import `src` utility and fix description in `blas/base/cscal` [(#12315)](https://github.com/stdlib-js/stdlib/pull/12315) _(by Kaustubh Patange, Athan Reines)_
 -   [`4ed822d`](https://github.com/stdlib-js/stdlib/commit/4ed822d3426ea2ca9f5858de9a7e75e4e4447780) - **docs:** follow-up fixes for commits merged to `develop` on 2026-05-26 [(#12300)](https://github.com/stdlib-js/stdlib/pull/12300) _(by Philipp Burckhardt)_
 -   [`1ff31b2`](https://github.com/stdlib-js/stdlib/commit/1ff31b207d3beac881a96679697f767595248eb4) - **feat:** add `blas/base/dzasum` [(#4697)](https://github.com/stdlib-js/stdlib/pull/4697) _(by Gururaj Gurram, Athan Reines, Shabareesh Shetty, Kaustubh Patange)_
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
