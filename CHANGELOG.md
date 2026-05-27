@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-26)
+## Unreleased (2026-05-27)
 
 <section class="features">
 
@@ -1055,6 +1055,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`e508f18`](https://github.com/stdlib-js/stdlib/commit/e508f182c694bab37034c080d66bb7905db0c2e7) - **docs:** update namespace table of contents [(#12309)](https://github.com/stdlib-js/stdlib/pull/12309) _(by stdlib-bot)_
 -   [`58bbb07`](https://github.com/stdlib-js/stdlib/commit/58bbb0763e6ac0b06b9f2b9eaf5ed072fe227c7f) - **feat:** add `daxpb` to namespace _(by Athan Reines)_
 -   [`00d6b7b`](https://github.com/stdlib-js/stdlib/commit/00d6b7b1413d67615382602e1dc1192e7b0752ba) - **feat:** add `caxpb`, `dxsa`, and `sxsa` to namespace _(by Athan Reines)_
 -   [`80c8b05`](https://github.com/stdlib-js/stdlib/commit/80c8b056a3d9325307479e83f658f223d10a0143) - **feat:** add `dsdot`, `scasum`, and `sdsdot` to namespace _(by Athan Reines)_
