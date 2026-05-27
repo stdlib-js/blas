@@ -31,6 +31,7 @@ import dcopy = require( './../../../../base/ndarray/dcopy' );
 import ddot = require( './../../../../base/ndarray/ddot' );
 import dnrm2 = require( './../../../../base/ndarray/dnrm2' );
 import dscal = require( './../../../../base/ndarray/dscal' );
+import dsdot = require( './../../../../base/ndarray/dsdot' );
 import dswap = require( './../../../../base/ndarray/dswap' );
 import dznrm2 = require( './../../../../base/ndarray/dznrm2' );
 import gasum = require( './../../../../base/ndarray/gasum' );
@@ -42,9 +43,11 @@ import gscal = require( './../../../../base/ndarray/gscal' );
 import gswap = require( './../../../../base/ndarray/gswap' );
 import sasum = require( './../../../../base/ndarray/sasum' );
 import saxpy = require( './../../../../base/ndarray/saxpy' );
+import scasum = require( './../../../../base/ndarray/scasum' );
 import scnrm2 = require( './../../../../base/ndarray/scnrm2' );
 import scopy = require( './../../../../base/ndarray/scopy' );
 import sdot = require( './../../../../base/ndarray/sdot' );
+import sdsdot = require( './../../../../base/ndarray/sdsdot' );
 import snrm2 = require( './../../../../base/ndarray/snrm2' );
 import sscal = require( './../../../../base/ndarray/sscal' );
 import sswap = require( './../../../../base/ndarray/sswap' );
@@ -370,6 +373,30 @@ interface Namespace {
 	dscal: typeof dscal;
 
 	/**
+	* Computes the dot product of two one-dimensional single-precision floating-point ndarrays with double-precision accumulation.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns dot product
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	*
+	* var x = new Float32Vector( [ 4.0, 2.0, -3.0, 5.0, -1.0 ] );
+	* var y = new Float32Vector( [ 2.0, 6.0, -1.0, -4.0, 8.0 ] );
+	*
+	* var z = ns.dsdot( [ x, y ] );
+	* // returns -5.0
+	*/
+	dsdot: typeof dsdot;
+
+	/**
 	* Interchanges two one-dimensional double-precision floating-point ndarrays.
 	*
 	* ## Notes
@@ -662,6 +689,28 @@ interface Namespace {
 	saxpy: typeof saxpy;
 
 	/**
+	* Computes the sum of absolute values for all elements in a one-dimensional single-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns sum
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	*
+	* var x = new Complex64Vector( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* var y = ns.scasum( [ x ] );
+	* // returns 10.0
+	*/
+	scasum: typeof scasum;
+
+	/**
 	* Computes the L2-norm of a one-dimensional single-precision complex floating-point ndarray.
 	*
 	* ## Notes
@@ -733,6 +782,36 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	sdot: typeof sdot;
+
+	/**
+	* Computes the dot product of two one-dimensional single-precision floating-point ndarrays with extended accumulation.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing a scalar constant.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns dot product
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ 4.0, 2.0, -3.0, 5.0, -1.0 ] );
+	* var y = new Float32Vector( [ 2.0, 6.0, -1.0, -4.0, 8.0 ] );
+	*
+	* var scalar = scalar2ndarray( 10.0, {
+	*     'dtype': 'float32'
+	* });
+	*
+	* var z = ns.sdsdot( [ x, y, scalar ] );
+	* // returns 5.0
+	*/
+	sdsdot: typeof sdsdot;
 
 	/**
 	* Computes the L2-norm of a one-dimensional single-precision floating-point ndarray.
