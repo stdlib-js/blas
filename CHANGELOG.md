@@ -701,6 +701,7 @@
 
 ### Bug Fixes
 
+-   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
 -   [`6c22721`](https://github.com/stdlib-js/stdlib/commit/6c22721f012eb582efe3cd72fdeb05d4a657a88b) - use correct argument in `blas/base/dgemm` [(#12282)](https://github.com/stdlib-js/stdlib/pull/12282)
 -   [`9e3a4ba`](https://github.com/stdlib-js/stdlib/commit/9e3a4baead056e16d5a6a8cf9d91018c6aba20a0) - add missing `API_SUFFIX` and fix types
 -   [`a11c3ee`](https://github.com/stdlib-js/stdlib/commit/a11c3ee5ae67e719b024612187f7c0444bc811f0) - add missing `API_SUFFIX` and fix types
@@ -1056,6 +1057,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - **fix:** use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302) _(by Philipp Burckhardt)_
 -   [`6bf10af`](https://github.com/stdlib-js/stdlib/commit/6bf10afeef0c79c8b1f4aaed67ba416712ca5cb5) - **bench:** rename misspelled `benchmark.stack.js` in `blas/sdot` [(#12290)](https://github.com/stdlib-js/stdlib/pull/12290) _(by Philipp Burckhardt)_
 -   [`54d3d68`](https://github.com/stdlib-js/stdlib/commit/54d3d688dde9b4e86c9d22e298bcc62597451d55) - **docs:** update Markdown stdlib package URLs [(#12307)](https://github.com/stdlib-js/stdlib/pull/12307) _(by stdlib-bot)_
 -   [`402f587`](https://github.com/stdlib-js/stdlib/commit/402f58769159b354f4522a20cd26dfdcd70e9ce0) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12308)](https://github.com/stdlib-js/stdlib/pull/12308) _(by stdlib-bot)_
