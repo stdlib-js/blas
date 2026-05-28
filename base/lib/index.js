@@ -352,6 +352,15 @@ setReadOnly( blas, 'dtrmv', require( './../../base/dtrmv' ) );
 setReadOnly( blas, 'dtrsv', require( './../../base/dtrsv' ) );
 
 /**
+* @name dzasum
+* @memberof blas
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/dzasum}
+*/
+setReadOnly( blas, 'dzasum', require( './../../base/dzasum' ) );
+
+/**
 * @name dznrm2
 * @memberof blas
 * @readonly

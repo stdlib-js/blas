@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-27)
+## Unreleased (2026-05-28)
 
 <section class="features">
 
 ### Features
 
+-   [`fea89b4`](https://github.com/stdlib-js/stdlib/commit/fea89b499cd25a101fe5358d8d6fe55392ffc2ab) - add `dzasum` to namespace
 -   [`1ff31b2`](https://github.com/stdlib-js/stdlib/commit/1ff31b207d3beac881a96679697f767595248eb4) - add `blas/base/dzasum` [(#4697)](https://github.com/stdlib-js/stdlib/pull/4697)
 -   [`402f587`](https://github.com/stdlib-js/stdlib/commit/402f58769159b354f4522a20cd26dfdcd70e9ce0) - update `blas/base/ndarray` TypeScript declarations [(#12308)](https://github.com/stdlib-js/stdlib/pull/12308)
 -   [`58bbb07`](https://github.com/stdlib-js/stdlib/commit/58bbb0763e6ac0b06b9f2b9eaf5ed072fe227c7f) - add `daxpb` to namespace
@@ -1059,6 +1060,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`fea89b4`](https://github.com/stdlib-js/stdlib/commit/fea89b499cd25a101fe5358d8d6fe55392ffc2ab) - **feat:** add `dzasum` to namespace _(by Athan Reines)_
 -   [`8ff59d6`](https://github.com/stdlib-js/stdlib/commit/8ff59d63eaa88d252f5404e3b3affdf5c66821d5) - **chore:** propagate `blas/*` JSDoc and `cscal` header fixes to siblings [(#12318)](https://github.com/stdlib-js/stdlib/pull/12318) _(by Philipp Burckhardt)_
 -   [`7d90009`](https://github.com/stdlib-js/stdlib/commit/7d900094623c7f16cd5cabc1c50e27135a8d4691) - **fix:** import `src` utility and fix description in `blas/base/cscal` [(#12315)](https://github.com/stdlib-js/stdlib/pull/12315) _(by Kaustubh Patange, Athan Reines)_
 -   [`4ed822d`](https://github.com/stdlib-js/stdlib/commit/4ed822d3426ea2ca9f5858de9a7e75e4e4447780) - **docs:** follow-up fixes for commits merged to `develop` on 2026-05-26 [(#12300)](https://github.com/stdlib-js/stdlib/pull/12300) _(by Philipp Burckhardt)_
