@@ -1061,7 +1061,6 @@ A total of 61 issues were closed in this release:
 
 <details>
 
--   [`80ccc9e`](https://github.com/stdlib-js/stdlib/commit/80ccc9efda46e813af6a0dca63e34d7671b91eeb) - **docs:** update namespace table of contents [(#12329)](https://github.com/stdlib-js/stdlib/pull/12329) _(by stdlib-bot)_
 -   [`6123443`](https://github.com/stdlib-js/stdlib/commit/61234433f40b1d599161ef18dee78dd69d38ebed) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12328)](https://github.com/stdlib-js/stdlib/pull/12328) _(by stdlib-bot)_
 -   [`fea89b4`](https://github.com/stdlib-js/stdlib/commit/fea89b499cd25a101fe5358d8d6fe55392ffc2ab) - **feat:** add `dzasum` to namespace _(by Athan Reines)_
 -   [`8ff59d6`](https://github.com/stdlib-js/stdlib/commit/8ff59d63eaa88d252f5404e3b3affdf5c66821d5) - **chore:** propagate `blas/*` JSDoc and `cscal` header fixes to siblings [(#12318)](https://github.com/stdlib-js/stdlib/pull/12318) _(by Philipp Burckhardt)_
