@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`267a473`](https://github.com/stdlib-js/stdlib/commit/267a473a6e6e0b50e09eda9cbecb902614ae67fc) - add `blas/ext/base/gcunone` [(#12352)](https://github.com/stdlib-js/stdlib/pull/12352)
 -   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350)
 -   [`a6c328d`](https://github.com/stdlib-js/stdlib/commit/a6c328d343cbb67b8b8357c15e963c7e6a94c7c9) - add various symbols to namespace
 -   [`a35fd9e`](https://github.com/stdlib-js/stdlib/commit/a35fd9ef4c7b5208f174a4167d83cacbd05055c6) - add various symbols to namespace
@@ -1072,6 +1073,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`267a473`](https://github.com/stdlib-js/stdlib/commit/267a473a6e6e0b50e09eda9cbecb902614ae67fc) - **feat:** add `blas/ext/base/gcunone` [(#12352)](https://github.com/stdlib-js/stdlib/pull/12352) _(by Muhammad Haris, Athan Reines)_
 -   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - **feat:** add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350) _(by Karan Anand)_
 -   [`a6c328d`](https://github.com/stdlib-js/stdlib/commit/a6c328d343cbb67b8b8357c15e963c7e6a94c7c9) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`a35fd9e`](https://github.com/stdlib-js/stdlib/commit/a35fd9ef4c7b5208f174a4167d83cacbd05055c6) - **feat:** add various symbols to namespace _(by Athan Reines)_
