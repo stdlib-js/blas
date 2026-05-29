@@ -1064,6 +1064,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`18f0765`](https://github.com/stdlib-js/stdlib/commit/18f0765c6838468c71eb82319b6548693ab9d19f) - **docs:** update namespace table of contents [(#12340)](https://github.com/stdlib-js/stdlib/pull/12340) _(by stdlib-bot)_
 -   [`cf7b40a`](https://github.com/stdlib-js/stdlib/commit/cf7b40a2c52a11adc702ba5c40a0e442ada1dbc5) - **feat:** add `blas/ext/base/gmskrev` [(#10925)](https://github.com/stdlib-js/stdlib/pull/10925) _(by Muhammad Haris, Athan Reines)_
 -   [`eb60bb4`](https://github.com/stdlib-js/stdlib/commit/eb60bb44085cccb6d90484c453f6bcd2495421ea) - **feat:** add `blas/ext/base/dcartesian-product` [(#10799)](https://github.com/stdlib-js/stdlib/pull/10799) _(by Muhammad Haris, Athan Reines)_
 -   [`af6a5d7`](https://github.com/stdlib-js/stdlib/commit/af6a5d7a0446d5e3044cdf1a7db5775ffe2d1fa6) - **feat:** add `C` implementation for `blas/base/csscal` [(#12314)](https://github.com/stdlib-js/stdlib/pull/12314) _(by Kaustubh Patange, Athan Reines)_
