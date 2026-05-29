@@ -145,6 +145,15 @@ setReadOnly( ns, 'cunitspace', require( './../../../ext/base/cunitspace' ) );
 setReadOnly( ns, 'cwhere', require( './../../../ext/base/cwhere' ) );
 
 /**
+* @name cxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cxsa}
+*/
+setReadOnly( ns, 'cxsa', require( './../../../ext/base/cxsa' ) );
+
+/**
 * @name czeroTo
 * @memberof ns
 * @readonly
@@ -233,6 +242,15 @@ setReadOnly( ns, 'daxpb', require( './../../../ext/base/daxpb' ) );
 * @see {@link module:@stdlib/blas/ext/base/dcartesian-power}
 */
 setReadOnly( ns, 'dcartesianPower', require( './../../../ext/base/dcartesian-power' ) );
+
+/**
+* @name dcartesianProduct
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcartesian-product}
+*/
+setReadOnly( ns, 'dcartesianProduct', require( './../../../ext/base/dcartesian-product' ) );
 
 /**
 * @name dcartesianSquare
@@ -1063,6 +1081,15 @@ setReadOnly( ns, 'glastIndexOfRow', require( './../../../ext/base/glast-index-of
 setReadOnly( ns, 'glinspace', require( './../../../ext/base/glinspace' ) );
 
 /**
+* @name gmskrev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gmskrev}
+*/
+setReadOnly( ns, 'gmskrev', require( './../../../ext/base/gmskrev' ) );
+
+/**
 * @name gnancount
 * @memberof ns
 * @readonly
@@ -1844,6 +1871,15 @@ setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
 * @see {@link module:@stdlib/blas/ext/base/zapx}
 */
 setReadOnly( ns, 'zapx', require( './../../../ext/base/zapx' ) );
+
+/**
+* @name zaxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zaxpb}
+*/
+setReadOnly( ns, 'zaxpb', require( './../../../ext/base/zaxpb' ) );
 
 /**
 * @name zdiff

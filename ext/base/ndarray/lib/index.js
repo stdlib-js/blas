@@ -325,6 +325,15 @@ setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
 setReadOnly( ns, 'dunitspace', require( './../../../../ext/base/ndarray/dunitspace' ) );
 
 /**
+* @name dxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dxsa}
+*/
+setReadOnly( ns, 'dxsa', require( './../../../../ext/base/ndarray/dxsa' ) );
+
+/**
 * @name dzeroTo
 * @memberof ns
 * @readonly
@@ -584,6 +593,15 @@ setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspa
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gzero-to}
 */
 setReadOnly( ns, 'gzeroTo', require( './../../../../ext/base/ndarray/gzero-to' ) );
+
+/**
+* @name saxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/saxpb}
+*/
+setReadOnly( ns, 'saxpb', require( './../../../../ext/base/ndarray/saxpb' ) );
 
 /**
 * @name scircshift
