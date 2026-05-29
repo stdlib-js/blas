@@ -1065,6 +1065,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`5d3c84a`](https://github.com/stdlib-js/stdlib/commit/5d3c84a62f9c32af8ae37b52c293f3566b4c107a) - **test:** fix element annotations in ndarray offset tests [(#12345)](https://github.com/stdlib-js/stdlib/pull/12345) _(by Karan Anand)_
 -   [`d2700aa`](https://github.com/stdlib-js/stdlib/commit/d2700aa13c218eb72bdd464fbca86156a86a7a36) - **feat:** update `blas/base` TypeScript declarations [(#12339)](https://github.com/stdlib-js/stdlib/pull/12339) _(by stdlib-bot)_
 -   [`18f0765`](https://github.com/stdlib-js/stdlib/commit/18f0765c6838468c71eb82319b6548693ab9d19f) - **docs:** update namespace table of contents [(#12340)](https://github.com/stdlib-js/stdlib/pull/12340) _(by stdlib-bot)_
 -   [`cf7b40a`](https://github.com/stdlib-js/stdlib/commit/cf7b40a2c52a11adc702ba5c40a0e442ada1dbc5) - **feat:** add `blas/ext/base/gmskrev` [(#10925)](https://github.com/stdlib-js/stdlib/pull/10925) _(by Muhammad Haris, Athan Reines)_
