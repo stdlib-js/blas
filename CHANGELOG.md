@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c3773d9`](https://github.com/stdlib-js/stdlib/commit/c3773d9c8c7631f6d479e04564826a6430fa4186) - add `blas/ext/base/zaxpb` [(#12342)](https://github.com/stdlib-js/stdlib/pull/12342)
 -   [`4610fde`](https://github.com/stdlib-js/stdlib/commit/4610fded43149e5811521aaa432b24c1b53c60dc) - add `blas/ext/base/ndarray/saxpb` [(#12277)](https://github.com/stdlib-js/stdlib/pull/12277)
 -   [`d2700aa`](https://github.com/stdlib-js/stdlib/commit/d2700aa13c218eb72bdd464fbca86156a86a7a36) - update `blas/base` TypeScript declarations [(#12339)](https://github.com/stdlib-js/stdlib/pull/12339)
 -   [`cf7b40a`](https://github.com/stdlib-js/stdlib/commit/cf7b40a2c52a11adc702ba5c40a0e442ada1dbc5) - add `blas/ext/base/gmskrev` [(#10925)](https://github.com/stdlib-js/stdlib/pull/10925)
@@ -1066,6 +1067,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`c3773d9`](https://github.com/stdlib-js/stdlib/commit/c3773d9c8c7631f6d479e04564826a6430fa4186) - **feat:** add `blas/ext/base/zaxpb` [(#12342)](https://github.com/stdlib-js/stdlib/pull/12342) _(by Karan Anand)_
 -   [`4610fde`](https://github.com/stdlib-js/stdlib/commit/4610fded43149e5811521aaa432b24c1b53c60dc) - **feat:** add `blas/ext/base/ndarray/saxpb` [(#12277)](https://github.com/stdlib-js/stdlib/pull/12277) _(by Karan Anand)_
 -   [`5d3c84a`](https://github.com/stdlib-js/stdlib/commit/5d3c84a62f9c32af8ae37b52c293f3566b4c107a) - **test:** fix element annotations in ndarray offset tests [(#12345)](https://github.com/stdlib-js/stdlib/pull/12345) _(by Karan Anand)_
 -   [`d2700aa`](https://github.com/stdlib-js/stdlib/commit/d2700aa13c218eb72bdd464fbca86156a86a7a36) - **feat:** update `blas/base` TypeScript declarations [(#12339)](https://github.com/stdlib-js/stdlib/pull/12339) _(by stdlib-bot)_
