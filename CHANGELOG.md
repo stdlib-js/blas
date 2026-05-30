@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0f8d445`](https://github.com/stdlib-js/stdlib/commit/0f8d4454279b213a611e2253df5725482fb81762) - add `blas/ext/base/ndarray/zaxpb` [(#12381)](https://github.com/stdlib-js/stdlib/pull/12381)
 -   [`fedd3a9`](https://github.com/stdlib-js/stdlib/commit/fedd3a91e6c0e49542c61c2eccca14fe696d3910) - add `blas/ext/base/dmskrev` [(#10917)](https://github.com/stdlib-js/stdlib/pull/10917)
 -   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - add `caxpb` to namespace
 -   [`991a51c`](https://github.com/stdlib-js/stdlib/commit/991a51cd9a5ba2fd67d7f9ad23b11cb5be994435) - add `sxsa` to namespace
@@ -1081,6 +1082,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`0f8d445`](https://github.com/stdlib-js/stdlib/commit/0f8d4454279b213a611e2253df5725482fb81762) - **feat:** add `blas/ext/base/ndarray/zaxpb` [(#12381)](https://github.com/stdlib-js/stdlib/pull/12381) _(by Karan Anand)_
 -   [`fedd3a9`](https://github.com/stdlib-js/stdlib/commit/fedd3a91e6c0e49542c61c2eccca14fe696d3910) - **feat:** add `blas/ext/base/dmskrev` [(#10917)](https://github.com/stdlib-js/stdlib/pull/10917) _(by Muhammad Haris)_
 -   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - **feat:** add `caxpb` to namespace _(by Athan Reines)_
 -   [`991a51c`](https://github.com/stdlib-js/stdlib/commit/991a51cd9a5ba2fd67d7f9ad23b11cb5be994435) - **feat:** add `sxsa` to namespace _(by Athan Reines)_
