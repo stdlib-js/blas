@@ -52,6 +52,7 @@ import dsumkbn2 = require( './../../../../../ext/base/ndarray/dsumkbn2' );
 import dsumors = require( './../../../../../ext/base/ndarray/dsumors' );
 import dsumpw = require( './../../../../../ext/base/ndarray/dsumpw' );
 import dunitspace = require( './../../../../../ext/base/ndarray/dunitspace' );
+import dxsa = require( './../../../../../ext/base/ndarray/dxsa' );
 import dzeroTo = require( './../../../../../ext/base/ndarray/dzero-to' );
 import gcircshift = require( './../../../../../ext/base/ndarray/gcircshift' );
 import gcusum = require( './../../../../../ext/base/ndarray/gcusum' );
@@ -81,6 +82,7 @@ import gsumors = require( './../../../../../ext/base/ndarray/gsumors' );
 import gsumpw = require( './../../../../../ext/base/ndarray/gsumpw' );
 import gunitspace = require( './../../../../../ext/base/ndarray/gunitspace' );
 import gzeroTo = require( './../../../../../ext/base/ndarray/gzero-to' );
+import saxpb = require( './../../../../../ext/base/ndarray/saxpb' );
 import scircshift = require( './../../../../../ext/base/ndarray/scircshift' );
 import scusum = require( './../../../../../ext/base/ndarray/scusum' );
 import scusumkbn = require( './../../../../../ext/base/ndarray/scusumkbn' );
@@ -984,6 +986,34 @@ interface Namespace {
 	dunitspace: typeof dunitspace;
 
 	/**
+	* Subtracts a scalar constant from each element in a one-dimensional double-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant to subtract.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float64Vector( [ -2.0, 1.0, 3.0, -5.0 ] );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var out = ns.dxsa( [ x, alpha ] );
+	* // returns <ndarray>[ -7.0, -4.0, -2.0, -10.0 ]
+	*/
+	dxsa: typeof dxsa;
+
+	/**
 	* Fills a one-dimensional double-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from zero.
 	*
 	* ## Notes
@@ -1781,6 +1811,39 @@ interface Namespace {
 	* // returns <ndarray>[ 0.0, 1.0, 2.0, 3.0 ]
 	*/
 	gzeroTo: typeof gzeroTo;
+
+	/**
+	* Multiplies each element in a one-dimensional single-precision floating-point ndarray by a scalar constant and adds a scalar constant to each result.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant to multiply.
+	*     -   a zero-dimensional ndarray containing the scalar constant to add.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ -2.0, 1.0, 3.0, -5.0 ] );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'float32'
+	* });
+	*
+	* var beta = scalar2ndarray( 3.0, {
+	*     'dtype': 'float32'
+	* });
+	*
+	* var out = ns.saxpb( [ x, alpha, beta ] );
+	* // returns <ndarray>[ -7.0, 8.0, 18.0, -22.0 ]
+	*/
+	saxpb: typeof saxpb;
 
 	/**
 	* Circularly shifts the elements of a one-dimensional single-precision floating-point ndarray by a specified number of positions.

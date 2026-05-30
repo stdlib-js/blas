@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-29)
+## Unreleased (2026-05-30)
 
 <section class="features">
 
 ### Features
 
+-   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361)
 -   [`d3234b6`](https://github.com/stdlib-js/stdlib/commit/d3234b6e0cf324f63d6104cf2acc366ef9ffdb73) - add `blas/ext/base/gcuevery` [(#12355)](https://github.com/stdlib-js/stdlib/pull/12355)
 -   [`267a473`](https://github.com/stdlib-js/stdlib/commit/267a473a6e6e0b50e09eda9cbecb902614ae67fc) - add `blas/ext/base/gcunone` [(#12352)](https://github.com/stdlib-js/stdlib/pull/12352)
 -   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350)
@@ -1074,6 +1075,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361) _(by stdlib-bot)_
 -   [`d3234b6`](https://github.com/stdlib-js/stdlib/commit/d3234b6e0cf324f63d6104cf2acc366ef9ffdb73) - **feat:** add `blas/ext/base/gcuevery` [(#12355)](https://github.com/stdlib-js/stdlib/pull/12355) _(by Muhammad Haris, Athan Reines)_
 -   [`267a473`](https://github.com/stdlib-js/stdlib/commit/267a473a6e6e0b50e09eda9cbecb902614ae67fc) - **feat:** add `blas/ext/base/gcunone` [(#12352)](https://github.com/stdlib-js/stdlib/pull/12352) _(by Muhammad Haris, Athan Reines)_
 -   [`f9cbc89`](https://github.com/stdlib-js/stdlib/commit/f9cbc8936041fc0767caa30a3bdbc5a91c17c4ca) - **feat:** add `blas/ext/base/ndarray/sxsa` [(#12350)](https://github.com/stdlib-js/stdlib/pull/12350) _(by Karan Anand)_
