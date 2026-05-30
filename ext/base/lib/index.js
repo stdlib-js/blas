@@ -919,6 +919,24 @@ setReadOnly( ns, 'gcircshift', require( './../../../ext/base/gcircshift' ) );
 setReadOnly( ns, 'gconjoin', require( './../../../ext/base/gconjoin' ) );
 
 /**
+* @name gcuevery
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcuevery}
+*/
+setReadOnly( ns, 'gcuevery', require( './../../../ext/base/gcuevery' ) );
+
+/**
+* @name gcunone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcunone}
+*/
+setReadOnly( ns, 'gcunone', require( './../../../ext/base/gcunone' ) );
+
+/**
 * @name gcusum
 * @memberof ns
 * @readonly
@@ -1988,6 +2006,15 @@ setReadOnly( ns, 'zunitspace', require( './../../../ext/base/zunitspace' ) );
 * @see {@link module:@stdlib/blas/ext/base/zwhere}
 */
 setReadOnly( ns, 'zwhere', require( './../../../ext/base/zwhere' ) );
+
+/**
+* @name zxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zxsa}
+*/
+setReadOnly( ns, 'zxsa', require( './../../../ext/base/zxsa' ) );
 
 /**
 * @name zzeroTo

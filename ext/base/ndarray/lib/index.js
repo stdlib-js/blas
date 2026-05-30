@@ -37,6 +37,15 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
+* @name caxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/caxpb}
+*/
+setReadOnly( ns, 'caxpb', require( './../../../../ext/base/ndarray/caxpb' ) );
+
+/**
 * @name cindexOf
 * @memberof ns
 * @readonly
@@ -800,6 +809,15 @@ setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sunitspace}
 */
 setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspace' ) );
+
+/**
+* @name sxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sxsa}
+*/
+setReadOnly( ns, 'sxsa', require( './../../../../ext/base/ndarray/sxsa' ) );
 
 /**
 * @name szeroTo
