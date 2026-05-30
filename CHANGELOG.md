@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`513268f`](https://github.com/stdlib-js/stdlib/commit/513268fc1c6d70f999af77129cbec0522dd10117) - add `blas/ext/base/ndarray/caxpb` [(#12377)](https://github.com/stdlib-js/stdlib/pull/12377)
 -   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361)
 -   [`d3234b6`](https://github.com/stdlib-js/stdlib/commit/d3234b6e0cf324f63d6104cf2acc366ef9ffdb73) - add `blas/ext/base/gcuevery` [(#12355)](https://github.com/stdlib-js/stdlib/pull/12355)
 -   [`267a473`](https://github.com/stdlib-js/stdlib/commit/267a473a6e6e0b50e09eda9cbecb902614ae67fc) - add `blas/ext/base/gcunone` [(#12352)](https://github.com/stdlib-js/stdlib/pull/12352)
@@ -1075,6 +1076,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`513268f`](https://github.com/stdlib-js/stdlib/commit/513268fc1c6d70f999af77129cbec0522dd10117) - **feat:** add `blas/ext/base/ndarray/caxpb` [(#12377)](https://github.com/stdlib-js/stdlib/pull/12377) _(by Karan Anand)_
 -   [`32c453d`](https://github.com/stdlib-js/stdlib/commit/32c453d442eb82060b8bad46d39ff64361302b25) - **docs:** update namespace table of contents [(#12362)](https://github.com/stdlib-js/stdlib/pull/12362) _(by stdlib-bot)_
 -   [`17cc5aa`](https://github.com/stdlib-js/stdlib/commit/17cc5aa2b49b4182a27b1b1696f56198517caebf) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12361)](https://github.com/stdlib-js/stdlib/pull/12361) _(by stdlib-bot)_
 -   [`d3234b6`](https://github.com/stdlib-js/stdlib/commit/d3234b6e0cf324f63d6104cf2acc366ef9ffdb73) - **feat:** add `blas/ext/base/gcuevery` [(#12355)](https://github.com/stdlib-js/stdlib/pull/12355) _(by Muhammad Haris, Athan Reines)_
