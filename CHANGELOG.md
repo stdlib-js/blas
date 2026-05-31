@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402)
 -   [`0cefffd`](https://github.com/stdlib-js/stdlib/commit/0cefffd796337779fe11f3bb7f5a1ffd15442abb) - add `blas/ext/base/ndarray/zxsa` [(#12407)](https://github.com/stdlib-js/stdlib/pull/12407)
 -   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403)
 -   [`53ba9dc`](https://github.com/stdlib-js/stdlib/commit/53ba9dcb878686fb7d685da7fbadeeb739069204) - add `smskrev` to namespace
@@ -1096,6 +1097,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - **feat:** add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402) _(by Kaustubh Patange, Athan Reines)_
 -   [`0cefffd`](https://github.com/stdlib-js/stdlib/commit/0cefffd796337779fe11f3bb7f5a1ffd15442abb) - **feat:** add `blas/ext/base/ndarray/zxsa` [(#12407)](https://github.com/stdlib-js/stdlib/pull/12407) _(by Karan Anand)_
 -   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - **feat:** add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403) _(by Kaustubh Patange)_
 -   [`53ba9dc`](https://github.com/stdlib-js/stdlib/commit/53ba9dcb878686fb7d685da7fbadeeb739069204) - **feat:** add `smskrev` to namespace _(by Athan Reines)_
