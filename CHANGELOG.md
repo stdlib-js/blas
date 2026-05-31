@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-05-31)
 
 <section class="features">
 
 ### Features
 
+-   [`6ff2ede`](https://github.com/stdlib-js/stdlib/commit/6ff2ede05ab929f0d8d32bf1db831c3bd748c608) - add `blas/ext/base/ndarray/gaxpb` [(#12382)](https://github.com/stdlib-js/stdlib/pull/12382)
 -   [`0f8d445`](https://github.com/stdlib-js/stdlib/commit/0f8d4454279b213a611e2253df5725482fb81762) - add `blas/ext/base/ndarray/zaxpb` [(#12381)](https://github.com/stdlib-js/stdlib/pull/12381)
 -   [`fedd3a9`](https://github.com/stdlib-js/stdlib/commit/fedd3a91e6c0e49542c61c2eccca14fe696d3910) - add `blas/ext/base/dmskrev` [(#10917)](https://github.com/stdlib-js/stdlib/pull/10917)
 -   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - add `caxpb` to namespace
@@ -1082,6 +1083,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`6ff2ede`](https://github.com/stdlib-js/stdlib/commit/6ff2ede05ab929f0d8d32bf1db831c3bd748c608) - **feat:** add `blas/ext/base/ndarray/gaxpb` [(#12382)](https://github.com/stdlib-js/stdlib/pull/12382) _(by Karan Anand, Athan Reines)_
 -   [`0f8d445`](https://github.com/stdlib-js/stdlib/commit/0f8d4454279b213a611e2253df5725482fb81762) - **feat:** add `blas/ext/base/ndarray/zaxpb` [(#12381)](https://github.com/stdlib-js/stdlib/pull/12381) _(by Karan Anand)_
 -   [`fedd3a9`](https://github.com/stdlib-js/stdlib/commit/fedd3a91e6c0e49542c61c2eccca14fe696d3910) - **feat:** add `blas/ext/base/dmskrev` [(#10917)](https://github.com/stdlib-js/stdlib/pull/10917) _(by Muhammad Haris)_
 -   [`87e0a45`](https://github.com/stdlib-js/stdlib/commit/87e0a4506bf7d9708c1388f6c90da4a0264858a4) - **feat:** add `caxpb` to namespace _(by Athan Reines)_
