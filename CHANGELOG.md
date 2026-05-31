@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - add `cxsa`, `gaxpb`, and `zaxpb` to namespace
+-   [`c587366`](https://github.com/stdlib-js/stdlib/commit/c587366d17fda33fdc13f8e0443ee93157c5e0e0) - add `dmskrev` and `gaxpby` to namespace
 -   [`4a99de9`](https://github.com/stdlib-js/stdlib/commit/4a99de96ce637b10b7e949fc516f0c2602ac96c2) - update `blas/ext/base/ndarray` TypeScript declarations [(#12387)](https://github.com/stdlib-js/stdlib/pull/12387)
 -   [`b930fc4`](https://github.com/stdlib-js/stdlib/commit/b930fc44d1cafc7ffef58c51e42cebf970969f50) - add `blas/ext/base/ndarray/cxsa` [(#12383)](https://github.com/stdlib-js/stdlib/pull/12383)
 -   [`b5ae032`](https://github.com/stdlib-js/stdlib/commit/b5ae03255e85a51cb2cc0faf7d4c1f5c847e38dc) - add `blas/ext/base/gaxpby` [(#12380)](https://github.com/stdlib-js/stdlib/pull/12380)
@@ -1086,6 +1088,8 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - **feat:** add `cxsa`, `gaxpb`, and `zaxpb` to namespace _(by Athan Reines)_
+-   [`c587366`](https://github.com/stdlib-js/stdlib/commit/c587366d17fda33fdc13f8e0443ee93157c5e0e0) - **feat:** add `dmskrev` and `gaxpby` to namespace _(by Athan Reines)_
 -   [`78f0c53`](https://github.com/stdlib-js/stdlib/commit/78f0c534da8ae86ddf72c54884ebd040fa3c0ea4) - **docs:** update namespace table of contents [(#12388)](https://github.com/stdlib-js/stdlib/pull/12388) _(by stdlib-bot)_
 -   [`4a99de9`](https://github.com/stdlib-js/stdlib/commit/4a99de96ce637b10b7e949fc516f0c2602ac96c2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12387)](https://github.com/stdlib-js/stdlib/pull/12387) _(by stdlib-bot)_
 -   [`b930fc4`](https://github.com/stdlib-js/stdlib/commit/b930fc44d1cafc7ffef58c51e42cebf970969f50) - **feat:** add `blas/ext/base/ndarray/cxsa` [(#12383)](https://github.com/stdlib-js/stdlib/pull/12383) _(by Karan Anand)_

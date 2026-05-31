@@ -397,6 +397,15 @@ setReadOnly( ns, 'dlastIndexOfRow', require( './../../../ext/base/dlast-index-of
 setReadOnly( ns, 'dlinspace', require( './../../../ext/base/dlinspace' ) );
 
 /**
+* @name dmskrev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dmskrev}
+*/
+setReadOnly( ns, 'dmskrev', require( './../../../ext/base/dmskrev' ) );
+
+/**
 * @name dnanasum
 * @memberof ns
 * @readonly
@@ -881,6 +890,15 @@ setReadOnly( ns, 'gasumpw', require( './../../../ext/base/gasumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/gaxpb}
 */
 setReadOnly( ns, 'gaxpb', require( './../../../ext/base/gaxpb' ) );
+
+/**
+* @name gaxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gaxpby}
+*/
+setReadOnly( ns, 'gaxpby', require( './../../../ext/base/gaxpby' ) );
 
 /**
 * @name gcartesianPower

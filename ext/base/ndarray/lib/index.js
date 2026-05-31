@@ -91,6 +91,15 @@ setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) 
 setReadOnly( ns, 'cunitspace', require( './../../../../ext/base/ndarray/cunitspace' ) );
 
 /**
+* @name cxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cxsa}
+*/
+setReadOnly( ns, 'cxsa', require( './../../../../ext/base/ndarray/cxsa' ) );
+
+/**
 * @name czeroTo
 * @memberof ns
 * @readonly
@@ -350,6 +359,15 @@ setReadOnly( ns, 'dxsa', require( './../../../../ext/base/ndarray/dxsa' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dzero-to}
 */
 setReadOnly( ns, 'dzeroTo', require( './../../../../ext/base/ndarray/dzero-to' ) );
+
+/**
+* @name gaxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gaxpb}
+*/
+setReadOnly( ns, 'gaxpb', require( './../../../../ext/base/ndarray/gaxpb' ) );
 
 /**
 * @name gcircshift
@@ -827,6 +845,15 @@ setReadOnly( ns, 'sxsa', require( './../../../../ext/base/ndarray/sxsa' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/szero-to}
 */
 setReadOnly( ns, 'szeroTo', require( './../../../../ext/base/ndarray/szero-to' ) );
+
+/**
+* @name zaxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zaxpb}
+*/
+setReadOnly( ns, 'zaxpb', require( './../../../../ext/base/ndarray/zaxpb' ) );
 
 /**
 * @name zindexOf
