@@ -154,6 +154,15 @@ setReadOnly( ns, 'dsdot', require( './../../../base/ndarray/dsdot' ) );
 setReadOnly( ns, 'dswap', require( './../../../base/ndarray/dswap' ) );
 
 /**
+* @name dzasum
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dzasum}
+*/
+setReadOnly( ns, 'dzasum', require( './../../../base/ndarray/dzasum' ) );
+
+/**
 * @name dznrm2
 * @memberof ns
 * @readonly
