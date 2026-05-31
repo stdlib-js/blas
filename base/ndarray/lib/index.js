@@ -235,6 +235,15 @@ setReadOnly( ns, 'gscal', require( './../../../base/ndarray/gscal' ) );
 setReadOnly( ns, 'gswap', require( './../../../base/ndarray/gswap' ) );
 
 /**
+* @name idamax
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/idamax}
+*/
+setReadOnly( ns, 'idamax', require( './../../../base/ndarray/idamax' ) );
+
+/**
 * @name sasum
 * @memberof ns
 * @readonly

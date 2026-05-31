@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - add `idamax` to namespace
+-   [`f874802`](https://github.com/stdlib-js/stdlib/commit/f87480203da0168a35c4303c1e727b7c84c30eb7) - add `blas/base/ndarray/idamax` [(#12397)](https://github.com/stdlib-js/stdlib/pull/12397)
 -   [`ba11829`](https://github.com/stdlib-js/stdlib/commit/ba11829900b454c327798281c6746bac3e9cd9dd) - add `dzasum` to namespace
 -   [`d54dfab`](https://github.com/stdlib-js/stdlib/commit/d54dfab101734f92532890f79d8704203198166d) - add `blas/base/ndarray/dzasum` [(#12396)](https://github.com/stdlib-js/stdlib/pull/12396)
 -   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - add `cxsa`, `gaxpb`, and `zaxpb` to namespace
@@ -1090,6 +1092,8 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - **feat:** add `idamax` to namespace _(by Athan Reines)_
+-   [`f874802`](https://github.com/stdlib-js/stdlib/commit/f87480203da0168a35c4303c1e727b7c84c30eb7) - **feat:** add `blas/base/ndarray/idamax` [(#12397)](https://github.com/stdlib-js/stdlib/pull/12397) _(by Kaustubh Patange, Athan Reines)_
 -   [`ba11829`](https://github.com/stdlib-js/stdlib/commit/ba11829900b454c327798281c6746bac3e9cd9dd) - **feat:** add `dzasum` to namespace _(by Athan Reines)_
 -   [`d54dfab`](https://github.com/stdlib-js/stdlib/commit/d54dfab101734f92532890f79d8704203198166d) - **feat:** add `blas/base/ndarray/dzasum` [(#12396)](https://github.com/stdlib-js/stdlib/pull/12396) _(by Kaustubh Patange)_
 -   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - **feat:** add `cxsa`, `gaxpb`, and `zaxpb` to namespace _(by Athan Reines)_
