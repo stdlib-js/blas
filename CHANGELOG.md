@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f3c2d1c`](https://github.com/stdlib-js/stdlib/commit/f3c2d1c11d5f724e60fc1e040bbc3deb0a3e2903) - add `blas/ext/base/smskrev` [(#10924)](https://github.com/stdlib-js/stdlib/pull/10924)
 -   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - add `idamax` to namespace
 -   [`f874802`](https://github.com/stdlib-js/stdlib/commit/f87480203da0168a35c4303c1e727b7c84c30eb7) - add `blas/base/ndarray/idamax` [(#12397)](https://github.com/stdlib-js/stdlib/pull/12397)
 -   [`ba11829`](https://github.com/stdlib-js/stdlib/commit/ba11829900b454c327798281c6746bac3e9cd9dd) - add `dzasum` to namespace
@@ -1092,6 +1093,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`f3c2d1c`](https://github.com/stdlib-js/stdlib/commit/f3c2d1c11d5f724e60fc1e040bbc3deb0a3e2903) - **feat:** add `blas/ext/base/smskrev` [(#10924)](https://github.com/stdlib-js/stdlib/pull/10924) _(by Muhammad Haris, Athan Reines)_
 -   [`2bab6a4`](https://github.com/stdlib-js/stdlib/commit/2bab6a4b9db733334bdcd9bfc032af183bdd7cf2) - **docs:** fix missing header _(by Athan Reines)_
 -   [`7719ac8`](https://github.com/stdlib-js/stdlib/commit/7719ac8d2f7584c23d167ec3a3b9a7ad1fbba992) - **docs:** fix missing function description _(by Athan Reines)_
 -   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - **feat:** add `idamax` to namespace _(by Athan Reines)_
