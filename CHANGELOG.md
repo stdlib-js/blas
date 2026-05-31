@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - add `zxsa` to namespace
+-   [`45659c7`](https://github.com/stdlib-js/stdlib/commit/45659c7c5a8241137fc41d7dadaeff8c560a53f4) - add `gwxsa` to namespace
+-   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - add `igamax` and `isamax` to namespace
 -   [`719fad7`](https://github.com/stdlib-js/stdlib/commit/719fad70e179cac1125336a016a166e2233bfc35) - add `blas/ext/base/gwxsa` [(#12385)](https://github.com/stdlib-js/stdlib/pull/12385)
 -   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402)
 -   [`0cefffd`](https://github.com/stdlib-js/stdlib/commit/0cefffd796337779fe11f3bb7f5a1ffd15442abb) - add `blas/ext/base/ndarray/zxsa` [(#12407)](https://github.com/stdlib-js/stdlib/pull/12407)
@@ -1098,6 +1101,10 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - **feat:** add `zxsa` to namespace _(by Athan Reines)_
+-   [`45659c7`](https://github.com/stdlib-js/stdlib/commit/45659c7c5a8241137fc41d7dadaeff8c560a53f4) - **feat:** add `gwxsa` to namespace _(by Athan Reines)_
+-   [`fa63e96`](https://github.com/stdlib-js/stdlib/commit/fa63e96848015bb73e82bae42d188989588810f8) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - **feat:** add `igamax` and `isamax` to namespace _(by Athan Reines)_
 -   [`0e3aa56`](https://github.com/stdlib-js/stdlib/commit/0e3aa564804ba57767b8d5859073eadf05fda6d0) - **test:** fix complex array assertions [(#12409)](https://github.com/stdlib-js/stdlib/pull/12409) _(by Karan Anand)_
 -   [`298ccaf`](https://github.com/stdlib-js/stdlib/commit/298ccaf6055bcaa44dadb1e334bc5b4c827dc9dc) - **test:** add element comments and sentinel values to `blas/ext/base/ndarray/zxsa` [(#12408)](https://github.com/stdlib-js/stdlib/pull/12408) _(by Karan Anand)_
 -   [`719fad7`](https://github.com/stdlib-js/stdlib/commit/719fad70e179cac1125336a016a166e2233bfc35) - **feat:** add `blas/ext/base/gwxsa` [(#12385)](https://github.com/stdlib-js/stdlib/pull/12385) _(by Karan Anand)_

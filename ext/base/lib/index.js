@@ -1360,6 +1360,15 @@ setReadOnly( ns, 'gvander', require( './../../../ext/base/gvander' ) );
 setReadOnly( ns, 'gwhere', require( './../../../ext/base/gwhere' ) );
 
 /**
+* @name gwxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gwxsa}
+*/
+setReadOnly( ns, 'gwxsa', require( './../../../ext/base/gwxsa' ) );
+
+/**
 * @name gxsa
 * @memberof ns
 * @readonly
