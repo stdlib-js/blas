@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403)
 -   [`53ba9dc`](https://github.com/stdlib-js/stdlib/commit/53ba9dcb878686fb7d685da7fbadeeb739069204) - add `smskrev` to namespace
 -   [`f3c2d1c`](https://github.com/stdlib-js/stdlib/commit/f3c2d1c11d5f724e60fc1e040bbc3deb0a3e2903) - add `blas/ext/base/smskrev` [(#10924)](https://github.com/stdlib-js/stdlib/pull/10924)
 -   [`7cdf234`](https://github.com/stdlib-js/stdlib/commit/7cdf23436c16976a0c54fbe3f9e2bce85e21fdae) - add `idamax` to namespace
@@ -1094,6 +1095,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - **feat:** add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403) _(by Kaustubh Patange)_
 -   [`53ba9dc`](https://github.com/stdlib-js/stdlib/commit/53ba9dcb878686fb7d685da7fbadeeb739069204) - **feat:** add `smskrev` to namespace _(by Athan Reines)_
 -   [`f3c2d1c`](https://github.com/stdlib-js/stdlib/commit/f3c2d1c11d5f724e60fc1e040bbc3deb0a3e2903) - **feat:** add `blas/ext/base/smskrev` [(#10924)](https://github.com/stdlib-js/stdlib/pull/10924) _(by Muhammad Haris, Athan Reines)_
 -   [`2bab6a4`](https://github.com/stdlib-js/stdlib/commit/2bab6a4b9db733334bdcd9bfc032af183bdd7cf2) - **docs:** fix missing header _(by Athan Reines)_
