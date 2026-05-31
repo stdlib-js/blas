@@ -1098,6 +1098,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`0e3aa56`](https://github.com/stdlib-js/stdlib/commit/0e3aa564804ba57767b8d5859073eadf05fda6d0) - **test:** fix complex array assertions [(#12409)](https://github.com/stdlib-js/stdlib/pull/12409) _(by Karan Anand)_
 -   [`298ccaf`](https://github.com/stdlib-js/stdlib/commit/298ccaf6055bcaa44dadb1e334bc5b4c827dc9dc) - **test:** add element comments and sentinel values to `blas/ext/base/ndarray/zxsa` [(#12408)](https://github.com/stdlib-js/stdlib/pull/12408) _(by Karan Anand)_
 -   [`719fad7`](https://github.com/stdlib-js/stdlib/commit/719fad70e179cac1125336a016a166e2233bfc35) - **feat:** add `blas/ext/base/gwxsa` [(#12385)](https://github.com/stdlib-js/stdlib/pull/12385) _(by Karan Anand)_
 -   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - **feat:** add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402) _(by Kaustubh Patange, Athan Reines)_
