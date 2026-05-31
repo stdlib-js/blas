@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d54dfab`](https://github.com/stdlib-js/stdlib/commit/d54dfab101734f92532890f79d8704203198166d) - add `blas/base/ndarray/dzasum` [(#12396)](https://github.com/stdlib-js/stdlib/pull/12396)
 -   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - add `cxsa`, `gaxpb`, and `zaxpb` to namespace
 -   [`c587366`](https://github.com/stdlib-js/stdlib/commit/c587366d17fda33fdc13f8e0443ee93157c5e0e0) - add `dmskrev` and `gaxpby` to namespace
 -   [`4a99de9`](https://github.com/stdlib-js/stdlib/commit/4a99de96ce637b10b7e949fc516f0c2602ac96c2) - update `blas/ext/base/ndarray` TypeScript declarations [(#12387)](https://github.com/stdlib-js/stdlib/pull/12387)
@@ -1088,6 +1089,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`d54dfab`](https://github.com/stdlib-js/stdlib/commit/d54dfab101734f92532890f79d8704203198166d) - **feat:** add `blas/base/ndarray/dzasum` [(#12396)](https://github.com/stdlib-js/stdlib/pull/12396) _(by Kaustubh Patange)_
 -   [`65d7735`](https://github.com/stdlib-js/stdlib/commit/65d7735880ff6d36b49a243112bb56f078e53c49) - **feat:** add `cxsa`, `gaxpb`, and `zaxpb` to namespace _(by Athan Reines)_
 -   [`c587366`](https://github.com/stdlib-js/stdlib/commit/c587366d17fda33fdc13f8e0443ee93157c5e0e0) - **feat:** add `dmskrev` and `gaxpby` to namespace _(by Athan Reines)_
 -   [`78f0c53`](https://github.com/stdlib-js/stdlib/commit/78f0c534da8ae86ddf72c54884ebd040fa3c0ea4) - **docs:** update namespace table of contents [(#12388)](https://github.com/stdlib-js/stdlib/pull/12388) _(by stdlib-bot)_
