@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`719fad7`](https://github.com/stdlib-js/stdlib/commit/719fad70e179cac1125336a016a166e2233bfc35) - add `blas/ext/base/gwxsa` [(#12385)](https://github.com/stdlib-js/stdlib/pull/12385)
 -   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402)
 -   [`0cefffd`](https://github.com/stdlib-js/stdlib/commit/0cefffd796337779fe11f3bb7f5a1ffd15442abb) - add `blas/ext/base/ndarray/zxsa` [(#12407)](https://github.com/stdlib-js/stdlib/pull/12407)
 -   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403)
@@ -1097,6 +1098,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`719fad7`](https://github.com/stdlib-js/stdlib/commit/719fad70e179cac1125336a016a166e2233bfc35) - **feat:** add `blas/ext/base/gwxsa` [(#12385)](https://github.com/stdlib-js/stdlib/pull/12385) _(by Karan Anand)_
 -   [`1d9f9d1`](https://github.com/stdlib-js/stdlib/commit/1d9f9d17ff32b0f1083a7024c476fc303720c88d) - **feat:** add `blas/base/ndarray/igamax` [(#12402)](https://github.com/stdlib-js/stdlib/pull/12402) _(by Kaustubh Patange, Athan Reines)_
 -   [`0cefffd`](https://github.com/stdlib-js/stdlib/commit/0cefffd796337779fe11f3bb7f5a1ffd15442abb) - **feat:** add `blas/ext/base/ndarray/zxsa` [(#12407)](https://github.com/stdlib-js/stdlib/pull/12407) _(by Karan Anand)_
 -   [`4302ca2`](https://github.com/stdlib-js/stdlib/commit/4302ca2168b66b7f64ded7c21b5ebe6450f13ad1) - **feat:** add `blas/base/ndarray/isamax` [(#12403)](https://github.com/stdlib-js/stdlib/pull/12403) _(by Kaustubh Patange)_
