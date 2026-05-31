@@ -1666,6 +1666,15 @@ setReadOnly( ns, 'slastIndexOfRow', require( './../../../ext/base/slast-index-of
 setReadOnly( ns, 'slinspace', require( './../../../ext/base/slinspace' ) );
 
 /**
+* @name smskrev
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/smskrev}
+*/
+setReadOnly( ns, 'smskrev', require( './../../../ext/base/smskrev' ) );
+
+/**
 * @name snancount
 * @memberof ns
 * @readonly
