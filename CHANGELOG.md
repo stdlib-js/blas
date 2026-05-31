@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`537d506`](https://github.com/stdlib-js/stdlib/commit/537d506db8474702d698e335bd64715fe43f4ff9) - add `blas/ext/base/gxpy` [(#12406)](https://github.com/stdlib-js/stdlib/pull/12406)
 -   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - add `zxsa` to namespace
 -   [`45659c7`](https://github.com/stdlib-js/stdlib/commit/45659c7c5a8241137fc41d7dadaeff8c560a53f4) - add `gwxsa` to namespace
 -   [`d11d8fb`](https://github.com/stdlib-js/stdlib/commit/d11d8fb96e9e0ce2c11950e6143f9f9695e0e921) - add `igamax` and `isamax` to namespace
@@ -1101,6 +1102,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`537d506`](https://github.com/stdlib-js/stdlib/commit/537d506db8474702d698e335bd64715fe43f4ff9) - **feat:** add `blas/ext/base/gxpy` [(#12406)](https://github.com/stdlib-js/stdlib/pull/12406) _(by Karan Anand)_
 -   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - **feat:** add `zxsa` to namespace _(by Athan Reines)_
 -   [`45659c7`](https://github.com/stdlib-js/stdlib/commit/45659c7c5a8241137fc41d7dadaeff8c560a53f4) - **feat:** add `gwxsa` to namespace _(by Athan Reines)_
 -   [`fa63e96`](https://github.com/stdlib-js/stdlib/commit/fa63e96848015bb73e82bae42d188989588810f8) - **docs:** fix descriptions _(by Athan Reines)_
