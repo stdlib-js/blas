@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3935357`](https://github.com/stdlib-js/stdlib/commit/3935357126f6f4419533562c09d7a54de1e8b70d) - add `blas/ext/base/ndarray/gxsa` [(#12417)](https://github.com/stdlib-js/stdlib/pull/12417)
 -   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415)
 -   [`c326829`](https://github.com/stdlib-js/stdlib/commit/c326829c01e1d78bd549079871af19cb0cfb2e0f) - add `gxpy` to namespace
 -   [`537d506`](https://github.com/stdlib-js/stdlib/commit/537d506db8474702d698e335bd64715fe43f4ff9) - add `blas/ext/base/gxpy` [(#12406)](https://github.com/stdlib-js/stdlib/pull/12406)
@@ -1104,6 +1105,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`3935357`](https://github.com/stdlib-js/stdlib/commit/3935357126f6f4419533562c09d7a54de1e8b70d) - **feat:** add `blas/ext/base/ndarray/gxsa` [(#12417)](https://github.com/stdlib-js/stdlib/pull/12417) _(by Karan Anand)_
 -   [`0533a82`](https://github.com/stdlib-js/stdlib/commit/0533a8265097315ffd643c326f6917392f44cca8) - **refactor:** rename output array parameter from `y` to `w` in `blas/ext/base/gwxsa` [(#12418)](https://github.com/stdlib-js/stdlib/pull/12418) _(by Karan Anand)_
 -   [`9dd3df6`](https://github.com/stdlib-js/stdlib/commit/9dd3df6b9e0735d6ffe28d6475e1181ac645f2de) - **docs:** update namespace table of contents [(#12416)](https://github.com/stdlib-js/stdlib/pull/12416) _(by stdlib-bot)_
 -   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415) _(by stdlib-bot)_
