@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`57b21c2`](https://github.com/stdlib-js/stdlib/commit/57b21c2ce6642689b9f772f63bc9ad95cc6c29b6) - add TypeScript declarations for `blas/base/igamax` [(#12420)](https://github.com/stdlib-js/stdlib/pull/12420)
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - add `gxsa` to namespace
 -   [`a472680`](https://github.com/stdlib-js/stdlib/commit/a47268016f446a4d26673c0296e32c4b14ca7a9f) - add `gwapx` to namespace
 -   [`c54b9b1`](https://github.com/stdlib-js/stdlib/commit/c54b9b1602d48dd2972c5b0ef34f34047d2680b2) - add `blas/ext/base/gwapx` [(#12413)](https://github.com/stdlib-js/stdlib/pull/12413)
@@ -1108,6 +1109,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`57b21c2`](https://github.com/stdlib-js/stdlib/commit/57b21c2ce6642689b9f772f63bc9ad95cc6c29b6) - **feat:** add TypeScript declarations for `blas/base/igamax` [(#12420)](https://github.com/stdlib-js/stdlib/pull/12420) _(by Philipp Burckhardt)_
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - **feat:** add `gxsa` to namespace _(by Athan Reines)_
 -   [`a472680`](https://github.com/stdlib-js/stdlib/commit/a47268016f446a4d26673c0296e32c4b14ca7a9f) - **feat:** add `gwapx` to namespace _(by Athan Reines)_
 -   [`c54b9b1`](https://github.com/stdlib-js/stdlib/commit/c54b9b1602d48dd2972c5b0ef34f34047d2680b2) - **feat:** add `blas/ext/base/gwapx` [(#12413)](https://github.com/stdlib-js/stdlib/pull/12413) _(by Karan Anand)_
