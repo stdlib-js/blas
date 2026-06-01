@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9d49c60`](https://github.com/stdlib-js/stdlib/commit/9d49c6028806a168ca07b211136dc3134037b36c) - add `cdiff` to namespace
 -   [`6da0095`](https://github.com/stdlib-js/stdlib/commit/6da00954850ddf7230d07fe481f65a2c7a168c15) - add `blas/ext/base/cdiff` [(#11744)](https://github.com/stdlib-js/stdlib/pull/11744)
 -   [`57b21c2`](https://github.com/stdlib-js/stdlib/commit/57b21c2ce6642689b9f772f63bc9ad95cc6c29b6) - add TypeScript declarations for `blas/base/igamax` [(#12420)](https://github.com/stdlib-js/stdlib/pull/12420)
 -   [`48eafd9`](https://github.com/stdlib-js/stdlib/commit/48eafd99ff26711d802914a9e850f8d11537c1a6) - add `gxsa` to namespace
@@ -1110,6 +1111,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`9d49c60`](https://github.com/stdlib-js/stdlib/commit/9d49c6028806a168ca07b211136dc3134037b36c) - **feat:** add `cdiff` to namespace _(by Athan Reines)_
 -   [`6da0095`](https://github.com/stdlib-js/stdlib/commit/6da00954850ddf7230d07fe481f65a2c7a168c15) - **feat:** add `blas/ext/base/cdiff` [(#11744)](https://github.com/stdlib-js/stdlib/pull/11744) _(by Muhammad Haris, Athan Reines)_
 -   [`26c6b7a`](https://github.com/stdlib-js/stdlib/commit/26c6b7ae6f242ecb3edcf3b6e25040cc30d3e949) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/ggemv` [(#12423)](https://github.com/stdlib-js/stdlib/pull/12423) _(by Kaustubh Patange)_
 -   [`ebd579a`](https://github.com/stdlib-js/stdlib/commit/ebd579a7d5315aab1c6e346dd3073e13f437dc86) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/dgemv` [(#12422)](https://github.com/stdlib-js/stdlib/pull/12422) _(by Kaustubh Patange)_

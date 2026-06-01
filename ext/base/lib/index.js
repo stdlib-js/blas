@@ -55,6 +55,15 @@ setReadOnly( ns, 'capx', require( './../../../ext/base/capx' ) );
 setReadOnly( ns, 'caxpb', require( './../../../ext/base/caxpb' ) );
 
 /**
+* @name cdiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cdiff}
+*/
+setReadOnly( ns, 'cdiff', require( './../../../ext/base/cdiff' ) );
+
+/**
 * @name cfill
 * @memberof ns
 * @readonly
