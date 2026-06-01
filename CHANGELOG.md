@@ -1115,6 +1115,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`f7a08b6`](https://github.com/stdlib-js/stdlib/commit/f7a08b6ce746cb67f028eabec46455e0642e3758) - **docs:** align `package.json` descriptions with imperative-mood convention [(#12431)](https://github.com/stdlib-js/stdlib/pull/12431) _(by Philipp Burckhardt)_
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - **feat:** add `szeros` to namespace _(by Athan Reines)_
 -   [`02527f4`](https://github.com/stdlib-js/stdlib/commit/02527f445e4edeeb4d552159d748b18104ad3c95) - **feat:** add `blas/ext/base/szeros` _(by Athan Reines)_
 -   [`d864f6f`](https://github.com/stdlib-js/stdlib/commit/d864f6f8bf80276cb56eca9ed76045f5d310d3d4) - **feat:** add `dzeros` to namespace _(by Athan Reines)_
