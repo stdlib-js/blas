@@ -1109,6 +1109,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`26c6b7a`](https://github.com/stdlib-js/stdlib/commit/26c6b7ae6f242ecb3edcf3b6e25040cc30d3e949) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/ggemv` [(#12423)](https://github.com/stdlib-js/stdlib/pull/12423) _(by Kaustubh Patange)_
 -   [`ebd579a`](https://github.com/stdlib-js/stdlib/commit/ebd579a7d5315aab1c6e346dd3073e13f437dc86) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/dgemv` [(#12422)](https://github.com/stdlib-js/stdlib/pull/12422) _(by Kaustubh Patange)_
 -   [`10555a8`](https://github.com/stdlib-js/stdlib/commit/10555a861a68cf5761a293e2b9c7e2b9c71b84a9) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/sgemv` [(#12421)](https://github.com/stdlib-js/stdlib/pull/12421) _(by Kaustubh Patange)_
 -   [`57b21c2`](https://github.com/stdlib-js/stdlib/commit/57b21c2ce6642689b9f772f63bc9ad95cc6c29b6) - **feat:** add TypeScript declarations for `blas/base/igamax` [(#12420)](https://github.com/stdlib-js/stdlib/pull/12420) _(by Philipp Burckhardt)_
