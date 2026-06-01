@@ -613,6 +613,15 @@ setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
 setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspace' ) );
 
 /**
+* @name gxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gxsa}
+*/
+setReadOnly( ns, 'gxsa', require( './../../../../ext/base/ndarray/gxsa' ) );
+
+/**
 * @name gzeroTo
 * @memberof ns
 * @readonly
