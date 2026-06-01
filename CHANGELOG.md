@@ -1115,6 +1115,8 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`0f2cc7c`](https://github.com/stdlib-js/stdlib/commit/0f2cc7c6e98ae9681285d72aecba3f0b258106e2) - **docs:** update descriptions _(by Athan Reines)_
+-   [`f84f6d0`](https://github.com/stdlib-js/stdlib/commit/f84f6d09d7132ee20cf04d11ff8cd7c339158d6d) - **style:** fix return annotation _(by Athan Reines)_
 -   [`9f0e49e`](https://github.com/stdlib-js/stdlib/commit/9f0e49e6831ff9f1b342e203ed086abbaaee636d) - **chore:** address follow-up review findings for commits merged to `develop` on 2026-05-31 [(#12430)](https://github.com/stdlib-js/stdlib/pull/12430) _(by Philipp Burckhardt)_
 -   [`f7a08b6`](https://github.com/stdlib-js/stdlib/commit/f7a08b6ce746cb67f028eabec46455e0642e3758) - **docs:** align `package.json` descriptions with imperative-mood convention [(#12431)](https://github.com/stdlib-js/stdlib/pull/12431) _(by Philipp Burckhardt)_
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - **feat:** add `szeros` to namespace _(by Athan Reines)_
