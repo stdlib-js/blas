@@ -1369,6 +1369,15 @@ setReadOnly( ns, 'gwhere', require( './../../../ext/base/gwhere' ) );
 setReadOnly( ns, 'gwxsa', require( './../../../ext/base/gwxsa' ) );
 
 /**
+* @name gxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gxpy}
+*/
+setReadOnly( ns, 'gxpy', require( './../../../ext/base/gxpy' ) );
+
+/**
 * @name gxsa
 * @memberof ns
 * @readonly
