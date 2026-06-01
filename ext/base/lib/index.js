@@ -1945,6 +1945,15 @@ setReadOnly( ns, 'sxsa', require( './../../../ext/base/sxsa' ) );
 setReadOnly( ns, 'szeroTo', require( './../../../ext/base/szero-to' ) );
 
 /**
+* @name szeros
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/szeros}
+*/
+setReadOnly( ns, 'szeros', require( './../../../ext/base/szeros' ) );
+
+/**
 * @name wasm
 * @memberof ns
 * @readonly
