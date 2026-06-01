@@ -829,6 +829,15 @@ setReadOnly( ns, 'dxsa', require( './../../../ext/base/dxsa' ) );
 setReadOnly( ns, 'dzeroTo', require( './../../../ext/base/dzero-to' ) );
 
 /**
+* @name dzeros
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dzeros}
+*/
+setReadOnly( ns, 'dzeros', require( './../../../ext/base/dzeros' ) );
+
+/**
 * @name gapx
 * @memberof ns
 * @readonly
