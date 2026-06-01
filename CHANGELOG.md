@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415)
 -   [`c326829`](https://github.com/stdlib-js/stdlib/commit/c326829c01e1d78bd549079871af19cb0cfb2e0f) - add `gxpy` to namespace
 -   [`537d506`](https://github.com/stdlib-js/stdlib/commit/537d506db8474702d698e335bd64715fe43f4ff9) - add `blas/ext/base/gxpy` [(#12406)](https://github.com/stdlib-js/stdlib/pull/12406)
 -   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - add `zxsa` to namespace
@@ -1103,6 +1104,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`52ca9a6`](https://github.com/stdlib-js/stdlib/commit/52ca9a6494aab7867e025e73ba11703989f74b60) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#12415)](https://github.com/stdlib-js/stdlib/pull/12415) _(by stdlib-bot)_
 -   [`c326829`](https://github.com/stdlib-js/stdlib/commit/c326829c01e1d78bd549079871af19cb0cfb2e0f) - **feat:** add `gxpy` to namespace _(by Athan Reines)_
 -   [`537d506`](https://github.com/stdlib-js/stdlib/commit/537d506db8474702d698e335bd64715fe43f4ff9) - **feat:** add `blas/ext/base/gxpy` [(#12406)](https://github.com/stdlib-js/stdlib/pull/12406) _(by Karan Anand)_
 -   [`f18c78a`](https://github.com/stdlib-js/stdlib/commit/f18c78abdf6b01a85fbe0922d5569c355e8fc744) - **feat:** add `zxsa` to namespace _(by Athan Reines)_
