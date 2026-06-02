@@ -1116,6 +1116,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`f7eebc9`](https://github.com/stdlib-js/stdlib/commit/f7eebc9dd0757b872dc22b1a0eb01c12a7221df8) - **docs:** update namespace table of contents [(#12439)](https://github.com/stdlib-js/stdlib/pull/12439) _(by stdlib-bot)_
 -   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - **feat:** update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438) _(by stdlib-bot)_
 -   [`0f2cc7c`](https://github.com/stdlib-js/stdlib/commit/0f2cc7c6e98ae9681285d72aecba3f0b258106e2) - **docs:** update descriptions _(by Athan Reines)_
 -   [`f84f6d0`](https://github.com/stdlib-js/stdlib/commit/f84f6d09d7132ee20cf04d11ff8cd7c339158d6d) - **style:** fix return annotation _(by Athan Reines)_
