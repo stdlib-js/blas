@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-01)
+## Unreleased (2026-06-02)
 
 <section class="features">
 
 ### Features
 
+-   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438)
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - add `szeros` to namespace
 -   [`02527f4`](https://github.com/stdlib-js/stdlib/commit/02527f445e4edeeb4d552159d748b18104ad3c95) - add `blas/ext/base/szeros`
 -   [`d864f6f`](https://github.com/stdlib-js/stdlib/commit/d864f6f8bf80276cb56eca9ed76045f5d310d3d4) - add `dzeros` to namespace
@@ -1115,6 +1116,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - **feat:** update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438) _(by stdlib-bot)_
 -   [`0f2cc7c`](https://github.com/stdlib-js/stdlib/commit/0f2cc7c6e98ae9681285d72aecba3f0b258106e2) - **docs:** update descriptions _(by Athan Reines)_
 -   [`f84f6d0`](https://github.com/stdlib-js/stdlib/commit/f84f6d09d7132ee20cf04d11ff8cd7c339158d6d) - **style:** fix return annotation _(by Athan Reines)_
 -   [`9f0e49e`](https://github.com/stdlib-js/stdlib/commit/9f0e49e6831ff9f1b342e203ed086abbaaee636d) - **chore:** address follow-up review findings for commits merged to `develop` on 2026-05-31 [(#12430)](https://github.com/stdlib-js/stdlib/pull/12430) _(by Philipp Burckhardt)_

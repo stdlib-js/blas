@@ -69,6 +69,7 @@ import gscal = require( './../../../base/gscal' );
 import gswap = require( './../../../base/gswap' );
 import gsyr = require( './../../../base/gsyr' );
 import idamax = require( './../../../base/idamax' );
+import igamax = require( './../../../base/igamax' );
 import isamax = require( './../../../base/isamax' );
 import layoutEnum2Str = require( './../../../base/layout-enum2str' );
 import layoutResolveEnum = require( './../../../base/layout-resolve-enum' );
@@ -1530,6 +1531,28 @@ interface Namespace {
 	* // returns 3
 	*/
 	idamax: typeof idamax;
+
+	/**
+	* Finds the index of the first element having the maximum absolute value.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @returns index value
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* var idx = ns.igamax( x.length, x, 1 );
+	* // returns 4
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* var idx = ns.igamax.ndarray( x.length, x, 1, 0 );
+	* // returns 4
+	*/
+	igamax: typeof igamax;
 
 	/**
 	* Finds the index of the first element having the maximum absolute value.
