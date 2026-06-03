@@ -1504,6 +1504,15 @@ setReadOnly( ns, 'sasumpw', require( './../../../ext/base/sasumpw' ) );
 setReadOnly( ns, 'saxpb', require( './../../../ext/base/saxpb' ) );
 
 /**
+* @name saxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/saxpby}
+*/
+setReadOnly( ns, 'saxpby', require( './../../../ext/base/saxpby' ) );
+
+/**
 * @name scartesianPower
 * @memberof ns
 * @readonly
