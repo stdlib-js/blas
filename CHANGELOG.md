@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`62c39ad`](https://github.com/stdlib-js/stdlib/commit/62c39adef274b54ab0e73ee1e4f9595e33e04796) - add `blas/ext/base/saxpby` [(#12506)](https://github.com/stdlib-js/stdlib/pull/12506)
 -   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438)
 -   [`d2f751e`](https://github.com/stdlib-js/stdlib/commit/d2f751e2a9be84e74863b07fef380abbeff2fdd4) - add `szeros` to namespace
 -   [`02527f4`](https://github.com/stdlib-js/stdlib/commit/02527f445e4edeeb4d552159d748b18104ad3c95) - add `blas/ext/base/szeros`
@@ -1116,6 +1117,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`62c39ad`](https://github.com/stdlib-js/stdlib/commit/62c39adef274b54ab0e73ee1e4f9595e33e04796) - **feat:** add `blas/ext/base/saxpby` [(#12506)](https://github.com/stdlib-js/stdlib/pull/12506) _(by Karan Anand)_
 -   [`1bda9c9`](https://github.com/stdlib-js/stdlib/commit/1bda9c9faa736881973941e179545a3587ba71de) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/cgemv` [(#12484)](https://github.com/stdlib-js/stdlib/pull/12484) _(by Divit Jain, Athan Reines)_
 -   [`f7eebc9`](https://github.com/stdlib-js/stdlib/commit/f7eebc9dd0757b872dc22b1a0eb01c12a7221df8) - **docs:** update namespace table of contents [(#12439)](https://github.com/stdlib-js/stdlib/pull/12439) _(by stdlib-bot)_
 -   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - **feat:** update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438) _(by stdlib-bot)_
