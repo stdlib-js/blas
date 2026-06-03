@@ -550,6 +550,15 @@ setReadOnly( ns, 'dnansumpw', require( './../../../ext/base/dnansumpw' ) );
 setReadOnly( ns, 'doneTo', require( './../../../ext/base/done-to' ) );
 
 /**
+* @name dones
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dones}
+*/
+setReadOnly( ns, 'dones', require( './../../../ext/base/dones' ) );
+
+/**
 * @name drev
 * @memberof ns
 * @readonly
