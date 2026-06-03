@@ -1801,6 +1801,15 @@ setReadOnly( ns, 'snansumpw', require( './../../../ext/base/snansumpw' ) );
 setReadOnly( ns, 'soneTo', require( './../../../ext/base/sone-to' ) );
 
 /**
+* @name sones
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sones}
+*/
+setReadOnly( ns, 'sones', require( './../../../ext/base/sones' ) );
+
+/**
 * @name srev
 * @memberof ns
 * @readonly

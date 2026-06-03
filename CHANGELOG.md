@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - add `sones` to namespace
+-   [`1d97e1a`](https://github.com/stdlib-js/stdlib/commit/1d97e1a17530208c82ec7ae8c59c1e3e73b0b066) - add `blas/ext/base/sones`
 -   [`e903f79`](https://github.com/stdlib-js/stdlib/commit/e903f792e69612bfa05c36ff659ae56036313c56) - add `dones` to namespace
 -   [`6b340ea`](https://github.com/stdlib-js/stdlib/commit/6b340ea0a794b13c3f9e3eebb0381695a80126cd) - add `blas/ext/base/dones`
 -   [`b5749b6`](https://github.com/stdlib-js/stdlib/commit/b5749b622f585b65628072e223ceb18f3f21f80c) - add `saxpby` to namespace
@@ -1120,6 +1122,8 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - **feat:** add `sones` to namespace _(by Athan Reines)_
+-   [`1d97e1a`](https://github.com/stdlib-js/stdlib/commit/1d97e1a17530208c82ec7ae8c59c1e3e73b0b066) - **feat:** add `blas/ext/base/sones` _(by Athan Reines)_
 -   [`e903f79`](https://github.com/stdlib-js/stdlib/commit/e903f792e69612bfa05c36ff659ae56036313c56) - **feat:** add `dones` to namespace _(by Athan Reines)_
 -   [`6b340ea`](https://github.com/stdlib-js/stdlib/commit/6b340ea0a794b13c3f9e3eebb0381695a80126cd) - **feat:** add `blas/ext/base/dones` _(by Athan Reines)_
 -   [`b5749b6`](https://github.com/stdlib-js/stdlib/commit/b5749b622f585b65628072e223ceb18f3f21f80c) - **feat:** add `saxpby` to namespace _(by Athan Reines)_
