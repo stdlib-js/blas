@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-02)
+## Unreleased (2026-06-03)
 
 <section class="features">
 
@@ -1116,6 +1116,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`1bda9c9`](https://github.com/stdlib-js/stdlib/commit/1bda9c9faa736881973941e179545a3587ba71de) - **refactor:** replace `isMatrixTranspose` with `resolveStr` in `blas/base/cgemv` [(#12484)](https://github.com/stdlib-js/stdlib/pull/12484) _(by Divit Jain, Athan Reines)_
 -   [`f7eebc9`](https://github.com/stdlib-js/stdlib/commit/f7eebc9dd0757b872dc22b1a0eb01c12a7221df8) - **docs:** update namespace table of contents [(#12439)](https://github.com/stdlib-js/stdlib/pull/12439) _(by stdlib-bot)_
 -   [`bebe411`](https://github.com/stdlib-js/stdlib/commit/bebe411775818ab700e3055ce82d52c5d313c108) - **feat:** update `blas/base` TypeScript declarations [(#12438)](https://github.com/stdlib-js/stdlib/pull/12438) _(by stdlib-bot)_
 -   [`0f2cc7c`](https://github.com/stdlib-js/stdlib/commit/0f2cc7c6e98ae9681285d72aecba3f0b258106e2) - **docs:** update descriptions _(by Athan Reines)_
