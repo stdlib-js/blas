@@ -765,6 +765,7 @@
 
 ### Bug Fixes
 
+-   [`608e415`](https://github.com/stdlib-js/stdlib/commit/608e415c415a9d60e843d8a32043f3257195a11d) - rename interface to PascalCase `LastIndexOf` in `blas/ext/last-index-of` [(#12544)](https://github.com/stdlib-js/stdlib/pull/12544)
 -   [`a601344`](https://github.com/stdlib-js/stdlib/commit/a601344e6d755e59e2df59ec4650f2b1e20aa333) - type `order` parameter as `Layout` in `blas/ext/base/scartesian-square` [(#12530)](https://github.com/stdlib-js/stdlib/pull/12530)
 -   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531)
 -   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532)
@@ -1125,6 +1126,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`608e415`](https://github.com/stdlib-js/stdlib/commit/608e415c415a9d60e843d8a32043f3257195a11d) - **fix:** rename interface to PascalCase `LastIndexOf` in `blas/ext/last-index-of` [(#12544)](https://github.com/stdlib-js/stdlib/pull/12544) _(by Philipp Burckhardt)_
 -   [`1a35c42`](https://github.com/stdlib-js/stdlib/commit/1a35c4297cbdd96e126faa9a05aee2fc004119a4) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/gsort` [(#12538)](https://github.com/stdlib-js/stdlib/pull/12538) _(by Philipp Burckhardt)_
 -   [`9f94bda`](https://github.com/stdlib-js/stdlib/commit/9f94bda297163561179901566584481aba80d01c) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortsh` [(#12542)](https://github.com/stdlib-js/stdlib/pull/12542) _(by Philipp Burckhardt)_
 -   [`a18215d`](https://github.com/stdlib-js/stdlib/commit/a18215d30d740a00f67b05ec71d1f1da0d64166b) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/dsortsh` [(#12540)](https://github.com/stdlib-js/stdlib/pull/12540) _(by Philipp Burckhardt)_
