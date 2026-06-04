@@ -1125,6 +1125,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`37b53d2`](https://github.com/stdlib-js/stdlib/commit/37b53d20a65b426c7d5a9a4048ac31b10af45df5) - **refactor:** use `strideX` parameter name in `blas/ext/base/dnansum` [(#12536)](https://github.com/stdlib-js/stdlib/pull/12536) _(by Philipp Burckhardt)_
 -   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
 -   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
 -   [`a601344`](https://github.com/stdlib-js/stdlib/commit/a601344e6d755e59e2df59ec4650f2b1e20aa333) - **fix:** type `order` parameter as `Layout` in `blas/ext/base/scartesian-square` [(#12530)](https://github.com/stdlib-js/stdlib/pull/12530) _(by Philipp Burckhardt)_
