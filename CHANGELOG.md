@@ -1125,6 +1125,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
 -   [`a601344`](https://github.com/stdlib-js/stdlib/commit/a601344e6d755e59e2df59ec4650f2b1e20aa333) - **fix:** type `order` parameter as `Layout` in `blas/ext/base/scartesian-square` [(#12530)](https://github.com/stdlib-js/stdlib/pull/12530) _(by Philipp Burckhardt)_
 -   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - **fix:** type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531) _(by Philipp Burckhardt)_
 -   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - **fix:** decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532) _(by Philipp Burckhardt)_
