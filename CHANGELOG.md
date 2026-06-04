@@ -1126,6 +1126,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`f766a24`](https://github.com/stdlib-js/stdlib/commit/f766a2481ba05b540c57b8c058fe2ce399f52495) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortins` [(#12541)](https://github.com/stdlib-js/stdlib/pull/12541) _(by Philipp Burckhardt)_
 -   [`608e415`](https://github.com/stdlib-js/stdlib/commit/608e415c415a9d60e843d8a32043f3257195a11d) - **fix:** rename interface to PascalCase `LastIndexOf` in `blas/ext/last-index-of` [(#12544)](https://github.com/stdlib-js/stdlib/pull/12544) _(by Philipp Burckhardt)_
 -   [`1a35c42`](https://github.com/stdlib-js/stdlib/commit/1a35c4297cbdd96e126faa9a05aee2fc004119a4) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/gsort` [(#12538)](https://github.com/stdlib-js/stdlib/pull/12538) _(by Philipp Burckhardt)_
 -   [`9f94bda`](https://github.com/stdlib-js/stdlib/commit/9f94bda297163561179901566584481aba80d01c) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortsh` [(#12542)](https://github.com/stdlib-js/stdlib/pull/12542) _(by Philipp Burckhardt)_
