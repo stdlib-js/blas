@@ -1125,6 +1125,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`9f94bda`](https://github.com/stdlib-js/stdlib/commit/9f94bda297163561179901566584481aba80d01c) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortsh` [(#12542)](https://github.com/stdlib-js/stdlib/pull/12542) _(by Philipp Burckhardt)_
 -   [`a18215d`](https://github.com/stdlib-js/stdlib/commit/a18215d30d740a00f67b05ec71d1f1da0d64166b) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/dsortsh` [(#12540)](https://github.com/stdlib-js/stdlib/pull/12540) _(by Philipp Burckhardt)_
 -   [`e74dd95`](https://github.com/stdlib-js/stdlib/commit/e74dd953c73dd0fd149fc24dcee6f1f66847557a) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/gsorthp` [(#12539)](https://github.com/stdlib-js/stdlib/pull/12539) _(by Philipp Burckhardt)_
 -   [`45710f8`](https://github.com/stdlib-js/stdlib/commit/45710f8f1e2c0353af2798441c01f5fff9ad3fb6) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/dssumors` [(#12537)](https://github.com/stdlib-js/stdlib/pull/12537) _(by Philipp Burckhardt)_
