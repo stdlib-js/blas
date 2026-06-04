@@ -765,6 +765,7 @@
 
 ### Bug Fixes
 
+-   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531)
 -   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532)
 -   [`7d90009`](https://github.com/stdlib-js/stdlib/commit/7d900094623c7f16cd5cabc1c50e27135a8d4691) - import `src` utility and fix description in `blas/base/cscal` [(#12315)](https://github.com/stdlib-js/stdlib/pull/12315)
 -   [`95a8c41`](https://github.com/stdlib-js/stdlib/commit/95a8c41a2a5313aea289e722bed88bc888454233) - use correct argument value in error message and propagate JSDoc fixes to sibling packages [(#12302)](https://github.com/stdlib-js/stdlib/pull/12302)
@@ -1123,6 +1124,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`3bf760c`](https://github.com/stdlib-js/stdlib/commit/3bf760c663458801bfd17ca21ae891b724331fe9) - **fix:** type `order` parameter as `Layout` in `blas/ext/base/dcartesian-square` [(#12531)](https://github.com/stdlib-js/stdlib/pull/12531) _(by Philipp Burckhardt)_
 -   [`39f37bf`](https://github.com/stdlib-js/stdlib/commit/39f37bfe5ff3065d8da0e96cc07a3d81f1a4c649) - **fix:** decouple scalar `alpha` type from input ndarray type in `blas/base/ndarray/gaxpy` [(#12532)](https://github.com/stdlib-js/stdlib/pull/12532) _(by Philipp Burckhardt)_
 -   [`a3a2ba1`](https://github.com/stdlib-js/stdlib/commit/a3a2ba1ab29ccd763a7089ac24da1df0c17f34ff) - **docs:** update namespace table of contents [(#12521)](https://github.com/stdlib-js/stdlib/pull/12521) _(by stdlib-bot)_
 -   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - **feat:** add `sones` to namespace _(by Athan Reines)_
