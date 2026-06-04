@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-03)
+## Unreleased (2026-06-04)
 
 <section class="features">
 
@@ -1122,6 +1122,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`a3a2ba1`](https://github.com/stdlib-js/stdlib/commit/a3a2ba1ab29ccd763a7089ac24da1df0c17f34ff) - **docs:** update namespace table of contents [(#12521)](https://github.com/stdlib-js/stdlib/pull/12521) _(by stdlib-bot)_
 -   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - **feat:** add `sones` to namespace _(by Athan Reines)_
 -   [`1d97e1a`](https://github.com/stdlib-js/stdlib/commit/1d97e1a17530208c82ec7ae8c59c1e3e73b0b066) - **feat:** add `blas/ext/base/sones` _(by Athan Reines)_
 -   [`e903f79`](https://github.com/stdlib-js/stdlib/commit/e903f792e69612bfa05c36ff659ae56036313c56) - **feat:** add `dones` to namespace _(by Athan Reines)_
