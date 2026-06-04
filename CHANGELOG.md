@@ -1125,6 +1125,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`45710f8`](https://github.com/stdlib-js/stdlib/commit/45710f8f1e2c0353af2798441c01f5fff9ad3fb6) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/dssumors` [(#12537)](https://github.com/stdlib-js/stdlib/pull/12537) _(by Philipp Burckhardt)_
 -   [`37b53d2`](https://github.com/stdlib-js/stdlib/commit/37b53d20a65b426c7d5a9a4048ac31b10af45df5) - **refactor:** use `strideX` parameter name in `blas/ext/base/dnansum` [(#12536)](https://github.com/stdlib-js/stdlib/pull/12536) _(by Philipp Burckhardt)_
 -   [`ec68ca7`](https://github.com/stdlib-js/stdlib/commit/ec68ca7cc35210db29a028d561ec71968e2ff753) - **docs:** fix TSDoc errors in `blas` declarations [(#12529)](https://github.com/stdlib-js/stdlib/pull/12529) _(by Philipp Burckhardt, Athan Reines)_
 -   [`7587c51`](https://github.com/stdlib-js/stdlib/commit/7587c516c9cf38a7048079bf01c42135061b8d98) - **docs:** propagate TSDoc declaration fixes to sibling packages [(#12524)](https://github.com/stdlib-js/stdlib/pull/12524) _(by Philipp Burckhardt)_
