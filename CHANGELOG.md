@@ -1126,6 +1126,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`15a731b`](https://github.com/stdlib-js/stdlib/commit/15a731b9aa63d384fa1d8d5cd3f9c20004714ad4) - **refactor:** remove redundant generic constraint in `blas/ext/base/ndarray/gsorthp` [(#12546)](https://github.com/stdlib-js/stdlib/pull/12546) _(by Philipp Burckhardt)_
 -   [`c26d8b5`](https://github.com/stdlib-js/stdlib/commit/c26d8b58bd7f8254b6db66b8458128bed8e4beab) - **refactor:** remove redundant generic constraint in `blas/ext/base/ndarray/gsort` [(#12545)](https://github.com/stdlib-js/stdlib/pull/12545) _(by Philipp Burckhardt)_
 -   [`f766a24`](https://github.com/stdlib-js/stdlib/commit/f766a2481ba05b540c57b8c058fe2ce399f52495) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortins` [(#12541)](https://github.com/stdlib-js/stdlib/pull/12541) _(by Philipp Burckhardt)_
 -   [`608e415`](https://github.com/stdlib-js/stdlib/commit/608e415c415a9d60e843d8a32043f3257195a11d) - **fix:** rename interface to PascalCase `LastIndexOf` in `blas/ext/last-index-of` [(#12544)](https://github.com/stdlib-js/stdlib/pull/12544) _(by Philipp Burckhardt)_
