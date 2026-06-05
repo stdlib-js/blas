@@ -16,12 +16,25 @@
 
 <!-- /.features -->
 
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#12548](https://github.com/stdlib-js/stdlib/issues/12548)
+
+</section>
+
+<!-- /.issues -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`b6dbffd`](https://github.com/stdlib-js/stdlib/commit/b6dbffd7df2988cdc118a6eead40dbf3df7f407e) - **chore:** fix JavaScript lint errors [(#12553)](https://github.com/stdlib-js/stdlib/pull/12553) _(by Rayan Salhab)_
 -   [`813f930`](https://github.com/stdlib-js/stdlib/commit/813f930eb5499d52a3bf36758d226f39baae8bf5) - **feat:** add `blas/ext/base/gsome` [(#12555)](https://github.com/stdlib-js/stdlib/pull/12555) _(by Muhammad Haris, Athan Reines)_
 
 </details>
@@ -34,10 +47,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Rayan Salhab
 
 </section>
 
