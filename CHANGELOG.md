@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6c702e2`](https://github.com/stdlib-js/stdlib/commit/6c702e28867687afcb9570a8936c5341f974c461) - add `gcuany` and `gcusome` to namespace
 -   [`e55fddc`](https://github.com/stdlib-js/stdlib/commit/e55fddcf3ba3596e3d913925dc02f5c2600a0ec7) - add `blas/ext/base/gcusome` [(#12182)](https://github.com/stdlib-js/stdlib/pull/12182)
 -   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535)
 -   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - add `sones` to namespace
@@ -1128,6 +1129,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`6c702e2`](https://github.com/stdlib-js/stdlib/commit/6c702e28867687afcb9570a8936c5341f974c461) - **feat:** add `gcuany` and `gcusome` to namespace _(by Athan Reines)_
 -   [`e55fddc`](https://github.com/stdlib-js/stdlib/commit/e55fddcf3ba3596e3d913925dc02f5c2600a0ec7) - **feat:** add `blas/ext/base/gcusome` [(#12182)](https://github.com/stdlib-js/stdlib/pull/12182) _(by Muhammad Haris)_
 -   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - **feat:** add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535) _(by Muhammad Haris)_
 -   [`15a731b`](https://github.com/stdlib-js/stdlib/commit/15a731b9aa63d384fa1d8d5cd3f9c20004714ad4) - **refactor:** remove redundant generic constraint in `blas/ext/base/ndarray/gsorthp` [(#12546)](https://github.com/stdlib-js/stdlib/pull/12546) _(by Philipp Burckhardt)_

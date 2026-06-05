@@ -964,6 +964,15 @@ setReadOnly( ns, 'gcircshift', require( './../../../ext/base/gcircshift' ) );
 setReadOnly( ns, 'gconjoin', require( './../../../ext/base/gconjoin' ) );
 
 /**
+* @name gcuany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcuany}
+*/
+setReadOnly( ns, 'gcuany', require( './../../../ext/base/gcuany' ) );
+
+/**
 * @name gcuevery
 * @memberof ns
 * @readonly
@@ -980,6 +989,15 @@ setReadOnly( ns, 'gcuevery', require( './../../../ext/base/gcuevery' ) );
 * @see {@link module:@stdlib/blas/ext/base/gcunone}
 */
 setReadOnly( ns, 'gcunone', require( './../../../ext/base/gcunone' ) );
+
+/**
+* @name gcusome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcusome}
+*/
+setReadOnly( ns, 'gcusome', require( './../../../ext/base/gcusome' ) );
 
 /**
 * @name gcusum
