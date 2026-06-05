@@ -1129,6 +1129,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`4711e24`](https://github.com/stdlib-js/stdlib/commit/4711e24e67adfa46cabbe13f3fc0952530be1f7d) - **docs:** update namespace table of contents [(#12552)](https://github.com/stdlib-js/stdlib/pull/12552) _(by stdlib-bot)_
 -   [`6c702e2`](https://github.com/stdlib-js/stdlib/commit/6c702e28867687afcb9570a8936c5341f974c461) - **feat:** add `gcuany` and `gcusome` to namespace _(by Athan Reines)_
 -   [`e55fddc`](https://github.com/stdlib-js/stdlib/commit/e55fddcf3ba3596e3d913925dc02f5c2600a0ec7) - **feat:** add `blas/ext/base/gcusome` [(#12182)](https://github.com/stdlib-js/stdlib/pull/12182) _(by Muhammad Haris)_
 -   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - **feat:** add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535) _(by Muhammad Haris)_
