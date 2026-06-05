@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-04)
+## Unreleased (2026-06-05)
 
 <section class="features">
 
 ### Features
 
+-   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535)
 -   [`aac3a7c`](https://github.com/stdlib-js/stdlib/commit/aac3a7c1ed319e1270df50675c413235af628f2a) - add `sones` to namespace
 -   [`1d97e1a`](https://github.com/stdlib-js/stdlib/commit/1d97e1a17530208c82ec7ae8c59c1e3e73b0b066) - add `blas/ext/base/sones`
 -   [`e903f79`](https://github.com/stdlib-js/stdlib/commit/e903f792e69612bfa05c36ff659ae56036313c56) - add `dones` to namespace
@@ -1126,6 +1127,7 @@ A total of 61 issues were closed in this release:
 
 <details>
 
+-   [`7f321d8`](https://github.com/stdlib-js/stdlib/commit/7f321d8a3fbb4852da1e7f2a53634a10013e5d1b) - **feat:** add `blas/ext/base/gcuany` [(#12535)](https://github.com/stdlib-js/stdlib/pull/12535) _(by Muhammad Haris)_
 -   [`15a731b`](https://github.com/stdlib-js/stdlib/commit/15a731b9aa63d384fa1d8d5cd3f9c20004714ad4) - **refactor:** remove redundant generic constraint in `blas/ext/base/ndarray/gsorthp` [(#12546)](https://github.com/stdlib-js/stdlib/pull/12546) _(by Philipp Burckhardt)_
 -   [`c26d8b5`](https://github.com/stdlib-js/stdlib/commit/c26d8b58bd7f8254b6db66b8458128bed8e4beab) - **refactor:** remove redundant generic constraint in `blas/ext/base/ndarray/gsort` [(#12545)](https://github.com/stdlib-js/stdlib/pull/12545) _(by Philipp Burckhardt)_
 -   [`f766a24`](https://github.com/stdlib-js/stdlib/commit/f766a2481ba05b540c57b8c058fe2ce399f52495) - **refactor:** use `strideX`/`offsetX` parameter names in `blas/ext/base/ssortins` [(#12541)](https://github.com/stdlib-js/stdlib/pull/12541) _(by Philipp Burckhardt)_
