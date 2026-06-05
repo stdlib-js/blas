@@ -34,6 +34,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`98ca4d4`](https://github.com/stdlib-js/stdlib/commit/98ca4d428d981f27df4d2b2e1d403161d4f7ade2) - **chore:** rename `little_endian_array.js` example to plural [(#12556)](https://github.com/stdlib-js/stdlib/pull/12556) _(by Philipp Burckhardt)_
 -   [`b6dbffd`](https://github.com/stdlib-js/stdlib/commit/b6dbffd7df2988cdc118a6eead40dbf3df7f407e) - **chore:** fix JavaScript lint errors [(#12553)](https://github.com/stdlib-js/stdlib/pull/12553) _(by Rayan Salhab)_
 -   [`813f930`](https://github.com/stdlib-js/stdlib/commit/813f930eb5499d52a3bf36758d226f39baae8bf5) - **feat:** add `blas/ext/base/gsome` [(#12555)](https://github.com/stdlib-js/stdlib/pull/12555) _(by Muhammad Haris, Athan Reines)_
 
@@ -47,10 +48,11 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Muhammad Haris
+-   Philipp Burckhardt
 -   Rayan Salhab
 
 </section>
