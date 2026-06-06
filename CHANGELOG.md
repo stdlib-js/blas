@@ -50,6 +50,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e5c4d9a`](https://github.com/stdlib-js/stdlib/commit/e5c4d9a7fe7ad93edab892ea71c79619d7e247cb) - **docs:** add missing intro section placeholders [(#12623)](https://github.com/stdlib-js/stdlib/pull/12623) _(by Philipp Burckhardt)_
 -   [`1ee8124`](https://github.com/stdlib-js/stdlib/commit/1ee81246ebccb5ee7e80b2c85b7e9b4ef68442af) - **docs:** update `blas/ext` TypeScript declarations [(#12579)](https://github.com/stdlib-js/stdlib/pull/12579) _(by stdlib-bot)_
 -   [`a539935`](https://github.com/stdlib-js/stdlib/commit/a53993586dfc471e535e497d6625ea33cda175c0) - **docs:** update `blas/base/wasm` TypeScript declarations [(#12576)](https://github.com/stdlib-js/stdlib/pull/12576) _(by stdlib-bot)_
 -   [`a24c6b3`](https://github.com/stdlib-js/stdlib/commit/a24c6b34de672b4b2d6823a992f8b4df54458397) - **docs:** update `blas/base` TypeScript declarations [(#12575)](https://github.com/stdlib-js/stdlib/pull/12575) _(by stdlib-bot)_
