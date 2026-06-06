@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scartesianProduct = require( './../lib/scartesianproduct.js' );
+var scartesianProduct = require( './../lib/scartesian_product.js' );
 
 
 // TESTS //

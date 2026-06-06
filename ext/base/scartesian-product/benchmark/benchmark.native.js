@@ -33,7 +33,7 @@ var pkg = require( './../package.json' ).name;
 
 // VARIABLES //
 
-var scartesianProduct = tryRequire( resolve( __dirname, './../lib/scartesianproduct.native.js' ) );
+var scartesianProduct = tryRequire( resolve( __dirname, './../lib/scartesian_product.native.js' ) );
 var opts = {
 	'skip': ( scartesianProduct instanceof Error )
 };

@@ -244,6 +244,15 @@ setReadOnly( ns, 'dasumpw', require( './../../../ext/base/dasumpw' ) );
 setReadOnly( ns, 'daxpb', require( './../../../ext/base/daxpb' ) );
 
 /**
+* @name daxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/daxpby}
+*/
+setReadOnly( ns, 'daxpby', require( './../../../ext/base/daxpby' ) );
+
+/**
 * @name dcartesianPower
 * @memberof ns
 * @readonly
@@ -937,6 +946,15 @@ setReadOnly( ns, 'gaxpby', require( './../../../ext/base/gaxpby' ) );
 setReadOnly( ns, 'gcartesianPower', require( './../../../ext/base/gcartesian-power' ) );
 
 /**
+* @name gcartesianProduct
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcartesian-product}
+*/
+setReadOnly( ns, 'gcartesianProduct', require( './../../../ext/base/gcartesian-product' ) );
+
+/**
 * @name gcartesianSquare
 * @memberof ns
 * @readonly
@@ -1270,6 +1288,15 @@ setReadOnly( ns, 'greplicate', require( './../../../ext/base/greplicate' ) );
 setReadOnly( ns, 'grev', require( './../../../ext/base/grev' ) );
 
 /**
+* @name gsome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gsome}
+*/
+setReadOnly( ns, 'gsome', require( './../../../ext/base/gsome' ) );
+
+/**
 * @name gsort
 * @memberof ns
 * @readonly
@@ -1547,6 +1574,15 @@ setReadOnly( ns, 'saxpby', require( './../../../ext/base/saxpby' ) );
 * @see {@link module:@stdlib/blas/ext/base/scartesian-power}
 */
 setReadOnly( ns, 'scartesianPower', require( './../../../ext/base/scartesian-power' ) );
+
+/**
+* @name scartesianProduct
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scartesian-product}
+*/
+setReadOnly( ns, 'scartesianProduct', require( './../../../ext/base/scartesian-product' ) );
 
 /**
 * @name scartesianSquare

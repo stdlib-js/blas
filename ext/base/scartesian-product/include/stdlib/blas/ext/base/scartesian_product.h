@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_EXT_BASE_SCARTESIANPRODUCT_H
-#define STDLIB_BLAS_EXT_BASE_SCARTESIANPRODUCT_H
+#ifndef STDLIB_BLAS_EXT_BASE_SCARTESIAN_PRODUCT_H
+#define STDLIB_BLAS_EXT_BASE_SCARTESIAN_PRODUCT_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -42,4 +42,4 @@ void API_SUFFIX(stdlib_strided_scartesian_product_ndarray)( const CBLAS_INT M, c
 }
 #endif
 
-#endif // !STDLIB_BLAS_EXT_BASE_SCARTESIANPRODUCT_H
+#endif // !STDLIB_BLAS_EXT_BASE_SCARTESIAN_PRODUCT_H

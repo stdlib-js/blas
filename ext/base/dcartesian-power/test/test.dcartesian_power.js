@@ -20,34 +20,25 @@
 
 // MODULES //
 
-var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var Float64Array = require( '@stdlib/array/float64' );
-var tryRequire = require( '@stdlib/utils/try-require' );
-
-
-// VARIABLES //
-
-var dcartesianSquare = tryRequire( resolve( __dirname, './../lib/dcartesiansquare.native.js' ) );
-var opts = {
-	'skip': ( dcartesianSquare instanceof Error )
-};
+var dcartesianPower = require( './../lib/dcartesian_power.js' );
 
 
 // TESTS //
 
-tape( 'main export is a function', opts, function test( t ) {
+tape( 'main export is a function', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof dcartesianSquare, 'function', 'main export is a function' );
+	t.strictEqual( typeof dcartesianPower, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function has an arity of 6', opts, function test( t ) {
-	t.strictEqual( dcartesianSquare.length, 6, 'has expected arity' );
+tape( 'the function has an arity of 7', function test( t ) {
+	t.strictEqual( dcartesianPower.length, 7, 'has expected arity' );
 	t.end();
 });
 
-tape( 'the function throws if the first argument is not a valid order', opts, function test( t ) {
+tape( 'the function throws if the first argument is not a valid order', function test( t ) {
 	var values;
 	var i;
 
@@ -72,34 +63,34 @@ tape( 'the function throws if the first argument is not a valid order', opts, fu
 		return function badValue() {
 			var out = new Float64Array( 8 );
 			var x = new Float64Array( [ 1.0, 2.0 ] );
-			dcartesianSquare( value, 2, x, 1, out, 2 );
+			dcartesianPower( value, x.length, 2, x, 1, out, 2 );
 		};
 	}
 });
 
-tape( 'the function throws if the sixth argument is less than max(1,2) for row-major order', opts, function test( t ) {
+tape( 'the function throws if the seventh argument is less than max(1,k) for row-major order', function test( t ) {
+	t.throws( badValue, RangeError, 'throws a range error' );
+	t.end();
+
+	function badValue() {
+		var out = new Float64Array( 8 );
+		var x = new Float64Array( [ 1.0, 2.0 ] );
+		dcartesianPower( 'row-major', x.length, 3, x, 1, out, 2 );
+	}
+});
+
+tape( 'the function throws if the seventh argument is less than max(1,N^k) for column-major order', function test( t ) {
 	t.throws( badValue, RangeError, 'throws a range error' );
 	t.end();
 
 	function badValue() {
 		var out = new Float64Array( 18 );
 		var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-		dcartesianSquare( 'row-major', 3, x, 1, out, 1 );
+		dcartesianPower( 'column-major', 3, 2, x, 1, out, 8 );
 	}
 });
 
-tape( 'the function throws if the sixth argument is less than max(1,N*N) for column-major order', opts, function test( t ) {
-	t.throws( badValue, RangeError, 'throws a range error' );
-	t.end();
-
-	function badValue() {
-		var out = new Float64Array( 18 );
-		var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-		dcartesianSquare( 'column-major', 3, x, 1, out, 8 );
-	}
-});
-
-tape( 'the function computes the Cartesian square', opts, function test( t ) {
+tape( 'the function computes the Cartesian power', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -109,49 +100,46 @@ tape( 'the function computes the Cartesian square', opts, function test( t ) {
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	dcartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	dcartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-	out = new Float64Array( 27 );
+	x = new Float64Array( [ 1.0, 2.0 ] );
+	out = new Float64Array( 24 );
 	expected = new Float64Array([
 		1.0,
 		1.0,
-		0.0,
+		1.0,
+		1.0,
 		1.0,
 		2.0,
-		0.0,
 		1.0,
-		3.0,
-		0.0,
 		2.0,
 		1.0,
-		0.0,
-		2.0,
-		2.0,
-		0.0,
-		2.0,
-		3.0,
-		0.0,
-		3.0,
 		1.0,
-		0.0,
-		3.0,
 		2.0,
-		0.0,
-		3.0,
-		3.0,
-		0.0
+		2.0,
+		2.0,
+		1.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0,
+		2.0,
+		2.0,
+		1.0,
+		2.0,
+		2.0,
+		2.0
 	]);
 
-	dcartesianSquare( 'row-major', x.length, x, 1, out, 3 );
+	dcartesianPower( 'row-major', x.length, 3, x, 1, out, 3 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	x = new Float64Array( [ 5.0 ] );
-	out = new Float64Array( 2 );
-	expected = new Float64Array( [ 5.0, 5.0 ] );
+	out = new Float64Array( 1 );
+	expected = new Float64Array( [ 5.0 ] );
 
-	dcartesianSquare( 'row-major', 1, x, 1, out, 2 );
+	dcartesianPower( 'row-major', 1, 1, x, 1, out, 1 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -159,88 +147,96 @@ tape( 'the function computes the Cartesian square', opts, function test( t ) {
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	dcartesianSquare( 'column-major', x.length, x, 1, out, 4 );
+	dcartesianPower( 'column-major', x.length, 2, x, 1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
-	out = new Float64Array( 18 );
+	x = new Float64Array( [ 1.0, 2.0 ] );
+	out = new Float64Array( 24 );
 	expected = new Float64Array([
 		1.0,
 		1.0,
 		1.0,
-		2.0,
-		2.0,
-		2.0,
-		3.0,
-		3.0,
-		3.0,
 		1.0,
 		2.0,
-		3.0,
+		2.0,
+		2.0,
+		2.0,
+		1.0,
 		1.0,
 		2.0,
-		3.0,
+		2.0,
+		1.0,
 		1.0,
 		2.0,
-		3.0
+		2.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0
 	]);
 
-	dcartesianSquare( 'column-major', x.length, x, 1, out, 9 );
+	dcartesianPower( 'column-major', x.length, 3, x, 1, out, 8 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	x = new Float64Array( [ 5.0 ] );
-	out = new Float64Array( 2 );
-	expected = new Float64Array( [ 5.0, 5.0 ] );
+	out = new Float64Array( 1 );
+	expected = new Float64Array( [ 5.0 ] );
 
-	dcartesianSquare( 'column-major', 1, x, 1, out, 1 );
+	dcartesianPower( 'column-major', 1, 1, x, 1, out, 1 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function returns a reference to the output array', opts, function test( t ) {
+tape( 'the function returns a reference to the output array', function test( t ) {
 	var out;
 	var x;
 	var y;
 
 	x = new Float64Array( [ 1.0, 2.0 ] );
 	out = new Float64Array( 8 );
-	y = dcartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	y = dcartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
 
 	t.strictEqual( y, out, 'same reference' );
 
 	x = new Float64Array( [ 1.0, 2.0 ] );
 	out = new Float64Array( 8 );
-	y = dcartesianSquare( 'column-major', x.length, x, 1, out, 4 );
+	y = dcartesianPower( 'column-major', x.length, 2, x, 1, out, 4 );
 
 	t.strictEqual( y, out, 'same reference' );
 
 	t.end();
 });
 
-tape( 'if provided an `N` parameter equal to `0`, the function returns the output array unchanged', opts, function test( t ) {
+tape( 'if provided an `N` or `k` parameter equal to `0`, the function returns `out` unchanged', function test( t ) {
 	var expected;
 	var out;
 	var x;
 
 	x = new Float64Array( [ 1.0, 2.0 ] );
-	out = new Float64Array( [ 3.0, 4.0, 5.0, 6.0 ] );
-	expected = new Float64Array( [ 3.0, 4.0, 5.0, 6.0 ] );
+	out = new Float64Array( [ 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0 ] );
+	expected = new Float64Array( [ 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0 ] );
 
-	dcartesianSquare( 'row-major', 0, x, 1, out, 2 );
+	dcartesianPower( 'row-major', 0, 2, x, 1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	x = new Float64Array( [ 1.0, 2.0 ] );
-	out = new Float64Array( [ 3.0, 4.0, 5.0, 6.0 ] );
-	expected = new Float64Array( [ 3.0, 4.0, 5.0, 6.0 ] );
+	dcartesianPower( 'row-major', x.length, 0, x, 1, out, 1 );
+	t.deepEqual( out, expected, 'returns expected value' );
 
-	dcartesianSquare( 'column-major', 0, x, 1, out, 1 );
+	dcartesianPower( 'column-major', 0, 2, x, 1, out, 2 );
+	t.deepEqual( out, expected, 'returns expected value' );
+
+	dcartesianPower( 'column-major', x.length, 0, x, 1, out, 1 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports specifying a stride for `x`', opts, function test( t ) {
+tape( 'the function supports specifying a stride for `x`', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -255,7 +251,7 @@ tape( 'the function supports specifying a stride for `x`', opts, function test( 
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	dcartesianSquare( 'row-major', 2, x, 2, out, 2 );
+	dcartesianPower( 'row-major', 2, 2, x, 2, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -268,13 +264,13 @@ tape( 'the function supports specifying a stride for `x`', opts, function test( 
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	dcartesianSquare( 'column-major', 2, x, 2, out, 4 );
+	dcartesianPower( 'column-major', 2, 2, x, 2, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports specifying a negative stride for `x`', opts, function test( t ) {
+tape( 'the function supports specifying a negative stride for `x`', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -287,7 +283,7 @@ tape( 'the function supports specifying a negative stride for `x`', opts, functi
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	dcartesianSquare( 'row-major', 2, x, -1, out, 2 );
+	dcartesianPower( 'row-major', 2, 2, x, -1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -298,13 +294,13 @@ tape( 'the function supports specifying a negative stride for `x`', opts, functi
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	dcartesianSquare( 'column-major', 2, x, -1, out, 4 );
+	dcartesianPower( 'column-major', 2, 2, x, -1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports specifying a leading dimension stride for the output array', opts, function test( t ) {
+tape( 'the function supports specifying a leading dimension stride for the output array', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -331,7 +327,7 @@ tape( 'the function supports specifying a leading dimension stride for the outpu
 		0.0
 	]);
 
-	dcartesianSquare( 'row-major', 2, x, 1, out, 4 );
+	dcartesianPower( 'row-major', x.length, 2, x, 1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -356,13 +352,13 @@ tape( 'the function supports specifying a leading dimension stride for the outpu
 		0.0
 	]);
 
-	dcartesianSquare( 'column-major', 2, x, 1, out, 8 );
+	dcartesianPower( 'column-major', x.length, 2, x, 1, out, 8 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports view offsets', opts, function test( t ) {
+tape( 'the function supports view offsets', function test( t ) {
 	var expected;
 	var out;
 	var x0;
@@ -375,7 +371,7 @@ tape( 'the function supports view offsets', opts, function test( t ) {
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	dcartesianSquare( 'row-major', 2, x1, 1, out, 2 );
+	dcartesianPower( 'row-major', 2, 2, x1, 1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -385,7 +381,7 @@ tape( 'the function supports view offsets', opts, function test( t ) {
 	out = new Float64Array( 8 );
 	expected = new Float64Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	dcartesianSquare( 'column-major', 2, x1, 1, out, 4 );
+	dcartesianPower( 'column-major', 2, 2, x1, 1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();

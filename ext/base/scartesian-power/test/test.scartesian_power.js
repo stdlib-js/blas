@@ -20,34 +20,25 @@
 
 // MODULES //
 
-var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var Float32Array = require( '@stdlib/array/float32' );
-var tryRequire = require( '@stdlib/utils/try-require' );
-
-
-// VARIABLES //
-
-var scartesianSquare = tryRequire( resolve( __dirname, './../lib/scartesiansquare.native.js' ) );
-var opts = {
-	'skip': ( scartesianSquare instanceof Error )
-};
+var scartesianPower = require( './../lib/scartesian_power.js' );
 
 
 // TESTS //
 
-tape( 'main export is a function', opts, function test( t ) {
+tape( 'main export is a function', function test( t ) {
 	t.ok( true, __filename );
-	t.strictEqual( typeof scartesianSquare, 'function', 'main export is a function' );
+	t.strictEqual( typeof scartesianPower, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function has an arity of 6', opts, function test( t ) {
-	t.strictEqual( scartesianSquare.length, 6, 'has expected arity' );
+tape( 'the function has an arity of 7', function test( t ) {
+	t.strictEqual( scartesianPower.length, 7, 'has expected arity' );
 	t.end();
 });
 
-tape( 'the function throws if the first argument is not a valid order', opts, function test( t ) {
+tape( 'the function throws if the first argument is not a valid order', function test( t ) {
 	var values;
 	var i;
 
@@ -72,34 +63,34 @@ tape( 'the function throws if the first argument is not a valid order', opts, fu
 		return function badValue() {
 			var out = new Float32Array( 8 );
 			var x = new Float32Array( [ 1.0, 2.0 ] );
-			scartesianSquare( value, 2, x, 1, out, 2 );
+			scartesianPower( value, x.length, 2, x, 1, out, 2 );
 		};
 	}
 });
 
-tape( 'the function throws if the sixth argument is less than max(1,2) for row-major order', opts, function test( t ) {
+tape( 'the function throws if the seventh argument is less than max(1,k) for row-major order', function test( t ) {
+	t.throws( badValue, RangeError, 'throws a range error' );
+	t.end();
+
+	function badValue() {
+		var out = new Float32Array( 8 );
+		var x = new Float32Array( [ 1.0, 2.0 ] );
+		scartesianPower( 'row-major', x.length, 3, x, 1, out, 2 );
+	}
+});
+
+tape( 'the function throws if the seventh argument is less than max(1,N^k) for column-major order', function test( t ) {
 	t.throws( badValue, RangeError, 'throws a range error' );
 	t.end();
 
 	function badValue() {
 		var out = new Float32Array( 18 );
 		var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
-		scartesianSquare( 'row-major', 3, x, 1, out, 1 );
+		scartesianPower( 'column-major', 3, 2, x, 1, out, 8 );
 	}
 });
 
-tape( 'the function throws if the sixth argument is less than max(1,N*N) for column-major order', opts, function test( t ) {
-	t.throws( badValue, RangeError, 'throws a range error' );
-	t.end();
-
-	function badValue() {
-		var out = new Float32Array( 18 );
-		var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
-		scartesianSquare( 'column-major', 3, x, 1, out, 8 );
-	}
-});
-
-tape( 'the function computes the Cartesian square', opts, function test( t ) {
+tape( 'the function computes the Cartesian power', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -109,49 +100,46 @@ tape( 'the function computes the Cartesian square', opts, function test( t ) {
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	scartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	scartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
-	out = new Float32Array( 27 );
+	x = new Float32Array( [ 1.0, 2.0 ] );
+	out = new Float32Array( 24 );
 	expected = new Float32Array([
 		1.0,
 		1.0,
-		0.0,
+		1.0,
+		1.0,
 		1.0,
 		2.0,
-		0.0,
 		1.0,
-		3.0,
-		0.0,
 		2.0,
 		1.0,
-		0.0,
-		2.0,
-		2.0,
-		0.0,
-		2.0,
-		3.0,
-		0.0,
-		3.0,
 		1.0,
-		0.0,
-		3.0,
 		2.0,
-		0.0,
-		3.0,
-		3.0,
-		0.0
+		2.0,
+		2.0,
+		1.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0,
+		2.0,
+		2.0,
+		1.0,
+		2.0,
+		2.0,
+		2.0
 	]);
 
-	scartesianSquare( 'row-major', x.length, x, 1, out, 3 );
+	scartesianPower( 'row-major', x.length, 3, x, 1, out, 3 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	x = new Float32Array( [ 5.0 ] );
-	out = new Float32Array( 2 );
-	expected = new Float32Array( [ 5.0, 5.0 ] );
+	out = new Float32Array( 1 );
+	expected = new Float32Array( [ 5.0 ] );
 
-	scartesianSquare( 'row-major', 1, x, 1, out, 2 );
+	scartesianPower( 'row-major', 1, 1, x, 1, out, 1 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -159,88 +147,96 @@ tape( 'the function computes the Cartesian square', opts, function test( t ) {
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	scartesianSquare( 'column-major', x.length, x, 1, out, 4 );
+	scartesianPower( 'column-major', x.length, 2, x, 1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
-	out = new Float32Array( 18 );
+	x = new Float32Array( [ 1.0, 2.0 ] );
+	out = new Float32Array( 24 );
 	expected = new Float32Array([
 		1.0,
 		1.0,
 		1.0,
-		2.0,
-		2.0,
-		2.0,
-		3.0,
-		3.0,
-		3.0,
 		1.0,
 		2.0,
-		3.0,
+		2.0,
+		2.0,
+		2.0,
+		1.0,
 		1.0,
 		2.0,
-		3.0,
+		2.0,
+		1.0,
 		1.0,
 		2.0,
-		3.0
+		2.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0,
+		1.0,
+		2.0
 	]);
 
-	scartesianSquare( 'column-major', x.length, x, 1, out, 9 );
+	scartesianPower( 'column-major', x.length, 3, x, 1, out, 8 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	x = new Float32Array( [ 5.0 ] );
-	out = new Float32Array( 2 );
-	expected = new Float32Array( [ 5.0, 5.0 ] );
+	out = new Float32Array( 1 );
+	expected = new Float32Array( [ 5.0 ] );
 
-	scartesianSquare( 'column-major', 1, x, 1, out, 1 );
+	scartesianPower( 'column-major', 1, 1, x, 1, out, 1 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function returns a reference to the output array', opts, function test( t ) {
+tape( 'the function returns a reference to the output array', function test( t ) {
 	var out;
 	var x;
 	var y;
 
 	x = new Float32Array( [ 1.0, 2.0 ] );
 	out = new Float32Array( 8 );
-	y = scartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	y = scartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
 
 	t.strictEqual( y, out, 'same reference' );
 
 	x = new Float32Array( [ 1.0, 2.0 ] );
 	out = new Float32Array( 8 );
-	y = scartesianSquare( 'column-major', x.length, x, 1, out, 4 );
+	y = scartesianPower( 'column-major', x.length, 2, x, 1, out, 4 );
 
 	t.strictEqual( y, out, 'same reference' );
 
 	t.end();
 });
 
-tape( 'if provided an `N` parameter equal to `0`, the function returns the output array unchanged', opts, function test( t ) {
+tape( 'if provided an `N` or `k` parameter equal to `0`, the function returns `out` unchanged', function test( t ) {
 	var expected;
 	var out;
 	var x;
 
 	x = new Float32Array( [ 1.0, 2.0 ] );
-	out = new Float32Array( [ 3.0, 4.0, 5.0, 6.0 ] );
-	expected = new Float32Array( [ 3.0, 4.0, 5.0, 6.0 ] );
+	out = new Float32Array( [ 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0 ] );
+	expected = new Float32Array( [ 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0 ] );
 
-	scartesianSquare( 'row-major', 0, x, 1, out, 2 );
+	scartesianPower( 'row-major', 0, 2, x, 1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
-	x = new Float32Array( [ 1.0, 2.0 ] );
-	out = new Float32Array( [ 3.0, 4.0, 5.0, 6.0 ] );
-	expected = new Float32Array( [ 3.0, 4.0, 5.0, 6.0 ] );
+	scartesianPower( 'row-major', x.length, 0, x, 1, out, 1 );
+	t.deepEqual( out, expected, 'returns expected value' );
 
-	scartesianSquare( 'column-major', 0, x, 1, out, 1 );
+	scartesianPower( 'column-major', 0, 2, x, 1, out, 2 );
+	t.deepEqual( out, expected, 'returns expected value' );
+
+	scartesianPower( 'column-major', x.length, 0, x, 1, out, 1 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports specifying a stride for `x`', opts, function test( t ) {
+tape( 'the function supports specifying a stride for `x`', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -255,7 +251,7 @@ tape( 'the function supports specifying a stride for `x`', opts, function test( 
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	scartesianSquare( 'row-major', 2, x, 2, out, 2 );
+	scartesianPower( 'row-major', 2, 2, x, 2, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -268,13 +264,13 @@ tape( 'the function supports specifying a stride for `x`', opts, function test( 
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	scartesianSquare( 'column-major', 2, x, 2, out, 4 );
+	scartesianPower( 'column-major', 2, 2, x, 2, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports specifying a negative stride for `x`', opts, function test( t ) {
+tape( 'the function supports specifying a negative stride for `x`', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -287,7 +283,7 @@ tape( 'the function supports specifying a negative stride for `x`', opts, functi
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	scartesianSquare( 'row-major', 2, x, -1, out, 2 );
+	scartesianPower( 'row-major', 2, 2, x, -1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -298,13 +294,13 @@ tape( 'the function supports specifying a negative stride for `x`', opts, functi
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	scartesianSquare( 'column-major', 2, x, -1, out, 4 );
+	scartesianPower( 'column-major', 2, 2, x, -1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports specifying a leading dimension stride for the output array', opts, function test( t ) {
+tape( 'the function supports specifying a leading dimension stride for the output array', function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -331,7 +327,7 @@ tape( 'the function supports specifying a leading dimension stride for the outpu
 		0.0
 	]);
 
-	scartesianSquare( 'row-major', 2, x, 1, out, 4 );
+	scartesianPower( 'row-major', x.length, 2, x, 1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -356,13 +352,13 @@ tape( 'the function supports specifying a leading dimension stride for the outpu
 		0.0
 	]);
 
-	scartesianSquare( 'column-major', 2, x, 1, out, 8 );
+	scartesianPower( 'column-major', x.length, 2, x, 1, out, 8 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function supports view offsets', opts, function test( t ) {
+tape( 'the function supports view offsets', function test( t ) {
 	var expected;
 	var out;
 	var x0;
@@ -375,7 +371,7 @@ tape( 'the function supports view offsets', opts, function test( t ) {
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ] );
 
-	scartesianSquare( 'row-major', 2, x1, 1, out, 2 );
+	scartesianPower( 'row-major', 2, 2, x1, 1, out, 2 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	// Column-major:
@@ -385,7 +381,7 @@ tape( 'the function supports view offsets', opts, function test( t ) {
 	out = new Float32Array( 8 );
 	expected = new Float32Array( [ 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 1.0, 2.0 ] );
 
-	scartesianSquare( 'column-major', 2, x1, 1, out, 4 );
+	scartesianPower( 'column-major', 2, 2, x1, 1, out, 4 );
 	t.deepEqual( out, expected, 'returns expected value' );
 
 	t.end();

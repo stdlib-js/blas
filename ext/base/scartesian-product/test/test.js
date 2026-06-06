@@ -67,7 +67,7 @@ tape( 'if a native implementation is not available, the main export is a JavaScr
 	var scartesianProduct;
 	var main;
 
-	main = require( './../lib/scartesianproduct.js' );
+	main = require( './../lib/scartesian_product.js' );
 
 	scartesianProduct = proxyquire( './../lib', {
 		'@stdlib/utils/try-require': tryRequire

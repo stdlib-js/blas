@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fc58e6c`](https://github.com/stdlib-js/stdlib/commit/fc58e6cbed284e4a21421d7e3b73c7504d5bf968) - add various symbols to namespace
 -   [`0176557`](https://github.com/stdlib-js/stdlib/commit/01765576597097cc6bee0458802983e4a51aa2cc) - add `blas/ext/base/scartesian-product` [(#12563)](https://github.com/stdlib-js/stdlib/pull/12563)
 -   [`e4c19a3`](https://github.com/stdlib-js/stdlib/commit/e4c19a3e4864e7c9807cae88b2a37b5d0918edfb) - add `blas/ext/base/daxpby` [(#12573)](https://github.com/stdlib-js/stdlib/pull/12573)
 -   [`ccab031`](https://github.com/stdlib-js/stdlib/commit/ccab031cf9dbf53fb7d865934c310b7ca98f45bc) - add `blas/ext/base/gcartesian-product` [(#12561)](https://github.com/stdlib-js/stdlib/pull/12561)
@@ -18,6 +19,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`9dd3f73`](https://github.com/stdlib-js/stdlib/commit/9dd3f73544d43392c6ff8d5f290e0e466ac0c812) - rename header files to align with project conventions
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="issues">
 
@@ -37,6 +48,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`fc58e6c`](https://github.com/stdlib-js/stdlib/commit/fc58e6cbed284e4a21421d7e3b73c7504d5bf968) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`9dd3f73`](https://github.com/stdlib-js/stdlib/commit/9dd3f73544d43392c6ff8d5f290e0e466ac0c812) - **fix:** rename header files to align with project conventions _(by Athan Reines)_
 -   [`0176557`](https://github.com/stdlib-js/stdlib/commit/01765576597097cc6bee0458802983e4a51aa2cc) - **feat:** add `blas/ext/base/scartesian-product` [(#12563)](https://github.com/stdlib-js/stdlib/pull/12563) _(by Muhammad Haris)_
 -   [`e4c19a3`](https://github.com/stdlib-js/stdlib/commit/e4c19a3e4864e7c9807cae88b2a37b5d0918edfb) - **feat:** add `blas/ext/base/daxpby` [(#12573)](https://github.com/stdlib-js/stdlib/pull/12573) _(by Karan Anand)_
 -   [`ccab031`](https://github.com/stdlib-js/stdlib/commit/ccab031cf9dbf53fb7d865934c310b7ca98f45bc) - **feat:** add `blas/ext/base/gcartesian-product` [(#12561)](https://github.com/stdlib-js/stdlib/pull/12561) _(by Muhammad Haris, Athan Reines)_

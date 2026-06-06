@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-#ifndef STDLIB_BLAS_EXT_BASE_SCARTESIANSQUARE_H
-#define STDLIB_BLAS_EXT_BASE_SCARTESIANSQUARE_H
+#ifndef STDLIB_BLAS_EXT_BASE_DCARTESIAN_POWER_H
+#define STDLIB_BLAS_EXT_BASE_DCARTESIAN_POWER_H
 
 #include "stdlib/blas/base/shared.h"
 
@@ -29,17 +29,17 @@ extern "C" {
 #endif
 
 /**
-* Computes the Cartesian square for a single-precision floating-point strided array.
+* Computes the Cartesian power for a double-precision floating-point strided array.
 */
-void API_SUFFIX(stdlib_strided_scartesian_square)( const CBLAS_LAYOUT order, const CBLAS_INT N, const float *X, const CBLAS_INT strideX, float *Out, const CBLAS_INT LDO );
+void API_SUFFIX(stdlib_strided_dcartesian_power)( const CBLAS_LAYOUT order, const CBLAS_INT N, const CBLAS_INT k, const double *X, const CBLAS_INT strideX, double *Out, const CBLAS_INT LDO );
 
 /**
-* Computes the Cartesian square for a single-precision floating-point strided array using alternative indexing semantics.
+* Computes the Cartesian power for a double-precision floating-point strided array using alternative indexing semantics.
 */
-void API_SUFFIX(stdlib_strided_scartesian_square_ndarray)( const CBLAS_INT N, const float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, float *Out, const CBLAS_INT strideOut1, const CBLAS_INT strideOut2, const CBLAS_INT offsetOut );
+void API_SUFFIX(stdlib_strided_dcartesian_power_ndarray)( const CBLAS_INT N, const CBLAS_INT k, const double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, double *Out, const CBLAS_INT strideOut1, const CBLAS_INT strideOut2, const CBLAS_INT offsetOut );
 
 #ifdef __cplusplus
 }
 #endif
 
-#endif // !STDLIB_BLAS_EXT_BASE_SCARTESIANSQUARE_H
+#endif // !STDLIB_BLAS_EXT_BASE_DCARTESIAN_POWER_H

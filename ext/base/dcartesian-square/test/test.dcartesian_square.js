@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var Float64Array = require( '@stdlib/array/float64' );
-var dcartesianSquare = require( './../lib/dcartesiansquare.js' );
+var dcartesianSquare = require( './../lib/dcartesian_square.js' );
 
 
 // TESTS //

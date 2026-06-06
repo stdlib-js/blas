@@ -27,7 +27,7 @@ var pow = require( '@stdlib/math/base/special/pow' );
 var Float32Array = require( '@stdlib/array/float32' );
 var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
-var scartesianProduct = require( './../lib/scartesianproduct.js' );
+var scartesianProduct = require( './../lib/scartesian_product.js' );
 
 
 // VARIABLES //

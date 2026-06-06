@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-#include "stdlib/blas/ext/base/scartesianproduct.h"
+#include "stdlib/blas/ext/base/scartesian_product.h"
 #include "stdlib/blas/base/shared.h"
 #include <stdio.h>
 

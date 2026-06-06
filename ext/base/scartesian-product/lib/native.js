@@ -21,7 +21,7 @@
 // MODULES //
 
 var setReadOnly = require( '@stdlib/utils/define-nonenumerable-read-only-property' );
-var scartesianProduct = require( './scartesianproduct.native.js' );
+var scartesianProduct = require( './scartesian_product.native.js' );
 var ndarray = require( './ndarray.native.js' );
 
 

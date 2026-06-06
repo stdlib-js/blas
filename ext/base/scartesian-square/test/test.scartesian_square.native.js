@@ -20,25 +20,34 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var tape = require( 'tape' );
 var Float32Array = require( '@stdlib/array/float32' );
-var scartesianSquare = require( './../lib/scartesiansquare.js' );
+var tryRequire = require( '@stdlib/utils/try-require' );
+
+
+// VARIABLES //
+
+var scartesianSquare = tryRequire( resolve( __dirname, './../lib/scartesian_square.native.js' ) );
+var opts = {
+	'skip': ( scartesianSquare instanceof Error )
+};
 
 
 // TESTS //
 
-tape( 'main export is a function', function test( t ) {
+tape( 'main export is a function', opts, function test( t ) {
 	t.ok( true, __filename );
 	t.strictEqual( typeof scartesianSquare, 'function', 'main export is a function' );
 	t.end();
 });
 
-tape( 'the function has an arity of 6', function test( t ) {
+tape( 'the function has an arity of 6', opts, function test( t ) {
 	t.strictEqual( scartesianSquare.length, 6, 'has expected arity' );
 	t.end();
 });
 
-tape( 'the function throws if the first argument is not a valid order', function test( t ) {
+tape( 'the function throws if the first argument is not a valid order', opts, function test( t ) {
 	var values;
 	var i;
 
@@ -68,7 +77,7 @@ tape( 'the function throws if the first argument is not a valid order', function
 	}
 });
 
-tape( 'the function throws if the sixth argument is less than max(1,2) for row-major order', function test( t ) {
+tape( 'the function throws if the sixth argument is less than max(1,2) for row-major order', opts, function test( t ) {
 	t.throws( badValue, RangeError, 'throws a range error' );
 	t.end();
 
@@ -79,7 +88,7 @@ tape( 'the function throws if the sixth argument is less than max(1,2) for row-m
 	}
 });
 
-tape( 'the function throws if the sixth argument is less than max(1,N*N) for column-major order', function test( t ) {
+tape( 'the function throws if the sixth argument is less than max(1,N*N) for column-major order', opts, function test( t ) {
 	t.throws( badValue, RangeError, 'throws a range error' );
 	t.end();
 
@@ -90,7 +99,7 @@ tape( 'the function throws if the sixth argument is less than max(1,N*N) for col
 	}
 });
 
-tape( 'the function computes the Cartesian square', function test( t ) {
+tape( 'the function computes the Cartesian square', opts, function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -189,7 +198,7 @@ tape( 'the function computes the Cartesian square', function test( t ) {
 	t.end();
 });
 
-tape( 'the function returns a reference to the output array', function test( t ) {
+tape( 'the function returns a reference to the output array', opts, function test( t ) {
 	var out;
 	var x;
 	var y;
@@ -209,7 +218,7 @@ tape( 'the function returns a reference to the output array', function test( t )
 	t.end();
 });
 
-tape( 'if provided an `N` parameter equal to `0`, the function returns the output array unchanged', function test( t ) {
+tape( 'if provided an `N` parameter equal to `0`, the function returns the output array unchanged', opts, function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -231,7 +240,7 @@ tape( 'if provided an `N` parameter equal to `0`, the function returns the outpu
 	t.end();
 });
 
-tape( 'the function supports specifying a stride for `x`', function test( t ) {
+tape( 'the function supports specifying a stride for `x`', opts, function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -265,7 +274,7 @@ tape( 'the function supports specifying a stride for `x`', function test( t ) {
 	t.end();
 });
 
-tape( 'the function supports specifying a negative stride for `x`', function test( t ) {
+tape( 'the function supports specifying a negative stride for `x`', opts, function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -295,7 +304,7 @@ tape( 'the function supports specifying a negative stride for `x`', function tes
 	t.end();
 });
 
-tape( 'the function supports specifying a leading dimension stride for the output array', function test( t ) {
+tape( 'the function supports specifying a leading dimension stride for the output array', opts, function test( t ) {
 	var expected;
 	var out;
 	var x;
@@ -353,7 +362,7 @@ tape( 'the function supports specifying a leading dimension stride for the outpu
 	t.end();
 });
 
-tape( 'the function supports view offsets', function test( t ) {
+tape( 'the function supports view offsets', opts, function test( t ) {
 	var expected;
 	var out;
 	var x0;

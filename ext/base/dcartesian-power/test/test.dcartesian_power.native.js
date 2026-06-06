@@ -28,7 +28,7 @@ var tryRequire = require( '@stdlib/utils/try-require' );
 
 // VARIABLES //
 
-var dcartesianPower = tryRequire( resolve( __dirname, './../lib/dcartesianpower.native.js' ) );
+var dcartesianPower = tryRequire( resolve( __dirname, './../lib/dcartesian_power.native.js' ) );
 var opts = {
 	'skip': ( dcartesianPower instanceof Error )
 };
