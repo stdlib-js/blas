@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-05)
+## Unreleased (2026-06-06)
 
 <section class="features">
 
 ### Features
 
+-   [`e4c19a3`](https://github.com/stdlib-js/stdlib/commit/e4c19a3e4864e7c9807cae88b2a37b5d0918edfb) - add `blas/ext/base/daxpby` [(#12573)](https://github.com/stdlib-js/stdlib/pull/12573)
 -   [`ccab031`](https://github.com/stdlib-js/stdlib/commit/ccab031cf9dbf53fb7d865934c310b7ca98f45bc) - add `blas/ext/base/gcartesian-product` [(#12561)](https://github.com/stdlib-js/stdlib/pull/12561)
 -   [`813f930`](https://github.com/stdlib-js/stdlib/commit/813f930eb5499d52a3bf36758d226f39baae8bf5) - add `blas/ext/base/gsome` [(#12555)](https://github.com/stdlib-js/stdlib/pull/12555)
 
@@ -35,6 +36,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`e4c19a3`](https://github.com/stdlib-js/stdlib/commit/e4c19a3e4864e7c9807cae88b2a37b5d0918edfb) - **feat:** add `blas/ext/base/daxpby` [(#12573)](https://github.com/stdlib-js/stdlib/pull/12573) _(by Karan Anand)_
 -   [`ccab031`](https://github.com/stdlib-js/stdlib/commit/ccab031cf9dbf53fb7d865934c310b7ca98f45bc) - **feat:** add `blas/ext/base/gcartesian-product` [(#12561)](https://github.com/stdlib-js/stdlib/pull/12561) _(by Muhammad Haris, Athan Reines)_
 -   [`4f19dd0`](https://github.com/stdlib-js/stdlib/commit/4f19dd0fddd451cd6454758b8701e813876a619f) - **chore:** follow-up corrections for recent commits [(#12557)](https://github.com/stdlib-js/stdlib/pull/12557) _(by Philipp Burckhardt)_
 -   [`98ca4d4`](https://github.com/stdlib-js/stdlib/commit/98ca4d428d981f27df4d2b2e1d403161d4f7ade2) - **chore:** rename `little_endian_array.js` example to plural [(#12556)](https://github.com/stdlib-js/stdlib/pull/12556) _(by Philipp Burckhardt)_
@@ -51,9 +53,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 4 people contributed to this release. Thank you to the following contributors:
+A total of 5 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Rayan Salhab
