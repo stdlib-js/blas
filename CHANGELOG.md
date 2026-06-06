@@ -50,6 +50,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`1ee8124`](https://github.com/stdlib-js/stdlib/commit/1ee81246ebccb5ee7e80b2c85b7e9b4ef68442af) - **docs:** update `blas/ext` TypeScript declarations [(#12579)](https://github.com/stdlib-js/stdlib/pull/12579) _(by stdlib-bot)_
+-   [`a539935`](https://github.com/stdlib-js/stdlib/commit/a53993586dfc471e535e497d6625ea33cda175c0) - **docs:** update `blas/base/wasm` TypeScript declarations [(#12576)](https://github.com/stdlib-js/stdlib/pull/12576) _(by stdlib-bot)_
 -   [`a24c6b3`](https://github.com/stdlib-js/stdlib/commit/a24c6b34de672b4b2d6823a992f8b4df54458397) - **docs:** update `blas/base` TypeScript declarations [(#12575)](https://github.com/stdlib-js/stdlib/pull/12575) _(by stdlib-bot)_
 -   [`72f20d1`](https://github.com/stdlib-js/stdlib/commit/72f20d155341ee6bb9de688ba7b2a1b701ff3a54) - **feat:** update `blas/ext/base` TypeScript declarations [(#12578)](https://github.com/stdlib-js/stdlib/pull/12578) _(by stdlib-bot)_
 -   [`d61f60f`](https://github.com/stdlib-js/stdlib/commit/d61f60f9d86d485fd6be90594d1226ff29b664da) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12577)](https://github.com/stdlib-js/stdlib/pull/12577) _(by stdlib-bot)_
