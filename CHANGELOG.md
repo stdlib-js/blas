@@ -52,6 +52,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`f2640a2`](https://github.com/stdlib-js/stdlib/commit/f2640a213240945e2e06593eed4e3fb031e95db5) - **docs:** add missing Oxford comma _(by Athan Reines)_
 -   [`f3b8c81`](https://github.com/stdlib-js/stdlib/commit/f3b8c8138f75478315e5ad7176e97a2078dbd91d) - **chore:** clean-up examples and benchmarks _(by Athan Reines)_
 -   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - **feat:** add `gediff` to namespace _(by Athan Reines)_
 -   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - **feat:** add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907) _(by Muhammad Haris, Athan Reines)_
