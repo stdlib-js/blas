@@ -400,9 +400,9 @@ interface Namespace {
 	* Multiplies a double-precision floating-point vector `x` by a constant `alpha`.
 	*
 	* @param N - number of indexed elements
-	* @param alpha - scalar constant
+	* @param alpha - constant
 	* @param x - input array
-	* @param stride - stride length
+	* @param stride - index increment
 	* @returns input array
 	*
 	* @example
@@ -626,7 +626,7 @@ interface Namespace {
 	* @param N - number of indexed elements
 	* @param x - input array
 	* @param strideX - `x` stride length
-	* @returns sum of absolute values
+	* @returns out
 	*
 	* @example
 	* var Complex64Array = require( '@stdlib/array/complex64' );
