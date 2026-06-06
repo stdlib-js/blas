@@ -1072,6 +1072,15 @@ setReadOnly( ns, 'gcusumpw', require( './../../../ext/base/gcusumpw' ) );
 setReadOnly( ns, 'gdiff', require( './../../../ext/base/gdiff' ) );
 
 /**
+* @name gediff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gediff}
+*/
+setReadOnly( ns, 'gediff', require( './../../../ext/base/gediff' ) );
+
+/**
 * @name gfill
 * @memberof ns
 * @readonly

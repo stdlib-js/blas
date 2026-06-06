@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - add `gediff` to namespace
 -   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907)
 -   [`72f20d1`](https://github.com/stdlib-js/stdlib/commit/72f20d155341ee6bb9de688ba7b2a1b701ff3a54) - update `blas/ext/base` TypeScript declarations [(#12578)](https://github.com/stdlib-js/stdlib/pull/12578)
 -   [`d61f60f`](https://github.com/stdlib-js/stdlib/commit/d61f60f9d86d485fd6be90594d1226ff29b664da) - update `blas/ext/base/ndarray` TypeScript declarations [(#12577)](https://github.com/stdlib-js/stdlib/pull/12577)
@@ -51,6 +52,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - **feat:** add `gediff` to namespace _(by Athan Reines)_
 -   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - **feat:** add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907) _(by Muhammad Haris, Athan Reines)_
 -   [`e5c4d9a`](https://github.com/stdlib-js/stdlib/commit/e5c4d9a7fe7ad93edab892ea71c79619d7e247cb) - **docs:** add missing intro section placeholders [(#12623)](https://github.com/stdlib-js/stdlib/pull/12623) _(by Philipp Burckhardt)_
 -   [`1ee8124`](https://github.com/stdlib-js/stdlib/commit/1ee81246ebccb5ee7e80b2c85b7e9b4ef68442af) - **docs:** update `blas/ext` TypeScript declarations [(#12579)](https://github.com/stdlib-js/stdlib/pull/12579) _(by stdlib-bot)_
