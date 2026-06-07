@@ -74,11 +74,11 @@ function gnannsumkbn( N, x, strideX, offsetX, out, strideOut, offsetOut ) {
 	var n;
 	var i;
 
-	// Cache references to array data:
+	// Cache reference to array data:
 	xbuf = x.data;
 	obuf = out.data;
 
-	// Cache references to element accessors:
+	// Cache reference to the element accessors:
 	xget = x.accessors[ 0 ];
 	oset = out.accessors[ 1 ];
 

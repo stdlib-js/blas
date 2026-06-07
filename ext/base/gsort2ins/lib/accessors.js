@@ -80,11 +80,11 @@ function gsort2ins( N, order, x, strideX, offsetX, y, strideY, offsetY ) {
 	var ux;
 	var i;
 
-	// Cache references to array data:
+	// Cache reference to array data:
 	xbuf = x.data;
 	ybuf = y.data;
 
-	// Cache references to element accessors:
+	// Cache reference to the element accessors:
 	xget = x.accessors[ 0 ];
 	xset = x.accessors[ 1 ];
 	yget = y.accessors[ 0 ];

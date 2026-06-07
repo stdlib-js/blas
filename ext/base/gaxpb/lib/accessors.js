@@ -53,7 +53,7 @@ function gaxpb( N, alpha, beta, x, strideX, offsetX ) {
 	// Cache reference to array data:
 	xbuf = x.data;
 
-	// Cache references to element accessors:
+	// Cache reference to the element accessors:
 	get = x.accessors[ 0 ];
 	set = x.accessors[ 1 ];
 

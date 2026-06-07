@@ -76,11 +76,11 @@ function gcusumkbn2( N, sum, x, strideX, offsetX, y, strideY, offsetY ) {
 	var c;
 	var i;
 
-	// Cache references to array data:
+	// Cache reference to array data:
 	xbuf = x.data;
 	ybuf = y.data;
 
-	// Cache references to element accessors:
+	// Cache reference to the element accessors:
 	xget = x.accessors[ 0 ];
 	yset = y.accessors[ 1 ];
 

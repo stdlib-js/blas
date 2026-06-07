@@ -80,7 +80,7 @@ function gsortsh( N, order, x, strideX, offsetX ) {
 	// Cache reference to array data:
 	xbuf = x.data;
 
-	// Cache references to element accessors:
+	// Cache reference to the element accessors:
 	xget = x.accessors[ 0 ];
 	xset = x.accessors[ 1 ];
 
