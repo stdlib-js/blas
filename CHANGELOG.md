@@ -48,9 +48,9 @@
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#12548](https://github.com/stdlib-js/stdlib/issues/12548)
+[#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548)
 
 </section>
 
@@ -62,6 +62,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`32b7db2`](https://github.com/stdlib-js/stdlib/commit/32b7db285319cc63791eb5f232fb3bf6dc4409e9) - **chore:** fix JavaScript lint errors [(#12678)](https://github.com/stdlib-js/stdlib/pull/12678) _(by titanniya542-spec)_
 -   [`809606b`](https://github.com/stdlib-js/stdlib/commit/809606b3d2b4ae19e028cc35c01879936684b5a5) - **feat:** add `blas/ext/base/dcuevery` [(#12676)](https://github.com/stdlib-js/stdlib/pull/12676) _(by Muhammad Haris, Athan Reines)_
 -   [`00c289d`](https://github.com/stdlib-js/stdlib/commit/00c289d300dbdaf3100a80783f3deb909499ff18) - **feat:** add `blas/ext/base/dcuany` [(#12679)](https://github.com/stdlib-js/stdlib/pull/12679) _(by Muhammad Haris, Athan Reines)_
 -   [`81c49c2`](https://github.com/stdlib-js/stdlib/commit/81c49c2f009a283a6d6f5094adedf88b0d5134de) - **feat:** add `blas/ext/base/scunone` [(#12674)](https://github.com/stdlib-js/stdlib/pull/12674) _(by Muhammad Haris, Athan Reines)_
@@ -107,13 +108,14 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 5 people contributed to this release. Thank you to the following contributors:
+A total of 6 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Rayan Salhab
+-   titanniya542-spec
 
 </section>
 
