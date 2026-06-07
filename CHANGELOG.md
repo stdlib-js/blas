@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`db04ac0`](https://github.com/stdlib-js/stdlib/commit/db04ac0482183af792769dfb9a8d48edc83ca006) - add `blas/ext/base/caxpby` [(#12639)](https://github.com/stdlib-js/stdlib/pull/12639)
 -   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - add `gediff` to namespace
 -   [`545cf3d`](https://github.com/stdlib-js/stdlib/commit/545cf3db4bd81309e6baf9aa5eead13e78c9c77d) - add `blas/ext/base/gediff` [(#10907)](https://github.com/stdlib-js/stdlib/pull/10907)
 -   [`72f20d1`](https://github.com/stdlib-js/stdlib/commit/72f20d155341ee6bb9de688ba7b2a1b701ff3a54) - update `blas/ext/base` TypeScript declarations [(#12578)](https://github.com/stdlib-js/stdlib/pull/12578)
@@ -52,6 +53,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`db04ac0`](https://github.com/stdlib-js/stdlib/commit/db04ac0482183af792769dfb9a8d48edc83ca006) - **feat:** add `blas/ext/base/caxpby` [(#12639)](https://github.com/stdlib-js/stdlib/pull/12639) _(by Karan Anand)_
+-   [`cd863cf`](https://github.com/stdlib-js/stdlib/commit/cd863cfcc93259fc77714263c6c8b532c84563a3) - **docs:** propagate recent develop fixes to sibling packages [(#12642)](https://github.com/stdlib-js/stdlib/pull/12642) _(by Philipp Burckhardt)_
 -   [`d935b4a`](https://github.com/stdlib-js/stdlib/commit/d935b4a88d82fc3a68362bceeea5381625c28695) - **chore:** follow-up fixes for previous commits [(#12641)](https://github.com/stdlib-js/stdlib/pull/12641) _(by Philipp Burckhardt, Athan Reines)_
 -   [`9cfa05c`](https://github.com/stdlib-js/stdlib/commit/9cfa05c369035f1f405d97f148e9e3d8a32269ef) - **docs:** update `x` JSDoc type in `@stdlib/blas/ext/sum` [(#12645)](https://github.com/stdlib-js/stdlib/pull/12645) _(by Philipp Burckhardt)_
 -   [`f2640a2`](https://github.com/stdlib-js/stdlib/commit/f2640a213240945e2e06593eed4e3fb031e95db5) - **docs:** add missing Oxford comma _(by Athan Reines)_
