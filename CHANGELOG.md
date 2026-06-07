@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-06)
+## Unreleased (2026-06-07)
 
 <section class="features">
 
@@ -52,6 +52,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`9cfa05c`](https://github.com/stdlib-js/stdlib/commit/9cfa05c369035f1f405d97f148e9e3d8a32269ef) - **docs:** update `x` JSDoc type in `@stdlib/blas/ext/sum` [(#12645)](https://github.com/stdlib-js/stdlib/pull/12645) _(by Philipp Burckhardt)_
 -   [`f2640a2`](https://github.com/stdlib-js/stdlib/commit/f2640a213240945e2e06593eed4e3fb031e95db5) - **docs:** add missing Oxford comma _(by Athan Reines)_
 -   [`f3b8c81`](https://github.com/stdlib-js/stdlib/commit/f3b8c8138f75478315e5ad7176e97a2078dbd91d) - **chore:** clean-up examples and benchmarks _(by Athan Reines)_
 -   [`da2a5fc`](https://github.com/stdlib-js/stdlib/commit/da2a5fcbc760d50bc4c3cae711d21d6b7c162c0b) - **feat:** add `gediff` to namespace _(by Athan Reines)_
