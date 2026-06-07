@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c351bac`](https://github.com/stdlib-js/stdlib/commit/c351bacba9b2ec3a944095e108b018d3d7c39683) - add `dcuany`, `dcuevery`, `dcusome`, and `scunone` to namespace
 -   [`98254d8`](https://github.com/stdlib-js/stdlib/commit/98254d8e6ef22f0e25673c812e3a22936eca1a12) - add `blas/ext/base/dcusome` [(#12681)](https://github.com/stdlib-js/stdlib/pull/12681)
 -   [`809606b`](https://github.com/stdlib-js/stdlib/commit/809606b3d2b4ae19e028cc35c01879936684b5a5) - add `blas/ext/base/dcuevery` [(#12676)](https://github.com/stdlib-js/stdlib/pull/12676)
 -   [`00c289d`](https://github.com/stdlib-js/stdlib/commit/00c289d300dbdaf3100a80783f3deb909499ff18) - add `blas/ext/base/dcuany` [(#12679)](https://github.com/stdlib-js/stdlib/pull/12679)
@@ -63,6 +64,10 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`5fabee9`](https://github.com/stdlib-js/stdlib/commit/5fabee94b1086a0db3c5d8dcac4b001bdf549b7b) - **bench:** fix description _(by Athan Reines)_
+-   [`4716900`](https://github.com/stdlib-js/stdlib/commit/4716900526f5fac5b2febef52d991b5d8c89e533) - **bench:** fix description _(by Athan Reines)_
+-   [`7ae840f`](https://github.com/stdlib-js/stdlib/commit/7ae840f44e2862440d457946e79d5dfa9ebd4491) - **bench:** fix description _(by Athan Reines)_
+-   [`c351bac`](https://github.com/stdlib-js/stdlib/commit/c351bacba9b2ec3a944095e108b018d3d7c39683) - **feat:** add `dcuany`, `dcuevery`, `dcusome`, and `scunone` to namespace _(by Athan Reines)_
 -   [`98254d8`](https://github.com/stdlib-js/stdlib/commit/98254d8e6ef22f0e25673c812e3a22936eca1a12) - **feat:** add `blas/ext/base/dcusome` [(#12681)](https://github.com/stdlib-js/stdlib/pull/12681) _(by Muhammad Haris, Athan Reines)_
 -   [`32b7db2`](https://github.com/stdlib-js/stdlib/commit/32b7db285319cc63791eb5f232fb3bf6dc4409e9) - **chore:** fix JavaScript lint errors [(#12678)](https://github.com/stdlib-js/stdlib/pull/12678) _(by titanniya542-spec)_
 -   [`809606b`](https://github.com/stdlib-js/stdlib/commit/809606b3d2b4ae19e028cc35c01879936684b5a5) - **feat:** add `blas/ext/base/dcuevery` [(#12676)](https://github.com/stdlib-js/stdlib/pull/12676) _(by Muhammad Haris, Athan Reines)_

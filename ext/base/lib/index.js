@@ -298,6 +298,24 @@ setReadOnly( ns, 'dcartesianSquare', require( './../../../ext/base/dcartesian-sq
 setReadOnly( ns, 'dcircshift', require( './../../../ext/base/dcircshift' ) );
 
 /**
+* @name dcuany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcuany}
+*/
+setReadOnly( ns, 'dcuany', require( './../../../ext/base/dcuany' ) );
+
+/**
+* @name dcuevery
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcuevery}
+*/
+setReadOnly( ns, 'dcuevery', require( './../../../ext/base/dcuevery' ) );
+
+/**
 * @name dcunone
 * @memberof ns
 * @readonly
@@ -305,6 +323,15 @@ setReadOnly( ns, 'dcircshift', require( './../../../ext/base/dcircshift' ) );
 * @see {@link module:@stdlib/blas/ext/base/dcunone}
 */
 setReadOnly( ns, 'dcunone', require( './../../../ext/base/dcunone' ) );
+
+/**
+* @name dcusome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcusome}
+*/
+setReadOnly( ns, 'dcusome', require( './../../../ext/base/dcusome' ) );
 
 /**
 * @name dcusum
@@ -1628,6 +1655,15 @@ setReadOnly( ns, 'scartesianSquare', require( './../../../ext/base/scartesian-sq
 * @see {@link module:@stdlib/blas/ext/base/scircshift}
 */
 setReadOnly( ns, 'scircshift', require( './../../../ext/base/scircshift' ) );
+
+/**
+* @name scunone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scunone}
+*/
+setReadOnly( ns, 'scunone', require( './../../../ext/base/scunone' ) );
 
 /**
 * @name scusum
