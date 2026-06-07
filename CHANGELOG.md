@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`29d002b`](https://github.com/stdlib-js/stdlib/commit/29d002b9c30f832aa56e5e3b6157460a2d48baef) - add `blas/ext/base/dcunone` [(#12572)](https://github.com/stdlib-js/stdlib/pull/12572)
 -   [`aced3a8`](https://github.com/stdlib-js/stdlib/commit/aced3a833ef7548d7565ee53ba74aa91f732ef22) - add `caxpby`, `zaxpby`, and `swxsa` to namespace
 -   [`a01d4f2`](https://github.com/stdlib-js/stdlib/commit/a01d4f2be581604e67338551ddd65c9bed83d65e) - add `blas/ext/base/swxsa` [(#12650)](https://github.com/stdlib-js/stdlib/pull/12650)
 -   [`170cf5f`](https://github.com/stdlib-js/stdlib/commit/170cf5ff90fb028a10bce1aeeae644a70dd23dcb) - update `blas/ext/base` TypeScript declarations [(#12656)](https://github.com/stdlib-js/stdlib/pull/12656)
@@ -57,6 +58,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`29d002b`](https://github.com/stdlib-js/stdlib/commit/29d002b9c30f832aa56e5e3b6157460a2d48baef) - **feat:** add `blas/ext/base/dcunone` [(#12572)](https://github.com/stdlib-js/stdlib/pull/12572) _(by Muhammad Haris, Athan Reines)_
 -   [`aced3a8`](https://github.com/stdlib-js/stdlib/commit/aced3a833ef7548d7565ee53ba74aa91f732ef22) - **feat:** add `caxpby`, `zaxpby`, and `swxsa` to namespace _(by Athan Reines)_
 -   [`a01d4f2`](https://github.com/stdlib-js/stdlib/commit/a01d4f2be581604e67338551ddd65c9bed83d65e) - **feat:** add `blas/ext/base/swxsa` [(#12650)](https://github.com/stdlib-js/stdlib/pull/12650) _(by Karan Anand)_
 -   [`170cf5f`](https://github.com/stdlib-js/stdlib/commit/170cf5ff90fb028a10bce1aeeae644a70dd23dcb) - **feat:** update `blas/ext/base` TypeScript declarations [(#12656)](https://github.com/stdlib-js/stdlib/pull/12656) _(by stdlib-bot)_
