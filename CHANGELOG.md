@@ -54,6 +54,8 @@ This release closes the following issue:
 
 <details>
 
+-   [`04de4c7`](https://github.com/stdlib-js/stdlib/commit/04de4c7e8cd3fb842dfafc29b3b1c0648834541c) - **docs:** update Markdown stdlib package URLs [(#12654)](https://github.com/stdlib-js/stdlib/pull/12654) _(by stdlib-bot)_
+-   [`8d0b8f2`](https://github.com/stdlib-js/stdlib/commit/8d0b8f2b73e653844c958e5a76411a6bbb6760f3) - **docs:** update namespace table of contents [(#12663)](https://github.com/stdlib-js/stdlib/pull/12663) _(by stdlib-bot)_
 -   [`2aa1270`](https://github.com/stdlib-js/stdlib/commit/2aa1270d82e129f1f3f6de8f7df2e924863fd6bf) - **feat:** add `blas/ext/base/zaxpby` [(#12649)](https://github.com/stdlib-js/stdlib/pull/12649) _(by Karan Anand, Athan Reines)_
 -   [`db04ac0`](https://github.com/stdlib-js/stdlib/commit/db04ac0482183af792769dfb9a8d48edc83ca006) - **feat:** add `blas/ext/base/caxpby` [(#12639)](https://github.com/stdlib-js/stdlib/pull/12639) _(by Karan Anand)_
 -   [`cd863cf`](https://github.com/stdlib-js/stdlib/commit/cd863cfcc93259fc77714263c6c8b532c84563a3) - **docs:** propagate recent develop fixes to sibling packages [(#12642)](https://github.com/stdlib-js/stdlib/pull/12642) _(by Philipp Burckhardt)_
