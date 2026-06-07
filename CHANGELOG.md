@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a01d4f2`](https://github.com/stdlib-js/stdlib/commit/a01d4f2be581604e67338551ddd65c9bed83d65e) - add `blas/ext/base/swxsa` [(#12650)](https://github.com/stdlib-js/stdlib/pull/12650)
 -   [`170cf5f`](https://github.com/stdlib-js/stdlib/commit/170cf5ff90fb028a10bce1aeeae644a70dd23dcb) - update `blas/ext/base` TypeScript declarations [(#12656)](https://github.com/stdlib-js/stdlib/pull/12656)
 -   [`2aa1270`](https://github.com/stdlib-js/stdlib/commit/2aa1270d82e129f1f3f6de8f7df2e924863fd6bf) - add `blas/ext/base/zaxpby` [(#12649)](https://github.com/stdlib-js/stdlib/pull/12649)
 -   [`db04ac0`](https://github.com/stdlib-js/stdlib/commit/db04ac0482183af792769dfb9a8d48edc83ca006) - add `blas/ext/base/caxpby` [(#12639)](https://github.com/stdlib-js/stdlib/pull/12639)
@@ -55,6 +56,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`a01d4f2`](https://github.com/stdlib-js/stdlib/commit/a01d4f2be581604e67338551ddd65c9bed83d65e) - **feat:** add `blas/ext/base/swxsa` [(#12650)](https://github.com/stdlib-js/stdlib/pull/12650) _(by Karan Anand)_
 -   [`170cf5f`](https://github.com/stdlib-js/stdlib/commit/170cf5ff90fb028a10bce1aeeae644a70dd23dcb) - **feat:** update `blas/ext/base` TypeScript declarations [(#12656)](https://github.com/stdlib-js/stdlib/pull/12656) _(by stdlib-bot)_
 -   [`04de4c7`](https://github.com/stdlib-js/stdlib/commit/04de4c7e8cd3fb842dfafc29b3b1c0648834541c) - **docs:** update Markdown stdlib package URLs [(#12654)](https://github.com/stdlib-js/stdlib/pull/12654) _(by stdlib-bot)_
 -   [`8d0b8f2`](https://github.com/stdlib-js/stdlib/commit/8d0b8f2b73e653844c958e5a76411a6bbb6760f3) - **docs:** update namespace table of contents [(#12663)](https://github.com/stdlib-js/stdlib/pull/12663) _(by stdlib-bot)_
