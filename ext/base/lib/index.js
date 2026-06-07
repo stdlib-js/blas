@@ -298,6 +298,15 @@ setReadOnly( ns, 'dcartesianSquare', require( './../../../ext/base/dcartesian-sq
 setReadOnly( ns, 'dcircshift', require( './../../../ext/base/dcircshift' ) );
 
 /**
+* @name dcunone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcunone}
+*/
+setReadOnly( ns, 'dcunone', require( './../../../ext/base/dcunone' ) );
+
+/**
 * @name dcusum
 * @memberof ns
 * @readonly
