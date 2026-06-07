@@ -65,6 +65,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`cf640b1`](https://github.com/stdlib-js/stdlib/commit/cf640b16898836bdbc647624ccc826a106329017) - **refactor:** remove intermediate variables in `blas/ext/base/caxpby` [(#12684)](https://github.com/stdlib-js/stdlib/pull/12684) _(by Karan Anand)_
 -   [`1fba0f1`](https://github.com/stdlib-js/stdlib/commit/1fba0f12fa262510d288272dea4a425c95196c93) - **feat:** add `blas/ext/base/dwxsa` [(#12683)](https://github.com/stdlib-js/stdlib/pull/12683) _(by Karan Anand)_
 -   [`5fabee9`](https://github.com/stdlib-js/stdlib/commit/5fabee94b1086a0db3c5d8dcac4b001bdf549b7b) - **bench:** fix description _(by Athan Reines)_
 -   [`4716900`](https://github.com/stdlib-js/stdlib/commit/4716900526f5fac5b2febef52d991b5d8c89e533) - **bench:** fix description _(by Athan Reines)_
