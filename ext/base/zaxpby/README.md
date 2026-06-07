@@ -374,7 +374,7 @@ int main( void ) {
 
 <section class="links">
 
-[@stdlib/array/complex128]: https://github.com/stdlib-js/array-complex64
+[@stdlib/array/complex128]: https://github.com/stdlib-js/array-complex128
 
 [@stdlib/blas/base/zaxpy]: https://github.com/stdlib-js/blas/tree/main/base/zaxpy
 
