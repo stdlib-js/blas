@@ -55,6 +55,15 @@ setReadOnly( ns, 'capx', require( './../../../ext/base/capx' ) );
 setReadOnly( ns, 'caxpb', require( './../../../ext/base/caxpb' ) );
 
 /**
+* @name caxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/caxpby}
+*/
+setReadOnly( ns, 'caxpby', require( './../../../ext/base/caxpby' ) );
+
+/**
 * @name cdiff
 * @memberof ns
 * @readonly
@@ -2017,6 +2026,15 @@ setReadOnly( ns, 'svander', require( './../../../ext/base/svander' ) );
 setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
 
 /**
+* @name swxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/swxsa}
+*/
+setReadOnly( ns, 'swxsa', require( './../../../ext/base/swxsa' ) );
+
+/**
 * @name sxsa
 * @memberof ns
 * @readonly
@@ -2069,6 +2087,15 @@ setReadOnly( ns, 'zapx', require( './../../../ext/base/zapx' ) );
 * @see {@link module:@stdlib/blas/ext/base/zaxpb}
 */
 setReadOnly( ns, 'zaxpb', require( './../../../ext/base/zaxpb' ) );
+
+/**
+* @name zaxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zaxpby}
+*/
+setReadOnly( ns, 'zaxpby', require( './../../../ext/base/zaxpby' ) );
 
 /**
 * @name zdiff
