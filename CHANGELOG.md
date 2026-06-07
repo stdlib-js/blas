@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`00c289d`](https://github.com/stdlib-js/stdlib/commit/00c289d300dbdaf3100a80783f3deb909499ff18) - add `blas/ext/base/dcuany` [(#12679)](https://github.com/stdlib-js/stdlib/pull/12679)
 -   [`81c49c2`](https://github.com/stdlib-js/stdlib/commit/81c49c2f009a283a6d6f5094adedf88b0d5134de) - add `blas/ext/base/scunone` [(#12674)](https://github.com/stdlib-js/stdlib/pull/12674)
 -   [`d47b1ba`](https://github.com/stdlib-js/stdlib/commit/d47b1bacd9d5f8a35a4d4d93ade48b1b1f2d2ce7) - add `dcunone` to namespace
 -   [`29d002b`](https://github.com/stdlib-js/stdlib/commit/29d002b9c30f832aa56e5e3b6157460a2d48baef) - add `blas/ext/base/dcunone` [(#12572)](https://github.com/stdlib-js/stdlib/pull/12572)
@@ -60,6 +61,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`00c289d`](https://github.com/stdlib-js/stdlib/commit/00c289d300dbdaf3100a80783f3deb909499ff18) - **feat:** add `blas/ext/base/dcuany` [(#12679)](https://github.com/stdlib-js/stdlib/pull/12679) _(by Muhammad Haris, Athan Reines)_
 -   [`81c49c2`](https://github.com/stdlib-js/stdlib/commit/81c49c2f009a283a6d6f5094adedf88b0d5134de) - **feat:** add `blas/ext/base/scunone` [(#12674)](https://github.com/stdlib-js/stdlib/pull/12674) _(by Muhammad Haris, Athan Reines)_
 -   [`d47b1ba`](https://github.com/stdlib-js/stdlib/commit/d47b1bacd9d5f8a35a4d4d93ade48b1b1f2d2ce7) - **feat:** add `dcunone` to namespace _(by Athan Reines)_
 -   [`29d002b`](https://github.com/stdlib-js/stdlib/commit/29d002b9c30f832aa56e5e3b6157460a2d48baef) - **feat:** add `blas/ext/base/dcunone` [(#12572)](https://github.com/stdlib-js/stdlib/pull/12572) _(by Muhammad Haris, Athan Reines)_
