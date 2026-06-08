@@ -72,6 +72,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`c0a017b`](https://github.com/stdlib-js/stdlib/commit/c0a017ba7b2f18c67be643c75a39dbf848772944) - **docs:** add backticks in `blas/ext/base/dcusome` descriptions [(#12705)](https://github.com/stdlib-js/stdlib/pull/12705) _(by Philipp Burckhardt)_
 -   [`f31e149`](https://github.com/stdlib-js/stdlib/commit/f31e14972297bd5473c9182af23ab6ea8b26c11e) - **feat:** add `blas/ext/base/ndarray/caxpby` [(#12695)](https://github.com/stdlib-js/stdlib/pull/12695) _(by Karan Anand)_
 -   [`d2e1d8c`](https://github.com/stdlib-js/stdlib/commit/d2e1d8c2dc1a027dd7c6c61b31af753128e80df8) - **feat:** add `blas/ext/base/ndarray/daxpby` [(#12696)](https://github.com/stdlib-js/stdlib/pull/12696) _(by Karan Anand)_
 -   [`865be9c`](https://github.com/stdlib-js/stdlib/commit/865be9cf388976f51b444246ac760caf41ca635a) - **feat:** add `blas/ext/base/ndarray/saxpby` [(#12694)](https://github.com/stdlib-js/stdlib/pull/12694) _(by Karan Anand, Athan Reines)_
