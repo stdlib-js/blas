@@ -69,6 +69,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`a7e07a6`](https://github.com/stdlib-js/stdlib/commit/a7e07a6f17f0974dca43b7bdc0245ce71c28ec86) - **docs:** update namespace table of contents [(#12690)](https://github.com/stdlib-js/stdlib/pull/12690) _(by stdlib-bot)_
 -   [`d9e5c4d`](https://github.com/stdlib-js/stdlib/commit/d9e5c4d8aae0d884a6649591bb8664a4d03fa761) - **feat:** update `blas/ext/base` TypeScript declarations [(#12686)](https://github.com/stdlib-js/stdlib/pull/12686) _(by stdlib-bot)_
 -   [`7496e1f`](https://github.com/stdlib-js/stdlib/commit/7496e1f3c7a84d413b2e30cb39904e29c071c3d6) - **feat:** add `gminheapSiftDown` to namespace _(by Athan Reines)_
 -   [`1372976`](https://github.com/stdlib-js/stdlib/commit/13729768957c20cef5cbf5c083022194da1e646c) - **feat:** add `blas/ext/base/gminheap-sift-down` [(#12673)](https://github.com/stdlib-js/stdlib/pull/12673) _(by Muhammad Haris, Athan Reines)_
