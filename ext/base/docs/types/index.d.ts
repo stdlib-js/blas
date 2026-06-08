@@ -22,6 +22,7 @@
 
 import capx = require( './../../../../ext/base/capx' );
 import caxpb = require( './../../../../ext/base/caxpb' );
+import caxpby = require( './../../../../ext/base/caxpby' );
 import cdiff = require( './../../../../ext/base/cdiff' );
 import cfill = require( './../../../../ext/base/cfill' );
 import cindexOf = require( './../../../../ext/base/cindex-of' );
@@ -48,6 +49,10 @@ import dcartesianPower = require( './../../../../ext/base/dcartesian-power' );
 import dcartesianProduct = require( './../../../../ext/base/dcartesian-product' );
 import dcartesianSquare = require( './../../../../ext/base/dcartesian-square' );
 import dcircshift = require( './../../../../ext/base/dcircshift' );
+import dcuany = require( './../../../../ext/base/dcuany' );
+import dcuevery = require( './../../../../ext/base/dcuevery' );
+import dcunone = require( './../../../../ext/base/dcunone' );
+import dcusome = require( './../../../../ext/base/dcusome' );
 import dcusum = require( './../../../../ext/base/dcusum' );
 import dcusumkbn = require( './../../../../ext/base/dcusumkbn' );
 import dcusumkbn2 = require( './../../../../ext/base/dcusumkbn2' );
@@ -108,6 +113,7 @@ import dsumpw = require( './../../../../ext/base/dsumpw' );
 import dunitspace = require( './../../../../ext/base/dunitspace' );
 import dvander = require( './../../../../ext/base/dvander' );
 import dwhere = require( './../../../../ext/base/dwhere' );
+import dwxsa = require( './../../../../ext/base/dwxsa' );
 import dxsa = require( './../../../../ext/base/dxsa' );
 import dzeroTo = require( './../../../../ext/base/dzero-to' );
 import dzeros = require( './../../../../ext/base/dzeros' );
@@ -195,6 +201,7 @@ import scartesianPower = require( './../../../../ext/base/scartesian-power' );
 import scartesianProduct = require( './../../../../ext/base/scartesian-product' );
 import scartesianSquare = require( './../../../../ext/base/scartesian-square' );
 import scircshift = require( './../../../../ext/base/scircshift' );
+import scunone = require( './../../../../ext/base/scunone' );
 import scusum = require( './../../../../ext/base/scusum' );
 import scusumkbn = require( './../../../../ext/base/scusumkbn' );
 import scusumkbn2 = require( './../../../../ext/base/scusumkbn2' );
@@ -240,12 +247,14 @@ import ssumpw = require( './../../../../ext/base/ssumpw' );
 import sunitspace = require( './../../../../ext/base/sunitspace' );
 import svander = require( './../../../../ext/base/svander' );
 import swhere = require( './../../../../ext/base/swhere' );
+import swxsa = require( './../../../../ext/base/swxsa' );
 import sxsa = require( './../../../../ext/base/sxsa' );
 import szeroTo = require( './../../../../ext/base/szero-to' );
 import szeros = require( './../../../../ext/base/szeros' );
 import wasm = require( './../../../../ext/base/wasm' );
 import zapx = require( './../../../../ext/base/zapx' );
 import zaxpb = require( './../../../../ext/base/zaxpb' );
+import zaxpby = require( './../../../../ext/base/zaxpby' );
 import zdiff = require( './../../../../ext/base/zdiff' );
 import zfill = require( './../../../../ext/base/zfill' );
 import zindexOf = require( './../../../../ext/base/zindex-of' );
@@ -333,6 +342,46 @@ interface Namespace {
 	* // x => <Complex64Array>[ 3.0, 4.0, 7.0, 8.0, 11.0, 12.0, 15.0, 16.0 ]
 	*/
 	caxpb: typeof caxpb;
+
+	/**
+	* Multiplies a single-precision complex floating-point strided array `x` by a constant and adds the result to a single-precision complex floating-point strided array `y` multiplied by a constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param beta - second scalar constant
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex64Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 2.0, 1.0 );
+	* var beta = new Complex64( 1.0, -1.0 );
+	*
+	* ns.caxpby( x.length, alpha, x, 1, beta, y, 1 );
+	* // y => <Complex64Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex64Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 2.0, 1.0 );
+	* var beta = new Complex64( 1.0, -1.0 );
+	*
+	* ns.caxpby.ndarray( x.length, alpha, x, 1, 0, beta, y, 1, 0 );
+	* // y => <Complex64Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*/
+	caxpby: typeof caxpby;
 
 	/**
 	* Calculates the k-th discrete forward difference of a single-precision complex floating-point strided array.
@@ -1164,6 +1213,135 @@ interface Namespace {
 	* // x => <Float64Array>[ 4.0, 5.0, 1.0, 2.0, 3.0 ]
 	*/
 	dcircshift: typeof dcircshift;
+
+	/**
+	* Cumulatively tests whether at least one element in a double-precision floating-point strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuany( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ false, false, true, true ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuany.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ false, false, true, true ]
+	*/
+	dcuany: typeof dcuany;
+
+	/**
+	* Cumulatively tests whether every element in a double-precision floating-point strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuevery( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuevery.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	dcuevery: typeof dcuevery;
+
+	/**
+	* Cumulatively tests whether every element in a double-precision floating-point strided array is falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcunone( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcunone.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	dcunone: typeof dcunone;
+
+	/**
+	* Cumulatively tests whether at least k elements in a double-precision floating-point strided array are truthy.
+	*
+	* @param N - number of indexed elements
+	* @param k - minimum number of truthy elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 5 );
+	*
+	* ns.dcusome( x.length, 2, x, 1, out, 1 );
+	* // out => <BooleanArray>[ false, false, false, true, true ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 5 );
+	*
+	* ns.dcusome.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ false, false, false, true, true ]
+	*/
+	dcusome: typeof dcusome;
 
 	/**
 	* Computes the cumulative sum of double-precision floating-point strided array elements.
@@ -2996,6 +3174,37 @@ interface Namespace {
 	* // out => <Float64Array>[ 1.0, 5.0, 3.0 ]
 	*/
 	dwhere: typeof dwhere;
+
+	/**
+	* Subtracts a scalar constant from each element in a double-precision floating-point strided array `x` and assigns the results to a double-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwxsa( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float64Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwxsa.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float64Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	dwxsa: typeof dwxsa;
 
 	/**
 	* Subtracts a scalar constant from each element in a double-precision floating-point strided array.
@@ -5357,6 +5566,38 @@ interface Namespace {
 	scircshift: typeof scircshift;
 
 	/**
+	* Cumulatively tests whether every element in a single-precision floating-point strided array is falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scunone( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scunone.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	scunone: typeof scunone;
+
+	/**
 	* Computes the cumulative sum of single-precision floating-point strided array elements.
 	*
 	* @param N - number of indexed elements
@@ -6754,6 +6995,37 @@ interface Namespace {
 	swhere: typeof swhere;
 
 	/**
+	* Subtracts a scalar constant from each element in a single-precision floating-point strided array `x` and assigns the results to a single-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swxsa( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swxsa.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	swxsa: typeof swxsa;
+
+	/**
 	* Subtracts a scalar constant from each element in a single-precision floating-point strided array.
 	*
 	* @param N - number of indexed elements
@@ -6905,6 +7177,46 @@ interface Namespace {
 	* // x => <Complex128Array>[ 3.0, 4.0, 7.0, 8.0, 11.0, 12.0, 15.0, 16.0 ]
 	*/
 	zaxpb: typeof zaxpb;
+
+	/**
+	* Multiplies a double-precision complex floating-point strided array `x` by a constant and adds the result to a double-precision complex floating-point strided array `y` multiplied by a constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param beta - second scalar constant
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex128Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 2.0, 1.0 );
+	* var beta = new Complex128( 1.0, -1.0 );
+	*
+	* ns.zaxpby( x.length, alpha, x, 1, beta, y, 1 );
+	* // y => <Complex128Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex128Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 2.0, 1.0 );
+	* var beta = new Complex128( 1.0, -1.0 );
+	*
+	* ns.zaxpby.ndarray( x.length, alpha, x, 1, 0, beta, y, 1, 0 );
+	* // y => <Complex128Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*/
+	zaxpby: typeof zaxpby;
 
 	/**
 	* Calculates the k-th discrete forward difference of a double-precision complex floating-point strided array.
