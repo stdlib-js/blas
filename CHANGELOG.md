@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d2e1d8c`](https://github.com/stdlib-js/stdlib/commit/d2e1d8c2dc1a027dd7c6c61b31af753128e80df8) - add `blas/ext/base/ndarray/daxpby` [(#12696)](https://github.com/stdlib-js/stdlib/pull/12696)
 -   [`865be9c`](https://github.com/stdlib-js/stdlib/commit/865be9cf388976f51b444246ac760caf41ca635a) - add `blas/ext/base/ndarray/saxpby` [(#12694)](https://github.com/stdlib-js/stdlib/pull/12694)
 -   [`d9e5c4d`](https://github.com/stdlib-js/stdlib/commit/d9e5c4d8aae0d884a6649591bb8664a4d03fa761) - update `blas/ext/base` TypeScript declarations [(#12686)](https://github.com/stdlib-js/stdlib/pull/12686)
 -   [`7496e1f`](https://github.com/stdlib-js/stdlib/commit/7496e1f3c7a84d413b2e30cb39904e29c071c3d6) - add `gminheapSiftDown` to namespace
@@ -70,6 +71,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`d2e1d8c`](https://github.com/stdlib-js/stdlib/commit/d2e1d8c2dc1a027dd7c6c61b31af753128e80df8) - **feat:** add `blas/ext/base/ndarray/daxpby` [(#12696)](https://github.com/stdlib-js/stdlib/pull/12696) _(by Karan Anand)_
 -   [`865be9c`](https://github.com/stdlib-js/stdlib/commit/865be9cf388976f51b444246ac760caf41ca635a) - **feat:** add `blas/ext/base/ndarray/saxpby` [(#12694)](https://github.com/stdlib-js/stdlib/pull/12694) _(by Karan Anand, Athan Reines)_
 -   [`a7e07a6`](https://github.com/stdlib-js/stdlib/commit/a7e07a6f17f0974dca43b7bdc0245ce71c28ec86) - **docs:** update namespace table of contents [(#12690)](https://github.com/stdlib-js/stdlib/pull/12690) _(by stdlib-bot)_
 -   [`d9e5c4d`](https://github.com/stdlib-js/stdlib/commit/d9e5c4d8aae0d884a6649591bb8664a4d03fa761) - **feat:** update `blas/ext/base` TypeScript declarations [(#12686)](https://github.com/stdlib-js/stdlib/pull/12686) _(by stdlib-bot)_
