@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-07)
+## Unreleased (2026-06-08)
 
 <section class="features">
 
 ### Features
 
+-   [`1372976`](https://github.com/stdlib-js/stdlib/commit/13729768957c20cef5cbf5c083022194da1e646c) - add `blas/ext/base/gminheap-sift-down` [(#12673)](https://github.com/stdlib-js/stdlib/pull/12673)
 -   [`7e84b3a`](https://github.com/stdlib-js/stdlib/commit/7e84b3a3d562b73547ef8c60ef44c53b3dabfcc1) - add `dwxsa` to namespace
 -   [`1fba0f1`](https://github.com/stdlib-js/stdlib/commit/1fba0f12fa262510d288272dea4a425c95196c93) - add `blas/ext/base/dwxsa` [(#12683)](https://github.com/stdlib-js/stdlib/pull/12683)
 -   [`c351bac`](https://github.com/stdlib-js/stdlib/commit/c351bacba9b2ec3a944095e108b018d3d7c39683) - add `dcuany`, `dcuevery`, `dcusome`, and `scunone` to namespace
@@ -66,6 +67,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`1372976`](https://github.com/stdlib-js/stdlib/commit/13729768957c20cef5cbf5c083022194da1e646c) - **feat:** add `blas/ext/base/gminheap-sift-down` [(#12673)](https://github.com/stdlib-js/stdlib/pull/12673) _(by Muhammad Haris, Athan Reines)_
 -   [`7e84b3a`](https://github.com/stdlib-js/stdlib/commit/7e84b3a3d562b73547ef8c60ef44c53b3dabfcc1) - **feat:** add `dwxsa` to namespace _(by Athan Reines)_
 -   [`cf640b1`](https://github.com/stdlib-js/stdlib/commit/cf640b16898836bdbc647624ccc826a106329017) - **refactor:** remove intermediate variables in `blas/ext/base/caxpby` [(#12684)](https://github.com/stdlib-js/stdlib/pull/12684) _(by Karan Anand)_
 -   [`1fba0f1`](https://github.com/stdlib-js/stdlib/commit/1fba0f12fa262510d288272dea4a425c95196c93) - **feat:** add `blas/ext/base/dwxsa` [(#12683)](https://github.com/stdlib-js/stdlib/pull/12683) _(by Karan Anand)_
