@@ -1243,6 +1243,15 @@ setReadOnly( ns, 'glastIndexOfRow', require( './../../../ext/base/glast-index-of
 setReadOnly( ns, 'glinspace', require( './../../../ext/base/glinspace' ) );
 
 /**
+* @name gminheapSiftDown
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gminheap-sift-down}
+*/
+setReadOnly( ns, 'gminheapSiftDown', require( './../../../ext/base/gminheap-sift-down' ) );
+
+/**
 * @name gmskrev
 * @memberof ns
 * @readonly
