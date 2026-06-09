@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-08)
+## Unreleased (2026-06-09)
 
 <section class="features">
 
 ### Features
 
+-   [`fca10f2`](https://github.com/stdlib-js/stdlib/commit/fca10f287e26ecd8c835094482d5d9165a4db4e3) - update `blas/ext/base` TypeScript declarations [(#12723)](https://github.com/stdlib-js/stdlib/pull/12723)
 -   [`f31e149`](https://github.com/stdlib-js/stdlib/commit/f31e14972297bd5473c9182af23ab6ea8b26c11e) - add `blas/ext/base/ndarray/caxpby` [(#12695)](https://github.com/stdlib-js/stdlib/pull/12695)
 -   [`d2e1d8c`](https://github.com/stdlib-js/stdlib/commit/d2e1d8c2dc1a027dd7c6c61b31af753128e80df8) - add `blas/ext/base/ndarray/daxpby` [(#12696)](https://github.com/stdlib-js/stdlib/pull/12696)
 -   [`865be9c`](https://github.com/stdlib-js/stdlib/commit/865be9cf388976f51b444246ac760caf41ca635a) - add `blas/ext/base/ndarray/saxpby` [(#12694)](https://github.com/stdlib-js/stdlib/pull/12694)
@@ -72,6 +73,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`fca10f2`](https://github.com/stdlib-js/stdlib/commit/fca10f287e26ecd8c835094482d5d9165a4db4e3) - **feat:** update `blas/ext/base` TypeScript declarations [(#12723)](https://github.com/stdlib-js/stdlib/pull/12723) _(by stdlib-bot)_
 -   [`40d24b1`](https://github.com/stdlib-js/stdlib/commit/40d24b183dc2e0d455afbf826e15be0746ae7135) - **chore:** add missing precision keywords [(#12675)](https://github.com/stdlib-js/stdlib/pull/12675) _(by Philipp Burckhardt)_
 -   [`c0a017b`](https://github.com/stdlib-js/stdlib/commit/c0a017ba7b2f18c67be643c75a39dbf848772944) - **docs:** add backticks in `blas/ext/base/dcusome` descriptions [(#12705)](https://github.com/stdlib-js/stdlib/pull/12705) _(by Philipp Burckhardt)_
 -   [`f31e149`](https://github.com/stdlib-js/stdlib/commit/f31e14972297bd5473c9182af23ab6ea8b26c11e) - **feat:** add `blas/ext/base/ndarray/caxpby` [(#12695)](https://github.com/stdlib-js/stdlib/pull/12695) _(by Karan Anand)_
