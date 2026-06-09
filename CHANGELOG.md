@@ -73,6 +73,7 @@ A total of 2 issues were closed in this release:
 
 <details>
 
+-   [`f52826a`](https://github.com/stdlib-js/stdlib/commit/f52826a28351c84392b538d3379eed463897fe96) - **docs:** update namespace table of contents [(#12725)](https://github.com/stdlib-js/stdlib/pull/12725) _(by stdlib-bot)_
 -   [`fca10f2`](https://github.com/stdlib-js/stdlib/commit/fca10f287e26ecd8c835094482d5d9165a4db4e3) - **feat:** update `blas/ext/base` TypeScript declarations [(#12723)](https://github.com/stdlib-js/stdlib/pull/12723) _(by stdlib-bot)_
 -   [`40d24b1`](https://github.com/stdlib-js/stdlib/commit/40d24b183dc2e0d455afbf826e15be0746ae7135) - **chore:** add missing precision keywords [(#12675)](https://github.com/stdlib-js/stdlib/pull/12675) _(by Philipp Burckhardt)_
 -   [`c0a017b`](https://github.com/stdlib-js/stdlib/commit/c0a017ba7b2f18c67be643c75a39dbf848772944) - **docs:** add backticks in `blas/ext/base/dcusome` descriptions [(#12705)](https://github.com/stdlib-js/stdlib/pull/12705) _(by Philipp Burckhardt)_
