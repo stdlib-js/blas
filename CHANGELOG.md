@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`95792b7`](https://github.com/stdlib-js/stdlib/commit/95792b76124af965316c527a27a3ce27abef0f63) - add `blas/ext/base/dxpy` [(#12720)](https://github.com/stdlib-js/stdlib/pull/12720)
 -   [`7338b16`](https://github.com/stdlib-js/stdlib/commit/7338b160a946daaf5622e6a1c486b5e960bfc374) - add `blas/ext/base/ndarray/zaxpby` [(#12712)](https://github.com/stdlib-js/stdlib/pull/12712)
 -   [`fca10f2`](https://github.com/stdlib-js/stdlib/commit/fca10f287e26ecd8c835094482d5d9165a4db4e3) - update `blas/ext/base` TypeScript declarations [(#12723)](https://github.com/stdlib-js/stdlib/pull/12723)
 -   [`f31e149`](https://github.com/stdlib-js/stdlib/commit/f31e14972297bd5473c9182af23ab6ea8b26c11e) - add `blas/ext/base/ndarray/caxpby` [(#12695)](https://github.com/stdlib-js/stdlib/pull/12695)
@@ -75,6 +76,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`95792b7`](https://github.com/stdlib-js/stdlib/commit/95792b76124af965316c527a27a3ce27abef0f63) - **feat:** add `blas/ext/base/dxpy` [(#12720)](https://github.com/stdlib-js/stdlib/pull/12720) _(by Karan Anand, Athan Reines)_
 -   [`f1e2034`](https://github.com/stdlib-js/stdlib/commit/f1e20349616f31f14b87e403e690d9ba13550e68) - **fix:** type `dtype` parameter as `DataType` [(#12534)](https://github.com/stdlib-js/stdlib/pull/12534) _(by Philipp Burckhardt)_
 -   [`310690f`](https://github.com/stdlib-js/stdlib/commit/310690f5ceaf3ec1d7cae82e66a4748dec4c6781) - **chore:** fix JavaScript lint errors [(#12731)](https://github.com/stdlib-js/stdlib/pull/12731) _(by Suyog, Athan Reines)_
 -   [`7338b16`](https://github.com/stdlib-js/stdlib/commit/7338b160a946daaf5622e6a1c486b5e960bfc374) - **feat:** add `blas/ext/base/ndarray/zaxpby` [(#12712)](https://github.com/stdlib-js/stdlib/pull/12712) _(by Karan Anand)_
