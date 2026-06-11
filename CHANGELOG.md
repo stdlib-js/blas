@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-10)
+## Unreleased (2026-06-11)
 
 <section class="features">
 
@@ -76,6 +76,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`2c69cdd`](https://github.com/stdlib-js/stdlib/commit/2c69cdd44b2fbde5ee16ddbf87ec66e2167e621b) - **refactor:** replace `isMatrixTranspose` with `resolveTrans` in `*gemv` packages [(#12825)](https://github.com/stdlib-js/stdlib/pull/12825) _(by Kaustubh Patange)_
 -   [`95792b7`](https://github.com/stdlib-js/stdlib/commit/95792b76124af965316c527a27a3ce27abef0f63) - **feat:** add `blas/ext/base/dxpy` [(#12720)](https://github.com/stdlib-js/stdlib/pull/12720) _(by Karan Anand, Athan Reines)_
 -   [`f1e2034`](https://github.com/stdlib-js/stdlib/commit/f1e20349616f31f14b87e403e690d9ba13550e68) - **fix:** type `dtype` parameter as `DataType` [(#12534)](https://github.com/stdlib-js/stdlib/pull/12534) _(by Philipp Burckhardt)_
 -   [`310690f`](https://github.com/stdlib-js/stdlib/commit/310690f5ceaf3ec1d7cae82e66a4748dec4c6781) - **chore:** fix JavaScript lint errors [(#12731)](https://github.com/stdlib-js/stdlib/pull/12731) _(by Suyog, Athan Reines)_
@@ -145,10 +146,11 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
+-   Kaustubh Patange
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Rayan Salhab
