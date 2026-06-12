@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-11)
+## Unreleased (2026-06-12)
 
 <section class="features">
 
 ### Features
 
+-   [`4a78ab5`](https://github.com/stdlib-js/stdlib/commit/4a78ab58168fd5a91ed8fed919cc0769cdcf2f71) - add `blas/ext/base/cwxsa` [(#12691)](https://github.com/stdlib-js/stdlib/pull/12691)
 -   [`95792b7`](https://github.com/stdlib-js/stdlib/commit/95792b76124af965316c527a27a3ce27abef0f63) - add `blas/ext/base/dxpy` [(#12720)](https://github.com/stdlib-js/stdlib/pull/12720)
 -   [`7338b16`](https://github.com/stdlib-js/stdlib/commit/7338b160a946daaf5622e6a1c486b5e960bfc374) - add `blas/ext/base/ndarray/zaxpby` [(#12712)](https://github.com/stdlib-js/stdlib/pull/12712)
 -   [`fca10f2`](https://github.com/stdlib-js/stdlib/commit/fca10f287e26ecd8c835094482d5d9165a4db4e3) - update `blas/ext/base` TypeScript declarations [(#12723)](https://github.com/stdlib-js/stdlib/pull/12723)
@@ -76,6 +77,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`4a78ab5`](https://github.com/stdlib-js/stdlib/commit/4a78ab58168fd5a91ed8fed919cc0769cdcf2f71) - **feat:** add `blas/ext/base/cwxsa` [(#12691)](https://github.com/stdlib-js/stdlib/pull/12691) _(by Karan Anand)_
 -   [`2c69cdd`](https://github.com/stdlib-js/stdlib/commit/2c69cdd44b2fbde5ee16ddbf87ec66e2167e621b) - **refactor:** replace `isMatrixTranspose` with `resolveTrans` in `*gemv` packages [(#12825)](https://github.com/stdlib-js/stdlib/pull/12825) _(by Kaustubh Patange)_
 -   [`95792b7`](https://github.com/stdlib-js/stdlib/commit/95792b76124af965316c527a27a3ce27abef0f63) - **feat:** add `blas/ext/base/dxpy` [(#12720)](https://github.com/stdlib-js/stdlib/pull/12720) _(by Karan Anand, Athan Reines)_
 -   [`f1e2034`](https://github.com/stdlib-js/stdlib/commit/f1e20349616f31f14b87e403e690d9ba13550e68) - **fix:** type `dtype` parameter as `DataType` [(#12534)](https://github.com/stdlib-js/stdlib/pull/12534) _(by Philipp Burckhardt)_
