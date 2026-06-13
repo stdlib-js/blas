@@ -46,6 +46,15 @@ var ns = {};
 setReadOnly( ns, 'caxpb', require( './../../../../ext/base/ndarray/caxpb' ) );
 
 /**
+* @name caxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/caxpby}
+*/
+setReadOnly( ns, 'caxpby', require( './../../../../ext/base/ndarray/caxpby' ) );
+
+/**
 * @name cindexOf
 * @memberof ns
 * @readonly
@@ -116,6 +125,15 @@ setReadOnly( ns, 'czeroTo', require( './../../../../ext/base/ndarray/czero-to' )
 * @see {@link module:@stdlib/blas/ext/base/ndarray/daxpb}
 */
 setReadOnly( ns, 'daxpb', require( './../../../../ext/base/ndarray/daxpb' ) );
+
+/**
+* @name daxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/daxpby}
+*/
+setReadOnly( ns, 'daxpby', require( './../../../../ext/base/ndarray/daxpby' ) );
 
 /**
 * @name dcircshift
@@ -640,6 +658,15 @@ setReadOnly( ns, 'gzeroTo', require( './../../../../ext/base/ndarray/gzero-to' )
 setReadOnly( ns, 'saxpb', require( './../../../../ext/base/ndarray/saxpb' ) );
 
 /**
+* @name saxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/saxpby}
+*/
+setReadOnly( ns, 'saxpby', require( './../../../../ext/base/ndarray/saxpby' ) );
+
+/**
 * @name scircshift
 * @memberof ns
 * @readonly
@@ -863,6 +890,15 @@ setReadOnly( ns, 'szeroTo', require( './../../../../ext/base/ndarray/szero-to' )
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zaxpb}
 */
 setReadOnly( ns, 'zaxpb', require( './../../../../ext/base/ndarray/zaxpb' ) );
+
+/**
+* @name zaxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zaxpby}
+*/
+setReadOnly( ns, 'zaxpby', require( './../../../../ext/base/ndarray/zaxpby' ) );
 
 /**
 * @name zindexOf

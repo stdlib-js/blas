@@ -163,6 +163,15 @@ setReadOnly( ns, 'cunitspace', require( './../../../ext/base/cunitspace' ) );
 setReadOnly( ns, 'cwhere', require( './../../../ext/base/cwhere' ) );
 
 /**
+* @name cwxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cwxsa}
+*/
+setReadOnly( ns, 'cwxsa', require( './../../../ext/base/cwxsa' ) );
+
+/**
 * @name cxsa
 * @memberof ns
 * @readonly
@@ -883,6 +892,15 @@ setReadOnly( ns, 'dwhere', require( './../../../ext/base/dwhere' ) );
 setReadOnly( ns, 'dwxsa', require( './../../../ext/base/dwxsa' ) );
 
 /**
+* @name dxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dxpy}
+*/
+setReadOnly( ns, 'dxpy', require( './../../../ext/base/dxpy' ) );
+
+/**
 * @name dxsa
 * @memberof ns
 * @readonly
@@ -908,6 +926,15 @@ setReadOnly( ns, 'dzeroTo', require( './../../../ext/base/dzero-to' ) );
 * @see {@link module:@stdlib/blas/ext/base/dzeros}
 */
 setReadOnly( ns, 'dzeros', require( './../../../ext/base/dzeros' ) );
+
+/**
+* @name gany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gany}
+*/
+setReadOnly( ns, 'gany', require( './../../../ext/base/gany' ) );
 
 /**
 * @name gapx
@@ -1135,6 +1162,15 @@ setReadOnly( ns, 'gdiff', require( './../../../ext/base/gdiff' ) );
 setReadOnly( ns, 'gediff', require( './../../../ext/base/gediff' ) );
 
 /**
+* @name gevery
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gevery}
+*/
+setReadOnly( ns, 'gevery', require( './../../../ext/base/gevery' ) );
+
+/**
 * @name gfill
 * @memberof ns
 * @readonly
@@ -1331,6 +1367,15 @@ setReadOnly( ns, 'gnansumors', require( './../../../ext/base/gnansumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/gnansumpw}
 */
 setReadOnly( ns, 'gnansumpw', require( './../../../ext/base/gnansumpw' ) );
+
+/**
+* @name gnone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gnone}
+*/
+setReadOnly( ns, 'gnone', require( './../../../ext/base/gnone' ) );
 
 /**
 * @name goneTo
@@ -1673,6 +1718,15 @@ setReadOnly( ns, 'scartesianSquare', require( './../../../ext/base/scartesian-sq
 * @see {@link module:@stdlib/blas/ext/base/scircshift}
 */
 setReadOnly( ns, 'scircshift', require( './../../../ext/base/scircshift' ) );
+
+/**
+* @name scuany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scuany}
+*/
+setReadOnly( ns, 'scuany', require( './../../../ext/base/scuany' ) );
 
 /**
 * @name scunone
@@ -2098,6 +2152,15 @@ setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
 setReadOnly( ns, 'swxsa', require( './../../../ext/base/swxsa' ) );
 
 /**
+* @name sxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sxpy}
+*/
+setReadOnly( ns, 'sxpy', require( './../../../ext/base/sxpy' ) );
+
+/**
 * @name sxsa
 * @memberof ns
 * @readonly
@@ -2267,6 +2330,15 @@ setReadOnly( ns, 'zunitspace', require( './../../../ext/base/zunitspace' ) );
 * @see {@link module:@stdlib/blas/ext/base/zwhere}
 */
 setReadOnly( ns, 'zwhere', require( './../../../ext/base/zwhere' ) );
+
+/**
+* @name zwxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zwxsa}
+*/
+setReadOnly( ns, 'zwxsa', require( './../../../ext/base/zwxsa' ) );
 
 /**
 * @name zxsa

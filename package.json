@@ -38,6 +38,7 @@
   "dependencies": {
     "@stdlib/array": "github:stdlib-js/array#main",
     "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/boolean": "github:stdlib-js/boolean#main",
     "@stdlib/complex": "github:stdlib-js/complex#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
     "@stdlib/fs": "github:stdlib-js/fs#main",
@@ -54,7 +55,6 @@
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench#main",
-    "@stdlib/boolean": "github:stdlib-js/boolean#main",
     "@stdlib/console": "github:stdlib-js/console#main",
     "@stdlib/random": "github:stdlib-js/random#main",
     "@stdlib/time": "github:stdlib-js/time#main",

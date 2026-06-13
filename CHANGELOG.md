@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`36c8ddf`](https://github.com/stdlib-js/stdlib/commit/36c8ddf36ae7fe703109b6849517915427d21bdb) - add several symbols to namespace
+-   [`7494322`](https://github.com/stdlib-js/stdlib/commit/74943221b2af4eb0ab11ac2e5dbe77d2b5cd1eb3) - add `caxpby`, `daxpby`, `saxpby`, and `zaxpby` to namespace
+-   [`3413de7`](https://github.com/stdlib-js/stdlib/commit/3413de7d727077326fcd648c1ff027850c058f44) - add `dxpy` to namespace
 -   [`a188c0f`](https://github.com/stdlib-js/stdlib/commit/a188c0f0f7650a768769553e7a3dbbdf8f6b7c23) - add `blas/ext/base/zwxsa` [(#12857)](https://github.com/stdlib-js/stdlib/pull/12857)
 -   [`67eddfb`](https://github.com/stdlib-js/stdlib/commit/67eddfbd5c5b87caad01d2b076def8c06cc01248) - add `blas/ext/base/gnone` [(#12851)](https://github.com/stdlib-js/stdlib/pull/12851)
 -   [`6784b27`](https://github.com/stdlib-js/stdlib/commit/6784b271e98cdd69d5436e8cda5ffb6e11d5627a) - add `blas/ext/base/gevery` [(#12853)](https://github.com/stdlib-js/stdlib/pull/12853)
@@ -83,6 +86,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`36c8ddf`](https://github.com/stdlib-js/stdlib/commit/36c8ddf36ae7fe703109b6849517915427d21bdb) - **feat:** add several symbols to namespace _(by Athan Reines)_
+-   [`7494322`](https://github.com/stdlib-js/stdlib/commit/74943221b2af4eb0ab11ac2e5dbe77d2b5cd1eb3) - **feat:** add `caxpby`, `daxpby`, `saxpby`, and `zaxpby` to namespace _(by Athan Reines)_
+-   [`3413de7`](https://github.com/stdlib-js/stdlib/commit/3413de7d727077326fcd648c1ff027850c058f44) - **feat:** add `dxpy` to namespace _(by Athan Reines)_
 -   [`a188c0f`](https://github.com/stdlib-js/stdlib/commit/a188c0f0f7650a768769553e7a3dbbdf8f6b7c23) - **feat:** add `blas/ext/base/zwxsa` [(#12857)](https://github.com/stdlib-js/stdlib/pull/12857) _(by Karan Anand)_
 -   [`67eddfb`](https://github.com/stdlib-js/stdlib/commit/67eddfbd5c5b87caad01d2b076def8c06cc01248) - **feat:** add `blas/ext/base/gnone` [(#12851)](https://github.com/stdlib-js/stdlib/pull/12851) _(by Muhammad Haris, Athan Reines)_
 -   [`6784b27`](https://github.com/stdlib-js/stdlib/commit/6784b271e98cdd69d5436e8cda5ffb6e11d5627a) - **feat:** add `blas/ext/base/gevery` [(#12853)](https://github.com/stdlib-js/stdlib/pull/12853) _(by Muhammad Haris, Athan Reines)_
