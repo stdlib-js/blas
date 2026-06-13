@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`053c8cd`](https://github.com/stdlib-js/stdlib/commit/053c8cd837900bb23de91b48a86d667ec0956c8b) - add `cxpy` to namespace
 -   [`8de200f`](https://github.com/stdlib-js/stdlib/commit/8de200f8edf76f262f945a79dab9d02fa9c174b7) - add `blas/ext/base/cxpy` [(#12760)](https://github.com/stdlib-js/stdlib/pull/12760)
 -   [`36c8ddf`](https://github.com/stdlib-js/stdlib/commit/36c8ddf36ae7fe703109b6849517915427d21bdb) - add several symbols to namespace
 -   [`7494322`](https://github.com/stdlib-js/stdlib/commit/74943221b2af4eb0ab11ac2e5dbe77d2b5cd1eb3) - add `caxpby`, `daxpby`, `saxpby`, and `zaxpby` to namespace
@@ -87,6 +88,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`053c8cd`](https://github.com/stdlib-js/stdlib/commit/053c8cd837900bb23de91b48a86d667ec0956c8b) - **feat:** add `cxpy` to namespace _(by Athan Reines)_
 -   [`8de200f`](https://github.com/stdlib-js/stdlib/commit/8de200f8edf76f262f945a79dab9d02fa9c174b7) - **feat:** add `blas/ext/base/cxpy` [(#12760)](https://github.com/stdlib-js/stdlib/pull/12760) _(by Karan Anand)_
 -   [`36c8ddf`](https://github.com/stdlib-js/stdlib/commit/36c8ddf36ae7fe703109b6849517915427d21bdb) - **feat:** add several symbols to namespace _(by Athan Reines)_
 -   [`7494322`](https://github.com/stdlib-js/stdlib/commit/74943221b2af4eb0ab11ac2e5dbe77d2b5cd1eb3) - **feat:** add `caxpby`, `daxpby`, `saxpby`, and `zaxpby` to namespace _(by Athan Reines)_

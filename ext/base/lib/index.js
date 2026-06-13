@@ -172,6 +172,15 @@ setReadOnly( ns, 'cwhere', require( './../../../ext/base/cwhere' ) );
 setReadOnly( ns, 'cwxsa', require( './../../../ext/base/cwxsa' ) );
 
 /**
+* @name cxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cxpy}
+*/
+setReadOnly( ns, 'cxpy', require( './../../../ext/base/cxpy' ) );
+
+/**
 * @name cxsa
 * @memberof ns
 * @readonly
