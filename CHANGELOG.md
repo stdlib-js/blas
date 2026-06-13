@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`67eddfb`](https://github.com/stdlib-js/stdlib/commit/67eddfbd5c5b87caad01d2b076def8c06cc01248) - add `blas/ext/base/gnone` [(#12851)](https://github.com/stdlib-js/stdlib/pull/12851)
 -   [`6784b27`](https://github.com/stdlib-js/stdlib/commit/6784b271e98cdd69d5436e8cda5ffb6e11d5627a) - add `blas/ext/base/gevery` [(#12853)](https://github.com/stdlib-js/stdlib/pull/12853)
 -   [`fb9cf87`](https://github.com/stdlib-js/stdlib/commit/fb9cf874aa51302d94ee964e40b3713ebd807603) - add `blas/ext/base/gany` [(#12846)](https://github.com/stdlib-js/stdlib/pull/12846)
 -   [`51de2fa`](https://github.com/stdlib-js/stdlib/commit/51de2fada0d1d2aeac2d29fdc139f63dddf1f8c7) - add `blas/ext/base/sxpy` [(#12761)](https://github.com/stdlib-js/stdlib/pull/12761)
@@ -81,6 +82,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`67eddfb`](https://github.com/stdlib-js/stdlib/commit/67eddfbd5c5b87caad01d2b076def8c06cc01248) - **feat:** add `blas/ext/base/gnone` [(#12851)](https://github.com/stdlib-js/stdlib/pull/12851) _(by Muhammad Haris, Athan Reines)_
 -   [`6784b27`](https://github.com/stdlib-js/stdlib/commit/6784b271e98cdd69d5436e8cda5ffb6e11d5627a) - **feat:** add `blas/ext/base/gevery` [(#12853)](https://github.com/stdlib-js/stdlib/pull/12853) _(by Muhammad Haris, Athan Reines)_
 -   [`3a39850`](https://github.com/stdlib-js/stdlib/commit/3a39850ec20fd38d1ee501e13bc325a8e4ffc95d) - **chore:** remove space and fix comment [(#12855)](https://github.com/stdlib-js/stdlib/pull/12855) _(by Philipp Burckhardt)_
 -   [`fb9cf87`](https://github.com/stdlib-js/stdlib/commit/fb9cf874aa51302d94ee964e40b3713ebd807603) - **feat:** add `blas/ext/base/gany` [(#12846)](https://github.com/stdlib-js/stdlib/pull/12846) _(by Muhammad Haris)_
