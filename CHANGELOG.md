@@ -80,6 +80,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`3a39850`](https://github.com/stdlib-js/stdlib/commit/3a39850ec20fd38d1ee501e13bc325a8e4ffc95d) - **chore:** remove space and fix comment [(#12855)](https://github.com/stdlib-js/stdlib/pull/12855) _(by Philipp Burckhardt)_
 -   [`fb9cf87`](https://github.com/stdlib-js/stdlib/commit/fb9cf874aa51302d94ee964e40b3713ebd807603) - **feat:** add `blas/ext/base/gany` [(#12846)](https://github.com/stdlib-js/stdlib/pull/12846) _(by Muhammad Haris)_
 -   [`51de2fa`](https://github.com/stdlib-js/stdlib/commit/51de2fada0d1d2aeac2d29fdc139f63dddf1f8c7) - **feat:** add `blas/ext/base/sxpy` [(#12761)](https://github.com/stdlib-js/stdlib/pull/12761) _(by Karan Anand)_
 -   [`2746540`](https://github.com/stdlib-js/stdlib/commit/2746540701dd2555d54c53cb1c71a3bc4c9b689d) - **feat:** add `blas/ext/base/scuany` [(#12739)](https://github.com/stdlib-js/stdlib/pull/12739) _(by Muhammad Haris)_
