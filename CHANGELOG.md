@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`51de2fa`](https://github.com/stdlib-js/stdlib/commit/51de2fada0d1d2aeac2d29fdc139f63dddf1f8c7) - add `blas/ext/base/sxpy` [(#12761)](https://github.com/stdlib-js/stdlib/pull/12761)
 -   [`2746540`](https://github.com/stdlib-js/stdlib/commit/2746540701dd2555d54c53cb1c71a3bc4c9b689d) - add `blas/ext/base/scuany` [(#12739)](https://github.com/stdlib-js/stdlib/pull/12739)
 -   [`4a78ab5`](https://github.com/stdlib-js/stdlib/commit/4a78ab58168fd5a91ed8fed919cc0769cdcf2f71) - add `blas/ext/base/cwxsa` [(#12691)](https://github.com/stdlib-js/stdlib/pull/12691)
 -   [`95792b7`](https://github.com/stdlib-js/stdlib/commit/95792b76124af965316c527a27a3ce27abef0f63) - add `blas/ext/base/dxpy` [(#12720)](https://github.com/stdlib-js/stdlib/pull/12720)
@@ -78,6 +79,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`51de2fa`](https://github.com/stdlib-js/stdlib/commit/51de2fada0d1d2aeac2d29fdc139f63dddf1f8c7) - **feat:** add `blas/ext/base/sxpy` [(#12761)](https://github.com/stdlib-js/stdlib/pull/12761) _(by Karan Anand)_
 -   [`2746540`](https://github.com/stdlib-js/stdlib/commit/2746540701dd2555d54c53cb1c71a3bc4c9b689d) - **feat:** add `blas/ext/base/scuany` [(#12739)](https://github.com/stdlib-js/stdlib/pull/12739) _(by Muhammad Haris)_
 -   [`4a78ab5`](https://github.com/stdlib-js/stdlib/commit/4a78ab58168fd5a91ed8fed919cc0769cdcf2f71) - **feat:** add `blas/ext/base/cwxsa` [(#12691)](https://github.com/stdlib-js/stdlib/pull/12691) _(by Karan Anand)_
 -   [`2c69cdd`](https://github.com/stdlib-js/stdlib/commit/2c69cdd44b2fbde5ee16ddbf87ec66e2167e621b) - **refactor:** replace `isMatrixTranspose` with `resolveTrans` in `*gemv` packages [(#12825)](https://github.com/stdlib-js/stdlib/pull/12825) _(by Kaustubh Patange)_
