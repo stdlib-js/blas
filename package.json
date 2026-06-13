@@ -54,6 +54,7 @@
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench#main",
+    "@stdlib/boolean": "github:stdlib-js/boolean#main",
     "@stdlib/console": "github:stdlib-js/console#main",
     "@stdlib/random": "github:stdlib-js/random#main",
     "@stdlib/time": "github:stdlib-js/time#main",
