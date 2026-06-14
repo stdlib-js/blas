@@ -94,6 +94,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`fcca435`](https://github.com/stdlib-js/stdlib/commit/fcca4355ad6d547eb04701c573cd151fe74adf88) - **docs:** update `blas/ext/base/ndarray` scalar helper imports [(#12880)](https://github.com/stdlib-js/stdlib/pull/12880) _(by Karan Anand)_
 -   [`d3273eb`](https://github.com/stdlib-js/stdlib/commit/d3273eb1d4114973f9af8d49dc8f16110438213c) - **feat:** add `blas/ext/base/scusome` [(#12717)](https://github.com/stdlib-js/stdlib/pull/12717) _(by Muhammad Haris, Athan Reines)_
 -   [`5b2170f`](https://github.com/stdlib-js/stdlib/commit/5b2170fd17caecbf83aa54bd2d86986ab9c52049) - **feat:** add `blas/ext/base/ndarray/gaxpby` [(#12866)](https://github.com/stdlib-js/stdlib/pull/12866) _(by Karan Anand, Athan Reines)_
 -   [`9e6c578`](https://github.com/stdlib-js/stdlib/commit/9e6c578d92e5a56efc80e63a5078ac131c55e569) - **docs:** update namespace table of contents [(#12864)](https://github.com/stdlib-js/stdlib/pull/12864) _(by stdlib-bot)_
