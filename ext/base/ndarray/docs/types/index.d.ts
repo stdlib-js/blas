@@ -21,7 +21,6 @@
 /* eslint-disable max-lines */
 
 import caxpb = require( './../../../../../ext/base/ndarray/caxpb' );
-import caxpby = require( './../../../../../ext/base/ndarray/caxpby' );
 import cindexOf = require( './../../../../../ext/base/ndarray/cindex-of' );
 import coneTo = require( './../../../../../ext/base/ndarray/cone-to' );
 import csum = require( './../../../../../ext/base/ndarray/csum' );
@@ -30,7 +29,6 @@ import cunitspace = require( './../../../../../ext/base/ndarray/cunitspace' );
 import cxsa = require( './../../../../../ext/base/ndarray/cxsa' );
 import czeroTo = require( './../../../../../ext/base/ndarray/czero-to' );
 import daxpb = require( './../../../../../ext/base/ndarray/daxpb' );
-import daxpby = require( './../../../../../ext/base/ndarray/daxpby' );
 import dcircshift = require( './../../../../../ext/base/ndarray/dcircshift' );
 import dcusum = require( './../../../../../ext/base/ndarray/dcusum' );
 import dcusumkbn = require( './../../../../../ext/base/ndarray/dcusumkbn' );
@@ -89,7 +87,6 @@ import gunitspace = require( './../../../../../ext/base/ndarray/gunitspace' );
 import gxsa = require( './../../../../../ext/base/ndarray/gxsa' );
 import gzeroTo = require( './../../../../../ext/base/ndarray/gzero-to' );
 import saxpb = require( './../../../../../ext/base/ndarray/saxpb' );
-import saxpby = require( './../../../../../ext/base/ndarray/saxpby' );
 import scircshift = require( './../../../../../ext/base/ndarray/scircshift' );
 import scusum = require( './../../../../../ext/base/ndarray/scusum' );
 import scusumkbn = require( './../../../../../ext/base/ndarray/scusumkbn' );
@@ -115,7 +112,6 @@ import sunitspace = require( './../../../../../ext/base/ndarray/sunitspace' );
 import sxsa = require( './../../../../../ext/base/ndarray/sxsa' );
 import szeroTo = require( './../../../../../ext/base/ndarray/szero-to' );
 import zaxpb = require( './../../../../../ext/base/ndarray/zaxpb' );
-import zaxpby = require( './../../../../../ext/base/ndarray/zaxpby' );
 import zindexOf = require( './../../../../../ext/base/ndarray/zindex-of' );
 import zoneTo = require( './../../../../../ext/base/ndarray/zone-to' );
 import zsum = require( './../../../../../ext/base/ndarray/zsum' );
@@ -161,42 +157,6 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex64>[ -3.0, 2.0 ], <Complex64>[ 7.0, -10.0 ] ]
 	*/
 	caxpb: typeof caxpb;
-
-	/**
-	* Multiplies a one-dimensional single-precision complex floating-point ndarray by a scalar constant and adds the result to a second one-dimensional single-precision complex floating-point ndarray multiplied by a scalar constant.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing the constant by which to multiply the input ndarray.
-	*     -   a zero-dimensional ndarray containing the constant by which to multiply the output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Complex64Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex64Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	*
-	* var alpha = scalar2ndarray( new Complex64( 2.0, 1.0 ), {
-	*     'dtype': 'complex64'
-	* });
-	*
-	* var beta = scalar2ndarray( new Complex64( 1.0, -1.0 ), {
-	*     'dtype': 'complex64'
-	* });
-	*
-	* var out = ns.caxpby( [ x, y, alpha, beta ] );
-	* // returns <ndarray>[ <Complex64>[ 3.0, 4.0 ], <Complex64>[ 9.0, 5.0 ], <Complex64>[ 3.0, -2.0 ] ]
-	*/
-	caxpby: typeof caxpby;
 
 	/**
 	* Returns the first index of a search element in a one-dimensional single-precision complex floating-point ndarray.
@@ -410,41 +370,6 @@ interface Namespace {
 	* // returns <ndarray>[ -7.0, 8.0, 18.0, -22.0 ]
 	*/
 	daxpb: typeof daxpb;
-
-	/**
-	* Multiplies a one-dimensional double-precision floating-point ndarray by a scalar constant and adds the result to a second one-dimensional double-precision floating-point ndarray multiplied by a scalar constant.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing the scalar constant by which to multiply the input ndarray.
-	*     -   a zero-dimensional ndarray containing the scalar constant by which to multiply the output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Float64Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
-	* var y = new Float64Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	*
-	* var alpha = scalar2ndarray( 5.0, {
-	*     'dtype': 'float64'
-	* });
-	*
-	* var beta = scalar2ndarray( 2.0, {
-	*     'dtype': 'float64'
-	* });
-	*
-	* var out = ns.daxpby( [ x, y, alpha, beta ] );
-	* // returns <ndarray>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
-	*/
-	daxpby: typeof daxpby;
 
 	/**
 	* Circularly shifts the elements of a one-dimensional double-precision floating-point ndarray by a specified number of positions.
@@ -2052,41 +1977,6 @@ interface Namespace {
 	saxpb: typeof saxpb;
 
 	/**
-	* Multiplies a one-dimensional single-precision floating-point ndarray by a scalar constant and adds the result to a second one-dimensional single-precision floating-point ndarray multiplied by a scalar constant.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing the scalar constant by which to multiply the input ndarray.
-	*     -   a zero-dimensional ndarray containing the scalar constant by which to multiply the output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
-	* var y = new Float32Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	*
-	* var alpha = scalar2ndarray( 5.0, {
-	*     'dtype': 'float32'
-	* });
-	*
-	* var beta = scalar2ndarray( 2.0, {
-	*     'dtype': 'float32'
-	* });
-	*
-	* var out = ns.saxpby( [ x, y, alpha, beta ] );
-	* // returns <ndarray>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
-	*/
-	saxpby: typeof saxpby;
-
-	/**
 	* Circularly shifts the elements of a one-dimensional single-precision floating-point ndarray by a specified number of positions.
 	*
 	* ## Notes
@@ -2769,42 +2659,6 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex128>[ -3.0, 2.0 ], <Complex128>[ 7.0, -10.0 ] ]
 	*/
 	zaxpb: typeof zaxpb;
-
-	/**
-	* Multiplies a one-dimensional double-precision complex floating-point ndarray by a scalar constant and adds the result to a second one-dimensional double-precision complex floating-point ndarray multiplied by a scalar constant.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray containing the constant by which to multiply the input ndarray.
-	*     -   a zero-dimensional ndarray containing the constant by which to multiply the output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
-	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Complex128Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex128Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	*
-	* var alpha = scalar2ndarray( new Complex128( 2.0, 1.0 ), {
-	*     'dtype': 'complex128'
-	* });
-	*
-	* var beta = scalar2ndarray( new Complex128( 1.0, -1.0 ), {
-	*     'dtype': 'complex128'
-	* });
-	*
-	* var out = ns.zaxpby( [ x, y, alpha, beta ] );
-	* // returns <ndarray>[ <Complex128>[ 3.0, 4.0 ], <Complex128>[ 9.0, 5.0 ], <Complex128>[ 3.0, -2.0 ] ]
-	*/
-	zaxpby: typeof zaxpby;
 
 	/**
 	* Returns the first index of a search element in a one-dimensional double-precision complex floating-point ndarray.

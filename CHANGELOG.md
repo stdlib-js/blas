@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`3a3602f`](https://github.com/stdlib-js/stdlib/commit/3a3602f19b6b7cac6318f6afd501e604f762111a) - update `blas/ext/base/ndarray` TypeScript declarations [(#12862)](https://github.com/stdlib-js/stdlib/pull/12862)
 -   [`a732ce2`](https://github.com/stdlib-js/stdlib/commit/a732ce29f67cd2dc6d783e3bd8c3fa825d588da8) - add `scuevery` to namespace
 -   [`24755a8`](https://github.com/stdlib-js/stdlib/commit/24755a88aa273f9a5c1e009a48f3098a8059700d) - add `blas/ext/base/scuevery` [(#12842)](https://github.com/stdlib-js/stdlib/pull/12842)
 -   [`053c8cd`](https://github.com/stdlib-js/stdlib/commit/053c8cd837900bb23de91b48a86d667ec0956c8b) - add `cxpy` to namespace
@@ -91,7 +90,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`3a3602f`](https://github.com/stdlib-js/stdlib/commit/3a3602f19b6b7cac6318f6afd501e604f762111a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12862)](https://github.com/stdlib-js/stdlib/pull/12862) _(by stdlib-bot)_
 -   [`a732ce2`](https://github.com/stdlib-js/stdlib/commit/a732ce29f67cd2dc6d783e3bd8c3fa825d588da8) - **feat:** add `scuevery` to namespace _(by Athan Reines)_
 -   [`24755a8`](https://github.com/stdlib-js/stdlib/commit/24755a88aa273f9a5c1e009a48f3098a8059700d) - **feat:** add `blas/ext/base/scuevery` [(#12842)](https://github.com/stdlib-js/stdlib/pull/12842) _(by Muhammad Haris)_
 -   [`053c8cd`](https://github.com/stdlib-js/stdlib/commit/053c8cd837900bb23de91b48a86d667ec0956c8b) - **feat:** add `cxpy` to namespace _(by Athan Reines)_
