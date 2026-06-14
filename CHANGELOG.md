@@ -92,7 +92,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`9e6c578`](https://github.com/stdlib-js/stdlib/commit/9e6c578d92e5a56efc80e63a5078ac131c55e569) - **docs:** update namespace table of contents [(#12864)](https://github.com/stdlib-js/stdlib/pull/12864) _(by stdlib-bot)_
 -   [`89214a7`](https://github.com/stdlib-js/stdlib/commit/89214a7b2704cf166088cd23d9351f67fe1df7c8) - **feat:** update `blas/ext/base` TypeScript declarations [(#12863)](https://github.com/stdlib-js/stdlib/pull/12863) _(by stdlib-bot)_
 -   [`3a3602f`](https://github.com/stdlib-js/stdlib/commit/3a3602f19b6b7cac6318f6afd501e604f762111a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12862)](https://github.com/stdlib-js/stdlib/pull/12862) _(by stdlib-bot)_
 -   [`a732ce2`](https://github.com/stdlib-js/stdlib/commit/a732ce29f67cd2dc6d783e3bd8c3fa825d588da8) - **feat:** add `scuevery` to namespace _(by Athan Reines)_
