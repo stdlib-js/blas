@@ -209,6 +209,7 @@ import scartesianProduct = require( './../../../../ext/base/scartesian-product' 
 import scartesianSquare = require( './../../../../ext/base/scartesian-square' );
 import scircshift = require( './../../../../ext/base/scircshift' );
 import scuany = require( './../../../../ext/base/scuany' );
+import scuevery = require( './../../../../ext/base/scuevery' );
 import scunone = require( './../../../../ext/base/scunone' );
 import scusum = require( './../../../../ext/base/scusum' );
 import scusumkbn = require( './../../../../ext/base/scusumkbn' );
@@ -5798,6 +5799,38 @@ interface Namespace {
 	* // out => <BooleanArray>[ false, false, true, true ]
 	*/
 	scuany: typeof scuany;
+
+	/**
+	* Cumulatively tests whether every element in a single-precision floating-point strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scuevery( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scuevery.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	scuevery: typeof scuevery;
 
 	/**
 	* Cumulatively tests whether every element in a single-precision floating-point strided array is falsy.
