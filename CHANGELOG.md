@@ -95,7 +95,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`7765cff`](https://github.com/stdlib-js/stdlib/commit/7765cff3b0fd3850443a675a9b3a099513ba2da2) - **docs:** update namespace table of contents [(#12893)](https://github.com/stdlib-js/stdlib/pull/12893) _(by stdlib-bot)_
 -   [`badfba2`](https://github.com/stdlib-js/stdlib/commit/badfba29312771490b1158b1a27a9dc88dcbc42c) - **feat:** update `blas/ext/base` TypeScript declarations [(#12892)](https://github.com/stdlib-js/stdlib/pull/12892) _(by stdlib-bot)_
 -   [`fcca435`](https://github.com/stdlib-js/stdlib/commit/fcca4355ad6d547eb04701c573cd151fe74adf88) - **docs:** update `blas/ext/base/ndarray` scalar helper imports [(#12880)](https://github.com/stdlib-js/stdlib/pull/12880) _(by Karan Anand)_
 -   [`d3273eb`](https://github.com/stdlib-js/stdlib/commit/d3273eb1d4114973f9af8d49dc8f16110438213c) - **feat:** add `blas/ext/base/scusome` [(#12717)](https://github.com/stdlib-js/stdlib/pull/12717) _(by Muhammad Haris, Athan Reines)_
