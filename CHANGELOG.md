@@ -96,6 +96,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`b17716c`](https://github.com/stdlib-js/stdlib/commit/b17716c5954f979e72011c0dd34dde9853f3a661) - **chore:** modernize benchmarks and examples [(#12884)](https://github.com/stdlib-js/stdlib/pull/12884) _(by Karan Anand, Athan Reines)_
 -   [`d333900`](https://github.com/stdlib-js/stdlib/commit/d33390094ba01d2d1a8fa2772a87b8e9da0238a9) - **feat:** add `blas/ext/base/zxpy` [(#12865)](https://github.com/stdlib-js/stdlib/pull/12865) _(by Karan Anand)_
 -   [`074468a`](https://github.com/stdlib-js/stdlib/commit/074468a3ee4927ca61e528cc474a3082ebb6b7f9) - **test:** fix complex array indexing in `blas/ext/base/cxpy` [(#12886)](https://github.com/stdlib-js/stdlib/pull/12886) _(by Karan Anand)_
 -   [`7765cff`](https://github.com/stdlib-js/stdlib/commit/7765cff3b0fd3850443a675a9b3a099513ba2da2) - **docs:** update namespace table of contents [(#12893)](https://github.com/stdlib-js/stdlib/pull/12893) _(by stdlib-bot)_
