@@ -71,6 +71,7 @@
 
 ### Bug Fixes
 
+-   [`1e6bcbb`](https://github.com/stdlib-js/stdlib/commit/1e6bcbb2bde4899c2e283e68633e023aedfdef0f) - ensure consistent NaN handling in JavaScript and C [(#12909)](https://github.com/stdlib-js/stdlib/pull/12909)
 -   [`f1e2034`](https://github.com/stdlib-js/stdlib/commit/f1e20349616f31f14b87e403e690d9ba13550e68) - type `dtype` parameter as `DataType` [(#12534)](https://github.com/stdlib-js/stdlib/pull/12534)
 -   [`9dd3f73`](https://github.com/stdlib-js/stdlib/commit/9dd3f73544d43392c6ff8d5f290e0e466ac0c812) - rename header files to align with project conventions
 
@@ -96,6 +97,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`1e6bcbb`](https://github.com/stdlib-js/stdlib/commit/1e6bcbb2bde4899c2e283e68633e023aedfdef0f) - **fix:** ensure consistent NaN handling in JavaScript and C [(#12909)](https://github.com/stdlib-js/stdlib/pull/12909) _(by Muhammad Haris)_
 -   [`34f2e8b`](https://github.com/stdlib-js/stdlib/commit/34f2e8b225a824c7377bab95dd9ebf409bf3622f) - **docs:** update require order in examples [(#12876)](https://github.com/stdlib-js/stdlib/pull/12876) _(by Philipp Burckhardt, Athan Reines)_
 -   [`b17716c`](https://github.com/stdlib-js/stdlib/commit/b17716c5954f979e72011c0dd34dde9853f3a661) - **chore:** modernize benchmarks and examples [(#12884)](https://github.com/stdlib-js/stdlib/pull/12884) _(by Karan Anand, Athan Reines)_
 -   [`d333900`](https://github.com/stdlib-js/stdlib/commit/d33390094ba01d2d1a8fa2772a87b8e9da0238a9) - **feat:** add `blas/ext/base/zxpy` [(#12865)](https://github.com/stdlib-js/stdlib/pull/12865) _(by Karan Anand)_
