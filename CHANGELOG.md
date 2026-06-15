@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ec3f1dd`](https://github.com/stdlib-js/stdlib/commit/ec3f1dde3a7b3ae3c8a24d80a01c3423d98f67ad) - add `blas/ext/base/gindex-of-truthy` [(#12895)](https://github.com/stdlib-js/stdlib/pull/12895)
 -   [`d333900`](https://github.com/stdlib-js/stdlib/commit/d33390094ba01d2d1a8fa2772a87b8e9da0238a9) - add `blas/ext/base/zxpy` [(#12865)](https://github.com/stdlib-js/stdlib/pull/12865)
 -   [`badfba2`](https://github.com/stdlib-js/stdlib/commit/badfba29312771490b1158b1a27a9dc88dcbc42c) - update `blas/ext/base` TypeScript declarations [(#12892)](https://github.com/stdlib-js/stdlib/pull/12892)
 -   [`d3273eb`](https://github.com/stdlib-js/stdlib/commit/d3273eb1d4114973f9af8d49dc8f16110438213c) - add `blas/ext/base/scusome` [(#12717)](https://github.com/stdlib-js/stdlib/pull/12717)
@@ -97,6 +98,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ec3f1dd`](https://github.com/stdlib-js/stdlib/commit/ec3f1dde3a7b3ae3c8a24d80a01c3423d98f67ad) - **feat:** add `blas/ext/base/gindex-of-truthy` [(#12895)](https://github.com/stdlib-js/stdlib/pull/12895) _(by Muhammad Haris, Athan Reines)_
 -   [`1e6bcbb`](https://github.com/stdlib-js/stdlib/commit/1e6bcbb2bde4899c2e283e68633e023aedfdef0f) - **fix:** ensure consistent NaN handling in JavaScript and C [(#12909)](https://github.com/stdlib-js/stdlib/pull/12909) _(by Muhammad Haris)_
 -   [`34f2e8b`](https://github.com/stdlib-js/stdlib/commit/34f2e8b225a824c7377bab95dd9ebf409bf3622f) - **docs:** update require order in examples [(#12876)](https://github.com/stdlib-js/stdlib/pull/12876) _(by Philipp Burckhardt, Athan Reines)_
 -   [`b17716c`](https://github.com/stdlib-js/stdlib/commit/b17716c5954f979e72011c0dd34dde9853f3a661) - **chore:** modernize benchmarks and examples [(#12884)](https://github.com/stdlib-js/stdlib/pull/12884) _(by Karan Anand, Athan Reines)_
