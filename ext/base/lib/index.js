@@ -451,6 +451,15 @@ setReadOnly( ns, 'dindexOfColumn', require( './../../../ext/base/dindex-of-colum
 setReadOnly( ns, 'dindexOfRow', require( './../../../ext/base/dindex-of-row' ) );
 
 /**
+* @name dindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dindex-of-truthy}
+*/
+setReadOnly( ns, 'dindexOfTruthy', require( './../../../ext/base/dindex-of-truthy' ) );
+
+/**
 * @name dlastIndexOf
 * @memberof ns
 * @readonly
@@ -2177,6 +2186,15 @@ setReadOnly( ns, 'sunitspace', require( './../../../ext/base/sunitspace' ) );
 * @see {@link module:@stdlib/blas/ext/base/svander}
 */
 setReadOnly( ns, 'svander', require( './../../../ext/base/svander' ) );
+
+/**
+* @name swapx
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/swapx}
+*/
+setReadOnly( ns, 'swapx', require( './../../../ext/base/swapx' ) );
 
 /**
 * @name swhere
