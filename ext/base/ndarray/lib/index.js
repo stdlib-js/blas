@@ -388,6 +388,15 @@ setReadOnly( ns, 'dzeroTo', require( './../../../../ext/base/ndarray/dzero-to' )
 setReadOnly( ns, 'gaxpb', require( './../../../../ext/base/ndarray/gaxpb' ) );
 
 /**
+* @name gaxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gaxpby}
+*/
+setReadOnly( ns, 'gaxpby', require( './../../../../ext/base/ndarray/gaxpby' ) );
+
+/**
 * @name gcircshift
 * @memberof ns
 * @readonly

@@ -883,6 +883,15 @@ setReadOnly( ns, 'dunitspace', require( './../../../ext/base/dunitspace' ) );
 setReadOnly( ns, 'dvander', require( './../../../ext/base/dvander' ) );
 
 /**
+* @name dwapx
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dwapx}
+*/
+setReadOnly( ns, 'dwapx', require( './../../../ext/base/dwapx' ) );
+
+/**
 * @name dwhere
 * @memberof ns
 * @readonly
@@ -1241,6 +1250,15 @@ setReadOnly( ns, 'gindexOfColumn', require( './../../../ext/base/gindex-of-colum
 * @see {@link module:@stdlib/blas/ext/base/gindex-of-row}
 */
 setReadOnly( ns, 'gindexOfRow', require( './../../../ext/base/gindex-of-row' ) );
+
+/**
+* @name gindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-truthy}
+*/
+setReadOnly( ns, 'gindexOfTruthy', require( './../../../ext/base/gindex-of-truthy' ) );
 
 /**
 * @name gjoin
@@ -1754,6 +1772,15 @@ setReadOnly( ns, 'scuevery', require( './../../../ext/base/scuevery' ) );
 * @see {@link module:@stdlib/blas/ext/base/scunone}
 */
 setReadOnly( ns, 'scunone', require( './../../../ext/base/scunone' ) );
+
+/**
+* @name scusome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scusome}
+*/
+setReadOnly( ns, 'scusome', require( './../../../ext/base/scusome' ) );
 
 /**
 * @name scusum
@@ -2357,6 +2384,15 @@ setReadOnly( ns, 'zwhere', require( './../../../ext/base/zwhere' ) );
 * @see {@link module:@stdlib/blas/ext/base/zwxsa}
 */
 setReadOnly( ns, 'zwxsa', require( './../../../ext/base/zwxsa' ) );
+
+/**
+* @name zxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zxpy}
+*/
+setReadOnly( ns, 'zxpy', require( './../../../ext/base/zxpy' ) );
 
 /**
 * @name zxsa
