@@ -72,6 +72,7 @@
 
 ### Bug Fixes
 
+-   [`8abcc10`](https://github.com/stdlib-js/stdlib/commit/8abcc1002910bcd3638535a2f6cfad70099faa2b) - ensure consistent behavior between JavaScript and C [(#12905)](https://github.com/stdlib-js/stdlib/pull/12905)
 -   [`13f0c81`](https://github.com/stdlib-js/stdlib/commit/13f0c8101e2c8101f06a1692ef706728c3b6ad2b) - ensure consistent behavior between JavaScript and C [(#12906)](https://github.com/stdlib-js/stdlib/pull/12906)
 -   [`198c63d`](https://github.com/stdlib-js/stdlib/commit/198c63df747cbdd94a2cae68c20158ff0414074f) - ensure consistent behavior between JavaScript and C [(#12907)](https://github.com/stdlib-js/stdlib/pull/12907)
 -   [`1e6bcbb`](https://github.com/stdlib-js/stdlib/commit/1e6bcbb2bde4899c2e283e68633e023aedfdef0f) - ensure consistent NaN handling in JavaScript and C [(#12909)](https://github.com/stdlib-js/stdlib/pull/12909)
@@ -100,6 +101,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8abcc10`](https://github.com/stdlib-js/stdlib/commit/8abcc1002910bcd3638535a2f6cfad70099faa2b) - **fix:** ensure consistent behavior between JavaScript and C [(#12905)](https://github.com/stdlib-js/stdlib/pull/12905) _(by Muhammad Haris)_
 -   [`13f0c81`](https://github.com/stdlib-js/stdlib/commit/13f0c8101e2c8101f06a1692ef706728c3b6ad2b) - **fix:** ensure consistent behavior between JavaScript and C [(#12906)](https://github.com/stdlib-js/stdlib/pull/12906) _(by Muhammad Haris)_
 -   [`198c63d`](https://github.com/stdlib-js/stdlib/commit/198c63df747cbdd94a2cae68c20158ff0414074f) - **fix:** ensure consistent behavior between JavaScript and C [(#12907)](https://github.com/stdlib-js/stdlib/pull/12907) _(by Muhammad Haris)_
 -   [`ec3f1dd`](https://github.com/stdlib-js/stdlib/commit/ec3f1dde3a7b3ae3c8a24d80a01c3423d98f67ad) - **feat:** add `blas/ext/base/gindex-of-truthy` [(#12895)](https://github.com/stdlib-js/stdlib/pull/12895) _(by Muhammad Haris, Athan Reines)_
