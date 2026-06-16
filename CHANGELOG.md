@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`454c11b`](https://github.com/stdlib-js/stdlib/commit/454c11ba8cbf3d98da513295412c0d94488ff4bd) - add `blas/ext/base/swapx` [(#12869)](https://github.com/stdlib-js/stdlib/pull/12869)
 -   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - add `gaxpby` to namespace
 -   [`a35e055`](https://github.com/stdlib-js/stdlib/commit/a35e055f4bec9d6f6859b46f8f0f712c04972a28) - add various symbols to namespace
 -   [`2727513`](https://github.com/stdlib-js/stdlib/commit/2727513484321792782174ebc5f3084c66b94003) - add `blas/ext/base/dwapx` [(#12868)](https://github.com/stdlib-js/stdlib/pull/12868)
@@ -108,6 +109,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`454c11b`](https://github.com/stdlib-js/stdlib/commit/454c11ba8cbf3d98da513295412c0d94488ff4bd) - **feat:** add `blas/ext/base/swapx` [(#12869)](https://github.com/stdlib-js/stdlib/pull/12869) _(by Karan Anand)_
 -   [`eafdf72`](https://github.com/stdlib-js/stdlib/commit/eafdf722458fbde031140158a111fc5d0848f27c) - **feat:** add `gaxpby` to namespace _(by Athan Reines)_
 -   [`a35e055`](https://github.com/stdlib-js/stdlib/commit/a35e055f4bec9d6f6859b46f8f0f712c04972a28) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`6cfefb7`](https://github.com/stdlib-js/stdlib/commit/6cfefb714d4e4468c01c9096eba103ce110082cb) - **docs:** make notes consistent _(by Athan Reines)_
