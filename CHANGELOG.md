@@ -72,6 +72,7 @@
 
 ### Bug Fixes
 
+-   [`f69102b`](https://github.com/stdlib-js/stdlib/commit/f69102b50fad0c2e7b19f326273bd7fc2e052c2d) - ensure consistent behavior between JavaScript and C [(#12900)](https://github.com/stdlib-js/stdlib/pull/12900)
 -   [`e2ff56d`](https://github.com/stdlib-js/stdlib/commit/e2ff56d2b1cc5baf269c4a4426cb32a487b4294f) - ensure consistent behavior between JavaScript and C [(#12901)](https://github.com/stdlib-js/stdlib/pull/12901)
 -   [`6f55796`](https://github.com/stdlib-js/stdlib/commit/6f557963cba2318227eb675513676f1016c5c77e) - ensure consistent behavior between JavaScript and C [(#12903)](https://github.com/stdlib-js/stdlib/pull/12903)
 -   [`8abcc10`](https://github.com/stdlib-js/stdlib/commit/8abcc1002910bcd3638535a2f6cfad70099faa2b) - ensure consistent behavior between JavaScript and C [(#12905)](https://github.com/stdlib-js/stdlib/pull/12905)
@@ -103,6 +104,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f69102b`](https://github.com/stdlib-js/stdlib/commit/f69102b50fad0c2e7b19f326273bd7fc2e052c2d) - **fix:** ensure consistent behavior between JavaScript and C [(#12900)](https://github.com/stdlib-js/stdlib/pull/12900) _(by Muhammad Haris)_
 -   [`e2ff56d`](https://github.com/stdlib-js/stdlib/commit/e2ff56d2b1cc5baf269c4a4426cb32a487b4294f) - **fix:** ensure consistent behavior between JavaScript and C [(#12901)](https://github.com/stdlib-js/stdlib/pull/12901) _(by Muhammad Haris)_
 -   [`6f55796`](https://github.com/stdlib-js/stdlib/commit/6f557963cba2318227eb675513676f1016c5c77e) - **fix:** ensure consistent behavior between JavaScript and C [(#12903)](https://github.com/stdlib-js/stdlib/pull/12903) _(by Muhammad Haris)_
 -   [`8abcc10`](https://github.com/stdlib-js/stdlib/commit/8abcc1002910bcd3638535a2f6cfad70099faa2b) - **fix:** ensure consistent behavior between JavaScript and C [(#12905)](https://github.com/stdlib-js/stdlib/pull/12905) _(by Muhammad Haris)_
