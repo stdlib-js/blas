@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870)
 -   [`6e65472`](https://github.com/stdlib-js/stdlib/commit/6e65472b21a86ca4ee4398725681509521c9a496) - add `dindexOfTruthy` and `swapx` to namespace
 -   [`47f53b3`](https://github.com/stdlib-js/stdlib/commit/47f53b3d83fe141c4befef6bce23bd37b4961026) - add `blas/ext/base/dindex-of-truthy` [(#12910)](https://github.com/stdlib-js/stdlib/pull/12910)
 -   [`454c11b`](https://github.com/stdlib-js/stdlib/commit/454c11ba8cbf3d98da513295412c0d94488ff4bd) - add `blas/ext/base/swapx` [(#12869)](https://github.com/stdlib-js/stdlib/pull/12869)
@@ -111,6 +112,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - **feat:** add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870) _(by Muhammad Haris, Athan Reines)_
 -   [`6e65472`](https://github.com/stdlib-js/stdlib/commit/6e65472b21a86ca4ee4398725681509521c9a496) - **feat:** add `dindexOfTruthy` and `swapx` to namespace _(by Athan Reines)_
 -   [`47f53b3`](https://github.com/stdlib-js/stdlib/commit/47f53b3d83fe141c4befef6bce23bd37b4961026) - **feat:** add `blas/ext/base/dindex-of-truthy` [(#12910)](https://github.com/stdlib-js/stdlib/pull/12910) _(by Muhammad Haris, Athan Reines)_
 -   [`454c11b`](https://github.com/stdlib-js/stdlib/commit/454c11ba8cbf3d98da513295412c0d94488ff4bd) - **feat:** add `blas/ext/base/swapx` [(#12869)](https://github.com/stdlib-js/stdlib/pull/12869) _(by Karan Anand)_
