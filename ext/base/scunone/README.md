@@ -134,7 +134,7 @@ scunone.ndarray( 3, x, 2, 2, out, 1, 0 );
 ## Notes
 
 -   If `N <= 0`, both functions return `out` unchanged.
--   Both functions explicitly treat `NaN` values as a falsy value.
+-   Both functions explicitly treat `NaN` values as falsy.
 
 </section>
 
@@ -258,7 +258,7 @@ void stdlib_strided_scunone_ndarray( const CBLAS_INT N, const float *X, const CB
 
 ### Notes
 
--   The function explicitly treats `NaN` values as a falsy value.
+-   Both functions explicitly treat `NaN` values as falsy.
 
 </section>
 

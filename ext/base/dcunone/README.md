@@ -134,7 +134,7 @@ dcunone.ndarray( 3, x, 2, 2, out, 1, 0 );
 ## Notes
 
 -   If `N <= 0`, both functions return `out` unchanged.
--   Both functions explicitly treat `NaN` values as falsy elements.
+-   Both functions explicitly treat `NaN` values as falsy.
 
 </section>
 
@@ -258,7 +258,7 @@ void stdlib_strided_dcunone_ndarray( const CBLAS_INT N, const double *X, const C
 
 ### Notes
 
--   The function explicitly treats `NaN` values as falsy.
+-   Both functions explicitly treat `NaN` values as falsy.
 
 </section>
 

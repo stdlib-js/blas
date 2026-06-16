@@ -135,7 +135,7 @@ scusome.ndarray( 3, 1, x, 2, 2, out, 1, 0 );
 ## Notes
 
 -   If `N <= 0`, both functions return `out` unchanged.
--   Both functions explicitly treat `NaN` values as falsy elements.
+-   Both functions explicitly treat `NaN` values as falsy.
 
 </section>
 
@@ -261,7 +261,7 @@ void stdlib_strided_scusome_ndarray( const CBLAS_INT N, const CBLAS_INT k, const
 
 ### Notes
 
--   The function explicitly treats `NaN` values as falsy.
+-   Both functions explicitly treat `NaN` values as falsy.
 
 </section>
 

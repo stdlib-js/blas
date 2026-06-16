@@ -106,6 +106,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`6cfefb7`](https://github.com/stdlib-js/stdlib/commit/6cfefb714d4e4468c01c9096eba103ce110082cb) - **docs:** make notes consistent _(by Athan Reines)_
 -   [`2727513`](https://github.com/stdlib-js/stdlib/commit/2727513484321792782174ebc5f3084c66b94003) - **feat:** add `blas/ext/base/dwapx` [(#12868)](https://github.com/stdlib-js/stdlib/pull/12868) _(by Karan Anand)_
 -   [`2d3727e`](https://github.com/stdlib-js/stdlib/commit/2d3727e4d322219eee8ac42156770b5ca71ad0da) - **fix:** ensure consistent behavior between JavaScript and C [(#12904)](https://github.com/stdlib-js/stdlib/pull/12904) _(by Muhammad Haris, Athan Reines)_
 -   [`f69102b`](https://github.com/stdlib-js/stdlib/commit/f69102b50fad0c2e7b19f326273bd7fc2e052c2d) - **fix:** ensure consistent behavior between JavaScript and C [(#12900)](https://github.com/stdlib-js/stdlib/pull/12900) _(by Muhammad Haris)_
