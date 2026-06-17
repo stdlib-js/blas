@@ -1945,6 +1945,15 @@ setReadOnly( ns, 'sindexOfColumn', require( './../../../ext/base/sindex-of-colum
 setReadOnly( ns, 'sindexOfRow', require( './../../../ext/base/sindex-of-row' ) );
 
 /**
+* @name sindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sindex-of-truthy}
+*/
+setReadOnly( ns, 'sindexOfTruthy', require( './../../../ext/base/sindex-of-truthy' ) );
+
+/**
 * @name slastIndexOf
 * @memberof ns
 * @readonly

@@ -190,6 +190,15 @@ setReadOnly( ns, 'dcusumors', require( './../../../../ext/base/ndarray/dcusumors
 setReadOnly( ns, 'dcusumpw', require( './../../../../ext/base/ndarray/dcusumpw' ) );
 
 /**
+* @name ddiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ddiff}
+*/
+setReadOnly( ns, 'ddiff', require( './../../../../ext/base/ndarray/ddiff' ) );
+
+/**
 * @name dindexOf
 * @memberof ns
 * @readonly

@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`d03d818`](https://github.com/stdlib-js/stdlib/commit/d03d8186865b7b0f6b4ad74a34847ea8e08770ca) - add `sindexOfTruthy` to namespace
+-   [`07b52ea`](https://github.com/stdlib-js/stdlib/commit/07b52ea9ea981054c92233451fdd5e3a374cd18c) - add `ddiff` to namespace
 -   [`6a86ae3`](https://github.com/stdlib-js/stdlib/commit/6a86ae3eecd9148066c6f375b378ea28c8a43533) - update `blas/ext/base` TypeScript declarations [(#12929)](https://github.com/stdlib-js/stdlib/pull/12929)
 -   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928)
 -   [`0eff8f9`](https://github.com/stdlib-js/stdlib/commit/0eff8f9ba8d63256ad3d78d1e9c00699ab616cc5) - add `blas/ext/base/sindex-of-truthy` [(#12919)](https://github.com/stdlib-js/stdlib/pull/12919)
@@ -115,6 +117,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`d03d818`](https://github.com/stdlib-js/stdlib/commit/d03d8186865b7b0f6b4ad74a34847ea8e08770ca) - **feat:** add `sindexOfTruthy` to namespace _(by Athan Reines)_
+-   [`07b52ea`](https://github.com/stdlib-js/stdlib/commit/07b52ea9ea981054c92233451fdd5e3a374cd18c) - **feat:** add `ddiff` to namespace _(by Athan Reines)_
 -   [`6a86ae3`](https://github.com/stdlib-js/stdlib/commit/6a86ae3eecd9148066c6f375b378ea28c8a43533) - **feat:** update `blas/ext/base` TypeScript declarations [(#12929)](https://github.com/stdlib-js/stdlib/pull/12929) _(by stdlib-bot)_
 -   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928) _(by stdlib-bot)_
 -   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
