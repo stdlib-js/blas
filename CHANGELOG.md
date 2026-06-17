@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-16)
+## Unreleased (2026-06-17)
 
 <section class="features">
 
@@ -112,6 +112,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`098dede`](https://github.com/stdlib-js/stdlib/commit/098deded1d652e152eb6d5f86cad92ef4844e3bd) - **style:** adjust spacing and fix REPL text wrapping [(#12348)](https://github.com/stdlib-js/stdlib/pull/12348) _(by Philipp Burckhardt, Athan Reines)_
 -   [`45848d1`](https://github.com/stdlib-js/stdlib/commit/45848d1dc0f91c2a851126a53e739375b8e7d67e) - **chore:** clean-up for changes introduced in previous commits [(#12921)](https://github.com/stdlib-js/stdlib/pull/12921) _(by Philipp Burckhardt)_
 -   [`8db7bc7`](https://github.com/stdlib-js/stdlib/commit/8db7bc7046b07a7b5ad04d203a49b8cf75aa7f71) - **docs:** drop redundant \"elements\" qualifier [(#12922)](https://github.com/stdlib-js/stdlib/pull/12922) _(by Philipp Burckhardt)_
 -   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - **feat:** add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870) _(by Muhammad Haris, Athan Reines)_
