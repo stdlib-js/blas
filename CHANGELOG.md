@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`18bf06b`](https://github.com/stdlib-js/stdlib/commit/18bf06b3b34969c1c6fb4f4b1dddb172aaccec98) - add `blas/ext/base/dminheap-sift-down` [(#12932)](https://github.com/stdlib-js/stdlib/pull/12932)
 -   [`d03d818`](https://github.com/stdlib-js/stdlib/commit/d03d8186865b7b0f6b4ad74a34847ea8e08770ca) - add `sindexOfTruthy` to namespace
 -   [`07b52ea`](https://github.com/stdlib-js/stdlib/commit/07b52ea9ea981054c92233451fdd5e3a374cd18c) - add `ddiff` to namespace
 -   [`6a86ae3`](https://github.com/stdlib-js/stdlib/commit/6a86ae3eecd9148066c6f375b378ea28c8a43533) - update `blas/ext/base` TypeScript declarations [(#12929)](https://github.com/stdlib-js/stdlib/pull/12929)
@@ -117,6 +118,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`18bf06b`](https://github.com/stdlib-js/stdlib/commit/18bf06b3b34969c1c6fb4f4b1dddb172aaccec98) - **feat:** add `blas/ext/base/dminheap-sift-down` [(#12932)](https://github.com/stdlib-js/stdlib/pull/12932) _(by Muhammad Haris, Athan Reines)_
 -   [`d03d818`](https://github.com/stdlib-js/stdlib/commit/d03d8186865b7b0f6b4ad74a34847ea8e08770ca) - **feat:** add `sindexOfTruthy` to namespace _(by Athan Reines)_
 -   [`07b52ea`](https://github.com/stdlib-js/stdlib/commit/07b52ea9ea981054c92233451fdd5e3a374cd18c) - **feat:** add `ddiff` to namespace _(by Athan Reines)_
 -   [`6a86ae3`](https://github.com/stdlib-js/stdlib/commit/6a86ae3eecd9148066c6f375b378ea28c8a43533) - **feat:** update `blas/ext/base` TypeScript declarations [(#12929)](https://github.com/stdlib-js/stdlib/pull/12929) _(by stdlib-bot)_
