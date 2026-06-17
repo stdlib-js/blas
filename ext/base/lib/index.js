@@ -487,6 +487,15 @@ setReadOnly( ns, 'dlastIndexOfRow', require( './../../../ext/base/dlast-index-of
 setReadOnly( ns, 'dlinspace', require( './../../../ext/base/dlinspace' ) );
 
 /**
+* @name dminheapSiftDown
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dminheap-sift-down}
+*/
+setReadOnly( ns, 'dminheapSiftDown', require( './../../../ext/base/dminheap-sift-down' ) );
+
+/**
 * @name dmskrev
 * @memberof ns
 * @readonly
