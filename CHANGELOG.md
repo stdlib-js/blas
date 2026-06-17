@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0eff8f9`](https://github.com/stdlib-js/stdlib/commit/0eff8f9ba8d63256ad3d78d1e9c00699ab616cc5) - add `blas/ext/base/sindex-of-truthy` [(#12919)](https://github.com/stdlib-js/stdlib/pull/12919)
 -   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870)
 -   [`6e65472`](https://github.com/stdlib-js/stdlib/commit/6e65472b21a86ca4ee4398725681509521c9a496) - add `dindexOfTruthy` and `swapx` to namespace
 -   [`47f53b3`](https://github.com/stdlib-js/stdlib/commit/47f53b3d83fe141c4befef6bce23bd37b4961026) - add `blas/ext/base/dindex-of-truthy` [(#12910)](https://github.com/stdlib-js/stdlib/pull/12910)
@@ -112,6 +113,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`0eff8f9`](https://github.com/stdlib-js/stdlib/commit/0eff8f9ba8d63256ad3d78d1e9c00699ab616cc5) - **feat:** add `blas/ext/base/sindex-of-truthy` [(#12919)](https://github.com/stdlib-js/stdlib/pull/12919) _(by Muhammad Haris)_
 -   [`098dede`](https://github.com/stdlib-js/stdlib/commit/098deded1d652e152eb6d5f86cad92ef4844e3bd) - **style:** adjust spacing and fix REPL text wrapping [(#12348)](https://github.com/stdlib-js/stdlib/pull/12348) _(by Philipp Burckhardt, Athan Reines)_
 -   [`45848d1`](https://github.com/stdlib-js/stdlib/commit/45848d1dc0f91c2a851126a53e739375b8e7d67e) - **chore:** clean-up for changes introduced in previous commits [(#12921)](https://github.com/stdlib-js/stdlib/pull/12921) _(by Philipp Burckhardt)_
 -   [`8db7bc7`](https://github.com/stdlib-js/stdlib/commit/8db7bc7046b07a7b5ad04d203a49b8cf75aa7f71) - **docs:** drop redundant \"elements\" qualifier [(#12922)](https://github.com/stdlib-js/stdlib/pull/12922) _(by Philipp Burckhardt)_
