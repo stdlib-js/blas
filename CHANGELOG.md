@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`6a86ae3`](https://github.com/stdlib-js/stdlib/commit/6a86ae3eecd9148066c6f375b378ea28c8a43533) - update `blas/ext/base` TypeScript declarations [(#12929)](https://github.com/stdlib-js/stdlib/pull/12929)
+-   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928)
 -   [`0eff8f9`](https://github.com/stdlib-js/stdlib/commit/0eff8f9ba8d63256ad3d78d1e9c00699ab616cc5) - add `blas/ext/base/sindex-of-truthy` [(#12919)](https://github.com/stdlib-js/stdlib/pull/12919)
 -   [`8498df4`](https://github.com/stdlib-js/stdlib/commit/8498df4dafe6e7bdb6b6bbaffb300e43da0588ba) - add `blas/ext/base/ndarray/ddiff` [(#12870)](https://github.com/stdlib-js/stdlib/pull/12870)
 -   [`6e65472`](https://github.com/stdlib-js/stdlib/commit/6e65472b21a86ca4ee4398725681509521c9a496) - add `dindexOfTruthy` and `swapx` to namespace
@@ -113,6 +115,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`6a86ae3`](https://github.com/stdlib-js/stdlib/commit/6a86ae3eecd9148066c6f375b378ea28c8a43533) - **feat:** update `blas/ext/base` TypeScript declarations [(#12929)](https://github.com/stdlib-js/stdlib/pull/12929) _(by stdlib-bot)_
+-   [`9e7300a`](https://github.com/stdlib-js/stdlib/commit/9e7300a53bfd4bc958a24e0aa1818e482660f476) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12928)](https://github.com/stdlib-js/stdlib/pull/12928) _(by stdlib-bot)_
 -   [`884245d`](https://github.com/stdlib-js/stdlib/commit/884245d7dd6273d24c89f8f294d6796d65c328c4) - **docs:** update namespace table of contents [(#12931)](https://github.com/stdlib-js/stdlib/pull/12931) _(by stdlib-bot)_
 -   [`0eff8f9`](https://github.com/stdlib-js/stdlib/commit/0eff8f9ba8d63256ad3d78d1e9c00699ab616cc5) - **feat:** add `blas/ext/base/sindex-of-truthy` [(#12919)](https://github.com/stdlib-js/stdlib/pull/12919) _(by Muhammad Haris)_
 -   [`098dede`](https://github.com/stdlib-js/stdlib/commit/098deded1d652e152eb6d5f86cad92ef4844e3bd) - **style:** adjust spacing and fix REPL text wrapping [(#12348)](https://github.com/stdlib-js/stdlib/pull/12348) _(by Philipp Burckhardt, Athan Reines)_
