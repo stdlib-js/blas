@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940)
 -   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887)
 -   [`ae56fc5`](https://github.com/stdlib-js/stdlib/commit/ae56fc587c8d12df4dca62a4b92177f3f8bb8b24) - add `dminheapSiftDown` to namespace
 -   [`18bf06b`](https://github.com/stdlib-js/stdlib/commit/18bf06b3b34969c1c6fb4f4b1dddb172aaccec98) - add `blas/ext/base/dminheap-sift-down` [(#12932)](https://github.com/stdlib-js/stdlib/pull/12932)
@@ -120,6 +121,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - **feat:** add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940) _(by Muhammad Haris)_
 -   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - **feat:** add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887) _(by Muhammad Haris)_
 -   [`ae56fc5`](https://github.com/stdlib-js/stdlib/commit/ae56fc587c8d12df4dca62a4b92177f3f8bb8b24) - **feat:** add `dminheapSiftDown` to namespace _(by Athan Reines)_
 -   [`18bf06b`](https://github.com/stdlib-js/stdlib/commit/18bf06b3b34969c1c6fb4f4b1dddb172aaccec98) - **feat:** add `blas/ext/base/dminheap-sift-down` [(#12932)](https://github.com/stdlib-js/stdlib/pull/12932) _(by Muhammad Haris, Athan Reines)_
