@@ -1342,6 +1342,15 @@ setReadOnly( ns, 'glinspace', require( './../../../ext/base/glinspace' ) );
 setReadOnly( ns, 'gminheapSiftDown', require( './../../../ext/base/gminheap-sift-down' ) );
 
 /**
+* @name gminheapify
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gminheapify}
+*/
+setReadOnly( ns, 'gminheapify', require( './../../../ext/base/gminheapify' ) );
+
+/**
 * @name gmskrev
 * @memberof ns
 * @readonly
