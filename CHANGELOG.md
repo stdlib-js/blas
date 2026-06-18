@@ -127,6 +127,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`118a1ea`](https://github.com/stdlib-js/stdlib/commit/118a1eaf28afc9be92abb582b8ca43439237d6a7) - **docs:** update namespace table of contents [(#12947)](https://github.com/stdlib-js/stdlib/pull/12947) _(by stdlib-bot)_
 -   [`80377b8`](https://github.com/stdlib-js/stdlib/commit/80377b85ea65e0e3399b37f72641748f4406f420) - **feat:** add `blas/ext/base/gminheapify` [(#12936)](https://github.com/stdlib-js/stdlib/pull/12936) _(by Muhammad Haris, Athan Reines)_
 -   [`9bc3dc8`](https://github.com/stdlib-js/stdlib/commit/9bc3dc8b54f957ac3d0978cf51cbc22c1639716e) - **feat:** add `scunone` to namespace _(by Athan Reines)_
 -   [`7cdc092`](https://github.com/stdlib-js/stdlib/commit/7cdc09263464834df5e5e62f4f46feff4dc9c8f1) - **feat:** add `gindexOfFalsy` and `sminheapSiftDown` to namespace _(by Athan Reines)_
