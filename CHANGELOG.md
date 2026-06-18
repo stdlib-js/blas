@@ -130,6 +130,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a1c00d0`](https://github.com/stdlib-js/stdlib/commit/a1c00d0d4a4343bdd4c1ae6c714a77af9b0df039) - **docs:** fix capitalization [(#12952)](https://github.com/stdlib-js/stdlib/pull/12952) _(by Philipp Burckhardt)_
 -   [`c1e53a8`](https://github.com/stdlib-js/stdlib/commit/c1e53a8f96967e354a59152e8465a90b827f44c1) - **feat:** add `glastIndexOfTruthy` to namespace _(by Athan Reines)_
 -   [`0e633ea`](https://github.com/stdlib-js/stdlib/commit/0e633ea6279e4095eaaea6082fc471dc474f3aba) - **feat:** add `blas/ext/base/glast-index-of-truthy` [(#12948)](https://github.com/stdlib-js/stdlib/pull/12948) _(by Muhammad Haris, Athan Reines)_
 -   [`5d56e47`](https://github.com/stdlib-js/stdlib/commit/5d56e47f5bd22276fe377db7687b2055b21933d2) - **bench:** fix descriptions _(by Athan Reines)_
