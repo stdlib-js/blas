@@ -1261,6 +1261,15 @@ setReadOnly( ns, 'gindexOf', require( './../../../ext/base/gindex-of' ) );
 setReadOnly( ns, 'gindexOfColumn', require( './../../../ext/base/gindex-of-column' ) );
 
 /**
+* @name gindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-falsy}
+*/
+setReadOnly( ns, 'gindexOfFalsy', require( './../../../ext/base/gindex-of-falsy' ) );
+
+/**
 * @name gindexOfRow
 * @memberof ns
 * @readonly
@@ -1988,6 +1997,15 @@ setReadOnly( ns, 'slastIndexOfRow', require( './../../../ext/base/slast-index-of
 * @see {@link module:@stdlib/blas/ext/base/slinspace}
 */
 setReadOnly( ns, 'slinspace', require( './../../../ext/base/slinspace' ) );
+
+/**
+* @name sminheapSiftDown
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sminheap-sift-down}
+*/
+setReadOnly( ns, 'sminheapSiftDown', require( './../../../ext/base/sminheap-sift-down' ) );
 
 /**
 * @name smskrev

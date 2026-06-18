@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`9bc3dc8`](https://github.com/stdlib-js/stdlib/commit/9bc3dc8b54f957ac3d0978cf51cbc22c1639716e) - add `scunone` to namespace
+-   [`7cdc092`](https://github.com/stdlib-js/stdlib/commit/7cdc09263464834df5e5e62f4f46feff4dc9c8f1) - add `gindexOfFalsy` and `sminheapSiftDown` to namespace
 -   [`41808bf`](https://github.com/stdlib-js/stdlib/commit/41808bf84bd375fde4c3ed2484bfc306e6944104) - update `blas/ext/base` TypeScript declarations [(#12945)](https://github.com/stdlib-js/stdlib/pull/12945)
 -   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944)
 -   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939)
@@ -124,6 +126,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`9bc3dc8`](https://github.com/stdlib-js/stdlib/commit/9bc3dc8b54f957ac3d0978cf51cbc22c1639716e) - **feat:** add `scunone` to namespace _(by Athan Reines)_
+-   [`7cdc092`](https://github.com/stdlib-js/stdlib/commit/7cdc09263464834df5e5e62f4f46feff4dc9c8f1) - **feat:** add `gindexOfFalsy` and `sminheapSiftDown` to namespace _(by Athan Reines)_
 -   [`41808bf`](https://github.com/stdlib-js/stdlib/commit/41808bf84bd375fde4c3ed2484bfc306e6944104) - **feat:** update `blas/ext/base` TypeScript declarations [(#12945)](https://github.com/stdlib-js/stdlib/pull/12945) _(by stdlib-bot)_
 -   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944) _(by stdlib-bot)_
 -   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - **feat:** add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939) _(by Muhammad Haris)_

@@ -694,6 +694,15 @@ setReadOnly( ns, 'saxpby', require( './../../../../ext/base/ndarray/saxpby' ) );
 setReadOnly( ns, 'scircshift', require( './../../../../ext/base/ndarray/scircshift' ) );
 
 /**
+* @name scunone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scunone}
+*/
+setReadOnly( ns, 'scunone', require( './../../../../ext/base/ndarray/scunone' ) );
+
+/**
 * @name scusum
 * @memberof ns
 * @readonly
