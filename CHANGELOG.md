@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c1e53a8`](https://github.com/stdlib-js/stdlib/commit/c1e53a8f96967e354a59152e8465a90b827f44c1) - add `glastIndexOfTruthy` to namespace
 -   [`0e633ea`](https://github.com/stdlib-js/stdlib/commit/0e633ea6279e4095eaaea6082fc471dc474f3aba) - add `blas/ext/base/glast-index-of-truthy` [(#12948)](https://github.com/stdlib-js/stdlib/pull/12948)
 -   [`f407a33`](https://github.com/stdlib-js/stdlib/commit/f407a3359654c6f68402ddc9b16d1147c8848949) - add `gminheapify` to namespace
 -   [`80377b8`](https://github.com/stdlib-js/stdlib/commit/80377b85ea65e0e3399b37f72641748f4406f420) - add `blas/ext/base/gminheapify` [(#12936)](https://github.com/stdlib-js/stdlib/pull/12936)
@@ -129,6 +130,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`c1e53a8`](https://github.com/stdlib-js/stdlib/commit/c1e53a8f96967e354a59152e8465a90b827f44c1) - **feat:** add `glastIndexOfTruthy` to namespace _(by Athan Reines)_
 -   [`0e633ea`](https://github.com/stdlib-js/stdlib/commit/0e633ea6279e4095eaaea6082fc471dc474f3aba) - **feat:** add `blas/ext/base/glast-index-of-truthy` [(#12948)](https://github.com/stdlib-js/stdlib/pull/12948) _(by Muhammad Haris, Athan Reines)_
 -   [`5d56e47`](https://github.com/stdlib-js/stdlib/commit/5d56e47f5bd22276fe377db7687b2055b21933d2) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`f407a33`](https://github.com/stdlib-js/stdlib/commit/f407a3359654c6f68402ddc9b16d1147c8848949) - **feat:** add `gminheapify` to namespace _(by Athan Reines)_

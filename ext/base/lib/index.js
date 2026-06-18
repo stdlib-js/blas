@@ -1324,6 +1324,15 @@ setReadOnly( ns, 'glastIndexOf', require( './../../../ext/base/glast-index-of' )
 setReadOnly( ns, 'glastIndexOfRow', require( './../../../ext/base/glast-index-of-row' ) );
 
 /**
+* @name glastIndexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/glast-index-of-truthy}
+*/
+setReadOnly( ns, 'glastIndexOfTruthy', require( './../../../ext/base/glast-index-of-truthy' ) );
+
+/**
 * @name glinspace
 * @memberof ns
 * @readonly
