@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-17)
+## Unreleased (2026-06-18)
 
 <section class="features">
 
 ### Features
 
+-   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939)
 -   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940)
 -   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887)
 -   [`ae56fc5`](https://github.com/stdlib-js/stdlib/commit/ae56fc587c8d12df4dca62a4b92177f3f8bb8b24) - add `dminheapSiftDown` to namespace
@@ -121,6 +122,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - **feat:** add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939) _(by Muhammad Haris)_
 -   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - **feat:** add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940) _(by Muhammad Haris)_
 -   [`bfaddc8`](https://github.com/stdlib-js/stdlib/commit/bfaddc8367ecd7beed039b7ccd3865445cc8a651) - **feat:** add `blas/ext/base/ndarray/scunone` [(#12887)](https://github.com/stdlib-js/stdlib/pull/12887) _(by Muhammad Haris)_
 -   [`ae56fc5`](https://github.com/stdlib-js/stdlib/commit/ae56fc587c8d12df4dca62a4b92177f3f8bb8b24) - **feat:** add `dminheapSiftDown` to namespace _(by Athan Reines)_
