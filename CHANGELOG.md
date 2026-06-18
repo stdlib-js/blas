@@ -128,6 +128,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5d56e47`](https://github.com/stdlib-js/stdlib/commit/5d56e47f5bd22276fe377db7687b2055b21933d2) - **bench:** fix descriptions _(by Athan Reines)_
 -   [`f407a33`](https://github.com/stdlib-js/stdlib/commit/f407a3359654c6f68402ddc9b16d1147c8848949) - **feat:** add `gminheapify` to namespace _(by Athan Reines)_
 -   [`118a1ea`](https://github.com/stdlib-js/stdlib/commit/118a1eaf28afc9be92abb582b8ca43439237d6a7) - **docs:** update namespace table of contents [(#12947)](https://github.com/stdlib-js/stdlib/pull/12947) _(by stdlib-bot)_
 -   [`80377b8`](https://github.com/stdlib-js/stdlib/commit/80377b85ea65e0e3399b37f72641748f4406f420) - **feat:** add `blas/ext/base/gminheapify` [(#12936)](https://github.com/stdlib-js/stdlib/pull/12936) _(by Muhammad Haris, Athan Reines)_
