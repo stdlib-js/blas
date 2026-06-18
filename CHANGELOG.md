@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`41808bf`](https://github.com/stdlib-js/stdlib/commit/41808bf84bd375fde4c3ed2484bfc306e6944104) - update `blas/ext/base` TypeScript declarations [(#12945)](https://github.com/stdlib-js/stdlib/pull/12945)
 -   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944)
 -   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939)
 -   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940)
@@ -123,6 +124,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`41808bf`](https://github.com/stdlib-js/stdlib/commit/41808bf84bd375fde4c3ed2484bfc306e6944104) - **feat:** update `blas/ext/base` TypeScript declarations [(#12945)](https://github.com/stdlib-js/stdlib/pull/12945) _(by stdlib-bot)_
 -   [`37e473f`](https://github.com/stdlib-js/stdlib/commit/37e473f40210e8eae7e786ba5b2e67e52c5e3fc6) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12944)](https://github.com/stdlib-js/stdlib/pull/12944) _(by stdlib-bot)_
 -   [`a8c3544`](https://github.com/stdlib-js/stdlib/commit/a8c354429ab5aec4fd0c317b0536c79b4c365ca8) - **feat:** add `blas/ext/base/sminheap-sift-down` [(#12939)](https://github.com/stdlib-js/stdlib/pull/12939) _(by Muhammad Haris)_
 -   [`5a60a91`](https://github.com/stdlib-js/stdlib/commit/5a60a91fdf94bea31e01defeabfd9f770beea67e) - **feat:** add `blas/ext/base/gindex-of-falsy` [(#12940)](https://github.com/stdlib-js/stdlib/pull/12940) _(by Muhammad Haris)_

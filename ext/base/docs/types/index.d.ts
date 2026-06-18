@@ -70,6 +70,7 @@ import dindexOfTruthy = require( './../../../../ext/base/dindex-of-truthy' );
 import dlastIndexOf = require( './../../../../ext/base/dlast-index-of' );
 import dlastIndexOfRow = require( './../../../../ext/base/dlast-index-of-row' );
 import dlinspace = require( './../../../../ext/base/dlinspace' );
+import dminheapSiftDown = require( './../../../../ext/base/dminheap-sift-down' );
 import dmskrev = require( './../../../../ext/base/dmskrev' );
 import dnanasum = require( './../../../../ext/base/dnanasum' );
 import dnanasumors = require( './../../../../ext/base/dnanasumors' );
@@ -232,6 +233,7 @@ import sfill = require( './../../../../ext/base/sfill' );
 import sindexOf = require( './../../../../ext/base/sindex-of' );
 import sindexOfColumn = require( './../../../../ext/base/sindex-of-column' );
 import sindexOfRow = require( './../../../../ext/base/sindex-of-row' );
+import sindexOfTruthy = require( './../../../../ext/base/sindex-of-truthy' );
 import slastIndexOf = require( './../../../../ext/base/slast-index-of' );
 import slastIndexOfRow = require( './../../../../ext/base/slast-index-of-row' );
 import slinspace = require( './../../../../ext/base/slinspace' );
@@ -1969,6 +1971,39 @@ interface Namespace {
 	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
 	*/
 	dlinspace: typeof dlinspace;
+
+	/**
+	* Sifts a value down from a specified index in a double-precision floating-point strided min-heap until the heap property is restored.
+	*
+	* ## Notes
+	*
+	* -   The function assumes that the subtrees rooted at the children of `index` already satisfy the min-heap property and only the value being sifted may violate the min-heap invariant.
+	* -   The min-heap algorithm is sensitive to the presence of `NaN` values. Since `NaN` comparisons always return `false`, if `NaN` values are present in the input array, the results may be unpredictable.
+	*
+	* @param N - number of indexed elements
+	* @param index - logical index at which to begin sifting
+	* @param value - value to place into the heap
+	* @param x - heap storage array
+	* @param strideX - stride length
+	* @returns heap storage array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.dminheapSiftDown( 5, 0, 7.0, x, 1 );
+	* // x => <Float64Array>[ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.dminheapSiftDown.ndarray( 5, 0, 7.0, x, 1, 0 );
+	* // x => <Float64Array>[ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*/
+	dminheapSiftDown: typeof dminheapSiftDown;
 
 	/**
 	* Reverses a double-precision floating-point strided array in-place according to a mask.
@@ -6541,6 +6576,37 @@ interface Namespace {
 	* // returns 1
 	*/
 	sindexOfRow: typeof sindexOfRow;
+
+	/**
+	* Returns the index of the first truthy element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.sindexOfTruthy( x.length, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.sindexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 1
+	*/
+	sindexOfTruthy: typeof sindexOfTruthy;
 
 	/**
 	* Returns the last index of a specified search element in a single-precision floating-point strided array.
