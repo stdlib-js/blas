@@ -93,6 +93,7 @@ import gzeroTo = require( './../../../../../ext/base/ndarray/gzero-to' );
 import saxpb = require( './../../../../../ext/base/ndarray/saxpb' );
 import saxpby = require( './../../../../../ext/base/ndarray/saxpby' );
 import scircshift = require( './../../../../../ext/base/ndarray/scircshift' );
+import scunone = require( './../../../../../ext/base/ndarray/scunone' );
 import scusum = require( './../../../../../ext/base/ndarray/scusum' );
 import scusumkbn = require( './../../../../../ext/base/ndarray/scusumkbn' );
 import scusumkbn2 = require( './../../../../../ext/base/ndarray/scusumkbn2' );
@@ -2185,6 +2186,34 @@ interface Namespace {
 	* // returns <ndarray>[ 4.0, 5.0, 1.0, 2.0, 3.0 ]
 	*/
 	scircshift: typeof scircshift;
+
+	/**
+	* Cumulatively tests whether every element in a one-dimensional single-precision floating-point ndarray is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var BooleanVector = require( '@stdlib/ndarray/vector/bool' );
+	*
+	* var x = new Float32Vector( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanVector( 4 );
+	*
+	* var z = ns.scunone( [ x, out ] );
+	* // returns <ndarray>[ true, true, false, false ]
+	*
+	* var bool = ( z === out );
+	* // returns true
+	*/
+	scunone: typeof scunone;
 
 	/**
 	* Computes the cumulative sum of a one-dimensional single-precision floating-point ndarray.

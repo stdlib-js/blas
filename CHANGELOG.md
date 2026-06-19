@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-18)
+## Unreleased (2026-06-19)
 
 <section class="features">
 
 ### Features
 
+-   [`882c6dd`](https://github.com/stdlib-js/stdlib/commit/882c6dd2a6d6740d82f607fb278dc157f708deb0) - update `blas/ext/base/ndarray` TypeScript declarations [(#12961)](https://github.com/stdlib-js/stdlib/pull/12961)
 -   [`c1e53a8`](https://github.com/stdlib-js/stdlib/commit/c1e53a8f96967e354a59152e8465a90b827f44c1) - add `glastIndexOfTruthy` to namespace
 -   [`0e633ea`](https://github.com/stdlib-js/stdlib/commit/0e633ea6279e4095eaaea6082fc471dc474f3aba) - add `blas/ext/base/glast-index-of-truthy` [(#12948)](https://github.com/stdlib-js/stdlib/pull/12948)
 -   [`f407a33`](https://github.com/stdlib-js/stdlib/commit/f407a3359654c6f68402ddc9b16d1147c8848949) - add `gminheapify` to namespace
@@ -130,6 +131,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`882c6dd`](https://github.com/stdlib-js/stdlib/commit/882c6dd2a6d6740d82f607fb278dc157f708deb0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#12961)](https://github.com/stdlib-js/stdlib/pull/12961) _(by stdlib-bot)_
 -   [`a1c00d0`](https://github.com/stdlib-js/stdlib/commit/a1c00d0d4a4343bdd4c1ae6c714a77af9b0df039) - **docs:** fix capitalization [(#12952)](https://github.com/stdlib-js/stdlib/pull/12952) _(by Philipp Burckhardt)_
 -   [`c1e53a8`](https://github.com/stdlib-js/stdlib/commit/c1e53a8f96967e354a59152e8465a90b827f44c1) - **feat:** add `glastIndexOfTruthy` to namespace _(by Athan Reines)_
 -   [`0e633ea`](https://github.com/stdlib-js/stdlib/commit/0e633ea6279e4095eaaea6082fc471dc474f3aba) - **feat:** add `blas/ext/base/glast-index-of-truthy` [(#12948)](https://github.com/stdlib-js/stdlib/pull/12948) _(by Muhammad Haris, Athan Reines)_
