@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`24ae0ea`](https://github.com/stdlib-js/stdlib/commit/24ae0ea1e48f8fe8cfbcefbedbc395c590da1082) - add `blas/ext/base/ndarray/dindex-of-falsy` [(#12993)](https://github.com/stdlib-js/stdlib/pull/12993)
 -   [`a071b8b`](https://github.com/stdlib-js/stdlib/commit/a071b8bdbb62f1c136ae317c67c8cfd16653f267) - add `blas/ext/base/ndarray/gindex-of-falsy` [(#12992)](https://github.com/stdlib-js/stdlib/pull/12992)
 -   [`b04b445`](https://github.com/stdlib-js/stdlib/commit/b04b44547cf1514df488d69b906d17338783af75) - add `blas/ext/base/sindex-of-falsy` [(#12975)](https://github.com/stdlib-js/stdlib/pull/12975)
 -   [`85c7ed5`](https://github.com/stdlib-js/stdlib/commit/85c7ed5e7829f4f3806e3a3b6a920c84e38697c9) - add `blas/ext/base/dindex-of-falsy` [(#12973)](https://github.com/stdlib-js/stdlib/pull/12973)
@@ -135,6 +136,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`24ae0ea`](https://github.com/stdlib-js/stdlib/commit/24ae0ea1e48f8fe8cfbcefbedbc395c590da1082) - **feat:** add `blas/ext/base/ndarray/dindex-of-falsy` [(#12993)](https://github.com/stdlib-js/stdlib/pull/12993) _(by Muhammad Haris, Athan Reines)_
 -   [`a071b8b`](https://github.com/stdlib-js/stdlib/commit/a071b8bdbb62f1c136ae317c67c8cfd16653f267) - **feat:** add `blas/ext/base/ndarray/gindex-of-falsy` [(#12992)](https://github.com/stdlib-js/stdlib/pull/12992) _(by Muhammad Haris, Athan Reines)_
 -   [`5c56631`](https://github.com/stdlib-js/stdlib/commit/5c56631cd8e1d0ab496c17d05ccd6ae351c7f0ec) - **test:** fix mismatched test filenames [(#12991)](https://github.com/stdlib-js/stdlib/pull/12991) _(by Philipp Burckhardt)_
 -   [`aa598c9`](https://github.com/stdlib-js/stdlib/commit/aa598c929946d8083d945a9cc47400b86aabd358) - **chore:** propagate fixes across `blas/ext/base` and `regexp` [(#12970)](https://github.com/stdlib-js/stdlib/pull/12970) _(by Philipp Burckhardt)_
