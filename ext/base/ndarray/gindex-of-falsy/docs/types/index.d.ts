@@ -42,7 +42,7 @@ import { typedndarray } from '@stdlib/types/ndarray';
 * var v = gindexOfFalsy( [ x ] );
 * // returns 2
 */
-declare function gindexOfFalsy( arrays: [ typedndarray<number> ] ): number;
+declare function gindexOfFalsy( arrays: [ typedndarray<unknown> ] ): number;
 
 
 // EXPORTS //

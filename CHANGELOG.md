@@ -103,6 +103,7 @@
 
 ### Bug Fixes
 
+-   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - use correct element type
 -   [`2d3727e`](https://github.com/stdlib-js/stdlib/commit/2d3727e4d322219eee8ac42156770b5ca71ad0da) - ensure consistent behavior between JavaScript and C [(#12904)](https://github.com/stdlib-js/stdlib/pull/12904)
 -   [`f69102b`](https://github.com/stdlib-js/stdlib/commit/f69102b50fad0c2e7b19f326273bd7fc2e052c2d) - ensure consistent behavior between JavaScript and C [(#12900)](https://github.com/stdlib-js/stdlib/pull/12900)
 -   [`e2ff56d`](https://github.com/stdlib-js/stdlib/commit/e2ff56d2b1cc5baf269c4a4426cb32a487b4294f) - ensure consistent behavior between JavaScript and C [(#12901)](https://github.com/stdlib-js/stdlib/pull/12901)
@@ -136,6 +137,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - **fix:** use correct element type _(by Athan Reines)_
 -   [`24ae0ea`](https://github.com/stdlib-js/stdlib/commit/24ae0ea1e48f8fe8cfbcefbedbc395c590da1082) - **feat:** add `blas/ext/base/ndarray/dindex-of-falsy` [(#12993)](https://github.com/stdlib-js/stdlib/pull/12993) _(by Muhammad Haris, Athan Reines)_
 -   [`a071b8b`](https://github.com/stdlib-js/stdlib/commit/a071b8bdbb62f1c136ae317c67c8cfd16653f267) - **feat:** add `blas/ext/base/ndarray/gindex-of-falsy` [(#12992)](https://github.com/stdlib-js/stdlib/pull/12992) _(by Muhammad Haris, Athan Reines)_
 -   [`5c56631`](https://github.com/stdlib-js/stdlib/commit/5c56631cd8e1d0ab496c17d05ccd6ae351c7f0ec) - **test:** fix mismatched test filenames [(#12991)](https://github.com/stdlib-js/stdlib/pull/12991) _(by Philipp Burckhardt)_
