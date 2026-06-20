@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ecf3df1`](https://github.com/stdlib-js/stdlib/commit/ecf3df185dc1abddc772d6f0b8881929a9955e24) - add `blas/ext/base/dnone` [(#12885)](https://github.com/stdlib-js/stdlib/pull/12885)
 -   [`99dac60`](https://github.com/stdlib-js/stdlib/commit/99dac6017130f2cd82a68b6772016bd3128245d3) - add `blas/ext/base/ndarray/gindex-of-truthy` [(#12998)](https://github.com/stdlib-js/stdlib/pull/12998)
 -   [`24ae0ea`](https://github.com/stdlib-js/stdlib/commit/24ae0ea1e48f8fe8cfbcefbedbc395c590da1082) - add `blas/ext/base/ndarray/dindex-of-falsy` [(#12993)](https://github.com/stdlib-js/stdlib/pull/12993)
 -   [`a071b8b`](https://github.com/stdlib-js/stdlib/commit/a071b8bdbb62f1c136ae317c67c8cfd16653f267) - add `blas/ext/base/ndarray/gindex-of-falsy` [(#12992)](https://github.com/stdlib-js/stdlib/pull/12992)
@@ -138,6 +139,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ecf3df1`](https://github.com/stdlib-js/stdlib/commit/ecf3df185dc1abddc772d6f0b8881929a9955e24) - **feat:** add `blas/ext/base/dnone` [(#12885)](https://github.com/stdlib-js/stdlib/pull/12885) _(by Muhammad Haris, Athan Reines)_
 -   [`99dac60`](https://github.com/stdlib-js/stdlib/commit/99dac6017130f2cd82a68b6772016bd3128245d3) - **feat:** add `blas/ext/base/ndarray/gindex-of-truthy` [(#12998)](https://github.com/stdlib-js/stdlib/pull/12998) _(by Muhammad Haris, Athan Reines)_
 -   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - **fix:** use correct element type _(by Athan Reines)_
 -   [`24ae0ea`](https://github.com/stdlib-js/stdlib/commit/24ae0ea1e48f8fe8cfbcefbedbc395c590da1082) - **feat:** add `blas/ext/base/ndarray/dindex-of-falsy` [(#12993)](https://github.com/stdlib-js/stdlib/pull/12993) _(by Muhammad Haris, Athan Reines)_
