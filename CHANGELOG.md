@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`096398f`](https://github.com/stdlib-js/stdlib/commit/096398f18c56b57e5996621d99bb310ba7df065d) - add `blas/ext/base/dxsy` [(#13028)](https://github.com/stdlib-js/stdlib/pull/13028)
 -   [`f47e688`](https://github.com/stdlib-js/stdlib/commit/f47e6889d07b18cbbcdbe78b6b8be7265be914ca) - add `blas/ext/base/gxsy` [(#13027)](https://github.com/stdlib-js/stdlib/pull/13027)
 -   [`e6e7d42`](https://github.com/stdlib-js/stdlib/commit/e6e7d42b10701833a2a943d2f0df75163742aa9e) - add `dnone`, `dsome`, `dindexOfFalsy`, and `sindexOfFalsy` to namespace
 -   [`5609f46`](https://github.com/stdlib-js/stdlib/commit/5609f46b441850c67aa6d22f3f023953bf2f2461) - add `gindexOfTruthy`, `gindexOfFalsy`, and `dindexOfFalsy` to namespace
@@ -143,6 +144,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`096398f`](https://github.com/stdlib-js/stdlib/commit/096398f18c56b57e5996621d99bb310ba7df065d) - **feat:** add `blas/ext/base/dxsy` [(#13028)](https://github.com/stdlib-js/stdlib/pull/13028) _(by Karan Anand)_
 -   [`f47e688`](https://github.com/stdlib-js/stdlib/commit/f47e6889d07b18cbbcdbe78b6b8be7265be914ca) - **feat:** add `blas/ext/base/gxsy` [(#13027)](https://github.com/stdlib-js/stdlib/pull/13027) _(by Karan Anand)_
 -   [`a876b5e`](https://github.com/stdlib-js/stdlib/commit/a876b5e1601b2a3468f428578c03f617504db8d5) - **chore:** follow-up fixes for prior commits [(#13014)](https://github.com/stdlib-js/stdlib/pull/13014) _(by Philipp Burckhardt)_
 -   [`e6e7d42`](https://github.com/stdlib-js/stdlib/commit/e6e7d42b10701833a2a943d2f0df75163742aa9e) - **feat:** add `dnone`, `dsome`, `dindexOfFalsy`, and `sindexOfFalsy` to namespace _(by Athan Reines)_
