@@ -208,6 +208,15 @@ setReadOnly( ns, 'ddiff', require( './../../../../ext/base/ndarray/ddiff' ) );
 setReadOnly( ns, 'dindexOf', require( './../../../../ext/base/ndarray/dindex-of' ) );
 
 /**
+* @name dindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dindex-of-falsy}
+*/
+setReadOnly( ns, 'dindexOfFalsy', require( './../../../../ext/base/ndarray/dindex-of-falsy' ) );
+
+/**
 * @name dlastIndexOf
 * @memberof ns
 * @readonly
@@ -485,6 +494,24 @@ setReadOnly( ns, 'gfindLastIndex', require( './../../../../ext/base/ndarray/gfin
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gindex-of}
 */
 setReadOnly( ns, 'gindexOf', require( './../../../../ext/base/ndarray/gindex-of' ) );
+
+/**
+* @name gindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gindex-of-falsy}
+*/
+setReadOnly( ns, 'gindexOfFalsy', require( './../../../../ext/base/ndarray/gindex-of-falsy' ) );
+
+/**
+* @name gindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gindex-of-truthy}
+*/
+setReadOnly( ns, 'gindexOfTruthy', require( './../../../../ext/base/ndarray/gindex-of-truthy' ) );
 
 /**
 * @name gjoin

@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-20)
+## Unreleased (2026-06-21)
 
 <section class="features">
 
 ### Features
 
+-   [`e6e7d42`](https://github.com/stdlib-js/stdlib/commit/e6e7d42b10701833a2a943d2f0df75163742aa9e) - add `dnone`, `dsome`, `dindexOfFalsy`, and `sindexOfFalsy` to namespace
+-   [`5609f46`](https://github.com/stdlib-js/stdlib/commit/5609f46b441850c67aa6d22f3f023953bf2f2461) - add `gindexOfTruthy`, `gindexOfFalsy`, and `dindexOfFalsy` to namespace
 -   [`7cc82a3`](https://github.com/stdlib-js/stdlib/commit/7cc82a344d877a1d0bfb96bd3479c9b84da948bb) - add `blas/ext/base/dsome` [(#12845)](https://github.com/stdlib-js/stdlib/pull/12845)
 -   [`ecf3df1`](https://github.com/stdlib-js/stdlib/commit/ecf3df185dc1abddc772d6f0b8881929a9955e24) - add `blas/ext/base/dnone` [(#12885)](https://github.com/stdlib-js/stdlib/pull/12885)
 -   [`99dac60`](https://github.com/stdlib-js/stdlib/commit/99dac6017130f2cd82a68b6772016bd3128245d3) - add `blas/ext/base/ndarray/gindex-of-truthy` [(#12998)](https://github.com/stdlib-js/stdlib/pull/12998)
@@ -140,6 +142,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`e6e7d42`](https://github.com/stdlib-js/stdlib/commit/e6e7d42b10701833a2a943d2f0df75163742aa9e) - **feat:** add `dnone`, `dsome`, `dindexOfFalsy`, and `sindexOfFalsy` to namespace _(by Athan Reines)_
+-   [`5609f46`](https://github.com/stdlib-js/stdlib/commit/5609f46b441850c67aa6d22f3f023953bf2f2461) - **feat:** add `gindexOfTruthy`, `gindexOfFalsy`, and `dindexOfFalsy` to namespace _(by Athan Reines)_
 -   [`7cc82a3`](https://github.com/stdlib-js/stdlib/commit/7cc82a344d877a1d0bfb96bd3479c9b84da948bb) - **feat:** add `blas/ext/base/dsome` [(#12845)](https://github.com/stdlib-js/stdlib/pull/12845) _(by Muhammad Haris, Athan Reines)_
 -   [`ecf3df1`](https://github.com/stdlib-js/stdlib/commit/ecf3df185dc1abddc772d6f0b8881929a9955e24) - **feat:** add `blas/ext/base/dnone` [(#12885)](https://github.com/stdlib-js/stdlib/pull/12885) _(by Muhammad Haris, Athan Reines)_
 -   [`99dac60`](https://github.com/stdlib-js/stdlib/commit/99dac6017130f2cd82a68b6772016bd3128245d3) - **feat:** add `blas/ext/base/ndarray/gindex-of-truthy` [(#12998)](https://github.com/stdlib-js/stdlib/pull/12998) _(by Muhammad Haris, Athan Reines)_

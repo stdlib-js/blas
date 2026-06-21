@@ -442,6 +442,15 @@ setReadOnly( ns, 'dindexOf', require( './../../../ext/base/dindex-of' ) );
 setReadOnly( ns, 'dindexOfColumn', require( './../../../ext/base/dindex-of-column' ) );
 
 /**
+* @name dindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dindex-of-falsy}
+*/
+setReadOnly( ns, 'dindexOfFalsy', require( './../../../ext/base/dindex-of-falsy' ) );
+
+/**
 * @name dindexOfRow
 * @memberof ns
 * @readonly
@@ -631,6 +640,15 @@ setReadOnly( ns, 'dnansumors', require( './../../../ext/base/dnansumors' ) );
 setReadOnly( ns, 'dnansumpw', require( './../../../ext/base/dnansumpw' ) );
 
 /**
+* @name dnone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dnone}
+*/
+setReadOnly( ns, 'dnone', require( './../../../ext/base/dnone' ) );
+
+/**
 * @name doneTo
 * @memberof ns
 * @readonly
@@ -746,6 +764,15 @@ setReadOnly( ns, 'dsnansumors', require( './../../../ext/base/dsnansumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/dsnansumpw}
 */
 setReadOnly( ns, 'dsnansumpw', require( './../../../ext/base/dsnansumpw' ) );
+
+/**
+* @name dsome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dsome}
+*/
+setReadOnly( ns, 'dsome', require( './../../../ext/base/dsome' ) );
 
 /**
 * @name dsort
@@ -1970,6 +1997,15 @@ setReadOnly( ns, 'sindexOf', require( './../../../ext/base/sindex-of' ) );
 * @see {@link module:@stdlib/blas/ext/base/sindex-of-column}
 */
 setReadOnly( ns, 'sindexOfColumn', require( './../../../ext/base/sindex-of-column' ) );
+
+/**
+* @name sindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sindex-of-falsy}
+*/
+setReadOnly( ns, 'sindexOfFalsy', require( './../../../ext/base/sindex-of-falsy' ) );
 
 /**
 * @name sindexOfRow
