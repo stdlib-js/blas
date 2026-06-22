@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`5a74fcb`](https://github.com/stdlib-js/stdlib/commit/5a74fcb006d1d13f705a40984ea812bdfc71ade5) - add `blas/ext/base/dlast-index-of-truthy` [(#13001)](https://github.com/stdlib-js/stdlib/pull/13001)
 -   [`7c36a6c`](https://github.com/stdlib-js/stdlib/commit/7c36a6cc773ba084831b750f050b624e5a70d35d) - add `blas/ext/base/slast-index-of-truthy` [(#13003)](https://github.com/stdlib-js/stdlib/pull/13003)
 -   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - add `zxpy` to namespace
 -   [`bf4aa3e`](https://github.com/stdlib-js/stdlib/commit/bf4aa3e2c46f0218ec550fb1c909ef20eadb6714) - update `blas/ext/base/ndarray` TypeScript declarations [(#13039)](https://github.com/stdlib-js/stdlib/pull/13039)
@@ -164,7 +163,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`5a74fcb`](https://github.com/stdlib-js/stdlib/commit/5a74fcb006d1d13f705a40984ea812bdfc71ade5) - **feat:** add `blas/ext/base/dlast-index-of-truthy` [(#13001)](https://github.com/stdlib-js/stdlib/pull/13001) _(by Muhammad Haris, Athan Reines)_
 -   [`6a301dd`](https://github.com/stdlib-js/stdlib/commit/6a301ddefd0cf3bd4c05b26ff69aaaebaa356b83) - **docs:** update namespace table of contents [(#13043)](https://github.com/stdlib-js/stdlib/pull/13043) _(by stdlib-bot)_
 -   [`7c36a6c`](https://github.com/stdlib-js/stdlib/commit/7c36a6cc773ba084831b750f050b624e5a70d35d) - **feat:** add `blas/ext/base/slast-index-of-truthy` [(#13003)](https://github.com/stdlib-js/stdlib/pull/13003) _(by Muhammad Haris, Athan Reines)_
 -   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - **feat:** add `zxpy` to namespace _(by Athan Reines)_
