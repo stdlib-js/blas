@@ -70,7 +70,7 @@ The function has the following parameters:
 -   **y**: output [`Float64Array`][@stdlib/array/float64].
 -   **strideY**: stride length for `y`.
 
-The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to add every other element of `x` to every other element of `y`:
+The `N` and stride parameters determine which elements in the strided arrays are accessed at runtime. For example, to subtract every other element of `y` from every other element of `x`:
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
@@ -118,7 +118,7 @@ The function has the following additional parameters:
 -   **offsetX**: starting index for `x`.
 -   **offsetY**: starting index for `y`.
 
-While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to add the last three elements of `x` to the last three elements of `y`:
+While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to subtract the last three elements of `y` from the last three elements of `x`:
 
 ```javascript
 var Float64Array = require( '@stdlib/array/float64' );
