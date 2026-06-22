@@ -10,8 +10,6 @@
 
 ### Features
 
--   [`7c36a6c`](https://github.com/stdlib-js/stdlib/commit/7c36a6cc773ba084831b750f050b624e5a70d35d) - add `blas/ext/base/slast-index-of-truthy` [(#13003)](https://github.com/stdlib-js/stdlib/pull/13003)
--   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - add `zxpy` to namespace
 -   [`bf4aa3e`](https://github.com/stdlib-js/stdlib/commit/bf4aa3e2c46f0218ec550fb1c909ef20eadb6714) - update `blas/ext/base/ndarray` TypeScript declarations [(#13039)](https://github.com/stdlib-js/stdlib/pull/13039)
 -   [`ef06e88`](https://github.com/stdlib-js/stdlib/commit/ef06e88569a1ec15a9fcc15407fc44bbe3916296) - add `blas/ext/base/ndarray/zxpy` [(#13037)](https://github.com/stdlib-js/stdlib/pull/13037)
 -   [`ce9ed9a`](https://github.com/stdlib-js/stdlib/commit/ce9ed9a15da510795f2734634b4807e7f6edddc6) - update `blas/ext/base` TypeScript declarations [(#13040)](https://github.com/stdlib-js/stdlib/pull/13040)
@@ -163,8 +161,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`7c36a6c`](https://github.com/stdlib-js/stdlib/commit/7c36a6cc773ba084831b750f050b624e5a70d35d) - **feat:** add `blas/ext/base/slast-index-of-truthy` [(#13003)](https://github.com/stdlib-js/stdlib/pull/13003) _(by Muhammad Haris, Athan Reines)_
--   [`a1693f8`](https://github.com/stdlib-js/stdlib/commit/a1693f8fea97d0808f8325e0b780126c45ad3e68) - **feat:** add `zxpy` to namespace _(by Athan Reines)_
 -   [`bf4aa3e`](https://github.com/stdlib-js/stdlib/commit/bf4aa3e2c46f0218ec550fb1c909ef20eadb6714) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13039)](https://github.com/stdlib-js/stdlib/pull/13039) _(by stdlib-bot)_
 -   [`ef06e88`](https://github.com/stdlib-js/stdlib/commit/ef06e88569a1ec15a9fcc15407fc44bbe3916296) - **feat:** add `blas/ext/base/ndarray/zxpy` [(#13037)](https://github.com/stdlib-js/stdlib/pull/13037) _(by Karan Anand)_
 -   [`ce9ed9a`](https://github.com/stdlib-js/stdlib/commit/ce9ed9a15da510795f2734634b4807e7f6edddc6) - **feat:** update `blas/ext/base` TypeScript declarations [(#13040)](https://github.com/stdlib-js/stdlib/pull/13040) _(by stdlib-bot)_
