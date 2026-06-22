@@ -2602,6 +2602,15 @@ setReadOnly( ns, 'zxpy', require( './../../../ext/base/zxpy' ) );
 setReadOnly( ns, 'zxsa', require( './../../../ext/base/zxsa' ) );
 
 /**
+* @name zxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zxsy}
+*/
+setReadOnly( ns, 'zxsy', require( './../../../ext/base/zxsy' ) );
+
+/**
 * @name zzeroTo
 * @memberof ns
 * @readonly
