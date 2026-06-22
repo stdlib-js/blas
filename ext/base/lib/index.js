@@ -154,6 +154,15 @@ setReadOnly( ns, 'csumkbn', require( './../../../ext/base/csumkbn' ) );
 setReadOnly( ns, 'cunitspace', require( './../../../ext/base/cunitspace' ) );
 
 /**
+* @name cwapx
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cwapx}
+*/
+setReadOnly( ns, 'cwapx', require( './../../../ext/base/cwapx' ) );
+
+/**
 * @name cwhere
 * @memberof ns
 * @readonly
@@ -188,6 +197,15 @@ setReadOnly( ns, 'cxpy', require( './../../../ext/base/cxpy' ) );
 * @see {@link module:@stdlib/blas/ext/base/cxsa}
 */
 setReadOnly( ns, 'cxsa', require( './../../../ext/base/cxsa' ) );
+
+/**
+* @name cxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cxsy}
+*/
+setReadOnly( ns, 'cxsy', require( './../../../ext/base/cxsy' ) );
 
 /**
 * @name czeroTo
@@ -2143,6 +2161,15 @@ setReadOnly( ns, 'snansumors', require( './../../../ext/base/snansumors' ) );
 setReadOnly( ns, 'snansumpw', require( './../../../ext/base/snansumpw' ) );
 
 /**
+* @name snone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/snone}
+*/
+setReadOnly( ns, 'snone', require( './../../../ext/base/snone' ) );
+
+/**
 * @name soneTo
 * @memberof ns
 * @readonly
@@ -2168,6 +2195,15 @@ setReadOnly( ns, 'sones', require( './../../../ext/base/sones' ) );
 * @see {@link module:@stdlib/blas/ext/base/srev}
 */
 setReadOnly( ns, 'srev', require( './../../../ext/base/srev' ) );
+
+/**
+* @name ssome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ssome}
+*/
+setReadOnly( ns, 'ssome', require( './../../../ext/base/ssome' ) );
 
 /**
 * @name ssort
@@ -2339,6 +2375,15 @@ setReadOnly( ns, 'sxpy', require( './../../../ext/base/sxpy' ) );
 * @see {@link module:@stdlib/blas/ext/base/sxsa}
 */
 setReadOnly( ns, 'sxsa', require( './../../../ext/base/sxsa' ) );
+
+/**
+* @name sxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sxsy}
+*/
+setReadOnly( ns, 'sxsy', require( './../../../ext/base/sxsy' ) );
 
 /**
 * @name szeroTo

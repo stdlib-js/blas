@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`dae431e`](https://github.com/stdlib-js/stdlib/commit/dae431ecaeaee544f03f03398bb140836fea62b2) - add various symbols to namespace
+-   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - add `cxpy` and `sxpy` to namespace
 -   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035)
 -   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034)
 -   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025)
@@ -156,6 +158,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`dae431e`](https://github.com/stdlib-js/stdlib/commit/dae431ecaeaee544f03f03398bb140836fea62b2) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - **feat:** add `cxpy` and `sxpy` to namespace _(by Athan Reines)_
 -   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - **feat:** add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035) _(by Karan Anand)_
 -   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - **feat:** add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034) _(by Karan Anand)_
 -   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - **feat:** add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025) _(by Karan Anand)_

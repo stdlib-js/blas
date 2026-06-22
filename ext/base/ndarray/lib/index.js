@@ -100,6 +100,15 @@ setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) 
 setReadOnly( ns, 'cunitspace', require( './../../../../ext/base/ndarray/cunitspace' ) );
 
 /**
+* @name cxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cxpy}
+*/
+setReadOnly( ns, 'cxpy', require( './../../../../ext/base/ndarray/cxpy' ) );
+
+/**
 * @name cxsa
 * @memberof ns
 * @readonly
@@ -935,6 +944,15 @@ setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sunitspace}
 */
 setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspace' ) );
+
+/**
+* @name sxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sxpy}
+*/
+setReadOnly( ns, 'sxpy', require( './../../../../ext/base/ndarray/sxpy' ) );
 
 /**
 * @name sxsa
