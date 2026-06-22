@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032)
 -   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031)
 -   [`5e2dad8`](https://github.com/stdlib-js/stdlib/commit/5e2dad8a9f5f2ee6f49118ec89f9987bce7d92c6) - add `blas/ext/base/zwapx` [(#13026)](https://github.com/stdlib-js/stdlib/pull/13026)
 -   [`096398f`](https://github.com/stdlib-js/stdlib/commit/096398f18c56b57e5996621d99bb310ba7df065d) - add `blas/ext/base/dxsy` [(#13028)](https://github.com/stdlib-js/stdlib/pull/13028)
@@ -146,6 +147,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - **feat:** add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032) _(by Karan Anand)_
 -   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - **feat:** add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031) _(by Karan Anand)_
 -   [`5e2dad8`](https://github.com/stdlib-js/stdlib/commit/5e2dad8a9f5f2ee6f49118ec89f9987bce7d92c6) - **feat:** add `blas/ext/base/zwapx` [(#13026)](https://github.com/stdlib-js/stdlib/pull/13026) _(by Karan Anand)_
 -   [`096398f`](https://github.com/stdlib-js/stdlib/commit/096398f18c56b57e5996621d99bb310ba7df065d) - **feat:** add `blas/ext/base/dxsy` [(#13028)](https://github.com/stdlib-js/stdlib/pull/13028) _(by Karan Anand)_
