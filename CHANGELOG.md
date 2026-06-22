@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034)
 -   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025)
 -   [`41dd183`](https://github.com/stdlib-js/stdlib/commit/41dd1836f01143b38862034462a0d8167325170b) - add `blas/ext/base/cxsy` [(#13029)](https://github.com/stdlib-js/stdlib/pull/13029)
 -   [`c7a7bd4`](https://github.com/stdlib-js/stdlib/commit/c7a7bd41578b300fc4c188c3b2fbfb80a7ecd236) - add `blas/ext/base/sxsy` [(#13030)](https://github.com/stdlib-js/stdlib/pull/13030)
@@ -154,6 +155,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`19b7973`](https://github.com/stdlib-js/stdlib/commit/19b79733604d2bee711f83c3a838e6df0c79216a) - **feat:** add `blas/ext/base/ndarray/sxpy` [(#13034)](https://github.com/stdlib-js/stdlib/pull/13034) _(by Karan Anand)_
 -   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - **feat:** add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025) _(by Karan Anand)_
 -   [`41dd183`](https://github.com/stdlib-js/stdlib/commit/41dd1836f01143b38862034462a0d8167325170b) - **feat:** add `blas/ext/base/cxsy` [(#13029)](https://github.com/stdlib-js/stdlib/pull/13029) _(by Karan Anand)_
 -   [`c7a7bd4`](https://github.com/stdlib-js/stdlib/commit/c7a7bd41578b300fc4c188c3b2fbfb80a7ecd236) - **feat:** add `blas/ext/base/sxsy` [(#13030)](https://github.com/stdlib-js/stdlib/pull/13030) _(by Karan Anand, Athan Reines)_
