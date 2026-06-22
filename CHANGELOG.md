@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2a40396`](https://github.com/stdlib-js/stdlib/commit/2a40396454d5f9c24af8a8555c921ee3ae485b0a) - add `blas/ext/base/zxsy` [(#13036)](https://github.com/stdlib-js/stdlib/pull/13036)
 -   [`40fc87e`](https://github.com/stdlib-js/stdlib/commit/40fc87e4a7d1ad0d48e5bd79c8bdf9a134184ce5) - add `slastIndexOfTruthy` and `dlastIndexOfTruthy` to namespace
 -   [`5a74fcb`](https://github.com/stdlib-js/stdlib/commit/5a74fcb006d1d13f705a40984ea812bdfc71ade5) - add `blas/ext/base/dlast-index-of-truthy` [(#13001)](https://github.com/stdlib-js/stdlib/pull/13001)
 -   [`7c36a6c`](https://github.com/stdlib-js/stdlib/commit/7c36a6cc773ba084831b750f050b624e5a70d35d) - add `blas/ext/base/slast-index-of-truthy` [(#13003)](https://github.com/stdlib-js/stdlib/pull/13003)
@@ -165,6 +166,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`2a40396`](https://github.com/stdlib-js/stdlib/commit/2a40396454d5f9c24af8a8555c921ee3ae485b0a) - **feat:** add `blas/ext/base/zxsy` [(#13036)](https://github.com/stdlib-js/stdlib/pull/13036) _(by Karan Anand)_
 -   [`40fc87e`](https://github.com/stdlib-js/stdlib/commit/40fc87e4a7d1ad0d48e5bd79c8bdf9a134184ce5) - **feat:** add `slastIndexOfTruthy` and `dlastIndexOfTruthy` to namespace _(by Athan Reines)_
 -   [`d826990`](https://github.com/stdlib-js/stdlib/commit/d826990e554527589aae2026d63c616d8663f05f) - **docs:** update function descriptions [(#13044)](https://github.com/stdlib-js/stdlib/pull/13044) _(by Karan Anand)_
 -   [`5a74fcb`](https://github.com/stdlib-js/stdlib/commit/5a74fcb006d1d13f705a40984ea812bdfc71ade5) - **feat:** add `blas/ext/base/dlast-index-of-truthy` [(#13001)](https://github.com/stdlib-js/stdlib/pull/13001) _(by Muhammad Haris, Athan Reines)_
