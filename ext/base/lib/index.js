@@ -505,6 +505,15 @@ setReadOnly( ns, 'dlastIndexOf', require( './../../../ext/base/dlast-index-of' )
 setReadOnly( ns, 'dlastIndexOfRow', require( './../../../ext/base/dlast-index-of-row' ) );
 
 /**
+* @name dlastIndexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dlast-index-of-truthy}
+*/
+setReadOnly( ns, 'dlastIndexOfTruthy', require( './../../../ext/base/dlast-index-of-truthy' ) );
+
+/**
 * @name dlinspace
 * @memberof ns
 * @readonly
@@ -2078,6 +2087,15 @@ setReadOnly( ns, 'slastIndexOf', require( './../../../ext/base/slast-index-of' )
 * @see {@link module:@stdlib/blas/ext/base/slast-index-of-row}
 */
 setReadOnly( ns, 'slastIndexOfRow', require( './../../../ext/base/slast-index-of-row' ) );
+
+/**
+* @name slastIndexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/slast-index-of-truthy}
+*/
+setReadOnly( ns, 'slastIndexOfTruthy', require( './../../../ext/base/slast-index-of-truthy' ) );
 
 /**
 * @name slinspace
