@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`ef06e88`](https://github.com/stdlib-js/stdlib/commit/ef06e88569a1ec15a9fcc15407fc44bbe3916296) - add `blas/ext/base/ndarray/zxpy` [(#13037)](https://github.com/stdlib-js/stdlib/pull/13037)
+-   [`ce9ed9a`](https://github.com/stdlib-js/stdlib/commit/ce9ed9a15da510795f2734634b4807e7f6edddc6) - update `blas/ext/base` TypeScript declarations [(#13040)](https://github.com/stdlib-js/stdlib/pull/13040)
 -   [`dae431e`](https://github.com/stdlib-js/stdlib/commit/dae431ecaeaee544f03f03398bb140836fea62b2) - add various symbols to namespace
 -   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - add `cxpy` and `sxpy` to namespace
 -   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035)
@@ -158,6 +160,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ef06e88`](https://github.com/stdlib-js/stdlib/commit/ef06e88569a1ec15a9fcc15407fc44bbe3916296) - **feat:** add `blas/ext/base/ndarray/zxpy` [(#13037)](https://github.com/stdlib-js/stdlib/pull/13037) _(by Karan Anand)_
+-   [`ce9ed9a`](https://github.com/stdlib-js/stdlib/commit/ce9ed9a15da510795f2734634b4807e7f6edddc6) - **feat:** update `blas/ext/base` TypeScript declarations [(#13040)](https://github.com/stdlib-js/stdlib/pull/13040) _(by stdlib-bot)_
 -   [`ab50f59`](https://github.com/stdlib-js/stdlib/commit/ab50f59f75c9074346747fe1d71fcf55bda1db2f) - **docs:** update Markdown stdlib package URLs [(#13038)](https://github.com/stdlib-js/stdlib/pull/13038) _(by stdlib-bot)_
 -   [`dae431e`](https://github.com/stdlib-js/stdlib/commit/dae431ecaeaee544f03f03398bb140836fea62b2) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - **feat:** add `cxpy` and `sxpy` to namespace _(by Athan Reines)_
