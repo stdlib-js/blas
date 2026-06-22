@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025)
 -   [`41dd183`](https://github.com/stdlib-js/stdlib/commit/41dd1836f01143b38862034462a0d8167325170b) - add `blas/ext/base/cxsy` [(#13029)](https://github.com/stdlib-js/stdlib/pull/13029)
 -   [`c7a7bd4`](https://github.com/stdlib-js/stdlib/commit/c7a7bd41578b300fc4c188c3b2fbfb80a7ecd236) - add `blas/ext/base/sxsy` [(#13030)](https://github.com/stdlib-js/stdlib/pull/13030)
 -   [`9b655da`](https://github.com/stdlib-js/stdlib/commit/9b655da4fdd2fa6d4d981fe3d71159ffaf9b2d4d) - add `blas/ext/base/snone` [(#13011)](https://github.com/stdlib-js/stdlib/pull/13011)
@@ -153,6 +154,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a7a3ee4`](https://github.com/stdlib-js/stdlib/commit/a7a3ee4a17c395155a8d8cc9c121b3d1d985c39e) - **feat:** add `blas/ext/base/cwapx` [(#13025)](https://github.com/stdlib-js/stdlib/pull/13025) _(by Karan Anand)_
 -   [`41dd183`](https://github.com/stdlib-js/stdlib/commit/41dd1836f01143b38862034462a0d8167325170b) - **feat:** add `blas/ext/base/cxsy` [(#13029)](https://github.com/stdlib-js/stdlib/pull/13029) _(by Karan Anand)_
 -   [`c7a7bd4`](https://github.com/stdlib-js/stdlib/commit/c7a7bd41578b300fc4c188c3b2fbfb80a7ecd236) - **feat:** add `blas/ext/base/sxsy` [(#13030)](https://github.com/stdlib-js/stdlib/pull/13030) _(by Karan Anand, Athan Reines)_
 -   [`9b655da`](https://github.com/stdlib-js/stdlib/commit/9b655da4fdd2fa6d4d981fe3d71159ffaf9b2d4d) - **feat:** add `blas/ext/base/snone` [(#13011)](https://github.com/stdlib-js/stdlib/pull/13011) _(by Muhammad Haris)_
