@@ -158,6 +158,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ab50f59`](https://github.com/stdlib-js/stdlib/commit/ab50f59f75c9074346747fe1d71fcf55bda1db2f) - **docs:** update Markdown stdlib package URLs [(#13038)](https://github.com/stdlib-js/stdlib/pull/13038) _(by stdlib-bot)_
 -   [`dae431e`](https://github.com/stdlib-js/stdlib/commit/dae431ecaeaee544f03f03398bb140836fea62b2) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`ec6375f`](https://github.com/stdlib-js/stdlib/commit/ec6375f6499b2f10522731a249cd7b0a7466e308) - **feat:** add `cxpy` and `sxpy` to namespace _(by Athan Reines)_
 -   [`8f77aab`](https://github.com/stdlib-js/stdlib/commit/8f77aabbbbbc2bf52c48d52f12399f39ed28bdc6) - **feat:** add `blas/ext/base/ndarray/cxpy` [(#13035)](https://github.com/stdlib-js/stdlib/pull/13035) _(by Karan Anand)_
