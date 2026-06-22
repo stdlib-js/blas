@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - add `dxpy` and `gxpy` to namespace
+-   [`5f8985e`](https://github.com/stdlib-js/stdlib/commit/5f8985e50129f6a86885c1f2ca3972cd716ec262) - add `dxsy`, `gxsy`, `zwapx` to namespace
 -   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032)
 -   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031)
 -   [`5e2dad8`](https://github.com/stdlib-js/stdlib/commit/5e2dad8a9f5f2ee6f49118ec89f9987bce7d92c6) - add `blas/ext/base/zwapx` [(#13026)](https://github.com/stdlib-js/stdlib/pull/13026)
@@ -147,6 +149,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`026754a`](https://github.com/stdlib-js/stdlib/commit/026754aa609cd8aae2f3cc12d3ded66b2a4c6ce0) - **feat:** add `dxpy` and `gxpy` to namespace _(by Athan Reines)_
+-   [`5f8985e`](https://github.com/stdlib-js/stdlib/commit/5f8985e50129f6a86885c1f2ca3972cd716ec262) - **feat:** add `dxsy`, `gxsy`, `zwapx` to namespace _(by Athan Reines)_
 -   [`f87196f`](https://github.com/stdlib-js/stdlib/commit/f87196f6a805d7b4a8676cfef02652f0cc19ff96) - **docs:** fix copy _(by Athan Reines)_
 -   [`044604e`](https://github.com/stdlib-js/stdlib/commit/044604e18ddb222c03b8ab0ddd4ba0934c3ff8ae) - **feat:** add `blas/ext/base/ndarray/dxpy` [(#13032)](https://github.com/stdlib-js/stdlib/pull/13032) _(by Karan Anand)_
 -   [`4916a79`](https://github.com/stdlib-js/stdlib/commit/4916a794abe0c977d4257e149a493e988b6dfdba) - **feat:** add `blas/ext/base/ndarray/gxpy` [(#13031)](https://github.com/stdlib-js/stdlib/pull/13031) _(by Karan Anand)_

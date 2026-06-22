@@ -973,6 +973,15 @@ setReadOnly( ns, 'dxpy', require( './../../../ext/base/dxpy' ) );
 setReadOnly( ns, 'dxsa', require( './../../../ext/base/dxsa' ) );
 
 /**
+* @name dxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dxsy}
+*/
+setReadOnly( ns, 'dxsy', require( './../../../ext/base/dxsy' ) );
+
+/**
 * @name dzeroTo
 * @memberof ns
 * @readonly
@@ -1682,6 +1691,15 @@ setReadOnly( ns, 'gxpy', require( './../../../ext/base/gxpy' ) );
 * @see {@link module:@stdlib/blas/ext/base/gxsa}
 */
 setReadOnly( ns, 'gxsa', require( './../../../ext/base/gxsa' ) );
+
+/**
+* @name gxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gxsy}
+*/
+setReadOnly( ns, 'gxsy', require( './../../../ext/base/gxsy' ) );
 
 /**
 * @name gzeroTo
@@ -2474,6 +2492,15 @@ setReadOnly( ns, 'zsumkbn', require( './../../../ext/base/zsumkbn' ) );
 * @see {@link module:@stdlib/blas/ext/base/zunitspace}
 */
 setReadOnly( ns, 'zunitspace', require( './../../../ext/base/zunitspace' ) );
+
+/**
+* @name zwapx
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zwapx}
+*/
+setReadOnly( ns, 'zwapx', require( './../../../ext/base/zwapx' ) );
 
 /**
 * @name zwhere
