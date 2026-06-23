@@ -175,6 +175,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8fc9974`](https://github.com/stdlib-js/stdlib/commit/8fc99743f66763d218b180d7e4c98a3e889ae05a) - **docs:** add missing trailing periods to package descriptions [(#13086)](https://github.com/stdlib-js/stdlib/pull/13086) _(by Karan Anand)_
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - **feat:** add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082) _(by Karan Anand)_
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - **feat:** add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081) _(by Karan Anand)_
 -   [`83e225d`](https://github.com/stdlib-js/stdlib/commit/83e225d58fc0d4d8c71f8b475f1c95faa04d2e9a) - **docs:** add missing headings and add missing placeholder section [(#13063)](https://github.com/stdlib-js/stdlib/pull/13063) _(by Philipp Burckhardt, Athan Reines)_
