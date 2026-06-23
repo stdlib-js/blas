@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - add `glogspace` and `gwxpy` to namespace
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064)
 -   [`c238bc5`](https://github.com/stdlib-js/stdlib/commit/c238bc5e833cc0b0acd6f303c066ee52d9359193) - add `blas/ext/base/gwxpy` [(#13087)](https://github.com/stdlib-js/stdlib/pull/13087)
 -   [`61ededa`](https://github.com/stdlib-js/stdlib/commit/61ededae1f9d7ffe85aa41aff826bff8b7268ef3) - add `gwax` to namespace
@@ -180,6 +181,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - **feat:** add `glogspace` and `gwxpy` to namespace _(by Athan Reines)_
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - **feat:** add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064) _(by Muhammad Haris)_
 -   [`c238bc5`](https://github.com/stdlib-js/stdlib/commit/c238bc5e833cc0b0acd6f303c066ee52d9359193) - **feat:** add `blas/ext/base/gwxpy` [(#13087)](https://github.com/stdlib-js/stdlib/pull/13087) _(by Karan Anand)_
 -   [`61ededa`](https://github.com/stdlib-js/stdlib/commit/61ededae1f9d7ffe85aa41aff826bff8b7268ef3) - **feat:** add `gwax` to namespace _(by Athan Reines)_

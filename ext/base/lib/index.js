@@ -1405,6 +1405,15 @@ setReadOnly( ns, 'glastIndexOfTruthy', require( './../../../ext/base/glast-index
 setReadOnly( ns, 'glinspace', require( './../../../ext/base/glinspace' ) );
 
 /**
+* @name glogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/glogspace}
+*/
+setReadOnly( ns, 'glogspace', require( './../../../ext/base/glogspace' ) );
+
+/**
 * @name gminheapSiftDown
 * @memberof ns
 * @readonly
@@ -1700,6 +1709,15 @@ setReadOnly( ns, 'gwax', require( './../../../ext/base/gwax' ) );
 * @see {@link module:@stdlib/blas/ext/base/gwhere}
 */
 setReadOnly( ns, 'gwhere', require( './../../../ext/base/gwhere' ) );
+
+/**
+* @name gwxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gwxpy}
+*/
+setReadOnly( ns, 'gwxpy', require( './../../../ext/base/gwxpy' ) );
 
 /**
 * @name gwxsa
