@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`beecc92`](https://github.com/stdlib-js/stdlib/commit/beecc92a0cb588375fa43a0e028151bd164ef99b) - add `blas/ext/base/ndarray/dxsy` [(#13045)](https://github.com/stdlib-js/stdlib/pull/13045)
 -   [`b1fbd01`](https://github.com/stdlib-js/stdlib/commit/b1fbd01fe3988440e6718f89266bd3b00a1e962c) - add `blas/ext/base/ndarray/sxsy` [(#13066)](https://github.com/stdlib-js/stdlib/pull/13066)
 -   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074)
 -   [`8b8cf28`](https://github.com/stdlib-js/stdlib/commit/8b8cf28c8316221406920ff8af1f618a9da5dc92) - update `blas/ext/base` TypeScript declarations [(#13075)](https://github.com/stdlib-js/stdlib/pull/13075)
@@ -170,6 +171,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`beecc92`](https://github.com/stdlib-js/stdlib/commit/beecc92a0cb588375fa43a0e028151bd164ef99b) - **feat:** add `blas/ext/base/ndarray/dxsy` [(#13045)](https://github.com/stdlib-js/stdlib/pull/13045) _(by Karan Anand)_
 -   [`b1fbd01`](https://github.com/stdlib-js/stdlib/commit/b1fbd01fe3988440e6718f89266bd3b00a1e962c) - **feat:** add `blas/ext/base/ndarray/sxsy` [(#13066)](https://github.com/stdlib-js/stdlib/pull/13066) _(by Karan Anand)_
 -   [`36c1beb`](https://github.com/stdlib-js/stdlib/commit/36c1beb26264b0bb537c3a9d439b730e156172a9) - **docs:** update Markdown stdlib package URLs [(#13072)](https://github.com/stdlib-js/stdlib/pull/13072) _(by stdlib-bot)_
 -   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074) _(by stdlib-bot)_
