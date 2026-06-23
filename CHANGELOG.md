@@ -171,6 +171,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`0cd1435`](https://github.com/stdlib-js/stdlib/commit/0cd1435aca7f3f50fa6509306f9bf4fb306cb053) - **chore:** update keywords [(#13058)](https://github.com/stdlib-js/stdlib/pull/13058) _(by Philipp Burckhardt)_
 -   [`75fa3bf`](https://github.com/stdlib-js/stdlib/commit/75fa3bfd4969f4453369d4f5d8e32be7ec32e8cd) - **docs:** update descriptions and example [(#13059)](https://github.com/stdlib-js/stdlib/pull/13059) _(by Philipp Burckhardt)_
 -   [`beecc92`](https://github.com/stdlib-js/stdlib/commit/beecc92a0cb588375fa43a0e028151bd164ef99b) - **feat:** add `blas/ext/base/ndarray/dxsy` [(#13045)](https://github.com/stdlib-js/stdlib/pull/13045) _(by Karan Anand)_
 -   [`b1fbd01`](https://github.com/stdlib-js/stdlib/commit/b1fbd01fe3988440e6718f89266bd3b00a1e962c) - **feat:** add `blas/ext/base/ndarray/sxsy` [(#13066)](https://github.com/stdlib-js/stdlib/pull/13066) _(by Karan Anand)_
