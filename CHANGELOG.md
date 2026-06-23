@@ -173,6 +173,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`83e225d`](https://github.com/stdlib-js/stdlib/commit/83e225d58fc0d4d8c71f8b475f1c95faa04d2e9a) - **docs:** add missing headings and add missing placeholder section [(#13063)](https://github.com/stdlib-js/stdlib/pull/13063) _(by Philipp Burckhardt, Athan Reines)_
 -   [`2cf02f1`](https://github.com/stdlib-js/stdlib/commit/2cf02f163d47f46ab7ac02a78b2feeb1e089c419) - **feat:** add `dxsy`, `gxsy`, and `sxsy` to namespace _(by Athan Reines)_
 -   [`4d22f38`](https://github.com/stdlib-js/stdlib/commit/4d22f38cd1c2d00c47e20eca23ed6fd12cf517a5) - **feat:** add `blas/ext/base/ndarray/gxsy` [(#13041)](https://github.com/stdlib-js/stdlib/pull/13041) _(by Karan Anand)_
 -   [`0cd1435`](https://github.com/stdlib-js/stdlib/commit/0cd1435aca7f3f50fa6509306f9bf4fb306cb053) - **chore:** update keywords [(#13058)](https://github.com/stdlib-js/stdlib/pull/13058) _(by Philipp Burckhardt)_
