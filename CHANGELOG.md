@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-22)
+## Unreleased (2026-06-23)
 
 <section class="features">
 
 ### Features
 
+-   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074)
+-   [`8b8cf28`](https://github.com/stdlib-js/stdlib/commit/8b8cf28c8316221406920ff8af1f618a9da5dc92) - update `blas/ext/base` TypeScript declarations [(#13075)](https://github.com/stdlib-js/stdlib/pull/13075)
 -   [`8b48f25`](https://github.com/stdlib-js/stdlib/commit/8b48f2570011668acee25cd054e33f9470d149b0) - add `zxsy` to namespace
 -   [`2a40396`](https://github.com/stdlib-js/stdlib/commit/2a40396454d5f9c24af8a8555c921ee3ae485b0a) - add `blas/ext/base/zxsy` [(#13036)](https://github.com/stdlib-js/stdlib/pull/13036)
 -   [`40fc87e`](https://github.com/stdlib-js/stdlib/commit/40fc87e4a7d1ad0d48e5bd79c8bdf9a134184ce5) - add `slastIndexOfTruthy` and `dlastIndexOfTruthy` to namespace
@@ -167,6 +169,10 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`36c1beb`](https://github.com/stdlib-js/stdlib/commit/36c1beb26264b0bb537c3a9d439b730e156172a9) - **docs:** update Markdown stdlib package URLs [(#13072)](https://github.com/stdlib-js/stdlib/pull/13072) _(by stdlib-bot)_
+-   [`4c3293f`](https://github.com/stdlib-js/stdlib/commit/4c3293f70b23dcec6671641de8f6ed28bb8368e3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13074)](https://github.com/stdlib-js/stdlib/pull/13074) _(by stdlib-bot)_
+-   [`8b8cf28`](https://github.com/stdlib-js/stdlib/commit/8b8cf28c8316221406920ff8af1f618a9da5dc92) - **feat:** update `blas/ext/base` TypeScript declarations [(#13075)](https://github.com/stdlib-js/stdlib/pull/13075) _(by stdlib-bot)_
+-   [`fb7ba7a`](https://github.com/stdlib-js/stdlib/commit/fb7ba7aa301480bcab339b75cc7562966292e365) - **docs:** update namespace table of contents [(#13079)](https://github.com/stdlib-js/stdlib/pull/13079) _(by stdlib-bot)_
 -   [`8b48f25`](https://github.com/stdlib-js/stdlib/commit/8b48f2570011668acee25cd054e33f9470d149b0) - **feat:** add `zxsy` to namespace _(by Athan Reines)_
 -   [`2a40396`](https://github.com/stdlib-js/stdlib/commit/2a40396454d5f9c24af8a8555c921ee3ae485b0a) - **feat:** add `blas/ext/base/zxsy` [(#13036)](https://github.com/stdlib-js/stdlib/pull/13036) _(by Karan Anand)_
 -   [`40fc87e`](https://github.com/stdlib-js/stdlib/commit/40fc87e4a7d1ad0d48e5bd79c8bdf9a134184ce5) - **feat:** add `slastIndexOfTruthy` and `dlastIndexOfTruthy` to namespace _(by Athan Reines)_
