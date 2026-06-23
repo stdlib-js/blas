@@ -72,6 +72,7 @@ import dindexOfRow = require( './../../../../ext/base/dindex-of-row' );
 import dindexOfTruthy = require( './../../../../ext/base/dindex-of-truthy' );
 import dlastIndexOf = require( './../../../../ext/base/dlast-index-of' );
 import dlastIndexOfRow = require( './../../../../ext/base/dlast-index-of-row' );
+import dlastIndexOfTruthy = require( './../../../../ext/base/dlast-index-of-truthy' );
 import dlinspace = require( './../../../../ext/base/dlinspace' );
 import dminheapSiftDown = require( './../../../../ext/base/dminheap-sift-down' );
 import dmskrev = require( './../../../../ext/base/dmskrev' );
@@ -247,6 +248,7 @@ import sindexOfRow = require( './../../../../ext/base/sindex-of-row' );
 import sindexOfTruthy = require( './../../../../ext/base/sindex-of-truthy' );
 import slastIndexOf = require( './../../../../ext/base/slast-index-of' );
 import slastIndexOfRow = require( './../../../../ext/base/slast-index-of-row' );
+import slastIndexOfTruthy = require( './../../../../ext/base/slast-index-of-truthy' );
 import slinspace = require( './../../../../ext/base/slinspace' );
 import sminheapSiftDown = require( './../../../../ext/base/sminheap-sift-down' );
 import smskrev = require( './../../../../ext/base/smskrev' );
@@ -303,6 +305,7 @@ import zwhere = require( './../../../../ext/base/zwhere' );
 import zwxsa = require( './../../../../ext/base/zwxsa' );
 import zxpy = require( './../../../../ext/base/zxpy' );
 import zxsa = require( './../../../../ext/base/zxsa' );
+import zxsy = require( './../../../../ext/base/zxsy' );
 import zzeroTo = require( './../../../../ext/base/zzero-to' );
 
 /**
@@ -2040,6 +2043,37 @@ interface Namespace {
 	* // returns 2
 	*/
 	dlastIndexOfRow: typeof dlastIndexOfRow;
+
+	/**
+	* Returns the index of the last truthy element in a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.dlastIndexOfTruthy( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.dlastIndexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	dlastIndexOfTruthy: typeof dlastIndexOfTruthy;
 
 	/**
 	* Fills a double-precision floating-point strided array with linearly spaced values over a specified interval.
@@ -7019,6 +7053,37 @@ interface Namespace {
 	slastIndexOfRow: typeof slastIndexOfRow;
 
 	/**
+	* Returns the index of the last truthy element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.slastIndexOfTruthy( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.slastIndexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	slastIndexOfTruthy: typeof slastIndexOfTruthy;
+
+	/**
 	* Fills a single-precision floating-point strided array with linearly spaced values over a specified interval.
 	*
 	* @param N - number of indexed elements
@@ -8740,6 +8805,36 @@ interface Namespace {
 	* // x => <Complex128Array>[ -9.0, -8.0, -7.0, -6.0, -5.0, -4.0, -3.0, -2.0 ]
 	*/
 	zxsa: typeof zxsa;
+
+	/**
+	* Subtracts elements of a double-precision complex floating-point strided array `y` from the corresponding elements of a double-precision complex floating-point strided array `x` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 3.0, 4.0, -5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, -4.0, 5.0, 6.0, -7.0 ] );
+	*
+	* ns.zxsy( x.length, x, 1, y, 1 );
+	* // y => <Complex128Array>[ -1.0, -5.0, 7.0, -1.0, -11.0, 13.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 3.0, 4.0, -5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, -4.0, 5.0, 6.0, -7.0 ] );
+	*
+	* ns.zxsy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Complex128Array>[ -1.0, -5.0, 7.0, -1.0, -11.0, 13.0 ]
+	*/
+	zxsy: typeof zxsy;
 
 	/**
 	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
