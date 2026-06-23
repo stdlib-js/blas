@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`61ededa`](https://github.com/stdlib-js/stdlib/commit/61ededae1f9d7ffe85aa41aff826bff8b7268ef3) - add `gwax` to namespace
+-   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - add `cxsy` and `zxsy` to namespace
 -   [`27a872a`](https://github.com/stdlib-js/stdlib/commit/27a872ab42141803501183d79a0c73c134b8105a) - add `blas/ext/base/gwax` [(#13085)](https://github.com/stdlib-js/stdlib/pull/13085)
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082)
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081)
@@ -176,6 +178,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`61ededa`](https://github.com/stdlib-js/stdlib/commit/61ededae1f9d7ffe85aa41aff826bff8b7268ef3) - **feat:** add `gwax` to namespace _(by Athan Reines)_
+-   [`4f6e45f`](https://github.com/stdlib-js/stdlib/commit/4f6e45f22500f456a7fde5de9d84b7ec102e415f) - **feat:** add `cxsy` and `zxsy` to namespace _(by Athan Reines)_
 -   [`27a872a`](https://github.com/stdlib-js/stdlib/commit/27a872ab42141803501183d79a0c73c134b8105a) - **feat:** add `blas/ext/base/gwax` [(#13085)](https://github.com/stdlib-js/stdlib/pull/13085) _(by Karan Anand)_
 -   [`8fc9974`](https://github.com/stdlib-js/stdlib/commit/8fc99743f66763d218b180d7e4c98a3e889ae05a) - **docs:** add missing trailing periods to package descriptions [(#13086)](https://github.com/stdlib-js/stdlib/pull/13086) _(by Karan Anand)_
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - **feat:** add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082) _(by Karan Anand)_

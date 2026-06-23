@@ -118,6 +118,15 @@ setReadOnly( ns, 'cxpy', require( './../../../../ext/base/ndarray/cxpy' ) );
 setReadOnly( ns, 'cxsa', require( './../../../../ext/base/ndarray/cxsa' ) );
 
 /**
+* @name cxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cxsy}
+*/
+setReadOnly( ns, 'cxsy', require( './../../../../ext/base/ndarray/cxsy' ) );
+
+/**
 * @name czeroTo
 * @memberof ns
 * @readonly
@@ -1079,6 +1088,15 @@ setReadOnly( ns, 'zxpy', require( './../../../../ext/base/ndarray/zxpy' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zxsa}
 */
 setReadOnly( ns, 'zxsa', require( './../../../../ext/base/ndarray/zxsa' ) );
+
+/**
+* @name zxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zxsy}
+*/
+setReadOnly( ns, 'zxsy', require( './../../../../ext/base/ndarray/zxsy' ) );
 
 /**
 * @name zzeroTo

@@ -1684,6 +1684,15 @@ setReadOnly( ns, 'gvander', require( './../../../ext/base/gvander' ) );
 setReadOnly( ns, 'gwapx', require( './../../../ext/base/gwapx' ) );
 
 /**
+* @name gwax
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gwax}
+*/
+setReadOnly( ns, 'gwax', require( './../../../ext/base/gwax' ) );
+
+/**
 * @name gwhere
 * @memberof ns
 * @readonly
