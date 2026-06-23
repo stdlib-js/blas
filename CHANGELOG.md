@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`27a872a`](https://github.com/stdlib-js/stdlib/commit/27a872ab42141803501183d79a0c73c134b8105a) - add `blas/ext/base/gwax` [(#13085)](https://github.com/stdlib-js/stdlib/pull/13085)
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082)
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081)
 -   [`2cf02f1`](https://github.com/stdlib-js/stdlib/commit/2cf02f163d47f46ab7ac02a78b2feeb1e089c419) - add `dxsy`, `gxsy`, and `sxsy` to namespace
@@ -175,6 +176,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`27a872a`](https://github.com/stdlib-js/stdlib/commit/27a872ab42141803501183d79a0c73c134b8105a) - **feat:** add `blas/ext/base/gwax` [(#13085)](https://github.com/stdlib-js/stdlib/pull/13085) _(by Karan Anand)_
 -   [`8fc9974`](https://github.com/stdlib-js/stdlib/commit/8fc99743f66763d218b180d7e4c98a3e889ae05a) - **docs:** add missing trailing periods to package descriptions [(#13086)](https://github.com/stdlib-js/stdlib/pull/13086) _(by Karan Anand)_
 -   [`5d927bf`](https://github.com/stdlib-js/stdlib/commit/5d927bfdccbd24aa7e7632ba7a0c963b838f4306) - **feat:** add `blas/ext/base/ndarray/zxsy` [(#13082)](https://github.com/stdlib-js/stdlib/pull/13082) _(by Karan Anand)_
 -   [`51f525b`](https://github.com/stdlib-js/stdlib/commit/51f525b91f19d10d203efd2792e2c7f4327a66eb) - **feat:** add `blas/ext/base/ndarray/cxsy` [(#13081)](https://github.com/stdlib-js/stdlib/pull/13081) _(by Karan Anand)_
