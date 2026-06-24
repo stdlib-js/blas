@@ -74,7 +74,6 @@ import dlastIndexOf = require( './../../../../ext/base/dlast-index-of' );
 import dlastIndexOfRow = require( './../../../../ext/base/dlast-index-of-row' );
 import dlastIndexOfTruthy = require( './../../../../ext/base/dlast-index-of-truthy' );
 import dlinspace = require( './../../../../ext/base/dlinspace' );
-import dlogspace = require( './../../../../ext/base/dlogspace' );
 import dminheapSiftDown = require( './../../../../ext/base/dminheap-sift-down' );
 import dmskrev = require( './../../../../ext/base/dmskrev' );
 import dnanasum = require( './../../../../ext/base/dnanasum' );
@@ -173,7 +172,6 @@ import glastIndexOf = require( './../../../../ext/base/glast-index-of' );
 import glastIndexOfRow = require( './../../../../ext/base/glast-index-of-row' );
 import glastIndexOfTruthy = require( './../../../../ext/base/glast-index-of-truthy' );
 import glinspace = require( './../../../../ext/base/glinspace' );
-import glogspace = require( './../../../../ext/base/glogspace' );
 import gminheapSiftDown = require( './../../../../ext/base/gminheap-sift-down' );
 import gminheapify = require( './../../../../ext/base/gminheapify' );
 import gmskrev = require( './../../../../ext/base/gmskrev' );
@@ -205,9 +203,7 @@ import gsumpw = require( './../../../../ext/base/gsumpw' );
 import gunitspace = require( './../../../../ext/base/gunitspace' );
 import gvander = require( './../../../../ext/base/gvander' );
 import gwapx = require( './../../../../ext/base/gwapx' );
-import gwax = require( './../../../../ext/base/gwax' );
 import gwhere = require( './../../../../ext/base/gwhere' );
-import gwxpy = require( './../../../../ext/base/gwxpy' );
 import gwxsa = require( './../../../../ext/base/gwxsa' );
 import gxpy = require( './../../../../ext/base/gxpy' );
 import gxsa = require( './../../../../ext/base/gxsa' );
@@ -254,7 +250,6 @@ import slastIndexOf = require( './../../../../ext/base/slast-index-of' );
 import slastIndexOfRow = require( './../../../../ext/base/slast-index-of-row' );
 import slastIndexOfTruthy = require( './../../../../ext/base/slast-index-of-truthy' );
 import slinspace = require( './../../../../ext/base/slinspace' );
-import slogspace = require( './../../../../ext/base/slogspace' );
 import sminheapSiftDown = require( './../../../../ext/base/sminheap-sift-down' );
 import smskrev = require( './../../../../ext/base/smskrev' );
 import snancount = require( './../../../../ext/base/snancount' );
@@ -2124,52 +2119,6 @@ interface Namespace {
 	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
 	*/
 	dlinspace: typeof dlinspace;
-
-	/**
-	* Fills a double-precision floating-point strided array with logarithmically spaced values over a specified interval.
-	*
-	* @param N - number of indexed elements
-	* @param base - base of the logarithmic scale
-	* @param start - exponent of the starting value
-	* @param stop - exponent of the final value
-	* @param endpoint - boolean indicating whether to include the `base^stop` value when writing values to the input array
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns input array
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.dlogspace( x.length, 10.0, 0.0, 5.0, true, x, 1 );
-	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.dlogspace( x.length, 10.0, 0.0, 5.0, false, x, 1 );
-	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.dlogspace.ndarray( x.length, 10.0, 0.0, 5.0, true, x, 1, 0 );
-	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.dlogspace.ndarray( x.length, 10.0, 0.0, 5.0, false, x, 1, 0 );
-	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
-	*/
-	dlogspace: typeof dlogspace;
 
 	/**
 	* Sifts a value down from a specified index in a double-precision floating-point strided min-heap until the heap property is restored.
@@ -4974,44 +4923,6 @@ interface Namespace {
 	glinspace: typeof glinspace;
 
 	/**
-	* Fills a strided array with logarithmically spaced values over a specified interval.
-	*
-	* @param N - number of indexed elements
-	* @param base - base of the logarithmic scale
-	* @param start - exponent of the starting value
-	* @param stop - exponent of the final value
-	* @param endpoint - boolean indicating whether to include the `base^stop` value when writing values to the input array
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns input array
-	*
-	* @example
-	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.glogspace( x.length, 10.0, 0.0, 5.0, true, x, 1 );
-	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
-	*
-	* @example
-	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.glogspace( x.length, 10.0, 0.0, 5.0, false, x, 1 );
-	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
-	*
-	* @example
-	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.glogspace.ndarray( x.length, 10.0, 0.0, 5.0, true, x, 1, 0 );
-	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
-	*
-	* @example
-	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.glogspace.ndarray( x.length, 10.0, 0.0, 5.0, false, x, 1, 0 );
-	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
-	*/
-	glogspace: typeof glogspace;
-
-	/**
 	* Sifts a value down from a specified index in a strided min-heap until the heap property is restored.
 	*
 	* ## Notes
@@ -5785,33 +5696,6 @@ interface Namespace {
 	gwapx: typeof gwapx;
 
 	/**
-	* Multiplies each element in a strided array `x` by a scalar constant and assigns the results to elements in a strided array `w`.
-	*
-	* @param N - number of indexed elements
-	* @param alpha - scalar constant
-	* @param x - input array
-	* @param strideX - `x` stride length
-	* @param w - output array
-	* @param strideW - `w` stride length
-	* @returns `w`
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.gwax( x.length, 5.0, x, 1, w, 1 );
-	* // w => [ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
-	*
-	* @example
-	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
-	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.gwax.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
-	* // w => [ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
-	*/
-	gwax: typeof gwax;
-
-	/**
 	* Takes elements from one of two strided arrays depending on a condition.
 	*
 	* @param N - number of indexed elements
@@ -5844,36 +5728,6 @@ interface Namespace {
 	* // out => [ 1.0, 5.0, 3.0 ]
 	*/
 	gwhere: typeof gwhere;
-
-	/**
-	* Adds elements of a strided array `x` to the corresponding elements of a strided array `y` and assigns the results to elements in a strided array `w`.
-	*
-	* @param N - number of indexed elements
-	* @param x - first input array
-	* @param strideX - `x` stride length
-	* @param y - second input array
-	* @param strideY - `y` stride length
-	* @param w - output array
-	* @param strideW - `w` stride length
-	* @returns `w`
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
-	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
-	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.gwxpy( x.length, x, 1, y, 1, w, 1 );
-	* // w => [ 3.0, 5.0, 7.0, 9.0, 11.0 ]
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
-	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
-	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
-	*
-	* ns.gwxpy.ndarray( x.length, x, 1, 0, y, 1, 0, w, 1, 0 );
-	* // w => [ 3.0, 5.0, 7.0, 9.0, 11.0 ]
-	*/
-	gwxpy: typeof gwxpy;
 
 	/**
 	* Subtracts a scalar constant from each element in a strided array `x` and assigns the results to a strided array `w`.
@@ -7273,52 +7127,6 @@ interface Namespace {
 	* // x => <Float32Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
 	*/
 	slinspace: typeof slinspace;
-
-	/**
-	* Fills a single-precision floating-point strided array with logarithmically spaced values over a specified interval.
-	*
-	* @param N - number of indexed elements
-	* @param base - base of the logarithmic scale
-	* @param start - exponent of the starting value
-	* @param stop - exponent of the final value
-	* @param endpoint - boolean indicating whether to include the `base^stop` value when writing values to the input array
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns input array
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.slogspace( x.length, 10.0, 0.0, 5.0, true, x, 1 );
-	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.slogspace( x.length, 10.0, 0.0, 5.0, false, x, 1 );
-	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.slogspace.ndarray( x.length, 10.0, 0.0, 5.0, true, x, 1, 0 );
-	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.slogspace.ndarray( x.length, 10.0, 0.0, 5.0, false, x, 1, 0 );
-	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
-	*/
-	slogspace: typeof slogspace;
 
 	/**
 	* Sifts a value down from a specified index in a single-precision floating-point strided min-heap until the heap property is restored.
