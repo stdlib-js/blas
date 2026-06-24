@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`1fbfb26`](https://github.com/stdlib-js/stdlib/commit/1fbfb26cfc749fe945b5f5063614591e3452efe5) - update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099)
+-   [`6484205`](https://github.com/stdlib-js/stdlib/commit/64842055847e9d641c10ca98f4340d269b74a608) - update `blas/ext/base` TypeScript declarations [(#13100)](https://github.com/stdlib-js/stdlib/pull/13100)
 -   [`10a88a6`](https://github.com/stdlib-js/stdlib/commit/10a88a6c31f4d04875ff05b426f9035359e44be2) - add `dlogspace` and `slogspace` to namespace
 -   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091)
 -   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093)
@@ -184,6 +186,10 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`0e21474`](https://github.com/stdlib-js/stdlib/commit/0e2147439570a8e2b78ee4ab76fce8698158ceb1) - **docs:** update Markdown stdlib package URLs [(#13098)](https://github.com/stdlib-js/stdlib/pull/13098) _(by stdlib-bot)_
+-   [`1fbfb26`](https://github.com/stdlib-js/stdlib/commit/1fbfb26cfc749fe945b5f5063614591e3452efe5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099) _(by stdlib-bot)_
+-   [`6484205`](https://github.com/stdlib-js/stdlib/commit/64842055847e9d641c10ca98f4340d269b74a608) - **feat:** update `blas/ext/base` TypeScript declarations [(#13100)](https://github.com/stdlib-js/stdlib/pull/13100) _(by stdlib-bot)_
+-   [`d7a14c5`](https://github.com/stdlib-js/stdlib/commit/d7a14c565535f33ebb04986642388d5d81008271) - **docs:** update namespace table of contents [(#13102)](https://github.com/stdlib-js/stdlib/pull/13102) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`10a88a6`](https://github.com/stdlib-js/stdlib/commit/10a88a6c31f4d04875ff05b426f9035359e44be2) - **feat:** add `dlogspace` and `slogspace` to namespace _(by Athan Reines)_
 -   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - **feat:** add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091) _(by Muhammad Haris)_
 -   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - **feat:** add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093) _(by Muhammad Haris)_
