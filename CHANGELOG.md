@@ -186,7 +186,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`0e21474`](https://github.com/stdlib-js/stdlib/commit/0e2147439570a8e2b78ee4ab76fce8698158ceb1) - **docs:** update Markdown stdlib package URLs [(#13098)](https://github.com/stdlib-js/stdlib/pull/13098) _(by stdlib-bot)_
 -   [`1fbfb26`](https://github.com/stdlib-js/stdlib/commit/1fbfb26cfc749fe945b5f5063614591e3452efe5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099) _(by stdlib-bot)_
 -   [`6484205`](https://github.com/stdlib-js/stdlib/commit/64842055847e9d641c10ca98f4340d269b74a608) - **feat:** update `blas/ext/base` TypeScript declarations [(#13100)](https://github.com/stdlib-js/stdlib/pull/13100) _(by stdlib-bot)_
 -   [`d7a14c5`](https://github.com/stdlib-js/stdlib/commit/d7a14c565535f33ebb04986642388d5d81008271) - **docs:** update namespace table of contents [(#13102)](https://github.com/stdlib-js/stdlib/pull/13102) _(by stdlib-bot, Philipp Burckhardt)_
