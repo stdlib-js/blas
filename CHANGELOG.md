@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091)
 -   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093)
 -   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - add `glogspace` and `gwxpy` to namespace
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064)
@@ -182,6 +183,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - **feat:** add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091) _(by Muhammad Haris)_
 -   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - **feat:** add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093) _(by Muhammad Haris)_
 -   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - **feat:** add `glogspace` and `gwxpy` to namespace _(by Athan Reines)_
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - **feat:** add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064) _(by Muhammad Haris)_
