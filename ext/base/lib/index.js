@@ -523,6 +523,15 @@ setReadOnly( ns, 'dlastIndexOfTruthy', require( './../../../ext/base/dlast-index
 setReadOnly( ns, 'dlinspace', require( './../../../ext/base/dlinspace' ) );
 
 /**
+* @name dlogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dlogspace}
+*/
+setReadOnly( ns, 'dlogspace', require( './../../../ext/base/dlogspace' ) );
+
+/**
 * @name dminheapSiftDown
 * @memberof ns
 * @readonly
@@ -2132,6 +2141,15 @@ setReadOnly( ns, 'slastIndexOfTruthy', require( './../../../ext/base/slast-index
 * @see {@link module:@stdlib/blas/ext/base/slinspace}
 */
 setReadOnly( ns, 'slinspace', require( './../../../ext/base/slinspace' ) );
+
+/**
+* @name slogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/slogspace}
+*/
+setReadOnly( ns, 'slogspace', require( './../../../ext/base/slogspace' ) );
 
 /**
 * @name sminheapSiftDown
