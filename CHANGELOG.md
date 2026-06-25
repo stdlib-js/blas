@@ -4,15 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-24)
+## Unreleased (2026-06-25)
 
 <section class="features">
 
 ### Features
 
--   [`10a88a6`](https://github.com/stdlib-js/stdlib/commit/10a88a6c31f4d04875ff05b426f9035359e44be2) - add `dlogspace` and `slogspace` to namespace
--   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091)
--   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093)
+-   [`044ad8b`](https://github.com/stdlib-js/stdlib/commit/044ad8bfa193804089dfe0c3ed6792cb8aa08dcd) - update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099)
+-   [`9871fc4`](https://github.com/stdlib-js/stdlib/commit/9871fc4b3965962e3bd63b8e8e1ef38aad0ef31c) - update `blas/ext/base` TypeScript declarations [(#13100)](https://github.com/stdlib-js/stdlib/pull/13100)
+-   [`d243ddd`](https://github.com/stdlib-js/stdlib/commit/d243ddd61c71bd9024a48bc66fc816ee7b9a42b8) - add `dlogspace` and `slogspace` to namespace
+-   [`d66692e`](https://github.com/stdlib-js/stdlib/commit/d66692e59a86e7c7dc2a3ecebcec17614a65091f) - add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091)
+-   [`01e7714`](https://github.com/stdlib-js/stdlib/commit/01e77143b1f2422258a50aca2a5bc3c84ef93377) - add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093)
 -   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - add `glogspace` and `gwxpy` to namespace
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064)
 -   [`c238bc5`](https://github.com/stdlib-js/stdlib/commit/c238bc5e833cc0b0acd6f303c066ee52d9359193) - add `blas/ext/base/gwxpy` [(#13087)](https://github.com/stdlib-js/stdlib/pull/13087)
@@ -150,6 +152,7 @@
 
 ### Bug Fixes
 
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - use correct element type
 -   [`2d3727e`](https://github.com/stdlib-js/stdlib/commit/2d3727e4d322219eee8ac42156770b5ca71ad0da) - ensure consistent behavior between JavaScript and C [(#12904)](https://github.com/stdlib-js/stdlib/pull/12904)
 -   [`f69102b`](https://github.com/stdlib-js/stdlib/commit/f69102b50fad0c2e7b19f326273bd7fc2e052c2d) - ensure consistent behavior between JavaScript and C [(#12900)](https://github.com/stdlib-js/stdlib/pull/12900)
@@ -184,10 +187,14 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`d7a14c5`](https://github.com/stdlib-js/stdlib/commit/d7a14c565535f33ebb04986642388d5d81008271) - **docs:** update namespace table of contents [(#13102)](https://github.com/stdlib-js/stdlib/pull/13102) _(by stdlib-bot, Philipp Burckhardt)_
--   [`10a88a6`](https://github.com/stdlib-js/stdlib/commit/10a88a6c31f4d04875ff05b426f9035359e44be2) - **feat:** add `dlogspace` and `slogspace` to namespace _(by Athan Reines)_
--   [`aa616ba`](https://github.com/stdlib-js/stdlib/commit/aa616baa0cbde1be1da1795cb1fc6b7f16e6fc05) - **feat:** add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091) _(by Muhammad Haris)_
--   [`90ffe1d`](https://github.com/stdlib-js/stdlib/commit/90ffe1dc546b034cc0322ebc7c230bfe71185e05) - **feat:** add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093) _(by Muhammad Haris)_
+-   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - **fix:** correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088) _(by anee3)_
+-   [`2d5b8a4`](https://github.com/stdlib-js/stdlib/commit/2d5b8a469e9c931bdb18722c8c6bf3583027b527) - **docs:** update Markdown stdlib package URLs [(#13098)](https://github.com/stdlib-js/stdlib/pull/13098) _(by stdlib-bot)_
+-   [`044ad8b`](https://github.com/stdlib-js/stdlib/commit/044ad8bfa193804089dfe0c3ed6792cb8aa08dcd) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099) _(by stdlib-bot)_
+-   [`9871fc4`](https://github.com/stdlib-js/stdlib/commit/9871fc4b3965962e3bd63b8e8e1ef38aad0ef31c) - **feat:** update `blas/ext/base` TypeScript declarations [(#13100)](https://github.com/stdlib-js/stdlib/pull/13100) _(by stdlib-bot)_
+-   [`1d854da`](https://github.com/stdlib-js/stdlib/commit/1d854da49607ee557f130ec91e54ef5112cba630) - **docs:** update namespace table of contents [(#13102)](https://github.com/stdlib-js/stdlib/pull/13102) _(by stdlib-bot, Philipp Burckhardt)_
+-   [`d243ddd`](https://github.com/stdlib-js/stdlib/commit/d243ddd61c71bd9024a48bc66fc816ee7b9a42b8) - **feat:** add `dlogspace` and `slogspace` to namespace _(by Athan Reines)_
+-   [`d66692e`](https://github.com/stdlib-js/stdlib/commit/d66692e59a86e7c7dc2a3ecebcec17614a65091f) - **feat:** add `blas/ext/base/dlogspace` [(#13091)](https://github.com/stdlib-js/stdlib/pull/13091) _(by Muhammad Haris)_
+-   [`01e7714`](https://github.com/stdlib-js/stdlib/commit/01e77143b1f2422258a50aca2a5bc3c84ef93377) - **feat:** add `blas/ext/base/slogspace` [(#13093)](https://github.com/stdlib-js/stdlib/pull/13093) _(by Muhammad Haris)_
 -   [`7908811`](https://github.com/stdlib-js/stdlib/commit/7908811940fd3122265bcd712d98bf93e65f65f6) - **feat:** add `glogspace` and `gwxpy` to namespace _(by Athan Reines)_
 -   [`74484ec`](https://github.com/stdlib-js/stdlib/commit/74484ecbd39895f343c77fe63de3c05a94a090ca) - **feat:** add `blas/ext/base/glogspace` [(#13064)](https://github.com/stdlib-js/stdlib/pull/13064) _(by Muhammad Haris)_
 -   [`c238bc5`](https://github.com/stdlib-js/stdlib/commit/c238bc5e833cc0b0acd6f303c066ee52d9359193) - **feat:** add `blas/ext/base/gwxpy` [(#13087)](https://github.com/stdlib-js/stdlib/pull/13087) _(by Karan Anand)_
@@ -392,7 +399,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 8 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Karan Anand
@@ -401,6 +408,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Philipp Burckhardt
 -   Rayan Salhab
 -   Suyog
+-   anee3
 -   titanniya542-spec
 
 </section>
