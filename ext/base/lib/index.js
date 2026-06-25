@@ -1711,6 +1711,15 @@ setReadOnly( ns, 'gwapx', require( './../../../ext/base/gwapx' ) );
 setReadOnly( ns, 'gwax', require( './../../../ext/base/gwax' ) );
 
 /**
+* @name gwaxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gwaxpb}
+*/
+setReadOnly( ns, 'gwaxpb', require( './../../../ext/base/gwaxpb' ) );
+
+/**
 * @name gwhere
 * @memberof ns
 * @readonly
@@ -1736,6 +1745,24 @@ setReadOnly( ns, 'gwxpy', require( './../../../ext/base/gwxpy' ) );
 * @see {@link module:@stdlib/blas/ext/base/gwxsa}
 */
 setReadOnly( ns, 'gwxsa', require( './../../../ext/base/gwxsa' ) );
+
+/**
+* @name gwxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gwxsy}
+*/
+setReadOnly( ns, 'gwxsy', require( './../../../ext/base/gwxsy' ) );
+
+/**
+* @name gxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gxmy}
+*/
+setReadOnly( ns, 'gxmy', require( './../../../ext/base/gxmy' ) );
 
 /**
 * @name gxpy
