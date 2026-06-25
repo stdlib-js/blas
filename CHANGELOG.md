@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8c9a3b3`](https://github.com/stdlib-js/stdlib/commit/8c9a3b3d7605633888f31e06511eb68db4308ecd) - add `blas/ext/base/gxmy` [(#13124)](https://github.com/stdlib-js/stdlib/pull/13124)
 -   [`3eace62`](https://github.com/stdlib-js/stdlib/commit/3eace62421ce6c48f7fd2bd0f99be7ec96c24ee5) - add `blas/ext/base/gwxsy` [(#13117)](https://github.com/stdlib-js/stdlib/pull/13117)
 -   [`044ad8b`](https://github.com/stdlib-js/stdlib/commit/044ad8bfa193804089dfe0c3ed6792cb8aa08dcd) - update `blas/ext/base/ndarray` TypeScript declarations [(#13099)](https://github.com/stdlib-js/stdlib/pull/13099)
 -   [`9871fc4`](https://github.com/stdlib-js/stdlib/commit/9871fc4b3965962e3bd63b8e8e1ef38aad0ef31c) - update `blas/ext/base` TypeScript declarations [(#13100)](https://github.com/stdlib-js/stdlib/pull/13100)
@@ -189,6 +190,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8c9a3b3`](https://github.com/stdlib-js/stdlib/commit/8c9a3b3d7605633888f31e06511eb68db4308ecd) - **feat:** add `blas/ext/base/gxmy` [(#13124)](https://github.com/stdlib-js/stdlib/pull/13124) _(by Karan Anand, Athan Reines)_
 -   [`f30fe01`](https://github.com/stdlib-js/stdlib/commit/f30fe0156a585359cbaac81f385926458ed7f26e) - **refactor:** simplify strided array type signatures [(#13128)](https://github.com/stdlib-js/stdlib/pull/13128) _(by Karan Anand)_
 -   [`3eace62`](https://github.com/stdlib-js/stdlib/commit/3eace62421ce6c48f7fd2bd0f99be7ec96c24ee5) - **feat:** add `blas/ext/base/gwxsy` [(#13117)](https://github.com/stdlib-js/stdlib/pull/13117) _(by Karan Anand, Athan Reines)_
 -   [`e2e391e`](https://github.com/stdlib-js/stdlib/commit/e2e391ed165df4f5f8e2429e0c8f84a9e72c3f46) - **refactor:** use operator assignment in `blas/ext/base/gxpy` [(#13125)](https://github.com/stdlib-js/stdlib/pull/13125) _(by Karan Anand)_
