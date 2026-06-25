@@ -189,6 +189,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f30fe01`](https://github.com/stdlib-js/stdlib/commit/f30fe0156a585359cbaac81f385926458ed7f26e) - **refactor:** simplify strided array type signatures [(#13128)](https://github.com/stdlib-js/stdlib/pull/13128) _(by Karan Anand)_
 -   [`3eace62`](https://github.com/stdlib-js/stdlib/commit/3eace62421ce6c48f7fd2bd0f99be7ec96c24ee5) - **feat:** add `blas/ext/base/gwxsy` [(#13117)](https://github.com/stdlib-js/stdlib/pull/13117) _(by Karan Anand, Athan Reines)_
 -   [`e2e391e`](https://github.com/stdlib-js/stdlib/commit/e2e391ed165df4f5f8e2429e0c8f84a9e72c3f46) - **refactor:** use operator assignment in `blas/ext/base/gxpy` [(#13125)](https://github.com/stdlib-js/stdlib/pull/13125) _(by Karan Anand)_
 -   [`22afd69`](https://github.com/stdlib-js/stdlib/commit/22afd69bdd0d1e48bad6dd0bb60b1c29203f04d4) - **refactor:** add enum support in `blas/base/dtrmv` [(#13109)](https://github.com/stdlib-js/stdlib/pull/13109) _(by Divit Jain)_
