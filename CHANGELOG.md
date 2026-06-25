@@ -188,7 +188,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`22afd69`](https://github.com/stdlib-js/stdlib/commit/22afd69bdd0d1e48bad6dd0bb60b1c29203f04d4) - **refactor:** add enum support in `blas/base/dtrmv` [(#13109)](https://github.com/stdlib-js/stdlib/pull/13109) _(by Divit Jain)_
 -   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - **fix:** use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105) _(by Philipp Burckhardt)_
 -   [`b52a4cb`](https://github.com/stdlib-js/stdlib/commit/b52a4cb5aeacbab2ab682e5d1cce3ed69d97dc2f) - **docs:** update descriptions _(by Athan Reines)_
 -   [`1977f92`](https://github.com/stdlib-js/stdlib/commit/1977f92944b56c40c27b23d74570f2958adc7a39) - **docs:** update documented default value for `submode` option [(#13106)](https://github.com/stdlib-js/stdlib/pull/13106) _(by Philipp Burckhardt)_
@@ -404,10 +403,9 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 10 people contributed to this release. Thank you to the following contributors:
+A total of 9 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
--   Divit Jain
 -   Karan Anand
 -   Kaustubh Patange
 -   Muhammad Haris
