@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`747c533`](https://github.com/stdlib-js/stdlib/commit/747c533e64b93a21302ba0bf8cef6305d795a55d) - add `glastIndexOfFalsy` to namespace
 -   [`941378b`](https://github.com/stdlib-js/stdlib/commit/941378b1e3d82974777e32adc8da1b43690b117f) - add `blas/ext/base/glast-index-of-falsy` [(#13134)](https://github.com/stdlib-js/stdlib/pull/13134)
 -   [`eaa7590`](https://github.com/stdlib-js/stdlib/commit/eaa7590da96f1907c147c2d1689a676d0d7d3b96) - update `blas/ext/base` TypeScript declarations [(#13143)](https://github.com/stdlib-js/stdlib/pull/13143)
 -   [`f0362db`](https://github.com/stdlib-js/stdlib/commit/f0362db28573c53db1b750ffb1898406f34c061b) - add `gwaxpb`, `gwxsy`, and `gxmy` to namespace
@@ -194,6 +195,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`747c533`](https://github.com/stdlib-js/stdlib/commit/747c533e64b93a21302ba0bf8cef6305d795a55d) - **feat:** add `glastIndexOfFalsy` to namespace _(by Athan Reines)_
 -   [`941378b`](https://github.com/stdlib-js/stdlib/commit/941378b1e3d82974777e32adc8da1b43690b117f) - **feat:** add `blas/ext/base/glast-index-of-falsy` [(#13134)](https://github.com/stdlib-js/stdlib/pull/13134) _(by Muhammad Haris)_
 -   [`eaa7590`](https://github.com/stdlib-js/stdlib/commit/eaa7590da96f1907c147c2d1689a676d0d7d3b96) - **feat:** update `blas/ext/base` TypeScript declarations [(#13143)](https://github.com/stdlib-js/stdlib/pull/13143) _(by stdlib-bot)_
 -   [`c777ca9`](https://github.com/stdlib-js/stdlib/commit/c777ca95b725218f6247a945b495b6c67cbbfa80) - **docs:** update namespace table of contents [(#13146)](https://github.com/stdlib-js/stdlib/pull/13146) _(by stdlib-bot)_
