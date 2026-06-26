@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7a152f0`](https://github.com/stdlib-js/stdlib/commit/7a152f0a475b2821e58ac001eed35955b5682ab3) - add `dxmy` and `sxmy` to namespace
 -   [`56d5810`](https://github.com/stdlib-js/stdlib/commit/56d5810e67f9489666d2d4d57432a3005b184478) - add `blas/ext/base/sxmy` [(#13127)](https://github.com/stdlib-js/stdlib/pull/13127)
 -   [`90e6020`](https://github.com/stdlib-js/stdlib/commit/90e60200dc156e9e18a1e9c67cd5512613c7ebe5) - add `blas/ext/base/dxmy` [(#13126)](https://github.com/stdlib-js/stdlib/pull/13126)
 -   [`747c533`](https://github.com/stdlib-js/stdlib/commit/747c533e64b93a21302ba0bf8cef6305d795a55d) - add `glastIndexOfFalsy` to namespace
@@ -197,6 +198,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7a152f0`](https://github.com/stdlib-js/stdlib/commit/7a152f0a475b2821e58ac001eed35955b5682ab3) - **feat:** add `dxmy` and `sxmy` to namespace _(by Athan Reines)_
 -   [`56d5810`](https://github.com/stdlib-js/stdlib/commit/56d5810e67f9489666d2d4d57432a3005b184478) - **feat:** add `blas/ext/base/sxmy` [(#13127)](https://github.com/stdlib-js/stdlib/pull/13127) _(by Karan Anand)_
 -   [`90e6020`](https://github.com/stdlib-js/stdlib/commit/90e60200dc156e9e18a1e9c67cd5512613c7ebe5) - **feat:** add `blas/ext/base/dxmy` [(#13126)](https://github.com/stdlib-js/stdlib/pull/13126) _(by Karan Anand)_
 -   [`747c533`](https://github.com/stdlib-js/stdlib/commit/747c533e64b93a21302ba0bf8cef6305d795a55d) - **feat:** add `glastIndexOfFalsy` to namespace _(by Athan Reines)_
