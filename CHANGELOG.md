@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`90e6020`](https://github.com/stdlib-js/stdlib/commit/90e60200dc156e9e18a1e9c67cd5512613c7ebe5) - add `blas/ext/base/dxmy` [(#13126)](https://github.com/stdlib-js/stdlib/pull/13126)
 -   [`747c533`](https://github.com/stdlib-js/stdlib/commit/747c533e64b93a21302ba0bf8cef6305d795a55d) - add `glastIndexOfFalsy` to namespace
 -   [`941378b`](https://github.com/stdlib-js/stdlib/commit/941378b1e3d82974777e32adc8da1b43690b117f) - add `blas/ext/base/glast-index-of-falsy` [(#13134)](https://github.com/stdlib-js/stdlib/pull/13134)
 -   [`eaa7590`](https://github.com/stdlib-js/stdlib/commit/eaa7590da96f1907c147c2d1689a676d0d7d3b96) - update `blas/ext/base` TypeScript declarations [(#13143)](https://github.com/stdlib-js/stdlib/pull/13143)
@@ -195,6 +196,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`90e6020`](https://github.com/stdlib-js/stdlib/commit/90e60200dc156e9e18a1e9c67cd5512613c7ebe5) - **feat:** add `blas/ext/base/dxmy` [(#13126)](https://github.com/stdlib-js/stdlib/pull/13126) _(by Karan Anand)_
 -   [`747c533`](https://github.com/stdlib-js/stdlib/commit/747c533e64b93a21302ba0bf8cef6305d795a55d) - **feat:** add `glastIndexOfFalsy` to namespace _(by Athan Reines)_
 -   [`941378b`](https://github.com/stdlib-js/stdlib/commit/941378b1e3d82974777e32adc8da1b43690b117f) - **feat:** add `blas/ext/base/glast-index-of-falsy` [(#13134)](https://github.com/stdlib-js/stdlib/pull/13134) _(by Muhammad Haris)_
 -   [`eaa7590`](https://github.com/stdlib-js/stdlib/commit/eaa7590da96f1907c147c2d1689a676d0d7d3b96) - **feat:** update `blas/ext/base` TypeScript declarations [(#13143)](https://github.com/stdlib-js/stdlib/pull/13143) _(by stdlib-bot)_
