@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`eaa7590`](https://github.com/stdlib-js/stdlib/commit/eaa7590da96f1907c147c2d1689a676d0d7d3b96) - update `blas/ext/base` TypeScript declarations [(#13143)](https://github.com/stdlib-js/stdlib/pull/13143)
 -   [`f0362db`](https://github.com/stdlib-js/stdlib/commit/f0362db28573c53db1b750ffb1898406f34c061b) - add `gwaxpb`, `gwxsy`, and `gxmy` to namespace
 -   [`73cd853`](https://github.com/stdlib-js/stdlib/commit/73cd85310f2f62779f5231b07001d28d8ae5beb5) - add `blas/ext/base/gwaxpb` [(#13122)](https://github.com/stdlib-js/stdlib/pull/13122)
 -   [`8c9a3b3`](https://github.com/stdlib-js/stdlib/commit/8c9a3b3d7605633888f31e06511eb68db4308ecd) - add `blas/ext/base/gxmy` [(#13124)](https://github.com/stdlib-js/stdlib/pull/13124)
@@ -192,6 +193,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`eaa7590`](https://github.com/stdlib-js/stdlib/commit/eaa7590da96f1907c147c2d1689a676d0d7d3b96) - **feat:** update `blas/ext/base` TypeScript declarations [(#13143)](https://github.com/stdlib-js/stdlib/pull/13143) _(by stdlib-bot)_
 -   [`c777ca9`](https://github.com/stdlib-js/stdlib/commit/c777ca95b725218f6247a945b495b6c67cbbfa80) - **docs:** update namespace table of contents [(#13146)](https://github.com/stdlib-js/stdlib/pull/13146) _(by stdlib-bot)_
 -   [`f0362db`](https://github.com/stdlib-js/stdlib/commit/f0362db28573c53db1b750ffb1898406f34c061b) - **feat:** add `gwaxpb`, `gwxsy`, and `gxmy` to namespace _(by Athan Reines)_
 -   [`73cd853`](https://github.com/stdlib-js/stdlib/commit/73cd85310f2f62779f5231b07001d28d8ae5beb5) - **feat:** add `blas/ext/base/gwaxpb` [(#13122)](https://github.com/stdlib-js/stdlib/pull/13122) _(by Karan Anand, Athan Reines)_
