@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`feac65a`](https://github.com/stdlib-js/stdlib/commit/feac65a6629c841c09513a93aa8054aa1f42a5a4) - update `blas/ext/base` TypeScript declarations [(#13159)](https://github.com/stdlib-js/stdlib/pull/13159)
 -   [`7a152f0`](https://github.com/stdlib-js/stdlib/commit/7a152f0a475b2821e58ac001eed35955b5682ab3) - add `dxmy` and `sxmy` to namespace
 -   [`56d5810`](https://github.com/stdlib-js/stdlib/commit/56d5810e67f9489666d2d4d57432a3005b184478) - add `blas/ext/base/sxmy` [(#13127)](https://github.com/stdlib-js/stdlib/pull/13127)
 -   [`90e6020`](https://github.com/stdlib-js/stdlib/commit/90e60200dc156e9e18a1e9c67cd5512613c7ebe5) - add `blas/ext/base/dxmy` [(#13126)](https://github.com/stdlib-js/stdlib/pull/13126)
@@ -198,6 +199,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`feac65a`](https://github.com/stdlib-js/stdlib/commit/feac65a6629c841c09513a93aa8054aa1f42a5a4) - **feat:** update `blas/ext/base` TypeScript declarations [(#13159)](https://github.com/stdlib-js/stdlib/pull/13159) _(by stdlib-bot)_
 -   [`a89402a`](https://github.com/stdlib-js/stdlib/commit/a89402ae3d59a3c0d1e6d7bc735dd8804ef6b048) - **docs:** update namespace table of contents [(#13161)](https://github.com/stdlib-js/stdlib/pull/13161) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7a152f0`](https://github.com/stdlib-js/stdlib/commit/7a152f0a475b2821e58ac001eed35955b5682ab3) - **feat:** add `dxmy` and `sxmy` to namespace _(by Athan Reines)_
 -   [`56d5810`](https://github.com/stdlib-js/stdlib/commit/56d5810e67f9489666d2d4d57432a3005b184478) - **feat:** add `blas/ext/base/sxmy` [(#13127)](https://github.com/stdlib-js/stdlib/pull/13127) _(by Karan Anand)_

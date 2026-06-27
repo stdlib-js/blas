@@ -126,6 +126,7 @@ import dvander = require( './../../../../ext/base/dvander' );
 import dwapx = require( './../../../../ext/base/dwapx' );
 import dwhere = require( './../../../../ext/base/dwhere' );
 import dwxsa = require( './../../../../ext/base/dwxsa' );
+import dxmy = require( './../../../../ext/base/dxmy' );
 import dxpy = require( './../../../../ext/base/dxpy' );
 import dxsa = require( './../../../../ext/base/dxsa' );
 import dxsy = require( './../../../../ext/base/dxsy' );
@@ -170,6 +171,7 @@ import gindexOfTruthy = require( './../../../../ext/base/gindex-of-truthy' );
 import gjoin = require( './../../../../ext/base/gjoin' );
 import gjoinBetween = require( './../../../../ext/base/gjoin-between' );
 import glastIndexOf = require( './../../../../ext/base/glast-index-of' );
+import glastIndexOfFalsy = require( './../../../../ext/base/glast-index-of-falsy' );
 import glastIndexOfRow = require( './../../../../ext/base/glast-index-of-row' );
 import glastIndexOfTruthy = require( './../../../../ext/base/glast-index-of-truthy' );
 import glinspace = require( './../../../../ext/base/glinspace' );
@@ -288,6 +290,7 @@ import svander = require( './../../../../ext/base/svander' );
 import swapx = require( './../../../../ext/base/swapx' );
 import swhere = require( './../../../../ext/base/swhere' );
 import swxsa = require( './../../../../ext/base/swxsa' );
+import sxmy = require( './../../../../ext/base/sxmy' );
 import sxpy = require( './../../../../ext/base/sxpy' );
 import sxsa = require( './../../../../ext/base/sxsa' );
 import sxsy = require( './../../../../ext/base/sxsy' );
@@ -3647,6 +3650,36 @@ interface Namespace {
 	dwxsa: typeof dwxsa;
 
 	/**
+	* Multiplies elements of a double-precision floating-point strided array `x` by the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxmy( x.length, x, 1, y, 1 );
+	* // y => <Float64Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxmy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	dxmy: typeof dxmy;
+
+	/**
 	* Adds elements of a double-precision floating-point strided array `x` to the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to `y`.
 	*
 	* @param N - number of indexed elements
@@ -4875,6 +4908,32 @@ interface Namespace {
 	* // returns 1
 	*/
 	glastIndexOf: typeof glastIndexOf;
+
+	/**
+	* Returns the index of the last falsy element in a strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a falsy element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 0.0, 2.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.glastIndexOfFalsy( x.length, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 0.0, 2.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.glastIndexOfFalsy.ndarray( x.length, x, 1, 0 );
+	* // returns 2
+	*/
+	glastIndexOfFalsy: typeof glastIndexOfFalsy;
 
 	/**
 	* Returns the index of the last row in an input matrix which has the same elements as a provided search vector.
@@ -8285,6 +8344,36 @@ interface Namespace {
 	* // w => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
 	*/
 	swxsa: typeof swxsa;
+
+	/**
+	* Multiplies elements of a single-precision floating-point strided array `x` by the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxmy( x.length, x, 1, y, 1 );
+	* // y => <Float32Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxmy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	sxmy: typeof sxmy;
 
 	/**
 	* Adds elements of a single-precision floating-point strided array `x` to the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to `y`.
