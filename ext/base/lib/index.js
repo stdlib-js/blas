@@ -217,6 +217,15 @@ setReadOnly( ns, 'cxsy', require( './../../../ext/base/cxsy' ) );
 setReadOnly( ns, 'czeroTo', require( './../../../ext/base/czero-to' ) );
 
 /**
+* @name dany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dany}
+*/
+setReadOnly( ns, 'dany', require( './../../../ext/base/dany' ) );
+
+/**
 * @name dapx
 * @memberof ns
 * @readonly
@@ -494,6 +503,15 @@ setReadOnly( ns, 'dindexOfTruthy', require( './../../../ext/base/dindex-of-truth
 * @see {@link module:@stdlib/blas/ext/base/dlast-index-of}
 */
 setReadOnly( ns, 'dlastIndexOf', require( './../../../ext/base/dlast-index-of' ) );
+
+/**
+* @name dlastIndexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dlast-index-of-falsy}
+*/
+setReadOnly( ns, 'dlastIndexOfFalsy', require( './../../../ext/base/dlast-index-of-falsy' ) );
 
 /**
 * @name dlastIndexOfRow
@@ -2159,6 +2177,15 @@ setReadOnly( ns, 'sindexOfTruthy', require( './../../../ext/base/sindex-of-truth
 * @see {@link module:@stdlib/blas/ext/base/slast-index-of}
 */
 setReadOnly( ns, 'slastIndexOf', require( './../../../ext/base/slast-index-of' ) );
+
+/**
+* @name slastIndexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/slast-index-of-falsy}
+*/
+setReadOnly( ns, 'slastIndexOfFalsy', require( './../../../ext/base/slast-index-of-falsy' ) );
 
 /**
 * @name slastIndexOfRow

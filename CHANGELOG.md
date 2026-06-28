@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-27)
+## Unreleased (2026-06-28)
 
 <section class="features">
 
 ### Features
 
+-   [`5508fe4`](https://github.com/stdlib-js/stdlib/commit/5508fe4693bc34e2993567c3b18fc9d64b8f6167) - add `dany`, `dlastIndexOfFalsy`, and `slastIndexOfFalsy` to namespace
 -   [`04bcc3a`](https://github.com/stdlib-js/stdlib/commit/04bcc3a924bc1c876bd50e88d29d514363be85af) - add `blas/ext/base/dany` [(#13168)](https://github.com/stdlib-js/stdlib/pull/13168)
 -   [`17010b5`](https://github.com/stdlib-js/stdlib/commit/17010b5c5c7e06ec831a37e28237d479ce227ed0) - add `blas/ext/base/slast-index-of-falsy` [(#13165)](https://github.com/stdlib-js/stdlib/pull/13165)
 -   [`1c50e17`](https://github.com/stdlib-js/stdlib/commit/1c50e172c33763ad42866d2dcab9be1a5325f242) - add `blas/ext/base/dlast-index-of-falsy` [(#13164)](https://github.com/stdlib-js/stdlib/pull/13164)
@@ -202,6 +203,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5508fe4`](https://github.com/stdlib-js/stdlib/commit/5508fe4693bc34e2993567c3b18fc9d64b8f6167) - **feat:** add `dany`, `dlastIndexOfFalsy`, and `slastIndexOfFalsy` to namespace _(by Athan Reines)_
 -   [`04bcc3a`](https://github.com/stdlib-js/stdlib/commit/04bcc3a924bc1c876bd50e88d29d514363be85af) - **feat:** add `blas/ext/base/dany` [(#13168)](https://github.com/stdlib-js/stdlib/pull/13168) _(by Muhammad Haris)_
 -   [`17010b5`](https://github.com/stdlib-js/stdlib/commit/17010b5c5c7e06ec831a37e28237d479ce227ed0) - **feat:** add `blas/ext/base/slast-index-of-falsy` [(#13165)](https://github.com/stdlib-js/stdlib/pull/13165) _(by Muhammad Haris)_
 -   [`1c50e17`](https://github.com/stdlib-js/stdlib/commit/1c50e172c33763ad42866d2dcab9be1a5325f242) - **feat:** add `blas/ext/base/dlast-index-of-falsy` [(#13164)](https://github.com/stdlib-js/stdlib/pull/13164) _(by Muhammad Haris)_
