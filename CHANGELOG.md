@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`591dea2`](https://github.com/stdlib-js/stdlib/commit/591dea2e642872ccf6b5469ff71a5b40056ae29d) - update `blas/ext/base` TypeScript declarations [(#13188)](https://github.com/stdlib-js/stdlib/pull/13188)
 -   [`5508fe4`](https://github.com/stdlib-js/stdlib/commit/5508fe4693bc34e2993567c3b18fc9d64b8f6167) - add `dany`, `dlastIndexOfFalsy`, and `slastIndexOfFalsy` to namespace
 -   [`04bcc3a`](https://github.com/stdlib-js/stdlib/commit/04bcc3a924bc1c876bd50e88d29d514363be85af) - add `blas/ext/base/dany` [(#13168)](https://github.com/stdlib-js/stdlib/pull/13168)
 -   [`17010b5`](https://github.com/stdlib-js/stdlib/commit/17010b5c5c7e06ec831a37e28237d479ce227ed0) - add `blas/ext/base/slast-index-of-falsy` [(#13165)](https://github.com/stdlib-js/stdlib/pull/13165)
@@ -203,6 +204,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`591dea2`](https://github.com/stdlib-js/stdlib/commit/591dea2e642872ccf6b5469ff71a5b40056ae29d) - **feat:** update `blas/ext/base` TypeScript declarations [(#13188)](https://github.com/stdlib-js/stdlib/pull/13188) _(by stdlib-bot)_
 -   [`26d85f8`](https://github.com/stdlib-js/stdlib/commit/26d85f803fc58af144170c7afd3ca633dcf5194d) - **docs:** update namespace table of contents [(#13190)](https://github.com/stdlib-js/stdlib/pull/13190) _(by stdlib-bot)_
 -   [`5508fe4`](https://github.com/stdlib-js/stdlib/commit/5508fe4693bc34e2993567c3b18fc9d64b8f6167) - **feat:** add `dany`, `dlastIndexOfFalsy`, and `slastIndexOfFalsy` to namespace _(by Athan Reines)_
 -   [`04bcc3a`](https://github.com/stdlib-js/stdlib/commit/04bcc3a924bc1c876bd50e88d29d514363be85af) - **feat:** add `blas/ext/base/dany` [(#13168)](https://github.com/stdlib-js/stdlib/pull/13168) _(by Muhammad Haris)_
