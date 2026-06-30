@@ -1846,6 +1846,15 @@ setReadOnly( ns, 'gzeroTo', require( './../../../ext/base/gzero-to' ) );
 setReadOnly( ns, 'ndarray', require( './../../../ext/base/ndarray' ) );
 
 /**
+* @name sany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sany}
+*/
+setReadOnly( ns, 'sany', require( './../../../ext/base/sany' ) );
+
+/**
 * @name sapx
 * @memberof ns
 * @readonly

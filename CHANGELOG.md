@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-06-29)
+## Unreleased (2026-06-30)
 
 <section class="features">
 
 ### Features
 
+-   [`14c51b7`](https://github.com/stdlib-js/stdlib/commit/14c51b7f388620526078a7c31d80cf6cf3312010) - add `sany` to namespace
 -   [`6e441cc`](https://github.com/stdlib-js/stdlib/commit/6e441cc1a65edb4be11062280d327e3bc6b97873) - add `blas/ext/base/sany` [(#13169)](https://github.com/stdlib-js/stdlib/pull/13169)
 -   [`591dea2`](https://github.com/stdlib-js/stdlib/commit/591dea2e642872ccf6b5469ff71a5b40056ae29d) - update `blas/ext/base` TypeScript declarations [(#13188)](https://github.com/stdlib-js/stdlib/pull/13188)
 -   [`5508fe4`](https://github.com/stdlib-js/stdlib/commit/5508fe4693bc34e2993567c3b18fc9d64b8f6167) - add `dany`, `dlastIndexOfFalsy`, and `slastIndexOfFalsy` to namespace
@@ -205,6 +206,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`14c51b7`](https://github.com/stdlib-js/stdlib/commit/14c51b7f388620526078a7c31d80cf6cf3312010) - **feat:** add `sany` to namespace _(by Athan Reines)_
 -   [`6e441cc`](https://github.com/stdlib-js/stdlib/commit/6e441cc1a65edb4be11062280d327e3bc6b97873) - **feat:** add `blas/ext/base/sany` [(#13169)](https://github.com/stdlib-js/stdlib/pull/13169) _(by Muhammad Haris)_
 -   [`591dea2`](https://github.com/stdlib-js/stdlib/commit/591dea2e642872ccf6b5469ff71a5b40056ae29d) - **feat:** update `blas/ext/base` TypeScript declarations [(#13188)](https://github.com/stdlib-js/stdlib/pull/13188) _(by stdlib-bot)_
 -   [`26d85f8`](https://github.com/stdlib-js/stdlib/commit/26d85f803fc58af144170c7afd3ca633dcf5194d) - **docs:** update namespace table of contents [(#13190)](https://github.com/stdlib-js/stdlib/pull/13190) _(by stdlib-bot)_
