@@ -221,7 +221,6 @@ import gxsa = require( './../../../../ext/base/gxsa' );
 import gxsy = require( './../../../../ext/base/gxsy' );
 import gzeroTo = require( './../../../../ext/base/gzero-to' );
 import ndarray = require( './../../../../ext/base/ndarray' );
-import sany = require( './../../../../ext/base/sany' );
 import sapx = require( './../../../../ext/base/sapx' );
 import sapxsum = require( './../../../../ext/base/sapxsum' );
 import sapxsumkbn = require( './../../../../ext/base/sapxsumkbn' );
@@ -6214,36 +6213,6 @@ interface Namespace {
 	* Base ndarray extended BLAS functions.
 	*/
 	ndarray: typeof ndarray;
-
-	/**
-	* Tests whether at least one element in a single-precision floating-point strided array is truthy.
-	*
-	* ## Notes
-	*
-	* -   The function explicitly treats `NaN` values as falsy.
-	*
-	* @param N - number of indexed elements
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns boolean indicating whether at least one element is truthy
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
-	*
-	* var v = ns.sany( x.length, x, 1 );
-	* // returns true
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
-	*
-	* var v = ns.sany.ndarray( x.length, x, 1, 0 );
-	* // returns true
-	*/
-	sany: typeof sany;
 
 	/**
 	* Adds a scalar constant to each element in a single-precision floating-point strided array.
