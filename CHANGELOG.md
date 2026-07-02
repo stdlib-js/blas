@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-01)
+## Unreleased (2026-07-02)
 
 <section class="features">
 
 ### Features
 
+-   [`734996d`](https://github.com/stdlib-js/stdlib/commit/734996d76e1270bd1b9558e69a020e5b2e752f9b) - update `blas/ext/base` TypeScript declarations [(#13212)](https://github.com/stdlib-js/stdlib/pull/13212)
 -   [`14c51b7`](https://github.com/stdlib-js/stdlib/commit/14c51b7f388620526078a7c31d80cf6cf3312010) - add `sany` to namespace
 -   [`6e441cc`](https://github.com/stdlib-js/stdlib/commit/6e441cc1a65edb4be11062280d327e3bc6b97873) - add `blas/ext/base/sany` [(#13169)](https://github.com/stdlib-js/stdlib/pull/13169)
 -   [`591dea2`](https://github.com/stdlib-js/stdlib/commit/591dea2e642872ccf6b5469ff71a5b40056ae29d) - update `blas/ext/base` TypeScript declarations [(#13188)](https://github.com/stdlib-js/stdlib/pull/13188)
@@ -206,6 +207,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`734996d`](https://github.com/stdlib-js/stdlib/commit/734996d76e1270bd1b9558e69a020e5b2e752f9b) - **feat:** update `blas/ext/base` TypeScript declarations [(#13212)](https://github.com/stdlib-js/stdlib/pull/13212) _(by stdlib-bot)_
 -   [`17b0f94`](https://github.com/stdlib-js/stdlib/commit/17b0f94247847f0d847e03c49644ed0ae1bc9a97) - **docs:** update namespace table of contents [(#13213)](https://github.com/stdlib-js/stdlib/pull/13213) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`14c51b7`](https://github.com/stdlib-js/stdlib/commit/14c51b7f388620526078a7c31d80cf6cf3312010) - **feat:** add `sany` to namespace _(by Athan Reines)_
 -   [`6e441cc`](https://github.com/stdlib-js/stdlib/commit/6e441cc1a65edb4be11062280d327e3bc6b97873) - **feat:** add `blas/ext/base/sany` [(#13169)](https://github.com/stdlib-js/stdlib/pull/13169) _(by Muhammad Haris)_
