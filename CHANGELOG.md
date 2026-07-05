@@ -210,6 +210,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`67f7557`](https://github.com/stdlib-js/stdlib/commit/67f7557ca13ab425513196b26601e46f8a059ac2) - **chore:** clean-up [(#13283)](https://github.com/stdlib-js/stdlib/pull/13283) _(by Philipp Burckhardt)_
 -   [`cc7fbc9`](https://github.com/stdlib-js/stdlib/commit/cc7fbc968f2bedfa1736b1bd0a4c0258e1829d89) - **feat:** add `gfillNaN` and `gfirstIndexEqual` to namespace _(by Athan Reines)_
 -   [`2c4aec3`](https://github.com/stdlib-js/stdlib/commit/2c4aec3f6c56e646c02a447bd1e81ae1e9972404) - **feat:** add `blas/ext/base/gfirst-index-equal` [(#13266)](https://github.com/stdlib-js/stdlib/pull/13266) _(by Muhammad Haris, Athan Reines)_
 -   [`09ad8f9`](https://github.com/stdlib-js/stdlib/commit/09ad8f96a6aa56fd15ce2c49dc7a3bed7470bfe2) - **feat:** add `blas/ext/base/gfill-nan` [(#13272)](https://github.com/stdlib-js/stdlib/pull/13272) _(by Muhammad Haris, Athan Reines)_
