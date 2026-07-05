@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-04)
+## Unreleased (2026-07-05)
 
 <section class="features">
 
@@ -207,6 +207,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`26f6338`](https://github.com/stdlib-js/stdlib/commit/26f63380e6d7f701abbdc1761a3a86a0595dd958) - **docs:** update namespace table of contents [(#13277)](https://github.com/stdlib-js/stdlib/pull/13277) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`06a4c2a`](https://github.com/stdlib-js/stdlib/commit/06a4c2a688d19743d078d6956af415b635579199) - **docs:** update descriptions [(#13258)](https://github.com/stdlib-js/stdlib/pull/13258) _(by Philipp Burckhardt, Athan Reines)_
 -   [`734996d`](https://github.com/stdlib-js/stdlib/commit/734996d76e1270bd1b9558e69a020e5b2e752f9b) - **feat:** update `blas/ext/base` TypeScript declarations [(#13212)](https://github.com/stdlib-js/stdlib/pull/13212) _(by stdlib-bot)_
 -   [`17b0f94`](https://github.com/stdlib-js/stdlib/commit/17b0f94247847f0d847e03c49644ed0ae1bc9a97) - **docs:** update namespace table of contents [(#13213)](https://github.com/stdlib-js/stdlib/pull/13213) _(by stdlib-bot, Philipp Burckhardt)_
