@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cc7fbc9`](https://github.com/stdlib-js/stdlib/commit/cc7fbc968f2bedfa1736b1bd0a4c0258e1829d89) - add `gfillNaN` and `gfirstIndexEqual` to namespace
 -   [`2c4aec3`](https://github.com/stdlib-js/stdlib/commit/2c4aec3f6c56e646c02a447bd1e81ae1e9972404) - add `blas/ext/base/gfirst-index-equal` [(#13266)](https://github.com/stdlib-js/stdlib/pull/13266)
 -   [`09ad8f9`](https://github.com/stdlib-js/stdlib/commit/09ad8f96a6aa56fd15ce2c49dc7a3bed7470bfe2) - add `blas/ext/base/gfill-nan` [(#13272)](https://github.com/stdlib-js/stdlib/pull/13272)
 -   [`734996d`](https://github.com/stdlib-js/stdlib/commit/734996d76e1270bd1b9558e69a020e5b2e752f9b) - update `blas/ext/base` TypeScript declarations [(#13212)](https://github.com/stdlib-js/stdlib/pull/13212)
@@ -209,6 +210,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`cc7fbc9`](https://github.com/stdlib-js/stdlib/commit/cc7fbc968f2bedfa1736b1bd0a4c0258e1829d89) - **feat:** add `gfillNaN` and `gfirstIndexEqual` to namespace _(by Athan Reines)_
 -   [`2c4aec3`](https://github.com/stdlib-js/stdlib/commit/2c4aec3f6c56e646c02a447bd1e81ae1e9972404) - **feat:** add `blas/ext/base/gfirst-index-equal` [(#13266)](https://github.com/stdlib-js/stdlib/pull/13266) _(by Muhammad Haris, Athan Reines)_
 -   [`09ad8f9`](https://github.com/stdlib-js/stdlib/commit/09ad8f96a6aa56fd15ce2c49dc7a3bed7470bfe2) - **feat:** add `blas/ext/base/gfill-nan` [(#13272)](https://github.com/stdlib-js/stdlib/pull/13272) _(by Muhammad Haris, Athan Reines)_
 -   [`26f6338`](https://github.com/stdlib-js/stdlib/commit/26f63380e6d7f701abbdc1761a3a86a0595dd958) - **docs:** update namespace table of contents [(#13277)](https://github.com/stdlib-js/stdlib/pull/13277) _(by stdlib-bot, Philipp Burckhardt)_

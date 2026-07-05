@@ -1324,6 +1324,15 @@ setReadOnly( ns, 'gfill', require( './../../../ext/base/gfill' ) );
 setReadOnly( ns, 'gfillBy', require( './../../../ext/base/gfill-by' ) );
 
 /**
+* @name gfillNaN
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfill-nan}
+*/
+setReadOnly( ns, 'gfillNaN', require( './../../../ext/base/gfill-nan' ) );
+
+/**
 * @name gfindIndex
 * @memberof ns
 * @readonly
@@ -1340,6 +1349,15 @@ setReadOnly( ns, 'gfindIndex', require( './../../../ext/base/gfind-index' ) );
 * @see {@link module:@stdlib/blas/ext/base/gfind-last-index}
 */
 setReadOnly( ns, 'gfindLastIndex', require( './../../../ext/base/gfind-last-index' ) );
+
+/**
+* @name gfirstIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfirst-index-equal}
+*/
+setReadOnly( ns, 'gfirstIndexEqual', require( './../../../ext/base/gfirst-index-equal' ) );
 
 /**
 * @name gindexOf
