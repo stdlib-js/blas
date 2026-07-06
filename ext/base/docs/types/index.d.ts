@@ -163,10 +163,8 @@ import gediff = require( './../../../../ext/base/gediff' );
 import gevery = require( './../../../../ext/base/gevery' );
 import gfill = require( './../../../../ext/base/gfill' );
 import gfillBy = require( './../../../../ext/base/gfill-by' );
-import gfillNaN = require( './../../../../ext/base/gfill-nan' );
 import gfindIndex = require( './../../../../ext/base/gfind-index' );
 import gfindLastIndex = require( './../../../../ext/base/gfind-last-index' );
-import gfirstIndexEqual = require( './../../../../ext/base/gfirst-index-equal' );
 import gindexOf = require( './../../../../ext/base/gindex-of' );
 import gindexOfColumn = require( './../../../../ext/base/gindex-of-column' );
 import gindexOfFalsy = require( './../../../../ext/base/gindex-of-falsy' );
@@ -4670,29 +4668,6 @@ interface Namespace {
 	gfillBy: typeof gfillBy;
 
 	/**
-	* Replaces strided array elements equal to `NaN` with a specified scalar constant.
-	*
-	* @param N - number of indexed elements
-	* @param alpha - scalar constant
-	* @param x - input array
-	* @param strideX - stride length
-	* @returns `x`
-	*
-	* @example
-	* var x = [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* ns.gfillNaN( x.length, 0.0, x, 1 );
-	* // x => [ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
-	*
-	* @example
-	* var x = [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ];
-	*
-	* ns.gfillNaN.ndarray( x.length, 0.0, x, 1, 0 );
-	* // x => [ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
-	*/
-	gfillNaN: typeof gfillNaN;
-
-	/**
 	* Returns the index of the first element which passes a test implemented by a predicate function.
 	*
 	* ## Notes
@@ -4777,36 +4752,6 @@ interface Namespace {
 	* // returns 5
 	*/
 	gfindLastIndex: typeof gfindLastIndex;
-
-	/**
-	* Returns the index of the first element in a strided array equal to a corresponding element in another strided array.
-	*
-	* ## Notes
-	*
-	* -   If the function is unable to find matching elements, the function returns `-1`.
-	*
-	* @param N - number of indexed elements
-	* @param x - first input array
-	* @param strideX - stride length for `x`
-	* @param y - second input array
-	* @param strideY - stride length for `y`
-	* @returns index
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
-	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
-	*
-	* var idx = ns.gfirstIndexEqual( x.length, x, 1, y, 1 );
-	* // returns 2
-	*
-	* @example
-	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
-	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
-	*
-	* var idx = ns.gfirstIndexEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
-	* // returns 2
-	*/
-	gfirstIndexEqual: typeof gfirstIndexEqual;
 
 	/**
 	* Returns the first index of a specified search element in a strided array.
