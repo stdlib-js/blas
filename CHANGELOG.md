@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149)
 -   [`cf8b010`](https://github.com/stdlib-js/stdlib/commit/cf8b0101eaac6a6465ec688f921aaf2d4056548f) - add `sfillNaN` to namespace
 -   [`75e1556`](https://github.com/stdlib-js/stdlib/commit/75e15560346455306a82f81e8a856339c0584189) - add `blas/ext/base/sfill-nan` [(#13326)](https://github.com/stdlib-js/stdlib/pull/13326)
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - add `dxmy`, `gxmy`, and `sxmy` to namespace
@@ -223,6 +224,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`6812e0b`](https://github.com/stdlib-js/stdlib/commit/6812e0b44d35482a6536ab3b763c9ee291682981) - **feat:** add `blas/base/ndarray/cgemv` [(#13149)](https://github.com/stdlib-js/stdlib/pull/13149) _(by Kaustubh Patange, Athan Reines)_
 -   [`cf8b010`](https://github.com/stdlib-js/stdlib/commit/cf8b0101eaac6a6465ec688f921aaf2d4056548f) - **feat:** add `sfillNaN` to namespace _(by Athan Reines)_
 -   [`75e1556`](https://github.com/stdlib-js/stdlib/commit/75e15560346455306a82f81e8a856339c0584189) - **feat:** add `blas/ext/base/sfill-nan` [(#13326)](https://github.com/stdlib-js/stdlib/pull/13326) _(by Muhammad Haris)_
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - **feat:** add `dxmy`, `gxmy`, and `sxmy` to namespace _(by Athan Reines)_
