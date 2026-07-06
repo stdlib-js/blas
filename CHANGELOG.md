@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299)
 -   [`d3a484b`](https://github.com/stdlib-js/stdlib/commit/d3a484ba7067078dca7245362ee38a1b9ecf7034) - add `blas/ext/base/ndarray/sxmy` [(#13298)](https://github.com/stdlib-js/stdlib/pull/13298)
 -   [`7979ea1`](https://github.com/stdlib-js/stdlib/commit/7979ea11e2fd977fcccbbe697273e1cf0cd515df) - add `blas/ext/base/ndarray/dxmy` [(#13297)](https://github.com/stdlib-js/stdlib/pull/13297)
 -   [`88e4016`](https://github.com/stdlib-js/stdlib/commit/88e40162bfff0d2951800215f85c4baaf363dd0d) - add `gfillEqual` and `glastIndexEqual` to namespace
@@ -219,6 +220,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - **feat:** add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299) _(by Karan Anand)_
 -   [`d3a484b`](https://github.com/stdlib-js/stdlib/commit/d3a484ba7067078dca7245362ee38a1b9ecf7034) - **feat:** add `blas/ext/base/ndarray/sxmy` [(#13298)](https://github.com/stdlib-js/stdlib/pull/13298) _(by Karan Anand)_
 -   [`7979ea1`](https://github.com/stdlib-js/stdlib/commit/7979ea11e2fd977fcccbbe697273e1cf0cd515df) - **feat:** add `blas/ext/base/ndarray/dxmy` [(#13297)](https://github.com/stdlib-js/stdlib/pull/13297) _(by Karan Anand)_
 -   [`88e4016`](https://github.com/stdlib-js/stdlib/commit/88e40162bfff0d2951800215f85c4baaf363dd0d) - **feat:** add `gfillEqual` and `glastIndexEqual` to namespace _(by Athan Reines)_
