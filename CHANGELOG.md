@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f9a3672`](https://github.com/stdlib-js/stdlib/commit/f9a36725589098239bc46a1a0577b44310f48bf8) - add `blas/ext/base/gindex-of-not-equal` [(#13342)](https://github.com/stdlib-js/stdlib/pull/13342)
 -   [`be45b36`](https://github.com/stdlib-js/stdlib/commit/be45b365726a79c00971a08873e2e93a9b83bc9e) - add `gfirstIndexNotEqual` to namespace
 -   [`1294ee8`](https://github.com/stdlib-js/stdlib/commit/1294ee86615198b0d73eed069f4fb4b7a63a41ef) - add `blas/ext/base/gfirst-index-not-equal` [(#13264)](https://github.com/stdlib-js/stdlib/pull/13264)
 -   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - add `cgemv` to namespace
@@ -227,6 +228,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f9a3672`](https://github.com/stdlib-js/stdlib/commit/f9a36725589098239bc46a1a0577b44310f48bf8) - **feat:** add `blas/ext/base/gindex-of-not-equal` [(#13342)](https://github.com/stdlib-js/stdlib/pull/13342) _(by Muhammad Haris, Athan Reines)_
 -   [`97a25cb`](https://github.com/stdlib-js/stdlib/commit/97a25cba301263b4ae206940a37a6d02f8c9baf7) - **chore:** follow-up fixes for commits merged to `develop` [(#13327)](https://github.com/stdlib-js/stdlib/pull/13327) _(by Philipp Burckhardt)_
 -   [`ba80db9`](https://github.com/stdlib-js/stdlib/commit/ba80db9cd997b50a0d629cf8b770aad5bbeaa928) - **refactor:** avoid unnecessary assignment [(#13328)](https://github.com/stdlib-js/stdlib/pull/13328) _(by Philipp Burckhardt)_
 -   [`be45b36`](https://github.com/stdlib-js/stdlib/commit/be45b365726a79c00971a08873e2e93a9b83bc9e) - **feat:** add `gfirstIndexNotEqual` to namespace _(by Athan Reines)_
