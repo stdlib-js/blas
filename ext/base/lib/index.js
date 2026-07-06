@@ -1333,6 +1333,15 @@ setReadOnly( ns, 'gfill', require( './../../../ext/base/gfill' ) );
 setReadOnly( ns, 'gfillBy', require( './../../../ext/base/gfill-by' ) );
 
 /**
+* @name gfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfill-equal}
+*/
+setReadOnly( ns, 'gfillEqual', require( './../../../ext/base/gfill-equal' ) );
+
+/**
 * @name gfillNaN
 * @memberof ns
 * @readonly
@@ -1439,6 +1448,15 @@ setReadOnly( ns, 'gjoin', require( './../../../ext/base/gjoin' ) );
 * @see {@link module:@stdlib/blas/ext/base/gjoin-between}
 */
 setReadOnly( ns, 'gjoinBetween', require( './../../../ext/base/gjoin-between' ) );
+
+/**
+* @name glastIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/glast-index-equal}
+*/
+setReadOnly( ns, 'glastIndexEqual', require( './../../../ext/base/glast-index-equal' ) );
 
 /**
 * @name glastIndexOf

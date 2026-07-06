@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`88e4016`](https://github.com/stdlib-js/stdlib/commit/88e40162bfff0d2951800215f85c4baaf363dd0d) - add `gfillEqual` and `glastIndexEqual` to namespace
 -   [`a7f8ab5`](https://github.com/stdlib-js/stdlib/commit/a7f8ab51aa41610a72839722f0d880a8d700bd29) - add `blas/ext/base/gfill-equal` [(#13282)](https://github.com/stdlib-js/stdlib/pull/13282)
 -   [`fd7a815`](https://github.com/stdlib-js/stdlib/commit/fd7a815ed819cf24b191af7a00043e6b6f451032) - add `blas/ext/base/glast-index-equal` [(#13292)](https://github.com/stdlib-js/stdlib/pull/13292)
 -   [`4b83545`](https://github.com/stdlib-js/stdlib/commit/4b83545754e4ce5df39a4fb088bba6985d70c999) - add `dfillNaN` and `gindexOfSameValue` to namespace
@@ -216,6 +217,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`88e4016`](https://github.com/stdlib-js/stdlib/commit/88e40162bfff0d2951800215f85c4baaf363dd0d) - **feat:** add `gfillEqual` and `glastIndexEqual` to namespace _(by Athan Reines)_
 -   [`a7f8ab5`](https://github.com/stdlib-js/stdlib/commit/a7f8ab51aa41610a72839722f0d880a8d700bd29) - **feat:** add `blas/ext/base/gfill-equal` [(#13282)](https://github.com/stdlib-js/stdlib/pull/13282) _(by Muhammad Haris, Athan Reines)_
 -   [`fd7a815`](https://github.com/stdlib-js/stdlib/commit/fd7a815ed819cf24b191af7a00043e6b6f451032) - **feat:** add `blas/ext/base/glast-index-equal` [(#13292)](https://github.com/stdlib-js/stdlib/pull/13292) _(by Muhammad Haris, Athan Reines)_
 -   [`4b83545`](https://github.com/stdlib-js/stdlib/commit/4b83545754e4ce5df39a4fb088bba6985d70c999) - **feat:** add `dfillNaN` and `gindexOfSameValue` to namespace _(by Athan Reines)_
