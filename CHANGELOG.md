@@ -227,6 +227,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ba80db9`](https://github.com/stdlib-js/stdlib/commit/ba80db9cd997b50a0d629cf8b770aad5bbeaa928) - **refactor:** avoid unnecessary assignment [(#13328)](https://github.com/stdlib-js/stdlib/pull/13328) _(by Philipp Burckhardt)_
 -   [`be45b36`](https://github.com/stdlib-js/stdlib/commit/be45b365726a79c00971a08873e2e93a9b83bc9e) - **feat:** add `gfirstIndexNotEqual` to namespace _(by Athan Reines)_
 -   [`1294ee8`](https://github.com/stdlib-js/stdlib/commit/1294ee86615198b0d73eed069f4fb4b7a63a41ef) - **feat:** add `blas/ext/base/gfirst-index-not-equal` [(#13264)](https://github.com/stdlib-js/stdlib/pull/13264) _(by Muhammad Haris, Athan Reines)_
 -   [`32c8d66`](https://github.com/stdlib-js/stdlib/commit/32c8d6658e475c47bc48ac4894c28a8ef59350a7) - **feat:** add `cgemv` to namespace _(by Athan Reines)_
