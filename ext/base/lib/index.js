@@ -451,6 +451,15 @@ setReadOnly( ns, 'dediff', require( './../../../ext/base/dediff' ) );
 setReadOnly( ns, 'dfill', require( './../../../ext/base/dfill' ) );
 
 /**
+* @name dfillNaN
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dfill-nan}
+*/
+setReadOnly( ns, 'dfillNaN', require( './../../../ext/base/dfill-nan' ) );
+
+/**
 * @name dindexOf
 * @memberof ns
 * @readonly
@@ -1394,6 +1403,15 @@ setReadOnly( ns, 'gindexOfFalsy', require( './../../../ext/base/gindex-of-falsy'
 * @see {@link module:@stdlib/blas/ext/base/gindex-of-row}
 */
 setReadOnly( ns, 'gindexOfRow', require( './../../../ext/base/gindex-of-row' ) );
+
+/**
+* @name gindexOfSameValue
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-same-value}
+*/
+setReadOnly( ns, 'gindexOfSameValue', require( './../../../ext/base/gindex-of-same-value' ) );
 
 /**
 * @name gindexOfTruthy

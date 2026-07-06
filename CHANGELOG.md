@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`fd7a815`](https://github.com/stdlib-js/stdlib/commit/fd7a815ed819cf24b191af7a00043e6b6f451032) - add `blas/ext/base/glast-index-equal` [(#13292)](https://github.com/stdlib-js/stdlib/pull/13292)
+-   [`4b83545`](https://github.com/stdlib-js/stdlib/commit/4b83545754e4ce5df39a4fb088bba6985d70c999) - add `dfillNaN` and `gindexOfSameValue` to namespace
 -   [`0cf99ac`](https://github.com/stdlib-js/stdlib/commit/0cf99ac9ef01870d3dd74f510b454ad8bdd0fb55) - add `blas/ext/base/gindex-of-same-value` [(#13293)](https://github.com/stdlib-js/stdlib/pull/13293)
 -   [`ad90e97`](https://github.com/stdlib-js/stdlib/commit/ad90e974bbbad440b549650371251098634aa3dc) - add `blas/ext/base/dfill-nan` [(#13290)](https://github.com/stdlib-js/stdlib/pull/13290)
 -   [`f702b06`](https://github.com/stdlib-js/stdlib/commit/f702b06abc10fa4d45b1a2d1aaa1bd531cad5364) - update `blas/ext/base` TypeScript declarations [(#13318)](https://github.com/stdlib-js/stdlib/pull/13318)
@@ -213,6 +215,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`fd7a815`](https://github.com/stdlib-js/stdlib/commit/fd7a815ed819cf24b191af7a00043e6b6f451032) - **feat:** add `blas/ext/base/glast-index-equal` [(#13292)](https://github.com/stdlib-js/stdlib/pull/13292) _(by Muhammad Haris, Athan Reines)_
+-   [`4b83545`](https://github.com/stdlib-js/stdlib/commit/4b83545754e4ce5df39a4fb088bba6985d70c999) - **feat:** add `dfillNaN` and `gindexOfSameValue` to namespace _(by Athan Reines)_
 -   [`3ceff10`](https://github.com/stdlib-js/stdlib/commit/3ceff1079fa63d0c89b3229333670e030d1209e5) - **refactor:** avoid unnecessary assignment _(by Athan Reines)_
 -   [`0cf99ac`](https://github.com/stdlib-js/stdlib/commit/0cf99ac9ef01870d3dd74f510b454ad8bdd0fb55) - **feat:** add `blas/ext/base/gindex-of-same-value` [(#13293)](https://github.com/stdlib-js/stdlib/pull/13293) _(by Muhammad Haris, Athan Reines)_
 -   [`ad90e97`](https://github.com/stdlib-js/stdlib/commit/ad90e974bbbad440b549650371251098634aa3dc) - **feat:** add `blas/ext/base/dfill-nan` [(#13290)](https://github.com/stdlib-js/stdlib/pull/13290) _(by Muhammad Haris, Athan Reines)_
