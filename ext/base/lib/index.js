@@ -2188,6 +2188,15 @@ setReadOnly( ns, 'sediff', require( './../../../ext/base/sediff' ) );
 setReadOnly( ns, 'sfill', require( './../../../ext/base/sfill' ) );
 
 /**
+* @name sfillNaN
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sfill-nan}
+*/
+setReadOnly( ns, 'sfillNaN', require( './../../../ext/base/sfill-nan' ) );
+
+/**
 * @name sindexOf
 * @memberof ns
 * @readonly
