@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`75e1556`](https://github.com/stdlib-js/stdlib/commit/75e15560346455306a82f81e8a856339c0584189) - add `blas/ext/base/sfill-nan` [(#13326)](https://github.com/stdlib-js/stdlib/pull/13326)
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - add `dxmy`, `gxmy`, and `sxmy` to namespace
 -   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299)
 -   [`d3a484b`](https://github.com/stdlib-js/stdlib/commit/d3a484ba7067078dca7245362ee38a1b9ecf7034) - add `blas/ext/base/ndarray/sxmy` [(#13298)](https://github.com/stdlib-js/stdlib/pull/13298)
@@ -221,6 +222,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`75e1556`](https://github.com/stdlib-js/stdlib/commit/75e15560346455306a82f81e8a856339c0584189) - **feat:** add `blas/ext/base/sfill-nan` [(#13326)](https://github.com/stdlib-js/stdlib/pull/13326) _(by Muhammad Haris)_
 -   [`555c400`](https://github.com/stdlib-js/stdlib/commit/555c400e40e046884107b497434ffffd6d4cc5fd) - **feat:** add `dxmy`, `gxmy`, and `sxmy` to namespace _(by Athan Reines)_
 -   [`dd0ee83`](https://github.com/stdlib-js/stdlib/commit/dd0ee83a47432aed42e12599ec0b92a22acec482) - **feat:** add `blas/ext/base/ndarray/gxmy` [(#13299)](https://github.com/stdlib-js/stdlib/pull/13299) _(by Karan Anand)_
 -   [`d3a484b`](https://github.com/stdlib-js/stdlib/commit/d3a484ba7067078dca7245362ee38a1b9ecf7034) - **feat:** add `blas/ext/base/ndarray/sxmy` [(#13298)](https://github.com/stdlib-js/stdlib/pull/13298) _(by Karan Anand)_
