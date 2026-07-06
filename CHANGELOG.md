@@ -213,6 +213,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`3ceff10`](https://github.com/stdlib-js/stdlib/commit/3ceff1079fa63d0c89b3229333670e030d1209e5) - **refactor:** avoid unnecessary assignment _(by Athan Reines)_
 -   [`0cf99ac`](https://github.com/stdlib-js/stdlib/commit/0cf99ac9ef01870d3dd74f510b454ad8bdd0fb55) - **feat:** add `blas/ext/base/gindex-of-same-value` [(#13293)](https://github.com/stdlib-js/stdlib/pull/13293) _(by Muhammad Haris, Athan Reines)_
 -   [`ad90e97`](https://github.com/stdlib-js/stdlib/commit/ad90e974bbbad440b549650371251098634aa3dc) - **feat:** add `blas/ext/base/dfill-nan` [(#13290)](https://github.com/stdlib-js/stdlib/pull/13290) _(by Muhammad Haris, Athan Reines)_
 -   [`3df6682`](https://github.com/stdlib-js/stdlib/commit/3df6682dc2541019d13b0772a4b868ac7857e0f3) - **docs:** fix heading _(by Athan Reines)_
