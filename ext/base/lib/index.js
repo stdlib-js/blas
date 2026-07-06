@@ -1378,6 +1378,15 @@ setReadOnly( ns, 'gfindLastIndex', require( './../../../ext/base/gfind-last-inde
 setReadOnly( ns, 'gfirstIndexEqual', require( './../../../ext/base/gfirst-index-equal' ) );
 
 /**
+* @name gfirstIndexNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfirst-index-not-equal}
+*/
+setReadOnly( ns, 'gfirstIndexNotEqual', require( './../../../ext/base/gfirst-index-not-equal' ) );
+
+/**
 * @name gindexOf
 * @memberof ns
 * @readonly
