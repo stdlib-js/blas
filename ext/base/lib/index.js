@@ -16,6 +16,8 @@
 * limitations under the License.
 */
 
+/* eslint-disable max-lines */
+
 'use strict';
 
 /*
@@ -1376,6 +1378,15 @@ setReadOnly( ns, 'gfindLastIndex', require( './../../../ext/base/gfind-last-inde
 * @see {@link module:@stdlib/blas/ext/base/gfirst-index-equal}
 */
 setReadOnly( ns, 'gfirstIndexEqual', require( './../../../ext/base/gfirst-index-equal' ) );
+
+/**
+* @name gfirstIndexLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfirst-index-less-than}
+*/
+setReadOnly( ns, 'gfirstIndexLessThan', require( './../../../ext/base/gfirst-index-less-than' ) );
 
 /**
 * @name gfirstIndexNotEqual
