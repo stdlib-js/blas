@@ -1414,6 +1414,15 @@ setReadOnly( ns, 'gindexOfColumn', require( './../../../ext/base/gindex-of-colum
 setReadOnly( ns, 'gindexOfFalsy', require( './../../../ext/base/gindex-of-falsy' ) );
 
 /**
+* @name gindexOfNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-not-equal}
+*/
+setReadOnly( ns, 'gindexOfNotEqual', require( './../../../ext/base/gindex-of-not-equal' ) );
+
+/**
 * @name gindexOfRow
 * @memberof ns
 * @readonly
