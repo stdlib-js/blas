@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a82cf98`](https://github.com/stdlib-js/stdlib/commit/a82cf98afd764b9e8794e34eb8b1ceb16833f32c) - add `cwax`, `dwax`, `zwax`, `swax`, and `gfillNotEqual` to namespace
 -   [`d631883`](https://github.com/stdlib-js/stdlib/commit/d631883b1fd54791999ba406596ccbab81f3086f) - add `blas/ext/base/zwax` [(#13315)](https://github.com/stdlib-js/stdlib/pull/13315)
 -   [`1355d39`](https://github.com/stdlib-js/stdlib/commit/1355d39b162247427687c3a41a141e5dcb148200) - add `blas/ext/base/cwax` [(#13305)](https://github.com/stdlib-js/stdlib/pull/13305)
 -   [`801b876`](https://github.com/stdlib-js/stdlib/commit/801b876aa25cc37743e27b601bdd6337f04e9b98) - add `blas/ext/base/gfill-not-equal` [(#13339)](https://github.com/stdlib-js/stdlib/pull/13339)
@@ -241,6 +242,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a82cf98`](https://github.com/stdlib-js/stdlib/commit/a82cf98afd764b9e8794e34eb8b1ceb16833f32c) - **feat:** add `cwax`, `dwax`, `zwax`, `swax`, and `gfillNotEqual` to namespace _(by Athan Reines)_
 -   [`d631883`](https://github.com/stdlib-js/stdlib/commit/d631883b1fd54791999ba406596ccbab81f3086f) - **feat:** add `blas/ext/base/zwax` [(#13315)](https://github.com/stdlib-js/stdlib/pull/13315) _(by Karan Anand)_
 -   [`1355d39`](https://github.com/stdlib-js/stdlib/commit/1355d39b162247427687c3a41a141e5dcb148200) - **feat:** add `blas/ext/base/cwax` [(#13305)](https://github.com/stdlib-js/stdlib/pull/13305) _(by Karan Anand)_
 -   [`801b876`](https://github.com/stdlib-js/stdlib/commit/801b876aa25cc37743e27b601bdd6337f04e9b98) - **feat:** add `blas/ext/base/gfill-not-equal` [(#13339)](https://github.com/stdlib-js/stdlib/pull/13339) _(by Muhammad Haris, Athan Reines)_
