@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1355d39`](https://github.com/stdlib-js/stdlib/commit/1355d39b162247427687c3a41a141e5dcb148200) - add `blas/ext/base/cwax` [(#13305)](https://github.com/stdlib-js/stdlib/pull/13305)
 -   [`801b876`](https://github.com/stdlib-js/stdlib/commit/801b876aa25cc37743e27b601bdd6337f04e9b98) - add `blas/ext/base/gfill-not-equal` [(#13339)](https://github.com/stdlib-js/stdlib/pull/13339)
 -   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346)
 -   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347)
@@ -239,6 +240,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`1355d39`](https://github.com/stdlib-js/stdlib/commit/1355d39b162247427687c3a41a141e5dcb148200) - **feat:** add `blas/ext/base/cwax` [(#13305)](https://github.com/stdlib-js/stdlib/pull/13305) _(by Karan Anand)_
 -   [`801b876`](https://github.com/stdlib-js/stdlib/commit/801b876aa25cc37743e27b601bdd6337f04e9b98) - **feat:** add `blas/ext/base/gfill-not-equal` [(#13339)](https://github.com/stdlib-js/stdlib/pull/13339) _(by Muhammad Haris, Athan Reines)_
 -   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346) _(by stdlib-bot)_
 -   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347) _(by stdlib-bot)_
