@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0932d0b`](https://github.com/stdlib-js/stdlib/commit/0932d0b21c85647f48a394306c6da3f374562ee9) - add `blas/ext/base/gfirst-index-less-than` [(#13271)](https://github.com/stdlib-js/stdlib/pull/13271)
 -   [`fadf0fb`](https://github.com/stdlib-js/stdlib/commit/fadf0fb39cf54704bcb3a58a290c43d97b1222a5) - add `gindexOfNotEqual` to namespace
 -   [`f9a3672`](https://github.com/stdlib-js/stdlib/commit/f9a36725589098239bc46a1a0577b44310f48bf8) - add `blas/ext/base/gindex-of-not-equal` [(#13342)](https://github.com/stdlib-js/stdlib/pull/13342)
 -   [`be45b36`](https://github.com/stdlib-js/stdlib/commit/be45b365726a79c00971a08873e2e93a9b83bc9e) - add `gfirstIndexNotEqual` to namespace
@@ -229,6 +230,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`0932d0b`](https://github.com/stdlib-js/stdlib/commit/0932d0b21c85647f48a394306c6da3f374562ee9) - **feat:** add `blas/ext/base/gfirst-index-less-than` [(#13271)](https://github.com/stdlib-js/stdlib/pull/13271) _(by Muhammad Haris, Athan Reines)_
 -   [`547176e`](https://github.com/stdlib-js/stdlib/commit/547176ec139fa4257ee56a3be0597255049fbc12) - **test:** fix grammar in test descriptions _(by Athan Reines)_
 -   [`dbc07aa`](https://github.com/stdlib-js/stdlib/commit/dbc07aa0eee1ff553c3cb307c8e296224cb2545e) - **docs:** add notes _(by Athan Reines)_
 -   [`9c31305`](https://github.com/stdlib-js/stdlib/commit/9c31305739ee5411d758efbe4ac7de92ae3e939b) - **test:** fix grammar in test descriptions _(by Athan Reines)_
