@@ -60,6 +60,7 @@ import dsumkbn2 = require( './../../../../../ext/base/ndarray/dsumkbn2' );
 import dsumors = require( './../../../../../ext/base/ndarray/dsumors' );
 import dsumpw = require( './../../../../../ext/base/ndarray/dsumpw' );
 import dunitspace = require( './../../../../../ext/base/ndarray/dunitspace' );
+import dxmy = require( './../../../../../ext/base/ndarray/dxmy' );
 import dxpy = require( './../../../../../ext/base/ndarray/dxpy' );
 import dxsa = require( './../../../../../ext/base/ndarray/dxsa' );
 import dxsy = require( './../../../../../ext/base/ndarray/dxsy' );
@@ -95,6 +96,7 @@ import gsumkbn2 = require( './../../../../../ext/base/ndarray/gsumkbn2' );
 import gsumors = require( './../../../../../ext/base/ndarray/gsumors' );
 import gsumpw = require( './../../../../../ext/base/ndarray/gsumpw' );
 import gunitspace = require( './../../../../../ext/base/ndarray/gunitspace' );
+import gxmy = require( './../../../../../ext/base/ndarray/gxmy' );
 import gxpy = require( './../../../../../ext/base/ndarray/gxpy' );
 import gxsa = require( './../../../../../ext/base/ndarray/gxsa' );
 import gxsy = require( './../../../../../ext/base/ndarray/gxsy' );
@@ -124,6 +126,7 @@ import ssumkbn2 = require( './../../../../../ext/base/ndarray/ssumkbn2' );
 import ssumors = require( './../../../../../ext/base/ndarray/ssumors' );
 import ssumpw = require( './../../../../../ext/base/ndarray/ssumpw' );
 import sunitspace = require( './../../../../../ext/base/ndarray/sunitspace' );
+import sxmy = require( './../../../../../ext/base/ndarray/sxmy' );
 import sxpy = require( './../../../../../ext/base/ndarray/sxpy' );
 import sxsa = require( './../../../../../ext/base/ndarray/sxsa' );
 import sxsy = require( './../../../../../ext/base/ndarray/sxsy' );
@@ -1252,6 +1255,30 @@ interface Namespace {
 	dunitspace: typeof dunitspace;
 
 	/**
+	* Multiplies elements of a one-dimensional double-precision floating-point ndarray by the corresponding elements of a second one-dimensional double-precision floating-point ndarray and assigns the results to the second ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	*
+	* var x = new Float64Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var out = ns.dxmy( [ x, y ] );
+	* // returns <ndarray>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	dxmy: typeof dxmy;
+
+	/**
 	* Adds elements of a one-dimensional double-precision floating-point ndarray to the corresponding elements of a second one-dimensional double-precision floating-point ndarray and assigns the results to the second ndarray.
 	*
 	* ## Notes
@@ -2210,6 +2237,30 @@ interface Namespace {
 	gunitspace: typeof gunitspace;
 
 	/**
+	* Multiplies elements of a one-dimensional ndarray by the corresponding elements of a second one-dimensional ndarray and assigns the results to the second ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	*
+	* var x = vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ], 'generic' );
+	* var y = vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ], 'generic' );
+	*
+	* var out = ns.gxmy( [ x, y ] );
+	* // returns <ndarray>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	gxmy: typeof gxmy;
+
+	/**
 	* Adds elements of a one-dimensional ndarray to the corresponding elements of a second one-dimensional ndarray and assigns the results to the second ndarray.
 	*
 	* ## Notes
@@ -3002,6 +3053,30 @@ interface Namespace {
 	* // returns <ndarray>[ 3.0, 4.0, 5.0, 6.0 ]
 	*/
 	sunitspace: typeof sunitspace;
+
+	/**
+	* Multiplies elements of a one-dimensional single-precision floating-point ndarray by the corresponding elements of a second one-dimensional single-precision floating-point ndarray and assigns the results to the second ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	*
+	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var out = ns.sxmy( [ x, y ] );
+	* // returns <ndarray>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	sxmy: typeof sxmy;
 
 	/**
 	* Adds elements of a one-dimensional single-precision floating-point ndarray to the corresponding elements of a second one-dimensional single-precision floating-point ndarray and assigns the results to the second ndarray.

@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347)
+-   [`227f449`](https://github.com/stdlib-js/stdlib/commit/227f4494b40abebc68d3baa131b717f3051187c2) - update `blas/ext/base` TypeScript declarations [(#13348)](https://github.com/stdlib-js/stdlib/pull/13348)
 -   [`6f3b155`](https://github.com/stdlib-js/stdlib/commit/6f3b15555456725e220033dfbca867e74a05430e) - add `blas/ext/base/dwax` [(#13302)](https://github.com/stdlib-js/stdlib/pull/13302)
 -   [`a0fbd99`](https://github.com/stdlib-js/stdlib/commit/a0fbd99f139b048f9e22e1cd8c42c6f806af6cad) - add `blas/ext/base/swax` [(#13304)](https://github.com/stdlib-js/stdlib/pull/13304)
 -   [`7ccc234`](https://github.com/stdlib-js/stdlib/commit/7ccc234622c4ac80e43011dad403fc0c4ab7c469) - add `gfirstIndexGreaterThan` to namespace
@@ -235,6 +237,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347) _(by stdlib-bot)_
+-   [`227f449`](https://github.com/stdlib-js/stdlib/commit/227f4494b40abebc68d3baa131b717f3051187c2) - **feat:** update `blas/ext/base` TypeScript declarations [(#13348)](https://github.com/stdlib-js/stdlib/pull/13348) _(by stdlib-bot)_
 -   [`1d90643`](https://github.com/stdlib-js/stdlib/commit/1d90643c8086210ebcb542d5e71fbdccad868e51) - **docs:** update namespace table of contents [(#13350)](https://github.com/stdlib-js/stdlib/pull/13350) _(by stdlib-bot)_
 -   [`6f3b155`](https://github.com/stdlib-js/stdlib/commit/6f3b15555456725e220033dfbca867e74a05430e) - **feat:** add `blas/ext/base/dwax` [(#13302)](https://github.com/stdlib-js/stdlib/pull/13302) _(by Karan Anand)_
 -   [`a0fbd99`](https://github.com/stdlib-js/stdlib/commit/a0fbd99f139b048f9e22e1cd8c42c6f806af6cad) - **feat:** add `blas/ext/base/swax` [(#13304)](https://github.com/stdlib-js/stdlib/pull/13304) _(by Karan Anand)_
