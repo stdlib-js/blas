@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346)
 -   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347)
 -   [`227f449`](https://github.com/stdlib-js/stdlib/commit/227f4494b40abebc68d3baa131b717f3051187c2) - update `blas/ext/base` TypeScript declarations [(#13348)](https://github.com/stdlib-js/stdlib/pull/13348)
 -   [`6f3b155`](https://github.com/stdlib-js/stdlib/commit/6f3b15555456725e220033dfbca867e74a05430e) - add `blas/ext/base/dwax` [(#13302)](https://github.com/stdlib-js/stdlib/pull/13302)
@@ -237,6 +238,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`23b4f65`](https://github.com/stdlib-js/stdlib/commit/23b4f65fe3fd5fd1bec05982fd78c58c82cd1160) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13346)](https://github.com/stdlib-js/stdlib/pull/13346) _(by stdlib-bot)_
 -   [`528f13a`](https://github.com/stdlib-js/stdlib/commit/528f13a49d359a17a1adc57d4d39b9f6718c408b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13347)](https://github.com/stdlib-js/stdlib/pull/13347) _(by stdlib-bot)_
 -   [`227f449`](https://github.com/stdlib-js/stdlib/commit/227f4494b40abebc68d3baa131b717f3051187c2) - **feat:** update `blas/ext/base` TypeScript declarations [(#13348)](https://github.com/stdlib-js/stdlib/pull/13348) _(by stdlib-bot)_
 -   [`1d90643`](https://github.com/stdlib-js/stdlib/commit/1d90643c8086210ebcb542d5e71fbdccad868e51) - **docs:** update namespace table of contents [(#13350)](https://github.com/stdlib-js/stdlib/pull/13350) _(by stdlib-bot)_
