@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a0fbd99`](https://github.com/stdlib-js/stdlib/commit/a0fbd99f139b048f9e22e1cd8c42c6f806af6cad) - add `blas/ext/base/swax` [(#13304)](https://github.com/stdlib-js/stdlib/pull/13304)
 -   [`7ccc234`](https://github.com/stdlib-js/stdlib/commit/7ccc234622c4ac80e43011dad403fc0c4ab7c469) - add `gfirstIndexGreaterThan` to namespace
 -   [`5331d38`](https://github.com/stdlib-js/stdlib/commit/5331d38e6db5463f29588a4eb033892a953a171e) - add `blas/ext/base/gfirst-index-greater-than` [(#13269)](https://github.com/stdlib-js/stdlib/pull/13269)
 -   [`0eecee5`](https://github.com/stdlib-js/stdlib/commit/0eecee50dc4adf16af8e3bb027189d87310b4dd8) - add `gfirstIndexLessThan` to namespace
@@ -233,6 +234,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a0fbd99`](https://github.com/stdlib-js/stdlib/commit/a0fbd99f139b048f9e22e1cd8c42c6f806af6cad) - **feat:** add `blas/ext/base/swax` [(#13304)](https://github.com/stdlib-js/stdlib/pull/13304) _(by Karan Anand)_
 -   [`7ccc234`](https://github.com/stdlib-js/stdlib/commit/7ccc234622c4ac80e43011dad403fc0c4ab7c469) - **feat:** add `gfirstIndexGreaterThan` to namespace _(by Athan Reines)_
 -   [`5331d38`](https://github.com/stdlib-js/stdlib/commit/5331d38e6db5463f29588a4eb033892a953a171e) - **feat:** add `blas/ext/base/gfirst-index-greater-than` [(#13269)](https://github.com/stdlib-js/stdlib/pull/13269) _(by Muhammad Haris, Athan Reines)_
 -   [`f6e5777`](https://github.com/stdlib-js/stdlib/commit/f6e5777279016fa47a11875065b566c6989b1519) - **style:** disable lint rule _(by Athan Reines)_
