@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5331d38`](https://github.com/stdlib-js/stdlib/commit/5331d38e6db5463f29588a4eb033892a953a171e) - add `blas/ext/base/gfirst-index-greater-than` [(#13269)](https://github.com/stdlib-js/stdlib/pull/13269)
 -   [`0eecee5`](https://github.com/stdlib-js/stdlib/commit/0eecee50dc4adf16af8e3bb027189d87310b4dd8) - add `gfirstIndexLessThan` to namespace
 -   [`0932d0b`](https://github.com/stdlib-js/stdlib/commit/0932d0b21c85647f48a394306c6da3f374562ee9) - add `blas/ext/base/gfirst-index-less-than` [(#13271)](https://github.com/stdlib-js/stdlib/pull/13271)
 -   [`fadf0fb`](https://github.com/stdlib-js/stdlib/commit/fadf0fb39cf54704bcb3a58a290c43d97b1222a5) - add `gindexOfNotEqual` to namespace
@@ -231,6 +232,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5331d38`](https://github.com/stdlib-js/stdlib/commit/5331d38e6db5463f29588a4eb033892a953a171e) - **feat:** add `blas/ext/base/gfirst-index-greater-than` [(#13269)](https://github.com/stdlib-js/stdlib/pull/13269) _(by Muhammad Haris, Athan Reines)_
 -   [`f6e5777`](https://github.com/stdlib-js/stdlib/commit/f6e5777279016fa47a11875065b566c6989b1519) - **style:** disable lint rule _(by Athan Reines)_
 -   [`0eecee5`](https://github.com/stdlib-js/stdlib/commit/0eecee50dc4adf16af8e3bb027189d87310b4dd8) - **feat:** add `gfirstIndexLessThan` to namespace _(by Athan Reines)_
 -   [`0932d0b`](https://github.com/stdlib-js/stdlib/commit/0932d0b21c85647f48a394306c6da3f374562ee9) - **feat:** add `blas/ext/base/gfirst-index-less-than` [(#13271)](https://github.com/stdlib-js/stdlib/pull/13271) _(by Muhammad Haris, Athan Reines)_
