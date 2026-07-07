@@ -229,7 +229,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`9c31305`](https://github.com/stdlib-js/stdlib/commit/9c31305739ee5411d758efbe4ac7de92ae3e939b) - **test:** fix grammar in test descriptions _(by Athan Reines)_
 -   [`fadf0fb`](https://github.com/stdlib-js/stdlib/commit/fadf0fb39cf54704bcb3a58a290c43d97b1222a5) - **feat:** add `gindexOfNotEqual` to namespace _(by Athan Reines)_
 -   [`f9a3672`](https://github.com/stdlib-js/stdlib/commit/f9a36725589098239bc46a1a0577b44310f48bf8) - **feat:** add `blas/ext/base/gindex-of-not-equal` [(#13342)](https://github.com/stdlib-js/stdlib/pull/13342) _(by Muhammad Haris, Athan Reines)_
 -   [`97a25cb`](https://github.com/stdlib-js/stdlib/commit/97a25cba301263b4ae206940a37a6d02f8c9baf7) - **chore:** follow-up fixes for commits merged to `develop` [(#13327)](https://github.com/stdlib-js/stdlib/pull/13327) _(by Philipp Burckhardt)_
