@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bb93e56`](https://github.com/stdlib-js/stdlib/commit/bb93e568471ae6a13b42c4dd2b519b88dc7d0028) - add `cxmy` and `zxmy` to namespace
 -   [`41ba398`](https://github.com/stdlib-js/stdlib/commit/41ba39852bc5480c16acd778911ab1e921a1df32) - add `blas/ext/base/ndarray/cxmy` [(#13300)](https://github.com/stdlib-js/stdlib/pull/13300)
 -   [`f1c7e3f`](https://github.com/stdlib-js/stdlib/commit/f1c7e3f164551ff6275f36052ab82bacafdd69ca) - add `blas/ext/base/ndarray/zxmy` [(#13301)](https://github.com/stdlib-js/stdlib/pull/13301)
 -   [`5402a8a`](https://github.com/stdlib-js/stdlib/commit/5402a8a72b9d39930ea6c004c9f17d9b15ab075c) - add `cxmy`, `zxmy`, and `dfillEqual` to namespace
@@ -249,6 +250,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`bb93e56`](https://github.com/stdlib-js/stdlib/commit/bb93e568471ae6a13b42c4dd2b519b88dc7d0028) - **feat:** add `cxmy` and `zxmy` to namespace _(by Athan Reines)_
 -   [`41ba398`](https://github.com/stdlib-js/stdlib/commit/41ba39852bc5480c16acd778911ab1e921a1df32) - **feat:** add `blas/ext/base/ndarray/cxmy` [(#13300)](https://github.com/stdlib-js/stdlib/pull/13300) _(by Karan Anand)_
 -   [`f1c7e3f`](https://github.com/stdlib-js/stdlib/commit/f1c7e3f164551ff6275f36052ab82bacafdd69ca) - **feat:** add `blas/ext/base/ndarray/zxmy` [(#13301)](https://github.com/stdlib-js/stdlib/pull/13301) _(by Karan Anand)_
 -   [`5402a8a`](https://github.com/stdlib-js/stdlib/commit/5402a8a72b9d39930ea6c004c9f17d9b15ab075c) - **feat:** add `cxmy`, `zxmy`, and `dfillEqual` to namespace _(by Athan Reines)_
