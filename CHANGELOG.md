@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-07)
+## Unreleased (2026-07-08)
 
 <section class="features">
 
 ### Features
 
+-   [`044b270`](https://github.com/stdlib-js/stdlib/commit/044b270c78533378ef0ec5afe021d47dd19e31d7) - update `blas/ext/base` TypeScript declarations [(#13367)](https://github.com/stdlib-js/stdlib/pull/13367)
 -   [`a82cf98`](https://github.com/stdlib-js/stdlib/commit/a82cf98afd764b9e8794e34eb8b1ceb16833f32c) - add `cwax`, `dwax`, `zwax`, `swax`, and `gfillNotEqual` to namespace
 -   [`d631883`](https://github.com/stdlib-js/stdlib/commit/d631883b1fd54791999ba406596ccbab81f3086f) - add `blas/ext/base/zwax` [(#13315)](https://github.com/stdlib-js/stdlib/pull/13315)
 -   [`1355d39`](https://github.com/stdlib-js/stdlib/commit/1355d39b162247427687c3a41a141e5dcb148200) - add `blas/ext/base/cwax` [(#13305)](https://github.com/stdlib-js/stdlib/pull/13305)
@@ -242,6 +243,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
+-   [`044b270`](https://github.com/stdlib-js/stdlib/commit/044b270c78533378ef0ec5afe021d47dd19e31d7) - **feat:** update `blas/ext/base` TypeScript declarations [(#13367)](https://github.com/stdlib-js/stdlib/pull/13367) _(by stdlib-bot)_
+-   [`0cc2c79`](https://github.com/stdlib-js/stdlib/commit/0cc2c79290f4ad7d5a2d25f8a22a20b8e8d58693) - **docs:** update namespace table of contents [(#13369)](https://github.com/stdlib-js/stdlib/pull/13369) _(by stdlib-bot)_
 -   [`c6a6535`](https://github.com/stdlib-js/stdlib/commit/c6a6535236fd5c5915da6f8d54f6b8bb58515b69) - **docs:** enable lint rule and fix spacing in examples [(#13360)](https://github.com/stdlib-js/stdlib/pull/13360) _(by Philipp Burckhardt, Athan Reines)_
 -   [`a82cf98`](https://github.com/stdlib-js/stdlib/commit/a82cf98afd764b9e8794e34eb8b1ceb16833f32c) - **feat:** add `cwax`, `dwax`, `zwax`, `swax`, and `gfillNotEqual` to namespace _(by Athan Reines)_
 -   [`d631883`](https://github.com/stdlib-js/stdlib/commit/d631883b1fd54791999ba406596ccbab81f3086f) - **feat:** add `blas/ext/base/zwax` [(#13315)](https://github.com/stdlib-js/stdlib/pull/13315) _(by Karan Anand)_
