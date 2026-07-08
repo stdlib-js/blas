@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`f1c7e3f`](https://github.com/stdlib-js/stdlib/commit/f1c7e3f164551ff6275f36052ab82bacafdd69ca) - add `blas/ext/base/ndarray/zxmy` [(#13301)](https://github.com/stdlib-js/stdlib/pull/13301)
+-   [`5402a8a`](https://github.com/stdlib-js/stdlib/commit/5402a8a72b9d39930ea6c004c9f17d9b15ab075c) - add `cxmy`, `zxmy`, and `dfillEqual` to namespace
 -   [`08ca52b`](https://github.com/stdlib-js/stdlib/commit/08ca52bff85d36d2231ec8360fbb87a463ae75e6) - add `blas/ext/base/zxmy` [(#13296)](https://github.com/stdlib-js/stdlib/pull/13296)
 -   [`ad0783b`](https://github.com/stdlib-js/stdlib/commit/ad0783bf7147ed5540bf9e68bbc0015e88bc8e59) - add `blas/ext/base/dfill-equal` [(#13335)](https://github.com/stdlib-js/stdlib/pull/13335)
 -   [`37a54ad`](https://github.com/stdlib-js/stdlib/commit/37a54ade6823794439ff0090f0979d607142fbd2) - add `blas/ext/base/cxmy` [(#13295)](https://github.com/stdlib-js/stdlib/pull/13295)
@@ -246,6 +248,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f1c7e3f`](https://github.com/stdlib-js/stdlib/commit/f1c7e3f164551ff6275f36052ab82bacafdd69ca) - **feat:** add `blas/ext/base/ndarray/zxmy` [(#13301)](https://github.com/stdlib-js/stdlib/pull/13301) _(by Karan Anand)_
+-   [`5402a8a`](https://github.com/stdlib-js/stdlib/commit/5402a8a72b9d39930ea6c004c9f17d9b15ab075c) - **feat:** add `cxmy`, `zxmy`, and `dfillEqual` to namespace _(by Athan Reines)_
 -   [`08ca52b`](https://github.com/stdlib-js/stdlib/commit/08ca52bff85d36d2231ec8360fbb87a463ae75e6) - **feat:** add `blas/ext/base/zxmy` [(#13296)](https://github.com/stdlib-js/stdlib/pull/13296) _(by Karan Anand)_
 -   [`ad0783b`](https://github.com/stdlib-js/stdlib/commit/ad0783bf7147ed5540bf9e68bbc0015e88bc8e59) - **feat:** add `blas/ext/base/dfill-equal` [(#13335)](https://github.com/stdlib-js/stdlib/pull/13335) _(by Muhammad Haris, Athan Reines)_
 -   [`37a54ad`](https://github.com/stdlib-js/stdlib/commit/37a54ade6823794439ff0090f0979d607142fbd2) - **feat:** add `blas/ext/base/cxmy` [(#13295)](https://github.com/stdlib-js/stdlib/pull/13295) _(by Karan Anand)_

@@ -192,6 +192,15 @@ setReadOnly( ns, 'cwhere', require( './../../../ext/base/cwhere' ) );
 setReadOnly( ns, 'cwxsa', require( './../../../ext/base/cwxsa' ) );
 
 /**
+* @name cxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cxmy}
+*/
+setReadOnly( ns, 'cxmy', require( './../../../ext/base/cxmy' ) );
+
+/**
 * @name cxpy
 * @memberof ns
 * @readonly
@@ -460,6 +469,15 @@ setReadOnly( ns, 'dediff', require( './../../../ext/base/dediff' ) );
 * @see {@link module:@stdlib/blas/ext/base/dfill}
 */
 setReadOnly( ns, 'dfill', require( './../../../ext/base/dfill' ) );
+
+/**
+* @name dfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dfill-equal}
+*/
+setReadOnly( ns, 'dfillEqual', require( './../../../ext/base/dfill-equal' ) );
 
 /**
 * @name dfillNaN
@@ -2863,6 +2881,15 @@ setReadOnly( ns, 'zwhere', require( './../../../ext/base/zwhere' ) );
 * @see {@link module:@stdlib/blas/ext/base/zwxsa}
 */
 setReadOnly( ns, 'zwxsa', require( './../../../ext/base/zwxsa' ) );
+
+/**
+* @name zxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zxmy}
+*/
+setReadOnly( ns, 'zxmy', require( './../../../ext/base/zxmy' ) );
 
 /**
 * @name zxpy
