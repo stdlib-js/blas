@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ad0783b`](https://github.com/stdlib-js/stdlib/commit/ad0783bf7147ed5540bf9e68bbc0015e88bc8e59) - add `blas/ext/base/dfill-equal` [(#13335)](https://github.com/stdlib-js/stdlib/pull/13335)
 -   [`37a54ad`](https://github.com/stdlib-js/stdlib/commit/37a54ade6823794439ff0090f0979d607142fbd2) - add `blas/ext/base/cxmy` [(#13295)](https://github.com/stdlib-js/stdlib/pull/13295)
 -   [`044b270`](https://github.com/stdlib-js/stdlib/commit/044b270c78533378ef0ec5afe021d47dd19e31d7) - update `blas/ext/base` TypeScript declarations [(#13367)](https://github.com/stdlib-js/stdlib/pull/13367)
 -   [`a82cf98`](https://github.com/stdlib-js/stdlib/commit/a82cf98afd764b9e8794e34eb8b1ceb16833f32c) - add `cwax`, `dwax`, `zwax`, `swax`, and `gfillNotEqual` to namespace
@@ -244,6 +245,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ad0783b`](https://github.com/stdlib-js/stdlib/commit/ad0783bf7147ed5540bf9e68bbc0015e88bc8e59) - **feat:** add `blas/ext/base/dfill-equal` [(#13335)](https://github.com/stdlib-js/stdlib/pull/13335) _(by Muhammad Haris, Athan Reines)_
 -   [`37a54ad`](https://github.com/stdlib-js/stdlib/commit/37a54ade6823794439ff0090f0979d607142fbd2) - **feat:** add `blas/ext/base/cxmy` [(#13295)](https://github.com/stdlib-js/stdlib/pull/13295) _(by Karan Anand)_
 -   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
 -   [`044b270`](https://github.com/stdlib-js/stdlib/commit/044b270c78533378ef0ec5afe021d47dd19e31d7) - **feat:** update `blas/ext/base` TypeScript declarations [(#13367)](https://github.com/stdlib-js/stdlib/pull/13367) _(by stdlib-bot)_
