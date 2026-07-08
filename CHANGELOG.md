@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`08ca52b`](https://github.com/stdlib-js/stdlib/commit/08ca52bff85d36d2231ec8360fbb87a463ae75e6) - add `blas/ext/base/zxmy` [(#13296)](https://github.com/stdlib-js/stdlib/pull/13296)
 -   [`ad0783b`](https://github.com/stdlib-js/stdlib/commit/ad0783bf7147ed5540bf9e68bbc0015e88bc8e59) - add `blas/ext/base/dfill-equal` [(#13335)](https://github.com/stdlib-js/stdlib/pull/13335)
 -   [`37a54ad`](https://github.com/stdlib-js/stdlib/commit/37a54ade6823794439ff0090f0979d607142fbd2) - add `blas/ext/base/cxmy` [(#13295)](https://github.com/stdlib-js/stdlib/pull/13295)
 -   [`044b270`](https://github.com/stdlib-js/stdlib/commit/044b270c78533378ef0ec5afe021d47dd19e31d7) - update `blas/ext/base` TypeScript declarations [(#13367)](https://github.com/stdlib-js/stdlib/pull/13367)
@@ -245,6 +246,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`08ca52b`](https://github.com/stdlib-js/stdlib/commit/08ca52bff85d36d2231ec8360fbb87a463ae75e6) - **feat:** add `blas/ext/base/zxmy` [(#13296)](https://github.com/stdlib-js/stdlib/pull/13296) _(by Karan Anand)_
 -   [`ad0783b`](https://github.com/stdlib-js/stdlib/commit/ad0783bf7147ed5540bf9e68bbc0015e88bc8e59) - **feat:** add `blas/ext/base/dfill-equal` [(#13335)](https://github.com/stdlib-js/stdlib/pull/13335) _(by Muhammad Haris, Athan Reines)_
 -   [`37a54ad`](https://github.com/stdlib-js/stdlib/commit/37a54ade6823794439ff0090f0979d607142fbd2) - **feat:** add `blas/ext/base/cxmy` [(#13295)](https://github.com/stdlib-js/stdlib/pull/13295) _(by Karan Anand)_
 -   [`a9ded39`](https://github.com/stdlib-js/stdlib/commit/a9ded39203d2cbc9ff79b0cc96f0fbd2a962b36f) - **chore:** clean-up [(#12446)](https://github.com/stdlib-js/stdlib/pull/12446) _(by Philipp Burckhardt, Athan Reines)_
