@@ -18,45 +18,40 @@
 
 'use strict';
 
+// MODULES //
+
+var stride2offset = require( '@stdlib/strided/base/stride2offset' );
+var ndarray = require( './ndarray.js' );
+
+
 // MAIN //
 
 /**
-* Replaces double-precision floating-point strided array elements equal to a provided search element with a specified scalar constant using alternative indexing semantics.
+* Returns the first index of an element in a double-precision floating-point strided array which is not equal to a specified search element.
+*
+* ## Notes
+*
+* -   If all elements are equal to the search element, the function returns `-1`.
 *
 * @param {PositiveInteger} N - number of indexed elements
 * @param {number} searchElement - search element
-* @param {number} alpha - scalar constant
 * @param {Float64Array} x - input array
 * @param {integer} strideX - stride length
-* @param {integer} offsetX - starting index
-* @returns {Float64Array} input array
+* @returns {integer} index
 *
 * @example
 * var Float64Array = require( '@stdlib/array/float64' );
 *
-* var x = new Float64Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+* var x = new Float64Array( [ 1.0, 1.0, 0.0, 1.0 ] );
 *
-* dfillEqual( x.length, 0.0, 5.0, x, 1, 0 );
-* // x => <Float64Array>[ 5.0, 5.0, 1.0, 5.0 ]
+* var idx = dindexOfNotEqual( x.length, 1.0, x, 1 );
+* // returns 2
 */
-function dfillEqual( N, searchElement, alpha, x, strideX, offsetX ) {
-	var ix;
-	var i;
-
-	if ( N <= 0 ) {
-		return x;
-	}
-	ix = offsetX;
-	for ( i = 0; i < N; i++ ) {
-		if ( x[ ix ] === searchElement ) {
-			x[ ix ] = alpha;
-		}
-		ix += strideX;
-	}
-	return x;
+function dindexOfNotEqual( N, searchElement, x, strideX ) {
+	return ndarray( N, searchElement, x, strideX, stride2offset( N, strideX ) );
 }
 
 
 // EXPORTS //
 
-module.exports = dfillEqual;
+module.exports = dindexOfNotEqual;
