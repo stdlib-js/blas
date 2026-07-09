@@ -254,6 +254,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`945328a`](https://github.com/stdlib-js/stdlib/commit/945328aa14e710f4b828b8fa303173c660c77817) - **chore:** clean-up [(#13390)](https://github.com/stdlib-js/stdlib/pull/13390) _(by Philipp Burckhardt)_
 -   [`ef255f0`](https://github.com/stdlib-js/stdlib/commit/ef255f0e2b18bd39f45405f3e359636f7663e403) - **feat:** add `dindexOfNotEqual` _(by Athan Reines)_
 -   [`8be8858`](https://github.com/stdlib-js/stdlib/commit/8be8858e2f4cae7307462d89b9a127d04295d0e2) - **feat:** add `blas/ext/base/dindex-of-not-equal` [(#13355)](https://github.com/stdlib-js/stdlib/pull/13355) _(by Muhammad Haris)_
 -   [`9757a36`](https://github.com/stdlib-js/stdlib/commit/9757a36aac2fb6d734ccab64a058bcde6f8aeaeb) - **chore:** clean-up [(#13373)](https://github.com/stdlib-js/stdlib/pull/13373) _(by Philipp Burckhardt, Athan Reines)_
