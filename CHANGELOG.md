@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ef255f0`](https://github.com/stdlib-js/stdlib/commit/ef255f0e2b18bd39f45405f3e359636f7663e403) - add `dindexOfNotEqual`
 -   [`8be8858`](https://github.com/stdlib-js/stdlib/commit/8be8858e2f4cae7307462d89b9a127d04295d0e2) - add `blas/ext/base/dindex-of-not-equal` [(#13355)](https://github.com/stdlib-js/stdlib/pull/13355)
 -   [`6b6be64`](https://github.com/stdlib-js/stdlib/commit/6b6be6461e4a28602d9b74246203306480689d7c) - update `blas/ext/base/ndarray` TypeScript declarations [(#13382)](https://github.com/stdlib-js/stdlib/pull/13382)
 -   [`f21a6ed`](https://github.com/stdlib-js/stdlib/commit/f21a6edbcfa0d725c71185009f0e3f629ce567ea) - update `blas/ext/base` TypeScript declarations [(#13383)](https://github.com/stdlib-js/stdlib/pull/13383)
@@ -253,6 +254,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ef255f0`](https://github.com/stdlib-js/stdlib/commit/ef255f0e2b18bd39f45405f3e359636f7663e403) - **feat:** add `dindexOfNotEqual` _(by Athan Reines)_
 -   [`8be8858`](https://github.com/stdlib-js/stdlib/commit/8be8858e2f4cae7307462d89b9a127d04295d0e2) - **feat:** add `blas/ext/base/dindex-of-not-equal` [(#13355)](https://github.com/stdlib-js/stdlib/pull/13355) _(by Muhammad Haris)_
 -   [`9757a36`](https://github.com/stdlib-js/stdlib/commit/9757a36aac2fb6d734ccab64a058bcde6f8aeaeb) - **chore:** clean-up [(#13373)](https://github.com/stdlib-js/stdlib/pull/13373) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6b6be64`](https://github.com/stdlib-js/stdlib/commit/6b6be6461e4a28602d9b74246203306480689d7c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13382)](https://github.com/stdlib-js/stdlib/pull/13382) _(by stdlib-bot)_

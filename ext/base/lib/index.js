@@ -516,6 +516,15 @@ setReadOnly( ns, 'dindexOfColumn', require( './../../../ext/base/dindex-of-colum
 setReadOnly( ns, 'dindexOfFalsy', require( './../../../ext/base/dindex-of-falsy' ) );
 
 /**
+* @name dindexOfNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dindex-of-not-equal}
+*/
+setReadOnly( ns, 'dindexOfNotEqual', require( './../../../ext/base/dindex-of-not-equal' ) );
+
+/**
 * @name dindexOfRow
 * @memberof ns
 * @readonly
