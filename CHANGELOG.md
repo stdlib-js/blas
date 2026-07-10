@@ -262,6 +262,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`442d4f0`](https://github.com/stdlib-js/stdlib/commit/442d4f0854d1d0954409f2a5ac4d77e93a3b3968) - **docs:** fix heading _(by Athan Reines)_
 -   [`c2c9fd7`](https://github.com/stdlib-js/stdlib/commit/c2c9fd7d00eb483d84aef3c6cd03549aa94628dc) - **feat:** add `dfillNotEqual`, `dfirstIndexEqual`, and `sfirstIndexEqual` to namespace _(by Athan Reines)_
 -   [`ecdd8f1`](https://github.com/stdlib-js/stdlib/commit/ecdd8f162ace3f519754a80690a85e363df9db5c) - **feat:** add `blas/ext/base/sfirst-index-equal` [(#13371)](https://github.com/stdlib-js/stdlib/pull/13371) _(by Muhammad Haris, Athan Reines)_
 -   [`3109ac2`](https://github.com/stdlib-js/stdlib/commit/3109ac28df00b595456cab2dd3dfd1c4a9529ecf) - **test:** fix require path _(by Athan Reines)_
