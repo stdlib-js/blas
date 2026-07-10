@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f7a6f9c`](https://github.com/stdlib-js/stdlib/commit/f7a6f9c25f0ea385fc9e956a02617f5a3e1848d0) - add `blas/ext/base/dfill-not-equal` [(#13364)](https://github.com/stdlib-js/stdlib/pull/13364)
 -   [`b27ded6`](https://github.com/stdlib-js/stdlib/commit/b27ded6a8f69079e5cfbe2b0b10c5b8bbc3dd094) - update `blas/ext/base` TypeScript declarations [(#13398)](https://github.com/stdlib-js/stdlib/pull/13398)
 -   [`be58411`](https://github.com/stdlib-js/stdlib/commit/be58411e89c950b1d4e7e715ea626459beb3acc1) - add `sfillEqual` and `sfillNotEqual` to namespace
 -   [`c98af0e`](https://github.com/stdlib-js/stdlib/commit/c98af0e225b2786344111b35fec0f076eeec37b3) - add `blas/ext/base/sfill-not-equal` [(#13389)](https://github.com/stdlib-js/stdlib/pull/13389)
@@ -258,6 +259,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f7a6f9c`](https://github.com/stdlib-js/stdlib/commit/f7a6f9c25f0ea385fc9e956a02617f5a3e1848d0) - **feat:** add `blas/ext/base/dfill-not-equal` [(#13364)](https://github.com/stdlib-js/stdlib/pull/13364) _(by Muhammad Haris, Athan Reines)_
 -   [`5c57284`](https://github.com/stdlib-js/stdlib/commit/5c5728403e1a6f73727ae93347d1a8a51087201e) - **refactor:** add support for enums [(#13402)](https://github.com/stdlib-js/stdlib/pull/13402) _(by Kaustubh Patange, Athan Reines)_
 -   [`c519b5c`](https://github.com/stdlib-js/stdlib/commit/c519b5c1039d0652fd3c63a8b3b5ec5b48b42fcc) - **refactor:** add support for enums [(#13403)](https://github.com/stdlib-js/stdlib/pull/13403) _(by Kaustubh Patange, Athan Reines)_
 -   [`c5d06db`](https://github.com/stdlib-js/stdlib/commit/c5d06db7e1526e44d2d9c8284f51e7162cd8c2df) - **docs:** update namespace table of contents [(#13400)](https://github.com/stdlib-js/stdlib/pull/13400) _(by stdlib-bot)_
