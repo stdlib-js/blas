@@ -260,6 +260,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`412de11`](https://github.com/stdlib-js/stdlib/commit/412de11c9b73aedaadb0c8ffac231d2d76696d60) - **docs:** fix descriptions _(by Athan Reines)_
 -   [`adf21e7`](https://github.com/stdlib-js/stdlib/commit/adf21e70198f686b2439b8c91a5011e77193b040) - **feat:** add `blas/ext/base/dfirst-index-equal` [(#13289)](https://github.com/stdlib-js/stdlib/pull/13289) _(by Muhammad Haris, Athan Reines)_
 -   [`f7a6f9c`](https://github.com/stdlib-js/stdlib/commit/f7a6f9c25f0ea385fc9e956a02617f5a3e1848d0) - **feat:** add `blas/ext/base/dfill-not-equal` [(#13364)](https://github.com/stdlib-js/stdlib/pull/13364) _(by Muhammad Haris, Athan Reines)_
 -   [`5c57284`](https://github.com/stdlib-js/stdlib/commit/5c5728403e1a6f73727ae93347d1a8a51087201e) - **refactor:** add support for enums [(#13402)](https://github.com/stdlib-js/stdlib/pull/13402) _(by Kaustubh Patange, Athan Reines)_
