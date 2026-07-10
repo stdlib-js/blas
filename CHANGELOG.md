@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5619c1a`](https://github.com/stdlib-js/stdlib/commit/5619c1a7387e89c1f1c7fdcc809dd9b8c5b1f58a) - add `blas/ext/base/sreplicate` [(#13171)](https://github.com/stdlib-js/stdlib/pull/13171)
 -   [`c2c9fd7`](https://github.com/stdlib-js/stdlib/commit/c2c9fd7d00eb483d84aef3c6cd03549aa94628dc) - add `dfillNotEqual`, `dfirstIndexEqual`, and `sfirstIndexEqual` to namespace
 -   [`ecdd8f1`](https://github.com/stdlib-js/stdlib/commit/ecdd8f162ace3f519754a80690a85e363df9db5c) - add `blas/ext/base/sfirst-index-equal` [(#13371)](https://github.com/stdlib-js/stdlib/pull/13371)
 -   [`adf21e7`](https://github.com/stdlib-js/stdlib/commit/adf21e70198f686b2439b8c91a5011e77193b040) - add `blas/ext/base/dfirst-index-equal` [(#13289)](https://github.com/stdlib-js/stdlib/pull/13289)
@@ -262,6 +263,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5619c1a`](https://github.com/stdlib-js/stdlib/commit/5619c1a7387e89c1f1c7fdcc809dd9b8c5b1f58a) - **feat:** add `blas/ext/base/sreplicate` [(#13171)](https://github.com/stdlib-js/stdlib/pull/13171) _(by Muhammad Haris, Athan Reines)_
 -   [`e713916`](https://github.com/stdlib-js/stdlib/commit/e713916fe28d3fa9bfe95766a1106cf78453e3b4) - **chore:** clean-up [(#13409)](https://github.com/stdlib-js/stdlib/pull/13409) _(by Philipp Burckhardt)_
 -   [`ae1746f`](https://github.com/stdlib-js/stdlib/commit/ae1746f9e63bca71e12bce96d3eab5a7bcf37652) - **docs:** fix heading _(by Athan Reines)_
 -   [`442d4f0`](https://github.com/stdlib-js/stdlib/commit/442d4f0854d1d0954409f2a5ac4d77e93a3b3968) - **docs:** fix heading _(by Athan Reines)_
