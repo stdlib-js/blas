@@ -258,6 +258,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`c5d06db`](https://github.com/stdlib-js/stdlib/commit/c5d06db7e1526e44d2d9c8284f51e7162cd8c2df) - **docs:** update namespace table of contents [(#13400)](https://github.com/stdlib-js/stdlib/pull/13400) _(by stdlib-bot)_
 -   [`b27ded6`](https://github.com/stdlib-js/stdlib/commit/b27ded6a8f69079e5cfbe2b0b10c5b8bbc3dd094) - **feat:** update `blas/ext/base` TypeScript declarations [(#13398)](https://github.com/stdlib-js/stdlib/pull/13398) _(by stdlib-bot)_
 -   [`be58411`](https://github.com/stdlib-js/stdlib/commit/be58411e89c950b1d4e7e715ea626459beb3acc1) - **feat:** add `sfillEqual` and `sfillNotEqual` to namespace _(by Athan Reines)_
 -   [`c98af0e`](https://github.com/stdlib-js/stdlib/commit/c98af0e225b2786344111b35fec0f076eeec37b3) - **feat:** add `blas/ext/base/sfill-not-equal` [(#13389)](https://github.com/stdlib-js/stdlib/pull/13389) _(by Muhammad Haris, Athan Reines)_
