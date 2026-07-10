@@ -73,6 +73,7 @@ import dfillNaN = require( './../../../../ext/base/dfill-nan' );
 import dindexOf = require( './../../../../ext/base/dindex-of' );
 import dindexOfColumn = require( './../../../../ext/base/dindex-of-column' );
 import dindexOfFalsy = require( './../../../../ext/base/dindex-of-falsy' );
+import dindexOfNotEqual = require( './../../../../ext/base/dindex-of-not-equal' );
 import dindexOfRow = require( './../../../../ext/base/dindex-of-row' );
 import dindexOfTruthy = require( './../../../../ext/base/dindex-of-truthy' );
 import dlastIndexOf = require( './../../../../ext/base/dlast-index-of' );
@@ -268,7 +269,9 @@ import sdssum = require( './../../../../ext/base/sdssum' );
 import sdssumpw = require( './../../../../ext/base/sdssumpw' );
 import sediff = require( './../../../../ext/base/sediff' );
 import sfill = require( './../../../../ext/base/sfill' );
+import sfillEqual = require( './../../../../ext/base/sfill-equal' );
 import sfillNaN = require( './../../../../ext/base/sfill-nan' );
+import sfillNotEqual = require( './../../../../ext/base/sfill-not-equal' );
 import sindexOf = require( './../../../../ext/base/sindex-of' );
 import sindexOfColumn = require( './../../../../ext/base/sindex-of-column' );
 import sindexOfFalsy = require( './../../../../ext/base/sindex-of-falsy' );
@@ -1945,7 +1948,7 @@ interface Namespace {
 	*
 	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 0.0 ] );
 	*
-	* ns.dfillEqual( x.length, 0.0, 5.0, x, 1, 0 );
+	* ns.dfillEqual.ndarray( x.length, 0.0, 5.0, x, 1, 0 );
 	* // x => <Float64Array>[ 5.0, 5.0, 1.0, 5.0 ]
 	*/
 	dfillEqual: typeof dfillEqual;
@@ -2081,6 +2084,37 @@ interface Namespace {
 	* // returns 1
 	*/
 	dindexOfFalsy: typeof dindexOfFalsy;
+
+	/**
+	* Returns the first index of an element in a double-precision floating-point strided array which is not equal to a specified search element.
+	*
+	* ## Notes
+	*
+	* -   If all elements are equal to the search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 1.0 ] );
+	*
+	* var idx = ns.dindexOfNotEqual( x.length, 1.0, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 1.0 ] );
+	*
+	* var idx = ns.dindexOfNotEqual.ndarray( x.length, 1.0, x, 1, 0 );
+	* // returns 2
+	*/
+	dindexOfNotEqual: typeof dindexOfNotEqual;
 
 	/**
 	* Returns the index of the first row in a double-precision floating-point input matrix which has the same elements as a provided search vector.
@@ -7634,6 +7668,34 @@ interface Namespace {
 	sfill: typeof sfill;
 
 	/**
+	* Replaces single-precision floating-point strided array elements equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* ns.sfillEqual( x.length, 0.0, 5.0, x, 1 );
+	* // x => <Float32Array>[ 5.0, 5.0, 1.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* ns.sfillEqual.ndarray( x.length, 0.0, 5.0, x, 1, 0 );
+	* // x => <Float32Array>[ 5.0, 5.0, 1.0, 5.0 ]
+	*/
+	sfillEqual: typeof sfillEqual;
+
+	/**
 	* Replaces single-precision floating-point strided array elements equal to `NaN` with a specified scalar constant.
 	*
 	* @param N - number of indexed elements
@@ -7659,6 +7721,34 @@ interface Namespace {
 	* // x => <Float32Array>[ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
 	*/
 	sfillNaN: typeof sfillNaN;
+
+	/**
+	* Replaces single-precision floating-point strided array elements not equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.sfillNotEqual( 6, 0.0, 5.0, x, 1 );
+	* // x => <Float32Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.sfillNotEqual.ndarray( 6, 0.0, 5.0, x, 1, 0 );
+	* // x => <Float32Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*/
+	sfillNotEqual: typeof sfillNotEqual;
 
 	/**
 	* Returns the first index of a specified search element in a single-precision floating-point strided array.
