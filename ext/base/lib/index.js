@@ -489,6 +489,24 @@ setReadOnly( ns, 'dfillEqual', require( './../../../ext/base/dfill-equal' ) );
 setReadOnly( ns, 'dfillNaN', require( './../../../ext/base/dfill-nan' ) );
 
 /**
+* @name dfillNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dfill-not-equal}
+*/
+setReadOnly( ns, 'dfillNotEqual', require( './../../../ext/base/dfill-not-equal' ) );
+
+/**
+* @name dfirstIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dfirst-index-equal}
+*/
+setReadOnly( ns, 'dfirstIndexEqual', require( './../../../ext/base/dfirst-index-equal' ) );
+
+/**
 * @name dindexOf
 * @memberof ns
 * @readonly
@@ -2305,6 +2323,15 @@ setReadOnly( ns, 'sfillNaN', require( './../../../ext/base/sfill-nan' ) );
 * @see {@link module:@stdlib/blas/ext/base/sfill-not-equal}
 */
 setReadOnly( ns, 'sfillNotEqual', require( './../../../ext/base/sfill-not-equal' ) );
+
+/**
+* @name sfirstIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sfirst-index-equal}
+*/
+setReadOnly( ns, 'sfirstIndexEqual', require( './../../../ext/base/sfirst-index-equal' ) );
 
 /**
 * @name sindexOf
