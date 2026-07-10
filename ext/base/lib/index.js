@@ -2280,6 +2280,15 @@ setReadOnly( ns, 'sediff', require( './../../../ext/base/sediff' ) );
 setReadOnly( ns, 'sfill', require( './../../../ext/base/sfill' ) );
 
 /**
+* @name sfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sfill-equal}
+*/
+setReadOnly( ns, 'sfillEqual', require( './../../../ext/base/sfill-equal' ) );
+
+/**
 * @name sfillNaN
 * @memberof ns
 * @readonly
@@ -2287,6 +2296,15 @@ setReadOnly( ns, 'sfill', require( './../../../ext/base/sfill' ) );
 * @see {@link module:@stdlib/blas/ext/base/sfill-nan}
 */
 setReadOnly( ns, 'sfillNaN', require( './../../../ext/base/sfill-nan' ) );
+
+/**
+* @name sfillNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sfill-not-equal}
+*/
+setReadOnly( ns, 'sfillNotEqual', require( './../../../ext/base/sfill-not-equal' ) );
 
 /**
 * @name sindexOf
