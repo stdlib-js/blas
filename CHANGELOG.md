@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ecdd8f1`](https://github.com/stdlib-js/stdlib/commit/ecdd8f162ace3f519754a80690a85e363df9db5c) - add `blas/ext/base/sfirst-index-equal` [(#13371)](https://github.com/stdlib-js/stdlib/pull/13371)
 -   [`adf21e7`](https://github.com/stdlib-js/stdlib/commit/adf21e70198f686b2439b8c91a5011e77193b040) - add `blas/ext/base/dfirst-index-equal` [(#13289)](https://github.com/stdlib-js/stdlib/pull/13289)
 -   [`f7a6f9c`](https://github.com/stdlib-js/stdlib/commit/f7a6f9c25f0ea385fc9e956a02617f5a3e1848d0) - add `blas/ext/base/dfill-not-equal` [(#13364)](https://github.com/stdlib-js/stdlib/pull/13364)
 -   [`b27ded6`](https://github.com/stdlib-js/stdlib/commit/b27ded6a8f69079e5cfbe2b0b10c5b8bbc3dd094) - update `blas/ext/base` TypeScript declarations [(#13398)](https://github.com/stdlib-js/stdlib/pull/13398)
@@ -260,6 +261,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ecdd8f1`](https://github.com/stdlib-js/stdlib/commit/ecdd8f162ace3f519754a80690a85e363df9db5c) - **feat:** add `blas/ext/base/sfirst-index-equal` [(#13371)](https://github.com/stdlib-js/stdlib/pull/13371) _(by Muhammad Haris, Athan Reines)_
 -   [`3109ac2`](https://github.com/stdlib-js/stdlib/commit/3109ac28df00b595456cab2dd3dfd1c4a9529ecf) - **test:** fix require path _(by Athan Reines)_
 -   [`5488831`](https://github.com/stdlib-js/stdlib/commit/5488831b1a50daec5c0a6a2308cd4fc14cf24b28) - **style:** fix line wrapping _(by Athan Reines)_
 -   [`412de11`](https://github.com/stdlib-js/stdlib/commit/412de11c9b73aedaadb0c8ffac231d2d76696d60) - **docs:** fix descriptions _(by Athan Reines)_
