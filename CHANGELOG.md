@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c98af0e`](https://github.com/stdlib-js/stdlib/commit/c98af0e225b2786344111b35fec0f076eeec37b3) - add `blas/ext/base/sfill-not-equal` [(#13389)](https://github.com/stdlib-js/stdlib/pull/13389)
 -   [`5b6713e`](https://github.com/stdlib-js/stdlib/commit/5b6713e52a4745d38db8fff18c54fe8e478f11de) - add `blas/ext/base/sfill-equal` [(#13388)](https://github.com/stdlib-js/stdlib/pull/13388)
 -   [`ef255f0`](https://github.com/stdlib-js/stdlib/commit/ef255f0e2b18bd39f45405f3e359636f7663e403) - add `dindexOfNotEqual`
 -   [`8be8858`](https://github.com/stdlib-js/stdlib/commit/8be8858e2f4cae7307462d89b9a127d04295d0e2) - add `blas/ext/base/dindex-of-not-equal` [(#13355)](https://github.com/stdlib-js/stdlib/pull/13355)
@@ -255,6 +256,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`c98af0e`](https://github.com/stdlib-js/stdlib/commit/c98af0e225b2786344111b35fec0f076eeec37b3) - **feat:** add `blas/ext/base/sfill-not-equal` [(#13389)](https://github.com/stdlib-js/stdlib/pull/13389) _(by Muhammad Haris, Athan Reines)_
 -   [`e7884bb`](https://github.com/stdlib-js/stdlib/commit/e7884bb78de7aa78a380b6ef860acfdd152ffdce) - **docs:** fix example _(by Athan Reines)_
 -   [`5b6713e`](https://github.com/stdlib-js/stdlib/commit/5b6713e52a4745d38db8fff18c54fe8e478f11de) - **feat:** add `blas/ext/base/sfill-equal` [(#13388)](https://github.com/stdlib-js/stdlib/pull/13388) _(by Muhammad Haris, Athan Reines)_
 -   [`945328a`](https://github.com/stdlib-js/stdlib/commit/945328aa14e710f4b828b8fa303173c660c77817) - **chore:** clean-up [(#13390)](https://github.com/stdlib-js/stdlib/pull/13390) _(by Philipp Burckhardt)_
