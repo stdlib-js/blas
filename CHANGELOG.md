@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4da2dcf`](https://github.com/stdlib-js/stdlib/commit/4da2dcf851d853cb51ea9624ba2434d5bd10af0f) - add `sreplicate` and `dreplicate` to namespace
 -   [`6aa6a82`](https://github.com/stdlib-js/stdlib/commit/6aa6a82efe2e965ee99410b45c2501861367a366) - add `blas/ext/base/dreplicate` [(#13179)](https://github.com/stdlib-js/stdlib/pull/13179)
 -   [`0487aaa`](https://github.com/stdlib-js/stdlib/commit/0487aaa9d4c45a46f76ca8e82e10eeaab5554941) - update `blas/ext/base` TypeScript declarations [(#13420)](https://github.com/stdlib-js/stdlib/pull/13420)
 -   [`5619c1a`](https://github.com/stdlib-js/stdlib/commit/5619c1a7387e89c1f1c7fdcc809dd9b8c5b1f58a) - add `blas/ext/base/sreplicate` [(#13171)](https://github.com/stdlib-js/stdlib/pull/13171)
@@ -265,6 +266,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`4da2dcf`](https://github.com/stdlib-js/stdlib/commit/4da2dcf851d853cb51ea9624ba2434d5bd10af0f) - **feat:** add `sreplicate` and `dreplicate` to namespace _(by Athan Reines)_
 -   [`6aa6a82`](https://github.com/stdlib-js/stdlib/commit/6aa6a82efe2e965ee99410b45c2501861367a366) - **feat:** add `blas/ext/base/dreplicate` [(#13179)](https://github.com/stdlib-js/stdlib/pull/13179) _(by Muhammad Haris, Athan Reines)_
 -   [`31d535d`](https://github.com/stdlib-js/stdlib/commit/31d535dbc14736c0a7863333c8f2a876c976f5ef) - **docs:** update namespace table of contents [(#13421)](https://github.com/stdlib-js/stdlib/pull/13421) _(by stdlib-bot)_
 -   [`0487aaa`](https://github.com/stdlib-js/stdlib/commit/0487aaa9d4c45a46f76ca8e82e10eeaab5554941) - **feat:** update `blas/ext/base` TypeScript declarations [(#13420)](https://github.com/stdlib-js/stdlib/pull/13420) _(by stdlib-bot)_
