@@ -266,6 +266,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`e48bed5`](https://github.com/stdlib-js/stdlib/commit/e48bed574c6f015fc0d9bda71d8aaea7dcfaabc7) - **docs:** fix signatures [(#13426)](https://github.com/stdlib-js/stdlib/pull/13426) _(by Philipp Burckhardt)_
 -   [`4da2dcf`](https://github.com/stdlib-js/stdlib/commit/4da2dcf851d853cb51ea9624ba2434d5bd10af0f) - **feat:** add `sreplicate` and `dreplicate` to namespace _(by Athan Reines)_
 -   [`6aa6a82`](https://github.com/stdlib-js/stdlib/commit/6aa6a82efe2e965ee99410b45c2501861367a366) - **feat:** add `blas/ext/base/dreplicate` [(#13179)](https://github.com/stdlib-js/stdlib/pull/13179) _(by Muhammad Haris, Athan Reines)_
 -   [`31d535d`](https://github.com/stdlib-js/stdlib/commit/31d535dbc14736c0a7863333c8f2a876c976f5ef) - **docs:** update namespace table of contents [(#13421)](https://github.com/stdlib-js/stdlib/pull/13421) _(by stdlib-bot)_
