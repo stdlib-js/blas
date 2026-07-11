@@ -70,6 +70,8 @@ import dediff = require( './../../../../ext/base/dediff' );
 import dfill = require( './../../../../ext/base/dfill' );
 import dfillEqual = require( './../../../../ext/base/dfill-equal' );
 import dfillNaN = require( './../../../../ext/base/dfill-nan' );
+import dfillNotEqual = require( './../../../../ext/base/dfill-not-equal' );
+import dfirstIndexEqual = require( './../../../../ext/base/dfirst-index-equal' );
 import dindexOf = require( './../../../../ext/base/dindex-of' );
 import dindexOfColumn = require( './../../../../ext/base/dindex-of-column' );
 import dindexOfFalsy = require( './../../../../ext/base/dindex-of-falsy' );
@@ -272,6 +274,7 @@ import sfill = require( './../../../../ext/base/sfill' );
 import sfillEqual = require( './../../../../ext/base/sfill-equal' );
 import sfillNaN = require( './../../../../ext/base/sfill-nan' );
 import sfillNotEqual = require( './../../../../ext/base/sfill-not-equal' );
+import sfirstIndexEqual = require( './../../../../ext/base/sfirst-index-equal' );
 import sindexOf = require( './../../../../ext/base/sindex-of' );
 import sindexOfColumn = require( './../../../../ext/base/sindex-of-column' );
 import sindexOfFalsy = require( './../../../../ext/base/sindex-of-falsy' );
@@ -1979,6 +1982,64 @@ interface Namespace {
 	* // x => <Float64Array>[ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
 	*/
 	dfillNaN: typeof dfillNaN;
+
+	/**
+	* Replaces double-precision floating-point strided array elements not equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.dfillNotEqual( 6, 0.0, 5.0, x, 1 );
+	* // x => <Float64Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.dfillNotEqual.ndarray( 6, 0.0, 5.0, x, 1, 0 );
+	* // x => <Float64Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*/
+	dfillNotEqual: typeof dfillNotEqual;
+
+	/**
+	* Returns the index of the first element in a double-precision floating-point strided array equal to a corresponding element in another double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float64Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.dfirstIndexEqual( 4, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float64Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.dfirstIndexEqual.ndarray( 4, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	dfirstIndexEqual: typeof dfirstIndexEqual;
 
 	/**
 	* Returns the first index of a specified search element in a double-precision floating-point strided array.
@@ -7749,6 +7810,40 @@ interface Namespace {
 	* // x => <Float32Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
 	*/
 	sfillNotEqual: typeof sfillNotEqual;
+
+	/**
+	* Returns the index of the first element in a single-precision floating-point strided array equal to a corresponding element in another single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a match, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.sfirstIndexEqual( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.sfirstIndexEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	sfirstIndexEqual: typeof sfirstIndexEqual;
 
 	/**
 	* Returns the first index of a specified search element in a single-precision floating-point strided array.

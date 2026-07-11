@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-10)
+## Unreleased (2026-07-11)
 
 <section class="features">
 
 ### Features
 
+-   [`0487aaa`](https://github.com/stdlib-js/stdlib/commit/0487aaa9d4c45a46f76ca8e82e10eeaab5554941) - update `blas/ext/base` TypeScript declarations [(#13420)](https://github.com/stdlib-js/stdlib/pull/13420)
 -   [`5619c1a`](https://github.com/stdlib-js/stdlib/commit/5619c1a7387e89c1f1c7fdcc809dd9b8c5b1f58a) - add `blas/ext/base/sreplicate` [(#13171)](https://github.com/stdlib-js/stdlib/pull/13171)
 -   [`c2c9fd7`](https://github.com/stdlib-js/stdlib/commit/c2c9fd7d00eb483d84aef3c6cd03549aa94628dc) - add `dfillNotEqual`, `dfirstIndexEqual`, and `sfirstIndexEqual` to namespace
 -   [`ecdd8f1`](https://github.com/stdlib-js/stdlib/commit/ecdd8f162ace3f519754a80690a85e363df9db5c) - add `blas/ext/base/sfirst-index-equal` [(#13371)](https://github.com/stdlib-js/stdlib/pull/13371)
@@ -263,6 +264,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`31d535d`](https://github.com/stdlib-js/stdlib/commit/31d535dbc14736c0a7863333c8f2a876c976f5ef) - **docs:** update namespace table of contents [(#13421)](https://github.com/stdlib-js/stdlib/pull/13421) _(by stdlib-bot)_
+-   [`0487aaa`](https://github.com/stdlib-js/stdlib/commit/0487aaa9d4c45a46f76ca8e82e10eeaab5554941) - **feat:** update `blas/ext/base` TypeScript declarations [(#13420)](https://github.com/stdlib-js/stdlib/pull/13420) _(by stdlib-bot)_
 -   [`5619c1a`](https://github.com/stdlib-js/stdlib/commit/5619c1a7387e89c1f1c7fdcc809dd9b8c5b1f58a) - **feat:** add `blas/ext/base/sreplicate` [(#13171)](https://github.com/stdlib-js/stdlib/pull/13171) _(by Muhammad Haris, Athan Reines)_
 -   [`e713916`](https://github.com/stdlib-js/stdlib/commit/e713916fe28d3fa9bfe95766a1106cf78453e3b4) - **chore:** clean-up [(#13409)](https://github.com/stdlib-js/stdlib/pull/13409) _(by Philipp Burckhardt)_
 -   [`ae1746f`](https://github.com/stdlib-js/stdlib/commit/ae1746f9e63bca71e12bce96d3eab5a7bcf37652) - **docs:** fix heading _(by Athan Reines)_
