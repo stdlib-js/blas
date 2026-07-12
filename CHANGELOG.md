@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-11)
+## Unreleased (2026-07-12)
 
 <section class="features">
 
@@ -267,6 +267,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`01e89e9`](https://github.com/stdlib-js/stdlib/commit/01e89e9231e58b6bdfc475d79d0522ce19a67cd1) - **docs:** update namespace table of contents [(#13432)](https://github.com/stdlib-js/stdlib/pull/13432) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`7d7370b`](https://github.com/stdlib-js/stdlib/commit/7d7370befa87a49e6f99cc7115cbc04acc3648b6) - **feat:** add `blas/ext/base/ndarray/gfill-not-equal` [(#13412)](https://github.com/stdlib-js/stdlib/pull/13412) _(by Muhammad Haris)_
 -   [`e48bed5`](https://github.com/stdlib-js/stdlib/commit/e48bed574c6f015fc0d9bda71d8aaea7dcfaabc7) - **docs:** fix signatures [(#13426)](https://github.com/stdlib-js/stdlib/pull/13426) _(by Philipp Burckhardt)_
 -   [`4da2dcf`](https://github.com/stdlib-js/stdlib/commit/4da2dcf851d853cb51ea9624ba2434d5bd10af0f) - **feat:** add `sreplicate` and `dreplicate` to namespace _(by Athan Reines)_
