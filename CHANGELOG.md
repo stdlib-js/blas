@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`89717dd`](https://github.com/stdlib-js/stdlib/commit/89717ddc35cff32083cafe5ddf62a6be82d1f7a6) - add `blas/ext/base/gfill-less-than` [(#13425)](https://github.com/stdlib-js/stdlib/pull/13425)
 -   [`dc800ce`](https://github.com/stdlib-js/stdlib/commit/dc800ced394a4d47ca58e22c12b7b6254b565638) - update `blas/ext/base` TypeScript declarations [(#13431)](https://github.com/stdlib-js/stdlib/pull/13431)
 -   [`7d7370b`](https://github.com/stdlib-js/stdlib/commit/7d7370befa87a49e6f99cc7115cbc04acc3648b6) - add `blas/ext/base/ndarray/gfill-not-equal` [(#13412)](https://github.com/stdlib-js/stdlib/pull/13412)
 -   [`4da2dcf`](https://github.com/stdlib-js/stdlib/commit/4da2dcf851d853cb51ea9624ba2434d5bd10af0f) - add `sreplicate` and `dreplicate` to namespace
@@ -268,6 +269,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`89717dd`](https://github.com/stdlib-js/stdlib/commit/89717ddc35cff32083cafe5ddf62a6be82d1f7a6) - **feat:** add `blas/ext/base/gfill-less-than` [(#13425)](https://github.com/stdlib-js/stdlib/pull/13425) _(by Muhammad Haris, Athan Reines)_
 -   [`6352f5d`](https://github.com/stdlib-js/stdlib/commit/6352f5d926b03262dc86e116258168fee4c7132c) - **refactor:** add support for enums in `blas/base/gsyr` [(#13447)](https://github.com/stdlib-js/stdlib/pull/13447) _(by Kaustubh Patange)_
 -   [`dc800ce`](https://github.com/stdlib-js/stdlib/commit/dc800ced394a4d47ca58e22c12b7b6254b565638) - **feat:** update `blas/ext/base` TypeScript declarations [(#13431)](https://github.com/stdlib-js/stdlib/pull/13431) _(by stdlib-bot)_
 -   [`01e89e9`](https://github.com/stdlib-js/stdlib/commit/01e89e9231e58b6bdfc475d79d0522ce19a67cd1) - **docs:** update namespace table of contents [(#13432)](https://github.com/stdlib-js/stdlib/pull/13432) _(by stdlib-bot, Philipp Burckhardt)_
