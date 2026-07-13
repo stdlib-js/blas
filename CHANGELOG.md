@@ -269,6 +269,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`6598e05`](https://github.com/stdlib-js/stdlib/commit/6598e05680d46992f2b0972c45b342babffac9c6) - **refactor:** add support for enums in `blas/base/dspr` [(#13455)](https://github.com/stdlib-js/stdlib/pull/13455) _(by Kaustubh Patange)_
 -   [`d74c033`](https://github.com/stdlib-js/stdlib/commit/d74c0332b26bbe0924614cca9194ced45934374c) - **refactor:** add support for enums in `blas/base/sspr` [(#13456)](https://github.com/stdlib-js/stdlib/pull/13456) _(by Kaustubh Patange)_
 -   [`89717dd`](https://github.com/stdlib-js/stdlib/commit/89717ddc35cff32083cafe5ddf62a6be82d1f7a6) - **feat:** add `blas/ext/base/gfill-less-than` [(#13425)](https://github.com/stdlib-js/stdlib/pull/13425) _(by Muhammad Haris, Athan Reines)_
 -   [`6352f5d`](https://github.com/stdlib-js/stdlib/commit/6352f5d926b03262dc86e116258168fee4c7132c) - **refactor:** add support for enums in `blas/base/gsyr` [(#13447)](https://github.com/stdlib-js/stdlib/pull/13447) _(by Kaustubh Patange)_
