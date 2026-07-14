@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698)
 -   [`60db353`](https://github.com/stdlib-js/stdlib/commit/60db353662730f6cd42ff5c0a8797a162ccb2940) - add `blas/ext/base/gxdy` [(#13444)](https://github.com/stdlib-js/stdlib/pull/13444)
 -   [`6347e82`](https://github.com/stdlib-js/stdlib/commit/6347e820477f34bfff967f96978dc85a878c3054) - update `blas/ext/base` TypeScript declarations [(#13462)](https://github.com/stdlib-js/stdlib/pull/13462)
 -   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461)
@@ -275,6 +276,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - **feat:** add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698) _(by Kaustubh Patange, Athan Reines)_
 -   [`60db353`](https://github.com/stdlib-js/stdlib/commit/60db353662730f6cd42ff5c0a8797a162ccb2940) - **feat:** add `blas/ext/base/gxdy` [(#13444)](https://github.com/stdlib-js/stdlib/pull/13444) _(by Karan Anand)_
 -   [`462801a`](https://github.com/stdlib-js/stdlib/commit/462801a8eb3659986bb713f55cb923faa976d881) - **docs:** update namespace table of contents [(#13465)](https://github.com/stdlib-js/stdlib/pull/13465) _(by stdlib-bot)_
 -   [`14939f9`](https://github.com/stdlib-js/stdlib/commit/14939f999548dfb34e3fbd718162c50b75e1c0a9) - **refactor:** add support for enums in `blas/base/dsyr2` [(#13433)](https://github.com/stdlib-js/stdlib/pull/13433) _(by Kaustubh Patange)_
