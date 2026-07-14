@@ -269,6 +269,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`9a1e43c`](https://github.com/stdlib-js/stdlib/commit/9a1e43c351a8d9df8563ef5767b27efbcbc89ceb) - **style:** fix disabling of lint rule _(by Athan Reines)_
 -   [`b20f51a`](https://github.com/stdlib-js/stdlib/commit/b20f51a73369ddad78b7c981f069f68aa93711df) - **style:** fix disabling of lint rule _(by Athan Reines)_
 -   [`0f24d0d`](https://github.com/stdlib-js/stdlib/commit/0f24d0d9f742c471f083ad6c00df814e05053d12) - **docs:** update descriptions and comments [(#13451)](https://github.com/stdlib-js/stdlib/pull/13451) _(by Philipp Burckhardt)_
 -   [`059dffa`](https://github.com/stdlib-js/stdlib/commit/059dffa1f48e361055345bfeba6bd8f7dfe08d3b) - **chore:** clean-up [(#13450)](https://github.com/stdlib-js/stdlib/pull/13450) _(by Philipp Burckhardt, Athan Reines)_
