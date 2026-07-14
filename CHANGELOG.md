@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461)
 -   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908)
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - add `gfillNotEqual` to namespace
 -   [`67fc6ce`](https://github.com/stdlib-js/stdlib/commit/67fc6ce862ae93f9ccc7a6dd8da1ecf69344700e) - add `gfillLessThan` to namespace
@@ -272,6 +273,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5ca34e1`](https://github.com/stdlib-js/stdlib/commit/5ca34e1e1bd01241b598bb886ecabd6ba883ef0e) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13461)](https://github.com/stdlib-js/stdlib/pull/13461) _(by stdlib-bot)_
 -   [`c285e1d`](https://github.com/stdlib-js/stdlib/commit/c285e1df2a4371a82fb047157742756c1f4c2632) - **refactor:** add support for enums in `blas/base/ssyr2` [(#13434)](https://github.com/stdlib-js/stdlib/pull/13434) _(by Kaustubh Patange)_
 -   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - **feat:** add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908) _(by Kaustubh Patange, Athan Reines)_
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - **feat:** add `gfillNotEqual` to namespace _(by Athan Reines)_
