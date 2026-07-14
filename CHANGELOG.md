@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a5c8a06`](https://github.com/stdlib-js/stdlib/commit/a5c8a0671deeb98003b9cce8348331db3a3dd4e2) - add `blas/base/ndarray/sger` [(#12699)](https://github.com/stdlib-js/stdlib/pull/12699)
 -   [`bb60d76`](https://github.com/stdlib-js/stdlib/commit/bb60d76f1b9bdaa80f17a05eb0d931eb36982af3) - add `blas/ext/base/dxdy` [(#13445)](https://github.com/stdlib-js/stdlib/pull/13445)
 -   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - add `gxdy` to namespace
 -   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - add `ggemv` to namespace
@@ -280,6 +281,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a5c8a06`](https://github.com/stdlib-js/stdlib/commit/a5c8a0671deeb98003b9cce8348331db3a3dd4e2) - **feat:** add `blas/base/ndarray/sger` [(#12699)](https://github.com/stdlib-js/stdlib/pull/12699) _(by Kaustubh Patange)_
 -   [`bb60d76`](https://github.com/stdlib-js/stdlib/commit/bb60d76f1b9bdaa80f17a05eb0d931eb36982af3) - **feat:** add `blas/ext/base/dxdy` [(#13445)](https://github.com/stdlib-js/stdlib/pull/13445) _(by Karan Anand, Athan Reines)_
 -   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - **feat:** add `gxdy` to namespace _(by Athan Reines)_
 -   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - **feat:** add `ggemv` to namespace _(by Athan Reines)_
