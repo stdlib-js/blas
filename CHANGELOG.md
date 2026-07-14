@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908)
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - add `gfillNotEqual` to namespace
 -   [`67fc6ce`](https://github.com/stdlib-js/stdlib/commit/67fc6ce862ae93f9ccc7a6dd8da1ecf69344700e) - add `gfillLessThan` to namespace
 -   [`89717dd`](https://github.com/stdlib-js/stdlib/commit/89717ddc35cff32083cafe5ddf62a6be82d1f7a6) - add `blas/ext/base/gfill-less-than` [(#13425)](https://github.com/stdlib-js/stdlib/pull/13425)
@@ -272,7 +271,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`ab53d74`](https://github.com/stdlib-js/stdlib/commit/ab53d7466277d5df60dc82470a77e9e08f386c77) - **feat:** add `blas/base/ndarray/ggemv` [(#12908)](https://github.com/stdlib-js/stdlib/pull/12908) _(by Kaustubh Patange, Athan Reines)_
 -   [`ea0b2cd`](https://github.com/stdlib-js/stdlib/commit/ea0b2cdf6e87efa81e5eb0f4dd687b293a0e40e1) - **feat:** add `gfillNotEqual` to namespace _(by Athan Reines)_
 -   [`67fc6ce`](https://github.com/stdlib-js/stdlib/commit/67fc6ce862ae93f9ccc7a6dd8da1ecf69344700e) - **feat:** add `gfillLessThan` to namespace _(by Athan Reines)_
 -   [`9a1e43c`](https://github.com/stdlib-js/stdlib/commit/9a1e43c351a8d9df8563ef5767b27efbcbc89ceb) - **style:** fix disabling of lint rule _(by Athan Reines)_
