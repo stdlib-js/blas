@@ -1974,6 +1974,15 @@ setReadOnly( ns, 'gwxsa', require( './../../../ext/base/gwxsa' ) );
 setReadOnly( ns, 'gwxsy', require( './../../../ext/base/gwxsy' ) );
 
 /**
+* @name gxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gxdy}
+*/
+setReadOnly( ns, 'gxdy', require( './../../../ext/base/gxdy' ) );
+
+/**
 * @name gxmy
 * @memberof ns
 * @readonly

@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - add `gxdy` to namespace
+-   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - add `ggemv` to namespace
+-   [`de4e96c`](https://github.com/stdlib-js/stdlib/commit/de4e96ca220f636f0600e9b89e41915f9a31a980) - add `dger` to namespace
 -   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698)
 -   [`60db353`](https://github.com/stdlib-js/stdlib/commit/60db353662730f6cd42ff5c0a8797a162ccb2940) - add `blas/ext/base/gxdy` [(#13444)](https://github.com/stdlib-js/stdlib/pull/13444)
 -   [`6347e82`](https://github.com/stdlib-js/stdlib/commit/6347e820477f34bfff967f96978dc85a878c3054) - update `blas/ext/base` TypeScript declarations [(#13462)](https://github.com/stdlib-js/stdlib/pull/13462)
@@ -276,6 +279,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f0ea13b`](https://github.com/stdlib-js/stdlib/commit/f0ea13be3ab90733442767b8705fafa98b239ba8) - **feat:** add `gxdy` to namespace _(by Athan Reines)_
+-   [`0e7f85f`](https://github.com/stdlib-js/stdlib/commit/0e7f85fdd7edefec4777d71f6aff88d144cf9496) - **feat:** add `ggemv` to namespace _(by Athan Reines)_
+-   [`de4e96c`](https://github.com/stdlib-js/stdlib/commit/de4e96ca220f636f0600e9b89e41915f9a31a980) - **feat:** add `dger` to namespace _(by Athan Reines)_
 -   [`891cc9a`](https://github.com/stdlib-js/stdlib/commit/891cc9a166dfc485f5e29c72add1ee1c40813365) - **feat:** add `blas/base/ndarray/dger` [(#12698)](https://github.com/stdlib-js/stdlib/pull/12698) _(by Kaustubh Patange, Athan Reines)_
 -   [`60db353`](https://github.com/stdlib-js/stdlib/commit/60db353662730f6cd42ff5c0a8797a162ccb2940) - **feat:** add `blas/ext/base/gxdy` [(#13444)](https://github.com/stdlib-js/stdlib/pull/13444) _(by Karan Anand)_
 -   [`462801a`](https://github.com/stdlib-js/stdlib/commit/462801a8eb3659986bb713f55cb923faa976d881) - **docs:** update namespace table of contents [(#13465)](https://github.com/stdlib-js/stdlib/pull/13465) _(by stdlib-bot)_

@@ -127,6 +127,15 @@ setReadOnly( ns, 'dcopy', require( './../../../base/ndarray/dcopy' ) );
 setReadOnly( ns, 'ddot', require( './../../../base/ndarray/ddot' ) );
 
 /**
+* @name dger
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dger}
+*/
+setReadOnly( ns, 'dger', require( './../../../base/ndarray/dger' ) );
+
+/**
 * @name dnrm2
 * @memberof ns
 * @readonly
@@ -215,6 +224,15 @@ setReadOnly( ns, 'gcopy', require( './../../../base/ndarray/gcopy' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/gdot}
 */
 setReadOnly( ns, 'gdot', require( './../../../base/ndarray/gdot' ) );
+
+/**
+* @name ggemv
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/ggemv}
+*/
+setReadOnly( ns, 'ggemv', require( './../../../base/ndarray/ggemv' ) );
 
 /**
 * @name gnrm2
