@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f1cfa7c`](https://github.com/stdlib-js/stdlib/commit/f1cfa7cf29471ee65f1cdb3df553af81aa73b316) - add `sxdy` to namespace
 -   [`3108efa`](https://github.com/stdlib-js/stdlib/commit/3108efa420b47b65c03df355b899607f343e06ec) - add `blas/ext/base/sxdy` [(#13446)](https://github.com/stdlib-js/stdlib/pull/13446)
 -   [`0fe23d6`](https://github.com/stdlib-js/stdlib/commit/0fe23d6fccac40176fb3b437cf7171882fa5a48c) - add `blas/nrm2` [(#13354)](https://github.com/stdlib-js/stdlib/pull/13354)
 -   [`8bf618a`](https://github.com/stdlib-js/stdlib/commit/8bf618aed672b75bbbcd813dd2c5cd5c72274f1b) - add `dgemv`, `sgemv`, and `sger` to namespace
@@ -287,6 +288,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f1cfa7c`](https://github.com/stdlib-js/stdlib/commit/f1cfa7cf29471ee65f1cdb3df553af81aa73b316) - **feat:** add `sxdy` to namespace _(by Athan Reines)_
 -   [`3108efa`](https://github.com/stdlib-js/stdlib/commit/3108efa420b47b65c03df355b899607f343e06ec) - **feat:** add `blas/ext/base/sxdy` [(#13446)](https://github.com/stdlib-js/stdlib/pull/13446) _(by Karan Anand)_
 -   [`0fe23d6`](https://github.com/stdlib-js/stdlib/commit/0fe23d6fccac40176fb3b437cf7171882fa5a48c) - **feat:** add `blas/nrm2` [(#13354)](https://github.com/stdlib-js/stdlib/pull/13354) _(by Kaustubh Patange, Athan Reines)_
 -   [`8bf618a`](https://github.com/stdlib-js/stdlib/commit/8bf618aed672b75bbbcd813dd2c5cd5c72274f1b) - **feat:** add `dgemv`, `sgemv`, and `sger` to namespace _(by Athan Reines)_

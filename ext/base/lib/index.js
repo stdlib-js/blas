@@ -2757,6 +2757,15 @@ setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
 setReadOnly( ns, 'swxsa', require( './../../../ext/base/swxsa' ) );
 
 /**
+* @name sxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sxdy}
+*/
+setReadOnly( ns, 'sxdy', require( './../../../ext/base/sxdy' ) );
+
+/**
 * @name sxmy
 * @memberof ns
 * @readonly
