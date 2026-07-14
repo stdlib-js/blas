@@ -173,6 +173,7 @@ import gevery = require( './../../../../ext/base/gevery' );
 import gfill = require( './../../../../ext/base/gfill' );
 import gfillBy = require( './../../../../ext/base/gfill-by' );
 import gfillEqual = require( './../../../../ext/base/gfill-equal' );
+import gfillLessThan = require( './../../../../ext/base/gfill-less-than' );
 import gfillNaN = require( './../../../../ext/base/gfill-nan' );
 import gfillNotEqual = require( './../../../../ext/base/gfill-not-equal' );
 import gfindIndex = require( './../../../../ext/base/gfind-index' );
@@ -4990,6 +4991,30 @@ interface Namespace {
 	* // x => [ -2.0, 5.0, 3.0, 5.0, 4.0, 5.0, -1.0, -3.0 ]
 	*/
 	gfillEqual: typeof gfillEqual;
+
+	/**
+	* Replaces strided array elements less than a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* ns.gfillLessThan( x.length, 0.5, 5.0, x, 1 );
+	* // x => [ 5.0, 5.0, 1.0, 5.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* ns.gfillLessThan.ndarray( x.length, 0.5, 5.0, x, 1, 0 );
+	* // x => [ 5.0, 5.0, 1.0, 5.0 ]
+	*/
+	gfillLessThan: typeof gfillLessThan;
 
 	/**
 	* Replaces strided array elements equal to `NaN` with a specified scalar constant.
