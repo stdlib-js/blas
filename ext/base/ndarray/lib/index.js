@@ -523,6 +523,15 @@ setReadOnly( ns, 'gcusumors', require( './../../../../ext/base/ndarray/gcusumors
 setReadOnly( ns, 'gcusumpw', require( './../../../../ext/base/ndarray/gcusumpw' ) );
 
 /**
+* @name gfillNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-not-equal}
+*/
+setReadOnly( ns, 'gfillNotEqual', require( './../../../../ext/base/ndarray/gfill-not-equal' ) );
+
+/**
 * @name gfindIndex
 * @memberof ns
 * @readonly
