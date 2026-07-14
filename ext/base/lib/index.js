@@ -1092,6 +1092,15 @@ setReadOnly( ns, 'dwhere', require( './../../../ext/base/dwhere' ) );
 setReadOnly( ns, 'dwxsa', require( './../../../ext/base/dwxsa' ) );
 
 /**
+* @name dxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dxdy}
+*/
+setReadOnly( ns, 'dxdy', require( './../../../ext/base/dxdy' ) );
+
+/**
 * @name dxmy
 * @memberof ns
 * @readonly
