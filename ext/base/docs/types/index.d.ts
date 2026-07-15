@@ -137,6 +137,7 @@ import dwapx = require( './../../../../ext/base/dwapx' );
 import dwax = require( './../../../../ext/base/dwax' );
 import dwhere = require( './../../../../ext/base/dwhere' );
 import dwxsa = require( './../../../../ext/base/dwxsa' );
+import dxdy = require( './../../../../ext/base/dxdy' );
 import dxmy = require( './../../../../ext/base/dxmy' );
 import dxpy = require( './../../../../ext/base/dxpy' );
 import dxsa = require( './../../../../ext/base/dxsa' );
@@ -235,6 +236,7 @@ import gwhere = require( './../../../../ext/base/gwhere' );
 import gwxpy = require( './../../../../ext/base/gwxpy' );
 import gwxsa = require( './../../../../ext/base/gwxsa' );
 import gwxsy = require( './../../../../ext/base/gwxsy' );
+import gxdy = require( './../../../../ext/base/gxdy' );
 import gxmy = require( './../../../../ext/base/gxmy' );
 import gxpy = require( './../../../../ext/base/gxpy' );
 import gxsa = require( './../../../../ext/base/gxsa' );
@@ -320,6 +322,7 @@ import swapx = require( './../../../../ext/base/swapx' );
 import swax = require( './../../../../ext/base/swax' );
 import swhere = require( './../../../../ext/base/swhere' );
 import swxsa = require( './../../../../ext/base/swxsa' );
+import sxdy = require( './../../../../ext/base/sxdy' );
 import sxmy = require( './../../../../ext/base/sxmy' );
 import sxpy = require( './../../../../ext/base/sxpy' );
 import sxsa = require( './../../../../ext/base/sxsa' );
@@ -4016,6 +4019,36 @@ interface Namespace {
 	dwxsa: typeof dwxsa;
 
 	/**
+	* Divides elements of a double-precision floating-point strided array `x` by the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxdy( x.length, x, 1, y, 1 );
+	* // y => <Float64Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxdy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*/
+	dxdy: typeof dxdy;
+
+	/**
 	* Multiplies elements of a double-precision floating-point strided array `x` by the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to `y`.
 	*
 	* @param N - number of indexed elements
@@ -6688,6 +6721,32 @@ interface Namespace {
 	gwxsy: typeof gwxsy;
 
 	/**
+	* Divides elements of a strided array `x` by the corresponding elements of a strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var x = [ 4.0, 6.0, 12.0, 20.0, 30.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxdy( x.length, x, 1, y, 1 );
+	* // y => [ 2.0, 2.0, 3.0, 4.0, 5.0 ]
+	*
+	* @example
+	* var x = [ 4.0, 6.0, 12.0, 20.0, 30.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxdy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => [ 2.0, 2.0, 3.0, 4.0, 5.0 ]
+	*/
+	gxdy: typeof gxdy;
+
+	/**
 	* Multiplies elements of a strided array `x` by the corresponding elements of a strided array `y` and assigns the results to `y`.
 	*
 	* @param N - number of indexed elements
@@ -9249,6 +9308,36 @@ interface Namespace {
 	* // w => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
 	*/
 	swxsa: typeof swxsa;
+
+	/**
+	* Divides elements of a single-precision floating-point strided array `x` by the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 6.0, 12.0, 20.0, 30.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxdy( x.length, x, 1, y, 1 );
+	* // y => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 6.0, 12.0, 20.0, 30.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxdy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0 ]
+	*/
+	sxdy: typeof sxdy;
 
 	/**
 	* Multiplies elements of a single-precision floating-point strided array `x` by the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to `y`.
