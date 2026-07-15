@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`78c77ed`](https://github.com/stdlib-js/stdlib/commit/78c77edaad39be4471980f5337932a8fd91756d1) - add `zindexOfTruthy` to namespace
+-   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - add `gger` to namespace
 -   [`13377f9`](https://github.com/stdlib-js/stdlib/commit/13377f987ae5d6b71ea1dc904eb51ef9db4dd749) - add `blas/ext/base/zindex-of-truthy` [(#12996)](https://github.com/stdlib-js/stdlib/pull/12996)
 -   [`dda312b`](https://github.com/stdlib-js/stdlib/commit/dda312b526f0dbc4e03bf5f3340c4b549028bd79) - update `blas/ext/base` TypeScript declarations [(#13478)](https://github.com/stdlib-js/stdlib/pull/13478)
 -   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477)
@@ -292,6 +294,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`78c77ed`](https://github.com/stdlib-js/stdlib/commit/78c77edaad39be4471980f5337932a8fd91756d1) - **feat:** add `zindexOfTruthy` to namespace _(by Athan Reines)_
+-   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - **feat:** add `gger` to namespace _(by Athan Reines)_
 -   [`13377f9`](https://github.com/stdlib-js/stdlib/commit/13377f987ae5d6b71ea1dc904eb51ef9db4dd749) - **feat:** add `blas/ext/base/zindex-of-truthy` [(#12996)](https://github.com/stdlib-js/stdlib/pull/12996) _(by Muhammad Haris, Athan Reines)_
 -   [`205b5c2`](https://github.com/stdlib-js/stdlib/commit/205b5c215d6d31ce59fff43bef22eba10f0f70a5) - **docs:** update namespace table of contents [(#13479)](https://github.com/stdlib-js/stdlib/pull/13479) _(by stdlib-bot)_
 -   [`dda312b`](https://github.com/stdlib-js/stdlib/commit/dda312b526f0dbc4e03bf5f3340c4b549028bd79) - **feat:** update `blas/ext/base` TypeScript declarations [(#13478)](https://github.com/stdlib-js/stdlib/pull/13478) _(by stdlib-bot)_

@@ -2901,6 +2901,15 @@ setReadOnly( ns, 'zindexOfColumn', require( './../../../ext/base/zindex-of-colum
 setReadOnly( ns, 'zindexOfRow', require( './../../../ext/base/zindex-of-row' ) );
 
 /**
+* @name zindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zindex-of-truthy}
+*/
+setReadOnly( ns, 'zindexOfTruthy', require( './../../../ext/base/zindex-of-truthy' ) );
+
+/**
 * @name zlastIndexOfRow
 * @memberof ns
 * @readonly

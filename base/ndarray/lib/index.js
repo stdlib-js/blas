@@ -244,6 +244,15 @@ setReadOnly( ns, 'gdot', require( './../../../base/ndarray/gdot' ) );
 setReadOnly( ns, 'ggemv', require( './../../../base/ndarray/ggemv' ) );
 
 /**
+* @name gger
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/gger}
+*/
+setReadOnly( ns, 'gger', require( './../../../base/ndarray/gger' ) );
+
+/**
 * @name gnrm2
 * @memberof ns
 * @readonly
