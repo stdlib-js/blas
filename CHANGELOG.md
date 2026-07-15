@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-14)
+## Unreleased (2026-07-15)
 
 <section class="features">
 
 ### Features
 
+-   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477)
 -   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467)
 -   [`f1cfa7c`](https://github.com/stdlib-js/stdlib/commit/f1cfa7cf29471ee65f1cdb3df553af81aa73b316) - add `sxdy` to namespace
 -   [`3108efa`](https://github.com/stdlib-js/stdlib/commit/3108efa420b47b65c03df355b899607f343e06ec) - add `blas/ext/base/sxdy` [(#13446)](https://github.com/stdlib-js/stdlib/pull/13446)
@@ -289,6 +290,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`c1ed55c`](https://github.com/stdlib-js/stdlib/commit/c1ed55cb556cfa53ba1dfb45bcd4221cb02c570c) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13477)](https://github.com/stdlib-js/stdlib/pull/13477) _(by stdlib-bot)_
 -   [`f175a72`](https://github.com/stdlib-js/stdlib/commit/f175a721b1e44454d8c102e063e5f8c7a15053b8) - **chore:** clean-up [(#13470)](https://github.com/stdlib-js/stdlib/pull/13470) _(by Philipp Burckhardt, Athan Reines)_
 -   [`6208ff5`](https://github.com/stdlib-js/stdlib/commit/6208ff5508420f69683b75bb5906034880332dba) - **feat:** add `blas/base/ndarray/gger` [(#13467)](https://github.com/stdlib-js/stdlib/pull/13467) _(by Kaustubh Patange, Athan Reines)_
 -   [`f1cfa7c`](https://github.com/stdlib-js/stdlib/commit/f1cfa7cf29471ee65f1cdb3df553af81aa73b316) - **feat:** add `sxdy` to namespace _(by Athan Reines)_
