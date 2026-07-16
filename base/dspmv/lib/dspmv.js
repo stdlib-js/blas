@@ -21,7 +21,7 @@
 // MODULES //
 
 var isLayout = require( './../../../base/assert/is-layout' );
-var resolveStr = require( './../../../base/matrix-triangle-resolve-str' );
+var isMatrixTriangle = require( './../../../base/assert/is-matrix-triangle' );
 var stride2offset = require( '@stdlib/strided/base/stride2offset' );
 var format = require( '@stdlib/string/format' );
 var base = require( './base.js' );
@@ -33,7 +33,7 @@ var base = require( './base.js' );
 * Performs the matrix-vector operation `y = alpha*A*x + beta*y` where `alpha` and `beta` are scalars, `x` and `y` are `N` element vectors, and `A` is an `N` by `N` symmetric matrix supplied in packed form.
 *
 * @param {string} order - storage layout
-* @param {(integer|string)} uplo - specifies whether the upper or lower triangular part of the symmetric matrix `A` is supplied
+* @param {string} uplo - specifies whether the upper or lower triangular part of the symmetric matrix `A` is supplied
 * @param {NonNegativeInteger} N - number of elements along each dimension of `A`
 * @param {number} alpha - scalar constant
 * @param {Float64Array} AP - packed form of a symmetric matrix `A`
@@ -62,13 +62,11 @@ var base = require( './base.js' );
 function dspmv( order, uplo, N, alpha, AP, x, strideX, beta, y, strideY ) {
 	var offsetX;
 	var offsetY;
-	var u;
 
 	if ( !isLayout( order ) ) {
 		throw new TypeError( format( 'invalid argument. First argument must be a valid order. Value: `%s`.', order ) );
 	}
-	u = resolveStr( uplo );
-	if ( u === null ) {
+	if ( !isMatrixTriangle( uplo ) ) {
 		throw new TypeError( format( 'invalid argument. Second argument must specify whether the lower or upper triangular matrix is supplied. Value: `%s`.', uplo ) );
 	}
 	if ( N < 0 ) {
@@ -82,7 +80,7 @@ function dspmv( order, uplo, N, alpha, AP, x, strideX, beta, y, strideY ) {
 	}
 	offsetX = stride2offset( N, strideX );
 	offsetY = stride2offset( N, strideY );
-	return base( order, u, N, alpha, AP, 0, x, strideX, offsetX, beta, y, strideY, offsetY ); // eslint-disable-line max-len
+	return base( order, uplo, N, alpha, AP, 0, x, strideX, offsetX, beta, y, strideY, offsetY ); // eslint-disable-line max-len
 }
 
 
