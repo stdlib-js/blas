@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021)
 -   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023)
 -   [`6d0d735`](https://github.com/stdlib-js/stdlib/commit/6d0d7358547e042936941e50215bfbc8ea6afe38) - add `zreplicate` to namespace
 -   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - add `sfillNotEqual` and `dfillNotEqual` to namespace
@@ -302,6 +303,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - **feat:** add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021) _(by Kaustubh Patange, Athan Reines)_
 -   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - **feat:** add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023) _(by Kaustubh Patange, Athan Reines)_
 -   [`6d0d735`](https://github.com/stdlib-js/stdlib/commit/6d0d7358547e042936941e50215bfbc8ea6afe38) - **feat:** add `zreplicate` to namespace _(by Athan Reines)_
 -   [`44dee83`](https://github.com/stdlib-js/stdlib/commit/44dee832cb6e29bf2d7674dceb8978e3e68613ae) - **feat:** add `sfillNotEqual` and `dfillNotEqual` to namespace _(by Athan Reines)_
