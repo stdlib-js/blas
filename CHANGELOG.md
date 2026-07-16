@@ -303,6 +303,8 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f9cdc5c`](https://github.com/stdlib-js/stdlib/commit/f9cdc5cb01451092ccdcbfdb6da7ba5699f56996) - **refactor:** add support for enums in `blas/base/dspmv` [(#13502)](https://github.com/stdlib-js/stdlib/pull/13502) _(by Kaustubh Patange)_
+-   [`d5f4dce`](https://github.com/stdlib-js/stdlib/commit/d5f4dcee568b07b7b59917af3ca9c45d2911301e) - **refactor:** add support for enums in `blas/base/sspmv` [(#13503)](https://github.com/stdlib-js/stdlib/pull/13503) _(by Kaustubh Patange)_
 -   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - **feat:** add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021) _(by Kaustubh Patange, Athan Reines)_
 -   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - **feat:** add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023) _(by Kaustubh Patange, Athan Reines)_
 -   [`6d0d735`](https://github.com/stdlib-js/stdlib/commit/6d0d7358547e042936941e50215bfbc8ea6afe38) - **feat:** add `zreplicate` to namespace _(by Athan Reines)_
