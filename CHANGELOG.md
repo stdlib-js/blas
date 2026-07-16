@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-15)
+## Unreleased (2026-07-16)
 
 <section class="features">
 
 ### Features
 
+-   [`08bb0f1`](https://github.com/stdlib-js/stdlib/commit/08bb0f1e0755c13419032f698914baf244833239) - add `blas/ext/base/zreplicate` [(#13427)](https://github.com/stdlib-js/stdlib/pull/13427)
 -   [`78c77ed`](https://github.com/stdlib-js/stdlib/commit/78c77edaad39be4471980f5337932a8fd91756d1) - add `zindexOfTruthy` to namespace
 -   [`91f035b`](https://github.com/stdlib-js/stdlib/commit/91f035bce9f15acaf2873ee3b166f5d28ad7a379) - add `gger` to namespace
 -   [`13377f9`](https://github.com/stdlib-js/stdlib/commit/13377f987ae5d6b71ea1dc904eb51ef9db4dd749) - add `blas/ext/base/zindex-of-truthy` [(#12996)](https://github.com/stdlib-js/stdlib/pull/12996)
@@ -294,6 +295,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`08bb0f1`](https://github.com/stdlib-js/stdlib/commit/08bb0f1e0755c13419032f698914baf244833239) - **feat:** add `blas/ext/base/zreplicate` [(#13427)](https://github.com/stdlib-js/stdlib/pull/13427) _(by Muhammad Haris, Athan Reines)_
 -   [`223bde6`](https://github.com/stdlib-js/stdlib/commit/223bde696f8f08a853a92c63da09cc1505c300c8) - **build:** add script to insert license header _(by Athan Reines)_
 -   [`706b1d1`](https://github.com/stdlib-js/stdlib/commit/706b1d14d18bf258722fb38fcf42c1732ab3209d) - **style:** fix require order _(by Athan Reines)_
 -   [`78c77ed`](https://github.com/stdlib-js/stdlib/commit/78c77edaad39be4471980f5337932a8fd91756d1) - **feat:** add `zindexOfTruthy` to namespace _(by Athan Reines)_
