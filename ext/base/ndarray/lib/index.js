@@ -226,6 +226,15 @@ setReadOnly( ns, 'dcusumpw', require( './../../../../ext/base/ndarray/dcusumpw' 
 setReadOnly( ns, 'ddiff', require( './../../../../ext/base/ndarray/ddiff' ) );
 
 /**
+* @name dfillNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dfill-not-equal}
+*/
+setReadOnly( ns, 'dfillNotEqual', require( './../../../../ext/base/ndarray/dfill-not-equal' ) );
+
+/**
 * @name dindexOf
 * @memberof ns
 * @readonly
@@ -854,6 +863,15 @@ setReadOnly( ns, 'scusumkbn2', require( './../../../../ext/base/ndarray/scusumkb
 * @see {@link module:@stdlib/blas/ext/base/ndarray/scusumors}
 */
 setReadOnly( ns, 'scusumors', require( './../../../../ext/base/ndarray/scusumors' ) );
+
+/**
+* @name sfillNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sfill-not-equal}
+*/
+setReadOnly( ns, 'sfillNotEqual', require( './../../../../ext/base/ndarray/sfill-not-equal' ) );
 
 /**
 * @name sindexOf

@@ -2937,6 +2937,15 @@ setReadOnly( ns, 'znancount', require( './../../../ext/base/znancount' ) );
 setReadOnly( ns, 'zoneTo', require( './../../../ext/base/zone-to' ) );
 
 /**
+* @name zreplicate
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zreplicate}
+*/
+setReadOnly( ns, 'zreplicate', require( './../../../ext/base/zreplicate' ) );
+
+/**
 * @name zsum
 * @memberof ns
 * @readonly
