@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413)
 -   [`2369938`](https://github.com/stdlib-js/stdlib/commit/2369938272d133d7ea0776230f83674d4d19a9c8) - add `blas/ext/base/ndarray/sfill-not-equal` [(#13414)](https://github.com/stdlib-js/stdlib/pull/13414)
 -   [`08bb0f1`](https://github.com/stdlib-js/stdlib/commit/08bb0f1e0755c13419032f698914baf244833239) - add `blas/ext/base/zreplicate` [(#13427)](https://github.com/stdlib-js/stdlib/pull/13427)
 -   [`78c77ed`](https://github.com/stdlib-js/stdlib/commit/78c77edaad39be4471980f5337932a8fd91756d1) - add `zindexOfTruthy` to namespace
@@ -296,6 +297,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - **feat:** add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413) _(by Muhammad Haris)_
 -   [`2369938`](https://github.com/stdlib-js/stdlib/commit/2369938272d133d7ea0776230f83674d4d19a9c8) - **feat:** add `blas/ext/base/ndarray/sfill-not-equal` [(#13414)](https://github.com/stdlib-js/stdlib/pull/13414) _(by Muhammad Haris)_
 -   [`08bb0f1`](https://github.com/stdlib-js/stdlib/commit/08bb0f1e0755c13419032f698914baf244833239) - **feat:** add `blas/ext/base/zreplicate` [(#13427)](https://github.com/stdlib-js/stdlib/pull/13427) _(by Muhammad Haris, Athan Reines)_
 -   [`223bde6`](https://github.com/stdlib-js/stdlib/commit/223bde696f8f08a853a92c63da09cc1505c300c8) - **build:** add script to insert license header _(by Athan Reines)_
