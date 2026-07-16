@@ -299,9 +299,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`8fcdf1e`](https://github.com/stdlib-js/stdlib/commit/8fcdf1e5a7c139534a0dbf9932efc5d3ff31870b) - **build:** add scripts to insert license headers [(#13483)](https://github.com/stdlib-js/stdlib/pull/13483) _(by Prashant Kumar Yadav)_
--   [`94e67fd`](https://github.com/stdlib-js/stdlib/commit/94e67fd1ed8a206d4209c1071c378661cc9ab16b) - **build:** add scripts to insert license headers [(#13482)](https://github.com/stdlib-js/stdlib/pull/13482) _(by Prashant Kumar Yadav)_
--   [`eec0e8b`](https://github.com/stdlib-js/stdlib/commit/eec0e8be28a396fe8a41f11707cfa3df71f08f08) - **docs:** update namespace table of contents [(#13494)](https://github.com/stdlib-js/stdlib/pull/13494) _(by stdlib-bot)_
 -   [`b31f62d`](https://github.com/stdlib-js/stdlib/commit/b31f62d78290e341821d1543c71235a400fe205f) - **feat:** update `blas/ext/base` TypeScript declarations [(#13492)](https://github.com/stdlib-js/stdlib/pull/13492) _(by stdlib-bot)_
 -   [`028e773`](https://github.com/stdlib-js/stdlib/commit/028e77359c0db9e896604c5efd2eb65c32387017) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13491)](https://github.com/stdlib-js/stdlib/pull/13491) _(by stdlib-bot)_
 -   [`17fa2b7`](https://github.com/stdlib-js/stdlib/commit/17fa2b74b3a31b9042e9d017246dff89b7e8c33a) - **feat:** add `blas/ext/base/ndarray/dfill-not-equal` [(#13413)](https://github.com/stdlib-js/stdlib/pull/13413) _(by Muhammad Haris)_
@@ -681,7 +678,7 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 10 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Divit Jain
@@ -689,7 +686,6 @@ A total of 11 people contributed to this release. Thank you to the following con
 -   Kaustubh Patange
 -   Muhammad Haris
 -   Philipp Burckhardt
--   Prashant Kumar Yadav
 -   Rayan Salhab
 -   Suyog
 -   anee3
