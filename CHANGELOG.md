@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - add `dspr` and `sspr` to namespace
 -   [`8614bce`](https://github.com/stdlib-js/stdlib/commit/8614bce71d72fe69d49a742d0873a284d0db234b) - add `blas/base/ndarray/sspr` [(#13021)](https://github.com/stdlib-js/stdlib/pull/13021)
 -   [`cc6b114`](https://github.com/stdlib-js/stdlib/commit/cc6b114d6592d9c3af3015ec9b20bde1acf915be) - add `blas/base/ndarray/dspr` [(#13023)](https://github.com/stdlib-js/stdlib/pull/13023)
 -   [`6d0d735`](https://github.com/stdlib-js/stdlib/commit/6d0d7358547e042936941e50215bfbc8ea6afe38) - add `zreplicate` to namespace
@@ -303,6 +304,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - **feat:** add `dspr` and `sspr` to namespace _(by Athan Reines)_
 -   [`88a418a`](https://github.com/stdlib-js/stdlib/commit/88a418a1f4e63dbd7086ad395325303d34753f55) - **refactor:** add support for enums in `blas/base/strmv` [(#13509)](https://github.com/stdlib-js/stdlib/pull/13509) _(by Kaustubh Patange)_
 -   [`5244cbc`](https://github.com/stdlib-js/stdlib/commit/5244cbcf3cc30c24275352d587d5d96bb2a0e0fd) - **refactor:** add support for enums in `blas/base/ssymv` [(#13500)](https://github.com/stdlib-js/stdlib/pull/13500) _(by Kaustubh Patange)_
 -   [`f2ac530`](https://github.com/stdlib-js/stdlib/commit/f2ac530254fba4c82a70e670aafc4904cbba44d8) - **refactor:** add support for enums in `blas/base/dsymv` [(#13501)](https://github.com/stdlib-js/stdlib/pull/13501) _(by Kaustubh Patange, Athan Reines)_

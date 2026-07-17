@@ -172,6 +172,15 @@ setReadOnly( ns, 'dscal', require( './../../../base/ndarray/dscal' ) );
 setReadOnly( ns, 'dsdot', require( './../../../base/ndarray/dsdot' ) );
 
 /**
+* @name dspr
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dspr}
+*/
+setReadOnly( ns, 'dspr', require( './../../../base/ndarray/dspr' ) );
+
+/**
 * @name dswap
 * @memberof ns
 * @readonly
@@ -404,6 +413,15 @@ setReadOnly( ns, 'snrm2', require( './../../../base/ndarray/snrm2' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/sscal}
 */
 setReadOnly( ns, 'sscal', require( './../../../base/ndarray/sscal' ) );
+
+/**
+* @name sspr
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/sspr}
+*/
+setReadOnly( ns, 'sspr', require( './../../../base/ndarray/sspr' ) );
 
 /**
 * @name sswap
