@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-16)
+## Unreleased (2026-07-17)
 
 <section class="features">
 
@@ -303,6 +303,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`88a418a`](https://github.com/stdlib-js/stdlib/commit/88a418a1f4e63dbd7086ad395325303d34753f55) - **refactor:** add support for enums in `blas/base/strmv` [(#13509)](https://github.com/stdlib-js/stdlib/pull/13509) _(by Kaustubh Patange)_
 -   [`5244cbc`](https://github.com/stdlib-js/stdlib/commit/5244cbcf3cc30c24275352d587d5d96bb2a0e0fd) - **refactor:** add support for enums in `blas/base/ssymv` [(#13500)](https://github.com/stdlib-js/stdlib/pull/13500) _(by Kaustubh Patange)_
 -   [`f2ac530`](https://github.com/stdlib-js/stdlib/commit/f2ac530254fba4c82a70e670aafc4904cbba44d8) - **refactor:** add support for enums in `blas/base/dsymv` [(#13501)](https://github.com/stdlib-js/stdlib/pull/13501) _(by Kaustubh Patange, Athan Reines)_
 -   [`f9cdc5c`](https://github.com/stdlib-js/stdlib/commit/f9cdc5cb01451092ccdcbfdb6da7ba5699f56996) - **refactor:** add support for enums in `blas/base/dspmv` [(#13502)](https://github.com/stdlib-js/stdlib/pull/13502) _(by Kaustubh Patange)_
