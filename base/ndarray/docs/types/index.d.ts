@@ -35,6 +35,7 @@ import dger = require( './../../../../base/ndarray/dger' );
 import dnrm2 = require( './../../../../base/ndarray/dnrm2' );
 import dscal = require( './../../../../base/ndarray/dscal' );
 import dsdot = require( './../../../../base/ndarray/dsdot' );
+import dspr = require( './../../../../base/ndarray/dspr' );
 import dswap = require( './../../../../base/ndarray/dswap' );
 import dzasum = require( './../../../../base/ndarray/dzasum' );
 import dznrm2 = require( './../../../../base/ndarray/dznrm2' );
@@ -61,6 +62,7 @@ import sgemv = require( './../../../../base/ndarray/sgemv' );
 import sger = require( './../../../../base/ndarray/sger' );
 import snrm2 = require( './../../../../base/ndarray/snrm2' );
 import sscal = require( './../../../../base/ndarray/sscal' );
+import sspr = require( './../../../../base/ndarray/sspr' );
 import sswap = require( './../../../../base/ndarray/sswap' );
 import zaxpy = require( './../../../../base/ndarray/zaxpy' );
 import zcopy = require( './../../../../base/ndarray/zcopy' );
@@ -533,6 +535,44 @@ interface Namespace {
 	* // returns -5.0
 	*/
 	dsdot: typeof dsdot;
+
+	/**
+	* Performs the symmetric rank 1 operation `A = alpha*x*x^T + A`, where `alpha` is a scalar, `x` is a one-dimensional ndarray, and `A` is a symmetric `N` by `N` matrix supplied in packed form.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray corresponding to `x`.
+	*     -   a one-dimensional input/output ndarray corresponding to the packed form of `A`.
+	*     -   a zero-dimensional ndarray specifying whether the upper or lower triangular part of `A` is supplied.
+	*     -   a zero-dimensional ndarray containing a scalar constant corresponding to `alpha`.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var resolveEnum = require( './../../../../base/matrix-triangle-resolve-enum' );
+	*
+	* var x = new Float64Vector( [ 1.0, 2.0, 3.0 ] );
+	* var AP = new Float64Vector( [ 1.0, 2.0, 3.0, 1.0, 2.0, 1.0 ] );
+	*
+	* var uplo = scalar2ndarray( resolveEnum( 'upper' ), {
+	*     'dtype': 'int8'
+	* });
+	* var alpha = scalar2ndarray( 1.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var y = ns.dspr( [ x, AP, uplo, alpha ] );
+	* // returns <ndarray>[ 2.0, 4.0, 6.0, 5.0, 8.0, 10.0 ]
+	*
+	* var bool = ( y === AP );
+	* // returns true
+	*/
+	dspr: typeof dspr;
 
 	/**
 	* Interchanges two one-dimensional double-precision floating-point ndarrays.
@@ -1253,6 +1293,44 @@ interface Namespace {
 	* // returns true
 	*/
 	sscal: typeof sscal;
+
+	/**
+	* Performs the symmetric rank 1 operation `A = alpha*x*x^T + A`, where `alpha` is a scalar, `x` is a one-dimensional ndarray, and `A` is a symmetric `N` by `N` matrix supplied in packed form.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray corresponding to `x`.
+	*     -   a one-dimensional input/output ndarray corresponding to the packed form of `A`.
+	*     -   a zero-dimensional ndarray specifying whether the upper or lower triangular part of `A` is supplied.
+	*     -   a zero-dimensional ndarray containing a scalar constant corresponding to `alpha`.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var resolveEnum = require( './../../../../base/matrix-triangle-resolve-enum' );
+	*
+	* var x = new Float32Vector( [ 1.0, 2.0, 3.0 ] );
+	* var AP = new Float32Vector( [ 1.0, 2.0, 3.0, 1.0, 2.0, 1.0 ] );
+	*
+	* var uplo = scalar2ndarray( resolveEnum( 'upper' ), {
+	*     'dtype': 'int8'
+	* });
+	* var alpha = scalar2ndarray( 1.0, {
+	*     'dtype': 'float32'
+	* });
+	*
+	* var y = ns.sspr( [ x, AP, uplo, alpha ] );
+	* // returns <ndarray>[ 2.0, 4.0, 6.0, 5.0, 8.0, 10.0 ]
+	*
+	* var bool = ( y === AP );
+	* // returns true
+	*/
+	sspr: typeof sspr;
 
 	/**
 	* Interchanges two one-dimensional single-precision floating-point ndarrays.
