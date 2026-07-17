@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`c5ec2d1`](https://github.com/stdlib-js/stdlib/commit/c5ec2d1a213882f64428e2bc64b904804c1b44ba) - update `blas/base/ndarray` TypeScript declarations [(#13512)](https://github.com/stdlib-js/stdlib/pull/13512)
 -   [`0d350ea`](https://github.com/stdlib-js/stdlib/commit/0d350ea4a24f3a8f7ebc1637df446b7821aa6b82) - update `blas/ext/base` TypeScript declarations [(#13514)](https://github.com/stdlib-js/stdlib/pull/13514)
 -   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513)
 -   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - add `dspr` and `sspr` to namespace
@@ -307,7 +306,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`c5ec2d1`](https://github.com/stdlib-js/stdlib/commit/c5ec2d1a213882f64428e2bc64b904804c1b44ba) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13512)](https://github.com/stdlib-js/stdlib/pull/13512) _(by stdlib-bot)_
 -   [`0d350ea`](https://github.com/stdlib-js/stdlib/commit/0d350ea4a24f3a8f7ebc1637df446b7821aa6b82) - **feat:** update `blas/ext/base` TypeScript declarations [(#13514)](https://github.com/stdlib-js/stdlib/pull/13514) _(by stdlib-bot)_
 -   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513) _(by stdlib-bot)_
 -   [`c68e727`](https://github.com/stdlib-js/stdlib/commit/c68e727d765a7796ddb4a401ce1df3d30c98b086) - **feat:** add `dspr` and `sspr` to namespace _(by Athan Reines)_
