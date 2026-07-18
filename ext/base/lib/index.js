@@ -129,6 +129,15 @@ setReadOnly( ns, 'clastIndexOfRow', require( './../../../ext/base/clast-index-of
 setReadOnly( ns, 'coneTo', require( './../../../ext/base/cone-to' ) );
 
 /**
+* @name creplicate
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/creplicate}
+*/
+setReadOnly( ns, 'creplicate', require( './../../../ext/base/creplicate' ) );
+
+/**
 * @name csum
 * @memberof ns
 * @readonly
