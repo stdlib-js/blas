@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-17)
+## Unreleased (2026-07-18)
 
 <section class="features">
 
 ### Features
 
+-   [`254d999`](https://github.com/stdlib-js/stdlib/commit/254d999f6a93cd5f4a39fa8746973ee1adc72c62) - add `blas/ext/base/creplicate` [(#13520)](https://github.com/stdlib-js/stdlib/pull/13520)
 -   [`c5ec2d1`](https://github.com/stdlib-js/stdlib/commit/c5ec2d1a213882f64428e2bc64b904804c1b44ba) - update `blas/base/ndarray` TypeScript declarations [(#13512)](https://github.com/stdlib-js/stdlib/pull/13512)
 -   [`0d350ea`](https://github.com/stdlib-js/stdlib/commit/0d350ea4a24f3a8f7ebc1637df446b7821aa6b82) - update `blas/ext/base` TypeScript declarations [(#13514)](https://github.com/stdlib-js/stdlib/pull/13514)
 -   [`58b7b90`](https://github.com/stdlib-js/stdlib/commit/58b7b9015fde01541172c02f046f84f28e10dc68) - update `blas/ext/base/ndarray` TypeScript declarations [(#13513)](https://github.com/stdlib-js/stdlib/pull/13513)
@@ -307,6 +308,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`254d999`](https://github.com/stdlib-js/stdlib/commit/254d999f6a93cd5f4a39fa8746973ee1adc72c62) - **feat:** add `blas/ext/base/creplicate` [(#13520)](https://github.com/stdlib-js/stdlib/pull/13520) _(by Muhammad Haris)_
 -   [`f20ee0e`](https://github.com/stdlib-js/stdlib/commit/f20ee0ec83653a2e8d1073b044fb39255c990fbb) - **chore:** clean-up [(#13497)](https://github.com/stdlib-js/stdlib/pull/13497) _(by Philipp Burckhardt, Athan Reines)_
 -   [`75e4560`](https://github.com/stdlib-js/stdlib/commit/75e456086d0770ffc7fff40628d23a48816f4614) - **docs:** update namespace table of contents [(#13515)](https://github.com/stdlib-js/stdlib/pull/13515) _(by stdlib-bot)_
 -   [`c5ec2d1`](https://github.com/stdlib-js/stdlib/commit/c5ec2d1a213882f64428e2bc64b904804c1b44ba) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13512)](https://github.com/stdlib-js/stdlib/pull/13512) _(by stdlib-bot)_
