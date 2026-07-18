@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`24f73b5`](https://github.com/stdlib-js/stdlib/commit/24f73b54d01b658711f1a5a7476d6d40c529d11d) - add `blas/ext/base/ndarray/sany` [(#13529)](https://github.com/stdlib-js/stdlib/pull/13529)
 -   [`3314d55`](https://github.com/stdlib-js/stdlib/commit/3314d55954420932363b7c696055d7ea3c6274c9) - add `blas/ext/base/ndarray/gany` [(#13534)](https://github.com/stdlib-js/stdlib/pull/13534)
 -   [`8fd9261`](https://github.com/stdlib-js/stdlib/commit/8fd92613a473f36db4bf57fdb6d34b6a0664c2b2) - add `blas/ext/base/ndarray/dany` [(#13530)](https://github.com/stdlib-js/stdlib/pull/13530)
 -   [`c624655`](https://github.com/stdlib-js/stdlib/commit/c624655adbccab46e816d0008a66991e18f60b0b) - add `creplicate` to namespace
@@ -311,6 +312,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`24f73b5`](https://github.com/stdlib-js/stdlib/commit/24f73b54d01b658711f1a5a7476d6d40c529d11d) - **feat:** add `blas/ext/base/ndarray/sany` [(#13529)](https://github.com/stdlib-js/stdlib/pull/13529) _(by Muhammad Haris, Athan Reines)_
 -   [`3314d55`](https://github.com/stdlib-js/stdlib/commit/3314d55954420932363b7c696055d7ea3c6274c9) - **feat:** add `blas/ext/base/ndarray/gany` [(#13534)](https://github.com/stdlib-js/stdlib/pull/13534) _(by Muhammad Haris, Athan Reines)_
 -   [`8fd9261`](https://github.com/stdlib-js/stdlib/commit/8fd92613a473f36db4bf57fdb6d34b6a0664c2b2) - **feat:** add `blas/ext/base/ndarray/dany` [(#13530)](https://github.com/stdlib-js/stdlib/pull/13530) _(by Muhammad Haris, Athan Reines)_
 -   [`c624655`](https://github.com/stdlib-js/stdlib/commit/c624655adbccab46e816d0008a66991e18f60b0b) - **feat:** add `creplicate` to namespace _(by Athan Reines)_
