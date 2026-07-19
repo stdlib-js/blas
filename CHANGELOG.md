@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838)
 -   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - add `dgemm` and `sgemm` to namespace
 -   [`dc58830`](https://github.com/stdlib-js/stdlib/commit/dc588303cd69de3d3d4198e9c33767a6065bdc69) - add `blas/base/ndarray/dgemm` [(#13531)](https://github.com/stdlib-js/stdlib/pull/13531)
 -   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532)
@@ -321,6 +322,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - **feat:** add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838) _(by Kaustubh Patange)_
 -   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - **feat:** add `dgemm` and `sgemm` to namespace _(by Athan Reines)_
 -   [`dc58830`](https://github.com/stdlib-js/stdlib/commit/dc588303cd69de3d3d4198e9c33767a6065bdc69) - **feat:** add `blas/base/ndarray/dgemm` [(#13531)](https://github.com/stdlib-js/stdlib/pull/13531) _(by Kaustubh Patange, Athan Reines)_
 -   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - **feat:** add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532) _(by Kaustubh Patange, Athan Reines)_
