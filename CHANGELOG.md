@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0ea6a8a`](https://github.com/stdlib-js/stdlib/commit/0ea6a8afb0404f4b46de9ce639f565cea6141bb5) - update `blas/ext/base` TypeScript declarations [(#13545)](https://github.com/stdlib-js/stdlib/pull/13545)
 -   [`cc19408`](https://github.com/stdlib-js/stdlib/commit/cc1940807bae9f49f1e30d288bdd600770d527b8) - add `blas/base/ndarray/ggemm` [(#13533)](https://github.com/stdlib-js/stdlib/pull/13533)
 -   [`24f73b5`](https://github.com/stdlib-js/stdlib/commit/24f73b54d01b658711f1a5a7476d6d40c529d11d) - add `blas/ext/base/ndarray/sany` [(#13529)](https://github.com/stdlib-js/stdlib/pull/13529)
 -   [`3314d55`](https://github.com/stdlib-js/stdlib/commit/3314d55954420932363b7c696055d7ea3c6274c9) - add `blas/ext/base/ndarray/gany` [(#13534)](https://github.com/stdlib-js/stdlib/pull/13534)
@@ -313,6 +314,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`0ea6a8a`](https://github.com/stdlib-js/stdlib/commit/0ea6a8afb0404f4b46de9ce639f565cea6141bb5) - **feat:** update `blas/ext/base` TypeScript declarations [(#13545)](https://github.com/stdlib-js/stdlib/pull/13545) _(by stdlib-bot)_
 -   [`a0a518d`](https://github.com/stdlib-js/stdlib/commit/a0a518d2584da8a734961ff2ddd85b984b6a9f68) - **docs:** update namespace table of contents [(#13548)](https://github.com/stdlib-js/stdlib/pull/13548) _(by stdlib-bot)_
 -   [`cc19408`](https://github.com/stdlib-js/stdlib/commit/cc1940807bae9f49f1e30d288bdd600770d527b8) - **feat:** add `blas/base/ndarray/ggemm` [(#13533)](https://github.com/stdlib-js/stdlib/pull/13533) _(by Kaustubh Patange, Athan Reines)_
 -   [`3e6912e`](https://github.com/stdlib-js/stdlib/commit/3e6912e62a4bfb53adba1403b44546e3c6f389e2) - **refactor:** add support for enums in `blas/base/strsv` [(#13519)](https://github.com/stdlib-js/stdlib/pull/13519) _(by Kaustubh Patange)_
