@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532)
 -   [`92b93e9`](https://github.com/stdlib-js/stdlib/commit/92b93e9c4023e46c8d53a90b8df0b471dd96c687) - add `dsyr2`, `ggemm`, and `gsyr` to namespace
 -   [`160c917`](https://github.com/stdlib-js/stdlib/commit/160c9178e6c3913668f3afd8748c3cf9d62ccc4b) - add `dany`, `gany`, and `sany` to namespace
 -   [`314e509`](https://github.com/stdlib-js/stdlib/commit/314e5094bd384512a0242fc909ea3dc4431384fd) - add `blas/base/ndarray/dsyr2` [(#12848)](https://github.com/stdlib-js/stdlib/pull/12848)
@@ -318,6 +319,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`488c3d8`](https://github.com/stdlib-js/stdlib/commit/488c3d82493256835db7f6645862aa163e70f0e4) - **feat:** add `blas/base/ndarray/sgemm` [(#13532)](https://github.com/stdlib-js/stdlib/pull/13532) _(by Kaustubh Patange, Athan Reines)_
 -   [`532cf32`](https://github.com/stdlib-js/stdlib/commit/532cf32301c150926621c2806f9d704b2222ca2c) - **style:** re-enable lint rule _(by Athan Reines)_
 -   [`92b93e9`](https://github.com/stdlib-js/stdlib/commit/92b93e9c4023e46c8d53a90b8df0b471dd96c687) - **feat:** add `dsyr2`, `ggemm`, and `gsyr` to namespace _(by Athan Reines)_
 -   [`160c917`](https://github.com/stdlib-js/stdlib/commit/160c9178e6c3913668f3afd8748c3cf9d62ccc4b) - **feat:** add `dany`, `gany`, and `sany` to namespace _(by Athan Reines)_
