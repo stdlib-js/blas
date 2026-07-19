@@ -127,6 +127,15 @@ setReadOnly( ns, 'dcopy', require( './../../../base/ndarray/dcopy' ) );
 setReadOnly( ns, 'ddot', require( './../../../base/ndarray/ddot' ) );
 
 /**
+* @name dgemm
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dgemm}
+*/
+setReadOnly( ns, 'dgemm', require( './../../../base/ndarray/dgemm' ) );
+
+/**
 * @name dgemv
 * @memberof ns
 * @readonly
@@ -404,6 +413,15 @@ setReadOnly( ns, 'sdot', require( './../../../base/ndarray/sdot' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/sdsdot}
 */
 setReadOnly( ns, 'sdsdot', require( './../../../base/ndarray/sdsdot' ) );
+
+/**
+* @name sgemm
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/sgemm}
+*/
+setReadOnly( ns, 'sgemm', require( './../../../base/ndarray/sgemm' ) );
 
 /**
 * @name sgemv
