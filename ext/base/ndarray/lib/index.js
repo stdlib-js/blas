@@ -235,6 +235,15 @@ setReadOnly( ns, 'dcusumpw', require( './../../../../ext/base/ndarray/dcusumpw' 
 setReadOnly( ns, 'ddiff', require( './../../../../ext/base/ndarray/ddiff' ) );
 
 /**
+* @name dfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dfill-equal}
+*/
+setReadOnly( ns, 'dfillEqual', require( './../../../../ext/base/ndarray/dfill-equal' ) );
+
+/**
 * @name dfillNotEqual
 * @memberof ns
 * @readonly
@@ -424,6 +433,15 @@ setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
 setReadOnly( ns, 'dunitspace', require( './../../../../ext/base/ndarray/dunitspace' ) );
 
 /**
+* @name dxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dxdy}
+*/
+setReadOnly( ns, 'dxdy', require( './../../../../ext/base/ndarray/dxdy' ) );
+
+/**
 * @name dxmy
 * @memberof ns
 * @readonly
@@ -595,6 +613,15 @@ setReadOnly( ns, 'gindexOf', require( './../../../../ext/base/ndarray/gindex-of'
 setReadOnly( ns, 'gindexOfFalsy', require( './../../../../ext/base/ndarray/gindex-of-falsy' ) );
 
 /**
+* @name gindexOfNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gindex-of-not-equal}
+*/
+setReadOnly( ns, 'gindexOfNotEqual', require( './../../../../ext/base/ndarray/gindex-of-not-equal' ) );
+
+/**
 * @name gindexOfTruthy
 * @memberof ns
 * @readonly
@@ -764,6 +791,15 @@ setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gunitspace}
 */
 setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspace' ) );
+
+/**
+* @name gxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gxdy}
+*/
+setReadOnly( ns, 'gxdy', require( './../../../../ext/base/ndarray/gxdy' ) );
 
 /**
 * @name gxmy
@@ -1052,6 +1088,15 @@ setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sunitspace}
 */
 setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspace' ) );
+
+/**
+* @name sxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sxdy}
+*/
+setReadOnly( ns, 'sxdy', require( './../../../../ext/base/ndarray/sxdy' ) );
 
 /**
 * @name sxmy
