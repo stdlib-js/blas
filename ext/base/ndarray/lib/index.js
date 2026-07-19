@@ -145,6 +145,15 @@ setReadOnly( ns, 'cxsy', require( './../../../../ext/base/ndarray/cxsy' ) );
 setReadOnly( ns, 'czeroTo', require( './../../../../ext/base/ndarray/czero-to' ) );
 
 /**
+* @name dany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dany}
+*/
+setReadOnly( ns, 'dany', require( './../../../../ext/base/ndarray/dany' ) );
+
+/**
 * @name daxpb
 * @memberof ns
 * @readonly
@@ -458,6 +467,15 @@ setReadOnly( ns, 'dxsy', require( './../../../../ext/base/ndarray/dxsy' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dzero-to}
 */
 setReadOnly( ns, 'dzeroTo', require( './../../../../ext/base/ndarray/dzero-to' ) );
+
+/**
+* @name gany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gany}
+*/
+setReadOnly( ns, 'gany', require( './../../../../ext/base/ndarray/gany' ) );
 
 /**
 * @name gaxpb
@@ -791,6 +809,15 @@ setReadOnly( ns, 'gxsy', require( './../../../../ext/base/ndarray/gxsy' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gzero-to}
 */
 setReadOnly( ns, 'gzeroTo', require( './../../../../ext/base/ndarray/gzero-to' ) );
+
+/**
+* @name sany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sany}
+*/
+setReadOnly( ns, 'sany', require( './../../../../ext/base/ndarray/sany' ) );
 
 /**
 * @name saxpb

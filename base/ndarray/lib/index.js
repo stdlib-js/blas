@@ -190,6 +190,15 @@ setReadOnly( ns, 'dspr', require( './../../../base/ndarray/dspr' ) );
 setReadOnly( ns, 'dswap', require( './../../../base/ndarray/dswap' ) );
 
 /**
+* @name dsyr2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dsyr2}
+*/
+setReadOnly( ns, 'dsyr2', require( './../../../base/ndarray/dsyr2' ) );
+
+/**
 * @name dzasum
 * @memberof ns
 * @readonly
@@ -244,6 +253,15 @@ setReadOnly( ns, 'gcopy', require( './../../../base/ndarray/gcopy' ) );
 setReadOnly( ns, 'gdot', require( './../../../base/ndarray/gdot' ) );
 
 /**
+* @name ggemm
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/ggemm}
+*/
+setReadOnly( ns, 'ggemm', require( './../../../base/ndarray/ggemm' ) );
+
+/**
 * @name ggemv
 * @memberof ns
 * @readonly
@@ -287,6 +305,15 @@ setReadOnly( ns, 'gscal', require( './../../../base/ndarray/gscal' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/gswap}
 */
 setReadOnly( ns, 'gswap', require( './../../../base/ndarray/gswap' ) );
+
+/**
+* @name gsyr
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/gsyr}
+*/
+setReadOnly( ns, 'gsyr', require( './../../../base/ndarray/gsyr' ) );
 
 /**
 * @name idamax
