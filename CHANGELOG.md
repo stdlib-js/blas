@@ -313,6 +313,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`a0a518d`](https://github.com/stdlib-js/stdlib/commit/a0a518d2584da8a734961ff2ddd85b984b6a9f68) - **docs:** update namespace table of contents [(#13548)](https://github.com/stdlib-js/stdlib/pull/13548) _(by stdlib-bot)_
 -   [`cc19408`](https://github.com/stdlib-js/stdlib/commit/cc1940807bae9f49f1e30d288bdd600770d527b8) - **feat:** add `blas/base/ndarray/ggemm` [(#13533)](https://github.com/stdlib-js/stdlib/pull/13533) _(by Kaustubh Patange, Athan Reines)_
 -   [`3e6912e`](https://github.com/stdlib-js/stdlib/commit/3e6912e62a4bfb53adba1403b44546e3c6f389e2) - **refactor:** add support for enums in `blas/base/strsv` [(#13519)](https://github.com/stdlib-js/stdlib/pull/13519) _(by Kaustubh Patange)_
 -   [`1177fe1`](https://github.com/stdlib-js/stdlib/commit/1177fe1b1c425294b068bcab9387c7ea3e2f8829) - **refactor:** add support for enums in `blas/base/dtrsv` [(#13518)](https://github.com/stdlib-js/stdlib/pull/13518) _(by Kaustubh Patange)_
