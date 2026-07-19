@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`314e509`](https://github.com/stdlib-js/stdlib/commit/314e5094bd384512a0242fc909ea3dc4431384fd) - add `blas/base/ndarray/dsyr2` [(#12848)](https://github.com/stdlib-js/stdlib/pull/12848)
 -   [`ea65f7d`](https://github.com/stdlib-js/stdlib/commit/ea65f7dc3ace0eedc9e6915261c902ba369fcf7c) - add `blas/base/ndarray/gsyr` [(#12917)](https://github.com/stdlib-js/stdlib/pull/12917)
 -   [`0ea6a8a`](https://github.com/stdlib-js/stdlib/commit/0ea6a8afb0404f4b46de9ce639f565cea6141bb5) - update `blas/ext/base` TypeScript declarations [(#13545)](https://github.com/stdlib-js/stdlib/pull/13545)
 -   [`cc19408`](https://github.com/stdlib-js/stdlib/commit/cc1940807bae9f49f1e30d288bdd600770d527b8) - add `blas/base/ndarray/ggemm` [(#13533)](https://github.com/stdlib-js/stdlib/pull/13533)
@@ -315,6 +316,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`314e509`](https://github.com/stdlib-js/stdlib/commit/314e5094bd384512a0242fc909ea3dc4431384fd) - **feat:** add `blas/base/ndarray/dsyr2` [(#12848)](https://github.com/stdlib-js/stdlib/pull/12848) _(by Kaustubh Patange, Athan Reines)_
 -   [`ea65f7d`](https://github.com/stdlib-js/stdlib/commit/ea65f7dc3ace0eedc9e6915261c902ba369fcf7c) - **feat:** add `blas/base/ndarray/gsyr` [(#12917)](https://github.com/stdlib-js/stdlib/pull/12917) _(by Kaustubh Patange, Athan Reines)_
 -   [`0ea6a8a`](https://github.com/stdlib-js/stdlib/commit/0ea6a8afb0404f4b46de9ce639f565cea6141bb5) - **feat:** update `blas/ext/base` TypeScript declarations [(#13545)](https://github.com/stdlib-js/stdlib/pull/13545) _(by stdlib-bot)_
 -   [`a0a518d`](https://github.com/stdlib-js/stdlib/commit/a0a518d2584da8a734961ff2ddd85b984b6a9f68) - **docs:** update namespace table of contents [(#13548)](https://github.com/stdlib-js/stdlib/pull/13548) _(by stdlib-bot)_
