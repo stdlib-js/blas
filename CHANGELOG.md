@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bd18166`](https://github.com/stdlib-js/stdlib/commit/bd18166d11bb75ec32df83c18d7c52828c1cf6e1) - add `blas/ext/base/dfirst-index-less-than` [(#13361)](https://github.com/stdlib-js/stdlib/pull/13361)
 -   [`f30c7d6`](https://github.com/stdlib-js/stdlib/commit/f30c7d6183d3c5163a6a5239e406bcb735868690) - add various symbols to namespace
 -   [`e40a9ef`](https://github.com/stdlib-js/stdlib/commit/e40a9efbd69b97f4564ff23f72c124f10fd2c027) - add `blas/ext/base/ndarray/dfill-equal` [(#13563)](https://github.com/stdlib-js/stdlib/pull/13563)
 -   [`cbdd37a`](https://github.com/stdlib-js/stdlib/commit/cbdd37aceddd4442eff47da66662422f4eb2aa59) - add `blas/ext/base/ndarray/gindex-of-not-equal` [(#13556)](https://github.com/stdlib-js/stdlib/pull/13556)
@@ -331,6 +332,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`bd18166`](https://github.com/stdlib-js/stdlib/commit/bd18166d11bb75ec32df83c18d7c52828c1cf6e1) - **feat:** add `blas/ext/base/dfirst-index-less-than` [(#13361)](https://github.com/stdlib-js/stdlib/pull/13361) _(by Muhammad Haris, Athan Reines)_
 -   [`f30c7d6`](https://github.com/stdlib-js/stdlib/commit/f30c7d6183d3c5163a6a5239e406bcb735868690) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`e40a9ef`](https://github.com/stdlib-js/stdlib/commit/e40a9efbd69b97f4564ff23f72c124f10fd2c027) - **feat:** add `blas/ext/base/ndarray/dfill-equal` [(#13563)](https://github.com/stdlib-js/stdlib/pull/13563) _(by Muhammad Haris, Athan Reines)_
 -   [`cbdd37a`](https://github.com/stdlib-js/stdlib/commit/cbdd37aceddd4442eff47da66662422f4eb2aa59) - **feat:** add `blas/ext/base/ndarray/gindex-of-not-equal` [(#13556)](https://github.com/stdlib-js/stdlib/pull/13556) _(by Muhammad Haris, Athan Reines)_
