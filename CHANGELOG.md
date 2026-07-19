@@ -325,6 +325,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`2b91bfe`](https://github.com/stdlib-js/stdlib/commit/2b91bfe05118a857b5b495680bbde7742aef6558) - **chore:** clean-up [(#13551)](https://github.com/stdlib-js/stdlib/pull/13551) _(by Philipp Burckhardt)_
 -   [`ad17191`](https://github.com/stdlib-js/stdlib/commit/ad17191dc62b80db20ac048f1b5e813faf0cdd9e) - **feat:** add `dsyr`, `ssyr`, and `ssyr2` to namespace _(by Athan Reines)_
 -   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - **feat:** add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847) _(by Kaustubh Patange, Athan Reines)_
 -   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - **feat:** add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839) _(by Kaustubh Patange, Athan Reines)_
