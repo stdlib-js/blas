@@ -199,6 +199,15 @@ setReadOnly( ns, 'dspr', require( './../../../base/ndarray/dspr' ) );
 setReadOnly( ns, 'dswap', require( './../../../base/ndarray/dswap' ) );
 
 /**
+* @name dsyr
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/dsyr}
+*/
+setReadOnly( ns, 'dsyr', require( './../../../base/ndarray/dsyr' ) );
+
+/**
 * @name dsyr2
 * @memberof ns
 * @readonly
@@ -476,6 +485,24 @@ setReadOnly( ns, 'sspr', require( './../../../base/ndarray/sspr' ) );
 * @see {@link module:@stdlib/blas/base/ndarray/sswap}
 */
 setReadOnly( ns, 'sswap', require( './../../../base/ndarray/sswap' ) );
+
+/**
+* @name ssyr
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/ssyr}
+*/
+setReadOnly( ns, 'ssyr', require( './../../../base/ndarray/ssyr' ) );
+
+/**
+* @name ssyr2
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/ssyr2}
+*/
+setReadOnly( ns, 'ssyr2', require( './../../../base/ndarray/ssyr2' ) );
 
 /**
 * @name zaxpy
