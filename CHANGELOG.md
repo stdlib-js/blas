@@ -328,6 +328,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`2780757`](https://github.com/stdlib-js/stdlib/commit/2780757ca6daae57598a53022837a497e55b8d41) - **style:** re-enable lint rule [(#13554)](https://github.com/stdlib-js/stdlib/pull/13554) _(by Philipp Burckhardt)_
 -   [`4dd684e`](https://github.com/stdlib-js/stdlib/commit/4dd684e6e7484ce176a5859515a9bdde240a0a86) - **feat:** add `blas/ext/base/ndarray/sxdy` [(#13566)](https://github.com/stdlib-js/stdlib/pull/13566) _(by Karan Anand)_
 -   [`d38e0b2`](https://github.com/stdlib-js/stdlib/commit/d38e0b25c38c7c23272d5b51a1086e1fba39c2e6) - **feat:** add `blas/ext/base/ndarray/dxdy` [(#13565)](https://github.com/stdlib-js/stdlib/pull/13565) _(by Karan Anand)_
 -   [`64d2677`](https://github.com/stdlib-js/stdlib/commit/64d2677110fe436f82937bce2b48cbfb22395483) - **feat:** add `blas/ext/base/ndarray/gxdy` [(#13567)](https://github.com/stdlib-js/stdlib/pull/13567) _(by Karan Anand)_
