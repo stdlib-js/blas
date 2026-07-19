@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847)
 -   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839)
 -   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838)
 -   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - add `dgemm` and `sgemm` to namespace
@@ -323,6 +324,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`8b15f44`](https://github.com/stdlib-js/stdlib/commit/8b15f44829dcecaf507b7e15aa99f23250c82cd1) - **feat:** add `blas/base/ndarray/ssyr2` [(#12847)](https://github.com/stdlib-js/stdlib/pull/12847) _(by Kaustubh Patange, Athan Reines)_
 -   [`26bade4`](https://github.com/stdlib-js/stdlib/commit/26bade4c5acb2c4c86bbcd958dd33a45267bbfc4) - **feat:** add `blas/base/ndarray/dsyr` [(#12839)](https://github.com/stdlib-js/stdlib/pull/12839) _(by Kaustubh Patange, Athan Reines)_
 -   [`cfdd20a`](https://github.com/stdlib-js/stdlib/commit/cfdd20a9002beca6676ea7b1b5cc5ffeae1f9702) - **feat:** add `blas/base/ndarray/ssyr` [(#12838)](https://github.com/stdlib-js/stdlib/pull/12838) _(by Kaustubh Patange)_
 -   [`364c3f1`](https://github.com/stdlib-js/stdlib/commit/364c3f1c4358cd95996ec5746442013029189a2b) - **feat:** add `dgemm` and `sgemm` to namespace _(by Athan Reines)_
