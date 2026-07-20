@@ -338,6 +338,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`723ec8d`](https://github.com/stdlib-js/stdlib/commit/723ec8daf3c95013b5d4dcbb2ec77ee4d1b44886) - **feat:** add `blas/asum` [(#13586)](https://github.com/stdlib-js/stdlib/pull/13586) _(by Kaustubh Patange, Athan Reines)_
 -   [`92d0c62`](https://github.com/stdlib-js/stdlib/commit/92d0c62dc0af306526711042b1d0e2f5abf77309) - **chore:** remove unused directive _(by Athan Reines)_
 -   [`b772009`](https://github.com/stdlib-js/stdlib/commit/b7720097291937d41fbac5611b0e310210965a87) - **chore:** clean-up [(#13584)](https://github.com/stdlib-js/stdlib/pull/13584) _(by Philipp Burckhardt)_
