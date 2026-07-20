@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-19)
+## Unreleased (2026-07-20)
 
 <section class="features">
 
 ### Features
 
+-   [`5253dd3`](https://github.com/stdlib-js/stdlib/commit/5253dd34980a7b23e79887a22ea6fb6095e241db) - add `dfirstIndexLessThan` and `sfirstIndexLessThan` to namespace
 -   [`e439671`](https://github.com/stdlib-js/stdlib/commit/e439671e3de89a9a62dac84085d1772d839d1352) - add `blas/ext/base/sfirst-index-less-than` [(#13553)](https://github.com/stdlib-js/stdlib/pull/13553)
 -   [`bd18166`](https://github.com/stdlib-js/stdlib/commit/bd18166d11bb75ec32df83c18d7c52828c1cf6e1) - add `blas/ext/base/dfirst-index-less-than` [(#13361)](https://github.com/stdlib-js/stdlib/pull/13361)
 -   [`f30c7d6`](https://github.com/stdlib-js/stdlib/commit/f30c7d6183d3c5163a6a5239e406bcb735868690) - add various symbols to namespace
@@ -333,6 +334,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`5253dd3`](https://github.com/stdlib-js/stdlib/commit/5253dd34980a7b23e79887a22ea6fb6095e241db) - **feat:** add `dfirstIndexLessThan` and `sfirstIndexLessThan` to namespace _(by Athan Reines)_
 -   [`e439671`](https://github.com/stdlib-js/stdlib/commit/e439671e3de89a9a62dac84085d1772d839d1352) - **feat:** add `blas/ext/base/sfirst-index-less-than` [(#13553)](https://github.com/stdlib-js/stdlib/pull/13553) _(by Muhammad Haris, Athan Reines)_
 -   [`bd18166`](https://github.com/stdlib-js/stdlib/commit/bd18166d11bb75ec32df83c18d7c52828c1cf6e1) - **feat:** add `blas/ext/base/dfirst-index-less-than` [(#13361)](https://github.com/stdlib-js/stdlib/pull/13361) _(by Muhammad Haris, Athan Reines)_
 -   [`f30c7d6`](https://github.com/stdlib-js/stdlib/commit/f30c7d6183d3c5163a6a5239e406bcb735868690) - **feat:** add various symbols to namespace _(by Athan Reines)_

@@ -516,6 +516,15 @@ setReadOnly( ns, 'dfillNotEqual', require( './../../../ext/base/dfill-not-equal'
 setReadOnly( ns, 'dfirstIndexEqual', require( './../../../ext/base/dfirst-index-equal' ) );
 
 /**
+* @name dfirstIndexLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dfirst-index-less-than}
+*/
+setReadOnly( ns, 'dfirstIndexLessThan', require( './../../../ext/base/dfirst-index-less-than' ) );
+
+/**
 * @name dindexOf
 * @memberof ns
 * @readonly
@@ -2377,6 +2386,15 @@ setReadOnly( ns, 'sfillNotEqual', require( './../../../ext/base/sfill-not-equal'
 * @see {@link module:@stdlib/blas/ext/base/sfirst-index-equal}
 */
 setReadOnly( ns, 'sfirstIndexEqual', require( './../../../ext/base/sfirst-index-equal' ) );
+
+/**
+* @name sfirstIndexLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sfirst-index-less-than}
+*/
+setReadOnly( ns, 'sfirstIndexLessThan', require( './../../../ext/base/sfirst-index-less-than' ) );
 
 /**
 * @name sindexOf
