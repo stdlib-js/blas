@@ -1,0 +1,10470 @@
+/*
+* @license Apache-2.0
+*
+* Copyright (c) 2021 The Stdlib Authors.
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*    http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
+// TypeScript Version: 4.1
+
+/* eslint-disable max-lines */
+
+import capx = require( './../../../../ext/base/capx' );
+import caxpb = require( './../../../../ext/base/caxpb' );
+import caxpby = require( './../../../../ext/base/caxpby' );
+import cdiff = require( './../../../../ext/base/cdiff' );
+import cfill = require( './../../../../ext/base/cfill' );
+import cindexOf = require( './../../../../ext/base/cindex-of' );
+import cindexOfColumn = require( './../../../../ext/base/cindex-of-column' );
+import cindexOfRow = require( './../../../../ext/base/cindex-of-row' );
+import clastIndexOfRow = require( './../../../../ext/base/clast-index-of-row' );
+import coneTo = require( './../../../../ext/base/cone-to' );
+import creplicate = require( './../../../../ext/base/creplicate' );
+import csum = require( './../../../../ext/base/csum' );
+import csumkbn = require( './../../../../ext/base/csumkbn' );
+import cunitspace = require( './../../../../ext/base/cunitspace' );
+import cwapx = require( './../../../../ext/base/cwapx' );
+import cwax = require( './../../../../ext/base/cwax' );
+import cwhere = require( './../../../../ext/base/cwhere' );
+import cwxsa = require( './../../../../ext/base/cwxsa' );
+import cxmy = require( './../../../../ext/base/cxmy' );
+import cxpy = require( './../../../../ext/base/cxpy' );
+import cxsa = require( './../../../../ext/base/cxsa' );
+import cxsy = require( './../../../../ext/base/cxsy' );
+import czeroTo = require( './../../../../ext/base/czero-to' );
+import dany = require( './../../../../ext/base/dany' );
+import dapx = require( './../../../../ext/base/dapx' );
+import dapxsum = require( './../../../../ext/base/dapxsum' );
+import dapxsumkbn = require( './../../../../ext/base/dapxsumkbn' );
+import dapxsumkbn2 = require( './../../../../ext/base/dapxsumkbn2' );
+import dapxsumors = require( './../../../../ext/base/dapxsumors' );
+import dapxsumpw = require( './../../../../ext/base/dapxsumpw' );
+import dasumpw = require( './../../../../ext/base/dasumpw' );
+import daxpb = require( './../../../../ext/base/daxpb' );
+import daxpby = require( './../../../../ext/base/daxpby' );
+import dcartesianPower = require( './../../../../ext/base/dcartesian-power' );
+import dcartesianProduct = require( './../../../../ext/base/dcartesian-product' );
+import dcartesianSquare = require( './../../../../ext/base/dcartesian-square' );
+import dcircshift = require( './../../../../ext/base/dcircshift' );
+import dcuany = require( './../../../../ext/base/dcuany' );
+import dcuevery = require( './../../../../ext/base/dcuevery' );
+import dcunone = require( './../../../../ext/base/dcunone' );
+import dcusome = require( './../../../../ext/base/dcusome' );
+import dcusum = require( './../../../../ext/base/dcusum' );
+import dcusumkbn = require( './../../../../ext/base/dcusumkbn' );
+import dcusumkbn2 = require( './../../../../ext/base/dcusumkbn2' );
+import dcusumors = require( './../../../../ext/base/dcusumors' );
+import dcusumpw = require( './../../../../ext/base/dcusumpw' );
+import ddiff = require( './../../../../ext/base/ddiff' );
+import dediff = require( './../../../../ext/base/dediff' );
+import dfill = require( './../../../../ext/base/dfill' );
+import dfillEqual = require( './../../../../ext/base/dfill-equal' );
+import dfillNaN = require( './../../../../ext/base/dfill-nan' );
+import dfillNotEqual = require( './../../../../ext/base/dfill-not-equal' );
+import dfirstIndexEqual = require( './../../../../ext/base/dfirst-index-equal' );
+import dfirstIndexLessThan = require( './../../../../ext/base/dfirst-index-less-than' );
+import dindexOf = require( './../../../../ext/base/dindex-of' );
+import dindexOfColumn = require( './../../../../ext/base/dindex-of-column' );
+import dindexOfFalsy = require( './../../../../ext/base/dindex-of-falsy' );
+import dindexOfNotEqual = require( './../../../../ext/base/dindex-of-not-equal' );
+import dindexOfRow = require( './../../../../ext/base/dindex-of-row' );
+import dindexOfTruthy = require( './../../../../ext/base/dindex-of-truthy' );
+import dlastIndexOf = require( './../../../../ext/base/dlast-index-of' );
+import dlastIndexOfFalsy = require( './../../../../ext/base/dlast-index-of-falsy' );
+import dlastIndexOfRow = require( './../../../../ext/base/dlast-index-of-row' );
+import dlastIndexOfTruthy = require( './../../../../ext/base/dlast-index-of-truthy' );
+import dlinspace = require( './../../../../ext/base/dlinspace' );
+import dlogspace = require( './../../../../ext/base/dlogspace' );
+import dminheapSiftDown = require( './../../../../ext/base/dminheap-sift-down' );
+import dmskrev = require( './../../../../ext/base/dmskrev' );
+import dnanasum = require( './../../../../ext/base/dnanasum' );
+import dnanasumors = require( './../../../../ext/base/dnanasumors' );
+import dnancount = require( './../../../../ext/base/dnancount' );
+import dnancusumkbn = require( './../../../../ext/base/dnancusumkbn' );
+import dnannsum = require( './../../../../ext/base/dnannsum' );
+import dnannsumkbn = require( './../../../../ext/base/dnannsumkbn' );
+import dnannsumkbn2 = require( './../../../../ext/base/dnannsumkbn2' );
+import dnannsumors = require( './../../../../ext/base/dnannsumors' );
+import dnannsumpw = require( './../../../../ext/base/dnannsumpw' );
+import dnansum = require( './../../../../ext/base/dnansum' );
+import dnansumkbn = require( './../../../../ext/base/dnansumkbn' );
+import dnansumkbn2 = require( './../../../../ext/base/dnansumkbn2' );
+import dnansumors = require( './../../../../ext/base/dnansumors' );
+import dnansumpw = require( './../../../../ext/base/dnansumpw' );
+import dnone = require( './../../../../ext/base/dnone' );
+import doneTo = require( './../../../../ext/base/done-to' );
+import dones = require( './../../../../ext/base/dones' );
+import dreplicate = require( './../../../../ext/base/dreplicate' );
+import drev = require( './../../../../ext/base/drev' );
+import drrss = require( './../../../../ext/base/drrss' );
+import drss = require( './../../../../ext/base/drss' );
+import drssbl = require( './../../../../ext/base/drssbl' );
+import drsskbn = require( './../../../../ext/base/drsskbn' );
+import dsapxsum = require( './../../../../ext/base/dsapxsum' );
+import dsapxsumpw = require( './../../../../ext/base/dsapxsumpw' );
+import dsnannsumors = require( './../../../../ext/base/dsnannsumors' );
+import dsnansum = require( './../../../../ext/base/dsnansum' );
+import dsnansumors = require( './../../../../ext/base/dsnansumors' );
+import dsnansumpw = require( './../../../../ext/base/dsnansumpw' );
+import dsome = require( './../../../../ext/base/dsome' );
+import dsort = require( './../../../../ext/base/dsort' );
+import dsort2hp = require( './../../../../ext/base/dsort2hp' );
+import dsort2ins = require( './../../../../ext/base/dsort2ins' );
+import dsort2sh = require( './../../../../ext/base/dsort2sh' );
+import dsorthp = require( './../../../../ext/base/dsorthp' );
+import dsortins = require( './../../../../ext/base/dsortins' );
+import dsortsh = require( './../../../../ext/base/dsortsh' );
+import dssum = require( './../../../../ext/base/dssum' );
+import dssumors = require( './../../../../ext/base/dssumors' );
+import dssumpw = require( './../../../../ext/base/dssumpw' );
+import dsum = require( './../../../../ext/base/dsum' );
+import dsumkbn = require( './../../../../ext/base/dsumkbn' );
+import dsumkbn2 = require( './../../../../ext/base/dsumkbn2' );
+import dsumors = require( './../../../../ext/base/dsumors' );
+import dsumpw = require( './../../../../ext/base/dsumpw' );
+import dunitspace = require( './../../../../ext/base/dunitspace' );
+import dvander = require( './../../../../ext/base/dvander' );
+import dwapx = require( './../../../../ext/base/dwapx' );
+import dwax = require( './../../../../ext/base/dwax' );
+import dwhere = require( './../../../../ext/base/dwhere' );
+import dwxsa = require( './../../../../ext/base/dwxsa' );
+import dxdy = require( './../../../../ext/base/dxdy' );
+import dxmy = require( './../../../../ext/base/dxmy' );
+import dxpy = require( './../../../../ext/base/dxpy' );
+import dxsa = require( './../../../../ext/base/dxsa' );
+import dxsy = require( './../../../../ext/base/dxsy' );
+import dzeroTo = require( './../../../../ext/base/dzero-to' );
+import dzeros = require( './../../../../ext/base/dzeros' );
+import gany = require( './../../../../ext/base/gany' );
+import gapx = require( './../../../../ext/base/gapx' );
+import gapxsum = require( './../../../../ext/base/gapxsum' );
+import gapxsumkbn = require( './../../../../ext/base/gapxsumkbn' );
+import gapxsumkbn2 = require( './../../../../ext/base/gapxsumkbn2' );
+import gapxsumors = require( './../../../../ext/base/gapxsumors' );
+import gapxsumpw = require( './../../../../ext/base/gapxsumpw' );
+import gasumpw = require( './../../../../ext/base/gasumpw' );
+import gaxpb = require( './../../../../ext/base/gaxpb' );
+import gaxpby = require( './../../../../ext/base/gaxpby' );
+import gcartesianPower = require( './../../../../ext/base/gcartesian-power' );
+import gcartesianProduct = require( './../../../../ext/base/gcartesian-product' );
+import gcartesianSquare = require( './../../../../ext/base/gcartesian-square' );
+import gcircshift = require( './../../../../ext/base/gcircshift' );
+import gconjoin = require( './../../../../ext/base/gconjoin' );
+import gcuany = require( './../../../../ext/base/gcuany' );
+import gcuevery = require( './../../../../ext/base/gcuevery' );
+import gcunone = require( './../../../../ext/base/gcunone' );
+import gcusome = require( './../../../../ext/base/gcusome' );
+import gcusum = require( './../../../../ext/base/gcusum' );
+import gcusumkbn = require( './../../../../ext/base/gcusumkbn' );
+import gcusumkbn2 = require( './../../../../ext/base/gcusumkbn2' );
+import gcusumors = require( './../../../../ext/base/gcusumors' );
+import gcusumpw = require( './../../../../ext/base/gcusumpw' );
+import gdiff = require( './../../../../ext/base/gdiff' );
+import gediff = require( './../../../../ext/base/gediff' );
+import gevery = require( './../../../../ext/base/gevery' );
+import gfill = require( './../../../../ext/base/gfill' );
+import gfillBy = require( './../../../../ext/base/gfill-by' );
+import gfillEqual = require( './../../../../ext/base/gfill-equal' );
+import gfillLessThan = require( './../../../../ext/base/gfill-less-than' );
+import gfillNaN = require( './../../../../ext/base/gfill-nan' );
+import gfillNotEqual = require( './../../../../ext/base/gfill-not-equal' );
+import gfindIndex = require( './../../../../ext/base/gfind-index' );
+import gfindLastIndex = require( './../../../../ext/base/gfind-last-index' );
+import gfirstIndexEqual = require( './../../../../ext/base/gfirst-index-equal' );
+import gfirstIndexGreaterThan = require( './../../../../ext/base/gfirst-index-greater-than' );
+import gfirstIndexLessThan = require( './../../../../ext/base/gfirst-index-less-than' );
+import gfirstIndexNotEqual = require( './../../../../ext/base/gfirst-index-not-equal' );
+import gindexOf = require( './../../../../ext/base/gindex-of' );
+import gindexOfColumn = require( './../../../../ext/base/gindex-of-column' );
+import gindexOfFalsy = require( './../../../../ext/base/gindex-of-falsy' );
+import gindexOfNotEqual = require( './../../../../ext/base/gindex-of-not-equal' );
+import gindexOfRow = require( './../../../../ext/base/gindex-of-row' );
+import gindexOfSameValue = require( './../../../../ext/base/gindex-of-same-value' );
+import gindexOfTruthy = require( './../../../../ext/base/gindex-of-truthy' );
+import gjoin = require( './../../../../ext/base/gjoin' );
+import gjoinBetween = require( './../../../../ext/base/gjoin-between' );
+import glastIndexEqual = require( './../../../../ext/base/glast-index-equal' );
+import glastIndexOf = require( './../../../../ext/base/glast-index-of' );
+import glastIndexOfFalsy = require( './../../../../ext/base/glast-index-of-falsy' );
+import glastIndexOfRow = require( './../../../../ext/base/glast-index-of-row' );
+import glastIndexOfTruthy = require( './../../../../ext/base/glast-index-of-truthy' );
+import glinspace = require( './../../../../ext/base/glinspace' );
+import glogspace = require( './../../../../ext/base/glogspace' );
+import gminheapSiftDown = require( './../../../../ext/base/gminheap-sift-down' );
+import gminheapify = require( './../../../../ext/base/gminheapify' );
+import gmskrev = require( './../../../../ext/base/gmskrev' );
+import gnancount = require( './../../../../ext/base/gnancount' );
+import gnannsumkbn = require( './../../../../ext/base/gnannsumkbn' );
+import gnannsumpw = require( './../../../../ext/base/gnannsumpw' );
+import gnansum = require( './../../../../ext/base/gnansum' );
+import gnansumkbn = require( './../../../../ext/base/gnansumkbn' );
+import gnansumkbn2 = require( './../../../../ext/base/gnansumkbn2' );
+import gnansumors = require( './../../../../ext/base/gnansumors' );
+import gnansumpw = require( './../../../../ext/base/gnansumpw' );
+import gnone = require( './../../../../ext/base/gnone' );
+import goneTo = require( './../../../../ext/base/gone-to' );
+import greplicate = require( './../../../../ext/base/greplicate' );
+import grev = require( './../../../../ext/base/grev' );
+import gsome = require( './../../../../ext/base/gsome' );
+import gsort = require( './../../../../ext/base/gsort' );
+import gsort2hp = require( './../../../../ext/base/gsort2hp' );
+import gsort2ins = require( './../../../../ext/base/gsort2ins' );
+import gsort2sh = require( './../../../../ext/base/gsort2sh' );
+import gsorthp = require( './../../../../ext/base/gsorthp' );
+import gsortins = require( './../../../../ext/base/gsortins' );
+import gsortsh = require( './../../../../ext/base/gsortsh' );
+import gsum = require( './../../../../ext/base/gsum' );
+import gsumkbn = require( './../../../../ext/base/gsumkbn' );
+import gsumkbn2 = require( './../../../../ext/base/gsumkbn2' );
+import gsumors = require( './../../../../ext/base/gsumors' );
+import gsumpw = require( './../../../../ext/base/gsumpw' );
+import gunitspace = require( './../../../../ext/base/gunitspace' );
+import gvander = require( './../../../../ext/base/gvander' );
+import gwapx = require( './../../../../ext/base/gwapx' );
+import gwax = require( './../../../../ext/base/gwax' );
+import gwaxpb = require( './../../../../ext/base/gwaxpb' );
+import gwhere = require( './../../../../ext/base/gwhere' );
+import gwxpy = require( './../../../../ext/base/gwxpy' );
+import gwxsa = require( './../../../../ext/base/gwxsa' );
+import gwxsy = require( './../../../../ext/base/gwxsy' );
+import gxdy = require( './../../../../ext/base/gxdy' );
+import gxmy = require( './../../../../ext/base/gxmy' );
+import gxpy = require( './../../../../ext/base/gxpy' );
+import gxsa = require( './../../../../ext/base/gxsa' );
+import gxsy = require( './../../../../ext/base/gxsy' );
+import gzeroTo = require( './../../../../ext/base/gzero-to' );
+import ndarray = require( './../../../../ext/base/ndarray' );
+import sany = require( './../../../../ext/base/sany' );
+import sapx = require( './../../../../ext/base/sapx' );
+import sapxsum = require( './../../../../ext/base/sapxsum' );
+import sapxsumkbn = require( './../../../../ext/base/sapxsumkbn' );
+import sapxsumkbn2 = require( './../../../../ext/base/sapxsumkbn2' );
+import sapxsumors = require( './../../../../ext/base/sapxsumors' );
+import sapxsumpw = require( './../../../../ext/base/sapxsumpw' );
+import sasumpw = require( './../../../../ext/base/sasumpw' );
+import saxpb = require( './../../../../ext/base/saxpb' );
+import saxpby = require( './../../../../ext/base/saxpby' );
+import scartesianPower = require( './../../../../ext/base/scartesian-power' );
+import scartesianProduct = require( './../../../../ext/base/scartesian-product' );
+import scartesianSquare = require( './../../../../ext/base/scartesian-square' );
+import scircshift = require( './../../../../ext/base/scircshift' );
+import scuany = require( './../../../../ext/base/scuany' );
+import scuevery = require( './../../../../ext/base/scuevery' );
+import scunone = require( './../../../../ext/base/scunone' );
+import scusome = require( './../../../../ext/base/scusome' );
+import scusum = require( './../../../../ext/base/scusum' );
+import scusumkbn = require( './../../../../ext/base/scusumkbn' );
+import scusumkbn2 = require( './../../../../ext/base/scusumkbn2' );
+import scusumors = require( './../../../../ext/base/scusumors' );
+import scusumpw = require( './../../../../ext/base/scusumpw' );
+import sdiff = require( './../../../../ext/base/sdiff' );
+import sdsapxsum = require( './../../../../ext/base/sdsapxsum' );
+import sdsapxsumpw = require( './../../../../ext/base/sdsapxsumpw' );
+import sdsnansum = require( './../../../../ext/base/sdsnansum' );
+import sdsnansumpw = require( './../../../../ext/base/sdsnansumpw' );
+import sdssum = require( './../../../../ext/base/sdssum' );
+import sdssumpw = require( './../../../../ext/base/sdssumpw' );
+import sediff = require( './../../../../ext/base/sediff' );
+import sfill = require( './../../../../ext/base/sfill' );
+import sfillEqual = require( './../../../../ext/base/sfill-equal' );
+import sfillNaN = require( './../../../../ext/base/sfill-nan' );
+import sfillNotEqual = require( './../../../../ext/base/sfill-not-equal' );
+import sfirstIndexEqual = require( './../../../../ext/base/sfirst-index-equal' );
+import sfirstIndexLessThan = require( './../../../../ext/base/sfirst-index-less-than' );
+import sindexOf = require( './../../../../ext/base/sindex-of' );
+import sindexOfColumn = require( './../../../../ext/base/sindex-of-column' );
+import sindexOfFalsy = require( './../../../../ext/base/sindex-of-falsy' );
+import sindexOfRow = require( './../../../../ext/base/sindex-of-row' );
+import sindexOfTruthy = require( './../../../../ext/base/sindex-of-truthy' );
+import slastIndexOf = require( './../../../../ext/base/slast-index-of' );
+import slastIndexOfFalsy = require( './../../../../ext/base/slast-index-of-falsy' );
+import slastIndexOfRow = require( './../../../../ext/base/slast-index-of-row' );
+import slastIndexOfTruthy = require( './../../../../ext/base/slast-index-of-truthy' );
+import slinspace = require( './../../../../ext/base/slinspace' );
+import slogspace = require( './../../../../ext/base/slogspace' );
+import sminheapSiftDown = require( './../../../../ext/base/sminheap-sift-down' );
+import smskrev = require( './../../../../ext/base/smskrev' );
+import snancount = require( './../../../../ext/base/snancount' );
+import snansum = require( './../../../../ext/base/snansum' );
+import snansumkbn = require( './../../../../ext/base/snansumkbn' );
+import snansumkbn2 = require( './../../../../ext/base/snansumkbn2' );
+import snansumors = require( './../../../../ext/base/snansumors' );
+import snansumpw = require( './../../../../ext/base/snansumpw' );
+import snone = require( './../../../../ext/base/snone' );
+import soneTo = require( './../../../../ext/base/sone-to' );
+import sones = require( './../../../../ext/base/sones' );
+import sreplicate = require( './../../../../ext/base/sreplicate' );
+import srev = require( './../../../../ext/base/srev' );
+import ssome = require( './../../../../ext/base/ssome' );
+import ssort = require( './../../../../ext/base/ssort' );
+import ssort2hp = require( './../../../../ext/base/ssort2hp' );
+import ssort2ins = require( './../../../../ext/base/ssort2ins' );
+import ssort2sh = require( './../../../../ext/base/ssort2sh' );
+import ssorthp = require( './../../../../ext/base/ssorthp' );
+import ssortins = require( './../../../../ext/base/ssortins' );
+import ssortsh = require( './../../../../ext/base/ssortsh' );
+import ssum = require( './../../../../ext/base/ssum' );
+import ssumkbn = require( './../../../../ext/base/ssumkbn' );
+import ssumkbn2 = require( './../../../../ext/base/ssumkbn2' );
+import ssumors = require( './../../../../ext/base/ssumors' );
+import ssumpw = require( './../../../../ext/base/ssumpw' );
+import sunitspace = require( './../../../../ext/base/sunitspace' );
+import svander = require( './../../../../ext/base/svander' );
+import swapx = require( './../../../../ext/base/swapx' );
+import swax = require( './../../../../ext/base/swax' );
+import swhere = require( './../../../../ext/base/swhere' );
+import swxsa = require( './../../../../ext/base/swxsa' );
+import sxdy = require( './../../../../ext/base/sxdy' );
+import sxmy = require( './../../../../ext/base/sxmy' );
+import sxpy = require( './../../../../ext/base/sxpy' );
+import sxsa = require( './../../../../ext/base/sxsa' );
+import sxsy = require( './../../../../ext/base/sxsy' );
+import szeroTo = require( './../../../../ext/base/szero-to' );
+import szeros = require( './../../../../ext/base/szeros' );
+import wasm = require( './../../../../ext/base/wasm' );
+import zapx = require( './../../../../ext/base/zapx' );
+import zaxpb = require( './../../../../ext/base/zaxpb' );
+import zaxpby = require( './../../../../ext/base/zaxpby' );
+import zdiff = require( './../../../../ext/base/zdiff' );
+import zfill = require( './../../../../ext/base/zfill' );
+import zindexOf = require( './../../../../ext/base/zindex-of' );
+import zindexOfColumn = require( './../../../../ext/base/zindex-of-column' );
+import zindexOfRow = require( './../../../../ext/base/zindex-of-row' );
+import zindexOfTruthy = require( './../../../../ext/base/zindex-of-truthy' );
+import zlastIndexOfRow = require( './../../../../ext/base/zlast-index-of-row' );
+import znancount = require( './../../../../ext/base/znancount' );
+import zoneTo = require( './../../../../ext/base/zone-to' );
+import zreplicate = require( './../../../../ext/base/zreplicate' );
+import zsum = require( './../../../../ext/base/zsum' );
+import zsumkbn = require( './../../../../ext/base/zsumkbn' );
+import zunitspace = require( './../../../../ext/base/zunitspace' );
+import zwapx = require( './../../../../ext/base/zwapx' );
+import zwax = require( './../../../../ext/base/zwax' );
+import zwhere = require( './../../../../ext/base/zwhere' );
+import zwxsa = require( './../../../../ext/base/zwxsa' );
+import zxmy = require( './../../../../ext/base/zxmy' );
+import zxpy = require( './../../../../ext/base/zxpy' );
+import zxsa = require( './../../../../ext/base/zxsa' );
+import zxsy = require( './../../../../ext/base/zxsy' );
+import zzeroTo = require( './../../../../ext/base/zzero-to' );
+
+/**
+* Interface describing the `base` namespace.
+*/
+interface Namespace {
+	/**
+	* Adds a scalar constant to each element in a single-precision complex floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 10.0, 10.0 );
+	*
+	* ns.capx( x.length, alpha, x, 1 );
+	* // x => <Complex64Array>[ 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 10.0, 10.0 );
+	*
+	* ns.capx.ndarray( x.length, alpha, x, 1, 0 );
+	* // x => <Complex64Array>[ 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0 ]
+	*/
+	capx: typeof capx;
+
+	/**
+	* Multiplies each element in a single-precision complex floating-point strided array by a scalar constant and adds a scalar constant to each result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 2.0, 0.0 );
+	* var beta = new Complex64( 1.0, 0.0 );
+	*
+	* ns.caxpb( x.length, alpha, beta, x, 1 );
+	* // x => <Complex64Array>[ 3.0, 4.0, 7.0, 8.0, 11.0, 12.0, 15.0, 16.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 2.0, 0.0 );
+	* var beta = new Complex64( 1.0, 0.0 );
+	*
+	* ns.caxpb.ndarray( x.length, alpha, beta, x, 1, 0 );
+	* // x => <Complex64Array>[ 3.0, 4.0, 7.0, 8.0, 11.0, 12.0, 15.0, 16.0 ]
+	*/
+	caxpb: typeof caxpb;
+
+	/**
+	* Multiplies a single-precision complex floating-point strided array `x` by a constant and adds the result to a single-precision complex floating-point strided array `y` multiplied by a constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param beta - second scalar constant
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex64Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 2.0, 1.0 );
+	* var beta = new Complex64( 1.0, -1.0 );
+	*
+	* ns.caxpby( x.length, alpha, x, 1, beta, y, 1 );
+	* // y => <Complex64Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex64Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 2.0, 1.0 );
+	* var beta = new Complex64( 1.0, -1.0 );
+	*
+	* ns.caxpby.ndarray( x.length, alpha, x, 1, 0, beta, y, 1, 0 );
+	* // y => <Complex64Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*/
+	caxpby: typeof caxpby;
+
+	/**
+	* Calculates the k-th discrete forward difference of a single-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 2.0, -2.0, 4.0, -4.0, 6.0, -6.0, 8.0, -8.0, 10.0, -10.0 ] );
+	* var p = new Complex64Array( [ 1.0, -1.0 ] );
+	* var a = new Complex64Array( [ 11.0, -11.0 ] );
+	* var out = new Complex64Array( 6 );
+	* var w = new Complex64Array( 6 );
+	*
+	* ns.cdiff( x.length, 1, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	* // out => <Complex64Array>[ 1.0, -1.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 1.0, -1.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 2.0, -2.0, 4.0, -4.0, 6.0, -6.0, 8.0, -8.0, 10.0, -10.0 ] );
+	* var p = new Complex64Array( [ 1.0, -1.0 ] );
+	* var a = new Complex64Array( [ 11.0, -11.0 ] );
+	* var out = new Complex64Array( 6 );
+	* var w = new Complex64Array( 6 );
+	*
+	* ns.cdiff.ndarray( x.length, 1, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	* // out => <Complex64Array>[ 1.0, -1.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 1.0, -1.0 ]
+	*/
+	cdiff: typeof cdiff;
+
+	/**
+	* Fills a single-precision complex floating-point strided array with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 10.0, 10.0 );
+	*
+	* ns.cfill( x.length, alpha, x, 1 );
+	* // x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 10.0, 10.0 );
+	*
+	* ns.cfill.ndarray( x.length, alpha, x, 1, 0 );
+	* // x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
+	*/
+	cfill: typeof cfill;
+
+	/**
+	* Returns the first index of a specified search element in a single-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var idx = ns.cindexOf( x.length, new Complex64( 3.0, 4.0 ), x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var idx = ns.cindexOf.ndarray( x.length, new Complex64( 3.0, 4.0 ), x, 1, 0 );
+	* // returns 1
+	*/
+	cindexOf: typeof cindexOf;
+
+	/**
+	* Returns the index of the first column in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in row-major order. When the matrix is stored in column-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking column match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns column index
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex64Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex64Array( [ 2.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.cindexOfColumn( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex64Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex64Array( [ 2.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.cindexOfColumn.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	cindexOfColumn: typeof cindexOfColumn;
+
+	/**
+	* Returns the index of the first row in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex64Array( [ 1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex64Array( [ 2.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.cindexOfRow( 'column-major', 3, 2, A, 3, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex64Array( [ 1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex64Array( [ 2.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.cindexOfRow.ndarray( 3, 2, A, 1, 3, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	cindexOfRow: typeof cindexOfRow;
+
+	/**
+	* Returns the index of the last row in a single-precision complex floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* // A (row-major) => [ [ 1+0i, 2+0i ], [ 3+0i, 4+0i ], [ 3+0i, 4+0i ] ]
+	* var A = new Complex64Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 3.0, 0.0, 4.0, 0.0 ] );
+	* var x = new Complex64Array( [ 3.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.clastIndexOfRow( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* // A (row-major) => [ [ 1+0i, 2+0i ], [ 3+0i, 4+0i ], [ 3+0i, 4+0i ] ]
+	* var A = new Complex64Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 3.0, 0.0, 4.0, 0.0 ] );
+	* var x = new Complex64Array( [ 3.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.clastIndexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 2
+	*/
+	clastIndexOfRow: typeof clastIndexOfRow;
+
+	/**
+	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from one.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.coneTo( x.length, x, 1 );
+	* // x => <Complex64Array>[ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.coneTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Complex64Array>[ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0 ]
+	*/
+	coneTo: typeof coneTo;
+
+	/**
+	* Replicates each element in a single-precision complex floating-point strided array a specified number of times.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to replicate each element
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var out = new Complex64Array( 6 );
+	*
+	* ns.creplicate( x.length, 2, x, 1, out, 1 );
+	* // out => <Complex64Array>[ 1.0, 2.0, 1.0, 2.0, 3.0, 4.0, 3.0, 4.0, 5.0, 6.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var out = new Complex64Array( 6 );
+	*
+	* ns.creplicate.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => <Complex64Array>[ 1.0, 2.0, 1.0, 2.0, 3.0, 4.0, 3.0, 4.0, 5.0, 6.0, 5.0, 6.0 ]
+	*/
+	creplicate: typeof creplicate;
+
+	/**
+	* Computes the sum of single-precision complex floating-point strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.csum( x.length, x, 1 );
+	* // returns <Complex64>[ 3.0, 1.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.csum.ndarray( x.length, x, 1, 0 );
+	* // returns <Complex64>[ 3.0, 1.0 ]
+	*/
+	csum: typeof csum;
+
+	/**
+	* Computes the sum of single-precision complex floating-point strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.csumkbn( x.length, x, 1 );
+	* // returns <Complex64>[ 3.0, 1.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.csumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns <Complex64>[ 3.0, 1.0 ]
+	*/
+	csumkbn: typeof csumkbn;
+
+	/**
+	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cunitspace( x.length, new Complex64( 3.0, 0.0 ), x, 1 );
+	* // x => <Complex64Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cunitspace.ndarray( x.length, new Complex64( 3.0, 0.0 ), x, 1, 0 );
+	* // x => <Complex64Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*/
+	cunitspace: typeof cunitspace;
+
+	/**
+	* Adds a scalar constant to each element in a single-precision complex floating-point strided array `x` and assigns the results to elements in a single-precision complex floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 5.0, 3.0 );
+	*
+	* ns.cwapx( x.length, alpha, x, 1, w, 1 );
+	* // w => <Complex64Array>[ 6.0, 5.0, 8.0, 7.0, 10.0, 9.0, 12.0, 11.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 5.0, 3.0 );
+	*
+	* ns.cwapx.ndarray( x.length, alpha, x, 1, 0, w, 1, 0 );
+	* // w => <Complex64Array>[ 6.0, 5.0, 8.0, 7.0, 10.0, 9.0, 12.0, 11.0 ]
+	*/
+	cwapx: typeof cwapx;
+
+	/**
+	* Multiplies each element in a single-precision complex floating-point strided array `x` by a scalar constant and assigns the results to elements in a single-precision complex floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 5.0, 3.0 );
+	*
+	* ns.cwax( x.length, alpha, x, 1, w, 1 );
+	* // w => <Complex64Array>[ -1.0, 13.0, 3.0, 29.0, 7.0, 45.0, 11.0, 61.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 5.0, 3.0 );
+	*
+	* ns.cwax.ndarray( x.length, alpha, x, 1, 0, w, 1, 0 );
+	* // w => <Complex64Array>[ -1.0, 13.0, 3.0, 29.0, 7.0, 45.0, 11.0, 61.0 ]
+	*/
+	cwax: typeof cwax;
+
+	/**
+	* Takes elements from one of two single-precision complex floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex64Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex64Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Complex64Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex64Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex64Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Complex64Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*/
+	cwhere: typeof cwhere;
+
+	/**
+	* Subtracts a scalar constant from each element in a single-precision complex floating-point strided array `x` and assigns the results to elements in a single-precision complex floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 5.0, 3.0 );
+	*
+	* ns.cwxsa( x.length, alpha, x, 1, w, 1 );
+	* // w => <Complex64Array>[ -4.0, -1.0, -2.0, 1.0, 0.0, 3.0, 2.0, 5.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex64( 5.0, 3.0 );
+	*
+	* ns.cwxsa.ndarray( x.length, alpha, x, 1, 0, w, 1, 0 );
+	* // w => <Complex64Array>[ -4.0, -1.0, -2.0, 1.0, 0.0, 3.0, 2.0, 5.0 ]
+	*/
+	cwxsa: typeof cwxsa;
+
+	/**
+	* Multiplies elements of a single-precision complex floating-point strided array `x` by the corresponding elements of a single-precision complex floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.cxmy( x.length, x, 1, y, 1 );
+	* // y => <Complex64Array>[ -4.0, 7.0, -8.0, 31.0, -12.0, 71.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.cxmy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Complex64Array>[ -4.0, 7.0, -8.0, 31.0, -12.0, 71.0 ]
+	*/
+	cxmy: typeof cxmy;
+
+	/**
+	* Adds elements of a single-precision complex floating-point strided array `x` to the corresponding elements of a single-precision complex floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.cxpy( x.length, x, 1, y, 1 );
+	* // y => <Complex64Array>[ 3.0, 5.0, 7.0, 9.0, 11.0, 13.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.cxpy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Complex64Array>[ 3.0, 5.0, 7.0, 9.0, 11.0, 13.0 ]
+	*/
+	cxpy: typeof cxpy;
+
+	/**
+	* Subtracts a scalar constant from each element in a single-precision complex floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 10.0, 10.0 );
+	*
+	* ns.cxsa( x.length, alpha, x, 1 );
+	* // x => <Complex64Array>[ -9.0, -8.0, -7.0, -6.0, -5.0, -4.0, -3.0, -2.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex64( 10.0, 10.0 );
+	*
+	* ns.cxsa.ndarray( x.length, alpha, x, 1, 0 );
+	* // x => <Complex64Array>[ -9.0, -8.0, -7.0, -6.0, -5.0, -4.0, -3.0, -2.0 ]
+	*/
+	cxsa: typeof cxsa;
+
+	/**
+	* Subtracts elements of a single-precision complex floating-point strided array `y` from the corresponding elements of a single-precision complex floating-point strided array `x` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, -2.0, 3.0, 4.0, -5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, -4.0, 5.0, 6.0, -7.0 ] );
+	*
+	* ns.cxsy( x.length, x, 1, y, 1 );
+	* // y => <Complex64Array>[ -1.0, -5.0, 7.0, -1.0, -11.0, 13.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, -2.0, 3.0, 4.0, -5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, -4.0, 5.0, 6.0, -7.0 ] );
+	*
+	* ns.cxsy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Complex64Array>[ -1.0, -5.0, 7.0, -1.0, -11.0, 13.0 ]
+	*/
+	cxsy: typeof cxsy;
+
+	/**
+	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.czeroTo( x.length, x, 1 );
+	* // x => <Complex64Array>[ 0.0, 0.0, 1.0, 0.0, 2.0, 0.0, 3.0, 0.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.czeroTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Complex64Array>[ 0.0, 0.0, 1.0, 0.0, 2.0, 0.0, 3.0, 0.0 ]
+	*/
+	czeroTo: typeof czeroTo;
+
+	/**
+	* Tests whether at least one element in a double-precision floating-point strided array is truthy.
+	*
+	* ## Notes
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether at least one element is truthy
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.dany( x.length, x, 1 );
+	* // returns true
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.dany.ndarray( x.length, x, 1, 0 );
+	* // returns true
+	*/
+	dany: typeof dany;
+
+	/**
+	* Adds a scalar constant to each element in a double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dapx( x.length, 5.0, x, 1 );
+	* // x => <Float64Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dapx.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => <Float64Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*/
+	dapx: typeof dapx;
+
+	/**
+	* Adds a scalar constant to each double-precision floating-point strided array element and computes the sum.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsum( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsum.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	dapxsum: typeof dapxsum;
+
+	/**
+	* Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumkbn( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumkbn.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	dapxsumkbn: typeof dapxsumkbn;
+
+	/**
+	* Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumkbn2( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumkbn2.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	dapxsumkbn2: typeof dapxsumkbn2;
+
+	/**
+	* Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumors( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumors.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	dapxsumors: typeof dapxsumors;
+
+	/**
+	* Adds a scalar constant to each double-precision floating-point strided array element and computes the sum using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumpw( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dapxsumpw.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	dapxsumpw: typeof dapxsumpw;
+
+	/**
+	* Computes the sum of absolute values (L1 norm) of double-precision floating-point strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dasumpw( x.length, x, 1 );
+	* // returns 5.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dasumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 5.0
+	*/
+	dasumpw: typeof dasumpw;
+
+	/**
+	* Multiplies each element in a double-precision floating-point strided array by a scalar constant and adds a scalar constant to each result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.daxpb( x.length, 5.0, 3.0, x, 1 );
+	* // x => <Float64Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.daxpb.ndarray( x.length, 5.0, 3.0, x, 1, 0 );
+	* // x => <Float64Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*/
+	daxpb: typeof daxpb;
+
+	/**
+	* Multiplies a double-precision floating-point strided array `x` by a constant and adds the result to a double-precision floating-point strided array `y` multiplied by a constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param beta - second scalar constant
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.daxpby( x.length, 5.0, x, 1, 2.0, y, 1 );
+	* // y => <Float64Array>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.daxpby.ndarray( x.length, 5.0, x, 1, 0, 2.0, y, 1, 0 );
+	* // y => <Float64Array>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
+	*/
+	daxpby: typeof daxpby;
+
+	/**
+	* Computes the Cartesian power for a double-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param k - power
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianPower.ndarray( x.length, 2, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	dcartesianPower: typeof dcartesianPower;
+
+	/**
+	* Computes the Cartesian product for two double-precision floating-point strided arrays.
+	*
+	* ## Notes
+	*
+	* -   Pairs are stored as rows in the output matrix, where the first column contains the first element of each pair and the second column contains the second element.
+	*
+	* @param order - storage layout
+	* @param M - number of indexed elements in `x`
+	* @param N - number of indexed elements in `y`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var y = new Float64Array( [ 3.0, 4.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianProduct( 'row-major', x.length, y.length, x, 1, y, 1, out, 2 );
+	* // out => <Float64Array>[ 1.0, 3.0, 1.0, 4.0, 2.0, 3.0, 2.0, 4.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var y = new Float64Array( [ 3.0, 4.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianProduct.ndarray( x.length, y.length, x, 1, 0, y, 1, 0, out, 2, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 3.0, 1.0, 4.0, 2.0, 3.0, 2.0, 4.0 ]
+	*/
+	dcartesianProduct: typeof dcartesianProduct;
+
+	/**
+	* Computes the Cartesian square for a double-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0 ] );
+	* var out = new Float64Array( 8 );
+	*
+	* ns.dcartesianSquare.ndarray( x.length, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	dcartesianSquare: typeof dcartesianSquare;
+
+	/**
+	* Circularly shifts the elements of a double-precision floating-point strided array by a specified number of positions.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of positions to shift
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.dcircshift( x.length, 2, x, 1 );
+	* // x => <Float64Array>[ 4.0, 5.0, 1.0, 2.0, 3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.dcircshift.ndarray( x.length, 2, x, 1, 0 );
+	* // x => <Float64Array>[ 4.0, 5.0, 1.0, 2.0, 3.0 ]
+	*/
+	dcircshift: typeof dcircshift;
+
+	/**
+	* Cumulatively tests whether at least one element in a double-precision floating-point strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuany( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ false, false, true, true ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuany.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ false, false, true, true ]
+	*/
+	dcuany: typeof dcuany;
+
+	/**
+	* Cumulatively tests whether every element in a double-precision floating-point strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuevery( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcuevery.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	dcuevery: typeof dcuevery;
+
+	/**
+	* Cumulatively tests whether every element in a double-precision floating-point strided array is falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcunone( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.dcunone.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	dcunone: typeof dcunone;
+
+	/**
+	* Cumulatively tests whether at least `k` elements in a double-precision floating-point strided array are truthy.
+	*
+	* @param N - number of indexed elements
+	* @param k - minimum number of truthy elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 5 );
+	*
+	* ns.dcusome( x.length, 2, x, 1, out, 1 );
+	* // out => <BooleanArray>[ false, false, false, true, true ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 5 );
+	*
+	* ns.dcusome.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ false, false, false, true, true ]
+	*/
+	dcusome: typeof dcusome;
+
+	/**
+	* Computes the cumulative sum of double-precision floating-point strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusum( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusum.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	dcusum: typeof dcusum;
+
+	/**
+	* Computes the cumulative sum of double-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumkbn( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumkbn.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	dcusumkbn: typeof dcusumkbn;
+
+	/**
+	* Computes the cumulative sum of double-precision floating-point strided array elements using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumkbn2( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumkbn2.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	dcusumkbn2: typeof dcusumkbn2;
+
+	/**
+	* Computes the cumulative sum of double-precision floating-point strided array elements using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumors( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumors.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	dcusumors: typeof dcusumors;
+
+	/**
+	* Computes the cumulative sum of double-precision floating-point strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumpw( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dcusumpw.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	dcusumpw: typeof dcusumpw;
+
+	/**
+	* Calculates the k-th discrete forward difference of a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 5 );
+	* var w = new Float64Array( 6 );
+	*
+	* ns.ddiff( x.length, 2, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	*
+	* console.log( out );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 5 );
+	* var w = new Float64Array( 6 );
+	*
+	* ns.ddiff.ndarray( x.length, 2, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	*
+	* console.log( out );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	ddiff: typeof ddiff;
+
+	/**
+	* Calculates the differences between consecutive elements of a double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements to prepend
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements to append
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 6 );
+	*
+	* ns.dediff( x.length, x, 1, 1, p, 1, 1, a, 1, out, 1 );
+	* // out => <Float64Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float64Array( [ 1.0 ] );
+	* var a = new Float64Array( [ 22.0 ] );
+	* var out = new Float64Array( 6 );
+	*
+	* ns.dediff.ndarray( x.length, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*/
+	dediff: typeof dediff;
+
+	/**
+	* Fills a double-precision floating-point strided array with a specified scalar value.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dfill( x.length, 5.0, x, 1 );
+	* // x => <Float64Array>[ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dfill.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => <Float64Array>[ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*/
+	dfill: typeof dfill;
+
+	/**
+	* Replaces double-precision floating-point strided array elements equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* ns.dfillEqual( x.length, 0.0, 5.0, x, 1 );
+	* // x => <Float64Array>[ 5.0, 5.0, 1.0, 5.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* ns.dfillEqual.ndarray( x.length, 0.0, 5.0, x, 1, 0 );
+	* // x => <Float64Array>[ 5.0, 5.0, 1.0, 5.0 ]
+	*/
+	dfillEqual: typeof dfillEqual;
+
+	/**
+	* Replaces double-precision floating-point strided array elements equal to `NaN` with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dfillNaN( x.length, 0.0, x, 1 );
+	* // x => <Float64Array>[ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dfillNaN.ndarray( x.length, 0.0, x, 1, 0 );
+	* // x => <Float64Array>[ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
+	*/
+	dfillNaN: typeof dfillNaN;
+
+	/**
+	* Replaces double-precision floating-point strided array elements not equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.dfillNotEqual( 6, 0.0, 5.0, x, 1 );
+	* // x => <Float64Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.dfillNotEqual.ndarray( 6, 0.0, 5.0, x, 1, 0 );
+	* // x => <Float64Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*/
+	dfillNotEqual: typeof dfillNotEqual;
+
+	/**
+	* Returns the index of the first element in a double-precision floating-point strided array equal to a corresponding element in another double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float64Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.dfirstIndexEqual( 4, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float64Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.dfirstIndexEqual.ndarray( 4, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	dfirstIndexEqual: typeof dfirstIndexEqual;
+
+	/**
+	* Returns the index of the first element in a double-precision floating-point strided array which is less than a corresponding element in another double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element in `x` which is less than a corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new Float64Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* var idx = ns.dfirstIndexLessThan( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new Float64Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* var idx = ns.dfirstIndexLessThan.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	dfirstIndexLessThan: typeof dfirstIndexLessThan;
+
+	/**
+	* Returns the first index of a specified search element in a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.dindexOf( x.length, 2.0, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.dindexOf.ndarray( x.length, 2.0, x, 1, 0 );
+	* // returns 1
+	*/
+	dindexOf: typeof dindexOf;
+
+	/**
+	* Returns the index of the first column in a double-precision floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in row-major order. When the matrix is stored in column-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking column match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns column index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ] );
+	* var x = new Float64Array( [ 2.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.dindexOfColumn( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ] );
+	* var x = new Float64Array( [ 2.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.dindexOfColumn.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	dindexOfColumn: typeof dindexOfColumn;
+
+	/**
+	* Returns the index of the first falsy element in a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a falsy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 0.0, 3.0, 2.0 ] );
+	*
+	* var idx = ns.dindexOfFalsy( x.length, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 0.0, 3.0, 2.0 ] );
+	*
+	* var idx = ns.dindexOfFalsy.ndarray( x.length, x, 1, 0 );
+	* // returns 1
+	*/
+	dindexOfFalsy: typeof dindexOfFalsy;
+
+	/**
+	* Returns the first index of an element in a double-precision floating-point strided array which is not equal to a specified search element.
+	*
+	* ## Notes
+	*
+	* -   If all elements are equal to the search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 1.0 ] );
+	*
+	* var idx = ns.dindexOfNotEqual( x.length, 1.0, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 1.0, 0.0, 1.0 ] );
+	*
+	* var idx = ns.dindexOfNotEqual.ndarray( x.length, 1.0, x, 1, 0 );
+	* // returns 2
+	*/
+	dindexOfNotEqual: typeof dindexOfNotEqual;
+
+	/**
+	* Returns the index of the first row in a double-precision floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 0.0, 3.0, 4.0, 0.0 ] );
+	* var x = new Float64Array( [ 2.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.dindexOfRow( 'column-major', 3, 2, A, 3, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 0.0, 3.0, 4.0, 0.0 ] );
+	* var x = new Float64Array( [ 2.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.dindexOfRow.ndarray( 3, 2, A, 1, 3, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	dindexOfRow: typeof dindexOfRow;
+
+	/**
+	* Returns the index of the first truthy element in a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.dindexOfTruthy( x.length, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.dindexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 1
+	*/
+	dindexOfTruthy: typeof dindexOfTruthy;
+
+	/**
+	* Returns the last index of a specified search element in a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.dlastIndexOf( x.length, 2.0, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.dlastIndexOf.ndarray( x.length, 2.0, x, 1, 0 );
+	* // returns 1
+	*/
+	dlastIndexOf: typeof dlastIndexOf;
+
+	/**
+	* Returns the index of the last falsy element in a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a falsy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 0.0, 2.0, 0.0 ] );
+	*
+	* var idx = ns.dlastIndexOfFalsy( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 0.0, 2.0, 0.0 ] );
+	*
+	* var idx = ns.dlastIndexOfFalsy.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	dlastIndexOfFalsy: typeof dlastIndexOfFalsy;
+
+	/**
+	* Returns the index of the last row in a double-precision floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = new Float64Array( [ 3.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.dlastIndexOfRow( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = new Float64Array( [ 3.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.dlastIndexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 2
+	*/
+	dlastIndexOfRow: typeof dlastIndexOfRow;
+
+	/**
+	* Returns the index of the last truthy element in a double-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.dlastIndexOfTruthy( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.dlastIndexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	dlastIndexOfTruthy: typeof dlastIndexOfTruthy;
+
+	/**
+	* Fills a double-precision floating-point strided array with linearly spaced values over a specified interval.
+	*
+	* @param N - number of indexed elements
+	* @param start - start of interval
+	* @param stop - end of interval
+	* @param endpoint - boolean indicating whether to include the `stop` value when writing values to the input array
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlinspace( x.length, 0.0, 7.0, true, x, 1 );
+	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlinspace( x.length, 0.0, 8.0, false, x, 1 );
+	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlinspace.ndarray( x.length, 0.0, 7.0, true, x, 1, 0 );
+	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlinspace.ndarray( x.length, 0.0, 8.0, false, x, 1, 0 );
+	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*/
+	dlinspace: typeof dlinspace;
+
+	/**
+	* Fills a double-precision floating-point strided array with logarithmically spaced values over a specified interval.
+	*
+	* @param N - number of indexed elements
+	* @param base - base of the logarithmic scale
+	* @param start - exponent of the starting value
+	* @param stop - exponent of the final value
+	* @param endpoint - boolean indicating whether to include the `base^stop` value when writing values to the input array
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlogspace( x.length, 10.0, 0.0, 5.0, true, x, 1 );
+	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlogspace( x.length, 10.0, 0.0, 5.0, false, x, 1 );
+	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlogspace.ndarray( x.length, 10.0, 0.0, 5.0, true, x, 1, 0 );
+	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dlogspace.ndarray( x.length, 10.0, 0.0, 5.0, false, x, 1, 0 );
+	* // x => <Float64Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
+	*/
+	dlogspace: typeof dlogspace;
+
+	/**
+	* Sifts a value down from a specified index in a double-precision floating-point strided min-heap until the heap property is restored.
+	*
+	* ## Notes
+	*
+	* -   The function assumes that the subtrees rooted at the children of `index` already satisfy the min-heap property and only the value being sifted may violate the min-heap invariant.
+	* -   The min-heap algorithm is sensitive to the presence of `NaN` values. Since `NaN` comparisons always return `false`, if `NaN` values are present in the input array, the results may be unpredictable.
+	*
+	* @param N - number of indexed elements
+	* @param index - logical index at which to begin sifting
+	* @param value - value to place into the heap
+	* @param x - heap storage array
+	* @param strideX - stride length
+	* @returns heap storage array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.dminheapSiftDown( 5, 0, 7.0, x, 1 );
+	* // x => <Float64Array>[ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.dminheapSiftDown.ndarray( 5, 0, 7.0, x, 1, 0 );
+	* // x => <Float64Array>[ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*/
+	dminheapSiftDown: typeof dminheapSiftDown;
+
+	/**
+	* Reverses a double-precision floating-point strided array in-place according to a mask.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param mask - mask array
+	* @param strideMask - stride length for `mask`
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var mask = new Uint8Array( [ 0, 0, 0, 1, 0, 0, 0, 0 ] );
+	*
+	* ns.dmskrev( x.length, x, 1, mask, 1 );
+	* // x => <Float64Array>[ -3.0, -1.0, 0.0, -5.0, 4.0, 3.0, 1.0, -2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var mask = new Uint8Array( [ 0, 0, 0, 1, 0, 0, 0, 0 ] );
+	*
+	* ns.dmskrev.ndarray( x.length, x, 1, 0, mask, 1, 0 );
+	* // x => <Float64Array>[ -3.0, -1.0, 0.0, -5.0, 4.0, 3.0, 1.0, -2.0 ]
+	*/
+	dmskrev: typeof dmskrev;
+
+	/**
+	* Computes the sum of absolute values (L1 norm) of double-precision floating-point strided array elements, ignoring `NaN` values.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnanasum( x.length, x, 1 );
+	* // returns 5.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnanasum.ndarray( x.length, x, 1, 0 );
+	* // returns 5.0
+	*/
+	dnanasum: typeof dnanasum;
+
+	/**
+	* Computes the sum of absolute values (L1 norm) of double-precision floating-point strided array elements, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnanasumors( x.length, x, 1 );
+	* // returns 5.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnanasumors.ndarray( x.length, x, 1, 0 );
+	* // returns 5.0
+	*/
+	dnanasumors: typeof dnanasumors;
+
+	/**
+	* Computes the number of non-`NaN` elements in a double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns number of non-`NaN` elements
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnancount( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnancount.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	dnancount: typeof dnancount;
+
+	/**
+	* Computes the cumulative sum of double-precision floating-point strided array elements ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dnancusumkbn( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float64Array>[ 1.0, -1.0, -1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN ] );
+	* var y = new Float64Array( x.length );
+	*
+	* ns.dnancusumkbn.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 1.0, -1.0, -1.0 ]
+	*/
+	dnancusumkbn: typeof dnancusumkbn;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsum( x.length, x, 1, out, 1 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsum.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*/
+	dnannsum: typeof dnannsum;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumkbn( x.length, x, 1, out, 1 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumkbn.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*/
+	dnannsumkbn: typeof dnannsumkbn;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumkbn2( x.length, x, 1, out, 1 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumkbn2.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*/
+	dnannsumkbn2: typeof dnannsumkbn2;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumors( x.length, x, 1, out, 1 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumors.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*/
+	dnannsumors: typeof dnannsumors;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumpw( x.length, x, 1, out, 1 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dnannsumpw.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*/
+	dnannsumpw: typeof dnannsumpw;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dnansum: typeof dnansum;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumkbn( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dnansumkbn: typeof dnansumkbn;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumkbn2( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumkbn2.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dnansumkbn2: typeof dnansumkbn2;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dnansumors: typeof dnansumors;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dnansumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dnansumpw: typeof dnansumpw;
+
+	/**
+	* Tests whether every element in a double-precision floating-point strided array is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether all elements are falsy
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.dnone( x.length, x, 1 );
+	* // returns false
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.dnone.ndarray( x.length, x, 1, 0 );
+	* // returns false
+	*/
+	dnone: typeof dnone;
+
+	/**
+	* Fills a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from one.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.doneTo( x.length, x, 1 );
+	* // x => <Float64Array>[ 1.0, 2.0, 3.0, 4.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.doneTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Float64Array>[ 1.0, 2.0, 3.0, 4.0 ]
+	*/
+	doneTo: typeof doneTo;
+
+	/**
+	* Fills a double-precision floating-point strided array with ones.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dones( x.length, x, 1 );
+	* // x => <Float64Array>[ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dones.ndarray( x.length, x, 1, 0 );
+	* // x => <Float64Array>[ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	dones: typeof dones;
+
+	/**
+	* Replicates each element in a double-precision floating-point strided array a specified number of times.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to replicate each element
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float64Array( 6 );
+	*
+	* ns.dreplicate( x.length, 2, x, 1, out, 1 );
+	* // out => <Float64Array>[ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float64Array( 6 );
+	*
+	* ns.dreplicate.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ]
+	*/
+	dreplicate: typeof dreplicate;
+
+	/**
+	* Reverses a double-precision floating-point strided array in-place.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.drev( x.length, x, 1 );
+	* // x => <Float64Array>[ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.drev.ndarray( x.length, x, 1, 0 );
+	* // x => <Float64Array>[ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
+	*/
+	drev: typeof drev;
+
+	/**
+	* Computes the square root of the residual sum of squares of two double-precision floating-point strided arrays.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length of `x`
+	* @param y - second input array
+	* @param strideY - stride length of `y`
+	* @returns square root of the residual sum of squares
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( [ 1.0, 1.0, -4.0 ] );
+	*
+	* var out = ns.drrss( x.length, x, 1, y, 1 );
+	* // returns ~6.7
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+	* var y = new Float64Array( [ 2.0, 1.0, 2.0, 1.0, -2.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var z = ns.drrss.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns ~8.485
+	*/
+	drrss: typeof drrss;
+
+	/**
+	* Computes the residual sum of squares of two double-precision floating-point strided arrays.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length of `x`
+	* @param y - second input array
+	* @param strideY - stride length of `y`
+	* @returns residual sum of squares
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( [ 1.0, 1.0, -4.0 ] );
+	*
+	* var out = ns.drss( x.length, x, 1, y, 1 );
+	* // returns 45.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+	* var y = new Float64Array( [ 2.0, 1.0, 2.0, 1.0, -2.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var z = ns.drss.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 72.0
+	*/
+	drss: typeof drss;
+
+	/**
+	* Computes the residual sum of squares of two double-precision floating-point strided arrays using Blue's algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length of `x`
+	* @param y - second input array
+	* @param strideY - stride length of `y`
+	* @returns residual sum of squares
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( [ 1.0, 1.0, -4.0 ] );
+	*
+	* var out = ns.drssbl( x.length, x, 1, y, 1 );
+	* // returns 45.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+	* var y = new Float64Array( [ 2.0, 1.0, 2.0, 1.0, -2.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var z = ns.drssbl.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 72.0
+	*/
+	drssbl: typeof drssbl;
+
+	/**
+	* Computes the residual sum of squares of two double-precision floating-point strided arrays using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length of `x`
+	* @param y - second input array
+	* @param strideY - stride length of `y`
+	* @returns residual sum of squares
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float64Array( [ 1.0, 1.0, -4.0 ] );
+	*
+	* var out = ns.drsskbn( x.length, x, 1, y, 1 );
+	* // returns 45.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 2.0, -7.0, -2.0, 3.0, 4.0, 2.0 ] );
+	* var y = new Float64Array( [ 2.0, 1.0, 2.0, 1.0, -2.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var z = ns.drsskbn.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 72.0
+	*/
+	drsskbn: typeof drsskbn;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element, and computes the sum using extended accumulation and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsapxsum( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsapxsum.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	dsapxsum: typeof dsapxsum;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element, and computes the sum using pairwise summation with extended accumulation and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsapxsumpw( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsapxsumpw.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	dsapxsumpw: typeof dsapxsumpw;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values, using ordinary recursive summation with extended accumulation, and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - `out` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dsnannsumors( x.length, x, 1, out, 1 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	* var out = new Float64Array( 2 );
+	*
+	* var v = ns.dsnannsumors.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns <Float64Array>[ 1.0, 3 ]
+	*/
+	dsnannsumors: typeof dsnannsumors;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values, using extended accumulation, and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dsnansum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dsnansum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsnansum: typeof dsnansum;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values, using ordinary recursive summation with extended accumulation, and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dsnansumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dsnansumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsnansumors: typeof dsnansumors;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values, using pairwise summation with extended accumulation, and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dsnansumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.dsnansumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsnansumpw: typeof dsnansumpw;
+
+	/**
+	* Tests whether a double-precision floating-point strided array contains at least `k` truthy elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - minimum number of truthy elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether the input array contains at least `k` truthy elements
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var v = ns.dsome( x.length, 2, x, 1 );
+	* // returns true
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var v = ns.dsome.ndarray( x.length, 2, x, 1, 0 );
+	* // returns true
+	*/
+	dsome: typeof dsome;
+
+	/**
+	* Sorts a double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsort( x.length, 1.0, x, 1 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsort.ndarray( x.length, 1.0, x, 1, 0 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	dsort: typeof dsort;
+
+	/**
+	* Simultaneously sorts two double-precision floating-point strided arrays based on the sort order of the first array using heapsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float64Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dsort2hp( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float64Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float64Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dsort2hp.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float64Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	dsort2hp: typeof dsort2hp;
+
+	/**
+	* Simultaneously sorts two double-precision floating-point strided arrays based on the sort order of the first array using insertion sort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float64Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dsort2ins( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float64Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float64Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dsort2ins.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float64Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	dsort2ins: typeof dsort2ins;
+
+	/**
+	* Simultaneously sorts two double-precision floating-point strided arrays based on the sort order of the first array using Shellsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float64Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dsort2sh( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float64Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float64Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.dsort2sh.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float64Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	dsort2sh: typeof dsort2sh;
+
+	/**
+	* Sorts a double-precision floating-point strided array using heapsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsorthp( x.length, 1, x, 1 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsorthp.ndarray( x.length, 1, x, 1, 0 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	dsorthp: typeof dsorthp;
+
+	/**
+	* Sorts a double-precision floating-point strided array using insertion sort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsortins( x.length, 1, x, 1 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsortins.ndarray( x.length, 1, x, 1, 0 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	dsortins: typeof dsortins;
+
+	/**
+	* Sorts a double-precision floating-point strided array using Shellsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsortsh( x.length, 1, x, 1 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.dsortsh.ndarray( x.length, 1, x, 1, 0 );
+	* // x => <Float64Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	dsortsh: typeof dsortsh;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using extended accumulation and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dssum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dssum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dssum: typeof dssum;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using ordinary recursive summation with extended accumulation and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dssumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dssumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dssumors: typeof dssumors;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using pairwise summation with extended accumulation and returning an extended precision result.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dssumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dssumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dssumpw: typeof dssumpw;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsum: typeof dsum;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumkbn( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsumkbn: typeof dsumkbn;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumkbn2( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumkbn2.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsumkbn2: typeof dsumkbn2;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsumors: typeof dsumors;
+
+	/**
+	* Computes the sum of double-precision floating-point strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.dsumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	dsumpw: typeof dsumpw;
+
+	/**
+	* Fills a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dunitspace( x.length, 3.0, x, 1 );
+	* // x => <Float64Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dunitspace.ndarray( x.length, 3.0, x, 1, 0 );
+	* // x => <Float64Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*/
+	dunitspace: typeof dunitspace;
+
+	/**
+	* Generates a double-precision floating-point Vandermonde matrix.
+	*
+	* @param order - storage layout
+	* @param mode - mode indicating whether to generate increasing or decreasing powers
+	* @param M - number of rows in `out`
+	* @param N - number of columns in `out`
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output matrix
+	* @param ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
+	* @returns output matrix
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float64Array( 9 );
+	*
+	* ns.dvander( 'row-major', -1, 3, 3, x, 1, out, 3 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float64Array( 9 );
+	*
+	* ns.dvander.ndarray( -1, 3, 3, x, 1, 0, out, 3, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*/
+	dvander: typeof dvander;
+
+	/**
+	* Adds a scalar constant to each element in a double-precision floating-point strided array `x` and assigns the results to a double-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwapx( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float64Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwapx.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float64Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*/
+	dwapx: typeof dwapx;
+
+	/**
+	* Multiplies each element in a double-precision floating-point strided array `x` by a scalar constant and assigns the results to a double-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwax( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float64Array>[ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwax.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float64Array>[ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
+	*/
+	dwax: typeof dwax;
+
+	/**
+	* Takes elements from one of two double-precision floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float64Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float64Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Float64Array>[ 1.0, 5.0, 3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float64Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float64Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Float64Array>[ 1.0, 5.0, 3.0 ]
+	*/
+	dwhere: typeof dwhere;
+
+	/**
+	* Subtracts a scalar constant from each element in a double-precision floating-point strided array `x` and assigns the results to a double-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwxsa( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float64Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dwxsa.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float64Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	dwxsa: typeof dwxsa;
+
+	/**
+	* Divides elements of a double-precision floating-point strided array `x` by the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxdy( x.length, x, 1, y, 1 );
+	* // y => <Float64Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxdy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*/
+	dxdy: typeof dxdy;
+
+	/**
+	* Multiplies elements of a double-precision floating-point strided array `x` by the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxmy( x.length, x, 1, y, 1 );
+	* // y => <Float64Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxmy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	dxmy: typeof dxmy;
+
+	/**
+	* Adds elements of a double-precision floating-point strided array `x` to the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxpy( x.length, x, 1, y, 1 );
+	* // y => <Float64Array>[ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.dxpy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*/
+	dxpy: typeof dxpy;
+
+	/**
+	* Subtracts a scalar constant from each element in a double-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dxsa( x.length, 5.0, x, 1 );
+	* // x => <Float64Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dxsa.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => <Float64Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	dxsa: typeof dxsa;
+
+	/**
+	* Subtracts elements of a double-precision floating-point strided array `y` from the corresponding elements of a double-precision floating-point strided array `x` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 4.0, 6.0, 8.0, 10.0 ] );
+	*
+	* ns.dxsy( x.length, x, 1, y, 1 );
+	* // y => <Float64Array>[ -1.0, -2.0, -3.0, -4.0, -5.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float64Array( [ 2.0, 4.0, 6.0, 8.0, 10.0 ] );
+	*
+	* ns.dxsy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float64Array>[ -1.0, -2.0, -3.0, -4.0, -5.0 ]
+	*/
+	dxsy: typeof dxsy;
+
+	/**
+	* Fills a double-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dzeroTo( x.length, x, 1 );
+	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.dzeroTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Float64Array>[ 0.0, 1.0, 2.0, 3.0 ]
+	*/
+	dzeroTo: typeof dzeroTo;
+
+	/**
+	* Fills a double-precision floating-point strided array with zeros.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dzeros( x.length, x, 1 );
+	* // x => <Float64Array>[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+	*
+	* @example
+	* var Float64Array = require( '@stdlib/array/float64' );
+	*
+	* var x = new Float64Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.dzeros.ndarray( x.length, x, 1, 0 );
+	* // x => <Float64Array>[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+	*/
+	dzeros: typeof dzeros;
+
+	/**
+	* Tests whether at least one element in a strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether at least one element is truthy
+	*
+	* @example
+	* var x = [ 0, 0, 1, 2 ];
+	*
+	* var v = ns.gany( x.length, x, 1 );
+	* // returns true
+	*
+	* @example
+	* var x = [ 0, 0, 1, 2 ];
+	*
+	* var v = ns.gany.ndarray( x.length, x, 1, 0 );
+	* // returns true
+	*/
+	gany: typeof gany;
+
+	/**
+	* Adds a scalar constant to each element in a strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gapx( x.length, 5.0, x, 1 );
+	* // x => [ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gapx.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => [ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*/
+	gapx: typeof gapx;
+
+	/**
+	* Adds a scalar constant to each strided array element and computes the sum.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsum( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsum.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	gapxsum: typeof gapxsum;
+
+	/**
+	* Adds a scalar constant to each strided array element and computes the sum using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumkbn( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumkbn.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	gapxsumkbn: typeof gapxsumkbn;
+
+	/**
+	* Adds a scalar constant to each strided array element and computes the sum using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumkbn2( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumkbn2.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	gapxsumkbn2: typeof gapxsumkbn2;
+
+	/**
+	* Adds a scalar constant to each strided array element and computes the sum using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumors( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumors.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	gapxsumors: typeof gapxsumors;
+
+	/**
+	* Adds a scalar constant to each strided array element and computes the sum using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumpw( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gapxsumpw.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	gapxsumpw: typeof gapxsumpw;
+
+	/**
+	* Computes the sum of absolute values (L1 norm) of strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gasumpw( x.length, x, 1 );
+	* // returns 5.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gasumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 5.0
+	*/
+	gasumpw: typeof gasumpw;
+
+	/**
+	* Multiplies each element in a strided array by a scalar constant and adds a scalar constant to each result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gaxpb( x.length, 5.0, 3.0, x, 1 );
+	* // x => [ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gaxpb.ndarray( x.length, 5.0, 3.0, x, 1, 0 );
+	* // x => [ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*/
+	gaxpb: typeof gaxpb;
+
+	/**
+	* Multiplies a strided array `x` by a constant and adds the result to a strided array `y` multiplied by a constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant for `x`
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param beta - scalar constant for `y`
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gaxpby( x.length, 5.0, x, 1, 2.0, y, 1 );
+	* // y => [ 9.0, 16.0, 23.0, 30.0, 37.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gaxpby.ndarray( x.length, 5.0, x, 1, 0, 2.0, y, 1, 0 );
+	* // y => [ 9.0, 16.0, 23.0, 30.0, 37.0 ]
+	*/
+	gaxpby: typeof gaxpby;
+
+	/**
+	* Computes the Cartesian power for a strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param k - power
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianPower.ndarray( x.length, 2, x, 1, 0, out, 2, 1, 0 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	gcartesianPower: typeof gcartesianPower;
+
+	/**
+	* Computes the Cartesian product for two strided arrays.
+	*
+	* @param order - storage layout
+	* @param M - number of indexed elements in `x`
+	* @param N - number of indexed elements in `y`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var y = [ 3.0, 4.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianProduct( 'row-major', x.length, y.length, x, 1, y, 1, out, 2 );
+	* // out => [ 1.0, 3.0, 1.0, 4.0, 2.0, 3.0, 2.0, 4.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var y = [ 3.0, 4.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianProduct.ndarray( x.length, y.length, x, 1, 0, y, 1, 0, out, 2, 1, 0 );
+	* // out => [ 1.0, 3.0, 1.0, 4.0, 2.0, 3.0, 2.0, 4.0 ]
+	*/
+	gcartesianProduct: typeof gcartesianProduct;
+
+	/**
+	* Computes the Cartesian square for a strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcartesianSquare.ndarray( x.length, x, 1, 0, out, 2, 1, 0 );
+	* // out => [ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	gcartesianSquare: typeof gcartesianSquare;
+
+	/**
+	* Circularly shifts the elements of a strided array by a specified number of positions.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of positions to shift
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* ns.gcircshift( x.length, 2, x, 1 );
+	* // x => [ 4.0, 5.0, 1.0, 2.0, 3.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* ns.gcircshift.ndarray( x.length, 2, x, 1, 0 );
+	* // x => [ 4.0, 5.0, 1.0, 2.0, 3.0 ]
+	*/
+	gcircshift: typeof gcircshift;
+
+	/**
+	* Returns a string created by joining strided array elements into a human-readable list using a conjunction.
+	*
+	* @param N - number of indexed elements
+	* @param prefix - string to prepend
+	* @param suffix - string to append
+	* @param conjunction - conjunction before the last element
+	* @param oxfordComma - boolean specifying whether to include an Oxford comma
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns joined string
+	*
+	* @example
+	* var x = [ 1, 2, 3, 4 ];
+	*
+	* var str = ns.gconjoin( x.length, '', '', 'and', true, x, 1 );
+	* // returns '1, 2, 3, and 4'
+	*
+	* @example
+	* var x = [ 1, 2, 3, 4 ];
+	*
+	* var str = ns.gconjoin.ndarray( x.length, '', '', 'and', true, x, 1, 0 );
+	* // returns '1, 2, 3, and 4'
+	*/
+	gconjoin: typeof gconjoin;
+
+	/**
+	* Cumulatively tests whether at least one element in a strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 0, 0, 1, 0 ];
+	* var out = [ false, false, false, false ];
+	*
+	* ns.gcuany( x.length, x, 1, out, 1 );
+	* // out => [ false, false, true, true ]
+	*
+	* @example
+	* var x = [ 0, 0, 1, 0 ];
+	* var out = [ false, false, false, false ];
+	*
+	* ns.gcuany.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => [ false, false, true, true ]
+	*/
+	gcuany: typeof gcuany;
+
+	/**
+	* Cumulatively tests whether every element in a strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1, 1, 0, 0 ];
+	* var out = [ false, false, false, false ];
+	*
+	* ns.gcuevery( x.length, x, 1, out, 1 );
+	* // out => [ true, true, false, false ]
+	*
+	* @example
+	* var x = [ 1, 1, 0, 0 ];
+	* var out = [ false, false, false, false ];
+	*
+	* ns.gcuevery.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => [ true, true, false, false ]
+	*/
+	gcuevery: typeof gcuevery;
+
+	/**
+	* Cumulatively tests whether every element in a strided array is falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 0, 0, 1, 1 ];
+	* var out = [ false, false, false, false ];
+	*
+	* ns.gcunone( x.length, x, 1, out, 1 );
+	* // out => [ true, true, false, false ]
+	*
+	* @example
+	* var x = [ 0, 0, 1, 1 ];
+	* var out = [ false, false, false, false ];
+	*
+	* ns.gcunone.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => [ true, true, false, false ]
+	*/
+	gcunone: typeof gcunone;
+
+	/**
+	* Cumulatively tests whether at least `k` elements in a strided array are truthy.
+	*
+	* @param N - number of indexed elements
+	* @param k - minimum number of truthy elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 0, 0, 1, 1, 1 ];
+	* var out = [ false, false, false, false, false ];
+	*
+	* ns.gcusome( x.length, 2, x, 1, out, 1 );
+	* // out => [ false, false, false, true, true ]
+	*
+	* @example
+	* var x = [ 0, 0, 1, 1, 1 ];
+	* var out = [ false, false, false, false, false ];
+	*
+	* ns.gcusome.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => [ false, false, false, true, true ]
+	*/
+	gcusome: typeof gcusome;
+
+	/**
+	* Computes the cumulative sum of strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusum( x.length, 0.0, x, 1, y, 1 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusum.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*/
+	gcusum: typeof gcusum;
+
+	/**
+	* Computes the cumulative sum of strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumkbn( x.length, 0.0, x, 1, y, 1 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumkbn.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*/
+	gcusumkbn: typeof gcusumkbn;
+
+	/**
+	* Computes the cumulative sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumkbn2( x.length, 0.0, x, 1, y, 1 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumkbn2.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*/
+	gcusumkbn2: typeof gcusumkbn2;
+
+	/**
+	* Computes the cumulative sum of strided array elements using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumors( x.length, 0.0, x, 1, y, 1 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumors.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*/
+	gcusumors: typeof gcusumors;
+
+	/**
+	* Computes the cumulative sum of strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumpw( x.length, 0.0, x, 1, y, 1 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	* var y = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gcusumpw.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => [ 1.0, -1.0, 1.0 ]
+	*/
+	gcusumpw: typeof gcusumpw;
+
+	/**
+	* Calculates the k-th discrete forward difference of a strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 2.0, 4.0, 7.0, 11.0, 16.0 ];
+	* var p = [ 1.0 ];
+	* var a = [ 22.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gdiff( x.length, 2, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	*
+	* console.log( out );
+	* // => [ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var x = [ 2.0, 4.0, 7.0, 11.0, 16.0 ];
+	* var p = [ 1.0 ];
+	* var a = [ 22.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gdiff.ndarray( x.length, 2, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	*
+	* console.log( out );
+	* // => [ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	gdiff: typeof gdiff;
+
+	/**
+	* Calculates the differences between consecutive elements of a strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements to prepend
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements to append
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 2.0, 4.0, 7.0, 11.0, 16.0 ];
+	* var p = [ 1.0 ];
+	* var a = [ 22.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gediff( x.length, x, 1, 1, p, 1, 1, a, 1, out, 1 );
+	* // out => [ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*
+	* @example
+	* var x = [ 2.0, 4.0, 7.0, 11.0, 16.0 ];
+	* var p = [ 1.0 ];
+	* var a = [ 22.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gediff.ndarray( x.length, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0 );
+	* // out => [ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*/
+	gediff: typeof gediff;
+
+	/**
+	* Tests whether every element in a strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether every element is truthy
+	*
+	* @example
+	* var x = [ 1, 1, 1, 1 ];
+	*
+	* var out = ns.gevery( x.length, x, 1 );
+	* // returns true
+	*
+	* @example
+	* var x = [ 1, 1, 0, 0 ];
+	*
+	* var out = ns.gevery.ndarray( x.length, x, 1, 0 );
+	* // returns false
+	*/
+	gevery: typeof gevery;
+
+	/**
+	* Fills a strided array with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gfill( x.length, 5.0, x, 1 );
+	* // x => [ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gfill.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => [ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*/
+	gfill: typeof gfill;
+
+	/**
+	* Fills a strided array according to a provided callback function.
+	*
+	* ## Notes
+	*
+	* -   The callback function is provided four arguments:
+	*
+	*     -   `value`: array element
+	*     -   `aidx`: array index
+	*     -   `sidx`: strided index (offset + aidx*stride)
+	*     -   `array`: input array
+	*
+	* -   The callback return value is used as the fill value for the current array index.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @param clbk - callback function
+	* @param thisArg - execution context
+	* @returns `x`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* function fill() {
+	*     return 5.0;
+	* }
+	*
+	* ns.gfillBy( x.length, x, 1, fill );
+	* // x => [ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* function fill() {
+	*     return 5.0;
+	* }
+	*
+	* ns.gfillBy.ndarray( x.length, x, 1, 0, fill );
+	* // x => [ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*/
+	gfillBy: typeof gfillBy;
+
+	/**
+	* Replaces strided array elements equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ -2.0, 0.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gfillEqual( x.length, 0.0, 5.0, x, 1 );
+	* // x => [ -2.0, 5.0, 3.0, 5.0, 4.0, 5.0, -1.0, -3.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 0.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gfillEqual.ndarray( x.length, 0.0, 5.0, x, 1, 0 );
+	* // x => [ -2.0, 5.0, 3.0, 5.0, 4.0, 5.0, -1.0, -3.0 ]
+	*/
+	gfillEqual: typeof gfillEqual;
+
+	/**
+	* Replaces strided array elements less than a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* ns.gfillLessThan( x.length, 0.5, 5.0, x, 1 );
+	* // x => [ 5.0, 5.0, 1.0, 5.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* ns.gfillLessThan.ndarray( x.length, 0.5, 5.0, x, 1, 0 );
+	* // x => [ 5.0, 5.0, 1.0, 5.0 ]
+	*/
+	gfillLessThan: typeof gfillLessThan;
+
+	/**
+	* Replaces strided array elements equal to `NaN` with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gfillNaN( x.length, 0.0, x, 1 );
+	* // x => [ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
+	*
+	* @example
+	* var x = [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gfillNaN.ndarray( x.length, 0.0, x, 1, 0 );
+	* // x => [ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
+	*/
+	gfillNaN: typeof gfillNaN;
+
+	/**
+	* Replaces strided array elements not equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ];
+	*
+	* ns.gfillNotEqual( x.length, 0.0, 5.0, x, 1 );
+	* // x => [ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var x = [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ];
+	*
+	* ns.gfillNotEqual.ndarray( x.length, 0.0, 5.0, x, 1, 0 );
+	* // x => [ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*/
+	gfillNotEqual: typeof gfillNotEqual;
+
+	/**
+	* Returns the index of the first element which passes a test implemented by a predicate function.
+	*
+	* ## Notes
+	*
+	* -   The callback function is provided the following arguments:
+	*
+	*     -   `value`: array element
+	*     -   `aidx`: array index
+	*     -   `sidx`: strided index (offset + aidx*stride)
+	*     -   `array`: input array
+	*
+	* -   If no element passes a test implemented by a predicate function, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @param clbk - predicate function
+	* @param thisArg - predicate function execution context
+	* @returns index
+	*
+	* @example
+	* function isEven( v ) {
+	*     return v % 2.0 === 0.0;
+	* }
+	*
+	* var x = [ 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* var idx = ns.gfindIndex( x.length, x, 1, isEven );
+	* // returns 3
+	*
+	* @example
+	* function isEven( v ) {
+	*     return v % 2.0 === 0.0;
+	* }
+	*
+	* var x = [ 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* var idx = ns.gfindIndex.ndarray( x.length, x, 1, 0, isEven );
+	* // returns 3
+	*/
+	gfindIndex: typeof gfindIndex;
+
+	/**
+	* Returns the index of the last element which passes a test implemented by a predicate function.
+	*
+	* ## Notes
+	*
+	* -   The callback function is provided the following arguments:
+	*
+	*     -   `value`: array element
+	*     -   `aidx`: array index
+	*     -   `sidx`: strided index (offset + aidx*stride)
+	*     -   `array`: input array
+	*
+	* -   If no element passes a test implemented by a predicate function, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @param clbk - predicate function
+	* @param thisArg - predicate function execution context
+	* @returns index
+	*
+	* @example
+	* function isEven( v ) {
+	*     return v % 2.0 === 0.0;
+	* }
+	*
+	* var x = [ 1.0, 3.0, -5.0, 4.0, 3.0, -2.0, -3.0 ];
+	*
+	* var idx = ns.gfindLastIndex( x.length, x, 1, isEven );
+	* // returns 5
+	*
+	* @example
+	* function isEven( v ) {
+	*     return v % 2.0 === 0.0;
+	* }
+	*
+	* var x = [ 1.0, 3.0, -5.0, 4.0, 3.0, -2.0, -3.0 ];
+	*
+	* var idx = ns.gfindLastIndex.ndarray( x.length, x, 1, 0, isEven );
+	* // returns 5
+	*/
+	gfindLastIndex: typeof gfindLastIndex;
+
+	/**
+	* Returns the index of the first element in a strided array equal to a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find matching elements, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
+	*
+	* var idx = ns.gfirstIndexEqual( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
+	*
+	* var idx = ns.gfirstIndexEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	gfirstIndexEqual: typeof gfirstIndexEqual;
+
+	/**
+	* Returns the index of the first element in a strided array which is greater than a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element in `x` which is greater than a corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 2.0, 2.0, 2.0, 2.0 ];
+	*
+	* var idx = ns.gfirstIndexGreaterThan( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 2.0, 2.0, 2.0, 2.0 ];
+	*
+	* var idx = ns.gfirstIndexGreaterThan.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	gfirstIndexGreaterThan: typeof gfirstIndexGreaterThan;
+
+	/**
+	* Returns the index of the first element in a strided array which is less than a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element in `x` which is less than a corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	* var y = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* var idx = ns.gfirstIndexLessThan( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	* var y = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* var idx = ns.gfirstIndexLessThan.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	gfirstIndexLessThan: typeof gfirstIndexLessThan;
+
+	/**
+	* Returns the index of the first element in a strided array which is not equal to the corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find an element in `x` which is not equal to the corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 0, 0, 1, 0 ];
+	* var y = [ 0, 0, 0, 0 ];
+	*
+	* var idx = ns.gfirstIndexNotEqual( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 0, 0, 1, 0 ];
+	* var y = [ 0, 0, 0, 0 ];
+	*
+	* var idx = ns.gfirstIndexNotEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	gfirstIndexNotEqual: typeof gfirstIndexNotEqual;
+
+	/**
+	* Returns the first index of a specified search element in a strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var idx = ns.gindexOf( x.length, 2.0, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var idx = ns.gindexOf.ndarray( x.length, 2.0, x, 1, 0 );
+	* // returns 1
+	*/
+	gindexOf: typeof gindexOf;
+
+	/**
+	* Returns the index of the first column in an input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @returns column index
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 0.0, 0.0 ] ]
+	* var x = [ 2.0, 4.0, 0.0 ];
+	*
+	* var out = ns.gindexOfColumn( 'row-major', 3, 2, A, 2, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 0.0, 0.0 ] ]
+	* var x = [ 2.0, 4.0, 0.0 ];
+	*
+	* var out = ns.gindexOfColumn.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0 );
+	* // returns 1
+	*/
+	gindexOfColumn: typeof gindexOfColumn;
+
+	/**
+	* Returns the index of the first falsy element in a strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a falsy element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 3.0, 2.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.gindexOfFalsy( x.length, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 3.0, 2.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.gindexOfFalsy.ndarray( x.length, x, 1, 0 );
+	* // returns 2
+	*/
+	gindexOfFalsy: typeof gindexOfFalsy;
+
+	/**
+	* Returns the first index of an element in a strided array which is not equal to a specified search element.
+	*
+	* ## Notes
+	*
+	* -   If all elements are equal to the search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 1.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.gindexOfNotEqual( x.length, 1.0, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 1.0, 1.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.gindexOfNotEqual.ndarray( x.length, 1.0, x, 1, 0 );
+	* // returns 2
+	*/
+	gindexOfNotEqual: typeof gindexOfNotEqual;
+
+	/**
+	* Returns the index of the first row in an input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @returns row index
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 0.0, 0.0 ] ]
+	* var x = [ 3.0, 4.0 ];
+	*
+	* var out = ns.gindexOfRow( 'row-major', 3, 2, A, 2, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 0.0, 0.0 ] ]
+	* var x = [ 3.0, 4.0 ];
+	*
+	* var out = ns.gindexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0 );
+	* // returns 1
+	*/
+	gindexOfRow: typeof gindexOfRow;
+
+	/**
+	* Returns the index of the first element in a strided array which has the same value as a provided search element.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var idx = ns.gindexOfSameValue( x.length, 2.0, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var idx = ns.gindexOfSameValue.ndarray( x.length, 2.0, x, 1, 0 );
+	* // returns 1
+	*/
+	gindexOfSameValue: typeof gindexOfSameValue;
+
+	/**
+	* Returns the index of the first truthy element in a strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 0.0, 1.0, 0.0, 2.0 ];
+	*
+	* var idx = ns.gindexOfTruthy( x.length, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var x = [ 0.0, 1.0, 0.0, 2.0 ];
+	*
+	* var idx = ns.gindexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 1
+	*/
+	gindexOfTruthy: typeof gindexOfTruthy;
+
+	/**
+	* Returns a string created by joining strided array elements using a specified separator.
+	*
+	* @param N - number of indexed elements
+	* @param separator - separator
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns joined string
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var str = ns.gjoin( x.length, ',', x, 1 );
+	* // returns '1,2,3,4'
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var str = ns.gjoin.ndarray( x.length, ',', x, 1, 0 );
+	* // returns '1,2,3,4'
+	*/
+	gjoin: typeof gjoin;
+
+	/**
+	* Returns a string by joining strided array elements using a specified separator for each pair of consecutive elements.
+	*
+	* @param N - number of indexed elements
+	* @param prefix - string to prepend to the output string
+	* @param suffix - string to append to the output string
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param separators - separators array
+	* @param strideS - stride length for `separators`
+	* @returns joined string
+	*
+	* @example
+	* var x = [ 1, 2, 3, 4 ];
+	* var sep = [ ' + ', ' - ', ' != ' ];
+	*
+	* var str = ns.gjoinBetween( x.length, 'op: ', '', x, 1, sep, 1 );
+	* // returns 'op: 1 + 2 - 3 != 4'
+	*
+	* @example
+	* var x = [ 1, 2, 3, 4 ];
+	* var sep = [ ' + ', ' - ', ' != ' ];
+	*
+	* var str = ns.gjoinBetween.ndarray( x.length, 'op: ', '', x, 1, 0, sep, 1, 0 );
+	* // returns 'op: 1 + 2 - 3 != 4'
+	*/
+	gjoinBetween: typeof gjoinBetween;
+
+	/**
+	* Returns the index of the last element in a strided array equal to a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find matching elements, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
+	*
+	* var idx = ns.glastIndexEqual( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
+	*
+	* var idx = ns.glastIndexEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	glastIndexEqual: typeof glastIndexEqual;
+
+	/**
+	* Returns the last index of a specified search element in a strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var idx = ns.glastIndexOf( x.length, 2.0, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	*
+	* var idx = ns.glastIndexOf.ndarray( x.length, 2.0, x, 1, 0 );
+	* // returns 1
+	*/
+	glastIndexOf: typeof glastIndexOf;
+
+	/**
+	* Returns the index of the last falsy element in a strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a falsy element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 0.0, 2.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.glastIndexOfFalsy( x.length, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 0.0, 2.0, 0.0, 1.0 ];
+	*
+	* var idx = ns.glastIndexOfFalsy.ndarray( x.length, x, 1, 0 );
+	* // returns 2
+	*/
+	glastIndexOfFalsy: typeof glastIndexOfFalsy;
+
+	/**
+	* Returns the index of the last row in an input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = [ 3.0, 4.0 ];
+	* var workspace = [ 0, 0, 0 ];
+	*
+	* var out = ns.glastIndexOfRow( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 2
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ]; // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = [ 3.0, 4.0 ];
+	* var workspace = [ 0, 0, 0 ];
+	*
+	* var out = ns.glastIndexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 2
+	*/
+	glastIndexOfRow: typeof glastIndexOfRow;
+
+	/**
+	* Returns the index of the last truthy element in a strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 0.0, 1.0, 0.0, 2.0 ];
+	*
+	* var idx = ns.glastIndexOfTruthy( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var x = [ 0.0, 1.0, 0.0, 2.0 ];
+	*
+	* var idx = ns.glastIndexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	glastIndexOfTruthy: typeof glastIndexOfTruthy;
+
+	/**
+	* Fills a strided array with linearly spaced values over a specified interval.
+	*
+	* @param N - number of indexed elements
+	* @param start - start of interval
+	* @param stop - end of interval
+	* @param endpoint - boolean indicating whether to include the `stop` value when writing values to the input array
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glinspace( x.length, 0.0, 7.0, true, x, 1 );
+	* // x => [ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glinspace( x.length, 0.0, 8.0, false, x, 1 );
+	* // x => [ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glinspace.ndarray( x.length, 0.0, 7.0, true, x, 1, 0 );
+	* // x => [ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glinspace.ndarray( x.length, 0.0, 8.0, false, x, 1, 0 );
+	* // x => [ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*/
+	glinspace: typeof glinspace;
+
+	/**
+	* Fills a strided array with logarithmically spaced values over a specified interval.
+	*
+	* @param N - number of indexed elements
+	* @param base - base of the logarithmic scale
+	* @param start - exponent of the starting value
+	* @param stop - exponent of the final value
+	* @param endpoint - boolean indicating whether to include the `base^stop` value when writing values to the input array
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glogspace( x.length, 10.0, 0.0, 5.0, true, x, 1 );
+	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glogspace( x.length, 10.0, 0.0, 5.0, false, x, 1 );
+	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glogspace.ndarray( x.length, 10.0, 0.0, 5.0, true, x, 1, 0 );
+	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.glogspace.ndarray( x.length, 10.0, 0.0, 5.0, false, x, 1, 0 );
+	* // x => [ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
+	*/
+	glogspace: typeof glogspace;
+
+	/**
+	* Sifts a value down from a specified index in a strided min-heap until the heap property is restored.
+	*
+	* ## Notes
+	*
+	* -   The function assumes that the subtrees rooted at the children of `index` already satisfy the min-heap property and only the value being sifted may violate the min-heap invariant.
+	* -   The min-heap algorithm is sensitive to the presence of `NaN` values. Since `NaN` comparisons always return `false`, if `NaN` values are present in the input array, the results may be unpredictable.
+	*
+	* @param N - number of indexed elements
+	* @param index - logical index at which to begin sifting
+	* @param value - value to place into the heap
+	* @param x - heap storage array
+	* @param strideX - stride length
+	* @returns heap storage array
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* ns.gminheapSiftDown( 5, 0, 7.0, x, 1 );
+	* // x => [ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	*
+	* ns.gminheapSiftDown.ndarray( 5, 0, 7.0, x, 1, 0 );
+	* // x => [ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*/
+	gminheapSiftDown: typeof gminheapSiftDown;
+
+	/**
+	* Converts a strided array to a min-heap.
+	*
+	* ## Notes
+	*
+	* -   The min-heap algorithm is sensitive to the presence of `NaN` values. Since `NaN` comparisons always return `false`, if `NaN` values are present in the input array, the results may be unpredictable.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var x = [ 7.0, 5.0, 3.0, 1.0, 9.0 ];
+	*
+	* ns.gminheapify( 5, x, 1 );
+	* // x => [ 1.0, 5.0, 3.0, 7.0, 9.0 ]
+	*
+	* @example
+	* var x = [ 7.0, 5.0, 3.0, 1.0, 9.0 ];
+	*
+	* ns.gminheapify.ndarray( 5, x, 1, 0 );
+	* // x => [ 1.0, 5.0, 3.0, 7.0, 9.0 ]
+	*/
+	gminheapify: typeof gminheapify;
+
+	/**
+	* Reverses a strided array in-place according to a mask.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param mask - mask array
+	* @param strideMask - stride length for `mask`
+	* @returns input array
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var mask = [ 0, 0, 0, 1, 0, 0, 0, 0 ];
+	*
+	* ns.gmskrev( x.length, x, 1, mask, 1 );
+	* // x => [ -3.0, -1.0, 0.0, -5.0, 4.0, 3.0, 1.0, -2.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var mask = [ 0, 0, 0, 1, 0, 0, 0, 0 ];
+	*
+	* ns.gmskrev.ndarray( x.length, x, 1, 0, mask, 1, 0 );
+	* // x => [ -3.0, -1.0, 0.0, -5.0, 4.0, 3.0, 1.0, -2.0 ]
+	*/
+	gmskrev: typeof gmskrev;
+
+	/**
+	* Computes the number of non-`NaN` elements in a strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns count
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnancount( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnancount.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	gnancount: typeof gnancount;
+
+	/**
+	* Computes the sum of strided array elements, ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	* var out = [ 0.0, 0 ];
+	*
+	* var v = ns.gnannsumkbn( x.length, x, 1, out, 1 );
+	* // returns [ 1.0, 3 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	* var out = [ 0.0, 0 ];
+	*
+	* var v = ns.gnannsumkbn.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns [ 1.0, 3 ]
+	*/
+	gnannsumkbn: typeof gnannsumkbn;
+
+	/**
+	* Computes the sum of strided array elements, ignoring `NaN` values and using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array whose first element is the sum and whose second element is the number of non-NaN elements
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	* var out = [ 0.0, 0 ];
+	*
+	* var v = ns.gnannsumpw( x.length, x, 1, out, 1 );
+	* // returns [ 1.0, 3 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	* var out = [ 0.0, 0 ];
+	*
+	* var v = ns.gnannsumpw.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // returns [ 1.0, 3 ]
+	*/
+	gnannsumpw: typeof gnannsumpw;
+
+	/**
+	* Computes the sum of strided array elements, ignoring `NaN` values.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gnansum: typeof gnansum;
+
+	/**
+	* Computes the sum of strided array elements, ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumkbn( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gnansumkbn: typeof gnansumkbn;
+
+	/**
+	* Computes the sum of strided array elements, ignoring `NaN` values and using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumkbn2( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumkbn2.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gnansumkbn2: typeof gnansumkbn2;
+
+	/**
+	* Computes the sum of strided array elements, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gnansumors: typeof gnansumors;
+
+	/**
+	* Computes the sum of strided array elements, ignoring `NaN` values and using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, NaN, 2.0 ];
+	*
+	* var v = ns.gnansumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gnansumpw: typeof gnansumpw;
+
+	/**
+	* Tests whether every element in a strided array is falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether all elements are falsy
+	*
+	* @example
+	* var x = [ 0, 0, 1, 1 ];
+	*
+	* var o = ns.gnone( x.length, x, 1 );
+	* // returns false
+	*
+	* @example
+	* var x = [ 0, 0, 1, 1 ];
+	*
+	* var o = ns.gnone.ndarray( x.length, x, 1, 0 );
+	* // returns false
+	*/
+	gnone: typeof gnone;
+
+	/**
+	* Fills a strided array with linearly spaced numeric elements which increment by `1` starting from one.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.goneTo( x.length, x, 1 );
+	* // x => [ 1.0, 2.0, 3.0, 4.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.goneTo.ndarray( x.length, x, 1, 0 );
+	* // x => [ 1.0, 2.0, 3.0, 4.0 ]
+	*/
+	goneTo: typeof goneTo;
+
+	/**
+	* Replicates each strided array element a specified number of times.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to replicate each element
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.greplicate( x.length, 2, x, 1, out, 1 );
+	* // out => [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.greplicate.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => [ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ]
+	*/
+	greplicate: typeof greplicate;
+
+	/**
+	* Reverses a strided array in-place.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.grev( x.length, x, 1 );
+	* // x => [ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.grev.ndarray( x.length, x, 1, 0 );
+	* // x => [ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
+	*/
+	grev: typeof grev;
+
+	/**
+	* Tests whether a strided array contains at least `k` truthy elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - minimum number of truthy elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether the input array contains at least k truthy elements
+	*
+	* @example
+	* var x = [ 0, 0, 1, 2 ];
+	*
+	* var v = ns.gsome( x.length, 2, x, 1 );
+	* // returns true
+	*
+	* @example
+	* var x = [ 0, 0, 1, 2 ];
+	*
+	* var v = ns.gsome.ndarray( x.length, 2, x, 1, 0 );
+	* // returns true
+	*/
+	gsome: typeof gsome;
+
+	/**
+	* Sorts a strided array.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsort( x.length, 1, x, 1 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsort.ndarray( x.length, 1, x, 1, 0 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	gsort: typeof gsort;
+
+	/**
+	* Simultaneously sorts two strided arrays based on the sort order of the first array using heapsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	* var y = [ 0.0, 1.0, 2.0, 3.0 ];
+	*
+	* ns.gsort2hp( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => [ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	* var y = [ 0.0, 1.0, 2.0, 3.0 ];
+	*
+	* ns.gsort2hp.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => [ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	gsort2hp: typeof gsort2hp;
+
+	/**
+	* Simultaneously sorts two strided arrays based on the sort order of the first array using insertion sort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	* var y = [ 0.0, 1.0, 2.0, 3.0 ];
+	*
+	* ns.gsort2ins( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => [ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	* var y = [ 0.0, 1.0, 2.0, 3.0 ];
+	*
+	* ns.gsort2ins.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => [ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	gsort2ins: typeof gsort2ins;
+
+	/**
+	* Simultaneously sorts two strided arrays based on the sort order of the first array using Shellsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	* var y = [ 0.0, 1.0, 2.0, 3.0 ];
+	*
+	* ns.gsort2sh( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => [ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	* var y = [ 0.0, 1.0, 2.0, 3.0 ];
+	*
+	* ns.gsort2sh.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => [ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	gsort2sh: typeof gsort2sh;
+
+	/**
+	* Sorts a strided array using heapsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsorthp( x.length, 1, x, 1 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsorthp.ndarray( x.length, 1, x, 1, 0 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	gsorthp: typeof gsorthp;
+
+	/**
+	* Sorts a strided array using insertion sort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsortins( x.length, 1, x, 1 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsortins.ndarray( x.length, 1, x, 1, 0 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	gsortins: typeof gsortins;
+
+	/**
+	* Sorts a strided array using Shellsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsortsh( x.length, 1, x, 1 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 3.0, -4.0 ];
+	*
+	* ns.gsortsh.ndarray( x.length, 1, x, 1, 0 );
+	* // x => [ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	gsortsh: typeof gsortsh;
+
+	/**
+	* Computes the sum of strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gsum: typeof gsum;
+
+	/**
+	* Computes the sum of strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumkbn( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gsumkbn: typeof gsumkbn;
+
+	/**
+	* Computes the sum of strided array elements using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumkbn2( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumkbn2.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gsumkbn2: typeof gsumkbn2;
+
+	/**
+	* Computes the sum of strided array elements using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gsumors: typeof gsumors;
+
+	/**
+	* Computes the sum of strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var x = [ 1.0, -2.0, 2.0 ];
+	*
+	* var v = ns.gsumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	gsumpw: typeof gsumpw;
+
+	/**
+	* Fills a strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gunitspace( x.length, 3.0, x, 1 );
+	* // x => [ 3.0, 4.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gunitspace.ndarray( x.length, 3.0, x, 1, 0 );
+	* // x => [ 3.0, 4.0, 5.0, 6.0 ]
+	*/
+	gunitspace: typeof gunitspace;
+
+	/**
+	* Generates a Vandermonde matrix.
+	*
+	* @param order - storage layout
+	* @param mode - mode indicating whether to generate increasing or decreasing powers
+	* @param M - number of rows in `out`
+	* @param N - number of columns in `out`
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output matrix
+	* @param ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
+	* @returns output matrix
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gvander( 'row-major', 1, 3, 3, x, 1, out, 3 );
+	* // out => [ 1.0, 1.0, 1.0, 1.0, 2.0, 4.0, 1.0, 3.0, 9.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var out = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gvander.ndarray( 1, 3, 3, x, 1, 0, out, 3, 1, 0 );
+	* // out => [ 1.0, 1.0, 1.0, 1.0, 2.0, 4.0, 1.0, 3.0, 9.0 ]
+	*/
+	gvander: typeof gvander;
+
+	/**
+	* Adds a scalar constant to each element in a strided array `x` and assigns the results to a strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwapx( x.length, 5.0, x, 1, w, 1 );
+	* // w => [ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwapx.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => [ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*/
+	gwapx: typeof gwapx;
+
+	/**
+	* Multiplies each element in a strided array `x` by a scalar constant and assigns the results to elements in a strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwax( x.length, 5.0, x, 1, w, 1 );
+	* // w => [ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwax.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => [ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
+	*/
+	gwax: typeof gwax;
+
+	/**
+	* Multiplies each element in a strided array `x` by a scalar constant and adds a scalar constant before assigning the results to a strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwaxpb( x.length, 5.0, 3.0, x, 1, w, 1 );
+	* // w => [ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwaxpb.ndarray( x.length, 5.0, 3.0, x, 1, 0, w, 1, 0 );
+	* // w => [ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*/
+	gwaxpb: typeof gwaxpb;
+
+	/**
+	* Takes elements from one of two strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var condition = [ 1, 0, 1 ];
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var y = [ 4.0, 5.0, 6.0 ];
+	* var out = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => [ 1.0, 5.0, 3.0 ]
+	*
+	* @example
+	* var condition = [ 1, 0, 1 ];
+	* var x = [ 1.0, 2.0, 3.0 ];
+	* var y = [ 4.0, 5.0, 6.0 ];
+	* var out = [ 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => [ 1.0, 5.0, 3.0 ]
+	*/
+	gwhere: typeof gwhere;
+
+	/**
+	* Adds elements of a strided array `x` to the corresponding elements of a strided array `y` and assigns the results to elements in a strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwxpy( x.length, x, 1, y, 1, w, 1 );
+	* // w => [ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwxpy.ndarray( x.length, x, 1, 0, y, 1, 0, w, 1, 0 );
+	* // w => [ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*/
+	gwxpy: typeof gwxpy;
+
+	/**
+	* Subtracts a scalar constant from each element in a strided array `x` and assigns the results to a strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwxsa( x.length, 5.0, x, 1, w, 1 );
+	* // w => [ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwxsa.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => [ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	gwxsa: typeof gwxsa;
+
+	/**
+	* Subtracts elements of a strided array `y` from the corresponding elements of a strided array `x` and assigns the results to elements in a strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 5.0, 4.0, 3.0, 2.0, 1.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwxsy( x.length, x, 1, y, 1, w, 1 );
+	* // w => [ -4.0, -2.0, 0.0, 2.0, 4.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 5.0, 4.0, 3.0, 2.0, 1.0 ];
+	* var w = [ 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gwxsy.ndarray( x.length, x, 1, 0, y, 1, 0, w, 1, 0 );
+	* // w => [ -4.0, -2.0, 0.0, 2.0, 4.0 ]
+	*/
+	gwxsy: typeof gwxsy;
+
+	/**
+	* Divides elements of a strided array `x` by the corresponding elements of a strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var x = [ 4.0, 6.0, 12.0, 20.0, 30.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxdy( x.length, x, 1, y, 1 );
+	* // y => [ 2.0, 2.0, 3.0, 4.0, 5.0 ]
+	*
+	* @example
+	* var x = [ 4.0, 6.0, 12.0, 20.0, 30.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxdy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => [ 2.0, 2.0, 3.0, 4.0, 5.0 ]
+	*/
+	gxdy: typeof gxdy;
+
+	/**
+	* Multiplies elements of a strided array `x` by the corresponding elements of a strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxmy( x.length, x, 1, y, 1 );
+	* // y => [ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxmy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => [ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	gxmy: typeof gxmy;
+
+	/**
+	* Adds elements of a strided array `x` to the corresponding elements of a strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxpy( x.length, x, 1, y, 1 );
+	* // y => [ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 2.0, 3.0, 4.0, 5.0, 6.0 ];
+	*
+	* ns.gxpy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => [ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*/
+	gxpy: typeof gxpy;
+
+	/**
+	* Subtracts a scalar constant from each element in a strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gxsa( x.length, 5.0, x, 1 );
+	* // x => [ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var x = [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ];
+	*
+	* ns.gxsa.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => [ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	gxsa: typeof gxsa;
+
+	/**
+	* Subtracts elements of a strided array `y` from the corresponding elements of a strided array `x` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns `y`
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 5.0, 4.0, 3.0, 2.0, 1.0 ];
+	*
+	* ns.gxsy( x.length, x, 1, y, 1 );
+	* // y => [ -4.0, -2.0, 0.0, 2.0, 4.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0, 5.0 ];
+	* var y = [ 5.0, 4.0, 3.0, 2.0, 1.0 ];
+	*
+	* ns.gxsy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => [ -4.0, -2.0, 0.0, 2.0, 4.0 ]
+	*/
+	gxsy: typeof gxsy;
+
+	/**
+	* Fills a strided array with linearly spaced numeric elements which increment by `1` starting from zero.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gzeroTo( x.length, x, 1 );
+	* // x => [ 0.0, 1.0, 2.0, 3.0 ]
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gzeroTo.ndarray( x.length, x, 1, 0 );
+	* // x => [ 0.0, 1.0, 2.0, 3.0 ]
+	*/
+	gzeroTo: typeof gzeroTo;
+
+	/**
+	* Base ndarray extended BLAS functions.
+	*/
+	ndarray: typeof ndarray;
+
+	/**
+	* Tests whether at least one element in a single-precision floating-point strided array is truthy.
+	*
+	* ## Notes
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether at least one element is truthy
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.sany( x.length, x, 1 );
+	* // returns true
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.sany.ndarray( x.length, x, 1, 0 );
+	* // returns true
+	*/
+	sany: typeof sany;
+
+	/**
+	* Adds a scalar constant to each element in a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sapx( x.length, 5.0, x, 1 );
+	* // x => <Float32Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sapx.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => <Float32Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*/
+	sapx: typeof sapx;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsum( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsum.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	sapxsum: typeof sapxsum;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumkbn( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumkbn.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	sapxsumkbn: typeof sapxsumkbn;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumkbn2( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumkbn2.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	sapxsumkbn2: typeof sapxsumkbn2;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumors( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumors.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	sapxsumors: typeof sapxsumors;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumpw( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sapxsumpw.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	sapxsumpw: typeof sapxsumpw;
+
+	/**
+	* Computes the sum of absolute values (L1 norm) of single-precision floating-point strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sasumpw( x.length, x, 1 );
+	* // returns 5.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sasumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 5.0
+	*/
+	sasumpw: typeof sasumpw;
+
+	/**
+	* Multiplies each element in a single-precision floating-point strided array by a scalar constant and adds a scalar constant to each result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.saxpb( x.length, 5.0, 3.0, x, 1 );
+	* // x => <Float32Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.saxpb.ndarray( x.length, 5.0, 3.0, x, 1, 0 );
+	* // x => <Float32Array>[ -7.0, 8.0, 18.0, -22.0, 23.0, 3.0, -2.0, -12.0 ]
+	*/
+	saxpb: typeof saxpb;
+
+	/**
+	* Multiplies a single-precision floating-point strided array `x` by a constant and adds the result to a single-precision floating-point strided array `y` multiplied by a constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param beta - second scalar constant
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.saxpby( x.length, 5.0, x, 1, 2.0, y, 1 );
+	* // y => <Float32Array>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.saxpby.ndarray( x.length, 5.0, x, 1, 0, 2.0, y, 1, 0 );
+	* // y => <Float32Array>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
+	*/
+	saxpby: typeof saxpby;
+
+	/**
+	* Computes the Cartesian power for a single-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param k - power
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianPower( 'row-major', x.length, 2, x, 1, out, 2 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianPower.ndarray( x.length, 2, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	scartesianPower: typeof scartesianPower;
+
+	/**
+	* Computes the Cartesian product for two single-precision floating-point strided arrays.
+	*
+	* ## Notes
+	*
+	* -   Pairs are stored as rows in the output matrix, where the first column contains the first element of each pair and the second column contains the second element.
+	*
+	* @param order - storage layout
+	* @param M - number of indexed elements in `x`
+	* @param N - number of indexed elements in `y`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var y = new Float32Array( [ 3.0, 4.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianProduct( 'row-major', x.length, y.length, x, 1, y, 1, out, 2 );
+	* // out => <Float32Array>[ 1.0, 3.0, 1.0, 4.0, 2.0, 3.0, 2.0, 4.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var y = new Float32Array( [ 3.0, 4.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianProduct.ndarray( x.length, y.length, x, 1, 0, y, 1, 0, out, 2, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 3.0, 1.0, 4.0, 2.0, 3.0, 2.0, 4.0 ]
+	*/
+	scartesianProduct: typeof scartesianProduct;
+
+	/**
+	* Computes the Cartesian square for a single-precision floating-point strided array.
+	*
+	* @param order - storage layout
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param LDO - stride length between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of `out`)
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianSquare( 'row-major', x.length, x, 1, out, 2 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0 ] );
+	* var out = new Float32Array( 8 );
+	*
+	* ns.scartesianSquare.ndarray( x.length, x, 1, 0, out, 2, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 2.0, 2.0, 1.0, 2.0, 2.0 ]
+	*/
+	scartesianSquare: typeof scartesianSquare;
+
+	/**
+	* Circularly shifts the elements of a single-precision floating-point strided array by a specified number of positions.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of positions to shift
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.scircshift( x.length, 2, x, 1 );
+	* // x => <Float32Array>[ 4.0, 5.0, 1.0, 2.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.scircshift.ndarray( x.length, 2, x, 1, 0 );
+	* // x => <Float32Array>[ 4.0, 5.0, 1.0, 2.0, 3.0 ]
+	*/
+	scircshift: typeof scircshift;
+
+	/**
+	* Cumulatively tests whether at least one element in a single-precision floating-point strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scuany( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ false, false, true, true ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scuany.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ false, false, true, true ]
+	*/
+	scuany: typeof scuany;
+
+	/**
+	* Cumulatively tests whether every element in a single-precision floating-point strided array is truthy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scuevery( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 1.0, 1.0, 0.0, 0.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scuevery.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	scuevery: typeof scuevery;
+
+	/**
+	* Cumulatively tests whether every element in a single-precision floating-point strided array is falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scunone( x.length, x, 1, out, 1 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 4 );
+	*
+	* ns.scunone.ndarray( x.length, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ true, true, false, false ]
+	*/
+	scunone: typeof scunone;
+
+	/**
+	* Cumulatively tests whether at least `k` elements in a single-precision floating-point strided array are truthy.
+	*
+	* @param N - number of indexed elements
+	* @param k - minimum number of truthy elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 5 );
+	*
+	* ns.scusome( x.length, 2, x, 1, out, 1 );
+	* // out => <BooleanArray>[ false, false, false, true, true ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0, 1.0 ] );
+	* var out = new BooleanArray( 5 );
+	*
+	* ns.scusome.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => <BooleanArray>[ false, false, false, true, true ]
+	*/
+	scusome: typeof scusome;
+
+	/**
+	* Computes the cumulative sum of single-precision floating-point strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusum( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusum.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	scusum: typeof scusum;
+
+	/**
+	* Computes the cumulative sum of single-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumkbn( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumkbn.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	scusumkbn: typeof scusumkbn;
+
+	/**
+	* Computes the cumulative sum of single-precision floating-point strided array elements using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumkbn2( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumkbn2.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	scusumkbn2: typeof scusumkbn2;
+
+	/**
+	* Computes the cumulative sum of single-precision floating-point strided array elements using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumors( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumors.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	scusumors: typeof scusumors;
+
+	/**
+	* Computes the cumulative sum of single-precision floating-point strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param sum - initial sum
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumpw( x.length, 0.0, x, 1, y, 1 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	* var y = new Float32Array( x.length );
+	*
+	* ns.scusumpw.ndarray( x.length, 0.0, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 1.0, -1.0, 1.0 ]
+	*/
+	scusumpw: typeof scusumpw;
+
+	/**
+	* Calculates the k-th discrete forward difference of a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 5 );
+	* var w = new Float32Array( 6 );
+	*
+	* ns.sdiff( x.length, 2, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	*
+	* console.log( out );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 5 );
+	* var w = new Float32Array( 6 );
+	*
+	* ns.sdiff.ndarray( x.length, 2, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	*
+	* console.log( out );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	sdiff: typeof sdiff;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum using extended accumulation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdsapxsum( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdsapxsum.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	sdsapxsum: typeof sdsapxsum;
+
+	/**
+	* Adds a scalar constant to each single-precision floating-point strided array element and computes the sum using pairwise summation with extended accumulation.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdsapxsumpw( x.length, 5.0, x, 1 );
+	* // returns 16.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdsapxsumpw.ndarray( x.length, 5.0, x, 1, 0 );
+	* // returns 16.0
+	*/
+	sdsapxsumpw: typeof sdsapxsumpw;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values and using extended accumulation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.sdsnansum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.sdsnansum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	sdsnansum: typeof sdsnansum;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation with extended accumulation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.sdsnansumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.sdsnansumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	sdsnansumpw: typeof sdsnansumpw;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using extended accumulation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdssum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdssum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	sdssum: typeof sdssum;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using pairwise summation with extended accumulation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdssumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.sdssumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	sdssumpw: typeof sdssumpw;
+
+	/**
+	* Calculates the differences between consecutive elements of a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements to prepend
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements to append
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 6 );
+	*
+	* ns.sediff( x.length, x, 1, 1, p, 1, 1, a, 1, out, 1 );
+	* // out => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 4.0, 7.0, 11.0, 16.0 ] );
+	* var p = new Float32Array( [ 1.0 ] );
+	* var a = new Float32Array( [ 22.0 ] );
+	* var out = new Float32Array( 6 );
+	*
+	* ns.sediff.ndarray( x.length, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 22.0 ]
+	*/
+	sediff: typeof sediff;
+
+	/**
+	* Fills a single-precision floating-point strided array with a specified scalar value.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sfill( x.length, 5.0, x, 1 );
+	* // x => <Float32Array>[ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sfill.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => <Float32Array>[ 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0, 5.0 ]
+	*/
+	sfill: typeof sfill;
+
+	/**
+	* Replaces single-precision floating-point strided array elements equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* ns.sfillEqual( x.length, 0.0, 5.0, x, 1 );
+	* // x => <Float32Array>[ 5.0, 5.0, 1.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* ns.sfillEqual.ndarray( x.length, 0.0, 5.0, x, 1, 0 );
+	* // x => <Float32Array>[ 5.0, 5.0, 1.0, 5.0 ]
+	*/
+	sfillEqual: typeof sfillEqual;
+
+	/**
+	* Replaces single-precision floating-point strided array elements equal to `NaN` with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sfillNaN( x.length, 0.0, x, 1 );
+	* // x => <Float32Array>[ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ NaN, 1.0, 3.0, NaN, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sfillNaN.ndarray( x.length, 0.0, x, 1, 0 );
+	* // x => <Float32Array>[ 0.0, 1.0, 3.0, 0.0, 4.0, 0.0, -1.0, -3.0 ]
+	*/
+	sfillNaN: typeof sfillNaN;
+
+	/**
+	* Replaces single-precision floating-point strided array elements not equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.sfillNotEqual( 6, 0.0, 5.0, x, 1 );
+	* // x => <Float32Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, -2.0, 3.0, 0.0, 4.0, -6.0 ] );
+	*
+	* ns.sfillNotEqual.ndarray( 6, 0.0, 5.0, x, 1, 0 );
+	* // x => <Float32Array>[ 0.0, 5.0, 5.0, 0.0, 5.0, 5.0 ]
+	*/
+	sfillNotEqual: typeof sfillNotEqual;
+
+	/**
+	* Returns the index of the first element in a single-precision floating-point strided array equal to a corresponding element in another single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a match, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.sfirstIndexEqual( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.sfirstIndexEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	sfirstIndexEqual: typeof sfirstIndexEqual;
+
+	/**
+	* Returns the index of the first element in a single-precision floating-point strided array which is less than a corresponding element in another single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element in `x` which is less than a corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* var idx = ns.sfirstIndexLessThan( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* var idx = ns.sfirstIndexLessThan.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	sfirstIndexLessThan: typeof sfirstIndexLessThan;
+
+	/**
+	* Returns the first index of a specified search element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.sindexOf( x.length, 2.0, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.sindexOf.ndarray( x.length, 2.0, x, 1, 0 );
+	* // returns 1
+	*/
+	sindexOf: typeof sindexOf;
+
+	/**
+	* Returns the index of the first column in a single-precision floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in row-major order. When the matrix is stored in column-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking column match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns column index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 0.0, 0.0 ] ]
+	* var x = new Float32Array( [ 2.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.sindexOfColumn( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 0.0, 0.0 ] ]
+	* var x = new Float32Array( [ 2.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.sindexOfColumn.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	sindexOfColumn: typeof sindexOfColumn;
+
+	/**
+	* Returns the index of the first falsy element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a falsy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 0.0, 3.0 ] );
+	*
+	* var idx = ns.sindexOfFalsy( x.length, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 0.0, 3.0 ] );
+	*
+	* var idx = ns.sindexOfFalsy.ndarray( x.length, x, 1, 0 );
+	* // returns 2
+	*/
+	sindexOfFalsy: typeof sindexOfFalsy;
+
+	/**
+	* Returns the index of the first row in a single-precision floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 0.0, 3.0, 4.0, 0.0 ] );
+	* var x = new Float32Array( [ 2.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.sindexOfRow( 'column-major', 3, 2, A, 3, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 0.0, 3.0, 4.0, 0.0 ] );
+	* var x = new Float32Array( [ 2.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.sindexOfRow.ndarray( 3, 2, A, 1, 3, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	sindexOfRow: typeof sindexOfRow;
+
+	/**
+	* Returns the index of the first truthy element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.sindexOfTruthy( x.length, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.sindexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 1
+	*/
+	sindexOfTruthy: typeof sindexOfTruthy;
+
+	/**
+	* Returns the last index of a specified search element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.slastIndexOf( x.length, 2.0, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	*
+	* var idx = ns.slastIndexOf.ndarray( x.length, 2.0, x, 1, 0 );
+	* // returns 1
+	*/
+	slastIndexOf: typeof slastIndexOf;
+
+	/**
+	* Returns the index of the last falsy element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a falsy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 0.0, 3.0 ] );
+	*
+	* var idx = ns.slastIndexOfFalsy( x.length, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 0.0, 3.0 ] );
+	*
+	* var idx = ns.slastIndexOfFalsy.ndarray( x.length, x, 1, 0 );
+	* // returns 2
+	*/
+	slastIndexOfFalsy: typeof slastIndexOfFalsy;
+
+	/**
+	* Returns the index of the last row in a single-precision floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = new Float32Array( [ 3.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.slastIndexOfRow( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ] ); // => [ [ 1.0, 2.0 ], [ 3.0, 4.0 ], [ 3.0, 4.0 ] ]
+	* var x = new Float32Array( [ 3.0, 4.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.slastIndexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 2
+	*/
+	slastIndexOfRow: typeof slastIndexOfRow;
+
+	/**
+	* Returns the index of the last truthy element in a single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.slastIndexOfTruthy( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var idx = ns.slastIndexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	slastIndexOfTruthy: typeof slastIndexOfTruthy;
+
+	/**
+	* Fills a single-precision floating-point strided array with linearly spaced values over a specified interval.
+	*
+	* @param N - number of indexed elements
+	* @param start - start of interval
+	* @param stop - end of interval
+	* @param endpoint - boolean indicating whether to include the `stop` value when writing values to the input array
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slinspace( x.length, 0.0, 7.0, true, x, 1 );
+	* // x => <Float32Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slinspace( x.length, 0.0, 8.0, false, x, 1 );
+	* // x => <Float32Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slinspace.ndarray( x.length, 0.0, 7.0, true, x, 1, 0 );
+	* // x => <Float32Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slinspace.ndarray( x.length, 0.0, 8.0, false, x, 1, 0 );
+	* // x => <Float32Array>[ 0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ]
+	*/
+	slinspace: typeof slinspace;
+
+	/**
+	* Fills a single-precision floating-point strided array with logarithmically spaced values over a specified interval.
+	*
+	* @param N - number of indexed elements
+	* @param base - base of the logarithmic scale
+	* @param start - exponent of the starting value
+	* @param stop - exponent of the final value
+	* @param endpoint - boolean indicating whether to include the `base^stop` value when writing values to the input array
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slogspace( x.length, 10.0, 0.0, 5.0, true, x, 1 );
+	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slogspace( x.length, 10.0, 0.0, 5.0, false, x, 1 );
+	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slogspace.ndarray( x.length, 10.0, 0.0, 5.0, true, x, 1, 0 );
+	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.slogspace.ndarray( x.length, 10.0, 0.0, 5.0, false, x, 1, 0 );
+	* // x => <Float32Array>[ 1.0, 10.0, 100.0, 1000.0, 10000.0 ]
+	*/
+	slogspace: typeof slogspace;
+
+	/**
+	* Sifts a value down from a specified index in a single-precision floating-point strided min-heap until the heap property is restored.
+	*
+	* ## Notes
+	*
+	* -   The function assumes that the subtrees rooted at the children of `index` already satisfy the min-heap property and only the value being sifted may violate the min-heap invariant.
+	* -   The min-heap algorithm is sensitive to the presence of `NaN` values. Since `NaN` comparisons always return `false`, if `NaN` values are present in the input array, the results may be unpredictable.
+	*
+	* @param N - number of indexed elements
+	* @param index - logical index at which to begin sifting
+	* @param value - value to place into the heap
+	* @param x - heap storage array
+	* @param strideX - stride length
+	* @returns heap storage array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.sminheapSiftDown( 5, 0, 7.0, x, 1 );
+	* // x => <Float32Array>[ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	*
+	* ns.sminheapSiftDown.ndarray( 5, 0, 7.0, x, 1, 0 );
+	* // x => <Float32Array>[ 2.0, 4.0, 3.0, 7.0, 5.0 ]
+	*/
+	sminheapSiftDown: typeof sminheapSiftDown;
+
+	/**
+	* Reverses a single-precision floating-point strided array in-place according to a mask.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param mask - mask array
+	* @param strideMask - stride length for `mask`
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var mask = new Uint8Array( [ 0, 0, 0, 1, 0, 0, 0, 0 ] );
+	*
+	* ns.smskrev( x.length, x, 1, mask, 1 );
+	* // x => <Float32Array>[ -3.0, -1.0, 0.0, -5.0, 4.0, 3.0, 1.0, -2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var mask = new Uint8Array( [ 0, 0, 0, 1, 0, 0, 0, 0 ] );
+	*
+	* ns.smskrev.ndarray( x.length, x, 1, 0, mask, 1, 0 );
+	* // x => <Float32Array>[ -3.0, -1.0, 0.0, -5.0, 4.0, 3.0, 1.0, -2.0 ]
+	*/
+	smskrev: typeof smskrev;
+
+	/**
+	* Computes the number of non-`NaN` elements in a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns number of non-`NaN` elements
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snancount( x.length, x, 1 );
+	* // returns 3
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snancount.ndarray( x.length, x, 1, 0 );
+	* // returns 3
+	*/
+	snancount: typeof snancount;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	snansum: typeof snansum;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values and using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumkbn( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	snansumkbn: typeof snansumkbn;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values and using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumkbn2( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumkbn2.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	snansumkbn2: typeof snansumkbn2;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values and using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	snansumors: typeof snansumors;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements, ignoring `NaN` values and using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, NaN, 2.0 ] );
+	*
+	* var v = ns.snansumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	snansumpw: typeof snansumpw;
+
+	/**
+	* Tests whether every element in a single-precision floating-point strided array is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether all elements are falsy
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.snone( x.length, x, 1 );
+	* // returns false
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.snone.ndarray( x.length, x, 1, 0 );
+	* // returns false
+	*/
+	snone: typeof snone;
+
+	/**
+	* Fills a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from one.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.soneTo( x.length, x, 1 );
+	* // x => <Float32Array>[ 1.0, 2.0, 3.0, 4.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.soneTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Float32Array>[ 1.0, 2.0, 3.0, 4.0 ]
+	*/
+	soneTo: typeof soneTo;
+
+	/**
+	* Fills a single-precision floating-point strided array with ones.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sones( x.length, x, 1 );
+	* // x => <Float32Array>[ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sones.ndarray( x.length, x, 1, 0 );
+	* // x => <Float32Array>[ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0 ]
+	*/
+	sones: typeof sones;
+
+	/**
+	* Replicates each single-precision floating-point strided array element a specified number of times.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to replicate each element
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float32Array( 6 );
+	*
+	* ns.sreplicate( x.length, 2, x, 1, out, 1 );
+	* // out => <Float32Array>[ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float32Array( 6 );
+	*
+	* ns.sreplicate.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 1.0, 2.0, 2.0, 3.0, 3.0 ]
+	*/
+	sreplicate: typeof sreplicate;
+
+	/**
+	* Reverses a single-precision floating-point strided array in-place.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.srev( x.length, x, 1 );
+	* // x => <Float32Array>[ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.srev.ndarray( x.length, x, 1, 0 );
+	* // x => <Float32Array>[ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
+	*/
+	srev: typeof srev;
+
+	/**
+	* Tests whether a single-precision floating-point strided array contains at least `k` truthy elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - minimum number of truthy elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns boolean indicating whether the input array contains at least `k` truthy elements
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var v = ns.ssome( x.length, 2, x, 1 );
+	* // returns true
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var v = ns.ssome.ndarray( x.length, 2, x, 1, 0 );
+	* // returns true
+	*/
+	ssome: typeof ssome;
+
+	/**
+	* Sorts a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssort( x.length, 1.0, x, 1 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssort.ndarray( x.length, 1.0, x, 1, 0 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	ssort: typeof ssort;
+
+	/**
+	* Simultaneously sorts two single-precision floating-point strided arrays based on the sort order of the first array using heapsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.ssort2hp( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float32Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.ssort2hp.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float32Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	ssort2hp: typeof ssort2hp;
+
+	/**
+	* Simultaneously sorts two single-precision floating-point strided arrays based on the sort order of the first array using insertion sort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns first input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.ssort2ins( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float32Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.ssort2ins.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float32Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	ssort2ins: typeof ssort2ins;
+
+	/**
+	* Simultaneously sorts two single-precision floating-point strided arrays based on the sort order of the first array using Shellsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.ssort2sh( x.length, 1, x, 1, y, 1 );
+	*
+	* console.log( x );
+	* // => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float32Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	* var y = new Float32Array( [ 0.0, 1.0, 2.0, 3.0 ] );
+	*
+	* ns.ssort2sh.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	*
+	* console.log( x );
+	* // => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* console.log( y );
+	* // => <Float32Array>[ 3.0, 1.0, 0.0, 2.0 ]
+	*/
+	ssort2sh: typeof ssort2sh;
+
+	/**
+	* Sorts a single-precision floating-point strided array using heapsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssorthp( x.length, 1, x, 1 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssorthp.ndarray( x.length, 1, x, 1, 0 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	ssorthp: typeof ssorthp;
+
+	/**
+	* Sorts a single-precision floating-point strided array using insertion sort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssortins( x.length, 1, x, 1 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssortins.ndarray( x.length, 1, x, 1, 0 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	ssortins: typeof ssortins;
+
+	/**
+	* Sorts a single-precision floating-point strided array using Shellsort.
+	*
+	* @param N - number of indexed elements
+	* @param order - sort order
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssortsh( x.length, 1, x, 1 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 3.0, -4.0 ] );
+	*
+	* ns.ssortsh.ndarray( x.length, 1, x, 1, 0 );
+	* // x => <Float32Array>[ -4.0, -2.0, 1.0, 3.0 ]
+	*/
+	ssortsh: typeof ssortsh;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssum( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssum.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	ssum: typeof ssum;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumkbn( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	ssumkbn: typeof ssumkbn;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using a second-order iterative Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumkbn2( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumkbn2.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	ssumkbn2: typeof ssumkbn2;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using ordinary recursive summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumors( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumors.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	ssumors: typeof ssumors;
+
+	/**
+	* Computes the sum of single-precision floating-point strided array elements using pairwise summation.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumpw( x.length, x, 1 );
+	* // returns 1.0
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, -2.0, 2.0 ] );
+	*
+	* var v = ns.ssumpw.ndarray( x.length, x, 1, 0 );
+	* // returns 1.0
+	*/
+	ssumpw: typeof ssumpw;
+
+	/**
+	* Fills a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.sunitspace( x.length, 3.0, x, 1 );
+	* // x => <Float32Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.sunitspace.ndarray( x.length, 3.0, x, 1, 0 );
+	* // x => <Float32Array>[ 3.0, 4.0, 5.0, 6.0 ]
+	*/
+	sunitspace: typeof sunitspace;
+
+	/**
+	* Generates a single-precision floating-point Vandermonde matrix.
+	*
+	* @param order - storage layout
+	* @param mode - mode indicating whether to generate increasing or decreasing powers
+	* @param M - number of rows in `out`
+	* @param N - number of columns in `out`
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output matrix
+	* @param ldo - stride between successive contiguous vectors of the matrix `out` (a.k.a., leading dimension of the matrix `out`)
+	* @returns output matrix
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float32Array( 9 );
+	*
+	* ns.svander( 'row-major', -1, 3, 3, x, 1, out, 3 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var out = new Float32Array( 9 );
+	*
+	* ns.svander.ndarray( -1, 3, 3, x, 1, 0, out, 3, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 1.0, 1.0, 4.0, 2.0, 1.0, 9.0, 3.0, 1.0 ]
+	*/
+	svander: typeof svander;
+
+	/**
+	* Adds a scalar constant to each element in a single-precision floating-point strided array `x` and assigns the results to a single-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swapx( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float32Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swapx.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float32Array>[ 3.0, 6.0, 8.0, 0.0, 9.0, 5.0, 4.0, 2.0 ]
+	*/
+	swapx: typeof swapx;
+
+	/**
+	* Multiplies each element in a single-precision floating-point strided array `x` by a scalar constant and assigns the results to a single-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swax( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float32Array>[ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swax.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float32Array>[ -10.0, 5.0, 15.0, -25.0, 20.0, 0.0, -5.0, -15.0 ]
+	*/
+	swax: typeof swax;
+
+	/**
+	* Takes elements from one of two single-precision floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float32Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float32Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Float32Array>[ 1.0, 5.0, 3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0 ] );
+	* var y = new Float32Array( [ 4.0, 5.0, 6.0 ] );
+	* var out = new Float32Array( [ 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Float32Array>[ 1.0, 5.0, 3.0 ]
+	*/
+	swhere: typeof swhere;
+
+	/**
+	* Subtracts a scalar constant from each element in a single-precision floating-point strided array `x` and assigns the results to a single-precision floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swxsa( x.length, 5.0, x, 1, w, 1 );
+	* // w => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.swxsa.ndarray( x.length, 5.0, x, 1, 0, w, 1, 0 );
+	* // w => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	swxsa: typeof swxsa;
+
+	/**
+	* Divides elements of a single-precision floating-point strided array `x` by the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 6.0, 12.0, 20.0, 30.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxdy( x.length, x, 1, y, 1 );
+	* // y => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 2.0, 6.0, 12.0, 20.0, 30.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxdy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 5.0 ]
+	*/
+	sxdy: typeof sxdy;
+
+	/**
+	* Multiplies elements of a single-precision floating-point strided array `x` by the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxmy( x.length, x, 1, y, 1 );
+	* // y => <Float32Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxmy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
+	*/
+	sxmy: typeof sxmy;
+
+	/**
+	* Adds elements of a single-precision floating-point strided array `x` to the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxpy( x.length, x, 1, y, 1 );
+	* // y => <Float32Array>[ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* ns.sxpy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ 3.0, 5.0, 7.0, 9.0, 11.0 ]
+	*/
+	sxpy: typeof sxpy;
+
+	/**
+	* Subtracts a scalar constant from each element in a single-precision floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sxsa( x.length, 5.0, x, 1 );
+	* // x => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.sxsa.ndarray( x.length, 5.0, x, 1, 0 );
+	* // x => <Float32Array>[ -7.0, -4.0, -2.0, -10.0, -1.0, -5.0, -6.0, -8.0 ]
+	*/
+	sxsa: typeof sxsa;
+
+	/**
+	* Subtracts elements of a single-precision floating-point strided array `y` from the corresponding elements of a single-precision floating-point strided array `x` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 4.0, 6.0, 8.0, 10.0 ] );
+	*
+	* ns.sxsy( x.length, x, 1, y, 1 );
+	* // y => <Float32Array>[ -1.0, -2.0, -3.0, -4.0, -5.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
+	* var y = new Float32Array( [ 2.0, 4.0, 6.0, 8.0, 10.0 ] );
+	*
+	* ns.sxsy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Float32Array>[ -1.0, -2.0, -3.0, -4.0, -5.0 ]
+	*/
+	sxsy: typeof sxsy;
+
+	/**
+	* Fills a single-precision floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.szeroTo( x.length, x, 1 );
+	* // x => <Float32Array>[ 0.0, 1.0, 2.0, 3.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.szeroTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Float32Array>[ 0.0, 1.0, 2.0, 3.0 ]
+	*/
+	szeroTo: typeof szeroTo;
+
+	/**
+	* Fills a single-precision floating-point strided array with zeros.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.szeros( x.length, x, 1 );
+	* // x => <Float32Array>[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ -2.0, 1.0, 3.0, -5.0, 4.0, 0.0, -1.0, -3.0 ] );
+	*
+	* ns.szeros.ndarray( x.length, x, 1, 0 );
+	* // x => <Float32Array>[ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ]
+	*/
+	szeros: typeof szeros;
+
+	/**
+	* Extensions to basic linear algebra subprograms (BLAS) compiled to WebAssembly.
+	*/
+	wasm: typeof wasm;
+
+	/**
+	* Adds a scalar constant to each element in a double-precision complex floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex128( 10.0, 10.0 );
+	*
+	* ns.zapx( x.length, alpha, x, 1 );
+	* // x => <Complex128Array>[ 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex128( 10.0, 10.0 );
+	*
+	* ns.zapx.ndarray( x.length, alpha, x, 1, 0 );
+	* // x => <Complex128Array>[ 11.0, 12.0, 13.0, 14.0, 15.0, 16.0, 17.0, 18.0 ]
+	*/
+	zapx: typeof zapx;
+
+	/**
+	* Multiplies each element in a double-precision complex floating-point strided array by a scalar constant and adds a scalar constant to each result.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param beta - second scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex128( 2.0, 0.0 );
+	* var beta = new Complex128( 1.0, 0.0 );
+	*
+	* ns.zaxpb( x.length, alpha, beta, x, 1 );
+	* // x => <Complex128Array>[ 3.0, 4.0, 7.0, 8.0, 11.0, 12.0, 15.0, 16.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex128( 2.0, 0.0 );
+	* var beta = new Complex128( 1.0, 0.0 );
+	*
+	* ns.zaxpb.ndarray( x.length, alpha, beta, x, 1, 0 );
+	* // x => <Complex128Array>[ 3.0, 4.0, 7.0, 8.0, 11.0, 12.0, 15.0, 16.0 ]
+	*/
+	zaxpb: typeof zaxpb;
+
+	/**
+	* Multiplies a double-precision complex floating-point strided array `x` by a constant and adds the result to a double-precision complex floating-point strided array `y` multiplied by a constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - first scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param beta - second scalar constant
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex128Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 2.0, 1.0 );
+	* var beta = new Complex128( 1.0, -1.0 );
+	*
+	* ns.zaxpby( x.length, alpha, x, 1, beta, y, 1 );
+	* // y => <Complex128Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
+	* var y = new Complex128Array( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 2.0, 1.0 );
+	* var beta = new Complex128( 1.0, -1.0 );
+	*
+	* ns.zaxpby.ndarray( x.length, alpha, x, 1, 0, beta, y, 1, 0 );
+	* // y => <Complex128Array>[ 3.0, 4.0, 9.0, 5.0, 3.0, -2.0 ]
+	*/
+	zaxpby: typeof zaxpby;
+
+	/**
+	* Calculates the k-th discrete forward difference of a double-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   The `out` array must have `N + N1 + N2 - k` elements.
+	* -   The `workspace` array must have `N + N1 + N2 - 1` elements.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to recursively compute differences
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param N1 - number of indexed elements for `prepend`
+	* @param prepend - prepend array
+	* @param strideP - stride length for `prepend`
+	* @param N2 - number of indexed elements for `append`
+	* @param append - append array
+	* @param strideA - stride length for `append`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 2.0, -2.0, 4.0, -4.0, 6.0, -6.0, 8.0, -8.0, 10.0, -10.0 ] );
+	* var p = new Complex128Array( [ 1.0, -1.0 ] );
+	* var a = new Complex128Array( [ 11.0, -11.0 ] );
+	* var out = new Complex128Array( 6 );
+	* var w = new Complex128Array( 6 );
+	*
+	* ns.zdiff( x.length, 1, x, 1, 1, p, 1, 1, a, 1, out, 1, w, 1 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 1.0, -1.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 2.0, -2.0, 4.0, -4.0, 6.0, -6.0, 8.0, -8.0, 10.0, -10.0 ] );
+	* var p = new Complex128Array( [ 1.0, -1.0 ] );
+	* var a = new Complex128Array( [ 11.0, -11.0 ] );
+	* var out = new Complex128Array( 6 );
+	* var w = new Complex128Array( 6 );
+	*
+	* ns.zdiff.ndarray( x.length, 1, x, 1, 0, 1, p, 1, 0, 1, a, 1, 0, out, 1, 0, w, 1, 0 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 2.0, -2.0, 1.0, -1.0 ]
+	*/
+	zdiff: typeof zdiff;
+
+	/**
+	* Fills a double-precision complex floating-point strided array with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex128( 10.0, 10.0 );
+	*
+	* ns.zfill( x.length, alpha, x, 1 );
+	* // x => <Complex128Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
+	*/
+	zfill: typeof zfill;
+
+	/**
+	* Returns the first index of a specified search element in a double-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var idx = ns.zindexOf( x.length, new Complex128( 3.0, 4.0 ), x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	*
+	* var idx = ns.zindexOf.ndarray( x.length, new Complex128( 3.0, 4.0 ), x, 1, 0 );
+	* // returns 1
+	*/
+	zindexOf: typeof zindexOf;
+
+	/**
+	* Returns the index of the first column in a double-precision complex floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching column, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in row-major order. When the matrix is stored in column-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking column match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns column index
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex128Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex128Array( [ 2.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.zindexOfColumn( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex128Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex128Array( [ 2.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var workspace = new Uint8Array( 2 );
+	*
+	* var out = ns.zindexOfColumn.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	zindexOfColumn: typeof zindexOfColumn;
+
+	/**
+	* Returns the index of the first row in a double-precision complex floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex128Array( [ 1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex128Array( [ 2.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.zindexOfRow( 'column-major', 3, 2, A, 3, x, 1, workspace, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* var A = new Complex128Array( [ 1.0, 0.0, 2.0, 0.0, 0.0, 0.0, 3.0, 0.0, 4.0, 0.0, 0.0, 0.0 ] );
+	* var x = new Complex128Array( [ 2.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.zindexOfRow.ndarray( 3, 2, A, 1, 3, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 1
+	*/
+	zindexOfRow: typeof zindexOfRow;
+
+	/**
+	* Returns the index of the first truthy element in a double-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   A complex number is truthy when at least one of its real or imaginary components is truthy.
+	* -   If unable to find a truthy element, the function returns `-1`.
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var idx = ns.zindexOfTruthy( x.length, x, 1 );
+	* // returns 1
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var idx = ns.zindexOfTruthy.ndarray( x.length, x, 1, 0 );
+	* // returns 1
+	*/
+	zindexOfTruthy: typeof zindexOfTruthy;
+
+	/**
+	* Returns the index of the last row in a double-precision complex floating-point input matrix which has the same elements as a provided search vector.
+	*
+	* ## Notes
+	*
+	* -   If the function is provided an empty matrix or if the function is unable to find a matching row, the function returns `-1` (i.e., an invalid index).
+	* -   The `workspace` array is only applicable when an input matrix is stored in column-major order. When the matrix is stored in row-major order, the workspace array is ignored.
+	*
+	* @param order - storage layout
+	* @param M - number of rows in `A`
+	* @param N - number of columns in `A`
+	* @param A - input matrix
+	* @param LDA - stride length for the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param x - search vector
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array for tracking row match candidates
+	* @param strideW - stride length for `workspace`
+	* @returns row index
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* // A (row-major) => [ [ 1+0i, 2+0i ], [ 3+0i, 4+0i ], [ 3+0i, 4+0i ] ]
+	* var A = new Complex128Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 3.0, 0.0, 4.0, 0.0 ] );
+	* var x = new Complex128Array( [ 3.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.zlastIndexOfRow( 'row-major', 3, 2, A, 2, x, 1, workspace, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Uint8Array = require( '@stdlib/array/uint8' );
+	*
+	* // A (row-major) => [ [ 1+0i, 2+0i ], [ 3+0i, 4+0i ], [ 3+0i, 4+0i ] ]
+	* var A = new Complex128Array( [ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0, 3.0, 0.0, 4.0, 0.0 ] );
+	* var x = new Complex128Array( [ 3.0, 0.0, 4.0, 0.0 ] );
+	* var workspace = new Uint8Array( 3 );
+	*
+	* var out = ns.zlastIndexOfRow.ndarray( 3, 2, A, 2, 1, 0, x, 1, 0, workspace, 1, 0 );
+	* // returns 2
+	*/
+	zlastIndexOfRow: typeof zlastIndexOfRow;
+
+	/**
+	* Computes the number of non-`NaN` elements in a double-precision complex floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns number of non-`NaN` elements
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, NaN, NaN, 3.0, 4.0 ] );
+	*
+	* var v = ns.znancount( 3, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, NaN, NaN, 3.0, 4.0 ] );
+	*
+	* var v = ns.znancount.ndarray( 3, x, 1, 0 );
+	* // returns 2
+	*/
+	znancount: typeof znancount;
+
+	/**
+	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from one.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zoneTo( x.length, x, 1 );
+	* // x => <Complex128Array>[ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zoneTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Complex128Array>[ 1.0, 0.0, 2.0, 0.0, 3.0, 0.0, 4.0, 0.0 ]
+	*/
+	zoneTo: typeof zoneTo;
+
+	/**
+	* Replicates each element in a double-precision complex floating-point strided array a specified number of times.
+	*
+	* @param N - number of indexed elements
+	* @param k - number of times to replicate each element
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var out = new Complex128Array( 6 );
+	*
+	* ns.zreplicate( x.length, 2, x, 1, out, 1 );
+	* // out => <Complex128Array>[ 1.0, 2.0, 1.0, 2.0, 3.0, 4.0, 3.0, 4.0, 5.0, 6.0, 5.0, 6.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var out = new Complex128Array( 6 );
+	*
+	* ns.zreplicate.ndarray( x.length, 2, x, 1, 0, out, 1, 0 );
+	* // out => <Complex128Array>[ 1.0, 2.0, 1.0, 2.0, 3.0, 4.0, 3.0, 4.0, 5.0, 6.0, 5.0, 6.0 ]
+	*/
+	zreplicate: typeof zreplicate;
+
+	/**
+	* Computes the sum of double-precision complex floating-point strided array elements.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.zsum( x.length, x, 1 );
+	* // returns <Complex128>[ 3.0, 1.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.zsum.ndarray( x.length, x, 1, 0 );
+	* // returns <Complex128>[ 3.0, 1.0 ]
+	*/
+	zsum: typeof zsum;
+
+	/**
+	* Computes the sum of double-precision complex floating-point strided array elements using an improved Kahan–Babuška algorithm.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns sum
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.zsumkbn( x.length, x, 1 );
+	* // returns <Complex128>[ 3.0, 1.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 2.0, 3.0 ] );
+	*
+	* var v = ns.zsumkbn.ndarray( x.length, x, 1, 0 );
+	* // returns <Complex128>[ 3.0, 1.0 ]
+	*/
+	zsumkbn: typeof zsumkbn;
+
+	/**
+	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
+	*
+	* @param N - number of indexed elements
+	* @param start - starting value
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zunitspace( x.length, new Complex128( 3.0, 0.0 ), x, 1 );
+	* // x => <Complex128Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zunitspace.ndarray( x.length, new Complex128( 3.0, 0.0 ), x, 1, 0 );
+	* // x => <Complex128Array>[ 3.0, 0.0, 4.0, 0.0, 5.0, 0.0, 6.0, 0.0 ]
+	*/
+	zunitspace: typeof zunitspace;
+
+	/**
+	* Adds a scalar constant to each element in a double-precision complex floating-point strided array `x` and assigns the results to elements in a double-precision complex floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 5.0, 3.0 );
+	*
+	* ns.zwapx( x.length, alpha, x, 1, w, 1 );
+	* // w => <Complex128Array>[ 6.0, 5.0, 8.0, 7.0, 10.0, 9.0, 12.0, 11.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 5.0, 3.0 );
+	*
+	* ns.zwapx.ndarray( x.length, alpha, x, 1, 0, w, 1, 0 );
+	* // w => <Complex128Array>[ 6.0, 5.0, 8.0, 7.0, 10.0, 9.0, 12.0, 11.0 ]
+	*/
+	zwapx: typeof zwapx;
+
+	/**
+	* Multiplies each element in a double-precision complex floating-point strided array `x` by a scalar constant and assigns the results to elements in a double-precision complex floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 5.0, 3.0 );
+	*
+	* ns.zwax( x.length, alpha, x, 1, w, 1 );
+	* // w => <Complex128Array>[ -1.0, 13.0, 3.0, 29.0, 7.0, 45.0, 11.0, 61.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 5.0, 3.0 );
+	*
+	* ns.zwax.ndarray( x.length, alpha, x, 1, 0, w, 1, 0 );
+	* // w => <Complex128Array>[ -1.0, 13.0, 3.0, 29.0, 7.0, 45.0, 11.0, 61.0 ]
+	*/
+	zwax: typeof zwax;
+
+	/**
+	* Takes elements from one of two double-precision complex floating-point strided arrays depending on a condition.
+	*
+	* @param N - number of indexed elements
+	* @param condition - condition array
+	* @param strideC - stride length for `condition`
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @param out - output array
+	* @param strideOut - stride length for `out`
+	* @returns output array
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex128Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex128Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zwhere( 3, condition, 1, x, 1, y, 1, out, 1 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*
+	* @example
+	* var BooleanArray = require( '@stdlib/array/bool' );
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var condition = new BooleanArray( [ true, false, true ] );
+	* var x = new Complex128Array( [ 1.0, -1.0, 2.0, -2.0, 3.0, -3.0 ] );
+	* var y = new Complex128Array( [ 4.0, -4.0, 5.0, -5.0, 6.0, -6.0 ] );
+	* var out = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zwhere.ndarray( 3, condition, 1, 0, x, 1, 0, y, 1, 0, out, 1, 0 );
+	* // out => <Complex128Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
+	*/
+	zwhere: typeof zwhere;
+
+	/**
+	* Subtracts a scalar constant from each element in a double-precision complex floating-point strided array `x` and assigns the results to elements in a double-precision complex floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns `w`
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 5.0, 3.0 );
+	*
+	* ns.zwxsa( x.length, alpha, x, 1, w, 1 );
+	* // w => <Complex128Array>[ -4.0, -1.0, -2.0, 1.0, 0.0, 3.0, 2.0, 5.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var w = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = new Complex128( 5.0, 3.0 );
+	*
+	* ns.zwxsa.ndarray( x.length, alpha, x, 1, 0, w, 1, 0 );
+	* // w => <Complex128Array>[ -4.0, -1.0, -2.0, 1.0, 0.0, 3.0, 2.0, 5.0 ]
+	*/
+	zwxsa: typeof zwxsa;
+
+	/**
+	* Multiplies elements of a double-precision complex floating-point strided array `x` by the corresponding elements of a double-precision complex floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.zxmy( x.length, x, 1, y, 1 );
+	* // y => <Complex128Array>[ -4.0, 7.0, -8.0, 31.0, -12.0, 71.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.zxmy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Complex128Array>[ -4.0, 7.0, -8.0, 31.0, -12.0, 71.0 ]
+	*/
+	zxmy: typeof zxmy;
+
+	/**
+	* Adds elements of a double-precision complex floating-point strided array `x` to the corresponding elements of a double-precision complex floating-point strided array `y` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.zxpy( x.length, x, 1, y, 1 );
+	* // y => <Complex128Array>[ 3.0, 5.0, 7.0, 9.0, 11.0, 13.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	*
+	* ns.zxpy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Complex128Array>[ 3.0, 5.0, 7.0, 9.0, 11.0, 13.0 ]
+	*/
+	zxpy: typeof zxpy;
+
+	/**
+	* Subtracts a scalar constant from each element in a double-precision complex floating-point strided array.
+	*
+	* @param N - number of indexed elements
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex128( 10.0, 10.0 );
+	*
+	* ns.zxsa( x.length, alpha, x, 1 );
+	* // x => <Complex128Array>[ -9.0, -8.0, -7.0, -6.0, -5.0, -4.0, -3.0, -2.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	*
+	* var alpha = new Complex128( 10.0, 10.0 );
+	*
+	* ns.zxsa.ndarray( x.length, alpha, x, 1, 0 );
+	* // x => <Complex128Array>[ -9.0, -8.0, -7.0, -6.0, -5.0, -4.0, -3.0, -2.0 ]
+	*/
+	zxsa: typeof zxsa;
+
+	/**
+	* Subtracts elements of a double-precision complex floating-point strided array `y` from the corresponding elements of a double-precision complex floating-point strided array `x` and assigns the results to `y`.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - `x` stride length
+	* @param y - output array
+	* @param strideY - `y` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 3.0, 4.0, -5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, -4.0, 5.0, 6.0, -7.0 ] );
+	*
+	* ns.zxsy( x.length, x, 1, y, 1 );
+	* // y => <Complex128Array>[ -1.0, -5.0, 7.0, -1.0, -11.0, 13.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, -2.0, 3.0, 4.0, -5.0, 6.0 ] );
+	* var y = new Complex128Array( [ 2.0, 3.0, -4.0, 5.0, 6.0, -7.0 ] );
+	*
+	* ns.zxsy.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // y => <Complex128Array>[ -1.0, -5.0, 7.0, -1.0, -11.0, 13.0 ]
+	*/
+	zxsy: typeof zxsy;
+
+	/**
+	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from zero.
+	*
+	* @param N - number of indexed elements
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zzeroTo( x.length, x, 1 );
+	* // x => <Complex128Array>[ 0.0, 0.0, 1.0, 0.0, 2.0, 0.0, 3.0, 0.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.zzeroTo.ndarray( x.length, x, 1, 0 );
+	* // x => <Complex128Array>[ 0.0, 0.0, 1.0, 0.0, 2.0, 0.0, 3.0, 0.0 ]
+	*/
+	zzeroTo: typeof zzeroTo;
+}
+
+/**
+* Extended base (i.e., lower-level) basic linear algebra subroutines (BLAS).
+*/
+declare var ns: Namespace;
+
+
+// EXPORTS //
+
+export = ns;
