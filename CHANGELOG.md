@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568)
 -   [`f8a04bc`](https://github.com/stdlib-js/stdlib/commit/f8a04bc6e2f3a3a18585c186eedcf2d6064c0346) - add `blas/ext/base/zxdy` [(#13564)](https://github.com/stdlib-js/stdlib/pull/13564)
 -   [`723ec8d`](https://github.com/stdlib-js/stdlib/commit/723ec8daf3c95013b5d4dcbb2ec77ee4d1b44886) - add `blas/asum` [(#13586)](https://github.com/stdlib-js/stdlib/pull/13586)
 -   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
@@ -339,6 +340,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - **feat:** add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568) _(by Karan Anand)_
 -   [`f8a04bc`](https://github.com/stdlib-js/stdlib/commit/f8a04bc6e2f3a3a18585c186eedcf2d6064c0346) - **feat:** add `blas/ext/base/zxdy` [(#13564)](https://github.com/stdlib-js/stdlib/pull/13564) _(by Karan Anand, Athan Reines)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
 -   [`723ec8d`](https://github.com/stdlib-js/stdlib/commit/723ec8daf3c95013b5d4dcbb2ec77ee4d1b44886) - **feat:** add `blas/asum` [(#13586)](https://github.com/stdlib-js/stdlib/pull/13586) _(by Kaustubh Patange, Athan Reines)_
