@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`723ec8d`](https://github.com/stdlib-js/stdlib/commit/723ec8daf3c95013b5d4dcbb2ec77ee4d1b44886) - add `blas/asum` [(#13586)](https://github.com/stdlib-js/stdlib/pull/13586)
 -   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
 -   [`bb73694`](https://github.com/stdlib-js/stdlib/commit/bb73694c5843ef47dcd9887d287e7677887c3c4f) - update `blas/ext/base` TypeScript declarations [(#13573)](https://github.com/stdlib-js/stdlib/pull/13573)
 -   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572)
@@ -337,6 +338,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`723ec8d`](https://github.com/stdlib-js/stdlib/commit/723ec8daf3c95013b5d4dcbb2ec77ee4d1b44886) - **feat:** add `blas/asum` [(#13586)](https://github.com/stdlib-js/stdlib/pull/13586) _(by Kaustubh Patange, Athan Reines)_
 -   [`92d0c62`](https://github.com/stdlib-js/stdlib/commit/92d0c62dc0af306526711042b1d0e2f5abf77309) - **chore:** remove unused directive _(by Athan Reines)_
 -   [`b772009`](https://github.com/stdlib-js/stdlib/commit/b7720097291937d41fbac5611b0e310210965a87) - **chore:** clean-up [(#13584)](https://github.com/stdlib-js/stdlib/pull/13584) _(by Philipp Burckhardt)_
 -   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
