@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
+-   [`bb73694`](https://github.com/stdlib-js/stdlib/commit/bb73694c5843ef47dcd9887d287e7677887c3c4f) - update `blas/ext/base` TypeScript declarations [(#13573)](https://github.com/stdlib-js/stdlib/pull/13573)
+-   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572)
 -   [`5253dd3`](https://github.com/stdlib-js/stdlib/commit/5253dd34980a7b23e79887a22ea6fb6095e241db) - add `dfirstIndexLessThan` and `sfirstIndexLessThan` to namespace
 -   [`e439671`](https://github.com/stdlib-js/stdlib/commit/e439671e3de89a9a62dac84085d1772d839d1352) - add `blas/ext/base/sfirst-index-less-than` [(#13553)](https://github.com/stdlib-js/stdlib/pull/13553)
 -   [`bd18166`](https://github.com/stdlib-js/stdlib/commit/bd18166d11bb75ec32df83c18d7c52828c1cf6e1) - add `blas/ext/base/dfirst-index-less-than` [(#13361)](https://github.com/stdlib-js/stdlib/pull/13361)
@@ -334,6 +337,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571) _(by stdlib-bot)_
+-   [`bb73694`](https://github.com/stdlib-js/stdlib/commit/bb73694c5843ef47dcd9887d287e7677887c3c4f) - **feat:** update `blas/ext/base` TypeScript declarations [(#13573)](https://github.com/stdlib-js/stdlib/pull/13573) _(by stdlib-bot)_
+-   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572) _(by stdlib-bot)_
 -   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
 -   [`5253dd3`](https://github.com/stdlib-js/stdlib/commit/5253dd34980a7b23e79887a22ea6fb6095e241db) - **feat:** add `dfirstIndexLessThan` and `sfirstIndexLessThan` to namespace _(by Athan Reines)_
 -   [`e439671`](https://github.com/stdlib-js/stdlib/commit/e439671e3de89a9a62dac84085d1772d839d1352) - **feat:** add `blas/ext/base/sfirst-index-less-than` [(#13553)](https://github.com/stdlib-js/stdlib/pull/13553) _(by Muhammad Haris, Athan Reines)_
