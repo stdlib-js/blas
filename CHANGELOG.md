@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571)
 -   [`bb73694`](https://github.com/stdlib-js/stdlib/commit/bb73694c5843ef47dcd9887d287e7677887c3c4f) - update `blas/ext/base` TypeScript declarations [(#13573)](https://github.com/stdlib-js/stdlib/pull/13573)
 -   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572)
 -   [`5253dd3`](https://github.com/stdlib-js/stdlib/commit/5253dd34980a7b23e79887a22ea6fb6095e241db) - add `dfirstIndexLessThan` and `sfirstIndexLessThan` to namespace
@@ -336,6 +337,9 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`6c38993`](https://github.com/stdlib-js/stdlib/commit/6c38993a7eabe55b575ff98f2b997eb31a146eef) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`7dddb68`](https://github.com/stdlib-js/stdlib/commit/7dddb68aed206e1d6771524c9abbe7d143b5a0c0) - **feat:** update `blas/base/ndarray` TypeScript declarations [(#13571)](https://github.com/stdlib-js/stdlib/pull/13571) _(by stdlib-bot)_
 -   [`bb73694`](https://github.com/stdlib-js/stdlib/commit/bb73694c5843ef47dcd9887d287e7677887c3c4f) - **feat:** update `blas/ext/base` TypeScript declarations [(#13573)](https://github.com/stdlib-js/stdlib/pull/13573) _(by stdlib-bot)_
 -   [`3450f46`](https://github.com/stdlib-js/stdlib/commit/3450f464c9e33b8092962c1964043105fa900132) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13572)](https://github.com/stdlib-js/stdlib/pull/13572) _(by stdlib-bot)_
 -   [`90b59bc`](https://github.com/stdlib-js/stdlib/commit/90b59bc772f94cd29af6854a219dd77a8197b78d) - **docs:** update namespace table of contents [(#13575)](https://github.com/stdlib-js/stdlib/pull/13575) _(by stdlib-bot)_
