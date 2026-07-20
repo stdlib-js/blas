@@ -337,6 +337,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`92d0c62`](https://github.com/stdlib-js/stdlib/commit/92d0c62dc0af306526711042b1d0e2f5abf77309) - **chore:** remove unused directive _(by Athan Reines)_
 -   [`b772009`](https://github.com/stdlib-js/stdlib/commit/b7720097291937d41fbac5611b0e310210965a87) - **chore:** clean-up [(#13584)](https://github.com/stdlib-js/stdlib/pull/13584) _(by Philipp Burckhardt)_
 -   [`f25221d`](https://github.com/stdlib-js/stdlib/commit/f25221d5fcb5e84cb0ad4951db6f08f254c12d15) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`6c38993`](https://github.com/stdlib-js/stdlib/commit/6c38993a7eabe55b575ff98f2b997eb31a146eef) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
