@@ -344,6 +344,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`3f8fe7f`](https://github.com/stdlib-js/stdlib/commit/3f8fe7fe0c3783141a6bc80690ab78497591323f) - **docs:** update namespace table of contents [(#13591)](https://github.com/stdlib-js/stdlib/pull/13591) _(by stdlib-bot)_
 -   [`d9b16f6`](https://github.com/stdlib-js/stdlib/commit/d9b16f69910ff6048bec290da2422b358d2db110) - **feat:** add `nrm2` to namespace _(by Athan Reines)_
 -   [`d278638`](https://github.com/stdlib-js/stdlib/commit/d2786385748decfb0d14d7d0178e85ce2b89c261) - **feat:** add `asum` to namespace _(by Athan Reines)_
 -   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - **feat:** add `zxdy` to namespace _(by Athan Reines)_

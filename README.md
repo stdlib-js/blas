@@ -78,12 +78,14 @@ The namespace contains the following:
 
 <div class="namespace-toc">
 
+-   <span class="signature">[`asum( x[, options] )`][@stdlib/blas/asum]</span><span class="delimiter">: </span><span class="description">compute the sum of absolute values (L1 norm) along one or more ndarray dimensions.</span>
 -   <span class="signature">[`base`][@stdlib/blas/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) basic linear algebra subprograms (BLAS).</span>
 -   <span class="signature">[`ddot( x, y[, dim] )`][@stdlib/blas/ddot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two double-precision floating-point vectors.</span>
 -   <span class="signature">[`dswap( x, y[, dim] )`][@stdlib/blas/dswap]</span><span class="delimiter">: </span><span class="description">interchange two double-precision floating-point vectors.</span>
 -   <span class="signature">[`ext`][@stdlib/blas/ext]</span><span class="delimiter">: </span><span class="description">extended basic linear algebra subprograms (BLAS).</span>
 -   <span class="signature">[`gdot( x, y )`][@stdlib/blas/gdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two vectors.</span>
 -   <span class="signature">[`gswap( x, y )`][@stdlib/blas/gswap]</span><span class="delimiter">: </span><span class="description">interchange two vectors.</span>
+-   <span class="signature">[`nrm2( x[, options] )`][@stdlib/blas/nrm2]</span><span class="delimiter">: </span><span class="description">compute the L2-norm along one or more ndarray dimensions.</span>
 -   <span class="signature">[`sdot( x, y[, dim] )`][@stdlib/blas/sdot]</span><span class="delimiter">: </span><span class="description">calculate the dot product of two single-precision floating-point vectors.</span>
 -   <span class="signature">[`sswap( x, y[, dim] )`][@stdlib/blas/sswap]</span><span class="delimiter">: </span><span class="description">interchange two single-precision floating-point vectors.</span>
 
@@ -196,6 +198,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
+[@stdlib/blas/asum]: https://github.com/stdlib-js/blas/tree/main/asum
+
 [@stdlib/blas/base]: https://github.com/stdlib-js/blas/tree/main/base
 
 [@stdlib/blas/ddot]: https://github.com/stdlib-js/blas/tree/main/ddot
@@ -207,6 +211,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/blas/gdot]: https://github.com/stdlib-js/blas/tree/main/gdot
 
 [@stdlib/blas/gswap]: https://github.com/stdlib-js/blas/tree/main/gswap
+
+[@stdlib/blas/nrm2]: https://github.com/stdlib-js/blas/tree/main/nrm2
 
 [@stdlib/blas/sdot]: https://github.com/stdlib-js/blas/tree/main/sdot
 
