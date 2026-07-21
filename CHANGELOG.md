@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`ec3bab7`](https://github.com/stdlib-js/stdlib/commit/ec3bab7f7420283da371dc2de2bb70a5960e844c) - update `blas` TypeScript declarations [(#13590)](https://github.com/stdlib-js/stdlib/pull/13590)
 -   [`cd11115`](https://github.com/stdlib-js/stdlib/commit/cd111158dfb4d6c60848678bafb80e02d31d5757) - update `blas/ext/base` TypeScript declarations [(#13589)](https://github.com/stdlib-js/stdlib/pull/13589)
 -   [`b1e5869`](https://github.com/stdlib-js/stdlib/commit/b1e58694eb92fa9db04ae7b584e3ad2b3a6d1fa0) - update `blas/ext/base/ndarray` TypeScript declarations [(#13588)](https://github.com/stdlib-js/stdlib/pull/13588)
 -   [`d9b16f6`](https://github.com/stdlib-js/stdlib/commit/d9b16f69910ff6048bec290da2422b358d2db110) - add `nrm2` to namespace
@@ -347,7 +346,6 @@ A total of 3 issues were closed in this release:
 
 <details>
 
--   [`ec3bab7`](https://github.com/stdlib-js/stdlib/commit/ec3bab7f7420283da371dc2de2bb70a5960e844c) - **feat:** update `blas` TypeScript declarations [(#13590)](https://github.com/stdlib-js/stdlib/pull/13590) _(by stdlib-bot)_
 -   [`cd11115`](https://github.com/stdlib-js/stdlib/commit/cd111158dfb4d6c60848678bafb80e02d31d5757) - **feat:** update `blas/ext/base` TypeScript declarations [(#13589)](https://github.com/stdlib-js/stdlib/pull/13589) _(by stdlib-bot)_
 -   [`b1e5869`](https://github.com/stdlib-js/stdlib/commit/b1e58694eb92fa9db04ae7b584e3ad2b3a6d1fa0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13588)](https://github.com/stdlib-js/stdlib/pull/13588) _(by stdlib-bot)_
 -   [`3f8fe7f`](https://github.com/stdlib-js/stdlib/commit/3f8fe7fe0c3783141a6bc80690ab78497591323f) - **docs:** update namespace table of contents [(#13591)](https://github.com/stdlib-js/stdlib/pull/13591) _(by stdlib-bot)_

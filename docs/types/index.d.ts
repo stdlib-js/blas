@@ -20,14 +20,12 @@
 
 /* eslint-disable max-lines */
 
-import asum = require( './../../asum' );
 import base = require( './../../base' );
 import ddot = require( './../../ddot' );
 import dswap = require( './../../dswap' );
 import ext = require( './../../ext' );
 import gdot = require( './../../gdot' );
 import gswap = require( './../../gswap' );
-import nrm2 = require( './../../nrm2' );
 import sdot = require( './../../sdot' );
 import sswap = require( './../../sswap' );
 
@@ -35,36 +33,6 @@ import sswap = require( './../../sswap' );
 * Interface describing the `blas` namespace.
 */
 interface Namespace {
-	/**
-	* Computes the sum of absolute values (L1 norm) along one or more ndarray dimensions.
-	*
-	* @param x - input ndarray
-	* @param options - function options
-	* @returns output ndarray
-	*
-	* @example
-	* var array = require( '@stdlib/ndarray/array' );
-	*
-	* var x = array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var y = ns.asum( x );
-	* // returns <ndarray>[ 5.0 ]
-	*
-	* @example
-	* var array = require( '@stdlib/ndarray/array' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	*
-	* var x = array( [ 1.0, -2.0, 2.0 ] );
-	* var y = zeros( [] );
-	*
-	* var out = ns.asum.assign( x, y );
-	* // returns <ndarray>[ 5.0 ]
-	*
-	* var bool = ( out === y );
-	* // returns true
-	*/
-	asum: typeof asum;
-
 	/**
 	* Base (i.e., lower-level) basic linear algebra subprograms (BLAS).
 	*/
@@ -189,36 +157,6 @@ interface Namespace {
 	* // y => [ 4.0, 2.0, -3.0, 5.0, -1.0 ]
 	*/
 	gswap: typeof gswap;
-
-	/**
-	* Computes the L2-norm along one or more ndarray dimensions.
-	*
-	* @param x - input ndarray
-	* @param options - function options
-	* @returns output ndarray
-	*
-	* @example
-	* var array = require( '@stdlib/ndarray/array' );
-	*
-	* var x = array( [ 1.0, -2.0, 2.0 ] );
-	*
-	* var y = ns.nrm2( x );
-	* // returns <ndarray>[ 3.0 ]
-	*
-	* @example
-	* var array = require( '@stdlib/ndarray/array' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	*
-	* var x = array( [ 1.0, -2.0, 2.0 ] );
-	* var y = zeros( [] );
-	*
-	* var out = ns.nrm2.assign( x, y );
-	* // returns <ndarray>[ 3.0 ]
-	*
-	* var bool = ( out === y );
-	* // returns true
-	*/
-	nrm2: typeof nrm2;
 
 	/**
 	* Computes the dot product of two single-precision floating-point vectors.
