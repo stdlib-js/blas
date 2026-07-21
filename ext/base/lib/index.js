@@ -3036,6 +3036,15 @@ setReadOnly( ns, 'zwhere', require( './../../../ext/base/zwhere' ) );
 setReadOnly( ns, 'zwxsa', require( './../../../ext/base/zwxsa' ) );
 
 /**
+* @name zxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zxdy}
+*/
+setReadOnly( ns, 'zxdy', require( './../../../ext/base/zxdy' ) );
+
+/**
 * @name zxmy
 * @memberof ns
 * @readonly

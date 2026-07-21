@@ -4,12 +4,16 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-20)
+## Unreleased (2026-07-21)
 
 <section class="features">
 
 ### Features
 
+-   [`d9b16f6`](https://github.com/stdlib-js/stdlib/commit/d9b16f69910ff6048bec290da2422b358d2db110) - add `nrm2` to namespace
+-   [`d278638`](https://github.com/stdlib-js/stdlib/commit/d2786385748decfb0d14d7d0178e85ce2b89c261) - add `asum` to namespace
+-   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - add `zxdy` to namespace
+-   [`a98bbff`](https://github.com/stdlib-js/stdlib/commit/a98bbffab2e4b66c07d9e4a545528b6aa8c88446) - add `zxdy` to namespace
 -   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568)
 -   [`f8a04bc`](https://github.com/stdlib-js/stdlib/commit/f8a04bc6e2f3a3a18585c186eedcf2d6064c0346) - add `blas/ext/base/zxdy` [(#13564)](https://github.com/stdlib-js/stdlib/pull/13564)
 -   [`723ec8d`](https://github.com/stdlib-js/stdlib/commit/723ec8daf3c95013b5d4dcbb2ec77ee4d1b44886) - add `blas/asum` [(#13586)](https://github.com/stdlib-js/stdlib/pull/13586)
@@ -340,6 +344,10 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`d9b16f6`](https://github.com/stdlib-js/stdlib/commit/d9b16f69910ff6048bec290da2422b358d2db110) - **feat:** add `nrm2` to namespace _(by Athan Reines)_
+-   [`d278638`](https://github.com/stdlib-js/stdlib/commit/d2786385748decfb0d14d7d0178e85ce2b89c261) - **feat:** add `asum` to namespace _(by Athan Reines)_
+-   [`9a1c7c1`](https://github.com/stdlib-js/stdlib/commit/9a1c7c1fb370e0fab0a7b560a64240682b507186) - **feat:** add `zxdy` to namespace _(by Athan Reines)_
+-   [`a98bbff`](https://github.com/stdlib-js/stdlib/commit/a98bbffab2e4b66c07d9e4a545528b6aa8c88446) - **feat:** add `zxdy` to namespace _(by Athan Reines)_
 -   [`7dd59f5`](https://github.com/stdlib-js/stdlib/commit/7dd59f5645376fd714344cf7967837491775d4c2) - **feat:** add `blas/ext/base/ndarray/zxdy` [(#13568)](https://github.com/stdlib-js/stdlib/pull/13568) _(by Karan Anand)_
 -   [`f8a04bc`](https://github.com/stdlib-js/stdlib/commit/f8a04bc6e2f3a3a18585c186eedcf2d6064c0346) - **feat:** add `blas/ext/base/zxdy` [(#13564)](https://github.com/stdlib-js/stdlib/pull/13564) _(by Karan Anand, Athan Reines)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_

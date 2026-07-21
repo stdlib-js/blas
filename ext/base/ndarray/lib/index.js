@@ -1207,6 +1207,15 @@ setReadOnly( ns, 'zsumkbn', require( './../../../../ext/base/ndarray/zsumkbn' ) 
 setReadOnly( ns, 'zunitspace', require( './../../../../ext/base/ndarray/zunitspace' ) );
 
 /**
+* @name zxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zxdy}
+*/
+setReadOnly( ns, 'zxdy', require( './../../../../ext/base/ndarray/zxdy' ) );
+
+/**
 * @name zxmy
 * @memberof ns
 * @readonly
