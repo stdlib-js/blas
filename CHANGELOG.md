@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ef9df8b`](https://github.com/stdlib-js/stdlib/commit/ef9df8bc3581c73332209cc3a52cd0ad8cbedbec) - add `blas/ext/base/ndarray/dfirst-index-less-than` [(#13597)](https://github.com/stdlib-js/stdlib/pull/13597)
 -   [`bc7c322`](https://github.com/stdlib-js/stdlib/commit/bc7c322891b1c0b758e6aef323b2f22a3bab1500) - add `blas/ext/base/ndarray/gfirst-index-less-than` [(#13596)](https://github.com/stdlib-js/stdlib/pull/13596)
 -   [`ec3bab7`](https://github.com/stdlib-js/stdlib/commit/ec3bab7f7420283da371dc2de2bb70a5960e844c) - update `blas` TypeScript declarations [(#13590)](https://github.com/stdlib-js/stdlib/pull/13590)
 -   [`cd11115`](https://github.com/stdlib-js/stdlib/commit/cd111158dfb4d6c60848678bafb80e02d31d5757) - update `blas/ext/base` TypeScript declarations [(#13589)](https://github.com/stdlib-js/stdlib/pull/13589)
@@ -348,6 +349,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`ef9df8b`](https://github.com/stdlib-js/stdlib/commit/ef9df8bc3581c73332209cc3a52cd0ad8cbedbec) - **feat:** add `blas/ext/base/ndarray/dfirst-index-less-than` [(#13597)](https://github.com/stdlib-js/stdlib/pull/13597) _(by Muhammad Haris, Athan Reines)_
 -   [`bc7c322`](https://github.com/stdlib-js/stdlib/commit/bc7c322891b1c0b758e6aef323b2f22a3bab1500) - **feat:** add `blas/ext/base/ndarray/gfirst-index-less-than` [(#13596)](https://github.com/stdlib-js/stdlib/pull/13596) _(by Muhammad Haris, Athan Reines)_
 -   [`5791dde`](https://github.com/stdlib-js/stdlib/commit/5791dde65a21b17fe40c7650a314c28922f1d62c) - **docs:** fix examples and descriptions [(#13601)](https://github.com/stdlib-js/stdlib/pull/13601) _(by Philipp Burckhardt)_
 -   [`92c748d`](https://github.com/stdlib-js/stdlib/commit/92c748dac8ce3ad80070d5999c579a176348ea02) - **chore:** clean-up [(#13603)](https://github.com/stdlib-js/stdlib/pull/13603) _(by Philipp Burckhardt)_
