@@ -347,6 +347,7 @@ A total of 3 issues were closed in this release:
 
 <details>
 
+-   [`92c748d`](https://github.com/stdlib-js/stdlib/commit/92c748dac8ce3ad80070d5999c579a176348ea02) - **chore:** clean-up [(#13603)](https://github.com/stdlib-js/stdlib/pull/13603) _(by Philipp Burckhardt)_
 -   [`4a0c3be`](https://github.com/stdlib-js/stdlib/commit/4a0c3be4719f713b69a8ff6b66cc3b0573bf4444) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`f748b45`](https://github.com/stdlib-js/stdlib/commit/f748b45d1e3b17e3ccbd096268bf186fdeaee5ab) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`ec3bab7`](https://github.com/stdlib-js/stdlib/commit/ec3bab7f7420283da371dc2de2bb70a5960e844c) - **feat:** update `blas` TypeScript declarations [(#13590)](https://github.com/stdlib-js/stdlib/pull/13590) _(by stdlib-bot)_
