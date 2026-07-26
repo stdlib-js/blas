@@ -352,6 +352,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`8df3c50`](https://github.com/stdlib-js/stdlib/commit/8df3c505604130c2c0cdf20814d2126c9ef58e69) - **docs:** fix parameter descriptions and update spacing [(#13671)](https://github.com/stdlib-js/stdlib/pull/13671) _(by Philipp Burckhardt)_
 -   [`a7865fd`](https://github.com/stdlib-js/stdlib/commit/a7865fdde1c2ce33df770d2a987dc1775ee5690e) - **feat:** add `blas/ext/base/zcartesian-square` [(#11830)](https://github.com/stdlib-js/stdlib/pull/11830) _(by Muhammad Haris, Athan Reines)_
 -   [`651f410`](https://github.com/stdlib-js/stdlib/commit/651f4109889b710391c1044daf4eacd9a3df339c) - **feat:** add `blas/ext/base/gtriu` [(#13580)](https://github.com/stdlib-js/stdlib/pull/13580) _(by Kaustubh Patange, Athan Reines)_
 -   [`fe25a4b`](https://github.com/stdlib-js/stdlib/commit/fe25a4b46be84e652ad9d48b2937463a10336fda) - **feat:** add `blas/ext/base/ndarray/dindex-of-not-equal` [(#13559)](https://github.com/stdlib-js/stdlib/pull/13559) _(by Muhammad Haris, Athan Reines)_
