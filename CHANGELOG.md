@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a7865fd`](https://github.com/stdlib-js/stdlib/commit/a7865fdde1c2ce33df770d2a987dc1775ee5690e) - add `blas/ext/base/zcartesian-square` [(#11830)](https://github.com/stdlib-js/stdlib/pull/11830)
 -   [`651f410`](https://github.com/stdlib-js/stdlib/commit/651f4109889b710391c1044daf4eacd9a3df339c) - add `blas/ext/base/gtriu` [(#13580)](https://github.com/stdlib-js/stdlib/pull/13580)
 -   [`fe25a4b`](https://github.com/stdlib-js/stdlib/commit/fe25a4b46be84e652ad9d48b2937463a10336fda) - add `blas/ext/base/ndarray/dindex-of-not-equal` [(#13559)](https://github.com/stdlib-js/stdlib/pull/13559)
 -   [`ef9df8b`](https://github.com/stdlib-js/stdlib/commit/ef9df8bc3581c73332209cc3a52cd0ad8cbedbec) - add `blas/ext/base/ndarray/dfirst-index-less-than` [(#13597)](https://github.com/stdlib-js/stdlib/pull/13597)
@@ -351,6 +352,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`a7865fd`](https://github.com/stdlib-js/stdlib/commit/a7865fdde1c2ce33df770d2a987dc1775ee5690e) - **feat:** add `blas/ext/base/zcartesian-square` [(#11830)](https://github.com/stdlib-js/stdlib/pull/11830) _(by Muhammad Haris, Athan Reines)_
 -   [`651f410`](https://github.com/stdlib-js/stdlib/commit/651f4109889b710391c1044daf4eacd9a3df339c) - **feat:** add `blas/ext/base/gtriu` [(#13580)](https://github.com/stdlib-js/stdlib/pull/13580) _(by Kaustubh Patange, Athan Reines)_
 -   [`fe25a4b`](https://github.com/stdlib-js/stdlib/commit/fe25a4b46be84e652ad9d48b2937463a10336fda) - **feat:** add `blas/ext/base/ndarray/dindex-of-not-equal` [(#13559)](https://github.com/stdlib-js/stdlib/pull/13559) _(by Muhammad Haris, Athan Reines)_
 -   [`ef9df8b`](https://github.com/stdlib-js/stdlib/commit/ef9df8bc3581c73332209cc3a52cd0ad8cbedbec) - **feat:** add `blas/ext/base/ndarray/dfirst-index-less-than` [(#13597)](https://github.com/stdlib-js/stdlib/pull/13597) _(by Muhammad Haris, Athan Reines)_
