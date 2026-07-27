@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`5144a03`](https://github.com/stdlib-js/stdlib/commit/5144a037ca5d32b670f754572d0a71ab815eee90) - add `blas/ext/base/ndarray/swxsa` [(#13678)](https://github.com/stdlib-js/stdlib/pull/13678)
+-   [`7caa263`](https://github.com/stdlib-js/stdlib/commit/7caa263a0cf5f22a14a58c0503a1dfd3c231872d) - add `blas/ext/base/ndarray/dwxsa` [(#13679)](https://github.com/stdlib-js/stdlib/pull/13679)
 -   [`97052d6`](https://github.com/stdlib-js/stdlib/commit/97052d665119ff2881f29310a8059646015163b4) - add `blas/ext/base/ndarray/gwxsa` [(#13680)](https://github.com/stdlib-js/stdlib/pull/13680)
 -   [`c19010a`](https://github.com/stdlib-js/stdlib/commit/c19010a5833c251b63a3cf6f7a92f51e3d4bafaf) - add `blas/ext/base/zcartesian-product` [(#12646)](https://github.com/stdlib-js/stdlib/pull/12646)
 -   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace
@@ -356,6 +358,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`5144a03`](https://github.com/stdlib-js/stdlib/commit/5144a037ca5d32b670f754572d0a71ab815eee90) - **feat:** add `blas/ext/base/ndarray/swxsa` [(#13678)](https://github.com/stdlib-js/stdlib/pull/13678) _(by Karan Anand, Athan Reines)_
+-   [`7caa263`](https://github.com/stdlib-js/stdlib/commit/7caa263a0cf5f22a14a58c0503a1dfd3c231872d) - **feat:** add `blas/ext/base/ndarray/dwxsa` [(#13679)](https://github.com/stdlib-js/stdlib/pull/13679) _(by Karan Anand, Athan Reines)_
 -   [`97052d6`](https://github.com/stdlib-js/stdlib/commit/97052d665119ff2881f29310a8059646015163b4) - **feat:** add `blas/ext/base/ndarray/gwxsa` [(#13680)](https://github.com/stdlib-js/stdlib/pull/13680) _(by Karan Anand, Athan Reines)_
 -   [`c19010a`](https://github.com/stdlib-js/stdlib/commit/c19010a5833c251b63a3cf6f7a92f51e3d4bafaf) - **feat:** add `blas/ext/base/zcartesian-product` [(#12646)](https://github.com/stdlib-js/stdlib/pull/12646) _(by Muhammad Haris, Athan Reines)_
 -   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - **feat:** add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace _(by Athan Reines)_
