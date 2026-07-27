@@ -1920,6 +1920,15 @@ setReadOnly( ns, 'gsumors', require( './../../../ext/base/gsumors' ) );
 setReadOnly( ns, 'gsumpw', require( './../../../ext/base/gsumpw' ) );
 
 /**
+* @name gtriu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gtriu}
+*/
+setReadOnly( ns, 'gtriu', require( './../../../ext/base/gtriu' ) );
+
+/**
 * @name gunitspace
 * @memberof ns
 * @readonly
@@ -2881,6 +2890,15 @@ setReadOnly( ns, 'zaxpb', require( './../../../ext/base/zaxpb' ) );
 * @see {@link module:@stdlib/blas/ext/base/zaxpby}
 */
 setReadOnly( ns, 'zaxpby', require( './../../../ext/base/zaxpby' ) );
+
+/**
+* @name zcartesianSquare
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zcartesian-square}
+*/
+setReadOnly( ns, 'zcartesianSquare', require( './../../../ext/base/zcartesian-square' ) );
 
 /**
 * @name zdiff

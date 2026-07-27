@@ -253,6 +253,15 @@ setReadOnly( ns, 'dfillEqual', require( './../../../../ext/base/ndarray/dfill-eq
 setReadOnly( ns, 'dfillNotEqual', require( './../../../../ext/base/ndarray/dfill-not-equal' ) );
 
 /**
+* @name dfirstIndexLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dfirst-index-less-than}
+*/
+setReadOnly( ns, 'dfirstIndexLessThan', require( './../../../../ext/base/ndarray/dfirst-index-less-than' ) );
+
+/**
 * @name dindexOf
 * @memberof ns
 * @readonly
@@ -269,6 +278,15 @@ setReadOnly( ns, 'dindexOf', require( './../../../../ext/base/ndarray/dindex-of'
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dindex-of-falsy}
 */
 setReadOnly( ns, 'dindexOfFalsy', require( './../../../../ext/base/ndarray/dindex-of-falsy' ) );
+
+/**
+* @name dindexOfNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dindex-of-not-equal}
+*/
+setReadOnly( ns, 'dindexOfNotEqual', require( './../../../../ext/base/ndarray/dindex-of-not-equal' ) );
 
 /**
 * @name dlastIndexOf
@@ -593,6 +611,15 @@ setReadOnly( ns, 'gfindIndex', require( './../../../../ext/base/ndarray/gfind-in
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gfind-last-index}
 */
 setReadOnly( ns, 'gfindLastIndex', require( './../../../../ext/base/ndarray/gfind-last-index' ) );
+
+/**
+* @name gfirstIndexLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfirst-index-less-than}
+*/
+setReadOnly( ns, 'gfirstIndexLessThan', require( './../../../../ext/base/ndarray/gfirst-index-less-than' ) );
 
 /**
 * @name gindexOf
