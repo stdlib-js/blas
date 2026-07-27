@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682)
 -   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681)
 -   [`42fc0f9`](https://github.com/stdlib-js/stdlib/commit/42fc0f9cc903d2087121db78f9749d3031f514d0) - add `blas/ext/base/gwxmy` [(#13683)](https://github.com/stdlib-js/stdlib/pull/13683)
 -   [`5144a03`](https://github.com/stdlib-js/stdlib/commit/5144a037ca5d32b670f754572d0a71ab815eee90) - add `blas/ext/base/ndarray/swxsa` [(#13678)](https://github.com/stdlib-js/stdlib/pull/13678)
@@ -360,6 +361,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - **feat:** add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682) _(by Karan Anand, Athan Reines)_
 -   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - **feat:** add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681) _(by Karan Anand, Athan Reines)_
 -   [`7d69621`](https://github.com/stdlib-js/stdlib/commit/7d69621f6e719dbe9651cc0e999f055e77c22bc4) - **docs:** add link [(#13684)](https://github.com/stdlib-js/stdlib/pull/13684) _(by Karan Anand)_
 -   [`42fc0f9`](https://github.com/stdlib-js/stdlib/commit/42fc0f9cc903d2087121db78f9749d3031f514d0) - **feat:** add `blas/ext/base/gwxmy` [(#13683)](https://github.com/stdlib-js/stdlib/pull/13683) _(by Karan Anand)_
