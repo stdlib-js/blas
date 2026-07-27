@@ -100,6 +100,15 @@ setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) 
 setReadOnly( ns, 'cunitspace', require( './../../../../ext/base/ndarray/cunitspace' ) );
 
 /**
+* @name cwxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cwxsa}
+*/
+setReadOnly( ns, 'cwxsa', require( './../../../../ext/base/ndarray/cwxsa' ) );
+
+/**
 * @name cxmy
 * @memberof ns
 * @readonly
@@ -449,6 +458,15 @@ setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dunitspace}
 */
 setReadOnly( ns, 'dunitspace', require( './../../../../ext/base/ndarray/dunitspace' ) );
+
+/**
+* @name dwxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dwxsa}
+*/
+setReadOnly( ns, 'dwxsa', require( './../../../../ext/base/ndarray/dwxsa' ) );
 
 /**
 * @name dxdy
@@ -820,6 +838,15 @@ setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
 setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspace' ) );
 
 /**
+* @name gwxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gwxsa}
+*/
+setReadOnly( ns, 'gwxsa', require( './../../../../ext/base/ndarray/gwxsa' ) );
+
+/**
 * @name gxdy
 * @memberof ns
 * @readonly
@@ -1117,6 +1144,15 @@ setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
 setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspace' ) );
 
 /**
+* @name swxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/swxsa}
+*/
+setReadOnly( ns, 'swxsa', require( './../../../../ext/base/ndarray/swxsa' ) );
+
+/**
 * @name sxdy
 * @memberof ns
 * @readonly
@@ -1232,6 +1268,15 @@ setReadOnly( ns, 'zsumkbn', require( './../../../../ext/base/ndarray/zsumkbn' ) 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zunitspace}
 */
 setReadOnly( ns, 'zunitspace', require( './../../../../ext/base/ndarray/zunitspace' ) );
+
+/**
+* @name zwxsa
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zwxsa}
+*/
+setReadOnly( ns, 'zwxsa', require( './../../../../ext/base/ndarray/zwxsa' ) );
 
 /**
 * @name zxdy

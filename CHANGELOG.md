@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - add `gwxmy` and `zcartesianProduct` to namespace
+-   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - add `cwxsa`, `dwxsa`, `gwxsa`, `swsxa`, and `zwxsa` to namespace
 -   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682)
 -   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681)
 -   [`42fc0f9`](https://github.com/stdlib-js/stdlib/commit/42fc0f9cc903d2087121db78f9749d3031f514d0) - add `blas/ext/base/gwxmy` [(#13683)](https://github.com/stdlib-js/stdlib/pull/13683)
@@ -361,6 +363,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - **feat:** add `gwxmy` and `zcartesianProduct` to namespace _(by Athan Reines)_
+-   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - **feat:** add `cwxsa`, `dwxsa`, `gwxsa`, `swsxa`, and `zwxsa` to namespace _(by Athan Reines)_
 -   [`7d094cf`](https://github.com/stdlib-js/stdlib/commit/7d094cf3a0884ea538611332e6355facda825489) - **docs:** add link [(#13685)](https://github.com/stdlib-js/stdlib/pull/13685) _(by Karan Anand)_
 -   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - **feat:** add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682) _(by Karan Anand, Athan Reines)_
 -   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - **feat:** add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681) _(by Karan Anand, Athan Reines)_

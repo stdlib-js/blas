@@ -1983,6 +1983,15 @@ setReadOnly( ns, 'gwaxpb', require( './../../../ext/base/gwaxpb' ) );
 setReadOnly( ns, 'gwhere', require( './../../../ext/base/gwhere' ) );
 
 /**
+* @name gwxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gwxmy}
+*/
+setReadOnly( ns, 'gwxmy', require( './../../../ext/base/gwxmy' ) );
+
+/**
 * @name gwxpy
 * @memberof ns
 * @readonly
@@ -2890,6 +2899,15 @@ setReadOnly( ns, 'zaxpb', require( './../../../ext/base/zaxpb' ) );
 * @see {@link module:@stdlib/blas/ext/base/zaxpby}
 */
 setReadOnly( ns, 'zaxpby', require( './../../../ext/base/zaxpby' ) );
+
+/**
+* @name zcartesianProduct
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zcartesian-product}
+*/
+setReadOnly( ns, 'zcartesianProduct', require( './../../../ext/base/zcartesian-product' ) );
 
 /**
 * @name zcartesianSquare
