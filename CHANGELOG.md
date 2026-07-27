@@ -363,6 +363,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`49960a0`](https://github.com/stdlib-js/stdlib/commit/49960a0f18a9c97ead1862d2aa53432c8085285d) - **chore:** clean-up [(#13695)](https://github.com/stdlib-js/stdlib/pull/13695) _(by Philipp Burckhardt, Athan Reines)_
 -   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - **feat:** add `gwxmy` and `zcartesianProduct` to namespace _(by Athan Reines)_
 -   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - **feat:** add `cwxsa`, `dwxsa`, `gwxsa`, `swsxa`, and `zwxsa` to namespace _(by Athan Reines)_
 -   [`7d094cf`](https://github.com/stdlib-js/stdlib/commit/7d094cf3a0884ea538611332e6355facda825489) - **docs:** add link [(#13685)](https://github.com/stdlib-js/stdlib/pull/13685) _(by Karan Anand)_
