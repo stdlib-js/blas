@@ -361,6 +361,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7d094cf`](https://github.com/stdlib-js/stdlib/commit/7d094cf3a0884ea538611332e6355facda825489) - **docs:** add link [(#13685)](https://github.com/stdlib-js/stdlib/pull/13685) _(by Karan Anand)_
 -   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - **feat:** add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682) _(by Karan Anand, Athan Reines)_
 -   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - **feat:** add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681) _(by Karan Anand, Athan Reines)_
 -   [`7d69621`](https://github.com/stdlib-js/stdlib/commit/7d69621f6e719dbe9651cc0e999f055e77c22bc4) - **docs:** add link [(#13684)](https://github.com/stdlib-js/stdlib/pull/13684) _(by Karan Anand)_
