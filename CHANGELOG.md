@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`c19010a`](https://github.com/stdlib-js/stdlib/commit/c19010a5833c251b63a3cf6f7a92f51e3d4bafaf) - add `blas/ext/base/zcartesian-product` [(#12646)](https://github.com/stdlib-js/stdlib/pull/12646)
 -   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace
 -   [`adcd582`](https://github.com/stdlib-js/stdlib/commit/adcd5827ae001b14378db6c014feb89522f71858) - add `gtriu` and `zcartesianSquare` to namespace
 -   [`a7865fd`](https://github.com/stdlib-js/stdlib/commit/a7865fdde1c2ce33df770d2a987dc1775ee5690e) - add `blas/ext/base/zcartesian-square` [(#11830)](https://github.com/stdlib-js/stdlib/pull/11830)
@@ -355,7 +354,6 @@ A total of 4 issues were closed in this release:
 
 <details>
 
--   [`c19010a`](https://github.com/stdlib-js/stdlib/commit/c19010a5833c251b63a3cf6f7a92f51e3d4bafaf) - **feat:** add `blas/ext/base/zcartesian-product` [(#12646)](https://github.com/stdlib-js/stdlib/pull/12646) _(by Muhammad Haris, Athan Reines)_
 -   [`99657f7`](https://github.com/stdlib-js/stdlib/commit/99657f7dca2210ad0b553421f26258c7b629e0a3) - **feat:** add `dfirstIndexLessThan`, `gfirstIndexLessThan`, `dindexOfNotEqual` to namespace _(by Athan Reines)_
 -   [`adcd582`](https://github.com/stdlib-js/stdlib/commit/adcd5827ae001b14378db6c014feb89522f71858) - **feat:** add `gtriu` and `zcartesianSquare` to namespace _(by Athan Reines)_
 -   [`8df3c50`](https://github.com/stdlib-js/stdlib/commit/8df3c505604130c2c0cdf20814d2126c9ef58e69) - **docs:** fix parameter descriptions and update spacing [(#13671)](https://github.com/stdlib-js/stdlib/pull/13671) _(by Philipp Burckhardt)_
