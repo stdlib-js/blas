@@ -4,14 +4,15 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-27)
+## Unreleased (2026-07-28)
 
 <section class="features">
 
 ### Features
 
+-   [`e58f390`](https://github.com/stdlib-js/stdlib/commit/e58f39055b3a6d133588a99f90d9e1bacdb8a6b5) - add `blas/ext/base/dminheapify` [(#12956)](https://github.com/stdlib-js/stdlib/pull/12956)
 -   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - add `gwxmy` and `zcartesianProduct` to namespace
--   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - add `cwxsa`, `dwxsa`, `gwxsa`, `swsxa`, and `zwxsa` to namespace
+-   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - add `cwxsa`, `dwxsa`, `gwxsa`, `swxsa`, and `zwxsa` to namespace
 -   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682)
 -   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681)
 -   [`42fc0f9`](https://github.com/stdlib-js/stdlib/commit/42fc0f9cc903d2087121db78f9749d3031f514d0) - add `blas/ext/base/gwxmy` [(#13683)](https://github.com/stdlib-js/stdlib/pull/13683)
@@ -363,9 +364,10 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`e58f390`](https://github.com/stdlib-js/stdlib/commit/e58f39055b3a6d133588a99f90d9e1bacdb8a6b5) - **feat:** add `blas/ext/base/dminheapify` [(#12956)](https://github.com/stdlib-js/stdlib/pull/12956) _(by Muhammad Haris, Athan Reines)_
 -   [`49960a0`](https://github.com/stdlib-js/stdlib/commit/49960a0f18a9c97ead1862d2aa53432c8085285d) - **chore:** clean-up [(#13695)](https://github.com/stdlib-js/stdlib/pull/13695) _(by Philipp Burckhardt, Athan Reines)_
 -   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - **feat:** add `gwxmy` and `zcartesianProduct` to namespace _(by Athan Reines)_
--   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - **feat:** add `cwxsa`, `dwxsa`, `gwxsa`, `swsxa`, and `zwxsa` to namespace _(by Athan Reines)_
+-   [`bacbb9b`](https://github.com/stdlib-js/stdlib/commit/bacbb9b22d48d5a0ac945f7ed7a7c04b38e62a37) - **feat:** add `cwxsa`, `dwxsa`, `gwxsa`, `swxsa`, and `zwxsa` to namespace _(by Athan Reines)_
 -   [`7d094cf`](https://github.com/stdlib-js/stdlib/commit/7d094cf3a0884ea538611332e6355facda825489) - **docs:** add link [(#13685)](https://github.com/stdlib-js/stdlib/pull/13685) _(by Karan Anand)_
 -   [`262e4c6`](https://github.com/stdlib-js/stdlib/commit/262e4c6027e39fba8f8a80b6844369e262bb62a4) - **feat:** add `blas/ext/base/ndarray/zwxsa` [(#13682)](https://github.com/stdlib-js/stdlib/pull/13682) _(by Karan Anand, Athan Reines)_
 -   [`41598f0`](https://github.com/stdlib-js/stdlib/commit/41598f007722669296000160423c8642bb072649) - **feat:** add `blas/ext/base/ndarray/cwxsa` [(#13681)](https://github.com/stdlib-js/stdlib/pull/13681) _(by Karan Anand, Athan Reines)_
