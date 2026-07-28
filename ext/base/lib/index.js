@@ -1110,6 +1110,15 @@ setReadOnly( ns, 'dwax', require( './../../../ext/base/dwax' ) );
 setReadOnly( ns, 'dwhere', require( './../../../ext/base/dwhere' ) );
 
 /**
+* @name dwxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dwxmy}
+*/
+setReadOnly( ns, 'dwxmy', require( './../../../ext/base/dwxmy' ) );
+
+/**
 * @name dwxsa
 * @memberof ns
 * @readonly
@@ -2989,6 +2998,15 @@ setReadOnly( ns, 'zindexOfTruthy', require( './../../../ext/base/zindex-of-truth
 * @see {@link module:@stdlib/blas/ext/base/zlast-index-of-row}
 */
 setReadOnly( ns, 'zlastIndexOfRow', require( './../../../ext/base/zlast-index-of-row' ) );
+
+/**
+* @name zlogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zlogspace}
+*/
+setReadOnly( ns, 'zlogspace', require( './../../../ext/base/zlogspace' ) );
 
 /**
 * @name znancount
