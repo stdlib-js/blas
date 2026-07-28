@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9eee625`](https://github.com/stdlib-js/stdlib/commit/9eee625da3c54f3661b5fee34aa59c5917f391d5) - update `blas/ext/base/ndarray` TypeScript declarations [(#13708)](https://github.com/stdlib-js/stdlib/pull/13708)
 -   [`3711534`](https://github.com/stdlib-js/stdlib/commit/3711534c3ad3361e06f26bdc7bf428dfb7d4e8fc) - update `blas/ext/base` TypeScript declarations [(#13709)](https://github.com/stdlib-js/stdlib/pull/13709)
 -   [`108463c`](https://github.com/stdlib-js/stdlib/commit/108463c3b71b959ceb0f0ee024849780a5b46e4f) - add `dminheapify` to namespace
 -   [`e58f390`](https://github.com/stdlib-js/stdlib/commit/e58f39055b3a6d133588a99f90d9e1bacdb8a6b5) - add `blas/ext/base/dminheapify` [(#12956)](https://github.com/stdlib-js/stdlib/pull/12956)
@@ -366,6 +367,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`9eee625`](https://github.com/stdlib-js/stdlib/commit/9eee625da3c54f3661b5fee34aa59c5917f391d5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13708)](https://github.com/stdlib-js/stdlib/pull/13708) _(by stdlib-bot)_
 -   [`3711534`](https://github.com/stdlib-js/stdlib/commit/3711534c3ad3361e06f26bdc7bf428dfb7d4e8fc) - **feat:** update `blas/ext/base` TypeScript declarations [(#13709)](https://github.com/stdlib-js/stdlib/pull/13709) _(by stdlib-bot)_
 -   [`108463c`](https://github.com/stdlib-js/stdlib/commit/108463c3b71b959ceb0f0ee024849780a5b46e4f) - **feat:** add `dminheapify` to namespace _(by Athan Reines)_
 -   [`e58f390`](https://github.com/stdlib-js/stdlib/commit/e58f39055b3a6d133588a99f90d9e1bacdb8a6b5) - **feat:** add `blas/ext/base/dminheapify` [(#12956)](https://github.com/stdlib-js/stdlib/pull/12956) _(by Muhammad Haris, Athan Reines)_

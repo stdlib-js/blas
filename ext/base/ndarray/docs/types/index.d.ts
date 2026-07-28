@@ -27,6 +27,7 @@ import coneTo = require( './../../../../../ext/base/ndarray/cone-to' );
 import csum = require( './../../../../../ext/base/ndarray/csum' );
 import csumkbn = require( './../../../../../ext/base/ndarray/csumkbn' );
 import cunitspace = require( './../../../../../ext/base/ndarray/cunitspace' );
+import cwxsa = require( './../../../../../ext/base/ndarray/cwxsa' );
 import cxmy = require( './../../../../../ext/base/ndarray/cxmy' );
 import cxpy = require( './../../../../../ext/base/ndarray/cxpy' );
 import cxsa = require( './../../../../../ext/base/ndarray/cxsa' );
@@ -44,8 +45,10 @@ import dcusumpw = require( './../../../../../ext/base/ndarray/dcusumpw' );
 import ddiff = require( './../../../../../ext/base/ndarray/ddiff' );
 import dfillEqual = require( './../../../../../ext/base/ndarray/dfill-equal' );
 import dfillNotEqual = require( './../../../../../ext/base/ndarray/dfill-not-equal' );
+import dfirstIndexLessThan = require( './../../../../../ext/base/ndarray/dfirst-index-less-than' );
 import dindexOf = require( './../../../../../ext/base/ndarray/dindex-of' );
 import dindexOfFalsy = require( './../../../../../ext/base/ndarray/dindex-of-falsy' );
+import dindexOfNotEqual = require( './../../../../../ext/base/ndarray/dindex-of-not-equal' );
 import dlastIndexOf = require( './../../../../../ext/base/ndarray/dlast-index-of' );
 import dlinspace = require( './../../../../../ext/base/ndarray/dlinspace' );
 import dnansum = require( './../../../../../ext/base/ndarray/dnansum' );
@@ -64,6 +67,7 @@ import dsumkbn2 = require( './../../../../../ext/base/ndarray/dsumkbn2' );
 import dsumors = require( './../../../../../ext/base/ndarray/dsumors' );
 import dsumpw = require( './../../../../../ext/base/ndarray/dsumpw' );
 import dunitspace = require( './../../../../../ext/base/ndarray/dunitspace' );
+import dwxsa = require( './../../../../../ext/base/ndarray/dwxsa' );
 import dxdy = require( './../../../../../ext/base/ndarray/dxdy' );
 import dxmy = require( './../../../../../ext/base/ndarray/dxmy' );
 import dxpy = require( './../../../../../ext/base/ndarray/dxpy' );
@@ -82,6 +86,7 @@ import gcusumpw = require( './../../../../../ext/base/ndarray/gcusumpw' );
 import gfillNotEqual = require( './../../../../../ext/base/ndarray/gfill-not-equal' );
 import gfindIndex = require( './../../../../../ext/base/ndarray/gfind-index' );
 import gfindLastIndex = require( './../../../../../ext/base/ndarray/gfind-last-index' );
+import gfirstIndexLessThan = require( './../../../../../ext/base/ndarray/gfirst-index-less-than' );
 import gindexOf = require( './../../../../../ext/base/ndarray/gindex-of' );
 import gindexOfFalsy = require( './../../../../../ext/base/ndarray/gindex-of-falsy' );
 import gindexOfNotEqual = require( './../../../../../ext/base/ndarray/gindex-of-not-equal' );
@@ -104,6 +109,7 @@ import gsumkbn2 = require( './../../../../../ext/base/ndarray/gsumkbn2' );
 import gsumors = require( './../../../../../ext/base/ndarray/gsumors' );
 import gsumpw = require( './../../../../../ext/base/ndarray/gsumpw' );
 import gunitspace = require( './../../../../../ext/base/ndarray/gunitspace' );
+import gwxsa = require( './../../../../../ext/base/ndarray/gwxsa' );
 import gxdy = require( './../../../../../ext/base/ndarray/gxdy' );
 import gxmy = require( './../../../../../ext/base/ndarray/gxmy' );
 import gxpy = require( './../../../../../ext/base/ndarray/gxpy' );
@@ -137,6 +143,7 @@ import ssumkbn2 = require( './../../../../../ext/base/ndarray/ssumkbn2' );
 import ssumors = require( './../../../../../ext/base/ndarray/ssumors' );
 import ssumpw = require( './../../../../../ext/base/ndarray/ssumpw' );
 import sunitspace = require( './../../../../../ext/base/ndarray/sunitspace' );
+import swxsa = require( './../../../../../ext/base/ndarray/swxsa' );
 import sxdy = require( './../../../../../ext/base/ndarray/sxdy' );
 import sxmy = require( './../../../../../ext/base/ndarray/sxmy' );
 import sxpy = require( './../../../../../ext/base/ndarray/sxpy' );
@@ -150,6 +157,7 @@ import zoneTo = require( './../../../../../ext/base/ndarray/zone-to' );
 import zsum = require( './../../../../../ext/base/ndarray/zsum' );
 import zsumkbn = require( './../../../../../ext/base/ndarray/zsumkbn' );
 import zunitspace = require( './../../../../../ext/base/ndarray/zunitspace' );
+import zwxsa = require( './../../../../../ext/base/ndarray/zwxsa' );
 import zxdy = require( './../../../../../ext/base/ndarray/zxdy' );
 import zxmy = require( './../../../../../ext/base/ndarray/zxmy' );
 import zxpy = require( './../../../../../ext/base/ndarray/zxpy' );
@@ -359,6 +367,37 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex64>[ 3.0, 0.0 ], <Complex64>[ 4.0, 0.0 ], <Complex64>[ 5.0, 0.0 ], <Complex64>[ 6.0, 0.0 ] ]
 	*/
 	cunitspace: typeof cunitspace;
+
+	/**
+	* Subtracts a scalar constant from each element in an input one-dimensional single-precision complex floating-point ndarray and assigns the results to elements in a one-dimensional single-precision complex floating-point output ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant to subtract.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex64Vector( [ -2.0, 1.0, 3.0, -5.0 ] );
+	* var w = new Complex64Vector( 2 );
+	*
+	* var alpha = scalar2ndarray( new Complex64( 5.0, 0.0 ), {
+	*     'dtype': 'complex64'
+	* });
+	*
+	* var out = ns.cwxsa( [ x, w, alpha ] );
+	* // returns <ndarray>[ <Complex64>[ -7.0, 1.0 ], <Complex64>[ -2.0, -5.0 ] ]
+	*/
+	cwxsa: typeof cwxsa;
 
 	/**
 	* Multiplies elements of a one-dimensional single-precision complex floating-point ndarray by the corresponding elements of a second one-dimensional single-precision complex floating-point ndarray and assigns the results to the second ndarray.
@@ -874,6 +913,32 @@ interface Namespace {
 	dfillNotEqual: typeof dfillNotEqual;
 
 	/**
+	* Returns the index of the first element in a one-dimensional double-precision floating-point ndarray which is less than a corresponding element in another one-dimensional double-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*
+	* -   When comparing elements, the function checks whether an element in the first one-dimensional input ndarray is less than a corresponding element in the second one-dimensional input ndarray using the less-than operator `<`. As a consequence, comparisons involving `NaN` always evaluate to `false`.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	*
+	* var x = new Float64Vector( [ 0.0, 0.0, 0.0, 0.0 ] );
+	* var y = new Float64Vector( [ 0.0, 0.0, 1.0, 0.0 ] );
+	*
+	* var idx = ns.dfirstIndexLessThan( [ x, y ] );
+	* // returns 2
+	*/
+	dfirstIndexLessThan: typeof dfirstIndexLessThan;
+
+	/**
 	* Returns the first index of a search element in a one-dimensional double-precision floating-point ndarray.
 	*
 	* ## Notes
@@ -927,6 +992,34 @@ interface Namespace {
 	* // returns 1
 	*/
 	dindexOfFalsy: typeof dindexOfFalsy;
+
+	/**
+	* Returns the first index of an element in a one-dimensional double-precision floating-point ndarray which is not equal to a specified search element.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the search element.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float64Vector( [ 1.0, 1.0, 3.0 ] );
+	*
+	* var searchElement = scalar2ndarray( 1.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var v = ns.dindexOfNotEqual( [ x, searchElement ] );
+	* // returns 2
+	*/
+	dindexOfNotEqual: typeof dindexOfNotEqual;
 
 	/**
 	* Returns the last index of a search element in a one-dimensional double-precision floating-point ndarray.
@@ -1385,6 +1478,36 @@ interface Namespace {
 	* // returns <ndarray>[ 3.0, 4.0, 5.0, 6.0 ]
 	*/
 	dunitspace: typeof dunitspace;
+
+	/**
+	* Subtracts a scalar constant from each element in an input one-dimensional double-precision floating-point ndarray and assigns the results to elements in a one-dimensional double-precision floating-point output ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant to subtract.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float64Vector( [ -2.0, 1.0, 3.0, -5.0 ] );
+	* var w = new Float64Vector( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var out = ns.dwxsa( [ x, w, alpha ] );
+	* // returns <ndarray>[ -7.0, -4.0, -2.0, -10.0 ]
+	*/
+	dwxsa: typeof dwxsa;
 
 	/**
 	* Divides elements of a one-dimensional double-precision floating-point ndarray by the corresponding elements of a second one-dimensional double-precision floating-point ndarray and assigns the results to the second ndarray.
@@ -1912,6 +2035,32 @@ interface Namespace {
 	* // returns 3
 	*/
 	gfindLastIndex: typeof gfindLastIndex;
+
+	/**
+	* Returns the index of the first element in a one-dimensional ndarray which is less than a corresponding element in another one-dimensional ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*
+	* -   When comparing elements, the function checks whether an element in the first one-dimensional input ndarray is less than a corresponding element in the second one-dimensional input ndarray using the less-than operator `<`. As a consequence, comparisons involving `NaN` always evaluate to `false`.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	*
+	* var x = vector( [ 0.0, 0.0, 0.0, 0.0 ], 'generic' );
+	* var y = vector( [ 0.0, 0.0, 1.0, 0.0 ], 'generic' );
+	*
+	* var idx = ns.gfirstIndexLessThan( [ x, y ] );
+	* // returns 2
+	*/
+	gfirstIndexLessThan: typeof gfirstIndexLessThan;
 
 	/**
 	* Returns the first index of a search element in a one-dimensional ndarray.
@@ -2478,6 +2627,36 @@ interface Namespace {
 	* // returns <ndarray>[ 3.0, 4.0, 5.0, 6.0 ]
 	*/
 	gunitspace: typeof gunitspace;
+
+	/**
+	* Subtracts a scalar constant from each element in an input one-dimensional ndarray and assigns the results to elements in a one-dimensional output ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant to subtract.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = vector( [ -2.0, 1.0, 3.0, -5.0 ], 'generic' );
+	* var w = vector( [ 0.0, 0.0, 0.0, 0.0 ], 'generic' );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.gwxsa( [ x, w, alpha ] );
+	* // returns <ndarray>[ -7.0, -4.0, -2.0, -10.0 ]
+	*/
+	gwxsa: typeof gwxsa;
 
 	/**
 	* Divides elements of a one-dimensional ndarray by the corresponding elements of a second one-dimensional ndarray and assigns the results to the second ndarray.
@@ -3381,6 +3560,36 @@ interface Namespace {
 	sunitspace: typeof sunitspace;
 
 	/**
+	* Subtracts a scalar constant from each element in an input one-dimensional single-precision floating-point ndarray and assigns the results to elements in a one-dimensional single-precision floating-point output ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant to subtract.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ -2.0, 1.0, 3.0, -5.0 ] );
+	* var w = new Float32Vector( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var alpha = scalar2ndarray( 5.0, {
+	*     'dtype': 'float32'
+	* });
+	*
+	* var out = ns.swxsa( [ x, w, alpha ] );
+	* // returns <ndarray>[ -7.0, -4.0, -2.0, -10.0 ]
+	*/
+	swxsa: typeof swxsa;
+
+	/**
 	* Divides elements of a one-dimensional single-precision floating-point ndarray by the corresponding elements of a second one-dimensional single-precision floating-point ndarray and assigns the results to the second ndarray.
 	*
 	* ## Notes
@@ -3725,6 +3934,37 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex128>[ 3.0, 0.0 ], <Complex128>[ 4.0, 0.0 ], <Complex128>[ 5.0, 0.0 ], <Complex128>[ 6.0, 0.0 ] ]
 	*/
 	zunitspace: typeof zunitspace;
+
+	/**
+	* Subtracts a scalar constant from each element in an input one-dimensional double-precision complex floating-point ndarray and assigns the results to elements in a one-dimensional double-precision complex floating-point output ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant to subtract.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex128Vector( [ -2.0, 1.0, 3.0, -5.0 ] );
+	* var w = new Complex128Vector( 2 );
+	*
+	* var alpha = scalar2ndarray( new Complex128( 5.0, 0.0 ), {
+	*     'dtype': 'complex128'
+	* });
+	*
+	* var out = ns.zwxsa( [ x, w, alpha ] );
+	* // returns <ndarray>[ <Complex128>[ -7.0, 1.0 ], <Complex128>[ -2.0, -5.0 ] ]
+	*/
+	zwxsa: typeof zwxsa;
 
 	/**
 	* Divides elements of a one-dimensional double-precision complex floating-point ndarray by the corresponding elements of a second one-dimensional double-precision complex floating-point ndarray and assigns the results to the second ndarray.
