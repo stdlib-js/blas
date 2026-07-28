@@ -642,6 +642,15 @@ setReadOnly( ns, 'dlogspace', require( './../../../ext/base/dlogspace' ) );
 setReadOnly( ns, 'dminheapSiftDown', require( './../../../ext/base/dminheap-sift-down' ) );
 
 /**
+* @name dminheapify
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dminheapify}
+*/
+setReadOnly( ns, 'dminheapify', require( './../../../ext/base/dminheapify' ) );
+
+/**
 * @name dmskrev
 * @memberof ns
 * @readonly
