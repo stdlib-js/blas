@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`04ecde1`](https://github.com/stdlib-js/stdlib/commit/04ecde16a6c923b1297e8fcde00a6c1a46233dbd) - add `blas/ext/base/dwxmy` [(#13688)](https://github.com/stdlib-js/stdlib/pull/13688)
 -   [`3fa718b`](https://github.com/stdlib-js/stdlib/commit/3fa718be4ad2a46a14afa018cf4a57e88ae9136a) - add `blas/ext/base/zlogspace` [(#13129)](https://github.com/stdlib-js/stdlib/pull/13129)
 -   [`9eee625`](https://github.com/stdlib-js/stdlib/commit/9eee625da3c54f3661b5fee34aa59c5917f391d5) - update `blas/ext/base/ndarray` TypeScript declarations [(#13708)](https://github.com/stdlib-js/stdlib/pull/13708)
 -   [`3711534`](https://github.com/stdlib-js/stdlib/commit/3711534c3ad3361e06f26bdc7bf428dfb7d4e8fc) - update `blas/ext/base` TypeScript declarations [(#13709)](https://github.com/stdlib-js/stdlib/pull/13709)
@@ -368,6 +369,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`04ecde1`](https://github.com/stdlib-js/stdlib/commit/04ecde16a6c923b1297e8fcde00a6c1a46233dbd) - **feat:** add `blas/ext/base/dwxmy` [(#13688)](https://github.com/stdlib-js/stdlib/pull/13688) _(by Karan Anand)_
 -   [`3fa718b`](https://github.com/stdlib-js/stdlib/commit/3fa718be4ad2a46a14afa018cf4a57e88ae9136a) - **feat:** add `blas/ext/base/zlogspace` [(#13129)](https://github.com/stdlib-js/stdlib/pull/13129) _(by Muhammad Haris, Athan Reines)_
 -   [`bbf6a5e`](https://github.com/stdlib-js/stdlib/commit/bbf6a5ef5bd087179307dfb6cfccc0320dff80d4) - **docs:** update namespace table of contents [(#13711)](https://github.com/stdlib-js/stdlib/pull/13711) _(by stdlib-bot)_
 -   [`9eee625`](https://github.com/stdlib-js/stdlib/commit/9eee625da3c54f3661b5fee34aa59c5917f391d5) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13708)](https://github.com/stdlib-js/stdlib/pull/13708) _(by stdlib-bot)_
