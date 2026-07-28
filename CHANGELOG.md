@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3711534`](https://github.com/stdlib-js/stdlib/commit/3711534c3ad3361e06f26bdc7bf428dfb7d4e8fc) - update `blas/ext/base` TypeScript declarations [(#13709)](https://github.com/stdlib-js/stdlib/pull/13709)
 -   [`108463c`](https://github.com/stdlib-js/stdlib/commit/108463c3b71b959ceb0f0ee024849780a5b46e4f) - add `dminheapify` to namespace
 -   [`e58f390`](https://github.com/stdlib-js/stdlib/commit/e58f39055b3a6d133588a99f90d9e1bacdb8a6b5) - add `blas/ext/base/dminheapify` [(#12956)](https://github.com/stdlib-js/stdlib/pull/12956)
 -   [`02d9b41`](https://github.com/stdlib-js/stdlib/commit/02d9b41da8934e2eef3b20a8dc3e14761735cc7b) - add `gwxmy` and `zcartesianProduct` to namespace
@@ -365,6 +366,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`3711534`](https://github.com/stdlib-js/stdlib/commit/3711534c3ad3361e06f26bdc7bf428dfb7d4e8fc) - **feat:** update `blas/ext/base` TypeScript declarations [(#13709)](https://github.com/stdlib-js/stdlib/pull/13709) _(by stdlib-bot)_
 -   [`108463c`](https://github.com/stdlib-js/stdlib/commit/108463c3b71b959ceb0f0ee024849780a5b46e4f) - **feat:** add `dminheapify` to namespace _(by Athan Reines)_
 -   [`e58f390`](https://github.com/stdlib-js/stdlib/commit/e58f39055b3a6d133588a99f90d9e1bacdb8a6b5) - **feat:** add `blas/ext/base/dminheapify` [(#12956)](https://github.com/stdlib-js/stdlib/pull/12956) _(by Muhammad Haris, Athan Reines)_
 -   [`49960a0`](https://github.com/stdlib-js/stdlib/commit/49960a0f18a9c97ead1862d2aa53432c8085285d) - **chore:** clean-up [(#13695)](https://github.com/stdlib-js/stdlib/pull/13695) _(by Philipp Burckhardt, Athan Reines)_
