@@ -370,6 +370,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7c34546`](https://github.com/stdlib-js/stdlib/commit/7c34546651be1f9d6dd3ca7d381afc5a5d33e6dc) - **docs:** extract options variable in `dwxmy` examples [(#13719)](https://github.com/stdlib-js/stdlib/pull/13719) _(by Karan Anand)_
 -   [`d518eb0`](https://github.com/stdlib-js/stdlib/commit/d518eb0d7ba554c628e5cfc6b38e2a3a2e138e23) - **feat:** add `dwxmy` and `zlogspace` to namespace _(by Athan Reines)_
 -   [`04ecde1`](https://github.com/stdlib-js/stdlib/commit/04ecde16a6c923b1297e8fcde00a6c1a46233dbd) - **feat:** add `blas/ext/base/dwxmy` [(#13688)](https://github.com/stdlib-js/stdlib/pull/13688) _(by Karan Anand)_
 -   [`3fa718b`](https://github.com/stdlib-js/stdlib/commit/3fa718be4ad2a46a14afa018cf4a57e88ae9136a) - **feat:** add `blas/ext/base/zlogspace` [(#13129)](https://github.com/stdlib-js/stdlib/pull/13129) _(by Muhammad Haris, Athan Reines)_
