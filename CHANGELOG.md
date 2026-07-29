@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-28)
+## Unreleased (2026-07-29)
 
 <section class="features">
 
 ### Features
 
+-   [`ce25df4`](https://github.com/stdlib-js/stdlib/commit/ce25df4e8dd6e2125845153e22f540915ef88ab7) - add `blas/ext/base/clogspace` [(#13104)](https://github.com/stdlib-js/stdlib/pull/13104)
 -   [`981dfaf`](https://github.com/stdlib-js/stdlib/commit/981dfaf03d963d4a69525af6d70e899a5da1ee89) - add `blas/ext/base/gindex-of-truthy-row` [(#13207)](https://github.com/stdlib-js/stdlib/pull/13207)
 -   [`d518eb0`](https://github.com/stdlib-js/stdlib/commit/d518eb0d7ba554c628e5cfc6b38e2a3a2e138e23) - add `dwxmy` and `zlogspace` to namespace
 -   [`04ecde1`](https://github.com/stdlib-js/stdlib/commit/04ecde16a6c923b1297e8fcde00a6c1a46233dbd) - add `blas/ext/base/dwxmy` [(#13688)](https://github.com/stdlib-js/stdlib/pull/13688)
@@ -371,6 +372,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ce25df4`](https://github.com/stdlib-js/stdlib/commit/ce25df4e8dd6e2125845153e22f540915ef88ab7) - **feat:** add `blas/ext/base/clogspace` [(#13104)](https://github.com/stdlib-js/stdlib/pull/13104) _(by Muhammad Haris)_
 -   [`981dfaf`](https://github.com/stdlib-js/stdlib/commit/981dfaf03d963d4a69525af6d70e899a5da1ee89) - **feat:** add `blas/ext/base/gindex-of-truthy-row` [(#13207)](https://github.com/stdlib-js/stdlib/pull/13207) _(by Muhammad Haris, Athan Reines)_
 -   [`7c34546`](https://github.com/stdlib-js/stdlib/commit/7c34546651be1f9d6dd3ca7d381afc5a5d33e6dc) - **docs:** extract options variable in `dwxmy` examples [(#13719)](https://github.com/stdlib-js/stdlib/pull/13719) _(by Karan Anand)_
 -   [`d518eb0`](https://github.com/stdlib-js/stdlib/commit/d518eb0d7ba554c628e5cfc6b38e2a3a2e138e23) - **feat:** add `dwxmy` and `zlogspace` to namespace _(by Athan Reines)_
