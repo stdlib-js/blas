@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c3321c9`](https://github.com/stdlib-js/stdlib/commit/c3321c9755f7398ad08dcb7c68fc9f00c5859b0a) - add `clogspace` and `gindexOfTruthyRow` to namespace
 -   [`f7585fe`](https://github.com/stdlib-js/stdlib/commit/f7585fe7ebeb8fbf82909cb064ae509c989c0326) - update `blas/ext/base` TypeScript declarations [(#13737)](https://github.com/stdlib-js/stdlib/pull/13737)
 -   [`ce25df4`](https://github.com/stdlib-js/stdlib/commit/ce25df4e8dd6e2125845153e22f540915ef88ab7) - add `blas/ext/base/clogspace` [(#13104)](https://github.com/stdlib-js/stdlib/pull/13104)
 -   [`981dfaf`](https://github.com/stdlib-js/stdlib/commit/981dfaf03d963d4a69525af6d70e899a5da1ee89) - add `blas/ext/base/gindex-of-truthy-row` [(#13207)](https://github.com/stdlib-js/stdlib/pull/13207)
@@ -373,6 +374,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`c3321c9`](https://github.com/stdlib-js/stdlib/commit/c3321c9755f7398ad08dcb7c68fc9f00c5859b0a) - **feat:** add `clogspace` and `gindexOfTruthyRow` to namespace _(by Athan Reines)_
 -   [`b1bfe73`](https://github.com/stdlib-js/stdlib/commit/b1bfe73572ce3dc4d40095aa1e2bf445c273fad1) - **docs:** update namespace table of contents [(#13738)](https://github.com/stdlib-js/stdlib/pull/13738) _(by stdlib-bot)_
 -   [`f7585fe`](https://github.com/stdlib-js/stdlib/commit/f7585fe7ebeb8fbf82909cb064ae509c989c0326) - **feat:** update `blas/ext/base` TypeScript declarations [(#13737)](https://github.com/stdlib-js/stdlib/pull/13737) _(by stdlib-bot)_
 -   [`ce25df4`](https://github.com/stdlib-js/stdlib/commit/ce25df4e8dd6e2125845153e22f540915ef88ab7) - **feat:** add `blas/ext/base/clogspace` [(#13104)](https://github.com/stdlib-js/stdlib/pull/13104) _(by Muhammad Haris)_

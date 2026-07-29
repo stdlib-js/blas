@@ -120,6 +120,15 @@ setReadOnly( ns, 'cindexOfRow', require( './../../../ext/base/cindex-of-row' ) )
 setReadOnly( ns, 'clastIndexOfRow', require( './../../../ext/base/clast-index-of-row' ) );
 
 /**
+* @name clogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/clogspace}
+*/
+setReadOnly( ns, 'clogspace', require( './../../../ext/base/clogspace' ) );
+
+/**
 * @name coneTo
 * @memberof ns
 * @readonly
@@ -1603,6 +1612,15 @@ setReadOnly( ns, 'gindexOfSameValue', require( './../../../ext/base/gindex-of-sa
 * @see {@link module:@stdlib/blas/ext/base/gindex-of-truthy}
 */
 setReadOnly( ns, 'gindexOfTruthy', require( './../../../ext/base/gindex-of-truthy' ) );
+
+/**
+* @name gindexOfTruthyRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-truthy-row}
+*/
+setReadOnly( ns, 'gindexOfTruthyRow', require( './../../../ext/base/gindex-of-truthy-row' ) );
 
 /**
 * @name gjoin
