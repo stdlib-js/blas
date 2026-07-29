@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f71616b`](https://github.com/stdlib-js/stdlib/commit/f71616b4d04ac49f76171570e600b3837891e7fe) - add `blas/ext/base/gsorthp-by` [(#13247)](https://github.com/stdlib-js/stdlib/pull/13247)
 -   [`3b8bcc9`](https://github.com/stdlib-js/stdlib/commit/3b8bcc9a2db50c78100ba9a0a0e934efcc1ccc5a) - add `blas/ext/base/dwxpy` [(#13718)](https://github.com/stdlib-js/stdlib/pull/13718)
 -   [`c3321c9`](https://github.com/stdlib-js/stdlib/commit/c3321c9755f7398ad08dcb7c68fc9f00c5859b0a) - add `clogspace` and `gindexOfTruthyRow` to namespace
 -   [`f7585fe`](https://github.com/stdlib-js/stdlib/commit/f7585fe7ebeb8fbf82909cb064ae509c989c0326) - update `blas/ext/base` TypeScript declarations [(#13737)](https://github.com/stdlib-js/stdlib/pull/13737)
@@ -375,6 +376,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`f71616b`](https://github.com/stdlib-js/stdlib/commit/f71616b4d04ac49f76171570e600b3837891e7fe) - **feat:** add `blas/ext/base/gsorthp-by` [(#13247)](https://github.com/stdlib-js/stdlib/pull/13247) _(by Muhammad Haris, Athan Reines)_
 -   [`3b8bcc9`](https://github.com/stdlib-js/stdlib/commit/3b8bcc9a2db50c78100ba9a0a0e934efcc1ccc5a) - **feat:** add `blas/ext/base/dwxpy` [(#13718)](https://github.com/stdlib-js/stdlib/pull/13718) _(by Karan Anand)_
 -   [`c3321c9`](https://github.com/stdlib-js/stdlib/commit/c3321c9755f7398ad08dcb7c68fc9f00c5859b0a) - **feat:** add `clogspace` and `gindexOfTruthyRow` to namespace _(by Athan Reines)_
 -   [`b1bfe73`](https://github.com/stdlib-js/stdlib/commit/b1bfe73572ce3dc4d40095aa1e2bf445c273fad1) - **docs:** update namespace table of contents [(#13738)](https://github.com/stdlib-js/stdlib/pull/13738) _(by stdlib-bot)_
