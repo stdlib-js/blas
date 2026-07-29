@@ -1128,6 +1128,15 @@ setReadOnly( ns, 'dwhere', require( './../../../ext/base/dwhere' ) );
 setReadOnly( ns, 'dwxmy', require( './../../../ext/base/dwxmy' ) );
 
 /**
+* @name dwxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dwxpy}
+*/
+setReadOnly( ns, 'dwxpy', require( './../../../ext/base/dwxpy' ) );
+
+/**
 * @name dwxsa
 * @memberof ns
 * @readonly
@@ -1891,6 +1900,15 @@ setReadOnly( ns, 'gsort2sh', require( './../../../ext/base/gsort2sh' ) );
 * @see {@link module:@stdlib/blas/ext/base/gsorthp}
 */
 setReadOnly( ns, 'gsorthp', require( './../../../ext/base/gsorthp' ) );
+
+/**
+* @name gsorthpBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gsorthp-by}
+*/
+setReadOnly( ns, 'gsorthpBy', require( './../../../ext/base/gsorthp-by' ) );
 
 /**
 * @name gsortins

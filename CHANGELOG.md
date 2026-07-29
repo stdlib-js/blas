@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`39a2ecc`](https://github.com/stdlib-js/stdlib/commit/39a2ecc05db1b48d7f505322e76b03e950602fb5) - add `dwxpy` and `gsorthpBy` to namespace
 -   [`f71616b`](https://github.com/stdlib-js/stdlib/commit/f71616b4d04ac49f76171570e600b3837891e7fe) - add `blas/ext/base/gsorthp-by` [(#13247)](https://github.com/stdlib-js/stdlib/pull/13247)
 -   [`3b8bcc9`](https://github.com/stdlib-js/stdlib/commit/3b8bcc9a2db50c78100ba9a0a0e934efcc1ccc5a) - add `blas/ext/base/dwxpy` [(#13718)](https://github.com/stdlib-js/stdlib/pull/13718)
 -   [`c3321c9`](https://github.com/stdlib-js/stdlib/commit/c3321c9755f7398ad08dcb7c68fc9f00c5859b0a) - add `clogspace` and `gindexOfTruthyRow` to namespace
@@ -376,6 +377,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`39a2ecc`](https://github.com/stdlib-js/stdlib/commit/39a2ecc05db1b48d7f505322e76b03e950602fb5) - **feat:** add `dwxpy` and `gsorthpBy` to namespace _(by Athan Reines)_
 -   [`f71616b`](https://github.com/stdlib-js/stdlib/commit/f71616b4d04ac49f76171570e600b3837891e7fe) - **feat:** add `blas/ext/base/gsorthp-by` [(#13247)](https://github.com/stdlib-js/stdlib/pull/13247) _(by Muhammad Haris, Athan Reines)_
 -   [`3b8bcc9`](https://github.com/stdlib-js/stdlib/commit/3b8bcc9a2db50c78100ba9a0a0e934efcc1ccc5a) - **feat:** add `blas/ext/base/dwxpy` [(#13718)](https://github.com/stdlib-js/stdlib/pull/13718) _(by Karan Anand)_
 -   [`c3321c9`](https://github.com/stdlib-js/stdlib/commit/c3321c9755f7398ad08dcb7c68fc9f00c5859b0a) - **feat:** add `clogspace` and `gindexOfTruthyRow` to namespace _(by Athan Reines)_
