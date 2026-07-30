@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`30c578b`](https://github.com/stdlib-js/stdlib/commit/30c578bc4df338b5e0a5f0a10faa35b8808fb880) - add `blas/ext/base/cindex-of-truthy` [(#12994)](https://github.com/stdlib-js/stdlib/pull/12994)
 -   [`04b7511`](https://github.com/stdlib-js/stdlib/commit/04b751124cbfab5f144b7dab7056dbef9fe0474b) - add `dwxsy`, `swxmy`, `swxpy`, `swxsy` to namespace
 -   [`49ae61d`](https://github.com/stdlib-js/stdlib/commit/49ae61d06166c2b205d9900f75e8c3ae4fc7d33e) - add `blas/ext/base/swxmy` [(#13713)](https://github.com/stdlib-js/stdlib/pull/13713)
 -   [`6f54c0b`](https://github.com/stdlib-js/stdlib/commit/6f54c0b87585d94ea90a173703ef585a039ce2da) - add `blas/ext/base/swxpy` [(#13721)](https://github.com/stdlib-js/stdlib/pull/13721)
@@ -383,6 +384,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`30c578b`](https://github.com/stdlib-js/stdlib/commit/30c578bc4df338b5e0a5f0a10faa35b8808fb880) - **feat:** add `blas/ext/base/cindex-of-truthy` [(#12994)](https://github.com/stdlib-js/stdlib/pull/12994) _(by Muhammad Haris, Athan Reines)_
 -   [`04b7511`](https://github.com/stdlib-js/stdlib/commit/04b751124cbfab5f144b7dab7056dbef9fe0474b) - **feat:** add `dwxsy`, `swxmy`, `swxpy`, `swxsy` to namespace _(by Athan Reines)_
 -   [`49ae61d`](https://github.com/stdlib-js/stdlib/commit/49ae61d06166c2b205d9900f75e8c3ae4fc7d33e) - **feat:** add `blas/ext/base/swxmy` [(#13713)](https://github.com/stdlib-js/stdlib/pull/13713) _(by Karan Anand)_
 -   [`6f54c0b`](https://github.com/stdlib-js/stdlib/commit/6f54c0b87585d94ea90a173703ef585a039ce2da) - **feat:** add `blas/ext/base/swxpy` [(#13721)](https://github.com/stdlib-js/stdlib/pull/13721) _(by Karan Anand)_
