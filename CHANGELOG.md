@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`455b52e`](https://github.com/stdlib-js/stdlib/commit/455b52e6f734290465b536dc1bd7f8f80ecaa588) - add `blas/ext/base/swxsy` [(#13769)](https://github.com/stdlib-js/stdlib/pull/13769)
 -   [`52e533e`](https://github.com/stdlib-js/stdlib/commit/52e533e14adc08e39a812c6012ba57c513fed1eb) - update `blas/ext/base` TypeScript declarations [(#13768)](https://github.com/stdlib-js/stdlib/pull/13768)
 -   [`39a2ecc`](https://github.com/stdlib-js/stdlib/commit/39a2ecc05db1b48d7f505322e76b03e950602fb5) - add `dwxpy` and `gsorthpBy` to namespace
 -   [`f71616b`](https://github.com/stdlib-js/stdlib/commit/f71616b4d04ac49f76171570e600b3837891e7fe) - add `blas/ext/base/gsorthp-by` [(#13247)](https://github.com/stdlib-js/stdlib/pull/13247)
@@ -378,6 +379,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`455b52e`](https://github.com/stdlib-js/stdlib/commit/455b52e6f734290465b536dc1bd7f8f80ecaa588) - **feat:** add `blas/ext/base/swxsy` [(#13769)](https://github.com/stdlib-js/stdlib/pull/13769) _(by Karan Anand)_
+-   [`9f0bb66`](https://github.com/stdlib-js/stdlib/commit/9f0bb6633afa52523e9c0763878e295fa1c5ba66) - **docs:** update namespace table of contents [(#13770)](https://github.com/stdlib-js/stdlib/pull/13770) _(by stdlib-bot)_
 -   [`52e533e`](https://github.com/stdlib-js/stdlib/commit/52e533e14adc08e39a812c6012ba57c513fed1eb) - **feat:** update `blas/ext/base` TypeScript declarations [(#13768)](https://github.com/stdlib-js/stdlib/pull/13768) _(by stdlib-bot)_
 -   [`10ee0a5`](https://github.com/stdlib-js/stdlib/commit/10ee0a56ed60ae3d051ff0426b8e203a29c44cdc) - **chore:** clean-up [(#13754)](https://github.com/stdlib-js/stdlib/pull/13754) _(by Philipp Burckhardt)_
 -   [`c90a54a`](https://github.com/stdlib-js/stdlib/commit/c90a54ab17c4cbbbf0c78e2e5bea120f90debd14) - **chore:** clean-up [(#13752)](https://github.com/stdlib-js/stdlib/pull/13752) _(by Philipp Burckhardt, Athan Reines)_
