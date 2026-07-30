@@ -377,6 +377,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`10ee0a5`](https://github.com/stdlib-js/stdlib/commit/10ee0a56ed60ae3d051ff0426b8e203a29c44cdc) - **chore:** clean-up [(#13754)](https://github.com/stdlib-js/stdlib/pull/13754) _(by Philipp Burckhardt)_
 -   [`c90a54a`](https://github.com/stdlib-js/stdlib/commit/c90a54ab17c4cbbbf0c78e2e5bea120f90debd14) - **chore:** clean-up [(#13752)](https://github.com/stdlib-js/stdlib/pull/13752) _(by Philipp Burckhardt, Athan Reines)_
 -   [`39a2ecc`](https://github.com/stdlib-js/stdlib/commit/39a2ecc05db1b48d7f505322e76b03e950602fb5) - **feat:** add `dwxpy` and `gsorthpBy` to namespace _(by Athan Reines)_
 -   [`f71616b`](https://github.com/stdlib-js/stdlib/commit/f71616b4d04ac49f76171570e600b3837891e7fe) - **feat:** add `blas/ext/base/gsorthp-by` [(#13247)](https://github.com/stdlib-js/stdlib/pull/13247) _(by Muhammad Haris, Athan Reines)_
