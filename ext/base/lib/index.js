@@ -111,6 +111,15 @@ setReadOnly( ns, 'cindexOfColumn', require( './../../../ext/base/cindex-of-colum
 setReadOnly( ns, 'cindexOfRow', require( './../../../ext/base/cindex-of-row' ) );
 
 /**
+* @name cindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cindex-of-truthy}
+*/
+setReadOnly( ns, 'cindexOfTruthy', require( './../../../ext/base/cindex-of-truthy' ) );
+
+/**
 * @name clastIndexOfRow
 * @memberof ns
 * @readonly
@@ -3043,6 +3052,15 @@ setReadOnly( ns, 'zindexOf', require( './../../../ext/base/zindex-of' ) );
 * @see {@link module:@stdlib/blas/ext/base/zindex-of-column}
 */
 setReadOnly( ns, 'zindexOfColumn', require( './../../../ext/base/zindex-of-column' ) );
+
+/**
+* @name zindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zindex-of-falsy}
+*/
+setReadOnly( ns, 'zindexOfFalsy', require( './../../../ext/base/zindex-of-falsy' ) );
 
 /**
 * @name zindexOfRow
