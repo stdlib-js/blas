@@ -386,6 +386,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`f334901`](https://github.com/stdlib-js/stdlib/commit/f3349012867d8b8adff1d23ebfd4f35896e94ded) - **refactor:** avoid repeated casting _(by Athan Reines)_
 -   [`d7230bc`](https://github.com/stdlib-js/stdlib/commit/d7230bcd6cdce0167e4b5f6cd5c9e583624c728d) - **feat:** add `cindexOfTruthy` and `zindexOfFalsy` to namespace _(by Athan Reines)_
 -   [`ff523e7`](https://github.com/stdlib-js/stdlib/commit/ff523e73a3e2a2c9dd577d42313888b7e562e7f3) - **feat:** add `blas/ext/base/zindex-of-falsy` [(#12989)](https://github.com/stdlib-js/stdlib/pull/12989) _(by Muhammad Haris)_
 -   [`30c578b`](https://github.com/stdlib-js/stdlib/commit/30c578bc4df338b5e0a5f0a10faa35b8808fb880) - **feat:** add `blas/ext/base/cindex-of-truthy` [(#12994)](https://github.com/stdlib-js/stdlib/pull/12994) _(by Muhammad Haris, Athan Reines)_
