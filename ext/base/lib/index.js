@@ -1146,6 +1146,15 @@ setReadOnly( ns, 'dwxpy', require( './../../../ext/base/dwxpy' ) );
 setReadOnly( ns, 'dwxsa', require( './../../../ext/base/dwxsa' ) );
 
 /**
+* @name dwxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dwxsy}
+*/
+setReadOnly( ns, 'dwxsy', require( './../../../ext/base/dwxsy' ) );
+
+/**
 * @name dxdy
 * @memberof ns
 * @readonly
@@ -2847,6 +2856,24 @@ setReadOnly( ns, 'swax', require( './../../../ext/base/swax' ) );
 setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
 
 /**
+* @name swxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/swxmy}
+*/
+setReadOnly( ns, 'swxmy', require( './../../../ext/base/swxmy' ) );
+
+/**
+* @name swxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/swxpy}
+*/
+setReadOnly( ns, 'swxpy', require( './../../../ext/base/swxpy' ) );
+
+/**
 * @name swxsa
 * @memberof ns
 * @readonly
@@ -2854,6 +2881,15 @@ setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
 * @see {@link module:@stdlib/blas/ext/base/swxsa}
 */
 setReadOnly( ns, 'swxsa', require( './../../../ext/base/swxsa' ) );
+
+/**
+* @name swxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/swxsy}
+*/
+setReadOnly( ns, 'swxsy', require( './../../../ext/base/swxsy' ) );
 
 /**
 * @name sxdy

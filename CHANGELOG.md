@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`04b7511`](https://github.com/stdlib-js/stdlib/commit/04b751124cbfab5f144b7dab7056dbef9fe0474b) - add `dwxsy`, `swxmy`, `swxpy`, `swxsy` to namespace
 -   [`49ae61d`](https://github.com/stdlib-js/stdlib/commit/49ae61d06166c2b205d9900f75e8c3ae4fc7d33e) - add `blas/ext/base/swxmy` [(#13713)](https://github.com/stdlib-js/stdlib/pull/13713)
 -   [`6f54c0b`](https://github.com/stdlib-js/stdlib/commit/6f54c0b87585d94ea90a173703ef585a039ce2da) - add `blas/ext/base/swxpy` [(#13721)](https://github.com/stdlib-js/stdlib/pull/13721)
 -   [`36f4ad6`](https://github.com/stdlib-js/stdlib/commit/36f4ad6f345b5bfe0ebb134d7ea8ff210197bccd) - add `blas/ext/base/dwxsy` [(#13764)](https://github.com/stdlib-js/stdlib/pull/13764)
@@ -382,6 +383,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`04b7511`](https://github.com/stdlib-js/stdlib/commit/04b751124cbfab5f144b7dab7056dbef9fe0474b) - **feat:** add `dwxsy`, `swxmy`, `swxpy`, `swxsy` to namespace _(by Athan Reines)_
 -   [`49ae61d`](https://github.com/stdlib-js/stdlib/commit/49ae61d06166c2b205d9900f75e8c3ae4fc7d33e) - **feat:** add `blas/ext/base/swxmy` [(#13713)](https://github.com/stdlib-js/stdlib/pull/13713) _(by Karan Anand)_
 -   [`6f54c0b`](https://github.com/stdlib-js/stdlib/commit/6f54c0b87585d94ea90a173703ef585a039ce2da) - **feat:** add `blas/ext/base/swxpy` [(#13721)](https://github.com/stdlib-js/stdlib/pull/13721) _(by Karan Anand)_
 -   [`abe2e55`](https://github.com/stdlib-js/stdlib/commit/abe2e550ce8c29d07dc21901e5ba4221f941a300) - **build:** add wasm configurations [(#13771)](https://github.com/stdlib-js/stdlib/pull/13771) _(by Karan Anand, Athan Reines)_
