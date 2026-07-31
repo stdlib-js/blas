@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a0a5297`](https://github.com/stdlib-js/stdlib/commit/a0a52974aab2856ee887bb96020dbe7bed90e292) - add `blas/ext/base/sindex-of-not-equal` [(#13405)](https://github.com/stdlib-js/stdlib/pull/13405)
 -   [`c189712`](https://github.com/stdlib-js/stdlib/commit/c1897127454826f6cf84fff0eb069d9dc861d542) - add `blas/ext/base/cindex-of-falsy` [(#12986)](https://github.com/stdlib-js/stdlib/pull/12986)
 -   [`723c4b2`](https://github.com/stdlib-js/stdlib/commit/723c4b26f02a1d5a3546bee8f82ae01d8712ce3f) - add `blas/ext/base/zany` [(#13549)](https://github.com/stdlib-js/stdlib/pull/13549)
 -   [`186e465`](https://github.com/stdlib-js/stdlib/commit/186e465d8eacfaa628aee82e33fc50c7d9a65ca3) - add `dfirstIndexGreaterThan` to namespace
@@ -391,6 +392,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`a0a5297`](https://github.com/stdlib-js/stdlib/commit/a0a52974aab2856ee887bb96020dbe7bed90e292) - **feat:** add `blas/ext/base/sindex-of-not-equal` [(#13405)](https://github.com/stdlib-js/stdlib/pull/13405) _(by Muhammad Haris, Athan Reines)_
 -   [`c189712`](https://github.com/stdlib-js/stdlib/commit/c1897127454826f6cf84fff0eb069d9dc861d542) - **feat:** add `blas/ext/base/cindex-of-falsy` [(#12986)](https://github.com/stdlib-js/stdlib/pull/12986) _(by Muhammad Haris)_
 -   [`723c4b2`](https://github.com/stdlib-js/stdlib/commit/723c4b26f02a1d5a3546bee8f82ae01d8712ce3f) - **feat:** add `blas/ext/base/zany` [(#13549)](https://github.com/stdlib-js/stdlib/pull/13549) _(by Muhammad Haris)_
 -   [`427eb12`](https://github.com/stdlib-js/stdlib/commit/427eb12f418fc738ceb4ad65dbc9687f3cd4400d) - **docs:** update namespace table of contents [(#13792)](https://github.com/stdlib-js/stdlib/pull/13792) _(by stdlib-bot)_
