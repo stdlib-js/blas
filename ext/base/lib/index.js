@@ -534,6 +534,15 @@ setReadOnly( ns, 'dfillNotEqual', require( './../../../ext/base/dfill-not-equal'
 setReadOnly( ns, 'dfirstIndexEqual', require( './../../../ext/base/dfirst-index-equal' ) );
 
 /**
+* @name dfirstIndexGreaterThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dfirst-index-greater-than}
+*/
+setReadOnly( ns, 'dfirstIndexGreaterThan', require( './../../../ext/base/dfirst-index-greater-than' ) );
+
+/**
 * @name dfirstIndexLessThan
 * @memberof ns
 * @readonly
