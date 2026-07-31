@@ -102,6 +102,15 @@ setReadOnly( ns, 'cindexOf', require( './../../../ext/base/cindex-of' ) );
 setReadOnly( ns, 'cindexOfColumn', require( './../../../ext/base/cindex-of-column' ) );
 
 /**
+* @name cindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cindex-of-falsy}
+*/
+setReadOnly( ns, 'cindexOfFalsy', require( './../../../ext/base/cindex-of-falsy' ) );
+
+/**
 * @name cindexOfRow
 * @memberof ns
 * @readonly
@@ -2523,6 +2532,15 @@ setReadOnly( ns, 'sindexOfColumn', require( './../../../ext/base/sindex-of-colum
 setReadOnly( ns, 'sindexOfFalsy', require( './../../../ext/base/sindex-of-falsy' ) );
 
 /**
+* @name sindexOfNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sindex-of-not-equal}
+*/
+setReadOnly( ns, 'sindexOfNotEqual', require( './../../../ext/base/sindex-of-not-equal' ) );
+
+/**
 * @name sindexOfRow
 * @memberof ns
 * @readonly
@@ -2980,6 +2998,15 @@ setReadOnly( ns, 'szeros', require( './../../../ext/base/szeros' ) );
 * @see {@link module:@stdlib/blas/ext/base/wasm}
 */
 setReadOnly( ns, 'wasm', require( './../../../ext/base/wasm' ) );
+
+/**
+* @name zany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zany}
+*/
+setReadOnly( ns, 'zany', require( './../../../ext/base/zany' ) );
 
 /**
 * @name zapx
