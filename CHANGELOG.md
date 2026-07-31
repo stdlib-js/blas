@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`451c6c8`](https://github.com/stdlib-js/stdlib/commit/451c6c8ba0e1b7d6183a9bb2b53b68c22a9b3e8d) - add `blas/ext/base/zwxmy` [(#13715)](https://github.com/stdlib-js/stdlib/pull/13715)
 -   [`8f69a3d`](https://github.com/stdlib-js/stdlib/commit/8f69a3de6d8cdd35d69e5524b6b8df2ae8dfd641) - add `dtriu` and `striu` to namespace
 -   [`23649d8`](https://github.com/stdlib-js/stdlib/commit/23649d8bc121d8bb0aab016091b4293c6aa000c3) - add `blas/ext/base/striu` [(#13759)](https://github.com/stdlib-js/stdlib/pull/13759)
 -   [`2e0a4b4`](https://github.com/stdlib-js/stdlib/commit/2e0a4b41b3c6195a1bb6d3fedf9803cfa10a71ce) - add `blas/ext/base/dtriu` [(#13758)](https://github.com/stdlib-js/stdlib/pull/13758)
@@ -396,6 +397,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`451c6c8`](https://github.com/stdlib-js/stdlib/commit/451c6c8ba0e1b7d6183a9bb2b53b68c22a9b3e8d) - **feat:** add `blas/ext/base/zwxmy` [(#13715)](https://github.com/stdlib-js/stdlib/pull/13715) _(by Karan Anand)_
 -   [`d389b17`](https://github.com/stdlib-js/stdlib/commit/d389b17e2d3a7899dd14810d2e39d507dbe11ab4) - **test:** fix test messages _(by Athan Reines)_
 -   [`8f69a3d`](https://github.com/stdlib-js/stdlib/commit/8f69a3de6d8cdd35d69e5524b6b8df2ae8dfd641) - **feat:** add `dtriu` and `striu` to namespace _(by Athan Reines)_
 -   [`23649d8`](https://github.com/stdlib-js/stdlib/commit/23649d8bc121d8bb0aab016091b4293c6aa000c3) - **feat:** add `blas/ext/base/striu` [(#13759)](https://github.com/stdlib-js/stdlib/pull/13759) _(by Kaustubh Patange, Athan Reines)_
