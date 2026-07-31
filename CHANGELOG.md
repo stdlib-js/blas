@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`940a75a`](https://github.com/stdlib-js/stdlib/commit/940a75a7addfdd29381de71c3efb0286761f5fea) - update `blas/ext/base` TypeScript declarations [(#13791)](https://github.com/stdlib-js/stdlib/pull/13791)
 -   [`f42d3ce`](https://github.com/stdlib-js/stdlib/commit/f42d3cebb2b57cbf289b9d96ed94f05df8caa858) - add `blas/ext/base/dfirst-index-greater-than` [(#13408)](https://github.com/stdlib-js/stdlib/pull/13408)
 -   [`d7230bc`](https://github.com/stdlib-js/stdlib/commit/d7230bcd6cdce0167e4b5f6cd5c9e583624c728d) - add `cindexOfTruthy` and `zindexOfFalsy` to namespace
 -   [`ff523e7`](https://github.com/stdlib-js/stdlib/commit/ff523e73a3e2a2c9dd577d42313888b7e562e7f3) - add `blas/ext/base/zindex-of-falsy` [(#12989)](https://github.com/stdlib-js/stdlib/pull/12989)
@@ -387,6 +388,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`940a75a`](https://github.com/stdlib-js/stdlib/commit/940a75a7addfdd29381de71c3efb0286761f5fea) - **feat:** update `blas/ext/base` TypeScript declarations [(#13791)](https://github.com/stdlib-js/stdlib/pull/13791) _(by stdlib-bot)_
 -   [`f42d3ce`](https://github.com/stdlib-js/stdlib/commit/f42d3cebb2b57cbf289b9d96ed94f05df8caa858) - **feat:** add `blas/ext/base/dfirst-index-greater-than` [(#13408)](https://github.com/stdlib-js/stdlib/pull/13408) _(by Muhammad Haris, Athan Reines)_
 -   [`be0b1f5`](https://github.com/stdlib-js/stdlib/commit/be0b1f501a4af5546f7ff6ee979585e22bdd56a6) - **chore:** clean-up [(#13780)](https://github.com/stdlib-js/stdlib/pull/13780) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f334901`](https://github.com/stdlib-js/stdlib/commit/f3349012867d8b8adff1d23ebfd4f35896e94ded) - **refactor:** avoid repeated casting _(by Athan Reines)_
