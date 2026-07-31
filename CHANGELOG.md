@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-30)
+## Unreleased (2026-07-31)
 
 <section class="features">
 
 ### Features
 
+-   [`f42d3ce`](https://github.com/stdlib-js/stdlib/commit/f42d3cebb2b57cbf289b9d96ed94f05df8caa858) - add `blas/ext/base/dfirst-index-greater-than` [(#13408)](https://github.com/stdlib-js/stdlib/pull/13408)
 -   [`d7230bc`](https://github.com/stdlib-js/stdlib/commit/d7230bcd6cdce0167e4b5f6cd5c9e583624c728d) - add `cindexOfTruthy` and `zindexOfFalsy` to namespace
 -   [`ff523e7`](https://github.com/stdlib-js/stdlib/commit/ff523e73a3e2a2c9dd577d42313888b7e562e7f3) - add `blas/ext/base/zindex-of-falsy` [(#12989)](https://github.com/stdlib-js/stdlib/pull/12989)
 -   [`30c578b`](https://github.com/stdlib-js/stdlib/commit/30c578bc4df338b5e0a5f0a10faa35b8808fb880) - add `blas/ext/base/cindex-of-truthy` [(#12994)](https://github.com/stdlib-js/stdlib/pull/12994)
@@ -386,6 +387,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`f42d3ce`](https://github.com/stdlib-js/stdlib/commit/f42d3cebb2b57cbf289b9d96ed94f05df8caa858) - **feat:** add `blas/ext/base/dfirst-index-greater-than` [(#13408)](https://github.com/stdlib-js/stdlib/pull/13408) _(by Muhammad Haris, Athan Reines)_
 -   [`be0b1f5`](https://github.com/stdlib-js/stdlib/commit/be0b1f501a4af5546f7ff6ee979585e22bdd56a6) - **chore:** clean-up [(#13780)](https://github.com/stdlib-js/stdlib/pull/13780) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f334901`](https://github.com/stdlib-js/stdlib/commit/f3349012867d8b8adff1d23ebfd4f35896e94ded) - **refactor:** avoid repeated casting _(by Athan Reines)_
 -   [`d7230bc`](https://github.com/stdlib-js/stdlib/commit/d7230bcd6cdce0167e4b5f6cd5c9e583624c728d) - **feat:** add `cindexOfTruthy` and `zindexOfFalsy` to namespace _(by Athan Reines)_
