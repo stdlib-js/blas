@@ -394,6 +394,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`152c83e`](https://github.com/stdlib-js/stdlib/commit/152c83eaf20ed9d0da1a2eb4c490eac234c397a5) - **docs:** fix comment _(by Athan Reines)_
 -   [`2e0a4b4`](https://github.com/stdlib-js/stdlib/commit/2e0a4b41b3c6195a1bb6d3fedf9803cfa10a71ce) - **feat:** add `blas/ext/base/dtriu` [(#13758)](https://github.com/stdlib-js/stdlib/pull/13758) _(by Kaustubh Patange, Athan Reines)_
 -   [`4da1e58`](https://github.com/stdlib-js/stdlib/commit/4da1e5810731cacf819808f65463ceecbad6e020) - **bench:** fix benchmark names _(by Athan Reines)_
 -   [`2e9a21f`](https://github.com/stdlib-js/stdlib/commit/2e9a21fd12aa2e7ad0a6051a4de041e06e8c125e) - **feat:** add `cindexOfFalsy`, `sindexOfNotEqual`, and `zany` to namespace _(by Athan Reines)_
