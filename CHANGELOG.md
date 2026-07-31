@@ -398,6 +398,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`382065d`](https://github.com/stdlib-js/stdlib/commit/382065db2b6fa61764c0f170d8fc47fc41ceb38e) - **docs:** fix C API examples in `blas/ext/base/zwxmy` [(#13802)](https://github.com/stdlib-js/stdlib/pull/13802) _(by Philipp Burckhardt)_
 -   [`8e73a39`](https://github.com/stdlib-js/stdlib/commit/8e73a393a749f649f7c16f0e763c16c16eea8b0b) - **feat:** add `zwxmy` to namespace _(by Athan Reines)_
 -   [`451c6c8`](https://github.com/stdlib-js/stdlib/commit/451c6c8ba0e1b7d6183a9bb2b53b68c22a9b3e8d) - **feat:** add `blas/ext/base/zwxmy` [(#13715)](https://github.com/stdlib-js/stdlib/pull/13715) _(by Karan Anand)_
 -   [`d389b17`](https://github.com/stdlib-js/stdlib/commit/d389b17e2d3a7899dd14810d2e39d507dbe11ab4) - **test:** fix test messages _(by Athan Reines)_
