@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797)
 -   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821)
 -   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822)
 -   [`deeb87b`](https://github.com/stdlib-js/stdlib/commit/deeb87be93d9cd4d199cb137eac42757cc14c6a2) - add `zlastIndexOfFalsy` to namespace
@@ -405,6 +406,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - **feat:** add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797) _(by Karan Anand, Athan Reines)_
 -   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821) _(by stdlib-bot)_
 -   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - **feat:** update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822) _(by stdlib-bot)_
 -   [`23754ee`](https://github.com/stdlib-js/stdlib/commit/23754ee4984d1234aad0ed046a1387232f472ae6) - **docs:** update namespace table of contents [(#13824)](https://github.com/stdlib-js/stdlib/pull/13824) _(by stdlib-bot)_
