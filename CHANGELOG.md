@@ -410,6 +410,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
 -   [`8c49b29`](https://github.com/stdlib-js/stdlib/commit/8c49b2968db52866bb550ee1cfde60567c60eca9) - **docs:** update examples [(#13846)](https://github.com/stdlib-js/stdlib/pull/13846) _(by Karan Anand)_
 -   [`37cc961`](https://github.com/stdlib-js/stdlib/commit/37cc96143f614cd6d98279fdf9c55bf0774f38dd) - **feat:** add `blas/ext/base/gwxdy` [(#13845)](https://github.com/stdlib-js/stdlib/pull/13845) _(by Karan Anand, Athan Reines)_
 -   [`7c04275`](https://github.com/stdlib-js/stdlib/commit/7c04275a9a0843b2031922a8d98af83869d092e7) - **docs:** clean-up [(#13833)](https://github.com/stdlib-js/stdlib/pull/13833) _(by Philipp Burckhardt)_
