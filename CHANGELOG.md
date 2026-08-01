@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c76524b`](https://github.com/stdlib-js/stdlib/commit/c76524be87a121a6582d0aef3bb4cea4f0b2b787) - add `blas/ext/base/zwxsy` [(#13795)](https://github.com/stdlib-js/stdlib/pull/13795)
 -   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797)
 -   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821)
 -   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822)
@@ -406,6 +407,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`c76524b`](https://github.com/stdlib-js/stdlib/commit/c76524be87a121a6582d0aef3bb4cea4f0b2b787) - **feat:** add `blas/ext/base/zwxsy` [(#13795)](https://github.com/stdlib-js/stdlib/pull/13795) _(by Karan Anand, Athan Reines)_
 -   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - **feat:** add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797) _(by Karan Anand, Athan Reines)_
 -   [`6628c7e`](https://github.com/stdlib-js/stdlib/commit/6628c7ef569d23c7e469a6d03b0e332dc81a02a3) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13821)](https://github.com/stdlib-js/stdlib/pull/13821) _(by stdlib-bot)_
 -   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - **feat:** update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822) _(by stdlib-bot)_
