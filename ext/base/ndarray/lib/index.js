@@ -604,6 +604,15 @@ setReadOnly( ns, 'gcusumors', require( './../../../../ext/base/ndarray/gcusumors
 setReadOnly( ns, 'gcusumpw', require( './../../../../ext/base/ndarray/gcusumpw' ) );
 
 /**
+* @name gfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-equal}
+*/
+setReadOnly( ns, 'gfillEqual', require( './../../../../ext/base/ndarray/gfill-equal' ) );
+
+/**
 * @name gfillNotEqual
 * @memberof ns
 * @readonly
@@ -998,6 +1007,15 @@ setReadOnly( ns, 'sfillNotEqual', require( './../../../../ext/base/ndarray/sfill
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sindex-of}
 */
 setReadOnly( ns, 'sindexOf', require( './../../../../ext/base/ndarray/sindex-of' ) );
+
+/**
+* @name sindexOfNotEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sindex-of-not-equal}
+*/
+setReadOnly( ns, 'sindexOfNotEqual', require( './../../../../ext/base/ndarray/sindex-of-not-equal' ) );
 
 /**
 * @name slastIndexOf
