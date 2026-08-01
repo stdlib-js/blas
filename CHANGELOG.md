@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2d0146e`](https://github.com/stdlib-js/stdlib/commit/2d0146e71b2957dc84b5e5ede17d1ab83f536954) - add `blas/ext/base/dfill-less-than` [(#13526)](https://github.com/stdlib-js/stdlib/pull/13526)
 -   [`c73cd19`](https://github.com/stdlib-js/stdlib/commit/c73cd19b8091980d997ffe984a21a12cb6120de7) - add `cwxsy` and `zwxsy` to namespace
 -   [`c76524b`](https://github.com/stdlib-js/stdlib/commit/c76524be87a121a6582d0aef3bb4cea4f0b2b787) - add `blas/ext/base/zwxsy` [(#13795)](https://github.com/stdlib-js/stdlib/pull/13795)
 -   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797)
@@ -408,6 +409,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`2d0146e`](https://github.com/stdlib-js/stdlib/commit/2d0146e71b2957dc84b5e5ede17d1ab83f536954) - **feat:** add `blas/ext/base/dfill-less-than` [(#13526)](https://github.com/stdlib-js/stdlib/pull/13526) _(by Muhammad Haris)_
 -   [`c73cd19`](https://github.com/stdlib-js/stdlib/commit/c73cd19b8091980d997ffe984a21a12cb6120de7) - **feat:** add `cwxsy` and `zwxsy` to namespace _(by Athan Reines)_
 -   [`c76524b`](https://github.com/stdlib-js/stdlib/commit/c76524be87a121a6582d0aef3bb4cea4f0b2b787) - **feat:** add `blas/ext/base/zwxsy` [(#13795)](https://github.com/stdlib-js/stdlib/pull/13795) _(by Karan Anand, Athan Reines)_
 -   [`1a8c0fa`](https://github.com/stdlib-js/stdlib/commit/1a8c0fa1384559cc6a5f555ef45a4f4cd86ff86c) - **feat:** add `blas/ext/base/cwxsy` [(#13797)](https://github.com/stdlib-js/stdlib/pull/13797) _(by Karan Anand, Athan Reines)_
