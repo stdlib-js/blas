@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-31)
+## Unreleased (2026-08-01)
 
 <section class="features">
 
 ### Features
 
+-   [`bdd912c`](https://github.com/stdlib-js/stdlib/commit/bdd912cecb2c3485281ad3552667b8c1b4a529cb) - add `blas/ext/base/ndarray/gfill-equal` [(#13561)](https://github.com/stdlib-js/stdlib/pull/13561)
 -   [`8e73a39`](https://github.com/stdlib-js/stdlib/commit/8e73a393a749f649f7c16f0e763c16c16eea8b0b) - add `zwxmy` to namespace
 -   [`451c6c8`](https://github.com/stdlib-js/stdlib/commit/451c6c8ba0e1b7d6183a9bb2b53b68c22a9b3e8d) - add `blas/ext/base/zwxmy` [(#13715)](https://github.com/stdlib-js/stdlib/pull/13715)
 -   [`8f69a3d`](https://github.com/stdlib-js/stdlib/commit/8f69a3de6d8cdd35d69e5524b6b8df2ae8dfd641) - add `dtriu` and `striu` to namespace
@@ -398,6 +399,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`bdd912c`](https://github.com/stdlib-js/stdlib/commit/bdd912cecb2c3485281ad3552667b8c1b4a529cb) - **feat:** add `blas/ext/base/ndarray/gfill-equal` [(#13561)](https://github.com/stdlib-js/stdlib/pull/13561) _(by Muhammad Haris, Athan Reines)_
 -   [`430fdea`](https://github.com/stdlib-js/stdlib/commit/430fdea947428af11c0e75dc6f6a0bd3cbd13e88) - **chore:** clean-up [(#13805)](https://github.com/stdlib-js/stdlib/pull/13805) _(by Philipp Burckhardt)_
 -   [`382065d`](https://github.com/stdlib-js/stdlib/commit/382065db2b6fa61764c0f170d8fc47fc41ceb38e) - **docs:** fix C API examples in `blas/ext/base/zwxmy` [(#13802)](https://github.com/stdlib-js/stdlib/pull/13802) _(by Philipp Burckhardt)_
 -   [`8e73a39`](https://github.com/stdlib-js/stdlib/commit/8e73a393a749f649f7c16f0e763c16c16eea8b0b) - **feat:** add `zwxmy` to namespace _(by Athan Reines)_
