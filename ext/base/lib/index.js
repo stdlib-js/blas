@@ -228,6 +228,15 @@ setReadOnly( ns, 'cwhere', require( './../../../ext/base/cwhere' ) );
 setReadOnly( ns, 'cwxsa', require( './../../../ext/base/cwxsa' ) );
 
 /**
+* @name cwxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cwxsy}
+*/
+setReadOnly( ns, 'cwxsy', require( './../../../ext/base/cwxsy' ) );
+
+/**
 * @name cxmy
 * @memberof ns
 * @readonly
@@ -3259,6 +3268,15 @@ setReadOnly( ns, 'zwxmy', require( './../../../ext/base/zwxmy' ) );
 * @see {@link module:@stdlib/blas/ext/base/zwxsa}
 */
 setReadOnly( ns, 'zwxsa', require( './../../../ext/base/zwxsa' ) );
+
+/**
+* @name zwxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zwxsy}
+*/
+setReadOnly( ns, 'zwxsy', require( './../../../ext/base/zwxsy' ) );
 
 /**
 * @name zxdy
