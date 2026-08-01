@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822)
 -   [`deeb87b`](https://github.com/stdlib-js/stdlib/commit/deeb87be93d9cd4d199cb137eac42757cc14c6a2) - add `zlastIndexOfFalsy` to namespace
 -   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - add `gfillEqual` and `sindexOfNotEqual` to namespace
 -   [`321bbd8`](https://github.com/stdlib-js/stdlib/commit/321bbd80199d4fc09e59e5d00bd0996fed349005) - add `blas/ext/base/ndarray/sindex-of-not-equal` [(#13560)](https://github.com/stdlib-js/stdlib/pull/13560)
@@ -403,6 +404,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`94bf37f`](https://github.com/stdlib-js/stdlib/commit/94bf37f511638f34e84d59d09874d0b0acf89373) - **feat:** update `blas/ext/base` TypeScript declarations [(#13822)](https://github.com/stdlib-js/stdlib/pull/13822) _(by stdlib-bot)_
 -   [`23754ee`](https://github.com/stdlib-js/stdlib/commit/23754ee4984d1234aad0ed046a1387232f472ae6) - **docs:** update namespace table of contents [(#13824)](https://github.com/stdlib-js/stdlib/pull/13824) _(by stdlib-bot)_
 -   [`deeb87b`](https://github.com/stdlib-js/stdlib/commit/deeb87be93d9cd4d199cb137eac42757cc14c6a2) - **feat:** add `zlastIndexOfFalsy` to namespace _(by Athan Reines)_
 -   [`f7f06ec`](https://github.com/stdlib-js/stdlib/commit/f7f06ec06d23b1b67d90d955b32b595a476fb6b3) - **feat:** add `gfillEqual` and `sindexOfNotEqual` to namespace _(by Athan Reines)_
