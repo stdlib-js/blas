@@ -409,6 +409,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7c04275`](https://github.com/stdlib-js/stdlib/commit/7c04275a9a0843b2031922a8d98af83869d092e7) - **docs:** clean-up [(#13833)](https://github.com/stdlib-js/stdlib/pull/13833) _(by Philipp Burckhardt)_
 -   [`5b3b59d`](https://github.com/stdlib-js/stdlib/commit/5b3b59d5e2b5676d94d293fa6f6aa6e06f327a2c) - **docs:** update examples [(#13844)](https://github.com/stdlib-js/stdlib/pull/13844) _(by Karan Anand)_
 -   [`2d0146e`](https://github.com/stdlib-js/stdlib/commit/2d0146e71b2957dc84b5e5ede17d1ab83f536954) - **feat:** add `blas/ext/base/dfill-less-than` [(#13526)](https://github.com/stdlib-js/stdlib/pull/13526) _(by Muhammad Haris)_
 -   [`c73cd19`](https://github.com/stdlib-js/stdlib/commit/c73cd19b8091980d997ffe984a21a12cb6120de7) - **feat:** add `cwxsy` and `zwxsy` to namespace _(by Athan Reines)_
