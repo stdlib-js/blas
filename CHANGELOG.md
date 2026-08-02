@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b91e51f`](https://github.com/stdlib-js/stdlib/commit/b91e51f9fbbfeb39da38dfc5c39c206f14dde07f) - add `blas/ext/base/gcopy-within` [(#10862)](https://github.com/stdlib-js/stdlib/pull/10862)
 -   [`e903413`](https://github.com/stdlib-js/stdlib/commit/e903413fb24789de121e364ad73c7c7a17466992) - add `blas/ext/base/dlast-index-equal` [(#13387)](https://github.com/stdlib-js/stdlib/pull/13387)
 -   [`37cc961`](https://github.com/stdlib-js/stdlib/commit/37cc96143f614cd6d98279fdf9c55bf0774f38dd) - add `blas/ext/base/gwxdy` [(#13845)](https://github.com/stdlib-js/stdlib/pull/13845)
 -   [`2d0146e`](https://github.com/stdlib-js/stdlib/commit/2d0146e71b2957dc84b5e5ede17d1ab83f536954) - add `blas/ext/base/dfill-less-than` [(#13526)](https://github.com/stdlib-js/stdlib/pull/13526)
@@ -411,6 +412,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`b91e51f`](https://github.com/stdlib-js/stdlib/commit/b91e51f9fbbfeb39da38dfc5c39c206f14dde07f) - **feat:** add `blas/ext/base/gcopy-within` [(#10862)](https://github.com/stdlib-js/stdlib/pull/10862) _(by Muhammad Haris, Athan Reines)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`e903413`](https://github.com/stdlib-js/stdlib/commit/e903413fb24789de121e364ad73c7c7a17466992) - **feat:** add `blas/ext/base/dlast-index-equal` [(#13387)](https://github.com/stdlib-js/stdlib/pull/13387) _(by Muhammad Haris, Athan Reines)_
 -   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
