@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-01)
+## Unreleased (2026-08-02)
 
 <section class="features">
 
 ### Features
 
+-   [`e903413`](https://github.com/stdlib-js/stdlib/commit/e903413fb24789de121e364ad73c7c7a17466992) - add `blas/ext/base/dlast-index-equal` [(#13387)](https://github.com/stdlib-js/stdlib/pull/13387)
 -   [`37cc961`](https://github.com/stdlib-js/stdlib/commit/37cc96143f614cd6d98279fdf9c55bf0774f38dd) - add `blas/ext/base/gwxdy` [(#13845)](https://github.com/stdlib-js/stdlib/pull/13845)
 -   [`2d0146e`](https://github.com/stdlib-js/stdlib/commit/2d0146e71b2957dc84b5e5ede17d1ab83f536954) - add `blas/ext/base/dfill-less-than` [(#13526)](https://github.com/stdlib-js/stdlib/pull/13526)
 -   [`c73cd19`](https://github.com/stdlib-js/stdlib/commit/c73cd19b8091980d997ffe984a21a12cb6120de7) - add `cwxsy` and `zwxsy` to namespace
@@ -410,6 +411,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`e903413`](https://github.com/stdlib-js/stdlib/commit/e903413fb24789de121e364ad73c7c7a17466992) - **feat:** add `blas/ext/base/dlast-index-equal` [(#13387)](https://github.com/stdlib-js/stdlib/pull/13387) _(by Muhammad Haris, Athan Reines)_
 -   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
 -   [`8c49b29`](https://github.com/stdlib-js/stdlib/commit/8c49b2968db52866bb550ee1cfde60567c60eca9) - **docs:** update examples [(#13846)](https://github.com/stdlib-js/stdlib/pull/13846) _(by Karan Anand)_
 -   [`37cc961`](https://github.com/stdlib-js/stdlib/commit/37cc96143f614cd6d98279fdf9c55bf0774f38dd) - **feat:** add `blas/ext/base/gwxdy` [(#13845)](https://github.com/stdlib-js/stdlib/pull/13845) _(by Karan Anand, Athan Reines)_
