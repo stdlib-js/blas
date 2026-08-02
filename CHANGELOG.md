@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d312ff9`](https://github.com/stdlib-js/stdlib/commit/d312ff98dc0d667d26f4409cd45629aa2dbed0ca) - add various symbols to namespace
 -   [`b91e51f`](https://github.com/stdlib-js/stdlib/commit/b91e51f9fbbfeb39da38dfc5c39c206f14dde07f) - add `blas/ext/base/gcopy-within` [(#10862)](https://github.com/stdlib-js/stdlib/pull/10862)
 -   [`e903413`](https://github.com/stdlib-js/stdlib/commit/e903413fb24789de121e364ad73c7c7a17466992) - add `blas/ext/base/dlast-index-equal` [(#13387)](https://github.com/stdlib-js/stdlib/pull/13387)
 -   [`37cc961`](https://github.com/stdlib-js/stdlib/commit/37cc96143f614cd6d98279fdf9c55bf0774f38dd) - add `blas/ext/base/gwxdy` [(#13845)](https://github.com/stdlib-js/stdlib/pull/13845)
@@ -412,6 +413,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d312ff9`](https://github.com/stdlib-js/stdlib/commit/d312ff98dc0d667d26f4409cd45629aa2dbed0ca) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`b91e51f`](https://github.com/stdlib-js/stdlib/commit/b91e51f9fbbfeb39da38dfc5c39c206f14dde07f) - **feat:** add `blas/ext/base/gcopy-within` [(#10862)](https://github.com/stdlib-js/stdlib/pull/10862) _(by Muhammad Haris, Athan Reines)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`e903413`](https://github.com/stdlib-js/stdlib/commit/e903413fb24789de121e364ad73c7c7a17466992) - **feat:** add `blas/ext/base/dlast-index-equal` [(#13387)](https://github.com/stdlib-js/stdlib/pull/13387) _(by Muhammad Haris, Athan Reines)_

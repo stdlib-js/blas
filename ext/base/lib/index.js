@@ -525,6 +525,15 @@ setReadOnly( ns, 'dfill', require( './../../../ext/base/dfill' ) );
 setReadOnly( ns, 'dfillEqual', require( './../../../ext/base/dfill-equal' ) );
 
 /**
+* @name dfillLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dfill-less-than}
+*/
+setReadOnly( ns, 'dfillLessThan', require( './../../../ext/base/dfill-less-than' ) );
+
+/**
 * @name dfillNaN
 * @memberof ns
 * @readonly
@@ -622,6 +631,15 @@ setReadOnly( ns, 'dindexOfRow', require( './../../../ext/base/dindex-of-row' ) )
 * @see {@link module:@stdlib/blas/ext/base/dindex-of-truthy}
 */
 setReadOnly( ns, 'dindexOfTruthy', require( './../../../ext/base/dindex-of-truthy' ) );
+
+/**
+* @name dlastIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dlast-index-equal}
+*/
+setReadOnly( ns, 'dlastIndexEqual', require( './../../../ext/base/dlast-index-equal' ) );
 
 /**
 * @name dlastIndexOf
@@ -1398,6 +1416,15 @@ setReadOnly( ns, 'gcircshift', require( './../../../ext/base/gcircshift' ) );
 setReadOnly( ns, 'gconjoin', require( './../../../ext/base/gconjoin' ) );
 
 /**
+* @name gcopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gcopy-within}
+*/
+setReadOnly( ns, 'gcopyWithin', require( './../../../ext/base/gcopy-within' ) );
+
+/**
 * @name gcuany
 * @memberof ns
 * @readonly
@@ -2089,6 +2116,15 @@ setReadOnly( ns, 'gwaxpb', require( './../../../ext/base/gwaxpb' ) );
 * @see {@link module:@stdlib/blas/ext/base/gwhere}
 */
 setReadOnly( ns, 'gwhere', require( './../../../ext/base/gwhere' ) );
+
+/**
+* @name gwxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gwxdy}
+*/
+setReadOnly( ns, 'gwxdy', require( './../../../ext/base/gwxdy' ) );
 
 /**
 * @name gwxmy
