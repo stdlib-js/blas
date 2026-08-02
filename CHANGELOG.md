@@ -411,6 +411,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`e903413`](https://github.com/stdlib-js/stdlib/commit/e903413fb24789de121e364ad73c7c7a17466992) - **feat:** add `blas/ext/base/dlast-index-equal` [(#13387)](https://github.com/stdlib-js/stdlib/pull/13387) _(by Muhammad Haris, Athan Reines)_
 -   [`22fe7a6`](https://github.com/stdlib-js/stdlib/commit/22fe7a64a77d8fecc54da41dac870f2249b0c731) - **bench:** update benchmarks to use decimal literals [(#13849)](https://github.com/stdlib-js/stdlib/pull/13849) _(by Karan Anand)_
 -   [`8c49b29`](https://github.com/stdlib-js/stdlib/commit/8c49b2968db52866bb550ee1cfde60567c60eca9) - **docs:** update examples [(#13846)](https://github.com/stdlib-js/stdlib/pull/13846) _(by Karan Anand)_
