@@ -414,6 +414,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`79eff92`](https://github.com/stdlib-js/stdlib/commit/79eff92a6bf12ed882eedf9fef16a0e40ab1444f) - **docs:** update namespace table of contents [(#13854)](https://github.com/stdlib-js/stdlib/pull/13854) _(by stdlib-bot)_
 -   [`7ef9e66`](https://github.com/stdlib-js/stdlib/commit/7ef9e662b29f764871809e09a04fce0e6eae9059) - **feat:** update `blas/ext/base` TypeScript declarations [(#13853)](https://github.com/stdlib-js/stdlib/pull/13853) _(by stdlib-bot)_
 -   [`d312ff9`](https://github.com/stdlib-js/stdlib/commit/d312ff98dc0d667d26f4409cd45629aa2dbed0ca) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`b91e51f`](https://github.com/stdlib-js/stdlib/commit/b91e51f9fbbfeb39da38dfc5c39c206f14dde07f) - **feat:** add `blas/ext/base/gcopy-within` [(#10862)](https://github.com/stdlib-js/stdlib/pull/10862) _(by Muhammad Haris, Athan Reines)_
