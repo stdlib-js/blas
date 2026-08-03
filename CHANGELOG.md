@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a752a62`](https://github.com/stdlib-js/stdlib/commit/a752a625201ea5c0ff3f77544622ebdf3b1fcf4b) - add `blas/ext/base/scopy-within` [(#10880)](https://github.com/stdlib-js/stdlib/pull/10880)
 -   [`8a59dbb`](https://github.com/stdlib-js/stdlib/commit/8a59dbb67df4d3db474598220b08d3f14c8a8966) - add `dtril` and `stril` to namespace
 -   [`e67b57a`](https://github.com/stdlib-js/stdlib/commit/e67b57abc3958d5e89a8ecb528791cab8902b096) - add `blas/ext/base/stril` [(#13866)](https://github.com/stdlib-js/stdlib/pull/13866)
 -   [`95afc49`](https://github.com/stdlib-js/stdlib/commit/95afc496caf8360f8dbf5c7b560b025c4a94de91) - add `blas/ext/base/dtril` [(#13863)](https://github.com/stdlib-js/stdlib/pull/13863)
@@ -421,6 +422,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`a752a62`](https://github.com/stdlib-js/stdlib/commit/a752a625201ea5c0ff3f77544622ebdf3b1fcf4b) - **feat:** add `blas/ext/base/scopy-within` [(#10880)](https://github.com/stdlib-js/stdlib/pull/10880) _(by Muhammad Haris, Athan Reines)_
+-   [`b766e2c`](https://github.com/stdlib-js/stdlib/commit/b766e2c81ea14ce3e92b4b0d5084a1ad999f231c) - **style:** enable lint rule _(by Athan Reines)_
 -   [`8a59dbb`](https://github.com/stdlib-js/stdlib/commit/8a59dbb67df4d3db474598220b08d3f14c8a8966) - **feat:** add `dtril` and `stril` to namespace _(by Athan Reines)_
 -   [`e67b57a`](https://github.com/stdlib-js/stdlib/commit/e67b57abc3958d5e89a8ecb528791cab8902b096) - **feat:** add `blas/ext/base/stril` [(#13866)](https://github.com/stdlib-js/stdlib/pull/13866) _(by Kaustubh Patange, Athan Reines)_
 -   [`95afc49`](https://github.com/stdlib-js/stdlib/commit/95afc496caf8360f8dbf5c7b560b025c4a94de91) - **feat:** add `blas/ext/base/dtril` [(#13863)](https://github.com/stdlib-js/stdlib/pull/13863) _(by Kaustubh Patange)_

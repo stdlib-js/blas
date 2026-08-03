@@ -18,30 +18,30 @@ limitations under the License.
 
 -->
 
-# dcopyWithin
+# scopyWithin
 
-> Perform an in-place copy of elements within a double-precision floating-point strided array.
+> Perform an in-place copy of elements within a single-precision floating-point strided array.
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var dcopyWithin = require( '@stdlib/blas/ext/base/dcopy-within' );
+var scopyWithin = require( '@stdlib/blas/ext/base/scopy-within' );
 ```
 
-#### dcopyWithin( N, target, start, end, x, strideX, workspace, strideW )
+#### scopyWithin( N, target, start, end, x, strideX, workspace, strideW )
 
-Performs an in-place copy of elements within a double-precision floating-point strided array.
+Performs an in-place copy of elements within a single-precision floating-point strided array.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-var w = new Float64Array( x.length );
+var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+var w = new Float32Array( x.length );
 
-dcopyWithin( x.length, 3, 1, 4, x, 1, w, 1 );
-// x => <Float64Array>[ 1.0, 2.0, 3.0, 2.0, 3.0, 4.0 ]
+scopyWithin( x.length, 3, 1, 4, x, 1, w, 1 );
+// x => <Float32Array>[ 1.0, 2.0, 3.0, 2.0, 3.0, 4.0 ]
 ```
 
 The function has the following parameters:
@@ -50,58 +50,58 @@ The function has the following parameters:
 -   **target**: target index.
 -   **start**: source start index (inclusive).
 -   **end**: source end index (exclusive).
--   **x**: input [`Float64Array`][@stdlib/array/float64].
+-   **x**: input [`Float32Array`][@stdlib/array/float32].
 -   **strideX**: stride length for `x`.
--   **workspace**: workspace [`Float64Array`][@stdlib/array/float64]. Must have at least `N` indexed elements.
+-   **workspace**: workspace [`Float32Array`][@stdlib/array/float32]. Must have at least `N` indexed elements.
 -   **strideW**: stride length for `workspace`.
 
 The `N` and stride parameters determine which elements in the strided array are accessed at runtime. For example, to copy every other element:
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 0.0, 3.0, 0.0, 5.0, 0.0, 7.0, 0.0 ] );
-var w = new Float64Array( 3 );
+var x = new Float32Array( [ 1.0, 0.0, 3.0, 0.0, 5.0, 0.0, 7.0, 0.0 ] );
+var w = new Float32Array( 3 );
 
-dcopyWithin( 3, 0, 1, 6, x, 2, w, 1 );
-// x => <Float64Array>[ 3.0, 0.0, 5.0, 0.0, 5.0, 0.0, 7.0, 0.0 ]
+scopyWithin( 3, 0, 1, 6, x, 2, w, 1 );
+// x => <Float32Array>[ 3.0, 0.0, 5.0, 0.0, 5.0, 0.0, 7.0, 0.0 ]
 ```
 
 Note that indexing is relative to the first index. To introduce an offset, use [`typed array`][mdn-typed-array] views.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
 // Initial array...
-var x0 = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+var x0 = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
 
 // Create an offset view...
-var x1 = new Float64Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
+var x1 = new Float32Array( x0.buffer, x0.BYTES_PER_ELEMENT*1 ); // start at 2nd element
 
 // Create a workspace array...
-var w = new Float64Array( 6 );
+var w = new Float32Array( 6 );
 
 // Copy within the view...
-dcopyWithin( 6, 0, 3, 6, x1, 1, w, 1 );
-// x0 => <Float64Array>[ 1.0, 5.0, 6.0, 7.0, 5.0, 6.0, 7.0, 8.0 ]
+scopyWithin( 6, 0, 3, 6, x1, 1, w, 1 );
+// x0 => <Float32Array>[ 1.0, 5.0, 6.0, 7.0, 5.0, 6.0, 7.0, 8.0 ]
 ```
 
 <!-- lint disable maximum-heading-length -->
 
-#### dcopyWithin.ndarray( N, target, start, end, x, strideX, offsetX, workspace, strideW, offsetW )
+#### scopyWithin.ndarray( N, target, start, end, x, strideX, offsetX, workspace, strideW, offsetW )
 
 <!-- lint enable maximum-heading-length -->
 
-Performs an in-place copy of elements within a double-precision floating-point strided array using alternative indexing semantics.
+Performs an in-place copy of elements within a single-precision floating-point strided array using alternative indexing semantics.
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-var w = new Float64Array( x.length );
+var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+var w = new Float32Array( x.length );
 
-dcopyWithin.ndarray( x.length, 3, 1, 4, x, 1, 0, w, 1, 0 );
-// x => <Float64Array>[ 1.0, 2.0, 3.0, 2.0, 3.0, 4.0 ]
+scopyWithin.ndarray( x.length, 3, 1, 4, x, 1, 0, w, 1, 0 );
+// x => <Float32Array>[ 1.0, 2.0, 3.0, 2.0, 3.0, 4.0 ]
 ```
 
 The function has the following additional parameters:
@@ -112,13 +112,13 @@ The function has the following additional parameters:
 While [`typed array`][mdn-typed-array] views mandate a view offset based on the underlying buffer, the offset parameters support indexing semantics based on starting indices. For example, to copy elements starting from the third element:
 
 ```javascript
-var Float64Array = require( '@stdlib/array/float64' );
+var Float32Array = require( '@stdlib/array/float32' );
 
-var x = new Float64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-var w = new Float64Array( 4 );
+var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+var w = new Float32Array( 4 );
 
-dcopyWithin.ndarray( 4, 2, 0, 2, x, 1, 2, w, 1, 0 );
-// x => <Float64Array>[ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0, 7.0, 8.0 ]
+scopyWithin.ndarray( 4, 2, 0, 2, x, 1, 2, w, 1, 0 );
+// x => <Float32Array>[ 1.0, 2.0, 3.0, 4.0, 3.0, 4.0, 7.0, 8.0 ]
 ```
 
 </section>
@@ -148,17 +148,17 @@ dcopyWithin.ndarray( 4, 2, 0, 2, x, 1, 2, w, 1, 0 );
 ```javascript
 var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
 var zeros = require( '@stdlib/array/zeros' );
-var dcopyWithin = require( '@stdlib/blas/ext/base/dcopy-within' );
+var scopyWithin = require( '@stdlib/blas/ext/base/scopy-within' );
 
 var x = discreteUniform( 10, 0, 500, {
-    'dtype': 'float64'
+    'dtype': 'float32'
 });
 console.log( x );
 
-var w = zeros( 10, 'float64' );
+var w = zeros( 10, 'float32' );
 
 // Copy the first 3 elements to positions 5, 6, 7:
-dcopyWithin( 10, 5, 0, 3, x, 1, w, 1 );
+scopyWithin( 10, 5, 0, 3, x, 1, w, 1 );
 console.log( x );
 ```
 
@@ -189,22 +189,22 @@ console.log( x );
 ### Usage
 
 ```c
-#include "stdlib/blas/ext/base/dcopy_within.h"
+#include "stdlib/blas/ext/base/scopy_within.h"
 ```
 
 <!-- lint disable maximum-heading-length -->
 
-#### stdlib_strided_dcopy_within( N, target, start, end, \*X, strideX, \*W, strideW )
+#### stdlib_strided_scopy_within( N, target, start, end, \*X, strideX, \*W, strideW )
 
 <!-- lint enable maximum-heading-length -->
 
-Performs an in-place copy of elements within a double-precision floating-point strided array.
+Performs an in-place copy of elements within a single-precision floating-point strided array.
 
 ```c
-double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 };
-double w[ 6 ];
+float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f };
+float w[ 6 ];
 
-stdlib_strided_dcopy_within( 6, 3, 1, 4, x, 1, w, 1 );
+stdlib_strided_scopy_within( 6, 3, 1, 4, x, 1, w, 1 );
 ```
 
 The function accepts the following arguments:
@@ -213,28 +213,28 @@ The function accepts the following arguments:
 -   **target**: `[in] CBLAS_INT` target index.
 -   **start**: `[in] CBLAS_INT` source start index (inclusive).
 -   **end**: `[in] CBLAS_INT` source end index (exclusive).
--   **X**: `[inout] double*` input array.
+-   **X**: `[inout] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
--   **W**: `[out] double*` workspace array. Must have at least `N` indexed elements.
+-   **W**: `[out] float*` workspace array. Must have at least `N` indexed elements.
 -   **strideW**: `[in] CBLAS_INT` stride length for `W`.
 
 ```c
-void stdlib_strided_dcopy_within( const CBLAS_INT N, const CBLAS_INT target, const CBLAS_INT start, const CBLAS_INT end, double *X, const CBLAS_INT strideX, double *W, const CBLAS_INT strideW );
+void stdlib_strided_scopy_within( const CBLAS_INT N, const CBLAS_INT target, const CBLAS_INT start, const CBLAS_INT end, float *X, const CBLAS_INT strideX, float *W, const CBLAS_INT strideW );
 ```
 
 <!-- lint disable maximum-heading-length -->
 
-#### stdlib_strided_dcopy_within_ndarray( N, target, start, end, \*X, strideX, offsetX, \*W, strideW, offsetW )
+#### stdlib_strided_scopy_within_ndarray( N, target, start, end, \*X, strideX, offsetX, \*W, strideW, offsetW )
 
 <!-- lint enable maximum-heading-length -->
 
-Performs an in-place copy of elements within a double-precision floating-point strided array using alternative indexing semantics.
+Performs an in-place copy of elements within a single-precision floating-point strided array using alternative indexing semantics.
 
 ```c
-double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 };
-double w[ 6 ];
+float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f };
+float w[ 6 ];
 
-stdlib_strided_dcopy_within_ndarray( 4, 2, 0, 2, x, 1, 1, w, 1, 0 );
+stdlib_strided_scopy_within_ndarray( 4, 2, 0, 2, x, 1, 1, w, 1, 0 );
 ```
 
 The function accepts the following arguments:
@@ -243,15 +243,15 @@ The function accepts the following arguments:
 -   **target**: `[in] CBLAS_INT` target index.
 -   **start**: `[in] CBLAS_INT` source start index (inclusive).
 -   **end**: `[in] CBLAS_INT` source end index (exclusive).
--   **X**: `[inout] double*` input array.
+-   **X**: `[inout] float*` input array.
 -   **strideX**: `[in] CBLAS_INT` stride length for `X`.
 -   **offsetX**: `[in] CBLAS_INT` starting index for `X`.
--   **W**: `[out] double*` workspace array. Must have at least `N` indexed elements.
+-   **W**: `[out] float*` workspace array. Must have at least `N` indexed elements.
 -   **strideW**: `[in] CBLAS_INT` stride length for `W`.
 -   **offsetW**: `[in] CBLAS_INT` starting index for `W`.
 
 ```c
-void stdlib_strided_dcopy_within_ndarray( const CBLAS_INT N, const CBLAS_INT target, const CBLAS_INT start, const CBLAS_INT end, double *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, double *W, const CBLAS_INT strideW, const CBLAS_INT offsetW );
+void stdlib_strided_scopy_within_ndarray( const CBLAS_INT N, const CBLAS_INT target, const CBLAS_INT start, const CBLAS_INT end, float *X, const CBLAS_INT strideX, const CBLAS_INT offsetX, float *W, const CBLAS_INT strideW, const CBLAS_INT offsetW );
 ```
 
 </section>
@@ -273,15 +273,15 @@ void stdlib_strided_dcopy_within_ndarray( const CBLAS_INT N, const CBLAS_INT tar
 ### Examples
 
 ```c
-#include "stdlib/blas/ext/base/dcopy_within.h"
+#include "stdlib/blas/ext/base/scopy_within.h"
 #include <stdio.h>
 
 int main( void ) {
     // Create a strided array:
-    double x[] = { 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 };
+    float x[] = { 1.0f, 2.0f, 3.0f, 4.0f, 5.0f, 6.0f, 7.0f, 8.0f };
 
     // Create a workspace array:
-    double w[ 8 ];
+    float w[ 8 ];
 
     // Specify the number of indexed elements:
     const int N = 8;
@@ -291,11 +291,11 @@ int main( void ) {
     const int strideW = 1;
 
     // Copy elements:
-    stdlib_strided_dcopy_within( N, 4, 1, 4, x, strideX, w, strideW );
+    stdlib_strided_scopy_within( N, 4, 1, 4, x, strideX, w, strideW );
 
     // Print the result:
     for ( int i = 0; i < 8; i++ ) {
-        printf( "x[ %i ] = %lf\n", i, x[ i ] );
+        printf( "x[ %i ] = %f\n", i, x[ i ] );
     }
 }
 ```
@@ -320,7 +320,7 @@ int main( void ) {
 
 <section class="links">
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
