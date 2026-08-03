@@ -408,6 +408,15 @@ setReadOnly( ns, 'dcartesianSquare', require( './../../../ext/base/dcartesian-sq
 setReadOnly( ns, 'dcircshift', require( './../../../ext/base/dcircshift' ) );
 
 /**
+* @name dcopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dcopy-within}
+*/
+setReadOnly( ns, 'dcopyWithin', require( './../../../ext/base/dcopy-within' ) );
+
+/**
 * @name dcuany
 * @memberof ns
 * @readonly
@@ -2053,6 +2062,15 @@ setReadOnly( ns, 'gsumors', require( './../../../ext/base/gsumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/gsumpw}
 */
 setReadOnly( ns, 'gsumpw', require( './../../../ext/base/gsumpw' ) );
+
+/**
+* @name gtril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gtril}
+*/
+setReadOnly( ns, 'gtril', require( './../../../ext/base/gtril' ) );
 
 /**
 * @name gtriu

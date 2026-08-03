@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d7e176f`](https://github.com/stdlib-js/stdlib/commit/d7e176f0b434396ca1b4440e63d56f2cd896d9b7) - add `dcopyWithin` and `gtril` to namespace
 -   [`de7ab3e`](https://github.com/stdlib-js/stdlib/commit/de7ab3e827c58a490ba25dcdd146e0a4880e0846) - add `blas/ext/base/gtril` [(#13867)](https://github.com/stdlib-js/stdlib/pull/13867)
 -   [`15f2e10`](https://github.com/stdlib-js/stdlib/commit/15f2e10394448024fff2a039f952c7bfce36dee4) - add `blas/ext/base/dcopy-within` [(#8234)](https://github.com/stdlib-js/stdlib/pull/8234)
 -   [`7ef9e66`](https://github.com/stdlib-js/stdlib/commit/7ef9e662b29f764871809e09a04fce0e6eae9059) - update `blas/ext/base` TypeScript declarations [(#13853)](https://github.com/stdlib-js/stdlib/pull/13853)
@@ -416,6 +417,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`67eddb8`](https://github.com/stdlib-js/stdlib/commit/67eddb82a1bae564f3603d48d158c820717bf45d) - **docs:** update namespace table of contents [(#13873)](https://github.com/stdlib-js/stdlib/pull/13873) _(by stdlib-bot)_
+-   [`d7e176f`](https://github.com/stdlib-js/stdlib/commit/d7e176f0b434396ca1b4440e63d56f2cd896d9b7) - **feat:** add `dcopyWithin` and `gtril` to namespace _(by Athan Reines)_
 -   [`de7ab3e`](https://github.com/stdlib-js/stdlib/commit/de7ab3e827c58a490ba25dcdd146e0a4880e0846) - **feat:** add `blas/ext/base/gtril` [(#13867)](https://github.com/stdlib-js/stdlib/pull/13867) _(by Kaustubh Patange, Athan Reines)_
 -   [`15f2e10`](https://github.com/stdlib-js/stdlib/commit/15f2e10394448024fff2a039f952c7bfce36dee4) - **feat:** add `blas/ext/base/dcopy-within` [(#8234)](https://github.com/stdlib-js/stdlib/pull/8234) _(by Muhammad Haris, Athan Reines)_
 -   [`156aaa1`](https://github.com/stdlib-js/stdlib/commit/156aaa1c98135aae4cfcb5161d5d1fcec0dd8c6a) - **bench:** update benchmarks to use decimal literals [(#13859)](https://github.com/stdlib-js/stdlib/pull/13859) _(by Philipp Burckhardt)_
