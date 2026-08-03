@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-08-03)
 
 <section class="features">
 
 ### Features
 
+-   [`de7ab3e`](https://github.com/stdlib-js/stdlib/commit/de7ab3e827c58a490ba25dcdd146e0a4880e0846) - add `blas/ext/base/gtril` [(#13867)](https://github.com/stdlib-js/stdlib/pull/13867)
 -   [`15f2e10`](https://github.com/stdlib-js/stdlib/commit/15f2e10394448024fff2a039f952c7bfce36dee4) - add `blas/ext/base/dcopy-within` [(#8234)](https://github.com/stdlib-js/stdlib/pull/8234)
 -   [`7ef9e66`](https://github.com/stdlib-js/stdlib/commit/7ef9e662b29f764871809e09a04fce0e6eae9059) - update `blas/ext/base` TypeScript declarations [(#13853)](https://github.com/stdlib-js/stdlib/pull/13853)
 -   [`d312ff9`](https://github.com/stdlib-js/stdlib/commit/d312ff98dc0d667d26f4409cd45629aa2dbed0ca) - add various symbols to namespace
@@ -415,6 +416,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`de7ab3e`](https://github.com/stdlib-js/stdlib/commit/de7ab3e827c58a490ba25dcdd146e0a4880e0846) - **feat:** add `blas/ext/base/gtril` [(#13867)](https://github.com/stdlib-js/stdlib/pull/13867) _(by Kaustubh Patange, Athan Reines)_
 -   [`15f2e10`](https://github.com/stdlib-js/stdlib/commit/15f2e10394448024fff2a039f952c7bfce36dee4) - **feat:** add `blas/ext/base/dcopy-within` [(#8234)](https://github.com/stdlib-js/stdlib/pull/8234) _(by Muhammad Haris, Athan Reines)_
 -   [`156aaa1`](https://github.com/stdlib-js/stdlib/commit/156aaa1c98135aae4cfcb5161d5d1fcec0dd8c6a) - **bench:** update benchmarks to use decimal literals [(#13859)](https://github.com/stdlib-js/stdlib/pull/13859) _(by Philipp Burckhardt)_
 -   [`00f548b`](https://github.com/stdlib-js/stdlib/commit/00f548b0c52f93db50b68ed853b74c8a836687fd) - **docs:** update descriptions [(#13858)](https://github.com/stdlib-js/stdlib/pull/13858) _(by Philipp Burckhardt, Athan Reines)_
