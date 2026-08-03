@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881)
 -   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882)
 -   [`a752a62`](https://github.com/stdlib-js/stdlib/commit/a752a625201ea5c0ff3f77544622ebdf3b1fcf4b) - add `blas/ext/base/scopy-within` [(#10880)](https://github.com/stdlib-js/stdlib/pull/10880)
 -   [`8a59dbb`](https://github.com/stdlib-js/stdlib/commit/8a59dbb67df4d3db474598220b08d3f14c8a8966) - add `dtril` and `stril` to namespace
@@ -423,6 +424,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - **feat:** add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881) _(by Muhammad Haris)_
 -   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - **feat:** add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882) _(by Muhammad Haris)_
 -   [`a752a62`](https://github.com/stdlib-js/stdlib/commit/a752a625201ea5c0ff3f77544622ebdf3b1fcf4b) - **feat:** add `blas/ext/base/scopy-within` [(#10880)](https://github.com/stdlib-js/stdlib/pull/10880) _(by Muhammad Haris, Athan Reines)_
 -   [`b766e2c`](https://github.com/stdlib-js/stdlib/commit/b766e2c81ea14ce3e92b4b0d5084a1ad999f231c) - **style:** enable lint rule _(by Athan Reines)_
