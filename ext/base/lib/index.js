@@ -1137,6 +1137,15 @@ setReadOnly( ns, 'dsumors', require( './../../../ext/base/dsumors' ) );
 setReadOnly( ns, 'dsumpw', require( './../../../ext/base/dsumpw' ) );
 
 /**
+* @name dtril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dtril}
+*/
+setReadOnly( ns, 'dtril', require( './../../../ext/base/dtril' ) );
+
+/**
 * @name dtriu
 * @memberof ns
 * @readonly
@@ -2917,6 +2926,15 @@ setReadOnly( ns, 'ssumors', require( './../../../ext/base/ssumors' ) );
 * @see {@link module:@stdlib/blas/ext/base/ssumpw}
 */
 setReadOnly( ns, 'ssumpw', require( './../../../ext/base/ssumpw' ) );
+
+/**
+* @name stril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/stril}
+*/
+setReadOnly( ns, 'stril', require( './../../../ext/base/stril' ) );
 
 /**
 * @name striu
