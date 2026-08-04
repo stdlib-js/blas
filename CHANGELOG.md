@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bdde224`](https://github.com/stdlib-js/stdlib/commit/bdde2249a6a55b2c32d984d33fd553d305f032e5) - add `blas/ext/base/gindex-of-falsy-row` [(#13898)](https://github.com/stdlib-js/stdlib/pull/13898)
 -   [`bfcc56e`](https://github.com/stdlib-js/stdlib/commit/bfcc56e583728f4ed8bc07d896e98c279e2353fc) - add `blas/ext/base/swxdy` [(#13869)](https://github.com/stdlib-js/stdlib/pull/13869)
 -   [`681a95f`](https://github.com/stdlib-js/stdlib/commit/681a95fc177c62e75d5ace80231d00d8ea777192) - update `blas/ext/base` TypeScript declarations [(#13902)](https://github.com/stdlib-js/stdlib/pull/13902)
 -   [`f27e6eb`](https://github.com/stdlib-js/stdlib/commit/f27e6ebcb209931a4781c92ff3aeb9d4c0fe0552) - add `blas/ext/base/dwxdy` [(#13848)](https://github.com/stdlib-js/stdlib/pull/13848)
@@ -429,6 +430,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`bdde224`](https://github.com/stdlib-js/stdlib/commit/bdde2249a6a55b2c32d984d33fd553d305f032e5) - **feat:** add `blas/ext/base/gindex-of-falsy-row` [(#13898)](https://github.com/stdlib-js/stdlib/pull/13898) _(by Muhammad Haris, Athan Reines)_
 -   [`bfcc56e`](https://github.com/stdlib-js/stdlib/commit/bfcc56e583728f4ed8bc07d896e98c279e2353fc) - **feat:** add `blas/ext/base/swxdy` [(#13869)](https://github.com/stdlib-js/stdlib/pull/13869) _(by Karan Anand)_
 -   [`681a95f`](https://github.com/stdlib-js/stdlib/commit/681a95fc177c62e75d5ace80231d00d8ea777192) - **feat:** update `blas/ext/base` TypeScript declarations [(#13902)](https://github.com/stdlib-js/stdlib/pull/13902) _(by stdlib-bot)_
 -   [`f27e6eb`](https://github.com/stdlib-js/stdlib/commit/f27e6ebcb209931a4781c92ff3aeb9d4c0fe0552) - **feat:** add `blas/ext/base/dwxdy` [(#13848)](https://github.com/stdlib-js/stdlib/pull/13848) _(by Karan Anand)_
