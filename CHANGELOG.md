@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - add various symbols to namespace
+-   [`07a265b`](https://github.com/stdlib-js/stdlib/commit/07a265bb24da3a0f33e841263a12ecb60df95632) - add various symbols to namespace
 -   [`ed05eba`](https://github.com/stdlib-js/stdlib/commit/ed05ebae6eaf67c166d0078d4209afd58b1540b4) - add `blas/ext/base/ctriu` [(#13896)](https://github.com/stdlib-js/stdlib/pull/13896)
 -   [`ee75563`](https://github.com/stdlib-js/stdlib/commit/ee7556317b4e4441f933eddb7758d1ed03dad6ee) - add `blas/ext/base/ztriu` [(#13900)](https://github.com/stdlib-js/stdlib/pull/13900)
 -   [`bdde224`](https://github.com/stdlib-js/stdlib/commit/bdde2249a6a55b2c32d984d33fd553d305f032e5) - add `blas/ext/base/gindex-of-falsy-row` [(#13898)](https://github.com/stdlib-js/stdlib/pull/13898)
@@ -432,6 +434,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`07a265b`](https://github.com/stdlib-js/stdlib/commit/07a265bb24da3a0f33e841263a12ecb60df95632) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`ed05eba`](https://github.com/stdlib-js/stdlib/commit/ed05ebae6eaf67c166d0078d4209afd58b1540b4) - **feat:** add `blas/ext/base/ctriu` [(#13896)](https://github.com/stdlib-js/stdlib/pull/13896) _(by Kaustubh Patange)_
 -   [`ee75563`](https://github.com/stdlib-js/stdlib/commit/ee7556317b4e4441f933eddb7758d1ed03dad6ee) - **feat:** add `blas/ext/base/ztriu` [(#13900)](https://github.com/stdlib-js/stdlib/pull/13900) _(by Kaustubh Patange, Athan Reines)_
 -   [`6cb7bb0`](https://github.com/stdlib-js/stdlib/commit/6cb7bb0cb01c6f76bb308b7071df88d84b0f7a54) - **docs:** update namespace table of contents [(#13904)](https://github.com/stdlib-js/stdlib/pull/13904) _(by stdlib-bot)_

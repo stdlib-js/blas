@@ -183,6 +183,15 @@ setReadOnly( ns, 'csum', require( './../../../ext/base/csum' ) );
 setReadOnly( ns, 'csumkbn', require( './../../../ext/base/csumkbn' ) );
 
 /**
+* @name ctriu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ctriu}
+*/
+setReadOnly( ns, 'ctriu', require( './../../../ext/base/ctriu' ) );
+
+/**
 * @name cunitspace
 * @memberof ns
 * @readonly
@@ -1200,6 +1209,15 @@ setReadOnly( ns, 'dwax', require( './../../../ext/base/dwax' ) );
 setReadOnly( ns, 'dwhere', require( './../../../ext/base/dwhere' ) );
 
 /**
+* @name dwxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dwxdy}
+*/
+setReadOnly( ns, 'dwxdy', require( './../../../ext/base/dwxdy' ) );
+
+/**
 * @name dwxmy
 * @memberof ns
 * @readonly
@@ -1684,6 +1702,15 @@ setReadOnly( ns, 'gindexOfColumn', require( './../../../ext/base/gindex-of-colum
 * @see {@link module:@stdlib/blas/ext/base/gindex-of-falsy}
 */
 setReadOnly( ns, 'gindexOfFalsy', require( './../../../ext/base/gindex-of-falsy' ) );
+
+/**
+* @name gindexOfFalsyRow
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-falsy-row}
+*/
+setReadOnly( ns, 'gindexOfFalsyRow', require( './../../../ext/base/gindex-of-falsy-row' ) );
 
 /**
 * @name gindexOfNotEqual
@@ -2379,6 +2406,15 @@ setReadOnly( ns, 'scartesianSquare', require( './../../../ext/base/scartesian-sq
 setReadOnly( ns, 'scircshift', require( './../../../ext/base/scircshift' ) );
 
 /**
+* @name scopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/scopy-within}
+*/
+setReadOnly( ns, 'scopyWithin', require( './../../../ext/base/scopy-within' ) );
+
+/**
 * @name scuany
 * @memberof ns
 * @readonly
@@ -2991,6 +3027,15 @@ setReadOnly( ns, 'swax', require( './../../../ext/base/swax' ) );
 setReadOnly( ns, 'swhere', require( './../../../ext/base/swhere' ) );
 
 /**
+* @name swxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/swxdy}
+*/
+setReadOnly( ns, 'swxdy', require( './../../../ext/base/swxdy' ) );
+
+/**
 * @name swxmy
 * @memberof ns
 * @readonly
@@ -3286,6 +3331,15 @@ setReadOnly( ns, 'zsum', require( './../../../ext/base/zsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/zsumkbn}
 */
 setReadOnly( ns, 'zsumkbn', require( './../../../ext/base/zsumkbn' ) );
+
+/**
+* @name ztriu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ztriu}
+*/
+setReadOnly( ns, 'ztriu', require( './../../../ext/base/ztriu' ) );
 
 /**
 * @name zunitspace

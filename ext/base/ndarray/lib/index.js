@@ -64,6 +64,15 @@ setReadOnly( ns, 'caxpby', require( './../../../../ext/base/ndarray/caxpby' ) );
 setReadOnly( ns, 'cindexOf', require( './../../../../ext/base/ndarray/cindex-of' ) );
 
 /**
+* @name cindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cindex-of-truthy}
+*/
+setReadOnly( ns, 'cindexOfTruthy', require( './../../../../ext/base/ndarray/cindex-of-truthy' ) );
+
+/**
 * @name coneTo
 * @memberof ns
 * @readonly
@@ -296,6 +305,15 @@ setReadOnly( ns, 'dindexOfFalsy', require( './../../../../ext/base/ndarray/dinde
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dindex-of-not-equal}
 */
 setReadOnly( ns, 'dindexOfNotEqual', require( './../../../../ext/base/ndarray/dindex-of-not-equal' ) );
+
+/**
+* @name dindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dindex-of-truthy}
+*/
+setReadOnly( ns, 'dindexOfTruthy', require( './../../../../ext/base/ndarray/dindex-of-truthy' ) );
 
 /**
 * @name dlastIndexOf
@@ -1018,6 +1036,15 @@ setReadOnly( ns, 'sindexOf', require( './../../../../ext/base/ndarray/sindex-of'
 setReadOnly( ns, 'sindexOfNotEqual', require( './../../../../ext/base/ndarray/sindex-of-not-equal' ) );
 
 /**
+* @name sindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sindex-of-truthy}
+*/
+setReadOnly( ns, 'sindexOfTruthy', require( './../../../../ext/base/ndarray/sindex-of-truthy' ) );
+
+/**
 * @name slastIndexOf
 * @memberof ns
 * @readonly
@@ -1250,6 +1277,15 @@ setReadOnly( ns, 'zaxpby', require( './../../../../ext/base/ndarray/zaxpby' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zindex-of}
 */
 setReadOnly( ns, 'zindexOf', require( './../../../../ext/base/ndarray/zindex-of' ) );
+
+/**
+* @name zindexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zindex-of-truthy}
+*/
+setReadOnly( ns, 'zindexOfTruthy', require( './../../../../ext/base/ndarray/zindex-of-truthy' ) );
 
 /**
 * @name zoneTo
