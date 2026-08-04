@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ee75563`](https://github.com/stdlib-js/stdlib/commit/ee7556317b4e4441f933eddb7758d1ed03dad6ee) - add `blas/ext/base/ztriu` [(#13900)](https://github.com/stdlib-js/stdlib/pull/13900)
 -   [`bdde224`](https://github.com/stdlib-js/stdlib/commit/bdde2249a6a55b2c32d984d33fd553d305f032e5) - add `blas/ext/base/gindex-of-falsy-row` [(#13898)](https://github.com/stdlib-js/stdlib/pull/13898)
 -   [`bfcc56e`](https://github.com/stdlib-js/stdlib/commit/bfcc56e583728f4ed8bc07d896e98c279e2353fc) - add `blas/ext/base/swxdy` [(#13869)](https://github.com/stdlib-js/stdlib/pull/13869)
 -   [`681a95f`](https://github.com/stdlib-js/stdlib/commit/681a95fc177c62e75d5ace80231d00d8ea777192) - update `blas/ext/base` TypeScript declarations [(#13902)](https://github.com/stdlib-js/stdlib/pull/13902)
@@ -430,6 +431,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ee75563`](https://github.com/stdlib-js/stdlib/commit/ee7556317b4e4441f933eddb7758d1ed03dad6ee) - **feat:** add `blas/ext/base/ztriu` [(#13900)](https://github.com/stdlib-js/stdlib/pull/13900) _(by Kaustubh Patange, Athan Reines)_
 -   [`6cb7bb0`](https://github.com/stdlib-js/stdlib/commit/6cb7bb0cb01c6f76bb308b7071df88d84b0f7a54) - **docs:** update namespace table of contents [(#13904)](https://github.com/stdlib-js/stdlib/pull/13904) _(by stdlib-bot)_
 -   [`bdde224`](https://github.com/stdlib-js/stdlib/commit/bdde2249a6a55b2c32d984d33fd553d305f032e5) - **feat:** add `blas/ext/base/gindex-of-falsy-row` [(#13898)](https://github.com/stdlib-js/stdlib/pull/13898) _(by Muhammad Haris, Athan Reines)_
 -   [`bfcc56e`](https://github.com/stdlib-js/stdlib/commit/bfcc56e583728f4ed8bc07d896e98c279e2353fc) - **feat:** add `blas/ext/base/swxdy` [(#13869)](https://github.com/stdlib-js/stdlib/pull/13869) _(by Karan Anand)_
