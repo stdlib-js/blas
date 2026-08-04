@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885)
 -   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887)
 -   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881)
 -   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882)
@@ -425,6 +426,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - **feat:** add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885) _(by Muhammad Haris)_
 -   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - **feat:** add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887) _(by Muhammad Haris)_
 -   [`fa9cd2c`](https://github.com/stdlib-js/stdlib/commit/fa9cd2c7f7d3422b12942d1c65511d422075ee58) - **feat:** add `blas/ext/base/ndarray/dindex-of-truthy` [(#13881)](https://github.com/stdlib-js/stdlib/pull/13881) _(by Muhammad Haris)_
 -   [`7990082`](https://github.com/stdlib-js/stdlib/commit/7990082003e2fed3624714a9d073ea9600a359cc) - **feat:** add `blas/ext/base/ndarray/sindex-of-truthy` [(#13882)](https://github.com/stdlib-js/stdlib/pull/13882) _(by Muhammad Haris)_
