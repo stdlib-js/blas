@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`681a95f`](https://github.com/stdlib-js/stdlib/commit/681a95fc177c62e75d5ace80231d00d8ea777192) - update `blas/ext/base` TypeScript declarations [(#13902)](https://github.com/stdlib-js/stdlib/pull/13902)
 -   [`f27e6eb`](https://github.com/stdlib-js/stdlib/commit/f27e6ebcb209931a4781c92ff3aeb9d4c0fe0552) - add `blas/ext/base/dwxdy` [(#13848)](https://github.com/stdlib-js/stdlib/pull/13848)
 -   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885)
 -   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887)
@@ -427,6 +428,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`681a95f`](https://github.com/stdlib-js/stdlib/commit/681a95fc177c62e75d5ace80231d00d8ea777192) - **feat:** update `blas/ext/base` TypeScript declarations [(#13902)](https://github.com/stdlib-js/stdlib/pull/13902) _(by stdlib-bot)_
 -   [`f27e6eb`](https://github.com/stdlib-js/stdlib/commit/f27e6ebcb209931a4781c92ff3aeb9d4c0fe0552) - **feat:** add `blas/ext/base/dwxdy` [(#13848)](https://github.com/stdlib-js/stdlib/pull/13848) _(by Karan Anand)_
 -   [`deb4cc6`](https://github.com/stdlib-js/stdlib/commit/deb4cc6d397356e6bc6523c2ba471a0779588c02) - **feat:** add `blas/ext/base/ndarray/cindex-of-truthy` [(#13885)](https://github.com/stdlib-js/stdlib/pull/13885) _(by Muhammad Haris)_
 -   [`f9cf5fa`](https://github.com/stdlib-js/stdlib/commit/f9cf5fa73ea2476423eab22e31b6972eea1f6760) - **feat:** add `blas/ext/base/ndarray/zindex-of-truthy` [(#13887)](https://github.com/stdlib-js/stdlib/pull/13887) _(by Muhammad Haris)_
