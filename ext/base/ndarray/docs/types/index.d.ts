@@ -23,6 +23,7 @@
 import caxpb = require( './../../../../../ext/base/ndarray/caxpb' );
 import caxpby = require( './../../../../../ext/base/ndarray/caxpby' );
 import cindexOf = require( './../../../../../ext/base/ndarray/cindex-of' );
+import cindexOfTruthy = require( './../../../../../ext/base/ndarray/cindex-of-truthy' );
 import coneTo = require( './../../../../../ext/base/ndarray/cone-to' );
 import csum = require( './../../../../../ext/base/ndarray/csum' );
 import csumkbn = require( './../../../../../ext/base/ndarray/csumkbn' );
@@ -49,6 +50,7 @@ import dfirstIndexLessThan = require( './../../../../../ext/base/ndarray/dfirst-
 import dindexOf = require( './../../../../../ext/base/ndarray/dindex-of' );
 import dindexOfFalsy = require( './../../../../../ext/base/ndarray/dindex-of-falsy' );
 import dindexOfNotEqual = require( './../../../../../ext/base/ndarray/dindex-of-not-equal' );
+import dindexOfTruthy = require( './../../../../../ext/base/ndarray/dindex-of-truthy' );
 import dlastIndexOf = require( './../../../../../ext/base/ndarray/dlast-index-of' );
 import dlinspace = require( './../../../../../ext/base/ndarray/dlinspace' );
 import dnansum = require( './../../../../../ext/base/ndarray/dnansum' );
@@ -129,6 +131,7 @@ import scusumors = require( './../../../../../ext/base/ndarray/scusumors' );
 import sfillNotEqual = require( './../../../../../ext/base/ndarray/sfill-not-equal' );
 import sindexOf = require( './../../../../../ext/base/ndarray/sindex-of' );
 import sindexOfNotEqual = require( './../../../../../ext/base/ndarray/sindex-of-not-equal' );
+import sindexOfTruthy = require( './../../../../../ext/base/ndarray/sindex-of-truthy' );
 import slastIndexOf = require( './../../../../../ext/base/ndarray/slast-index-of' );
 import slinspace = require( './../../../../../ext/base/ndarray/slinspace' );
 import snansum = require( './../../../../../ext/base/ndarray/snansum' );
@@ -155,6 +158,7 @@ import szeroTo = require( './../../../../../ext/base/ndarray/szero-to' );
 import zaxpb = require( './../../../../../ext/base/ndarray/zaxpb' );
 import zaxpby = require( './../../../../../ext/base/ndarray/zaxpby' );
 import zindexOf = require( './../../../../../ext/base/ndarray/zindex-of' );
+import zindexOfTruthy = require( './../../../../../ext/base/ndarray/zindex-of-truthy' );
 import zoneTo = require( './../../../../../ext/base/ndarray/zone-to' );
 import zsum = require( './../../../../../ext/base/ndarray/zsum' );
 import zsumkbn = require( './../../../../../ext/base/ndarray/zsumkbn' );
@@ -274,6 +278,28 @@ interface Namespace {
 	* // returns 1
 	*/
 	cindexOf: typeof cindexOf;
+
+	/**
+	* Returns the index of the first truthy element in a one-dimensional single-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	*
+	* var x = new Complex64Vector( [ 0.0, 0.0, 0.0, 0.0, 3.0, 0.0, 2.0, 0.0 ] );
+	*
+	* var v = ns.cindexOfTruthy( [ x ] );
+	* // returns 2
+	*/
+	cindexOfTruthy: typeof cindexOfTruthy;
 
 	/**
 	* Fills a one-dimensional single-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from one.
@@ -1022,6 +1048,28 @@ interface Namespace {
 	* // returns 2
 	*/
 	dindexOfNotEqual: typeof dindexOfNotEqual;
+
+	/**
+	* Returns the index of the first truthy element in a one-dimensional double-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	*
+	* var x = new Float64Vector( [ 0.0, 0.0, 3.0, 2.0 ] );
+	*
+	* var v = ns.dindexOfTruthy( [ x ] );
+	* // returns 2
+	*/
+	dindexOfTruthy: typeof dindexOfTruthy;
 
 	/**
 	* Returns the last index of a search element in a one-dimensional double-precision floating-point ndarray.
@@ -3219,6 +3267,28 @@ interface Namespace {
 	sindexOfNotEqual: typeof sindexOfNotEqual;
 
 	/**
+	* Returns the index of the first truthy element in a one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	*
+	* var x = new Float32Vector( [ 0.0, 0.0, 3.0, 2.0 ] );
+	*
+	* var v = ns.sindexOfTruthy( [ x ] );
+	* // returns 2
+	*/
+	sindexOfTruthy: typeof sindexOfTruthy;
+
+	/**
 	* Returns the last index of a search element in a one-dimensional single-precision floating-point ndarray.
 	*
 	* ## Notes
@@ -3904,6 +3974,22 @@ interface Namespace {
 	* // returns 1
 	*/
 	zindexOf: typeof zindexOf;
+
+	/**
+	* Returns the index of the first truthy element in a one-dimensional double-precision complex floating-point ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	*
+	* var x = new Complex128Vector( [ 0.0, 0.0, 1.0, 2.0, 4.0, 5.0 ] );
+	*
+	* var idx = ns.zindexOfTruthy( [ x ] );
+	* // returns 1
+	*/
+	zindexOfTruthy: typeof zindexOfTruthy;
 
 	/**
 	* Fills a one-dimensional double-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from one.
