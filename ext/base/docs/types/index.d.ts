@@ -36,7 +36,6 @@ import coneTo = require( './../../../../ext/base/cone-to' );
 import creplicate = require( './../../../../ext/base/creplicate' );
 import csum = require( './../../../../ext/base/csum' );
 import csumkbn = require( './../../../../ext/base/csumkbn' );
-import ctriu = require( './../../../../ext/base/ctriu' );
 import cunitspace = require( './../../../../ext/base/cunitspace' );
 import cwapx = require( './../../../../ext/base/cwapx' );
 import cwax = require( './../../../../ext/base/cwax' );
@@ -150,7 +149,6 @@ import dvander = require( './../../../../ext/base/dvander' );
 import dwapx = require( './../../../../ext/base/dwapx' );
 import dwax = require( './../../../../ext/base/dwax' );
 import dwhere = require( './../../../../ext/base/dwhere' );
-import dwxdy = require( './../../../../ext/base/dwxdy' );
 import dwxmy = require( './../../../../ext/base/dwxmy' );
 import dwxpy = require( './../../../../ext/base/dwxpy' );
 import dwxsa = require( './../../../../ext/base/dwxsa' );
@@ -205,7 +203,6 @@ import gfirstIndexNotEqual = require( './../../../../ext/base/gfirst-index-not-e
 import gindexOf = require( './../../../../ext/base/gindex-of' );
 import gindexOfColumn = require( './../../../../ext/base/gindex-of-column' );
 import gindexOfFalsy = require( './../../../../ext/base/gindex-of-falsy' );
-import gindexOfFalsyRow = require( './../../../../ext/base/gindex-of-falsy-row' );
 import gindexOfNotEqual = require( './../../../../ext/base/gindex-of-not-equal' );
 import gindexOfRow = require( './../../../../ext/base/gindex-of-row' );
 import gindexOfSameValue = require( './../../../../ext/base/gindex-of-same-value' );
@@ -283,7 +280,6 @@ import scartesianPower = require( './../../../../ext/base/scartesian-power' );
 import scartesianProduct = require( './../../../../ext/base/scartesian-product' );
 import scartesianSquare = require( './../../../../ext/base/scartesian-square' );
 import scircshift = require( './../../../../ext/base/scircshift' );
-import scopyWithin = require( './../../../../ext/base/scopy-within' );
 import scuany = require( './../../../../ext/base/scuany' );
 import scuevery = require( './../../../../ext/base/scuevery' );
 import scunone = require( './../../../../ext/base/scunone' );
@@ -352,7 +348,6 @@ import svander = require( './../../../../ext/base/svander' );
 import swapx = require( './../../../../ext/base/swapx' );
 import swax = require( './../../../../ext/base/swax' );
 import swhere = require( './../../../../ext/base/swhere' );
-import swxdy = require( './../../../../ext/base/swxdy' );
 import swxmy = require( './../../../../ext/base/swxmy' );
 import swxpy = require( './../../../../ext/base/swxpy' );
 import swxsa = require( './../../../../ext/base/swxsa' );
@@ -386,7 +381,6 @@ import zoneTo = require( './../../../../ext/base/zone-to' );
 import zreplicate = require( './../../../../ext/base/zreplicate' );
 import zsum = require( './../../../../ext/base/zsum' );
 import zsumkbn = require( './../../../../ext/base/zsumkbn' );
-import ztriu = require( './../../../../ext/base/ztriu' );
 import zunitspace = require( './../../../../ext/base/zunitspace' );
 import zwapx = require( './../../../../ext/base/zwapx' );
 import zwax = require( './../../../../ext/base/zwax' );
@@ -995,39 +989,6 @@ interface Namespace {
 	* // returns <Complex64>[ 3.0, 1.0 ]
 	*/
 	csumkbn: typeof csumkbn;
-
-	/**
-	* Copies the upper triangular part of a single-precision complex floating-point matrix `A` to another matrix `B`.
-	*
-	* @param order - storage layout of `A` and `B`
-	* @param M - number of rows in matrix `A`
-	* @param N - number of columns in matrix `A`
-	* @param k - diagonal below which to ignore
-	* @param A - input matrix
-	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
-	* @param B - output matrix
-	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
-	* @returns `B`
-	*
-	* @example
-	* var Complex64Array = require( '@stdlib/array/complex64' );
-	*
-	* var A = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	* var B = new Complex64Array( 4 );
-	*
-	* ns.ctriu( 'row-major', 2, 2, 0, A, 2, B, 2 );
-	* // B => <Complex64Array>[ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0, 7.0, 8.0 ]
-	*
-	* @example
-	* var Complex64Array = require( '@stdlib/array/complex64' );
-	*
-	* var A = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	* var B = new Complex64Array( 4 );
-	*
-	* ns.ctriu.ndarray( 2, 2, 0, A, 2, 1, 0, B, 2, 1, 0 );
-	* // B => <Complex64Array>[ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0, 7.0, 8.0 ]
-	*/
-	ctriu: typeof ctriu;
 
 	/**
 	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
@@ -4522,40 +4483,6 @@ interface Namespace {
 	dwhere: typeof dwhere;
 
 	/**
-	* Divides elements of a double-precision floating-point strided array `x` by the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to elements in a double-precision floating-point strided array `w`.
-	*
-	* @param N - number of indexed elements
-	* @param x - first input array
-	* @param strideX - `x` stride length
-	* @param y - second input array
-	* @param strideY - `y` stride length
-	* @param w - output array
-	* @param strideW - `w` stride length
-	* @returns `w`
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
-	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.dwxdy( x.length, x, 1, y, 1, w, 1 );
-	* // w => <Float64Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
-	*
-	* @example
-	* var Float64Array = require( '@stdlib/array/float64' );
-	*
-	* var x = new Float64Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
-	* var y = new Float64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.dwxdy.ndarray( x.length, x, 1, 0, y, 1, 0, w, 1, 0 );
-	* // w => <Float64Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
-	*/
-	dwxdy: typeof dwxdy;
-
-	/**
 	* Multiplies elements of a double-precision floating-point strided array `x` by the corresponding elements of a double-precision floating-point strided array `y` and assigns the results to elements in a double-precision floating-point strided array `w`.
 	*
 	* @param N - number of indexed elements
@@ -6089,34 +6016,6 @@ interface Namespace {
 	* // returns 2
 	*/
 	gindexOfFalsy: typeof gindexOfFalsy;
-
-	/**
-	* Returns the index of the first row in an input matrix in which all elements are falsy.
-	*
-	* ## Notes
-	*
-	* -   If the function is provided an empty matrix or if the function is unable to find a row in which all elements are falsy, the function returns `-1` (i.e., an invalid index).
-	*
-	* @param order - storage layout
-	* @param M - number of rows in `A`
-	* @param N - number of columns in `A`
-	* @param A - input matrix
-	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
-	* @returns row index
-	*
-	* @example
-	* var A = [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0 ];
-	*
-	* var out = ns.gindexOfFalsyRow( 'row-major', 4, 4, A, 4 );
-	* // returns 1
-	*
-	* @example
-	* var A = [ 1.0, 1.0, 1.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 1.0, 1.0 ];
-	*
-	* var out = ns.gindexOfFalsyRow.ndarray( 4, 4, A, 4, 1, 0 );
-	* // returns 1
-	*/
-	gindexOfFalsyRow: typeof gindexOfFalsyRow;
 
 	/**
 	* Returns the first index of an element in a strided array which is not equal to a specified search element.
@@ -8202,43 +8101,6 @@ interface Namespace {
 	* // x => <Float32Array>[ 4.0, 5.0, 1.0, 2.0, 3.0 ]
 	*/
 	scircshift: typeof scircshift;
-
-	/**
-	* Performs an in-place copy of elements within a single-precision floating-point strided array.
-	*
-	* ## Notes
-	*
-	* -   If the `start` and `target` index ranges do not overlap, the `workspace` array is unused and thus ignored.
-	*
-	* @param N - number of indexed elements
-	* @param target - target index
-	* @param start - source start index (inclusive)
-	* @param end - source end index (exclusive)
-	* @param x - input array
-	* @param strideX - stride length for `x`
-	* @param workspace - workspace array
-	* @param strideW - stride length for `workspace`
-	* @returns `x`
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float32Array( x.length );
-	*
-	* ns.scopyWithin( x.length, 3, 1, 4, x, 1, w, 1 );
-	* // x => <Float32Array>[ 1.0, 2.0, 3.0, 2.0, 3.0, 4.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float32Array( x.length );
-	*
-	* ns.scopyWithin.ndarray( x.length, 3, 1, 4, x, 1, 0, w, 1, 0 );
-	* // x => <Float32Array>[ 1.0, 2.0, 3.0, 2.0, 3.0, 4.0 ]
-	*/
-	scopyWithin: typeof scopyWithin;
 
 	/**
 	* Cumulatively tests whether at least one element in a single-precision floating-point strided array is truthy.
@@ -10368,40 +10230,6 @@ interface Namespace {
 	swhere: typeof swhere;
 
 	/**
-	* Divides elements of a single-precision floating-point strided array `x` by the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to elements in a single-precision floating-point strided array `w`.
-	*
-	* @param N - number of indexed elements
-	* @param x - first input array
-	* @param strideX - `x` stride length
-	* @param y - second input array
-	* @param strideY - `y` stride length
-	* @param w - output array
-	* @param strideW - `w` stride length
-	* @returns `w`
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
-	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.swxdy( x.length, x, 1, y, 1, w, 1 );
-	* // w => <Float32Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
-	*
-	* @example
-	* var Float32Array = require( '@stdlib/array/float32' );
-	*
-	* var x = new Float32Array( [ 6.0, 12.0, 20.0, 30.0, 42.0 ] );
-	* var y = new Float32Array( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float32Array( [ 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-	*
-	* ns.swxdy.ndarray( x.length, x, 1, 0, y, 1, 0, w, 1, 0 );
-	* // w => <Float32Array>[ 3.0, 4.0, 5.0, 6.0, 7.0 ]
-	*/
-	swxdy: typeof swxdy;
-
-	/**
 	* Multiplies elements of a single-precision floating-point strided array `x` by the corresponding elements of a single-precision floating-point strided array `y` and assigns the results to elements in a single-precision floating-point strided array `w`.
 	*
 	* @param N - number of indexed elements
@@ -11477,39 +11305,6 @@ interface Namespace {
 	* // returns <Complex128>[ 3.0, 1.0 ]
 	*/
 	zsumkbn: typeof zsumkbn;
-
-	/**
-	* Copies the upper triangular part of a double-precision complex floating-point matrix `A` to another matrix `B`.
-	*
-	* @param order - storage layout of `A` and `B`
-	* @param M - number of rows in matrix `A`
-	* @param N - number of columns in matrix `A`
-	* @param k - diagonal below which to ignore
-	* @param A - input matrix
-	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
-	* @param B - output matrix
-	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
-	* @returns `B`
-	*
-	* @example
-	* var Complex128Array = require( '@stdlib/array/complex128' );
-	*
-	* var A = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	* var B = new Complex128Array( 4 );
-	*
-	* ns.ztriu( 'row-major', 2, 2, 0, A, 2, B, 2 );
-	* // B => <Complex128Array>[ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0, 7.0, 8.0 ]
-	*
-	* @example
-	* var Complex128Array = require( '@stdlib/array/complex128' );
-	*
-	* var A = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
-	* var B = new Complex128Array( 4 );
-	*
-	* ns.ztriu.ndarray( 2, 2, 0, A, 2, 1, 0, B, 2, 1, 0 );
-	* // B => <Complex128Array>[ 1.0, 2.0, 3.0, 4.0, 0.0, 0.0, 7.0, 8.0 ]
-	*/
-	ztriu: typeof ztriu;
 
 	/**
 	* Fills a double-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
