@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-04)
+## Unreleased (2026-08-05)
 
 <section class="features">
 
 ### Features
 
+-   [`0fd9c1f`](https://github.com/stdlib-js/stdlib/commit/0fd9c1f4b23ea5858fcd26384117655624e24189) - update `blas/ext/base` TypeScript declarations [(#13930)](https://github.com/stdlib-js/stdlib/pull/13930)
 -   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - add various symbols to namespace
 -   [`07a265b`](https://github.com/stdlib-js/stdlib/commit/07a265bb24da3a0f33e841263a12ecb60df95632) - add various symbols to namespace
 -   [`ed05eba`](https://github.com/stdlib-js/stdlib/commit/ed05ebae6eaf67c166d0078d4209afd58b1540b4) - add `blas/ext/base/ctriu` [(#13896)](https://github.com/stdlib-js/stdlib/pull/13896)
@@ -434,6 +435,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`b51ebff`](https://github.com/stdlib-js/stdlib/commit/b51ebff8a15e9d9cf8d9bb64d569d709f45fc994) - **docs:** update Markdown equation elements [(#13928)](https://github.com/stdlib-js/stdlib/pull/13928) _(by stdlib-bot)_
+-   [`0fd9c1f`](https://github.com/stdlib-js/stdlib/commit/0fd9c1f4b23ea5858fcd26384117655624e24189) - **feat:** update `blas/ext/base` TypeScript declarations [(#13930)](https://github.com/stdlib-js/stdlib/pull/13930) _(by stdlib-bot)_
+-   [`879f1c8`](https://github.com/stdlib-js/stdlib/commit/879f1c8c38558b441ceed6b0d086e0a715a81c99) - **docs:** update namespace table of contents [(#13932)](https://github.com/stdlib-js/stdlib/pull/13932) _(by stdlib-bot)_
 -   [`fa48b8a`](https://github.com/stdlib-js/stdlib/commit/fa48b8abe427c09d597ea3fbba4eba244cae31cd) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`07a265b`](https://github.com/stdlib-js/stdlib/commit/07a265bb24da3a0f33e841263a12ecb60df95632) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`ed05eba`](https://github.com/stdlib-js/stdlib/commit/ed05ebae6eaf67c166d0078d4209afd58b1540b4) - **feat:** add `blas/ext/base/ctriu` [(#13896)](https://github.com/stdlib-js/stdlib/pull/13896) _(by Kaustubh Patange)_
