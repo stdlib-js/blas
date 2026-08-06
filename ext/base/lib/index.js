@@ -1164,6 +1164,15 @@ setReadOnly( ns, 'dtril', require( './../../../ext/base/dtril' ) );
 setReadOnly( ns, 'dtriu', require( './../../../ext/base/dtriu' ) );
 
 /**
+* @name dtriu2tril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dtriu2tril}
+*/
+setReadOnly( ns, 'dtriu2tril', require( './../../../ext/base/dtriu2tril' ) );
+
+/**
 * @name dunitspace
 * @memberof ns
 * @readonly
@@ -2980,6 +2989,15 @@ setReadOnly( ns, 'stril', require( './../../../ext/base/stril' ) );
 * @see {@link module:@stdlib/blas/ext/base/striu}
 */
 setReadOnly( ns, 'striu', require( './../../../ext/base/striu' ) );
+
+/**
+* @name striu2tril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/striu2tril}
+*/
+setReadOnly( ns, 'striu2tril', require( './../../../ext/base/striu2tril' ) );
 
 /**
 * @name sunitspace
