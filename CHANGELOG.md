@@ -440,6 +440,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`cfbd29a`](https://github.com/stdlib-js/stdlib/commit/cfbd29afc8207dd44b5722ec49f0438ec08aea79) - **chore:** clean-up [(#13976)](https://github.com/stdlib-js/stdlib/pull/13976) _(by Philipp Burckhardt)_
 -   [`61d48ce`](https://github.com/stdlib-js/stdlib/commit/61d48ce8004a6276438bca02a5d0dd2a1b1ca830) - **feat:** add `blas/ext/base/gtriu2tril` [(#13980)](https://github.com/stdlib-js/stdlib/pull/13980) _(by Kaustubh Patange)_
 -   [`bf605e6`](https://github.com/stdlib-js/stdlib/commit/bf605e6f9d7438b1d7c8ec5e55298a30c2d9dfa4) - **feat:** add `dtriu2tril` and `striu2tril` to namespace _(by Athan Reines)_
 -   [`7c8ed62`](https://github.com/stdlib-js/stdlib/commit/7c8ed62609abd8be1d1b5c85e84a9cf63307d87d) - **feat:** add `blas/ext/base/striu2tril` [(#13960)](https://github.com/stdlib-js/stdlib/pull/13960) _(by Kaustubh Patange)_
