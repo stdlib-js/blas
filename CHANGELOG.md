@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-05)
+## Unreleased (2026-08-06)
 
 <section class="features">
 
@@ -436,6 +436,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`dac85e0`](https://github.com/stdlib-js/stdlib/commit/dac85e0230cd4052f0ec097d58e3372d899782f6) - **docs:** update Markdown equation elements [(#13966)](https://github.com/stdlib-js/stdlib/pull/13966) _(by stdlib-bot, Athan Reines)_
 -   [`75dab5b`](https://github.com/stdlib-js/stdlib/commit/75dab5bc88fd1d882d0e39cbbb63e0c5d81a9b32) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13929)](https://github.com/stdlib-js/stdlib/pull/13929) _(by stdlib-bot)_
 -   [`3d19e26`](https://github.com/stdlib-js/stdlib/commit/3d19e26c5ac90f6e1902ee773e06728fe7d0ec6d) - **chore:** clean-up [(#13914)](https://github.com/stdlib-js/stdlib/pull/13914) _(by Philipp Burckhardt)_
 -   [`b51ebff`](https://github.com/stdlib-js/stdlib/commit/b51ebff8a15e9d9cf8d9bb64d569d709f45fc994) - **docs:** update Markdown equation elements [(#13928)](https://github.com/stdlib-js/stdlib/pull/13928) _(by stdlib-bot)_
