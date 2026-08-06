@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7c8ed62`](https://github.com/stdlib-js/stdlib/commit/7c8ed62609abd8be1d1b5c85e84a9cf63307d87d) - add `blas/ext/base/striu2tril` [(#13960)](https://github.com/stdlib-js/stdlib/pull/13960)
 -   [`5968644`](https://github.com/stdlib-js/stdlib/commit/5968644e48283b9deb697b067381865b5c7023a4) - add `blas/ext/base/dtriu2tril` [(#13956)](https://github.com/stdlib-js/stdlib/pull/13956)
 -   [`75dab5b`](https://github.com/stdlib-js/stdlib/commit/75dab5bc88fd1d882d0e39cbbb63e0c5d81a9b32) - update `blas/ext/base/ndarray` TypeScript declarations [(#13929)](https://github.com/stdlib-js/stdlib/pull/13929)
 -   [`0fd9c1f`](https://github.com/stdlib-js/stdlib/commit/0fd9c1f4b23ea5858fcd26384117655624e24189) - update `blas/ext/base` TypeScript declarations [(#13930)](https://github.com/stdlib-js/stdlib/pull/13930)
@@ -437,6 +438,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7c8ed62`](https://github.com/stdlib-js/stdlib/commit/7c8ed62609abd8be1d1b5c85e84a9cf63307d87d) - **feat:** add `blas/ext/base/striu2tril` [(#13960)](https://github.com/stdlib-js/stdlib/pull/13960) _(by Kaustubh Patange)_
 -   [`5968644`](https://github.com/stdlib-js/stdlib/commit/5968644e48283b9deb697b067381865b5c7023a4) - **feat:** add `blas/ext/base/dtriu2tril` [(#13956)](https://github.com/stdlib-js/stdlib/pull/13956) _(by Kaustubh Patange)_
 -   [`dac85e0`](https://github.com/stdlib-js/stdlib/commit/dac85e0230cd4052f0ec097d58e3372d899782f6) - **docs:** update Markdown equation elements [(#13966)](https://github.com/stdlib-js/stdlib/pull/13966) _(by stdlib-bot, Athan Reines)_
 -   [`75dab5b`](https://github.com/stdlib-js/stdlib/commit/75dab5bc88fd1d882d0e39cbbb63e0c5d81a9b32) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#13929)](https://github.com/stdlib-js/stdlib/pull/13929) _(by stdlib-bot)_
