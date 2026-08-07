@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`41d170f`](https://github.com/stdlib-js/stdlib/commit/41d170f7431dd066a58189cf01889ccac32c1ffd) - add `blas/ext/base/ztril` [(#13923)](https://github.com/stdlib-js/stdlib/pull/13923)
 -   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace
 -   [`3011ada`](https://github.com/stdlib-js/stdlib/commit/3011ada9e958935edc18a2c037c5310bd134a687) - add `gtriu2tril` to namespace
 -   [`0cd0c16`](https://github.com/stdlib-js/stdlib/commit/0cd0c164a01f117ae7bbe3797401749b1f85b3a3) - add `blas/ext/base/ndarray/scopy-within` [(#14006)](https://github.com/stdlib-js/stdlib/pull/14006)
@@ -446,6 +447,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`41d170f`](https://github.com/stdlib-js/stdlib/commit/41d170f7431dd066a58189cf01889ccac32c1ffd) - **feat:** add `blas/ext/base/ztril` [(#13923)](https://github.com/stdlib-js/stdlib/pull/13923) _(by Kaustubh Patange, Athan Reines)_
 -   [`d4eb315`](https://github.com/stdlib-js/stdlib/commit/d4eb31523d94dbbcd4477ac82b36fbbc1b51e157) - **docs:** remove unused header in examples _(by Athan Reines)_
 -   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - **feat:** add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace _(by Athan Reines)_
 -   [`3011ada`](https://github.com/stdlib-js/stdlib/commit/3011ada9e958935edc18a2c037c5310bd134a687) - **feat:** add `gtriu2tril` to namespace _(by Athan Reines)_
