@@ -448,6 +448,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
 -   [`8b8c879`](https://github.com/stdlib-js/stdlib/commit/8b8c879d34eea47ac3558dc7eafeaf65c446f645) - **feat:** add `ztril` to namespace _(by Athan Reines)_
 -   [`41d170f`](https://github.com/stdlib-js/stdlib/commit/41d170f7431dd066a58189cf01889ccac32c1ffd) - **feat:** add `blas/ext/base/ztril` [(#13923)](https://github.com/stdlib-js/stdlib/pull/13923) _(by Kaustubh Patange, Athan Reines)_
