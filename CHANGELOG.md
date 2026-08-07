@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023)
 -   [`8b8c879`](https://github.com/stdlib-js/stdlib/commit/8b8c879d34eea47ac3558dc7eafeaf65c446f645) - add `ztril` to namespace
 -   [`41d170f`](https://github.com/stdlib-js/stdlib/commit/41d170f7431dd066a58189cf01889ccac32c1ffd) - add `blas/ext/base/ztril` [(#13923)](https://github.com/stdlib-js/stdlib/pull/13923)
 -   [`4929800`](https://github.com/stdlib-js/stdlib/commit/4929800a100d94e4decad89ef6e4779cd2ed655a) - add `dcopyWithin`, `gcopyWithin`, and `scopyWithin` to namespace
@@ -448,6 +449,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - **feat:** add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023) _(by Muhammad Haris, Athan Reines)_
 -   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
 -   [`8b8c879`](https://github.com/stdlib-js/stdlib/commit/8b8c879d34eea47ac3558dc7eafeaf65c446f645) - **feat:** add `ztril` to namespace _(by Athan Reines)_
