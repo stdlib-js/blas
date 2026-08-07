@@ -2127,6 +2127,15 @@ setReadOnly( ns, 'gtril', require( './../../../ext/base/gtril' ) );
 setReadOnly( ns, 'gtriu', require( './../../../ext/base/gtriu' ) );
 
 /**
+* @name gtriu2tril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gtriu2tril}
+*/
+setReadOnly( ns, 'gtriu2tril', require( './../../../ext/base/gtriu2tril' ) );
+
+/**
 * @name gunitspace
 * @memberof ns
 * @readonly

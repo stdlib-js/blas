@@ -199,6 +199,15 @@ setReadOnly( ns, 'daxpby', require( './../../../../ext/base/ndarray/daxpby' ) );
 setReadOnly( ns, 'dcircshift', require( './../../../../ext/base/ndarray/dcircshift' ) );
 
 /**
+* @name dcopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcopy-within}
+*/
+setReadOnly( ns, 'dcopyWithin', require( './../../../../ext/base/ndarray/dcopy-within' ) );
+
+/**
 * @name dcusum
 * @memberof ns
 * @readonly
@@ -575,6 +584,15 @@ setReadOnly( ns, 'gaxpby', require( './../../../../ext/base/ndarray/gaxpby' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gcircshift}
 */
 setReadOnly( ns, 'gcircshift', require( './../../../../ext/base/ndarray/gcircshift' ) );
+
+/**
+* @name gcopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcopy-within}
+*/
+setReadOnly( ns, 'gcopyWithin', require( './../../../../ext/base/ndarray/gcopy-within' ) );
 
 /**
 * @name gcusum
@@ -962,6 +980,15 @@ setReadOnly( ns, 'saxpby', require( './../../../../ext/base/ndarray/saxpby' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/scircshift}
 */
 setReadOnly( ns, 'scircshift', require( './../../../../ext/base/ndarray/scircshift' ) );
+
+/**
+* @name scopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scopy-within}
+*/
+setReadOnly( ns, 'scopyWithin', require( './../../../../ext/base/ndarray/scopy-within' ) );
 
 /**
 * @name scunone
