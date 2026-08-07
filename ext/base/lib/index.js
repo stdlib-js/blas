@@ -3360,6 +3360,15 @@ setReadOnly( ns, 'zsum', require( './../../../ext/base/zsum' ) );
 setReadOnly( ns, 'zsumkbn', require( './../../../ext/base/zsumkbn' ) );
 
 /**
+* @name ztril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ztril}
+*/
+setReadOnly( ns, 'ztril', require( './../../../ext/base/ztril' ) );
+
+/**
 * @name ztriu
 * @memberof ns
 * @readonly
