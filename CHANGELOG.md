@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015)
 -   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - add various symbols to namespace
 -   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032)
 -   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019)
@@ -454,6 +455,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - **feat:** add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015) _(by Muhammad Haris)_
 -   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - **feat:** add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032) _(by Atharva Patange)_
 -   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - **feat:** add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019) _(by Muhammad Haris)_
