@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032)
 -   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019)
 -   [`8d72b98`](https://github.com/stdlib-js/stdlib/commit/8d72b98bee671ef70300fae9d60e7247720ad33d) - add `blas/ext/base/ndarray/sfirst-index-less-than` [(#14021)](https://github.com/stdlib-js/stdlib/pull/14021)
 -   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024)
@@ -452,6 +453,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`5b355d1`](https://github.com/stdlib-js/stdlib/commit/5b355d144a03bc354d1eda469d0f263e02146af8) - **feat:** add C implementation for `blas/ext/base/ndarray/snansumkbn` [(#14032)](https://github.com/stdlib-js/stdlib/pull/14032) _(by Atharva Patange)_
 -   [`62c3bf3`](https://github.com/stdlib-js/stdlib/commit/62c3bf3e748bd1f0917f7b17b1a3f4a387cdaf39) - **feat:** add `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14019)](https://github.com/stdlib-js/stdlib/pull/14019) _(by Muhammad Haris)_
 -   [`8d72b98`](https://github.com/stdlib-js/stdlib/commit/8d72b98bee671ef70300fae9d60e7247720ad33d) - **feat:** add `blas/ext/base/ndarray/sfirst-index-less-than` [(#14021)](https://github.com/stdlib-js/stdlib/pull/14021) _(by Muhammad Haris)_
 -   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - **feat:** add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024) _(by Muhammad Haris)_
@@ -1052,9 +1054,10 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 11 people contributed to this release. Thank you to the following contributors:
+A total of 12 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Atharva Patange
 -   Divit Jain
 -   Karan Anand
 -   Kaustubh Patange
