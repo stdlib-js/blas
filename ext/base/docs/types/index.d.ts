@@ -252,6 +252,7 @@ import gsumors = require( './../../../../ext/base/gsumors' );
 import gsumpw = require( './../../../../ext/base/gsumpw' );
 import gtril = require( './../../../../ext/base/gtril' );
 import gtriu = require( './../../../../ext/base/gtriu' );
+import gtriu2tril = require( './../../../../ext/base/gtriu2tril' );
 import gunitspace = require( './../../../../ext/base/gunitspace' );
 import gvander = require( './../../../../ext/base/gvander' );
 import gwapx = require( './../../../../ext/base/gwapx' );
@@ -388,6 +389,7 @@ import zoneTo = require( './../../../../ext/base/zone-to' );
 import zreplicate = require( './../../../../ext/base/zreplicate' );
 import zsum = require( './../../../../ext/base/zsum' );
 import zsumkbn = require( './../../../../ext/base/zsumkbn' );
+import ztril = require( './../../../../ext/base/ztril' );
 import ztriu = require( './../../../../ext/base/ztriu' );
 import zunitspace = require( './../../../../ext/base/zunitspace' );
 import zwapx = require( './../../../../ext/base/zwapx' );
@@ -7362,6 +7364,35 @@ interface Namespace {
 	gtriu: typeof gtriu;
 
 	/**
+	* Reflects the upper triangular part of a matrix `A` into the lower triangular part of another matrix `B`.
+	*
+	* @param order - storage layout of `A` and `B`
+	* @param M - number of rows in matrix `A`
+	* @param N - number of columns in matrix `A`
+	* @param k - diagonal below which to ignore
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param B - output matrix
+	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
+	* @returns `B`
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var B = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gtriu2tril( 'row-major', 2, 2, 0, A, 2, B, 2 );
+	* // B => [ 1.0, 0.0, 2.0, 4.0 ]
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var B = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gtriu2tril.ndarray( 2, 2, 0, A, 2, 1, 0, B, 2, 1, 0 );
+	* // B => [ 1.0, 0.0, 2.0, 4.0 ]
+	*/
+	gtriu2tril: typeof gtriu2tril;
+
+	/**
 	* Fills a strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
 	*
 	* @param N - number of indexed elements
@@ -11545,6 +11576,39 @@ interface Namespace {
 	* // returns <Complex128>[ 3.0, 1.0 ]
 	*/
 	zsumkbn: typeof zsumkbn;
+
+	/**
+	* Copies the lower triangular part of a double-precision complex floating-point matrix `A` to another matrix `B`.
+	*
+	* @param order - storage layout of `A` and `B`
+	* @param M - number of rows in matrix `A`
+	* @param N - number of columns in matrix `A`
+	* @param k - diagonal above which to ignore
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param B - output matrix
+	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
+	* @returns `B`
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var A = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var B = new Complex128Array( 4 );
+	*
+	* ns.ztril( 'row-major', 2, 2, 0, A, 2, B, 2 );
+	* // B => <Complex128Array>[ 1.0, 2.0, 0.0, 0.0, 5.0, 6.0, 7.0, 8.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var A = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var B = new Complex128Array( 4 );
+	*
+	* ns.ztril.ndarray( 2, 2, 0, A, 2, 1, 0, B, 2, 1, 0 );
+	* // B => <Complex128Array>[ 1.0, 2.0, 0.0, 0.0, 5.0, 6.0, 7.0, 8.0 ]
+	*/
+	ztril: typeof ztril;
 
 	/**
 	* Copies the upper triangular part of a double-precision complex floating-point matrix `A` to another matrix `B`.
