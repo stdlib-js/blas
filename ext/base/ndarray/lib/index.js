@@ -694,6 +694,15 @@ setReadOnly( ns, 'gfindIndex', require( './../../../../ext/base/ndarray/gfind-in
 setReadOnly( ns, 'gfindLastIndex', require( './../../../../ext/base/ndarray/gfind-last-index' ) );
 
 /**
+* @name gfirstIndexGreaterThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfirst-index-greater-than}
+*/
+setReadOnly( ns, 'gfirstIndexGreaterThan', require( './../../../../ext/base/ndarray/gfirst-index-greater-than' ) );
+
+/**
 * @name gfirstIndexLessThan
 * @memberof ns
 * @readonly
