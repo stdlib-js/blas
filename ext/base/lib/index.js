@@ -1155,6 +1155,15 @@ setReadOnly( ns, 'dsumpw', require( './../../../ext/base/dsumpw' ) );
 setReadOnly( ns, 'dtril', require( './../../../ext/base/dtril' ) );
 
 /**
+* @name dtril2triu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dtril2triu}
+*/
+setReadOnly( ns, 'dtril2triu', require( './../../../ext/base/dtril2triu' ) );
+
+/**
 * @name dtriu
 * @memberof ns
 * @readonly
