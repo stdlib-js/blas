@@ -280,6 +280,15 @@ setReadOnly( ns, 'dfillEqual', require( './../../../../ext/base/ndarray/dfill-eq
 setReadOnly( ns, 'dfillNotEqual', require( './../../../../ext/base/ndarray/dfill-not-equal' ) );
 
 /**
+* @name dfirstIndexGreaterThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dfirst-index-greater-than}
+*/
+setReadOnly( ns, 'dfirstIndexGreaterThan', require( './../../../../ext/base/ndarray/dfirst-index-greater-than' ) );
+
+/**
 * @name dfirstIndexLessThan
 * @memberof ns
 * @readonly
@@ -323,6 +332,15 @@ setReadOnly( ns, 'dindexOfNotEqual', require( './../../../../ext/base/ndarray/di
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dindex-of-truthy}
 */
 setReadOnly( ns, 'dindexOfTruthy', require( './../../../../ext/base/ndarray/dindex-of-truthy' ) );
+
+/**
+* @name dlastIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dlast-index-equal}
+*/
+setReadOnly( ns, 'dlastIndexEqual', require( './../../../../ext/base/ndarray/dlast-index-equal' ) );
 
 /**
 * @name dlastIndexOf
@@ -739,6 +757,15 @@ setReadOnly( ns, 'gjoin', require( './../../../../ext/base/ndarray/gjoin' ) );
 setReadOnly( ns, 'gjoinBetween', require( './../../../../ext/base/ndarray/gjoin-between' ) );
 
 /**
+* @name glastIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/glast-index-equal}
+*/
+setReadOnly( ns, 'glastIndexEqual', require( './../../../../ext/base/ndarray/glast-index-equal' ) );
+
+/**
 * @name glastIndexOf
 * @memberof ns
 * @readonly
@@ -1043,6 +1070,15 @@ setReadOnly( ns, 'scusumors', require( './../../../../ext/base/ndarray/scusumors
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sfill-not-equal}
 */
 setReadOnly( ns, 'sfillNotEqual', require( './../../../../ext/base/ndarray/sfill-not-equal' ) );
+
+/**
+* @name sfirstIndexLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sfirst-index-less-than}
+*/
+setReadOnly( ns, 'sfirstIndexLessThan', require( './../../../../ext/base/ndarray/sfirst-index-less-than' ) );
 
 /**
 * @name sindexOf
