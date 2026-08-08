@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-07)
+## Unreleased (2026-08-08)
 
 <section class="features">
 
 ### Features
 
+-   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024)
 -   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023)
 -   [`8b8c879`](https://github.com/stdlib-js/stdlib/commit/8b8c879d34eea47ac3558dc7eafeaf65c446f645) - add `ztril` to namespace
 -   [`41d170f`](https://github.com/stdlib-js/stdlib/commit/41d170f7431dd066a58189cf01889ccac32c1ffd) - add `blas/ext/base/ztril` [(#13923)](https://github.com/stdlib-js/stdlib/pull/13923)
@@ -449,6 +450,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d91654c`](https://github.com/stdlib-js/stdlib/commit/d91654cdb66fd04d95c0f583311352569c41ab3e) - **feat:** add `blas/ext/base/ndarray/dlast-index-equal` [(#14024)](https://github.com/stdlib-js/stdlib/pull/14024) _(by Muhammad Haris)_
 -   [`2f8f0be`](https://github.com/stdlib-js/stdlib/commit/2f8f0be49ee217957c7cfae99f98072d59770c5a) - **feat:** add `blas/ext/base/ndarray/glast-index-equal` [(#14023)](https://github.com/stdlib-js/stdlib/pull/14023) _(by Muhammad Haris, Athan Reines)_
 -   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f19d370`](https://github.com/stdlib-js/stdlib/commit/f19d370e0a194ac8ffed4916f8b8b51ecfe5896f) - **chore:** clean-up [(#14016)](https://github.com/stdlib-js/stdlib/pull/14016) _(by Philipp Burckhardt)_
