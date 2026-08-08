@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e364ad8`](https://github.com/stdlib-js/stdlib/commit/e364ad86d18b7d2ca02eeeeffc567de620a84696) - update `blas/ext/base/ndarray` TypeScript declarations [(#14040)](https://github.com/stdlib-js/stdlib/pull/14040)
 -   [`ec28702`](https://github.com/stdlib-js/stdlib/commit/ec28702dd34b0f1338abc26e8c0c001e73c8cba7) - add `gfirstIndexGreaterThan` to namespace
 -   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015)
 -   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - add various symbols to namespace
@@ -456,6 +457,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`e364ad8`](https://github.com/stdlib-js/stdlib/commit/e364ad86d18b7d2ca02eeeeffc567de620a84696) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14040)](https://github.com/stdlib-js/stdlib/pull/14040) _(by stdlib-bot)_
 -   [`ec28702`](https://github.com/stdlib-js/stdlib/commit/ec28702dd34b0f1338abc26e8c0c001e73c8cba7) - **feat:** add `gfirstIndexGreaterThan` to namespace _(by Athan Reines)_
 -   [`d87632e`](https://github.com/stdlib-js/stdlib/commit/d87632e1af73ae549bb5c1e30ba8c73427b2eb22) - **feat:** add `blas/ext/base/ndarray/gfirst-index-greater-than` [(#14015)](https://github.com/stdlib-js/stdlib/pull/14015) _(by Muhammad Haris)_
 -   [`ed534a5`](https://github.com/stdlib-js/stdlib/commit/ed534a54f1af518e58efa792f366a9293d183212) - **feat:** add various symbols to namespace _(by Athan Reines)_
