@@ -460,6 +460,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`35cf7c0`](https://github.com/stdlib-js/stdlib/commit/35cf7c0a5265b298c9300bb4af91cf6a575918d4) - **style:** resolve lint errors [(#13911)](https://github.com/stdlib-js/stdlib/pull/13911) _(by pragyan shankar, Athan Reines)_
 -   [`268ae62`](https://github.com/stdlib-js/stdlib/commit/268ae62bcad05ca2365d0988fea9bd0a79067162) - **feat:** add `dtril2triu` to namespace _(by Athan Reines)_
 -   [`1c2449f`](https://github.com/stdlib-js/stdlib/commit/1c2449f89788bd15177aafc6c3556ca1f508a2a0) - **feat:** add `blas/ext/base/dtril2triu` [(#14033)](https://github.com/stdlib-js/stdlib/pull/14033) _(by Kaustubh Patange)_
 -   [`31eafd1`](https://github.com/stdlib-js/stdlib/commit/31eafd1afc74a184c69928a501a742d12955fc53) - **feat:** update `blas/ext/base` TypeScript declarations [(#14041)](https://github.com/stdlib-js/stdlib/pull/14041) _(by stdlib-bot)_
@@ -1068,7 +1069,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 12 people contributed to this release. Thank you to the following contributors:
+A total of 13 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Atharva Patange
@@ -1081,6 +1082,7 @@ A total of 12 people contributed to this release. Thank you to the following con
 -   Rayan Salhab
 -   Suyog
 -   anee3
+-   pragyan shankar
 -   titanniya542-spec
 
 </section>
