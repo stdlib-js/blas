@@ -424,6 +424,7 @@
 
 ### Bug Fixes
 
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
 -   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105)
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
 -   [`b3383d1`](https://github.com/stdlib-js/stdlib/commit/b3383d1340434b809dd7c2d73664293f5a29e948) - use correct element type
@@ -460,6 +461,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
 -   [`35cf7c0`](https://github.com/stdlib-js/stdlib/commit/35cf7c0a5265b298c9300bb4af91cf6a575918d4) - **style:** resolve lint errors [(#13911)](https://github.com/stdlib-js/stdlib/pull/13911) _(by pragyan shankar, Athan Reines)_
 -   [`268ae62`](https://github.com/stdlib-js/stdlib/commit/268ae62bcad05ca2365d0988fea9bd0a79067162) - **feat:** add `dtril2triu` to namespace _(by Athan Reines)_
 -   [`1c2449f`](https://github.com/stdlib-js/stdlib/commit/1c2449f89788bd15177aafc6c3556ca1f508a2a0) - **feat:** add `blas/ext/base/dtril2triu` [(#14033)](https://github.com/stdlib-js/stdlib/pull/14033) _(by Kaustubh Patange)_
