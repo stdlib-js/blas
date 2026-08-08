@@ -461,6 +461,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`91c2fae`](https://github.com/stdlib-js/stdlib/commit/91c2fae9c872e69410f67d10374e65173c67c38d) - **chore:** clean-up [(#14054)](https://github.com/stdlib-js/stdlib/pull/14054) _(by Philipp Burckhardt)_
 -   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
 -   [`35cf7c0`](https://github.com/stdlib-js/stdlib/commit/35cf7c0a5265b298c9300bb4af91cf6a575918d4) - **style:** resolve lint errors [(#13911)](https://github.com/stdlib-js/stdlib/pull/13911) _(by pragyan shankar, Athan Reines)_
 -   [`268ae62`](https://github.com/stdlib-js/stdlib/commit/268ae62bcad05ca2365d0988fea9bd0a79067162) - **feat:** add `dtril2triu` to namespace _(by Athan Reines)_
