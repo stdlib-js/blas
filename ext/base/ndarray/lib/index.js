@@ -496,6 +496,15 @@ setReadOnly( ns, 'dsumors', require( './../../../../ext/base/ndarray/dsumors' ) 
 setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
 
 /**
+* @name dtriu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dtriu}
+*/
+setReadOnly( ns, 'dtriu', require( './../../../../ext/base/ndarray/dtriu' ) );
+
+/**
 * @name dunitspace
 * @memberof ns
 * @readonly

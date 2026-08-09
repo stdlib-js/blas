@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - add `dtriu` to namespace
+-   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - add `cfillEqual` and `gtril2triu` to namespace
 -   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089)
 -   [`93fe758`](https://github.com/stdlib-js/stdlib/commit/93fe75861c187639288483d2563b5dba35bff0c1) - add `blas/ext/base/gtril2triu` [(#14064)](https://github.com/stdlib-js/stdlib/pull/14064)
 -   [`46c9090`](https://github.com/stdlib-js/stdlib/commit/46c9090d31a9fe5d9af46672d83d30ccaff1e9ae) - add `blas/ext/base/cfill-equal` [(#13523)](https://github.com/stdlib-js/stdlib/pull/13523)
@@ -469,6 +471,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - **feat:** add `dtriu` to namespace _(by Athan Reines)_
+-   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - **feat:** add `cfillEqual` and `gtril2triu` to namespace _(by Athan Reines)_
 -   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - **feat:** add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089) _(by Kaustubh Patange, Athan Reines)_
 -   [`93fe758`](https://github.com/stdlib-js/stdlib/commit/93fe75861c187639288483d2563b5dba35bff0c1) - **feat:** add `blas/ext/base/gtril2triu` [(#14064)](https://github.com/stdlib-js/stdlib/pull/14064) _(by Kaustubh Patange, Athan Reines)_
 -   [`46c9090`](https://github.com/stdlib-js/stdlib/commit/46c9090d31a9fe5d9af46672d83d30ccaff1e9ae) - **feat:** add `blas/ext/base/cfill-equal` [(#13523)](https://github.com/stdlib-js/stdlib/pull/13523) _(by Muhammad Haris, Athan Reines)_

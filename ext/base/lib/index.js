@@ -84,6 +84,15 @@ setReadOnly( ns, 'cdiff', require( './../../../ext/base/cdiff' ) );
 setReadOnly( ns, 'cfill', require( './../../../ext/base/cfill' ) );
 
 /**
+* @name cfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cfill-equal}
+*/
+setReadOnly( ns, 'cfillEqual', require( './../../../ext/base/cfill-equal' ) );
+
+/**
 * @name cindexOf
 * @memberof ns
 * @readonly
@@ -2134,6 +2143,15 @@ setReadOnly( ns, 'gsumpw', require( './../../../ext/base/gsumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/gtril}
 */
 setReadOnly( ns, 'gtril', require( './../../../ext/base/gtril' ) );
+
+/**
+* @name gtril2triu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gtril2triu}
+*/
+setReadOnly( ns, 'gtril2triu', require( './../../../ext/base/gtril2triu' ) );
 
 /**
 * @name gtriu
