@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`220141e`](https://github.com/stdlib-js/stdlib/commit/220141e1db59d731d1c55f197a58bc62626ac1b8) - add `zcopyWithin` to namespace
 -   [`7d68afe`](https://github.com/stdlib-js/stdlib/commit/7d68afeb04fe571683aed501f6293195b6b35615) - add `blas/ext/base/zcopy-within` [(#13998)](https://github.com/stdlib-js/stdlib/pull/13998)
 -   [`14a8a3b`](https://github.com/stdlib-js/stdlib/commit/14a8a3b19bba1db1bf9456bd7f55df70efb02f84) - update `blas/ext/base` TypeScript declarations [(#14082)](https://github.com/stdlib-js/stdlib/pull/14082)
 -   [`32ddc79`](https://github.com/stdlib-js/stdlib/commit/32ddc799dc2e54819a196092eea40c663c71795f) - add `ctril` to namespace
@@ -465,6 +466,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`220141e`](https://github.com/stdlib-js/stdlib/commit/220141e1db59d731d1c55f197a58bc62626ac1b8) - **feat:** add `zcopyWithin` to namespace _(by Athan Reines)_
 -   [`7d68afe`](https://github.com/stdlib-js/stdlib/commit/7d68afeb04fe571683aed501f6293195b6b35615) - **feat:** add `blas/ext/base/zcopy-within` [(#13998)](https://github.com/stdlib-js/stdlib/pull/13998) _(by Muhammad Haris)_
 -   [`14a8a3b`](https://github.com/stdlib-js/stdlib/commit/14a8a3b19bba1db1bf9456bd7f55df70efb02f84) - **feat:** update `blas/ext/base` TypeScript declarations [(#14082)](https://github.com/stdlib-js/stdlib/pull/14082) _(by stdlib-bot)_
 -   [`ec0202a`](https://github.com/stdlib-js/stdlib/commit/ec0202a035e395dae873b7b6efc12e0c0ca6caac) - **docs:** update namespace table of contents [(#14083)](https://github.com/stdlib-js/stdlib/pull/14083) _(by stdlib-bot)_

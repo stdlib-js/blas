@@ -3243,6 +3243,15 @@ setReadOnly( ns, 'zcartesianProduct', require( './../../../ext/base/zcartesian-p
 setReadOnly( ns, 'zcartesianSquare', require( './../../../ext/base/zcartesian-square' ) );
 
 /**
+* @name zcopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zcopy-within}
+*/
+setReadOnly( ns, 'zcopyWithin', require( './../../../ext/base/zcopy-within' ) );
+
+/**
 * @name zdiff
 * @memberof ns
 * @readonly
