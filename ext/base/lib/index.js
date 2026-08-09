@@ -183,6 +183,15 @@ setReadOnly( ns, 'csum', require( './../../../ext/base/csum' ) );
 setReadOnly( ns, 'csumkbn', require( './../../../ext/base/csumkbn' ) );
 
 /**
+* @name ctril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ctril}
+*/
+setReadOnly( ns, 'ctril', require( './../../../ext/base/ctril' ) );
+
+/**
 * @name ctriu
 * @memberof ns
 * @readonly

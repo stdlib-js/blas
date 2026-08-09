@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`32ddc79`](https://github.com/stdlib-js/stdlib/commit/32ddc799dc2e54819a196092eea40c663c71795f) - add `ctril` to namespace
 -   [`1bb45b7`](https://github.com/stdlib-js/stdlib/commit/1bb45b7ed47908991d90f256150a340a113415dc) - add `blas/ext/base/ctril` [(#13921)](https://github.com/stdlib-js/stdlib/pull/13921)
 -   [`268ae62`](https://github.com/stdlib-js/stdlib/commit/268ae62bcad05ca2365d0988fea9bd0a79067162) - add `dtril2triu` to namespace
 -   [`1c2449f`](https://github.com/stdlib-js/stdlib/commit/1c2449f89788bd15177aafc6c3556ca1f508a2a0) - add `blas/ext/base/dtril2triu` [(#14033)](https://github.com/stdlib-js/stdlib/pull/14033)
@@ -462,6 +463,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`32ddc79`](https://github.com/stdlib-js/stdlib/commit/32ddc799dc2e54819a196092eea40c663c71795f) - **feat:** add `ctril` to namespace _(by Athan Reines)_
 -   [`1bb45b7`](https://github.com/stdlib-js/stdlib/commit/1bb45b7ed47908991d90f256150a340a113415dc) - **feat:** add `blas/ext/base/ctril` [(#13921)](https://github.com/stdlib-js/stdlib/pull/13921) _(by Kaustubh Patange, Athan Reines)_
 -   [`91c2fae`](https://github.com/stdlib-js/stdlib/commit/91c2fae9c872e69410f67d10374e65173c67c38d) - **chore:** clean-up [(#14054)](https://github.com/stdlib-js/stdlib/pull/14054) _(by Philipp Burckhardt)_
 -   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - **fix:** pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052) _(by Philipp Burckhardt, Athan Reines)_
