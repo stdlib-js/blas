@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`93fe758`](https://github.com/stdlib-js/stdlib/commit/93fe75861c187639288483d2563b5dba35bff0c1) - add `blas/ext/base/gtril2triu` [(#14064)](https://github.com/stdlib-js/stdlib/pull/14064)
 -   [`46c9090`](https://github.com/stdlib-js/stdlib/commit/46c9090d31a9fe5d9af46672d83d30ccaff1e9ae) - add `blas/ext/base/cfill-equal` [(#13523)](https://github.com/stdlib-js/stdlib/pull/13523)
 -   [`220141e`](https://github.com/stdlib-js/stdlib/commit/220141e1db59d731d1c55f197a58bc62626ac1b8) - add `zcopyWithin` to namespace
 -   [`7d68afe`](https://github.com/stdlib-js/stdlib/commit/7d68afeb04fe571683aed501f6293195b6b35615) - add `blas/ext/base/zcopy-within` [(#13998)](https://github.com/stdlib-js/stdlib/pull/13998)
@@ -467,6 +468,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`93fe758`](https://github.com/stdlib-js/stdlib/commit/93fe75861c187639288483d2563b5dba35bff0c1) - **feat:** add `blas/ext/base/gtril2triu` [(#14064)](https://github.com/stdlib-js/stdlib/pull/14064) _(by Kaustubh Patange, Athan Reines)_
 -   [`46c9090`](https://github.com/stdlib-js/stdlib/commit/46c9090d31a9fe5d9af46672d83d30ccaff1e9ae) - **feat:** add `blas/ext/base/cfill-equal` [(#13523)](https://github.com/stdlib-js/stdlib/pull/13523) _(by Muhammad Haris, Athan Reines)_
 -   [`a6a322a`](https://github.com/stdlib-js/stdlib/commit/a6a322a60407a3b43eaf765f3a4ce4c37fd022bf) - **docs:** update comments _(by Athan Reines)_
 -   [`220141e`](https://github.com/stdlib-js/stdlib/commit/220141e1db59d731d1c55f197a58bc62626ac1b8) - **feat:** add `zcopyWithin` to namespace _(by Athan Reines)_
