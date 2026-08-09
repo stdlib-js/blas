@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`14a8a3b`](https://github.com/stdlib-js/stdlib/commit/14a8a3b19bba1db1bf9456bd7f55df70efb02f84) - update `blas/ext/base` TypeScript declarations [(#14082)](https://github.com/stdlib-js/stdlib/pull/14082)
 -   [`32ddc79`](https://github.com/stdlib-js/stdlib/commit/32ddc799dc2e54819a196092eea40c663c71795f) - add `ctril` to namespace
 -   [`1bb45b7`](https://github.com/stdlib-js/stdlib/commit/1bb45b7ed47908991d90f256150a340a113415dc) - add `blas/ext/base/ctril` [(#13921)](https://github.com/stdlib-js/stdlib/pull/13921)
 -   [`268ae62`](https://github.com/stdlib-js/stdlib/commit/268ae62bcad05ca2365d0988fea9bd0a79067162) - add `dtril2triu` to namespace
@@ -463,6 +464,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`14a8a3b`](https://github.com/stdlib-js/stdlib/commit/14a8a3b19bba1db1bf9456bd7f55df70efb02f84) - **feat:** update `blas/ext/base` TypeScript declarations [(#14082)](https://github.com/stdlib-js/stdlib/pull/14082) _(by stdlib-bot)_
 -   [`ec0202a`](https://github.com/stdlib-js/stdlib/commit/ec0202a035e395dae873b7b6efc12e0c0ca6caac) - **docs:** update namespace table of contents [(#14083)](https://github.com/stdlib-js/stdlib/pull/14083) _(by stdlib-bot)_
 -   [`32ddc79`](https://github.com/stdlib-js/stdlib/commit/32ddc799dc2e54819a196092eea40c663c71795f) - **feat:** add `ctril` to namespace _(by Athan Reines)_
 -   [`1bb45b7`](https://github.com/stdlib-js/stdlib/commit/1bb45b7ed47908991d90f256150a340a113415dc) - **feat:** add `blas/ext/base/ctril` [(#13921)](https://github.com/stdlib-js/stdlib/pull/13921) _(by Kaustubh Patange, Athan Reines)_
