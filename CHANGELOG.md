@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5bab5d6`](https://github.com/stdlib-js/stdlib/commit/5bab5d6fd4f4354b77acf67065c1921c9f8ccfed) - add `blas/ext/base/ndarray/striu` [(#14102)](https://github.com/stdlib-js/stdlib/pull/14102)
 -   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - add `dtriu` to namespace
 -   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - add `cfillEqual` and `gtril2triu` to namespace
 -   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089)
@@ -471,6 +472,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`5bab5d6`](https://github.com/stdlib-js/stdlib/commit/5bab5d6fd4f4354b77acf67065c1921c9f8ccfed) - **feat:** add `blas/ext/base/ndarray/striu` [(#14102)](https://github.com/stdlib-js/stdlib/pull/14102) _(by Kaustubh Patange)_
 -   [`2591722`](https://github.com/stdlib-js/stdlib/commit/25917224ea51893f8c3ba4b3d9f8eea0bb6795a3) - **feat:** add `dtriu` to namespace _(by Athan Reines)_
 -   [`2f72a61`](https://github.com/stdlib-js/stdlib/commit/2f72a61a6dc051964528b67be28329c3905f6d04) - **feat:** add `cfillEqual` and `gtril2triu` to namespace _(by Athan Reines)_
 -   [`2e44e74`](https://github.com/stdlib-js/stdlib/commit/2e44e746a2ba82e39926d773524268fac83142f3) - **feat:** add `blas/ext/base/ndarray/dtriu` [(#14089)](https://github.com/stdlib-js/stdlib/pull/14089) _(by Kaustubh Patange, Athan Reines)_
