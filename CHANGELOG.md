@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`1405009`](https://github.com/stdlib-js/stdlib/commit/14050092a81cfd437e12d97426e08b77c6288306) - update `blas/ext/base/ndarray` TypeScript declarations [(#14115)](https://github.com/stdlib-js/stdlib/pull/14115)
 -   [`d077696`](https://github.com/stdlib-js/stdlib/commit/d077696795674107138f6b8f72b28842e3d1246e) - update `blas/ext/base` TypeScript declarations [(#14116)](https://github.com/stdlib-js/stdlib/pull/14116)
 -   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace
 -   [`919e1ca`](https://github.com/stdlib-js/stdlib/commit/919e1ca6ee507c854ba542ec5c24bd1cd058ef38) - add `ccopyWithin` to namespace
@@ -480,7 +479,6 @@ A total of 4 issues were closed in this release:
 
 <details>
 
--   [`1405009`](https://github.com/stdlib-js/stdlib/commit/14050092a81cfd437e12d97426e08b77c6288306) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14115)](https://github.com/stdlib-js/stdlib/pull/14115) _(by stdlib-bot)_
 -   [`b1b4f73`](https://github.com/stdlib-js/stdlib/commit/b1b4f730d452ff63a3c56b35f500f67573285aa4) - **docs:** update namespace table of contents [(#14117)](https://github.com/stdlib-js/stdlib/pull/14117) _(by stdlib-bot)_
 -   [`d077696`](https://github.com/stdlib-js/stdlib/commit/d077696795674107138f6b8f72b28842e3d1246e) - **feat:** update `blas/ext/base` TypeScript declarations [(#14116)](https://github.com/stdlib-js/stdlib/pull/14116) _(by stdlib-bot)_
 -   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - **feat:** add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace _(by Athan Reines)_
