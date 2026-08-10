@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`735a941`](https://github.com/stdlib-js/stdlib/commit/735a9411e6b778b641e6eedbb56e7a502adc9a9f) - add `blas/ext/base/ndarray/gfill-nan` [(#14131)](https://github.com/stdlib-js/stdlib/pull/14131)
 -   [`2629048`](https://github.com/stdlib-js/stdlib/commit/2629048890664e4c307094416a57415dd8135a35) - add `blas/ext/base/ndarray/dfill-nan` [(#14132)](https://github.com/stdlib-js/stdlib/pull/14132)
 -   [`1405009`](https://github.com/stdlib-js/stdlib/commit/14050092a81cfd437e12d97426e08b77c6288306) - update `blas/ext/base/ndarray` TypeScript declarations [(#14115)](https://github.com/stdlib-js/stdlib/pull/14115)
 -   [`d077696`](https://github.com/stdlib-js/stdlib/commit/d077696795674107138f6b8f72b28842e3d1246e) - update `blas/ext/base` TypeScript declarations [(#14116)](https://github.com/stdlib-js/stdlib/pull/14116)
@@ -481,6 +482,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`735a941`](https://github.com/stdlib-js/stdlib/commit/735a9411e6b778b641e6eedbb56e7a502adc9a9f) - **feat:** add `blas/ext/base/ndarray/gfill-nan` [(#14131)](https://github.com/stdlib-js/stdlib/pull/14131) _(by Muhammad Haris, Athan Reines)_
 -   [`2629048`](https://github.com/stdlib-js/stdlib/commit/2629048890664e4c307094416a57415dd8135a35) - **feat:** add `blas/ext/base/ndarray/dfill-nan` [(#14132)](https://github.com/stdlib-js/stdlib/pull/14132) _(by Muhammad Haris)_
 -   [`1405009`](https://github.com/stdlib-js/stdlib/commit/14050092a81cfd437e12d97426e08b77c6288306) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14115)](https://github.com/stdlib-js/stdlib/pull/14115) _(by stdlib-bot)_
 -   [`b1b4f73`](https://github.com/stdlib-js/stdlib/commit/b1b4f730d452ff63a3c56b35f500f67573285aa4) - **docs:** update namespace table of contents [(#14117)](https://github.com/stdlib-js/stdlib/pull/14117) _(by stdlib-bot)_
