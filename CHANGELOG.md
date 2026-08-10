@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d077696`](https://github.com/stdlib-js/stdlib/commit/d077696795674107138f6b8f72b28842e3d1246e) - update `blas/ext/base` TypeScript declarations [(#14116)](https://github.com/stdlib-js/stdlib/pull/14116)
 -   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace
 -   [`919e1ca`](https://github.com/stdlib-js/stdlib/commit/919e1ca6ee507c854ba542ec5c24bd1cd058ef38) - add `ccopyWithin` to namespace
 -   [`f24cab5`](https://github.com/stdlib-js/stdlib/commit/f24cab5f78d5faed964a927a1fe873e6396219e5) - add `blas/ext/base/ccopy-within` [(#14007)](https://github.com/stdlib-js/stdlib/pull/14007)
@@ -478,6 +479,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d077696`](https://github.com/stdlib-js/stdlib/commit/d077696795674107138f6b8f72b28842e3d1246e) - **feat:** update `blas/ext/base` TypeScript declarations [(#14116)](https://github.com/stdlib-js/stdlib/pull/14116) _(by stdlib-bot)_
 -   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - **feat:** add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace _(by Athan Reines)_
 -   [`919e1ca`](https://github.com/stdlib-js/stdlib/commit/919e1ca6ee507c854ba542ec5c24bd1cd058ef38) - **feat:** add `ccopyWithin` to namespace _(by Athan Reines)_
 -   [`f24cab5`](https://github.com/stdlib-js/stdlib/commit/f24cab5f78d5faed964a927a1fe873e6396219e5) - **feat:** add `blas/ext/base/ccopy-within` [(#14007)](https://github.com/stdlib-js/stdlib/pull/14007) _(by Muhammad Haris, Athan Reines)_

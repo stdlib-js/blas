@@ -23,8 +23,10 @@
 import capx = require( './../../../../ext/base/capx' );
 import caxpb = require( './../../../../ext/base/caxpb' );
 import caxpby = require( './../../../../ext/base/caxpby' );
+import ccopyWithin = require( './../../../../ext/base/ccopy-within' );
 import cdiff = require( './../../../../ext/base/cdiff' );
 import cfill = require( './../../../../ext/base/cfill' );
+import cfillEqual = require( './../../../../ext/base/cfill-equal' );
 import cindexOf = require( './../../../../ext/base/cindex-of' );
 import cindexOfColumn = require( './../../../../ext/base/cindex-of-column' );
 import cindexOfFalsy = require( './../../../../ext/base/cindex-of-falsy' );
@@ -253,6 +255,7 @@ import gsumkbn2 = require( './../../../../ext/base/gsumkbn2' );
 import gsumors = require( './../../../../ext/base/gsumors' );
 import gsumpw = require( './../../../../ext/base/gsumpw' );
 import gtril = require( './../../../../ext/base/gtril' );
+import gtril2triu = require( './../../../../ext/base/gtril2triu' );
 import gtriu = require( './../../../../ext/base/gtriu' );
 import gtriu2tril = require( './../../../../ext/base/gtriu2tril' );
 import gunitspace = require( './../../../../ext/base/gunitspace' );
@@ -376,6 +379,7 @@ import zaxpb = require( './../../../../ext/base/zaxpb' );
 import zaxpby = require( './../../../../ext/base/zaxpby' );
 import zcartesianProduct = require( './../../../../ext/base/zcartesian-product' );
 import zcartesianSquare = require( './../../../../ext/base/zcartesian-square' );
+import zcopyWithin = require( './../../../../ext/base/zcopy-within' );
 import zdiff = require( './../../../../ext/base/zdiff' );
 import zfill = require( './../../../../ext/base/zfill' );
 import zindexOf = require( './../../../../ext/base/zindex-of' );
@@ -521,6 +525,43 @@ interface Namespace {
 	caxpby: typeof caxpby;
 
 	/**
+	* Performs an in-place copy of elements within a single-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the `start` and `target` index ranges do not overlap, the `workspace` array is unused and thus ignored.
+	*
+	* @param N - number of indexed elements
+	* @param target - target index
+	* @param start - source start index (inclusive)
+	* @param end - source end index (exclusive)
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns `x`
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	* var w = new Complex64Array( x.length );
+	*
+	* ns.ccopyWithin( x.length, 3, 1, 4, x, 1, w, 1 );
+	* // x => <Complex64Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	* var w = new Complex64Array( x.length );
+	*
+	* ns.ccopyWithin.ndarray( x.length, 3, 1, 4, x, 1, 0, w, 1, 0 );
+	* // x => <Complex64Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ]
+	*/
+	ccopyWithin: typeof ccopyWithin;
+
+	/**
 	* Calculates the k-th discrete forward difference of a single-precision complex floating-point strided array.
 	*
 	* ## Notes
@@ -602,6 +643,40 @@ interface Namespace {
 	* // x => <Complex64Array>[ 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0 ]
 	*/
 	cfill: typeof cfill;
+
+	/**
+	* Replaces single-precision complex floating-point strided array elements equal to a provided search element with a specified scalar constant.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param alpha - scalar constant
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns `x`
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 0.0, 0.0, 3.0, 4.0, 0.0, 0.0 ] );
+	* var searchElement = new Complex64( 0.0, 0.0 );
+	* var alpha = new Complex64( 5.0, 5.0 );
+	*
+	* ns.cfillEqual( x.length, searchElement, alpha, x, 1 );
+	* // x => <Complex64Array>[ 1.0, 2.0, 5.0, 5.0, 3.0, 4.0, 5.0, 5.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 0.0, 0.0, 3.0, 4.0, 0.0, 0.0 ] );
+	* var searchElement = new Complex64( 0.0, 0.0 );
+	* var alpha = new Complex64( 5.0, 5.0 );
+	*
+	* ns.cfillEqual.ndarray( x.length, searchElement, alpha, x, 1, 0 );
+	* // x => <Complex64Array>[ 1.0, 2.0, 5.0, 5.0, 3.0, 4.0, 5.0, 5.0 ]
+	*/
+	cfillEqual: typeof cfillEqual;
 
 	/**
 	* Returns the first index of a specified search element in a single-precision complex floating-point strided array.
@@ -7403,6 +7478,35 @@ interface Namespace {
 	gtril: typeof gtril;
 
 	/**
+	* Reflects the lower triangular part of a matrix `A` into the upper triangular part of another matrix `B`.
+	*
+	* @param order - storage layout of `A` and `B`
+	* @param M - number of rows in matrix `A`
+	* @param N - number of columns in matrix `A`
+	* @param k - diagonal above which to ignore
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param B - output matrix
+	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
+	* @returns `B`
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var B = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gtril2triu( 'row-major', 2, 2, 0, A, 2, B, 2 );
+	* // B => [ 1.0, 3.0, 0.0, 4.0 ]
+	*
+	* @example
+	* var A = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var B = [ 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gtril2triu.ndarray( 2, 2, 0, A, 2, 1, 0, B, 2, 1, 0 );
+	* // B => [ 1.0, 3.0, 0.0, 4.0 ]
+	*/
+	gtril2triu: typeof gtril2triu;
+
+	/**
 	* Copies the upper triangular part of a matrix `A` to another matrix `B`.
 	*
 	* @param order - storage layout of `A` and `B`
@@ -11115,6 +11219,43 @@ interface Namespace {
 	* // out => <Complex128Array>[ 1.0, 2.0, 1.0, 2.0, 1.0, 2.0, 3.0, 4.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 3.0, 4.0 ]
 	*/
 	zcartesianSquare: typeof zcartesianSquare;
+
+	/**
+	* Performs an in-place copy of elements within a double-precision complex floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the `start` and `target` index ranges do not overlap, the `workspace` array is unused and thus ignored.
+	*
+	* @param N - number of indexed elements
+	* @param target - target index
+	* @param start - source start index (inclusive)
+	* @param end - source end index (exclusive)
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param workspace - workspace array
+	* @param strideW - stride length for `workspace`
+	* @returns `x`
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	* var w = new Complex128Array( x.length );
+	*
+	* ns.zcopyWithin( x.length, 3, 1, 4, x, 1, w, 1 );
+	* // x => <Complex128Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ]
+	*
+	* @example
+	* var Complex128Array = require( '@stdlib/array/complex128' );
+	*
+	* var x = new Complex128Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 11.0, 12.0 ] );
+	* var w = new Complex128Array( x.length );
+	*
+	* ns.zcopyWithin.ndarray( x.length, 3, 1, 4, x, 1, 0, w, 1, 0 );
+	* // x => <Complex128Array>[ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ]
+	*/
+	zcopyWithin: typeof zcopyWithin;
 
 	/**
 	* Calculates the k-th discrete forward difference of a double-precision complex floating-point strided array.
