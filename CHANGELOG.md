@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d5388c7`](https://github.com/stdlib-js/stdlib/commit/d5388c7ef6195e13eaf65b0c992f99b6beca3666) - add `dfillNaN`, `gfillNaN`, and `sfillNaN` to namespace
 -   [`57d089d`](https://github.com/stdlib-js/stdlib/commit/57d089d94dab4143f14d3ac7e46a119ae6991ef3) - add `blas/ext/base/ndarray/sfill-nan` [(#14133)](https://github.com/stdlib-js/stdlib/pull/14133)
 -   [`735a941`](https://github.com/stdlib-js/stdlib/commit/735a9411e6b778b641e6eedbb56e7a502adc9a9f) - add `blas/ext/base/ndarray/gfill-nan` [(#14131)](https://github.com/stdlib-js/stdlib/pull/14131)
 -   [`2629048`](https://github.com/stdlib-js/stdlib/commit/2629048890664e4c307094416a57415dd8135a35) - add `blas/ext/base/ndarray/dfill-nan` [(#14132)](https://github.com/stdlib-js/stdlib/pull/14132)
@@ -483,6 +484,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`d5388c7`](https://github.com/stdlib-js/stdlib/commit/d5388c7ef6195e13eaf65b0c992f99b6beca3666) - **feat:** add `dfillNaN`, `gfillNaN`, and `sfillNaN` to namespace _(by Athan Reines)_
 -   [`57d089d`](https://github.com/stdlib-js/stdlib/commit/57d089d94dab4143f14d3ac7e46a119ae6991ef3) - **feat:** add `blas/ext/base/ndarray/sfill-nan` [(#14133)](https://github.com/stdlib-js/stdlib/pull/14133) _(by Muhammad Haris)_
 -   [`362ed23`](https://github.com/stdlib-js/stdlib/commit/362ed235c69d59eb98bab5297be26b7261ed120e) - **chore:** clean-up [(#14136)](https://github.com/stdlib-js/stdlib/pull/14136) _(by Philipp Burckhardt)_
 -   [`ccc3c46`](https://github.com/stdlib-js/stdlib/commit/ccc3c46246b611479e4df9aa7d4ca0a523e28731) - **chore:** clean-up [(#14138)](https://github.com/stdlib-js/stdlib/pull/14138) _(by Philipp Burckhardt)_

@@ -280,6 +280,15 @@ setReadOnly( ns, 'ddiff', require( './../../../../ext/base/ndarray/ddiff' ) );
 setReadOnly( ns, 'dfillEqual', require( './../../../../ext/base/ndarray/dfill-equal' ) );
 
 /**
+* @name dfillNaN
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dfill-nan}
+*/
+setReadOnly( ns, 'dfillNaN', require( './../../../../ext/base/ndarray/dfill-nan' ) );
+
+/**
 * @name dfillNotEqual
 * @memberof ns
 * @readonly
@@ -683,6 +692,15 @@ setReadOnly( ns, 'gcusumpw', require( './../../../../ext/base/ndarray/gcusumpw' 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-equal}
 */
 setReadOnly( ns, 'gfillEqual', require( './../../../../ext/base/ndarray/gfill-equal' ) );
+
+/**
+* @name gfillNaN
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-nan}
+*/
+setReadOnly( ns, 'gfillNaN', require( './../../../../ext/base/ndarray/gfill-nan' ) );
 
 /**
 * @name gfillNotEqual
@@ -1097,6 +1115,15 @@ setReadOnly( ns, 'scusumkbn2', require( './../../../../ext/base/ndarray/scusumkb
 * @see {@link module:@stdlib/blas/ext/base/ndarray/scusumors}
 */
 setReadOnly( ns, 'scusumors', require( './../../../../ext/base/ndarray/scusumors' ) );
+
+/**
+* @name sfillNaN
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sfill-nan}
+*/
+setReadOnly( ns, 'sfillNaN', require( './../../../../ext/base/ndarray/sfill-nan' ) );
 
 /**
 * @name sfillNotEqual
