@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-09)
+## Unreleased (2026-08-10)
 
 <section class="features">
 
 ### Features
 
+-   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace
+-   [`919e1ca`](https://github.com/stdlib-js/stdlib/commit/919e1ca6ee507c854ba542ec5c24bd1cd058ef38) - add `ccopyWithin` to namespace
 -   [`f24cab5`](https://github.com/stdlib-js/stdlib/commit/f24cab5f78d5faed964a927a1fe873e6396219e5) - add `blas/ext/base/ccopy-within` [(#14007)](https://github.com/stdlib-js/stdlib/pull/14007)
 -   [`9f9dfc5`](https://github.com/stdlib-js/stdlib/commit/9f9dfc5c6df0ec6a5b9752567cdb78812825c93b) - add `blas/ext/base/ndarray/gtriu` [(#14107)](https://github.com/stdlib-js/stdlib/pull/14107)
 -   [`375701a`](https://github.com/stdlib-js/stdlib/commit/375701a0232fa37fdf0a44db0c826b33aca577eb) - add `blas/ext/base/ndarray/ctriu` [(#14104)](https://github.com/stdlib-js/stdlib/pull/14104)
@@ -476,6 +478,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`47fac55`](https://github.com/stdlib-js/stdlib/commit/47fac55c2a9246770f30d4700f65e9972c75c12d) - **feat:** add `ctriu`, `gtriu`, `striu`, and `ztriu` to namespace _(by Athan Reines)_
+-   [`919e1ca`](https://github.com/stdlib-js/stdlib/commit/919e1ca6ee507c854ba542ec5c24bd1cd058ef38) - **feat:** add `ccopyWithin` to namespace _(by Athan Reines)_
 -   [`f24cab5`](https://github.com/stdlib-js/stdlib/commit/f24cab5f78d5faed964a927a1fe873e6396219e5) - **feat:** add `blas/ext/base/ccopy-within` [(#14007)](https://github.com/stdlib-js/stdlib/pull/14007) _(by Muhammad Haris, Athan Reines)_
 -   [`3208321`](https://github.com/stdlib-js/stdlib/commit/320832192c8d32b18d24c7342ba1cf03cc5affea) - **bench:** refactor to use dynamic memory allocation [(#14099)](https://github.com/stdlib-js/stdlib/pull/14099) _(by Philipp Burckhardt, Athan Reines)_
 -   [`9f9dfc5`](https://github.com/stdlib-js/stdlib/commit/9f9dfc5c6df0ec6a5b9752567cdb78812825c93b) - **feat:** add `blas/ext/base/ndarray/gtriu` [(#14107)](https://github.com/stdlib-js/stdlib/pull/14107) _(by Kaustubh Patange, Athan Reines)_

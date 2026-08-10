@@ -66,6 +66,15 @@ setReadOnly( ns, 'caxpb', require( './../../../ext/base/caxpb' ) );
 setReadOnly( ns, 'caxpby', require( './../../../ext/base/caxpby' ) );
 
 /**
+* @name ccopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ccopy-within}
+*/
+setReadOnly( ns, 'ccopyWithin', require( './../../../ext/base/ccopy-within' ) );
+
+/**
 * @name cdiff
 * @memberof ns
 * @readonly
