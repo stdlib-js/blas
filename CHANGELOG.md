@@ -497,6 +497,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`6f563d5`](https://github.com/stdlib-js/stdlib/commit/6f563d5f65c22965e60a82e70c73a5e687df4b00) - **style:** add missing spaces [(#14201)](https://github.com/stdlib-js/stdlib/pull/14201) _(by Philipp Burckhardt)_
 -   [`6e66cf0`](https://github.com/stdlib-js/stdlib/commit/6e66cf065601eda2e266ed9aa7c8413982c63b91) - **feat:** add `dlastIndexOfFalsy` and `glastIndexOfFalsy` to namespace _(by Athan Reines)_
 -   [`384f5f3`](https://github.com/stdlib-js/stdlib/commit/384f5f36c8ec4748cb87fe93db9d1ef227cc9806) - **feat:** add `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14192)](https://github.com/stdlib-js/stdlib/pull/14192) _(by Muhammad Haris)_
 -   [`51201b1`](https://github.com/stdlib-js/stdlib/commit/51201b15c179ced4130c5d6464a932b0197ebc7d) - **feat:** add `blas/ext/base/ndarray/glast-index-of-falsy` [(#14164)](https://github.com/stdlib-js/stdlib/pull/14164) _(by Muhammad Haris, Athan Reines)_
