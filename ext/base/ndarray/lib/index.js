@@ -55,6 +55,24 @@ setReadOnly( ns, 'caxpb', require( './../../../../ext/base/ndarray/caxpb' ) );
 setReadOnly( ns, 'caxpby', require( './../../../../ext/base/ndarray/caxpby' ) );
 
 /**
+* @name ccopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ccopy-within}
+*/
+setReadOnly( ns, 'ccopyWithin', require( './../../../../ext/base/ndarray/ccopy-within' ) );
+
+/**
+* @name cfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cfill-equal}
+*/
+setReadOnly( ns, 'cfillEqual', require( './../../../../ext/base/ndarray/cfill-equal' ) );
+
+/**
 * @name cindexOf
 * @memberof ns
 * @readonly
@@ -296,6 +314,15 @@ setReadOnly( ns, 'dfillNaN', require( './../../../../ext/base/ndarray/dfill-nan'
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dfill-not-equal}
 */
 setReadOnly( ns, 'dfillNotEqual', require( './../../../../ext/base/ndarray/dfill-not-equal' ) );
+
+/**
+* @name dfirstIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dfirst-index-equal}
+*/
+setReadOnly( ns, 'dfirstIndexEqual', require( './../../../../ext/base/ndarray/dfirst-index-equal' ) );
 
 /**
 * @name dfirstIndexGreaterThan
@@ -730,6 +757,15 @@ setReadOnly( ns, 'gfindIndex', require( './../../../../ext/base/ndarray/gfind-in
 setReadOnly( ns, 'gfindLastIndex', require( './../../../../ext/base/ndarray/gfind-last-index' ) );
 
 /**
+* @name gfirstIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfirst-index-equal}
+*/
+setReadOnly( ns, 'gfirstIndexEqual', require( './../../../../ext/base/ndarray/gfirst-index-equal' ) );
+
+/**
 * @name gfirstIndexGreaterThan
 * @memberof ns
 * @readonly
@@ -1117,6 +1153,15 @@ setReadOnly( ns, 'scusumkbn2', require( './../../../../ext/base/ndarray/scusumkb
 setReadOnly( ns, 'scusumors', require( './../../../../ext/base/ndarray/scusumors' ) );
 
 /**
+* @name sfillEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sfill-equal}
+*/
+setReadOnly( ns, 'sfillEqual', require( './../../../../ext/base/ndarray/sfill-equal' ) );
+
+/**
 * @name sfillNaN
 * @memberof ns
 * @readonly
@@ -1133,6 +1178,15 @@ setReadOnly( ns, 'sfillNaN', require( './../../../../ext/base/ndarray/sfill-nan'
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sfill-not-equal}
 */
 setReadOnly( ns, 'sfillNotEqual', require( './../../../../ext/base/ndarray/sfill-not-equal' ) );
+
+/**
+* @name sfirstIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sfirst-index-equal}
+*/
+setReadOnly( ns, 'sfirstIndexEqual', require( './../../../../ext/base/ndarray/sfirst-index-equal' ) );
 
 /**
 * @name sfirstIndexLessThan
@@ -1403,6 +1457,15 @@ setReadOnly( ns, 'zaxpb', require( './../../../../ext/base/ndarray/zaxpb' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zaxpby}
 */
 setReadOnly( ns, 'zaxpby', require( './../../../../ext/base/ndarray/zaxpby' ) );
+
+/**
+* @name zcopyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zcopy-within}
+*/
+setReadOnly( ns, 'zcopyWithin', require( './../../../../ext/base/ndarray/zcopy-within' ) );
 
 /**
 * @name zindexOf

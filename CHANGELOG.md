@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`51201b1`](https://github.com/stdlib-js/stdlib/commit/51201b15c179ced4130c5d6464a932b0197ebc7d) - add `blas/ext/base/ndarray/glast-index-of-falsy` [(#14164)](https://github.com/stdlib-js/stdlib/pull/14164)
+-   [`bce7738`](https://github.com/stdlib-js/stdlib/commit/bce77380bab8cc8ef9780a7d8f645c14641f4afe) - add `gfirstIndexEqual` and `sfirstIndexEqual` to namespace
+-   [`01ca36a`](https://github.com/stdlib-js/stdlib/commit/01ca36acc577f19d513e0a9ddcad8f248cd38623) - add various symbols to namespace
 -   [`e14689c`](https://github.com/stdlib-js/stdlib/commit/e14689c8cb6ec34420e0aa4b54f1f0b40329630e) - add `blas/ext/base/ndarray/dfirst-index-equal` [(#14143)](https://github.com/stdlib-js/stdlib/pull/14143)
 -   [`445c209`](https://github.com/stdlib-js/stdlib/commit/445c2097668e7ff6b25e1c40bceec884d4859456) - add `blas/ext/base/ndarray/gfirst-index-equal` [(#14142)](https://github.com/stdlib-js/stdlib/pull/14142)
 -   [`efcee13`](https://github.com/stdlib-js/stdlib/commit/efcee13a34fd28bfd14c4f23b1670caaa35f7f57) - add `blas/ext/base/ndarray/cfill-equal` [(#14139)](https://github.com/stdlib-js/stdlib/pull/14139)
@@ -492,6 +495,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`51201b1`](https://github.com/stdlib-js/stdlib/commit/51201b15c179ced4130c5d6464a932b0197ebc7d) - **feat:** add `blas/ext/base/ndarray/glast-index-of-falsy` [(#14164)](https://github.com/stdlib-js/stdlib/pull/14164) _(by Muhammad Haris, Athan Reines)_
+-   [`bce7738`](https://github.com/stdlib-js/stdlib/commit/bce77380bab8cc8ef9780a7d8f645c14641f4afe) - **feat:** add `gfirstIndexEqual` and `sfirstIndexEqual` to namespace _(by Athan Reines)_
+-   [`01ca36a`](https://github.com/stdlib-js/stdlib/commit/01ca36acc577f19d513e0a9ddcad8f248cd38623) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`e14689c`](https://github.com/stdlib-js/stdlib/commit/e14689c8cb6ec34420e0aa4b54f1f0b40329630e) - **feat:** add `blas/ext/base/ndarray/dfirst-index-equal` [(#14143)](https://github.com/stdlib-js/stdlib/pull/14143) _(by Muhammad Haris)_
 -   [`445c209`](https://github.com/stdlib-js/stdlib/commit/445c2097668e7ff6b25e1c40bceec884d4859456) - **feat:** add `blas/ext/base/ndarray/gfirst-index-equal` [(#14142)](https://github.com/stdlib-js/stdlib/pull/14142) _(by Muhammad Haris, Athan Reines)_
 -   [`efcee13`](https://github.com/stdlib-js/stdlib/commit/efcee13a34fd28bfd14c4f23b1670caaa35f7f57) - **feat:** add `blas/ext/base/ndarray/cfill-equal` [(#14139)](https://github.com/stdlib-js/stdlib/pull/14139) _(by Muhammad Haris)_
