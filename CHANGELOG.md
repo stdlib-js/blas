@@ -486,6 +486,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`cb9723a`](https://github.com/stdlib-js/stdlib/commit/cb9723af638d9244ea0b50bcb07c550f13bdedce) - **docs:** update examples [(#14169)](https://github.com/stdlib-js/stdlib/pull/14169) _(by Philipp Burckhardt)_
 -   [`8f3e141`](https://github.com/stdlib-js/stdlib/commit/8f3e1414f7483d10adf64b81b2e857ac080bef64) - **refactor:** add support for enums _(by Athan Reines)_
 -   [`7e9dca6`](https://github.com/stdlib-js/stdlib/commit/7e9dca6eb3e1be487ecc88b9c112529ad552c7c8) - **docs:** update namespace table of contents [(#14160)](https://github.com/stdlib-js/stdlib/pull/14160) _(by stdlib-bot)_
 -   [`599080a`](https://github.com/stdlib-js/stdlib/commit/599080aa13ced2667593a4a6d3e6163e529d321c) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14158)](https://github.com/stdlib-js/stdlib/pull/14158) _(by stdlib-bot)_
