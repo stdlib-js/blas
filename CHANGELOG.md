@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`445c209`](https://github.com/stdlib-js/stdlib/commit/445c2097668e7ff6b25e1c40bceec884d4859456) - add `blas/ext/base/ndarray/gfirst-index-equal` [(#14142)](https://github.com/stdlib-js/stdlib/pull/14142)
 -   [`efcee13`](https://github.com/stdlib-js/stdlib/commit/efcee13a34fd28bfd14c4f23b1670caaa35f7f57) - add `blas/ext/base/ndarray/cfill-equal` [(#14139)](https://github.com/stdlib-js/stdlib/pull/14139)
 -   [`a49b81a`](https://github.com/stdlib-js/stdlib/commit/a49b81adab9582921f4b51ea096f27548d603163) - add `blas/ext/base/ndarray/sfill-equal` [(#14137)](https://github.com/stdlib-js/stdlib/pull/14137)
 -   [`6dbb82e`](https://github.com/stdlib-js/stdlib/commit/6dbb82e35361bbd0dccfe53a7e8ad1985f905157) - add `blas/ext/base/ndarray/zcopy-within` [(#14130)](https://github.com/stdlib-js/stdlib/pull/14130)
@@ -490,6 +491,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`445c209`](https://github.com/stdlib-js/stdlib/commit/445c2097668e7ff6b25e1c40bceec884d4859456) - **feat:** add `blas/ext/base/ndarray/gfirst-index-equal` [(#14142)](https://github.com/stdlib-js/stdlib/pull/14142) _(by Muhammad Haris, Athan Reines)_
 -   [`efcee13`](https://github.com/stdlib-js/stdlib/commit/efcee13a34fd28bfd14c4f23b1670caaa35f7f57) - **feat:** add `blas/ext/base/ndarray/cfill-equal` [(#14139)](https://github.com/stdlib-js/stdlib/pull/14139) _(by Muhammad Haris)_
 -   [`a49b81a`](https://github.com/stdlib-js/stdlib/commit/a49b81adab9582921f4b51ea096f27548d603163) - **feat:** add `blas/ext/base/ndarray/sfill-equal` [(#14137)](https://github.com/stdlib-js/stdlib/pull/14137) _(by Muhammad Haris)_
 -   [`6dbb82e`](https://github.com/stdlib-js/stdlib/commit/6dbb82e35361bbd0dccfe53a7e8ad1985f905157) - **feat:** add `blas/ext/base/ndarray/zcopy-within` [(#14130)](https://github.com/stdlib-js/stdlib/pull/14130) _(by Muhammad Haris, Athan Reines)_
