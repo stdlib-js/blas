@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`384f5f3`](https://github.com/stdlib-js/stdlib/commit/384f5f36c8ec4748cb87fe93db9d1ef227cc9806) - add `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14192)](https://github.com/stdlib-js/stdlib/pull/14192)
 -   [`51201b1`](https://github.com/stdlib-js/stdlib/commit/51201b15c179ced4130c5d6464a932b0197ebc7d) - add `blas/ext/base/ndarray/glast-index-of-falsy` [(#14164)](https://github.com/stdlib-js/stdlib/pull/14164)
 -   [`bce7738`](https://github.com/stdlib-js/stdlib/commit/bce77380bab8cc8ef9780a7d8f645c14641f4afe) - add `gfirstIndexEqual` and `sfirstIndexEqual` to namespace
 -   [`01ca36a`](https://github.com/stdlib-js/stdlib/commit/01ca36acc577f19d513e0a9ddcad8f248cd38623) - add various symbols to namespace
@@ -495,6 +496,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`384f5f3`](https://github.com/stdlib-js/stdlib/commit/384f5f36c8ec4748cb87fe93db9d1ef227cc9806) - **feat:** add `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14192)](https://github.com/stdlib-js/stdlib/pull/14192) _(by Muhammad Haris)_
 -   [`51201b1`](https://github.com/stdlib-js/stdlib/commit/51201b15c179ced4130c5d6464a932b0197ebc7d) - **feat:** add `blas/ext/base/ndarray/glast-index-of-falsy` [(#14164)](https://github.com/stdlib-js/stdlib/pull/14164) _(by Muhammad Haris, Athan Reines)_
 -   [`bce7738`](https://github.com/stdlib-js/stdlib/commit/bce77380bab8cc8ef9780a7d8f645c14641f4afe) - **feat:** add `gfirstIndexEqual` and `sfirstIndexEqual` to namespace _(by Athan Reines)_
 -   [`01ca36a`](https://github.com/stdlib-js/stdlib/commit/01ca36acc577f19d513e0a9ddcad8f248cd38623) - **feat:** add various symbols to namespace _(by Athan Reines)_
