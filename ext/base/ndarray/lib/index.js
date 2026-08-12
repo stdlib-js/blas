@@ -397,6 +397,15 @@ setReadOnly( ns, 'dlastIndexEqual', require( './../../../../ext/base/ndarray/dla
 setReadOnly( ns, 'dlastIndexOf', require( './../../../../ext/base/ndarray/dlast-index-of' ) );
 
 /**
+* @name dlastIndexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dlast-index-of-falsy}
+*/
+setReadOnly( ns, 'dlastIndexOfFalsy', require( './../../../../ext/base/ndarray/dlast-index-of-falsy' ) );
+
+/**
 * @name dlinspace
 * @memberof ns
 * @readonly
@@ -854,6 +863,15 @@ setReadOnly( ns, 'glastIndexEqual', require( './../../../../ext/base/ndarray/gla
 * @see {@link module:@stdlib/blas/ext/base/ndarray/glast-index-of}
 */
 setReadOnly( ns, 'glastIndexOf', require( './../../../../ext/base/ndarray/glast-index-of' ) );
+
+/**
+* @name glastIndexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/glast-index-of-falsy}
+*/
+setReadOnly( ns, 'glastIndexOfFalsy', require( './../../../../ext/base/ndarray/glast-index-of-falsy' ) );
 
 /**
 * @name glinspace
