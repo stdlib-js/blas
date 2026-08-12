@@ -486,6 +486,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`bcff88e`](https://github.com/stdlib-js/stdlib/commit/bcff88e9f8cb2f0b8124d94ab810d7e2eee7a948) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`f09e1e4`](https://github.com/stdlib-js/stdlib/commit/f09e1e4e697d6252d998638bae68871281cc74c7) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`cb9723a`](https://github.com/stdlib-js/stdlib/commit/cb9723af638d9244ea0b50bcb07c550f13bdedce) - **docs:** update examples [(#14169)](https://github.com/stdlib-js/stdlib/pull/14169) _(by Philipp Burckhardt)_
 -   [`8f3e141`](https://github.com/stdlib-js/stdlib/commit/8f3e1414f7483d10adf64b81b2e857ac080bef64) - **refactor:** add support for enums _(by Athan Reines)_
 -   [`7e9dca6`](https://github.com/stdlib-js/stdlib/commit/7e9dca6eb3e1be487ecc88b9c112529ad552c7c8) - **docs:** update namespace table of contents [(#14160)](https://github.com/stdlib-js/stdlib/pull/14160) _(by stdlib-bot)_
