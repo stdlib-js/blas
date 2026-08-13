@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193)
 -   [`0e146cd`](https://github.com/stdlib-js/stdlib/commit/0e146cdc2077af101d6b58515a945176422fe537) - add `blas/ext/base/ndarray/dlogspace` [(#14197)](https://github.com/stdlib-js/stdlib/pull/14197)
 -   [`0c4c031`](https://github.com/stdlib-js/stdlib/commit/0c4c031e5f1f4c171fbb4932d83c07d2389b08c9) - add `blas/ext/base/ndarray/gtril` [(#14195)](https://github.com/stdlib-js/stdlib/pull/14195)
 -   [`f3b6efc`](https://github.com/stdlib-js/stdlib/commit/f3b6efc11c1a43b12266c3fe106115612c564398) - add `blas/ext/base/ndarray/dtril` [(#14198)](https://github.com/stdlib-js/stdlib/pull/14198)
@@ -504,6 +505,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - **feat:** add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193) _(by Muhammad Haris)_
 -   [`0e146cd`](https://github.com/stdlib-js/stdlib/commit/0e146cdc2077af101d6b58515a945176422fe537) - **feat:** add `blas/ext/base/ndarray/dlogspace` [(#14197)](https://github.com/stdlib-js/stdlib/pull/14197) _(by Muhammad Haris, Athan Reines)_
 -   [`0c4c031`](https://github.com/stdlib-js/stdlib/commit/0c4c031e5f1f4c171fbb4932d83c07d2389b08c9) - **feat:** add `blas/ext/base/ndarray/gtril` [(#14195)](https://github.com/stdlib-js/stdlib/pull/14195) _(by Kaustubh Patange)_
 -   [`f3b6efc`](https://github.com/stdlib-js/stdlib/commit/f3b6efc11c1a43b12266c3fe106115612c564398) - **feat:** add `blas/ext/base/ndarray/dtril` [(#14198)](https://github.com/stdlib-js/stdlib/pull/14198) _(by Kaustubh Patange)_
