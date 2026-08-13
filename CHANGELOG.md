@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-12)
+## Unreleased (2026-08-13)
 
 <section class="features">
 
 ### Features
 
+-   [`ba965f3`](https://github.com/stdlib-js/stdlib/commit/ba965f3f8ab3b2ddd33c70930cd715bb0d7c8603) - update `blas/ext/base/ndarray` TypeScript declarations [(#14215)](https://github.com/stdlib-js/stdlib/pull/14215)
 -   [`6e66cf0`](https://github.com/stdlib-js/stdlib/commit/6e66cf065601eda2e266ed9aa7c8413982c63b91) - add `dlastIndexOfFalsy` and `glastIndexOfFalsy` to namespace
 -   [`384f5f3`](https://github.com/stdlib-js/stdlib/commit/384f5f36c8ec4748cb87fe93db9d1ef227cc9806) - add `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14192)](https://github.com/stdlib-js/stdlib/pull/14192)
 -   [`51201b1`](https://github.com/stdlib-js/stdlib/commit/51201b15c179ced4130c5d6464a932b0197ebc7d) - add `blas/ext/base/ndarray/glast-index-of-falsy` [(#14164)](https://github.com/stdlib-js/stdlib/pull/14164)
@@ -497,6 +498,9 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ce3a8e8`](https://github.com/stdlib-js/stdlib/commit/ce3a8e87f0e3bbce17bdd71a1713f1a1347839db) - **docs:** update Markdown equation elements [(#14214)](https://github.com/stdlib-js/stdlib/pull/14214) _(by stdlib-bot)_
+-   [`ba965f3`](https://github.com/stdlib-js/stdlib/commit/ba965f3f8ab3b2ddd33c70930cd715bb0d7c8603) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14215)](https://github.com/stdlib-js/stdlib/pull/14215) _(by stdlib-bot)_
+-   [`5f8108e`](https://github.com/stdlib-js/stdlib/commit/5f8108ecdd886bd931b2f6d61cd53a4ae5f08da7) - **docs:** update namespace table of contents [(#14216)](https://github.com/stdlib-js/stdlib/pull/14216) _(by stdlib-bot)_
 -   [`6f563d5`](https://github.com/stdlib-js/stdlib/commit/6f563d5f65c22965e60a82e70c73a5e687df4b00) - **style:** add missing spaces [(#14201)](https://github.com/stdlib-js/stdlib/pull/14201) _(by Philipp Burckhardt)_
 -   [`6e66cf0`](https://github.com/stdlib-js/stdlib/commit/6e66cf065601eda2e266ed9aa7c8413982c63b91) - **feat:** add `dlastIndexOfFalsy` and `glastIndexOfFalsy` to namespace _(by Athan Reines)_
 -   [`384f5f3`](https://github.com/stdlib-js/stdlib/commit/384f5f36c8ec4748cb87fe93db9d1ef227cc9806) - **feat:** add `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14192)](https://github.com/stdlib-js/stdlib/pull/14192) _(by Muhammad Haris)_
