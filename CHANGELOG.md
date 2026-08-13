@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`18cc6c9`](https://github.com/stdlib-js/stdlib/commit/18cc6c969003812326429219c70e75c83cdc7c88) - add various symbols to namespace
 -   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193)
 -   [`0e146cd`](https://github.com/stdlib-js/stdlib/commit/0e146cdc2077af101d6b58515a945176422fe537) - add `blas/ext/base/ndarray/dlogspace` [(#14197)](https://github.com/stdlib-js/stdlib/pull/14197)
 -   [`0c4c031`](https://github.com/stdlib-js/stdlib/commit/0c4c031e5f1f4c171fbb4932d83c07d2389b08c9) - add `blas/ext/base/ndarray/gtril` [(#14195)](https://github.com/stdlib-js/stdlib/pull/14195)
@@ -505,6 +506,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`18cc6c9`](https://github.com/stdlib-js/stdlib/commit/18cc6c969003812326429219c70e75c83cdc7c88) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - **feat:** add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193) _(by Muhammad Haris)_
 -   [`0e146cd`](https://github.com/stdlib-js/stdlib/commit/0e146cdc2077af101d6b58515a945176422fe537) - **feat:** add `blas/ext/base/ndarray/dlogspace` [(#14197)](https://github.com/stdlib-js/stdlib/pull/14197) _(by Muhammad Haris, Athan Reines)_
 -   [`0c4c031`](https://github.com/stdlib-js/stdlib/commit/0c4c031e5f1f4c171fbb4932d83c07d2389b08c9) - **feat:** add `blas/ext/base/ndarray/gtril` [(#14195)](https://github.com/stdlib-js/stdlib/pull/14195) _(by Kaustubh Patange)_

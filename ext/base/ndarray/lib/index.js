@@ -118,6 +118,15 @@ setReadOnly( ns, 'csum', require( './../../../../ext/base/ndarray/csum' ) );
 setReadOnly( ns, 'csumkbn', require( './../../../../ext/base/ndarray/csumkbn' ) );
 
 /**
+* @name ctril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ctril}
+*/
+setReadOnly( ns, 'ctril', require( './../../../../ext/base/ndarray/ctril' ) );
+
+/**
 * @name ctriu
 * @memberof ns
 * @readonly
@@ -415,6 +424,15 @@ setReadOnly( ns, 'dlastIndexOfFalsy', require( './../../../../ext/base/ndarray/d
 setReadOnly( ns, 'dlinspace', require( './../../../../ext/base/ndarray/dlinspace' ) );
 
 /**
+* @name dlogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dlogspace}
+*/
+setReadOnly( ns, 'dlogspace', require( './../../../../ext/base/ndarray/dlogspace' ) );
+
+/**
 * @name dnansum
 * @memberof ns
 * @readonly
@@ -548,6 +566,15 @@ setReadOnly( ns, 'dsumors', require( './../../../../ext/base/ndarray/dsumors' ) 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dsumpw}
 */
 setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
+
+/**
+* @name dtril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dtril}
+*/
+setReadOnly( ns, 'dtril', require( './../../../../ext/base/ndarray/dtril' ) );
 
 /**
 * @name dtriu
@@ -1000,6 +1027,15 @@ setReadOnly( ns, 'gsumors', require( './../../../../ext/base/ndarray/gsumors' ) 
 setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
 
 /**
+* @name gtril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gtril}
+*/
+setReadOnly( ns, 'gtril', require( './../../../../ext/base/ndarray/gtril' ) );
+
+/**
 * @name gtriu
 * @memberof ns
 * @readonly
@@ -1252,6 +1288,15 @@ setReadOnly( ns, 'sindexOfTruthy', require( './../../../../ext/base/ndarray/sind
 setReadOnly( ns, 'slastIndexOf', require( './../../../../ext/base/ndarray/slast-index-of' ) );
 
 /**
+* @name slastIndexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/slast-index-of-falsy}
+*/
+setReadOnly( ns, 'slastIndexOfFalsy', require( './../../../../ext/base/ndarray/slast-index-of-falsy' ) );
+
+/**
 * @name slinspace
 * @memberof ns
 * @readonly
@@ -1376,6 +1421,15 @@ setReadOnly( ns, 'ssumors', require( './../../../../ext/base/ndarray/ssumors' ) 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/ssumpw}
 */
 setReadOnly( ns, 'ssumpw', require( './../../../../ext/base/ndarray/ssumpw' ) );
+
+/**
+* @name stril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/stril}
+*/
+setReadOnly( ns, 'stril', require( './../../../../ext/base/ndarray/stril' ) );
 
 /**
 * @name striu
@@ -1529,6 +1583,15 @@ setReadOnly( ns, 'zsum', require( './../../../../ext/base/ndarray/zsum' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zsumkbn}
 */
 setReadOnly( ns, 'zsumkbn', require( './../../../../ext/base/ndarray/zsumkbn' ) );
+
+/**
+* @name ztril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/ztril}
+*/
+setReadOnly( ns, 'ztril', require( './../../../../ext/base/ndarray/ztril' ) );
 
 /**
 * @name ztriu
