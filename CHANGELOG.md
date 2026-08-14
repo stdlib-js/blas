@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5572b59`](https://github.com/stdlib-js/stdlib/commit/5572b5910d22f0e72402f1b91aebae103445cc5f) - add `blas/ext/base/ndarray/dtril2triu` [(#14234)](https://github.com/stdlib-js/stdlib/pull/14234)
 -   [`ce80689`](https://github.com/stdlib-js/stdlib/commit/ce8068982729b231c972f33cb5e26f61c338a46d) - add `blas/ext/base/ndarray/gtriu2tril` [(#14233)](https://github.com/stdlib-js/stdlib/pull/14233)
 -   [`b249ac0`](https://github.com/stdlib-js/stdlib/commit/b249ac015878b3dde194864fc7e6ba885d320e79) - add `blas/ext/base/ndarray/dtriu2tril` [(#14231)](https://github.com/stdlib-js/stdlib/pull/14231)
 -   [`0a72a1b`](https://github.com/stdlib-js/stdlib/commit/0a72a1b21caab76b907f4c57c40750763ff0945d) - add `blas/ext/base/ndarray/striu2tril` [(#14230)](https://github.com/stdlib-js/stdlib/pull/14230)
@@ -511,6 +512,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`5572b59`](https://github.com/stdlib-js/stdlib/commit/5572b5910d22f0e72402f1b91aebae103445cc5f) - **feat:** add `blas/ext/base/ndarray/dtril2triu` [(#14234)](https://github.com/stdlib-js/stdlib/pull/14234) _(by Kaustubh Patange, Athan Reines)_
 -   [`ce80689`](https://github.com/stdlib-js/stdlib/commit/ce8068982729b231c972f33cb5e26f61c338a46d) - **feat:** add `blas/ext/base/ndarray/gtriu2tril` [(#14233)](https://github.com/stdlib-js/stdlib/pull/14233) _(by Kaustubh Patange, Athan Reines)_
 -   [`b249ac0`](https://github.com/stdlib-js/stdlib/commit/b249ac015878b3dde194864fc7e6ba885d320e79) - **feat:** add `blas/ext/base/ndarray/dtriu2tril` [(#14231)](https://github.com/stdlib-js/stdlib/pull/14231) _(by Kaustubh Patange, Athan Reines)_
 -   [`0a72a1b`](https://github.com/stdlib-js/stdlib/commit/0a72a1b21caab76b907f4c57c40750763ff0945d) - **feat:** add `blas/ext/base/ndarray/striu2tril` [(#14230)](https://github.com/stdlib-js/stdlib/pull/14230) _(by Kaustubh Patange, Athan Reines)_
