@@ -45,20 +45,20 @@ var options = {
 * Creates a benchmark function.
 *
 * @private
-* @param {PositiveInteger} N - number of elements along each dimension
+* @param {PositiveInteger} len - array length
 * @returns {Function} benchmark function
 */
-function createBenchmark( N ) {
+function createBenchmark( len ) {
 	var abuf;
 	var bbuf;
 	var A;
 	var B;
 	var k;
 
-	abuf = uniform( N*N*2, -100.0, 100.0, options );
-	bbuf = uniform( N*N*2, -100.0, 100.0, options );
-	A = new Complex64Matrix( abuf.buffer, 0, N, N );
-	B = new Complex64Matrix( bbuf.buffer, 0, N, N );
+	abuf = uniform( len*len*2, -100.0, 100.0, options );
+	bbuf = uniform( len*len*2, -100.0, 100.0, options );
+	A = new Complex64Matrix( abuf.buffer, 0, len, len );
+	B = new Complex64Matrix( bbuf.buffer, 0, len, len );
 
 	k = scalar2ndarray( 0, {
 		'dtype': 'generic'
@@ -84,7 +84,7 @@ function createBenchmark( N ) {
 			}
 		}
 		b.toc();
-		if ( isnanf( realf( out.get( i%N, i%N ) ) ) ) {
+		if ( isnanf( realf( out.get( i%len, i%len ) ) ) ) {
 			b.fail( 'should not return NaN' );
 		}
 		b.pass( 'benchmark finished' );
@@ -101,9 +101,9 @@ function createBenchmark( N ) {
 * @private
 */
 function main() {
+	var len;
 	var min;
 	var max;
-	var N;
 	var f;
 	var i;
 
@@ -111,9 +111,9 @@ function main() {
 	max = 3; // 10^max
 
 	for ( i = min; i <= max; i++ ) {
-		N = pow( 10, i );
-		f = createBenchmark( N );
-		bench( format( '%s:size=%d', pkg, N*N ), f );
+		len = pow( 10, i );
+		f = createBenchmark( len );
+		bench( format( '%s:len=%d', pkg, len ), f );
 	}
 }
 

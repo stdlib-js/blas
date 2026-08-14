@@ -43,12 +43,12 @@ var options = {
 * Creates a benchmark function.
 *
 * @private
-* @param {PositiveInteger} N - number of elements along each dimension
+* @param {PositiveInteger} len - array length
 * @returns {Function} benchmark function
 */
-function createBenchmark( N ) {
-	var A = uniform( [ N, N ], -100.0, 100.0, options );
-	var B = uniform( [ N, N ], -100.0, 100.0, options );
+function createBenchmark( len ) {
+	var A = uniform( [ len, len ], -100.0, 100.0, options );
+	var B = uniform( [ len, len ], -100.0, 100.0, options );
 
 	var k = scalar2ndarray( 0, {
 		'dtype': 'generic'
@@ -74,7 +74,7 @@ function createBenchmark( N ) {
 			}
 		}
 		b.toc();
-		if ( isnan( out.get( i%N, i%N ) ) ) {
+		if ( isnan( out.get( i%len, i%len ) ) ) {
 			b.fail( 'should not return NaN' );
 		}
 		b.pass( 'benchmark finished' );
@@ -91,9 +91,9 @@ function createBenchmark( N ) {
 * @private
 */
 function main() {
+	var len;
 	var min;
 	var max;
-	var N;
 	var f;
 	var i;
 
@@ -101,9 +101,9 @@ function main() {
 	max = 3; // 10^max
 
 	for ( i = min; i <= max; i++ ) {
-		N = pow( 10, i );
-		f = createBenchmark( N );
-		bench( format( '%s:size=%d', pkg, N*N ), f );
+		len = pow( 10, i );
+		f = createBenchmark( len );
+		bench( format( '%s:len=%d', pkg, len ), f );
 	}
 }
 
