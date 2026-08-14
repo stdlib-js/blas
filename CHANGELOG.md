@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0a72a1b`](https://github.com/stdlib-js/stdlib/commit/0a72a1b21caab76b907f4c57c40750763ff0945d) - add `blas/ext/base/ndarray/striu2tril` [(#14230)](https://github.com/stdlib-js/stdlib/pull/14230)
 -   [`ae89077`](https://github.com/stdlib-js/stdlib/commit/ae890774ea6c0bd57204295205c39bac7508db30) - update `blas/ext/base/ndarray` TypeScript declarations [(#14248)](https://github.com/stdlib-js/stdlib/pull/14248)
 -   [`618b020`](https://github.com/stdlib-js/stdlib/commit/618b02097cf2ced13f4f05c1da323d31005f66ed) - add `blas/ext/base/ndarray/gtril2triu` [(#14235)](https://github.com/stdlib-js/stdlib/pull/14235)
 -   [`18cc6c9`](https://github.com/stdlib-js/stdlib/commit/18cc6c969003812326429219c70e75c83cdc7c88) - add various symbols to namespace
@@ -508,6 +509,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`0a72a1b`](https://github.com/stdlib-js/stdlib/commit/0a72a1b21caab76b907f4c57c40750763ff0945d) - **feat:** add `blas/ext/base/ndarray/striu2tril` [(#14230)](https://github.com/stdlib-js/stdlib/pull/14230) _(by Kaustubh Patange, Athan Reines)_
 -   [`cf06dbd`](https://github.com/stdlib-js/stdlib/commit/cf06dbd17573927b8ba4fba695c8f65de220e493) - **docs:** update namespace table of contents [(#14249)](https://github.com/stdlib-js/stdlib/pull/14249) _(by stdlib-bot)_
 -   [`ae89077`](https://github.com/stdlib-js/stdlib/commit/ae890774ea6c0bd57204295205c39bac7508db30) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14248)](https://github.com/stdlib-js/stdlib/pull/14248) _(by stdlib-bot)_
 -   [`618b020`](https://github.com/stdlib-js/stdlib/commit/618b02097cf2ced13f4f05c1da323d31005f66ed) - **feat:** add `blas/ext/base/ndarray/gtril2triu` [(#14235)](https://github.com/stdlib-js/stdlib/pull/14235) _(by Kaustubh Patange, Athan Reines)_
