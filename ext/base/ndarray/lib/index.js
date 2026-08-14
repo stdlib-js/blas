@@ -928,6 +928,15 @@ setReadOnly( ns, 'glastIndexOfFalsy', require( './../../../../ext/base/ndarray/g
 setReadOnly( ns, 'glinspace', require( './../../../../ext/base/ndarray/glinspace' ) );
 
 /**
+* @name glogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/glogspace}
+*/
+setReadOnly( ns, 'glogspace', require( './../../../../ext/base/ndarray/glogspace' ) );
+
+/**
 * @name gnansum
 * @memberof ns
 * @readonly
@@ -1340,6 +1349,15 @@ setReadOnly( ns, 'slastIndexOfFalsy', require( './../../../../ext/base/ndarray/s
 * @see {@link module:@stdlib/blas/ext/base/ndarray/slinspace}
 */
 setReadOnly( ns, 'slinspace', require( './../../../../ext/base/ndarray/slinspace' ) );
+
+/**
+* @name slogspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/slogspace}
+*/
+setReadOnly( ns, 'slogspace', require( './../../../../ext/base/ndarray/slogspace' ) );
 
 /**
 * @name snansum
