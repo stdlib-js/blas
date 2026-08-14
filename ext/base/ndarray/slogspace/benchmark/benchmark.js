@@ -24,10 +24,10 @@ var bench = require( '@stdlib/bench' );
 var uniform = require( '@stdlib/random/uniform' );
 var isnanf = require( '@stdlib/math/base/assert/is-nanf' );
 var pow = require( '@stdlib/math/base/special/pow' );
-var format = require( '@stdlib/string/format' );
 var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
-var stril = require( './../lib' );
+var slogspace = require( './../lib' );
 
 
 // VARIABLES //
@@ -43,17 +43,26 @@ var options = {
 * Creates a benchmark function.
 *
 * @private
-* @param {PositiveInteger} N - number of elements along each dimension
+* @param {PositiveInteger} len - array length
 * @returns {Function} benchmark function
 */
-function createBenchmark( N ) {
-	var A = uniform( [ N, N ], -100.0, 100.0, options );
-	var B = uniform( [ N, N ], -100.0, 100.0, options );
+function createBenchmark( len ) {
+	var endpoint;
+	var base;
+	var strt;
+	var stp;
+	var x;
 
-	var k = scalar2ndarray( 0, {
-		'dtype': 'generic'
+	x = uniform( [ len ], 0.0, 100.0, options );
+	base = scalar2ndarray( 10.0, options );
+	strt = scalar2ndarray( 0.0, options );
+	stp = [
+		scalar2ndarray( 9.0, options ),
+		scalar2ndarray( 5.0, options )
+	];
+	endpoint = scalar2ndarray( true, {
+		'dtype': 'bool'
 	});
-
 	return benchmark;
 
 	/**
@@ -68,13 +77,13 @@ function createBenchmark( N ) {
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			out = stril( [ A, B, k ] );
+			out = slogspace( [ x, base, strt, stp[ i%2 ], endpoint ] );
 			if ( typeof out !== 'object' ) {
 				b.fail( 'should return an ndarray' );
 			}
 		}
 		b.toc();
-		if ( isnanf( out.get( i%N, i%N ) ) ) {
+		if ( isnanf( out.get( i%len ) ) ) {
 			b.fail( 'should not return NaN' );
 		}
 		b.pass( 'benchmark finished' );
@@ -91,19 +100,19 @@ function createBenchmark( N ) {
 * @private
 */
 function main() {
+	var len;
 	var min;
 	var max;
-	var N;
 	var f;
 	var i;
 
 	min = 1; // 10^min
-	max = 3; // 10^max
+	max = 6; // 10^max
 
 	for ( i = min; i <= max; i++ ) {
-		N = pow( 10, i );
-		f = createBenchmark( N );
-		bench( format( '%s:size=%d', pkg, N*N ), f );
+		len = pow( 10, i );
+		f = createBenchmark( len );
+		bench( format( '%s:len=%d', pkg, len ), f );
 	}
 }
 
