@@ -508,6 +508,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`cf06dbd`](https://github.com/stdlib-js/stdlib/commit/cf06dbd17573927b8ba4fba695c8f65de220e493) - **docs:** update namespace table of contents [(#14249)](https://github.com/stdlib-js/stdlib/pull/14249) _(by stdlib-bot)_
 -   [`ae89077`](https://github.com/stdlib-js/stdlib/commit/ae890774ea6c0bd57204295205c39bac7508db30) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14248)](https://github.com/stdlib-js/stdlib/pull/14248) _(by stdlib-bot)_
 -   [`618b020`](https://github.com/stdlib-js/stdlib/commit/618b02097cf2ced13f4f05c1da323d31005f66ed) - **feat:** add `blas/ext/base/ndarray/gtril2triu` [(#14235)](https://github.com/stdlib-js/stdlib/pull/14235) _(by Kaustubh Patange, Athan Reines)_
 -   [`513eef6`](https://github.com/stdlib-js/stdlib/commit/513eef6f9c2c70bff4dc3c0a719d4c6dbfe2e8a4) - **docs:** add missing space and fix punctuation [(#14226)](https://github.com/stdlib-js/stdlib/pull/14226) _(by Philipp Burckhardt)_
