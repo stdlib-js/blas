@@ -577,6 +577,15 @@ setReadOnly( ns, 'dsumpw', require( './../../../../ext/base/ndarray/dsumpw' ) );
 setReadOnly( ns, 'dtril', require( './../../../../ext/base/ndarray/dtril' ) );
 
 /**
+* @name dtril2triu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dtril2triu}
+*/
+setReadOnly( ns, 'dtril2triu', require( './../../../../ext/base/ndarray/dtril2triu' ) );
+
+/**
 * @name dtriu
 * @memberof ns
 * @readonly
@@ -584,6 +593,15 @@ setReadOnly( ns, 'dtril', require( './../../../../ext/base/ndarray/dtril' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dtriu}
 */
 setReadOnly( ns, 'dtriu', require( './../../../../ext/base/ndarray/dtriu' ) );
+
+/**
+* @name dtriu2tril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dtriu2tril}
+*/
+setReadOnly( ns, 'dtriu2tril', require( './../../../../ext/base/ndarray/dtriu2tril' ) );
 
 /**
 * @name dunitspace
@@ -1036,6 +1054,15 @@ setReadOnly( ns, 'gsumpw', require( './../../../../ext/base/ndarray/gsumpw' ) );
 setReadOnly( ns, 'gtril', require( './../../../../ext/base/ndarray/gtril' ) );
 
 /**
+* @name gtril2triu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gtril2triu}
+*/
+setReadOnly( ns, 'gtril2triu', require( './../../../../ext/base/ndarray/gtril2triu' ) );
+
+/**
 * @name gtriu
 * @memberof ns
 * @readonly
@@ -1043,6 +1070,15 @@ setReadOnly( ns, 'gtril', require( './../../../../ext/base/ndarray/gtril' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gtriu}
 */
 setReadOnly( ns, 'gtriu', require( './../../../../ext/base/ndarray/gtriu' ) );
+
+/**
+* @name gtriu2tril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gtriu2tril}
+*/
+setReadOnly( ns, 'gtriu2tril', require( './../../../../ext/base/ndarray/gtriu2tril' ) );
 
 /**
 * @name gunitspace
@@ -1439,6 +1475,15 @@ setReadOnly( ns, 'stril', require( './../../../../ext/base/ndarray/stril' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/striu}
 */
 setReadOnly( ns, 'striu', require( './../../../../ext/base/ndarray/striu' ) );
+
+/**
+* @name striu2tril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/striu2tril}
+*/
+setReadOnly( ns, 'striu2tril', require( './../../../../ext/base/ndarray/striu2tril' ) );
 
 /**
 * @name sunitspace
