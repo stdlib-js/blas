@@ -516,6 +516,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`75cbfe8`](https://github.com/stdlib-js/stdlib/commit/75cbfe8618e8d81293eefba72f9a651e786f37a0) - **bench:** fix description and update variable names in `blas/base/ndarray` [(#14261)](https://github.com/stdlib-js/stdlib/pull/14261) _(by Philipp Burckhardt)_
 -   [`d36f8d9`](https://github.com/stdlib-js/stdlib/commit/d36f8d9dd1b281b1b9c2fef765ab0e0ae7c1a0c2) - **feat:** add `glogspace` and `slogspace` to namespace _(by Athan Reines)_
 -   [`2caeef1`](https://github.com/stdlib-js/stdlib/commit/2caeef15b140c9bb21f89b674cc9fa8281beac19) - **feat:** add `blas/ext/base/ndarray/glogspace` [(#14257)](https://github.com/stdlib-js/stdlib/pull/14257) _(by Muhammad Haris)_
 -   [`35f3214`](https://github.com/stdlib-js/stdlib/commit/35f3214766a5de9ebd071cc73a046be8458a14d2) - **feat:** add `blas/ext/base/ndarray/slogspace` [(#14256)](https://github.com/stdlib-js/stdlib/pull/14256) _(by Muhammad Haris)_
