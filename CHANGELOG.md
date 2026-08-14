@@ -506,6 +506,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`513eef6`](https://github.com/stdlib-js/stdlib/commit/513eef6f9c2c70bff4dc3c0a719d4c6dbfe2e8a4) - **docs:** add missing space and fix punctuation [(#14226)](https://github.com/stdlib-js/stdlib/pull/14226) _(by Philipp Burckhardt)_
 -   [`6786ac8`](https://github.com/stdlib-js/stdlib/commit/6786ac831ae0f291f9d85808b008de8ac3e81428) - **docs:** fix parameter description in `blas/ext/base/ndarray/gtril` [(#14224)](https://github.com/stdlib-js/stdlib/pull/14224) _(by Philipp Burckhardt)_
 -   [`18cc6c9`](https://github.com/stdlib-js/stdlib/commit/18cc6c969003812326429219c70e75c83cdc7c88) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - **feat:** add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193) _(by Muhammad Haris)_
