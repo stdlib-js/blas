@@ -29,6 +29,7 @@ import cindexOfTruthy = require( './../../../../../ext/base/ndarray/cindex-of-tr
 import coneTo = require( './../../../../../ext/base/ndarray/cone-to' );
 import csum = require( './../../../../../ext/base/ndarray/csum' );
 import csumkbn = require( './../../../../../ext/base/ndarray/csumkbn' );
+import ctril = require( './../../../../../ext/base/ndarray/ctril' );
 import ctriu = require( './../../../../../ext/base/ndarray/ctriu' );
 import cunitspace = require( './../../../../../ext/base/ndarray/cunitspace' );
 import cwxsa = require( './../../../../../ext/base/ndarray/cwxsa' );
@@ -62,6 +63,7 @@ import dlastIndexEqual = require( './../../../../../ext/base/ndarray/dlast-index
 import dlastIndexOf = require( './../../../../../ext/base/ndarray/dlast-index-of' );
 import dlastIndexOfFalsy = require( './../../../../../ext/base/ndarray/dlast-index-of-falsy' );
 import dlinspace = require( './../../../../../ext/base/ndarray/dlinspace' );
+import dlogspace = require( './../../../../../ext/base/ndarray/dlogspace' );
 import dnansum = require( './../../../../../ext/base/ndarray/dnansum' );
 import dnansumkbn = require( './../../../../../ext/base/ndarray/dnansumkbn' );
 import dnansumkbn2 = require( './../../../../../ext/base/ndarray/dnansumkbn2' );
@@ -77,6 +79,7 @@ import dsumkbn = require( './../../../../../ext/base/ndarray/dsumkbn' );
 import dsumkbn2 = require( './../../../../../ext/base/ndarray/dsumkbn2' );
 import dsumors = require( './../../../../../ext/base/ndarray/dsumors' );
 import dsumpw = require( './../../../../../ext/base/ndarray/dsumpw' );
+import dtril = require( './../../../../../ext/base/ndarray/dtril' );
 import dtriu = require( './../../../../../ext/base/ndarray/dtriu' );
 import dunitspace = require( './../../../../../ext/base/ndarray/dunitspace' );
 import dwxsa = require( './../../../../../ext/base/ndarray/dwxsa' );
@@ -127,6 +130,7 @@ import gsumkbn = require( './../../../../../ext/base/ndarray/gsumkbn' );
 import gsumkbn2 = require( './../../../../../ext/base/ndarray/gsumkbn2' );
 import gsumors = require( './../../../../../ext/base/ndarray/gsumors' );
 import gsumpw = require( './../../../../../ext/base/ndarray/gsumpw' );
+import gtril = require( './../../../../../ext/base/ndarray/gtril' );
 import gtriu = require( './../../../../../ext/base/ndarray/gtriu' );
 import gunitspace = require( './../../../../../ext/base/ndarray/gunitspace' );
 import gwxsa = require( './../../../../../ext/base/ndarray/gwxsa' );
@@ -155,6 +159,7 @@ import sindexOf = require( './../../../../../ext/base/ndarray/sindex-of' );
 import sindexOfNotEqual = require( './../../../../../ext/base/ndarray/sindex-of-not-equal' );
 import sindexOfTruthy = require( './../../../../../ext/base/ndarray/sindex-of-truthy' );
 import slastIndexOf = require( './../../../../../ext/base/ndarray/slast-index-of' );
+import slastIndexOfFalsy = require( './../../../../../ext/base/ndarray/slast-index-of-falsy' );
 import slinspace = require( './../../../../../ext/base/ndarray/slinspace' );
 import snansum = require( './../../../../../ext/base/ndarray/snansum' );
 import snansumkbn = require( './../../../../../ext/base/ndarray/snansumkbn' );
@@ -169,6 +174,7 @@ import ssumkbn = require( './../../../../../ext/base/ndarray/ssumkbn' );
 import ssumkbn2 = require( './../../../../../ext/base/ndarray/ssumkbn2' );
 import ssumors = require( './../../../../../ext/base/ndarray/ssumors' );
 import ssumpw = require( './../../../../../ext/base/ndarray/ssumpw' );
+import stril = require( './../../../../../ext/base/ndarray/stril' );
 import striu = require( './../../../../../ext/base/ndarray/striu' );
 import sunitspace = require( './../../../../../ext/base/ndarray/sunitspace' );
 import swxsa = require( './../../../../../ext/base/ndarray/swxsa' );
@@ -186,6 +192,7 @@ import zindexOfTruthy = require( './../../../../../ext/base/ndarray/zindex-of-tr
 import zoneTo = require( './../../../../../ext/base/ndarray/zone-to' );
 import zsum = require( './../../../../../ext/base/ndarray/zsum' );
 import zsumkbn = require( './../../../../../ext/base/ndarray/zsumkbn' );
+import ztril = require( './../../../../../ext/base/ndarray/ztril' );
 import ztriu = require( './../../../../../ext/base/ndarray/ztriu' );
 import zunitspace = require( './../../../../../ext/base/ndarray/zunitspace' );
 import zwxsa = require( './../../../../../ext/base/ndarray/zwxsa' );
@@ -468,6 +475,39 @@ interface Namespace {
 	* // returns <Complex64>[ 3.0, 1.0 ]
 	*/
 	csumkbn: typeof csumkbn;
+
+	/**
+	* Copies the lower triangular part of a single-precision complex floating-point matrix `A` to another matrix `B`.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a two-dimensional input ndarray corresponding to `A`.
+	*     -   a two-dimensional output ndarray corresponding to `B`.
+	*     -   a zero-dimensional ndarray specifying the diagonal above which to ignore.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex64Matrix = require( '@stdlib/ndarray/matrix/complex64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var A = new Complex64Matrix( [ [ 1.0, 2.0, 3.0, 4.0 ], [ 5.0, 6.0, 7.0, 8.0 ] ] );
+	* var B = new Complex64Matrix( [ [ 0.0, 0.0, 0.0, 0.0 ], [ 0.0, 0.0, 0.0, 0.0 ] ] );
+	*
+	* var k = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.ctril( [ A, B, k ] );
+	* // returns <ndarray>[ [ <Complex64>[ 1.0, 2.0 ], <Complex64>[ 0.0, 0.0 ] ], [ <Complex64>[ 5.0, 6.0 ], <Complex64>[ 7.0, 8.0 ] ] ]
+	*
+	* var bool = ( out === B );
+	* // returns true
+	*/
+	ctril: typeof ctril;
 
 	/**
 	* Copies the upper triangular part of a single-precision complex floating-point matrix `A` to another matrix `B`.
@@ -1447,6 +1487,49 @@ interface Namespace {
 	dlinspace: typeof dlinspace;
 
 	/**
+	* Fills a one-dimensional double-precision floating-point ndarray with logarithmically spaced values over a specified interval.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray specifying the base of the logarithmic scale.
+	*     -   a zero-dimensional ndarray specifying the exponent of the starting value.
+	*     -   a zero-dimensional ndarray specifying the exponent of the final value.
+	*     -   a zero-dimensional ndarray specifying whether to include the `base^stop` value when writing values to the input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float64Vector( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var base = scalar2ndarray( 10.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var strt = scalar2ndarray( 0.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var stp = scalar2ndarray( 5.0, {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var endpoint = scalar2ndarray( true, {
+	*     'dtype': 'bool'
+	* });
+	*
+	* var out = ns.dlogspace( [ x, base, strt, stp, endpoint ] );
+	* // returns <ndarray>[ 1.0, 10.0, 100.0, 1000.0, 10000.0, 100000.0 ]
+	*/
+	dlogspace: typeof dlogspace;
+
+	/**
 	* Computes the sum of a one-dimensional double-precision floating-point ndarray, ignoring `NaN` values.
 	*
 	* ## Notes
@@ -1803,6 +1886,39 @@ interface Namespace {
 	* // returns 10.0
 	*/
 	dsumpw: typeof dsumpw;
+
+	/**
+	* Copies the lower triangular part of a double-precision floating-point matrix `A` to another matrix `B`.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a two-dimensional input ndarray corresponding to `A`.
+	*     -   a two-dimensional output ndarray corresponding to `B`.
+	*     -   a zero-dimensional ndarray specifying the diagonal above which to ignore.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Matrix = require( '@stdlib/ndarray/matrix/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var A = new Float64Matrix( [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ] );
+	* var B = new Float64Matrix( [ [ 0.0, 0.0 ], [ 0.0, 0.0 ] ] );
+	*
+	* var k = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.dtril( [ A, B, k ] );
+	* // returns <ndarray>[ [ 1.0, 0.0 ], [ 3.0, 4.0 ] ]
+	*
+	* var bool = ( out === B );
+	* // returns true
+	*/
+	dtril: typeof dtril;
 
 	/**
 	* Copies the upper triangular part of a double-precision floating-point matrix `A` to another matrix `B`.
@@ -3186,6 +3302,39 @@ interface Namespace {
 	gsumpw: typeof gsumpw;
 
 	/**
+	* Copies the lower triangular part of a matrix `A` to another matrix `B`.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a two-dimensional input ndarray corresponding to `A`.
+	*     -   a two-dimensional output ndarray corresponding to `B`.
+	*     -   a zero-dimensional ndarray specifying the diagonal above which to ignore.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var matrix = require( '@stdlib/ndarray/matrix/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var A = matrix( [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ], 'generic' );
+	* var B = matrix( [ [ 0.0, 0.0 ], [ 0.0, 0.0 ] ], 'generic' );
+	*
+	* var k = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.gtril( [ A, B, k ] );
+	* // returns <ndarray>[ [ 1.0, 0.0 ], [ 3.0, 4.0 ] ]
+	*
+	* var bool = ( out === B );
+	* // returns true
+	*/
+	gtril: typeof gtril;
+
+	/**
 	* Copies the upper triangular part of a matrix `A` to another matrix `B`.
 	*
 	* ## Notes
@@ -4012,6 +4161,28 @@ interface Namespace {
 	slastIndexOf: typeof slastIndexOf;
 
 	/**
+	* Returns the index of the last falsy element in a one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	*
+	* var x = new Float32Vector( [ 1.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var v = ns.slastIndexOfFalsy( [ x ] );
+	* // returns 3
+	*/
+	slastIndexOfFalsy: typeof slastIndexOfFalsy;
+
+	/**
 	* Fills a one-dimensional single-precision floating-point ndarray with linearly spaced values over a specified interval.
 	*
 	* ## Notes
@@ -4354,6 +4525,39 @@ interface Namespace {
 	* // returns 10.0
 	*/
 	ssumpw: typeof ssumpw;
+
+	/**
+	* Copies the lower triangular part of a single-precision floating-point matrix `A` to another matrix `B`.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a two-dimensional input ndarray corresponding to `A`.
+	*     -   a two-dimensional output ndarray corresponding to `B`.
+	*     -   a zero-dimensional ndarray specifying the diagonal above which to ignore.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Matrix = require( '@stdlib/ndarray/matrix/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var A = new Float32Matrix( [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ] );
+	* var B = new Float32Matrix( [ [ 0.0, 0.0 ], [ 0.0, 0.0 ] ] );
+	*
+	* var k = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.stril( [ A, B, k ] );
+	* // returns <ndarray>[ [ 1.0, 0.0 ], [ 3.0, 4.0 ] ]
+	*
+	* var bool = ( out === B );
+	* // returns true
+	*/
+	stril: typeof stril;
 
 	/**
 	* Copies the upper triangular part of a single-precision floating-point matrix `A` to another matrix `B`.
@@ -4820,6 +5024,39 @@ interface Namespace {
 	* // returns <Complex128>[ 5.0, 5.0 ]
 	*/
 	zsumkbn: typeof zsumkbn;
+
+	/**
+	* Copies the lower triangular part of a double-precision complex floating-point matrix `A` to another matrix `B`.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a two-dimensional input ndarray corresponding to `A`.
+	*     -   a two-dimensional output ndarray corresponding to `B`.
+	*     -   a zero-dimensional ndarray specifying the diagonal above which to ignore.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex128Matrix = require( '@stdlib/ndarray/matrix/complex128' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var A = new Complex128Matrix( [ [ 1.0, 2.0, 3.0, 4.0 ], [ 5.0, 6.0, 7.0, 8.0 ] ] );
+	* var B = new Complex128Matrix( [ [ 0.0, 0.0, 0.0, 0.0 ], [ 0.0, 0.0, 0.0, 0.0 ] ] );
+	*
+	* var k = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.ztril( [ A, B, k ] );
+	* // returns <ndarray>[ [ <Complex128>[ 1.0, 2.0 ], <Complex128>[ 0.0, 0.0 ] ], [ <Complex128>[ 5.0, 6.0 ], <Complex128>[ 7.0, 8.0 ] ] ]
+	*
+	* var bool = ( out === B );
+	* // returns true
+	*/
+	ztril: typeof ztril;
 
 	/**
 	* Copies the upper triangular part of a double-precision complex floating-point matrix `A` to another matrix `B`.

@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ae89077`](https://github.com/stdlib-js/stdlib/commit/ae890774ea6c0bd57204295205c39bac7508db30) - update `blas/ext/base/ndarray` TypeScript declarations [(#14248)](https://github.com/stdlib-js/stdlib/pull/14248)
 -   [`618b020`](https://github.com/stdlib-js/stdlib/commit/618b02097cf2ced13f4f05c1da323d31005f66ed) - add `blas/ext/base/ndarray/gtril2triu` [(#14235)](https://github.com/stdlib-js/stdlib/pull/14235)
 -   [`18cc6c9`](https://github.com/stdlib-js/stdlib/commit/18cc6c969003812326429219c70e75c83cdc7c88) - add various symbols to namespace
 -   [`3e299e1`](https://github.com/stdlib-js/stdlib/commit/3e299e13834581df8dcfa91a6da50edcfa39bb65) - add `blas/ext/base/ndarray/slast-index-of-falsy` [(#14193)](https://github.com/stdlib-js/stdlib/pull/14193)
@@ -507,6 +508,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ae89077`](https://github.com/stdlib-js/stdlib/commit/ae890774ea6c0bd57204295205c39bac7508db30) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14248)](https://github.com/stdlib-js/stdlib/pull/14248) _(by stdlib-bot)_
 -   [`618b020`](https://github.com/stdlib-js/stdlib/commit/618b02097cf2ced13f4f05c1da323d31005f66ed) - **feat:** add `blas/ext/base/ndarray/gtril2triu` [(#14235)](https://github.com/stdlib-js/stdlib/pull/14235) _(by Kaustubh Patange, Athan Reines)_
 -   [`513eef6`](https://github.com/stdlib-js/stdlib/commit/513eef6f9c2c70bff4dc3c0a719d4c6dbfe2e8a4) - **docs:** add missing space and fix punctuation [(#14226)](https://github.com/stdlib-js/stdlib/pull/14226) _(by Philipp Burckhardt)_
 -   [`6786ac8`](https://github.com/stdlib-js/stdlib/commit/6786ac831ae0f291f9d85808b008de8ac3e81428) - **docs:** fix parameter description in `blas/ext/base/ndarray/gtril` [(#14224)](https://github.com/stdlib-js/stdlib/pull/14224) _(by Philipp Burckhardt)_
