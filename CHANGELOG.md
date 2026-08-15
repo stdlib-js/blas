@@ -520,6 +520,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`c4b044e`](https://github.com/stdlib-js/stdlib/commit/c4b044ebd891cbe24cd1f943669c4b9cf6e416f2) - **docs:** update namespace table of contents [(#14276)](https://github.com/stdlib-js/stdlib/pull/14276) _(by stdlib-bot)_
 -   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - **feat:** add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984) _(by Kaustubh Patange, Athan Reines)_
 -   [`b22e8a1`](https://github.com/stdlib-js/stdlib/commit/b22e8a1a8d028835838373b02827cd2455ebb31b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14275)](https://github.com/stdlib-js/stdlib/pull/14275) _(by stdlib-bot)_
 -   [`3d73475`](https://github.com/stdlib-js/stdlib/commit/3d7347567576a84986a880725813e2fb3661bd8b) - **feat:** add `blas/ext/base/ndarray/clogspace` [(#14259)](https://github.com/stdlib-js/stdlib/pull/14259) _(by Muhammad Haris, Athan Reines)_
