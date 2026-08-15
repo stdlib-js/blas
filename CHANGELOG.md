@@ -524,6 +524,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`448c54b`](https://github.com/stdlib-js/stdlib/commit/448c54bdaf9e6e29fc31c6ed94de4cc1f41c1101) - **chore:** clean-up [(#14292)](https://github.com/stdlib-js/stdlib/pull/14292) _(by Philipp Burckhardt)_
 -   [`7e65fe6`](https://github.com/stdlib-js/stdlib/commit/7e65fe6039f6c9f075d959f201b636797da2e966) - **feat:** add `copyWithin` to namespace _(by Athan Reines)_
 -   [`8d4d135`](https://github.com/stdlib-js/stdlib/commit/8d4d1355663101a5d493a6bed12c0e22491b881f) - **docs:** fix note [(#14290)](https://github.com/stdlib-js/stdlib/pull/14290) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8dc4cd2`](https://github.com/stdlib-js/stdlib/commit/8dc4cd24fd29ae3dbfc64f1a2a24381a98a12cfe) - **feat:** add `blas/ext/copy-within` [(#14239)](https://github.com/stdlib-js/stdlib/pull/14239) _(by Muhammad Haris, Athan Reines)_
