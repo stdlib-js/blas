@@ -523,6 +523,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`8d4d135`](https://github.com/stdlib-js/stdlib/commit/8d4d1355663101a5d493a6bed12c0e22491b881f) - **docs:** fix note [(#14290)](https://github.com/stdlib-js/stdlib/pull/14290) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8dc4cd2`](https://github.com/stdlib-js/stdlib/commit/8dc4cd24fd29ae3dbfc64f1a2a24381a98a12cfe) - **feat:** add `blas/ext/copy-within` [(#14239)](https://github.com/stdlib-js/stdlib/pull/14239) _(by Muhammad Haris, Athan Reines)_
 -   [`ee85255`](https://github.com/stdlib-js/stdlib/commit/ee85255c25fc195baf361775d531e189b4e3a6d2) - **docs:** add missing types _(by Athan Reines)_
 -   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - **feat:** add `clogspace` and `zlogspace` to namespace _(by Athan Reines)_
