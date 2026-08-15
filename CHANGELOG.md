@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1004397`](https://github.com/stdlib-js/stdlib/commit/1004397672af1c551c8f991b307a1628d85b3362) - add `blas/ext/base/ndarray/gdiff` [(#14291)](https://github.com/stdlib-js/stdlib/pull/14291)
 -   [`7e65fe6`](https://github.com/stdlib-js/stdlib/commit/7e65fe6039f6c9f075d959f201b636797da2e966) - add `copyWithin` to namespace
 -   [`8dc4cd2`](https://github.com/stdlib-js/stdlib/commit/8dc4cd24fd29ae3dbfc64f1a2a24381a98a12cfe) - add `blas/ext/copy-within` [(#14239)](https://github.com/stdlib-js/stdlib/pull/14239)
 -   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - add `clogspace` and `zlogspace` to namespace
@@ -524,6 +525,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1004397`](https://github.com/stdlib-js/stdlib/commit/1004397672af1c551c8f991b307a1628d85b3362) - **feat:** add `blas/ext/base/ndarray/gdiff` [(#14291)](https://github.com/stdlib-js/stdlib/pull/14291) _(by Muhammad Haris)_
 -   [`448c54b`](https://github.com/stdlib-js/stdlib/commit/448c54bdaf9e6e29fc31c6ed94de4cc1f41c1101) - **chore:** clean-up [(#14292)](https://github.com/stdlib-js/stdlib/pull/14292) _(by Philipp Burckhardt)_
 -   [`7e65fe6`](https://github.com/stdlib-js/stdlib/commit/7e65fe6039f6c9f075d959f201b636797da2e966) - **feat:** add `copyWithin` to namespace _(by Athan Reines)_
 -   [`8d4d135`](https://github.com/stdlib-js/stdlib/commit/8d4d1355663101a5d493a6bed12c0e22491b881f) - **docs:** fix note [(#14290)](https://github.com/stdlib-js/stdlib/pull/14290) _(by Philipp Burckhardt, Athan Reines)_
