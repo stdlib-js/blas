@@ -487,6 +487,15 @@ setReadOnly( ns, 'sspr', require( './../../../base/ndarray/sspr' ) );
 setReadOnly( ns, 'sswap', require( './../../../base/ndarray/sswap' ) );
 
 /**
+* @name ssymv
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/base/ndarray/ssymv}
+*/
+setReadOnly( ns, 'ssymv', require( './../../../base/ndarray/ssymv' ) );
+
+/**
 * @name ssyr
 * @memberof ns
 * @readonly
