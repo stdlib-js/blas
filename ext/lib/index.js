@@ -55,6 +55,15 @@ setReadOnly( ns, 'base', require( './../../ext/base' ) );
 setReadOnly( ns, 'circshift', require( './../../ext/circshift' ) );
 
 /**
+* @name copyWithin
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/copy-within}
+*/
+setReadOnly( ns, 'copyWithin', require( './../../ext/copy-within' ) );
+
+/**
 * @name cusum
 * @memberof ns
 * @readonly

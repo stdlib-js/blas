@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7e65fe6`](https://github.com/stdlib-js/stdlib/commit/7e65fe6039f6c9f075d959f201b636797da2e966) - add `copyWithin` to namespace
 -   [`8dc4cd2`](https://github.com/stdlib-js/stdlib/commit/8dc4cd24fd29ae3dbfc64f1a2a24381a98a12cfe) - add `blas/ext/copy-within` [(#14239)](https://github.com/stdlib-js/stdlib/pull/14239)
 -   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - add `clogspace` and `zlogspace` to namespace
 -   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - add `ssymv` to namespace
@@ -523,6 +524,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`7e65fe6`](https://github.com/stdlib-js/stdlib/commit/7e65fe6039f6c9f075d959f201b636797da2e966) - **feat:** add `copyWithin` to namespace _(by Athan Reines)_
 -   [`8d4d135`](https://github.com/stdlib-js/stdlib/commit/8d4d1355663101a5d493a6bed12c0e22491b881f) - **docs:** fix note [(#14290)](https://github.com/stdlib-js/stdlib/pull/14290) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8dc4cd2`](https://github.com/stdlib-js/stdlib/commit/8dc4cd24fd29ae3dbfc64f1a2a24381a98a12cfe) - **feat:** add `blas/ext/copy-within` [(#14239)](https://github.com/stdlib-js/stdlib/pull/14239) _(by Muhammad Haris, Athan Reines)_
 -   [`ee85255`](https://github.com/stdlib-js/stdlib/commit/ee85255c25fc195baf361775d531e189b4e3a6d2) - **docs:** add missing types _(by Athan Reines)_
