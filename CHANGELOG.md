@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-14)
+## Unreleased (2026-08-15)
 
 <section class="features">
 
 ### Features
 
+-   [`ae59aca`](https://github.com/stdlib-js/stdlib/commit/ae59aca2eabc642bc1fb071d8348d56147dc2cec) - add `blas/ext/base/ndarray/zlogspace` [(#14260)](https://github.com/stdlib-js/stdlib/pull/14260)
 -   [`d36f8d9`](https://github.com/stdlib-js/stdlib/commit/d36f8d9dd1b281b1b9c2fef765ab0e0ae7c1a0c2) - add `glogspace` and `slogspace` to namespace
 -   [`2caeef1`](https://github.com/stdlib-js/stdlib/commit/2caeef15b140c9bb21f89b674cc9fa8281beac19) - add `blas/ext/base/ndarray/glogspace` [(#14257)](https://github.com/stdlib-js/stdlib/pull/14257)
 -   [`35f3214`](https://github.com/stdlib-js/stdlib/commit/35f3214766a5de9ebd071cc73a046be8458a14d2) - add `blas/ext/base/ndarray/slogspace` [(#14256)](https://github.com/stdlib-js/stdlib/pull/14256)
@@ -516,6 +517,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ae59aca`](https://github.com/stdlib-js/stdlib/commit/ae59aca2eabc642bc1fb071d8348d56147dc2cec) - **feat:** add `blas/ext/base/ndarray/zlogspace` [(#14260)](https://github.com/stdlib-js/stdlib/pull/14260) _(by Muhammad Haris)_
 -   [`75cbfe8`](https://github.com/stdlib-js/stdlib/commit/75cbfe8618e8d81293eefba72f9a651e786f37a0) - **bench:** fix description and update variable names in `blas/base/ndarray` [(#14261)](https://github.com/stdlib-js/stdlib/pull/14261) _(by Philipp Burckhardt)_
 -   [`d36f8d9`](https://github.com/stdlib-js/stdlib/commit/d36f8d9dd1b281b1b9c2fef765ab0e0ae7c1a0c2) - **feat:** add `glogspace` and `slogspace` to namespace _(by Athan Reines)_
 -   [`2caeef1`](https://github.com/stdlib-js/stdlib/commit/2caeef15b140c9bb21f89b674cc9fa8281beac19) - **feat:** add `blas/ext/base/ndarray/glogspace` [(#14257)](https://github.com/stdlib-js/stdlib/pull/14257) _(by Muhammad Haris)_
