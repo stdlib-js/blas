@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984)
 -   [`b22e8a1`](https://github.com/stdlib-js/stdlib/commit/b22e8a1a8d028835838373b02827cd2455ebb31b) - update `blas/ext/base/ndarray` TypeScript declarations [(#14275)](https://github.com/stdlib-js/stdlib/pull/14275)
 -   [`3d73475`](https://github.com/stdlib-js/stdlib/commit/3d7347567576a84986a880725813e2fb3661bd8b) - add `blas/ext/base/ndarray/clogspace` [(#14259)](https://github.com/stdlib-js/stdlib/pull/14259)
 -   [`ae59aca`](https://github.com/stdlib-js/stdlib/commit/ae59aca2eabc642bc1fb071d8348d56147dc2cec) - add `blas/ext/base/ndarray/zlogspace` [(#14260)](https://github.com/stdlib-js/stdlib/pull/14260)
@@ -519,6 +520,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`26e6545`](https://github.com/stdlib-js/stdlib/commit/26e6545e5bf9f3eb640641b132d915b4bc2ce0f1) - **feat:** add `blas/base/ndarray/ssymv` [(#12984)](https://github.com/stdlib-js/stdlib/pull/12984) _(by Kaustubh Patange, Athan Reines)_
 -   [`b22e8a1`](https://github.com/stdlib-js/stdlib/commit/b22e8a1a8d028835838373b02827cd2455ebb31b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14275)](https://github.com/stdlib-js/stdlib/pull/14275) _(by stdlib-bot)_
 -   [`3d73475`](https://github.com/stdlib-js/stdlib/commit/3d7347567576a84986a880725813e2fb3661bd8b) - **feat:** add `blas/ext/base/ndarray/clogspace` [(#14259)](https://github.com/stdlib-js/stdlib/pull/14259) _(by Muhammad Haris, Athan Reines)_
 -   [`ae59aca`](https://github.com/stdlib-js/stdlib/commit/ae59aca2eabc642bc1fb071d8348d56147dc2cec) - **feat:** add `blas/ext/base/ndarray/zlogspace` [(#14260)](https://github.com/stdlib-js/stdlib/pull/14260) _(by Muhammad Haris)_
