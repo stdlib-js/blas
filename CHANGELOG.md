@@ -522,6 +522,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`ee85255`](https://github.com/stdlib-js/stdlib/commit/ee85255c25fc195baf361775d531e189b4e3a6d2) - **docs:** add missing types _(by Athan Reines)_
 -   [`098f2aa`](https://github.com/stdlib-js/stdlib/commit/098f2aab4fc05985e2c77656979c5e0cc10acfea) - **feat:** add `clogspace` and `zlogspace` to namespace _(by Athan Reines)_
 -   [`bc5638e`](https://github.com/stdlib-js/stdlib/commit/bc5638e8de64170103747b8821ffe98d65419457) - **feat:** add `ssymv` to namespace _(by Athan Reines)_
 -   [`c4b044e`](https://github.com/stdlib-js/stdlib/commit/c4b044ebd891cbe24cd1f943669c4b9cf6e416f2) - **docs:** update namespace table of contents [(#14276)](https://github.com/stdlib-js/stdlib/pull/14276) _(by stdlib-bot)_
