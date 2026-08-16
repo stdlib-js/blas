@@ -541,6 +541,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`1891207`](https://github.com/stdlib-js/stdlib/commit/18912078701a4721bde196f1f54c10974595944f) - **docs:** fix default value documentation [(#14325)](https://github.com/stdlib-js/stdlib/pull/14325) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1ae14e5`](https://github.com/stdlib-js/stdlib/commit/1ae14e528c7a698bc2e538222caa3dc263f34858) - **feat:** add `blas/ext/base/ndarray/cindex-of-falsy` [(#14331)](https://github.com/stdlib-js/stdlib/pull/14331) _(by Muhammad Haris, Athan Reines)_
 -   [`128f0b2`](https://github.com/stdlib-js/stdlib/commit/128f0b2b02139660ad0fd32b0ff3cae4fdc7050e) - **feat:** add `blas/ext/base/ndarray/zindex-of-falsy` [(#14332)](https://github.com/stdlib-js/stdlib/pull/14332) _(by Muhammad Haris, Athan Reines)_
 -   [`066149c`](https://github.com/stdlib-js/stdlib/commit/066149c224e845d06691113bd2a381080b77014c) - **feat:** add various symbols to namespace _(by Athan Reines)_
