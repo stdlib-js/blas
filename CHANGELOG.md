@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4eab3ce`](https://github.com/stdlib-js/stdlib/commit/4eab3ce317df1f4ba94d5ca6e5c8a8321505a816) - add `blas/ext/base/ndarray/slast-index-of-truthy` [(#14308)](https://github.com/stdlib-js/stdlib/pull/14308)
 -   [`5f19478`](https://github.com/stdlib-js/stdlib/commit/5f19478aeb621307445498247ddffd4207c96574) - add `blas/ext/base/ndarray/glast-index-of-truthy` [(#14304)](https://github.com/stdlib-js/stdlib/pull/14304)
 -   [`93690ae`](https://github.com/stdlib-js/stdlib/commit/93690ae4300fc713c178f21f64390af73de4ed18) - add `blas/ext/base/ndarray/dlast-index-of-truthy` [(#14307)](https://github.com/stdlib-js/stdlib/pull/14307)
 -   [`aa60082`](https://github.com/stdlib-js/stdlib/commit/aa60082b3e7e83c33964d9cf76d9baf0998cb79b) - add `blas/ext/logspace` [(#14285)](https://github.com/stdlib-js/stdlib/pull/14285)
@@ -531,6 +532,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`4eab3ce`](https://github.com/stdlib-js/stdlib/commit/4eab3ce317df1f4ba94d5ca6e5c8a8321505a816) - **feat:** add `blas/ext/base/ndarray/slast-index-of-truthy` [(#14308)](https://github.com/stdlib-js/stdlib/pull/14308) _(by Muhammad Haris)_
 -   [`5f19478`](https://github.com/stdlib-js/stdlib/commit/5f19478aeb621307445498247ddffd4207c96574) - **feat:** add `blas/ext/base/ndarray/glast-index-of-truthy` [(#14304)](https://github.com/stdlib-js/stdlib/pull/14304) _(by Muhammad Haris, Athan Reines)_
 -   [`93690ae`](https://github.com/stdlib-js/stdlib/commit/93690ae4300fc713c178f21f64390af73de4ed18) - **feat:** add `blas/ext/base/ndarray/dlast-index-of-truthy` [(#14307)](https://github.com/stdlib-js/stdlib/pull/14307) _(by Muhammad Haris, Athan Reines)_
 -   [`aa60082`](https://github.com/stdlib-js/stdlib/commit/aa60082b3e7e83c33964d9cf76d9baf0998cb79b) - **feat:** add `blas/ext/logspace` [(#14285)](https://github.com/stdlib-js/stdlib/pull/14285) _(by Muhammad Haris, Athan Reines)_
