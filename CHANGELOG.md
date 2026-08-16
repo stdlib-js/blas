@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8a85ec2`](https://github.com/stdlib-js/stdlib/commit/8a85ec27a653b9bfcac2c9a84ae8b22ae4d1fa2c) - add `blas/ext/base/ndarray/sdiff` [(#14293)](https://github.com/stdlib-js/stdlib/pull/14293)
 -   [`eccc0be`](https://github.com/stdlib-js/stdlib/commit/eccc0be5a62d0c2f38bd6c9469c7531245aa5ca1) - add `blas/ext/base/ndarray/cdiff` [(#14294)](https://github.com/stdlib-js/stdlib/pull/14294)
 -   [`82b98d8`](https://github.com/stdlib-js/stdlib/commit/82b98d85f012debee554e75e77bf72b90ba66ead) - add `blas/ext/base/ndarray/gcunone` [(#14303)](https://github.com/stdlib-js/stdlib/pull/14303)
 -   [`8f82476`](https://github.com/stdlib-js/stdlib/commit/8f8247684be09b6f1e9ec45596e24ed017e157b1) - add `blas/ext/base/ndarray/zdiff` [(#14300)](https://github.com/stdlib-js/stdlib/pull/14300)
@@ -536,6 +537,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`8a85ec2`](https://github.com/stdlib-js/stdlib/commit/8a85ec27a653b9bfcac2c9a84ae8b22ae4d1fa2c) - **feat:** add `blas/ext/base/ndarray/sdiff` [(#14293)](https://github.com/stdlib-js/stdlib/pull/14293) _(by Muhammad Haris)_
 -   [`eccc0be`](https://github.com/stdlib-js/stdlib/commit/eccc0be5a62d0c2f38bd6c9469c7531245aa5ca1) - **feat:** add `blas/ext/base/ndarray/cdiff` [(#14294)](https://github.com/stdlib-js/stdlib/pull/14294) _(by Muhammad Haris)_
 -   [`82b98d8`](https://github.com/stdlib-js/stdlib/commit/82b98d85f012debee554e75e77bf72b90ba66ead) - **feat:** add `blas/ext/base/ndarray/gcunone` [(#14303)](https://github.com/stdlib-js/stdlib/pull/14303) _(by Muhammad Haris, Athan Reines)_
 -   [`8f82476`](https://github.com/stdlib-js/stdlib/commit/8f8247684be09b6f1e9ec45596e24ed017e157b1) - **feat:** add `blas/ext/base/ndarray/zdiff` [(#14300)](https://github.com/stdlib-js/stdlib/pull/14300) _(by Muhammad Haris)_
