@@ -64,6 +64,15 @@ setReadOnly( ns, 'caxpby', require( './../../../../ext/base/ndarray/caxpby' ) );
 setReadOnly( ns, 'ccopyWithin', require( './../../../../ext/base/ndarray/ccopy-within' ) );
 
 /**
+* @name cdiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cdiff}
+*/
+setReadOnly( ns, 'cdiff', require( './../../../../ext/base/ndarray/cdiff' ) );
+
+/**
 * @name cfillEqual
 * @memberof ns
 * @readonly
@@ -253,6 +262,15 @@ setReadOnly( ns, 'dcircshift', require( './../../../../ext/base/ndarray/dcircshi
 setReadOnly( ns, 'dcopyWithin', require( './../../../../ext/base/ndarray/dcopy-within' ) );
 
 /**
+* @name dcunone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcunone}
+*/
+setReadOnly( ns, 'dcunone', require( './../../../../ext/base/ndarray/dcunone' ) );
+
+/**
 * @name dcusum
 * @memberof ns
 * @readonly
@@ -422,6 +440,15 @@ setReadOnly( ns, 'dlastIndexOf', require( './../../../../ext/base/ndarray/dlast-
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dlast-index-of-falsy}
 */
 setReadOnly( ns, 'dlastIndexOfFalsy', require( './../../../../ext/base/ndarray/dlast-index-of-falsy' ) );
+
+/**
+* @name dlastIndexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dlast-index-of-truthy}
+*/
+setReadOnly( ns, 'dlastIndexOfTruthy', require( './../../../../ext/base/ndarray/dlast-index-of-truthy' ) );
 
 /**
 * @name dlinspace
@@ -730,6 +757,15 @@ setReadOnly( ns, 'gcircshift', require( './../../../../ext/base/ndarray/gcircshi
 setReadOnly( ns, 'gcopyWithin', require( './../../../../ext/base/ndarray/gcopy-within' ) );
 
 /**
+* @name gcunone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcunone}
+*/
+setReadOnly( ns, 'gcunone', require( './../../../../ext/base/ndarray/gcunone' ) );
+
+/**
 * @name gcusum
 * @memberof ns
 * @readonly
@@ -773,6 +809,15 @@ setReadOnly( ns, 'gcusumors', require( './../../../../ext/base/ndarray/gcusumors
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gcusumpw}
 */
 setReadOnly( ns, 'gcusumpw', require( './../../../../ext/base/ndarray/gcusumpw' ) );
+
+/**
+* @name gdiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gdiff}
+*/
+setReadOnly( ns, 'gdiff', require( './../../../../ext/base/ndarray/gdiff' ) );
 
 /**
 * @name gfillEqual
@@ -926,6 +971,15 @@ setReadOnly( ns, 'glastIndexOf', require( './../../../../ext/base/ndarray/glast-
 * @see {@link module:@stdlib/blas/ext/base/ndarray/glast-index-of-falsy}
 */
 setReadOnly( ns, 'glastIndexOfFalsy', require( './../../../../ext/base/ndarray/glast-index-of-falsy' ) );
+
+/**
+* @name glastIndexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/glast-index-of-truthy}
+*/
+setReadOnly( ns, 'glastIndexOfTruthy', require( './../../../../ext/base/ndarray/glast-index-of-truthy' ) );
 
 /**
 * @name glinspace
@@ -1261,6 +1315,15 @@ setReadOnly( ns, 'scusumkbn2', require( './../../../../ext/base/ndarray/scusumkb
 setReadOnly( ns, 'scusumors', require( './../../../../ext/base/ndarray/scusumors' ) );
 
 /**
+* @name sdiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sdiff}
+*/
+setReadOnly( ns, 'sdiff', require( './../../../../ext/base/ndarray/sdiff' ) );
+
+/**
 * @name sfillEqual
 * @memberof ns
 * @readonly
@@ -1349,6 +1412,15 @@ setReadOnly( ns, 'slastIndexOf', require( './../../../../ext/base/ndarray/slast-
 * @see {@link module:@stdlib/blas/ext/base/ndarray/slast-index-of-falsy}
 */
 setReadOnly( ns, 'slastIndexOfFalsy', require( './../../../../ext/base/ndarray/slast-index-of-falsy' ) );
+
+/**
+* @name slastIndexOfTruthy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/slast-index-of-truthy}
+*/
+setReadOnly( ns, 'slastIndexOfTruthy', require( './../../../../ext/base/ndarray/slast-index-of-truthy' ) );
 
 /**
 * @name slinspace
@@ -1610,6 +1682,15 @@ setReadOnly( ns, 'zaxpby', require( './../../../../ext/base/ndarray/zaxpby' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zcopy-within}
 */
 setReadOnly( ns, 'zcopyWithin', require( './../../../../ext/base/ndarray/zcopy-within' ) );
+
+/**
+* @name zdiff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zdiff}
+*/
+setReadOnly( ns, 'zdiff', require( './../../../../ext/base/ndarray/zdiff' ) );
 
 /**
 * @name zindexOf

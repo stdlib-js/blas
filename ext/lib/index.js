@@ -127,6 +127,15 @@ setReadOnly( ns, 'lastIndexOf', require( './../../ext/last-index-of' ) );
 setReadOnly( ns, 'linspace', require( './../../ext/linspace' ) );
 
 /**
+* @name logspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/logspace}
+*/
+setReadOnly( ns, 'logspace', require( './../../ext/logspace' ) );
+
+/**
 * @name oneTo
 * @memberof ns
 * @readonly
