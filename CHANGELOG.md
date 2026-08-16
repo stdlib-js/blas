@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995)
 -   [`36c54ac`](https://github.com/stdlib-js/stdlib/commit/36c54acddca9a5b8c9fd10cf98e693e77d82f81f) - add `blas/ext/base/ndarray/sindex-of-falsy` [(#14328)](https://github.com/stdlib-js/stdlib/pull/14328)
 -   [`1ae14e5`](https://github.com/stdlib-js/stdlib/commit/1ae14e528c7a698bc2e538222caa3dc263f34858) - add `blas/ext/base/ndarray/cindex-of-falsy` [(#14331)](https://github.com/stdlib-js/stdlib/pull/14331)
 -   [`128f0b2`](https://github.com/stdlib-js/stdlib/commit/128f0b2b02139660ad0fd32b0ff3cae4fdc7050e) - add `blas/ext/base/ndarray/zindex-of-falsy` [(#14332)](https://github.com/stdlib-js/stdlib/pull/14332)
@@ -542,6 +543,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - **feat:** add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995) _(by Kaustubh Patange, Athan Reines)_
 -   [`36c54ac`](https://github.com/stdlib-js/stdlib/commit/36c54acddca9a5b8c9fd10cf98e693e77d82f81f) - **feat:** add `blas/ext/base/ndarray/sindex-of-falsy` [(#14328)](https://github.com/stdlib-js/stdlib/pull/14328) _(by Muhammad Haris, Athan Reines)_
 -   [`1891207`](https://github.com/stdlib-js/stdlib/commit/18912078701a4721bde196f1f54c10974595944f) - **docs:** fix default value documentation [(#14325)](https://github.com/stdlib-js/stdlib/pull/14325) _(by Philipp Burckhardt, Athan Reines)_
 -   [`1ae14e5`](https://github.com/stdlib-js/stdlib/commit/1ae14e528c7a698bc2e538222caa3dc263f34858) - **feat:** add `blas/ext/base/ndarray/cindex-of-falsy` [(#14331)](https://github.com/stdlib-js/stdlib/pull/14331) _(by Muhammad Haris, Athan Reines)_
