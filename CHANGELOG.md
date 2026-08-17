@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`486689f`](https://github.com/stdlib-js/stdlib/commit/486689f169880dff90784e24afc6614faa502177) - add `blas/base/ndarray/strsv` [(#13084)](https://github.com/stdlib-js/stdlib/pull/13084)
 -   [`b08183c`](https://github.com/stdlib-js/stdlib/commit/b08183c98879661e7d361be6570b9123347deebb) - add `blas/base/ndarray/dtrsv` [(#13083)](https://github.com/stdlib-js/stdlib/pull/13083)
 -   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067)
 -   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065)
@@ -548,6 +549,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`486689f`](https://github.com/stdlib-js/stdlib/commit/486689f169880dff90784e24afc6614faa502177) - **feat:** add `blas/base/ndarray/strsv` [(#13084)](https://github.com/stdlib-js/stdlib/pull/13084) _(by Kaustubh Patange)_
 -   [`b08183c`](https://github.com/stdlib-js/stdlib/commit/b08183c98879661e7d361be6570b9123347deebb) - **feat:** add `blas/base/ndarray/dtrsv` [(#13083)](https://github.com/stdlib-js/stdlib/pull/13083) _(by Kaustubh Patange)_
 -   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - **feat:** add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067) _(by Kaustubh Patange)_
 -   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - **feat:** add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065) _(by Kaustubh Patange)_
