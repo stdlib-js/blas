@@ -30,7 +30,6 @@ import indexOf = require( './../../../ext/index-of' );
 import join = require( './../../../ext/join' );
 import lastIndexOf = require( './../../../ext/last-index-of' );
 import linspace = require( './../../../ext/linspace' );
-import logspace = require( './../../../ext/logspace' );
 import oneTo = require( './../../../ext/one-to' );
 import sort = require( './../../../ext/sort' );
 import sorthp = require( './../../../ext/sorthp' );
@@ -369,35 +368,6 @@ interface Namespace {
 	* // returns true
 	*/
 	linspace: typeof linspace;
-
-	/**
-	* Returns a new ndarray filled with logarithmically spaced values over a specified interval along one or more ndarray dimensions.
-	*
-	* @param shape - array shape
-	* @param base - base of the logarithmic scale
-	* @param start - exponent of the starting value
-	* @param stop - exponent of the final value
-	* @param endpoint - specifies whether to include the `base^stop` value when writing values to the output ndarray
-	* @param options - function options
-	* @returns output ndarray
-	*
-	* @example
-	* var out = ns.logspace( [ 2, 3 ], 10.0, 0.0, 2.0 );
-	* // returns <ndarray>[ [ 1.0, 10.0, 100.0 ], [ 1.0, 10.0, 100.0 ] ]
-	*
-	* @example
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	*
-	* var x = zeros( [ 2, 3 ] );
-	* // returns <ndarray>
-	*
-	* var out = ns.logspace.assign( x, 10.0, 0.0, 2.0 );
-	* // returns <ndarray>[ [ 1.0, 10.0, 100.0 ], [ 1.0, 10.0, 100.0 ] ]
-	*
-	* var bool = ( out === x );
-	* // returns true
-	*/
-	logspace: typeof logspace;
 
 	/**
 	* Returns a new ndarray filled with linearly spaced numeric elements which increment by 1 starting from one along one or more ndarray dimensions.
