@@ -23,6 +23,7 @@
 import caxpb = require( './../../../../../ext/base/ndarray/caxpb' );
 import caxpby = require( './../../../../../ext/base/ndarray/caxpby' );
 import ccopyWithin = require( './../../../../../ext/base/ndarray/ccopy-within' );
+import cdiff = require( './../../../../../ext/base/ndarray/cdiff' );
 import cfillEqual = require( './../../../../../ext/base/ndarray/cfill-equal' );
 import cindexOf = require( './../../../../../ext/base/ndarray/cindex-of' );
 import cindexOfTruthy = require( './../../../../../ext/base/ndarray/cindex-of-truthy' );
@@ -44,6 +45,7 @@ import daxpb = require( './../../../../../ext/base/ndarray/daxpb' );
 import daxpby = require( './../../../../../ext/base/ndarray/daxpby' );
 import dcircshift = require( './../../../../../ext/base/ndarray/dcircshift' );
 import dcopyWithin = require( './../../../../../ext/base/ndarray/dcopy-within' );
+import dcunone = require( './../../../../../ext/base/ndarray/dcunone' );
 import dcusum = require( './../../../../../ext/base/ndarray/dcusum' );
 import dcusumkbn = require( './../../../../../ext/base/ndarray/dcusumkbn' );
 import dcusumkbn2 = require( './../../../../../ext/base/ndarray/dcusumkbn2' );
@@ -63,6 +65,7 @@ import dindexOfTruthy = require( './../../../../../ext/base/ndarray/dindex-of-tr
 import dlastIndexEqual = require( './../../../../../ext/base/ndarray/dlast-index-equal' );
 import dlastIndexOf = require( './../../../../../ext/base/ndarray/dlast-index-of' );
 import dlastIndexOfFalsy = require( './../../../../../ext/base/ndarray/dlast-index-of-falsy' );
+import dlastIndexOfTruthy = require( './../../../../../ext/base/ndarray/dlast-index-of-truthy' );
 import dlinspace = require( './../../../../../ext/base/ndarray/dlinspace' );
 import dlogspace = require( './../../../../../ext/base/ndarray/dlogspace' );
 import dnansum = require( './../../../../../ext/base/ndarray/dnansum' );
@@ -97,11 +100,13 @@ import gaxpb = require( './../../../../../ext/base/ndarray/gaxpb' );
 import gaxpby = require( './../../../../../ext/base/ndarray/gaxpby' );
 import gcircshift = require( './../../../../../ext/base/ndarray/gcircshift' );
 import gcopyWithin = require( './../../../../../ext/base/ndarray/gcopy-within' );
+import gcunone = require( './../../../../../ext/base/ndarray/gcunone' );
 import gcusum = require( './../../../../../ext/base/ndarray/gcusum' );
 import gcusumkbn = require( './../../../../../ext/base/ndarray/gcusumkbn' );
 import gcusumkbn2 = require( './../../../../../ext/base/ndarray/gcusumkbn2' );
 import gcusumors = require( './../../../../../ext/base/ndarray/gcusumors' );
 import gcusumpw = require( './../../../../../ext/base/ndarray/gcusumpw' );
+import gdiff = require( './../../../../../ext/base/ndarray/gdiff' );
 import gfillEqual = require( './../../../../../ext/base/ndarray/gfill-equal' );
 import gfillNaN = require( './../../../../../ext/base/ndarray/gfill-nan' );
 import gfillNotEqual = require( './../../../../../ext/base/ndarray/gfill-not-equal' );
@@ -119,6 +124,7 @@ import gjoinBetween = require( './../../../../../ext/base/ndarray/gjoin-between'
 import glastIndexEqual = require( './../../../../../ext/base/ndarray/glast-index-equal' );
 import glastIndexOf = require( './../../../../../ext/base/ndarray/glast-index-of' );
 import glastIndexOfFalsy = require( './../../../../../ext/base/ndarray/glast-index-of-falsy' );
+import glastIndexOfTruthy = require( './../../../../../ext/base/ndarray/glast-index-of-truthy' );
 import glinspace = require( './../../../../../ext/base/ndarray/glinspace' );
 import glogspace = require( './../../../../../ext/base/ndarray/glogspace' );
 import gnansum = require( './../../../../../ext/base/ndarray/gnansum' );
@@ -156,6 +162,7 @@ import scusum = require( './../../../../../ext/base/ndarray/scusum' );
 import scusumkbn = require( './../../../../../ext/base/ndarray/scusumkbn' );
 import scusumkbn2 = require( './../../../../../ext/base/ndarray/scusumkbn2' );
 import scusumors = require( './../../../../../ext/base/ndarray/scusumors' );
+import sdiff = require( './../../../../../ext/base/ndarray/sdiff' );
 import sfillEqual = require( './../../../../../ext/base/ndarray/sfill-equal' );
 import sfillNaN = require( './../../../../../ext/base/ndarray/sfill-nan' );
 import sfillNotEqual = require( './../../../../../ext/base/ndarray/sfill-not-equal' );
@@ -166,6 +173,7 @@ import sindexOfNotEqual = require( './../../../../../ext/base/ndarray/sindex-of-
 import sindexOfTruthy = require( './../../../../../ext/base/ndarray/sindex-of-truthy' );
 import slastIndexOf = require( './../../../../../ext/base/ndarray/slast-index-of' );
 import slastIndexOfFalsy = require( './../../../../../ext/base/ndarray/slast-index-of-falsy' );
+import slastIndexOfTruthy = require( './../../../../../ext/base/ndarray/slast-index-of-truthy' );
 import slinspace = require( './../../../../../ext/base/ndarray/slinspace' );
 import slogspace = require( './../../../../../ext/base/ndarray/slogspace' );
 import snansum = require( './../../../../../ext/base/ndarray/snansum' );
@@ -195,6 +203,7 @@ import szeroTo = require( './../../../../../ext/base/ndarray/szero-to' );
 import zaxpb = require( './../../../../../ext/base/ndarray/zaxpb' );
 import zaxpby = require( './../../../../../ext/base/ndarray/zaxpby' );
 import zcopyWithin = require( './../../../../../ext/base/ndarray/zcopy-within' );
+import zdiff = require( './../../../../../ext/base/ndarray/zdiff' );
 import zindexOf = require( './../../../../../ext/base/ndarray/zindex-of' );
 import zindexOfTruthy = require( './../../../../../ext/base/ndarray/zindex-of-truthy' );
 import zlogspace = require( './../../../../../ext/base/ndarray/zlogspace' );
@@ -326,6 +335,41 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex64>[ 1.0, 2.0 ], <Complex64>[ 1.0, 2.0 ], <Complex64>[ 3.0, 4.0 ] ]
 	*/
 	ccopyWithin: typeof ccopyWithin;
+
+	/**
+	* Calculates the k-th discrete forward difference of a one-dimensional single-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional ndarray containing values to prepend.
+	*     -   a one-dimensional ndarray containing values to append.
+	*     -   a one-dimensional output ndarray.
+	*     -   a one-dimensional workspace ndarray.
+	*     -   a zero-dimensional ndarray specifying the number of times to recursively compute differences.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex64Vector( [ 2.0, -2.0, 4.0, -4.0 ] );
+	* var prepend = new Complex64Vector( [ 1.0, -1.0 ] );
+	* var append = new Complex64Vector( [ 7.0, -7.0 ] );
+	* var out = new Complex64Vector( 3 );
+	* var workspace = new Complex64Vector( 3 );
+	* var k = scalar2ndarray( 1, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var y = ns.cdiff( [ x, prepend, append, out, workspace, k ] );
+	* // returns <ndarray>[ <Complex64>[ 1.0, -1.0 ], <Complex64>[ 2.0, -2.0 ], <Complex64>[ 3.0, -3.0 ] ]
+	*/
+	cdiff: typeof cdiff;
 
 	/**
 	* Replaces elements in a one-dimensional single-precision complex floating-point ndarray equal to a provided search element with a specified scalar constant.
@@ -940,6 +984,34 @@ interface Namespace {
 	dcopyWithin: typeof dcopyWithin;
 
 	/**
+	* Cumulatively tests whether every element in a one-dimensional double-precision floating-point ndarray is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var BooleanVector = require( '@stdlib/ndarray/vector/bool' );
+	*
+	* var x = new Float64Vector( [ 0.0, 0.0, 1.0, 1.0 ] );
+	* var out = new BooleanVector( 4 );
+	*
+	* var z = ns.dcunone( [ x, out ] );
+	* // returns <ndarray>[ true, true, false, false ]
+	*
+	* var bool = ( z === out );
+	* // returns true
+	*/
+	dcunone: typeof dcunone;
+
+	/**
 	* Computes the cumulative sum of a one-dimensional double-precision floating-point ndarray.
 	*
 	* ## Notes
@@ -1500,6 +1572,28 @@ interface Namespace {
 	* // returns 3
 	*/
 	dlastIndexOfFalsy: typeof dlastIndexOfFalsy;
+
+	/**
+	* Returns the index of the last truthy element in a one-dimensional double-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	*
+	* var x = new Float64Vector( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var v = ns.dlastIndexOfTruthy( [ x ] );
+	* // returns 3
+	*/
+	dlastIndexOfTruthy: typeof dlastIndexOfTruthy;
 
 	/**
 	* Fills a one-dimensional double-precision floating-point ndarray with linearly spaced values over a specified interval.
@@ -2435,6 +2529,34 @@ interface Namespace {
 	gcopyWithin: typeof gcopyWithin;
 
 	/**
+	* Cumulatively tests whether every element in a one-dimensional ndarray is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional output ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var BooleanVector = require( '@stdlib/ndarray/vector/bool' );
+	*
+	* var x = vector( [ 0.0, 0.0, 1.0, 1.0 ], 'generic' );
+	* var out = new BooleanVector( 4 );
+	*
+	* var z = ns.gcunone( [ x, out ] );
+	* // returns <ndarray>[ true, true, false, false ]
+	*
+	* var bool = ( z === out );
+	* // returns true
+	*/
+	gcunone: typeof gcunone;
+
+	/**
 	* Computes the cumulative sum of a one-dimensional ndarray.
 	*
 	* ## Notes
@@ -2598,6 +2720,41 @@ interface Namespace {
 	* // returns true
 	*/
 	gcusumpw: typeof gcusumpw;
+
+	/**
+	* Calculates the k-th discrete forward difference of a one-dimensional ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional ndarray containing values to prepend.
+	*     -   a one-dimensional ndarray containing values to append.
+	*     -   a one-dimensional output ndarray.
+	*     -   a one-dimensional workspace ndarray.
+	*     -   a zero-dimensional ndarray specifying the number of times to recursively compute differences.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = vector( [ 2.0, 4.0, 6.0, 8.0, 10.0 ], 'generic' );
+	* var prepend = vector( [ 1.0 ], 'generic' );
+	* var append = vector( [ 11.0 ], 'generic' );
+	* var out = vector( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ], 'generic' );
+	* var workspace = vector( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ], 'generic' );
+	* var k = scalar2ndarray( 1, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var y = ns.gdiff( [ x, prepend, append, out, workspace, k ] );
+	* // returns <ndarray>[ 1.0, 2.0, 2.0, 2.0, 2.0, 1.0 ]
+	*/
+	gdiff: typeof gdiff;
 
 	/**
 	* Replaces elements in a one-dimensional ndarray equal to a provided search element with a specified scalar constant.
@@ -3078,6 +3235,28 @@ interface Namespace {
 	* // returns 2
 	*/
 	glastIndexOfFalsy: typeof glastIndexOfFalsy;
+
+	/**
+	* Returns the index of the last truthy element in a one-dimensional ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	*
+	* var x = vector( [ 0.0, 3.0, 0.0, 2.0 ], 'generic' );
+	*
+	* var v = ns.glastIndexOfTruthy( [ x ] );
+	* // returns 3
+	*/
+	glastIndexOfTruthy: typeof glastIndexOfTruthy;
 
 	/**
 	* Fills a one-dimensional ndarray with linearly spaced values over a specified interval.
@@ -4123,6 +4302,41 @@ interface Namespace {
 	scusumors: typeof scusumors;
 
 	/**
+	* Calculates the k-th discrete forward difference of a one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional ndarray containing values to prepend.
+	*     -   a one-dimensional ndarray containing values to append.
+	*     -   a one-dimensional output ndarray.
+	*     -   a one-dimensional workspace ndarray.
+	*     -   a zero-dimensional ndarray specifying the number of times to recursively compute differences.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ 2.0, 4.0, 6.0, 8.0, 10.0 ] );
+	* var prepend = new Float32Vector( [ 1.0 ] );
+	* var append = new Float32Vector( [ 11.0 ] );
+	* var out = new Float32Vector( 6 );
+	* var workspace = new Float32Vector( 6 );
+	* var k = scalar2ndarray( 1, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var y = ns.sdiff( [ x, prepend, append, out, workspace, k ] );
+	* // returns <ndarray>[ 1.0, 2.0, 2.0, 2.0, 2.0, 1.0 ]
+	*/
+	sdiff: typeof sdiff;
+
+	/**
 	* Replaces elements in a one-dimensional single-precision floating-point ndarray equal to a provided search element with a specified scalar constant.
 	*
 	* ## Notes
@@ -4409,6 +4623,28 @@ interface Namespace {
 	* // returns 3
 	*/
 	slastIndexOfFalsy: typeof slastIndexOfFalsy;
+
+	/**
+	* Returns the index of the last truthy element in a one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	*
+	* var x = new Float32Vector( [ 0.0, 1.0, 0.0, 2.0 ] );
+	*
+	* var v = ns.slastIndexOfTruthy( [ x ] );
+	* // returns 3
+	*/
+	slastIndexOfTruthy: typeof slastIndexOfTruthy;
 
 	/**
 	* Fills a one-dimensional single-precision floating-point ndarray with linearly spaced values over a specified interval.
@@ -5212,6 +5448,41 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex128>[ 1.0, 2.0 ], <Complex128>[ 1.0, 2.0 ], <Complex128>[ 3.0, 4.0 ] ]
 	*/
 	zcopyWithin: typeof zcopyWithin;
+
+	/**
+	* Calculates the k-th discrete forward difference of a one-dimensional double-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional ndarray containing values to prepend.
+	*     -   a one-dimensional ndarray containing values to append.
+	*     -   a one-dimensional output ndarray.
+	*     -   a one-dimensional workspace ndarray.
+	*     -   a zero-dimensional ndarray specifying the number of times to recursively compute differences.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex128Vector( [ 2.0, 2.0, 4.0, 4.0 ] );
+	* var prepend = new Complex128Vector( [ 1.0, 1.0 ] );
+	* var append = new Complex128Vector( [ 7.0, 7.0 ] );
+	* var out = new Complex128Vector( 3 );
+	* var workspace = new Complex128Vector( 3 );
+	* var k = scalar2ndarray( 1, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var y = ns.zdiff( [ x, prepend, append, out, workspace, k ] );
+	* // returns <ndarray>[ <Complex128>[ 1.0, 1.0 ], <Complex128>[ 2.0, 2.0 ], <Complex128>[ 3.0, 3.0 ] ]
+	*/
+	zdiff: typeof zdiff;
 
 	/**
 	* Returns the first index of a search element in a one-dimensional double-precision complex floating-point ndarray.

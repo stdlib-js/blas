@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065)
+-   [`c63a215`](https://github.com/stdlib-js/stdlib/commit/c63a21506b0d85ee01091cff9b91198a79849b1a) - update `blas/ext/base/ndarray` TypeScript declarations [(#14341)](https://github.com/stdlib-js/stdlib/pull/14341)
 -   [`c08f11b`](https://github.com/stdlib-js/stdlib/commit/c08f11b459d99918237effa2e09be74f6f85c102) - update `blas/ext` TypeScript declarations [(#14342)](https://github.com/stdlib-js/stdlib/pull/14342)
 -   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995)
 -   [`36c54ac`](https://github.com/stdlib-js/stdlib/commit/36c54acddca9a5b8c9fd10cf98e693e77d82f81f) - add `blas/ext/base/ndarray/sindex-of-falsy` [(#14328)](https://github.com/stdlib-js/stdlib/pull/14328)
@@ -544,6 +546,8 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - **feat:** add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065) _(by Kaustubh Patange)_
+-   [`c63a215`](https://github.com/stdlib-js/stdlib/commit/c63a21506b0d85ee01091cff9b91198a79849b1a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14341)](https://github.com/stdlib-js/stdlib/pull/14341) _(by stdlib-bot)_
 -   [`c08f11b`](https://github.com/stdlib-js/stdlib/commit/c08f11b459d99918237effa2e09be74f6f85c102) - **feat:** update `blas/ext` TypeScript declarations [(#14342)](https://github.com/stdlib-js/stdlib/pull/14342) _(by stdlib-bot)_
 -   [`ed4c180`](https://github.com/stdlib-js/stdlib/commit/ed4c180a7f5aaccda01e181f8836c0d81bbe81e8) - **docs:** update namespace table of contents [(#14343)](https://github.com/stdlib-js/stdlib/pull/14343) _(by stdlib-bot)_
 -   [`f1c96cf`](https://github.com/stdlib-js/stdlib/commit/f1c96cfe4ff923d1f83e5d019546c89ce86050e8) - **feat:** add `blas/base/ndarray/dspmv` [(#12995)](https://github.com/stdlib-js/stdlib/pull/12995) _(by Kaustubh Patange, Athan Reines)_
