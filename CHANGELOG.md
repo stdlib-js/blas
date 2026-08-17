@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067)
 -   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065)
 -   [`c63a215`](https://github.com/stdlib-js/stdlib/commit/c63a21506b0d85ee01091cff9b91198a79849b1a) - update `blas/ext/base/ndarray` TypeScript declarations [(#14341)](https://github.com/stdlib-js/stdlib/pull/14341)
 -   [`c08f11b`](https://github.com/stdlib-js/stdlib/commit/c08f11b459d99918237effa2e09be74f6f85c102) - update `blas/ext` TypeScript declarations [(#14342)](https://github.com/stdlib-js/stdlib/pull/14342)
@@ -546,6 +547,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - **feat:** add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067) _(by Kaustubh Patange)_
 -   [`782dd23`](https://github.com/stdlib-js/stdlib/commit/782dd23a537a45066c221c07a07520604e4c251b) - **feat:** add `blas/base/ndarray/dtrmv` [(#13065)](https://github.com/stdlib-js/stdlib/pull/13065) _(by Kaustubh Patange)_
 -   [`c63a215`](https://github.com/stdlib-js/stdlib/commit/c63a21506b0d85ee01091cff9b91198a79849b1a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14341)](https://github.com/stdlib-js/stdlib/pull/14341) _(by stdlib-bot)_
 -   [`c08f11b`](https://github.com/stdlib-js/stdlib/commit/c08f11b459d99918237effa2e09be74f6f85c102) - **feat:** update `blas/ext` TypeScript declarations [(#14342)](https://github.com/stdlib-js/stdlib/pull/14342) _(by stdlib-bot)_
