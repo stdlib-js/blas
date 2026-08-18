@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-17)
+## Unreleased (2026-08-18)
 
 <section class="features">
 
@@ -549,6 +549,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`600a127`](https://github.com/stdlib-js/stdlib/commit/600a127f0a7b41a3dcfebaf5e9830823bd2a51ae) - **docs:** fix descriptions [(#14363)](https://github.com/stdlib-js/stdlib/pull/14363) _(by Philipp Burckhardt)_
 -   [`486689f`](https://github.com/stdlib-js/stdlib/commit/486689f169880dff90784e24afc6614faa502177) - **feat:** add `blas/base/ndarray/strsv` [(#13084)](https://github.com/stdlib-js/stdlib/pull/13084) _(by Kaustubh Patange)_
 -   [`b08183c`](https://github.com/stdlib-js/stdlib/commit/b08183c98879661e7d361be6570b9123347deebb) - **feat:** add `blas/base/ndarray/dtrsv` [(#13083)](https://github.com/stdlib-js/stdlib/pull/13083) _(by Kaustubh Patange)_
 -   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - **feat:** add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067) _(by Kaustubh Patange)_
