@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0) - add `fromIndex` support [(#14411)](https://github.com/stdlib-js/stdlib/pull/14411)
 -   [`486689f`](https://github.com/stdlib-js/stdlib/commit/486689f169880dff90784e24afc6614faa502177) - add `blas/base/ndarray/strsv` [(#13084)](https://github.com/stdlib-js/stdlib/pull/13084)
 -   [`b08183c`](https://github.com/stdlib-js/stdlib/commit/b08183c98879661e7d361be6570b9123347deebb) - add `blas/base/ndarray/dtrsv` [(#13083)](https://github.com/stdlib-js/stdlib/pull/13083)
 -   [`bc0fb45`](https://github.com/stdlib-js/stdlib/commit/bc0fb45fd6cd74fa07ce8d66a5a6914965f90e04) - add `blas/base/ndarray/strmv` [(#13067)](https://github.com/stdlib-js/stdlib/pull/13067)
@@ -531,6 +532,18 @@
 
 <!-- /.bug-fixes -->
 
+<section class="breaking-changes">
+
+### BREAKING CHANGES
+
+-   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0): add `fromIndex` support
+
+    -   To preserve the old behavior, users should provide an additional zero-dimensional ndarray containing the value `0`.
+
+</section>
+
+<!-- /.breaking-changes -->
+
 <section class="issues">
 
 ### Closed Issues
@@ -549,6 +562,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0) - **feat:** add `fromIndex` support [(#14411)](https://github.com/stdlib-js/stdlib/pull/14411) _(by Muhammad Haris)_
 -   [`1eb5c15`](https://github.com/stdlib-js/stdlib/commit/1eb5c15f20bacaf54a2fb41ff6a134423bc04c8e) - **chore:** add keywords [(#14379)](https://github.com/stdlib-js/stdlib/pull/14379) _(by Philipp Burckhardt)_
 -   [`72b23ea`](https://github.com/stdlib-js/stdlib/commit/72b23ea594cad1265cd358ade0e366d682f5858d) - **chore:** clean-up [(#14383)](https://github.com/stdlib-js/stdlib/pull/14383) _(by Philipp Burckhardt)_
 -   [`600a127`](https://github.com/stdlib-js/stdlib/commit/600a127f0a7b41a3dcfebaf5e9830823bd2a51ae) - **docs:** fix descriptions [(#14363)](https://github.com/stdlib-js/stdlib/pull/14363) _(by Philipp Burckhardt)_
