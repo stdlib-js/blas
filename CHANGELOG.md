@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`85f2bbf`](https://github.com/stdlib-js/stdlib/commit/85f2bbf60e231423efe854b97d4dad105f2e2c06) - add `fromIndex` support to `blas/ext/base/ndarray/dlast-index-equal` [(#14473)](https://github.com/stdlib-js/stdlib/pull/14473)
 -   [`8149ea2`](https://github.com/stdlib-js/stdlib/commit/8149ea24c6d985b94e55ef76eff24e39443a922c) - add `blas/ext/base/gfill-greater-than-equal` [(#14448)](https://github.com/stdlib-js/stdlib/pull/14448)
 -   [`8361cc2`](https://github.com/stdlib-js/stdlib/commit/8361cc23cf56bac41725ec93d366e89ccc977561) - add `blas/ext/base/ndarray/dnone` [(#14450)](https://github.com/stdlib-js/stdlib/pull/14450)
 -   [`a07f6f0`](https://github.com/stdlib-js/stdlib/commit/a07f6f07f8434ca2abd2818cc42fbb595e7c377b) - add `blas/ext/base/ndarray/snone` [(#14451)](https://github.com/stdlib-js/stdlib/pull/14451)
@@ -548,6 +549,10 @@
 
 ### BREAKING CHANGES
 
+-   [`85f2bbf`](https://github.com/stdlib-js/stdlib/commit/85f2bbf60e231423efe854b97d4dad105f2e2c06): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
 -   [`7e031de`](https://github.com/stdlib-js/stdlib/commit/7e031de4f393ac6209e066f006ddc18a56586241): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
@@ -606,6 +611,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`85f2bbf`](https://github.com/stdlib-js/stdlib/commit/85f2bbf60e231423efe854b97d4dad105f2e2c06) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dlast-index-equal` [(#14473)](https://github.com/stdlib-js/stdlib/pull/14473) _(by Muhammad Haris)_
 -   [`8149ea2`](https://github.com/stdlib-js/stdlib/commit/8149ea24c6d985b94e55ef76eff24e39443a922c) - **feat:** add `blas/ext/base/gfill-greater-than-equal` [(#14448)](https://github.com/stdlib-js/stdlib/pull/14448) _(by Muhammad Haris)_
 -   [`8361cc2`](https://github.com/stdlib-js/stdlib/commit/8361cc23cf56bac41725ec93d366e89ccc977561) - **feat:** add `blas/ext/base/ndarray/dnone` [(#14450)](https://github.com/stdlib-js/stdlib/pull/14450) _(by Muhammad Haris)_
 -   [`a07f6f0`](https://github.com/stdlib-js/stdlib/commit/a07f6f07f8434ca2abd2818cc42fbb595e7c377b) - **feat:** add `blas/ext/base/ndarray/snone` [(#14451)](https://github.com/stdlib-js/stdlib/pull/14451) _(by Muhammad Haris)_
