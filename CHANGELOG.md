@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`a07f6f0`](https://github.com/stdlib-js/stdlib/commit/a07f6f07f8434ca2abd2818cc42fbb595e7c377b) - add `blas/ext/base/ndarray/snone` [(#14451)](https://github.com/stdlib-js/stdlib/pull/14451)
+-   [`c6dd44b`](https://github.com/stdlib-js/stdlib/commit/c6dd44bf04a1b745c6ac67b21e862892796f9a88) - add `blas/ext/base/ndarray/gnone` [(#14449)](https://github.com/stdlib-js/stdlib/pull/14449)
 -   [`7e031de`](https://github.com/stdlib-js/stdlib/commit/7e031de4f393ac6209e066f006ddc18a56586241) - add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-not-equal` [(#14467)](https://github.com/stdlib-js/stdlib/pull/14467)
 -   [`7dba5ee`](https://github.com/stdlib-js/stdlib/commit/7dba5ee3678e18a5a1999552eb506e4e58326afa) - add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-falsy` [(#14466)](https://github.com/stdlib-js/stdlib/pull/14466)
 -   [`6f97f77`](https://github.com/stdlib-js/stdlib/commit/6f97f77bd2968d3389d8da2b5194843faeab60df) - add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-truthy` [(#14468)](https://github.com/stdlib-js/stdlib/pull/14468)
@@ -602,6 +604,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`a07f6f0`](https://github.com/stdlib-js/stdlib/commit/a07f6f07f8434ca2abd2818cc42fbb595e7c377b) - **feat:** add `blas/ext/base/ndarray/snone` [(#14451)](https://github.com/stdlib-js/stdlib/pull/14451) _(by Muhammad Haris)_
+-   [`c6dd44b`](https://github.com/stdlib-js/stdlib/commit/c6dd44bf04a1b745c6ac67b21e862892796f9a88) - **feat:** add `blas/ext/base/ndarray/gnone` [(#14449)](https://github.com/stdlib-js/stdlib/pull/14449) _(by Muhammad Haris)_
 -   [`7e031de`](https://github.com/stdlib-js/stdlib/commit/7e031de4f393ac6209e066f006ddc18a56586241) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-not-equal` [(#14467)](https://github.com/stdlib-js/stdlib/pull/14467) _(by Muhammad Haris)_
 -   [`7dba5ee`](https://github.com/stdlib-js/stdlib/commit/7dba5ee3678e18a5a1999552eb506e4e58326afa) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-falsy` [(#14466)](https://github.com/stdlib-js/stdlib/pull/14466) _(by Muhammad Haris)_
 -   [`6f97f77`](https://github.com/stdlib-js/stdlib/commit/6f97f77bd2968d3389d8da2b5194843faeab60df) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-truthy` [(#14468)](https://github.com/stdlib-js/stdlib/pull/14468) _(by Muhammad Haris)_
