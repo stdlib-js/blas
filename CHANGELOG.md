@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-20)
+## Unreleased (2026-08-21)
 
 <section class="features">
 
@@ -553,9 +553,9 @@
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13550](https://github.com/stdlib-js/stdlib/issues/13550)
+[#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13550](https://github.com/stdlib-js/stdlib/issues/13550), [#14246](https://github.com/stdlib-js/stdlib/issues/14246)
 
 </section>
 
@@ -567,6 +567,7 @@ A total of 4 issues were closed in this release:
 
 <details>
 
+-   [`dafb73c`](https://github.com/stdlib-js/stdlib/commit/dafb73c1f4042e59c0ba8aa2fc27e39de509654b) - **chore:** fix JavaScript lint errors [(#14250)](https://github.com/stdlib-js/stdlib/pull/14250) _(by mantrapatel05, Athan Reines)_
 -   [`bc2a3cd`](https://github.com/stdlib-js/stdlib/commit/bc2a3cd0e2deb320893b5ee8dcb155081d4ee790) - **feat:** add support for `fromIndex` [(#14428)](https://github.com/stdlib-js/stdlib/pull/14428) _(by stdlib-bot)_
 -   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0) - **feat:** add `fromIndex` support [(#14411)](https://github.com/stdlib-js/stdlib/pull/14411) _(by Muhammad Haris)_
 -   [`1eb5c15`](https://github.com/stdlib-js/stdlib/commit/1eb5c15f20bacaf54a2fb41ff6a134423bc04c8e) - **chore:** add keywords [(#14379)](https://github.com/stdlib-js/stdlib/pull/14379) _(by Philipp Burckhardt)_
@@ -1298,7 +1299,7 @@ A total of 4 issues were closed in this release:
 
 ### Contributors
 
-A total of 13 people contributed to this release. Thank you to the following contributors:
+A total of 14 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Atharva Patange
@@ -1311,6 +1312,7 @@ A total of 13 people contributed to this release. Thank you to the following con
 -   Rayan Salhab
 -   Suyog
 -   anee3
+-   mantrapatel05
 -   pragyan shankar
 -   titanniya542-spec
 
