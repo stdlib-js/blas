@@ -587,6 +587,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`423454e`](https://github.com/stdlib-js/stdlib/commit/423454eee466a9c3cdf3477d151fa2cf524757d7) - **docs:** update examples [(#14460)](https://github.com/stdlib-js/stdlib/pull/14460) _(by stdlib-bot)_
 -   [`23e5794`](https://github.com/stdlib-js/stdlib/commit/23e579434558a0f4fa2ebb870856d7dfec93c91b) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/cindex-of-falsy` [(#14403)](https://github.com/stdlib-js/stdlib/pull/14403) _(by Muhammad Haris, Athan Reines)_
 -   [`5e0c6b9`](https://github.com/stdlib-js/stdlib/commit/5e0c6b9cec22a1ae63b53f0f4d866f04478be7ef) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/cindex-of-truthy` [(#14405)](https://github.com/stdlib-js/stdlib/pull/14405) _(by Muhammad Haris, Athan Reines)_
 -   [`5cbc074`](https://github.com/stdlib-js/stdlib/commit/5cbc0746004b248e9dde7ce645d300c1600cf888) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14408)](https://github.com/stdlib-js/stdlib/pull/14408) _(by Muhammad Haris, Athan Reines)_
