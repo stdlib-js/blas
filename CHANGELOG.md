@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6f97f77`](https://github.com/stdlib-js/stdlib/commit/6f97f77bd2968d3389d8da2b5194843faeab60df) - add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-truthy` [(#14468)](https://github.com/stdlib-js/stdlib/pull/14468)
 -   [`23e5794`](https://github.com/stdlib-js/stdlib/commit/23e579434558a0f4fa2ebb870856d7dfec93c91b) - add `fromIndex` support to `blas/ext/base/ndarray/cindex-of-falsy` [(#14403)](https://github.com/stdlib-js/stdlib/pull/14403)
 -   [`5e0c6b9`](https://github.com/stdlib-js/stdlib/commit/5e0c6b9cec22a1ae63b53f0f4d866f04478be7ef) - add `fromIndex` support to `blas/ext/base/ndarray/cindex-of-truthy` [(#14405)](https://github.com/stdlib-js/stdlib/pull/14405)
 -   [`5cbc074`](https://github.com/stdlib-js/stdlib/commit/5cbc0746004b248e9dde7ce645d300c1600cf888) - add `fromIndex` support to `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14408)](https://github.com/stdlib-js/stdlib/pull/14408)
@@ -541,6 +542,10 @@
 
 ### BREAKING CHANGES
 
+-   [`6f97f77`](https://github.com/stdlib-js/stdlib/commit/6f97f77bd2968d3389d8da2b5194843faeab60df): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
 -   [`23e5794`](https://github.com/stdlib-js/stdlib/commit/23e579434558a0f4fa2ebb870856d7dfec93c91b): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
@@ -587,6 +592,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`6f97f77`](https://github.com/stdlib-js/stdlib/commit/6f97f77bd2968d3389d8da2b5194843faeab60df) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dindex-of-truthy` [(#14468)](https://github.com/stdlib-js/stdlib/pull/14468) _(by Muhammad Haris)_
 -   [`423454e`](https://github.com/stdlib-js/stdlib/commit/423454eee466a9c3cdf3477d151fa2cf524757d7) - **docs:** update examples [(#14460)](https://github.com/stdlib-js/stdlib/pull/14460) _(by stdlib-bot)_
 -   [`23e5794`](https://github.com/stdlib-js/stdlib/commit/23e579434558a0f4fa2ebb870856d7dfec93c91b) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/cindex-of-falsy` [(#14403)](https://github.com/stdlib-js/stdlib/pull/14403) _(by Muhammad Haris, Athan Reines)_
 -   [`5e0c6b9`](https://github.com/stdlib-js/stdlib/commit/5e0c6b9cec22a1ae63b53f0f4d866f04478be7ef) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/cindex-of-truthy` [(#14405)](https://github.com/stdlib-js/stdlib/pull/14405) _(by Muhammad Haris, Athan Reines)_
