@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8149ea2`](https://github.com/stdlib-js/stdlib/commit/8149ea24c6d985b94e55ef76eff24e39443a922c) - add `blas/ext/base/gfill-greater-than-equal` [(#14448)](https://github.com/stdlib-js/stdlib/pull/14448)
 -   [`8361cc2`](https://github.com/stdlib-js/stdlib/commit/8361cc23cf56bac41725ec93d366e89ccc977561) - add `blas/ext/base/ndarray/dnone` [(#14450)](https://github.com/stdlib-js/stdlib/pull/14450)
 -   [`a07f6f0`](https://github.com/stdlib-js/stdlib/commit/a07f6f07f8434ca2abd2818cc42fbb595e7c377b) - add `blas/ext/base/ndarray/snone` [(#14451)](https://github.com/stdlib-js/stdlib/pull/14451)
 -   [`c6dd44b`](https://github.com/stdlib-js/stdlib/commit/c6dd44bf04a1b745c6ac67b21e862892796f9a88) - add `blas/ext/base/ndarray/gnone` [(#14449)](https://github.com/stdlib-js/stdlib/pull/14449)
@@ -605,6 +606,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`8149ea2`](https://github.com/stdlib-js/stdlib/commit/8149ea24c6d985b94e55ef76eff24e39443a922c) - **feat:** add `blas/ext/base/gfill-greater-than-equal` [(#14448)](https://github.com/stdlib-js/stdlib/pull/14448) _(by Muhammad Haris)_
 -   [`8361cc2`](https://github.com/stdlib-js/stdlib/commit/8361cc23cf56bac41725ec93d366e89ccc977561) - **feat:** add `blas/ext/base/ndarray/dnone` [(#14450)](https://github.com/stdlib-js/stdlib/pull/14450) _(by Muhammad Haris)_
 -   [`a07f6f0`](https://github.com/stdlib-js/stdlib/commit/a07f6f07f8434ca2abd2818cc42fbb595e7c377b) - **feat:** add `blas/ext/base/ndarray/snone` [(#14451)](https://github.com/stdlib-js/stdlib/pull/14451) _(by Muhammad Haris)_
 -   [`c6dd44b`](https://github.com/stdlib-js/stdlib/commit/c6dd44bf04a1b745c6ac67b21e862892796f9a88) - **feat:** add `blas/ext/base/ndarray/gnone` [(#14449)](https://github.com/stdlib-js/stdlib/pull/14449) _(by Muhammad Haris)_
