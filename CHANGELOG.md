@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5cbc074`](https://github.com/stdlib-js/stdlib/commit/5cbc0746004b248e9dde7ce645d300c1600cf888) - add `fromIndex` support to `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14408)](https://github.com/stdlib-js/stdlib/pull/14408)
 -   [`5e2b384`](https://github.com/stdlib-js/stdlib/commit/5e2b384abfda0fa73115cd2f7567ac10fa969202) - add `fromIndex` support to `blas/ext/base/ndarray/dfirst-index-equal` [(#14407)](https://github.com/stdlib-js/stdlib/pull/14407)
 -   [`bc2a3cd`](https://github.com/stdlib-js/stdlib/commit/bc2a3cd0e2deb320893b5ee8dcb155081d4ee790) - add support for `fromIndex` [(#14428)](https://github.com/stdlib-js/stdlib/pull/14428)
 -   [`3765acc`](https://github.com/stdlib-js/stdlib/commit/3765accb3bed4d090f06fba3a053f317691c63e0) - add `fromIndex` support [(#14411)](https://github.com/stdlib-js/stdlib/pull/14411)
@@ -538,6 +539,10 @@
 
 ### BREAKING CHANGES
 
+-   [`5cbc074`](https://github.com/stdlib-js/stdlib/commit/5cbc0746004b248e9dde7ce645d300c1600cf888): add `fromIndex` support
+
+    -   To maintain previous behavior, provide a zero-dimensional ndarray containing the value `0`.
+
 -   [`5e2b384`](https://github.com/stdlib-js/stdlib/commit/5e2b384abfda0fa73115cd2f7567ac10fa969202): add `fromIndex` support
 
     -   To maintain previous behavior, provide a zero-dimensional ndarray containing the value `0`.
@@ -572,6 +577,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`5cbc074`](https://github.com/stdlib-js/stdlib/commit/5cbc0746004b248e9dde7ce645d300c1600cf888) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dfirst-index-greater-than` [(#14408)](https://github.com/stdlib-js/stdlib/pull/14408) _(by Muhammad Haris, Athan Reines)_
 -   [`5e2b384`](https://github.com/stdlib-js/stdlib/commit/5e2b384abfda0fa73115cd2f7567ac10fa969202) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dfirst-index-equal` [(#14407)](https://github.com/stdlib-js/stdlib/pull/14407) _(by Muhammad Haris, Athan Reines)_
 -   [`dafb73c`](https://github.com/stdlib-js/stdlib/commit/dafb73c1f4042e59c0ba8aa2fc27e39de509654b) - **chore:** fix JavaScript lint errors [(#14250)](https://github.com/stdlib-js/stdlib/pull/14250) _(by mantrapatel05, Athan Reines)_
 -   [`bc2a3cd`](https://github.com/stdlib-js/stdlib/commit/bc2a3cd0e2deb320893b5ee8dcb155081d4ee790) - **feat:** add support for `fromIndex` [(#14428)](https://github.com/stdlib-js/stdlib/pull/14428) _(by stdlib-bot)_
