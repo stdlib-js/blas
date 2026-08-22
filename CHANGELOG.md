@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f427431`](https://github.com/stdlib-js/stdlib/commit/f4274318b3ffb88d70061dca571d0839895b8681) - add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-truthy` [(#14490)](https://github.com/stdlib-js/stdlib/pull/14490)
 -   [`aacf41b`](https://github.com/stdlib-js/stdlib/commit/aacf41b7921e9b5387f02ece2698e7378bf3cadd) - add `fromIndex` support to various symbols [(#14507)](https://github.com/stdlib-js/stdlib/pull/14507)
 -   [`b7bb81d`](https://github.com/stdlib-js/stdlib/commit/b7bb81d00321cf581bcd19a791b58b040f5334c4) - add `fromIndex` support to `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14474)](https://github.com/stdlib-js/stdlib/pull/14474)
 -   [`85f2bbf`](https://github.com/stdlib-js/stdlib/commit/85f2bbf60e231423efe854b97d4dad105f2e2c06) - add `fromIndex` support to `blas/ext/base/ndarray/dlast-index-equal` [(#14473)](https://github.com/stdlib-js/stdlib/pull/14473)
@@ -551,6 +552,10 @@
 
 ### BREAKING CHANGES
 
+-   [`f427431`](https://github.com/stdlib-js/stdlib/commit/f4274318b3ffb88d70061dca571d0839895b8681): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
 -   [`aacf41b`](https://github.com/stdlib-js/stdlib/commit/aacf41b7921e9b5387f02ece2698e7378bf3cadd): add `fromIndex` support
 
     -   To migrate, users of index search APIs (e.g., `*indexOf*`, `*first*`, etc) should provide an additional zero-dimensional ndarray containing a starting search index.
@@ -621,6 +626,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f427431`](https://github.com/stdlib-js/stdlib/commit/f4274318b3ffb88d70061dca571d0839895b8681) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-truthy` [(#14490)](https://github.com/stdlib-js/stdlib/pull/14490) _(by Muhammad Haris)_
 -   [`aacf41b`](https://github.com/stdlib-js/stdlib/commit/aacf41b7921e9b5387f02ece2698e7378bf3cadd) - **feat:** add `fromIndex` support to various symbols [(#14507)](https://github.com/stdlib-js/stdlib/pull/14507) _(by stdlib-bot)_
 -   [`b7bb81d`](https://github.com/stdlib-js/stdlib/commit/b7bb81d00321cf581bcd19a791b58b040f5334c4) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dlast-index-of-falsy` [(#14474)](https://github.com/stdlib-js/stdlib/pull/14474) _(by Muhammad Haris)_
 -   [`85f2bbf`](https://github.com/stdlib-js/stdlib/commit/85f2bbf60e231423efe854b97d4dad105f2e2c06) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dlast-index-equal` [(#14473)](https://github.com/stdlib-js/stdlib/pull/14473) _(by Muhammad Haris)_
