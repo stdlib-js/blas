@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9e3ea7d`](https://github.com/stdlib-js/stdlib/commit/9e3ea7d0a6a38339e4b2b87f51bac48c30cd4532) - add C implementation for `blas/ext/base/ndarray/ssumkbn` [(#14452)](https://github.com/stdlib-js/stdlib/pull/14452)
 -   [`02afb9b`](https://github.com/stdlib-js/stdlib/commit/02afb9b97906f33c5086035127741c73aa7861d2) - add `blas/ext/base/gfill-greater-than` [(#14445)](https://github.com/stdlib-js/stdlib/pull/14445)
 -   [`1743c65`](https://github.com/stdlib-js/stdlib/commit/1743c65c572a188de7ccae946f542efce8755a0f) - add `fromIndex` support to `blas/ext/base/ndarray/gfind-index` [(#14478)](https://github.com/stdlib-js/stdlib/pull/14478)
 -   [`93eaaf2`](https://github.com/stdlib-js/stdlib/commit/93eaaf2cb13ac14514911196a84dc4b612b1628c) - add `fromIndex` support to `blas/ext/base/ndarray/gfirst-index-equal` [(#14481)](https://github.com/stdlib-js/stdlib/pull/14481)
@@ -667,6 +668,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`9e3ea7d`](https://github.com/stdlib-js/stdlib/commit/9e3ea7d0a6a38339e4b2b87f51bac48c30cd4532) - **feat:** add C implementation for `blas/ext/base/ndarray/ssumkbn` [(#14452)](https://github.com/stdlib-js/stdlib/pull/14452) _(by Sutar Siddhram Kashinath)_
 -   [`02afb9b`](https://github.com/stdlib-js/stdlib/commit/02afb9b97906f33c5086035127741c73aa7861d2) - **feat:** add `blas/ext/base/gfill-greater-than` [(#14445)](https://github.com/stdlib-js/stdlib/pull/14445) _(by Muhammad Haris)_
 -   [`fdbc822`](https://github.com/stdlib-js/stdlib/commit/fdbc82241f30438af95d53f451c1c4cd4523859f) - **chore:** remove unnecessary `format` calls [(#14520)](https://github.com/stdlib-js/stdlib/pull/14520) _(by Philipp Burckhardt)_
 -   [`1743c65`](https://github.com/stdlib-js/stdlib/commit/1743c65c572a188de7ccae946f542efce8755a0f) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/gfind-index` [(#14478)](https://github.com/stdlib-js/stdlib/pull/14478) _(by Muhammad Haris)_
@@ -1425,7 +1427,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 14 people contributed to this release. Thank you to the following contributors:
+A total of 15 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Atharva Patange
@@ -1436,6 +1438,7 @@ A total of 14 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Rayan Salhab
+-   Sutar Siddhram Kashinath
 -   Suyog
 -   anee3
 -   mantrapatel05
