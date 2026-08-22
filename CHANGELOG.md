@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`248a48b`](https://github.com/stdlib-js/stdlib/commit/248a48b271b21fbdd9ae07c92852c6e89292db21) - add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-truthy` [(#14527)](https://github.com/stdlib-js/stdlib/pull/14527)
 -   [`9e3ea7d`](https://github.com/stdlib-js/stdlib/commit/9e3ea7d0a6a38339e4b2b87f51bac48c30cd4532) - add C implementation for `blas/ext/base/ndarray/ssumkbn` [(#14452)](https://github.com/stdlib-js/stdlib/pull/14452)
 -   [`02afb9b`](https://github.com/stdlib-js/stdlib/commit/02afb9b97906f33c5086035127741c73aa7861d2) - add `blas/ext/base/gfill-greater-than` [(#14445)](https://github.com/stdlib-js/stdlib/pull/14445)
 -   [`1743c65`](https://github.com/stdlib-js/stdlib/commit/1743c65c572a188de7ccae946f542efce8755a0f) - add `fromIndex` support to `blas/ext/base/ndarray/gfind-index` [(#14478)](https://github.com/stdlib-js/stdlib/pull/14478)
@@ -562,6 +563,10 @@
 
 ### BREAKING CHANGES
 
+-   [`248a48b`](https://github.com/stdlib-js/stdlib/commit/248a48b271b21fbdd9ae07c92852c6e89292db21): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
 -   [`1743c65`](https://github.com/stdlib-js/stdlib/commit/1743c65c572a188de7ccae946f542efce8755a0f): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
@@ -668,6 +673,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`248a48b`](https://github.com/stdlib-js/stdlib/commit/248a48b271b21fbdd9ae07c92852c6e89292db21) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-truthy` [(#14527)](https://github.com/stdlib-js/stdlib/pull/14527) _(by Muhammad Haris)_
 -   [`9e3ea7d`](https://github.com/stdlib-js/stdlib/commit/9e3ea7d0a6a38339e4b2b87f51bac48c30cd4532) - **feat:** add C implementation for `blas/ext/base/ndarray/ssumkbn` [(#14452)](https://github.com/stdlib-js/stdlib/pull/14452) _(by Sutar Siddhram Kashinath)_
 -   [`02afb9b`](https://github.com/stdlib-js/stdlib/commit/02afb9b97906f33c5086035127741c73aa7861d2) - **feat:** add `blas/ext/base/gfill-greater-than` [(#14445)](https://github.com/stdlib-js/stdlib/pull/14445) _(by Muhammad Haris)_
 -   [`fdbc822`](https://github.com/stdlib-js/stdlib/commit/fdbc82241f30438af95d53f451c1c4cd4523859f) - **chore:** remove unnecessary `format` calls [(#14520)](https://github.com/stdlib-js/stdlib/pull/14520) _(by Philipp Burckhardt)_
