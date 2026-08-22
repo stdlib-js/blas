@@ -91,6 +91,15 @@ setReadOnly( ns, 'cfillEqual', require( './../../../../ext/base/ndarray/cfill-eq
 setReadOnly( ns, 'cindexOf', require( './../../../../ext/base/ndarray/cindex-of' ) );
 
 /**
+* @name cindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cindex-of-falsy}
+*/
+setReadOnly( ns, 'cindexOfFalsy', require( './../../../../ext/base/ndarray/cindex-of-falsy' ) );
+
+/**
 * @name cindexOfTruthy
 * @memberof ns
 * @readonly
@@ -512,6 +521,15 @@ setReadOnly( ns, 'dnansumors', require( './../../../../ext/base/ndarray/dnansumo
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dnansumpw}
 */
 setReadOnly( ns, 'dnansumpw', require( './../../../../ext/base/ndarray/dnansumpw' ) );
+
+/**
+* @name dnone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dnone}
+*/
+setReadOnly( ns, 'dnone', require( './../../../../ext/base/ndarray/dnone' ) );
 
 /**
 * @name doneTo
@@ -1045,6 +1063,15 @@ setReadOnly( ns, 'gnansumors', require( './../../../../ext/base/ndarray/gnansumo
 setReadOnly( ns, 'gnansumpw', require( './../../../../ext/base/ndarray/gnansumpw' ) );
 
 /**
+* @name gnone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gnone}
+*/
+setReadOnly( ns, 'gnone', require( './../../../../ext/base/ndarray/gnone' ) );
+
+/**
 * @name goneTo
 * @memberof ns
 * @readonly
@@ -1378,6 +1405,15 @@ setReadOnly( ns, 'sfirstIndexLessThan', require( './../../../../ext/base/ndarray
 setReadOnly( ns, 'sindexOf', require( './../../../../ext/base/ndarray/sindex-of' ) );
 
 /**
+* @name sindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sindex-of-falsy}
+*/
+setReadOnly( ns, 'sindexOfFalsy', require( './../../../../ext/base/ndarray/sindex-of-falsy' ) );
+
+/**
 * @name sindexOfNotEqual
 * @memberof ns
 * @readonly
@@ -1484,6 +1520,15 @@ setReadOnly( ns, 'snansumors', require( './../../../../ext/base/ndarray/snansumo
 * @see {@link module:@stdlib/blas/ext/base/ndarray/snansumpw}
 */
 setReadOnly( ns, 'snansumpw', require( './../../../../ext/base/ndarray/snansumpw' ) );
+
+/**
+* @name snone
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/snone}
+*/
+setReadOnly( ns, 'snone', require( './../../../../ext/base/ndarray/snone' ) );
 
 /**
 * @name soneTo
@@ -1700,6 +1745,15 @@ setReadOnly( ns, 'zdiff', require( './../../../../ext/base/ndarray/zdiff' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zindex-of}
 */
 setReadOnly( ns, 'zindexOf', require( './../../../../ext/base/ndarray/zindex-of' ) );
+
+/**
+* @name zindexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zindex-of-falsy}
+*/
+setReadOnly( ns, 'zindexOfFalsy', require( './../../../../ext/base/ndarray/zindex-of-falsy' ) );
 
 /**
 * @name zindexOfTruthy

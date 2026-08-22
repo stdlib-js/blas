@@ -1641,6 +1641,24 @@ setReadOnly( ns, 'gfillBy', require( './../../../ext/base/gfill-by' ) );
 setReadOnly( ns, 'gfillEqual', require( './../../../ext/base/gfill-equal' ) );
 
 /**
+* @name gfillGreaterThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfill-greater-than}
+*/
+setReadOnly( ns, 'gfillGreaterThan', require( './../../../ext/base/gfill-greater-than' ) );
+
+/**
+* @name gfillGreaterThanEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfill-greater-than-equal}
+*/
+setReadOnly( ns, 'gfillGreaterThanEqual', require( './../../../ext/base/gfill-greater-than-equal' ) );
+
+/**
 * @name gfillLessThan
 * @memberof ns
 * @readonly

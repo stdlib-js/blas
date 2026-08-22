@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace
+-   [`d537e25`](https://github.com/stdlib-js/stdlib/commit/d537e25f522fbaf4fa5895edc4f66983a289fd43) - add `dnone`, `gnone`, and `snone` to namespace
+-   [`4770d36`](https://github.com/stdlib-js/stdlib/commit/4770d3643bb1c55f29226511ea03c356ccac339a) - add `gfillGreaterThanEqual` to namespace
+-   [`0e332b8`](https://github.com/stdlib-js/stdlib/commit/0e332b80af2844e33f66a999e7d3a774f0fb63d9) - add `gfillGreaterThan` to namespace
 -   [`8fa2c52`](https://github.com/stdlib-js/stdlib/commit/8fa2c52b95a04127651034cd5c2cd35938fcafb8) - add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-falsy` [(#14530)](https://github.com/stdlib-js/stdlib/pull/14530)
 -   [`859f6ae`](https://github.com/stdlib-js/stdlib/commit/859f6ae6561689979a9756139b97d49c51b154e7) - add `fromIndex` support to `blas/ext/base/ndarray/sfirst-index-equal` [(#14532)](https://github.com/stdlib-js/stdlib/pull/14532)
 -   [`87d316a`](https://github.com/stdlib-js/stdlib/commit/87d316a8a34d955e243d182804ca5af45ec5a974) - add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-falsy` [(#14529)](https://github.com/stdlib-js/stdlib/pull/14529)
@@ -688,6 +692,10 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - **feat:** add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace _(by Athan Reines)_
+-   [`d537e25`](https://github.com/stdlib-js/stdlib/commit/d537e25f522fbaf4fa5895edc4f66983a289fd43) - **feat:** add `dnone`, `gnone`, and `snone` to namespace _(by Athan Reines)_
+-   [`4770d36`](https://github.com/stdlib-js/stdlib/commit/4770d3643bb1c55f29226511ea03c356ccac339a) - **feat:** add `gfillGreaterThanEqual` to namespace _(by Athan Reines)_
+-   [`0e332b8`](https://github.com/stdlib-js/stdlib/commit/0e332b80af2844e33f66a999e7d3a774f0fb63d9) - **feat:** add `gfillGreaterThan` to namespace _(by Athan Reines)_
 -   [`8fa2c52`](https://github.com/stdlib-js/stdlib/commit/8fa2c52b95a04127651034cd5c2cd35938fcafb8) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-falsy` [(#14530)](https://github.com/stdlib-js/stdlib/pull/14530) _(by Muhammad Haris)_
 -   [`859f6ae`](https://github.com/stdlib-js/stdlib/commit/859f6ae6561689979a9756139b97d49c51b154e7) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sfirst-index-equal` [(#14532)](https://github.com/stdlib-js/stdlib/pull/14532) _(by Muhammad Haris)_
 -   [`87d316a`](https://github.com/stdlib-js/stdlib/commit/87d316a8a34d955e243d182804ca5af45ec5a974) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-falsy` [(#14529)](https://github.com/stdlib-js/stdlib/pull/14529) _(by Muhammad Haris)_
