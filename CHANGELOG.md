@@ -666,6 +666,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`fdbc822`](https://github.com/stdlib-js/stdlib/commit/fdbc82241f30438af95d53f451c1c4cd4523859f) - **chore:** remove unnecessary `format` calls [(#14520)](https://github.com/stdlib-js/stdlib/pull/14520) _(by Philipp Burckhardt)_
 -   [`1743c65`](https://github.com/stdlib-js/stdlib/commit/1743c65c572a188de7ccae946f542efce8755a0f) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/gfind-index` [(#14478)](https://github.com/stdlib-js/stdlib/pull/14478) _(by Muhammad Haris)_
 -   [`93eaaf2`](https://github.com/stdlib-js/stdlib/commit/93eaaf2cb13ac14514911196a84dc4b612b1628c) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/gfirst-index-equal` [(#14481)](https://github.com/stdlib-js/stdlib/pull/14481) _(by Muhammad Haris)_
 -   [`03113ad`](https://github.com/stdlib-js/stdlib/commit/03113ad4502027223b8f3fe4fa8e3d8eaa8df0ac) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/dlast-index-of-truthy` [(#14476)](https://github.com/stdlib-js/stdlib/pull/14476) _(by Muhammad Haris)_
