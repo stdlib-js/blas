@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`87d316a`](https://github.com/stdlib-js/stdlib/commit/87d316a8a34d955e243d182804ca5af45ec5a974) - add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-falsy` [(#14529)](https://github.com/stdlib-js/stdlib/pull/14529)
 -   [`248a48b`](https://github.com/stdlib-js/stdlib/commit/248a48b271b21fbdd9ae07c92852c6e89292db21) - add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-truthy` [(#14527)](https://github.com/stdlib-js/stdlib/pull/14527)
 -   [`9e3ea7d`](https://github.com/stdlib-js/stdlib/commit/9e3ea7d0a6a38339e4b2b87f51bac48c30cd4532) - add C implementation for `blas/ext/base/ndarray/ssumkbn` [(#14452)](https://github.com/stdlib-js/stdlib/pull/14452)
 -   [`02afb9b`](https://github.com/stdlib-js/stdlib/commit/02afb9b97906f33c5086035127741c73aa7861d2) - add `blas/ext/base/gfill-greater-than` [(#14445)](https://github.com/stdlib-js/stdlib/pull/14445)
@@ -563,6 +564,10 @@
 
 ### BREAKING CHANGES
 
+-   [`87d316a`](https://github.com/stdlib-js/stdlib/commit/87d316a8a34d955e243d182804ca5af45ec5a974): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
 -   [`248a48b`](https://github.com/stdlib-js/stdlib/commit/248a48b271b21fbdd9ae07c92852c6e89292db21): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
@@ -673,6 +678,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`87d316a`](https://github.com/stdlib-js/stdlib/commit/87d316a8a34d955e243d182804ca5af45ec5a974) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-falsy` [(#14529)](https://github.com/stdlib-js/stdlib/pull/14529) _(by Muhammad Haris)_
 -   [`248a48b`](https://github.com/stdlib-js/stdlib/commit/248a48b271b21fbdd9ae07c92852c6e89292db21) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/zindex-of-truthy` [(#14527)](https://github.com/stdlib-js/stdlib/pull/14527) _(by Muhammad Haris)_
 -   [`9e3ea7d`](https://github.com/stdlib-js/stdlib/commit/9e3ea7d0a6a38339e4b2b87f51bac48c30cd4532) - **feat:** add C implementation for `blas/ext/base/ndarray/ssumkbn` [(#14452)](https://github.com/stdlib-js/stdlib/pull/14452) _(by Sutar Siddhram Kashinath)_
 -   [`02afb9b`](https://github.com/stdlib-js/stdlib/commit/02afb9b97906f33c5086035127741c73aa7861d2) - **feat:** add `blas/ext/base/gfill-greater-than` [(#14445)](https://github.com/stdlib-js/stdlib/pull/14445) _(by Muhammad Haris)_
