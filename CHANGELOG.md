@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-22)
+## Unreleased (2026-08-23)
 
 <section class="features">
 
 ### Features
 
+-   [`05eebab`](https://github.com/stdlib-js/stdlib/commit/05eebab06b784eedc1c63503f89acde3160f3368) - update `blas/ext/base` TypeScript declarations [(#14549)](https://github.com/stdlib-js/stdlib/pull/14549)
 -   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace
 -   [`d537e25`](https://github.com/stdlib-js/stdlib/commit/d537e25f522fbaf4fa5895edc4f66983a289fd43) - add `dnone`, `gnone`, and `snone` to namespace
 -   [`4770d36`](https://github.com/stdlib-js/stdlib/commit/4770d3643bb1c55f29226511ea03c356ccac339a) - add `gfillGreaterThanEqual` to namespace
@@ -692,6 +693,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`05eebab`](https://github.com/stdlib-js/stdlib/commit/05eebab06b784eedc1c63503f89acde3160f3368) - **feat:** update `blas/ext/base` TypeScript declarations [(#14549)](https://github.com/stdlib-js/stdlib/pull/14549) _(by stdlib-bot)_
 -   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - **feat:** add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace _(by Athan Reines)_
 -   [`d537e25`](https://github.com/stdlib-js/stdlib/commit/d537e25f522fbaf4fa5895edc4f66983a289fd43) - **feat:** add `dnone`, `gnone`, and `snone` to namespace _(by Athan Reines)_
 -   [`4770d36`](https://github.com/stdlib-js/stdlib/commit/4770d3643bb1c55f29226511ea03c356ccac339a) - **feat:** add `gfillGreaterThanEqual` to namespace _(by Athan Reines)_
