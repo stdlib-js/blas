@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`574f21f`](https://github.com/stdlib-js/stdlib/commit/574f21f1a088db53b0ceb452c2ba9d3e047a2953) - add `blas/ext/base/gindex-of-greater-than-equal` [(#14444)](https://github.com/stdlib-js/stdlib/pull/14444)
 -   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141) - update `blas/ext/base/ndarray` TypeScript declarations [(#14548)](https://github.com/stdlib-js/stdlib/pull/14548)
 -   [`05eebab`](https://github.com/stdlib-js/stdlib/commit/05eebab06b784eedc1c63503f89acde3160f3368) - update `blas/ext/base` TypeScript declarations [(#14549)](https://github.com/stdlib-js/stdlib/pull/14549)
 -   [`7dd4dad`](https://github.com/stdlib-js/stdlib/commit/7dd4dadfbb00e369019a3a6b05c1dbe40ac59d04) - add `cindexOfFalsy`, `sindexOfFalsy`, and `zindexOfFalsy` to namespace
@@ -698,6 +699,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`574f21f`](https://github.com/stdlib-js/stdlib/commit/574f21f1a088db53b0ceb452c2ba9d3e047a2953) - **feat:** add `blas/ext/base/gindex-of-greater-than-equal` [(#14444)](https://github.com/stdlib-js/stdlib/pull/14444) _(by Muhammad Haris)_
 -   [`86cd981`](https://github.com/stdlib-js/stdlib/commit/86cd981199dc115e9b7484131436c802c3d9a090) - **docs:** update namespace table of contents [(#14552)](https://github.com/stdlib-js/stdlib/pull/14552) _(by stdlib-bot)_
 -   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14548)](https://github.com/stdlib-js/stdlib/pull/14548) _(by stdlib-bot)_
 -   [`05eebab`](https://github.com/stdlib-js/stdlib/commit/05eebab06b784eedc1c63503f89acde3160f3368) - **feat:** update `blas/ext/base` TypeScript declarations [(#14549)](https://github.com/stdlib-js/stdlib/pull/14549) _(by stdlib-bot)_
