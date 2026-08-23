@@ -26,6 +26,7 @@ import ccopyWithin = require( './../../../../../ext/base/ndarray/ccopy-within' )
 import cdiff = require( './../../../../../ext/base/ndarray/cdiff' );
 import cfillEqual = require( './../../../../../ext/base/ndarray/cfill-equal' );
 import cindexOf = require( './../../../../../ext/base/ndarray/cindex-of' );
+import cindexOfFalsy = require( './../../../../../ext/base/ndarray/cindex-of-falsy' );
 import cindexOfTruthy = require( './../../../../../ext/base/ndarray/cindex-of-truthy' );
 import clogspace = require( './../../../../../ext/base/ndarray/clogspace' );
 import coneTo = require( './../../../../../ext/base/ndarray/cone-to' );
@@ -73,6 +74,7 @@ import dnansumkbn = require( './../../../../../ext/base/ndarray/dnansumkbn' );
 import dnansumkbn2 = require( './../../../../../ext/base/ndarray/dnansumkbn2' );
 import dnansumors = require( './../../../../../ext/base/ndarray/dnansumors' );
 import dnansumpw = require( './../../../../../ext/base/ndarray/dnansumpw' );
+import dnone = require( './../../../../../ext/base/ndarray/dnone' );
 import doneTo = require( './../../../../../ext/base/ndarray/done-to' );
 import dsort = require( './../../../../../ext/base/ndarray/dsort' );
 import dsorthp = require( './../../../../../ext/base/ndarray/dsorthp' );
@@ -132,6 +134,7 @@ import gnansumkbn = require( './../../../../../ext/base/ndarray/gnansumkbn' );
 import gnansumkbn2 = require( './../../../../../ext/base/ndarray/gnansumkbn2' );
 import gnansumors = require( './../../../../../ext/base/ndarray/gnansumors' );
 import gnansumpw = require( './../../../../../ext/base/ndarray/gnansumpw' );
+import gnone = require( './../../../../../ext/base/ndarray/gnone' );
 import goneTo = require( './../../../../../ext/base/ndarray/gone-to' );
 import gsort = require( './../../../../../ext/base/ndarray/gsort' );
 import gsorthp = require( './../../../../../ext/base/ndarray/gsorthp' );
@@ -169,6 +172,7 @@ import sfillNotEqual = require( './../../../../../ext/base/ndarray/sfill-not-equ
 import sfirstIndexEqual = require( './../../../../../ext/base/ndarray/sfirst-index-equal' );
 import sfirstIndexLessThan = require( './../../../../../ext/base/ndarray/sfirst-index-less-than' );
 import sindexOf = require( './../../../../../ext/base/ndarray/sindex-of' );
+import sindexOfFalsy = require( './../../../../../ext/base/ndarray/sindex-of-falsy' );
 import sindexOfNotEqual = require( './../../../../../ext/base/ndarray/sindex-of-not-equal' );
 import sindexOfTruthy = require( './../../../../../ext/base/ndarray/sindex-of-truthy' );
 import slastIndexOf = require( './../../../../../ext/base/ndarray/slast-index-of' );
@@ -181,6 +185,7 @@ import snansumkbn = require( './../../../../../ext/base/ndarray/snansumkbn' );
 import snansumkbn2 = require( './../../../../../ext/base/ndarray/snansumkbn2' );
 import snansumors = require( './../../../../../ext/base/ndarray/snansumors' );
 import snansumpw = require( './../../../../../ext/base/ndarray/snansumpw' );
+import snone = require( './../../../../../ext/base/ndarray/snone' );
 import soneTo = require( './../../../../../ext/base/ndarray/sone-to' );
 import ssort = require( './../../../../../ext/base/ndarray/ssort' );
 import ssorthp = require( './../../../../../ext/base/ndarray/ssorthp' );
@@ -205,6 +210,7 @@ import zaxpby = require( './../../../../../ext/base/ndarray/zaxpby' );
 import zcopyWithin = require( './../../../../../ext/base/ndarray/zcopy-within' );
 import zdiff = require( './../../../../../ext/base/ndarray/zdiff' );
 import zindexOf = require( './../../../../../ext/base/ndarray/zindex-of' );
+import zindexOfFalsy = require( './../../../../../ext/base/ndarray/zindex-of-falsy' );
 import zindexOfTruthy = require( './../../../../../ext/base/ndarray/zindex-of-truthy' );
 import zlogspace = require( './../../../../../ext/base/ndarray/zlogspace' );
 import zoneTo = require( './../../../../../ext/base/ndarray/zone-to' );
@@ -440,6 +446,34 @@ interface Namespace {
 	* // returns 1
 	*/
 	cindexOf: typeof cindexOf;
+
+	/**
+	* Returns the index of the first falsy element in a one-dimensional single-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex64Vector( [ 1.0, 2.0, 0.0, 0.0, 3.0, 0.0, 2.0, 0.0 ] );
+	*
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.cindexOfFalsy( [ x, fromIndex ] );
+	* // returns 1
+	*/
+	cindexOfFalsy: typeof cindexOfFalsy;
 
 	/**
 	* Returns the index of the first truthy element in a one-dimensional single-precision complex floating-point ndarray.
@@ -1634,16 +1668,22 @@ interface Namespace {
 	* -   The function expects the following ndarrays:
 	*
 	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* @param arrays - array-like object containing ndarrays
 	* @returns index
 	*
 	* @example
 	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = new Float64Vector( [ 0.0, 1.0, 0.0, 2.0 ] );
 	*
-	* var v = ns.dlastIndexOfTruthy( [ x ] );
+	* var fromIndex = scalar2ndarray( 3, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.dlastIndexOfTruthy( [ x, fromIndex ] );
 	* // returns 3
 	*/
 	dlastIndexOfTruthy: typeof dlastIndexOfTruthy;
@@ -1838,6 +1878,30 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	dnansumpw: typeof dnansumpw;
+
+	/**
+	* Tests whether every element in a one-dimensional double-precision floating-point ndarray is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns boolean indicating whether all elements are falsy
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	*
+	* var x = new Float64Vector( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.dnone( [ x ] );
+	* // returns false
+	*/
+	dnone: typeof dnone;
 
 	/**
 	* Fills a one-dimensional double-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from one.
@@ -2915,6 +2979,7 @@ interface Namespace {
 	* -   The function expects the following ndarrays:
 	*
 	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* -   If no element passes a test implemented by a predicate function, the function returns `-1`.
 	*
@@ -2924,6 +2989,7 @@ interface Namespace {
 	* @returns index
 	*
 	* @example
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
 	*
 	* function clbk( v ) {
@@ -2932,7 +2998,11 @@ interface Namespace {
 	*
 	* var x = vector( [ 1.0, 3.0, 4.0, 2.0 ], 'generic' );
 	*
-	* var v = ns.gfindIndex( [ x ], clbk );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.gfindIndex( [ x, fromIndex ], clbk );
 	* // returns 2
 	*/
 	gfindIndex: typeof gfindIndex;
@@ -2976,6 +3046,7 @@ interface Namespace {
 	*
 	*     -   first one-dimensional input ndarray.
 	*     -   second one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* -   When comparing elements, the function checks for equality using the strict equality operator `===`. As a consequence, `NaN` values are considered distinct, and `-0` and `+0` are considered the same.
 	*
@@ -2984,11 +3055,16 @@ interface Namespace {
 	*
 	* @example
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = vector( [ 1.0, 2.0, 3.0, 4.0 ], 'generic' );
 	* var y = vector( [ 0.0, 0.0, 3.0, 0.0 ], 'generic' );
 	*
-	* var idx = ns.gfirstIndexEqual( [ x, y ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.gfirstIndexEqual( [ x, y, fromIndex ] );
 	* // returns 2
 	*/
 	gfirstIndexEqual: typeof gfirstIndexEqual;
@@ -3002,6 +3078,7 @@ interface Namespace {
 	*
 	*     -   first one-dimensional input ndarray.
 	*     -   second one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* -   When comparing elements, the function checks whether an element in the first one-dimensional input ndarray is greater than a corresponding element in the second one-dimensional input ndarray using the greater-than operator `>`. As a consequence, comparisons involving `NaN` always evaluate to `false`.
 	*
@@ -3010,11 +3087,16 @@ interface Namespace {
 	*
 	* @example
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = vector( [ 0.0, 0.0, 1.0, 0.0 ], 'generic' );
 	* var y = vector( [ 0.0, 0.0, 0.0, 0.0 ], 'generic' );
 	*
-	* var idx = ns.gfirstIndexGreaterThan( [ x, y ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.gfirstIndexGreaterThan( [ x, y, fromIndex ] );
 	* // returns 2
 	*/
 	gfirstIndexGreaterThan: typeof gfirstIndexGreaterThan;
@@ -3028,6 +3110,7 @@ interface Namespace {
 	*
 	*     -   first one-dimensional input ndarray.
 	*     -   second one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* -   When comparing elements, the function checks whether an element in the first one-dimensional input ndarray is less than a corresponding element in the second one-dimensional input ndarray using the less-than operator `<`. As a consequence, comparisons involving `NaN` always evaluate to `false`.
 	*
@@ -3036,11 +3119,16 @@ interface Namespace {
 	*
 	* @example
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = vector( [ 0.0, 0.0, 0.0, 0.0 ], 'generic' );
 	* var y = vector( [ 0.0, 0.0, 1.0, 0.0 ], 'generic' );
 	*
-	* var idx = ns.gfirstIndexLessThan( [ x, y ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.gfirstIndexLessThan( [ x, y, fromIndex ] );
 	* // returns 2
 	*/
 	gfirstIndexLessThan: typeof gfirstIndexLessThan;
@@ -3086,16 +3174,22 @@ interface Namespace {
 	* -   The function expects the following ndarrays:
 	*
 	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* @param arrays - array-like object containing ndarrays
 	* @returns index
 	*
 	* @example
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = vector( [ 1.0, 3.0, 0.0, 2.0 ], 'generic' );
 	*
-	* var v = ns.gindexOfFalsy( [ x ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.gindexOfFalsy( [ x, fromIndex ] );
 	* // returns 2
 	*/
 	gindexOfFalsy: typeof gindexOfFalsy;
@@ -3109,6 +3203,7 @@ interface Namespace {
 	*
 	*     -   a one-dimensional input ndarray.
 	*     -   a zero-dimensional ndarray containing the search element.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* @param arrays - array-like object containing ndarrays
 	* @returns index
@@ -3123,7 +3218,11 @@ interface Namespace {
 	*     'dtype': 'generic'
 	* });
 	*
-	* var v = ns.gindexOfNotEqual( [ x, searchElement ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.gindexOfNotEqual( [ x, searchElement, fromIndex ] );
 	* // returns 2
 	*/
 	gindexOfNotEqual: typeof gindexOfNotEqual;
@@ -3131,15 +3230,27 @@ interface Namespace {
 	/**
 	* Returns the index of the first truthy element in a one-dimensional ndarray.
 	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
+	*
 	* @param arrays - array-like object containing ndarrays
 	* @returns index
 	*
 	* @example
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = vector( [ 0.0, 0.0, 3.0, 0.0, 4.0 ], 'generic' );
 	*
-	* var idx = ns.gindexOfTruthy( [ x ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.gindexOfTruthy( [ x, fromIndex ] );
 	* // returns 2
 	*/
 	gindexOfTruthy: typeof gindexOfTruthy;
@@ -3501,6 +3612,30 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	gnansumpw: typeof gnansumpw;
+
+	/**
+	* Tests whether every element in a one-dimensional ndarray is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns boolean indicating whether all elements are falsy
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	*
+	* var x = vector( [ 0.0, 0.0, 1.0, 1.0 ], 'generic' );
+	*
+	* var v = ns.gnone( [ x ] );
+	* // returns false
+	*/
+	gnone: typeof gnone;
 
 	/**
 	* Fills a one-dimensional ndarray with linearly spaced numeric elements which increment by `1` starting from one.
@@ -4496,6 +4631,7 @@ interface Namespace {
 	*
 	*     -   first one-dimensional input ndarray.
 	*     -   second one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* -   When comparing elements, the function checks for equality using the strict equality operator `===`. As a consequence, `NaN` values are considered distinct, and `-0` and `+0` are considered the same.
 	*
@@ -4504,11 +4640,16 @@ interface Namespace {
 	*
 	* @example
 	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0 ] );
 	* var y = new Float32Vector( [ 0.0, 0.0, 3.0, 0.0 ] );
 	*
-	* var idx = ns.sfirstIndexEqual( [ x, y ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.sfirstIndexEqual( [ x, y, fromIndex ] );
 	* // returns 2
 	*/
 	sfirstIndexEqual: typeof sfirstIndexEqual;
@@ -4573,6 +4714,34 @@ interface Namespace {
 	sindexOf: typeof sindexOf;
 
 	/**
+	* Returns the index of the first falsy element in a one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ 1.0, 0.0, 3.0, 2.0 ] );
+	*
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.sindexOfFalsy( [ x, fromIndex ] );
+	* // returns 1
+	*/
+	sindexOfFalsy: typeof sindexOfFalsy;
+
+	/**
 	* Returns the first index of an element in a one-dimensional single-precision floating-point ndarray which is not equal to a specified search element.
 	*
 	* ## Notes
@@ -4608,16 +4777,22 @@ interface Namespace {
 	* -   The function expects the following ndarrays:
 	*
 	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* @param arrays - array-like object containing ndarrays
 	* @returns index
 	*
 	* @example
 	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = new Float32Vector( [ 0.0, 0.0, 3.0, 2.0 ] );
 	*
-	* var v = ns.sindexOfTruthy( [ x ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.sindexOfTruthy( [ x, fromIndex ] );
 	* // returns 2
 	*/
 	sindexOfTruthy: typeof sindexOfTruthy;
@@ -4889,6 +5064,30 @@ interface Namespace {
 	* // returns 1.0
 	*/
 	snansumpw: typeof snansumpw;
+
+	/**
+	* Tests whether every element in a one-dimensional single-precision floating-point ndarray is falsy.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns boolean indicating whether all elements are falsy
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	*
+	* var x = new Float32Vector( [ 0.0, 0.0, 1.0, 1.0 ] );
+	*
+	* var v = ns.snone( [ x ] );
+	* // returns false
+	*/
+	snone: typeof snone;
 
 	/**
 	* Fills a one-dimensional single-precision floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from one.
@@ -5572,17 +5771,57 @@ interface Namespace {
 	zindexOf: typeof zindexOf;
 
 	/**
-	* Returns the index of the first truthy element in a one-dimensional double-precision complex floating-point ndarray.
+	* Returns the index of the first falsy element in a one-dimensional double-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* @param arrays - array-like object containing ndarrays
 	* @returns index
 	*
 	* @example
 	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Complex128Vector( [ 1.0, 2.0, 0.0, 0.0, 4.0, 5.0 ] );
+	*
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.zindexOfFalsy( [ x, fromIndex ] );
+	* // returns 1
+	*/
+	zindexOfFalsy: typeof zindexOfFalsy;
+
+	/**
+	* Returns the index of the first truthy element in a one-dimensional double-precision complex floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	*
 	* var x = new Complex128Vector( [ 0.0, 0.0, 1.0, 2.0, 4.0, 5.0 ] );
 	*
-	* var idx = ns.zindexOfTruthy( [ x ] );
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.zindexOfTruthy( [ x, fromIndex ] );
 	* // returns 1
 	*/
 	zindexOfTruthy: typeof zindexOfTruthy;
