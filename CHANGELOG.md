@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - add `*cuany` and `*cuevery` symbols to namespace
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594)
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595)
 -   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596)
@@ -706,6 +707,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - **feat:** add `*cuany` and `*cuevery` symbols to namespace _(by Athan Reines)_
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - **feat:** add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594) _(by Muhammad Haris, Athan Reines)_
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - **feat:** add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595) _(by Muhammad Haris)_
 -   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - **feat:** add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596) _(by Muhammad Haris, Athan Reines)_

@@ -271,6 +271,24 @@ setReadOnly( ns, 'dcircshift', require( './../../../../ext/base/ndarray/dcircshi
 setReadOnly( ns, 'dcopyWithin', require( './../../../../ext/base/ndarray/dcopy-within' ) );
 
 /**
+* @name dcuany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcuany}
+*/
+setReadOnly( ns, 'dcuany', require( './../../../../ext/base/ndarray/dcuany' ) );
+
+/**
+* @name dcuevery
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcuevery}
+*/
+setReadOnly( ns, 'dcuevery', require( './../../../../ext/base/ndarray/dcuevery' ) );
+
+/**
 * @name dcunone
 * @memberof ns
 * @readonly
@@ -775,6 +793,24 @@ setReadOnly( ns, 'gcircshift', require( './../../../../ext/base/ndarray/gcircshi
 setReadOnly( ns, 'gcopyWithin', require( './../../../../ext/base/ndarray/gcopy-within' ) );
 
 /**
+* @name gcuany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcuany}
+*/
+setReadOnly( ns, 'gcuany', require( './../../../../ext/base/ndarray/gcuany' ) );
+
+/**
+* @name gcuevery
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcuevery}
+*/
+setReadOnly( ns, 'gcuevery', require( './../../../../ext/base/ndarray/gcuevery' ) );
+
+/**
 * @name gcunone
 * @memberof ns
 * @readonly
@@ -1189,6 +1225,15 @@ setReadOnly( ns, 'gtriu2tril', require( './../../../../ext/base/ndarray/gtriu2tr
 setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspace' ) );
 
 /**
+* @name gwxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gwxpy}
+*/
+setReadOnly( ns, 'gwxpy', require( './../../../../ext/base/ndarray/gwxpy' ) );
+
+/**
 * @name gwxsa
 * @memberof ns
 * @readonly
@@ -1295,6 +1340,24 @@ setReadOnly( ns, 'scircshift', require( './../../../../ext/base/ndarray/scircshi
 * @see {@link module:@stdlib/blas/ext/base/ndarray/scopy-within}
 */
 setReadOnly( ns, 'scopyWithin', require( './../../../../ext/base/ndarray/scopy-within' ) );
+
+/**
+* @name scuany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scuany}
+*/
+setReadOnly( ns, 'scuany', require( './../../../../ext/base/ndarray/scuany' ) );
+
+/**
+* @name scuevery
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scuevery}
+*/
+setReadOnly( ns, 'scuevery', require( './../../../../ext/base/ndarray/scuevery' ) );
 
 /**
 * @name scunone
