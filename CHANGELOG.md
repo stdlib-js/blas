@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595)
 -   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596)
 -   [`502567f`](https://github.com/stdlib-js/stdlib/commit/502567f3a3983a60cb3fd2349108caccf20e101c) - add `blas/ext/base/ndarray/dcuevery` [(#14599)](https://github.com/stdlib-js/stdlib/pull/14599)
 -   [`1325fe3`](https://github.com/stdlib-js/stdlib/commit/1325fe3510c6a28012be524d4db204070d2e0503) - add `blas/ext/base/ndarray/scuevery` [(#14598)](https://github.com/stdlib-js/stdlib/pull/14598)
@@ -704,6 +705,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - **feat:** add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595) _(by Muhammad Haris)_
 -   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - **feat:** add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596) _(by Muhammad Haris, Athan Reines)_
 -   [`68cf8ce`](https://github.com/stdlib-js/stdlib/commit/68cf8ce0a381d65660506efd5507aefbed2f724c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`323cfc1`](https://github.com/stdlib-js/stdlib/commit/323cfc1e10b30d9ace1550c116466946771f3ef6) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
