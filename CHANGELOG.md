@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1325fe3`](https://github.com/stdlib-js/stdlib/commit/1325fe3510c6a28012be524d4db204070d2e0503) - add `blas/ext/base/ndarray/scuevery` [(#14598)](https://github.com/stdlib-js/stdlib/pull/14598)
 -   [`eed691c`](https://github.com/stdlib-js/stdlib/commit/eed691c613ef5bbfd3e4117ed7ddf4434f304149) - add `blas/ext/base/ndarray/gcuevery` [(#14597)](https://github.com/stdlib-js/stdlib/pull/14597)
 -   [`932501c`](https://github.com/stdlib-js/stdlib/commit/932501c1d4855f9ce40e26c0bfe275487ddb8c1d) - add `blas/ext/base/ndarray/gwxpy` [(#14585)](https://github.com/stdlib-js/stdlib/pull/14585)
 -   [`574f21f`](https://github.com/stdlib-js/stdlib/commit/574f21f1a088db53b0ceb452c2ba9d3e047a2953) - add `blas/ext/base/gindex-of-greater-than-equal` [(#14444)](https://github.com/stdlib-js/stdlib/pull/14444)
@@ -701,6 +702,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`1325fe3`](https://github.com/stdlib-js/stdlib/commit/1325fe3510c6a28012be524d4db204070d2e0503) - **feat:** add `blas/ext/base/ndarray/scuevery` [(#14598)](https://github.com/stdlib-js/stdlib/pull/14598) _(by Muhammad Haris)_
 -   [`eed691c`](https://github.com/stdlib-js/stdlib/commit/eed691c613ef5bbfd3e4117ed7ddf4434f304149) - **feat:** add `blas/ext/base/ndarray/gcuevery` [(#14597)](https://github.com/stdlib-js/stdlib/pull/14597) _(by Muhammad Haris)_
 -   [`932501c`](https://github.com/stdlib-js/stdlib/commit/932501c1d4855f9ce40e26c0bfe275487ddb8c1d) - **feat:** add `blas/ext/base/ndarray/gwxpy` [(#14585)](https://github.com/stdlib-js/stdlib/pull/14585) _(by Kaustubh Patange, Athan Reines)_
 -   [`574f21f`](https://github.com/stdlib-js/stdlib/commit/574f21f1a088db53b0ceb452c2ba9d3e047a2953) - **feat:** add `blas/ext/base/gindex-of-greater-than-equal` [(#14444)](https://github.com/stdlib-js/stdlib/pull/14444) _(by Muhammad Haris)_
