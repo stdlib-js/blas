@@ -703,6 +703,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`68cf8ce`](https://github.com/stdlib-js/stdlib/commit/68cf8ce0a381d65660506efd5507aefbed2f724c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`323cfc1`](https://github.com/stdlib-js/stdlib/commit/323cfc1e10b30d9ace1550c116466946771f3ef6) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`502567f`](https://github.com/stdlib-js/stdlib/commit/502567f3a3983a60cb3fd2349108caccf20e101c) - **feat:** add `blas/ext/base/ndarray/dcuevery` [(#14599)](https://github.com/stdlib-js/stdlib/pull/14599) _(by Muhammad Haris)_
 -   [`1325fe3`](https://github.com/stdlib-js/stdlib/commit/1325fe3510c6a28012be524d4db204070d2e0503) - **feat:** add `blas/ext/base/ndarray/scuevery` [(#14598)](https://github.com/stdlib-js/stdlib/pull/14598) _(by Muhammad Haris)_
 -   [`eed691c`](https://github.com/stdlib-js/stdlib/commit/eed691c613ef5bbfd3e4117ed7ddf4434f304149) - **feat:** add `blas/ext/base/ndarray/gcuevery` [(#14597)](https://github.com/stdlib-js/stdlib/pull/14597) _(by Muhammad Haris)_
