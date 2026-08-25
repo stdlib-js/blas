@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344) - add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-not-equal` [(#14561)](https://github.com/stdlib-js/stdlib/pull/14561)
 -   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - add `*cuany` and `*cuevery` symbols to namespace
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594)
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595)
@@ -581,6 +582,10 @@
 
 ### BREAKING CHANGES
 
+-   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
 -   [`5e61b9f`](https://github.com/stdlib-js/stdlib/commit/5e61b9f1b491a2930875f2d96bc3824bc78ca141): add `fromIndex` support
 
     -   A number of symbols related to searching and exported in this namespace now support `fromIndex` ndarrays. To maintain previous behavior, you'll need to provide a `fromIndex` ndarray containing the appropriate index from which to begin searching.
@@ -707,6 +712,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-not-equal` [(#14561)](https://github.com/stdlib-js/stdlib/pull/14561) _(by Muhammad Haris)_
 -   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - **feat:** add `*cuany` and `*cuevery` symbols to namespace _(by Athan Reines)_
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - **feat:** add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594) _(by Muhammad Haris, Athan Reines)_
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - **feat:** add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595) _(by Muhammad Haris)_
