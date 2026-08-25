@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`841011d`](https://github.com/stdlib-js/stdlib/commit/841011deebe7ea01b903cf353146b2f922e317e7) - add `fromIndex` support to `blas/ext/base/ndarray/sfirst-index-less-than` [(#14560)](https://github.com/stdlib-js/stdlib/pull/14560)
 -   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344) - add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-not-equal` [(#14561)](https://github.com/stdlib-js/stdlib/pull/14561)
 -   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - add `*cuany` and `*cuevery` symbols to namespace
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594)
@@ -582,6 +583,10 @@
 
 ### BREAKING CHANGES
 
+-   [`841011d`](https://github.com/stdlib-js/stdlib/commit/841011deebe7ea01b903cf353146b2f922e317e7): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
+
 -   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the value `0`.
@@ -712,6 +717,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`841011d`](https://github.com/stdlib-js/stdlib/commit/841011deebe7ea01b903cf353146b2f922e317e7) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sfirst-index-less-than` [(#14560)](https://github.com/stdlib-js/stdlib/pull/14560) _(by Muhammad Haris)_
 -   [`3942bbc`](https://github.com/stdlib-js/stdlib/commit/3942bbcc7b4be8eb4ce0491095b9e8389ed26344) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/sindex-of-not-equal` [(#14561)](https://github.com/stdlib-js/stdlib/pull/14561) _(by Muhammad Haris)_
 -   [`1da8091`](https://github.com/stdlib-js/stdlib/commit/1da80916f08e37d8a0f1ac101e35c703f9b2e8f0) - **feat:** add `*cuany` and `*cuevery` symbols to namespace _(by Athan Reines)_
 -   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - **feat:** add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594) _(by Muhammad Haris, Athan Reines)_
