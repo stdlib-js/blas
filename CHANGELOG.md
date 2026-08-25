@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594)
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595)
 -   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596)
 -   [`502567f`](https://github.com/stdlib-js/stdlib/commit/502567f3a3983a60cb3fd2349108caccf20e101c) - add `blas/ext/base/ndarray/dcuevery` [(#14599)](https://github.com/stdlib-js/stdlib/pull/14599)
@@ -705,6 +706,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`9e235b4`](https://github.com/stdlib-js/stdlib/commit/9e235b4e8d0cde60bf939b2606799c02035be242) - **feat:** add `blas/ext/base/ndarray/gcuany` [(#14594)](https://github.com/stdlib-js/stdlib/pull/14594) _(by Muhammad Haris, Athan Reines)_
 -   [`f807078`](https://github.com/stdlib-js/stdlib/commit/f807078d672232f6591f645ef840eb06bcf382ac) - **feat:** add `blas/ext/base/ndarray/scuany` [(#14595)](https://github.com/stdlib-js/stdlib/pull/14595) _(by Muhammad Haris)_
 -   [`fab9d7d`](https://github.com/stdlib-js/stdlib/commit/fab9d7d5935add7eddd0870c0aac47dd81900c6e) - **feat:** add `blas/ext/base/ndarray/dcuany` [(#14596)](https://github.com/stdlib-js/stdlib/pull/14596) _(by Muhammad Haris, Athan Reines)_
 -   [`68cf8ce`](https://github.com/stdlib-js/stdlib/commit/68cf8ce0a381d65660506efd5507aefbed2f724c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
