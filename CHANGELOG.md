@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e4bfc44`](https://github.com/stdlib-js/stdlib/commit/e4bfc4472f96e7f2b19753f70437e097a08eb2e2) - add `fromIndex` support to `blas/ext/find-last-index` [(#14647)](https://github.com/stdlib-js/stdlib/pull/14647)
 -   [`d4a3595`](https://github.com/stdlib-js/stdlib/commit/d4a3595a92234d91bdb4d3bd640ae102981b0d63) - add `fromIndex` support to `blas/ext/base/ndarray/glast-index-equal` [(#14648)](https://github.com/stdlib-js/stdlib/pull/14648)
 -   [`353f039`](https://github.com/stdlib-js/stdlib/commit/353f039bb50f3d56e850ec6e81d8ce08ec01702f) - add `blas/ext/base/gindex-of-almost-same-value` [(#14418)](https://github.com/stdlib-js/stdlib/pull/14418)
 -   [`3877ffe`](https://github.com/stdlib-js/stdlib/commit/3877ffefae4b0625e11e8e245a48bb1876e48a2d) - update `blas/ext/base/ndarray` TypeScript declarations [(#14639)](https://github.com/stdlib-js/stdlib/pull/14639)
@@ -735,6 +736,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e4bfc44`](https://github.com/stdlib-js/stdlib/commit/e4bfc4472f96e7f2b19753f70437e097a08eb2e2) - **feat:** add `fromIndex` support to `blas/ext/find-last-index` [(#14647)](https://github.com/stdlib-js/stdlib/pull/14647) _(by Muhammad Haris)_
 -   [`d4a3595`](https://github.com/stdlib-js/stdlib/commit/d4a3595a92234d91bdb4d3bd640ae102981b0d63) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/glast-index-equal` [(#14648)](https://github.com/stdlib-js/stdlib/pull/14648) _(by Muhammad Haris)_
 -   [`353f039`](https://github.com/stdlib-js/stdlib/commit/353f039bb50f3d56e850ec6e81d8ce08ec01702f) - **feat:** add `blas/ext/base/gindex-of-almost-same-value` [(#14418)](https://github.com/stdlib-js/stdlib/pull/14418) _(by Muhammad Haris, Athan Reines)_
 -   [`aef88f4`](https://github.com/stdlib-js/stdlib/commit/aef88f46f65a647745f12986f660031976b51e96) - **docs:** update Markdown equation elements _(by stdlib-bot)_
