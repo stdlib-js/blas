@@ -18,23 +18,13 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/discrete-uniform' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var glastIndexEqual = require( './../lib' );
+var discreteUniform = require( '@stdlib/random/array/discrete-uniform' );
+var gindexOfAlmostSameValue = require( './../lib' );
 
-var opts = {
-	'dtype': 'generic'
-};
-var x = discreteUniform( [ 10 ], 0, 10, opts );
-console.log( ndarray2array( x ) );
-
-var y = discreteUniform( [ 10 ], 0, 10, opts );
-console.log( ndarray2array( y ) );
-
-var fromIndex = scalar2ndarray( 9, {
+var x = discreteUniform( 10, -100, 100, {
 	'dtype': 'generic'
 });
+console.log( x );
 
-var idx = glastIndexEqual( [ x, y, fromIndex ] );
+var idx = gindexOfAlmostSameValue( x.length, 80.0, 1, x, 1 );
 console.log( idx );

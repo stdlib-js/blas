@@ -18,23 +18,21 @@
 
 'use strict';
 
-var discreteUniform = require( '@stdlib/random/discrete-uniform' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-var ndarray2array = require( '@stdlib/ndarray/to-array' );
-var glastIndexEqual = require( './../lib' );
+// MODULES //
 
-var opts = {
-	'dtype': 'generic'
-};
-var x = discreteUniform( [ 10 ], 0, 10, opts );
-console.log( ndarray2array( x ) );
+var tape = require( 'tape' );
+var gindexOfAlmostSameValue = require( './../lib' );
 
-var y = discreteUniform( [ 10 ], 0, 10, opts );
-console.log( ndarray2array( y ) );
 
-var fromIndex = scalar2ndarray( 9, {
-	'dtype': 'generic'
+// TESTS //
+
+tape( 'main export is a function', function test( t ) {
+	t.ok( true, __filename );
+	t.strictEqual( typeof gindexOfAlmostSameValue, 'function', 'main export is a function' );
+	t.end();
 });
 
-var idx = glastIndexEqual( [ x, y, fromIndex ] );
-console.log( idx );
+tape( 'attached to the main export is a method providing an ndarray interface', function test( t ) {
+	t.strictEqual( typeof gindexOfAlmostSameValue.ndarray, 'function', 'method is a function' );
+	t.end();
+});

@@ -21,21 +21,12 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
 var pow = require( '@stdlib/math/base/special/pow' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-var ones = require( '@stdlib/ndarray/ones' );
-var zeros = require( '@stdlib/ndarray/zeros' );
+var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
+var oneTo = require( '@stdlib/array/one-to' );
 var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
-var glastIndexEqual = require( './../lib' );
-
-
-// VARIABLES //
-
-var options = {
-	'dtype': 'generic'
-};
+var gindexOfAlmostSameValue = require( './../lib' );
 
 
 // FUNCTIONS //
@@ -48,15 +39,7 @@ var options = {
 * @returns {Function} benchmark function
 */
 function createBenchmark( len ) {
-	var fromIndex;
-	var x;
-	var y;
-
-	x = ones( [ len ], options );
-	y = zeros( [ len ], options );
-	fromIndex = scalar2ndarray( len - 1, {
-		'dtype': 'generic'
-	});
+	var x = oneTo( len, 'float64' );
 	return benchmark;
 
 	/**
@@ -71,7 +54,7 @@ function createBenchmark( len ) {
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			out = glastIndexEqual( [ x, y, fromIndex ] );
+			out = gindexOfAlmostSameValue( x.length, len+1, 1, x, 1 );
 			if ( out !== out ) {
 				b.fail( 'should return an integer' );
 			}
@@ -105,6 +88,7 @@ function main() {
 
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
+
 		f = createBenchmark( len );
 		bench( format( '%s:len=%d', pkg, len ), f );
 	}
