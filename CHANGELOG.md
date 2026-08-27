@@ -772,6 +772,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`607bbc6`](https://github.com/stdlib-js/stdlib/commit/607bbc6e104c273e5b26cabfb21a8c06f3d5d375) - **build:** avoid false positives in ESLint rule `jsdoc-doctest-decimal-point` [(#14644)](https://github.com/stdlib-js/stdlib/pull/14644) _(by Philipp Burckhardt, Athan Reines)_
 -   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703) _(by Muhammad Haris)_
 -   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-truthy` [(#14654)](https://github.com/stdlib-js/stdlib/pull/14654) _(by Muhammad Haris)_
 -   [`59656ab`](https://github.com/stdlib-js/stdlib/commit/59656ab3fcd4a0ae2ffbdd5a0ee7100b97996fde) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-falsy` [(#14653)](https://github.com/stdlib-js/stdlib/pull/14653) _(by Muhammad Haris)_
