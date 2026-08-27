@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`7e7e7b5`](https://github.com/stdlib-js/stdlib/commit/7e7e7b5718b0d9e7c61a6bb1a997bf684660c792) - add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-truthy` [(#14652)](https://github.com/stdlib-js/stdlib/pull/14652)
+-   [`f2f33ac`](https://github.com/stdlib-js/stdlib/commit/f2f33ac7e3a704523904ec4a92538d2a9fea898b) - add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-falsy` [(#14650)](https://github.com/stdlib-js/stdlib/pull/14650)
+-   [`8867485`](https://github.com/stdlib-js/stdlib/commit/8867485f8935d068ea9444fbbaa87bed80ef22b4) - update `blas/ext/base/ndarray` TypeScript declarations [(#14680)](https://github.com/stdlib-js/stdlib/pull/14680)
 -   [`1cb0541`](https://github.com/stdlib-js/stdlib/commit/1cb0541475e959ebf6c7056927aea6d57918fa51) - update `blas/ext` TypeScript declarations [(#14681)](https://github.com/stdlib-js/stdlib/pull/14681)
 -   [`e4bfc44`](https://github.com/stdlib-js/stdlib/commit/e4bfc4472f96e7f2b19753f70437e097a08eb2e2) - add `fromIndex` support to `blas/ext/find-last-index` [(#14647)](https://github.com/stdlib-js/stdlib/pull/14647)
 -   [`d4a3595`](https://github.com/stdlib-js/stdlib/commit/d4a3595a92234d91bdb4d3bd640ae102981b0d63) - add `fromIndex` support to `blas/ext/base/ndarray/glast-index-equal` [(#14648)](https://github.com/stdlib-js/stdlib/pull/14648)
@@ -591,6 +594,18 @@
 
 ### BREAKING CHANGES
 
+-   [`7e7e7b5`](https://github.com/stdlib-js/stdlib/commit/7e7e7b5718b0d9e7c61a6bb1a997bf684660c792): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
+-   [`f2f33ac`](https://github.com/stdlib-js/stdlib/commit/f2f33ac7e3a704523904ec4a92538d2a9fea898b): add `fromIndex` support
+
+    -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
+
+-   [`8867485`](https://github.com/stdlib-js/stdlib/commit/8867485f8935d068ea9444fbbaa87bed80ef22b4): add `fromIndex` support
+
+    -   Various symbols now have `fromIndex` support. To maintain previous behavior, provide an additional zero-dimensional ndarray containing an initial search index.
+
 -   [`d4a3595`](https://github.com/stdlib-js/stdlib/commit/d4a3595a92234d91bdb4d3bd640ae102981b0d63): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
@@ -737,6 +752,9 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7e7e7b5`](https://github.com/stdlib-js/stdlib/commit/7e7e7b5718b0d9e7c61a6bb1a997bf684660c792) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-truthy` [(#14652)](https://github.com/stdlib-js/stdlib/pull/14652) _(by Muhammad Haris)_
+-   [`f2f33ac`](https://github.com/stdlib-js/stdlib/commit/f2f33ac7e3a704523904ec4a92538d2a9fea898b) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/glast-index-of-falsy` [(#14650)](https://github.com/stdlib-js/stdlib/pull/14650) _(by Muhammad Haris)_
+-   [`8867485`](https://github.com/stdlib-js/stdlib/commit/8867485f8935d068ea9444fbbaa87bed80ef22b4) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14680)](https://github.com/stdlib-js/stdlib/pull/14680) _(by stdlib-bot)_
 -   [`1cb0541`](https://github.com/stdlib-js/stdlib/commit/1cb0541475e959ebf6c7056927aea6d57918fa51) - **feat:** update `blas/ext` TypeScript declarations [(#14681)](https://github.com/stdlib-js/stdlib/pull/14681) _(by stdlib-bot)_
 -   [`492aac8`](https://github.com/stdlib-js/stdlib/commit/492aac82162e8ee0706a0b4a56e28d91fb14b5bd) - **docs:** update namespace table of contents [(#14682)](https://github.com/stdlib-js/stdlib/pull/14682) _(by stdlib-bot)_
 -   [`e4bfc44`](https://github.com/stdlib-js/stdlib/commit/e4bfc4472f96e7f2b19753f70437e097a08eb2e2) - **feat:** add `fromIndex` support to `blas/ext/find-last-index` [(#14647)](https://github.com/stdlib-js/stdlib/pull/14647) _(by Muhammad Haris)_
