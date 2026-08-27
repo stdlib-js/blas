@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703)
 -   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4) - add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-truthy` [(#14654)](https://github.com/stdlib-js/stdlib/pull/14654)
 -   [`59656ab`](https://github.com/stdlib-js/stdlib/commit/59656ab3fcd4a0ae2ffbdd5a0ee7100b97996fde) - add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-falsy` [(#14653)](https://github.com/stdlib-js/stdlib/pull/14653)
 -   [`9ba74da`](https://github.com/stdlib-js/stdlib/commit/9ba74dac73db26d42a64e7de6c40a22133e0a578) - add index normalization support to `blas/ext/base/ndarray/zcopy-within` [(#14665)](https://github.com/stdlib-js/stdlib/pull/14665)
@@ -601,6 +602,10 @@
 
 ### BREAKING CHANGES
 
+-   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
 -   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4): add `fromIndex` support
 
     -   To maintain previous behavior, provide an additional zero-dimensional ndarray containing the index of the last element.
@@ -767,6 +772,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703) _(by Muhammad Haris)_
 -   [`71e3b52`](https://github.com/stdlib-js/stdlib/commit/71e3b52b2b4982ee910790f1d42848a9d27f94a4) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-truthy` [(#14654)](https://github.com/stdlib-js/stdlib/pull/14654) _(by Muhammad Haris)_
 -   [`59656ab`](https://github.com/stdlib-js/stdlib/commit/59656ab3fcd4a0ae2ffbdd5a0ee7100b97996fde) - **feat:** add `fromIndex` support to `blas/ext/base/ndarray/slast-index-of-falsy` [(#14653)](https://github.com/stdlib-js/stdlib/pull/14653) _(by Muhammad Haris)_
 -   [`9ba74da`](https://github.com/stdlib-js/stdlib/commit/9ba74dac73db26d42a64e7de6c40a22133e0a578) - **feat:** add index normalization support to `blas/ext/base/ndarray/zcopy-within` [(#14665)](https://github.com/stdlib-js/stdlib/pull/14665) _(by Muhammad Haris)_
