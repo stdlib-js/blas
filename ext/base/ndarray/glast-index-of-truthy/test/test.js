@@ -22,7 +22,6 @@
 
 var tape = require( 'tape' );
 var ndarray = require( '@stdlib/ndarray/base/ctor' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var glastIndexOfTruthy = require( './../lib' );
 
 
@@ -57,91 +56,60 @@ tape( 'the function has an arity of 1', function test( t ) {
 });
 
 tape( 'the function returns the index of the last truthy element in a one-dimensional ndarray', function test( t ) {
-	var fromIndex;
 	var actual;
 	var x;
 
-	fromIndex = scalar2ndarray( 5, {
-		'dtype': 'generic'
-	});
-
 	x = vector( [ 0.0, 3.0, 0.0, 2.0, 0.0, 0.0 ], 6, 1, 0 );
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
+	actual = glastIndexOfTruthy( [ x ] );
 	t.strictEqual( actual, 3, 'returns expected value' );
 
 	x = vector( [ 1.0, 0.0, 0.0, 0.0 ], 4, 1, 0 );
-	fromIndex = scalar2ndarray( 3, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
+	actual = glastIndexOfTruthy( [ x ] );
 	t.strictEqual( actual, 0, 'returns expected value' );
 
 	x = vector( [ 0.0, 0.0, 0.0, 1.0 ], 4, 1, 0 );
-	fromIndex = scalar2ndarray( 3, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
+	actual = glastIndexOfTruthy( [ x ] );
 	t.strictEqual( actual, 3, 'returns expected value' );
 
 	t.end();
 });
 
 tape( 'the function ignores falsy elements (e.g., `0`, `NaN`)', function test( t ) {
-	var fromIndex;
 	var actual;
 	var x;
 
-	fromIndex = scalar2ndarray( 4, {
-		'dtype': 'generic'
-	});
-
 	x = vector( [ 0.0, NaN, 5.0, 0.0, NaN ], 5, 1, 0 );
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
+	actual = glastIndexOfTruthy( [ x ] );
 	t.strictEqual( actual, 2, 'returns expected value' );
 
 	t.end();
 });
 
 tape( 'the function returns `-1` if unable to find a truthy element', function test( t ) {
-	var fromIndex;
 	var actual;
 	var x;
 
-	fromIndex = scalar2ndarray( 3, {
-		'dtype': 'generic'
-	});
-
 	x = vector( [ 0.0, 0.0, 0.0, 0.0 ], 4, 1, 0 );
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
+	actual = glastIndexOfTruthy( [ x ] );
 	t.strictEqual( actual, -1, 'returns expected value' );
 
 	t.end();
 });
 
-tape( 'the function returns `-1` if provided an empty input ndarray', function test( t ) {
-	var fromIndex;
+tape( 'if provided an empty vector, the function returns `-1`', function test( t ) {
 	var actual;
 	var x;
 
 	x = vector( [], 0, 1, 0 );
-	fromIndex = scalar2ndarray( 0, {
-		'dtype': 'generic'
-	});
-
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
+	actual = glastIndexOfTruthy( [ x ] );
 	t.strictEqual( actual, -1, 'returns expected value' );
 
 	t.end();
 });
 
 tape( 'the function supports one-dimensional ndarrays having non-unit strides', function test( t ) {
-	var fromIndex;
 	var actual;
 	var x;
-
-	fromIndex = scalar2ndarray( 3, {
-		'dtype': 'generic'
-	});
 
 	x = [
 		0.0,  // 0
@@ -154,20 +122,15 @@ tape( 'the function supports one-dimensional ndarrays having non-unit strides', 
 		2.0
 	];
 
-	actual = glastIndexOfTruthy( [ vector( x, 4, 2, 0 ), fromIndex ] );
+	actual = glastIndexOfTruthy( [ vector( x, 4, 2, 0 ) ] );
 	t.strictEqual( actual, 3, 'returns expected value' );
 
 	t.end();
 });
 
 tape( 'the function supports one-dimensional ndarrays having negative strides', function test( t ) {
-	var fromIndex;
 	var actual;
 	var x;
-
-	fromIndex = scalar2ndarray( 3, {
-		'dtype': 'generic'
-	});
 
 	x = [
 		1.0,  // 3
@@ -180,20 +143,15 @@ tape( 'the function supports one-dimensional ndarrays having negative strides', 
 		2.0
 	];
 
-	actual = glastIndexOfTruthy( [ vector( x, 4, -2, 6 ), fromIndex ] );
+	actual = glastIndexOfTruthy( [ vector( x, 4, -2, 6 ) ] );
 	t.strictEqual( actual, 3, 'returns expected value' );
 
 	t.end();
 });
 
 tape( 'the function supports one-dimensional ndarrays having non-zero offsets', function test( t ) {
-	var fromIndex;
 	var actual;
 	var x;
-
-	fromIndex = scalar2ndarray( 3, {
-		'dtype': 'generic'
-	});
 
 	x = [
 		2.0,
@@ -206,112 +164,8 @@ tape( 'the function supports one-dimensional ndarrays having non-zero offsets', 
 		0.0   // 3
 	];
 
-	actual = glastIndexOfTruthy( [ vector( x, 4, 2, 1 ), fromIndex ] );
+	actual = glastIndexOfTruthy( [ vector( x, 4, 2, 1 ) ] );
 	t.strictEqual( actual, 2, 'returns expected value' );
-
-	t.end();
-});
-
-tape( 'the function supports a nonnegative starting search index', function test( t ) {
-	var fromIndex;
-	var actual;
-	var x;
-
-	x = vector( [ 0.0, 1.0, 0.0, 2.0, 0.0, 3.0 ], 6, 1, 0 );
-
-	fromIndex = scalar2ndarray( 5, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 5, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( 4, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 3, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( 2, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 1, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( 0, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, -1, 'returns expected value' );
-
-	t.end();
-});
-
-tape( 'the function supports a negative starting search index', function test( t ) {
-	var fromIndex;
-	var actual;
-	var x;
-
-	x = vector( [ 0.0, 1.0, 0.0, 2.0, 0.0, 3.0 ], 6, 1, 0 );
-
-	fromIndex = scalar2ndarray( -1, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 5, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( -2, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 3, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( -3, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 3, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( -5, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 1, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( -6, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, -1, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( -7, {
-		'dtype': 'generic'
-	});
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, -1, 'returns expected value' );
-
-	t.end();
-});
-
-tape( 'the function clamps a starting search index which is greater than or equal to the number of elements in the input ndarray', function test( t ) {
-	var fromIndex;
-	var actual;
-	var x;
-
-	x = vector( [ 0.0, 1.0, 0.0, 2.0, 0.0, 3.0 ], 6, 1, 0 );
-
-	fromIndex = scalar2ndarray( 6, {
-		'dtype': 'generic'
-	});
-
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 5, 'returns expected value' );
-
-	fromIndex = scalar2ndarray( 7, {
-		'dtype': 'generic'
-	});
-
-	actual = glastIndexOfTruthy( [ x, fromIndex ] );
-	t.strictEqual( actual, 5, 'returns expected value' );
 
 	t.end();
 });

@@ -24,17 +24,12 @@
 * @module @stdlib/blas/ext/base/ndarray/glast-index-of-truthy
 *
 * @example
-* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 * var vector = require( '@stdlib/ndarray/vector/ctor' );
 * var glastIndexOfTruthy = require( '@stdlib/blas/ext/base/ndarray/glast-index-of-truthy' );
 *
 * var x = vector( [ 0.0, 3.0, 0.0, 2.0 ], 'generic' );
 *
-* var fromIndex = scalar2ndarray( 3, {
-*     'dtype': 'generic'
-* });
-*
-* var v = glastIndexOfTruthy( [ x, fromIndex ] );
+* var v = glastIndexOfTruthy( [ x ] );
 * // returns 3
 */
 

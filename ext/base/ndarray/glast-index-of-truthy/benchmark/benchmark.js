@@ -21,10 +21,9 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
+var zeros = require( '@stdlib/ndarray/zeros' );
 var isInteger = require( '@stdlib/assert/is-integer' ).isPrimitive;
 var pow = require( '@stdlib/math/base/special/pow' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-var zeros = require( '@stdlib/ndarray/zeros' );
 var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var glastIndexOfTruthy = require( './../lib' );
@@ -47,13 +46,7 @@ var options = {
 * @returns {Function} benchmark function
 */
 function createBenchmark( len ) {
-	var fromIndex;
-	var x;
-
-	x = zeros( [ len ], options );
-	fromIndex = scalar2ndarray( len - 1, {
-		'dtype': 'generic'
-	});
+	var x = zeros( [ len ], options );
 	return benchmark;
 
 	/**
@@ -68,7 +61,7 @@ function createBenchmark( len ) {
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			out = glastIndexOfTruthy( [ x, fromIndex ] );
+			out = glastIndexOfTruthy( [ x ] );
 			if ( out !== out ) {
 				b.fail( 'should return an integer' );
 			}

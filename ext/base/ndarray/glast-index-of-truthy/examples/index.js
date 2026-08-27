@@ -19,7 +19,6 @@
 'use strict';
 
 var discreteUniform = require( '@stdlib/random/discrete-uniform' );
-var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var glastIndexOfTruthy = require( './../lib' );
 
@@ -30,9 +29,5 @@ var opts = {
 var x = discreteUniform( [ 10 ], 0, 5, opts );
 console.log( ndarray2array( x ) );
 
-var fromIndex = scalar2ndarray( 9, {
-	'dtype': 'generic'
-});
-
-var idx = glastIndexOfTruthy( [ x, fromIndex ] );
+var idx = glastIndexOfTruthy( [ x ] );
 console.log( idx );
