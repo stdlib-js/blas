@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c953ebb`](https://github.com/stdlib-js/stdlib/commit/c953ebbb70017c2667e06e6e0961d6caad896232) - add index normalization support to `blas/ext/base/ndarray/scopy-within` [(#14663)](https://github.com/stdlib-js/stdlib/pull/14663)
 -   [`7449bad`](https://github.com/stdlib-js/stdlib/commit/7449bad77b16a66aff957cdb2d73e9d43e986c1e) - add index normalization support to `blas/ext/base/ndarray/ccopy-within` [(#14664)](https://github.com/stdlib-js/stdlib/pull/14664)
 -   [`6408fd2`](https://github.com/stdlib-js/stdlib/commit/6408fd295118ec9f6ccaa7be8e45cc28b1d91829) - add index normalization support to `blas/ext/base/ndarray/dcopy-within` [(#14662)](https://github.com/stdlib-js/stdlib/pull/14662)
 -   [`908b873`](https://github.com/stdlib-js/stdlib/commit/908b8733dfed96e76af11526f2ac8016f22bf571) - add index normalization support to `blas/ext/base/ndarray/gcopy-within` [(#14656)](https://github.com/stdlib-js/stdlib/pull/14656)
@@ -755,6 +756,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`c953ebb`](https://github.com/stdlib-js/stdlib/commit/c953ebbb70017c2667e06e6e0961d6caad896232) - **feat:** add index normalization support to `blas/ext/base/ndarray/scopy-within` [(#14663)](https://github.com/stdlib-js/stdlib/pull/14663) _(by Muhammad Haris)_
 -   [`7449bad`](https://github.com/stdlib-js/stdlib/commit/7449bad77b16a66aff957cdb2d73e9d43e986c1e) - **feat:** add index normalization support to `blas/ext/base/ndarray/ccopy-within` [(#14664)](https://github.com/stdlib-js/stdlib/pull/14664) _(by Muhammad Haris)_
 -   [`6408fd2`](https://github.com/stdlib-js/stdlib/commit/6408fd295118ec9f6ccaa7be8e45cc28b1d91829) - **feat:** add index normalization support to `blas/ext/base/ndarray/dcopy-within` [(#14662)](https://github.com/stdlib-js/stdlib/pull/14662) _(by Muhammad Haris)_
 -   [`908b873`](https://github.com/stdlib-js/stdlib/commit/908b8733dfed96e76af11526f2ac8016f22bf571) - **feat:** add index normalization support to `blas/ext/base/ndarray/gcopy-within` [(#14656)](https://github.com/stdlib-js/stdlib/pull/14656) _(by Muhammad Haris)_
