@@ -3134,7 +3134,6 @@ interface Namespace {
 	* -   The function expects the following ndarrays:
 	*
 	*     -   a one-dimensional input ndarray.
-	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* -   If no element passes a test implemented by a predicate function, the function returns `-1`.
 	*
@@ -3144,7 +3143,6 @@ interface Namespace {
 	* @returns index
 	*
 	* @example
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
 	*
 	* function clbk( v ) {
@@ -3153,11 +3151,7 @@ interface Namespace {
 	*
 	* var x = vector( [ 1.0, 3.0, 4.0, 2.0 ], 'generic' );
 	*
-	* var fromIndex = scalar2ndarray( 3, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var v = ns.gfindLastIndex( [ x, fromIndex ], clbk );
+	* var v = ns.gfindLastIndex( [ x ], clbk );
 	* // returns 3
 	*/
 	gfindLastIndex: typeof gfindLastIndex;
@@ -3453,7 +3447,6 @@ interface Namespace {
 	*
 	*     -   first one-dimensional input ndarray.
 	*     -   second one-dimensional input ndarray.
-	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
 	*
 	* -   When comparing elements, the function checks for equality using the strict equality operator `===`. As a consequence, `NaN` values are considered distinct, and `-0` and `+0` are considered the same.
 	*
@@ -3461,17 +3454,12 @@ interface Namespace {
 	* @returns index
 	*
 	* @example
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 	* var vector = require( '@stdlib/ndarray/vector/ctor' );
 	*
 	* var x = vector( [ 1.0, 2.0, 3.0, 4.0 ], 'generic' );
 	* var y = vector( [ 0.0, 0.0, 3.0, 0.0 ], 'generic' );
 	*
-	* var fromIndex = scalar2ndarray( 3, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var idx = ns.glastIndexEqual( [ x, y, fromIndex ] );
+	* var idx = ns.glastIndexEqual( [ x, y ] );
 	* // returns 2
 	*/
 	glastIndexEqual: typeof glastIndexEqual;
