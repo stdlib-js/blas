@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4a59d19`](https://github.com/stdlib-js/stdlib/commit/4a59d1983d7263465cf386de63308cac72e5715a) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-equal` [(#14705)](https://github.com/stdlib-js/stdlib/pull/14705)
 -   [`b3f747f`](https://github.com/stdlib-js/stdlib/commit/b3f747f1eef3563666da43818fe5f9a232e7378f) - add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-nan` [(#14702)](https://github.com/stdlib-js/stdlib/pull/14702)
 -   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2) - update `blas/ext/base/ndarray` TypeScript declarations [(#14736)](https://github.com/stdlib-js/stdlib/pull/14736)
 -   [`f7c810a`](https://github.com/stdlib-js/stdlib/commit/f7c810a389b0aaaf8f67ba243fca57bef079e9bc) - add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-not-equal` [(#14703)](https://github.com/stdlib-js/stdlib/pull/14703)
@@ -604,6 +605,10 @@
 
 ### BREAKING CHANGES
 
+-   [`4a59d19`](https://github.com/stdlib-js/stdlib/commit/4a59d1983d7263465cf386de63308cac72e5715a): add `start` and `end` support
+
+    -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
 -   [`b3f747f`](https://github.com/stdlib-js/stdlib/commit/b3f747f1eef3563666da43818fe5f9a232e7378f): add `start` and `end` support
 
     -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
@@ -782,6 +787,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`4a59d19`](https://github.com/stdlib-js/stdlib/commit/4a59d1983d7263465cf386de63308cac72e5715a) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-equal` [(#14705)](https://github.com/stdlib-js/stdlib/pull/14705) _(by Muhammad Haris)_
 -   [`b3f747f`](https://github.com/stdlib-js/stdlib/commit/b3f747f1eef3563666da43818fe5f9a232e7378f) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/gfill-nan` [(#14702)](https://github.com/stdlib-js/stdlib/pull/14702) _(by Muhammad Haris)_
 -   [`8306d65`](https://github.com/stdlib-js/stdlib/commit/8306d6548276f8b8379254b305ade90e24257ae2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14736)](https://github.com/stdlib-js/stdlib/pull/14736) _(by stdlib-bot)_
 -   [`607bbc6`](https://github.com/stdlib-js/stdlib/commit/607bbc6e104c273e5b26cabfb21a8c06f3d5d375) - **build:** avoid false positives in ESLint rule `jsdoc-doctest-decimal-point` [(#14644)](https://github.com/stdlib-js/stdlib/pull/14644) _(by Philipp Burckhardt, Athan Reines)_
