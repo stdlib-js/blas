@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`18f086d`](https://github.com/stdlib-js/stdlib/commit/18f086d91203c7b7af95575b9c0c9654baa50cbc) - add `blas/ext/base/zlinspace` [(#13957)](https://github.com/stdlib-js/stdlib/pull/13957)
 -   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765)
 -   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-nan` [(#14707)](https://github.com/stdlib-js/stdlib/pull/14707)
 -   [`7a6d768`](https://github.com/stdlib-js/stdlib/commit/7a6d7687d8b7fd3d8672155bc4662b7232f72833) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-not-equal` [(#14708)](https://github.com/stdlib-js/stdlib/pull/14708)
@@ -827,6 +828,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`18f086d`](https://github.com/stdlib-js/stdlib/commit/18f086d91203c7b7af95575b9c0c9654baa50cbc) - **feat:** add `blas/ext/base/zlinspace` [(#13957)](https://github.com/stdlib-js/stdlib/pull/13957) _(by Muhammad Haris, Athan Reines)_
 -   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765) _(by stdlib-bot)_
 -   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-nan` [(#14707)](https://github.com/stdlib-js/stdlib/pull/14707) _(by Muhammad Haris)_
 -   [`7a6d768`](https://github.com/stdlib-js/stdlib/commit/7a6d7687d8b7fd3d8672155bc4662b7232f72833) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-not-equal` [(#14708)](https://github.com/stdlib-js/stdlib/pull/14708) _(by Muhammad Haris)_
