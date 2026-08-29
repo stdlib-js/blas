@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435)
 -   [`e76928e`](https://github.com/stdlib-js/stdlib/commit/e76928e0af776b4ecc1bf6ff7cabbe38e0759a38) - add `blas/ext/base/stril2triu` [(#14048)](https://github.com/stdlib-js/stdlib/pull/14048)
 -   [`51f6765`](https://github.com/stdlib-js/stdlib/commit/51f676591caa017e5fca7a12b67be9962bd560f9) - add `blas/ext/base/slast-index-equal` [(#13897)](https://github.com/stdlib-js/stdlib/pull/13897)
 -   [`ec19839`](https://github.com/stdlib-js/stdlib/commit/ec19839a6ab9183559246bb2051e221cd8612052) - add `blas/ext/base/gindex-of-less-than-equal` [(#14442)](https://github.com/stdlib-js/stdlib/pull/14442)
@@ -834,6 +835,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - **feat:** add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435) _(by Muhammad Haris, Athan Reines)_
 -   [`e76928e`](https://github.com/stdlib-js/stdlib/commit/e76928e0af776b4ecc1bf6ff7cabbe38e0759a38) - **feat:** add `blas/ext/base/stril2triu` [(#14048)](https://github.com/stdlib-js/stdlib/pull/14048) _(by Kaustubh Patange)_
 -   [`51f6765`](https://github.com/stdlib-js/stdlib/commit/51f676591caa017e5fca7a12b67be9962bd560f9) - **feat:** add `blas/ext/base/slast-index-equal` [(#13897)](https://github.com/stdlib-js/stdlib/pull/13897) _(by Muhammad Haris)_
 -   [`ec19839`](https://github.com/stdlib-js/stdlib/commit/ec19839a6ab9183559246bb2051e221cd8612052) - **feat:** add `blas/ext/base/gindex-of-less-than-equal` [(#14442)](https://github.com/stdlib-js/stdlib/pull/14442) _(by Muhammad Haris, Athan Reines)_
