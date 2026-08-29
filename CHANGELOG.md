@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1e977c6`](https://github.com/stdlib-js/stdlib/commit/1e977c6a85ef6e95c407dd74df415535eacc6f4e) - add `blas/ext/base/ndarray/dcartesian-power` [(#14784)](https://github.com/stdlib-js/stdlib/pull/14784)
 -   [`ef0c954`](https://github.com/stdlib-js/stdlib/commit/ef0c9548591b17e9a07aae41bc0432e8e2565df6) - add `blas/ext/cunone` [(#14783)](https://github.com/stdlib-js/stdlib/pull/14783)
 -   [`3456099`](https://github.com/stdlib-js/stdlib/commit/3456099a01d6a201f02823a25f47d89a6e49f880) - add `blas/ext/cuany` [(#14777)](https://github.com/stdlib-js/stdlib/pull/14777)
 -   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435)
@@ -837,6 +838,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`1e977c6`](https://github.com/stdlib-js/stdlib/commit/1e977c6a85ef6e95c407dd74df415535eacc6f4e) - **feat:** add `blas/ext/base/ndarray/dcartesian-power` [(#14784)](https://github.com/stdlib-js/stdlib/pull/14784) _(by Muhammad Haris, Athan Reines)_
 -   [`ef0c954`](https://github.com/stdlib-js/stdlib/commit/ef0c9548591b17e9a07aae41bc0432e8e2565df6) - **feat:** add `blas/ext/cunone` [(#14783)](https://github.com/stdlib-js/stdlib/pull/14783) _(by Muhammad Haris)_
 -   [`3456099`](https://github.com/stdlib-js/stdlib/commit/3456099a01d6a201f02823a25f47d89a6e49f880) - **feat:** add `blas/ext/cuany` [(#14777)](https://github.com/stdlib-js/stdlib/pull/14777) _(by Muhammad Haris, Athan Reines)_
 -   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - **feat:** add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435) _(by Muhammad Haris, Athan Reines)_
