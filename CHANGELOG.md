@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ec19839`](https://github.com/stdlib-js/stdlib/commit/ec19839a6ab9183559246bb2051e221cd8612052) - add `blas/ext/base/gindex-of-less-than-equal` [(#14442)](https://github.com/stdlib-js/stdlib/pull/14442)
 -   [`be8a446`](https://github.com/stdlib-js/stdlib/commit/be8a446c7bf5e97ea4248716472a9a6b456269d9) - add `gindexOfAlmostSameValue` and `gindexOfGreaterThanEqual` to namespace
 -   [`f80bd1c`](https://github.com/stdlib-js/stdlib/commit/f80bd1c7609c83e2bcdea7b02894674fc65c0ab1) - add `gindexOfLessThan` and `zlinspace` to namespace
 -   [`515a3f9`](https://github.com/stdlib-js/stdlib/commit/515a3f9503afabd77a7b771c78478467aff0e41f) - add `blas/ext/base/gindex-of-less-than` [(#14433)](https://github.com/stdlib-js/stdlib/pull/14433)
@@ -831,6 +832,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ec19839`](https://github.com/stdlib-js/stdlib/commit/ec19839a6ab9183559246bb2051e221cd8612052) - **feat:** add `blas/ext/base/gindex-of-less-than-equal` [(#14442)](https://github.com/stdlib-js/stdlib/pull/14442) _(by Muhammad Haris, Athan Reines)_
 -   [`be8a446`](https://github.com/stdlib-js/stdlib/commit/be8a446c7bf5e97ea4248716472a9a6b456269d9) - **feat:** add `gindexOfAlmostSameValue` and `gindexOfGreaterThanEqual` to namespace _(by Athan Reines)_
 -   [`f80bd1c`](https://github.com/stdlib-js/stdlib/commit/f80bd1c7609c83e2bcdea7b02894674fc65c0ab1) - **feat:** add `gindexOfLessThan` and `zlinspace` to namespace _(by Athan Reines)_
 -   [`515a3f9`](https://github.com/stdlib-js/stdlib/commit/515a3f9503afabd77a7b771c78478467aff0e41f) - **feat:** add `blas/ext/base/gindex-of-less-than` [(#14433)](https://github.com/stdlib-js/stdlib/pull/14433) _(by Muhammad Haris, Athan Reines)_
