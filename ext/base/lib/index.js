@@ -1749,6 +1749,15 @@ setReadOnly( ns, 'gfirstIndexNotEqual', require( './../../../ext/base/gfirst-ind
 setReadOnly( ns, 'gindexOf', require( './../../../ext/base/gindex-of' ) );
 
 /**
+* @name gindexOfAlmostSameValue
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-almost-same-value}
+*/
+setReadOnly( ns, 'gindexOfAlmostSameValue', require( './../../../ext/base/gindex-of-almost-same-value' ) );
+
+/**
 * @name gindexOfColumn
 * @memberof ns
 * @readonly
@@ -1774,6 +1783,24 @@ setReadOnly( ns, 'gindexOfFalsy', require( './../../../ext/base/gindex-of-falsy'
 * @see {@link module:@stdlib/blas/ext/base/gindex-of-falsy-row}
 */
 setReadOnly( ns, 'gindexOfFalsyRow', require( './../../../ext/base/gindex-of-falsy-row' ) );
+
+/**
+* @name gindexOfGreaterThanEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-greater-than-equal}
+*/
+setReadOnly( ns, 'gindexOfGreaterThanEqual', require( './../../../ext/base/gindex-of-greater-than-equal' ) );
+
+/**
+* @name gindexOfLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-less-than}
+*/
+setReadOnly( ns, 'gindexOfLessThan', require( './../../../ext/base/gindex-of-less-than' ) );
 
 /**
 * @name gindexOfNotEqual
@@ -3376,6 +3403,15 @@ setReadOnly( ns, 'zlastIndexOfFalsy', require( './../../../ext/base/zlast-index-
 * @see {@link module:@stdlib/blas/ext/base/zlast-index-of-row}
 */
 setReadOnly( ns, 'zlastIndexOfRow', require( './../../../ext/base/zlast-index-of-row' ) );
+
+/**
+* @name zlinspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zlinspace}
+*/
+setReadOnly( ns, 'zlinspace', require( './../../../ext/base/zlinspace' ) );
 
 /**
 * @name zlogspace

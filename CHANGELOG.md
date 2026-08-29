@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`be8a446`](https://github.com/stdlib-js/stdlib/commit/be8a446c7bf5e97ea4248716472a9a6b456269d9) - add `gindexOfAlmostSameValue` and `gindexOfGreaterThanEqual` to namespace
+-   [`f80bd1c`](https://github.com/stdlib-js/stdlib/commit/f80bd1c7609c83e2bcdea7b02894674fc65c0ab1) - add `gindexOfLessThan` and `zlinspace` to namespace
 -   [`515a3f9`](https://github.com/stdlib-js/stdlib/commit/515a3f9503afabd77a7b771c78478467aff0e41f) - add `blas/ext/base/gindex-of-less-than` [(#14433)](https://github.com/stdlib-js/stdlib/pull/14433)
 -   [`18f086d`](https://github.com/stdlib-js/stdlib/commit/18f086d91203c7b7af95575b9c0c9654baa50cbc) - add `blas/ext/base/zlinspace` [(#13957)](https://github.com/stdlib-js/stdlib/pull/13957)
 -   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765)
@@ -829,6 +831,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`be8a446`](https://github.com/stdlib-js/stdlib/commit/be8a446c7bf5e97ea4248716472a9a6b456269d9) - **feat:** add `gindexOfAlmostSameValue` and `gindexOfGreaterThanEqual` to namespace _(by Athan Reines)_
+-   [`f80bd1c`](https://github.com/stdlib-js/stdlib/commit/f80bd1c7609c83e2bcdea7b02894674fc65c0ab1) - **feat:** add `gindexOfLessThan` and `zlinspace` to namespace _(by Athan Reines)_
 -   [`515a3f9`](https://github.com/stdlib-js/stdlib/commit/515a3f9503afabd77a7b771c78478467aff0e41f) - **feat:** add `blas/ext/base/gindex-of-less-than` [(#14433)](https://github.com/stdlib-js/stdlib/pull/14433) _(by Muhammad Haris, Athan Reines)_
 -   [`18f086d`](https://github.com/stdlib-js/stdlib/commit/18f086d91203c7b7af95575b9c0c9654baa50cbc) - **feat:** add `blas/ext/base/zlinspace` [(#13957)](https://github.com/stdlib-js/stdlib/pull/13957) _(by Muhammad Haris, Athan Reines)_
 -   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765) _(by stdlib-bot)_
