@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`07496a9`](https://github.com/stdlib-js/stdlib/commit/07496a9a29ff7ab590607afff92c541b5d654c63) - add `blas/ext/base/glast-index-less-than` [(#14384)](https://github.com/stdlib-js/stdlib/pull/14384)
 -   [`554ecc6`](https://github.com/stdlib-js/stdlib/commit/554ecc624c50135aa58e23a898ec4d298c367012) - add `blas/ext/cuevery` [(#14780)](https://github.com/stdlib-js/stdlib/pull/14780)
 -   [`1e977c6`](https://github.com/stdlib-js/stdlib/commit/1e977c6a85ef6e95c407dd74df415535eacc6f4e) - add `blas/ext/base/ndarray/dcartesian-power` [(#14784)](https://github.com/stdlib-js/stdlib/pull/14784)
 -   [`ef0c954`](https://github.com/stdlib-js/stdlib/commit/ef0c9548591b17e9a07aae41bc0432e8e2565df6) - add `blas/ext/cunone` [(#14783)](https://github.com/stdlib-js/stdlib/pull/14783)
@@ -839,6 +840,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`07496a9`](https://github.com/stdlib-js/stdlib/commit/07496a9a29ff7ab590607afff92c541b5d654c63) - **feat:** add `blas/ext/base/glast-index-less-than` [(#14384)](https://github.com/stdlib-js/stdlib/pull/14384) _(by Muhammad Haris)_
 -   [`554ecc6`](https://github.com/stdlib-js/stdlib/commit/554ecc624c50135aa58e23a898ec4d298c367012) - **feat:** add `blas/ext/cuevery` [(#14780)](https://github.com/stdlib-js/stdlib/pull/14780) _(by Muhammad Haris)_
 -   [`1e977c6`](https://github.com/stdlib-js/stdlib/commit/1e977c6a85ef6e95c407dd74df415535eacc6f4e) - **feat:** add `blas/ext/base/ndarray/dcartesian-power` [(#14784)](https://github.com/stdlib-js/stdlib/pull/14784) _(by Muhammad Haris, Athan Reines)_
 -   [`ef0c954`](https://github.com/stdlib-js/stdlib/commit/ef0c9548591b17e9a07aae41bc0432e8e2565df6) - **feat:** add `blas/ext/cunone` [(#14783)](https://github.com/stdlib-js/stdlib/pull/14783) _(by Muhammad Haris)_
