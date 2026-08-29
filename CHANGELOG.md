@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765)
 -   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-nan` [(#14707)](https://github.com/stdlib-js/stdlib/pull/14707)
 -   [`7a6d768`](https://github.com/stdlib-js/stdlib/commit/7a6d7687d8b7fd3d8672155bc4662b7232f72833) - add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-not-equal` [(#14708)](https://github.com/stdlib-js/stdlib/pull/14708)
 -   [`40c7fc9`](https://github.com/stdlib-js/stdlib/commit/40c7fc983094aadff964c8076594f847ea44e0c5) - add `start` and `end` parameter support to `blas/ext/base/ndarray/cfill-equal` [(#14669)](https://github.com/stdlib-js/stdlib/pull/14669)
@@ -612,6 +613,10 @@
 
 ### BREAKING CHANGES
 
+-   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2): add `start` and `end` support
+
+    -   Several of the \"fill\" APIs now have `start` and `end` support. To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
+
 -   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32): add `start` and `end` support
 
     -   To maintain previous behavior, provide additional zero-dimensional ndarrays containing the value `0` and the number of elements, respectively.
@@ -822,6 +827,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0ce8ad5`](https://github.com/stdlib-js/stdlib/commit/0ce8ad5383a64891cbb20e5341640bf99a4713f2) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#14765)](https://github.com/stdlib-js/stdlib/pull/14765) _(by stdlib-bot)_
 -   [`893d741`](https://github.com/stdlib-js/stdlib/commit/893d7414d08fc8e37231996fff95e5ac5140db32) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-nan` [(#14707)](https://github.com/stdlib-js/stdlib/pull/14707) _(by Muhammad Haris)_
 -   [`7a6d768`](https://github.com/stdlib-js/stdlib/commit/7a6d7687d8b7fd3d8672155bc4662b7232f72833) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/sfill-not-equal` [(#14708)](https://github.com/stdlib-js/stdlib/pull/14708) _(by Muhammad Haris)_
 -   [`40c7fc9`](https://github.com/stdlib-js/stdlib/commit/40c7fc983094aadff964c8076594f847ea44e0c5) - **feat:** add `start` and `end` parameter support to `blas/ext/base/ndarray/cfill-equal` [(#14669)](https://github.com/stdlib-js/stdlib/pull/14669) _(by Muhammad Haris)_
