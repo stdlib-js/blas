@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ef0c954`](https://github.com/stdlib-js/stdlib/commit/ef0c9548591b17e9a07aae41bc0432e8e2565df6) - add `blas/ext/cunone` [(#14783)](https://github.com/stdlib-js/stdlib/pull/14783)
 -   [`3456099`](https://github.com/stdlib-js/stdlib/commit/3456099a01d6a201f02823a25f47d89a6e49f880) - add `blas/ext/cuany` [(#14777)](https://github.com/stdlib-js/stdlib/pull/14777)
 -   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435)
 -   [`e76928e`](https://github.com/stdlib-js/stdlib/commit/e76928e0af776b4ecc1bf6ff7cabbe38e0759a38) - add `blas/ext/base/stril2triu` [(#14048)](https://github.com/stdlib-js/stdlib/pull/14048)
@@ -836,6 +837,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ef0c954`](https://github.com/stdlib-js/stdlib/commit/ef0c9548591b17e9a07aae41bc0432e8e2565df6) - **feat:** add `blas/ext/cunone` [(#14783)](https://github.com/stdlib-js/stdlib/pull/14783) _(by Muhammad Haris)_
 -   [`3456099`](https://github.com/stdlib-js/stdlib/commit/3456099a01d6a201f02823a25f47d89a6e49f880) - **feat:** add `blas/ext/cuany` [(#14777)](https://github.com/stdlib-js/stdlib/pull/14777) _(by Muhammad Haris, Athan Reines)_
 -   [`623963a`](https://github.com/stdlib-js/stdlib/commit/623963abea48b5139bf7ce0c0f4899fc25ee9641) - **feat:** add `blas/ext/base/gindex-of-greater-than` [(#14435)](https://github.com/stdlib-js/stdlib/pull/14435) _(by Muhammad Haris, Athan Reines)_
 -   [`e76928e`](https://github.com/stdlib-js/stdlib/commit/e76928e0af776b4ecc1bf6ff7cabbe38e0759a38) - **feat:** add `blas/ext/base/stril2triu` [(#14048)](https://github.com/stdlib-js/stdlib/pull/14048) _(by Kaustubh Patange)_
