@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`92472f9`](https://github.com/stdlib-js/stdlib/commit/92472f9deaac2a781dd670585b1d24da8732b85f) - add C implementation for `blas/ext/base/ndarray/dxdy` [(#14620)](https://github.com/stdlib-js/stdlib/pull/14620)
 -   [`29c792b`](https://github.com/stdlib-js/stdlib/commit/29c792b831672a77ca6d8b3e7ceb89b020e8db26) - update `blas/ext/base` TypeScript declarations [(#14798)](https://github.com/stdlib-js/stdlib/pull/14798)
 -   [`70afcc0`](https://github.com/stdlib-js/stdlib/commit/70afcc02b8cac36d01fe50347cb49339d26147d7) - add `blas/ext/base/ctriu2tril` [(#13990)](https://github.com/stdlib-js/stdlib/pull/13990)
 -   [`64c4d14`](https://github.com/stdlib-js/stdlib/commit/64c4d1469beb5230aa5a5529f3cb3689f5a1def0) - add `blas/ext/index-of-not-equal` [(#14619)](https://github.com/stdlib-js/stdlib/pull/14619)
@@ -843,6 +844,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`92472f9`](https://github.com/stdlib-js/stdlib/commit/92472f9deaac2a781dd670585b1d24da8732b85f) - **feat:** add C implementation for `blas/ext/base/ndarray/dxdy` [(#14620)](https://github.com/stdlib-js/stdlib/pull/14620) _(by Arjan-P, Athan Reines)_
 -   [`29c792b`](https://github.com/stdlib-js/stdlib/commit/29c792b831672a77ca6d8b3e7ceb89b020e8db26) - **feat:** update `blas/ext/base` TypeScript declarations [(#14798)](https://github.com/stdlib-js/stdlib/pull/14798) _(by stdlib-bot)_
 -   [`70afcc0`](https://github.com/stdlib-js/stdlib/commit/70afcc02b8cac36d01fe50347cb49339d26147d7) - **feat:** add `blas/ext/base/ctriu2tril` [(#13990)](https://github.com/stdlib-js/stdlib/pull/13990) _(by Kaustubh Patange, Athan Reines)_
 -   [`64c4d14`](https://github.com/stdlib-js/stdlib/commit/64c4d1469beb5230aa5a5529f3cb3689f5a1def0) - **feat:** add `blas/ext/index-of-not-equal` [(#14619)](https://github.com/stdlib-js/stdlib/pull/14619) _(by Muhammad Haris)_
@@ -1676,8 +1678,9 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 15 people contributed to this release. Thank you to the following contributors:
+A total of 16 people contributed to this release. Thank you to the following contributors:
 
+-   Arjan-P
 -   Athan Reines
 -   Atharva Patange
 -   Divit Jain
