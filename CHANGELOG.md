@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bff35b7`](https://github.com/stdlib-js/stdlib/commit/bff35b7bf260e5c8d50916444b6f04a802fce677) - add `blas/ext/base/ndarray/dcartesian-product` [(#14812)](https://github.com/stdlib-js/stdlib/pull/14812)
 -   [`7bf51f6`](https://github.com/stdlib-js/stdlib/commit/7bf51f6a58ad4ec8f414ee9b9541547d0e25ceaa) - add C implementation for `blas/ext/base/ndarray/dxpy` [(#14806)](https://github.com/stdlib-js/stdlib/pull/14806)
 -   [`272af96`](https://github.com/stdlib-js/stdlib/commit/272af9688c34fc8645d69436fa833e2531276d84) - add `blas/ext/base/ndarray/ctriu2tril` [(#14805)](https://github.com/stdlib-js/stdlib/pull/14805)
 -   [`331a796`](https://github.com/stdlib-js/stdlib/commit/331a796d28ce52ca58d9426521d71c7cdf2711a7) - add `blas/ext/base/ndarray/stril2triu` [(#14803)](https://github.com/stdlib-js/stdlib/pull/14803)
@@ -847,6 +848,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`bff35b7`](https://github.com/stdlib-js/stdlib/commit/bff35b7bf260e5c8d50916444b6f04a802fce677) - **feat:** add `blas/ext/base/ndarray/dcartesian-product` [(#14812)](https://github.com/stdlib-js/stdlib/pull/14812) _(by Muhammad Haris)_
 -   [`7bf51f6`](https://github.com/stdlib-js/stdlib/commit/7bf51f6a58ad4ec8f414ee9b9541547d0e25ceaa) - **feat:** add C implementation for `blas/ext/base/ndarray/dxpy` [(#14806)](https://github.com/stdlib-js/stdlib/pull/14806) _(by Arjan-P, Athan Reines)_
 -   [`272af96`](https://github.com/stdlib-js/stdlib/commit/272af9688c34fc8645d69436fa833e2531276d84) - **feat:** add `blas/ext/base/ndarray/ctriu2tril` [(#14805)](https://github.com/stdlib-js/stdlib/pull/14805) _(by Kaustubh Patange)_
 -   [`331a796`](https://github.com/stdlib-js/stdlib/commit/331a796d28ce52ca58d9426521d71c7cdf2711a7) - **feat:** add `blas/ext/base/ndarray/stril2triu` [(#14803)](https://github.com/stdlib-js/stdlib/pull/14803) _(by Kaustubh Patange)_
