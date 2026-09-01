@@ -848,6 +848,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`9c211bd`](https://github.com/stdlib-js/stdlib/commit/9c211bd531d6be3b419452b92b780e493e46d700) - **test:** migrate `blas/base/drotm` to ULP-based assertions [(#14869)](https://github.com/stdlib-js/stdlib/pull/14869) _(by Philipp Burckhardt)_
 -   [`65754cb`](https://github.com/stdlib-js/stdlib/commit/65754cb6879fb53a5ce7c2f3f203dc492ded8ae1) - **docs:** remove unnecessary require statements [(#14856)](https://github.com/stdlib-js/stdlib/pull/14856) _(by Philipp Burckhardt)_
 -   [`bff35b7`](https://github.com/stdlib-js/stdlib/commit/bff35b7bf260e5c8d50916444b6f04a802fce677) - **feat:** add `blas/ext/base/ndarray/dcartesian-product` [(#14812)](https://github.com/stdlib-js/stdlib/pull/14812) _(by Muhammad Haris)_
 -   [`7bf51f6`](https://github.com/stdlib-js/stdlib/commit/7bf51f6a58ad4ec8f414ee9b9541547d0e25ceaa) - **feat:** add C implementation for `blas/ext/base/ndarray/dxpy` [(#14806)](https://github.com/stdlib-js/stdlib/pull/14806) _(by Arjan-P, Athan Reines)_
