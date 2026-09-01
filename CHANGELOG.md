@@ -848,6 +848,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b76a577`](https://github.com/stdlib-js/stdlib/commit/b76a577c1892508e2962c9ae8c6250fb7957cf4d) - **refactor:** add support for enums in `blas/ext/base/*tril2triu` [(#14887)](https://github.com/stdlib-js/stdlib/pull/14887) _(by Kaustubh Patange)_
 -   [`2e4be80`](https://github.com/stdlib-js/stdlib/commit/2e4be807185e1cc54fd96361f9432ad6f211ff92) - **refactor:** add support for enums in `blas/ext/base/*triu` [(#14838)](https://github.com/stdlib-js/stdlib/pull/14838) _(by Kaustubh Patange)_
 -   [`7f6bdb8`](https://github.com/stdlib-js/stdlib/commit/7f6bdb83e2293a2f8491934ce00b58045d4a6178) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`7fe0108`](https://github.com/stdlib-js/stdlib/commit/7fe0108030637ada481130ef97d785e239e7b0dc) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
