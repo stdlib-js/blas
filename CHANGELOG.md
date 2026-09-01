@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-30)
+## Unreleased (2026-09-01)
 
 <section class="features">
 
@@ -848,6 +848,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`65754cb`](https://github.com/stdlib-js/stdlib/commit/65754cb6879fb53a5ce7c2f3f203dc492ded8ae1) - **docs:** remove unnecessary require statements [(#14856)](https://github.com/stdlib-js/stdlib/pull/14856) _(by Philipp Burckhardt)_
 -   [`bff35b7`](https://github.com/stdlib-js/stdlib/commit/bff35b7bf260e5c8d50916444b6f04a802fce677) - **feat:** add `blas/ext/base/ndarray/dcartesian-product` [(#14812)](https://github.com/stdlib-js/stdlib/pull/14812) _(by Muhammad Haris)_
 -   [`7bf51f6`](https://github.com/stdlib-js/stdlib/commit/7bf51f6a58ad4ec8f414ee9b9541547d0e25ceaa) - **feat:** add C implementation for `blas/ext/base/ndarray/dxpy` [(#14806)](https://github.com/stdlib-js/stdlib/pull/14806) _(by Arjan-P, Athan Reines)_
 -   [`272af96`](https://github.com/stdlib-js/stdlib/commit/272af9688c34fc8645d69436fa833e2531276d84) - **feat:** add `blas/ext/base/ndarray/ctriu2tril` [(#14805)](https://github.com/stdlib-js/stdlib/pull/14805) _(by Kaustubh Patange)_
