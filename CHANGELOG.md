@@ -848,6 +848,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`2e4be80`](https://github.com/stdlib-js/stdlib/commit/2e4be807185e1cc54fd96361f9432ad6f211ff92) - **refactor:** add support for enums in `blas/ext/base/*triu` [(#14838)](https://github.com/stdlib-js/stdlib/pull/14838) _(by Kaustubh Patange)_
 -   [`7f6bdb8`](https://github.com/stdlib-js/stdlib/commit/7f6bdb83e2293a2f8491934ce00b58045d4a6178) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`7fe0108`](https://github.com/stdlib-js/stdlib/commit/7fe0108030637ada481130ef97d785e239e7b0dc) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`9c211bd`](https://github.com/stdlib-js/stdlib/commit/9c211bd531d6be3b419452b92b780e493e46d700) - **test:** migrate `blas/base/drotm` to ULP-based assertions [(#14869)](https://github.com/stdlib-js/stdlib/pull/14869) _(by Philipp Burckhardt)_
