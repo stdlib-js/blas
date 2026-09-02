@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`01844d9`](https://github.com/stdlib-js/stdlib/commit/01844d9375d823bf646faab9ab0dea174e5e8f49) - add `blas/ext/base/ndarray/slast-index-equal` [(#14779)](https://github.com/stdlib-js/stdlib/pull/14779)
 -   [`bff35b7`](https://github.com/stdlib-js/stdlib/commit/bff35b7bf260e5c8d50916444b6f04a802fce677) - add `blas/ext/base/ndarray/dcartesian-product` [(#14812)](https://github.com/stdlib-js/stdlib/pull/14812)
 -   [`7bf51f6`](https://github.com/stdlib-js/stdlib/commit/7bf51f6a58ad4ec8f414ee9b9541547d0e25ceaa) - add C implementation for `blas/ext/base/ndarray/dxpy` [(#14806)](https://github.com/stdlib-js/stdlib/pull/14806)
 -   [`272af96`](https://github.com/stdlib-js/stdlib/commit/272af9688c34fc8645d69436fa833e2531276d84) - add `blas/ext/base/ndarray/ctriu2tril` [(#14805)](https://github.com/stdlib-js/stdlib/pull/14805)
@@ -848,6 +849,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`01844d9`](https://github.com/stdlib-js/stdlib/commit/01844d9375d823bf646faab9ab0dea174e5e8f49) - **feat:** add `blas/ext/base/ndarray/slast-index-equal` [(#14779)](https://github.com/stdlib-js/stdlib/pull/14779) _(by Muhammad Haris)_
 -   [`ac5a52a`](https://github.com/stdlib-js/stdlib/commit/ac5a52a07997fe35cf820241c5c9b824fecf7939) - **refactor:** add support for enums in `blas/ext/base/*tril` [(#14884)](https://github.com/stdlib-js/stdlib/pull/14884) _(by Kaustubh Patange)_
 -   [`18e0edd`](https://github.com/stdlib-js/stdlib/commit/18e0edd676ba23dbdfa29c91cb9b660a052885c8) - **refactor:** add support for enums in `blas/ext/base/*triu2tril` [(#14886)](https://github.com/stdlib-js/stdlib/pull/14886) _(by Kaustubh Patange)_
 -   [`b76a577`](https://github.com/stdlib-js/stdlib/commit/b76a577c1892508e2962c9ae8c6250fb7957cf4d) - **refactor:** add support for enums in `blas/ext/base/*tril2triu` [(#14887)](https://github.com/stdlib-js/stdlib/pull/14887) _(by Kaustubh Patange)_
