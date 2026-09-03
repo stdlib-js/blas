@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-02)
+## Unreleased (2026-09-03)
 
 <section class="features">
 
@@ -849,6 +849,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`68ac3f1`](https://github.com/stdlib-js/stdlib/commit/68ac3f11fe5438d85cc2fcf76a0c7078c5d35218) - **test:** migrate `blas/base/dzasum` to ULP-based assertions [(#14893)](https://github.com/stdlib-js/stdlib/pull/14893) _(by Athan Reines)_
 -   [`01844d9`](https://github.com/stdlib-js/stdlib/commit/01844d9375d823bf646faab9ab0dea174e5e8f49) - **feat:** add `blas/ext/base/ndarray/slast-index-equal` [(#14779)](https://github.com/stdlib-js/stdlib/pull/14779) _(by Muhammad Haris)_
 -   [`ac5a52a`](https://github.com/stdlib-js/stdlib/commit/ac5a52a07997fe35cf820241c5c9b824fecf7939) - **refactor:** add support for enums in `blas/ext/base/*tril` [(#14884)](https://github.com/stdlib-js/stdlib/pull/14884) _(by Kaustubh Patange)_
 -   [`18e0edd`](https://github.com/stdlib-js/stdlib/commit/18e0edd676ba23dbdfa29c91cb9b660a052885c8) - **refactor:** add support for enums in `blas/ext/base/*triu2tril` [(#14886)](https://github.com/stdlib-js/stdlib/pull/14886) _(by Kaustubh Patange)_
