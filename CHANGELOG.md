@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0e78030`](https://github.com/stdlib-js/stdlib/commit/0e78030e04650eea5849c65f07c29b6dfce4c3e4) - add `blas/ext/base/gfirst-index-almost-same-value` [(#14416)](https://github.com/stdlib-js/stdlib/pull/14416)
 -   [`a8f5462`](https://github.com/stdlib-js/stdlib/commit/a8f54621b3a2c56d0fcd7c2bf95cf3619c078565) - add `blas/ext/base/ndarray/gsome` [(#14568)](https://github.com/stdlib-js/stdlib/pull/14568)
 -   [`efc61d6`](https://github.com/stdlib-js/stdlib/commit/efc61d6f76ebdd5e161b116dd04093b03139536f) - add `blas/ext/base/ndarray/dsome` [(#14569)](https://github.com/stdlib-js/stdlib/pull/14569)
 -   [`8878be9`](https://github.com/stdlib-js/stdlib/commit/8878be91553fd0336acd652054ac6479b90a746e) - add `blas/ext/base/ndarray/ssome` [(#14570)](https://github.com/stdlib-js/stdlib/pull/14570)
@@ -856,6 +857,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0e78030`](https://github.com/stdlib-js/stdlib/commit/0e78030e04650eea5849c65f07c29b6dfce4c3e4) - **feat:** add `blas/ext/base/gfirst-index-almost-same-value` [(#14416)](https://github.com/stdlib-js/stdlib/pull/14416) _(by Muhammad Haris, Athan Reines)_
 -   [`39365ed`](https://github.com/stdlib-js/stdlib/commit/39365ed17115198fef09f58dc906f9ddc67dca21) - **docs:** update copy _(by Athan Reines)_
 -   [`a8f5462`](https://github.com/stdlib-js/stdlib/commit/a8f54621b3a2c56d0fcd7c2bf95cf3619c078565) - **feat:** add `blas/ext/base/ndarray/gsome` [(#14568)](https://github.com/stdlib-js/stdlib/pull/14568) _(by Muhammad Haris)_
 -   [`efc61d6`](https://github.com/stdlib-js/stdlib/commit/efc61d6f76ebdd5e161b116dd04093b03139536f) - **feat:** add `blas/ext/base/ndarray/dsome` [(#14569)](https://github.com/stdlib-js/stdlib/pull/14569) _(by Muhammad Haris)_
