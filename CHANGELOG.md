@@ -860,6 +860,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`5240247`](https://github.com/stdlib-js/stdlib/commit/5240247eb73c0f910227012d3a4713a73cdd4dd4) - **refactor:** add support for enums in `blas/ext/base/*vander` [(#15006)](https://github.com/stdlib-js/stdlib/pull/15006) _(by Kaustubh Patange)_
 -   [`0cb7d1b`](https://github.com/stdlib-js/stdlib/commit/0cb7d1b1f66305c90c3e789adf84717d2c06c514) - **feat:** add `blas/ext/base/ndarray/gindex-of-less-than` [(#14973)](https://github.com/stdlib-js/stdlib/pull/14973) _(by Muhammad Haris, Athan Reines)_
 -   [`37167c3`](https://github.com/stdlib-js/stdlib/commit/37167c3d2081f9fc94ad0bd3b464c81ca354d051) - **feat:** add `blas/ext/base/gfirst-index-less-than-equal` [(#14381)](https://github.com/stdlib-js/stdlib/pull/14381) _(by Muhammad Haris, Athan Reines)_
 -   [`a111cd8`](https://github.com/stdlib-js/stdlib/commit/a111cd8afe870dc61756861b0a61b39c464ee260) - **feat:** add `blas/ext/base/gfirst-index-greater-than-equal` [(#14378)](https://github.com/stdlib-js/stdlib/pull/14378) _(by Muhammad Haris)_
