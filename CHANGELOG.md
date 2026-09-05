@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`efc61d6`](https://github.com/stdlib-js/stdlib/commit/efc61d6f76ebdd5e161b116dd04093b03139536f) - add `blas/ext/base/ndarray/dsome` [(#14569)](https://github.com/stdlib-js/stdlib/pull/14569)
 -   [`8878be9`](https://github.com/stdlib-js/stdlib/commit/8878be91553fd0336acd652054ac6479b90a746e) - add `blas/ext/base/ndarray/ssome` [(#14570)](https://github.com/stdlib-js/stdlib/pull/14570)
 -   [`0324450`](https://github.com/stdlib-js/stdlib/commit/032445029375de0cbaabc64297541b84c6c29fdc) - add `blas/ext/base/cwxpy` [(#13793)](https://github.com/stdlib-js/stdlib/pull/13793)
 -   [`b60571b`](https://github.com/stdlib-js/stdlib/commit/b60571be7a9236c81f6891361c7ef957026c5321) - add `blas/ext/base/gleft-pad-circular` [(#14610)](https://github.com/stdlib-js/stdlib/pull/14610)
@@ -854,6 +855,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`efc61d6`](https://github.com/stdlib-js/stdlib/commit/efc61d6f76ebdd5e161b116dd04093b03139536f) - **feat:** add `blas/ext/base/ndarray/dsome` [(#14569)](https://github.com/stdlib-js/stdlib/pull/14569) _(by Muhammad Haris)_
 -   [`8878be9`](https://github.com/stdlib-js/stdlib/commit/8878be91553fd0336acd652054ac6479b90a746e) - **feat:** add `blas/ext/base/ndarray/ssome` [(#14570)](https://github.com/stdlib-js/stdlib/pull/14570) _(by Muhammad Haris)_
 -   [`0324450`](https://github.com/stdlib-js/stdlib/commit/032445029375de0cbaabc64297541b84c6c29fdc) - **feat:** add `blas/ext/base/cwxpy` [(#13793)](https://github.com/stdlib-js/stdlib/pull/13793) _(by Karan Anand)_
 -   [`b60571b`](https://github.com/stdlib-js/stdlib/commit/b60571be7a9236c81f6891361c7ef957026c5321) - **feat:** add `blas/ext/base/gleft-pad-circular` [(#14610)](https://github.com/stdlib-js/stdlib/pull/14610) _(by Muhammad Haris, Athan Reines)_
