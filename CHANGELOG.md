@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-04)
+## Unreleased (2026-09-05)
 
 <section class="features">
 
 ### Features
 
+-   [`0324450`](https://github.com/stdlib-js/stdlib/commit/032445029375de0cbaabc64297541b84c6c29fdc) - add `blas/ext/base/cwxpy` [(#13793)](https://github.com/stdlib-js/stdlib/pull/13793)
 -   [`b60571b`](https://github.com/stdlib-js/stdlib/commit/b60571be7a9236c81f6891361c7ef957026c5321) - add `blas/ext/base/gleft-pad-circular` [(#14610)](https://github.com/stdlib-js/stdlib/pull/14610)
 -   [`9054854`](https://github.com/stdlib-js/stdlib/commit/90548541b0932211bc83c963841d77ab4f51d547) - add `blas/ext/base/ndarray/gindex-of-less-than-equal` [(#14967)](https://github.com/stdlib-js/stdlib/pull/14967)
 -   [`d656eba`](https://github.com/stdlib-js/stdlib/commit/d656ebac8037b6964e4d12831d97606e242c230e) - add `blas/ext/index-of-falsy` [(#14715)](https://github.com/stdlib-js/stdlib/pull/14715)
@@ -852,6 +853,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0324450`](https://github.com/stdlib-js/stdlib/commit/032445029375de0cbaabc64297541b84c6c29fdc) - **feat:** add `blas/ext/base/cwxpy` [(#13793)](https://github.com/stdlib-js/stdlib/pull/13793) _(by Karan Anand)_
 -   [`b60571b`](https://github.com/stdlib-js/stdlib/commit/b60571be7a9236c81f6891361c7ef957026c5321) - **feat:** add `blas/ext/base/gleft-pad-circular` [(#14610)](https://github.com/stdlib-js/stdlib/pull/14610) _(by Muhammad Haris, Athan Reines)_
 -   [`9054854`](https://github.com/stdlib-js/stdlib/commit/90548541b0932211bc83c963841d77ab4f51d547) - **feat:** add `blas/ext/base/ndarray/gindex-of-less-than-equal` [(#14967)](https://github.com/stdlib-js/stdlib/pull/14967) _(by Muhammad Haris)_
 -   [`d656eba`](https://github.com/stdlib-js/stdlib/commit/d656ebac8037b6964e4d12831d97606e242c230e) - **feat:** add `blas/ext/index-of-falsy` [(#14715)](https://github.com/stdlib-js/stdlib/pull/14715) _(by Muhammad Haris, Athan Reines)_
