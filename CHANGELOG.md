@@ -10,6 +10,11 @@
 
 ### Features
 
+-   [`7026efc`](https://github.com/stdlib-js/stdlib/commit/7026efcefe4974ee94b9d1b9bab6a90110b481a0) - add various symbols to namespace
+-   [`121eef0`](https://github.com/stdlib-js/stdlib/commit/121eef098e73bf381c57ab3c2a75e3cdc5b5972a) - add `dsome` to namespace
+-   [`ea1b943`](https://github.com/stdlib-js/stdlib/commit/ea1b9436a03abcd84197f7f41fe2cccdbbfce2e2) - add `gfirstIndexLessThanEqual` to namespace
+-   [`17beaeb`](https://github.com/stdlib-js/stdlib/commit/17beaeb4e533ad0cc25bceaf642f0c14c1f215d5) - add various symbols to namespace
+-   [`8c94cae`](https://github.com/stdlib-js/stdlib/commit/8c94cae144c9899eb274b67fbf31469153726cbf) - add `clinspace` to namespace
 -   [`afbb5e1`](https://github.com/stdlib-js/stdlib/commit/afbb5e1c4d334ab7afe857aff8e4225a6eadac6b) - add `blas/ext/base/clinspace` [(#14778)](https://github.com/stdlib-js/stdlib/pull/14778)
 -   [`7a5c4c2`](https://github.com/stdlib-js/stdlib/commit/7a5c4c2086ac2cdf23f1c871d37febc5dfddc5c0) - add `blas/ext/base/gleft-pad-edge` [(#15000)](https://github.com/stdlib-js/stdlib/pull/15000)
 -   [`d216485`](https://github.com/stdlib-js/stdlib/commit/d216485ebccd1abff3ed54981ddb356111cbf2ca) - add `blas/ext/base/gright-pad-circular` [(#14997)](https://github.com/stdlib-js/stdlib/pull/14997)
@@ -865,6 +870,11 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7026efc`](https://github.com/stdlib-js/stdlib/commit/7026efcefe4974ee94b9d1b9bab6a90110b481a0) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`121eef0`](https://github.com/stdlib-js/stdlib/commit/121eef098e73bf381c57ab3c2a75e3cdc5b5972a) - **feat:** add `dsome` to namespace _(by Athan Reines)_
+-   [`ea1b943`](https://github.com/stdlib-js/stdlib/commit/ea1b9436a03abcd84197f7f41fe2cccdbbfce2e2) - **feat:** add `gfirstIndexLessThanEqual` to namespace _(by Athan Reines)_
+-   [`17beaeb`](https://github.com/stdlib-js/stdlib/commit/17beaeb4e533ad0cc25bceaf642f0c14c1f215d5) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`8c94cae`](https://github.com/stdlib-js/stdlib/commit/8c94cae144c9899eb274b67fbf31469153726cbf) - **feat:** add `clinspace` to namespace _(by Athan Reines)_
 -   [`f29d4c7`](https://github.com/stdlib-js/stdlib/commit/f29d4c7fc763d72e3f159dfe95b84dcfa9977fcb) - **fix:** ensure consistent behavior between JavaScript and C _(by Athan Reines)_
 -   [`2306e85`](https://github.com/stdlib-js/stdlib/commit/2306e85569f99d02011f49d1a3fa50ff2d87dec5) - **fix:** ensure consistent behavior between JavaScript and C _(by Athan Reines)_
 -   [`afbb5e1`](https://github.com/stdlib-js/stdlib/commit/afbb5e1c4d334ab7afe857aff8e4225a6eadac6b) - **feat:** add `blas/ext/base/clinspace` [(#14778)](https://github.com/stdlib-js/stdlib/pull/14778) _(by Muhammad Haris)_

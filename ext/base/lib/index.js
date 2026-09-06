@@ -156,6 +156,15 @@ setReadOnly( ns, 'cindexOfTruthy', require( './../../../ext/base/cindex-of-truth
 setReadOnly( ns, 'clastIndexOfRow', require( './../../../ext/base/clast-index-of-row' ) );
 
 /**
+* @name clinspace
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/clinspace}
+*/
+setReadOnly( ns, 'clinspace', require( './../../../ext/base/clinspace' ) );
+
+/**
 * @name clogspace
 * @memberof ns
 * @readonly
@@ -219,6 +228,15 @@ setReadOnly( ns, 'ctril', require( './../../../ext/base/ctril' ) );
 setReadOnly( ns, 'ctriu', require( './../../../ext/base/ctriu' ) );
 
 /**
+* @name ctriu2tril
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ctriu2tril}
+*/
+setReadOnly( ns, 'ctriu2tril', require( './../../../ext/base/ctriu2tril' ) );
+
+/**
 * @name cunitspace
 * @memberof ns
 * @readonly
@@ -253,6 +271,15 @@ setReadOnly( ns, 'cwax', require( './../../../ext/base/cwax' ) );
 * @see {@link module:@stdlib/blas/ext/base/cwhere}
 */
 setReadOnly( ns, 'cwhere', require( './../../../ext/base/cwhere' ) );
+
+/**
+* @name cwxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/cwxpy}
+*/
+setReadOnly( ns, 'cwxpy', require( './../../../ext/base/cwxpy' ) );
 
 /**
 * @name cwxsa
@@ -1704,6 +1731,15 @@ setReadOnly( ns, 'gfindIndex', require( './../../../ext/base/gfind-index' ) );
 setReadOnly( ns, 'gfindLastIndex', require( './../../../ext/base/gfind-last-index' ) );
 
 /**
+* @name gfirstIndexAlmostSameValue
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfirst-index-almost-same-value}
+*/
+setReadOnly( ns, 'gfirstIndexAlmostSameValue', require( './../../../ext/base/gfirst-index-almost-same-value' ) );
+
+/**
 * @name gfirstIndexEqual
 * @memberof ns
 * @readonly
@@ -1722,6 +1758,15 @@ setReadOnly( ns, 'gfirstIndexEqual', require( './../../../ext/base/gfirst-index-
 setReadOnly( ns, 'gfirstIndexGreaterThan', require( './../../../ext/base/gfirst-index-greater-than' ) );
 
 /**
+* @name gfirstIndexGreaterThanEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfirst-index-greater-than-equal}
+*/
+setReadOnly( ns, 'gfirstIndexGreaterThanEqual', require( './../../../ext/base/gfirst-index-greater-than-equal' ) );
+
+/**
 * @name gfirstIndexLessThan
 * @memberof ns
 * @readonly
@@ -1729,6 +1774,15 @@ setReadOnly( ns, 'gfirstIndexGreaterThan', require( './../../../ext/base/gfirst-
 * @see {@link module:@stdlib/blas/ext/base/gfirst-index-less-than}
 */
 setReadOnly( ns, 'gfirstIndexLessThan', require( './../../../ext/base/gfirst-index-less-than' ) );
+
+/**
+* @name gfirstIndexLessThanEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gfirst-index-less-than-equal}
+*/
+setReadOnly( ns, 'gfirstIndexLessThanEqual', require( './../../../ext/base/gfirst-index-less-than-equal' ) );
 
 /**
 * @name gfirstIndexNotEqual
@@ -1785,6 +1839,15 @@ setReadOnly( ns, 'gindexOfFalsy', require( './../../../ext/base/gindex-of-falsy'
 setReadOnly( ns, 'gindexOfFalsyRow', require( './../../../ext/base/gindex-of-falsy-row' ) );
 
 /**
+* @name gindexOfGreaterThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-greater-than}
+*/
+setReadOnly( ns, 'gindexOfGreaterThan', require( './../../../ext/base/gindex-of-greater-than' ) );
+
+/**
 * @name gindexOfGreaterThanEqual
 * @memberof ns
 * @readonly
@@ -1801,6 +1864,15 @@ setReadOnly( ns, 'gindexOfGreaterThanEqual', require( './../../../ext/base/ginde
 * @see {@link module:@stdlib/blas/ext/base/gindex-of-less-than}
 */
 setReadOnly( ns, 'gindexOfLessThan', require( './../../../ext/base/gindex-of-less-than' ) );
+
+/**
+* @name gindexOfLessThanEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-less-than-equal}
+*/
+setReadOnly( ns, 'gindexOfLessThanEqual', require( './../../../ext/base/gindex-of-less-than-equal' ) );
 
 /**
 * @name gindexOfNotEqual
@@ -1875,6 +1947,15 @@ setReadOnly( ns, 'gjoinBetween', require( './../../../ext/base/gjoin-between' ) 
 setReadOnly( ns, 'glastIndexEqual', require( './../../../ext/base/glast-index-equal' ) );
 
 /**
+* @name glastIndexLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/glast-index-less-than}
+*/
+setReadOnly( ns, 'glastIndexLessThan', require( './../../../ext/base/glast-index-less-than' ) );
+
+/**
 * @name glastIndexOf
 * @memberof ns
 * @readonly
@@ -1909,6 +1990,24 @@ setReadOnly( ns, 'glastIndexOfRow', require( './../../../ext/base/glast-index-of
 * @see {@link module:@stdlib/blas/ext/base/glast-index-of-truthy}
 */
 setReadOnly( ns, 'glastIndexOfTruthy', require( './../../../ext/base/glast-index-of-truthy' ) );
+
+/**
+* @name gleftPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gleft-pad-circular}
+*/
+setReadOnly( ns, 'gleftPadCircular', require( './../../../ext/base/gleft-pad-circular' ) );
+
+/**
+* @name gleftPadEdge
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gleft-pad-edge}
+*/
+setReadOnly( ns, 'gleftPadEdge', require( './../../../ext/base/gleft-pad-edge' ) );
 
 /**
 * @name glinspace
@@ -2062,6 +2161,15 @@ setReadOnly( ns, 'greplicate', require( './../../../ext/base/greplicate' ) );
 * @see {@link module:@stdlib/blas/ext/base/grev}
 */
 setReadOnly( ns, 'grev', require( './../../../ext/base/grev' ) );
+
+/**
+* @name grightPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gright-pad-circular}
+*/
+setReadOnly( ns, 'grightPadCircular', require( './../../../ext/base/gright-pad-circular' ) );
 
 /**
 * @name gsome
@@ -2784,6 +2892,15 @@ setReadOnly( ns, 'sindexOfRow', require( './../../../ext/base/sindex-of-row' ) )
 setReadOnly( ns, 'sindexOfTruthy', require( './../../../ext/base/sindex-of-truthy' ) );
 
 /**
+* @name slastIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/slast-index-equal}
+*/
+setReadOnly( ns, 'slastIndexEqual', require( './../../../ext/base/slast-index-equal' ) );
+
+/**
 * @name slastIndexOf
 * @memberof ns
 * @readonly
@@ -3079,6 +3196,15 @@ setReadOnly( ns, 'ssumpw', require( './../../../ext/base/ssumpw' ) );
 * @see {@link module:@stdlib/blas/ext/base/stril}
 */
 setReadOnly( ns, 'stril', require( './../../../ext/base/stril' ) );
+
+/**
+* @name stril2triu
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/stril2triu}
+*/
+setReadOnly( ns, 'stril2triu', require( './../../../ext/base/stril2triu' ) );
 
 /**
 * @name striu
