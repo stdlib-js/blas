@@ -626,6 +626,8 @@
 
 ### Bug Fixes
 
+-   [`f29d4c7`](https://github.com/stdlib-js/stdlib/commit/f29d4c7fc763d72e3f159dfe95b84dcfa9977fcb) - ensure consistent behavior between JavaScript and C
+-   [`2306e85`](https://github.com/stdlib-js/stdlib/commit/2306e85569f99d02011f49d1a3fa50ff2d87dec5) - ensure consistent behavior between JavaScript and C
 -   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
 -   [`92b5eb4`](https://github.com/stdlib-js/stdlib/commit/92b5eb479a9ba6d3fe4f722d2f1b47e61a03122c) - use correct argument during error message interpolation and update descriptions [(#13105)](https://github.com/stdlib-js/stdlib/pull/13105)
 -   [`e6cc42b`](https://github.com/stdlib-js/stdlib/commit/e6cc42bab0268753252236d0e7511c97443754cc) - correct typo in enum name and fix C examples [(#13088)](https://github.com/stdlib-js/stdlib/pull/13088)
@@ -863,6 +865,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f29d4c7`](https://github.com/stdlib-js/stdlib/commit/f29d4c7fc763d72e3f159dfe95b84dcfa9977fcb) - **fix:** ensure consistent behavior between JavaScript and C _(by Athan Reines)_
+-   [`2306e85`](https://github.com/stdlib-js/stdlib/commit/2306e85569f99d02011f49d1a3fa50ff2d87dec5) - **fix:** ensure consistent behavior between JavaScript and C _(by Athan Reines)_
 -   [`afbb5e1`](https://github.com/stdlib-js/stdlib/commit/afbb5e1c4d334ab7afe857aff8e4225a6eadac6b) - **feat:** add `blas/ext/base/clinspace` [(#14778)](https://github.com/stdlib-js/stdlib/pull/14778) _(by Muhammad Haris)_
 -   [`497e0b1`](https://github.com/stdlib-js/stdlib/commit/497e0b167327db3e170e7cdeda73549202fc9fe0) - **test:** migrate `blas/base/drot` to ULP-based assertions [(#15025)](https://github.com/stdlib-js/stdlib/pull/15025) _(by Athan Reines)_
 -   [`7a5c4c2`](https://github.com/stdlib-js/stdlib/commit/7a5c4c2086ac2cdf23f1c871d37febc5dfddc5c0) - **feat:** add `blas/ext/base/gleft-pad-edge` [(#15000)](https://github.com/stdlib-js/stdlib/pull/15000) _(by Muhammad Haris)_

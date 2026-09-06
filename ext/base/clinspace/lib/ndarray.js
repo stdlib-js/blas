@@ -23,6 +23,7 @@
 var reinterpret = require( '@stdlib/strided/base/reinterpret-complex64' );
 var realf = require( '@stdlib/complex/float32/real' );
 var imagf = require( '@stdlib/complex/float32/imag' );
+var f32 = require( '@stdlib/number/float64/base/to-float32' );
 
 
 // MAIN //
@@ -73,6 +74,7 @@ function clinspace( N, start, stop, endpoint, x, strideX, offsetX ) {
 	var dim;
 	var sx;
 	var ix;
+	var M;
 	var i;
 
 	if ( N <= 0 ) {
@@ -111,13 +113,14 @@ function clinspace( N, start, stop, endpoint, x, strideX, offsetX ) {
 	if ( endpoint ) {
 		N -= 1;
 	}
-	dre = ( stopRe - startRe ) / N;
-	dim = ( stopIm - startIm ) / N;
+	M = f32( N );
+	dre = f32( f32( stopRe - startRe ) / M );
+	dim = f32( f32( stopIm - startIm ) / M );
 
 	// Generate linearly spaced values:
 	for ( i = 1; i < N; i++ ) {
-		view[ ix ] = startRe + ( dre * i );
-		view[ ix+1 ] = startIm + ( dim * i );
+		view[ ix ] = f32( startRe + f32( dre * i ) );
+		view[ ix+1 ] = f32( startIm + f32( dim * i ) );
 		ix += sx;
 	}
 	// Check whether to include the `stop` value:
