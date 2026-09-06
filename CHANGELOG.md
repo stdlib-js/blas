@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-05)
+## Unreleased (2026-09-06)
 
 <section class="features">
 
 ### Features
 
+-   [`7a5c4c2`](https://github.com/stdlib-js/stdlib/commit/7a5c4c2086ac2cdf23f1c871d37febc5dfddc5c0) - add `blas/ext/base/gleft-pad-edge` [(#15000)](https://github.com/stdlib-js/stdlib/pull/15000)
 -   [`d216485`](https://github.com/stdlib-js/stdlib/commit/d216485ebccd1abff3ed54981ddb356111cbf2ca) - add `blas/ext/base/gright-pad-circular` [(#14997)](https://github.com/stdlib-js/stdlib/pull/14997)
 -   [`0cb7d1b`](https://github.com/stdlib-js/stdlib/commit/0cb7d1b1f66305c90c3e789adf84717d2c06c514) - add `blas/ext/base/ndarray/gindex-of-less-than` [(#14973)](https://github.com/stdlib-js/stdlib/pull/14973)
 -   [`37167c3`](https://github.com/stdlib-js/stdlib/commit/37167c3d2081f9fc94ad0bd3b464c81ca354d051) - add `blas/ext/base/gfirst-index-less-than-equal` [(#14381)](https://github.com/stdlib-js/stdlib/pull/14381)
@@ -861,6 +862,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7a5c4c2`](https://github.com/stdlib-js/stdlib/commit/7a5c4c2086ac2cdf23f1c871d37febc5dfddc5c0) - **feat:** add `blas/ext/base/gleft-pad-edge` [(#15000)](https://github.com/stdlib-js/stdlib/pull/15000) _(by Muhammad Haris)_
 -   [`d216485`](https://github.com/stdlib-js/stdlib/commit/d216485ebccd1abff3ed54981ddb356111cbf2ca) - **feat:** add `blas/ext/base/gright-pad-circular` [(#14997)](https://github.com/stdlib-js/stdlib/pull/14997) _(by Muhammad Haris)_
 -   [`df8376c`](https://github.com/stdlib-js/stdlib/commit/df8376ca2bafd463c2b7f5189d1af8efd3a3c290) - **test:** migrate `blas/base/srotm` to ULP-based assertions [(#15018)](https://github.com/stdlib-js/stdlib/pull/15018) _(by Philipp Burckhardt, Athan Reines)_
 -   [`5240247`](https://github.com/stdlib-js/stdlib/commit/5240247eb73c0f910227012d3a4713a73cdd4dd4) - **refactor:** add support for enums in `blas/ext/base/*vander` [(#15006)](https://github.com/stdlib-js/stdlib/pull/15006) _(by Kaustubh Patange)_
