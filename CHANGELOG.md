@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`afbb5e1`](https://github.com/stdlib-js/stdlib/commit/afbb5e1c4d334ab7afe857aff8e4225a6eadac6b) - add `blas/ext/base/clinspace` [(#14778)](https://github.com/stdlib-js/stdlib/pull/14778)
 -   [`7a5c4c2`](https://github.com/stdlib-js/stdlib/commit/7a5c4c2086ac2cdf23f1c871d37febc5dfddc5c0) - add `blas/ext/base/gleft-pad-edge` [(#15000)](https://github.com/stdlib-js/stdlib/pull/15000)
 -   [`d216485`](https://github.com/stdlib-js/stdlib/commit/d216485ebccd1abff3ed54981ddb356111cbf2ca) - add `blas/ext/base/gright-pad-circular` [(#14997)](https://github.com/stdlib-js/stdlib/pull/14997)
 -   [`0cb7d1b`](https://github.com/stdlib-js/stdlib/commit/0cb7d1b1f66305c90c3e789adf84717d2c06c514) - add `blas/ext/base/ndarray/gindex-of-less-than` [(#14973)](https://github.com/stdlib-js/stdlib/pull/14973)
@@ -862,6 +863,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`afbb5e1`](https://github.com/stdlib-js/stdlib/commit/afbb5e1c4d334ab7afe857aff8e4225a6eadac6b) - **feat:** add `blas/ext/base/clinspace` [(#14778)](https://github.com/stdlib-js/stdlib/pull/14778) _(by Muhammad Haris)_
 -   [`497e0b1`](https://github.com/stdlib-js/stdlib/commit/497e0b167327db3e170e7cdeda73549202fc9fe0) - **test:** migrate `blas/base/drot` to ULP-based assertions [(#15025)](https://github.com/stdlib-js/stdlib/pull/15025) _(by Athan Reines)_
 -   [`7a5c4c2`](https://github.com/stdlib-js/stdlib/commit/7a5c4c2086ac2cdf23f1c871d37febc5dfddc5c0) - **feat:** add `blas/ext/base/gleft-pad-edge` [(#15000)](https://github.com/stdlib-js/stdlib/pull/15000) _(by Muhammad Haris)_
 -   [`d216485`](https://github.com/stdlib-js/stdlib/commit/d216485ebccd1abff3ed54981ddb356111cbf2ca) - **feat:** add `blas/ext/base/gright-pad-circular` [(#14997)](https://github.com/stdlib-js/stdlib/pull/14997) _(by Muhammad Haris)_
