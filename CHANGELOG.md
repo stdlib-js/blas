@@ -862,6 +862,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`497e0b1`](https://github.com/stdlib-js/stdlib/commit/497e0b167327db3e170e7cdeda73549202fc9fe0) - **test:** migrate `blas/base/drot` to ULP-based assertions [(#15025)](https://github.com/stdlib-js/stdlib/pull/15025) _(by Athan Reines)_
 -   [`7a5c4c2`](https://github.com/stdlib-js/stdlib/commit/7a5c4c2086ac2cdf23f1c871d37febc5dfddc5c0) - **feat:** add `blas/ext/base/gleft-pad-edge` [(#15000)](https://github.com/stdlib-js/stdlib/pull/15000) _(by Muhammad Haris)_
 -   [`d216485`](https://github.com/stdlib-js/stdlib/commit/d216485ebccd1abff3ed54981ddb356111cbf2ca) - **feat:** add `blas/ext/base/gright-pad-circular` [(#14997)](https://github.com/stdlib-js/stdlib/pull/14997) _(by Muhammad Haris)_
 -   [`df8376c`](https://github.com/stdlib-js/stdlib/commit/df8376ca2bafd463c2b7f5189d1af8efd3a3c290) - **test:** migrate `blas/base/srotm` to ULP-based assertions [(#15018)](https://github.com/stdlib-js/stdlib/pull/15018) _(by Philipp Burckhardt, Athan Reines)_
