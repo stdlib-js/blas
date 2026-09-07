@@ -872,6 +872,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ec0181c`](https://github.com/stdlib-js/stdlib/commit/ec0181ce323812790e19912d923e7ed910ad4c92) - **refactor:** add support for enums in `blas/ext/base/*cartesian-power` [(#15063)](https://github.com/stdlib-js/stdlib/pull/15063) _(by Kaustubh Patange)_
 -   [`0a6cf42`](https://github.com/stdlib-js/stdlib/commit/0a6cf429f5f194e0e25a5dd7dac6947ec9a1754a) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15059)](https://github.com/stdlib-js/stdlib/pull/15059) _(by stdlib-bot)_
 -   [`67e5b92`](https://github.com/stdlib-js/stdlib/commit/67e5b92b24a18d97f14b840c94de528cc7c3890c) - **feat:** update `blas/ext/base` TypeScript declarations [(#15060)](https://github.com/stdlib-js/stdlib/pull/15060) _(by stdlib-bot)_
 -   [`6bd67ec`](https://github.com/stdlib-js/stdlib/commit/6bd67ecb725e97474abef1d0c79f753655e71a67) - **docs:** update namespace table of contents [(#15061)](https://github.com/stdlib-js/stdlib/pull/15061) _(by stdlib-bot)_
