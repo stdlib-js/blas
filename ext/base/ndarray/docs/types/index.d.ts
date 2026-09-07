@@ -34,6 +34,7 @@ import csum = require( './../../../../../ext/base/ndarray/csum' );
 import csumkbn = require( './../../../../../ext/base/ndarray/csumkbn' );
 import ctril = require( './../../../../../ext/base/ndarray/ctril' );
 import ctriu = require( './../../../../../ext/base/ndarray/ctriu' );
+import ctriu2tril = require( './../../../../../ext/base/ndarray/ctriu2tril' );
 import cunitspace = require( './../../../../../ext/base/ndarray/cunitspace' );
 import cwxsa = require( './../../../../../ext/base/ndarray/cwxsa' );
 import cxmy = require( './../../../../../ext/base/ndarray/cxmy' );
@@ -44,6 +45,8 @@ import czeroTo = require( './../../../../../ext/base/ndarray/czero-to' );
 import dany = require( './../../../../../ext/base/ndarray/dany' );
 import daxpb = require( './../../../../../ext/base/ndarray/daxpb' );
 import daxpby = require( './../../../../../ext/base/ndarray/daxpby' );
+import dcartesianPower = require( './../../../../../ext/base/ndarray/dcartesian-power' );
+import dcartesianProduct = require( './../../../../../ext/base/ndarray/dcartesian-product' );
 import dcircshift = require( './../../../../../ext/base/ndarray/dcircshift' );
 import dcopyWithin = require( './../../../../../ext/base/ndarray/dcopy-within' );
 import dcuany = require( './../../../../../ext/base/ndarray/dcuany' );
@@ -78,6 +81,7 @@ import dnansumors = require( './../../../../../ext/base/ndarray/dnansumors' );
 import dnansumpw = require( './../../../../../ext/base/ndarray/dnansumpw' );
 import dnone = require( './../../../../../ext/base/ndarray/dnone' );
 import doneTo = require( './../../../../../ext/base/ndarray/done-to' );
+import dsome = require( './../../../../../ext/base/ndarray/dsome' );
 import dsort = require( './../../../../../ext/base/ndarray/dsort' );
 import dsorthp = require( './../../../../../ext/base/ndarray/dsorthp' );
 import dsortins = require( './../../../../../ext/base/ndarray/dsortins' );
@@ -123,6 +127,8 @@ import gfirstIndexGreaterThan = require( './../../../../../ext/base/ndarray/gfir
 import gfirstIndexLessThan = require( './../../../../../ext/base/ndarray/gfirst-index-less-than' );
 import gindexOf = require( './../../../../../ext/base/ndarray/gindex-of' );
 import gindexOfFalsy = require( './../../../../../ext/base/ndarray/gindex-of-falsy' );
+import gindexOfLessThan = require( './../../../../../ext/base/ndarray/gindex-of-less-than' );
+import gindexOfLessThanEqual = require( './../../../../../ext/base/ndarray/gindex-of-less-than-equal' );
 import gindexOfNotEqual = require( './../../../../../ext/base/ndarray/gindex-of-not-equal' );
 import gindexOfTruthy = require( './../../../../../ext/base/ndarray/gindex-of-truthy' );
 import gjoin = require( './../../../../../ext/base/ndarray/gjoin' );
@@ -140,6 +146,7 @@ import gnansumors = require( './../../../../../ext/base/ndarray/gnansumors' );
 import gnansumpw = require( './../../../../../ext/base/ndarray/gnansumpw' );
 import gnone = require( './../../../../../ext/base/ndarray/gnone' );
 import goneTo = require( './../../../../../ext/base/ndarray/gone-to' );
+import gsome = require( './../../../../../ext/base/ndarray/gsome' );
 import gsort = require( './../../../../../ext/base/ndarray/gsort' );
 import gsorthp = require( './../../../../../ext/base/ndarray/gsorthp' );
 import gsum = require( './../../../../../ext/base/ndarray/gsum' );
@@ -182,6 +189,7 @@ import sindexOf = require( './../../../../../ext/base/ndarray/sindex-of' );
 import sindexOfFalsy = require( './../../../../../ext/base/ndarray/sindex-of-falsy' );
 import sindexOfNotEqual = require( './../../../../../ext/base/ndarray/sindex-of-not-equal' );
 import sindexOfTruthy = require( './../../../../../ext/base/ndarray/sindex-of-truthy' );
+import slastIndexEqual = require( './../../../../../ext/base/ndarray/slast-index-equal' );
 import slastIndexOf = require( './../../../../../ext/base/ndarray/slast-index-of' );
 import slastIndexOfFalsy = require( './../../../../../ext/base/ndarray/slast-index-of-falsy' );
 import slastIndexOfTruthy = require( './../../../../../ext/base/ndarray/slast-index-of-truthy' );
@@ -194,6 +202,7 @@ import snansumors = require( './../../../../../ext/base/ndarray/snansumors' );
 import snansumpw = require( './../../../../../ext/base/ndarray/snansumpw' );
 import snone = require( './../../../../../ext/base/ndarray/snone' );
 import soneTo = require( './../../../../../ext/base/ndarray/sone-to' );
+import ssome = require( './../../../../../ext/base/ndarray/ssome' );
 import ssort = require( './../../../../../ext/base/ndarray/ssort' );
 import ssorthp = require( './../../../../../ext/base/ndarray/ssorthp' );
 import ssum = require( './../../../../../ext/base/ndarray/ssum' );
@@ -202,6 +211,7 @@ import ssumkbn2 = require( './../../../../../ext/base/ndarray/ssumkbn2' );
 import ssumors = require( './../../../../../ext/base/ndarray/ssumors' );
 import ssumpw = require( './../../../../../ext/base/ndarray/ssumpw' );
 import stril = require( './../../../../../ext/base/ndarray/stril' );
+import stril2triu = require( './../../../../../ext/base/ndarray/stril2triu' );
 import striu = require( './../../../../../ext/base/ndarray/striu' );
 import striu2tril = require( './../../../../../ext/base/ndarray/striu2tril' );
 import sunitspace = require( './../../../../../ext/base/ndarray/sunitspace' );
@@ -699,6 +709,39 @@ interface Namespace {
 	ctriu: typeof ctriu;
 
 	/**
+	* Reflects the upper triangular part of a single-precision complex floating-point matrix `A` into the lower triangular part of another matrix `B`.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a two-dimensional input ndarray corresponding to `A`.
+	*     -   a two-dimensional output ndarray corresponding to `B`.
+	*     -   a zero-dimensional ndarray specifying the diagonal below which to ignore.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Complex64Matrix = require( '@stdlib/ndarray/matrix/complex64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var A = new Complex64Matrix( [ [ 1.0, 2.0, 3.0, 4.0 ], [ 5.0, 6.0, 7.0, 8.0 ] ] );
+	* var B = new Complex64Matrix( [ [ 0.0, 0.0, 0.0, 0.0 ], [ 0.0, 0.0, 0.0, 0.0 ] ] );
+	*
+	* var k = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.ctriu2tril( [ A, B, k ] );
+	* // returns <ndarray>[ [ <Complex64>[ 1.0, 2.0 ], <Complex64>[ 0.0, 0.0 ] ], [ <Complex64>[ 3.0, 4.0 ], <Complex64>[ 7.0, 8.0 ] ] ]
+	*
+	* var bool = ( out === B );
+	* // returns true
+	*/
+	ctriu2tril: typeof ctriu2tril;
+
+	/**
 	* Fills a one-dimensional single-precision complex floating-point ndarray with linearly spaced numeric elements which increment by `1` starting from a specified value.
 	*
 	* ## Notes
@@ -972,6 +1015,74 @@ interface Namespace {
 	* // returns <ndarray>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
 	*/
 	daxpby: typeof daxpby;
+
+	/**
+	* Computes the Cartesian power for a double-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a two-dimensional output ndarray.
+	*     -   a zero-dimensional ndarray specifying the power.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var zeros = require( '@stdlib/ndarray/zeros' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float64Vector( [ 1.0, 2.0 ] );
+	* var out = zeros( [ 4, 2 ], {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var k = scalar2ndarray( 2, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.dcartesianPower( [ x, out, k ] );
+	* // returns <ndarray>[ [ 1.0, 1.0 ], [ 1.0, 2.0 ], [ 2.0, 1.0 ], [ 2.0, 2.0 ] ]
+	*
+	* var bool = ( v === out );
+	* // returns true
+	*/
+	dcartesianPower: typeof dcartesianPower;
+
+	/**
+	* Computes the Cartesian product for two double-precision floating-point ndarrays.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a one-dimensional input ndarray.
+	*     -   a two-dimensional output ndarray.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var zeros = require( '@stdlib/ndarray/zeros' );
+	*
+	* var x = new Float64Vector( [ 1.0, 2.0 ] );
+	* var y = new Float64Vector( [ 3.0, 4.0 ] );
+	* var out = zeros( [ 4, 2 ], {
+	*     'dtype': 'float64'
+	* });
+	*
+	* var v = ns.dcartesianProduct( [ x, y, out ] );
+	* // returns <ndarray>[ [ 1.0, 3.0 ], [ 1.0, 4.0 ], [ 2.0, 3.0 ], [ 2.0, 4.0 ] ]
+	*
+	* var bool = ( v === out );
+	* // returns true
+	*/
+	dcartesianProduct: typeof dcartesianProduct;
 
 	/**
 	* Circularly shifts the elements of a one-dimensional double-precision floating-point ndarray by a specified number of positions.
@@ -2032,6 +2143,36 @@ interface Namespace {
 	* // returns <ndarray>[ 1.0, 2.0, 3.0, 4.0 ]
 	*/
 	doneTo: typeof doneTo;
+
+	/**
+	* Tests whether a one-dimensional double-precision floating-point ndarray contains at least `k` truthy elements.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray specifying the minimum number of truthy elements.
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns boolean indicating whether the input ndarray contains at least `k` truthy elements
+	*
+	* @example
+	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float64Vector( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var k = scalar2ndarray( 2, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.dsome( [ x, k ] );
+	* // returns true
+	*/
+	dsome: typeof dsome;
 
 	/**
 	* Sorts a one-dimensional double-precision floating-point ndarray.
@@ -3396,6 +3537,74 @@ interface Namespace {
 	gindexOfFalsy: typeof gindexOfFalsy;
 
 	/**
+	* Returns the first index of an element in a one-dimensional ndarray which is less than a specified search element.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the search element.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = vector( [ 1.0, 1.0, 0.0 ], 'generic' );
+	*
+	* var searchElement = scalar2ndarray( 1.0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.gindexOfLessThan( [ x, searchElement, fromIndex ] );
+	* // returns 2
+	*/
+	gindexOfLessThan: typeof gindexOfLessThan;
+
+	/**
+	* Returns the first index of an element in a one-dimensional ndarray which is less than or equal to a specified search element.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the search element.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
+	*
+	* -   When comparing elements, the function uses the less-than-or-equal operator `<=`. As a consequence, comparisons involving `NaN` always evaluate to `false`, and `-0` and `+0` are considered the same.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = vector( [ 3.0, 4.0, 1.0, 2.0 ], 'generic' );
+	*
+	* var searchElement = scalar2ndarray( 2.0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var fromIndex = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.gindexOfLessThanEqual( [ x, searchElement, fromIndex ] );
+	* // returns 2
+	*/
+	gindexOfLessThanEqual: typeof gindexOfLessThanEqual;
+
+	/**
 	* Returns the first index of an element in a one-dimensional ndarray which is not equal to a specified search element.
 	*
 	* ## Notes
@@ -3878,6 +4087,36 @@ interface Namespace {
 	* // returns <ndarray>[ 1.0, 2.0, 3.0, 4.0 ]
 	*/
 	goneTo: typeof goneTo;
+
+	/**
+	* Tests whether a one-dimensional ndarray contains at least `k` truthy elements.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray specifying the minimum number of truthy elements.
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns boolean indicating whether the input ndarray contains at least `k` truthy elements
+	*
+	* @example
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = vector( [ 0.0, 0.0, 1.0, 2.0 ], 'generic' );
+	*
+	* var k = scalar2ndarray( 2, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.gsome( [ x, k ] );
+	* // returns true
+	*/
+	gsome: typeof gsome;
 
 	/**
 	* Sorts a one-dimensional ndarray.
@@ -5142,6 +5381,38 @@ interface Namespace {
 	sindexOfTruthy: typeof sindexOfTruthy;
 
 	/**
+	* Returns the index of the last element in a one-dimensional single-precision floating-point ndarray equal to a corresponding element in another one-dimensional single-precision floating-point ndarray.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   first one-dimensional input ndarray.
+	*     -   second one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
+	*
+	* -   When comparing elements, the function checks for equality using the strict equality operator `===`. As a consequence, `NaN` values are considered distinct, and `-0` and `+0` are considered the same.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns index
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float32Vector( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var fromIndex = scalar2ndarray( 3, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var idx = ns.slastIndexEqual( [ x, y, fromIndex ] );
+	* // returns 2
+	*/
+	slastIndexEqual: typeof slastIndexEqual;
+
+	/**
 	* Returns the last index of a search element in a one-dimensional single-precision floating-point ndarray.
 	*
 	* ## Notes
@@ -5469,6 +5740,36 @@ interface Namespace {
 	soneTo: typeof soneTo;
 
 	/**
+	* Tests whether a one-dimensional single-precision floating-point ndarray contains at least `k` truthy elements.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray specifying the minimum number of truthy elements.
+	*
+	* -   The function explicitly treats `NaN` values as falsy.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns boolean indicating whether the input ndarray contains at least `k` truthy elements
+	*
+	* @example
+	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var x = new Float32Vector( [ 0.0, 0.0, 1.0, 2.0 ] );
+	*
+	* var k = scalar2ndarray( 2, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var v = ns.ssome( [ x, k ] );
+	* // returns true
+	*/
+	ssome: typeof ssome;
+
+	/**
 	* Sorts a one-dimensional single-precision floating-point ndarray.
 	*
 	* ## Notes
@@ -5673,6 +5974,39 @@ interface Namespace {
 	* // returns true
 	*/
 	stril: typeof stril;
+
+	/**
+	* Reflects the lower triangular part of a single-precision floating-point matrix `A` into the upper triangular part of another matrix `B`.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a two-dimensional input ndarray corresponding to `A`.
+	*     -   a two-dimensional output ndarray corresponding to `B`.
+	*     -   a zero-dimensional ndarray specifying the diagonal above which to ignore.
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns output ndarray
+	*
+	* @example
+	* var Float32Matrix = require( '@stdlib/ndarray/matrix/float32' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	*
+	* var A = new Float32Matrix( [ [ 1.0, 2.0 ], [ 3.0, 4.0 ] ] );
+	* var B = new Float32Matrix( [ [ 0.0, 0.0 ], [ 0.0, 0.0 ] ] );
+	*
+	* var k = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.stril2triu( [ A, B, k ] );
+	* // returns <ndarray>[ [ 1.0, 3.0 ], [ 0.0, 4.0 ] ]
+	*
+	* var bool = ( out === B );
+	* // returns true
+	*/
+	stril2triu: typeof stril2triu;
 
 	/**
 	* Copies the upper triangular part of a single-precision floating-point matrix `A` to another matrix `B`.
