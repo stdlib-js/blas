@@ -33,6 +33,7 @@ import cindexOfFalsy = require( './../../../../ext/base/cindex-of-falsy' );
 import cindexOfRow = require( './../../../../ext/base/cindex-of-row' );
 import cindexOfTruthy = require( './../../../../ext/base/cindex-of-truthy' );
 import clastIndexOfRow = require( './../../../../ext/base/clast-index-of-row' );
+import clinspace = require( './../../../../ext/base/clinspace' );
 import clogspace = require( './../../../../ext/base/clogspace' );
 import coneTo = require( './../../../../ext/base/cone-to' );
 import creplicate = require( './../../../../ext/base/creplicate' );
@@ -40,10 +41,12 @@ import csum = require( './../../../../ext/base/csum' );
 import csumkbn = require( './../../../../ext/base/csumkbn' );
 import ctril = require( './../../../../ext/base/ctril' );
 import ctriu = require( './../../../../ext/base/ctriu' );
+import ctriu2tril = require( './../../../../ext/base/ctriu2tril' );
 import cunitspace = require( './../../../../ext/base/cunitspace' );
 import cwapx = require( './../../../../ext/base/cwapx' );
 import cwax = require( './../../../../ext/base/cwax' );
 import cwhere = require( './../../../../ext/base/cwhere' );
+import cwxpy = require( './../../../../ext/base/cwxpy' );
 import cwxsa = require( './../../../../ext/base/cwxsa' );
 import cwxsy = require( './../../../../ext/base/cwxsy' );
 import cxmy = require( './../../../../ext/base/cxmy' );
@@ -205,17 +208,22 @@ import gfillNaN = require( './../../../../ext/base/gfill-nan' );
 import gfillNotEqual = require( './../../../../ext/base/gfill-not-equal' );
 import gfindIndex = require( './../../../../ext/base/gfind-index' );
 import gfindLastIndex = require( './../../../../ext/base/gfind-last-index' );
+import gfirstIndexAlmostSameValue = require( './../../../../ext/base/gfirst-index-almost-same-value' );
 import gfirstIndexEqual = require( './../../../../ext/base/gfirst-index-equal' );
 import gfirstIndexGreaterThan = require( './../../../../ext/base/gfirst-index-greater-than' );
+import gfirstIndexGreaterThanEqual = require( './../../../../ext/base/gfirst-index-greater-than-equal' );
 import gfirstIndexLessThan = require( './../../../../ext/base/gfirst-index-less-than' );
+import gfirstIndexLessThanEqual = require( './../../../../ext/base/gfirst-index-less-than-equal' );
 import gfirstIndexNotEqual = require( './../../../../ext/base/gfirst-index-not-equal' );
 import gindexOf = require( './../../../../ext/base/gindex-of' );
 import gindexOfAlmostSameValue = require( './../../../../ext/base/gindex-of-almost-same-value' );
 import gindexOfColumn = require( './../../../../ext/base/gindex-of-column' );
 import gindexOfFalsy = require( './../../../../ext/base/gindex-of-falsy' );
 import gindexOfFalsyRow = require( './../../../../ext/base/gindex-of-falsy-row' );
+import gindexOfGreaterThan = require( './../../../../ext/base/gindex-of-greater-than' );
 import gindexOfGreaterThanEqual = require( './../../../../ext/base/gindex-of-greater-than-equal' );
 import gindexOfLessThan = require( './../../../../ext/base/gindex-of-less-than' );
+import gindexOfLessThanEqual = require( './../../../../ext/base/gindex-of-less-than-equal' );
 import gindexOfNotEqual = require( './../../../../ext/base/gindex-of-not-equal' );
 import gindexOfRow = require( './../../../../ext/base/gindex-of-row' );
 import gindexOfSameValue = require( './../../../../ext/base/gindex-of-same-value' );
@@ -224,10 +232,13 @@ import gindexOfTruthyRow = require( './../../../../ext/base/gindex-of-truthy-row
 import gjoin = require( './../../../../ext/base/gjoin' );
 import gjoinBetween = require( './../../../../ext/base/gjoin-between' );
 import glastIndexEqual = require( './../../../../ext/base/glast-index-equal' );
+import glastIndexLessThan = require( './../../../../ext/base/glast-index-less-than' );
 import glastIndexOf = require( './../../../../ext/base/glast-index-of' );
 import glastIndexOfFalsy = require( './../../../../ext/base/glast-index-of-falsy' );
 import glastIndexOfRow = require( './../../../../ext/base/glast-index-of-row' );
 import glastIndexOfTruthy = require( './../../../../ext/base/glast-index-of-truthy' );
+import gleftPadCircular = require( './../../../../ext/base/gleft-pad-circular' );
+import gleftPadEdge = require( './../../../../ext/base/gleft-pad-edge' );
 import glinspace = require( './../../../../ext/base/glinspace' );
 import glogspace = require( './../../../../ext/base/glogspace' );
 import gminheapSiftDown = require( './../../../../ext/base/gminheap-sift-down' );
@@ -245,6 +256,7 @@ import gnone = require( './../../../../ext/base/gnone' );
 import goneTo = require( './../../../../ext/base/gone-to' );
 import greplicate = require( './../../../../ext/base/greplicate' );
 import grev = require( './../../../../ext/base/grev' );
+import grightPadCircular = require( './../../../../ext/base/gright-pad-circular' );
 import gsome = require( './../../../../ext/base/gsome' );
 import gsort = require( './../../../../ext/base/gsort' );
 import gsort2hp = require( './../../../../ext/base/gsort2hp' );
@@ -325,6 +337,7 @@ import sindexOfFalsy = require( './../../../../ext/base/sindex-of-falsy' );
 import sindexOfNotEqual = require( './../../../../ext/base/sindex-of-not-equal' );
 import sindexOfRow = require( './../../../../ext/base/sindex-of-row' );
 import sindexOfTruthy = require( './../../../../ext/base/sindex-of-truthy' );
+import slastIndexEqual = require( './../../../../ext/base/slast-index-equal' );
 import slastIndexOf = require( './../../../../ext/base/slast-index-of' );
 import slastIndexOfFalsy = require( './../../../../ext/base/slast-index-of-falsy' );
 import slastIndexOfRow = require( './../../../../ext/base/slast-index-of-row' );
@@ -358,6 +371,7 @@ import ssumkbn2 = require( './../../../../ext/base/ssumkbn2' );
 import ssumors = require( './../../../../ext/base/ssumors' );
 import ssumpw = require( './../../../../ext/base/ssumpw' );
 import stril = require( './../../../../ext/base/stril' );
+import stril2triu = require( './../../../../ext/base/stril2triu' );
 import striu = require( './../../../../ext/base/striu' );
 import striu2tril = require( './../../../../ext/base/striu2tril' );
 import sunitspace = require( './../../../../ext/base/sunitspace' );
@@ -913,6 +927,67 @@ interface Namespace {
 	clastIndexOfRow: typeof clastIndexOfRow;
 
 	/**
+	* Fills a single-precision complex floating-point strided array with linearly spaced values over a specified interval.
+	*
+	* @param N - number of indexed elements
+	* @param start - start of interval
+	* @param stop - end of interval
+	* @param endpoint - boolean indicating whether to include the `stop` value when writing values to the input array
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns input array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var strt = new Complex64( 0.0, 0.0 );
+	* var stp = new Complex64( 4.0, 2.0 );
+	*
+	* ns.clinspace( x.length, strt, stp, true, x, 1 );
+	* // x => <Complex64Array>[ 0.0, 0.0, 2.0, 1.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var strt = new Complex64( 0.0, 0.0 );
+	* var stp = new Complex64( 6.0, 3.0 );
+	*
+	* ns.clinspace( x.length, strt, stp, false, x, 1 );
+	* // x => <Complex64Array>[ 0.0, 0.0, 2.0, 1.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var strt = new Complex64( 0.0, 0.0 );
+	* var stp = new Complex64( 4.0, 2.0 );
+	*
+	* ns.clinspace.ndarray( x.length, strt, stp, true, x, 1, 0 );
+	* // x => <Complex64Array>[ 0.0, 0.0, 2.0, 1.0, 4.0, 2.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* var strt = new Complex64( 0.0, 0.0 );
+	* var stp = new Complex64( 6.0, 3.0 );
+	*
+	* ns.clinspace.ndarray( x.length, strt, stp, false, x, 1, 0 );
+	* // x => <Complex64Array>[ 0.0, 0.0, 2.0, 1.0, 4.0, 2.0 ]
+	*/
+	clinspace: typeof clinspace;
+
+	/**
 	* Fills a single-precision complex floating-point strided array with logarithmically spaced values over a specified interval.
 	*
 	* @param N - number of indexed elements
@@ -1150,6 +1225,39 @@ interface Namespace {
 	ctriu: typeof ctriu;
 
 	/**
+	* Reflects the upper triangular part of a single-precision complex floating-point matrix `A` into the lower triangular part of another matrix `B`.
+	*
+	* @param order - storage layout of `A` and `B`
+	* @param M - number of rows in matrix `A`
+	* @param N - number of columns in matrix `A`
+	* @param k - diagonal below which to ignore
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param B - output matrix
+	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
+	* @returns `B`
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var A = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var B = new Complex64Array( 4 );
+	*
+	* ns.ctriu2tril( 'row-major', 2, 2, 0, A, 2, B, 2 );
+	* // B => <Complex64Array>[ 1.0, 2.0, 0.0, 0.0, 3.0, 4.0, 7.0, 8.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var A = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0 ] );
+	* var B = new Complex64Array( 4 );
+	*
+	* ns.ctriu2tril.ndarray( 2, 2, 0, A, 2, 1, 0, B, 2, 1, 0 );
+	* // B => <Complex64Array>[ 1.0, 2.0, 0.0, 0.0, 3.0, 4.0, 7.0, 8.0 ]
+	*/
+	ctriu2tril: typeof ctriu2tril;
+
+	/**
 	* Fills a single-precision complex floating-point strided array with linearly spaced numeric elements which increment by `1` starting from a specified value.
 	*
 	* @param N - number of indexed elements
@@ -1291,6 +1399,40 @@ interface Namespace {
 	* // out => <Complex64Array>[ 1.0, -1.0, 5.0, -5.0, 3.0, -3.0 ]
 	*/
 	cwhere: typeof cwhere;
+
+	/**
+	* Adds elements of a single-precision complex floating-point strided array `x` to the corresponding elements of a single-precision complex floating-point strided array `y` and assigns the results to elements in a single-precision complex floating-point strided array `w`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - `x` stride length
+	* @param y - second input array
+	* @param strideY - `y` stride length
+	* @param w - output array
+	* @param strideW - `w` stride length
+	* @returns output array
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cwxpy( x.length, x, 1, y, 1, w, 1 );
+	* // w => <Complex64Array>[ 3.0, 5.0, 7.0, 9.0, 11.0, 13.0 ]
+	*
+	* @example
+	* var Complex64Array = require( '@stdlib/array/complex64' );
+	*
+	* var x = new Complex64Array( [ 1.0, 2.0, 3.0, 4.0, 5.0, 6.0 ] );
+	* var y = new Complex64Array( [ 2.0, 3.0, 4.0, 5.0, 6.0, 7.0 ] );
+	* var w = new Complex64Array( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.cwxpy.ndarray( x.length, x, 1, 0, y, 1, 0, w, 1, 0 );
+	* // w => <Complex64Array>[ 3.0, 5.0, 7.0, 9.0, 11.0, 13.0 ]
+	*/
+	cwxpy: typeof cwxpy;
 
 	/**
 	* Subtracts a scalar constant from each element in a single-precision complex floating-point strided array `x` and assigns the results to elements in a single-precision complex floating-point strided array `w`.
@@ -6120,6 +6262,37 @@ interface Namespace {
 	gfindLastIndex: typeof gfindLastIndex;
 
 	/**
+	* Returns the index of the first element in a strided array which is almost the same value as a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find matching elements, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param maxULP - maximum allowed ULP difference
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
+	*
+	* var idx = ns.gfirstIndexAlmostSameValue( x.length, 1, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 3.0, 0.0 ];
+	*
+	* var idx = ns.gfirstIndexAlmostSameValue.ndarray( x.length, 1, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	gfirstIndexAlmostSameValue: typeof gfirstIndexAlmostSameValue;
+
+	/**
 	* Returns the index of the first element in a strided array equal to a corresponding element in another strided array.
 	*
 	* ## Notes
@@ -6180,6 +6353,36 @@ interface Namespace {
 	gfirstIndexGreaterThan: typeof gfirstIndexGreaterThan;
 
 	/**
+	* Returns the index of the first element in a strided array which is greater than or equal to a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element in `x` which is greater than or equal to a corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 2.0, 2.0, 2.0, 2.0 ];
+	*
+	* var idx = ns.gfirstIndexGreaterThanEqual( x.length, x, 1, y, 1 );
+	* // returns 1
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 2.0, 2.0, 2.0, 2.0 ];
+	*
+	* var idx = ns.gfirstIndexGreaterThanEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 1
+	*/
+	gfirstIndexGreaterThanEqual: typeof gfirstIndexGreaterThanEqual;
+
+	/**
 	* Returns the index of the first element in a strided array which is less than a corresponding element in another strided array.
 	*
 	* ## Notes
@@ -6208,6 +6411,36 @@ interface Namespace {
 	* // returns 2
 	*/
 	gfirstIndexLessThan: typeof gfirstIndexLessThan;
+
+	/**
+	* Returns the index of the first element in a strided array which is less than or equal to a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element in `x` which is less than or equal to a corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 3.0, 5.0, 4.0, 6.0 ];
+	* var y = [ 2.0, 4.0, 4.0, 5.0 ];
+	*
+	* var idx = ns.gfirstIndexLessThanEqual( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 3.0, 5.0, 4.0, 6.0 ];
+	* var y = [ 2.0, 4.0, 4.0, 5.0 ];
+	*
+	* var idx = ns.gfirstIndexLessThanEqual.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	gfirstIndexLessThanEqual: typeof gfirstIndexLessThanEqual;
 
 	/**
 	* Returns the index of the first element in a strided array which is not equal to the corresponding element in another strided array.
@@ -6381,6 +6614,33 @@ interface Namespace {
 	gindexOfFalsyRow: typeof gindexOfFalsyRow;
 
 	/**
+	* Returns the index of the first element in a strided array which is greater than a specified search element.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element which is greater than a search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* var idx = ns.gindexOfGreaterThan( x.length, 0.0, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* var idx = ns.gindexOfGreaterThan.ndarray( x.length, 0.0, x, 1, 0 );
+	* // returns 2
+	*/
+	gindexOfGreaterThan: typeof gindexOfGreaterThan;
+
+	/**
 	* Returns the index of the first element in a strided array which is greater than or equal to a specified search element.
 	*
 	* ## Notes
@@ -6433,6 +6693,33 @@ interface Namespace {
 	* // returns 2
 	*/
 	gindexOfLessThan: typeof gindexOfLessThan;
+
+	/**
+	* Returns the first index of an element in a strided array which is less than or equal to a specified search element.
+	*
+	* ## Notes
+	*
+	* -   If unable to find an element which is less than or equal to the search element, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param searchElement - search element
+	* @param x - input array
+	* @param strideX - stride length
+	* @returns index
+	*
+	* @example
+	* var x = [ 2.0, 3.0, 1.0, 4.0 ];
+	*
+	* var idx = ns.gindexOfLessThanEqual( x.length, 1.0, x, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 2.0, 3.0, 1.0, 4.0 ];
+	*
+	* var idx = ns.gindexOfLessThanEqual.ndarray( x.length, 1.0, x, 1, 0 );
+	* // returns 2
+	*/
+	gindexOfLessThanEqual: typeof gindexOfLessThanEqual;
 
 	/**
 	* Returns the first index of an element in a strided array which is not equal to a specified search element.
@@ -6656,6 +6943,36 @@ interface Namespace {
 	glastIndexEqual: typeof glastIndexEqual;
 
 	/**
+	* Returns the index of the last element in a strided array which is less than a corresponding element in another strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find an element in `x` which is less than a corresponding element in `y`, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	* var y = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* var idx = ns.glastIndexLessThan( x.length, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var x = [ 0.0, 0.0, 0.0, 0.0 ];
+	* var y = [ 0.0, 0.0, 1.0, 0.0 ];
+	*
+	* var idx = ns.glastIndexLessThan.ndarray( x.length, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	glastIndexLessThan: typeof glastIndexLessThan;
+
+	/**
 	* Returns the last index of a specified search element in a strided array.
 	*
 	* ## Notes
@@ -6770,6 +7087,60 @@ interface Namespace {
 	* // returns 3
 	*/
 	glastIndexOfTruthy: typeof glastIndexOfTruthy;
+
+	/**
+	* Prepends elements to a strided array by circularly repeating existing elements.
+	*
+	* @param N - number of indexed elements in `x`
+	* @param k - number of elements to pad
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gleftPadCircular( x.length, 6, x, 1, y, 1 );
+	* // y => [ 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gleftPadCircular.ndarray( x.length, 6, x, 1, 0, y, 1, 0 );
+	* // y => [ 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0 ]
+	*/
+	gleftPadCircular: typeof gleftPadCircular;
+
+	/**
+	* Prepends elements to a strided array by repeating the leading edge element.
+	*
+	* @param N - number of indexed elements in `x`
+	* @param k - number of elements to pad
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gleftPadEdge( x.length, 6, x, 1, y, 1 );
+	* // y => [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 3.0, 4.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.gleftPadEdge.ndarray( x.length, 6, x, 1, 0, y, 1, 0 );
+	* // y => [ 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 2.0, 3.0, 4.0 ]
+	*/
+	gleftPadEdge: typeof gleftPadEdge;
 
 	/**
 	* Fills a strided array with linearly spaced values over a specified interval.
@@ -7203,6 +7574,33 @@ interface Namespace {
 	* // x => [ -3.0, -1.0, 0.0, 4.0, -5.0, 3.0, 1.0, -2.0 ]
 	*/
 	grev: typeof grev;
+
+	/**
+	* Appends elements to a strided array by circularly repeating existing elements.
+	*
+	* @param N - number of indexed elements in `x`
+	* @param k - number of elements to pad
+	* @param x - input array
+	* @param strideX - stride length for `x`
+	* @param y - output array
+	* @param strideY - stride length for `y`
+	* @returns output array
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.grightPadCircular( x.length, 6, x, 1, y, 1 );
+	* // y => [ 1.0, 2.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 1.0, 2.0 ]
+	*
+	* @example
+	* var x = [ 1.0, 2.0, 3.0, 4.0 ];
+	* var y = [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ];
+	*
+	* ns.grightPadCircular.ndarray( x.length, 6, x, 1, 0, y, 1, 0 );
+	* // y => [ 1.0, 2.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 1.0, 2.0 ]
+	*/
+	grightPadCircular: typeof grightPadCircular;
 
 	/**
 	* Tests whether a strided array contains at least `k` truthy elements.
@@ -9539,6 +9937,40 @@ interface Namespace {
 	sindexOfTruthy: typeof sindexOfTruthy;
 
 	/**
+	* Returns the index of the last element in a single-precision floating-point strided array equal to a corresponding element in another single-precision floating-point strided array.
+	*
+	* ## Notes
+	*
+	* -   If the function is unable to find matching elements, the function returns `-1`.
+	*
+	* @param N - number of indexed elements
+	* @param x - first input array
+	* @param strideX - stride length for `x`
+	* @param y - second input array
+	* @param strideY - stride length for `y`
+	* @returns index
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.slastIndexEqual( 4, x, 1, y, 1 );
+	* // returns 2
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var x = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var y = new Float32Array( [ 0.0, 0.0, 3.0, 0.0 ] );
+	*
+	* var idx = ns.slastIndexEqual.ndarray( 4, x, 1, 0, y, 1, 0 );
+	* // returns 2
+	*/
+	slastIndexEqual: typeof slastIndexEqual;
+
+	/**
 	* Returns the last index of a specified search element in a single-precision floating-point strided array.
 	*
 	* ## Notes
@@ -10545,6 +10977,39 @@ interface Namespace {
 	* // B => <Float32Array>[ 1.0, 0.0, 3.0, 4.0 ]
 	*/
 	stril: typeof stril;
+
+	/**
+	* Reflects the lower triangular part of a single-precision floating-point matrix `A` into the upper triangular part of another matrix `B`.
+	*
+	* @param order - storage layout of `A` and `B`
+	* @param M - number of rows in matrix `A`
+	* @param N - number of columns in matrix `A`
+	* @param k - diagonal above which to ignore
+	* @param A - input matrix
+	* @param LDA - stride of the first dimension of `A` (a.k.a., leading dimension of the matrix `A`)
+	* @param B - output matrix
+	* @param LDB - stride of the first dimension of `B` (a.k.a., leading dimension of the matrix `B`)
+	* @returns `B`
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var B = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.stril2triu( 'row-major', 2, 2, 0, A, 2, B, 2 );
+	* // B => <Float32Array>[ 1.0, 3.0, 0.0, 4.0 ]
+	*
+	* @example
+	* var Float32Array = require( '@stdlib/array/float32' );
+	*
+	* var A = new Float32Array( [ 1.0, 2.0, 3.0, 4.0 ] );
+	* var B = new Float32Array( [ 0.0, 0.0, 0.0, 0.0 ] );
+	*
+	* ns.stril2triu.ndarray( 2, 2, 0, A, 2, 1, 0, B, 2, 1, 0 );
+	* // B => <Float32Array>[ 1.0, 3.0, 0.0, 4.0 ]
+	*/
+	stril2triu: typeof stril2triu;
 
 	/**
 	* Copies the upper triangular part of a single-precision floating-point matrix `A` to another matrix `B`.
