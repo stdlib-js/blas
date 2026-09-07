@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-06)
+## Unreleased (2026-09-07)
 
 <section class="features">
 
@@ -870,6 +870,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`6bd67ec`](https://github.com/stdlib-js/stdlib/commit/6bd67ecb725e97474abef1d0c79f753655e71a67) - **docs:** update namespace table of contents [(#15061)](https://github.com/stdlib-js/stdlib/pull/15061) _(by stdlib-bot)_
 -   [`7026efc`](https://github.com/stdlib-js/stdlib/commit/7026efcefe4974ee94b9d1b9bab6a90110b481a0) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`121eef0`](https://github.com/stdlib-js/stdlib/commit/121eef098e73bf381c57ab3c2a75e3cdc5b5972a) - **feat:** add `dsome` to namespace _(by Athan Reines)_
 -   [`ea1b943`](https://github.com/stdlib-js/stdlib/commit/ea1b9436a03abcd84197f7f41fe2cccdbbfce2e2) - **feat:** add `gfirstIndexLessThanEqual` to namespace _(by Athan Reines)_
