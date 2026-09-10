@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`19d404a`](https://github.com/stdlib-js/stdlib/commit/19d404aee728b4d0cb94fa55228d721f7f3c6cee) - add `blas/ext/base/glast-index-greater-than` [(#15067)](https://github.com/stdlib-js/stdlib/pull/15067)
 -   [`3ab9ee8`](https://github.com/stdlib-js/stdlib/commit/3ab9ee8ad45f487362c440a97bf1ae6c3587b3d3) - add `blas/ext/base/glast-index-almost-same-value` [(#15062)](https://github.com/stdlib-js/stdlib/pull/15062)
 -   [`a55844e`](https://github.com/stdlib-js/stdlib/commit/a55844e091ade1abe575f633582db26a509324fb) - add `blas/ext/base/gright-pad-edge` [(#15037)](https://github.com/stdlib-js/stdlib/pull/15037)
 -   [`83a5b36`](https://github.com/stdlib-js/stdlib/commit/83a5b363ff46bbff48edb5c7f0e2aae0772531d6) - add `blas/ext/base/glast-index-not-equal` [(#15070)](https://github.com/stdlib-js/stdlib/pull/15070)
@@ -875,6 +876,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`19d404a`](https://github.com/stdlib-js/stdlib/commit/19d404aee728b4d0cb94fa55228d721f7f3c6cee) - **feat:** add `blas/ext/base/glast-index-greater-than` [(#15067)](https://github.com/stdlib-js/stdlib/pull/15067) _(by Muhammad Haris)_
 -   [`3ab9ee8`](https://github.com/stdlib-js/stdlib/commit/3ab9ee8ad45f487362c440a97bf1ae6c3587b3d3) - **feat:** add `blas/ext/base/glast-index-almost-same-value` [(#15062)](https://github.com/stdlib-js/stdlib/pull/15062) _(by Muhammad Haris)_
 -   [`a55844e`](https://github.com/stdlib-js/stdlib/commit/a55844e091ade1abe575f633582db26a509324fb) - **feat:** add `blas/ext/base/gright-pad-edge` [(#15037)](https://github.com/stdlib-js/stdlib/pull/15037) _(by Muhammad Haris)_
 -   [`83a5b36`](https://github.com/stdlib-js/stdlib/commit/83a5b363ff46bbff48edb5c7f0e2aae0772531d6) - **feat:** add `blas/ext/base/glast-index-not-equal` [(#15070)](https://github.com/stdlib-js/stdlib/pull/15070) _(by Muhammad Haris, Athan Reines)_
