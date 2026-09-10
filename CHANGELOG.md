@@ -876,6 +876,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`45ebb64`](https://github.com/stdlib-js/stdlib/commit/45ebb649778cb49d7b1ba95ead3ed544b575882b) - **test:** migrate `blas/base/drotg` to ULP-based assertions [(#15152)](https://github.com/stdlib-js/stdlib/pull/15152) _(by Philipp Burckhardt, Athan Reines)_
 -   [`19d404a`](https://github.com/stdlib-js/stdlib/commit/19d404aee728b4d0cb94fa55228d721f7f3c6cee) - **feat:** add `blas/ext/base/glast-index-greater-than` [(#15067)](https://github.com/stdlib-js/stdlib/pull/15067) _(by Muhammad Haris)_
 -   [`3ab9ee8`](https://github.com/stdlib-js/stdlib/commit/3ab9ee8ad45f487362c440a97bf1ae6c3587b3d3) - **feat:** add `blas/ext/base/glast-index-almost-same-value` [(#15062)](https://github.com/stdlib-js/stdlib/pull/15062) _(by Muhammad Haris)_
 -   [`a55844e`](https://github.com/stdlib-js/stdlib/commit/a55844e091ade1abe575f633582db26a509324fb) - **feat:** add `blas/ext/base/gright-pad-edge` [(#15037)](https://github.com/stdlib-js/stdlib/pull/15037) _(by Muhammad Haris)_
