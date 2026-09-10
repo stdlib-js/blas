@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-07)
+## Unreleased (2026-09-10)
 
 <section class="features">
 
 ### Features
 
+-   [`3ab9ee8`](https://github.com/stdlib-js/stdlib/commit/3ab9ee8ad45f487362c440a97bf1ae6c3587b3d3) - add `blas/ext/base/glast-index-almost-same-value` [(#15062)](https://github.com/stdlib-js/stdlib/pull/15062)
 -   [`a55844e`](https://github.com/stdlib-js/stdlib/commit/a55844e091ade1abe575f633582db26a509324fb) - add `blas/ext/base/gright-pad-edge` [(#15037)](https://github.com/stdlib-js/stdlib/pull/15037)
 -   [`83a5b36`](https://github.com/stdlib-js/stdlib/commit/83a5b363ff46bbff48edb5c7f0e2aae0772531d6) - add `blas/ext/base/glast-index-not-equal` [(#15070)](https://github.com/stdlib-js/stdlib/pull/15070)
 -   [`0a6cf42`](https://github.com/stdlib-js/stdlib/commit/0a6cf429f5f194e0e25a5dd7dac6947ec9a1754a) - update `blas/ext/base/ndarray` TypeScript declarations [(#15059)](https://github.com/stdlib-js/stdlib/pull/15059)
@@ -874,6 +875,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`3ab9ee8`](https://github.com/stdlib-js/stdlib/commit/3ab9ee8ad45f487362c440a97bf1ae6c3587b3d3) - **feat:** add `blas/ext/base/glast-index-almost-same-value` [(#15062)](https://github.com/stdlib-js/stdlib/pull/15062) _(by Muhammad Haris)_
 -   [`a55844e`](https://github.com/stdlib-js/stdlib/commit/a55844e091ade1abe575f633582db26a509324fb) - **feat:** add `blas/ext/base/gright-pad-edge` [(#15037)](https://github.com/stdlib-js/stdlib/pull/15037) _(by Muhammad Haris)_
 -   [`83a5b36`](https://github.com/stdlib-js/stdlib/commit/83a5b363ff46bbff48edb5c7f0e2aae0772531d6) - **feat:** add `blas/ext/base/glast-index-not-equal` [(#15070)](https://github.com/stdlib-js/stdlib/pull/15070) _(by Muhammad Haris, Athan Reines)_
 -   [`0a4fd0d`](https://github.com/stdlib-js/stdlib/commit/0a4fd0d9d7b1c4ae02ae0e9220af9b6684e3bffa) - **refactor:** add support for enums in `blas/ext/base/*cartesian-square` [(#15066)](https://github.com/stdlib-js/stdlib/pull/15066) _(by Kaustubh Patange)_
