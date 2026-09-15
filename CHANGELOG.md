@@ -878,6 +878,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`d3eaad3`](https://github.com/stdlib-js/stdlib/commit/d3eaad35f633c731ce8112190d74bb2a7577e1e8) - **chore:** clean-up [(#15039)](https://github.com/stdlib-js/stdlib/pull/15039) _(by Philipp Burckhardt, Athan Reines)_
 -   [`cd54b3d`](https://github.com/stdlib-js/stdlib/commit/cd54b3dfe093fc1b7c97e243f8c1e1cc534943d0) - **refactor:** add support for enums in `blas/ext/base/*last-index-of-row` [(#15202)](https://github.com/stdlib-js/stdlib/pull/15202) _(by Kaustubh Patange, Athan Reines)_
 -   [`fceef60`](https://github.com/stdlib-js/stdlib/commit/fceef60d33db3599b316bc0a62f0b5098d9c7a0a) - **refactor:** add support for enums in `blas/ext/base/index-of-*-row` [(#15203)](https://github.com/stdlib-js/stdlib/pull/15203) _(by Kaustubh Patange)_
 -   [`483dbdb`](https://github.com/stdlib-js/stdlib/commit/483dbdb106a9412a05ff0fdfcd393ac8a4b6f0c8) - **feat:** add `blas/ext/base/glast-index-greater-than-equal` [(#15064)](https://github.com/stdlib-js/stdlib/pull/15064) _(by Muhammad Haris, Athan Reines)_
