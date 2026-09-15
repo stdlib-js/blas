@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-11)
+## Unreleased (2026-09-15)
 
 <section class="features">
 
 ### Features
 
+-   [`483dbdb`](https://github.com/stdlib-js/stdlib/commit/483dbdb106a9412a05ff0fdfcd393ac8a4b6f0c8) - add `blas/ext/base/glast-index-greater-than-equal` [(#15064)](https://github.com/stdlib-js/stdlib/pull/15064)
 -   [`2f17548`](https://github.com/stdlib-js/stdlib/commit/2f17548ac05261a8b1e85989b3a8c608bccd8f3e) - add `blas/ext/base/gfirst-index-almost-equal` [(#14388)](https://github.com/stdlib-js/stdlib/pull/14388)
 -   [`19d404a`](https://github.com/stdlib-js/stdlib/commit/19d404aee728b4d0cb94fa55228d721f7f3c6cee) - add `blas/ext/base/glast-index-greater-than` [(#15067)](https://github.com/stdlib-js/stdlib/pull/15067)
 -   [`3ab9ee8`](https://github.com/stdlib-js/stdlib/commit/3ab9ee8ad45f487362c440a97bf1ae6c3587b3d3) - add `blas/ext/base/glast-index-almost-same-value` [(#15062)](https://github.com/stdlib-js/stdlib/pull/15062)
@@ -877,6 +878,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`483dbdb`](https://github.com/stdlib-js/stdlib/commit/483dbdb106a9412a05ff0fdfcd393ac8a4b6f0c8) - **feat:** add `blas/ext/base/glast-index-greater-than-equal` [(#15064)](https://github.com/stdlib-js/stdlib/pull/15064) _(by Muhammad Haris, Athan Reines)_
 -   [`10a84e4`](https://github.com/stdlib-js/stdlib/commit/10a84e4c9eed0d45927561f7998027339061cae3) - **chore:** clean-up [(#15165)](https://github.com/stdlib-js/stdlib/pull/15165) _(by Philipp Burckhardt)_
 -   [`2f17548`](https://github.com/stdlib-js/stdlib/commit/2f17548ac05261a8b1e85989b3a8c608bccd8f3e) - **feat:** add `blas/ext/base/gfirst-index-almost-equal` [(#14388)](https://github.com/stdlib-js/stdlib/pull/14388) _(by Muhammad Haris, Athan Reines)_
 -   [`45ebb64`](https://github.com/stdlib-js/stdlib/commit/45ebb649778cb49d7b1ba95ead3ed544b575882b) - **test:** migrate `blas/base/drotg` to ULP-based assertions [(#15152)](https://github.com/stdlib-js/stdlib/pull/15152) _(by Philipp Burckhardt, Athan Reines)_
