@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4c9bb88`](https://github.com/stdlib-js/stdlib/commit/4c9bb88293bddc67b591d0502eac0ac7fe8a46af) - add `blas/ext/last-index-of-falsy` [(#14625)](https://github.com/stdlib-js/stdlib/pull/14625)
 -   [`483dbdb`](https://github.com/stdlib-js/stdlib/commit/483dbdb106a9412a05ff0fdfcd393ac8a4b6f0c8) - add `blas/ext/base/glast-index-greater-than-equal` [(#15064)](https://github.com/stdlib-js/stdlib/pull/15064)
 -   [`2f17548`](https://github.com/stdlib-js/stdlib/commit/2f17548ac05261a8b1e85989b3a8c608bccd8f3e) - add `blas/ext/base/gfirst-index-almost-equal` [(#14388)](https://github.com/stdlib-js/stdlib/pull/14388)
 -   [`19d404a`](https://github.com/stdlib-js/stdlib/commit/19d404aee728b4d0cb94fa55228d721f7f3c6cee) - add `blas/ext/base/glast-index-greater-than` [(#15067)](https://github.com/stdlib-js/stdlib/pull/15067)
@@ -878,6 +879,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`4c9bb88`](https://github.com/stdlib-js/stdlib/commit/4c9bb88293bddc67b591d0502eac0ac7fe8a46af) - **feat:** add `blas/ext/last-index-of-falsy` [(#14625)](https://github.com/stdlib-js/stdlib/pull/14625) _(by Muhammad Haris)_
 -   [`c21ee54`](https://github.com/stdlib-js/stdlib/commit/c21ee54b17630b283f68b3485a9cb220cc5e69f6) - **refactor:** add support for enums in `blas/ext/base/*index-of-row` [(#15200)](https://github.com/stdlib-js/stdlib/pull/15200) _(by Kaustubh Patange)_
 -   [`511174e`](https://github.com/stdlib-js/stdlib/commit/511174ed95700f1db2de5f85236fa64578f7c02e) - **refactor:** add support for enums in `blas/ext/base/*index-of-column` [(#15201)](https://github.com/stdlib-js/stdlib/pull/15201) _(by Kaustubh Patange)_
 -   [`b93cc24`](https://github.com/stdlib-js/stdlib/commit/b93cc24f76201f23788eb83e1cf0998bd20f7cb7) - **chore:** clean-up [(#15238)](https://github.com/stdlib-js/stdlib/pull/15238) _(by Philipp Burckhardt)_
