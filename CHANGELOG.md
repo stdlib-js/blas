@@ -880,6 +880,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e78f04d`](https://github.com/stdlib-js/stdlib/commit/e78f04d723599f35af5b3c1bed2454d89a26d44d) - **test:** migrate `blas/base/wasm/cscal` to ULP-based assertions [(#15188)](https://github.com/stdlib-js/stdlib/pull/15188) _(by Athan Reines, Philipp Burckhardt)_
 -   [`02494e9`](https://github.com/stdlib-js/stdlib/commit/02494e960b94022be4239f15646381b1bc90ed38) - **test:** migrate `blas/base/zdrot` to ULP-based assertions [(#15209)](https://github.com/stdlib-js/stdlib/pull/15209) _(by Athan Reines, Philipp Burckhardt)_
 -   [`890ad07`](https://github.com/stdlib-js/stdlib/commit/890ad078af38dacce5140a3441fbf0d4f08bb5c3) - **test:** migrate `blas/base/wasm/drotm` to ULP-based assertions [(#15275)](https://github.com/stdlib-js/stdlib/pull/15275) _(by Athan Reines, Philipp Burckhardt)_
 -   [`6330750`](https://github.com/stdlib-js/stdlib/commit/63307500ee83651366622060b29108d93f2cc03a) - **feat:** add `blas/ext/base/ztriu2tril` [(#14013)](https://github.com/stdlib-js/stdlib/pull/14013) _(by Kaustubh Patange)_
