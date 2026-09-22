@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5dad2c5`](https://github.com/stdlib-js/stdlib/commit/5dad2c572261628c269faf8ef8c87ac57838c1ac) - add `blas/ext/base/ztril2triu` [(#14068)](https://github.com/stdlib-js/stdlib/pull/14068)
 -   [`88255cb`](https://github.com/stdlib-js/stdlib/commit/88255cb2526c27a9d39aab2bea071aadb3ea3473) - add `blas/ext/base/ctril2triu` [(#14100)](https://github.com/stdlib-js/stdlib/pull/14100)
 -   [`6330750`](https://github.com/stdlib-js/stdlib/commit/63307500ee83651366622060b29108d93f2cc03a) - add `blas/ext/base/ztriu2tril` [(#14013)](https://github.com/stdlib-js/stdlib/pull/14013)
 -   [`4c9bb88`](https://github.com/stdlib-js/stdlib/commit/4c9bb88293bddc67b591d0502eac0ac7fe8a46af) - add `blas/ext/last-index-of-falsy` [(#14625)](https://github.com/stdlib-js/stdlib/pull/14625)
@@ -881,6 +882,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`5dad2c5`](https://github.com/stdlib-js/stdlib/commit/5dad2c572261628c269faf8ef8c87ac57838c1ac) - **feat:** add `blas/ext/base/ztril2triu` [(#14068)](https://github.com/stdlib-js/stdlib/pull/14068) _(by Kaustubh Patange)_
 -   [`88255cb`](https://github.com/stdlib-js/stdlib/commit/88255cb2526c27a9d39aab2bea071aadb3ea3473) - **feat:** add `blas/ext/base/ctril2triu` [(#14100)](https://github.com/stdlib-js/stdlib/pull/14100) _(by Kaustubh Patange)_
 -   [`e78f04d`](https://github.com/stdlib-js/stdlib/commit/e78f04d723599f35af5b3c1bed2454d89a26d44d) - **test:** migrate `blas/base/wasm/cscal` to ULP-based assertions [(#15188)](https://github.com/stdlib-js/stdlib/pull/15188) _(by Athan Reines, Philipp Burckhardt)_
 -   [`02494e9`](https://github.com/stdlib-js/stdlib/commit/02494e960b94022be4239f15646381b1bc90ed38) - **test:** migrate `blas/base/zdrot` to ULP-based assertions [(#15209)](https://github.com/stdlib-js/stdlib/pull/15209) _(by Athan Reines, Philipp Burckhardt)_
