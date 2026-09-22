@@ -880,6 +880,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`890ad07`](https://github.com/stdlib-js/stdlib/commit/890ad078af38dacce5140a3441fbf0d4f08bb5c3) - **test:** migrate `blas/base/wasm/drotm` to ULP-based assertions [(#15275)](https://github.com/stdlib-js/stdlib/pull/15275) _(by Athan Reines, Philipp Burckhardt)_
 -   [`6330750`](https://github.com/stdlib-js/stdlib/commit/63307500ee83651366622060b29108d93f2cc03a) - **feat:** add `blas/ext/base/ztriu2tril` [(#14013)](https://github.com/stdlib-js/stdlib/pull/14013) _(by Kaustubh Patange)_
 -   [`4eff251`](https://github.com/stdlib-js/stdlib/commit/4eff2519ee5ff28a5f7c5e5c007f17de821218df) - **chore:** update require paths in benchmarks [(#15266)](https://github.com/stdlib-js/stdlib/pull/15266) _(by Philipp Burckhardt)_
 -   [`4c9bb88`](https://github.com/stdlib-js/stdlib/commit/4c9bb88293bddc67b591d0502eac0ac7fe8a46af) - **feat:** add `blas/ext/last-index-of-falsy` [(#14625)](https://github.com/stdlib-js/stdlib/pull/14625) _(by Muhammad Haris)_
