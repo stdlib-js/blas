@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-21)
+## Unreleased (2026-09-22)
 
 <section class="features">
 
 ### Features
 
+-   [`6330750`](https://github.com/stdlib-js/stdlib/commit/63307500ee83651366622060b29108d93f2cc03a) - add `blas/ext/base/ztriu2tril` [(#14013)](https://github.com/stdlib-js/stdlib/pull/14013)
 -   [`4c9bb88`](https://github.com/stdlib-js/stdlib/commit/4c9bb88293bddc67b591d0502eac0ac7fe8a46af) - add `blas/ext/last-index-of-falsy` [(#14625)](https://github.com/stdlib-js/stdlib/pull/14625)
 -   [`483dbdb`](https://github.com/stdlib-js/stdlib/commit/483dbdb106a9412a05ff0fdfcd393ac8a4b6f0c8) - add `blas/ext/base/glast-index-greater-than-equal` [(#15064)](https://github.com/stdlib-js/stdlib/pull/15064)
 -   [`2f17548`](https://github.com/stdlib-js/stdlib/commit/2f17548ac05261a8b1e85989b3a8c608bccd8f3e) - add `blas/ext/base/gfirst-index-almost-equal` [(#14388)](https://github.com/stdlib-js/stdlib/pull/14388)
@@ -879,6 +880,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`6330750`](https://github.com/stdlib-js/stdlib/commit/63307500ee83651366622060b29108d93f2cc03a) - **feat:** add `blas/ext/base/ztriu2tril` [(#14013)](https://github.com/stdlib-js/stdlib/pull/14013) _(by Kaustubh Patange)_
 -   [`4eff251`](https://github.com/stdlib-js/stdlib/commit/4eff2519ee5ff28a5f7c5e5c007f17de821218df) - **chore:** update require paths in benchmarks [(#15266)](https://github.com/stdlib-js/stdlib/pull/15266) _(by Philipp Burckhardt)_
 -   [`4c9bb88`](https://github.com/stdlib-js/stdlib/commit/4c9bb88293bddc67b591d0502eac0ac7fe8a46af) - **feat:** add `blas/ext/last-index-of-falsy` [(#14625)](https://github.com/stdlib-js/stdlib/pull/14625) _(by Muhammad Haris)_
 -   [`c21ee54`](https://github.com/stdlib-js/stdlib/commit/c21ee54b17630b283f68b3485a9cb220cc5e69f6) - **refactor:** add support for enums in `blas/ext/base/*index-of-row` [(#15200)](https://github.com/stdlib-js/stdlib/pull/15200) _(by Kaustubh Patange)_
