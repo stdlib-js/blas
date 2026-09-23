@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401)
 -   [`cf4afd1`](https://github.com/stdlib-js/stdlib/commit/cf4afd1a3078817f446d37ba1c0735372c5e99ba) - add `blas/ext/base/ndarray/gleft-pad-circular` [(#15422)](https://github.com/stdlib-js/stdlib/pull/15422)
 -   [`ec5d60d`](https://github.com/stdlib-js/stdlib/commit/ec5d60d6804da11a2ff2e39cfcf250b487a90ad8) - add `dvander`, `gfillGreaterThanEqual`, and `gwhere` to namespace
 -   [`d77f79c`](https://github.com/stdlib-js/stdlib/commit/d77f79cdc37015faff150470ea70d05881ad79ca) - add `blas/ext/base/ndarray/dvander` [(#15420)](https://github.com/stdlib-js/stdlib/pull/15420)
@@ -890,6 +891,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - **feat:** add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401) _(by Muhammad Haris)_
 -   [`cf4afd1`](https://github.com/stdlib-js/stdlib/commit/cf4afd1a3078817f446d37ba1c0735372c5e99ba) - **feat:** add `blas/ext/base/ndarray/gleft-pad-circular` [(#15422)](https://github.com/stdlib-js/stdlib/pull/15422) _(by Muhammad Haris, Athan Reines)_
 -   [`ec5d60d`](https://github.com/stdlib-js/stdlib/commit/ec5d60d6804da11a2ff2e39cfcf250b487a90ad8) - **feat:** add `dvander`, `gfillGreaterThanEqual`, and `gwhere` to namespace _(by Athan Reines)_
 -   [`bf20542`](https://github.com/stdlib-js/stdlib/commit/bf20542289f45849b591f42254df4dafa253f1ab) - **test:** migrate `blas/base/wasm/srot` to ULP-based assertions [(#15444)](https://github.com/stdlib-js/stdlib/pull/15444) _(by Athan Reines)_
