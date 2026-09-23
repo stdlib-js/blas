@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`06bccc9`](https://github.com/stdlib-js/stdlib/commit/06bccc97c729a0429c3a4924c3a587f42ac1a6a2) - add `blas/ext/base/ndarray/gleft-pad-edge` [(#15421)](https://github.com/stdlib-js/stdlib/pull/15421)
 -   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401)
 -   [`cf4afd1`](https://github.com/stdlib-js/stdlib/commit/cf4afd1a3078817f446d37ba1c0735372c5e99ba) - add `blas/ext/base/ndarray/gleft-pad-circular` [(#15422)](https://github.com/stdlib-js/stdlib/pull/15422)
 -   [`ec5d60d`](https://github.com/stdlib-js/stdlib/commit/ec5d60d6804da11a2ff2e39cfcf250b487a90ad8) - add `dvander`, `gfillGreaterThanEqual`, and `gwhere` to namespace
@@ -891,6 +892,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`06bccc9`](https://github.com/stdlib-js/stdlib/commit/06bccc97c729a0429c3a4924c3a587f42ac1a6a2) - **feat:** add `blas/ext/base/ndarray/gleft-pad-edge` [(#15421)](https://github.com/stdlib-js/stdlib/pull/15421) _(by Muhammad Haris, Athan Reines)_
 -   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - **feat:** add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401) _(by Muhammad Haris)_
 -   [`cf4afd1`](https://github.com/stdlib-js/stdlib/commit/cf4afd1a3078817f446d37ba1c0735372c5e99ba) - **feat:** add `blas/ext/base/ndarray/gleft-pad-circular` [(#15422)](https://github.com/stdlib-js/stdlib/pull/15422) _(by Muhammad Haris, Athan Reines)_
 -   [`ec5d60d`](https://github.com/stdlib-js/stdlib/commit/ec5d60d6804da11a2ff2e39cfcf250b487a90ad8) - **feat:** add `dvander`, `gfillGreaterThanEqual`, and `gwhere` to namespace _(by Athan Reines)_
