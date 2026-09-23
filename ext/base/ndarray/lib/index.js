@@ -1108,6 +1108,24 @@ setReadOnly( ns, 'glastIndexOfFalsy', require( './../../../../ext/base/ndarray/g
 setReadOnly( ns, 'glastIndexOfTruthy', require( './../../../../ext/base/ndarray/glast-index-of-truthy' ) );
 
 /**
+* @name gleftPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gleft-pad-circular}
+*/
+setReadOnly( ns, 'gleftPadCircular', require( './../../../../ext/base/ndarray/gleft-pad-circular' ) );
+
+/**
+* @name gleftPadEdge
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gleft-pad-edge}
+*/
+setReadOnly( ns, 'gleftPadEdge', require( './../../../../ext/base/ndarray/gleft-pad-edge' ) );
+
+/**
 * @name glinspace
 * @memberof ns
 * @readonly
@@ -1322,6 +1340,15 @@ setReadOnly( ns, 'gtriu2tril', require( './../../../../ext/base/ndarray/gtriu2tr
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gunitspace}
 */
 setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspace' ) );
+
+/**
+* @name gvander
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gvander}
+*/
+setReadOnly( ns, 'gvander', require( './../../../../ext/base/ndarray/gvander' ) );
 
 /**
 * @name gwhere

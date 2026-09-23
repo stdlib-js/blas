@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f158b2f`](https://github.com/stdlib-js/stdlib/commit/f158b2ff661ab0e195987ea5077f6cc5b902a05c) - add `gleftPadCircular`, `gleftPadEdge`, and `gvander` to namespace
 -   [`06bccc9`](https://github.com/stdlib-js/stdlib/commit/06bccc97c729a0429c3a4924c3a587f42ac1a6a2) - add `blas/ext/base/ndarray/gleft-pad-edge` [(#15421)](https://github.com/stdlib-js/stdlib/pull/15421)
 -   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401)
 -   [`cf4afd1`](https://github.com/stdlib-js/stdlib/commit/cf4afd1a3078817f446d37ba1c0735372c5e99ba) - add `blas/ext/base/ndarray/gleft-pad-circular` [(#15422)](https://github.com/stdlib-js/stdlib/pull/15422)
@@ -892,6 +893,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f158b2f`](https://github.com/stdlib-js/stdlib/commit/f158b2ff661ab0e195987ea5077f6cc5b902a05c) - **feat:** add `gleftPadCircular`, `gleftPadEdge`, and `gvander` to namespace _(by Athan Reines)_
 -   [`06bccc9`](https://github.com/stdlib-js/stdlib/commit/06bccc97c729a0429c3a4924c3a587f42ac1a6a2) - **feat:** add `blas/ext/base/ndarray/gleft-pad-edge` [(#15421)](https://github.com/stdlib-js/stdlib/pull/15421) _(by Muhammad Haris, Athan Reines)_
 -   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - **feat:** add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401) _(by Muhammad Haris)_
 -   [`cf4afd1`](https://github.com/stdlib-js/stdlib/commit/cf4afd1a3078817f446d37ba1c0735372c5e99ba) - **feat:** add `blas/ext/base/ndarray/gleft-pad-circular` [(#15422)](https://github.com/stdlib-js/stdlib/pull/15422) _(by Muhammad Haris, Athan Reines)_
