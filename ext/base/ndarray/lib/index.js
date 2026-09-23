@@ -721,6 +721,15 @@ setReadOnly( ns, 'dtriu2tril', require( './../../../../ext/base/ndarray/dtriu2tr
 setReadOnly( ns, 'dunitspace', require( './../../../../ext/base/ndarray/dunitspace' ) );
 
 /**
+* @name dvander
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dvander}
+*/
+setReadOnly( ns, 'dvander', require( './../../../../ext/base/ndarray/dvander' ) );
+
+/**
 * @name dwxsa
 * @memberof ns
 * @readonly
@@ -917,6 +926,15 @@ setReadOnly( ns, 'gdiff', require( './../../../../ext/base/ndarray/gdiff' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-equal}
 */
 setReadOnly( ns, 'gfillEqual', require( './../../../../ext/base/ndarray/gfill-equal' ) );
+
+/**
+* @name gfillGreaterThanEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-greater-than-equal}
+*/
+setReadOnly( ns, 'gfillGreaterThanEqual', require( './../../../../ext/base/ndarray/gfill-greater-than-equal' ) );
 
 /**
 * @name gfillNaN
@@ -1304,6 +1322,15 @@ setReadOnly( ns, 'gtriu2tril', require( './../../../../ext/base/ndarray/gtriu2tr
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gunitspace}
 */
 setReadOnly( ns, 'gunitspace', require( './../../../../ext/base/ndarray/gunitspace' ) );
+
+/**
+* @name gwhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gwhere}
+*/
+setReadOnly( ns, 'gwhere', require( './../../../../ext/base/ndarray/gwhere' ) );
 
 /**
 * @name gwxpy
