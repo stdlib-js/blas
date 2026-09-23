@@ -888,6 +888,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`bf20542`](https://github.com/stdlib-js/stdlib/commit/bf20542289f45849b591f42254df4dafa253f1ab) - **test:** migrate `blas/base/wasm/srot` to ULP-based assertions [(#15444)](https://github.com/stdlib-js/stdlib/pull/15444) _(by Athan Reines)_
 -   [`d77f79c`](https://github.com/stdlib-js/stdlib/commit/d77f79cdc37015faff150470ea70d05881ad79ca) - **feat:** add `blas/ext/base/ndarray/dvander` [(#15420)](https://github.com/stdlib-js/stdlib/pull/15420) _(by Muhammad Haris)_
 -   [`f0ba51a`](https://github.com/stdlib-js/stdlib/commit/f0ba51a1bf6d9390680ae47c0b702f8906ceec6c) - **feat:** add `blas/ext/base/ndarray/gwhere` [(#15443)](https://github.com/stdlib-js/stdlib/pull/15443) _(by Kaustubh Patange, Athan Reines)_
 -   [`fc9905c`](https://github.com/stdlib-js/stdlib/commit/fc9905c80fb16039298cfb7f95c748aaf9fd2b4e) - **feat:** add `blas/ext/base/ndarray/gfill-greater-than-equal` [(#15343)](https://github.com/stdlib-js/stdlib/pull/15343) _(by Muhammad Haris)_
