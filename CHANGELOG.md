@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cf2b504`](https://github.com/stdlib-js/stdlib/commit/cf2b504525747fff5914fba4515a76fca6cc4f23) - add `grightPadCircular` and `grightPadEdge` to namespace
 -   [`142d75e`](https://github.com/stdlib-js/stdlib/commit/142d75ee266eafaa2dca052b17b58752ca20739a) - add `blas/ext/base/ndarray/gright-pad-edge` [(#15423)](https://github.com/stdlib-js/stdlib/pull/15423)
 -   [`910bd59`](https://github.com/stdlib-js/stdlib/commit/910bd59be6bdfde1339eb113379425a1ac068baf) - add `blas/ext/base/ndarray/gright-pad-circular` [(#15430)](https://github.com/stdlib-js/stdlib/pull/15430)
 -   [`5dad2c5`](https://github.com/stdlib-js/stdlib/commit/5dad2c572261628c269faf8ef8c87ac57838c1ac) - add `blas/ext/base/ztril2triu` [(#14068)](https://github.com/stdlib-js/stdlib/pull/14068)
@@ -884,6 +885,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`cf2b504`](https://github.com/stdlib-js/stdlib/commit/cf2b504525747fff5914fba4515a76fca6cc4f23) - **feat:** add `grightPadCircular` and `grightPadEdge` to namespace _(by Athan Reines)_
 -   [`142d75e`](https://github.com/stdlib-js/stdlib/commit/142d75ee266eafaa2dca052b17b58752ca20739a) - **feat:** add `blas/ext/base/ndarray/gright-pad-edge` [(#15423)](https://github.com/stdlib-js/stdlib/pull/15423) _(by Muhammad Haris, Athan Reines)_
 -   [`910bd59`](https://github.com/stdlib-js/stdlib/commit/910bd59be6bdfde1339eb113379425a1ac068baf) - **feat:** add `blas/ext/base/ndarray/gright-pad-circular` [(#15430)](https://github.com/stdlib-js/stdlib/pull/15430) _(by Muhammad Haris, Athan Reines)_
 -   [`4e396e9`](https://github.com/stdlib-js/stdlib/commit/4e396e96156bc653142e560ce866c0d0978bdf83) - **chore:** clean-up [(#15425)](https://github.com/stdlib-js/stdlib/pull/15425) _(by Philipp Burckhardt)_

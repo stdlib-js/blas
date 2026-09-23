@@ -1171,6 +1171,24 @@ setReadOnly( ns, 'gnone', require( './../../../../ext/base/ndarray/gnone' ) );
 setReadOnly( ns, 'goneTo', require( './../../../../ext/base/ndarray/gone-to' ) );
 
 /**
+* @name grightPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gright-pad-circular}
+*/
+setReadOnly( ns, 'grightPadCircular', require( './../../../../ext/base/ndarray/gright-pad-circular' ) );
+
+/**
+* @name grightPadEdge
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gright-pad-edge}
+*/
+setReadOnly( ns, 'grightPadEdge', require( './../../../../ext/base/ndarray/gright-pad-edge' ) );
+
+/**
 * @name gsome
 * @memberof ns
 * @readonly
