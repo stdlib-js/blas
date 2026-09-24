@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-23)
+## Unreleased (2026-09-24)
 
 <section class="features">
 
 ### Features
 
+-   [`5b58446`](https://github.com/stdlib-js/stdlib/commit/5b584466cfecd4d78c65c5877681fd376f5d4a50) - update `blas/ext/base/ndarray` TypeScript declarations [(#15480)](https://github.com/stdlib-js/stdlib/pull/15480)
 -   [`f158b2f`](https://github.com/stdlib-js/stdlib/commit/f158b2ff661ab0e195987ea5077f6cc5b902a05c) - add `gleftPadCircular`, `gleftPadEdge`, and `gvander` to namespace
 -   [`06bccc9`](https://github.com/stdlib-js/stdlib/commit/06bccc97c729a0429c3a4924c3a587f42ac1a6a2) - add `blas/ext/base/ndarray/gleft-pad-edge` [(#15421)](https://github.com/stdlib-js/stdlib/pull/15421)
 -   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401)
@@ -893,6 +894,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`5b58446`](https://github.com/stdlib-js/stdlib/commit/5b584466cfecd4d78c65c5877681fd376f5d4a50) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15480)](https://github.com/stdlib-js/stdlib/pull/15480) _(by stdlib-bot)_
 -   [`f158b2f`](https://github.com/stdlib-js/stdlib/commit/f158b2ff661ab0e195987ea5077f6cc5b902a05c) - **feat:** add `gleftPadCircular`, `gleftPadEdge`, and `gvander` to namespace _(by Athan Reines)_
 -   [`06bccc9`](https://github.com/stdlib-js/stdlib/commit/06bccc97c729a0429c3a4924c3a587f42ac1a6a2) - **feat:** add `blas/ext/base/ndarray/gleft-pad-edge` [(#15421)](https://github.com/stdlib-js/stdlib/pull/15421) _(by Muhammad Haris, Athan Reines)_
 -   [`00ec0db`](https://github.com/stdlib-js/stdlib/commit/00ec0dbc1f9d2b17f4bab4755f5547da3339f7ee) - **feat:** add `blas/ext/base/ndarray/gvander` [(#15401)](https://github.com/stdlib-js/stdlib/pull/15401) _(by Muhammad Haris)_
