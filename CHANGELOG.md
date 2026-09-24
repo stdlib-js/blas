@@ -894,6 +894,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`6bf5a30`](https://github.com/stdlib-js/stdlib/commit/6bf5a305551baae65c23c23e1959f3fc1951618c) - **docs:** update namespace table of contents [(#15482)](https://github.com/stdlib-js/stdlib/pull/15482) _(by stdlib-bot)_
 -   [`5b58446`](https://github.com/stdlib-js/stdlib/commit/5b584466cfecd4d78c65c5877681fd376f5d4a50) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15480)](https://github.com/stdlib-js/stdlib/pull/15480) _(by stdlib-bot)_
 -   [`f158b2f`](https://github.com/stdlib-js/stdlib/commit/f158b2ff661ab0e195987ea5077f6cc5b902a05c) - **feat:** add `gleftPadCircular`, `gleftPadEdge`, and `gvander` to namespace _(by Athan Reines)_
 -   [`06bccc9`](https://github.com/stdlib-js/stdlib/commit/06bccc97c729a0429c3a4924c3a587f42ac1a6a2) - **feat:** add `blas/ext/base/ndarray/gleft-pad-edge` [(#15421)](https://github.com/stdlib-js/stdlib/pull/15421) _(by Muhammad Haris, Athan Reines)_
