@@ -901,6 +901,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e0453d7`](https://github.com/stdlib-js/stdlib/commit/e0453d77da600724e0cd5510f0339869106a0c49) - **docs:** fix headings [(#15454)](https://github.com/stdlib-js/stdlib/pull/15454) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_
 -   [`b66f5cf`](https://github.com/stdlib-js/stdlib/commit/b66f5cfe8df91d8d7fbac956ea32e26b98b9a658) - **feat:** add `blas/ext/base/ndarray/gfill-greater-than` [(#15306)](https://github.com/stdlib-js/stdlib/pull/15306) _(by Muhammad Haris)_
 -   [`66f69b6`](https://github.com/stdlib-js/stdlib/commit/66f69b6a7b81b28dce3b9b155a9d5fa4379184c0) - **bench:** fix data generation in `blas/ext/base` sort benchmarks [(#15512)](https://github.com/stdlib-js/stdlib/pull/15512) _(by JoyBoy)_
