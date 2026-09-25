@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1f78eae`](https://github.com/stdlib-js/stdlib/commit/1f78eae722d168b64923b1972cee3a1f5fc1706f) - add `blas/ext/base/ndarray/zwhere` [(#15500)](https://github.com/stdlib-js/stdlib/pull/15500)
 -   [`bcb1a5d`](https://github.com/stdlib-js/stdlib/commit/bcb1a5d937fe73dc6e589bfbf0e013fcbabf4fa5) - add `blas/ext/base/ndarray/cwhere` [(#15499)](https://github.com/stdlib-js/stdlib/pull/15499)
 -   [`44f626d`](https://github.com/stdlib-js/stdlib/commit/44f626de69db0a3c449de0080d3badc99d789ee6) - add `blas/ext/base/ndarray/swhere` [(#15493)](https://github.com/stdlib-js/stdlib/pull/15493)
 -   [`4af246b`](https://github.com/stdlib-js/stdlib/commit/4af246b399d4a48dc247a828ecc0e3811f13dfa0) - add `blas/ext/base/ndarray/dwhere` [(#15497)](https://github.com/stdlib-js/stdlib/pull/15497)
@@ -897,6 +898,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`1f78eae`](https://github.com/stdlib-js/stdlib/commit/1f78eae722d168b64923b1972cee3a1f5fc1706f) - **feat:** add `blas/ext/base/ndarray/zwhere` [(#15500)](https://github.com/stdlib-js/stdlib/pull/15500) _(by Muhammad Haris)_
 -   [`bcb1a5d`](https://github.com/stdlib-js/stdlib/commit/bcb1a5d937fe73dc6e589bfbf0e013fcbabf4fa5) - **feat:** add `blas/ext/base/ndarray/cwhere` [(#15499)](https://github.com/stdlib-js/stdlib/pull/15499) _(by Muhammad Haris)_
 -   [`44f626d`](https://github.com/stdlib-js/stdlib/commit/44f626de69db0a3c449de0080d3badc99d789ee6) - **feat:** add `blas/ext/base/ndarray/swhere` [(#15493)](https://github.com/stdlib-js/stdlib/pull/15493) _(by Muhammad Haris)_
 -   [`4af246b`](https://github.com/stdlib-js/stdlib/commit/4af246b399d4a48dc247a828ecc0e3811f13dfa0) - **feat:** add `blas/ext/base/ndarray/dwhere` [(#15497)](https://github.com/stdlib-js/stdlib/pull/15497) _(by Muhammad Haris)_
