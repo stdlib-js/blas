@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7cf31ed`](https://github.com/stdlib-js/stdlib/commit/7cf31ed67a6855fd37ba49663902839ffd831be7) - add `dfillLessThan`, `dfill`, `gfill`, and `sfill` to namespace
 -   [`efd01b9`](https://github.com/stdlib-js/stdlib/commit/efd01b9b0ff9ddd7426d8df66a3f00c181981570) - add `blas/ext/base/ndarray/dfill-less-than` [(#15300)](https://github.com/stdlib-js/stdlib/pull/15300)
 -   [`b0e2fd5`](https://github.com/stdlib-js/stdlib/commit/b0e2fd5f9aaed6e63617c41bce4521404bf5a466) - add `blas/ext/base/ndarray/dfill` [(#15296)](https://github.com/stdlib-js/stdlib/pull/15296)
 -   [`6964dff`](https://github.com/stdlib-js/stdlib/commit/6964dff3cf5feaaea84418cb67d0f001b4ac5b33) - add `blas/ext/base/ndarray/gfill` [(#15303)](https://github.com/stdlib-js/stdlib/pull/15303)
@@ -907,6 +908,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7cf31ed`](https://github.com/stdlib-js/stdlib/commit/7cf31ed67a6855fd37ba49663902839ffd831be7) - **feat:** add `dfillLessThan`, `dfill`, `gfill`, and `sfill` to namespace _(by Athan Reines)_
 -   [`efd01b9`](https://github.com/stdlib-js/stdlib/commit/efd01b9b0ff9ddd7426d8df66a3f00c181981570) - **feat:** add `blas/ext/base/ndarray/dfill-less-than` [(#15300)](https://github.com/stdlib-js/stdlib/pull/15300) _(by Muhammad Haris)_
 -   [`b0e2fd5`](https://github.com/stdlib-js/stdlib/commit/b0e2fd5f9aaed6e63617c41bce4521404bf5a466) - **feat:** add `blas/ext/base/ndarray/dfill` [(#15296)](https://github.com/stdlib-js/stdlib/pull/15296) _(by Muhammad Haris, Athan Reines)_
 -   [`6964dff`](https://github.com/stdlib-js/stdlib/commit/6964dff3cf5feaaea84418cb67d0f001b4ac5b33) - **feat:** add `blas/ext/base/ndarray/gfill` [(#15303)](https://github.com/stdlib-js/stdlib/pull/15303) _(by Muhammad Haris, Athan Reines)_
