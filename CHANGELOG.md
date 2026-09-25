@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`31f1233`](https://github.com/stdlib-js/stdlib/commit/31f123336727da3e8f27201f8bad9e5bbeae0303) - add `gfillGreaterThan` and `svander` to namespace
 -   [`8c985bf`](https://github.com/stdlib-js/stdlib/commit/8c985bf909a6dc5b7dabb7c42ed90a621d96d5fa) - add `blas/ext/base/ndarray/svander` [(#15419)](https://github.com/stdlib-js/stdlib/pull/15419)
 -   [`b66f5cf`](https://github.com/stdlib-js/stdlib/commit/b66f5cfe8df91d8d7fbac956ea32e26b98b9a658) - add `blas/ext/base/ndarray/gfill-greater-than` [(#15306)](https://github.com/stdlib-js/stdlib/pull/15306)
 -   [`4113c9b`](https://github.com/stdlib-js/stdlib/commit/4113c9b7a1d343f0dfb9f87e2c9a9d3daa89d6bd) - update `blas/ext/base/ndarray` TypeScript declarations [(#15518)](https://github.com/stdlib-js/stdlib/pull/15518)
@@ -902,6 +903,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`31f1233`](https://github.com/stdlib-js/stdlib/commit/31f123336727da3e8f27201f8bad9e5bbeae0303) - **feat:** add `gfillGreaterThan` and `svander` to namespace _(by Athan Reines)_
 -   [`8c985bf`](https://github.com/stdlib-js/stdlib/commit/8c985bf909a6dc5b7dabb7c42ed90a621d96d5fa) - **feat:** add `blas/ext/base/ndarray/svander` [(#15419)](https://github.com/stdlib-js/stdlib/pull/15419) _(by Muhammad Haris)_
 -   [`e0453d7`](https://github.com/stdlib-js/stdlib/commit/e0453d77da600724e0cd5510f0339869106a0c49) - **docs:** fix headings [(#15454)](https://github.com/stdlib-js/stdlib/pull/15454) _(by Philipp Burckhardt, Athan Reines)_
 -   [`8da0d15`](https://github.com/stdlib-js/stdlib/commit/8da0d154e408d6cd6b3381341173e8c41eac7e59) - **chore:** clean-up [(#15455)](https://github.com/stdlib-js/stdlib/pull/15455) _(by Philipp Burckhardt)_

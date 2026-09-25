@@ -946,6 +946,15 @@ setReadOnly( ns, 'gdiff', require( './../../../../ext/base/ndarray/gdiff' ) );
 setReadOnly( ns, 'gfillEqual', require( './../../../../ext/base/ndarray/gfill-equal' ) );
 
 /**
+* @name gfillGreaterThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-greater-than}
+*/
+setReadOnly( ns, 'gfillGreaterThan', require( './../../../../ext/base/ndarray/gfill-greater-than' ) );
+
+/**
 * @name gfillGreaterThanEqual
 * @memberof ns
 * @readonly
@@ -1880,6 +1889,15 @@ setReadOnly( ns, 'striu2tril', require( './../../../../ext/base/ndarray/striu2tr
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sunitspace}
 */
 setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspace' ) );
+
+/**
+* @name svander
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/svander}
+*/
+setReadOnly( ns, 'svander', require( './../../../../ext/base/ndarray/svander' ) );
 
 /**
 * @name swhere
