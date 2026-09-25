@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b66f5cf`](https://github.com/stdlib-js/stdlib/commit/b66f5cfe8df91d8d7fbac956ea32e26b98b9a658) - add `blas/ext/base/ndarray/gfill-greater-than` [(#15306)](https://github.com/stdlib-js/stdlib/pull/15306)
 -   [`4113c9b`](https://github.com/stdlib-js/stdlib/commit/4113c9b7a1d343f0dfb9f87e2c9a9d3daa89d6bd) - update `blas/ext/base/ndarray` TypeScript declarations [(#15518)](https://github.com/stdlib-js/stdlib/pull/15518)
 -   [`65818f6`](https://github.com/stdlib-js/stdlib/commit/65818f68a26c366ccae0cbe91429da391643b0db) - add `cwhere`, `dwhere`, `swhere`, and `zwhere` to namespace
 -   [`1f78eae`](https://github.com/stdlib-js/stdlib/commit/1f78eae722d168b64923b1972cee3a1f5fc1706f) - add `blas/ext/base/ndarray/zwhere` [(#15500)](https://github.com/stdlib-js/stdlib/pull/15500)
@@ -900,6 +901,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b66f5cf`](https://github.com/stdlib-js/stdlib/commit/b66f5cfe8df91d8d7fbac956ea32e26b98b9a658) - **feat:** add `blas/ext/base/ndarray/gfill-greater-than` [(#15306)](https://github.com/stdlib-js/stdlib/pull/15306) _(by Muhammad Haris)_
 -   [`66f69b6`](https://github.com/stdlib-js/stdlib/commit/66f69b6a7b81b28dce3b9b155a9d5fa4379184c0) - **bench:** fix data generation in `blas/ext/base` sort benchmarks [(#15512)](https://github.com/stdlib-js/stdlib/pull/15512) _(by JoyBoy)_
 -   [`ae07386`](https://github.com/stdlib-js/stdlib/commit/ae073862b04de49bc0464c20faa89b3ab0e91023) - **docs:** update namespace table of contents [(#15521)](https://github.com/stdlib-js/stdlib/pull/15521) _(by stdlib-bot)_
 -   [`4113c9b`](https://github.com/stdlib-js/stdlib/commit/4113c9b7a1d343f0dfb9f87e2c9a9d3daa89d6bd) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15518)](https://github.com/stdlib-js/stdlib/pull/15518) _(by stdlib-bot)_
