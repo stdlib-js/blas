@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`bcb1a5d`](https://github.com/stdlib-js/stdlib/commit/bcb1a5d937fe73dc6e589bfbf0e013fcbabf4fa5) - add `blas/ext/base/ndarray/cwhere` [(#15499)](https://github.com/stdlib-js/stdlib/pull/15499)
 -   [`44f626d`](https://github.com/stdlib-js/stdlib/commit/44f626de69db0a3c449de0080d3badc99d789ee6) - add `blas/ext/base/ndarray/swhere` [(#15493)](https://github.com/stdlib-js/stdlib/pull/15493)
 -   [`4af246b`](https://github.com/stdlib-js/stdlib/commit/4af246b399d4a48dc247a828ecc0e3811f13dfa0) - add `blas/ext/base/ndarray/dwhere` [(#15497)](https://github.com/stdlib-js/stdlib/pull/15497)
 -   [`5b58446`](https://github.com/stdlib-js/stdlib/commit/5b584466cfecd4d78c65c5877681fd376f5d4a50) - update `blas/ext/base/ndarray` TypeScript declarations [(#15480)](https://github.com/stdlib-js/stdlib/pull/15480)
@@ -896,6 +897,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`bcb1a5d`](https://github.com/stdlib-js/stdlib/commit/bcb1a5d937fe73dc6e589bfbf0e013fcbabf4fa5) - **feat:** add `blas/ext/base/ndarray/cwhere` [(#15499)](https://github.com/stdlib-js/stdlib/pull/15499) _(by Muhammad Haris)_
 -   [`44f626d`](https://github.com/stdlib-js/stdlib/commit/44f626de69db0a3c449de0080d3badc99d789ee6) - **feat:** add `blas/ext/base/ndarray/swhere` [(#15493)](https://github.com/stdlib-js/stdlib/pull/15493) _(by Muhammad Haris)_
 -   [`4af246b`](https://github.com/stdlib-js/stdlib/commit/4af246b399d4a48dc247a828ecc0e3811f13dfa0) - **feat:** add `blas/ext/base/ndarray/dwhere` [(#15497)](https://github.com/stdlib-js/stdlib/pull/15497) _(by Muhammad Haris)_
 -   [`6bf5a30`](https://github.com/stdlib-js/stdlib/commit/6bf5a305551baae65c23c23e1959f3fc1951618c) - **docs:** update namespace table of contents [(#15482)](https://github.com/stdlib-js/stdlib/pull/15482) _(by stdlib-bot)_
