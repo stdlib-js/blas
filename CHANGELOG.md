@@ -900,6 +900,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`66f69b6`](https://github.com/stdlib-js/stdlib/commit/66f69b6a7b81b28dce3b9b155a9d5fa4379184c0) - **bench:** fix data generation in `blas/ext/base` sort benchmarks [(#15512)](https://github.com/stdlib-js/stdlib/pull/15512) _(by JoyBoy)_
 -   [`ae07386`](https://github.com/stdlib-js/stdlib/commit/ae073862b04de49bc0464c20faa89b3ab0e91023) - **docs:** update namespace table of contents [(#15521)](https://github.com/stdlib-js/stdlib/pull/15521) _(by stdlib-bot)_
 -   [`4113c9b`](https://github.com/stdlib-js/stdlib/commit/4113c9b7a1d343f0dfb9f87e2c9a9d3daa89d6bd) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15518)](https://github.com/stdlib-js/stdlib/pull/15518) _(by stdlib-bot)_
 -   [`65818f6`](https://github.com/stdlib-js/stdlib/commit/65818f68a26c366ccae0cbe91429da391643b0db) - **feat:** add `cwhere`, `dwhere`, `swhere`, and `zwhere` to namespace _(by Athan Reines)_
@@ -1826,12 +1827,13 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 16 people contributed to this release. Thank you to the following contributors:
+A total of 17 people contributed to this release. Thank you to the following contributors:
 
 -   Arjan-P
 -   Athan Reines
 -   Atharva Patange
 -   Divit Jain
+-   JoyBoy
 -   Karan Anand
 -   Kaustubh Patange
 -   Muhammad Haris
