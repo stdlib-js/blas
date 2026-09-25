@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`65818f6`](https://github.com/stdlib-js/stdlib/commit/65818f68a26c366ccae0cbe91429da391643b0db) - add `cwhere`, `dwhere`, `swhere`, and `zwhere` to namespace
 -   [`1f78eae`](https://github.com/stdlib-js/stdlib/commit/1f78eae722d168b64923b1972cee3a1f5fc1706f) - add `blas/ext/base/ndarray/zwhere` [(#15500)](https://github.com/stdlib-js/stdlib/pull/15500)
 -   [`bcb1a5d`](https://github.com/stdlib-js/stdlib/commit/bcb1a5d937fe73dc6e589bfbf0e013fcbabf4fa5) - add `blas/ext/base/ndarray/cwhere` [(#15499)](https://github.com/stdlib-js/stdlib/pull/15499)
 -   [`44f626d`](https://github.com/stdlib-js/stdlib/commit/44f626de69db0a3c449de0080d3badc99d789ee6) - add `blas/ext/base/ndarray/swhere` [(#15493)](https://github.com/stdlib-js/stdlib/pull/15493)
@@ -898,6 +899,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`65818f6`](https://github.com/stdlib-js/stdlib/commit/65818f68a26c366ccae0cbe91429da391643b0db) - **feat:** add `cwhere`, `dwhere`, `swhere`, and `zwhere` to namespace _(by Athan Reines)_
 -   [`1f78eae`](https://github.com/stdlib-js/stdlib/commit/1f78eae722d168b64923b1972cee3a1f5fc1706f) - **feat:** add `blas/ext/base/ndarray/zwhere` [(#15500)](https://github.com/stdlib-js/stdlib/pull/15500) _(by Muhammad Haris)_
 -   [`bcb1a5d`](https://github.com/stdlib-js/stdlib/commit/bcb1a5d937fe73dc6e589bfbf0e013fcbabf4fa5) - **feat:** add `blas/ext/base/ndarray/cwhere` [(#15499)](https://github.com/stdlib-js/stdlib/pull/15499) _(by Muhammad Haris)_
 -   [`44f626d`](https://github.com/stdlib-js/stdlib/commit/44f626de69db0a3c449de0080d3badc99d789ee6) - **feat:** add `blas/ext/base/ndarray/swhere` [(#15493)](https://github.com/stdlib-js/stdlib/pull/15493) _(by Muhammad Haris)_

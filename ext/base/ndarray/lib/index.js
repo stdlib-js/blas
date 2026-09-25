@@ -181,6 +181,15 @@ setReadOnly( ns, 'ctriu2tril', require( './../../../../ext/base/ndarray/ctriu2tr
 setReadOnly( ns, 'cunitspace', require( './../../../../ext/base/ndarray/cunitspace' ) );
 
 /**
+* @name cwhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cwhere}
+*/
+setReadOnly( ns, 'cwhere', require( './../../../../ext/base/ndarray/cwhere' ) );
+
+/**
 * @name cwxsa
 * @memberof ns
 * @readonly
@@ -728,6 +737,15 @@ setReadOnly( ns, 'dunitspace', require( './../../../../ext/base/ndarray/dunitspa
 * @see {@link module:@stdlib/blas/ext/base/ndarray/dvander}
 */
 setReadOnly( ns, 'dvander', require( './../../../../ext/base/ndarray/dvander' ) );
+
+/**
+* @name dwhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dwhere}
+*/
+setReadOnly( ns, 'dwhere', require( './../../../../ext/base/ndarray/dwhere' ) );
 
 /**
 * @name dwxsa
@@ -1864,6 +1882,15 @@ setReadOnly( ns, 'striu2tril', require( './../../../../ext/base/ndarray/striu2tr
 setReadOnly( ns, 'sunitspace', require( './../../../../ext/base/ndarray/sunitspace' ) );
 
 /**
+* @name swhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/swhere}
+*/
+setReadOnly( ns, 'swhere', require( './../../../../ext/base/ndarray/swhere' ) );
+
+/**
 * @name swxsa
 * @memberof ns
 * @readonly
@@ -2051,6 +2078,15 @@ setReadOnly( ns, 'ztriu', require( './../../../../ext/base/ndarray/ztriu' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zunitspace}
 */
 setReadOnly( ns, 'zunitspace', require( './../../../../ext/base/ndarray/zunitspace' ) );
+
+/**
+* @name zwhere
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zwhere}
+*/
+setReadOnly( ns, 'zwhere', require( './../../../../ext/base/ndarray/zwhere' ) );
 
 /**
 * @name zwxsa
