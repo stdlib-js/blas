@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`efd01b9`](https://github.com/stdlib-js/stdlib/commit/efd01b9b0ff9ddd7426d8df66a3f00c181981570) - add `blas/ext/base/ndarray/dfill-less-than` [(#15300)](https://github.com/stdlib-js/stdlib/pull/15300)
 -   [`b0e2fd5`](https://github.com/stdlib-js/stdlib/commit/b0e2fd5f9aaed6e63617c41bce4521404bf5a466) - add `blas/ext/base/ndarray/dfill` [(#15296)](https://github.com/stdlib-js/stdlib/pull/15296)
 -   [`6964dff`](https://github.com/stdlib-js/stdlib/commit/6964dff3cf5feaaea84418cb67d0f001b4ac5b33) - add `blas/ext/base/ndarray/gfill` [(#15303)](https://github.com/stdlib-js/stdlib/pull/15303)
 -   [`8af7706`](https://github.com/stdlib-js/stdlib/commit/8af77062b72b4d91fb60a521d4e7b6e0bf6628a8) - add `blas/ext/base/ndarray/sfill` [(#15307)](https://github.com/stdlib-js/stdlib/pull/15307)
@@ -906,6 +907,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`efd01b9`](https://github.com/stdlib-js/stdlib/commit/efd01b9b0ff9ddd7426d8df66a3f00c181981570) - **feat:** add `blas/ext/base/ndarray/dfill-less-than` [(#15300)](https://github.com/stdlib-js/stdlib/pull/15300) _(by Muhammad Haris)_
 -   [`b0e2fd5`](https://github.com/stdlib-js/stdlib/commit/b0e2fd5f9aaed6e63617c41bce4521404bf5a466) - **feat:** add `blas/ext/base/ndarray/dfill` [(#15296)](https://github.com/stdlib-js/stdlib/pull/15296) _(by Muhammad Haris, Athan Reines)_
 -   [`6964dff`](https://github.com/stdlib-js/stdlib/commit/6964dff3cf5feaaea84418cb67d0f001b4ac5b33) - **feat:** add `blas/ext/base/ndarray/gfill` [(#15303)](https://github.com/stdlib-js/stdlib/pull/15303) _(by Muhammad Haris, Athan Reines)_
 -   [`8af7706`](https://github.com/stdlib-js/stdlib/commit/8af77062b72b4d91fb60a521d4e7b6e0bf6628a8) - **feat:** add `blas/ext/base/ndarray/sfill` [(#15307)](https://github.com/stdlib-js/stdlib/pull/15307) _(by Muhammad Haris, Athan Reines)_
