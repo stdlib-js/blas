@@ -19,7 +19,7 @@
 /* eslint-disable space-in-parens */
 
 import zeros = require( '@stdlib/ndarray/zeros' );
-import dsyr = require( './../../../../../base/ndarray/dsyr' );
+import dsyr = require( './index' );
 
 
 // TESTS //

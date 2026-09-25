@@ -19,7 +19,7 @@
 /* eslint-disable space-in-parens */
 
 import zeros = require( '@stdlib/ndarray/zeros' );
-import ssymv = require( './../../../../../base/ndarray/ssymv' );
+import ssymv = require( './index' );
 
 
 // TESTS //

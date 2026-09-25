@@ -19,7 +19,7 @@
 /* eslint-disable space-in-parens */
 
 import zeros = require( '@stdlib/ndarray/zeros' );
-import sgemm = require( './../../../../../base/ndarray/sgemm' );
+import sgemm = require( './index' );
 
 
 // TESTS //

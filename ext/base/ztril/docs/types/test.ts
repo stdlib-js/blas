@@ -17,7 +17,7 @@
 */
 
 import Complex128Array = require( '@stdlib/array/complex128' );
-import ztril = require( './../../../../../ext/base/ztril' );
+import ztril = require( './index' );
 
 
 // TESTS //

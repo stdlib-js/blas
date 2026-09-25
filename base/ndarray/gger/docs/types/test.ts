@@ -19,7 +19,7 @@
 /* eslint-disable space-in-parens */
 
 import zeros = require( '@stdlib/ndarray/zeros' );
-import gger = require( './../../../../../base/ndarray/gger' );
+import gger = require( './index' );
 
 
 // TESTS //
