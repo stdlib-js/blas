@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304)
 -   [`4c1da14`](https://github.com/stdlib-js/stdlib/commit/4c1da140de1ce1328197e5ba73ac6fb2a9854906) - add `blas/ext/last-index-of-truthy` [(#15292)](https://github.com/stdlib-js/stdlib/pull/15292)
 -   [`19fdc41`](https://github.com/stdlib-js/stdlib/commit/19fdc41e7696ec3864fd4fb22ee5368795a1e293) - add `cfill` and `zfill` to namespace
 -   [`e7e79dd`](https://github.com/stdlib-js/stdlib/commit/e7e79ddbb24a577ce643658186f9146c4140ed7d) - add `blas/ext/base/ndarray/cfill` [(#15295)](https://github.com/stdlib-js/stdlib/pull/15295)
@@ -913,6 +914,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - **feat:** add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304) _(by Muhammad Haris, Athan Reines)_
 -   [`4c1da14`](https://github.com/stdlib-js/stdlib/commit/4c1da140de1ce1328197e5ba73ac6fb2a9854906) - **feat:** add `blas/ext/last-index-of-truthy` [(#15292)](https://github.com/stdlib-js/stdlib/pull/15292) _(by Muhammad Haris, Athan Reines)_
 -   [`5a64ba7`](https://github.com/stdlib-js/stdlib/commit/5a64ba797591937f32a349ce251853787c251b6e) - **docs:** update namespace table of contents [(#15554)](https://github.com/stdlib-js/stdlib/pull/15554) _(by stdlib-bot)_
 -   [`19fdc41`](https://github.com/stdlib-js/stdlib/commit/19fdc41e7696ec3864fd4fb22ee5368795a1e293) - **feat:** add `cfill` and `zfill` to namespace _(by Athan Reines)_
