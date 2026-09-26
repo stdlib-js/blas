@@ -73,6 +73,15 @@ setReadOnly( ns, 'ccopyWithin', require( './../../../../ext/base/ndarray/ccopy-w
 setReadOnly( ns, 'cdiff', require( './../../../../ext/base/ndarray/cdiff' ) );
 
 /**
+* @name cfill
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cfill}
+*/
+setReadOnly( ns, 'cfill', require( './../../../../ext/base/ndarray/cfill' ) );
+
+/**
 * @name cfillEqual
 * @memberof ns
 * @readonly
@@ -2042,6 +2051,15 @@ setReadOnly( ns, 'zcopyWithin', require( './../../../../ext/base/ndarray/zcopy-w
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zdiff}
 */
 setReadOnly( ns, 'zdiff', require( './../../../../ext/base/ndarray/zdiff' ) );
+
+/**
+* @name zfill
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zfill}
+*/
+setReadOnly( ns, 'zfill', require( './../../../../ext/base/ndarray/zfill' ) );
 
 /**
 * @name zindexOf
