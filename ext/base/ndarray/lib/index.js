@@ -973,6 +973,15 @@ setReadOnly( ns, 'gdiff', require( './../../../../ext/base/ndarray/gdiff' ) );
 setReadOnly( ns, 'gfill', require( './../../../../ext/base/ndarray/gfill' ) );
 
 /**
+* @name gfillBy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-by}
+*/
+setReadOnly( ns, 'gfillBy', require( './../../../../ext/base/ndarray/gfill-by' ) );
+
+/**
 * @name gfillEqual
 * @memberof ns
 * @readonly

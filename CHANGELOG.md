@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`3123493`](https://github.com/stdlib-js/stdlib/commit/3123493188b01521af78e736f51181abce9c9133) - add `cuany`, `cuevery`, and `cunone` to namespace
+-   [`7454963`](https://github.com/stdlib-js/stdlib/commit/7454963025edd4622b01fce0bd0895dbd45b95bf) - add `indexOfFalsy`, `indexOfNotEqual`, and `lastIndexOfFalsy` to namespace
+-   [`2885e6d`](https://github.com/stdlib-js/stdlib/commit/2885e6d960b3362106cb8d41cf4bcb01beac5ccc) - add `lastIndexOfTruthy` to namespace
+-   [`9708ad1`](https://github.com/stdlib-js/stdlib/commit/9708ad1ec1a6922a5ab697f59dee9415c64a49d2) - add `gfillBy` to namespace
 -   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304)
 -   [`4c1da14`](https://github.com/stdlib-js/stdlib/commit/4c1da140de1ce1328197e5ba73ac6fb2a9854906) - add `blas/ext/last-index-of-truthy` [(#15292)](https://github.com/stdlib-js/stdlib/pull/15292)
 -   [`19fdc41`](https://github.com/stdlib-js/stdlib/commit/19fdc41e7696ec3864fd4fb22ee5368795a1e293) - add `cfill` and `zfill` to namespace
@@ -914,6 +918,10 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`3123493`](https://github.com/stdlib-js/stdlib/commit/3123493188b01521af78e736f51181abce9c9133) - **feat:** add `cuany`, `cuevery`, and `cunone` to namespace _(by Athan Reines)_
+-   [`7454963`](https://github.com/stdlib-js/stdlib/commit/7454963025edd4622b01fce0bd0895dbd45b95bf) - **feat:** add `indexOfFalsy`, `indexOfNotEqual`, and `lastIndexOfFalsy` to namespace _(by Athan Reines)_
+-   [`2885e6d`](https://github.com/stdlib-js/stdlib/commit/2885e6d960b3362106cb8d41cf4bcb01beac5ccc) - **feat:** add `lastIndexOfTruthy` to namespace _(by Athan Reines)_
+-   [`9708ad1`](https://github.com/stdlib-js/stdlib/commit/9708ad1ec1a6922a5ab697f59dee9415c64a49d2) - **feat:** add `gfillBy` to namespace _(by Athan Reines)_
 -   [`cbe12dd`](https://github.com/stdlib-js/stdlib/commit/cbe12ddf20d5451e575422efb70d52fc62f574ec) - **feat:** add `blas/ext/base/ndarray/gfill-by` [(#15304)](https://github.com/stdlib-js/stdlib/pull/15304) _(by Muhammad Haris, Athan Reines)_
 -   [`4c1da14`](https://github.com/stdlib-js/stdlib/commit/4c1da140de1ce1328197e5ba73ac6fb2a9854906) - **feat:** add `blas/ext/last-index-of-truthy` [(#15292)](https://github.com/stdlib-js/stdlib/pull/15292) _(by Muhammad Haris, Athan Reines)_
 -   [`5a64ba7`](https://github.com/stdlib-js/stdlib/commit/5a64ba797591937f32a349ce251853787c251b6e) - **docs:** update namespace table of contents [(#15554)](https://github.com/stdlib-js/stdlib/pull/15554) _(by stdlib-bot)_
