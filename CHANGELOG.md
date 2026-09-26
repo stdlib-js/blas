@@ -919,6 +919,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`836f90b`](https://github.com/stdlib-js/stdlib/commit/836f90b94d3bed822e8994b58e01b795ec414480) - **docs:** fix descriptions [(#15560)](https://github.com/stdlib-js/stdlib/pull/15560) _(by Philipp Burckhardt)_
 -   [`71a87cf`](https://github.com/stdlib-js/stdlib/commit/71a87cf23466f2e738f8f2e6336cd48e7b0ef606) - **feat:** add `blas/ext/fill-range` [(#15544)](https://github.com/stdlib-js/stdlib/pull/15544) _(by Muhammad Haris, Athan Reines)_
 -   [`3123493`](https://github.com/stdlib-js/stdlib/commit/3123493188b01521af78e736f51181abce9c9133) - **feat:** add `cuany`, `cuevery`, and `cunone` to namespace _(by Athan Reines)_
 -   [`7454963`](https://github.com/stdlib-js/stdlib/commit/7454963025edd4622b01fce0bd0895dbd45b95bf) - **feat:** add `indexOfFalsy`, `indexOfNotEqual`, and `lastIndexOfFalsy` to namespace _(by Athan Reines)_
