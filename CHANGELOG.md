@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-25)
+## Unreleased (2026-09-26)
 
 <section class="features">
 
@@ -908,6 +908,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`947861b`](https://github.com/stdlib-js/stdlib/commit/947861b6757ec760c221d6401a15b7b5ff8c314b) - **bench:** fix data generation [(#15535)](https://github.com/stdlib-js/stdlib/pull/15535) _(by Philipp Burckhardt)_
 -   [`7cf31ed`](https://github.com/stdlib-js/stdlib/commit/7cf31ed67a6855fd37ba49663902839ffd831be7) - **feat:** add `dfillLessThan`, `dfill`, `gfill`, and `sfill` to namespace _(by Athan Reines)_
 -   [`efd01b9`](https://github.com/stdlib-js/stdlib/commit/efd01b9b0ff9ddd7426d8df66a3f00c181981570) - **feat:** add `blas/ext/base/ndarray/dfill-less-than` [(#15300)](https://github.com/stdlib-js/stdlib/pull/15300) _(by Muhammad Haris)_
 -   [`b0e2fd5`](https://github.com/stdlib-js/stdlib/commit/b0e2fd5f9aaed6e63617c41bce4521404bf5a466) - **feat:** add `blas/ext/base/ndarray/dfill` [(#15296)](https://github.com/stdlib-js/stdlib/pull/15296) _(by Muhammad Haris, Athan Reines)_
