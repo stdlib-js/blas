@@ -920,6 +920,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`cda4adf`](https://github.com/stdlib-js/stdlib/commit/cda4adf8fd6a9b577c449d4ac1c5adfd8f98a72b) - **chore:** clean-up [(#15565)](https://github.com/stdlib-js/stdlib/pull/15565) _(by Philipp Burckhardt)_
 -   [`29b06dd`](https://github.com/stdlib-js/stdlib/commit/29b06dd1de7b7217ad1710f81d36b32e79e2cdf7) - **feat:** add `fillRange` to namespace _(by Athan Reines)_
 -   [`836f90b`](https://github.com/stdlib-js/stdlib/commit/836f90b94d3bed822e8994b58e01b795ec414480) - **docs:** fix descriptions [(#15560)](https://github.com/stdlib-js/stdlib/pull/15560) _(by Philipp Burckhardt)_
 -   [`71a87cf`](https://github.com/stdlib-js/stdlib/commit/71a87cf23466f2e738f8f2e6336cd48e7b0ef606) - **feat:** add `blas/ext/fill-range` [(#15544)](https://github.com/stdlib-js/stdlib/pull/15544) _(by Muhammad Haris, Athan Reines)_
