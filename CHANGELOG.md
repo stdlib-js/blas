@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f73bc8b`](https://github.com/stdlib-js/stdlib/commit/f73bc8b77eebbece6566a8ff37205769e3fa7de7) - add `blas/ext/base/gpad-edge` [(#15272)](https://github.com/stdlib-js/stdlib/pull/15272)
 -   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389)
 -   [`707016d`](https://github.com/stdlib-js/stdlib/commit/707016d56b82ddb6e47ef8252682f05ec2c67cb0) - add `blas/ext/base/glast-index-less-than-equal` [(#14387)](https://github.com/stdlib-js/stdlib/pull/14387)
 -   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579)
@@ -924,6 +925,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f73bc8b`](https://github.com/stdlib-js/stdlib/commit/f73bc8b77eebbece6566a8ff37205769e3fa7de7) - **feat:** add `blas/ext/base/gpad-edge` [(#15272)](https://github.com/stdlib-js/stdlib/pull/15272) _(by Muhammad Haris)_
 -   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - **feat:** add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389) _(by Muhammad Haris)_
 -   [`707016d`](https://github.com/stdlib-js/stdlib/commit/707016d56b82ddb6e47ef8252682f05ec2c67cb0) - **feat:** add `blas/ext/base/glast-index-less-than-equal` [(#14387)](https://github.com/stdlib-js/stdlib/pull/14387) _(by Muhammad Haris)_
 -   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579) _(by stdlib-bot)_
