@@ -24,6 +24,7 @@ import caxpb = require( './../../../../../ext/base/ndarray/caxpb' );
 import caxpby = require( './../../../../../ext/base/ndarray/caxpby' );
 import ccopyWithin = require( './../../../../../ext/base/ndarray/ccopy-within' );
 import cdiff = require( './../../../../../ext/base/ndarray/cdiff' );
+import cfill = require( './../../../../../ext/base/ndarray/cfill' );
 import cfillEqual = require( './../../../../../ext/base/ndarray/cfill-equal' );
 import cindexOf = require( './../../../../../ext/base/ndarray/cindex-of' );
 import cindexOfFalsy = require( './../../../../../ext/base/ndarray/cindex-of-falsy' );
@@ -123,6 +124,7 @@ import gcusumors = require( './../../../../../ext/base/ndarray/gcusumors' );
 import gcusumpw = require( './../../../../../ext/base/ndarray/gcusumpw' );
 import gdiff = require( './../../../../../ext/base/ndarray/gdiff' );
 import gfill = require( './../../../../../ext/base/ndarray/gfill' );
+import gfillBy = require( './../../../../../ext/base/ndarray/gfill-by' );
 import gfillEqual = require( './../../../../../ext/base/ndarray/gfill-equal' );
 import gfillGreaterThan = require( './../../../../../ext/base/ndarray/gfill-greater-than' );
 import gfillGreaterThanEqual = require( './../../../../../ext/base/ndarray/gfill-greater-than-equal' );
@@ -243,6 +245,7 @@ import zaxpb = require( './../../../../../ext/base/ndarray/zaxpb' );
 import zaxpby = require( './../../../../../ext/base/ndarray/zaxpby' );
 import zcopyWithin = require( './../../../../../ext/base/ndarray/zcopy-within' );
 import zdiff = require( './../../../../../ext/base/ndarray/zdiff' );
+import zfill = require( './../../../../../ext/base/ndarray/zfill' );
 import zindexOf = require( './../../../../../ext/base/ndarray/zindex-of' );
 import zindexOfFalsy = require( './../../../../../ext/base/ndarray/zindex-of-falsy' );
 import zindexOfTruthy = require( './../../../../../ext/base/ndarray/zindex-of-truthy' );
@@ -413,6 +416,45 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex64>[ 1.0, -1.0 ], <Complex64>[ 2.0, -2.0 ], <Complex64>[ 3.0, -3.0 ] ]
 	*/
 	cdiff: typeof cdiff;
+
+	/**
+	* Fills a one-dimensional single-precision complex floating-point ndarray with a specified scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant.
+	*     -   a zero-dimensional ndarray containing the starting index (inclusive).
+	*     -   a zero-dimensional ndarray containing the ending index (exclusive).
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Complex64 = require( '@stdlib/complex/float32/ctor' );
+	*
+	* var x = new Complex64Vector( [ 1.0, 2.0, -2.0, 3.0, 4.0, -6.0, 5.0, 7.0 ] );
+	*
+	* var alpha = scalar2ndarray( new Complex64( 5.0, 5.0 ), {
+	*     'dtype': 'complex64'
+	* });
+	*
+	* var start = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var end = scalar2ndarray( 2, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.cfill( [ x, alpha, start, end ] );
+	* // returns <ndarray>[ <Complex64>[ 5.0, 5.0 ], <Complex64>[ 5.0, 5.0 ], <Complex64>[ 4.0, -6.0 ], <Complex64>[ 5.0, 7.0 ] ]
+	*/
+	cfill: typeof cfill;
 
 	/**
 	* Replaces elements in a one-dimensional single-precision complex floating-point ndarray equal to a provided search element with a specified scalar constant.
@@ -3411,6 +3453,45 @@ interface Namespace {
 	* // returns <ndarray>[ 5.0, 5.0, 5.0, -5.0, 4.0, -1.0 ]
 	*/
 	gfill: typeof gfill;
+
+	/**
+	* Fills a one-dimensional ndarray according to a provided callback function.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the starting index (inclusive).
+	*     -   a zero-dimensional ndarray containing the ending index (exclusive).
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @param clbk - callback function
+	* @param thisArg - callback execution context
+	* @returns input ndarray
+	*
+	* @example
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var vector = require( '@stdlib/ndarray/vector/ctor' );
+	*
+	* function fill() {
+	*     return 5.0;
+	* }
+	*
+	* var x = vector( [ -2.0, 1.0, 3.0, -5.0, 4.0, -6.0 ], 'generic' );
+	*
+	* var start = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var end = scalar2ndarray( 3, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.gfillBy( [ x, start, end ], fill );
+	* // returns <ndarray>[ 5.0, 5.0, 5.0, -5.0, 4.0, -6.0 ]
+	*/
+	gfillBy: typeof gfillBy;
 
 	/**
 	* Replaces elements in a one-dimensional ndarray equal to a provided search element with a specified scalar constant.
@@ -7049,6 +7130,45 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex128>[ 1.0, 1.0 ], <Complex128>[ 2.0, 2.0 ], <Complex128>[ 3.0, 3.0 ] ]
 	*/
 	zdiff: typeof zdiff;
+
+	/**
+	* Fills a one-dimensional double-precision complex floating-point ndarray with a specified scalar constant.
+	*
+	* ## Notes
+	*
+	* -   The function expects the following ndarrays:
+	*
+	*     -   a one-dimensional input ndarray.
+	*     -   a zero-dimensional ndarray containing the scalar constant.
+	*     -   a zero-dimensional ndarray containing the starting index (inclusive).
+	*     -   a zero-dimensional ndarray containing the ending index (exclusive).
+	*
+	* @param arrays - array-like object containing ndarrays
+	* @returns input ndarray
+	*
+	* @example
+	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
+	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
+	* var Complex128 = require( '@stdlib/complex/float64/ctor' );
+	*
+	* var x = new Complex128Vector( [ 1.0, 2.0, -2.0, 3.0, 4.0, -6.0, 5.0, 7.0 ] );
+	*
+	* var alpha = scalar2ndarray( new Complex128( 5.0, 5.0 ), {
+	*     'dtype': 'complex128'
+	* });
+	*
+	* var start = scalar2ndarray( 0, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var end = scalar2ndarray( 2, {
+	*     'dtype': 'generic'
+	* });
+	*
+	* var out = ns.zfill( [ x, alpha, start, end ] );
+	* // returns <ndarray>[ <Complex128>[ 5.0, 5.0 ], <Complex128>[ 5.0, 5.0 ], <Complex128>[ 4.0, -6.0 ], <Complex128>[ 5.0, 7.0 ] ]
+	*/
+	zfill: typeof zfill;
 
 	/**
 	* Returns the first index of a search element in a one-dimensional double-precision complex floating-point ndarray.

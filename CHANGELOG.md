@@ -4,12 +4,14 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-26)
+## Unreleased (2026-09-27)
 
 <section class="features">
 
 ### Features
 
+-   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579)
+-   [`ba57e1b`](https://github.com/stdlib-js/stdlib/commit/ba57e1b2d89d295cdb7a7a964e61d368af63f660) - update `blas/ext` TypeScript declarations [(#15580)](https://github.com/stdlib-js/stdlib/pull/15580)
 -   [`29b06dd`](https://github.com/stdlib-js/stdlib/commit/29b06dd1de7b7217ad1710f81d36b32e79e2cdf7) - add `fillRange` to namespace
 -   [`71a87cf`](https://github.com/stdlib-js/stdlib/commit/71a87cf23466f2e738f8f2e6336cd48e7b0ef606) - add `blas/ext/fill-range` [(#15544)](https://github.com/stdlib-js/stdlib/pull/15544)
 -   [`3123493`](https://github.com/stdlib-js/stdlib/commit/3123493188b01521af78e736f51181abce9c9133) - add `cuany`, `cuevery`, and `cunone` to namespace
@@ -920,6 +922,9 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579) _(by stdlib-bot)_
+-   [`ba57e1b`](https://github.com/stdlib-js/stdlib/commit/ba57e1b2d89d295cdb7a7a964e61d368af63f660) - **feat:** update `blas/ext` TypeScript declarations [(#15580)](https://github.com/stdlib-js/stdlib/pull/15580) _(by stdlib-bot)_
+-   [`f67a19a`](https://github.com/stdlib-js/stdlib/commit/f67a19ad507316f14a9e6078c9983732fa46446d) - **docs:** update namespace table of contents [(#15584)](https://github.com/stdlib-js/stdlib/pull/15584) _(by stdlib-bot)_
 -   [`cda4adf`](https://github.com/stdlib-js/stdlib/commit/cda4adf8fd6a9b577c449d4ac1c5adfd8f98a72b) - **chore:** clean-up [(#15565)](https://github.com/stdlib-js/stdlib/pull/15565) _(by Philipp Burckhardt)_
 -   [`29b06dd`](https://github.com/stdlib-js/stdlib/commit/29b06dd1de7b7217ad1710f81d36b32e79e2cdf7) - **feat:** add `fillRange` to namespace _(by Athan Reines)_
 -   [`836f90b`](https://github.com/stdlib-js/stdlib/commit/836f90b94d3bed822e8994b58e01b795ec414480) - **docs:** fix descriptions [(#15560)](https://github.com/stdlib-js/stdlib/pull/15560) _(by Philipp Burckhardt)_
