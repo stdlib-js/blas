@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389)
 -   [`707016d`](https://github.com/stdlib-js/stdlib/commit/707016d56b82ddb6e47ef8252682f05ec2c67cb0) - add `blas/ext/base/glast-index-less-than-equal` [(#14387)](https://github.com/stdlib-js/stdlib/pull/14387)
 -   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579)
 -   [`ba57e1b`](https://github.com/stdlib-js/stdlib/commit/ba57e1b2d89d295cdb7a7a964e61d368af63f660) - update `blas/ext` TypeScript declarations [(#15580)](https://github.com/stdlib-js/stdlib/pull/15580)
@@ -923,6 +924,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - **feat:** add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389) _(by Muhammad Haris)_
 -   [`707016d`](https://github.com/stdlib-js/stdlib/commit/707016d56b82ddb6e47ef8252682f05ec2c67cb0) - **feat:** add `blas/ext/base/glast-index-less-than-equal` [(#14387)](https://github.com/stdlib-js/stdlib/pull/14387) _(by Muhammad Haris)_
 -   [`3a2019a`](https://github.com/stdlib-js/stdlib/commit/3a2019acac9f9a66da82af2ec52dc16ffee648b4) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15579)](https://github.com/stdlib-js/stdlib/pull/15579) _(by stdlib-bot)_
 -   [`ba57e1b`](https://github.com/stdlib-js/stdlib/commit/ba57e1b2d89d295cdb7a7a964e61d368af63f660) - **feat:** update `blas/ext` TypeScript declarations [(#15580)](https://github.com/stdlib-js/stdlib/pull/15580) _(by stdlib-bot)_
