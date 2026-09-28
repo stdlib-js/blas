@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`65f9a37`](https://github.com/stdlib-js/stdlib/commit/65f9a37882ca9111ec91d23385327a65ca1e43a6) - add various symbols to namespace
+-   [`ed1301b`](https://github.com/stdlib-js/stdlib/commit/ed1301be4f0d8e46ee5a7e0d48333acc17f6ef80) - add various symbols to namespace
+-   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330)
 -   [`3b1defa`](https://github.com/stdlib-js/stdlib/commit/3b1defa5e69e6579f9ac5551efb1aa91f43bb37f) - add C implementation for `blas/ext/base/ndarray/saxpb` [(#15541)](https://github.com/stdlib-js/stdlib/pull/15541)
 -   [`9d41163`](https://github.com/stdlib-js/stdlib/commit/9d4116398b179d3c3b77e0b8bb89b73a1d58b893) - add C implementation for `blas/ext/base/ndarray/daxpb` [(#15570)](https://github.com/stdlib-js/stdlib/pull/15570)
 -   [`c29abc2`](https://github.com/stdlib-js/stdlib/commit/c29abc2bb7bc71908311d9d571cdc5cb2bf541a3) - add C implementation for `blas/ext/base/ndarray/sxsa` [(#15404)](https://github.com/stdlib-js/stdlib/pull/15404)
@@ -931,6 +934,9 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`65f9a37`](https://github.com/stdlib-js/stdlib/commit/65f9a37882ca9111ec91d23385327a65ca1e43a6) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`ed1301b`](https://github.com/stdlib-js/stdlib/commit/ed1301be4f0d8e46ee5a7e0d48333acc17f6ef80) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - **feat:** add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330) _(by MJ)_
 -   [`3b1defa`](https://github.com/stdlib-js/stdlib/commit/3b1defa5e69e6579f9ac5551efb1aa91f43bb37f) - **feat:** add C implementation for `blas/ext/base/ndarray/saxpb` [(#15541)](https://github.com/stdlib-js/stdlib/pull/15541) _(by MJ, Athan Reines)_
 -   [`9d41163`](https://github.com/stdlib-js/stdlib/commit/9d4116398b179d3c3b77e0b8bb89b73a1d58b893) - **feat:** add C implementation for `blas/ext/base/ndarray/daxpb` [(#15570)](https://github.com/stdlib-js/stdlib/pull/15570) _(by MJ)_
 -   [`c29abc2`](https://github.com/stdlib-js/stdlib/commit/c29abc2bb7bc71908311d9d571cdc5cb2bf541a3) - **feat:** add C implementation for `blas/ext/base/ndarray/sxsa` [(#15404)](https://github.com/stdlib-js/stdlib/pull/15404) _(by MJ)_
