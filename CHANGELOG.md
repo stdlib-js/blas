@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`189a054`](https://github.com/stdlib-js/stdlib/commit/189a054672b5b7126dc4fc6feb0fba259e2af828) - add C implementation for `blas/ext/base/ndarray/dnone` [(#15348)](https://github.com/stdlib-js/stdlib/pull/15348)
 -   [`65f9a37`](https://github.com/stdlib-js/stdlib/commit/65f9a37882ca9111ec91d23385327a65ca1e43a6) - add various symbols to namespace
 -   [`ed1301b`](https://github.com/stdlib-js/stdlib/commit/ed1301be4f0d8e46ee5a7e0d48333acc17f6ef80) - add various symbols to namespace
 -   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330)
@@ -934,6 +935,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`189a054`](https://github.com/stdlib-js/stdlib/commit/189a054672b5b7126dc4fc6feb0fba259e2af828) - **feat:** add C implementation for `blas/ext/base/ndarray/dnone` [(#15348)](https://github.com/stdlib-js/stdlib/pull/15348) _(by MJ)_
 -   [`65f9a37`](https://github.com/stdlib-js/stdlib/commit/65f9a37882ca9111ec91d23385327a65ca1e43a6) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`ed1301b`](https://github.com/stdlib-js/stdlib/commit/ed1301be4f0d8e46ee5a7e0d48333acc17f6ef80) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - **feat:** add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330) _(by MJ)_
