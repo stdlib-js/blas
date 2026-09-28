@@ -1009,6 +1009,15 @@ setReadOnly( ns, 'gfillGreaterThan', require( './../../../../ext/base/ndarray/gf
 setReadOnly( ns, 'gfillGreaterThanEqual', require( './../../../../ext/base/ndarray/gfill-greater-than-equal' ) );
 
 /**
+* @name gfillLessThan
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfill-less-than}
+*/
+setReadOnly( ns, 'gfillLessThan', require( './../../../../ext/base/ndarray/gfill-less-than' ) );
+
+/**
 * @name gfillNaN
 * @memberof ns
 * @readonly

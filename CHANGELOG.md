@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - add `gfillLessThan` to namespace
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374)
 -   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341)
 -   [`b8325ae`](https://github.com/stdlib-js/stdlib/commit/b8325ae9e94d6212a11f5472fe72440cd778353a) - add C implementation for `blas/ext/base/ndarray/done-to` [(#15323)](https://github.com/stdlib-js/stdlib/pull/15323)
@@ -940,6 +941,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - **feat:** add `gfillLessThan` to namespace _(by Athan Reines)_
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - **feat:** add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374) _(by Ujjwal Verma, Athan Reines)_
 -   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - **feat:** add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341) _(by Muhammad Haris, Athan Reines)_
 -   [`b8325ae`](https://github.com/stdlib-js/stdlib/commit/b8325ae9e94d6212a11f5472fe72440cd778353a) - **feat:** add C implementation for `blas/ext/base/ndarray/done-to` [(#15323)](https://github.com/stdlib-js/stdlib/pull/15323) _(by Ujjwal Verma, Athan Reines)_
