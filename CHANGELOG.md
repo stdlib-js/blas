@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`415ca7f`](https://github.com/stdlib-js/stdlib/commit/415ca7f3029893ad8bde18f40e465d528dc5e9ff) - add C implementation for `blas/ext/base/ndarray/dwxsa` [(#15596)](https://github.com/stdlib-js/stdlib/pull/15596)
 -   [`f9bc9e4`](https://github.com/stdlib-js/stdlib/commit/f9bc9e44674ca0f2338deb2f8376faa61467b215) - add `blas/ext/base/dleft-pad-edge` [(#15078)](https://github.com/stdlib-js/stdlib/pull/15078)
 -   [`f73bc8b`](https://github.com/stdlib-js/stdlib/commit/f73bc8b77eebbece6566a8ff37205769e3fa7de7) - add `blas/ext/base/gpad-edge` [(#15272)](https://github.com/stdlib-js/stdlib/pull/15272)
 -   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389)
@@ -926,6 +927,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`415ca7f`](https://github.com/stdlib-js/stdlib/commit/415ca7f3029893ad8bde18f40e465d528dc5e9ff) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxsa` [(#15596)](https://github.com/stdlib-js/stdlib/pull/15596) _(by MJ)_
 -   [`f9bc9e4`](https://github.com/stdlib-js/stdlib/commit/f9bc9e44674ca0f2338deb2f8376faa61467b215) - **feat:** add `blas/ext/base/dleft-pad-edge` [(#15078)](https://github.com/stdlib-js/stdlib/pull/15078) _(by Muhammad Haris, Athan Reines)_
 -   [`f73bc8b`](https://github.com/stdlib-js/stdlib/commit/f73bc8b77eebbece6566a8ff37205769e3fa7de7) - **feat:** add `blas/ext/base/gpad-edge` [(#15272)](https://github.com/stdlib-js/stdlib/pull/15272) _(by Muhammad Haris)_
 -   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - **feat:** add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389) _(by Muhammad Haris)_
@@ -1887,7 +1889,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 17 people contributed to this release. Thank you to the following contributors:
+A total of 18 people contributed to this release. Thank you to the following contributors:
 
 -   Arjan-P
 -   Athan Reines
@@ -1896,6 +1898,7 @@ A total of 17 people contributed to this release. Thank you to the following con
 -   JoyBoy
 -   Karan Anand
 -   Kaustubh Patange
+-   MJ
 -   Muhammad Haris
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
