@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e17a3f9`](https://github.com/stdlib-js/stdlib/commit/e17a3f94d01908d9afbe46f94bbf6e1607d5ae99) - add C implementation for `blas/ext/base/ndarray/sany` [(#15274)](https://github.com/stdlib-js/stdlib/pull/15274)
 -   [`d625b8d`](https://github.com/stdlib-js/stdlib/commit/d625b8d99a04f6ab6a9c55728297ceedcebd3d9d) - add C implementation for `blas/ext/base/ndarray/snone` [(#15289)](https://github.com/stdlib-js/stdlib/pull/15289)
 -   [`189a054`](https://github.com/stdlib-js/stdlib/commit/189a054672b5b7126dc4fc6feb0fba259e2af828) - add C implementation for `blas/ext/base/ndarray/dnone` [(#15348)](https://github.com/stdlib-js/stdlib/pull/15348)
 -   [`65f9a37`](https://github.com/stdlib-js/stdlib/commit/65f9a37882ca9111ec91d23385327a65ca1e43a6) - add various symbols to namespace
@@ -936,6 +937,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e17a3f9`](https://github.com/stdlib-js/stdlib/commit/e17a3f94d01908d9afbe46f94bbf6e1607d5ae99) - **feat:** add C implementation for `blas/ext/base/ndarray/sany` [(#15274)](https://github.com/stdlib-js/stdlib/pull/15274) _(by MJ, Athan Reines)_
 -   [`d625b8d`](https://github.com/stdlib-js/stdlib/commit/d625b8d99a04f6ab6a9c55728297ceedcebd3d9d) - **feat:** add C implementation for `blas/ext/base/ndarray/snone` [(#15289)](https://github.com/stdlib-js/stdlib/pull/15289) _(by MJ, Athan Reines)_
 -   [`0fb4a46`](https://github.com/stdlib-js/stdlib/commit/0fb4a468ce7d33171aa78d929cf92d0f59c847ad) - **docs:** fix missing header _(by Athan Reines)_
 -   [`189a054`](https://github.com/stdlib-js/stdlib/commit/189a054672b5b7126dc4fc6feb0fba259e2af828) - **feat:** add C implementation for `blas/ext/base/ndarray/dnone` [(#15348)](https://github.com/stdlib-js/stdlib/pull/15348) _(by MJ)_
