@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`358e1a5`](https://github.com/stdlib-js/stdlib/commit/358e1a58121ab6e7f682b8d56e07fb6806f9d4d3) - add C implementation for `blas/ext/base/ndarray/sone-to` [(#15324)](https://github.com/stdlib-js/stdlib/pull/15324)
 -   [`e0ab571`](https://github.com/stdlib-js/stdlib/commit/e0ab571bce7bbe55b1ab45f4658e70a5f359bd3a) - add `blas/ext/first-index-less-than` [(#14622)](https://github.com/stdlib-js/stdlib/pull/14622)
 -   [`41f7274`](https://github.com/stdlib-js/stdlib/commit/41f72749198c30bdc955e9426adb7cfa84dab953) - add `blas/ext/base/gindex-of-greater-than-sorted` [(#15564)](https://github.com/stdlib-js/stdlib/pull/15564)
 -   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - add `gfillLessThan` to namespace
@@ -943,6 +944,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`358e1a5`](https://github.com/stdlib-js/stdlib/commit/358e1a58121ab6e7f682b8d56e07fb6806f9d4d3) - **feat:** add C implementation for `blas/ext/base/ndarray/sone-to` [(#15324)](https://github.com/stdlib-js/stdlib/pull/15324) _(by Ujjwal Verma, Athan Reines)_
 -   [`0042893`](https://github.com/stdlib-js/stdlib/commit/0042893e2116dc155d3f3f1b112d336cb17351db) - **chore:** update keywords [(#15624)](https://github.com/stdlib-js/stdlib/pull/15624) _(by Philipp Burckhardt)_
 -   [`e0ab571`](https://github.com/stdlib-js/stdlib/commit/e0ab571bce7bbe55b1ab45f4658e70a5f359bd3a) - **feat:** add `blas/ext/first-index-less-than` [(#14622)](https://github.com/stdlib-js/stdlib/pull/14622) _(by Muhammad Haris, Athan Reines)_
 -   [`41f7274`](https://github.com/stdlib-js/stdlib/commit/41f72749198c30bdc955e9426adb7cfa84dab953) - **feat:** add `blas/ext/base/gindex-of-greater-than-sorted` [(#15564)](https://github.com/stdlib-js/stdlib/pull/15564) _(by Sachin Pangal, Athan Reines)_
