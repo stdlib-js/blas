@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-27)
+## Unreleased (2026-09-28)
 
 <section class="features">
 
 ### Features
 
+-   [`f9bc9e4`](https://github.com/stdlib-js/stdlib/commit/f9bc9e44674ca0f2338deb2f8376faa61467b215) - add `blas/ext/base/dleft-pad-edge` [(#15078)](https://github.com/stdlib-js/stdlib/pull/15078)
 -   [`f73bc8b`](https://github.com/stdlib-js/stdlib/commit/f73bc8b77eebbece6566a8ff37205769e3fa7de7) - add `blas/ext/base/gpad-edge` [(#15272)](https://github.com/stdlib-js/stdlib/pull/15272)
 -   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389)
 -   [`707016d`](https://github.com/stdlib-js/stdlib/commit/707016d56b82ddb6e47ef8252682f05ec2c67cb0) - add `blas/ext/base/glast-index-less-than-equal` [(#14387)](https://github.com/stdlib-js/stdlib/pull/14387)
@@ -925,6 +926,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f9bc9e4`](https://github.com/stdlib-js/stdlib/commit/f9bc9e44674ca0f2338deb2f8376faa61467b215) - **feat:** add `blas/ext/base/dleft-pad-edge` [(#15078)](https://github.com/stdlib-js/stdlib/pull/15078) _(by Muhammad Haris, Athan Reines)_
 -   [`f73bc8b`](https://github.com/stdlib-js/stdlib/commit/f73bc8b77eebbece6566a8ff37205769e3fa7de7) - **feat:** add `blas/ext/base/gpad-edge` [(#15272)](https://github.com/stdlib-js/stdlib/pull/15272) _(by Muhammad Haris)_
 -   [`7e39d3b`](https://github.com/stdlib-js/stdlib/commit/7e39d3b67bcea412c305babd05b36bc47816ef64) - **feat:** add `blas/ext/base/gfill-less-than-equal` [(#14389)](https://github.com/stdlib-js/stdlib/pull/14389) _(by Muhammad Haris)_
 -   [`707016d`](https://github.com/stdlib-js/stdlib/commit/707016d56b82ddb6e47ef8252682f05ec2c67cb0) - **feat:** add `blas/ext/base/glast-index-less-than-equal` [(#14387)](https://github.com/stdlib-js/stdlib/pull/14387) _(by Muhammad Haris)_
