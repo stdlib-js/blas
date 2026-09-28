@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`41f7274`](https://github.com/stdlib-js/stdlib/commit/41f72749198c30bdc955e9426adb7cfa84dab953) - add `blas/ext/base/gindex-of-greater-than-sorted` [(#15564)](https://github.com/stdlib-js/stdlib/pull/15564)
 -   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - add `gfillLessThan` to namespace
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374)
 -   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341)
@@ -941,6 +942,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`41f7274`](https://github.com/stdlib-js/stdlib/commit/41f72749198c30bdc955e9426adb7cfa84dab953) - **feat:** add `blas/ext/base/gindex-of-greater-than-sorted` [(#15564)](https://github.com/stdlib-js/stdlib/pull/15564) _(by Sachin Pangal, Athan Reines)_
 -   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - **feat:** add `gfillLessThan` to namespace _(by Athan Reines)_
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - **feat:** add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374) _(by Ujjwal Verma, Athan Reines)_
 -   [`3dc8a4f`](https://github.com/stdlib-js/stdlib/commit/3dc8a4f3150ce660918c8ef5c7188b301c4f1ebd) - **feat:** add `blas/ext/base/ndarray/gfill-less-than` [(#15341)](https://github.com/stdlib-js/stdlib/pull/15341) _(by Muhammad Haris, Athan Reines)_
@@ -1918,7 +1920,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 19 people contributed to this release. Thank you to the following contributors:
+A total of 20 people contributed to this release. Thank you to the following contributors:
 
 -   Arjan-P
 -   Athan Reines
@@ -1932,6 +1934,7 @@ A total of 19 people contributed to this release. Thank you to the following con
 -   Philipp Burckhardt
 -   Prashant Kumar Yadav
 -   Rayan Salhab
+-   Sachin Pangal
 -   Sutar Siddhram Kashinath
 -   Suyog
 -   Ujjwal Verma
