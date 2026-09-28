@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b8325ae`](https://github.com/stdlib-js/stdlib/commit/b8325ae9e94d6212a11f5472fe72440cd778353a) - add C implementation for `blas/ext/base/ndarray/done-to` [(#15323)](https://github.com/stdlib-js/stdlib/pull/15323)
 -   [`e17a3f9`](https://github.com/stdlib-js/stdlib/commit/e17a3f94d01908d9afbe46f94bbf6e1607d5ae99) - add C implementation for `blas/ext/base/ndarray/sany` [(#15274)](https://github.com/stdlib-js/stdlib/pull/15274)
 -   [`d625b8d`](https://github.com/stdlib-js/stdlib/commit/d625b8d99a04f6ab6a9c55728297ceedcebd3d9d) - add C implementation for `blas/ext/base/ndarray/snone` [(#15289)](https://github.com/stdlib-js/stdlib/pull/15289)
 -   [`189a054`](https://github.com/stdlib-js/stdlib/commit/189a054672b5b7126dc4fc6feb0fba259e2af828) - add C implementation for `blas/ext/base/ndarray/dnone` [(#15348)](https://github.com/stdlib-js/stdlib/pull/15348)
@@ -937,6 +938,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b8325ae`](https://github.com/stdlib-js/stdlib/commit/b8325ae9e94d6212a11f5472fe72440cd778353a) - **feat:** add C implementation for `blas/ext/base/ndarray/done-to` [(#15323)](https://github.com/stdlib-js/stdlib/pull/15323) _(by Ujjwal Verma, Athan Reines)_
 -   [`e17a3f9`](https://github.com/stdlib-js/stdlib/commit/e17a3f94d01908d9afbe46f94bbf6e1607d5ae99) - **feat:** add C implementation for `blas/ext/base/ndarray/sany` [(#15274)](https://github.com/stdlib-js/stdlib/pull/15274) _(by MJ, Athan Reines)_
 -   [`d625b8d`](https://github.com/stdlib-js/stdlib/commit/d625b8d99a04f6ab6a9c55728297ceedcebd3d9d) - **feat:** add C implementation for `blas/ext/base/ndarray/snone` [(#15289)](https://github.com/stdlib-js/stdlib/pull/15289) _(by MJ, Athan Reines)_
 -   [`0fb4a46`](https://github.com/stdlib-js/stdlib/commit/0fb4a468ce7d33171aa78d929cf92d0f59c847ad) - **docs:** fix missing header _(by Athan Reines)_
@@ -1910,7 +1912,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 18 people contributed to this release. Thank you to the following contributors:
+A total of 19 people contributed to this release. Thank you to the following contributors:
 
 -   Arjan-P
 -   Athan Reines
@@ -1926,6 +1928,7 @@ A total of 18 people contributed to this release. Thank you to the following con
 -   Rayan Salhab
 -   Sutar Siddhram Kashinath
 -   Suyog
+-   Ujjwal Verma
 -   anee3
 -   mantrapatel05
 -   pragyan shankar
