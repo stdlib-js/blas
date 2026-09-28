@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330)
+-   [`3b1defa`](https://github.com/stdlib-js/stdlib/commit/3b1defa5e69e6579f9ac5551efb1aa91f43bb37f) - add C implementation for `blas/ext/base/ndarray/saxpb` [(#15541)](https://github.com/stdlib-js/stdlib/pull/15541)
 -   [`9d41163`](https://github.com/stdlib-js/stdlib/commit/9d4116398b179d3c3b77e0b8bb89b73a1d58b893) - add C implementation for `blas/ext/base/ndarray/daxpb` [(#15570)](https://github.com/stdlib-js/stdlib/pull/15570)
 -   [`c29abc2`](https://github.com/stdlib-js/stdlib/commit/c29abc2bb7bc71908311d9d571cdc5cb2bf541a3) - add C implementation for `blas/ext/base/ndarray/sxsa` [(#15404)](https://github.com/stdlib-js/stdlib/pull/15404)
 -   [`0e93ce8`](https://github.com/stdlib-js/stdlib/commit/0e93ce8f3ae395ffaa800e97dd06303fa8780e67) - add C implementation for `blas/ext/base/ndarray/dxsa` [(#15431)](https://github.com/stdlib-js/stdlib/pull/15431)
@@ -930,6 +932,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`38fa95c`](https://github.com/stdlib-js/stdlib/commit/38fa95cfd5a15319b4f5d442aaee755bb2e1b7e0) - **feat:** add C implementation for `blas/ext/base/ndarray/dany` [(#15330)](https://github.com/stdlib-js/stdlib/pull/15330) _(by MJ)_
+-   [`3b1defa`](https://github.com/stdlib-js/stdlib/commit/3b1defa5e69e6579f9ac5551efb1aa91f43bb37f) - **feat:** add C implementation for `blas/ext/base/ndarray/saxpb` [(#15541)](https://github.com/stdlib-js/stdlib/pull/15541) _(by MJ, Athan Reines)_
 -   [`9d41163`](https://github.com/stdlib-js/stdlib/commit/9d4116398b179d3c3b77e0b8bb89b73a1d58b893) - **feat:** add C implementation for `blas/ext/base/ndarray/daxpb` [(#15570)](https://github.com/stdlib-js/stdlib/pull/15570) _(by MJ)_
 -   [`c29abc2`](https://github.com/stdlib-js/stdlib/commit/c29abc2bb7bc71908311d9d571cdc5cb2bf541a3) - **feat:** add C implementation for `blas/ext/base/ndarray/sxsa` [(#15404)](https://github.com/stdlib-js/stdlib/pull/15404) _(by MJ)_
 -   [`0e93ce8`](https://github.com/stdlib-js/stdlib/commit/0e93ce8f3ae395ffaa800e97dd06303fa8780e67) - **feat:** add C implementation for `blas/ext/base/ndarray/dxsa` [(#15431)](https://github.com/stdlib-js/stdlib/pull/15431) _(by MJ)_

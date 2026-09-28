@@ -20,18 +20,24 @@
 
 // MODULES //
 
+var resolve = require( 'path' ).resolve;
 var bench = require( '@stdlib/bench' );
-var zeros = require( '@stdlib/ndarray/zeros' );
+var uniform = require( '@stdlib/random/uniform' );
+var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var format = require( '@stdlib/string/format' );
+var tryRequire = require( '@stdlib/utils/try-require' );
 var pkg = require( './../package.json' ).name;
-var dany = require( './../lib/main.js' );
 
 
 // VARIABLES //
 
+var saxpb = tryRequire( resolve( __dirname, './../lib/native.js' ) );
+var opts = {
+	'skip': ( saxpb instanceof Error )
+};
 var options = {
-	'dtype': 'float64'
+	'dtype': 'float32'
 };
 
 
@@ -41,11 +47,17 @@ var options = {
 * Creates a benchmark function.
 *
 * @private
-* @param {PositiveInteger} len - array length
+* @param {PositiveInteger} len - ndarray length
 * @returns {Function} benchmark function
 */
 function createBenchmark( len ) {
-	var x = zeros( [ len ], options );
+	var alpha;
+	var beta;
+	var x;
+
+	x = uniform( [ len ], -100.0, 100.0, options );
+	alpha = scalar2ndarray( 5.0, options );
+	beta = scalar2ndarray( 3.0, options );
 	return benchmark;
 
 	/**
@@ -60,14 +72,14 @@ function createBenchmark( len ) {
 
 		b.tic();
 		for ( i = 0; i < b.iterations; i++ ) {
-			out = dany( [ x ] );
-			if ( typeof out !== 'boolean' ) {
-				b.fail( 'should return a boolean' );
+			out = saxpb( [ x, alpha, beta ] );
+			if ( typeof out !== 'object' ) {
+				b.fail( 'should return an ndarray' );
 			}
 		}
 		b.toc();
-		if ( typeof out !== 'boolean' ) {
-			b.fail( 'should return a boolean' );
+		if ( typeof out !== 'object' ) {
+			b.fail( 'should return an ndarray' );
 		}
 		b.pass( 'benchmark finished' );
 		b.end();
@@ -95,7 +107,7 @@ function main() {
 	for ( i = min; i <= max; i++ ) {
 		len = pow( 10, i );
 		f = createBenchmark( len );
-		bench( format( '%s:len=%d', pkg, len ), f );
+		bench( format( '%s::native:len=%d', pkg, len ), opts, f );
 	}
 }
 
