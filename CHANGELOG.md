@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e0ab571`](https://github.com/stdlib-js/stdlib/commit/e0ab571bce7bbe55b1ab45f4658e70a5f359bd3a) - add `blas/ext/first-index-less-than` [(#14622)](https://github.com/stdlib-js/stdlib/pull/14622)
 -   [`41f7274`](https://github.com/stdlib-js/stdlib/commit/41f72749198c30bdc955e9426adb7cfa84dab953) - add `blas/ext/base/gindex-of-greater-than-sorted` [(#15564)](https://github.com/stdlib-js/stdlib/pull/15564)
 -   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - add `gfillLessThan` to namespace
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374)
@@ -942,6 +943,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e0ab571`](https://github.com/stdlib-js/stdlib/commit/e0ab571bce7bbe55b1ab45f4658e70a5f359bd3a) - **feat:** add `blas/ext/first-index-less-than` [(#14622)](https://github.com/stdlib-js/stdlib/pull/14622) _(by Muhammad Haris, Athan Reines)_
 -   [`41f7274`](https://github.com/stdlib-js/stdlib/commit/41f72749198c30bdc955e9426adb7cfa84dab953) - **feat:** add `blas/ext/base/gindex-of-greater-than-sorted` [(#15564)](https://github.com/stdlib-js/stdlib/pull/15564) _(by Sachin Pangal, Athan Reines)_
 -   [`7f29c57`](https://github.com/stdlib-js/stdlib/commit/7f29c575d458850b47962266cd28f1fe69a67d8c) - **feat:** add `gfillLessThan` to namespace _(by Athan Reines)_
 -   [`4f735dd`](https://github.com/stdlib-js/stdlib/commit/4f735dd4e4239e35b579b1d6844157e2432c10a2) - **feat:** add C implementation for `blas/ext/base/ndarray/dzero-to` [(#15374)](https://github.com/stdlib-js/stdlib/pull/15374) _(by Ujjwal Verma, Athan Reines)_
