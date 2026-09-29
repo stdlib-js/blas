@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`43d4aeb`](https://github.com/stdlib-js/stdlib/commit/43d4aebdf9bba309b7d93a1a2bf263f34c455e98) - add `blas/ext/base/ndarray/gcusome` [(#14563)](https://github.com/stdlib-js/stdlib/pull/14563)
 -   [`be4644b`](https://github.com/stdlib-js/stdlib/commit/be4644b98c2364845786a17316b5697187c13444) - add C implementation for `blas/ext/base/ndarray/zone-to` [(#15326)](https://github.com/stdlib-js/stdlib/pull/15326)
 -   [`358e1a5`](https://github.com/stdlib-js/stdlib/commit/358e1a58121ab6e7f682b8d56e07fb6806f9d4d3) - add C implementation for `blas/ext/base/ndarray/sone-to` [(#15324)](https://github.com/stdlib-js/stdlib/pull/15324)
 -   [`e0ab571`](https://github.com/stdlib-js/stdlib/commit/e0ab571bce7bbe55b1ab45f4658e70a5f359bd3a) - add `blas/ext/first-index-less-than` [(#14622)](https://github.com/stdlib-js/stdlib/pull/14622)
@@ -945,6 +946,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`43d4aeb`](https://github.com/stdlib-js/stdlib/commit/43d4aebdf9bba309b7d93a1a2bf263f34c455e98) - **feat:** add `blas/ext/base/ndarray/gcusome` [(#14563)](https://github.com/stdlib-js/stdlib/pull/14563) _(by Muhammad Haris)_
 -   [`8c89486`](https://github.com/stdlib-js/stdlib/commit/8c8948623c4a7fad0a9c1babe9df65db81c86adf) - **docs:** fix type _(by Athan Reines)_
 -   [`be4644b`](https://github.com/stdlib-js/stdlib/commit/be4644b98c2364845786a17316b5697187c13444) - **feat:** add C implementation for `blas/ext/base/ndarray/zone-to` [(#15326)](https://github.com/stdlib-js/stdlib/pull/15326) _(by Ujjwal Verma, Athan Reines)_
 -   [`358e1a5`](https://github.com/stdlib-js/stdlib/commit/358e1a58121ab6e7f682b8d56e07fb6806f9d4d3) - **feat:** add C implementation for `blas/ext/base/ndarray/sone-to` [(#15324)](https://github.com/stdlib-js/stdlib/pull/15324) _(by Ujjwal Verma, Athan Reines)_
