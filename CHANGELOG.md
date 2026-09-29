@@ -948,7 +948,6 @@ A total of 5 issues were closed in this release:
 
 <details>
 
--   [`886edaa`](https://github.com/stdlib-js/stdlib/commit/886edaa2484d47494540ba535ccea6df9b1f96ad) - **docs:** update namespace table of contents [(#15643)](https://github.com/stdlib-js/stdlib/pull/15643) _(by stdlib-bot)_
 -   [`9c3cf3d`](https://github.com/stdlib-js/stdlib/commit/9c3cf3dc01c7e478fe5863dd277292860b323f77) - **feat:** update `blas/ext/base` TypeScript declarations [(#15640)](https://github.com/stdlib-js/stdlib/pull/15640) _(by stdlib-bot)_
 -   [`735504a`](https://github.com/stdlib-js/stdlib/commit/735504ad4a239b6ba71dd49c1524b534ab9a7fbd) - **docs:** reorder content _(by Athan Reines)_
 -   [`e93fecd`](https://github.com/stdlib-js/stdlib/commit/e93fecdcf0b76f2c3f929c87856d5acdd0879dc3) - **feat:** add C implementation for `blas/ext/base/ndarray/swxsa` [(#15626)](https://github.com/stdlib-js/stdlib/pull/15626) _(by MJ, Athan Reines)_
