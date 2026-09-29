@@ -100,13 +100,13 @@ setReadOnly( ns, 'cunone', require( './../../ext/cunone' ) );
 setReadOnly( ns, 'cusum', require( './../../ext/cusum' ) );
 
 /**
-* @name fillRange
+* @name fillBetween
 * @memberof ns
 * @readonly
 * @type {Function}
-* @see {@link module:@stdlib/blas/ext/fill-range}
+* @see {@link module:@stdlib/blas/ext/fill-between}
 */
-setReadOnly( ns, 'fillRange', require( './../../ext/fill-range' ) );
+setReadOnly( ns, 'fillBetween', require( './../../ext/fill-between' ) );
 
 /**
 * @name findIndex

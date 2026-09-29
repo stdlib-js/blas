@@ -710,6 +710,7 @@
 
 ### Bug Fixes
 
+-   [`0c2ab03`](https://github.com/stdlib-js/stdlib/commit/0c2ab03e53f24a8a5cab40d71e102289bbc0d286) - rename package and namespace symbol
 -   [`f29d4c7`](https://github.com/stdlib-js/stdlib/commit/f29d4c7fc763d72e3f159dfe95b84dcfa9977fcb) - ensure consistent behavior between JavaScript and C
 -   [`2306e85`](https://github.com/stdlib-js/stdlib/commit/2306e85569f99d02011f49d1a3fa50ff2d87dec5) - ensure consistent behavior between JavaScript and C
 -   [`ebbf2de`](https://github.com/stdlib-js/stdlib/commit/ebbf2de9f235cc98990c0cd3b020beac567667fa) - pass const qualified views [(#14052)](https://github.com/stdlib-js/stdlib/pull/14052)
@@ -949,6 +950,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0c2ab03`](https://github.com/stdlib-js/stdlib/commit/0c2ab03e53f24a8a5cab40d71e102289bbc0d286) - **fix:** rename package and namespace symbol _(by Athan Reines)_
 -   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639) _(by stdlib-bot)_
 -   [`886edaa`](https://github.com/stdlib-js/stdlib/commit/886edaa2484d47494540ba535ccea6df9b1f96ad) - **docs:** update namespace table of contents [(#15643)](https://github.com/stdlib-js/stdlib/pull/15643) _(by stdlib-bot)_
 -   [`9c3cf3d`](https://github.com/stdlib-js/stdlib/commit/9c3cf3dc01c7e478fe5863dd277292860b323f77) - **feat:** update `blas/ext/base` TypeScript declarations [(#15640)](https://github.com/stdlib-js/stdlib/pull/15640) _(by stdlib-bot)_
