@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617)
 -   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639)
 -   [`9c3cf3d`](https://github.com/stdlib-js/stdlib/commit/9c3cf3dc01c7e478fe5863dd277292860b323f77) - update `blas/ext/base` TypeScript declarations [(#15640)](https://github.com/stdlib-js/stdlib/pull/15640)
 -   [`e93fecd`](https://github.com/stdlib-js/stdlib/commit/e93fecdcf0b76f2c3f929c87856d5acdd0879dc3) - add C implementation for `blas/ext/base/ndarray/swxsa` [(#15626)](https://github.com/stdlib-js/stdlib/pull/15626)
@@ -950,6 +951,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - **feat:** add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617) _(by Muhammad Haris, Athan Reines)_
 -   [`0c2ab03`](https://github.com/stdlib-js/stdlib/commit/0c2ab03e53f24a8a5cab40d71e102289bbc0d286) - **fix:** rename package and namespace symbol _(by Athan Reines)_
 -   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639) _(by stdlib-bot)_
 -   [`886edaa`](https://github.com/stdlib-js/stdlib/commit/886edaa2484d47494540ba535ccea6df9b1f96ad) - **docs:** update namespace table of contents [(#15643)](https://github.com/stdlib-js/stdlib/pull/15643) _(by stdlib-bot)_
