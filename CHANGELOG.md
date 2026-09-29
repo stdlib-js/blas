@@ -947,6 +947,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`735504a`](https://github.com/stdlib-js/stdlib/commit/735504ad4a239b6ba71dd49c1524b534ab9a7fbd) - **docs:** reorder content _(by Athan Reines)_
 -   [`e93fecd`](https://github.com/stdlib-js/stdlib/commit/e93fecdcf0b76f2c3f929c87856d5acdd0879dc3) - **feat:** add C implementation for `blas/ext/base/ndarray/swxsa` [(#15626)](https://github.com/stdlib-js/stdlib/pull/15626) _(by MJ, Athan Reines)_
 -   [`43d4aeb`](https://github.com/stdlib-js/stdlib/commit/43d4aebdf9bba309b7d93a1a2bf263f34c455e98) - **feat:** add `blas/ext/base/ndarray/gcusome` [(#14563)](https://github.com/stdlib-js/stdlib/pull/14563) _(by Muhammad Haris)_
 -   [`8c89486`](https://github.com/stdlib-js/stdlib/commit/8c8948623c4a7fad0a9c1babe9df65db81c86adf) - **docs:** fix type _(by Athan Reines)_
