@@ -30,7 +30,7 @@ var sindexOfTruthy = require( './../../../../ext/base/sindex-of-truthy' ).ndarra
 *
 * ## Notes
 *
-* -   If unable to find a truthy element, the function returns `-1`.
+* -   If the function is unable to find a truthy element, the function returns `-1`.
 * -   The function explicitly treats `NaN` values as falsy.
 *
 * @param {PositiveInteger} N - number of indexed elements
