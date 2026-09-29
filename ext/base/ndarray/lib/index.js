@@ -910,6 +910,15 @@ setReadOnly( ns, 'gcuevery', require( './../../../../ext/base/ndarray/gcuevery' 
 setReadOnly( ns, 'gcunone', require( './../../../../ext/base/ndarray/gcunone' ) );
 
 /**
+* @name gcusome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcusome}
+*/
+setReadOnly( ns, 'gcusome', require( './../../../../ext/base/ndarray/gcusome' ) );
+
+/**
 * @name gcusum
 * @memberof ns
 * @readonly
@@ -1043,6 +1052,15 @@ setReadOnly( ns, 'gfillNotEqual', require( './../../../../ext/base/ndarray/gfill
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gfind-index}
 */
 setReadOnly( ns, 'gfindIndex', require( './../../../../ext/base/ndarray/gfind-index' ) );
+
+/**
+* @name gfindIndexBetween
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfind-index-between}
+*/
+setReadOnly( ns, 'gfindIndexBetween', require( './../../../../ext/base/ndarray/gfind-index-between' ) );
 
 /**
 * @name gfindLastIndex

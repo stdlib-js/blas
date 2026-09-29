@@ -10,6 +10,9 @@
 
 ### Features
 
+-   [`8b2839d`](https://github.com/stdlib-js/stdlib/commit/8b2839d8cf63a3bbfcbf7f9dbdac56540e85784c) - add `gindexOfGreaterThanSorted` to namespace
+-   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - add `gcusome` to namespace
+-   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - add `gfindIndexBetween` to namespace
 -   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617)
 -   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639)
 -   [`9c3cf3d`](https://github.com/stdlib-js/stdlib/commit/9c3cf3dc01c7e478fe5863dd277292860b323f77) - update `blas/ext/base` TypeScript declarations [(#15640)](https://github.com/stdlib-js/stdlib/pull/15640)
@@ -951,6 +954,9 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`8b2839d`](https://github.com/stdlib-js/stdlib/commit/8b2839d8cf63a3bbfcbf7f9dbdac56540e85784c) - **feat:** add `gindexOfGreaterThanSorted` to namespace _(by Athan Reines)_
+-   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - **feat:** add `gcusome` to namespace _(by Athan Reines)_
+-   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - **feat:** add `gfindIndexBetween` to namespace _(by Athan Reines)_
 -   [`45e44be`](https://github.com/stdlib-js/stdlib/commit/45e44be0f2958af152944528f29a947afa8a1539) - **feat:** add `blas/ext/base/ndarray/gfind-index-between` [(#14617)](https://github.com/stdlib-js/stdlib/pull/14617) _(by Muhammad Haris, Athan Reines)_
 -   [`0c2ab03`](https://github.com/stdlib-js/stdlib/commit/0c2ab03e53f24a8a5cab40d71e102289bbc0d286) - **fix:** rename package and namespace symbol _(by Athan Reines)_
 -   [`07acaba`](https://github.com/stdlib-js/stdlib/commit/07acaba9a37622fbef722b94ea53d7e4d293a35f) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15639)](https://github.com/stdlib-js/stdlib/pull/15639) _(by stdlib-bot)_
