@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-29)
+## Unreleased (2026-09-30)
 
 <section class="features">
 
 ### Features
 
+-   [`0f9e3ba`](https://github.com/stdlib-js/stdlib/commit/0f9e3bab5405ffc0ca12d871414f2b82a839ac45) - add `blas/ext/find-index-between` [(#15647)](https://github.com/stdlib-js/stdlib/pull/15647)
 -   [`8b2839d`](https://github.com/stdlib-js/stdlib/commit/8b2839d8cf63a3bbfcbf7f9dbdac56540e85784c) - add `gindexOfGreaterThanSorted` to namespace
 -   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - add `gcusome` to namespace
 -   [`1ed9d8f`](https://github.com/stdlib-js/stdlib/commit/1ed9d8f54d375bd9ae408098b406f0007b450e85) - add `gfindIndexBetween` to namespace
@@ -954,6 +955,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0f9e3ba`](https://github.com/stdlib-js/stdlib/commit/0f9e3bab5405ffc0ca12d871414f2b82a839ac45) - **feat:** add `blas/ext/find-index-between` [(#15647)](https://github.com/stdlib-js/stdlib/pull/15647) _(by Muhammad Haris, Athan Reines)_
 -   [`67c1633`](https://github.com/stdlib-js/stdlib/commit/67c1633c999488e1807bb2aa77183662c6eb387b) - **chore:** fix inconsistencies across packages in `blas/ext/base*` [(#15146)](https://github.com/stdlib-js/stdlib/pull/15146) _(by Muhammad Haris, Athan Reines)_
 -   [`8b2839d`](https://github.com/stdlib-js/stdlib/commit/8b2839d8cf63a3bbfcbf7f9dbdac56540e85784c) - **feat:** add `gindexOfGreaterThanSorted` to namespace _(by Athan Reines)_
 -   [`7b3fa2e`](https://github.com/stdlib-js/stdlib/commit/7b3fa2ecaae1d495c5bd4e6949def07be350ca85) - **feat:** add `gcusome` to namespace _(by Athan Reines)_
