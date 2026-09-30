@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420)
 -   [`124399a`](https://github.com/stdlib-js/stdlib/commit/124399a9816920bb0ededacbdd49d969821a2e8a) - add `blas/ext/index-of-truthy` [(#14324)](https://github.com/stdlib-js/stdlib/pull/14324)
 -   [`bb95991`](https://github.com/stdlib-js/stdlib/commit/bb959917bec1157648ae871ec7d082797ba351af) - add `blas/ext/base/sleft-pad-circular` [(#15041)](https://github.com/stdlib-js/stdlib/pull/15041)
 -   [`144f892`](https://github.com/stdlib-js/stdlib/commit/144f8928308e744d70237d16796d88b80c26cad8) - add `blas/ext/base/sleft-pad-edge` [(#15047)](https://github.com/stdlib-js/stdlib/pull/15047)
@@ -963,6 +964,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - **feat:** add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420) _(by Muhammad Haris, Athan Reines)_
 -   [`124399a`](https://github.com/stdlib-js/stdlib/commit/124399a9816920bb0ededacbdd49d969821a2e8a) - **feat:** add `blas/ext/index-of-truthy` [(#14324)](https://github.com/stdlib-js/stdlib/pull/14324) _(by Muhammad Haris, Athan Reines)_
 -   [`64688d2`](https://github.com/stdlib-js/stdlib/commit/64688d27398860c1ca5dc1a009ebce65d7da5a1e) - **style:** remove empty line _(by Athan Reines)_
 -   [`bb95991`](https://github.com/stdlib-js/stdlib/commit/bb959917bec1157648ae871ec7d082797ba351af) - **feat:** add `blas/ext/base/sleft-pad-circular` [(#15041)](https://github.com/stdlib-js/stdlib/pull/15041) _(by Muhammad Haris)_
