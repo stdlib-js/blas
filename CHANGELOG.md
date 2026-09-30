@@ -10,6 +10,10 @@
 
 ### Features
 
+-   [`e8a009b`](https://github.com/stdlib-js/stdlib/commit/e8a009b19368617e45fa06a71e455b47f978f963) - add `findIndexBetween` and `firstIndexLessThan` to namespace
+-   [`669ac18`](https://github.com/stdlib-js/stdlib/commit/669ac185c46ab2f57299089fac1c075860714d9a) - add `indexOfTruthy` to namespace
+-   [`2fc8fd3`](https://github.com/stdlib-js/stdlib/commit/2fc8fd39e58afe793c9719f4cc0c83a8571f7798) - add `sleftPadCircular` and `sleftPadEdge` to namespace
+-   [`a63a27e`](https://github.com/stdlib-js/stdlib/commit/a63a27e7354aa8aaa43a8bf37b57e47deb532a74) - add `gindexOfAlmostEqual` to namespace
 -   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420)
 -   [`124399a`](https://github.com/stdlib-js/stdlib/commit/124399a9816920bb0ededacbdd49d969821a2e8a) - add `blas/ext/index-of-truthy` [(#14324)](https://github.com/stdlib-js/stdlib/pull/14324)
 -   [`bb95991`](https://github.com/stdlib-js/stdlib/commit/bb959917bec1157648ae871ec7d082797ba351af) - add `blas/ext/base/sleft-pad-circular` [(#15041)](https://github.com/stdlib-js/stdlib/pull/15041)
@@ -964,6 +968,10 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e8a009b`](https://github.com/stdlib-js/stdlib/commit/e8a009b19368617e45fa06a71e455b47f978f963) - **feat:** add `findIndexBetween` and `firstIndexLessThan` to namespace _(by Athan Reines)_
+-   [`669ac18`](https://github.com/stdlib-js/stdlib/commit/669ac185c46ab2f57299089fac1c075860714d9a) - **feat:** add `indexOfTruthy` to namespace _(by Athan Reines)_
+-   [`2fc8fd3`](https://github.com/stdlib-js/stdlib/commit/2fc8fd39e58afe793c9719f4cc0c83a8571f7798) - **feat:** add `sleftPadCircular` and `sleftPadEdge` to namespace _(by Athan Reines)_
+-   [`a63a27e`](https://github.com/stdlib-js/stdlib/commit/a63a27e7354aa8aaa43a8bf37b57e47deb532a74) - **feat:** add `gindexOfAlmostEqual` to namespace _(by Athan Reines)_
 -   [`f468ab7`](https://github.com/stdlib-js/stdlib/commit/f468ab744697136e0224ffd4b274823a99df80e2) - **refactor:** add support for descending order [(#15681)](https://github.com/stdlib-js/stdlib/pull/15681) _(by Sachin Pangal, Athan Reines)_
 -   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - **feat:** add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420) _(by Muhammad Haris, Athan Reines)_
 -   [`124399a`](https://github.com/stdlib-js/stdlib/commit/124399a9816920bb0ededacbdd49d969821a2e8a) - **feat:** add `blas/ext/index-of-truthy` [(#14324)](https://github.com/stdlib-js/stdlib/pull/14324) _(by Muhammad Haris, Athan Reines)_

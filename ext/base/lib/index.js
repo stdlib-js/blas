@@ -1839,6 +1839,15 @@ setReadOnly( ns, 'gfirstIndexNotEqual', require( './../../../ext/base/gfirst-ind
 setReadOnly( ns, 'gindexOf', require( './../../../ext/base/gindex-of' ) );
 
 /**
+* @name gindexOfAlmostEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-almost-equal}
+*/
+setReadOnly( ns, 'gindexOfAlmostEqual', require( './../../../ext/base/gindex-of-almost-equal' ) );
+
+/**
 * @name gindexOfAlmostSameValue
 * @memberof ns
 * @readonly
@@ -3043,6 +3052,24 @@ setReadOnly( ns, 'slastIndexOfRow', require( './../../../ext/base/slast-index-of
 * @see {@link module:@stdlib/blas/ext/base/slast-index-of-truthy}
 */
 setReadOnly( ns, 'slastIndexOfTruthy', require( './../../../ext/base/slast-index-of-truthy' ) );
+
+/**
+* @name sleftPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sleft-pad-circular}
+*/
+setReadOnly( ns, 'sleftPadCircular', require( './../../../ext/base/sleft-pad-circular' ) );
+
+/**
+* @name sleftPadEdge
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sleft-pad-edge}
+*/
+setReadOnly( ns, 'sleftPadEdge', require( './../../../ext/base/sleft-pad-edge' ) );
 
 /**
 * @name slinspace
