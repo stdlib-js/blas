@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`cdddef9`](https://github.com/stdlib-js/stdlib/commit/cdddef96df6bc67689057965b695ae42e298f8dc) - add `blas/ext/base/ndarray/zwapx` [(#15697)](https://github.com/stdlib-js/stdlib/pull/15697)
 -   [`614b112`](https://github.com/stdlib-js/stdlib/commit/614b112d04911745589049560eaa7817597048c1) - add `blas/ext/base/ndarray/gwax` [(#15705)](https://github.com/stdlib-js/stdlib/pull/15705)
 -   [`d996b66`](https://github.com/stdlib-js/stdlib/commit/d996b66ea3acc8adbc1fc4c32ec7fdf45295e428) - add `blas/ext/base/ndarray/cwax` [(#15709)](https://github.com/stdlib-js/stdlib/pull/15709)
 -   [`9ce4dc4`](https://github.com/stdlib-js/stdlib/commit/9ce4dc4170f7e167a8e6ea0168b08153dae2cdc8) - add `blas/ext/base/ndarray/gwapx` [(#15694)](https://github.com/stdlib-js/stdlib/pull/15694)
@@ -971,6 +972,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`cdddef9`](https://github.com/stdlib-js/stdlib/commit/cdddef96df6bc67689057965b695ae42e298f8dc) - **feat:** add `blas/ext/base/ndarray/zwapx` [(#15697)](https://github.com/stdlib-js/stdlib/pull/15697) _(by Karan Anand)_
 -   [`614b112`](https://github.com/stdlib-js/stdlib/commit/614b112d04911745589049560eaa7817597048c1) - **feat:** add `blas/ext/base/ndarray/gwax` [(#15705)](https://github.com/stdlib-js/stdlib/pull/15705) _(by Karan Anand)_
 -   [`d996b66`](https://github.com/stdlib-js/stdlib/commit/d996b66ea3acc8adbc1fc4c32ec7fdf45295e428) - **feat:** add `blas/ext/base/ndarray/cwax` [(#15709)](https://github.com/stdlib-js/stdlib/pull/15709) _(by Karan Anand)_
 -   [`9ce4dc4`](https://github.com/stdlib-js/stdlib/commit/9ce4dc4170f7e167a8e6ea0168b08153dae2cdc8) - **feat:** add `blas/ext/base/ndarray/gwapx` [(#15694)](https://github.com/stdlib-js/stdlib/pull/15694) _(by Karan Anand)_
