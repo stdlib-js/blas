@@ -964,6 +964,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f468ab7`](https://github.com/stdlib-js/stdlib/commit/f468ab744697136e0224ffd4b274823a99df80e2) - **refactor:** add support for descending order [(#15681)](https://github.com/stdlib-js/stdlib/pull/15681) _(by Sachin Pangal, Athan Reines)_
 -   [`aefdffc`](https://github.com/stdlib-js/stdlib/commit/aefdffc5524dd43bc0487cbf0684aa7cd5938a9b) - **feat:** add `blas/ext/base/gindex-of-almost-equal` [(#14420)](https://github.com/stdlib-js/stdlib/pull/14420) _(by Muhammad Haris, Athan Reines)_
 -   [`124399a`](https://github.com/stdlib-js/stdlib/commit/124399a9816920bb0ededacbdd49d969821a2e8a) - **feat:** add `blas/ext/index-of-truthy` [(#14324)](https://github.com/stdlib-js/stdlib/pull/14324) _(by Muhammad Haris, Athan Reines)_
 -   [`64688d2`](https://github.com/stdlib-js/stdlib/commit/64688d27398860c1ca5dc1a009ebce65d7da5a1e) - **style:** remove empty line _(by Athan Reines)_
