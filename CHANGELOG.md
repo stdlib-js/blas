@@ -968,6 +968,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7728021`](https://github.com/stdlib-js/stdlib/commit/77280218ae986d22d7227326173658e7172db899) - **chore:** clean-up [(#15685)](https://github.com/stdlib-js/stdlib/pull/15685) _(by Philipp Burckhardt)_
 -   [`e8a009b`](https://github.com/stdlib-js/stdlib/commit/e8a009b19368617e45fa06a71e455b47f978f963) - **feat:** add `findIndexBetween` and `firstIndexLessThan` to namespace _(by Athan Reines)_
 -   [`669ac18`](https://github.com/stdlib-js/stdlib/commit/669ac185c46ab2f57299089fac1c075860714d9a) - **feat:** add `indexOfTruthy` to namespace _(by Athan Reines)_
 -   [`2fc8fd3`](https://github.com/stdlib-js/stdlib/commit/2fc8fd39e58afe793c9719f4cc0c83a8571f7798) - **feat:** add `sleftPadCircular` and `sleftPadEdge` to namespace _(by Athan Reines)_
