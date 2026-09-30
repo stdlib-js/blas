@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`75292ed`](https://github.com/stdlib-js/stdlib/commit/75292edb3b998ddcd67e812796f7d383b16be9bb) - add C implementation for `blas/ext/base/ndarray/cxsa` [(#15659)](https://github.com/stdlib-js/stdlib/pull/15659)
 -   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672)
 -   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673)
 -   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664)
@@ -959,6 +960,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`75292ed`](https://github.com/stdlib-js/stdlib/commit/75292edb3b998ddcd67e812796f7d383b16be9bb) - **feat:** add C implementation for `blas/ext/base/ndarray/cxsa` [(#15659)](https://github.com/stdlib-js/stdlib/pull/15659) _(by MJ)_
 -   [`19c183e`](https://github.com/stdlib-js/stdlib/commit/19c183eadbb2dee8366c271d415dd3a082fc2c70) - **docs:** update namespace table of contents [(#15675)](https://github.com/stdlib-js/stdlib/pull/15675) _(by stdlib-bot)_
 -   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672) _(by stdlib-bot)_
 -   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - **feat:** update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673) _(by stdlib-bot)_
