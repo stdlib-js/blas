@@ -955,6 +955,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0ee3933`](https://github.com/stdlib-js/stdlib/commit/0ee3933432578899483151dd85a35fc7f4f0e5f9) - **chore:** clean-up [(#15652)](https://github.com/stdlib-js/stdlib/pull/15652) _(by Philipp Burckhardt)_
 -   [`0f9e3ba`](https://github.com/stdlib-js/stdlib/commit/0f9e3bab5405ffc0ca12d871414f2b82a839ac45) - **feat:** add `blas/ext/find-index-between` [(#15647)](https://github.com/stdlib-js/stdlib/pull/15647) _(by Muhammad Haris, Athan Reines)_
 -   [`67c1633`](https://github.com/stdlib-js/stdlib/commit/67c1633c999488e1807bb2aa77183662c6eb387b) - **chore:** fix inconsistencies across packages in `blas/ext/base*` [(#15146)](https://github.com/stdlib-js/stdlib/pull/15146) _(by Muhammad Haris, Athan Reines)_
 -   [`8b2839d`](https://github.com/stdlib-js/stdlib/commit/8b2839d8cf63a3bbfcbf7f9dbdac56540e85784c) - **feat:** add `gindexOfGreaterThanSorted` to namespace _(by Athan Reines)_
