@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672)
 -   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673)
 -   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664)
 -   [`0768604`](https://github.com/stdlib-js/stdlib/commit/076860445e793bdee0010b2e723bf72a5f09b63a) - add `blas/ext/base/ndarray/glast-index-less-than` [(#15661)](https://github.com/stdlib-js/stdlib/pull/15661)
@@ -959,7 +958,6 @@ A total of 5 issues were closed in this release:
 
 <details>
 
--   [`5f54fc0`](https://github.com/stdlib-js/stdlib/commit/5f54fc0d19f6892e1a29e9e0d2805372fb9e515b) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15672)](https://github.com/stdlib-js/stdlib/pull/15672) _(by stdlib-bot)_
 -   [`2c73e54`](https://github.com/stdlib-js/stdlib/commit/2c73e543d3bbd65397dd923999da0d2031680acb) - **feat:** update `blas/ext/base` TypeScript declarations [(#15673)](https://github.com/stdlib-js/stdlib/pull/15673) _(by stdlib-bot)_
 -   [`784936e`](https://github.com/stdlib-js/stdlib/commit/784936e3db09cf79c13e699a2f8fc9e049c88f7c) - **feat:** add `blas/ext/base/ndarray/dleft-pad-edge` [(#15664)](https://github.com/stdlib-js/stdlib/pull/15664) _(by Muhammad Haris)_
 -   [`f12ba0b`](https://github.com/stdlib-js/stdlib/commit/f12ba0b3d5ab71c3abcd65eba81f3d9ab203c1f4) - **refactor:** delegate to `dfill` and `dcopy` [(#15662)](https://github.com/stdlib-js/stdlib/pull/15662) _(by Muhammad Haris)_
