@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - add `cxdy`, `gwxmy`, and `gwxsy` to namespace
+-   [`2f0bfd9`](https://github.com/stdlib-js/stdlib/commit/2f0bfd9daf5c568fb88b5e7395795524f1eed6be) - add `gindexOfGreaterThanEqualSorted` to namespace
 -   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722)
 -   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721)
 -   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720)
@@ -994,6 +996,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - **feat:** add `cxdy`, `gwxmy`, and `gwxsy` to namespace _(by Athan Reines)_
+-   [`2f0bfd9`](https://github.com/stdlib-js/stdlib/commit/2f0bfd9daf5c568fb88b5e7395795524f1eed6be) - **feat:** add `gindexOfGreaterThanEqualSorted` to namespace _(by Athan Reines)_
 -   [`49f9331`](https://github.com/stdlib-js/stdlib/commit/49f9331f4b8ef4ae8d6c3c48520bc3c455a4c395) - **feat:** add `blas/ext/base/ndarray/gwxmy` [(#15722)](https://github.com/stdlib-js/stdlib/pull/15722) _(by Karan Anand)_
 -   [`b699378`](https://github.com/stdlib-js/stdlib/commit/b6993780efafb65cdda9437ca3089e160070072c) - **feat:** add `blas/ext/base/ndarray/gwxsy` [(#15721)](https://github.com/stdlib-js/stdlib/pull/15721) _(by Karan Anand)_
 -   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - **feat:** add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720) _(by Karan Anand)_

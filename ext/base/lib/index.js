@@ -1920,6 +1920,15 @@ setReadOnly( ns, 'gindexOfGreaterThan', require( './../../../ext/base/gindex-of-
 setReadOnly( ns, 'gindexOfGreaterThanEqual', require( './../../../ext/base/gindex-of-greater-than-equal' ) );
 
 /**
+* @name gindexOfGreaterThanEqualSorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-greater-than-equal-sorted}
+*/
+setReadOnly( ns, 'gindexOfGreaterThanEqualSorted', require( './../../../ext/base/gindex-of-greater-than-equal-sorted' ) );
+
+/**
 * @name gindexOfGreaterThanSorted
 * @memberof ns
 * @readonly

@@ -226,6 +226,15 @@ setReadOnly( ns, 'cwhere', require( './../../../../ext/base/ndarray/cwhere' ) );
 setReadOnly( ns, 'cwxsa', require( './../../../../ext/base/ndarray/cwxsa' ) );
 
 /**
+* @name cxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cxdy}
+*/
+setReadOnly( ns, 'cxdy', require( './../../../../ext/base/ndarray/cxdy' ) );
+
+/**
 * @name cxmy
 * @memberof ns
 * @readonly
@@ -1540,6 +1549,15 @@ setReadOnly( ns, 'gwax', require( './../../../../ext/base/ndarray/gwax' ) );
 setReadOnly( ns, 'gwhere', require( './../../../../ext/base/ndarray/gwhere' ) );
 
 /**
+* @name gwxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gwxmy}
+*/
+setReadOnly( ns, 'gwxmy', require( './../../../../ext/base/ndarray/gwxmy' ) );
+
+/**
 * @name gwxpy
 * @memberof ns
 * @readonly
@@ -1556,6 +1574,15 @@ setReadOnly( ns, 'gwxpy', require( './../../../../ext/base/ndarray/gwxpy' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gwxsa}
 */
 setReadOnly( ns, 'gwxsa', require( './../../../../ext/base/ndarray/gwxsa' ) );
+
+/**
+* @name gwxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gwxsy}
+*/
+setReadOnly( ns, 'gwxsy', require( './../../../../ext/base/ndarray/gwxsy' ) );
 
 /**
 * @name gxdy
