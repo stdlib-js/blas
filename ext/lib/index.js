@@ -91,6 +91,15 @@ setReadOnly( ns, 'cuevery', require( './../../ext/cuevery' ) );
 setReadOnly( ns, 'cunone', require( './../../ext/cunone' ) );
 
 /**
+* @name cusome
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/cusome}
+*/
+setReadOnly( ns, 'cusome', require( './../../ext/cusome' ) );
+
+/**
 * @name cusum
 * @memberof ns
 * @readonly

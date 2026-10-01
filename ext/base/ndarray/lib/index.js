@@ -2179,6 +2179,15 @@ setReadOnly( ns, 'swxpy', require( './../../../../ext/base/ndarray/swxpy' ) );
 setReadOnly( ns, 'swxsa', require( './../../../../ext/base/ndarray/swxsa' ) );
 
 /**
+* @name swxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/swxsy}
+*/
+setReadOnly( ns, 'swxsy', require( './../../../../ext/base/ndarray/swxsy' ) );
+
+/**
 * @name sxdy
 * @memberof ns
 * @readonly

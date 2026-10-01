@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`9eeec88`](https://github.com/stdlib-js/stdlib/commit/9eeec88f99326526ece6c402ebe2925dbc37895e) - add `swxsy` to namespace
+-   [`81bcbbc`](https://github.com/stdlib-js/stdlib/commit/81bcbbcc6b6dc19c684ff198724ad95974c3a5ea) - add `cusome` to namespace
 -   [`41915c2`](https://github.com/stdlib-js/stdlib/commit/41915c26dbf41425e2308567da289b889aa51111) - add `blas/ext/cusome` [(#15726)](https://github.com/stdlib-js/stdlib/pull/15726)
 -   [`86b780e`](https://github.com/stdlib-js/stdlib/commit/86b780e2ee068e2c830930161e1e6a860ed8bc9f) - add `blas/ext/base/ndarray/swxsy` [(#15735)](https://github.com/stdlib-js/stdlib/pull/15735)
 -   [`7f13a75`](https://github.com/stdlib-js/stdlib/commit/7f13a756bbe2c18459838b268270799088a93f84) - add C implementation for `blas/ext/base/ndarray/zwxsa` [(#15728)](https://github.com/stdlib-js/stdlib/pull/15728)
@@ -1007,6 +1009,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`9eeec88`](https://github.com/stdlib-js/stdlib/commit/9eeec88f99326526ece6c402ebe2925dbc37895e) - **feat:** add `swxsy` to namespace _(by Athan Reines)_
+-   [`81bcbbc`](https://github.com/stdlib-js/stdlib/commit/81bcbbcc6b6dc19c684ff198724ad95974c3a5ea) - **feat:** add `cusome` to namespace _(by Athan Reines)_
 -   [`41915c2`](https://github.com/stdlib-js/stdlib/commit/41915c26dbf41425e2308567da289b889aa51111) - **feat:** add `blas/ext/cusome` [(#15726)](https://github.com/stdlib-js/stdlib/pull/15726) _(by Muhammad Haris, Athan Reines)_
 -   [`86b780e`](https://github.com/stdlib-js/stdlib/commit/86b780e2ee068e2c830930161e1e6a860ed8bc9f) - **feat:** add `blas/ext/base/ndarray/swxsy` [(#15735)](https://github.com/stdlib-js/stdlib/pull/15735) _(by Karan Anand, Athan Reines)_
 -   [`7f13a75`](https://github.com/stdlib-js/stdlib/commit/7f13a756bbe2c18459838b268270799088a93f84) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxsa` [(#15728)](https://github.com/stdlib-js/stdlib/pull/15728) _(by MJ, Athan Reines)_
