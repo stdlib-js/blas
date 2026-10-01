@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - add `cwxmy` and `zwxpy` to namespace
+-   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - add `cxdy` to namespace
 -   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909)
 -   [`b2f0ffd`](https://github.com/stdlib-js/stdlib/commit/b2f0ffdbd8ff6823a4b7ccaccab0c06648606c60) - add `blas/ext/base/cwxmy` [(#13714)](https://github.com/stdlib-js/stdlib/pull/13714)
 -   [`0d6f809`](https://github.com/stdlib-js/stdlib/commit/0d6f8097eb4633ea9d78a7c36b7c832095f73538) - add `blas/ext/base/zwxpy` [(#13794)](https://github.com/stdlib-js/stdlib/pull/13794)
@@ -985,6 +987,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - **feat:** add `cwxmy` and `zwxpy` to namespace _(by Athan Reines)_
+-   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - **feat:** add `cxdy` to namespace _(by Athan Reines)_
 -   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - **feat:** add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909) _(by Karan Anand, Athan Reines)_
 -   [`b2f0ffd`](https://github.com/stdlib-js/stdlib/commit/b2f0ffdbd8ff6823a4b7ccaccab0c06648606c60) - **feat:** add `blas/ext/base/cwxmy` [(#13714)](https://github.com/stdlib-js/stdlib/pull/13714) _(by Karan Anand, Athan Reines)_
 -   [`0d6f809`](https://github.com/stdlib-js/stdlib/commit/0d6f8097eb4633ea9d78a7c36b7c832095f73538) - **feat:** add `blas/ext/base/zwxpy` [(#13794)](https://github.com/stdlib-js/stdlib/pull/13794) _(by Karan Anand, Athan Reines)_
