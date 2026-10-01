@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`18e837e`](https://github.com/stdlib-js/stdlib/commit/18e837ef662debbb46d08e912cd6f0d43985d285) - add `gwxdy` and `swxpy` to namespace
+-   [`4d4a186`](https://github.com/stdlib-js/stdlib/commit/4d4a186947054e5a3c8199bbdc72432afe86a888) - add `dwxpy` and `dwxsy` to namespace
 -   [`2ebdf1e`](https://github.com/stdlib-js/stdlib/commit/2ebdf1e1a5d95a4995dcab0f542373e5b6ad18fa) - add `blas/ext/base/ndarray/gwxdy` [(#15723)](https://github.com/stdlib-js/stdlib/pull/15723)
 -   [`21f48d2`](https://github.com/stdlib-js/stdlib/commit/21f48d2a8c3e6ed90565ad40e299bea4f7d553cf) - add `blas/ext/base/ndarray/dwxsy` [(#15734)](https://github.com/stdlib-js/stdlib/pull/15734)
 -   [`e361d31`](https://github.com/stdlib-js/stdlib/commit/e361d31c642714bae3d5a6990a96ec9a9ede77d4) - add `blas/ext/base/ndarray/swxpy` [(#15732)](https://github.com/stdlib-js/stdlib/pull/15732)
@@ -1002,6 +1004,9 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`18e837e`](https://github.com/stdlib-js/stdlib/commit/18e837ef662debbb46d08e912cd6f0d43985d285) - **feat:** add `gwxdy` and `swxpy` to namespace _(by Athan Reines)_
+-   [`4d4a186`](https://github.com/stdlib-js/stdlib/commit/4d4a186947054e5a3c8199bbdc72432afe86a888) - **feat:** add `dwxpy` and `dwxsy` to namespace _(by Athan Reines)_
+-   [`e44628a`](https://github.com/stdlib-js/stdlib/commit/e44628a23b2755ad13a33c775cb81708f9f5c94c) - **refactor:** use variable declaration assignment _(by Athan Reines)_
 -   [`2ebdf1e`](https://github.com/stdlib-js/stdlib/commit/2ebdf1e1a5d95a4995dcab0f542373e5b6ad18fa) - **feat:** add `blas/ext/base/ndarray/gwxdy` [(#15723)](https://github.com/stdlib-js/stdlib/pull/15723) _(by Karan Anand)_
 -   [`21f48d2`](https://github.com/stdlib-js/stdlib/commit/21f48d2a8c3e6ed90565ad40e299bea4f7d553cf) - **feat:** add `blas/ext/base/ndarray/dwxsy` [(#15734)](https://github.com/stdlib-js/stdlib/pull/15734) _(by Karan Anand)_
 -   [`e361d31`](https://github.com/stdlib-js/stdlib/commit/e361d31c642714bae3d5a6990a96ec9a9ede77d4) - **feat:** add `blas/ext/base/ndarray/swxpy` [(#15732)](https://github.com/stdlib-js/stdlib/pull/15732) _(by Karan Anand)_
