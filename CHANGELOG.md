@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909)
 -   [`b2f0ffd`](https://github.com/stdlib-js/stdlib/commit/b2f0ffdbd8ff6823a4b7ccaccab0c06648606c60) - add `blas/ext/base/cwxmy` [(#13714)](https://github.com/stdlib-js/stdlib/pull/13714)
 -   [`0d6f809`](https://github.com/stdlib-js/stdlib/commit/0d6f8097eb4633ea9d78a7c36b7c832095f73538) - add `blas/ext/base/zwxpy` [(#13794)](https://github.com/stdlib-js/stdlib/pull/13794)
 -   [`106e3b8`](https://github.com/stdlib-js/stdlib/commit/106e3b88b26260b8fe9183513205d23e3a7c754d) - add various symbols to namespace
@@ -984,6 +985,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - **feat:** add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909) _(by Karan Anand, Athan Reines)_
 -   [`b2f0ffd`](https://github.com/stdlib-js/stdlib/commit/b2f0ffdbd8ff6823a4b7ccaccab0c06648606c60) - **feat:** add `blas/ext/base/cwxmy` [(#13714)](https://github.com/stdlib-js/stdlib/pull/13714) _(by Karan Anand, Athan Reines)_
 -   [`0d6f809`](https://github.com/stdlib-js/stdlib/commit/0d6f8097eb4633ea9d78a7c36b7c832095f73538) - **feat:** add `blas/ext/base/zwxpy` [(#13794)](https://github.com/stdlib-js/stdlib/pull/13794) _(by Karan Anand, Athan Reines)_
 -   [`106e3b8`](https://github.com/stdlib-js/stdlib/commit/106e3b88b26260b8fe9183513205d23e3a7c754d) - **feat:** add various symbols to namespace _(by Athan Reines)_
