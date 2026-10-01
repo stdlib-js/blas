@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b99e52b`](https://github.com/stdlib-js/stdlib/commit/b99e52b1b1a413c8aab17d2c50d4817b76f6ec55) - update `blas/ext` TypeScript declarations [(#15717)](https://github.com/stdlib-js/stdlib/pull/15717)
 -   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - add `cwxmy` and `zwxpy` to namespace
 -   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - add `cxdy` to namespace
 -   [`2cfb0d9`](https://github.com/stdlib-js/stdlib/commit/2cfb0d9c76d02e409d5797e79a9450153bc98591) - add `blas/ext/base/cxdy` [(#13909)](https://github.com/stdlib-js/stdlib/pull/13909)
@@ -987,6 +988,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b99e52b`](https://github.com/stdlib-js/stdlib/commit/b99e52b1b1a413c8aab17d2c50d4817b76f6ec55) - **feat:** update `blas/ext` TypeScript declarations [(#15717)](https://github.com/stdlib-js/stdlib/pull/15717) _(by stdlib-bot)_
 -   [`e8bc27a`](https://github.com/stdlib-js/stdlib/commit/e8bc27acdd50c36c07cf45c9b0a72854f8410978) - **docs:** update namespace table of contents [(#15718)](https://github.com/stdlib-js/stdlib/pull/15718) _(by stdlib-bot)_
 -   [`329accc`](https://github.com/stdlib-js/stdlib/commit/329accce09162aceb420921a833245fe1ada53eb) - **feat:** add `cwxmy` and `zwxpy` to namespace _(by Athan Reines)_
 -   [`b25bb60`](https://github.com/stdlib-js/stdlib/commit/b25bb6041bfa031e74de312bade22775e228b983) - **feat:** add `cxdy` to namespace _(by Athan Reines)_
