@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7f13a75`](https://github.com/stdlib-js/stdlib/commit/7f13a756bbe2c18459838b268270799088a93f84) - add C implementation for `blas/ext/base/ndarray/zwxsa` [(#15728)](https://github.com/stdlib-js/stdlib/pull/15728)
 -   [`18e837e`](https://github.com/stdlib-js/stdlib/commit/18e837ef662debbb46d08e912cd6f0d43985d285) - add `gwxdy` and `swxpy` to namespace
 -   [`4d4a186`](https://github.com/stdlib-js/stdlib/commit/4d4a186947054e5a3c8199bbdc72432afe86a888) - add `dwxpy` and `dwxsy` to namespace
 -   [`2ebdf1e`](https://github.com/stdlib-js/stdlib/commit/2ebdf1e1a5d95a4995dcab0f542373e5b6ad18fa) - add `blas/ext/base/ndarray/gwxdy` [(#15723)](https://github.com/stdlib-js/stdlib/pull/15723)
@@ -1004,6 +1005,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7f13a75`](https://github.com/stdlib-js/stdlib/commit/7f13a756bbe2c18459838b268270799088a93f84) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxsa` [(#15728)](https://github.com/stdlib-js/stdlib/pull/15728) _(by MJ, Athan Reines)_
 -   [`18e837e`](https://github.com/stdlib-js/stdlib/commit/18e837ef662debbb46d08e912cd6f0d43985d285) - **feat:** add `gwxdy` and `swxpy` to namespace _(by Athan Reines)_
 -   [`4d4a186`](https://github.com/stdlib-js/stdlib/commit/4d4a186947054e5a3c8199bbdc72432afe86a888) - **feat:** add `dwxpy` and `dwxsy` to namespace _(by Athan Reines)_
 -   [`e44628a`](https://github.com/stdlib-js/stdlib/commit/e44628a23b2755ad13a33c775cb81708f9f5c94c) - **refactor:** use variable declaration assignment _(by Athan Reines)_
