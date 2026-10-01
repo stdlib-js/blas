@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-09-30)
+## Unreleased (2026-10-01)
 
 <section class="features">
 
 ### Features
 
+-   [`73fa7e8`](https://github.com/stdlib-js/stdlib/commit/73fa7e8bae4d3da0df4882142d1544a52e54a89d) - add `blas/ext/base/ndarray/dwax` [(#15700)](https://github.com/stdlib-js/stdlib/pull/15700)
 -   [`c18c267`](https://github.com/stdlib-js/stdlib/commit/c18c267410125dcd0dd1067b53adbad709c3b227) - add `blas/ext/base/ndarray/swax` [(#15703)](https://github.com/stdlib-js/stdlib/pull/15703)
 -   [`68a5002`](https://github.com/stdlib-js/stdlib/commit/68a50025bc4feb243e0a82e483a21f580329ae47) - add `blas/ext/base/ndarray/zwax` [(#15710)](https://github.com/stdlib-js/stdlib/pull/15710)
 -   [`f0a9693`](https://github.com/stdlib-js/stdlib/commit/f0a96933f8f63e982664bb6789fc6b20a6c7c6d3) - add `blas/ext/base/ndarray/cwapx` [(#15695)](https://github.com/stdlib-js/stdlib/pull/15695)
@@ -975,6 +976,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`73fa7e8`](https://github.com/stdlib-js/stdlib/commit/73fa7e8bae4d3da0df4882142d1544a52e54a89d) - **feat:** add `blas/ext/base/ndarray/dwax` [(#15700)](https://github.com/stdlib-js/stdlib/pull/15700) _(by Karan Anand)_
 -   [`c18c267`](https://github.com/stdlib-js/stdlib/commit/c18c267410125dcd0dd1067b53adbad709c3b227) - **feat:** add `blas/ext/base/ndarray/swax` [(#15703)](https://github.com/stdlib-js/stdlib/pull/15703) _(by Karan Anand)_
 -   [`68a5002`](https://github.com/stdlib-js/stdlib/commit/68a50025bc4feb243e0a82e483a21f580329ae47) - **feat:** add `blas/ext/base/ndarray/zwax` [(#15710)](https://github.com/stdlib-js/stdlib/pull/15710) _(by Karan Anand)_
 -   [`f0a9693`](https://github.com/stdlib-js/stdlib/commit/f0a96933f8f63e982664bb6789fc6b20a6c7c6d3) - **feat:** add `blas/ext/base/ndarray/cwapx` [(#15695)](https://github.com/stdlib-js/stdlib/pull/15695) _(by Karan Anand)_
