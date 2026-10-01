@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`44c64b7`](https://github.com/stdlib-js/stdlib/commit/44c64b7b71914c5b264d24e1d52fd866e34cb45a) - add `gwaxpb` to namespace
 -   [`f097085`](https://github.com/stdlib-js/stdlib/commit/f097085c0f1ab6a122d724737b41328d1344c87e) - add `blas/ext/base/ndarray/gwaxpb` [(#15725)](https://github.com/stdlib-js/stdlib/pull/15725)
 -   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - add `cxdy`, `gwxmy`, and `gwxsy` to namespace
 -   [`2f0bfd9`](https://github.com/stdlib-js/stdlib/commit/2f0bfd9daf5c568fb88b5e7395795524f1eed6be) - add `gindexOfGreaterThanEqualSorted` to namespace
@@ -997,6 +998,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`44c64b7`](https://github.com/stdlib-js/stdlib/commit/44c64b7b71914c5b264d24e1d52fd866e34cb45a) - **feat:** add `gwaxpb` to namespace _(by Athan Reines)_
 -   [`f097085`](https://github.com/stdlib-js/stdlib/commit/f097085c0f1ab6a122d724737b41328d1344c87e) - **feat:** add `blas/ext/base/ndarray/gwaxpb` [(#15725)](https://github.com/stdlib-js/stdlib/pull/15725) _(by Karan Anand)_
 -   [`26a3841`](https://github.com/stdlib-js/stdlib/commit/26a38419fe800d3c0ceaaa7143cb44cba09b72a6) - **feat:** add `cxdy`, `gwxmy`, and `gwxsy` to namespace _(by Athan Reines)_
 -   [`2f0bfd9`](https://github.com/stdlib-js/stdlib/commit/2f0bfd9daf5c568fb88b5e7395795524f1eed6be) - **feat:** add `gindexOfGreaterThanEqualSorted` to namespace _(by Athan Reines)_

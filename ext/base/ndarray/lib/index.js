@@ -1540,6 +1540,15 @@ setReadOnly( ns, 'gwapx', require( './../../../../ext/base/ndarray/gwapx' ) );
 setReadOnly( ns, 'gwax', require( './../../../../ext/base/ndarray/gwax' ) );
 
 /**
+* @name gwaxpb
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gwaxpb}
+*/
+setReadOnly( ns, 'gwaxpb', require( './../../../../ext/base/ndarray/gwaxpb' ) );
+
+/**
 * @name gwhere
 * @memberof ns
 * @readonly
