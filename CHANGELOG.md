@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720)
 -   [`d49d161`](https://github.com/stdlib-js/stdlib/commit/d49d161dba96a625042364aec6e561945ba6a29b) - add `blas/ext/base/gindex-of-greater-than-equal-sorted` [(#15649)](https://github.com/stdlib-js/stdlib/pull/15649)
 -   [`8efc5bf`](https://github.com/stdlib-js/stdlib/commit/8efc5bf4327c5b42ad9b8ae0e9e9a4f29f2c60e0) - update `blas/ext/base/ndarray` TypeScript declarations [(#15715)](https://github.com/stdlib-js/stdlib/pull/15715)
 -   [`4401374`](https://github.com/stdlib-js/stdlib/commit/44013748fd8d2c70b744d1d69c51b92b0c4de407) - update `blas/ext/base` TypeScript declarations [(#15716)](https://github.com/stdlib-js/stdlib/pull/15716)
@@ -991,6 +992,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`5a815ff`](https://github.com/stdlib-js/stdlib/commit/5a815ff598dacd840cf5730b1f09ebf895bf9ed4) - **feat:** add `blas/ext/base/ndarray/cxdy` [(#15720)](https://github.com/stdlib-js/stdlib/pull/15720) _(by Karan Anand)_
 -   [`d49d161`](https://github.com/stdlib-js/stdlib/commit/d49d161dba96a625042364aec6e561945ba6a29b) - **feat:** add `blas/ext/base/gindex-of-greater-than-equal-sorted` [(#15649)](https://github.com/stdlib-js/stdlib/pull/15649) _(by Sachin Pangal, Athan Reines)_
 -   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`b41c953`](https://github.com/stdlib-js/stdlib/commit/b41c953b185783768ac50677b4e07eeae0b84cdc) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
