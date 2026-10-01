@@ -990,8 +990,6 @@ A total of 5 issues were closed in this release:
 
 <details>
 
--   [`4142981`](https://github.com/stdlib-js/stdlib/commit/414298163423cdbd514f26569e7de322d2129104) - **docs:** update Markdown equation elements _(by stdlib-bot)_
--   [`b41c953`](https://github.com/stdlib-js/stdlib/commit/b41c953b185783768ac50677b4e07eeae0b84cdc) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`8efc5bf`](https://github.com/stdlib-js/stdlib/commit/8efc5bf4327c5b42ad9b8ae0e9e9a4f29f2c60e0) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15715)](https://github.com/stdlib-js/stdlib/pull/15715) _(by stdlib-bot)_
 -   [`4401374`](https://github.com/stdlib-js/stdlib/commit/44013748fd8d2c70b744d1d69c51b92b0c4de407) - **feat:** update `blas/ext/base` TypeScript declarations [(#15716)](https://github.com/stdlib-js/stdlib/pull/15716) _(by stdlib-bot)_
 -   [`b99e52b`](https://github.com/stdlib-js/stdlib/commit/b99e52b1b1a413c8aab17d2c50d4817b76f6ec55) - **feat:** update `blas/ext` TypeScript declarations [(#15717)](https://github.com/stdlib-js/stdlib/pull/15717) _(by stdlib-bot)_
