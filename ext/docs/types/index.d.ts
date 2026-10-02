@@ -26,6 +26,7 @@ import copyWithin = require( './../../../ext/copy-within' );
 import cuany = require( './../../../ext/cuany' );
 import cuevery = require( './../../../ext/cuevery' );
 import cunone = require( './../../../ext/cunone' );
+import cusome = require( './../../../ext/cusome' );
 import cusum = require( './../../../ext/cusum' );
 import fillBetween = require( './../../../ext/fill-between' );
 import findIndex = require( './../../../ext/find-index' );
@@ -206,6 +207,37 @@ interface Namespace {
 	* // returns true
 	*/
 	cunone: typeof cunone;
+
+	/**
+	* Cumulatively tests whether at least `k` elements along one or more ndarray dimensions are truthy.
+	*
+	* @param x - input ndarray
+	* @param k - minimum number of truthy elements
+	* @param options - function options
+	* @returns output ndarray
+	*
+	* @example
+	* var array = require( '@stdlib/ndarray/array' );
+	*
+	* var x = array( [ 0.0, 1.0, 1.0, 0.0 ] );
+	*
+	* var y = ns.cusome( x, 2 );
+	* // returns <ndarray>[ false, false, true, true ]
+	*
+	* @example
+	* var falses = require( '@stdlib/ndarray/falses' );
+	* var array = require( '@stdlib/ndarray/array' );
+	*
+	* var x = array( [ 0.0, 1.0, 1.0, 0.0 ] );
+	* var y = falses( [ 4 ] );
+	*
+	* var out = ns.cusome.assign( x, 2, y );
+	* // returns <ndarray>[ false, false, true, true ]
+	*
+	* var bool = ( out === y );
+	* // returns true
+	*/
+	cusome: typeof cusome;
 
 	/**
 	* Computes the cumulative sum along one or more ndarray dimensions.
