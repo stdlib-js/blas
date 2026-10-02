@@ -1010,6 +1010,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`4bfb02c`](https://github.com/stdlib-js/stdlib/commit/4bfb02ce56992f440db55072676a0c73367b7f50) - **docs:** update namespace table of contents [(#15787)](https://github.com/stdlib-js/stdlib/pull/15787) _(by stdlib-bot)_
 -   [`0269ce0`](https://github.com/stdlib-js/stdlib/commit/0269ce0ab00e8e97e85236c1ac2ae4d8f96e97c9) - **feat:** update `blas/ext` TypeScript declarations [(#15786)](https://github.com/stdlib-js/stdlib/pull/15786) _(by stdlib-bot)_
 -   [`fdee4d0`](https://github.com/stdlib-js/stdlib/commit/fdee4d0525083b9b56ff5ff7854431a59becd0e0) - **chore:** update keywords [(#15741)](https://github.com/stdlib-js/stdlib/pull/15741) _(by Philipp Burckhardt)_
 -   [`9eeec88`](https://github.com/stdlib-js/stdlib/commit/9eeec88f99326526ece6c402ebe2925dbc37895e) - **feat:** add `swxsy` to namespace _(by Athan Reines)_
