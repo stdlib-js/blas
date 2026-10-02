@@ -1015,6 +1015,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`132d70b`](https://github.com/stdlib-js/stdlib/commit/132d70bfca29509dc1b4341510681c2b9ab98ff9) - **refactor:** add NaN handling support [(#15814)](https://github.com/stdlib-js/stdlib/pull/15814) _(by Sachin Pangal)_
 -   [`758379d`](https://github.com/stdlib-js/stdlib/commit/758379dcbf0a76a9cc3f907c87e6edc3d6c4e2c1) - **feat:** add `blas/ext/base/ndarray/dwxdy` [(#15791)](https://github.com/stdlib-js/stdlib/pull/15791) _(by Karan Anand)_
 -   [`c55ac7e`](https://github.com/stdlib-js/stdlib/commit/c55ac7e990185381028cb821e92fdbd46bc5162d) - **feat:** add `blas/ext/base/ndarray/swxmy` [(#15789)](https://github.com/stdlib-js/stdlib/pull/15789) _(by Karan Anand)_
 -   [`6272fad`](https://github.com/stdlib-js/stdlib/commit/6272fad8e96d012c34261905bbafdf856e037672) - **feat:** add `blas/ext/base/ndarray/dwxmy` [(#15788)](https://github.com/stdlib-js/stdlib/pull/15788) _(by Karan Anand)_
