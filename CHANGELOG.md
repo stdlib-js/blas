@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-01)
+## Unreleased (2026-10-02)
 
 <section class="features">
 
@@ -1009,6 +1009,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`fdee4d0`](https://github.com/stdlib-js/stdlib/commit/fdee4d0525083b9b56ff5ff7854431a59becd0e0) - **chore:** update keywords [(#15741)](https://github.com/stdlib-js/stdlib/pull/15741) _(by Philipp Burckhardt)_
 -   [`9eeec88`](https://github.com/stdlib-js/stdlib/commit/9eeec88f99326526ece6c402ebe2925dbc37895e) - **feat:** add `swxsy` to namespace _(by Athan Reines)_
 -   [`81bcbbc`](https://github.com/stdlib-js/stdlib/commit/81bcbbcc6b6dc19c684ff198724ad95974c3a5ea) - **feat:** add `cusome` to namespace _(by Athan Reines)_
 -   [`41915c2`](https://github.com/stdlib-js/stdlib/commit/41915c26dbf41425e2308567da289b889aa51111) - **feat:** add `blas/ext/cusome` [(#15726)](https://github.com/stdlib-js/stdlib/pull/15726) _(by Muhammad Haris, Athan Reines)_
