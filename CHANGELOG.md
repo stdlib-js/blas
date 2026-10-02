@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`6272fad`](https://github.com/stdlib-js/stdlib/commit/6272fad8e96d012c34261905bbafdf856e037672) - add `blas/ext/base/ndarray/dwxmy` [(#15788)](https://github.com/stdlib-js/stdlib/pull/15788)
 -   [`cec1af9`](https://github.com/stdlib-js/stdlib/commit/cec1af9a3090a58345d4042d1a2ee0a1e893c748) - update `blas/ext/base/ndarray` TypeScript declarations [(#15784)](https://github.com/stdlib-js/stdlib/pull/15784)
 -   [`29d4df1`](https://github.com/stdlib-js/stdlib/commit/29d4df1baef0ff586bdb3e97cb7e92a06359a7a9) - update `blas/ext/base` TypeScript declarations [(#15785)](https://github.com/stdlib-js/stdlib/pull/15785)
 -   [`0269ce0`](https://github.com/stdlib-js/stdlib/commit/0269ce0ab00e8e97e85236c1ac2ae4d8f96e97c9) - update `blas/ext` TypeScript declarations [(#15786)](https://github.com/stdlib-js/stdlib/pull/15786)
@@ -1012,6 +1013,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`6272fad`](https://github.com/stdlib-js/stdlib/commit/6272fad8e96d012c34261905bbafdf856e037672) - **feat:** add `blas/ext/base/ndarray/dwxmy` [(#15788)](https://github.com/stdlib-js/stdlib/pull/15788) _(by Karan Anand)_
 -   [`1a78936`](https://github.com/stdlib-js/stdlib/commit/1a789367328a127b029ac01287a730c649884c0c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`7a67bd3`](https://github.com/stdlib-js/stdlib/commit/7a67bd3e5cb80df7208ba3a63e118e9bdf6b5afa) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`cec1af9`](https://github.com/stdlib-js/stdlib/commit/cec1af9a3090a58345d4042d1a2ee0a1e893c748) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15784)](https://github.com/stdlib-js/stdlib/pull/15784) _(by stdlib-bot)_
