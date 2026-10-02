@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`cec1af9`](https://github.com/stdlib-js/stdlib/commit/cec1af9a3090a58345d4042d1a2ee0a1e893c748) - update `blas/ext/base/ndarray` TypeScript declarations [(#15784)](https://github.com/stdlib-js/stdlib/pull/15784)
 -   [`29d4df1`](https://github.com/stdlib-js/stdlib/commit/29d4df1baef0ff586bdb3e97cb7e92a06359a7a9) - update `blas/ext/base` TypeScript declarations [(#15785)](https://github.com/stdlib-js/stdlib/pull/15785)
 -   [`0269ce0`](https://github.com/stdlib-js/stdlib/commit/0269ce0ab00e8e97e85236c1ac2ae4d8f96e97c9) - update `blas/ext` TypeScript declarations [(#15786)](https://github.com/stdlib-js/stdlib/pull/15786)
 -   [`9eeec88`](https://github.com/stdlib-js/stdlib/commit/9eeec88f99326526ece6c402ebe2925dbc37895e) - add `swxsy` to namespace
@@ -1012,7 +1011,6 @@ A total of 5 issues were closed in this release:
 
 <details>
 
--   [`cec1af9`](https://github.com/stdlib-js/stdlib/commit/cec1af9a3090a58345d4042d1a2ee0a1e893c748) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#15784)](https://github.com/stdlib-js/stdlib/pull/15784) _(by stdlib-bot)_
 -   [`29d4df1`](https://github.com/stdlib-js/stdlib/commit/29d4df1baef0ff586bdb3e97cb7e92a06359a7a9) - **feat:** update `blas/ext/base` TypeScript declarations [(#15785)](https://github.com/stdlib-js/stdlib/pull/15785) _(by stdlib-bot)_
 -   [`4bfb02c`](https://github.com/stdlib-js/stdlib/commit/4bfb02ce56992f440db55072676a0c73367b7f50) - **docs:** update namespace table of contents [(#15787)](https://github.com/stdlib-js/stdlib/pull/15787) _(by stdlib-bot)_
 -   [`0269ce0`](https://github.com/stdlib-js/stdlib/commit/0269ce0ab00e8e97e85236c1ac2ae4d8f96e97c9) - **feat:** update `blas/ext` TypeScript declarations [(#15786)](https://github.com/stdlib-js/stdlib/pull/15786) _(by stdlib-bot)_
