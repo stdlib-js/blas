@@ -780,6 +780,7 @@
 
 ### Bug Fixes
 
+-   [`dab2209`](https://github.com/stdlib-js/stdlib/commit/dab220997a84248eb278619abf61b92eb30a7cc0) - clamp only the upper bound [(#15857)](https://github.com/stdlib-js/stdlib/pull/15857)
 -   [`0c2ab03`](https://github.com/stdlib-js/stdlib/commit/0c2ab03e53f24a8a5cab40d71e102289bbc0d286) - rename package and namespace symbol
 -   [`f29d4c7`](https://github.com/stdlib-js/stdlib/commit/f29d4c7fc763d72e3f159dfe95b84dcfa9977fcb) - ensure consistent behavior between JavaScript and C
 -   [`2306e85`](https://github.com/stdlib-js/stdlib/commit/2306e85569f99d02011f49d1a3fa50ff2d87dec5) - ensure consistent behavior between JavaScript and C
@@ -1020,6 +1021,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`dab2209`](https://github.com/stdlib-js/stdlib/commit/dab220997a84248eb278619abf61b92eb30a7cc0) - **fix:** clamp only the upper bound [(#15857)](https://github.com/stdlib-js/stdlib/pull/15857) _(by Muhammad Haris)_
 -   [`ae772a0`](https://github.com/stdlib-js/stdlib/commit/ae772a0aeb70c14091d5f830e889a8d2a19878df) - **feat:** add `blas/ext/base/ndarray/zlast-index-of-falsy` [(#15273)](https://github.com/stdlib-js/stdlib/pull/15273) _(by Muhammad Haris)_
 -   [`d34ba64`](https://github.com/stdlib-js/stdlib/commit/d34ba6452e80d0251d29d0ee864edcdf0b5052bf) - **feat:** add `blas/ext/base/ndarray/sleft-pad-circular` [(#15987)](https://github.com/stdlib-js/stdlib/pull/15987) _(by Muhammad Haris)_
 -   [`fae214a`](https://github.com/stdlib-js/stdlib/commit/fae214a59673d5b751a5fd60a02d86e92c8f192b) - **feat:** add `blas/ext/base/ndarray/dediff` [(#15989)](https://github.com/stdlib-js/stdlib/pull/15989) _(by Muhammad Haris)_
