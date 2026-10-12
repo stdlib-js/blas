@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fae214a`](https://github.com/stdlib-js/stdlib/commit/fae214a59673d5b751a5fd60a02d86e92c8f192b) - add `blas/ext/base/ndarray/dediff` [(#15989)](https://github.com/stdlib-js/stdlib/pull/15989)
 -   [`96b3f4a`](https://github.com/stdlib-js/stdlib/commit/96b3f4aeb5d31483881f6c7bb8f6fd45e50b3ff6) - add `blas/ext/base/ndarray/sediff` [(#15990)](https://github.com/stdlib-js/stdlib/pull/15990)
 -   [`f526b6f`](https://github.com/stdlib-js/stdlib/commit/f526b6feebd88f214310f809e8ca5b7171e18f5f) - add `blas/ext/base/ndarray/swxdy` [(#15792)](https://github.com/stdlib-js/stdlib/pull/15792)
 -   [`758379d`](https://github.com/stdlib-js/stdlib/commit/758379dcbf0a76a9cc3f907c87e6edc3d6c4e2c1) - add `blas/ext/base/ndarray/dwxdy` [(#15791)](https://github.com/stdlib-js/stdlib/pull/15791)
@@ -1017,6 +1018,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`fae214a`](https://github.com/stdlib-js/stdlib/commit/fae214a59673d5b751a5fd60a02d86e92c8f192b) - **feat:** add `blas/ext/base/ndarray/dediff` [(#15989)](https://github.com/stdlib-js/stdlib/pull/15989) _(by Muhammad Haris)_
 -   [`96b3f4a`](https://github.com/stdlib-js/stdlib/commit/96b3f4aeb5d31483881f6c7bb8f6fd45e50b3ff6) - **feat:** add `blas/ext/base/ndarray/sediff` [(#15990)](https://github.com/stdlib-js/stdlib/pull/15990) _(by Muhammad Haris)_
 -   [`1938291`](https://github.com/stdlib-js/stdlib/commit/19382912d0e18c5a7a2a58c64c6f623b32a6759f) - **refactor:** add NaN handling support [(#15853)](https://github.com/stdlib-js/stdlib/pull/15853) _(by Sachin Pangal)_
 -   [`f526b6f`](https://github.com/stdlib-js/stdlib/commit/f526b6feebd88f214310f809e8ca5b7171e18f5f) - **feat:** add `blas/ext/base/ndarray/swxdy` [(#15792)](https://github.com/stdlib-js/stdlib/pull/15792) _(by Karan Anand)_
