@@ -1016,6 +1016,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`1938291`](https://github.com/stdlib-js/stdlib/commit/19382912d0e18c5a7a2a58c64c6f623b32a6759f) - **refactor:** add NaN handling support [(#15853)](https://github.com/stdlib-js/stdlib/pull/15853) _(by Sachin Pangal)_
 -   [`f526b6f`](https://github.com/stdlib-js/stdlib/commit/f526b6feebd88f214310f809e8ca5b7171e18f5f) - **feat:** add `blas/ext/base/ndarray/swxdy` [(#15792)](https://github.com/stdlib-js/stdlib/pull/15792) _(by Karan Anand)_
 -   [`82ee225`](https://github.com/stdlib-js/stdlib/commit/82ee2255cb287caa67dca4b364ef072ac673cc27) - **test:** migrate `blas/base/wasm/csrot` to ULP-based assertions [(#15871)](https://github.com/stdlib-js/stdlib/pull/15871) _(by Athan Reines)_
 -   [`fe012cf`](https://github.com/stdlib-js/stdlib/commit/fe012cf9cc6af56bc42c03d5b8473f1c9b561e74) - **test:** migrate `blas/base/csrot` to ULP-based assertions [(#15890)](https://github.com/stdlib-js/stdlib/pull/15890) _(by Athan Reines)_
