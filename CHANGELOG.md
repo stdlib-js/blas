@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`ae772a0`](https://github.com/stdlib-js/stdlib/commit/ae772a0aeb70c14091d5f830e889a8d2a19878df) - add `blas/ext/base/ndarray/zlast-index-of-falsy` [(#15273)](https://github.com/stdlib-js/stdlib/pull/15273)
 -   [`d34ba64`](https://github.com/stdlib-js/stdlib/commit/d34ba6452e80d0251d29d0ee864edcdf0b5052bf) - add `blas/ext/base/ndarray/sleft-pad-circular` [(#15987)](https://github.com/stdlib-js/stdlib/pull/15987)
 -   [`fae214a`](https://github.com/stdlib-js/stdlib/commit/fae214a59673d5b751a5fd60a02d86e92c8f192b) - add `blas/ext/base/ndarray/dediff` [(#15989)](https://github.com/stdlib-js/stdlib/pull/15989)
 -   [`96b3f4a`](https://github.com/stdlib-js/stdlib/commit/96b3f4aeb5d31483881f6c7bb8f6fd45e50b3ff6) - add `blas/ext/base/ndarray/sediff` [(#15990)](https://github.com/stdlib-js/stdlib/pull/15990)
@@ -1019,6 +1020,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ae772a0`](https://github.com/stdlib-js/stdlib/commit/ae772a0aeb70c14091d5f830e889a8d2a19878df) - **feat:** add `blas/ext/base/ndarray/zlast-index-of-falsy` [(#15273)](https://github.com/stdlib-js/stdlib/pull/15273) _(by Muhammad Haris)_
 -   [`d34ba64`](https://github.com/stdlib-js/stdlib/commit/d34ba6452e80d0251d29d0ee864edcdf0b5052bf) - **feat:** add `blas/ext/base/ndarray/sleft-pad-circular` [(#15987)](https://github.com/stdlib-js/stdlib/pull/15987) _(by Muhammad Haris)_
 -   [`fae214a`](https://github.com/stdlib-js/stdlib/commit/fae214a59673d5b751a5fd60a02d86e92c8f192b) - **feat:** add `blas/ext/base/ndarray/dediff` [(#15989)](https://github.com/stdlib-js/stdlib/pull/15989) _(by Muhammad Haris)_
 -   [`96b3f4a`](https://github.com/stdlib-js/stdlib/commit/96b3f4aeb5d31483881f6c7bb8f6fd45e50b3ff6) - **feat:** add `blas/ext/base/ndarray/sediff` [(#15990)](https://github.com/stdlib-js/stdlib/pull/15990) _(by Muhammad Haris)_
