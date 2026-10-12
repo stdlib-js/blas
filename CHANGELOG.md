@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`838d84f`](https://github.com/stdlib-js/stdlib/commit/838d84fe80e5e3aad1384c4c67f42a26ca51a8b3) - add `blas/ext/base/ndarray/cwxmy` [(#15844)](https://github.com/stdlib-js/stdlib/pull/15844)
 -   [`bfb46cd`](https://github.com/stdlib-js/stdlib/commit/bfb46cd96855be6c06f472bcc51ef77f96f3624b) - add `blas/ext/base/ndarray/zwxmy` [(#15846)](https://github.com/stdlib-js/stdlib/pull/15846)
 -   [`ae772a0`](https://github.com/stdlib-js/stdlib/commit/ae772a0aeb70c14091d5f830e889a8d2a19878df) - add `blas/ext/base/ndarray/zlast-index-of-falsy` [(#15273)](https://github.com/stdlib-js/stdlib/pull/15273)
 -   [`d34ba64`](https://github.com/stdlib-js/stdlib/commit/d34ba6452e80d0251d29d0ee864edcdf0b5052bf) - add `blas/ext/base/ndarray/sleft-pad-circular` [(#15987)](https://github.com/stdlib-js/stdlib/pull/15987)
@@ -1022,6 +1023,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`838d84f`](https://github.com/stdlib-js/stdlib/commit/838d84fe80e5e3aad1384c4c67f42a26ca51a8b3) - **feat:** add `blas/ext/base/ndarray/cwxmy` [(#15844)](https://github.com/stdlib-js/stdlib/pull/15844) _(by Karan Anand)_
 -   [`bfb46cd`](https://github.com/stdlib-js/stdlib/commit/bfb46cd96855be6c06f472bcc51ef77f96f3624b) - **feat:** add `blas/ext/base/ndarray/zwxmy` [(#15846)](https://github.com/stdlib-js/stdlib/pull/15846) _(by Karan Anand)_
 -   [`dab2209`](https://github.com/stdlib-js/stdlib/commit/dab220997a84248eb278619abf61b92eb30a7cc0) - **fix:** clamp only the upper bound [(#15857)](https://github.com/stdlib-js/stdlib/pull/15857) _(by Muhammad Haris)_
 -   [`ae772a0`](https://github.com/stdlib-js/stdlib/commit/ae772a0aeb70c14091d5f830e889a8d2a19878df) - **feat:** add `blas/ext/base/ndarray/zlast-index-of-falsy` [(#15273)](https://github.com/stdlib-js/stdlib/pull/15273) _(by Muhammad Haris)_
