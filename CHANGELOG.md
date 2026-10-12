@@ -1015,6 +1015,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`fe012cf`](https://github.com/stdlib-js/stdlib/commit/fe012cf9cc6af56bc42c03d5b8473f1c9b561e74) - **test:** migrate `blas/base/csrot` to ULP-based assertions [(#15890)](https://github.com/stdlib-js/stdlib/pull/15890) _(by Athan Reines)_
 -   [`c3a1514`](https://github.com/stdlib-js/stdlib/commit/c3a15144cc92dcd933480bbc494df57490606cd9) - **test:** migrate `blas/base/wasm/drot` to ULP-based assertions [(#16068)](https://github.com/stdlib-js/stdlib/pull/16068) _(by Athan Reines)_
 -   [`dd7bec5`](https://github.com/stdlib-js/stdlib/commit/dd7bec53bce1f0fd11eed9c64a7859eb54eb686c) - **test:** migrate `blas/base/caxpy` to ULP-based assertions [(#15941)](https://github.com/stdlib-js/stdlib/pull/15941) _(by Athan Reines)_
 -   [`eff53c5`](https://github.com/stdlib-js/stdlib/commit/eff53c53b69ed170fa8129a5ba5217507192a7f1) - **test:** migrate `blas/base/wasm/srotm` to ULP-based assertions [(#16060)](https://github.com/stdlib-js/stdlib/pull/16060) _(by Athan Reines)_
