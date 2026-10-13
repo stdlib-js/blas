@@ -1027,6 +1027,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f14d9dd`](https://github.com/stdlib-js/stdlib/commit/f14d9ddf7a586b2888124be31b4fc20db3553821) - **test:** migrate `blas/base/zaxpy` to ULP-based assertions [(#16094)](https://github.com/stdlib-js/stdlib/pull/16094) _(by Athan Reines)_
 -   [`d481742`](https://github.com/stdlib-js/stdlib/commit/d481742c5bd85a168be959f79ba1b59511fbbc86) - **feat:** add `blas/ext/base/ndarray/cwxpy` [(#15793)](https://github.com/stdlib-js/stdlib/pull/15793) _(by Karan Anand)_
 -   [`7726923`](https://github.com/stdlib-js/stdlib/commit/7726923ba4c181e091b9784b6c1bf52982037f94) - **feat:** add `blas/ext/base/ndarray/zwxpy` [(#15839)](https://github.com/stdlib-js/stdlib/pull/15839) _(by Karan Anand)_
 -   [`2f6b1f3`](https://github.com/stdlib-js/stdlib/commit/2f6b1f332e73a3ca0a06b803db31b2c99f2f8547) - **feat:** add `blas/ext/base/ndarray/cwxsy` [(#15840)](https://github.com/stdlib-js/stdlib/pull/15840) _(by Karan Anand)_
