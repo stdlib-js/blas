@@ -789,6 +789,7 @@
 
 ### Bug Fixes
 
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
 -   [`dab2209`](https://github.com/stdlib-js/stdlib/commit/dab220997a84248eb278619abf61b92eb30a7cc0) - clamp only the upper bound [(#15857)](https://github.com/stdlib-js/stdlib/pull/15857)
 -   [`0c2ab03`](https://github.com/stdlib-js/stdlib/commit/0c2ab03e53f24a8a5cab40d71e102289bbc0d286) - rename package and namespace symbol
 -   [`f29d4c7`](https://github.com/stdlib-js/stdlib/commit/f29d4c7fc763d72e3f159dfe95b84dcfa9977fcb) - ensure consistent behavior between JavaScript and C
@@ -1030,6 +1031,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
 -   [`d7bff10`](https://github.com/stdlib-js/stdlib/commit/d7bff10b83effe97bcd0823c1dd09388aa0d64e4) - **feat:** add `blas/ext/base/gxpby` [(#16101)](https://github.com/stdlib-js/stdlib/pull/16101) _(by Karan Anand)_
 -   [`a365d9a`](https://github.com/stdlib-js/stdlib/commit/a365d9ab20113cd1c19728262f82640e5c57b2b0) - **feat:** add C implementation for `blas/ext/base/ndarray/cone-to` [(#15325)](https://github.com/stdlib-js/stdlib/pull/15325) _(by Ujjwal Verma)_
 -   [`abeb4a5`](https://github.com/stdlib-js/stdlib/commit/abeb4a5ebe20845be458cb9493303c70c4035fbe) - **feat:** add C implementation for `blas/ext/base/ndarray/swxmy` [(#16105)](https://github.com/stdlib-js/stdlib/pull/16105) _(by Samarth Kolarkar)_
