@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d7bff10`](https://github.com/stdlib-js/stdlib/commit/d7bff10b83effe97bcd0823c1dd09388aa0d64e4) - add `blas/ext/base/gxpby` [(#16101)](https://github.com/stdlib-js/stdlib/pull/16101)
 -   [`a365d9a`](https://github.com/stdlib-js/stdlib/commit/a365d9ab20113cd1c19728262f82640e5c57b2b0) - add C implementation for `blas/ext/base/ndarray/cone-to` [(#15325)](https://github.com/stdlib-js/stdlib/pull/15325)
 -   [`abeb4a5`](https://github.com/stdlib-js/stdlib/commit/abeb4a5ebe20845be458cb9493303c70c4035fbe) - add C implementation for `blas/ext/base/ndarray/swxmy` [(#16105)](https://github.com/stdlib-js/stdlib/pull/16105)
 -   [`d481742`](https://github.com/stdlib-js/stdlib/commit/d481742c5bd85a168be959f79ba1b59511fbbc86) - add `blas/ext/base/ndarray/cwxpy` [(#15793)](https://github.com/stdlib-js/stdlib/pull/15793)
@@ -1029,6 +1030,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`d7bff10`](https://github.com/stdlib-js/stdlib/commit/d7bff10b83effe97bcd0823c1dd09388aa0d64e4) - **feat:** add `blas/ext/base/gxpby` [(#16101)](https://github.com/stdlib-js/stdlib/pull/16101) _(by Karan Anand)_
 -   [`a365d9a`](https://github.com/stdlib-js/stdlib/commit/a365d9ab20113cd1c19728262f82640e5c57b2b0) - **feat:** add C implementation for `blas/ext/base/ndarray/cone-to` [(#15325)](https://github.com/stdlib-js/stdlib/pull/15325) _(by Ujjwal Verma)_
 -   [`abeb4a5`](https://github.com/stdlib-js/stdlib/commit/abeb4a5ebe20845be458cb9493303c70c4035fbe) - **feat:** add C implementation for `blas/ext/base/ndarray/swxmy` [(#16105)](https://github.com/stdlib-js/stdlib/pull/16105) _(by Samarth Kolarkar)_
 -   [`47f6e1b`](https://github.com/stdlib-js/stdlib/commit/47f6e1bbad638fc9353d9fa70e095d6f857baadb) - **docs:** update Markdown equation elements _(by stdlib-bot)_
