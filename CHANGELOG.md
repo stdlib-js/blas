@@ -1027,6 +1027,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`3c34d8c`](https://github.com/stdlib-js/stdlib/commit/3c34d8cd0fb67f717a75cc904e0bcd655644f40f) - **test:** migrate `blas/ext/base/drrss` to ULP-based assertions [(#16087)](https://github.com/stdlib-js/stdlib/pull/16087) _(by Divyanshu)_
 -   [`1f923e3`](https://github.com/stdlib-js/stdlib/commit/1f923e38c3e5b4c00bde76e050f015d10670d51c) - **chore:** clean-up [(#16091)](https://github.com/stdlib-js/stdlib/pull/16091) _(by Philipp Burckhardt)_
 -   [`f14d9dd`](https://github.com/stdlib-js/stdlib/commit/f14d9ddf7a586b2888124be31b4fc20db3553821) - **test:** migrate `blas/base/zaxpy` to ULP-based assertions [(#16094)](https://github.com/stdlib-js/stdlib/pull/16094) _(by Athan Reines)_
 -   [`d481742`](https://github.com/stdlib-js/stdlib/commit/d481742c5bd85a168be959f79ba1b59511fbbc86) - **feat:** add `blas/ext/base/ndarray/cwxpy` [(#15793)](https://github.com/stdlib-js/stdlib/pull/15793) _(by Karan Anand)_
@@ -2120,12 +2121,13 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 20 people contributed to this release. Thank you to the following contributors:
+A total of 21 people contributed to this release. Thank you to the following contributors:
 
 -   Arjan-P
 -   Athan Reines
 -   Atharva Patange
 -   Divit Jain
+-   Divyanshu
 -   JoyBoy
 -   Karan Anand
 -   Kaustubh Patange
