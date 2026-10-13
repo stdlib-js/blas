@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fb0a750`](https://github.com/stdlib-js/stdlib/commit/fb0a7504c8b06c30524b860dcb3bf98f0bd2f424) - add C implementation for `blas/ext/base/ndarray/swxsy` [(#16121)](https://github.com/stdlib-js/stdlib/pull/16121)
 -   [`97e4047`](https://github.com/stdlib-js/stdlib/commit/97e4047693727afa5e0b8612bd20d5ed7f1e96c2) - add C implementation for `blas/ext/base/ndarray/dwxpy` [(#16086)](https://github.com/stdlib-js/stdlib/pull/16086)
 -   [`27c67e7`](https://github.com/stdlib-js/stdlib/commit/27c67e729ab62005d5b79a1cd54e256f646b320d) - add C implementation for `blas/ext/base/ndarray/dwxmy` [(#16090)](https://github.com/stdlib-js/stdlib/pull/16090)
 -   [`dae7baa`](https://github.com/stdlib-js/stdlib/commit/dae7baad3e999788d661297fb4508cba78db777c) - add C implementation for `blas/ext/base/ndarray/swxpy` [(#16103)](https://github.com/stdlib-js/stdlib/pull/16103)
@@ -1034,6 +1035,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`fb0a750`](https://github.com/stdlib-js/stdlib/commit/fb0a7504c8b06c30524b860dcb3bf98f0bd2f424) - **feat:** add C implementation for `blas/ext/base/ndarray/swxsy` [(#16121)](https://github.com/stdlib-js/stdlib/pull/16121) _(by Samarth Kolarkar)_
 -   [`97e4047`](https://github.com/stdlib-js/stdlib/commit/97e4047693727afa5e0b8612bd20d5ed7f1e96c2) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxpy` [(#16086)](https://github.com/stdlib-js/stdlib/pull/16086) _(by MJ)_
 -   [`27c67e7`](https://github.com/stdlib-js/stdlib/commit/27c67e729ab62005d5b79a1cd54e256f646b320d) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxmy` [(#16090)](https://github.com/stdlib-js/stdlib/pull/16090) _(by MJ)_
 -   [`dae7baa`](https://github.com/stdlib-js/stdlib/commit/dae7baad3e999788d661297fb4508cba78db777c) - **feat:** add C implementation for `blas/ext/base/ndarray/swxpy` [(#16103)](https://github.com/stdlib-js/stdlib/pull/16103) _(by Samarth Kolarkar)_
