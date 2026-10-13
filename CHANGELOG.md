@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`cd4f3ca`](https://github.com/stdlib-js/stdlib/commit/cd4f3caf7e1d48f2ea66dfb8b753dcc2b1970971) - add `blas/ext/base/gindex-of-less-than-sorted` [(#15752)](https://github.com/stdlib-js/stdlib/pull/15752)
+-   [`ac62c90`](https://github.com/stdlib-js/stdlib/commit/ac62c90b99449ee77d71e10646d288e26d71520b) - add `blas/ext/base/gindex-of-less-than-equal-sorted` [(#15757)](https://github.com/stdlib-js/stdlib/pull/15757)
 -   [`fb0a750`](https://github.com/stdlib-js/stdlib/commit/fb0a7504c8b06c30524b860dcb3bf98f0bd2f424) - add C implementation for `blas/ext/base/ndarray/swxsy` [(#16121)](https://github.com/stdlib-js/stdlib/pull/16121)
 -   [`97e4047`](https://github.com/stdlib-js/stdlib/commit/97e4047693727afa5e0b8612bd20d5ed7f1e96c2) - add C implementation for `blas/ext/base/ndarray/dwxpy` [(#16086)](https://github.com/stdlib-js/stdlib/pull/16086)
 -   [`27c67e7`](https://github.com/stdlib-js/stdlib/commit/27c67e729ab62005d5b79a1cd54e256f646b320d) - add C implementation for `blas/ext/base/ndarray/dwxmy` [(#16090)](https://github.com/stdlib-js/stdlib/pull/16090)
@@ -1035,6 +1037,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`cd4f3ca`](https://github.com/stdlib-js/stdlib/commit/cd4f3caf7e1d48f2ea66dfb8b753dcc2b1970971) - **feat:** add `blas/ext/base/gindex-of-less-than-sorted` [(#15752)](https://github.com/stdlib-js/stdlib/pull/15752) _(by Sachin Pangal)_
+-   [`ac62c90`](https://github.com/stdlib-js/stdlib/commit/ac62c90b99449ee77d71e10646d288e26d71520b) - **feat:** add `blas/ext/base/gindex-of-less-than-equal-sorted` [(#15757)](https://github.com/stdlib-js/stdlib/pull/15757) _(by Sachin Pangal)_
 -   [`fb0a750`](https://github.com/stdlib-js/stdlib/commit/fb0a7504c8b06c30524b860dcb3bf98f0bd2f424) - **feat:** add C implementation for `blas/ext/base/ndarray/swxsy` [(#16121)](https://github.com/stdlib-js/stdlib/pull/16121) _(by Samarth Kolarkar)_
 -   [`97e4047`](https://github.com/stdlib-js/stdlib/commit/97e4047693727afa5e0b8612bd20d5ed7f1e96c2) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxpy` [(#16086)](https://github.com/stdlib-js/stdlib/pull/16086) _(by MJ)_
 -   [`27c67e7`](https://github.com/stdlib-js/stdlib/commit/27c67e729ab62005d5b79a1cd54e256f646b320d) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxmy` [(#16090)](https://github.com/stdlib-js/stdlib/pull/16090) _(by MJ)_
