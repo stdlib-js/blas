@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-12)
+## Unreleased (2026-10-13)
 
 <section class="features">
 
 ### Features
 
+-   [`1976459`](https://github.com/stdlib-js/stdlib/commit/1976459249d274b9c47b97722723bc62fa3a13da) - add `blas/ext/base/ndarray/zwxsy` [(#15843)](https://github.com/stdlib-js/stdlib/pull/15843)
 -   [`838d84f`](https://github.com/stdlib-js/stdlib/commit/838d84fe80e5e3aad1384c4c67f42a26ca51a8b3) - add `blas/ext/base/ndarray/cwxmy` [(#15844)](https://github.com/stdlib-js/stdlib/pull/15844)
 -   [`bfb46cd`](https://github.com/stdlib-js/stdlib/commit/bfb46cd96855be6c06f472bcc51ef77f96f3624b) - add `blas/ext/base/ndarray/zwxmy` [(#15846)](https://github.com/stdlib-js/stdlib/pull/15846)
 -   [`ae772a0`](https://github.com/stdlib-js/stdlib/commit/ae772a0aeb70c14091d5f830e889a8d2a19878df) - add `blas/ext/base/ndarray/zlast-index-of-falsy` [(#15273)](https://github.com/stdlib-js/stdlib/pull/15273)
@@ -1023,6 +1024,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`1976459`](https://github.com/stdlib-js/stdlib/commit/1976459249d274b9c47b97722723bc62fa3a13da) - **feat:** add `blas/ext/base/ndarray/zwxsy` [(#15843)](https://github.com/stdlib-js/stdlib/pull/15843) _(by Karan Anand)_
 -   [`838d84f`](https://github.com/stdlib-js/stdlib/commit/838d84fe80e5e3aad1384c4c67f42a26ca51a8b3) - **feat:** add `blas/ext/base/ndarray/cwxmy` [(#15844)](https://github.com/stdlib-js/stdlib/pull/15844) _(by Karan Anand)_
 -   [`bfb46cd`](https://github.com/stdlib-js/stdlib/commit/bfb46cd96855be6c06f472bcc51ef77f96f3624b) - **feat:** add `blas/ext/base/ndarray/zwxmy` [(#15846)](https://github.com/stdlib-js/stdlib/pull/15846) _(by Karan Anand)_
 -   [`dab2209`](https://github.com/stdlib-js/stdlib/commit/dab220997a84248eb278619abf61b92eb30a7cc0) - **fix:** clamp only the upper bound [(#15857)](https://github.com/stdlib-js/stdlib/pull/15857) _(by Muhammad Haris)_
