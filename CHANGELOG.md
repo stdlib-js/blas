@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`dae7baa`](https://github.com/stdlib-js/stdlib/commit/dae7baad3e999788d661297fb4508cba78db777c) - add C implementation for `blas/ext/base/ndarray/swxpy` [(#16103)](https://github.com/stdlib-js/stdlib/pull/16103)
 -   [`d7bff10`](https://github.com/stdlib-js/stdlib/commit/d7bff10b83effe97bcd0823c1dd09388aa0d64e4) - add `blas/ext/base/gxpby` [(#16101)](https://github.com/stdlib-js/stdlib/pull/16101)
 -   [`a365d9a`](https://github.com/stdlib-js/stdlib/commit/a365d9ab20113cd1c19728262f82640e5c57b2b0) - add C implementation for `blas/ext/base/ndarray/cone-to` [(#15325)](https://github.com/stdlib-js/stdlib/pull/15325)
 -   [`abeb4a5`](https://github.com/stdlib-js/stdlib/commit/abeb4a5ebe20845be458cb9493303c70c4035fbe) - add C implementation for `blas/ext/base/ndarray/swxmy` [(#16105)](https://github.com/stdlib-js/stdlib/pull/16105)
@@ -1031,6 +1032,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`dae7baa`](https://github.com/stdlib-js/stdlib/commit/dae7baad3e999788d661297fb4508cba78db777c) - **feat:** add C implementation for `blas/ext/base/ndarray/swxpy` [(#16103)](https://github.com/stdlib-js/stdlib/pull/16103) _(by Samarth Kolarkar)_
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
 -   [`d7bff10`](https://github.com/stdlib-js/stdlib/commit/d7bff10b83effe97bcd0823c1dd09388aa0d64e4) - **feat:** add `blas/ext/base/gxpby` [(#16101)](https://github.com/stdlib-js/stdlib/pull/16101) _(by Karan Anand)_
 -   [`a365d9a`](https://github.com/stdlib-js/stdlib/commit/a365d9ab20113cd1c19728262f82640e5c57b2b0) - **feat:** add C implementation for `blas/ext/base/ndarray/cone-to` [(#15325)](https://github.com/stdlib-js/stdlib/pull/15325) _(by Ujjwal Verma)_
