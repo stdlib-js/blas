@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`abeb4a5`](https://github.com/stdlib-js/stdlib/commit/abeb4a5ebe20845be458cb9493303c70c4035fbe) - add C implementation for `blas/ext/base/ndarray/swxmy` [(#16105)](https://github.com/stdlib-js/stdlib/pull/16105)
 -   [`d481742`](https://github.com/stdlib-js/stdlib/commit/d481742c5bd85a168be959f79ba1b59511fbbc86) - add `blas/ext/base/ndarray/cwxpy` [(#15793)](https://github.com/stdlib-js/stdlib/pull/15793)
 -   [`7726923`](https://github.com/stdlib-js/stdlib/commit/7726923ba4c181e091b9784b6c1bf52982037f94) - add `blas/ext/base/ndarray/zwxpy` [(#15839)](https://github.com/stdlib-js/stdlib/pull/15839)
 -   [`2f6b1f3`](https://github.com/stdlib-js/stdlib/commit/2f6b1f332e73a3ca0a06b803db31b2c99f2f8547) - add `blas/ext/base/ndarray/cwxsy` [(#15840)](https://github.com/stdlib-js/stdlib/pull/15840)
@@ -1027,6 +1028,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`abeb4a5`](https://github.com/stdlib-js/stdlib/commit/abeb4a5ebe20845be458cb9493303c70c4035fbe) - **feat:** add C implementation for `blas/ext/base/ndarray/swxmy` [(#16105)](https://github.com/stdlib-js/stdlib/pull/16105) _(by Samarth Kolarkar)_
 -   [`47f6e1b`](https://github.com/stdlib-js/stdlib/commit/47f6e1bbad638fc9353d9fa70e095d6f857baadb) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`66861da`](https://github.com/stdlib-js/stdlib/commit/66861daee8d5f9013ea80d40db4ee93f98b6ea0e) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`3c34d8c`](https://github.com/stdlib-js/stdlib/commit/3c34d8cd0fb67f717a75cc904e0bcd655644f40f) - **test:** migrate `blas/ext/base/drrss` to ULP-based assertions [(#16087)](https://github.com/stdlib-js/stdlib/pull/16087) _(by Divyanshu)_
@@ -2123,7 +2125,7 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 21 people contributed to this release. Thank you to the following contributors:
+A total of 22 people contributed to this release. Thank you to the following contributors:
 
 -   Arjan-P
 -   Athan Reines
@@ -2139,6 +2141,7 @@ A total of 21 people contributed to this release. Thank you to the following con
 -   Prashant Kumar Yadav
 -   Rayan Salhab
 -   Sachin Pangal
+-   Samarth Kolarkar
 -   Sutar Siddhram Kashinath
 -   Suyog
 -   Ujjwal Verma
