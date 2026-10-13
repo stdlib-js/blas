@@ -1027,6 +1027,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`47f6e1b`](https://github.com/stdlib-js/stdlib/commit/47f6e1bbad638fc9353d9fa70e095d6f857baadb) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`66861da`](https://github.com/stdlib-js/stdlib/commit/66861daee8d5f9013ea80d40db4ee93f98b6ea0e) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`3c34d8c`](https://github.com/stdlib-js/stdlib/commit/3c34d8cd0fb67f717a75cc904e0bcd655644f40f) - **test:** migrate `blas/ext/base/drrss` to ULP-based assertions [(#16087)](https://github.com/stdlib-js/stdlib/pull/16087) _(by Divyanshu)_
 -   [`1f923e3`](https://github.com/stdlib-js/stdlib/commit/1f923e38c3e5b4c00bde76e050f015d10670d51c) - **chore:** clean-up [(#16091)](https://github.com/stdlib-js/stdlib/pull/16091) _(by Philipp Burckhardt)_
 -   [`f14d9dd`](https://github.com/stdlib-js/stdlib/commit/f14d9ddf7a586b2888124be31b4fc20db3553821) - **test:** migrate `blas/base/zaxpy` to ULP-based assertions [(#16094)](https://github.com/stdlib-js/stdlib/pull/16094) _(by Athan Reines)_
