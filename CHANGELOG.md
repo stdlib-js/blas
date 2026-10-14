@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-13)
+## Unreleased (2026-10-14)
 
 <section class="features">
 
@@ -1037,6 +1037,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`274c553`](https://github.com/stdlib-js/stdlib/commit/274c5538da9abf76ad0dcde4d1a9a1c80501cb65) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`6646bb2`](https://github.com/stdlib-js/stdlib/commit/6646bb2c2d9708b4cffa818600b20b35d81e5b45) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`cd4f3ca`](https://github.com/stdlib-js/stdlib/commit/cd4f3caf7e1d48f2ea66dfb8b753dcc2b1970971) - **feat:** add `blas/ext/base/gindex-of-less-than-sorted` [(#15752)](https://github.com/stdlib-js/stdlib/pull/15752) _(by Sachin Pangal)_
 -   [`ac62c90`](https://github.com/stdlib-js/stdlib/commit/ac62c90b99449ee77d71e10646d288e26d71520b) - **feat:** add `blas/ext/base/gindex-of-less-than-equal-sorted` [(#15757)](https://github.com/stdlib-js/stdlib/pull/15757) _(by Sachin Pangal)_
 -   [`fb0a750`](https://github.com/stdlib-js/stdlib/commit/fb0a7504c8b06c30524b860dcb3bf98f0bd2f424) - **feat:** add C implementation for `blas/ext/base/ndarray/swxsy` [(#16121)](https://github.com/stdlib-js/stdlib/pull/16121) _(by Samarth Kolarkar)_
