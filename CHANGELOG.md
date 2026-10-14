@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace
+-   [`5026d4a`](https://github.com/stdlib-js/stdlib/commit/5026d4a536db17983e22fb6630eb004e3ffa4e5a) - add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace
 -   [`564d0dd`](https://github.com/stdlib-js/stdlib/commit/564d0ddbe48ff22f9ef7ac8890d020f9cefcea60) - add `blas/ext/base/ndarray/sindex-of-less-than-equal` [(#15889)](https://github.com/stdlib-js/stdlib/pull/15889)
 -   [`0c5980c`](https://github.com/stdlib-js/stdlib/commit/0c5980c1d2d6a5bfb07df03b974665868a50751b) - add `blas/ext/base/sindex-of-less-than-equal` [(#14954)](https://github.com/stdlib-js/stdlib/pull/14954)
 -   [`4867aca`](https://github.com/stdlib-js/stdlib/commit/4867acae4dc5160de3c29b4d20f21bc360863dfb) - add `blas/ext/base/ndarray/dindex-of-less-than-equal` [(#15888)](https://github.com/stdlib-js/stdlib/pull/15888)
@@ -1061,6 +1063,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
+-   [`5026d4a`](https://github.com/stdlib-js/stdlib/commit/5026d4a536db17983e22fb6630eb004e3ffa4e5a) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
 -   [`564d0dd`](https://github.com/stdlib-js/stdlib/commit/564d0ddbe48ff22f9ef7ac8890d020f9cefcea60) - **feat:** add `blas/ext/base/ndarray/sindex-of-less-than-equal` [(#15889)](https://github.com/stdlib-js/stdlib/pull/15889) _(by Muhammad Haris)_
 -   [`0c5980c`](https://github.com/stdlib-js/stdlib/commit/0c5980c1d2d6a5bfb07df03b974665868a50751b) - **feat:** add `blas/ext/base/sindex-of-less-than-equal` [(#14954)](https://github.com/stdlib-js/stdlib/pull/14954) _(by Muhammad Haris, Athan Reines)_
 -   [`4867aca`](https://github.com/stdlib-js/stdlib/commit/4867acae4dc5160de3c29b4d20f21bc360863dfb) - **feat:** add `blas/ext/base/ndarray/dindex-of-less-than-equal` [(#15888)](https://github.com/stdlib-js/stdlib/pull/15888) _(by Muhammad Haris)_
