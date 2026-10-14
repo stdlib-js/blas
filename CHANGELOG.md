@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`4867aca`](https://github.com/stdlib-js/stdlib/commit/4867acae4dc5160de3c29b4d20f21bc360863dfb) - add `blas/ext/base/ndarray/dindex-of-less-than-equal` [(#15888)](https://github.com/stdlib-js/stdlib/pull/15888)
 -   [`ba23e07`](https://github.com/stdlib-js/stdlib/commit/ba23e079c7978562ce4cbc85a02e44d637ecc19f) - add `blas/ext/base/dindex-of-less-than-equal` [(#14956)](https://github.com/stdlib-js/stdlib/pull/14956)
 -   [`eee8997`](https://github.com/stdlib-js/stdlib/commit/eee8997d3ced6c8e3a8efcf4b21e00af6cd40642) - add C implementation for `blas/ext/base/ndarray/zwxsy` [(#16156)](https://github.com/stdlib-js/stdlib/pull/16156)
 -   [`9dc69d4`](https://github.com/stdlib-js/stdlib/commit/9dc69d49015e3cf152f08f687b4cf3e9c290aa5b) - add C implementation for `blas/ext/base/ndarray/dwxdy` [(#16151)](https://github.com/stdlib-js/stdlib/pull/16151)
@@ -1058,6 +1059,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`4867aca`](https://github.com/stdlib-js/stdlib/commit/4867acae4dc5160de3c29b4d20f21bc360863dfb) - **feat:** add `blas/ext/base/ndarray/dindex-of-less-than-equal` [(#15888)](https://github.com/stdlib-js/stdlib/pull/15888) _(by Muhammad Haris)_
 -   [`ba23e07`](https://github.com/stdlib-js/stdlib/commit/ba23e079c7978562ce4cbc85a02e44d637ecc19f) - **feat:** add `blas/ext/base/dindex-of-less-than-equal` [(#14956)](https://github.com/stdlib-js/stdlib/pull/14956) _(by Muhammad Haris, Athan Reines)_
 -   [`eee8997`](https://github.com/stdlib-js/stdlib/commit/eee8997d3ced6c8e3a8efcf4b21e00af6cd40642) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxsy` [(#16156)](https://github.com/stdlib-js/stdlib/pull/16156) _(by Samarth Kolarkar)_
 -   [`9dc69d4`](https://github.com/stdlib-js/stdlib/commit/9dc69d49015e3cf152f08f687b4cf3e9c290aa5b) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxdy` [(#16151)](https://github.com/stdlib-js/stdlib/pull/16151) _(by MJ)_
