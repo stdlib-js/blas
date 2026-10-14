@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983)
 -   [`cec8bc6`](https://github.com/stdlib-js/stdlib/commit/cec8bc6db95bf2cbe8ac5e25105bfee4830922f6) - add `blas/ext/base/sright-pad-circular` [(#15485)](https://github.com/stdlib-js/stdlib/pull/15485)
 -   [`7b13457`](https://github.com/stdlib-js/stdlib/commit/7b134577d1d42ac7e12953822dd8305cc2f598cb) - add `blas/ext/base/ndarray/dleft-pad-circular` [(#15975)](https://github.com/stdlib-js/stdlib/pull/15975)
 -   [`1923cbd`](https://github.com/stdlib-js/stdlib/commit/1923cbd0639d3a52c0d1b4dabca9e46a7d2b9002) - add `blas/ext/base/dleft-pad-circular` [(#15043)](https://github.com/stdlib-js/stdlib/pull/15043)
@@ -1050,6 +1051,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - **feat:** add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983) _(by Muhammad Haris)_
 -   [`cec8bc6`](https://github.com/stdlib-js/stdlib/commit/cec8bc6db95bf2cbe8ac5e25105bfee4830922f6) - **feat:** add `blas/ext/base/sright-pad-circular` [(#15485)](https://github.com/stdlib-js/stdlib/pull/15485) _(by Muhammad Haris)_
 -   [`7b13457`](https://github.com/stdlib-js/stdlib/commit/7b134577d1d42ac7e12953822dd8305cc2f598cb) - **feat:** add `blas/ext/base/ndarray/dleft-pad-circular` [(#15975)](https://github.com/stdlib-js/stdlib/pull/15975) _(by Muhammad Haris)_
 -   [`1923cbd`](https://github.com/stdlib-js/stdlib/commit/1923cbd0639d3a52c0d1b4dabca9e46a7d2b9002) - **feat:** add `blas/ext/base/dleft-pad-circular` [(#15043)](https://github.com/stdlib-js/stdlib/pull/15043) _(by Muhammad Haris)_
