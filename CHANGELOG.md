@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`87b3530`](https://github.com/stdlib-js/stdlib/commit/87b3530b0c09c0f023ed03333f7c3bbe16f39301) - add `blas/ext/base/ndarray/gfind-last-index-between` [(#16142)](https://github.com/stdlib-js/stdlib/pull/16142)
 -   [`a25eb35`](https://github.com/stdlib-js/stdlib/commit/a25eb3542c04d09defbb2bdf71bced84a1e02e6f) - add C implementation for `blas/ext/base/ndarray/dwxsy` [(#16133)](https://github.com/stdlib-js/stdlib/pull/16133)
 -   [`a1c2797`](https://github.com/stdlib-js/stdlib/commit/a1c2797bd8a9ce60093390b155388b251863bdce) - add `blas/ext/base/ndarray/zany` [(#16134)](https://github.com/stdlib-js/stdlib/pull/16134)
 -   [`0eb422d`](https://github.com/stdlib-js/stdlib/commit/0eb422d7f7c4180c99616e44ac7fc02e196175e4) - add `blas/ext/base/ndarray/gediff` [(#16131)](https://github.com/stdlib-js/stdlib/pull/16131)
@@ -1040,6 +1041,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`87b3530`](https://github.com/stdlib-js/stdlib/commit/87b3530b0c09c0f023ed03333f7c3bbe16f39301) - **feat:** add `blas/ext/base/ndarray/gfind-last-index-between` [(#16142)](https://github.com/stdlib-js/stdlib/pull/16142) _(by Muhammad Haris)_
 -   [`a25eb35`](https://github.com/stdlib-js/stdlib/commit/a25eb3542c04d09defbb2bdf71bced84a1e02e6f) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxsy` [(#16133)](https://github.com/stdlib-js/stdlib/pull/16133) _(by Samarth Kolarkar)_
 -   [`a1c2797`](https://github.com/stdlib-js/stdlib/commit/a1c2797bd8a9ce60093390b155388b251863bdce) - **feat:** add `blas/ext/base/ndarray/zany` [(#16134)](https://github.com/stdlib-js/stdlib/pull/16134) _(by Muhammad Haris)_
 -   [`0eb422d`](https://github.com/stdlib-js/stdlib/commit/0eb422d7f7c4180c99616e44ac7fc02e196175e4) - **feat:** add `blas/ext/base/ndarray/gediff` [(#16131)](https://github.com/stdlib-js/stdlib/pull/16131) _(by Muhammad Haris, Athan Reines)_
