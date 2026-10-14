@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`f7adc11`](https://github.com/stdlib-js/stdlib/commit/f7adc11992e93e0e99a098c0a53a0057c61be783) - add C implementation for `blas/ext/base/ndarray/zwxpy` [(#16153)](https://github.com/stdlib-js/stdlib/pull/16153)
 -   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - add `dleftPadCircular` and `srightPadCircular` to namespace
 -   [`6d2216e`](https://github.com/stdlib-js/stdlib/commit/6d2216eb8cfec6b8ce37eccb704c378f7608a946) - add `dleftPadCircular` and `srightPadCircular` to namespace
 -   [`7430337`](https://github.com/stdlib-js/stdlib/commit/743033728b5e88413842ba104efa99fc2eceb819) - add `blas/ext/base/ndarray/sright-pad-circular` [(#15983)](https://github.com/stdlib-js/stdlib/pull/15983)
@@ -1053,6 +1054,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f7adc11`](https://github.com/stdlib-js/stdlib/commit/f7adc11992e93e0e99a098c0a53a0057c61be783) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxpy` [(#16153)](https://github.com/stdlib-js/stdlib/pull/16153) _(by MJ)_
 -   [`7eae8dc`](https://github.com/stdlib-js/stdlib/commit/7eae8dcf9963b403f33b0058408d6b8837b2bb71) - **feat:** add `dleftPadCircular` and `srightPadCircular` to namespace _(by Athan Reines)_
 -   [`6d2216e`](https://github.com/stdlib-js/stdlib/commit/6d2216eb8cfec6b8ce37eccb704c378f7608a946) - **feat:** add `dleftPadCircular` and `srightPadCircular` to namespace _(by Athan Reines)_
 -   [`9461887`](https://github.com/stdlib-js/stdlib/commit/9461887b62bc66c1bb88d6d019d8e421306a3daf) - **docs:** fix notes _(by Athan Reines)_
