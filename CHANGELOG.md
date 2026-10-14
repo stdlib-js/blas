@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`0eb422d`](https://github.com/stdlib-js/stdlib/commit/0eb422d7f7c4180c99616e44ac7fc02e196175e4) - add `blas/ext/base/ndarray/gediff` [(#16131)](https://github.com/stdlib-js/stdlib/pull/16131)
 -   [`cd4f3ca`](https://github.com/stdlib-js/stdlib/commit/cd4f3caf7e1d48f2ea66dfb8b753dcc2b1970971) - add `blas/ext/base/gindex-of-less-than-sorted` [(#15752)](https://github.com/stdlib-js/stdlib/pull/15752)
 -   [`ac62c90`](https://github.com/stdlib-js/stdlib/commit/ac62c90b99449ee77d71e10646d288e26d71520b) - add `blas/ext/base/gindex-of-less-than-equal-sorted` [(#15757)](https://github.com/stdlib-js/stdlib/pull/15757)
 -   [`fb0a750`](https://github.com/stdlib-js/stdlib/commit/fb0a7504c8b06c30524b860dcb3bf98f0bd2f424) - add C implementation for `blas/ext/base/ndarray/swxsy` [(#16121)](https://github.com/stdlib-js/stdlib/pull/16121)
@@ -1037,6 +1038,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`0eb422d`](https://github.com/stdlib-js/stdlib/commit/0eb422d7f7c4180c99616e44ac7fc02e196175e4) - **feat:** add `blas/ext/base/ndarray/gediff` [(#16131)](https://github.com/stdlib-js/stdlib/pull/16131) _(by Muhammad Haris, Athan Reines)_
 -   [`274c553`](https://github.com/stdlib-js/stdlib/commit/274c5538da9abf76ad0dcde4d1a9a1c80501cb65) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`6646bb2`](https://github.com/stdlib-js/stdlib/commit/6646bb2c2d9708b4cffa818600b20b35d81e5b45) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`cd4f3ca`](https://github.com/stdlib-js/stdlib/commit/cd4f3caf7e1d48f2ea66dfb8b753dcc2b1970971) - **feat:** add `blas/ext/base/gindex-of-less-than-sorted` [(#15752)](https://github.com/stdlib-js/stdlib/pull/15752) _(by Sachin Pangal)_
