@@ -777,6 +777,15 @@ setReadOnly( ns, 'dlastIndexOfRow', require( './../../../ext/base/dlast-index-of
 setReadOnly( ns, 'dlastIndexOfTruthy', require( './../../../ext/base/dlast-index-of-truthy' ) );
 
 /**
+* @name dleftPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/dleft-pad-circular}
+*/
+setReadOnly( ns, 'dleftPadCircular', require( './../../../ext/base/dleft-pad-circular' ) );
+
+/**
 * @name dleftPadEdge
 * @memberof ns
 * @readonly
@@ -3259,6 +3268,15 @@ setReadOnly( ns, 'sreplicate', require( './../../../ext/base/sreplicate' ) );
 * @see {@link module:@stdlib/blas/ext/base/srev}
 */
 setReadOnly( ns, 'srev', require( './../../../ext/base/srev' ) );
+
+/**
+* @name srightPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/sright-pad-circular}
+*/
+setReadOnly( ns, 'srightPadCircular', require( './../../../ext/base/sright-pad-circular' ) );
 
 /**
 * @name ssome

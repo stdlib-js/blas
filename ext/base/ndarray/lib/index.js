@@ -613,6 +613,15 @@ setReadOnly( ns, 'dlastIndexOfFalsy', require( './../../../../ext/base/ndarray/d
 setReadOnly( ns, 'dlastIndexOfTruthy', require( './../../../../ext/base/ndarray/dlast-index-of-truthy' ) );
 
 /**
+* @name dleftPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dleft-pad-circular}
+*/
+setReadOnly( ns, 'dleftPadCircular', require( './../../../../ext/base/ndarray/dleft-pad-circular' ) );
+
+/**
 * @name dleftPadEdge
 * @memberof ns
 * @readonly
@@ -2105,6 +2114,15 @@ setReadOnly( ns, 'snone', require( './../../../../ext/base/ndarray/snone' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sone-to}
 */
 setReadOnly( ns, 'soneTo', require( './../../../../ext/base/ndarray/sone-to' ) );
+
+/**
+* @name srightPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sright-pad-circular}
+*/
+setReadOnly( ns, 'srightPadCircular', require( './../../../../ext/base/ndarray/sright-pad-circular' ) );
 
 /**
 * @name ssome
