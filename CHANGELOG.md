@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a25eb35`](https://github.com/stdlib-js/stdlib/commit/a25eb3542c04d09defbb2bdf71bced84a1e02e6f) - add C implementation for `blas/ext/base/ndarray/dwxsy` [(#16133)](https://github.com/stdlib-js/stdlib/pull/16133)
 -   [`a1c2797`](https://github.com/stdlib-js/stdlib/commit/a1c2797bd8a9ce60093390b155388b251863bdce) - add `blas/ext/base/ndarray/zany` [(#16134)](https://github.com/stdlib-js/stdlib/pull/16134)
 -   [`0eb422d`](https://github.com/stdlib-js/stdlib/commit/0eb422d7f7c4180c99616e44ac7fc02e196175e4) - add `blas/ext/base/ndarray/gediff` [(#16131)](https://github.com/stdlib-js/stdlib/pull/16131)
 -   [`cd4f3ca`](https://github.com/stdlib-js/stdlib/commit/cd4f3caf7e1d48f2ea66dfb8b753dcc2b1970971) - add `blas/ext/base/gindex-of-less-than-sorted` [(#15752)](https://github.com/stdlib-js/stdlib/pull/15752)
@@ -1039,6 +1040,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`a25eb35`](https://github.com/stdlib-js/stdlib/commit/a25eb3542c04d09defbb2bdf71bced84a1e02e6f) - **feat:** add C implementation for `blas/ext/base/ndarray/dwxsy` [(#16133)](https://github.com/stdlib-js/stdlib/pull/16133) _(by Samarth Kolarkar)_
 -   [`a1c2797`](https://github.com/stdlib-js/stdlib/commit/a1c2797bd8a9ce60093390b155388b251863bdce) - **feat:** add `blas/ext/base/ndarray/zany` [(#16134)](https://github.com/stdlib-js/stdlib/pull/16134) _(by Muhammad Haris)_
 -   [`0eb422d`](https://github.com/stdlib-js/stdlib/commit/0eb422d7f7c4180c99616e44ac7fc02e196175e4) - **feat:** add `blas/ext/base/ndarray/gediff` [(#16131)](https://github.com/stdlib-js/stdlib/pull/16131) _(by Muhammad Haris, Athan Reines)_
 -   [`274c553`](https://github.com/stdlib-js/stdlib/commit/274c5538da9abf76ad0dcde4d1a9a1c80501cb65) - **docs:** update Markdown equation elements _(by stdlib-bot)_
