@@ -217,6 +217,24 @@ setReadOnly( ns, 'cwax', require( './../../../../ext/base/ndarray/cwax' ) );
 setReadOnly( ns, 'cwhere', require( './../../../../ext/base/ndarray/cwhere' ) );
 
 /**
+* @name cwxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cwxmy}
+*/
+setReadOnly( ns, 'cwxmy', require( './../../../../ext/base/ndarray/cwxmy' ) );
+
+/**
+* @name cwxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cwxpy}
+*/
+setReadOnly( ns, 'cwxpy', require( './../../../../ext/base/ndarray/cwxpy' ) );
+
+/**
 * @name cwxsa
 * @memberof ns
 * @readonly
@@ -224,6 +242,15 @@ setReadOnly( ns, 'cwhere', require( './../../../../ext/base/ndarray/cwhere' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/cwxsa}
 */
 setReadOnly( ns, 'cwxsa', require( './../../../../ext/base/ndarray/cwxsa' ) );
+
+/**
+* @name cwxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/cwxsy}
+*/
+setReadOnly( ns, 'cwxsy', require( './../../../../ext/base/ndarray/cwxsy' ) );
 
 /**
 * @name cxdy
@@ -431,6 +458,15 @@ setReadOnly( ns, 'dcusumpw', require( './../../../../ext/base/ndarray/dcusumpw' 
 * @see {@link module:@stdlib/blas/ext/base/ndarray/ddiff}
 */
 setReadOnly( ns, 'ddiff', require( './../../../../ext/base/ndarray/ddiff' ) );
+
+/**
+* @name dediff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dediff}
+*/
+setReadOnly( ns, 'dediff', require( './../../../../ext/base/ndarray/dediff' ) );
 
 /**
 * @name dfill
@@ -838,6 +874,24 @@ setReadOnly( ns, 'dwax', require( './../../../../ext/base/ndarray/dwax' ) );
 setReadOnly( ns, 'dwhere', require( './../../../../ext/base/ndarray/dwhere' ) );
 
 /**
+* @name dwxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dwxdy}
+*/
+setReadOnly( ns, 'dwxdy', require( './../../../../ext/base/ndarray/dwxdy' ) );
+
+/**
+* @name dwxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dwxmy}
+*/
+setReadOnly( ns, 'dwxmy', require( './../../../../ext/base/ndarray/dwxmy' ) );
+
+/**
 * @name dwxpy
 * @memberof ns
 * @readonly
@@ -1054,6 +1108,15 @@ setReadOnly( ns, 'gcusumpw', require( './../../../../ext/base/ndarray/gcusumpw' 
 setReadOnly( ns, 'gdiff', require( './../../../../ext/base/ndarray/gdiff' ) );
 
 /**
+* @name gediff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gediff}
+*/
+setReadOnly( ns, 'gediff', require( './../../../../ext/base/ndarray/gediff' ) );
+
+/**
 * @name gfill
 * @memberof ns
 * @readonly
@@ -1151,6 +1214,15 @@ setReadOnly( ns, 'gfindIndexBetween', require( './../../../../ext/base/ndarray/g
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gfind-last-index}
 */
 setReadOnly( ns, 'gfindLastIndex', require( './../../../../ext/base/ndarray/gfind-last-index' ) );
+
+/**
+* @name gfindLastIndexBetween
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gfind-last-index-between}
+*/
+setReadOnly( ns, 'gfindLastIndexBetween', require( './../../../../ext/base/ndarray/gfind-last-index-between' ) );
 
 /**
 * @name gfirstIndexEqual
@@ -1702,6 +1774,15 @@ setReadOnly( ns, 'saxpb', require( './../../../../ext/base/ndarray/saxpb' ) );
 setReadOnly( ns, 'saxpby', require( './../../../../ext/base/ndarray/saxpby' ) );
 
 /**
+* @name scartesianPower
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/scartesian-power}
+*/
+setReadOnly( ns, 'scartesianPower', require( './../../../../ext/base/ndarray/scartesian-power' ) );
+
+/**
 * @name scircshift
 * @memberof ns
 * @readonly
@@ -1799,6 +1880,15 @@ setReadOnly( ns, 'scusumors', require( './../../../../ext/base/ndarray/scusumors
 * @see {@link module:@stdlib/blas/ext/base/ndarray/sdiff}
 */
 setReadOnly( ns, 'sdiff', require( './../../../../ext/base/ndarray/sdiff' ) );
+
+/**
+* @name sediff
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sediff}
+*/
+setReadOnly( ns, 'sediff', require( './../../../../ext/base/ndarray/sediff' ) );
 
 /**
 * @name sfill
@@ -1925,6 +2015,15 @@ setReadOnly( ns, 'slastIndexOfFalsy', require( './../../../../ext/base/ndarray/s
 * @see {@link module:@stdlib/blas/ext/base/ndarray/slast-index-of-truthy}
 */
 setReadOnly( ns, 'slastIndexOfTruthy', require( './../../../../ext/base/ndarray/slast-index-of-truthy' ) );
+
+/**
+* @name sleftPadCircular
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/sleft-pad-circular}
+*/
+setReadOnly( ns, 'sleftPadCircular', require( './../../../../ext/base/ndarray/sleft-pad-circular' ) );
 
 /**
 * @name slinspace
@@ -2161,6 +2260,24 @@ setReadOnly( ns, 'swax', require( './../../../../ext/base/ndarray/swax' ) );
 setReadOnly( ns, 'swhere', require( './../../../../ext/base/ndarray/swhere' ) );
 
 /**
+* @name swxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/swxdy}
+*/
+setReadOnly( ns, 'swxdy', require( './../../../../ext/base/ndarray/swxdy' ) );
+
+/**
+* @name swxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/swxmy}
+*/
+setReadOnly( ns, 'swxmy', require( './../../../../ext/base/ndarray/swxmy' ) );
+
+/**
 * @name swxpy
 * @memberof ns
 * @readonly
@@ -2242,6 +2359,15 @@ setReadOnly( ns, 'sxsy', require( './../../../../ext/base/ndarray/sxsy' ) );
 setReadOnly( ns, 'szeroTo', require( './../../../../ext/base/ndarray/szero-to' ) );
 
 /**
+* @name zany
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zany}
+*/
+setReadOnly( ns, 'zany', require( './../../../../ext/base/ndarray/zany' ) );
+
+/**
 * @name zaxpb
 * @memberof ns
 * @readonly
@@ -2312,6 +2438,15 @@ setReadOnly( ns, 'zindexOfFalsy', require( './../../../../ext/base/ndarray/zinde
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zindex-of-truthy}
 */
 setReadOnly( ns, 'zindexOfTruthy', require( './../../../../ext/base/ndarray/zindex-of-truthy' ) );
+
+/**
+* @name zlastIndexOfFalsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zlast-index-of-falsy}
+*/
+setReadOnly( ns, 'zlastIndexOfFalsy', require( './../../../../ext/base/ndarray/zlast-index-of-falsy' ) );
 
 /**
 * @name zlogspace
@@ -2404,6 +2539,24 @@ setReadOnly( ns, 'zwax', require( './../../../../ext/base/ndarray/zwax' ) );
 setReadOnly( ns, 'zwhere', require( './../../../../ext/base/ndarray/zwhere' ) );
 
 /**
+* @name zwxmy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zwxmy}
+*/
+setReadOnly( ns, 'zwxmy', require( './../../../../ext/base/ndarray/zwxmy' ) );
+
+/**
+* @name zwxpy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zwxpy}
+*/
+setReadOnly( ns, 'zwxpy', require( './../../../../ext/base/ndarray/zwxpy' ) );
+
+/**
 * @name zwxsa
 * @memberof ns
 * @readonly
@@ -2411,6 +2564,15 @@ setReadOnly( ns, 'zwhere', require( './../../../../ext/base/ndarray/zwhere' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/zwxsa}
 */
 setReadOnly( ns, 'zwxsa', require( './../../../../ext/base/ndarray/zwxsa' ) );
+
+/**
+* @name zwxsy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/zwxsy}
+*/
+setReadOnly( ns, 'zwxsy', require( './../../../../ext/base/ndarray/zwxsy' ) );
 
 /**
 * @name zxdy

@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`5dbad73`](https://github.com/stdlib-js/stdlib/commit/5dbad7321257715e0aa1138ec8c6135f91aba0c2) - add various symbols to namespace
+-   [`0aa4f97`](https://github.com/stdlib-js/stdlib/commit/0aa4f97131bc3c72ea1530d44c1353bc72d965f0) - add `scartesianPower` to namespace
 -   [`4a70889`](https://github.com/stdlib-js/stdlib/commit/4a70889b74d7a2e019833cd3be1cff40b8829533) - add `blas/ext/base/ndarray/scartesian-power` [(#16135)](https://github.com/stdlib-js/stdlib/pull/16135)
 -   [`87b3530`](https://github.com/stdlib-js/stdlib/commit/87b3530b0c09c0f023ed03333f7c3bbe16f39301) - add `blas/ext/base/ndarray/gfind-last-index-between` [(#16142)](https://github.com/stdlib-js/stdlib/pull/16142)
 -   [`a25eb35`](https://github.com/stdlib-js/stdlib/commit/a25eb3542c04d09defbb2bdf71bced84a1e02e6f) - add C implementation for `blas/ext/base/ndarray/dwxsy` [(#16133)](https://github.com/stdlib-js/stdlib/pull/16133)
@@ -1042,6 +1044,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`5dbad73`](https://github.com/stdlib-js/stdlib/commit/5dbad7321257715e0aa1138ec8c6135f91aba0c2) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`0aa4f97`](https://github.com/stdlib-js/stdlib/commit/0aa4f97131bc3c72ea1530d44c1353bc72d965f0) - **feat:** add `scartesianPower` to namespace _(by Athan Reines)_
 -   [`4a70889`](https://github.com/stdlib-js/stdlib/commit/4a70889b74d7a2e019833cd3be1cff40b8829533) - **feat:** add `blas/ext/base/ndarray/scartesian-power` [(#16135)](https://github.com/stdlib-js/stdlib/pull/16135) _(by Muhammad Haris, Athan Reines)_
 -   [`0e949be`](https://github.com/stdlib-js/stdlib/commit/0e949be7795bac5022b08528ec28d010f084e061) - **docs:** fix notes _(by Athan Reines)_
 -   [`87b3530`](https://github.com/stdlib-js/stdlib/commit/87b3530b0c09c0f023ed03333f7c3bbe16f39301) - **feat:** add `blas/ext/base/ndarray/gfind-last-index-between` [(#16142)](https://github.com/stdlib-js/stdlib/pull/16142) _(by Muhammad Haris)_
