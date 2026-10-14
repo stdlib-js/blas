@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`1923cbd`](https://github.com/stdlib-js/stdlib/commit/1923cbd0639d3a52c0d1b4dabca9e46a7d2b9002) - add `blas/ext/base/dleft-pad-circular` [(#15043)](https://github.com/stdlib-js/stdlib/pull/15043)
 -   [`c0fd430`](https://github.com/stdlib-js/stdlib/commit/c0fd430395d92995065dd3fc67d401daeb66aa43) - add various symbols to namespace
 -   [`3a61bdf`](https://github.com/stdlib-js/stdlib/commit/3a61bdf3421a16d3b0e49e4d1491096cca5ff617) - add `zwxdy` to namespace
 -   [`7b218b1`](https://github.com/stdlib-js/stdlib/commit/7b218b1754e6b8be72b20d305e736b1048c3bcd0) - add `blas/ext/base/zwxdy` [(#15729)](https://github.com/stdlib-js/stdlib/pull/15729)
@@ -1047,6 +1048,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`1923cbd`](https://github.com/stdlib-js/stdlib/commit/1923cbd0639d3a52c0d1b4dabca9e46a7d2b9002) - **feat:** add `blas/ext/base/dleft-pad-circular` [(#15043)](https://github.com/stdlib-js/stdlib/pull/15043) _(by Muhammad Haris)_
 -   [`c0fd430`](https://github.com/stdlib-js/stdlib/commit/c0fd430395d92995065dd3fc67d401daeb66aa43) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`3a61bdf`](https://github.com/stdlib-js/stdlib/commit/3a61bdf3421a16d3b0e49e4d1491096cca5ff617) - **feat:** add `zwxdy` to namespace _(by Athan Reines)_
 -   [`7b218b1`](https://github.com/stdlib-js/stdlib/commit/7b218b1754e6b8be72b20d305e736b1048c3bcd0) - **feat:** add `blas/ext/base/zwxdy` [(#15729)](https://github.com/stdlib-js/stdlib/pull/15729) _(by Karan Anand)_
