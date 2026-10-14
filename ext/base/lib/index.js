@@ -1956,6 +1956,24 @@ setReadOnly( ns, 'gindexOfLessThan', require( './../../../ext/base/gindex-of-les
 setReadOnly( ns, 'gindexOfLessThanEqual', require( './../../../ext/base/gindex-of-less-than-equal' ) );
 
 /**
+* @name gindexOfLessThanEqualSorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-less-than-equal-sorted}
+*/
+setReadOnly( ns, 'gindexOfLessThanEqualSorted', require( './../../../ext/base/gindex-of-less-than-equal-sorted' ) );
+
+/**
+* @name gindexOfLessThanSorted
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gindex-of-less-than-sorted}
+*/
+setReadOnly( ns, 'gindexOfLessThanSorted', require( './../../../ext/base/gindex-of-less-than-sorted' ) );
+
+/**
 * @name gindexOfNotEqual
 * @memberof ns
 * @readonly
@@ -2593,6 +2611,15 @@ setReadOnly( ns, 'gxdy', require( './../../../ext/base/gxdy' ) );
 * @see {@link module:@stdlib/blas/ext/base/gxmy}
 */
 setReadOnly( ns, 'gxmy', require( './../../../ext/base/gxmy' ) );
+
+/**
+* @name gxpby
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/gxpby}
+*/
+setReadOnly( ns, 'gxpby', require( './../../../ext/base/gxpby' ) );
 
 /**
 * @name gxpy
@@ -3826,6 +3853,15 @@ setReadOnly( ns, 'zwax', require( './../../../ext/base/zwax' ) );
 * @see {@link module:@stdlib/blas/ext/base/zwhere}
 */
 setReadOnly( ns, 'zwhere', require( './../../../ext/base/zwhere' ) );
+
+/**
+* @name zwxdy
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/zwxdy}
+*/
+setReadOnly( ns, 'zwxdy', require( './../../../ext/base/zwxdy' ) );
 
 /**
 * @name zwxmy

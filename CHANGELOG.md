@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`c0fd430`](https://github.com/stdlib-js/stdlib/commit/c0fd430395d92995065dd3fc67d401daeb66aa43) - add various symbols to namespace
+-   [`3a61bdf`](https://github.com/stdlib-js/stdlib/commit/3a61bdf3421a16d3b0e49e4d1491096cca5ff617) - add `zwxdy` to namespace
 -   [`7b218b1`](https://github.com/stdlib-js/stdlib/commit/7b218b1754e6b8be72b20d305e736b1048c3bcd0) - add `blas/ext/base/zwxdy` [(#15729)](https://github.com/stdlib-js/stdlib/pull/15729)
 -   [`5dbad73`](https://github.com/stdlib-js/stdlib/commit/5dbad7321257715e0aa1138ec8c6135f91aba0c2) - add various symbols to namespace
 -   [`0aa4f97`](https://github.com/stdlib-js/stdlib/commit/0aa4f97131bc3c72ea1530d44c1353bc72d965f0) - add `scartesianPower` to namespace
@@ -1045,6 +1047,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`c0fd430`](https://github.com/stdlib-js/stdlib/commit/c0fd430395d92995065dd3fc67d401daeb66aa43) - **feat:** add various symbols to namespace _(by Athan Reines)_
+-   [`3a61bdf`](https://github.com/stdlib-js/stdlib/commit/3a61bdf3421a16d3b0e49e4d1491096cca5ff617) - **feat:** add `zwxdy` to namespace _(by Athan Reines)_
 -   [`7b218b1`](https://github.com/stdlib-js/stdlib/commit/7b218b1754e6b8be72b20d305e736b1048c3bcd0) - **feat:** add `blas/ext/base/zwxdy` [(#15729)](https://github.com/stdlib-js/stdlib/pull/15729) _(by Karan Anand)_
 -   [`5dbad73`](https://github.com/stdlib-js/stdlib/commit/5dbad7321257715e0aa1138ec8c6135f91aba0c2) - **feat:** add various symbols to namespace _(by Athan Reines)_
 -   [`0aa4f97`](https://github.com/stdlib-js/stdlib/commit/0aa4f97131bc3c72ea1530d44c1353bc72d965f0) - **feat:** add `scartesianPower` to namespace _(by Athan Reines)_
