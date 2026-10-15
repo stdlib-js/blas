@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-14)
+## Unreleased (2026-10-15)
 
 <section class="features">
 
@@ -1063,6 +1063,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`f9aa9fb`](https://github.com/stdlib-js/stdlib/commit/f9aa9fb2046ed69fed2591f791ed7c8c5a03171a) - **test:** migrate `blas/base/wasm/zdrot` to ULP-based assertions [(#16159)](https://github.com/stdlib-js/stdlib/pull/16159) _(by Athan Reines)_
 -   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
 -   [`5026d4a`](https://github.com/stdlib-js/stdlib/commit/5026d4a536db17983e22fb6630eb004e3ffa4e5a) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
 -   [`564d0dd`](https://github.com/stdlib-js/stdlib/commit/564d0ddbe48ff22f9ef7ac8890d020f9cefcea60) - **feat:** add `blas/ext/base/ndarray/sindex-of-less-than-equal` [(#15889)](https://github.com/stdlib-js/stdlib/pull/15889) _(by Muhammad Haris)_
