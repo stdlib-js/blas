@@ -40,10 +40,7 @@ import cunitspace = require( './../../../../../ext/base/ndarray/cunitspace' );
 import cwapx = require( './../../../../../ext/base/ndarray/cwapx' );
 import cwax = require( './../../../../../ext/base/ndarray/cwax' );
 import cwhere = require( './../../../../../ext/base/ndarray/cwhere' );
-import cwxmy = require( './../../../../../ext/base/ndarray/cwxmy' );
-import cwxpy = require( './../../../../../ext/base/ndarray/cwxpy' );
 import cwxsa = require( './../../../../../ext/base/ndarray/cwxsa' );
-import cwxsy = require( './../../../../../ext/base/ndarray/cwxsy' );
 import cxdy = require( './../../../../../ext/base/ndarray/cxdy' );
 import cxmy = require( './../../../../../ext/base/ndarray/cxmy' );
 import cxpy = require( './../../../../../ext/base/ndarray/cxpy' );
@@ -55,7 +52,6 @@ import daxpb = require( './../../../../../ext/base/ndarray/daxpb' );
 import daxpby = require( './../../../../../ext/base/ndarray/daxpby' );
 import dcartesianPower = require( './../../../../../ext/base/ndarray/dcartesian-power' );
 import dcartesianProduct = require( './../../../../../ext/base/ndarray/dcartesian-product' );
-import dcartesianSquare = require( './../../../../../ext/base/ndarray/dcartesian-square' );
 import dcircshift = require( './../../../../../ext/base/ndarray/dcircshift' );
 import dcopyWithin = require( './../../../../../ext/base/ndarray/dcopy-within' );
 import dcuany = require( './../../../../../ext/base/ndarray/dcuany' );
@@ -68,7 +64,6 @@ import dcusumkbn2 = require( './../../../../../ext/base/ndarray/dcusumkbn2' );
 import dcusumors = require( './../../../../../ext/base/ndarray/dcusumors' );
 import dcusumpw = require( './../../../../../ext/base/ndarray/dcusumpw' );
 import ddiff = require( './../../../../../ext/base/ndarray/ddiff' );
-import dediff = require( './../../../../../ext/base/ndarray/dediff' );
 import dfill = require( './../../../../../ext/base/ndarray/dfill' );
 import dfillEqual = require( './../../../../../ext/base/ndarray/dfill-equal' );
 import dfillLessThan = require( './../../../../../ext/base/ndarray/dfill-less-than' );
@@ -79,14 +74,12 @@ import dfirstIndexGreaterThan = require( './../../../../../ext/base/ndarray/dfir
 import dfirstIndexLessThan = require( './../../../../../ext/base/ndarray/dfirst-index-less-than' );
 import dindexOf = require( './../../../../../ext/base/ndarray/dindex-of' );
 import dindexOfFalsy = require( './../../../../../ext/base/ndarray/dindex-of-falsy' );
-import dindexOfLessThanEqual = require( './../../../../../ext/base/ndarray/dindex-of-less-than-equal' );
 import dindexOfNotEqual = require( './../../../../../ext/base/ndarray/dindex-of-not-equal' );
 import dindexOfTruthy = require( './../../../../../ext/base/ndarray/dindex-of-truthy' );
 import dlastIndexEqual = require( './../../../../../ext/base/ndarray/dlast-index-equal' );
 import dlastIndexOf = require( './../../../../../ext/base/ndarray/dlast-index-of' );
 import dlastIndexOfFalsy = require( './../../../../../ext/base/ndarray/dlast-index-of-falsy' );
 import dlastIndexOfTruthy = require( './../../../../../ext/base/ndarray/dlast-index-of-truthy' );
-import dleftPadCircular = require( './../../../../../ext/base/ndarray/dleft-pad-circular' );
 import dleftPadEdge = require( './../../../../../ext/base/ndarray/dleft-pad-edge' );
 import dlinspace = require( './../../../../../ext/base/ndarray/dlinspace' );
 import dlogspace = require( './../../../../../ext/base/ndarray/dlogspace' );
@@ -116,8 +109,6 @@ import dvander = require( './../../../../../ext/base/ndarray/dvander' );
 import dwapx = require( './../../../../../ext/base/ndarray/dwapx' );
 import dwax = require( './../../../../../ext/base/ndarray/dwax' );
 import dwhere = require( './../../../../../ext/base/ndarray/dwhere' );
-import dwxdy = require( './../../../../../ext/base/ndarray/dwxdy' );
-import dwxmy = require( './../../../../../ext/base/ndarray/dwxmy' );
 import dwxpy = require( './../../../../../ext/base/ndarray/dwxpy' );
 import dwxsa = require( './../../../../../ext/base/ndarray/dwxsa' );
 import dwxsy = require( './../../../../../ext/base/ndarray/dwxsy' );
@@ -130,7 +121,6 @@ import dzeroTo = require( './../../../../../ext/base/ndarray/dzero-to' );
 import gany = require( './../../../../../ext/base/ndarray/gany' );
 import gaxpb = require( './../../../../../ext/base/ndarray/gaxpb' );
 import gaxpby = require( './../../../../../ext/base/ndarray/gaxpby' );
-import gcartesianPower = require( './../../../../../ext/base/ndarray/gcartesian-power' );
 import gcircshift = require( './../../../../../ext/base/ndarray/gcircshift' );
 import gcopyWithin = require( './../../../../../ext/base/ndarray/gcopy-within' );
 import gcuany = require( './../../../../../ext/base/ndarray/gcuany' );
@@ -143,7 +133,6 @@ import gcusumkbn2 = require( './../../../../../ext/base/ndarray/gcusumkbn2' );
 import gcusumors = require( './../../../../../ext/base/ndarray/gcusumors' );
 import gcusumpw = require( './../../../../../ext/base/ndarray/gcusumpw' );
 import gdiff = require( './../../../../../ext/base/ndarray/gdiff' );
-import gediff = require( './../../../../../ext/base/ndarray/gediff' );
 import gfill = require( './../../../../../ext/base/ndarray/gfill' );
 import gfillBy = require( './../../../../../ext/base/ndarray/gfill-by' );
 import gfillEqual = require( './../../../../../ext/base/ndarray/gfill-equal' );
@@ -155,7 +144,6 @@ import gfillNotEqual = require( './../../../../../ext/base/ndarray/gfill-not-equ
 import gfindIndex = require( './../../../../../ext/base/ndarray/gfind-index' );
 import gfindIndexBetween = require( './../../../../../ext/base/ndarray/gfind-index-between' );
 import gfindLastIndex = require( './../../../../../ext/base/ndarray/gfind-last-index' );
-import gfindLastIndexBetween = require( './../../../../../ext/base/ndarray/gfind-last-index-between' );
 import gfirstIndexEqual = require( './../../../../../ext/base/ndarray/gfirst-index-equal' );
 import gfirstIndexGreaterThan = require( './../../../../../ext/base/ndarray/gfirst-index-greater-than' );
 import gfirstIndexLessThan = require( './../../../../../ext/base/ndarray/gfirst-index-less-than' );
@@ -217,7 +205,6 @@ import gzeroTo = require( './../../../../../ext/base/ndarray/gzero-to' );
 import sany = require( './../../../../../ext/base/ndarray/sany' );
 import saxpb = require( './../../../../../ext/base/ndarray/saxpb' );
 import saxpby = require( './../../../../../ext/base/ndarray/saxpby' );
-import scartesianPower = require( './../../../../../ext/base/ndarray/scartesian-power' );
 import scircshift = require( './../../../../../ext/base/ndarray/scircshift' );
 import scopyWithin = require( './../../../../../ext/base/ndarray/scopy-within' );
 import scuany = require( './../../../../../ext/base/ndarray/scuany' );
@@ -229,7 +216,6 @@ import scusumkbn = require( './../../../../../ext/base/ndarray/scusumkbn' );
 import scusumkbn2 = require( './../../../../../ext/base/ndarray/scusumkbn2' );
 import scusumors = require( './../../../../../ext/base/ndarray/scusumors' );
 import sdiff = require( './../../../../../ext/base/ndarray/sdiff' );
-import sediff = require( './../../../../../ext/base/ndarray/sediff' );
 import sfill = require( './../../../../../ext/base/ndarray/sfill' );
 import sfillEqual = require( './../../../../../ext/base/ndarray/sfill-equal' );
 import sfillNaN = require( './../../../../../ext/base/ndarray/sfill-nan' );
@@ -238,14 +224,12 @@ import sfirstIndexEqual = require( './../../../../../ext/base/ndarray/sfirst-ind
 import sfirstIndexLessThan = require( './../../../../../ext/base/ndarray/sfirst-index-less-than' );
 import sindexOf = require( './../../../../../ext/base/ndarray/sindex-of' );
 import sindexOfFalsy = require( './../../../../../ext/base/ndarray/sindex-of-falsy' );
-import sindexOfLessThanEqual = require( './../../../../../ext/base/ndarray/sindex-of-less-than-equal' );
 import sindexOfNotEqual = require( './../../../../../ext/base/ndarray/sindex-of-not-equal' );
 import sindexOfTruthy = require( './../../../../../ext/base/ndarray/sindex-of-truthy' );
 import slastIndexEqual = require( './../../../../../ext/base/ndarray/slast-index-equal' );
 import slastIndexOf = require( './../../../../../ext/base/ndarray/slast-index-of' );
 import slastIndexOfFalsy = require( './../../../../../ext/base/ndarray/slast-index-of-falsy' );
 import slastIndexOfTruthy = require( './../../../../../ext/base/ndarray/slast-index-of-truthy' );
-import sleftPadCircular = require( './../../../../../ext/base/ndarray/sleft-pad-circular' );
 import slinspace = require( './../../../../../ext/base/ndarray/slinspace' );
 import slogspace = require( './../../../../../ext/base/ndarray/slogspace' );
 import snansum = require( './../../../../../ext/base/ndarray/snansum' );
@@ -255,7 +239,6 @@ import snansumors = require( './../../../../../ext/base/ndarray/snansumors' );
 import snansumpw = require( './../../../../../ext/base/ndarray/snansumpw' );
 import snone = require( './../../../../../ext/base/ndarray/snone' );
 import soneTo = require( './../../../../../ext/base/ndarray/sone-to' );
-import srightPadCircular = require( './../../../../../ext/base/ndarray/sright-pad-circular' );
 import ssome = require( './../../../../../ext/base/ndarray/ssome' );
 import ssort = require( './../../../../../ext/base/ndarray/ssort' );
 import ssorthp = require( './../../../../../ext/base/ndarray/ssorthp' );
@@ -273,8 +256,6 @@ import svander = require( './../../../../../ext/base/ndarray/svander' );
 import swapx = require( './../../../../../ext/base/ndarray/swapx' );
 import swax = require( './../../../../../ext/base/ndarray/swax' );
 import swhere = require( './../../../../../ext/base/ndarray/swhere' );
-import swxdy = require( './../../../../../ext/base/ndarray/swxdy' );
-import swxmy = require( './../../../../../ext/base/ndarray/swxmy' );
 import swxpy = require( './../../../../../ext/base/ndarray/swxpy' );
 import swxsa = require( './../../../../../ext/base/ndarray/swxsa' );
 import swxsy = require( './../../../../../ext/base/ndarray/swxsy' );
@@ -284,7 +265,6 @@ import sxpy = require( './../../../../../ext/base/ndarray/sxpy' );
 import sxsa = require( './../../../../../ext/base/ndarray/sxsa' );
 import sxsy = require( './../../../../../ext/base/ndarray/sxsy' );
 import szeroTo = require( './../../../../../ext/base/ndarray/szero-to' );
-import zany = require( './../../../../../ext/base/ndarray/zany' );
 import zaxpb = require( './../../../../../ext/base/ndarray/zaxpb' );
 import zaxpby = require( './../../../../../ext/base/ndarray/zaxpby' );
 import zcopyWithin = require( './../../../../../ext/base/ndarray/zcopy-within' );
@@ -293,7 +273,6 @@ import zfill = require( './../../../../../ext/base/ndarray/zfill' );
 import zindexOf = require( './../../../../../ext/base/ndarray/zindex-of' );
 import zindexOfFalsy = require( './../../../../../ext/base/ndarray/zindex-of-falsy' );
 import zindexOfTruthy = require( './../../../../../ext/base/ndarray/zindex-of-truthy' );
-import zlastIndexOfFalsy = require( './../../../../../ext/base/ndarray/zlast-index-of-falsy' );
 import zlogspace = require( './../../../../../ext/base/ndarray/zlogspace' );
 import zoneTo = require( './../../../../../ext/base/ndarray/zone-to' );
 import zsum = require( './../../../../../ext/base/ndarray/zsum' );
@@ -304,10 +283,7 @@ import zunitspace = require( './../../../../../ext/base/ndarray/zunitspace' );
 import zwapx = require( './../../../../../ext/base/ndarray/zwapx' );
 import zwax = require( './../../../../../ext/base/ndarray/zwax' );
 import zwhere = require( './../../../../../ext/base/ndarray/zwhere' );
-import zwxmy = require( './../../../../../ext/base/ndarray/zwxmy' );
-import zwxpy = require( './../../../../../ext/base/ndarray/zwxpy' );
 import zwxsa = require( './../../../../../ext/base/ndarray/zwxsa' );
-import zwxsy = require( './../../../../../ext/base/ndarray/zwxsy' );
 import zxdy = require( './../../../../../ext/base/ndarray/zxdy' );
 import zxmy = require( './../../../../../ext/base/ndarray/zxmy' );
 import zxpy = require( './../../../../../ext/base/ndarray/zxpy' );
@@ -972,58 +948,6 @@ interface Namespace {
 	cwhere: typeof cwhere;
 
 	/**
-	* Multiplies elements of a one-dimensional single-precision complex floating-point ndarray by the corresponding elements of a second one-dimensional single-precision complex floating-point ndarray and assigns the results to elements in a third one-dimensional single-precision complex floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-	*
-	* var x = new Complex64Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex64Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	* var w = new Complex64Vector( 3 );
-	*
-	* var out = ns.cwxmy( [ x, y, w ] );
-	* // returns <ndarray>[ <Complex64>[ 0.0, 5.0 ], <Complex64>[ 0.0, 10.0 ], <Complex64>[ 0.0, 4.0 ] ]
-	*/
-	cwxmy: typeof cwxmy;
-
-	/**
-	* Adds elements of a one-dimensional single-precision complex floating-point ndarray to the corresponding elements of a second one-dimensional single-precision complex floating-point ndarray and assigns the results to elements in a third one-dimensional single-precision complex floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-	*
-	* var x = new Complex64Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex64Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	* var w = new Complex64Vector( 3 );
-	*
-	* var out = ns.cwxpy( [ x, y, w ] );
-	* // returns <ndarray>[ <Complex64>[ 3.0, 3.0 ], <Complex64>[ 2.0, 2.0 ], <Complex64>[ 4.0, 1.0 ] ]
-	*/
-	cwxpy: typeof cwxpy;
-
-	/**
 	* Subtracts a scalar constant from each element in an input one-dimensional single-precision complex floating-point ndarray and assigns the results to elements in a one-dimensional single-precision complex floating-point output ndarray.
 	*
 	* ## Notes
@@ -1053,32 +977,6 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex64>[ -7.0, 1.0 ], <Complex64>[ -2.0, -5.0 ] ]
 	*/
 	cwxsa: typeof cwxsa;
-
-	/**
-	* Subtracts elements of a second one-dimensional single-precision complex floating-point ndarray from the corresponding elements of a first one-dimensional single-precision complex floating-point ndarray and assigns the results to elements in a third one-dimensional single-precision complex floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-	*
-	* var x = new Complex64Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex64Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	* var w = new Complex64Vector( 3 );
-	*
-	* var out = ns.cwxsy( [ x, y, w ] );
-	* // returns <ndarray>[ <Complex64>[ -1.0, 1.0 ], <Complex64>[ 4.0, -4.0 ], <Complex64>[ -4.0, 1.0 ] ]
-	*/
-	cwxsy: typeof cwxsy;
 
 	/**
 	* Divides elements of a one-dimensional single-precision complex floating-point ndarray by the corresponding elements of a second one-dimensional single-precision complex floating-point ndarray and assigns the results to the second ndarray.
@@ -1320,7 +1218,7 @@ interface Namespace {
 	daxpby: typeof daxpby;
 
 	/**
-	* Computes the Cartesian power for a one-dimensional double-precision floating-point ndarray.
+	* Computes the Cartesian power for a double-precision floating-point ndarray.
 	*
 	* ## Notes
 	*
@@ -1356,7 +1254,7 @@ interface Namespace {
 	dcartesianPower: typeof dcartesianPower;
 
 	/**
-	* Computes the Cartesian product for two one-dimensional double-precision floating-point ndarrays.
+	* Computes the Cartesian product for two double-precision floating-point ndarrays.
 	*
 	* ## Notes
 	*
@@ -1386,36 +1284,6 @@ interface Namespace {
 	* // returns true
 	*/
 	dcartesianProduct: typeof dcartesianProduct;
-
-	/**
-	* Computes the Cartesian square for a one-dimensional double-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a two-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	*
-	* var x = new Float64Vector( [ 1.0, 2.0 ] );
-	* var out = zeros( [ 4, 2 ], {
-	*     'dtype': 'float64'
-	* });
-	*
-	* var v = ns.dcartesianSquare( [ x, out ] );
-	* // returns <ndarray>[ [ 1.0, 1.0 ], [ 1.0, 2.0 ], [ 2.0, 1.0 ], [ 2.0, 2.0 ] ]
-	*
-	* var bool = ( v === out );
-	* // returns true
-	*/
-	dcartesianSquare: typeof dcartesianSquare;
 
 	/**
 	* Circularly shifts the elements of a one-dimensional double-precision floating-point ndarray by a specified number of positions.
@@ -1807,34 +1675,6 @@ interface Namespace {
 	ddiff: typeof ddiff;
 
 	/**
-	* Calculates the differences between consecutive elements of a one-dimensional double-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional ndarray containing values to prepend.
-	*     -   a one-dimensional ndarray containing values to append.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
-	*
-	* var x = new Float64Vector( [ 2.0, 4.0, 6.0, 8.0, 10.0 ] );
-	* var prepend = new Float64Vector( [ 1.0 ] );
-	* var append = new Float64Vector( [ 11.0 ] );
-	* var out = new Float64Vector( 6 );
-	*
-	* var y = ns.dediff( [ x, prepend, append, out ] );
-	* // returns <ndarray>[ 1.0, 2.0, 2.0, 2.0, 2.0, 11.0 ]
-	*/
-	dediff: typeof dediff;
-
-	/**
 	* Fills a one-dimensional double-precision floating-point ndarray with a specified scalar constant.
 	*
 	* ## Notes
@@ -2203,41 +2043,6 @@ interface Namespace {
 	dindexOfFalsy: typeof dindexOfFalsy;
 
 	/**
-	* Returns the first index of an element in a one-dimensional double-precision floating-point ndarray which is less than or equal to a specified search element.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a zero-dimensional ndarray containing the search element.
-	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
-	*
-	* -   When comparing elements, the function uses the less-than-or-equal operator `<=`. As a consequence, comparisons involving `NaN` always evaluate to `false`, and `-0` and `+0` are considered the same.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns index
-	*
-	* @example
-	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Float64Vector( [ 3.0, 4.0, 1.0, 2.0 ] );
-	*
-	* var searchElement = scalar2ndarray( 2.0, {
-	*     'dtype': 'float64'
-	* });
-	*
-	* var fromIndex = scalar2ndarray( 0, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var v = ns.dindexOfLessThanEqual( [ x, searchElement, fromIndex ] );
-	* // returns 2
-	*/
-	dindexOfLessThanEqual: typeof dindexOfLessThanEqual;
-
-	/**
 	* Returns the first index of an element in a one-dimensional double-precision floating-point ndarray which is not equal to a specified search element.
 	*
 	* ## Notes
@@ -2418,39 +2223,6 @@ interface Namespace {
 	* // returns 3
 	*/
 	dlastIndexOfTruthy: typeof dlastIndexOfTruthy;
-
-	/**
-	* Prepends elements to a one-dimensional double-precision floating-point input ndarray by circularly repeating existing elements and writes the results to a one-dimensional double-precision floating-point output ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray. Must have `N + k` elements, where `N` is the number of elements in the input ndarray, and `k` is the number of elements to pad.
-	*     -   a zero-dimensional ndarray specifying the number of elements to pad.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	*
-	* var x = new Float64Vector( [ 1.0, 2.0, 3.0, 4.0 ] );
-	* var y = zeros( [ 10 ], {
-	*     'dtype': 'float64'
-	* });
-	*
-	* var k = scalar2ndarray( 6, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var out = ns.dleftPadCircular( [ x, y, k ] );
-	* // returns <ndarray>[ 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0 ]
-	*/
-	dleftPadCircular: typeof dleftPadCircular;
 
 	/**
 	* Prepends elements to a one-dimensional double-precision floating-point input ndarray by repeating the leading edge element and writes the results to a one-dimensional double-precision floating-point output ndarray.
@@ -3265,58 +3037,6 @@ interface Namespace {
 	dwhere: typeof dwhere;
 
 	/**
-	* Divides elements of a one-dimensional double-precision floating-point ndarray by the corresponding elements of a second one-dimensional double-precision floating-point ndarray and assigns the results to elements in a third one-dimensional double-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
-	*
-	* var x = new Float64Vector( [ 4.0, 6.0, 12.0, 20.0, 30.0 ] );
-	* var y = new Float64Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float64Vector( 5 );
-	*
-	* var out = ns.dwxdy( [ x, y, w ] );
-	* // returns <ndarray>[ 2.0, 2.0, 3.0, 4.0, 5.0 ]
-	*/
-	dwxdy: typeof dwxdy;
-
-	/**
-	* Multiplies elements of a one-dimensional double-precision floating-point ndarray by the corresponding elements of a second one-dimensional double-precision floating-point ndarray and assigns the results to elements in a third one-dimensional double-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float64Vector = require( '@stdlib/ndarray/vector/float64' );
-	*
-	* var x = new Float64Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
-	* var y = new Float64Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float64Vector( 5 );
-	*
-	* var out = ns.dwxmy( [ x, y, w ] );
-	* // returns <ndarray>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
-	*/
-	dwxmy: typeof dwxmy;
-
-	/**
 	* Adds elements of a one-dimensional double-precision floating-point ndarray to the corresponding elements of a second one-dimensional double-precision floating-point ndarray and assigns the results to elements in a third one-dimensional double-precision floating-point ndarray.
 	*
 	* ## Notes
@@ -3636,42 +3356,6 @@ interface Namespace {
 	* // returns <ndarray>[ 9.0, 16.0, 23.0, 30.0, 37.0 ]
 	*/
 	gaxpby: typeof gaxpby;
-
-	/**
-	* Computes the Cartesian power for a one-dimensional ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a two-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray specifying the power.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var vector = require( '@stdlib/ndarray/vector/ctor' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = vector( [ 1.0, 2.0 ], 'generic' );
-	* var out = zeros( [ 4, 2 ], {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var k = scalar2ndarray( 2, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var v = ns.gcartesianPower( [ x, out, k ] );
-	* // returns <ndarray>[ [ 1.0, 1.0 ], [ 1.0, 2.0 ], [ 2.0, 1.0 ], [ 2.0, 2.0 ] ]
-	*
-	* var bool = ( v === out );
-	* // returns true
-	*/
-	gcartesianPower: typeof gcartesianPower;
 
 	/**
 	* Circularly shifts the elements of a one-dimensional ndarray by a specified number of positions.
@@ -4054,34 +3738,6 @@ interface Namespace {
 	* // returns <ndarray>[ 1.0, 2.0, 2.0, 2.0, 2.0, 1.0 ]
 	*/
 	gdiff: typeof gdiff;
-
-	/**
-	* Calculates the differences between consecutive elements of a one-dimensional ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional ndarray containing values to prepend.
-	*     -   a one-dimensional ndarray containing values to append.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var vector = require( '@stdlib/ndarray/vector/ctor' );
-	*
-	* var x = vector( [ 2.0, 4.0, 6.0, 8.0, 10.0 ], 'generic' );
-	* var prepend = vector( [ 1.0 ], 'generic' );
-	* var append = vector( [ 11.0 ], 'generic' );
-	* var out = vector( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ], 'generic' );
-	*
-	* var y = ns.gediff( [ x, prepend, append, out ] );
-	* // returns <ndarray>[ 1.0, 2.0, 2.0, 2.0, 2.0, 11.0 ]
-	*/
-	gediff: typeof gediff;
 
 	/**
 	* Fills a one-dimensional ndarray with a specified scalar constant.
@@ -4535,47 +4191,6 @@ interface Namespace {
 	* // returns 3
 	*/
 	gfindLastIndex: typeof gfindLastIndex;
-
-	/**
-	* Returns the index of the last element in a one-dimensional ndarray which passes a test implemented by a predicate function within a specified range.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
-	*     -   a zero-dimensional ndarray containing the index at which to stop searching (exclusive).
-	*
-	* -   If no element passes a test implemented by a predicate function, the function returns `-1`.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @param clbk - predicate function
-	* @param thisArg - predicate function execution context
-	* @returns index
-	*
-	* @example
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	* var vector = require( '@stdlib/ndarray/vector/ctor' );
-	*
-	* function clbk( v ) {
-	*     return v % 2.0 === 0.0;
-	* }
-	*
-	* var x = vector( [ 2.0, 1.0, 3.0, 4.0, 5.0 ], 'generic' );
-	*
-	* var fromIndex = scalar2ndarray( 4, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var toIndex = scalar2ndarray( 1, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var v = ns.gfindLastIndexBetween( [ x, fromIndex, toIndex ], clbk );
-	* // returns 3
-	*/
-	gfindLastIndexBetween: typeof gfindLastIndexBetween;
 
 	/**
 	* Returns the index of the first element in a one-dimensional ndarray equal to a corresponding element in another one-dimensional ndarray.
@@ -6344,42 +5959,6 @@ interface Namespace {
 	saxpby: typeof saxpby;
 
 	/**
-	* Computes the Cartesian power for a one-dimensional single-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a two-dimensional output ndarray.
-	*     -   a zero-dimensional ndarray specifying the power.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Float32Vector( [ 1.0, 2.0 ] );
-	* var out = zeros( [ 4, 2 ], {
-	*     'dtype': 'float32'
-	* });
-	*
-	* var k = scalar2ndarray( 2, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var v = ns.scartesianPower( [ x, out, k ] );
-	* // returns <ndarray>[ [ 1.0, 1.0 ], [ 1.0, 2.0 ], [ 2.0, 1.0 ], [ 2.0, 2.0 ] ]
-	*
-	* var bool = ( v === out );
-	* // returns true
-	*/
-	scartesianPower: typeof scartesianPower;
-
-	/**
 	* Circularly shifts the elements of a one-dimensional single-precision floating-point ndarray by a specified number of positions.
 	*
 	* ## Notes
@@ -6736,34 +6315,6 @@ interface Namespace {
 	sdiff: typeof sdiff;
 
 	/**
-	* Calculates the differences between consecutive elements of a one-dimensional single-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional ndarray containing values to prepend.
-	*     -   a one-dimensional ndarray containing values to append.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	*
-	* var x = new Float32Vector( [ 2.0, 4.0, 6.0, 8.0, 10.0 ] );
-	* var prepend = new Float32Vector( [ 1.0 ] );
-	* var append = new Float32Vector( [ 11.0 ] );
-	* var out = new Float32Vector( 6 );
-	*
-	* var y = ns.sediff( [ x, prepend, append, out ] );
-	* // returns <ndarray>[ 1.0, 2.0, 2.0, 2.0, 2.0, 11.0 ]
-	*/
-	sediff: typeof sediff;
-
-	/**
 	* Fills a one-dimensional single-precision floating-point ndarray with a specified scalar constant.
 	*
 	* ## Notes
@@ -7055,41 +6606,6 @@ interface Namespace {
 	sindexOfFalsy: typeof sindexOfFalsy;
 
 	/**
-	* Returns the first index of an element in a one-dimensional single-precision floating-point ndarray which is less than or equal to a specified search element.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a zero-dimensional ndarray containing the search element.
-	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
-	*
-	* -   When comparing elements, the function uses the less-than-or-equal operator `<=`. As a consequence, comparisons involving `NaN` always evaluate to `false`, and `-0` and `+0` are considered the same.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns index
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Float32Vector( [ 3.0, 4.0, 1.0, 2.0 ] );
-	*
-	* var searchElement = scalar2ndarray( 2.0, {
-	*     'dtype': 'float32'
-	* });
-	*
-	* var fromIndex = scalar2ndarray( 0, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var v = ns.sindexOfLessThanEqual( [ x, searchElement, fromIndex ] );
-	* // returns 2
-	*/
-	sindexOfLessThanEqual: typeof sindexOfLessThanEqual;
-
-	/**
 	* Returns the first index of an element in a one-dimensional single-precision floating-point ndarray which is not equal to a specified search element.
 	*
 	* ## Notes
@@ -7270,39 +6786,6 @@ interface Namespace {
 	* // returns 3
 	*/
 	slastIndexOfTruthy: typeof slastIndexOfTruthy;
-
-	/**
-	* Prepends elements to a one-dimensional single-precision floating-point input ndarray by circularly repeating existing elements and writes the results to a one-dimensional single-precision floating-point output ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray. Must have `N + k` elements, where `N` is the number of elements in the input ndarray, and `k` is the number of elements to pad.
-	*     -   a zero-dimensional ndarray specifying the number of elements to pad.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	*
-	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0 ] );
-	* var y = zeros( [ 10 ], {
-	*     'dtype': 'float32'
-	* });
-	*
-	* var k = scalar2ndarray( 6, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var out = ns.sleftPadCircular( [ x, y, k ] );
-	* // returns <ndarray>[ 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0 ]
-	*/
-	sleftPadCircular: typeof sleftPadCircular;
 
 	/**
 	* Fills a one-dimensional single-precision floating-point ndarray with linearly spaced values over a specified interval.
@@ -7541,39 +7024,6 @@ interface Namespace {
 	* // returns <ndarray>[ 1.0, 2.0, 3.0, 4.0 ]
 	*/
 	soneTo: typeof soneTo;
-
-	/**
-	* Appends elements to a one-dimensional single-precision floating-point input ndarray by circularly repeating existing elements and writes the results to a one-dimensional single-precision floating-point output ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray. Must have `N + k` elements, where `N` is the number of elements in the input ndarray, and `k` is the number of elements to pad.
-	*     -   a zero-dimensional ndarray specifying the number of elements to pad.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	* var zeros = require( '@stdlib/ndarray/zeros' );
-	*
-	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0 ] );
-	* var y = zeros( [ 10 ], {
-	*     'dtype': 'float32'
-	* });
-	*
-	* var k = scalar2ndarray( 6, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var out = ns.srightPadCircular( [ x, y, k ] );
-	* // returns <ndarray>[ 1.0, 2.0, 3.0, 4.0, 1.0, 2.0, 3.0, 4.0, 1.0, 2.0 ]
-	*/
-	srightPadCircular: typeof srightPadCircular;
 
 	/**
 	* Tests whether a one-dimensional single-precision floating-point ndarray contains at least `k` truthy elements.
@@ -8065,58 +7515,6 @@ interface Namespace {
 	swhere: typeof swhere;
 
 	/**
-	* Divides elements of a one-dimensional single-precision floating-point ndarray by the corresponding elements of a second one-dimensional single-precision floating-point ndarray and assigns the results to elements in a third one-dimensional single-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	*
-	* var x = new Float32Vector( [ 4.0, 6.0, 12.0, 20.0, 30.0 ] );
-	* var y = new Float32Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float32Vector( 5 );
-	*
-	* var out = ns.swxdy( [ x, y, w ] );
-	* // returns <ndarray>[ 2.0, 2.0, 3.0, 4.0, 5.0 ]
-	*/
-	swxdy: typeof swxdy;
-
-	/**
-	* Multiplies elements of a one-dimensional single-precision floating-point ndarray by the corresponding elements of a second one-dimensional single-precision floating-point ndarray and assigns the results to elements in a third one-dimensional single-precision floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Float32Vector = require( '@stdlib/ndarray/vector/float32' );
-	*
-	* var x = new Float32Vector( [ 1.0, 2.0, 3.0, 4.0, 5.0 ] );
-	* var y = new Float32Vector( [ 2.0, 3.0, 4.0, 5.0, 6.0 ] );
-	* var w = new Float32Vector( 5 );
-	*
-	* var out = ns.swxmy( [ x, y, w ] );
-	* // returns <ndarray>[ 2.0, 6.0, 12.0, 20.0, 30.0 ]
-	*/
-	swxmy: typeof swxmy;
-
-	/**
 	* Adds elements of a one-dimensional single-precision floating-point ndarray to the corresponding elements of a second one-dimensional single-precision floating-point ndarray and assigns the results to elements in a third one-dimensional single-precision floating-point ndarray.
 	*
 	* ## Notes
@@ -8344,32 +7742,6 @@ interface Namespace {
 	* // returns <ndarray>[ 0.0, 1.0, 2.0, 3.0 ]
 	*/
 	szeroTo: typeof szeroTo;
-
-	/**
-	* Tests whether at least one element in a one-dimensional double-precision complex floating-point ndarray is truthy.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*
-	* -   A complex number is truthy when at least one of its real or imaginary components is truthy.
-	*
-	* -   The function explicitly treats `NaN` values as falsy.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns boolean indicating whether at least one element is truthy
-	*
-	* @example
-	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
-	*
-	* var x = new Complex128Vector( [ 0.0, 0.0, 1.0, 2.0 ] );
-	*
-	* var v = ns.zany( [ x ] );
-	* // returns true
-	*/
-	zany: typeof zany;
 
 	/**
 	* Multiplies each element in a one-dimensional double-precision complex floating-point ndarray by a scalar constant and adds a scalar constant to each result.
@@ -8647,34 +8019,6 @@ interface Namespace {
 	* // returns 1
 	*/
 	zindexOfTruthy: typeof zindexOfTruthy;
-
-	/**
-	* Returns the index of the last falsy element in a one-dimensional double-precision complex floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   a one-dimensional input ndarray.
-	*     -   a zero-dimensional ndarray containing the index from which to begin searching.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns index
-	*
-	* @example
-	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
-	* var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
-	*
-	* var x = new Complex128Vector( [ 1.0, 2.0, 0.0, 0.0, 3.0, 4.0, 0.0, 0.0 ] );
-	*
-	* var fromIndex = scalar2ndarray( 3, {
-	*     'dtype': 'generic'
-	* });
-	*
-	* var v = ns.zlastIndexOfFalsy( [ x, fromIndex ] );
-	* // returns 3
-	*/
-	zlastIndexOfFalsy: typeof zlastIndexOfFalsy;
 
 	/**
 	* Fills a one-dimensional double-precision complex floating-point ndarray with logarithmically spaced values over a specified interval.
@@ -8973,58 +8317,6 @@ interface Namespace {
 	zwhere: typeof zwhere;
 
 	/**
-	* Multiplies elements of a one-dimensional double-precision complex floating-point ndarray by the corresponding elements of a second one-dimensional double-precision complex floating-point ndarray and assigns the results to elements in a third one-dimensional double-precision complex floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
-	*
-	* var x = new Complex128Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex128Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	* var w = new Complex128Vector( 3 );
-	*
-	* var out = ns.zwxmy( [ x, y, w ] );
-	* // returns <ndarray>[ <Complex128>[ 0.0, 5.0 ], <Complex128>[ 0.0, 10.0 ], <Complex128>[ 0.0, 4.0 ] ]
-	*/
-	zwxmy: typeof zwxmy;
-
-	/**
-	* Adds elements of a one-dimensional double-precision complex floating-point ndarray to the corresponding elements of a second one-dimensional double-precision complex floating-point ndarray and assigns the results to elements in a third one-dimensional double-precision complex floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
-	*
-	* var x = new Complex128Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex128Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	* var w = new Complex128Vector( 3 );
-	*
-	* var out = ns.zwxpy( [ x, y, w ] );
-	* // returns <ndarray>[ <Complex128>[ 3.0, 3.0 ], <Complex128>[ 2.0, 2.0 ], <Complex128>[ 4.0, 1.0 ] ]
-	*/
-	zwxpy: typeof zwxpy;
-
-	/**
 	* Subtracts a scalar constant from each element in an input one-dimensional double-precision complex floating-point ndarray and assigns the results to elements in a one-dimensional double-precision complex floating-point output ndarray.
 	*
 	* ## Notes
@@ -9054,32 +8346,6 @@ interface Namespace {
 	* // returns <ndarray>[ <Complex128>[ -7.0, 1.0 ], <Complex128>[ -2.0, -5.0 ] ]
 	*/
 	zwxsa: typeof zwxsa;
-
-	/**
-	* Subtracts elements of a second one-dimensional double-precision complex floating-point ndarray from the corresponding elements of a first one-dimensional double-precision complex floating-point ndarray and assigns the results to elements in a third one-dimensional double-precision complex floating-point ndarray.
-	*
-	* ## Notes
-	*
-	* -   The function expects the following ndarrays:
-	*
-	*     -   first one-dimensional input ndarray.
-	*     -   second one-dimensional input ndarray.
-	*     -   a one-dimensional output ndarray.
-	*
-	* @param arrays - array-like object containing ndarrays
-	* @returns output ndarray
-	*
-	* @example
-	* var Complex128Vector = require( '@stdlib/ndarray/vector/complex128' );
-	*
-	* var x = new Complex128Vector( [ 1.0, 2.0, 3.0, -1.0, 0.0, 1.0 ] );
-	* var y = new Complex128Vector( [ 2.0, 1.0, -1.0, 3.0, 4.0, 0.0 ] );
-	* var w = new Complex128Vector( 3 );
-	*
-	* var out = ns.zwxsy( [ x, y, w ] );
-	* // returns <ndarray>[ <Complex128>[ -1.0, 1.0 ], <Complex128>[ 4.0, -4.0 ], <Complex128>[ -4.0, 1.0 ] ]
-	*/
-	zwxsy: typeof zwxsy;
 
 	/**
 	* Divides elements of a one-dimensional double-precision complex floating-point ndarray by the corresponding elements of a second one-dimensional double-precision complex floating-point ndarray and assigns the results to the second ndarray.
