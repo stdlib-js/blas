@@ -352,6 +352,15 @@ setReadOnly( ns, 'dcartesianPower', require( './../../../../ext/base/ndarray/dca
 setReadOnly( ns, 'dcartesianProduct', require( './../../../../ext/base/ndarray/dcartesian-product' ) );
 
 /**
+* @name dcartesianSquare
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/dcartesian-square}
+*/
+setReadOnly( ns, 'dcartesianSquare', require( './../../../../ext/base/ndarray/dcartesian-square' ) );
+
+/**
 * @name dcircshift
 * @memberof ns
 * @readonly
@@ -1016,6 +1025,15 @@ setReadOnly( ns, 'gaxpb', require( './../../../../ext/base/ndarray/gaxpb' ) );
 * @see {@link module:@stdlib/blas/ext/base/ndarray/gaxpby}
 */
 setReadOnly( ns, 'gaxpby', require( './../../../../ext/base/ndarray/gaxpby' ) );
+
+/**
+* @name gcartesianPower
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/base/ndarray/gcartesian-power}
+*/
+setReadOnly( ns, 'gcartesianPower', require( './../../../../ext/base/ndarray/gcartesian-power' ) );
 
 /**
 * @name gcircshift

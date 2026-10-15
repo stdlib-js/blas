@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a95a9d3`](https://github.com/stdlib-js/stdlib/commit/a95a9d390b604954b22574c64841b12274c60450) - add `dcartesianSquare` and `gcartesianPower` to namespace
 -   [`0f507ee`](https://github.com/stdlib-js/stdlib/commit/0f507eead2b144cfc4475f9762046243f661c060) - add `blas/ext/base/ndarray/gcartesian-power` [(#14817)](https://github.com/stdlib-js/stdlib/pull/14817)
 -   [`56310e6`](https://github.com/stdlib-js/stdlib/commit/56310e620fe2839c057c79b2b7f0f8541449606e) - add `blas/ext/base/ndarray/dcartesian-square` [(#14814)](https://github.com/stdlib-js/stdlib/pull/14814)
 -   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace
@@ -1065,6 +1066,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`a5fc6f4`](https://github.com/stdlib-js/stdlib/commit/a5fc6f4fbe61ca4f24db5f6d74013915e6726bc9) - **docs:** fix descriptions _(by Athan Reines)_
+-   [`a95a9d3`](https://github.com/stdlib-js/stdlib/commit/a95a9d390b604954b22574c64841b12274c60450) - **feat:** add `dcartesianSquare` and `gcartesianPower` to namespace _(by Athan Reines)_
 -   [`0f507ee`](https://github.com/stdlib-js/stdlib/commit/0f507eead2b144cfc4475f9762046243f661c060) - **feat:** add `blas/ext/base/ndarray/gcartesian-power` [(#14817)](https://github.com/stdlib-js/stdlib/pull/14817) _(by Muhammad Haris, Athan Reines)_
 -   [`56310e6`](https://github.com/stdlib-js/stdlib/commit/56310e620fe2839c057c79b2b7f0f8541449606e) - **feat:** add `blas/ext/base/ndarray/dcartesian-square` [(#14814)](https://github.com/stdlib-js/stdlib/pull/14814) _(by Muhammad Haris)_
 -   [`f9aa9fb`](https://github.com/stdlib-js/stdlib/commit/f9aa9fb2046ed69fed2591f791ed7c8c5a03171a) - **test:** migrate `blas/base/wasm/zdrot` to ULP-based assertions [(#16159)](https://github.com/stdlib-js/stdlib/pull/16159) _(by Athan Reines)_
