@@ -831,6 +831,7 @@
 
 ### Bug Fixes
 
+-   [`9363a2f`](https://github.com/stdlib-js/stdlib/commit/9363a2f1484bfd1285f11c8c19afb34a9456a1e7) - ensure proper length calculation
 -   [`68e9817`](https://github.com/stdlib-js/stdlib/commit/68e9817663633489c4cfdd3ce190e1223ee68d16) - ensure proper length calculation and fix typos [(#16171)](https://github.com/stdlib-js/stdlib/pull/16171)
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
 -   [`dab2209`](https://github.com/stdlib-js/stdlib/commit/dab220997a84248eb278619abf61b92eb30a7cc0) - clamp only the upper bound [(#15857)](https://github.com/stdlib-js/stdlib/pull/15857)
@@ -1074,6 +1075,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`9363a2f`](https://github.com/stdlib-js/stdlib/commit/9363a2f1484bfd1285f11c8c19afb34a9456a1e7) - **fix:** ensure proper length calculation _(by Athan Reines)_
 -   [`68e9817`](https://github.com/stdlib-js/stdlib/commit/68e9817663633489c4cfdd3ce190e1223ee68d16) - **fix:** ensure proper length calculation and fix typos [(#16171)](https://github.com/stdlib-js/stdlib/pull/16171) _(by Philipp Burckhardt)_
 -   [`e148971`](https://github.com/stdlib-js/stdlib/commit/e14897198e1966ef933d7e52071b5073bc913555) - **feat:** add `blas/ext/base/ndarray/dapx` [(#14424)](https://github.com/stdlib-js/stdlib/pull/14424) _(by Ujjwal Verma)_
 -   [`afdb189`](https://github.com/stdlib-js/stdlib/commit/afdb189fd644426eb81f44fd4e80eb28f1d77a37) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxmy` [(#16165)](https://github.com/stdlib-js/stdlib/pull/16165) _(by MJ)_
