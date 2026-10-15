@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`56310e6`](https://github.com/stdlib-js/stdlib/commit/56310e620fe2839c057c79b2b7f0f8541449606e) - add `blas/ext/base/ndarray/dcartesian-square` [(#14814)](https://github.com/stdlib-js/stdlib/pull/14814)
 -   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace
 -   [`5026d4a`](https://github.com/stdlib-js/stdlib/commit/5026d4a536db17983e22fb6630eb004e3ffa4e5a) - add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace
 -   [`564d0dd`](https://github.com/stdlib-js/stdlib/commit/564d0ddbe48ff22f9ef7ac8890d020f9cefcea60) - add `blas/ext/base/ndarray/sindex-of-less-than-equal` [(#15889)](https://github.com/stdlib-js/stdlib/pull/15889)
@@ -1063,6 +1064,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`56310e6`](https://github.com/stdlib-js/stdlib/commit/56310e620fe2839c057c79b2b7f0f8541449606e) - **feat:** add `blas/ext/base/ndarray/dcartesian-square` [(#14814)](https://github.com/stdlib-js/stdlib/pull/14814) _(by Muhammad Haris)_
 -   [`f9aa9fb`](https://github.com/stdlib-js/stdlib/commit/f9aa9fb2046ed69fed2591f791ed7c8c5a03171a) - **test:** migrate `blas/base/wasm/zdrot` to ULP-based assertions [(#16159)](https://github.com/stdlib-js/stdlib/pull/16159) _(by Athan Reines)_
 -   [`a31e89e`](https://github.com/stdlib-js/stdlib/commit/a31e89edbb5d68187735a224af5e2277f68784ba) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
 -   [`5026d4a`](https://github.com/stdlib-js/stdlib/commit/5026d4a536db17983e22fb6630eb004e3ffa4e5a) - **feat:** add `sindexOfLessThanEqual` and `dindexOfLessThanEqual` to namespace _(by Athan Reines)_
