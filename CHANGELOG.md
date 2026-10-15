@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`e148971`](https://github.com/stdlib-js/stdlib/commit/e14897198e1966ef933d7e52071b5073bc913555) - add `blas/ext/base/ndarray/dapx` [(#14424)](https://github.com/stdlib-js/stdlib/pull/14424)
 -   [`afdb189`](https://github.com/stdlib-js/stdlib/commit/afdb189fd644426eb81f44fd4e80eb28f1d77a37) - add C implementation for `blas/ext/base/ndarray/zwxmy` [(#16165)](https://github.com/stdlib-js/stdlib/pull/16165)
 -   [`e146255`](https://github.com/stdlib-js/stdlib/commit/e14625574bb06d038fe96afc699cf9d5365bf104) - update `blas/ext/base/ndarray` TypeScript declarations [(#16161)](https://github.com/stdlib-js/stdlib/pull/16161)
 -   [`5f73efc`](https://github.com/stdlib-js/stdlib/commit/5f73efced4bf85d01b83274eeda10a6463849b73) - update `blas/ext/base` TypeScript declarations [(#16162)](https://github.com/stdlib-js/stdlib/pull/16162)
@@ -1072,6 +1073,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e148971`](https://github.com/stdlib-js/stdlib/commit/e14897198e1966ef933d7e52071b5073bc913555) - **feat:** add `blas/ext/base/ndarray/dapx` [(#14424)](https://github.com/stdlib-js/stdlib/pull/14424) _(by Ujjwal Verma)_
 -   [`afdb189`](https://github.com/stdlib-js/stdlib/commit/afdb189fd644426eb81f44fd4e80eb28f1d77a37) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxmy` [(#16165)](https://github.com/stdlib-js/stdlib/pull/16165) _(by MJ)_
 -   [`90fa4c6`](https://github.com/stdlib-js/stdlib/commit/90fa4c6dfa631c48cc8984e036435cadbfa2262f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`6382fea`](https://github.com/stdlib-js/stdlib/commit/6382fea9dc0e8afee1708b81c3936267a08ce96f) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
