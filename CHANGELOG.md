@@ -10,6 +10,8 @@
 
 ### Features
 
+-   [`e146255`](https://github.com/stdlib-js/stdlib/commit/e14625574bb06d038fe96afc699cf9d5365bf104) - update `blas/ext/base/ndarray` TypeScript declarations [(#16161)](https://github.com/stdlib-js/stdlib/pull/16161)
+-   [`5f73efc`](https://github.com/stdlib-js/stdlib/commit/5f73efced4bf85d01b83274eeda10a6463849b73) - update `blas/ext/base` TypeScript declarations [(#16162)](https://github.com/stdlib-js/stdlib/pull/16162)
 -   [`8a1a510`](https://github.com/stdlib-js/stdlib/commit/8a1a51036be8c7a5d8d77f617e2f493fe8311f5a) - add `blas/ext/base/ndarray/ctril2triu` [(#15448)](https://github.com/stdlib-js/stdlib/pull/15448)
 -   [`3b8fa83`](https://github.com/stdlib-js/stdlib/commit/3b8fa83dbde072e6d432d156f19bacb791b80766) - add `blas/ext/base/ndarray/ztril2triu` [(#15447)](https://github.com/stdlib-js/stdlib/pull/15447)
 -   [`bd701cf`](https://github.com/stdlib-js/stdlib/commit/bd701cfd50fcbc0e4fb474ea40d48948fe5d9356) - add `blas/ext/base/ndarray/ztriu2tril` [(#15446)](https://github.com/stdlib-js/stdlib/pull/15446)
@@ -1069,6 +1071,11 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`90fa4c6`](https://github.com/stdlib-js/stdlib/commit/90fa4c6dfa631c48cc8984e036435cadbfa2262f) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`6382fea`](https://github.com/stdlib-js/stdlib/commit/6382fea9dc0e8afee1708b81c3936267a08ce96f) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
+-   [`e146255`](https://github.com/stdlib-js/stdlib/commit/e14625574bb06d038fe96afc699cf9d5365bf104) - **feat:** update `blas/ext/base/ndarray` TypeScript declarations [(#16161)](https://github.com/stdlib-js/stdlib/pull/16161) _(by stdlib-bot)_
+-   [`5f73efc`](https://github.com/stdlib-js/stdlib/commit/5f73efced4bf85d01b83274eeda10a6463849b73) - **feat:** update `blas/ext/base` TypeScript declarations [(#16162)](https://github.com/stdlib-js/stdlib/pull/16162) _(by stdlib-bot)_
+-   [`1198965`](https://github.com/stdlib-js/stdlib/commit/1198965d12feaf4bcd86b69bb72e31d75df05569) - **docs:** update namespace table of contents [(#16164)](https://github.com/stdlib-js/stdlib/pull/16164) _(by stdlib-bot)_
 -   [`8a1a510`](https://github.com/stdlib-js/stdlib/commit/8a1a51036be8c7a5d8d77f617e2f493fe8311f5a) - **feat:** add `blas/ext/base/ndarray/ctril2triu` [(#15448)](https://github.com/stdlib-js/stdlib/pull/15448) _(by Kaustubh Patange)_
 -   [`3b8fa83`](https://github.com/stdlib-js/stdlib/commit/3b8fa83dbde072e6d432d156f19bacb791b80766) - **feat:** add `blas/ext/base/ndarray/ztril2triu` [(#15447)](https://github.com/stdlib-js/stdlib/pull/15447) _(by Kaustubh Patange)_
 -   [`bd701cf`](https://github.com/stdlib-js/stdlib/commit/bd701cfd50fcbc0e4fb474ea40d48948fe5d9356) - **feat:** add `blas/ext/base/ndarray/ztriu2tril` [(#15446)](https://github.com/stdlib-js/stdlib/pull/15446) _(by Kaustubh Patange)_
