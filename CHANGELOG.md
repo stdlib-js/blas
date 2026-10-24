@@ -1078,6 +1078,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`913219c`](https://github.com/stdlib-js/stdlib/commit/913219c609192b1fea2936b6f46291163518a71e) - **test:** migrate `blas/base/dznrm2` to ULP-based assertions [(#16272)](https://github.com/stdlib-js/stdlib/pull/16272) _(by Athan Reines)_
 -   [`2fc458a`](https://github.com/stdlib-js/stdlib/commit/2fc458a73130f937098cb29f21a7332d6e3061ca) - **test:** migrate `blas/base/scnrm2` to ULP-based assertions [(#16261)](https://github.com/stdlib-js/stdlib/pull/16261) _(by Athan Reines)_
 -   [`9a275f5`](https://github.com/stdlib-js/stdlib/commit/9a275f5c92761250d99fde97860fda4afc4ce917) - **test:** migrate `blas/base/zscal` to ULP-based assertions [(#16200)](https://github.com/stdlib-js/stdlib/pull/16200) _(by Athan Reines)_
 -   [`7312a3b`](https://github.com/stdlib-js/stdlib/commit/7312a3bf0288214ffdae1694ee2a8324ae88f539) - **feat:** add `blas/ext/last-index-equal` [(#16285)](https://github.com/stdlib-js/stdlib/pull/16285) _(by Muhammad Haris, Athan Reines)_
