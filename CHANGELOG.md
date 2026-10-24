@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`5370b4c`](https://github.com/stdlib-js/stdlib/commit/5370b4c2a0e8f4f0c8b5da662fe3c4cb625baf91) - add `blas/ext/find-last-index-between` [(#16283)](https://github.com/stdlib-js/stdlib/pull/16283)
 -   [`7312a3b`](https://github.com/stdlib-js/stdlib/commit/7312a3bf0288214ffdae1694ee2a8324ae88f539) - add `blas/ext/last-index-equal` [(#16285)](https://github.com/stdlib-js/stdlib/pull/16285)
 -   [`0a9795a`](https://github.com/stdlib-js/stdlib/commit/0a9795a2605d4aff11adb68a543e3d1c2225a89f) - add `blas/ext/base/glast-index-almost-equal` [(#16176)](https://github.com/stdlib-js/stdlib/pull/16176)
 -   [`ec55375`](https://github.com/stdlib-js/stdlib/commit/ec55375b766d729b580ff0f98b07e6348c9db652) - add C implementation for `blas/ext/base/ndarray/cwxmy` [(#16178)](https://github.com/stdlib-js/stdlib/pull/16178)
@@ -1078,6 +1079,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`5370b4c`](https://github.com/stdlib-js/stdlib/commit/5370b4c2a0e8f4f0c8b5da662fe3c4cb625baf91) - **feat:** add `blas/ext/find-last-index-between` [(#16283)](https://github.com/stdlib-js/stdlib/pull/16283) _(by Muhammad Haris)_
 -   [`6d2f4ad`](https://github.com/stdlib-js/stdlib/commit/6d2f4adc59bc73fb4da964005ff9d74420b65975) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`d0a0dbb`](https://github.com/stdlib-js/stdlib/commit/d0a0dbb027c3aebee0ead80bad5b8af45b6391a9) - **test:** migrate `blas/base/snrm2` to ULP-based assertions [(#16277)](https://github.com/stdlib-js/stdlib/pull/16277) _(by Athan Reines)_
 -   [`3b7533a`](https://github.com/stdlib-js/stdlib/commit/3b7533ac9e7da01131699039c84e5388cefacd13) - **test:** migrate `blas/base/wasm/snrm2` to ULP-based assertions [(#16262)](https://github.com/stdlib-js/stdlib/pull/16262) _(by Athan Reines)_
