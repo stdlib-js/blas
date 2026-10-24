@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-23)
+## Unreleased (2026-10-24)
 
 <section class="features">
 
@@ -1077,6 +1077,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`9392cf4`](https://github.com/stdlib-js/stdlib/commit/9392cf4e4484d3c255728efc27899fb45a4f345c) - **docs:** fix example _(by Athan Reines)_
 -   [`444fdd5`](https://github.com/stdlib-js/stdlib/commit/444fdd5f6c5cfb2dbd1fa2b69609a9349b20224d) - **test:** migrate `blas/base/dnrm2` to ULP-based assertions [(#16291)](https://github.com/stdlib-js/stdlib/pull/16291) _(by Athan Reines)_
 -   [`eeebc88`](https://github.com/stdlib-js/stdlib/commit/eeebc88f67a11370f8bc1a7cce9883324774747b) - **test:** migrate `blas/base/cscal` to ULP-based assertions [(#16288)](https://github.com/stdlib-js/stdlib/pull/16288) _(by Athan Reines)_
 -   [`0a9795a`](https://github.com/stdlib-js/stdlib/commit/0a9795a2605d4aff11adb68a543e3d1c2225a89f) - **feat:** add `blas/ext/base/glast-index-almost-equal` [(#16176)](https://github.com/stdlib-js/stdlib/pull/16176) _(by Muhammad Haris)_
