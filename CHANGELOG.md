@@ -1078,6 +1078,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`6d2f4ad`](https://github.com/stdlib-js/stdlib/commit/6d2f4adc59bc73fb4da964005ff9d74420b65975) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`d0a0dbb`](https://github.com/stdlib-js/stdlib/commit/d0a0dbb027c3aebee0ead80bad5b8af45b6391a9) - **test:** migrate `blas/base/snrm2` to ULP-based assertions [(#16277)](https://github.com/stdlib-js/stdlib/pull/16277) _(by Athan Reines)_
 -   [`3b7533a`](https://github.com/stdlib-js/stdlib/commit/3b7533ac9e7da01131699039c84e5388cefacd13) - **test:** migrate `blas/base/wasm/snrm2` to ULP-based assertions [(#16262)](https://github.com/stdlib-js/stdlib/pull/16262) _(by Athan Reines)_
 -   [`913219c`](https://github.com/stdlib-js/stdlib/commit/913219c609192b1fea2936b6f46291163518a71e) - **test:** migrate `blas/base/dznrm2` to ULP-based assertions [(#16272)](https://github.com/stdlib-js/stdlib/pull/16272) _(by Athan Reines)_
