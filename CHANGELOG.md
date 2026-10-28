@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-24)
+## Unreleased (2026-10-28)
 
 <section class="features">
 
@@ -1079,6 +1079,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`fd4e872`](https://github.com/stdlib-js/stdlib/commit/fd4e872d13bff1c3712dcd6dc980ecc2a6a3262b) - **docs:** fix type _(by Athan Reines)_
 -   [`5370b4c`](https://github.com/stdlib-js/stdlib/commit/5370b4c2a0e8f4f0c8b5da662fe3c4cb625baf91) - **feat:** add `blas/ext/find-last-index-between` [(#16283)](https://github.com/stdlib-js/stdlib/pull/16283) _(by Muhammad Haris)_
 -   [`6d2f4ad`](https://github.com/stdlib-js/stdlib/commit/6d2f4adc59bc73fb4da964005ff9d74420b65975) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`d0a0dbb`](https://github.com/stdlib-js/stdlib/commit/d0a0dbb027c3aebee0ead80bad5b8af45b6391a9) - **test:** migrate `blas/base/snrm2` to ULP-based assertions [(#16277)](https://github.com/stdlib-js/stdlib/pull/16277) _(by Athan Reines)_
