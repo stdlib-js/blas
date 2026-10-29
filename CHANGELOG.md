@@ -1081,6 +1081,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`937acf3`](https://github.com/stdlib-js/stdlib/commit/937acf38f2aa119cb44a35186d88e46d512951cd) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`3d7afba`](https://github.com/stdlib-js/stdlib/commit/3d7afbaeb2c522d39ca247a460c80356ab8955ee) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`b0b4bad`](https://github.com/stdlib-js/stdlib/commit/b0b4bad3806887027b296152e7c65868712f8cc8) - **feat:** add `blas/ext/base/ndarray/sapx` [(#9221)](https://github.com/stdlib-js/stdlib/pull/9221) _(by Aman Singh, Karan Anand)_
 -   [`cffc33d`](https://github.com/stdlib-js/stdlib/commit/cffc33de47e9a59a721baa3b9fc32ec63d624e5d) - **test:** migrate `blas/base/scasum` to ULP-based assertions [(#16325)](https://github.com/stdlib-js/stdlib/pull/16325) _(by Philipp Burckhardt)_
 -   [`dfef7d6`](https://github.com/stdlib-js/stdlib/commit/dfef7d64708cda12846625e9aab840592181ce2a) - **feat:** add `blas/ext/base/gxsadb` [(#16307)](https://github.com/stdlib-js/stdlib/pull/16307) _(by Karan Anand, Athan Reines)_
