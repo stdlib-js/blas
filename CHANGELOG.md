@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`b0b4bad`](https://github.com/stdlib-js/stdlib/commit/b0b4bad3806887027b296152e7c65868712f8cc8) - add `blas/ext/base/ndarray/sapx` [(#9221)](https://github.com/stdlib-js/stdlib/pull/9221)
 -   [`dfef7d6`](https://github.com/stdlib-js/stdlib/commit/dfef7d64708cda12846625e9aab840592181ce2a) - add `blas/ext/base/gxsadb` [(#16307)](https://github.com/stdlib-js/stdlib/pull/16307)
 -   [`5370b4c`](https://github.com/stdlib-js/stdlib/commit/5370b4c2a0e8f4f0c8b5da662fe3c4cb625baf91) - add `blas/ext/find-last-index-between` [(#16283)](https://github.com/stdlib-js/stdlib/pull/16283)
 -   [`7312a3b`](https://github.com/stdlib-js/stdlib/commit/7312a3bf0288214ffdae1694ee2a8324ae88f539) - add `blas/ext/last-index-equal` [(#16285)](https://github.com/stdlib-js/stdlib/pull/16285)
@@ -1080,6 +1081,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`b0b4bad`](https://github.com/stdlib-js/stdlib/commit/b0b4bad3806887027b296152e7c65868712f8cc8) - **feat:** add `blas/ext/base/ndarray/sapx` [(#9221)](https://github.com/stdlib-js/stdlib/pull/9221) _(by Aman Singh, Karan Anand)_
 -   [`cffc33d`](https://github.com/stdlib-js/stdlib/commit/cffc33de47e9a59a721baa3b9fc32ec63d624e5d) - **test:** migrate `blas/base/scasum` to ULP-based assertions [(#16325)](https://github.com/stdlib-js/stdlib/pull/16325) _(by Philipp Burckhardt)_
 -   [`dfef7d6`](https://github.com/stdlib-js/stdlib/commit/dfef7d64708cda12846625e9aab840592181ce2a) - **feat:** add `blas/ext/base/gxsadb` [(#16307)](https://github.com/stdlib-js/stdlib/pull/16307) _(by Karan Anand, Athan Reines)_
 -   [`fd4e872`](https://github.com/stdlib-js/stdlib/commit/fd4e872d13bff1c3712dcd6dc980ecc2a6a3262b) - **docs:** fix type _(by Athan Reines)_
@@ -2250,8 +2252,9 @@ A total of 5 issues were closed in this release:
 
 ### Contributors
 
-A total of 22 people contributed to this release. Thank you to the following contributors:
+A total of 23 people contributed to this release. Thank you to the following contributors:
 
+-   Aman Singh
 -   Arjan-P
 -   Athan Reines
 -   Atharva Patange
