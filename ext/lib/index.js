@@ -145,6 +145,15 @@ setReadOnly( ns, 'findIndexBetween', require( './../../ext/find-index-between' )
 setReadOnly( ns, 'findLastIndex', require( './../../ext/find-last-index' ) );
 
 /**
+* @name findLastIndexBetween
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/find-last-index-between}
+*/
+setReadOnly( ns, 'findLastIndexBetween', require( './../../ext/find-last-index-between' ) );
+
+/**
 * @name firstIndexLessThan
 * @memberof ns
 * @readonly
@@ -197,6 +206,15 @@ setReadOnly( ns, 'indexOfTruthy', require( './../../ext/index-of-truthy' ) );
 * @see {@link module:@stdlib/blas/ext/join}
 */
 setReadOnly( ns, 'join', require( './../../ext/join' ) );
+
+/**
+* @name lastIndexEqual
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/blas/ext/last-index-equal}
+*/
+setReadOnly( ns, 'lastIndexEqual', require( './../../ext/last-index-equal' ) );
 
 /**
 * @name lastIndexOf
