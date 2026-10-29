@@ -1083,6 +1083,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`73c3f62`](https://github.com/stdlib-js/stdlib/commit/73c3f62ea82172344c5c4fe2a6aaf65132b36d64) - **test:** migrate `blas/base/dsymv` to ULP-based assertions [(#15972)](https://github.com/stdlib-js/stdlib/pull/15972) _(by Athan Reines)_
 -   [`721d574`](https://github.com/stdlib-js/stdlib/commit/721d57401459f60169dd32622ebb94e19d100a76) - **test:** migrate `blas/base/dspmv` to ULP-based assertions [(#16132)](https://github.com/stdlib-js/stdlib/pull/16132) _(by Athan Reines)_
 -   [`1472328`](https://github.com/stdlib-js/stdlib/commit/14723281a11feb1b6fc60a1ef7fdd3caeca9590e) - **test:** migrate `blas/base/sspmv` to ULP-based assertions [(#16166)](https://github.com/stdlib-js/stdlib/pull/16166) _(by Athan Reines)_
 -   [`e045faf`](https://github.com/stdlib-js/stdlib/commit/e045faf87a075e71d0126ece925c8165a6be6b1c) - **feat:** add `lastIndexEqual` to namespace _(by Athan Reines)_
