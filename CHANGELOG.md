@@ -10,7 +10,6 @@
 
 ### Features
 
--   [`cb310d2`](https://github.com/stdlib-js/stdlib/commit/cb310d29f23fa0491d8820a526e062229b14c823) - update `blas/ext` TypeScript declarations [(#16374)](https://github.com/stdlib-js/stdlib/pull/16374)
 -   [`e045faf`](https://github.com/stdlib-js/stdlib/commit/e045faf87a075e71d0126ece925c8165a6be6b1c) - add `lastIndexEqual` to namespace
 -   [`386cdde`](https://github.com/stdlib-js/stdlib/commit/386cdde946d71c8366d07e91004a742ec68d1590) - add `findLastIndexBetween` to namespace
 -   [`b0b4bad`](https://github.com/stdlib-js/stdlib/commit/b0b4bad3806887027b296152e7c65868712f8cc8) - add `blas/ext/base/ndarray/sapx` [(#9221)](https://github.com/stdlib-js/stdlib/pull/9221)
@@ -1084,8 +1083,6 @@ A total of 5 issues were closed in this release:
 
 <details>
 
--   [`1bb0aa9`](https://github.com/stdlib-js/stdlib/commit/1bb0aa9ae6f66316a07f4a6b44f0396a52da08d6) - **docs:** update Markdown equation elements _(by stdlib-bot)_
--   [`cb310d2`](https://github.com/stdlib-js/stdlib/commit/cb310d29f23fa0491d8820a526e062229b14c823) - **feat:** update `blas/ext` TypeScript declarations [(#16374)](https://github.com/stdlib-js/stdlib/pull/16374) _(by stdlib-bot)_
 -   [`83934c0`](https://github.com/stdlib-js/stdlib/commit/83934c0c5f5eb6f8dca695683acba912e59e8e0f) - **docs:** update namespace table of contents [(#16377)](https://github.com/stdlib-js/stdlib/pull/16377) _(by stdlib-bot)_
 -   [`4b4e172`](https://github.com/stdlib-js/stdlib/commit/4b4e172c17aa1ff0c634b4dad38376b51fd1cf85) - **test:** migrate `blas/base/srot` to ULP-based assertions [(#16141)](https://github.com/stdlib-js/stdlib/pull/16141) _(by Athan Reines)_
 -   [`73c3f62`](https://github.com/stdlib-js/stdlib/commit/73c3f62ea82172344c5c4fe2a6aaf65132b36d64) - **test:** migrate `blas/base/dsymv` to ULP-based assertions [(#15972)](https://github.com/stdlib-js/stdlib/pull/15972) _(by Athan Reines)_
