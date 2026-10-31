@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-30)
+## Unreleased (2026-10-31)
 
 <section class="features">
 
@@ -840,6 +840,7 @@
 
 ### Bug Fixes
 
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386)
 -   [`9363a2f`](https://github.com/stdlib-js/stdlib/commit/9363a2f1484bfd1285f11c8c19afb34a9456a1e7) - ensure proper length calculation
 -   [`68e9817`](https://github.com/stdlib-js/stdlib/commit/68e9817663633489c4cfdd3ce190e1223ee68d16) - ensure proper length calculation and fix typos [(#16171)](https://github.com/stdlib-js/stdlib/pull/16171)
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
@@ -1084,6 +1085,8 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
+-   [`1bb0aa9`](https://github.com/stdlib-js/stdlib/commit/1bb0aa9ae6f66316a07f4a6b44f0396a52da08d6) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`cb310d2`](https://github.com/stdlib-js/stdlib/commit/cb310d29f23fa0491d8820a526e062229b14c823) - **feat:** update `blas/ext` TypeScript declarations [(#16374)](https://github.com/stdlib-js/stdlib/pull/16374) _(by stdlib-bot)_
 -   [`83934c0`](https://github.com/stdlib-js/stdlib/commit/83934c0c5f5eb6f8dca695683acba912e59e8e0f) - **docs:** update namespace table of contents [(#16377)](https://github.com/stdlib-js/stdlib/pull/16377) _(by stdlib-bot)_
 -   [`4b4e172`](https://github.com/stdlib-js/stdlib/commit/4b4e172c17aa1ff0c634b4dad38376b51fd1cf85) - **test:** migrate `blas/base/srot` to ULP-based assertions [(#16141)](https://github.com/stdlib-js/stdlib/pull/16141) _(by Athan Reines)_
