@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`14293da`](https://github.com/stdlib-js/stdlib/commit/14293da4881a4d9fd6e83eefacafb1056f89a244) - add `blas/ext/base/dwaxpb` [(#15849)](https://github.com/stdlib-js/stdlib/pull/15849)
 -   [`87675cc`](https://github.com/stdlib-js/stdlib/commit/87675cc2d6291c7564e8aa09f5878101430453cc) - add `blas/ext/base/dxpby` [(#16102)](https://github.com/stdlib-js/stdlib/pull/16102)
 -   [`cb310d2`](https://github.com/stdlib-js/stdlib/commit/cb310d29f23fa0491d8820a526e062229b14c823) - update `blas/ext` TypeScript declarations [(#16374)](https://github.com/stdlib-js/stdlib/pull/16374)
 -   [`e045faf`](https://github.com/stdlib-js/stdlib/commit/e045faf87a075e71d0126ece925c8165a6be6b1c) - add `lastIndexEqual` to namespace
@@ -1087,6 +1088,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`14293da`](https://github.com/stdlib-js/stdlib/commit/14293da4881a4d9fd6e83eefacafb1056f89a244) - **feat:** add `blas/ext/base/dwaxpb` [(#15849)](https://github.com/stdlib-js/stdlib/pull/15849) _(by Karan Anand)_
 -   [`87675cc`](https://github.com/stdlib-js/stdlib/commit/87675cc2d6291c7564e8aa09f5878101430453cc) - **feat:** add `blas/ext/base/dxpby` [(#16102)](https://github.com/stdlib-js/stdlib/pull/16102) _(by Karan Anand)_
 -   [`c73cd1e`](https://github.com/stdlib-js/stdlib/commit/c73cd1e7b32f9eb83be97050cdc0b5f605173539) - **fix:** advance indices in unrolled loops of portable `dcopy` and `scopy` [(#16122)](https://github.com/stdlib-js/stdlib/pull/16122) _(by mantrapatel05)_
 -   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
