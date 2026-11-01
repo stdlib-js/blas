@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-31)
+## Unreleased (2026-11-01)
 
 <section class="features">
 
@@ -840,6 +840,7 @@
 
 ### Bug Fixes
 
+-   [`c73cd1e`](https://github.com/stdlib-js/stdlib/commit/c73cd1e7b32f9eb83be97050cdc0b5f605173539) - advance indices in unrolled loops of portable `dcopy` and `scopy` [(#16122)](https://github.com/stdlib-js/stdlib/pull/16122)
 -   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386)
 -   [`9363a2f`](https://github.com/stdlib-js/stdlib/commit/9363a2f1484bfd1285f11c8c19afb34a9456a1e7) - ensure proper length calculation
 -   [`68e9817`](https://github.com/stdlib-js/stdlib/commit/68e9817663633489c4cfdd3ce190e1223ee68d16) - ensure proper length calculation and fix typos [(#16171)](https://github.com/stdlib-js/stdlib/pull/16171)
@@ -1071,9 +1072,9 @@
 
 ### Closed Issues
 
-A total of 5 issues were closed in this release:
+A total of 6 issues were closed in this release:
 
-[#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13550](https://github.com/stdlib-js/stdlib/issues/13550), [#14246](https://github.com/stdlib-js/stdlib/issues/14246)
+[#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13550](https://github.com/stdlib-js/stdlib/issues/13550), [#14246](https://github.com/stdlib-js/stdlib/issues/14246), [#15823](https://github.com/stdlib-js/stdlib/issues/15823)
 
 </section>
 
@@ -1085,6 +1086,7 @@ A total of 5 issues were closed in this release:
 
 <details>
 
+-   [`c73cd1e`](https://github.com/stdlib-js/stdlib/commit/c73cd1e7b32f9eb83be97050cdc0b5f605173539) - **fix:** advance indices in unrolled loops of portable `dcopy` and `scopy` [(#16122)](https://github.com/stdlib-js/stdlib/pull/16122) _(by mantrapatel05)_
 -   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - **fix:** use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386) _(by Kaustubh Patange)_
 -   [`1bb0aa9`](https://github.com/stdlib-js/stdlib/commit/1bb0aa9ae6f66316a07f4a6b44f0396a52da08d6) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`cb310d2`](https://github.com/stdlib-js/stdlib/commit/cb310d29f23fa0491d8820a526e062229b14c823) - **feat:** update `blas/ext` TypeScript declarations [(#16374)](https://github.com/stdlib-js/stdlib/pull/16374) _(by stdlib-bot)_
