@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d5f8403`](https://github.com/stdlib-js/stdlib/commit/d5f8403753255f6946144238bc163216e720ad71) - add `blas/ext/base/swaxpb` [(#16306)](https://github.com/stdlib-js/stdlib/pull/16306)
 -   [`14293da`](https://github.com/stdlib-js/stdlib/commit/14293da4881a4d9fd6e83eefacafb1056f89a244) - add `blas/ext/base/dwaxpb` [(#15849)](https://github.com/stdlib-js/stdlib/pull/15849)
 -   [`87675cc`](https://github.com/stdlib-js/stdlib/commit/87675cc2d6291c7564e8aa09f5878101430453cc) - add `blas/ext/base/dxpby` [(#16102)](https://github.com/stdlib-js/stdlib/pull/16102)
 -   [`cb310d2`](https://github.com/stdlib-js/stdlib/commit/cb310d29f23fa0491d8820a526e062229b14c823) - update `blas/ext` TypeScript declarations [(#16374)](https://github.com/stdlib-js/stdlib/pull/16374)
@@ -1088,6 +1089,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`d5f8403`](https://github.com/stdlib-js/stdlib/commit/d5f8403753255f6946144238bc163216e720ad71) - **feat:** add `blas/ext/base/swaxpb` [(#16306)](https://github.com/stdlib-js/stdlib/pull/16306) _(by Karan Anand)_
 -   [`14293da`](https://github.com/stdlib-js/stdlib/commit/14293da4881a4d9fd6e83eefacafb1056f89a244) - **feat:** add `blas/ext/base/dwaxpb` [(#15849)](https://github.com/stdlib-js/stdlib/pull/15849) _(by Karan Anand)_
 -   [`87675cc`](https://github.com/stdlib-js/stdlib/commit/87675cc2d6291c7564e8aa09f5878101430453cc) - **feat:** add `blas/ext/base/dxpby` [(#16102)](https://github.com/stdlib-js/stdlib/pull/16102) _(by Karan Anand)_
 -   [`c73cd1e`](https://github.com/stdlib-js/stdlib/commit/c73cd1e7b32f9eb83be97050cdc0b5f605173539) - **fix:** advance indices in unrolled loops of portable `dcopy` and `scopy` [(#16122)](https://github.com/stdlib-js/stdlib/pull/16122) _(by mantrapatel05)_
