@@ -1089,6 +1089,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`136f68b`](https://github.com/stdlib-js/stdlib/commit/136f68b4d9d45706c7ea0183b5990203a7e0a3b8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`93f2b9f`](https://github.com/stdlib-js/stdlib/commit/93f2b9f113a51740358746005d19d235e2908d98) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
 -   [`d5f8403`](https://github.com/stdlib-js/stdlib/commit/d5f8403753255f6946144238bc163216e720ad71) - **feat:** add `blas/ext/base/swaxpb` [(#16306)](https://github.com/stdlib-js/stdlib/pull/16306) _(by Karan Anand)_
 -   [`14293da`](https://github.com/stdlib-js/stdlib/commit/14293da4881a4d9fd6e83eefacafb1056f89a244) - **feat:** add `blas/ext/base/dwaxpb` [(#15849)](https://github.com/stdlib-js/stdlib/pull/15849) _(by Karan Anand)_
