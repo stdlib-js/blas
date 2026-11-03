@@ -1089,6 +1089,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`136f68b`](https://github.com/stdlib-js/stdlib/commit/136f68b4d9d45706c7ea0183b5990203a7e0a3b8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`93f2b9f`](https://github.com/stdlib-js/stdlib/commit/93f2b9f113a51740358746005d19d235e2908d98) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`b7ad899`](https://github.com/stdlib-js/stdlib/commit/b7ad8998c9f914b92976cf5c4cdc860572bd87dd) - **chore:** clean-up [(#16437)](https://github.com/stdlib-js/stdlib/pull/16437) _(by Philipp Burckhardt)_
