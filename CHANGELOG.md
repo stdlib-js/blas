@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-03)
+## Unreleased (2026-11-04)
 
 <section class="features">
 
@@ -843,6 +843,7 @@
 
 ### Bug Fixes
 
+-   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477)
 -   [`c73cd1e`](https://github.com/stdlib-js/stdlib/commit/c73cd1e7b32f9eb83be97050cdc0b5f605173539) - advance indices in unrolled loops of portable `dcopy` and `scopy` [(#16122)](https://github.com/stdlib-js/stdlib/pull/16122)
 -   [`e3f60dd`](https://github.com/stdlib-js/stdlib/commit/e3f60dd4c8366eb9c7f7d4885b1c3b391dacf1a8) - use resolved transpose operations when validating leading dimensions in `blas/base/*gemm` [(#16386)](https://github.com/stdlib-js/stdlib/pull/16386)
 -   [`9363a2f`](https://github.com/stdlib-js/stdlib/commit/9363a2f1484bfd1285f11c8c19afb34a9456a1e7) - ensure proper length calculation
@@ -1089,6 +1090,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - **fix:** return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477) _(by Kaustubh Patange)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`136f68b`](https://github.com/stdlib-js/stdlib/commit/136f68b4d9d45706c7ea0183b5990203a7e0a3b8) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`93f2b9f`](https://github.com/stdlib-js/stdlib/commit/93f2b9f113a51740358746005d19d235e2908d98) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
