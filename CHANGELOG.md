@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-04)
+## Unreleased (2026-11-05)
 
 <section class="features">
 
@@ -1090,6 +1090,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
 -   [`2693b6b`](https://github.com/stdlib-js/stdlib/commit/2693b6b22f1692bda4593d49099945bb05c91bd4) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - **fix:** return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477) _(by Kaustubh Patange)_
 -   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
