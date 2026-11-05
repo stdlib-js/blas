@@ -1090,6 +1090,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
 -   [`2693b6b`](https://github.com/stdlib-js/stdlib/commit/2693b6b22f1692bda4593d49099945bb05c91bd4) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`c545ca1`](https://github.com/stdlib-js/stdlib/commit/c545ca16b604f0084406c5fa6b9c598262c26a5a) - **fix:** return `β*C` when `K` is zero [(#16477)](https://github.com/stdlib-js/stdlib/pull/16477) _(by Kaustubh Patange)_
