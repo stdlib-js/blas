@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`87ab9cf`](https://github.com/stdlib-js/stdlib/commit/87ab9cf9d64b6bb5a2b5066074979d98cd2d51b8) - add `blas/ext/base/ndarray/dwaxpb` [(#16450)](https://github.com/stdlib-js/stdlib/pull/16450)
 -   [`edff0d6`](https://github.com/stdlib-js/stdlib/commit/edff0d6bb0465c52094064a5a4e3350c026b5126) - add `blas/ext/base/ndarray/swaxpb` [(#16451)](https://github.com/stdlib-js/stdlib/pull/16451)
 -   [`d5f8403`](https://github.com/stdlib-js/stdlib/commit/d5f8403753255f6946144238bc163216e720ad71) - add `blas/ext/base/swaxpb` [(#16306)](https://github.com/stdlib-js/stdlib/pull/16306)
 -   [`14293da`](https://github.com/stdlib-js/stdlib/commit/14293da4881a4d9fd6e83eefacafb1056f89a244) - add `blas/ext/base/dwaxpb` [(#15849)](https://github.com/stdlib-js/stdlib/pull/15849)
@@ -1091,6 +1092,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`87ab9cf`](https://github.com/stdlib-js/stdlib/commit/87ab9cf9d64b6bb5a2b5066074979d98cd2d51b8) - **feat:** add `blas/ext/base/ndarray/dwaxpb` [(#16450)](https://github.com/stdlib-js/stdlib/pull/16450) _(by Karan Anand)_
 -   [`edff0d6`](https://github.com/stdlib-js/stdlib/commit/edff0d6bb0465c52094064a5a4e3350c026b5126) - **feat:** add `blas/ext/base/ndarray/swaxpb` [(#16451)](https://github.com/stdlib-js/stdlib/pull/16451) _(by Karan Anand)_
 -   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
 -   [`7cf5642`](https://github.com/stdlib-js/stdlib/commit/7cf56423a8fe3e959bd334981a00f8428d086127) - **chore:** clean-up [(#16491)](https://github.com/stdlib-js/stdlib/pull/16491) _(by Philipp Burckhardt)_
