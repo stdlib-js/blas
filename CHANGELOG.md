@@ -1094,6 +1094,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`2d5e843`](https://github.com/stdlib-js/stdlib/commit/2d5e843c6d840d5cb5ad0a5f27b9a9947d972371) - **chore:** update keywords [(#13166)](https://github.com/stdlib-js/stdlib/pull/13166) _(by Philipp Burckhardt)_
 -   [`5841449`](https://github.com/stdlib-js/stdlib/commit/584144928656b13d21569cc4df389b07189366db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`ece0930`](https://github.com/stdlib-js/stdlib/commit/ece09308a47d30c62858fc9da958fd70dc066fd3) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`150ee61`](https://github.com/stdlib-js/stdlib/commit/150ee615d58b08fb7055befd6ce6f008027ff048) - **docs:** update Markdown equation elements _(by stdlib-bot)_
