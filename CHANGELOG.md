@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-08)
+## Unreleased (2026-11-10)
 
 <section class="features">
 
@@ -1094,6 +1094,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`5841449`](https://github.com/stdlib-js/stdlib/commit/584144928656b13d21569cc4df389b07189366db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`ece0930`](https://github.com/stdlib-js/stdlib/commit/ece09308a47d30c62858fc9da958fd70dc066fd3) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`150ee61`](https://github.com/stdlib-js/stdlib/commit/150ee615d58b08fb7055befd6ce6f008027ff048) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`c06f854`](https://github.com/stdlib-js/stdlib/commit/c06f854a751068424276b824a478220177dc9b74) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`4aafe68`](https://github.com/stdlib-js/stdlib/commit/4aafe6823b13f5fddbe4fbf16a78c0b102e7a10d) - **feat:** add `blas/ext/base/ghad` [(#16449)](https://github.com/stdlib-js/stdlib/pull/16449) _(by Karan Anand)_
