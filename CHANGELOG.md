@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-11)
+## Unreleased (2026-11-13)
 
 <section class="features">
 
@@ -1094,6 +1094,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`e9214dc`](https://github.com/stdlib-js/stdlib/commit/e9214dcd8c01bdb63180bb54de7d10b27c1a404a) - **docs:** add missing intro section [(#16618)](https://github.com/stdlib-js/stdlib/pull/16618) _(by Philipp Burckhardt)_
 -   [`ed20ceb`](https://github.com/stdlib-js/stdlib/commit/ed20ceb939083e2d605673c7393ed791208e536c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`2d5e843`](https://github.com/stdlib-js/stdlib/commit/2d5e843c6d840d5cb5ad0a5f27b9a9947d972371) - **chore:** update keywords [(#13166)](https://github.com/stdlib-js/stdlib/pull/13166) _(by Philipp Burckhardt)_
 -   [`5841449`](https://github.com/stdlib-js/stdlib/commit/584144928656b13d21569cc4df389b07189366db) - **docs:** update Markdown equation elements _(by stdlib-bot)_
