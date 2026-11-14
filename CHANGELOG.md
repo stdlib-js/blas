@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-13)
+## Unreleased (2026-11-14)
 
 <section class="features">
 
 ### Features
 
+-   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057)
 -   [`4aafe68`](https://github.com/stdlib-js/stdlib/commit/4aafe6823b13f5fddbe4fbf16a78c0b102e7a10d) - add `blas/ext/base/ghad` [(#16449)](https://github.com/stdlib-js/stdlib/pull/16449)
 -   [`76aac9c`](https://github.com/stdlib-js/stdlib/commit/76aac9c10eb3fba751dcdec0ea2c2127dbad7b6d) - add `blas/ext/base/ndarray/zwxdy` [(#16430)](https://github.com/stdlib-js/stdlib/pull/16430)
 -   [`87ab9cf`](https://github.com/stdlib-js/stdlib/commit/87ab9cf9d64b6bb5a2b5066074979d98cd2d51b8) - add `blas/ext/base/ndarray/dwaxpb` [(#16450)](https://github.com/stdlib-js/stdlib/pull/16450)
@@ -1094,6 +1095,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - **feat:** add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057) _(by Samarth Kolarkar, Athan Reines, Gururaj Gurram)_
 -   [`e9214dc`](https://github.com/stdlib-js/stdlib/commit/e9214dcd8c01bdb63180bb54de7d10b27c1a404a) - **docs:** add missing intro section [(#16618)](https://github.com/stdlib-js/stdlib/pull/16618) _(by Philipp Burckhardt)_
 -   [`ed20ceb`](https://github.com/stdlib-js/stdlib/commit/ed20ceb939083e2d605673c7393ed791208e536c) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`2d5e843`](https://github.com/stdlib-js/stdlib/commit/2d5e843c6d840d5cb5ad0a5f27b9a9947d972371) - **chore:** update keywords [(#13166)](https://github.com/stdlib-js/stdlib/pull/13166) _(by Philipp Burckhardt)_
@@ -2302,7 +2304,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 23 people contributed to this release. Thank you to the following contributors:
+A total of 24 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Singh
 -   Arjan-P
@@ -2310,6 +2312,7 @@ A total of 23 people contributed to this release. Thank you to the following con
 -   Atharva Patange
 -   Divit Jain
 -   Divyanshu
+-   Gururaj Gurram
 -   JoyBoy
 -   Karan Anand
 -   Kaustubh Patange
