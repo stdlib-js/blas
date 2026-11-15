@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066)
 -   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057)
 -   [`4aafe68`](https://github.com/stdlib-js/stdlib/commit/4aafe6823b13f5fddbe4fbf16a78c0b102e7a10d) - add `blas/ext/base/ghad` [(#16449)](https://github.com/stdlib-js/stdlib/pull/16449)
 -   [`76aac9c`](https://github.com/stdlib-js/stdlib/commit/76aac9c10eb3fba751dcdec0ea2c2127dbad7b6d) - add `blas/ext/base/ndarray/zwxdy` [(#16430)](https://github.com/stdlib-js/stdlib/pull/16430)
@@ -1095,6 +1096,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - **feat:** add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066) _(by Samarth Kolarkar, Gururaj Gurram)_
 -   [`1782727`](https://github.com/stdlib-js/stdlib/commit/1782727975963f41a58407c67146c206ebe5bdc9) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`0460153`](https://github.com/stdlib-js/stdlib/commit/0460153a946a0a5c4e5436ddfa7415232abdf67a) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - **feat:** add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057) _(by Samarth Kolarkar, Athan Reines, Gururaj Gurram)_
