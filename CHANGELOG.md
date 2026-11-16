@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-15)
+## Unreleased (2026-11-16)
 
 <section class="features">
 
@@ -1096,6 +1096,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`3757981`](https://github.com/stdlib-js/stdlib/commit/3757981ba9ac1c1debc571b5f0edaea47fb2a367) - **docs:** use dedicated zero-dimensional tensor constructor _(by Athan Reines)_
 -   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - **feat:** add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066) _(by Samarth Kolarkar, Gururaj Gurram)_
 -   [`1782727`](https://github.com/stdlib-js/stdlib/commit/1782727975963f41a58407c67146c206ebe5bdc9) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`0460153`](https://github.com/stdlib-js/stdlib/commit/0460153a946a0a5c4e5436ddfa7415232abdf67a) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
