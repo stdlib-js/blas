@@ -1096,6 +1096,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`26fa691`](https://github.com/stdlib-js/stdlib/commit/26fa6916a2ae71caef014304bcdf9dd8fa7e4fa2) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/daxpy` [(#16661)](https://github.com/stdlib-js/stdlib/pull/16661) _(by Kartik)_
 -   [`d5434ac`](https://github.com/stdlib-js/stdlib/commit/d5434ac9b601cb01e221fa4826d564e8fa1bd8c7) - **chore:** clean-up [(#16657)](https://github.com/stdlib-js/stdlib/pull/16657) _(by Philipp Burckhardt)_
 -   [`37c95c0`](https://github.com/stdlib-js/stdlib/commit/37c95c00da3ceb98668c063fe0e6322a436b056a) - **docs:** use dedicated zero-dimensional tensor constructor _(by Athan Reines)_
 -   [`15e66b1`](https://github.com/stdlib-js/stdlib/commit/15e66b11e02c99970084666b57e6b6a45d3075e3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
@@ -2313,7 +2314,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 24 people contributed to this release. Thank you to the following contributors:
+A total of 25 people contributed to this release. Thank you to the following contributors:
 
 -   Aman Singh
 -   Arjan-P
@@ -2324,6 +2325,7 @@ A total of 24 people contributed to this release. Thank you to the following con
 -   Gururaj Gurram
 -   JoyBoy
 -   Karan Anand
+-   Kartik
 -   Kaustubh Patange
 -   MJ
 -   Muhammad Haris
