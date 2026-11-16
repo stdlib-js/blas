@@ -1096,6 +1096,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`d5434ac`](https://github.com/stdlib-js/stdlib/commit/d5434ac9b601cb01e221fa4826d564e8fa1bd8c7) - **chore:** clean-up [(#16657)](https://github.com/stdlib-js/stdlib/pull/16657) _(by Philipp Burckhardt)_
 -   [`37c95c0`](https://github.com/stdlib-js/stdlib/commit/37c95c00da3ceb98668c063fe0e6322a436b056a) - **docs:** use dedicated zero-dimensional tensor constructor _(by Athan Reines)_
 -   [`15e66b1`](https://github.com/stdlib-js/stdlib/commit/15e66b11e02c99970084666b57e6b6a45d3075e3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`93e1d36`](https://github.com/stdlib-js/stdlib/commit/93e1d363badf331d0995544cde0d1f37f4b706c8) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
