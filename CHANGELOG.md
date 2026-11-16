@@ -1096,6 +1096,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`15e66b1`](https://github.com/stdlib-js/stdlib/commit/15e66b11e02c99970084666b57e6b6a45d3075e3) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`93e1d36`](https://github.com/stdlib-js/stdlib/commit/93e1d363badf331d0995544cde0d1f37f4b706c8) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`3757981`](https://github.com/stdlib-js/stdlib/commit/3757981ba9ac1c1debc571b5f0edaea47fb2a367) - **docs:** use dedicated zero-dimensional tensor constructor _(by Athan Reines)_
 -   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - **feat:** add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066) _(by Samarth Kolarkar, Gururaj Gurram)_
 -   [`1782727`](https://github.com/stdlib-js/stdlib/commit/1782727975963f41a58407c67146c206ebe5bdc9) - **docs:** update Markdown equation elements _(by stdlib-bot)_
