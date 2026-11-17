@@ -1096,6 +1096,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`4ee88b2`](https://github.com/stdlib-js/stdlib/commit/4ee88b2471d61002fd0ee11d96345e8ffe048961) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/saxpby` [(#16680)](https://github.com/stdlib-js/stdlib/pull/16680) _(by Aditya Kumar)_
 -   [`ce75341`](https://github.com/stdlib-js/stdlib/commit/ce75341b13685858be54c3c3712511a52a40fdcc) - **docs:** update examples [(#16674)](https://github.com/stdlib-js/stdlib/pull/16674) _(by Philipp Burckhardt)_
 -   [`04df932`](https://github.com/stdlib-js/stdlib/commit/04df93287fb44ab4c5c0d9adf6a840067aa3da47) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`3361449`](https://github.com/stdlib-js/stdlib/commit/33614496a0eb06b7e87b906296815f606b3e3df7) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
@@ -2319,8 +2320,9 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 25 people contributed to this release. Thank you to the following contributors:
+A total of 26 people contributed to this release. Thank you to the following contributors:
 
+-   Aditya Kumar
 -   Aman Singh
 -   Arjan-P
 -   Athan Reines
