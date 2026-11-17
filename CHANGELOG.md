@@ -1096,7 +1096,6 @@ A total of 6 issues were closed in this release:
 
 <details>
 
--   [`244943b`](https://github.com/stdlib-js/stdlib/commit/244943b5ceee37a616ba46abe63c4c9fa6d3efb8) - **docs:** update example [(#16667)](https://github.com/stdlib-js/stdlib/pull/16667) _(by stdlib-bot)_
 -   [`aad705b`](https://github.com/stdlib-js/stdlib/commit/aad705b23c4e61b6bfb981a8ba1393ed084ae1d5) - **docs:** update examples [(#16668)](https://github.com/stdlib-js/stdlib/pull/16668) _(by stdlib-bot)_
 -   [`26fa691`](https://github.com/stdlib-js/stdlib/commit/26fa6916a2ae71caef014304bcdf9dd8fa7e4fa2) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/daxpy` [(#16661)](https://github.com/stdlib-js/stdlib/pull/16661) _(by Kartik)_
 -   [`d5434ac`](https://github.com/stdlib-js/stdlib/commit/d5434ac9b601cb01e221fa4826d564e8fa1bd8c7) - **chore:** clean-up [(#16657)](https://github.com/stdlib-js/stdlib/pull/16657) _(by Philipp Burckhardt)_
