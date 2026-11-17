@@ -24,7 +24,8 @@ var bench = require( '@stdlib/bench' );
 var pow = require( '@stdlib/math/base/special/pow' );
 var format = require( '@stdlib/string/format' );
 var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-var Complex64Tensor0D = require( '@stdlib/ndarray/tensor0d/complex64' );
+var Complex64 = require( '@stdlib/complex/float32/ctor' );
+var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var pkg = require( './../package.json' ).name;
 var cunitspace = require( './../lib' );
 
@@ -42,7 +43,9 @@ function createBenchmark( len ) {
 	var start;
 	var x;
 
-	start = new Complex64Tensor0D( 3.0, 0.0 );
+	start = scalar2ndarray( new Complex64( 3.0, 0.0 ), {
+		'dtype': 'complex64'
+	});
 	x = new Complex64Vector( len );
 
 	return benchmark;

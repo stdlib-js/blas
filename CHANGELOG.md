@@ -1097,7 +1097,6 @@ A total of 6 issues were closed in this release:
 
 <details>
 
--   [`69c350d`](https://github.com/stdlib-js/stdlib/commit/69c350df913c5fce34e6c0bbee2a7cad368292fa) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/cunitspace` [(#16675)](https://github.com/stdlib-js/stdlib/pull/16675) _(by Deepanshu-Mehta, Athan Reines)_
 -   [`e05a44b`](https://github.com/stdlib-js/stdlib/commit/e05a44b4b76af0fbcf1e57cd6f22c597e7d3c86f) - **feat:** add `blas/ext/base/ndarray/dssum` [(#16065)](https://github.com/stdlib-js/stdlib/pull/16065) _(by Ujjwal Verma)_
 -   [`4ee88b2`](https://github.com/stdlib-js/stdlib/commit/4ee88b2471d61002fd0ee11d96345e8ffe048961) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/saxpby` [(#16680)](https://github.com/stdlib-js/stdlib/pull/16680) _(by Aditya Kumar)_
 -   [`ce75341`](https://github.com/stdlib-js/stdlib/commit/ce75341b13685858be54c3c3712511a52a40fdcc) - **docs:** update examples [(#16674)](https://github.com/stdlib-js/stdlib/pull/16674) _(by Philipp Burckhardt)_
@@ -2323,14 +2322,13 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 27 people contributed to this release. Thank you to the following contributors:
+A total of 26 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Kumar
 -   Aman Singh
 -   Arjan-P
 -   Athan Reines
 -   Atharva Patange
--   Deepanshu-Mehta
 -   Divit Jain
 -   Divyanshu
 -   Gururaj Gurram

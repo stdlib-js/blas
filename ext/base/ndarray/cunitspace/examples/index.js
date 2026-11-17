@@ -19,14 +19,17 @@
 'use strict';
 
 var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-var Complex64Tensor0D = require( '@stdlib/ndarray/tensor0d/complex64' );
+var Complex64 = require( '@stdlib/complex/float32/ctor' );
+var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var cunitspace = require( './../lib' );
 
 var x = new Complex64Vector( 10 );
 console.log( ndarray2array( x ) );
 
-var start = new Complex64Tensor0D( 3.0, 0.0 );
+var start = scalar2ndarray( new Complex64( 3.0, 0.0 ), {
+	'dtype': 'complex64'
+});
 
 cunitspace( [ x, start ] );
 console.log( ndarray2array( x ) );

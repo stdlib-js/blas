@@ -42,10 +42,14 @@ Fills a one-dimensional single-precision complex floating-point ndarray with lin
 
 ```javascript
 var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-var Complex64Tensor0D = require( '@stdlib/ndarray/tensor0d/complex64' );
+var Complex64 = require( '@stdlib/complex/float32/ctor' );
+var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 
 var x = new Complex64Vector( [ 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0 ] );
-var start = new Complex64Tensor0D( 3.0, 0.0 );
+
+var start = scalar2ndarray( new Complex64( 3.0, 0.0 ), {
+    'dtype': 'complex64'
+});
 
 var out = cunitspace( [ x, start ] );
 // returns <ndarray>[ <Complex64>[ 3.0, 0.0 ], <Complex64>[ 4.0, 0.0 ], <Complex64>[ 5.0, 0.0 ], <Complex64>[ 6.0, 0.0 ] ]
@@ -80,14 +84,17 @@ The function has the following parameters:
 
 ```javascript
 var Complex64Vector = require( '@stdlib/ndarray/vector/complex64' );
-var Complex64Tensor0D = require( '@stdlib/ndarray/tensor0d/complex64' );
+var Complex64 = require( '@stdlib/complex/float32/ctor' );
+var scalar2ndarray = require( '@stdlib/ndarray/from-scalar' );
 var ndarray2array = require( '@stdlib/ndarray/to-array' );
 var cunitspace = require( '@stdlib/blas/ext/base/ndarray/cunitspace' );
 
 var x = new Complex64Vector( 10 );
 console.log( ndarray2array( x ) );
 
-var start = new Complex64Tensor0D( 3.0, 0.0 );
+var start = scalar2ndarray( new Complex64( 3.0, 0.0 ), {
+    'dtype': 'complex64'
+});
 
 cunitspace( [ x, start ] );
 console.log( ndarray2array( x ) );
