@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`8c03ea8`](https://github.com/stdlib-js/stdlib/commit/8c03ea8d46e3a8ed8cc90f37f382290fad3c7eea) - add `blas/ext/base/ndarray/dsnansum` [(#16077)](https://github.com/stdlib-js/stdlib/pull/16077)
 -   [`493778c`](https://github.com/stdlib-js/stdlib/commit/493778c3b9b6f86e9589bbecdb2b37b7783b94d8) - add C implementation for `blas/ext/base/ndarray/zwxdy` [(#16678)](https://github.com/stdlib-js/stdlib/pull/16678)
 -   [`e05a44b`](https://github.com/stdlib-js/stdlib/commit/e05a44b4b76af0fbcf1e57cd6f22c597e7d3c86f) - add `blas/ext/base/ndarray/dssum` [(#16065)](https://github.com/stdlib-js/stdlib/pull/16065)
 -   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066)
@@ -1098,6 +1099,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`8c03ea8`](https://github.com/stdlib-js/stdlib/commit/8c03ea8d46e3a8ed8cc90f37f382290fad3c7eea) - **feat:** add `blas/ext/base/ndarray/dsnansum` [(#16077)](https://github.com/stdlib-js/stdlib/pull/16077) _(by Ujjwal Verma)_
 -   [`493778c`](https://github.com/stdlib-js/stdlib/commit/493778c3b9b6f86e9589bbecdb2b37b7783b94d8) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxdy` [(#16678)](https://github.com/stdlib-js/stdlib/pull/16678) _(by Samarth Kolarkar)_
 -   [`5f2fd5a`](https://github.com/stdlib-js/stdlib/commit/5f2fd5ad621095b8b7dd65434f6090d9b042a3cb) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`5a84d0c`](https://github.com/stdlib-js/stdlib/commit/5a84d0c231e0712a8b057e6735d4d51798c7bb9f) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
