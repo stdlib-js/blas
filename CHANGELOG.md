@@ -1104,6 +1104,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`da842eb`](https://github.com/stdlib-js/stdlib/commit/da842ebf83d408fe990a6bd64fc8ab7f47bd5935) - **docs:** fix format specifier in examples [(#16693)](https://github.com/stdlib-js/stdlib/pull/16693) _(by Philipp Burckhardt)_
 -   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - **feat:** add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419) _(by Karan Anand, Athan Reines)_
 -   [`52f8091`](https://github.com/stdlib-js/stdlib/commit/52f8091b749c13c0e808b8874736f699468107a4) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dxsa` [(#16687)](https://github.com/stdlib-js/stdlib/pull/16687) _(by Deepanshu-Mehta)_
 -   [`9632366`](https://github.com/stdlib-js/stdlib/commit/9632366c1c13dd29dc05adbf95ddf087831267fc) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/saxpy` [(#16689)](https://github.com/stdlib-js/stdlib/pull/16689) _(by Kartik)_
