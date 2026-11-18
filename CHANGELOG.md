@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`493778c`](https://github.com/stdlib-js/stdlib/commit/493778c3b9b6f86e9589bbecdb2b37b7783b94d8) - add C implementation for `blas/ext/base/ndarray/zwxdy` [(#16678)](https://github.com/stdlib-js/stdlib/pull/16678)
 -   [`e05a44b`](https://github.com/stdlib-js/stdlib/commit/e05a44b4b76af0fbcf1e57cd6f22c597e7d3c86f) - add `blas/ext/base/ndarray/dssum` [(#16065)](https://github.com/stdlib-js/stdlib/pull/16065)
 -   [`d2dac36`](https://github.com/stdlib-js/stdlib/commit/d2dac366efd0ad4ab064a27a3ac184d9389862c3) - add C implementation for `blas/ext/base/ndarray/zxsy` [(#16066)](https://github.com/stdlib-js/stdlib/pull/16066)
 -   [`fbdbbc8`](https://github.com/stdlib-js/stdlib/commit/fbdbbc8921b9d5bcdd18ae040af2bccddc3dc6d0) - add C implementation for `blas/ext/base/ndarray/zxmy` [(#16057)](https://github.com/stdlib-js/stdlib/pull/16057)
@@ -1097,6 +1098,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`493778c`](https://github.com/stdlib-js/stdlib/commit/493778c3b9b6f86e9589bbecdb2b37b7783b94d8) - **feat:** add C implementation for `blas/ext/base/ndarray/zwxdy` [(#16678)](https://github.com/stdlib-js/stdlib/pull/16678) _(by Samarth Kolarkar)_
 -   [`5f2fd5a`](https://github.com/stdlib-js/stdlib/commit/5f2fd5ad621095b8b7dd65434f6090d9b042a3cb) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`5a84d0c`](https://github.com/stdlib-js/stdlib/commit/5a84d0c231e0712a8b057e6735d4d51798c7bb9f) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`69c350d`](https://github.com/stdlib-js/stdlib/commit/69c350df913c5fce34e6c0bbee2a7cad368292fa) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/cunitspace` [(#16675)](https://github.com/stdlib-js/stdlib/pull/16675) _(by Deepanshu-Mehta, Athan Reines)_
