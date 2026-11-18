@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fe6d248`](https://github.com/stdlib-js/stdlib/commit/fe6d248fe66f71d27b00d571d1768275ddfcd707) - add `blas/ext/base/gwxpby` [(#16426)](https://github.com/stdlib-js/stdlib/pull/16426)
 -   [`75fbd74`](https://github.com/stdlib-js/stdlib/commit/75fbd743f4c0dbc354fe3f3a3de624a650231366) - add `blas/ext/base/ndarray/sdssum` [(#16067)](https://github.com/stdlib-js/stdlib/pull/16067)
 -   [`8c03ea8`](https://github.com/stdlib-js/stdlib/commit/8c03ea8d46e3a8ed8cc90f37f382290fad3c7eea) - add `blas/ext/base/ndarray/dsnansum` [(#16077)](https://github.com/stdlib-js/stdlib/pull/16077)
 -   [`493778c`](https://github.com/stdlib-js/stdlib/commit/493778c3b9b6f86e9589bbecdb2b37b7783b94d8) - add C implementation for `blas/ext/base/ndarray/zwxdy` [(#16678)](https://github.com/stdlib-js/stdlib/pull/16678)
@@ -1100,6 +1101,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`fe6d248`](https://github.com/stdlib-js/stdlib/commit/fe6d248fe66f71d27b00d571d1768275ddfcd707) - **feat:** add `blas/ext/base/gwxpby` [(#16426)](https://github.com/stdlib-js/stdlib/pull/16426) _(by Karan Anand, Athan Reines)_
 -   [`02116b2`](https://github.com/stdlib-js/stdlib/commit/02116b227e8f2f1ea3ee5dba02a7745e66c98eb1) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/cxsa` [(#16685)](https://github.com/stdlib-js/stdlib/pull/16685) _(by Deepanshu-Mehta)_
 -   [`598c55c`](https://github.com/stdlib-js/stdlib/commit/598c55c673d156e51f2a77d3bf5701b9a31aec3d) - **docs:** update examples [(#16683)](https://github.com/stdlib-js/stdlib/pull/16683) _(by stdlib-bot)_
 -   [`75fbd74`](https://github.com/stdlib-js/stdlib/commit/75fbd743f4c0dbc354fe3f3a3de624a650231366) - **feat:** add `blas/ext/base/ndarray/sdssum` [(#16067)](https://github.com/stdlib-js/stdlib/pull/16067) _(by Ujjwal Verma)_
