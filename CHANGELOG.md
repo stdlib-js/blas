@@ -1103,6 +1103,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`90996fd`](https://github.com/stdlib-js/stdlib/commit/90996fd5c699426ad6db9e061e44c8b458c49876) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/zwxsa` [(#16686)](https://github.com/stdlib-js/stdlib/pull/16686) _(by Deepanshu-Mehta)_
 -   [`a19f991`](https://github.com/stdlib-js/stdlib/commit/a19f9915f951b76394c835da27c3289af4744759) - **feat:** add `blas/ext/base/gwxsadb` [(#16418)](https://github.com/stdlib-js/stdlib/pull/16418) _(by Karan Anand, Athan Reines)_
 -   [`bc62bcb`](https://github.com/stdlib-js/stdlib/commit/bc62bcb3801dd4b247110018cf889223428656fd) - **feat:** add `blas/ext/base/gwaxpy` [(#16427)](https://github.com/stdlib-js/stdlib/pull/16427) _(by Karan Anand, Athan Reines)_
 -   [`fe6d248`](https://github.com/stdlib-js/stdlib/commit/fe6d248fe66f71d27b00d571d1768275ddfcd707) - **feat:** add `blas/ext/base/gwxpby` [(#16426)](https://github.com/stdlib-js/stdlib/pull/16426) _(by Karan Anand, Athan Reines)_
