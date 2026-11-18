@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402)
 -   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421)
 -   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419)
 -   [`a19f991`](https://github.com/stdlib-js/stdlib/commit/a19f9915f951b76394c835da27c3289af4744759) - add `blas/ext/base/gwxsadb` [(#16418)](https://github.com/stdlib-js/stdlib/pull/16418)
@@ -1105,6 +1106,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - **feat:** add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402) _(by MJ)_
 -   [`3aefd61`](https://github.com/stdlib-js/stdlib/commit/3aefd61c3e42ee00eb405dd3548562056ee44491) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/zunitspace` [(#16696)](https://github.com/stdlib-js/stdlib/pull/16696) _(by Deepanshu-Mehta)_
 -   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - **feat:** add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421) _(by Karan Anand, Athan Reines)_
 -   [`da842eb`](https://github.com/stdlib-js/stdlib/commit/da842ebf83d408fe990a6bd64fc8ab7f47bd5935) - **docs:** fix format specifier in examples [(#16693)](https://github.com/stdlib-js/stdlib/pull/16693) _(by Philipp Burckhardt)_
