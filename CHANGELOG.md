@@ -1105,6 +1105,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`3aefd61`](https://github.com/stdlib-js/stdlib/commit/3aefd61c3e42ee00eb405dd3548562056ee44491) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/zunitspace` [(#16696)](https://github.com/stdlib-js/stdlib/pull/16696) _(by Deepanshu-Mehta)_
 -   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - **feat:** add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421) _(by Karan Anand, Athan Reines)_
 -   [`da842eb`](https://github.com/stdlib-js/stdlib/commit/da842ebf83d408fe990a6bd64fc8ab7f47bd5935) - **docs:** fix format specifier in examples [(#16693)](https://github.com/stdlib-js/stdlib/pull/16693) _(by Philipp Burckhardt)_
 -   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - **feat:** add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419) _(by Karan Anand, Athan Reines)_
