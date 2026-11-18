@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a19f991`](https://github.com/stdlib-js/stdlib/commit/a19f9915f951b76394c835da27c3289af4744759) - add `blas/ext/base/gwxsadb` [(#16418)](https://github.com/stdlib-js/stdlib/pull/16418)
 -   [`bc62bcb`](https://github.com/stdlib-js/stdlib/commit/bc62bcb3801dd4b247110018cf889223428656fd) - add `blas/ext/base/gwaxpy` [(#16427)](https://github.com/stdlib-js/stdlib/pull/16427)
 -   [`fe6d248`](https://github.com/stdlib-js/stdlib/commit/fe6d248fe66f71d27b00d571d1768275ddfcd707) - add `blas/ext/base/gwxpby` [(#16426)](https://github.com/stdlib-js/stdlib/pull/16426)
 -   [`75fbd74`](https://github.com/stdlib-js/stdlib/commit/75fbd743f4c0dbc354fe3f3a3de624a650231366) - add `blas/ext/base/ndarray/sdssum` [(#16067)](https://github.com/stdlib-js/stdlib/pull/16067)
@@ -1102,6 +1103,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`a19f991`](https://github.com/stdlib-js/stdlib/commit/a19f9915f951b76394c835da27c3289af4744759) - **feat:** add `blas/ext/base/gwxsadb` [(#16418)](https://github.com/stdlib-js/stdlib/pull/16418) _(by Karan Anand, Athan Reines)_
 -   [`bc62bcb`](https://github.com/stdlib-js/stdlib/commit/bc62bcb3801dd4b247110018cf889223428656fd) - **feat:** add `blas/ext/base/gwaxpy` [(#16427)](https://github.com/stdlib-js/stdlib/pull/16427) _(by Karan Anand, Athan Reines)_
 -   [`fe6d248`](https://github.com/stdlib-js/stdlib/commit/fe6d248fe66f71d27b00d571d1768275ddfcd707) - **feat:** add `blas/ext/base/gwxpby` [(#16426)](https://github.com/stdlib-js/stdlib/pull/16426) _(by Karan Anand, Athan Reines)_
 -   [`02116b2`](https://github.com/stdlib-js/stdlib/commit/02116b227e8f2f1ea3ee5dba02a7745e66c98eb1) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/cxsa` [(#16685)](https://github.com/stdlib-js/stdlib/pull/16685) _(by Deepanshu-Mehta)_
