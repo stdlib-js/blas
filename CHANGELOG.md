@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419)
 -   [`a19f991`](https://github.com/stdlib-js/stdlib/commit/a19f9915f951b76394c835da27c3289af4744759) - add `blas/ext/base/gwxsadb` [(#16418)](https://github.com/stdlib-js/stdlib/pull/16418)
 -   [`bc62bcb`](https://github.com/stdlib-js/stdlib/commit/bc62bcb3801dd4b247110018cf889223428656fd) - add `blas/ext/base/gwaxpy` [(#16427)](https://github.com/stdlib-js/stdlib/pull/16427)
 -   [`fe6d248`](https://github.com/stdlib-js/stdlib/commit/fe6d248fe66f71d27b00d571d1768275ddfcd707) - add `blas/ext/base/gwxpby` [(#16426)](https://github.com/stdlib-js/stdlib/pull/16426)
@@ -1103,6 +1104,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - **feat:** add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419) _(by Karan Anand, Athan Reines)_
 -   [`52f8091`](https://github.com/stdlib-js/stdlib/commit/52f8091b749c13c0e808b8874736f699468107a4) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dxsa` [(#16687)](https://github.com/stdlib-js/stdlib/pull/16687) _(by Deepanshu-Mehta)_
 -   [`9632366`](https://github.com/stdlib-js/stdlib/commit/9632366c1c13dd29dc05adbf95ddf087831267fc) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/saxpy` [(#16689)](https://github.com/stdlib-js/stdlib/pull/16689) _(by Kartik)_
 -   [`90996fd`](https://github.com/stdlib-js/stdlib/commit/90996fd5c699426ad6db9e061e44c8b458c49876) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/zwxsa` [(#16686)](https://github.com/stdlib-js/stdlib/pull/16686) _(by Deepanshu-Mehta)_
