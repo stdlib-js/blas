@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421)
 -   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419)
 -   [`a19f991`](https://github.com/stdlib-js/stdlib/commit/a19f9915f951b76394c835da27c3289af4744759) - add `blas/ext/base/gwxsadb` [(#16418)](https://github.com/stdlib-js/stdlib/pull/16418)
 -   [`bc62bcb`](https://github.com/stdlib-js/stdlib/commit/bc62bcb3801dd4b247110018cf889223428656fd) - add `blas/ext/base/gwaxpy` [(#16427)](https://github.com/stdlib-js/stdlib/pull/16427)
@@ -1104,6 +1105,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - **feat:** add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421) _(by Karan Anand, Athan Reines)_
 -   [`da842eb`](https://github.com/stdlib-js/stdlib/commit/da842ebf83d408fe990a6bd64fc8ab7f47bd5935) - **docs:** fix format specifier in examples [(#16693)](https://github.com/stdlib-js/stdlib/pull/16693) _(by Philipp Burckhardt)_
 -   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - **feat:** add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419) _(by Karan Anand, Athan Reines)_
 -   [`52f8091`](https://github.com/stdlib-js/stdlib/commit/52f8091b749c13c0e808b8874736f699468107a4) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dxsa` [(#16687)](https://github.com/stdlib-js/stdlib/pull/16687) _(by Deepanshu-Mehta)_
