@@ -1107,6 +1107,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`ff3d79f`](https://github.com/stdlib-js/stdlib/commit/ff3d79fc28429aaf3495f9d2fd3ec6ca997a728d) - **docs:** update examples [(#16703)](https://github.com/stdlib-js/stdlib/pull/16703) _(by stdlib-bot)_
 -   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - **feat:** add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434) _(by Atharva Patange)_
 -   [`5c704cb`](https://github.com/stdlib-js/stdlib/commit/5c704cbcb07a3a9bdb67520d7e1bad580e5f3d0d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`3f5e844`](https://github.com/stdlib-js/stdlib/commit/3f5e844be1ae43267b90f69505e7744bf5540fb1) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
