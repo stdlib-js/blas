@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434)
 -   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402)
 -   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421)
 -   [`82c1c75`](https://github.com/stdlib-js/stdlib/commit/82c1c752f760aa92402747ccc8c56403daa064b7) - add `blas/ext/base/grescale` [(#16419)](https://github.com/stdlib-js/stdlib/pull/16419)
@@ -1106,6 +1107,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - **feat:** add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434) _(by Atharva Patange)_
 -   [`5c704cb`](https://github.com/stdlib-js/stdlib/commit/5c704cbcb07a3a9bdb67520d7e1bad580e5f3d0d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`3f5e844`](https://github.com/stdlib-js/stdlib/commit/3f5e844be1ae43267b90f69505e7744bf5540fb1) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - **feat:** add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402) _(by MJ)_
