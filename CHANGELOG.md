@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-18)
+## Unreleased (2026-11-19)
 
 <section class="features">
 
@@ -1106,6 +1106,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`5c704cb`](https://github.com/stdlib-js/stdlib/commit/5c704cbcb07a3a9bdb67520d7e1bad580e5f3d0d) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`3f5e844`](https://github.com/stdlib-js/stdlib/commit/3f5e844be1ae43267b90f69505e7744bf5540fb1) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - **feat:** add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402) _(by MJ)_
 -   [`3aefd61`](https://github.com/stdlib-js/stdlib/commit/3aefd61c3e42ee00eb405dd3548562056ee44491) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/zunitspace` [(#16696)](https://github.com/stdlib-js/stdlib/pull/16696) _(by Deepanshu-Mehta)_
 -   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - **feat:** add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421) _(by Karan Anand, Athan Reines)_
