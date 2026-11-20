@@ -10,6 +10,7 @@
 
 ### Features
 
+-   [`19a6cd0`](https://github.com/stdlib-js/stdlib/commit/19a6cd075592113c1ac1c8fc6abfcda3ec1ee0b6) - add `blas/ext/base/ndarray/dasumpw` [(#16217)](https://github.com/stdlib-js/stdlib/pull/16217)
 -   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231)
 -   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434)
 -   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402)
@@ -1108,6 +1109,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`19a6cd0`](https://github.com/stdlib-js/stdlib/commit/19a6cd075592113c1ac1c8fc6abfcda3ec1ee0b6) - **feat:** add `blas/ext/base/ndarray/dasumpw` [(#16217)](https://github.com/stdlib-js/stdlib/pull/16217) _(by MJ)_
 -   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - **feat:** add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231) _(by MJ)_
 -   [`5506660`](https://github.com/stdlib-js/stdlib/commit/550666096f34c73f90f4bf86139935e4214fe421) - **docs:** update examples [(#16701)](https://github.com/stdlib-js/stdlib/pull/16701) _(by stdlib-bot)_
 -   [`ff3d79f`](https://github.com/stdlib-js/stdlib/commit/ff3d79fc28429aaf3495f9d2fd3ec6ca997a728d) - **docs:** update examples [(#16703)](https://github.com/stdlib-js/stdlib/pull/16703) _(by stdlib-bot)_
