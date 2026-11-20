@@ -1109,6 +1109,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`bd7dc67`](https://github.com/stdlib-js/stdlib/commit/bd7dc671a7596140845385a9dae5d60084059d3e) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dcusumors` [(#16733)](https://github.com/stdlib-js/stdlib/pull/16733) _(by KevinF718)_
 -   [`c01649e`](https://github.com/stdlib-js/stdlib/commit/c01649eeba8d3f080b2608a908fae3fa604ba5fe) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`19a6cd0`](https://github.com/stdlib-js/stdlib/commit/19a6cd075592113c1ac1c8fc6abfcda3ec1ee0b6) - **feat:** add `blas/ext/base/ndarray/dasumpw` [(#16217)](https://github.com/stdlib-js/stdlib/pull/16217) _(by MJ)_
 -   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - **feat:** add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231) _(by MJ)_
@@ -2361,7 +2362,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 27 people contributed to this release. Thank you to the following contributors:
+A total of 28 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Kumar
 -   Aman Singh
@@ -2376,6 +2377,7 @@ A total of 27 people contributed to this release. Thank you to the following con
 -   Karan Anand
 -   Kartik
 -   Kaustubh Patange
+-   KevinF718
 -   MJ
 -   Muhammad Haris
 -   Philipp Burckhardt
