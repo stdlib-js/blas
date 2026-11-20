@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-19)
+## Unreleased (2026-11-20)
 
 <section class="features">
 
 ### Features
 
+-   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231)
 -   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434)
 -   [`fd44b9a`](https://github.com/stdlib-js/stdlib/commit/fd44b9aaf00365a40949cafb10a132b4ce8c455e) - add `blas/ext/base/ndarray/capx` [(#16402)](https://github.com/stdlib-js/stdlib/pull/16402)
 -   [`c97ec72`](https://github.com/stdlib-js/stdlib/commit/c97ec72dfc91e303bf1c9951f4f405f22447fe9a) - add `blas/ext/base/grescale-unit-range` [(#16421)](https://github.com/stdlib-js/stdlib/pull/16421)
@@ -1107,6 +1108,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - **feat:** add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231) _(by MJ)_
 -   [`5506660`](https://github.com/stdlib-js/stdlib/commit/550666096f34c73f90f4bf86139935e4214fe421) - **docs:** update examples [(#16701)](https://github.com/stdlib-js/stdlib/pull/16701) _(by stdlib-bot)_
 -   [`ff3d79f`](https://github.com/stdlib-js/stdlib/commit/ff3d79fc28429aaf3495f9d2fd3ec6ca997a728d) - **docs:** update examples [(#16703)](https://github.com/stdlib-js/stdlib/pull/16703) _(by stdlib-bot)_
 -   [`a169991`](https://github.com/stdlib-js/stdlib/commit/a169991c1aa3cb5f1aabd346c3769fe0862eb8da) - **feat:** add `blas/ext/base/ndarray/dapxsumkbn` [(#16434)](https://github.com/stdlib-js/stdlib/pull/16434) _(by Atharva Patange)_
