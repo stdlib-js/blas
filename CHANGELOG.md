@@ -1109,6 +1109,7 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`c01649e`](https://github.com/stdlib-js/stdlib/commit/c01649eeba8d3f080b2608a908fae3fa604ba5fe) - **docs:** update Markdown equation elements _(by stdlib-bot)_
 -   [`19a6cd0`](https://github.com/stdlib-js/stdlib/commit/19a6cd075592113c1ac1c8fc6abfcda3ec1ee0b6) - **feat:** add `blas/ext/base/ndarray/dasumpw` [(#16217)](https://github.com/stdlib-js/stdlib/pull/16217) _(by MJ)_
 -   [`4255354`](https://github.com/stdlib-js/stdlib/commit/42553545771758506a5980f83c6a402ce3658576) - **feat:** add `blas/ext/base/ndarray/sasumpw` [(#16231)](https://github.com/stdlib-js/stdlib/pull/16231) _(by MJ)_
 -   [`5506660`](https://github.com/stdlib-js/stdlib/commit/550666096f34c73f90f4bf86139935e4214fe421) - **docs:** update examples [(#16701)](https://github.com/stdlib-js/stdlib/pull/16701) _(by stdlib-bot)_
