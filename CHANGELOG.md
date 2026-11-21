@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-20)
+## Unreleased (2026-11-21)
 
 <section class="features">
 
@@ -1109,6 +1109,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`f98891e`](https://github.com/stdlib-js/stdlib/commit/f98891eb50b5c920565d17bb691f4a0c554d35e0) - **docs:** update example [(#16739)](https://github.com/stdlib-js/stdlib/pull/16739) _(by stdlib-bot)_
+-   [`bf1a7b3`](https://github.com/stdlib-js/stdlib/commit/bf1a7b3cd0d887162c30c54fec2199760a06715f) - **docs:** update example [(#16740)](https://github.com/stdlib-js/stdlib/pull/16740) _(by stdlib-bot)_
 -   [`cfa305a`](https://github.com/stdlib-js/stdlib/commit/cfa305aa5f88243f59c57286bb6c28845b0355eb) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/caxpy` [(#16725)](https://github.com/stdlib-js/stdlib/pull/16725) _(by Devansh Patel)_
 -   [`bd7dc67`](https://github.com/stdlib-js/stdlib/commit/bd7dc671a7596140845385a9dae5d60084059d3e) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dcusumors` [(#16733)](https://github.com/stdlib-js/stdlib/pull/16733) _(by KevinF718)_
 -   [`c01649e`](https://github.com/stdlib-js/stdlib/commit/c01649eeba8d3f080b2608a908fae3fa604ba5fe) - **docs:** update Markdown equation elements _(by stdlib-bot)_
