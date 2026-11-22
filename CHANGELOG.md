@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-21)
+## Unreleased (2026-11-22)
 
 <section class="features">
 
@@ -1095,9 +1095,9 @@
 
 ### Closed Issues
 
-A total of 6 issues were closed in this release:
+A total of 7 issues were closed in this release:
 
-[#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13550](https://github.com/stdlib-js/stdlib/issues/13550), [#14246](https://github.com/stdlib-js/stdlib/issues/14246), [#15823](https://github.com/stdlib-js/stdlib/issues/15823)
+[#12305](https://github.com/stdlib-js/stdlib/issues/12305), [#12548](https://github.com/stdlib-js/stdlib/issues/12548), [#12722](https://github.com/stdlib-js/stdlib/issues/12722), [#13550](https://github.com/stdlib-js/stdlib/issues/13550), [#14246](https://github.com/stdlib-js/stdlib/issues/14246), [#15823](https://github.com/stdlib-js/stdlib/issues/15823), [#16737](https://github.com/stdlib-js/stdlib/issues/16737)
 
 </section>
 
@@ -1109,6 +1109,8 @@ A total of 6 issues were closed in this release:
 
 <details>
 
+-   [`aab3c9f`](https://github.com/stdlib-js/stdlib/commit/aab3c9f3270365ef2d295a28225a20c594c190b7) - **chore:** fix JavaScript lint errors [(#16742)](https://github.com/stdlib-js/stdlib/pull/16742) _(by Shresth Singh, Athan Reines)_
+-   [`f98891e`](https://github.com/stdlib-js/stdlib/commit/f98891eb50b5c920565d17bb691f4a0c554d35e0) - **docs:** update example [(#16739)](https://github.com/stdlib-js/stdlib/pull/16739) _(by stdlib-bot)_
 -   [`bf1a7b3`](https://github.com/stdlib-js/stdlib/commit/bf1a7b3cd0d887162c30c54fec2199760a06715f) - **docs:** update example [(#16740)](https://github.com/stdlib-js/stdlib/pull/16740) _(by stdlib-bot)_
 -   [`cfa305a`](https://github.com/stdlib-js/stdlib/commit/cfa305aa5f88243f59c57286bb6c28845b0355eb) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/caxpy` [(#16725)](https://github.com/stdlib-js/stdlib/pull/16725) _(by Devansh Patel)_
 -   [`bd7dc67`](https://github.com/stdlib-js/stdlib/commit/bd7dc671a7596140845385a9dae5d60084059d3e) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dcusumors` [(#16733)](https://github.com/stdlib-js/stdlib/pull/16733) _(by KevinF718)_
@@ -2364,7 +2366,7 @@ A total of 6 issues were closed in this release:
 
 ### Contributors
 
-A total of 29 people contributed to this release. Thank you to the following contributors:
+A total of 30 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Kumar
 -   Aman Singh
@@ -2388,6 +2390,7 @@ A total of 29 people contributed to this release. Thank you to the following con
 -   Rayan Salhab
 -   Sachin Pangal
 -   Samarth Kolarkar
+-   Shresth Singh
 -   Sutar Siddhram Kashinath
 -   Suyog
 -   Ujjwal Verma
