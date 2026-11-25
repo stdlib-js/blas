@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-23)
+## Unreleased (2026-11-25)
 
 <section class="features">
 
@@ -1109,6 +1109,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`c0a39d4`](https://github.com/stdlib-js/stdlib/commit/c0a39d4c6e248ebc4156bc35c1920d634fcfd89e) - **docs:** update example [(#16775)](https://github.com/stdlib-js/stdlib/pull/16775) _(by stdlib-bot)_
 -   [`b64fd0c`](https://github.com/stdlib-js/stdlib/commit/b64fd0cc2749bd6937d9ce55ec4555bad1d41e68) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/cscal` [(#16771)](https://github.com/stdlib-js/stdlib/pull/16771) _(by Aditya Kumar, Athan Reines)_
 -   [`aab3c9f`](https://github.com/stdlib-js/stdlib/commit/aab3c9f3270365ef2d295a28225a20c594c190b7) - **chore:** fix JavaScript lint errors [(#16742)](https://github.com/stdlib-js/stdlib/pull/16742) _(by Shresth Singh, Athan Reines)_
 -   [`f98891e`](https://github.com/stdlib-js/stdlib/commit/f98891eb50b5c920565d17bb691f4a0c554d35e0) - **docs:** update example [(#16739)](https://github.com/stdlib-js/stdlib/pull/16739) _(by stdlib-bot)_
