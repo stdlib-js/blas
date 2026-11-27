@@ -1109,6 +1109,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`4e1cf6d`](https://github.com/stdlib-js/stdlib/commit/4e1cf6df46416a1320baebdf7d8648cf93ae359e) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/dger` [(#16810)](https://github.com/stdlib-js/stdlib/pull/16810) _(by Aryan Sachin)_
 -   [`56687b1`](https://github.com/stdlib-js/stdlib/commit/56687b1e25b8d509d1c842aa825fbd2f8cff2f87) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/sger` [(#16848)](https://github.com/stdlib-js/stdlib/pull/16848) _(by Aryan Sachin)_
 -   [`c0a39d4`](https://github.com/stdlib-js/stdlib/commit/c0a39d4c6e248ebc4156bc35c1920d634fcfd89e) - **docs:** update example [(#16775)](https://github.com/stdlib-js/stdlib/pull/16775) _(by stdlib-bot)_
 -   [`b64fd0c`](https://github.com/stdlib-js/stdlib/commit/b64fd0cc2749bd6937d9ce55ec4555bad1d41e68) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/cscal` [(#16771)](https://github.com/stdlib-js/stdlib/pull/16771) _(by Aditya Kumar, Athan Reines)_
