@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-25)
+## Unreleased (2026-11-27)
 
 <section class="features">
 
@@ -1109,6 +1109,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`56687b1`](https://github.com/stdlib-js/stdlib/commit/56687b1e25b8d509d1c842aa825fbd2f8cff2f87) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/sger` [(#16848)](https://github.com/stdlib-js/stdlib/pull/16848) _(by Aryan Sachin)_
 -   [`c0a39d4`](https://github.com/stdlib-js/stdlib/commit/c0a39d4c6e248ebc4156bc35c1920d634fcfd89e) - **docs:** update example [(#16775)](https://github.com/stdlib-js/stdlib/pull/16775) _(by stdlib-bot)_
 -   [`b64fd0c`](https://github.com/stdlib-js/stdlib/commit/b64fd0cc2749bd6937d9ce55ec4555bad1d41e68) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/cscal` [(#16771)](https://github.com/stdlib-js/stdlib/pull/16771) _(by Aditya Kumar, Athan Reines)_
 -   [`aab3c9f`](https://github.com/stdlib-js/stdlib/commit/aab3c9f3270365ef2d295a28225a20c594c190b7) - **chore:** fix JavaScript lint errors [(#16742)](https://github.com/stdlib-js/stdlib/pull/16742) _(by Shresth Singh, Athan Reines)_
@@ -2368,11 +2369,12 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 30 people contributed to this release. Thank you to the following contributors:
+A total of 31 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Kumar
 -   Aman Singh
 -   Arjan-P
+-   Aryan Sachin
 -   Athan Reines
 -   Atharva Patange
 -   Deepanshu-Mehta
