@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-11-27)
+## Unreleased (2026-11-28)
 
 <section class="features">
 
@@ -1109,6 +1109,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`df9642b`](https://github.com/stdlib-js/stdlib/commit/df9642b7e8b43742d2ece29272581aae9750c931) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/zscal` [(#16782)](https://github.com/stdlib-js/stdlib/pull/16782) _(by Chirag Anand, Athan Reines)_
 -   [`548ec92`](https://github.com/stdlib-js/stdlib/commit/548ec92342c05eb797689c77df55600e3e80fbaa) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/sscal` [(#16792)](https://github.com/stdlib-js/stdlib/pull/16792) _(by Aryan Sachin)_
 -   [`c757280`](https://github.com/stdlib-js/stdlib/commit/c757280256e9678d2fe7577faa8fcdc7346e2d67) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/dscal` [(#16772)](https://github.com/stdlib-js/stdlib/pull/16772) _(by Aditya Kumar)_
 -   [`4ae55e3`](https://github.com/stdlib-js/stdlib/commit/4ae55e33168e9eabdfba391fd6e7126790a19c29) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/base/ndarray/csscal` [(#16805)](https://github.com/stdlib-js/stdlib/pull/16805) _(by Aryan Sachin)_
@@ -2373,7 +2374,7 @@ A total of 7 issues were closed in this release:
 
 ### Contributors
 
-A total of 31 people contributed to this release. Thank you to the following contributors:
+A total of 32 people contributed to this release. Thank you to the following contributors:
 
 -   Aditya Kumar
 -   Aman Singh
@@ -2381,6 +2382,7 @@ A total of 31 people contributed to this release. Thank you to the following con
 -   Aryan Sachin
 -   Athan Reines
 -   Atharva Patange
+-   Chirag Anand
 -   Deepanshu-Mehta
 -   Devansh Patel
 -   Divit Jain
