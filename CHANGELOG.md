@@ -1109,6 +1109,7 @@ A total of 7 issues were closed in this release:
 
 <details>
 
+-   [`bf437fe`](https://github.com/stdlib-js/stdlib/commit/bf437fee3a98dbf33ecf0b5f38c84f4978467adb) - **docs:** use dedicated zero-dimentional tensor constructor in `blas/base/ndarray/dgemm` [(#16793)](https://github.com/stdlib-js/stdlib/pull/16793) _(by Aditya Kumar)_
 -   [`2fed713`](https://github.com/stdlib-js/stdlib/commit/2fed713a78e525fc5af8c335a93a63e52860ad60) - **docs:** update related packages sections [(#16912)](https://github.com/stdlib-js/stdlib/pull/16912) _(by stdlib-bot)_
 -   [`015cff0`](https://github.com/stdlib-js/stdlib/commit/015cff0282ee088335da3f72468a7898f7266a0a) - **docs:** update examples [(#16914)](https://github.com/stdlib-js/stdlib/pull/16914) _(by stdlib-bot)_
 -   [`1d5312c`](https://github.com/stdlib-js/stdlib/commit/1d5312c48b53915948077e42122b82eb872ccf9d) - **docs:** use dedicated zero-dimensional tensor constructor in `blas/ext/base/ndarray/dcusumkbn` [(#16776)](https://github.com/stdlib-js/stdlib/pull/16776) _(by Chirag Anand)_
